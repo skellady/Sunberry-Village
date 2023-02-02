@@ -1,0 +1,2577 @@
+{
+	//Display Names
+    //-------------
+    "Name.Aicha": "Aicha",
+    "Name.Amina": "Amina",
+    "Name.Blake": "Blake",
+    "Name.Diala": "Diala",
+    "Name.Derya": "Derya",
+    "Name.Elias": "Elias",
+    "Name.Ezra": "Ezra",
+    "Name.Iman": "Iman",
+    "Name.Jumana": "Jumana",
+    "Name.Lyenne": "Lyenne",
+    "Name.Maia": "Maia",
+    "Name.Miyoung": "Miyoung",
+    "Name.Moon": "Moon",
+    "Name.Ophelia": "Ophelia",
+    "Name.Reihana": "Reihana",
+    "Name.Silas": "Silas",
+
+    //NPC Relationships
+    //-----------------
+    "NPC_Relationships.Amina": "Maia 'mom' Jumana 'grandma'",
+    "NPC_Relationships.Jumana": "Maia 'daughter' Amina 'granddaughter'",
+    "NPC_Relationships.Maia": "Jumana 'mother' Amina 'daughter'",
+
+    "NPC_Relationships.Blake": "Elias 'dad'",
+    "NPC_Relationships.Elias": "Blake 'son'",
+
+    "NPC_Relationships.Miyoung": "Silas 'husband'",
+    "NPC_Relationships.Silas": "Miyoung 'wife'",
+
+    //Locations for Event Lookup
+    //-------------------------
+    "Sunberry.Locations.DNDCafe": "D&D's Cat Cafe",
+    "Sunberry.Locations.DNDHouse": "D&D's House",
+    "Sunberry.Locations.ReiHouse": "Reihana's House",
+    "Sunberry.Locations.SunberryVillage": "Sunberry Village",
+    "Sunberry.Locations.SunberryMountain": "Sunberry Mountain",
+    "Sunberry.Locations.SunberryForest": "Sunberry Forest",
+    "Sunberry.Locations.SunberryRoad": "Sunberry Road",
+    "Sunberry.Locations.SunberryLibrary": "Sunberry Library",
+    "Sunberry.Locations.SerenityInn": "Serenity Inn",
+    "Sunberry.Locations.SerenityInn2ndFloor": "Serenity Inn 2nd Floor",
+    "Sunberry.Locations.SerenityInn3rdFloor": "Serenity Inn 3rd Floor",
+    "Sunberry.Locations.OpheliaHouse": "Ophelia's House",
+    "Sunberry.Locations.MiyoungHouse": "Miyoung and Silas' House",
+    "Sunberry.Locations.AriMarket": "Ari's Market",
+    "Sunberry.Locations.EliasHouse": "Elias' House",
+    "Sunberry.Locations.EzraClothes": "Ezra's Clothing Shop",
+    "Sunberry.Locations.EzraHouse": "Ezra's House",
+    "Sunberry.Locations.MaiaHouse": "Jumana's Flower Shop",
+    "Sunberry.Locations.SilasBlacksmith": "Silas' Blacksmith",
+    "Sunberry.Locations.ImanHouse": "Iman's House",
+
+    //Generic Gift Taste Dialogue
+	//-------------------
+	//Love
+    "Gift.Love.Aicha": "Aw, this is so cool! Thank you!",
+    "Gift.Love.Amina": "*gasp*...I love this! Thank you!",
+    "Gift.Love.Blake": "For me? Thanks!",
+	"Gift.Love.Diala": "Oh, this is wonderful! Thank you, @!",
+	"Gift.Love.Derya": "For me? Thank you, I love it!",
+    "Gift.Love.Elias": "Huh. This is really nice. Thanks.",
+    "Gift.Love.Ezra": "Aw, thanks! I love it.",
+    "Gift.Love.Iman": "Ooh, I love this. Thank you!",
+    "Gift.Love.Jumana": "Oh, how sweet of you. Thank you, dear!",
+    "Gift.Love.Lyenne": "Oh, wow! Thanks!",
+    "Gift.Love.Maia": "Thank you, I love it!",
+    "Gift.Love.Miyoung": "Oh, for me? Thank you sweetheart, I love it.",
+    "Gift.Love.Moon": "For Moon? Thank you, I love it!",
+    "Gift.Love.Ophelia": "Thanks, I love it!",
+    "Gift.Love.Reihana": "This is a... surprisingly good gift. Thanks.",
+    "Gift.Love.Silas": "Wow, thank you! I love it.",
+	//Like
+    "Gift.Like.Aicha": "This is nice. Thank you!",
+    "Gift.Like.Amina": "I like this a lot. Thank you!",
+    "Gift.Like.Blake": "Nice, thanks, @!",
+	"Gift.Like.Diala": "Aw, this is a nice gift. Thank you!",
+	"Gift.Like.Derya": "I appreciate it, thank you, @!",
+    "Gift.Like.Elias": "I like this. Thank you for thinking of me.",
+    "Gift.Like.Ezra": "Thanks! This is cool.",
+    "Gift.Like.Iman": "Oh, thanks! This is neat.",
+    "Gift.Like.Jumana": "Thank you, sweetie. This is nice.",
+    "Gift.Like.Lyenne": "Placeholder.",
+    "Gift.Like.Maia": "This is cool, thank you!",
+    "Gift.Like.Miyoung": "Aw, thank you dear.",
+    "Gift.Like.Moon": "Moon appreciates @, thank you!",
+    "Gift.Like.Ophelia": "Thanks, this is nice.",
+    "Gift.Like.Reihana": "Huh, this is nice. Thanks.",
+    "Gift.Like.Silas": "This is a nice gift. Thank you!.",
+	//Dislike
+    "Gift.Dislike.Aicha": "...Why would you give this to me?",
+    "Gift.Dislike.Amina": "I'm sorry, I don't like this very much.",
+    "Gift.Dislike.Blake": "Oh... that's a little disappointing.",
+	"Gift.Dislike.Diala": "Uh...thanks, I guess?",
+	"Gift.Dislike.Derya": "What's this? I'm... not sure I like it very much.",
+    "Gift.Dislike.Elias": "...Seriously?",
+    "Gift.Dislike.Ezra": "Uhh... I guess I'll take it.",
+    "Gift.Dislike.Iman": "...Okay, but why?",
+    "Gift.Dislike.Jumana": "Oh dear, what is this?",
+    "Gift.Dislike.Lyenne": "I'm... not sure why you'd give this to me.",
+    "Gift.Dislike.Maia": "Ah... I'm sorry, this isn't necessarily something I enjoy.",
+    "Gift.Dislike.Miyoung": "Oh, @. This is not a good gift, dear.",
+    "Gift.Dislike.Moon": "Moon does not like this very much.",
+    "Gift.Dislike.Ophelia": "...This is disappointing.",
+    "Gift.Dislike.Reihana": "...Okay, then.",
+    "Gift.Dislike.Silas": "Hmph. Why would you give this to me?",
+	//Hate
+    "Gift.Hate.Aicha": "...I'm speechless.",
+    "Gift.Hate.Amina": "...Did I make you mad?",
+    "Gift.Hate.Blake": "Ugh, seriously?",
+	"Gift.Hate.Diala": "@? I don't think you should be going around giving this to people.",
+	"Gift.Hate.Derya": "I don't think even the cats at the cafe would like this, @.",
+    "Gift.Hate.Elias": "Ugh, if you're seriously giving this you might as well stay very far away from me.",
+    "Gift.Hate.Ezra": "...Come on. Really?",
+    "Gift.Hate.Iman": "Ugh, where's the nearest trashcan?",
+    "Gift.Hate.Jumana": "...Sweetheart, did I wrong you somehow?",
+    "Gift.Hate.Lyenne": "Uh. Ew.",
+    "Gift.Hate.Maia": "I... just can't believe you'd give me something like this.",
+    "Gift.Hate.Miyoung": "Oh, this just makes me sad.",
+    "Gift.Hate.Moon": "@... Moon hates this.",
+    "Gift.Hate.Ophelia": "Hm. I'm not sure why you thought I'd like this. Get it out of my face, please.",
+    "Gift.Hate.Reihana": "...Have you by any chance seen all the weapons I have in my house, @?",
+    "Gift.Hate.Silas": "Really, @? I hate this.",
+	//Neutral
+    "Gift.Neutral.Aicha": "Huh. Nice, I guess.",
+    "Gift.Neutral.Amina": "...Thank you.",
+    "Gift.Neutral.Blake": "Cool. I have no opinion on this whatsoever.",
+	"Gift.Neutral.Diala": "Hopefully Derya won't notice if I put this in her room.",
+	"Gift.Neutral.Derya": "Uh, thanks.", 
+    "Gift.Neutral.Elias": "...Alright, thank you.",
+    "Gift.Neutral.Ezra": "Interesting... gift. Thanks.",
+    "Gift.Neutral.Iman": "I'm... not sure how I feel about this.",
+    "Gift.Neutral.Jumana": "I guess I'll find a use for this, somehow.",
+    "Gift.Neutral.Lyenne": "Huh. A gift? Thanks.",
+    "Gift.Neutral.Maia": "Uh. Thank you.",
+    "Gift.Neutral.Miyoung": "Thank you, dear.",
+    "Gift.Neutral.Moon": "Um... thank you?",
+    "Gift.Neutral.Ophelia": "Hm. I'm not sure this is useful to me.",
+    "Gift.Neutral.Reihana": "Thanks, I guess.",
+    "Gift.Neutral.Silas": "Huh, thank you, I guess.",
+
+    //CGD Gift Dialogue
+    //-----------------
+
+    //D   I   A   L   A
+
+    //Birthday
+    "Birthday.Gems.Diala": "Aw, @! This is honestly one of my favorite things to get as a gift.$h#$b#Thank you for feeding my addiction by giving me more of them.$u",
+    "Birthday.Cookie.Diala": "Ooh! Thank you, these look and smell delicious.$4#$b#You can never go wrong with homemade baked treats as a birthday gift!$u",
+    "Birthday.FairyRose.Diala": "OH!$7#$b#...@, these are my favorite! Thank you so much.$4",
+    "Birthday.FriedEgg.Diala": "Mmm, a homemade meal is definitely the way to my heart.$u#$b#Thank you, @!$h",
+    "Birthday.IceCream.Diala": "Oh my God, ice cream on my birthday? You're the best!$u#$b#Thanks, @!$h",
+    "Birthday.MakiRoll.Diala": "Aw, @! This is one of my absolute favorite dishes. I gotta make sure Derya doesn't see it.$u#$b#Thank you!$h",
+    "Birthday.Pancakes.Diala": "Oh, these look delicious. I can't wait to dig in.$u#$b#Thanks, @!$h",
+    "Birthday.PepperPoppers.Diala": "I told myself I'd cut down on spicy food for a while but I just can't resist.$u#$b#Thank you, @. I can't wait to eat this.$h",
+    "Birthday.Quartz.Diala": "Oh? For my birthday?$7#$b#It's beautiful! Thank you so much, @.$4",
+    "Birthday.Sashimi.Diala": "Aw, @! This is one of my absolute favorite dishes. I gotta make sure Derya doesn't see it.$u#$b#Thank you!$h",
+    "Birthday.Spaghetti.Diala": "Spaghetti on my birthday? You're an angel, @!$u#$b#Thank you.$h",
+    "Birthday.StarShards.Diala": "Oh? For my birthday?$7#$b#It's beautiful! Thank you so much, @.$4",
+    "Birthday.Sunflower.Diala": "OH!$7#$b#...@, these are my favorite!$4#$b#They're beautiful, thank you.$h",
+
+
+    //Love
+    "Gems.Diala": "Oh! @, this is beautiful!$h#$b#It's going straight to my collection, thank you.$u",
+    "BoneFragment.Diala": "Ooh, bones! I think these would look great on my altar. Thanks, @!$h",
+    "ChickenStatue.Diala": "This is such a cute statue!$u#$b#I'm gonna display it for everyone to see. Thank you, @!$h",
+    "Cookie.Diala": "OH! This is delicious!$h#$b#My, I have to admit these are almost better than the ones I make.#u",
+    "Corn.Diala": "You got me corn!$u#$b#You know, at some point, Derya and I spent a whole week eating nothing but corn.$9#$b#Thank you, @!",
+    "FairyRose.Diala": "Oh! Flowers!$4#$b#I get so giddy whenever someone gets me flowers. Thank you, @.$4",
+    "FriedEgg.Diala": "Ooh, this is delicious! Thanks, @!$u",
+    "GreenBean.Diala": "@, you better be stocking up on green beans because these are amazing.$u#$b#Thank you!$h",
+    "HotPepper.Diala": "Oh, heck yeah!$u#$b#I can't wait to use these when I cook, thank you!$h",
+    "IceCream.Diala": "Oh, sweet, sweet ice cream.$u#$b#You even got me my favorite flavor, thank you!$4",
+    "Juice.Diala": "This is delicious, thank you, @!$u",
+    "Leek.Diala": "OH! Thank you, @. I can't wait to use these when I cook.$u",
+    "MakiRoll.Diala": "Oh my-- For me?$u#$b#I love this, thanks!$h",
+    "Omelet.Diala": "Mhmm, this is delicious! Thanks, @!$u",
+    "Pancakes.Diala": "I think I could have pancakes everyday for the rest of my life and wouldn't mind it.$u#$b#Thanks, @.",
+    "PepperPoppers.Diala": "God, I absolutely love spicy food. Thank you, @!$u",
+    "Pizza.Diala": "I was craving pizza all day, thank you!$u",
+    "Quartz.Diala": "This is beautiful! Did you know you can use Quartz to ward off negative energy?$h",
+    "Sashimi.Diala": "Oh my-- For me?$u#$b#I love this, thanks!$h",
+    "Spaghetti.Diala": "I gotta tell you, spaghetti might be my favorite dish. Always has been, always will be.$u",
+    "StarShards.Diala": "OH! These are gorgeous. I can't wait to put them on my altar, thanks!$u",
+    "Strawberry.Diala": "Strawberries are one of my favorite fruits.$u#$b#Derya and I always fight over the last piece.$u",
+    "Sunflower.Diala": "@...$4#$b#These are my favorite flowers, thank you. I appreciate it.$u",
+
+    //Like
+    "Cauliflower.Diala": "Oh! I was just thinking about making some fried cauliflower. Thank you, @!$u",
+    "ChocolateCake.Diala": "This is delicious! Thank you, @!$u",
+    "Coconut.Diala": "Thanks, @! I wish I was able to eat coconuts more often.$u",
+    "Dandelion.Diala": "This is nice! Thank you, @.$u",
+    "PoppyseedMuffin.Diala": "Ooh, muffin! Thank you, it's delicious.$h",
+    "SummerSpangle.Diala": "This is so pretty.$4#$b#Thanks, @!$h",
+    "SweetPea.Diala": "Ooh, this is nice! Thanks!$h",
+
+    //Neutral
+    "Fish.Diala": "Uh... I think I'll give this to the cats as a treat. Thanks.",
+
+    //Dislike
+    "Banana.Diala": "Bananas make me nauseous. I appreciate the sentiment, though.",
+    "CaveCarrot.Diala": "Sorry, @. I really don't like this.$7",
+    "JojaCola.Diala": "Ah... I guess I'll give this to Derya. She loves this stuff.$u",
+    "Orange.Diala": "I'm not a big fan of oranges.$s",
+
+    //Hate
+    "Artichoke.Diala": "...$7#$b#Please, don't.$7",
+    "Beer.Diala": "Uh... I don't drink, @.$s",
+    "Mead.Diala": "Uh... I don't drink, @.$s",
+    "PaleAle.Diala": "Uh... I don't drink, @.$s",
+    "Wine.Diala": "Uh... I don't drink, @.$s",
+
+    //JA Items
+
+    //Airyn's Flower Crowns
+    "Aurorean.Crown.Diala": "Oh! Is that an Aurorean Iris flower crown? It's gorgeous! Thank you.$u",
+    "Azure.Crown.Diala": "Oh my, this is gorgeous! How do I look?$u",
+    "Borage.Crown.Diala": "Ooh! This is pretty. Thank you, @!$h",
+    "Flame.Crown.Diala": "Ooh! This is pretty. Thank you, @!$h",
+    "ForgetMeNot.Crown.Diala": "Forget-me-nots are such beautiful flowers. Thank you, @!$h",
+    "Jazz.Crown.Diala": "Ooh! This is beautiful, thank you!$u",
+    "Lavender.Crown.Diala": "Ooh, I love this flower crown. Thank you!$u",
+    "Chanterelle.Crown.Diala": "Heh, this is cute. Thank you.$h",
+    "CommonMushroom.Crown.Diala": "Heh, this is cute. Thank you.$h",
+    "Crocus.Crown.Diala": "Oh my, this is gorgeous! How do I look?$u",
+    "Daffodil.Crown.Diala": "God, I love how bright and vibrant the color on these flowers is.$u",
+    "Dandelion.Crown.Diala": "God, I love how bright and vibrant the color on these flowers is.$u",
+    "FairyRose.Crown.Diala": "Aw, @! Fairy Roses are one of my favorite flowers. Thank you so much.$4",
+    "Fiber.Crown.Diala": "Huh, this is cool, I guess.$h",
+    "Amancay.Crown.Diala": "God, I love how bright and vibrant the color on these flowers is.$u",
+    "Foxbloom.Crown.Diala": "Oh! Is this... a Foxbloom flower crown?$7#$b#I thought these were incredibly rare to come across! It's beautiful, thank you!$4",
+    "Snowdrop.Crown.Diala": "Oh my, this is gorgeous! How do I look?$u",
+    "SpringBells.Crown.Diala": "Aw, this is such a beautiful flower crown. Thanks!$u",
+    "Calendula.Crown.Diala": "Oh! This is so beautiful, thank you!$h",
+    "Butterwort.Crown.Diala": "Oh my, this is gorgeous! How do I look?$u",
+    "Holly.Crown.Diala": "Oh... aren't these poisonous, @?$9",
+    "LavaLily.Crown.Diala": "Having Lava Lilies in the form of a flower crown makes me all giddy inside, thank you!$u",
+    "LilacPansy.Crown.Diala": "Aw, this is such a beautiful flower crown. Thanks!$u",
+    "Clover.Crown.Diala": "Having Lucky Clovers in the form of a flower crown makes me all giddy inside, thank you!$u",
+    "Mistbloom.Crown.Diala": "Ah! A Mistbloom flower crown! It's gorgeous, thank you.$u",
+    "Mistletoe.Crown.Diala": "Oh! Is that a mistletoe flower crown? It's gorgeous! Thank you.$u",
+    "Monkshood.Crown.Diala": "Aw, this is such a beautiful flower crown. Thanks!$u",
+    "Morel.Crown.Diala": "Ooh! Mushroom flower crown!$u#$b#Thanks, @!$h",
+    "Hokkaido.Crown.Diala": "Oh my! Is this a Mountain Hokkaido flower crown? It's gorgeous!$u",
+    "Clematis.Crown.Diala": "Ah! I love flower crowns! Does it look good?$u",
+    "Hollyhock.Crown.Diala": "Ah! I love flower crowns! Does it look good?$u",
+    "Poppy.Crown.Diala": "Ah! I love flower crowns! Does it look good?$u",
+    "PurpleFlame.Crown.Diala": "Oh! This is so beautiful, thank you!$h",
+    "Iris.Crown.Diala": "Ooh! This is pretty. Thank you, @!$h",
+    "PurpleMushroom.Crown.Diala": "Woah, look at the color on that! Thanks, @!$h",
+    "PurplePansy.Crown.Diala": "Oh! This is so beautiful, thank you!$h",
+    "RedMushroom.Crown.Diala": "Oh... aren't these poisonous, @?$9",
+    "Azorean.Crown.Diala": "Oh! Is this a Ridge Azorean flower crown? It's one of my favorite flowers!$u",
+    "Wintergreen.Crown.Diala": "Ooh! This is pretty. Thank you, @!$h",
+    "SpanishMoss.Crown.Diala": "Ooh! This is pretty. Thank you, @!$h",
+    "Foxglove.Crown.Diala": "Oh my, this is gorgeous! How do I look?$u",
+    "SummerSpangle.Crown.Diala": "Aw, this is gorgeous! Thanks, @!$u",
+    "Snowbell.Crown.Diala": "Aw, this is such a beautiful flower crown. Thanks!$u",
+    "Sunflower.Crown.Diala": "Aw, @! Sunflowers are one of my favorite flowers. Thank you so much.$4",
+    "SweetPea.Crown.Diala": "Ooh! This is pretty. Thank you, @!$h",
+    "Mallow.Crown.Diala": "Oh my, this is gorgeous! How do I look?$u",
+    "Tulip.Crown.Diala": "Oh my, this is gorgeous! How do I look?$u",
+    "Orchid.Crown.Diala": "Aw, this is such a beautiful flower crown. Thanks!$u",
+    "DevilClaw.Crown.Diala": "Ooh! This is beautiful, thank you!$u",
+    "BlueIris.Crown.Diala": "Ooh! This is pretty. Thank you, @!$h",
+
+    //D   E   R   Y   A
+
+    //Birthday
+    "Birthday.ChocolateCake.Derya": "@, I would give you the biggest hug if I wasn't holding this beautiful, beautiful cake in my hands.$9#$b#Thank you, I love it!$u",
+    "Birthday.Coffee.Derya": "Feeding my caffeine addiction on my birthday will definitely get you on my good side.$9#$b#Thanks, farmer!$u",
+    "Birthday.Cookie.Derya": "Ooh! Cookies!$u#$b#Ugh, you know me too well, farmer.$u#$b#Thank you, I'll savor and cherish these.$h",
+    "Birthday.IceCream.Derya": "Oh, you're my absolute favorite person on Earth right now.$u#$b#Thank you, I love this.$h",
+    "Birthday.MakiRoll.Derya": "Okay, farmer. Let me make this clear. If you keep getting me maki rolls, I'm gonna send you some cute cat pictures.$u#$b#Sounds like a good deal to me.$9",
+    "Birthday.Pancakes.Derya": "Oh, man. These look so good.$u#$b#If you see me wolf them down on the spot, no you don't.$9#$b#Thanks, @.$h",
+    "Birthday.PepperPoppers.Derya": "Getting me spicy food on my birthday is the best you could've done.$u#$b#I love this, thank you!$h",
+    "Birthday.Sashimi.Derya": "Okay, farmer. Let me make this clear. If you keep getting me sashimi, I'm gonna send you some cute cat pictures.$u#$b#Sounds like a good deal to me.$9",
+    "Birthday.TripleShotEspresso.Derya": "Feeding my caffeine addiction on my birthday will definitely get you on my good side.$9#$b#Thanks, farmer!$u",
+
+    //Love
+    "ChocolateCake.Derya": "OOH! Chocolate!$h#$b#@, you're officially the coolest person I know. Thanks!$u",
+    "Coffee.Derya": "Sweet, sweet caffeine!$6#$b#Thank you, @!$h",
+    "Cookie.Derya": "You know the way to my heart, huh?$u#$b#Thanks, @.$h",
+    "Corn.Derya": "God, I love corn. No matter how you cook it, it's always delicious.$u",
+    "FriedEgg.Derya": "Ooh! Thanks, @!$u#$b#You know, all I ate in college was this one spicy brand of instant noodles with a fried egg on top. Never got tired of it.$u",
+    "GreenBean.Derya": "You grew these? They look so... fresh?$8#$b#Help, farmer, is that the word I'm supposed to use here?$9#$b#Thank you, though. I love this.$u",
+    "HotPepper.Derya": "Pepper!$u#$b#Thank you, I'll use them in all my dishes.$u",
+    "IceCream.Derya": "OH! Please tell me this is strawberry flavor.$h#$b#Thanks, @!$u",
+    "JojaCola.Derya": "Oh, you wonderful being.$u#$b#Don't tell Diala you got me this.$u",
+    "Juice.Derya": "Oh, this is delicious! Thanks, angel.$u",
+    "MakiRoll.Derya": "Man, I definitely wouldn't mind having this every day.$u",
+    "Omelet.Derya": "This is probably one of the best omelets I've had.$u#$b#Thanks, @.$h",
+    "Pancakes.Derya": "So, have we already established that I have a sweet tooth and you're using it to your advantage?$9#$b#Thank you!$u",
+    "PepperPoppers.Derya": "Dear God, I'm so incredibly weak for spicy food.$u#$b#Thank you, @!$h",
+    "Pizza.Derya": "Okay, now this is some good pizza.$u#$b#I love it.$h",
+    "Salad.Derya": "...Okay, so, as much as I love and enjoy all the unhealthy food I eat, I can still enjoy a good salad.$u#$b#Thank you, angel.$h",
+    "Sashimi.Derya": "Mhmm, this is so damn good. Thank you!$u",
+    "Strawberry.Derya": "Ooh, give me!$u#$b#I love strawberries. Thanks, @!$h",
+    "TripleShotEspresso.Derya": "You're an angel, you know that?$u#$b#I haven't had any coffee yet. Thanks!$h",
+
+    //Like
+    "Cauliflower.Derya": "Oh! I was just thinking about grabbing some cauliflower. Thanks, farmer!$u",
+    "Cheese.Derya": "I absolutely adore cheese. I CAN and WILL add it to all my dishes.$6",
+    "Dandelion.Derya": "Ooh, I really like this. Thanks, angel!$u",
+    "GoatCheese.Derya": "I absolutely adore cheese. I CAN and WILL add it to all my dishes.$6",
+    "SweetPea.Derya": "Pretty! Thank you.$u",
+
+    //Neutral
+    "Gems.Derya": "Oh! Shiny.$u#$b#I might just add this to Diala's collection.",
+    "Wine.Derya": "Huh. Thanks, @.",
+
+    //Dislike
+    "AncientDoll.Derya": "My God, this is the creepiest thing I've ever seen.$7#$b#Get it away from me before I 'accidentally' set it on fire.$7",
+    "Beer.Derya": "Ah, I don't like beer. I appreciate the sentiment, though.",
+    "Mead.Derya": "Ah, I don't like mead. I appreciate the sentiment, though.",
+    "PaleAle.Derya": "Ah, I don't like pale ale. I appreciate the sentiment, though.",
+
+    //Hate
+    "BatWing.Derya": "...$7#$b#@, what is wrong with you?$a",
+    "Slime.Derya": "Ugh...$7#$b#I think this might be the grossest thing I've ever touched.$8",
+
+    //JA Items
+
+    //Airyn's Flower Crowns
+    "Aurorean.Crown.Derya": "Okay, don't laugh, but I have no idea what kind of flower this is.$10#$b#Still very pretty though, thank you!$h",
+    "Azure.Crown.Derya": "Man, I think I'm rocking this flower crown.$u",
+    "Borage.Crown.Derya": "Ooh, for me? It's beautiful, thank you!$u",
+    "Flame.Crown.Derya": "Blue Flame? That's one cool name for a flower.$u#$b#Thanks, @!$h",
+    "ForgetMeNot.Crown.Derya": "Do I look like someone who likes getting flowers or flower crowns to you, @?$8#$b#...I do, actually. Thank you.$u",
+    "Jazz.Crown.Derya": "Ooh, pretty! Thank you!$h",
+    "Lavender.Crown.Derya": "I may or may not be allergic to lavender, but I'll wear this for a whole minute to make you happy, @.$9",
+    "Chanterelle.Crown.Derya": "Oh, man. Is that a mushroom flower crown?$u#$b#That's pretty cool, thank you.$h",
+    "CommonMushroom.Crown.Derya": "Oh, man. Is that a mushroom flower crown?$u#$b#That's pretty cool, thank you.$h",
+    "Crocus.Crown.Derya": "Ooh, I'm rocking this crown. What do you think, @?$h",
+    "Daffodil.Crown.Derya": "Ooh, for me? It's beautiful. Thank you, angel.$u",
+    "Dandelion.Crown.Derya": "Ooh, for me? It's beautiful. Thank you, angel.$u",
+    "FairyRose.Crown.Derya": "This is gorgeous!$u#$b#Did you know fairy roses are one of Diala's favorites? She lights up whenever I get her some.$h",
+    "Fiber.Crown.Derya": "...Fiber? Really, @?$8",
+    "Amancay.Crown.Derya": "Oh, man. For me? You really didn't have to, @.$u#$b#Thank you.$h",
+    "Foxbloom.Crown.Derya": "Foxbloom? I feel like I've heard about this before. Probably from Diala.$u#$b#Thanks, @.$h",
+    "Snowdrop.Crown.Derya": "Man, I think I'm rocking this flower crown.$u",
+    "SpringBells.Crown.Derya": "Ooh, I'm rocking this crown. What do you think, @?$h",
+    "Calendula.Crown.Derya": "Okay, don't laugh, but I have no idea what kind of flower this is.$10#$b#Still very pretty though, thank you!$h",
+    "Butterwort.Crown.Derya": "Okay, don't laugh, but I have no idea what kind of flower this is.$10#$b#Still very pretty though, thank you!$h",
+    "Holly.Crown.Derya": "...@, be honest with me. Are you trying to poison me?$8#$b#I mean, I applaud the effort, go off. But also, please don't.$u",
+    "LavaLily.Crown.Derya": "Oh, damn. These are so pretty. Lava Lilies, huh?$h#$b#Thanks, @!",
+    "LilacPansy.Crown.Derya": "Ooh, I'm rocking this crown. What do you think, @?$h",
+    "Clover.Crown.Derya": "Feelin' lucky already, thank you.$u",
+    "Mistbloom.Crown.Derya": "I'm very intrigued by the color on these flowers.$h#$b#%Derya keeps looking up to see the crown.",
+    "Mistletoe.Crown.Derya": "Aw, farmer, are you trying to tell me something?$9#$b$I'm just messing with you, this is pretty. Thank you.$u",
+    "Monkshood.Crown.Derya": "Ooh, for me? It's beautiful. Thank you, @.$u",
+    "Morel.Crown.Derya": "Oh, this is so cute! Thank you!$u",
+    "Hokkaido.Crown.Derya": "Man, I think I'm rocking this flower crown.$u",
+    "Clematis.Crown.Derya": "Man, I think I'm rocking this flower crown.$u",
+    "Hollyhock.Crown.Derya": "Ooh, for me? It's beautiful. Thank you, @.$u",
+    "Poppy.Crown.Derya": "Poppies! It's beautiful, thank you!$h",
+    "PurpleFlame.Crown.Derya": "Do I look like someone who likes getting flowers or flower crowns to you, @?$8#$b#...I do, actually. Thank you.$u",
+    "Iris.Crown.Derya": "Ooh, pretty! Thank you!$h",
+    "PurpleMushroom.Crown.Derya": "Oh, this is so cool! Thank you!$u",
+    "PurplePansy.Crown.Derya": "Ooh, pretty! Thank you!$h",
+    "RedMushroom.Crown.Derya": "...@, be honest with me. Are you trying to poison me?$8#$b#I mean, I applaud the effort, go off. But also, please don't.$u",
+    "Azorean.Crown.Derya": "Ooh, for me? It's beautiful. Thank you, @.$u",
+    "Wintergreen.Crown.Derya": "Ooh, for me? It's beautiful. Thank you, @.$u",
+    "SpanishMoss.Crown.Derya": "Ooh, pretty! Thank you!$h",
+    "Foxglove.Crown.Derya": "Ooh, for me? It's beautiful. Thank you, @.$u",
+    "SummerSpangle.Crown.Derya": "Ah, these are gorgeous. Thank you, angel.$h",
+    "Snowbell.Crown.Derya": "Ah, these are gorgeous. Thank you, angel.$h",
+    "Sunflower.Crown.Derya": "Do I look like someone who likes getting flowers or flower crowns to you, @?$8#$b#...I do, actually. Thank you.$u",
+    "SweetPea.Crown.Derya": "Do I look like someone who likes getting flowers or flower crowns to you, @?$8#$b#...I do, actually. Thank you.$u",
+    "Mallow.Crown.Derya": "Ooh, for me? It's beautiful. Thank you, @.$u",
+    "Tulip.Crown.Derya": "Ooh, I'm rocking this crown. What do you think, @?$h",
+    "Orchid.Crown.Derya": "Okay, don't laugh, but I have no idea what kind of flower this is.$10#$b#Still very pretty though, thank you!$h",
+    "DevilClaw.Crown.Derya": "You're really gonna stand there and tell me this flower is called 'Violet Devil Claw'?$9#$b#That's awesome.$h",
+    "BlueIris.Crown.Derya": "Ooh, I'm rocking this crown. What do you think, @?$h",
+
+    //M   O   O   N
+
+    //Birthday
+    "Birthday.Gems.Moon": "Is this for Moon's birthday?$u#$b#Wow, thank you, @!$4",
+    "Birthday.Coconut.Moon": "Moon loves this!$7#$b#Thank you so much, friend!$6",
+    "Birthday.Pancakes.Moon": "You made pancakes for Moon?$u#$b#Moon loves it, thank you!$h",
+    "Birthday.Pizza.Moon": "...!$u#$b#Moon loves pizza! This is the best birthday ever!$h",
+    "Birthday.PoppyseedMuffin.Moon": "...!$u#$b#Moon loves muffins! This is the best birthday ever!$h",
+    "Birthday.Strawberry.Moon": "%Moon eats the strawberry in one bite.#$b#Thank you, friend!$h",
+
+    //Love
+    "Gems.Moon": "For Moon? Really?$u#$b#Thank you, @! Moon takes good care of this.$h",
+    "Coconut.Moon": "%Moon tries shoving the entire coconut into her mouth.#$b#Moon loves coconut. Thanks!$h",
+    "FriedCalamari.Moon": "Moon loves fried food.$h#$b#Fried food makes crunchy sound.$u",
+    "FriedEgg.Moon": "%Moon slurps in the entire egg.#$b#Mhmm, delicious.$h",
+    "Pancakes.Moon": "Ooh, pancakes!$u#$b#You're the best!$h",
+    "Pizza.Moon": "...$u#$b#You got pizza for Moon!$u#$b#%Moon holds a slice of pizza and hops around.",
+    "PoppyseedMuffin.Moon": "%You hand Moon the muffin and look away for a second.#$b#%The muffin has disappeared.#$b#...Delicious.$h",
+    "SolarEssence.Moon": "Woah, pretty!$u#$b#Moon loves pretty things.$h",
+    "Strawberry.Moon": "OH! Moon looooves strawberries. Thank you, friend.$h",
+    "VoidEssence.Moon": "Woah, pretty and spooky!$u#$b#Moon loves pretty and spooky things.$h",
+
+    //Like
+    "ChocolateCake.Moon": "Choco! Choco! Choco Cake!$u#$b#Thank you, @!",
+    "Corn.Moon": "Moon grills corn on fire!$u#$b#Friend wants grilled corn, too?$h",
+    "EarthCrystal.Moon": "Pretty crystal!$u#$b#Moon uses crystal to meditate.$h",
+    "FrozenTear.Moon": "Pretty crystal!$u#$b#Moon uses crystal to meditate.$h",
+
+    //Neutral
+    "Fish.Moon": "Hmm... Moon doesn't know how to feel about this. Will consult feelings and lets you know.",
+
+    //Dislike
+    "PepperPoppers.Moon": "...$s#$b#Moon can't eat spicy food.$s",
+    "HotPepper.Moon": "...$s#$b#Moon can't eat spicy food.$s",
+
+    //Hate
+    "AncientDoll.Moon": "%Moon hisses at the doll.#$b#No. Bad gift.$a",
+    "Salad.Moon": "...Moon hates salads.$s#$b#Maybe I'll leave it for Derya to eat.",
+    "RadishSalad.Moon": "...Moon hates salads.$s#$b#Maybe I'll leave it for Derya to eat.",
+
+    //JA Items
+
+    //Airyn's Flower Crowns
+    "Aurorean.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "Azure.Crown.Moon": "Pretty gift for pretty junimo?$h#$b#Hehe, thank you!$h",
+    "Borage.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "Flame.Crown.Moon": "Flower crown! Flower Crown!$u#$b#Thanks, @!$h",
+    "ForgetMeNot.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "Jazz.Crown.Moon": "Pretty gift for pretty junimo?$h#$b#Hehe, thank you!$h",
+    "Lavender.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "Chanterelle.Crown.Moon": "Mushrooms can be a flower crown? So cool!$u",
+    "CommonMushroom.Crown.Moon": "Mushrooms can be a flower crown? So cool!$u",
+    "Crocus.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "Daffodil.Crown.Moon": "Flower crown! Flower Crown!$u#$b#Thanks, @!$h",
+    "Dandelion.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "FairyRose.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "Fiber.Crown.Moon": "...Moon doesn't like this very much, but she will wear it for @!$h",
+    "Amancay.Crown.Moon": "Pretty gift for pretty junimo?$h#$b#Hehe, thank you!$h",
+    "Foxbloom.Crown.Moon": "Woah! Foxbloom flower crown! This is so pretty, thank you.$u",
+    "Snowdrop.Crown.Moon": "Pretty gift for pretty junimo?$h#$b#Hehe, thank you!$h",
+    "SpringBells.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "Calendula.Crown.Moon": "Flower crown! Flower Crown!$u#$b#Thanks, @!$h",
+    "Butterwort.Crown.Moon": "Flower crown! Flower Crown!$u#$b#Thanks, @!$h",
+    "Holly.Crown.Moon": "...Please don't poison Moon.$s",
+    "LavaLily.Crown.Moon": "Pretty gift for pretty junimo?$h#$b#Hehe, thank you!$h",
+    "LilacPansy.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "Clover.Crown.Moon": "Woah! Lucky clover crown for Moon?$u#$b#Thank you so much!$h",
+    "Mistbloom.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "Mistletoe.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "Monkshood.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "Morel.Crown.Moon": "Mushrooms can be a flower crown? So cool!$u",
+    "Hokkaido.Crown.Moon": "Pretty gift for pretty junimo?$h#$b#Hehe, thank you!$h",
+    "Clematis.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "Hollyhock.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "Poppy.Crown.Moon": "Woah! For Moon?$u#$b#Thank you so much!$h",
+    "PurpleFlame.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "Iris.Crown.Moon": "Flower crown! Flower Crown!$u#$b#Thanks, @!$h",
+    "PurpleMushroom.Crown.Moon": "Mushrooms can be a flower crown? So cool!$u",
+    "PurplePansy.Crown.Moon": "Flower crown! Flower Crown!$u#$b#Thanks, @!$h",
+    "RedMushroom.Crown.Moon": "...Please don't poison Moon.$s",
+    "Azorean.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "Wintergreen.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "SpanishMoss.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "Foxglove.Crown.Moon": "Pretty gift for pretty junimo?$h#$b#Hehe, thank you!$h",
+    "SummerSpangle.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "Snowbell.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "Sunflower.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "SweetPea.Crown.Moon": "Flower crown! Flower Crown!$u#$b#Thanks, @!$h",
+    "Mallow.Crown.Moon": "Flower crown! Flower Crown!$u#$b#Thanks, @!$h",
+    "Tulip.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "Orchid.Crown.Moon": "Flower crown! Flower Crown!$u#$b#Thanks, @!$h",
+    "DevilClaw.Crown.Moon": "*gasp* A flower crown for Moon?$u#$b#Thank you, friend!$h",
+    "BlueIris.Crown.Moon": "Pretty gift for pretty junimo?$h#$b#Hehe, thank you!$h",
+
+    //Schedule Dialogue
+    //----------------
+    "Diala.Dialogue.Saloon1": "I don't drink, but I enjoy coming here for the vibes.$h",
+    "Diala.Dialogue.Saloon2": "I come here pretty often.#$b#Mostly to get my dose of socialization without trying too hard.$u",
+    "Diala.Dialogue.Saloon3": "Oh, @! You should try this mocktail Gus makes.$h#$b#It's delicious!$u",
+
+	//Event Dialogue
+	//--------------
+    // Introduction 0 Hearts Event
+    "event-20031401.01": "Hey! Stop that!",
+    "event-20031401.02": "Oh, hey! You got our letter.$h",
+    "event-20031401.03": "You notice Derya has a mouthful of cookies, and is holding yet another cookie in her hand.",
+    "event-20031401.04": "Hello! Welcome to D&D's Cat Cafe. Our name's still... under construction.$h#$b#Derya and I co-own the cafe.$h#$b#Though, instead of getting any work done, she's just stealing the cookies I'm making.$a",
+    "event-20031401.05": "I mean, is it really my fault that you make such good cookies?$s#$b#Hey, you should give the farmer some to try!$h",
+    "event-20031401.06": "Diala holds out a tray of cookies, you grab one. It's delicious!",
+    "event-20031401.07": "Well, feel free to visit whenever you're able to!$h#$b#We sell all kinds of baked goods and some really delicious drinks!$h",
+    "event-20031401.08": "Also, we have some really cute cats.$h",
+    "event-20031401.09": "Shoot, how did I manage to forget our selling point?$s",
+    "event-20031401.10": "Well, we better get back to work. It was nice meeting you!$h",
+    "event-20031401.11": "Derya waves at you as she snatches another cookie from the tray. Diala playfully slaps her hand away.",
+
+    // Unlocking Moon Introduction
+    "event-20031402.01": "It's... a junimo? What are they doing here?",
+    "event-20031402.02": "I wonder where they went.",
+
+    // Diala 2 Hearts Event
+    "event-20031404.01": "Hey!",
+    "event-20031404.02": "The rich aroma of coffee fills the room.",
+    "event-20031404.03": "Hey, thanks for stopping by!$h#$b#I made you a caramel vanilla coffee. Derya really likes it, so I hope you do too.$u",
+    "event-20031404.04": "Mercury's going to be in retrograde soon.#$b#I used to be so scared of it when I first got into astrology, but it seems like people really enjoy fear mongering.$s",
+    "event-20031404.05": "Retrogrades are periods of time where planets appear to be moving backwards instead of forward.#$b#Obviously, they aren't actually moving backwards, it's just an illusion.$h",
+    "event-20031404.06": "With Mercury being the planet of communication, it does affect a big part of our lives when it goes retrograde.#$b#Did you know I was born during a Mercury retrograde?$u",
+    "event-20031404.07": "It makes it hard for me to communicate.$s#$b#But that doesn't mean it's impossible. Astrology doesn't dictate your life or your future.$h#$b#It's just a tool to help on your path.$u",
+    "event-20031404.08": "Oh, I was rambling again, huh?$u#$b#Sorry about that, I just get so into it.$u",
+    "event-20031404.09": "You take a sip of your coffee as Diala tells you more about retrogrades.",
+
+    // Derya 2 Hearts Event
+    "event-20031405.01": "Ugh, stupid TV.",
+    "event-20031405.02": "Oh, hey, @.#$b#I've been trying to fix this damn thing all day.$a",
+    "event-20031405.03": "Say, would you like to be a rubber duck?$h#$b#Basically, you just hang around here while I run you through everything I've done so far.#$b#That way I know where I messed up.$h",
+    "event-20031405.04": "Great! Thanks, @.$u",
+    "event-20031405.05": "Okay, so far I've hooked up this wire...",
+    "event-20031405.06": "A while later...",
+    "event-20031405.07": "Aha! Got it!$u",
+    "event-20031405.08": "Thank you, @. Really appreciate you suffering through this with me.$u",
+
+    // Moon 2 Hearts Event
+    "event-20031406.01": "Come on, Moon. Get it together.",
+    "event-20031406.02": "Oh, hi @. Moon studying.$s#$b#Moon finds it hard.$s",
+    "event-20031406.03": "Hmm...#$b#...@, help Moon study?$u",
+    "event-20031406.04": "Yes! Thank you friend!$h#$b#Okay, so, there are four elements...",
+
+    // Diala and Derya 3 Hearts Event
+    "event-20031407.01": "Almost done!",
+    "event-20031407.02": "I'm officially starving.$s#$b#Are you going to let me eat those muffins or do I have to fight you for them?$6",
+    "event-20031407.03": "You're seriously the most impatient person I've ever met. I already told you, they're almost done!$u",
+    "event-20031407.04": "Ah! There we go!$h",
+    "event-20031407.05": "Freshly baked muffins for my favorite gremlin.$u",
+
+    // Diala 4 Hearts Event
+    "event-20031408.01": "...I already told you, dad. I'm not coming to visit.$a#$b#Why are you making this such a big deal?$s#$b#%Looks like Diala's on the phone.#$b#You know what? I'm hanging up. I have work to do.$s",
+    "event-20031408.02": "OH! @, I-- did we have any plans?$7#$b#Sorry, you just caught me off guard.$7#$b#That was my dad on the phone. I'm hoping you didn't catch the end of that conversation.$s",
+    "event-20031408.03": "I don't really feel like talking about it right now, but I'm going to tell you something I wish I realized much sooner.",
+    "event-20031408.04": "Family isn't always blood. You get to pick and choose who your family is.$h#$b#I have a great family and support system right here.$u",
+    "event-20031408.05": "Derya's had my back since day one and I'm going to be eternally grateful for her.$4",
+    "event-20031408.06": "Anyways, I'm going to stop talking now before she hears us.$u#$b#Would you like some coffee? I can go make us some.$h",
+
+    // Moon 4 Hearts Event
+    "event-20031409.01": "Hey Derya, have you seen that coconut Sandy mailed us? I could've sworn I put it here but now I can't find it.$s",
+    "event-20031409.02": "Hmm...",
+    "event-20031409.03": "Are you on your phone again? You never listen to me when you are.$a",
+    "event-20031409.04": "Hehe, @! Moon has coconut!$7#$b#Do you want to share?$6",
+    "event-20031409.05": "Huh, what did you say?$6#$b#$y '..._You should give Diala her coconut back._Oh man, Moon was looking forward to it. Now Moon has to do the right thing.$8_Meet me outside, we'll share the coconut._Yay! Let's go!$7'",
+
+    // Derya 4 Hearts Event
+    "event-20031410.01": "Still haven't decided on one?",
+    "event-20031410.02": "Look, buddy. I'm indecisive, just bear with me today.$s",
+    "event-20031410.03": "Oh, thank God. Get over here, farmer. It's an emergency.$6#$b#I'm picking out a gift for Diala. She loves crystals and gems and whatnot, but I can't decide on one.$s#$b#Help me pick?$u",
+    "event-20031410.04": "So, go ahead and pick one.#$b#$y 'Which one should I get for Diala?_The amethyst._Ooh, that is very pretty.$h_The emerald._Ooh, pretty shade of green, huh?_The frozen tear._Oh, that's beautiful.$h'",
+    "event-20031410.05": "Alright, Clint. You heard 'em.$6#$b#I owe you a whole box of Diala's cookies for tolerating me today.$u",
+    "event-20031410.06": "I'll hold you to that.$h",
+
+    // Diala 6 Hearts Event
+    "event-20031411.01": "Hey, @! You got my letter.$h",
+    "event-20031411.02": "So, I've been thinking. Would you like a tarot reading?$h#$b#Free of charge this time.$u",
+    "event-20031411.q1": "Yes, I'd like a tarot reading!",
+    "event-20031411.q2": "No, thank you.",
+    "event-20031411.03": "Great! Let me just get set up real quick.",
+    "event-20031411.04": "Diala shuffles her deck.",
+    "event-20031411.05": "Alright, would you like a love reading or a career reading?$h",
+    "event-20031411.q3": "Love reading.",
+    "event-20031411.q4": "Career reading.",
+    "event-20031411.06": "Sounds good! Let's start.$u",
+    "event-20031411.07": "Diala lays down three cards in front of you.",
+    "event-20031411.08": "Ooh, those are some good cards. Let's start with The Moon.$h",
+    "event-20031411.09": "Hmm, I sense you might be anxious about your career. I understand it must've been a little difficult leaving the city to maintain a farm.$9",
+    "event-20031411.10": "Anxiety sucks, but you should trust your gut with any decision you decide to make regarding your career.$h",
+    "event-20031411.11": "Now, The Empress is a great card to get.$h#$b#You'll be full of new and creative ideas to apply to your work.$h",
+    "event-20031411.12": "The Empress here should soothe your anxiety a little as it predicts long-term growth!$u",
+    "event-20031411.13": "Ooh, now we have The Tower reversed.$h#$b#You're lucky it's reversed and not upright. This one might be referencing your past actually.$h",
+    "event-20031411.14": "The Tower card motivates us to leave a monotonous job or a routine that could drain us in the long run. You had a job back in the city, didn't you?#$b#It must've been draining.$9",
+    "event-20031411.15": "Well, that's about it!$u#$b#It's a more general reading, but I hope you enjoyed it nonetheless.$h",
+    "event-20031411.16": "That's okay!$u",
+    "event-20031411.17": "Sounds good! Let's start.$u",
+    "event-20031411.18": "Diala lays down three cards in front of you.",
+    "event-20031411.19": "Ooh, those are some good cards. Let's start with The Empress.$h",
+    "event-20031411.20": "This is a very positive card to get in a love reading!$u",
+    "event-20031411.21": "If you're currently single, then romance seems to be on the way!$u#$b#If not, then expect your relationship to become more romantic and affectionate soon.$h",
+    "event-20031411.22": "Ooh, now with The Sun card, I'm seeing happiness and celebration coming your way.$h",
+    "event-20031411.23": "I believe you should be getting closer with someone soon.$u#$b#Just... communicate, please.$9",
+    "event-20031411.24": "The Lovers card, huh?$4#$b#You should communicate your feelings and rest assured that everything will work out exactly the way you want.",
+    "event-20031411.25": "Your desires are aligned with theirs.$u",
+    "event-20031411.26": "Well, that's about it!$u#$b#It's a more general reading, but I hope you enjoyed it nonetheless.$h",
+    "event-20031411.27": "Thank you for letting me do this!$u#b#I'll be setting up a table outside the cafe if you'd like more readings!$h",
+    "event-20031411.28": "Hey, why don't I go make us something to drink?$u#$b#Oh, I'll also be setting up a table for tarot readings outside the cafe if you're ever interested.$h",
+
+    // Diala and Moon 6 Hearts Event
+    "event-20031412.01": "Almost done...",
+    "event-20031412.02": "Oh, hey @! I found a recipe for a potion in an old book of mine but never got around to trying it.$h",
+    "event-20031412.03": "I'm...not exactly sure what it's supposed to do, but it doesn't have the dangerous label on it.$9#$b#So... I guess it's time to take a risk!$u",
+    "event-20031412.04": "...Okay, but are you sure you wanna do that?$10",
+    "event-20031412.05": "To taking risks!$u",
+    "event-20031412.06": "Ooh, that doesn't taste too bad. I don't feel any different though.",
+    "event-20031412.07": "...!$7",
+    "event-20031412.08": "Derya... please tell me you're seeing that little blue thing that I'm seeing.$7",
+    "event-20031412.09": "...Hey, angel, maybe you should go lie down, yeah? I'll take you to your room.$10",
+    "event-20031412.10": "No, take a sip and see for yourself!$7",
+    "event-20031412.11": "Okay, so there's a little blue thing in our kitchen...$7",
+    "event-20031412.12": "Hmph... the 'little blue thing' has a name! Moon!$a",
+    "event-20031412.13": "...Oh my God, did it just speak?$7",
+    "event-20031412.14": "Hey, @... are you seeing what we're seeing?$9",
+    "event-20031412.15": "It's okay, @. You can tell them.$s",
+    "event-20031412.16": "So... Moon is a junimo and the concoction somehow lets us see her?$9",
+    "event-20031412.17": "And why is she in our kitchen to begin with?$10",
+    "event-20031412.18": "Moon was supposed to leave with junimo friends a long time ago but... Moon found Diala and astrology!$h",
+    "event-20031412.19": "Moon wants to become an astrologer.$4",
+    "event-20031412.20": "Moon has been learning from Diala all along.",
+    "event-20031412.21": "Moon points at the hole in the wall.",
+    "event-20031412.22": "...Huh, so the hole mystery is solved.$u",
+    "event-20031412.23": "Moon is sorry. This was never meant to happen, Moon just wanted to learn.$s",
+    "event-20031412.24": "Maybe Moon leaves now?$s",
+    "event-20031412.25": "No! Moon, I would love to help you learn. At least directly now.$u#$b#You're welcome to stay here with us.$h",
+    "event-20031412.26": "It's just a little shocking, you know? We're used to spirits and other things, we've just never come across a junimo before.$u",
+    "event-20031412.27": "Thank you so much!$u#$b#That makes Moon so happy.$4",
+    "event-20031412.28": "Hey... does she look squishy to anyone else?$9#$b#Hey, Moon. Permission to try squishing you?$u",
+
+    // Diala and Derya 4 Hearts Event
+    "event-20031413.01": "Okay, I'm not gonna lie, I'm a little nervous.$10",
+    "event-20031413.02": "What if I'm a sad drunk?$10#$b#Oh my God... what if I'm an annoying drunk?$7",
+    "event-20031413.03": "I guess we'll have to find out, huh?$u",
+    "event-20031413.04": "You know I'll still like you no matter what kind of drunk you are.$u",
+    "event-20031413.05": "...$7#$b#Damn, this tastes disgusting.$u",
+    "event-20031413.06": "A while later...",
+    "event-20031413.07": "*giggles* Hey... does that thing on the wall look like a frog to you too?$u",
+    "event-20031413.08": "Oh my God, it does! How did we never notice it before?$u",
+    "event-20031413.09": "Hehe, Diala, what did the grape say when it got crushed?$9",
+    "event-20031413.10": "...Nothing, it just let out a little wine.$u",
+    "event-20031413.11": "Diala snorts as Derya giggles some more.",
+    "event-20031413.12": "Alright, according to my very thorough analysis, you're a giggly drunk.$u",
+    "event-20031413.13": "Hey, you should come lie down with me, the floor is nice and cold.$h",
+
+    // Moon 6 Hearts Event
+    "event-20031414.01": "Ugh... come on, Moon.",
+    "event-20031414.02": "@!$u#$b#Moon is trying to use the telescope!$h",
+    "event-20031414.03": "Moon heard Diala say you can see one of the planets very clearly now.$u",
+    "event-20031414.04": "But... Moon is too small.$s#$b#Moon will never get to see the planet.$s",
+    "event-20031414.05": "...!$u#$b#Friend picks Moon up? Yes, please!$u",
+    "event-20031414.06": "Woah! It's so pretty!$u",
+    "event-20031414.07": "@, take a look!$h",
+    "event-20031414.08": "You put Moon down to take a look. You see a small glowing spot.",
+    "event-20031414.09": "That was so cool!$u",
+    "event-20031414.10": "Thank you so much, friend!$u#$b#Moon appreciates you helping her out.$4",
+
+    // Moon 8 Hearts Event
+    "event-20031415.01": "Oh, @! Hello!",
+    "event-20031415.02": "Moon just got done studying with Diala.",
+    "event-20031415.03": "Hey, can Moon tell you something?$4",
+    "event-20031415.04": "...Moon isn't sure if she made the right choice by leaving all her junimo friends behind.$s",
+    "event-20031415.05": "What if Moon never becomes an astrologer?$s",
+    "event-20031415.06": "What if Moon put all this effort in for nothing?$s",
+    "event-20031415.07": "Moon enjoys learning, it's fun!#$b#But sometimes Moon misses her friends.$s",
+    "event-20031415.08": "Does @ think Moon made the right choice?$s",
+    "event-20031415.09": "...",
+    "event-20031415.10": "You made the right choice.",
+    "event-20031415.11": "You should've left with your friends.",
+    "event-20031415.12": "You're right! Moon should believe in herself.$h",
+    "event-20031415.13": "With Diala's help and @'s support, Moon will become the best astrologer!$u",
+    "event-20031415.14": "Thank you, friend.$4",
+    "event-20031415.15": "Moon opens her arms wide and looks up at you.",
+    "event-20031415.16": "...You don't believe in Moon?$s",
+    "event-20031415.17": "Moon thought you of all people wouldn't think that way.$s",
+    "event-20031415.18": "Moon thought you were her friend...$s",
+    "event-20031415.19": "...!$u",
+    "event-20031415.20": "...$s%fork",
+
+    // Bad Confrontation
+    "event-20031416.01": "Listen up, you li-$a",
+    "event-20031416.02": "Hey! We agreed to be civil about this.$a",
+    "event-20031416.03": "Listen up, you! We heard all about your little talk with Moon.$a",
+    "event-20031416.04": "We don't appreciate what you've said to her at all.$10",
+    "event-20031416.05": "Yeah, I mean, you've known her way before we even knew she existed.$a",
+    "event-20031416.06": "You know how passionate she is about astrology.$s",
+    "event-20031416.07": "...We're disappointed, I wish you had been kinder to Moon and her passion.$6",
+    "event-20031416.08": "Come on, Diala, let's go.$s",
+
+    // Good Confrontation
+    "event-20031417.01": "Hey, @!$h",
+    "event-20031417.02": "Moon told us about the little talk she had with you.",
+    "event-20031417.03": "We really appreciate all the support and encouragement you've given her.$h",
+    "event-20031417.04": "I noticed she's somehow even more eager to learn after that, so thank you!$u",
+    "event-20031417.05": "As a token of our gratitude, we made you a little something. [651]$h",
+    "event-20031417.06": "Thank you for being a good friend, both to her and to us.$4",
+
+    // Derya 6 Hearts Event
+    "event-20031418.01": "Alright, Chestnut, jump!",
+    "event-20031418.02": "Good boy! Here's your treat.$h",
+    "event-20031418.03": "Oh, hey @! You've just walked in on an exclusive club meeting. You interested?$9",
+    "event-20031418.04": "Why don't you ask Bean here to jump? You can give him a treat after.$h",
+    "event-20031418.05": "You tell Bean to jump.",
+    "event-20031418.06": "Praise Bean and give him a treat.",
+    "event-20031418.07": "I like hanging out here with them. They're entertaining and you can just talk about things while they groom themselves and ignore you.$u",
+    "event-20031418.08": "Alright, who's next?$h",
+
+    // Diala 8 Hearts Event
+    "event-20031419.01": "Oh, hey @.",
+    "event-20031419.02": "I like coming here when I want some alone time. The sound of the ocean waves, the sun hitting my skin...",
+    "event-20031419.03": "It's calming. I like it.$h",
+    "event-20031419.04": "You know, moving here with Derya might be the best thing I've ever done.$h#$b#Life back in the city with my family was... tough.$s",
+    "event-20031419.05": "Being the eldest daughter meant I was practically a parent to my younger siblings.$11#$b#No one around me understood what I was going through until I met Derya.",
+    "event-20031419.06": "She was and still is my lifeline. I don't think anyone in this world gets me the way she does.$4",
+    "event-20031419.07": "I love it out here. I have friends, the cafe of my dreams, and a peaceful life.",
+    "event-20031419.08": "...Somehow, despite all of these good things I'm blessed with, my mind still wanders.$11",
+    "event-20031419.09": "Sometimes, it feels like my friendship with Derya is... incomplete? Like, something is missing.$6",
+    "event-20031419.10": "It's felt this way since we broke up and decided to stay as friends in high school.$11",
+    "event-20031419.11": "Yes, I know that was a long time ago.$u",
+    "event-20031419.12": "Hmm...$11",
+    "event-20031419.13": "...OH!$7",
+    "event-20031419.14": "@, I think I'm... in love with Derya.$7",
+    "event-20031419.15": "Hah... hah.$9",
+    "event-20031419.16": "I wonder if Derya feels the same way.",
+
+    // Moon 10 Hearts Event
+    "event-20031420.01": "Psst, @! Over here.$h",
+    "event-20031420.02": "Okay, Moon knows this is technically trespassing... but Moon wanted to show you this spot!$h",
+    "event-20031420.03": "Moon used to live here before moving into Diala and Derya's house.",
+    "event-20031420.04": "Moon liked it here. Moon would wait until it was nighttime to see the stars in the sky.$u",
+    "event-20031420.05": "As much as Moon liked this place, Diala and Derya's house is so much nicer. Moon got to learn new things all the time!$u",
+    "event-20031420.06": "And now, Moon is friends with them! And @!$h",
+    "event-20031420.07": "Thank you for being Moon's friend.$4",
+
+    // Derya 8 Hearts Event
+    "event-20031421.01": "Oh, hey @! I decided to ask Gus for help on my baking adventure.$h",
+    "event-20031421.02": "...But it's not turning out the way I want it to.$10",
+    "event-20031421.03": "...That's because you won't let me help!$2",
+    "event-20031421.04": "I can't go to Diala and say, 'Surprise! I made you a cake as a token of my appreciation. Actually, Gus did all the work.'$5",
+    "event-20031421.05": "...$3",
+    "event-20031421.06": "...$11",
+    "event-20031421.07": "Anyways, I wanted to make Diala's favorite cake, but the moment I set off to do it, my baking skills flew out the window.$s",
+    "event-20031421.08": "I just... wanna do something that makes her happy, you know? She's done so much for me.$10",
+    "event-20031421.09": "*sigh* Why am I nervous? It's just a cake.$s",
+    "event-20031421.10": "Gus mumbles under his breath.",
+    "event-20031421.11": "What?! Pfft, no, I'm not in love with my best friend who I practically left everything behind for to live and co-own a cafe with.$13",
+    "event-20031421.12": "...Seriously?$3",
+    "event-20031421.13": "...Okay, maybe I am in love. Just a little bit.$10",
+    "event-20031421.14": "*sigh* Young love...$s",
+    "event-20031421.15": "Will Derya confess her feelings for Diala?",
+
+    //Animation Dialogue
+    //------------------
+    "Animations.Diala.Read": "%Looks like Diala's caught up in her book, she doesn't seem to notice you.",
+    "Animations.Diala.Meditate": "%Looks like Diala's meditating. Best to leave her alone.",
+    "Animations.Diala.Nap": "%Diala is napping on Derya's shoulder.",
+    "Animations.Derya.Read": "%Derya's busy reading. Best to leave her alone.",
+
+	//Movie Reactions
+	//---------------
+
+    //D I A L A
+    //Brave Little Sapling
+    "Diala.SpringMovie0.Love.BeforeMovie": "I'm so excited to see this movie, it's been on my list for a while.$u",
+    "Diala.SpringMovie0.Love.DuringMovie": "Aw, that's adorable!$h",
+    "Diala.SpringMovie0.Love.AfterMovie": "That was so much fun! Thanks for inviting me, @!$u",
+
+    //Journey of the Praire King
+    "Diala.SummerMovie0.Like.BeforeMovie": "Ooh, isn't this based on the video game? Derya would love it.$u",
+    "Diala.SummerMovie0.Like.DuringMovie": "I have no idea what's happening but it's entertaining.$h",
+    "Diala.SummerMovie0.Like.AfterMovie": "Thanks for the invite, I appreciate it! Maybe I should take Derya to see it.$u",
+
+    //Mysterium
+    "Diala.FallMovie0.Love.BeforeMovie": "Ooh, I love me some mystery.$h",
+    "Diala.FallMovie0.Love.DuringMovie": "%Diala seems to be focusing on the movie intensely.",
+    "Diala.FallMovie0.Love.AfterMovie": "Ha! I predicted it. This was fun. Thank you, @!$u",
+
+    //Miracle at Coldstar Ranch
+    "Diala.WinterMovie0.Love.BeforeMovie": "Oh, man. I heard this one's quite emotional.$9",
+    "Diala.WinterMovie0.Love.DuringMovie": "%Looks like Diala's tearing up.",
+    "Diala.WinterMovie0.Love.AfterMovie": "I didn't expect to cry that much. Thank you for the invite, @!$u",
+
+    //Natural Wonders
+    "Diala.SpringMovie1.Like.BeforeMovie": "Ooh, an educational movie, huh?",
+    "Diala.SpringMovie1.Like.DuringMovie": "%Diala's focused on the movie.",
+    "Diala.SpringMovie1.Like.AfterMovie": "Woah, that was pretty interesting. Thanks, @!$u",
+
+    //Wumbus
+    "Diala.SummerMovie1.Like.BeforeMovie": "Ooh, Wumbus! I've been looking forward to this one.$h",
+    "Diala.SummerMovie1.Like.DuringMovie": "%Diala giggles.",
+    "Diala.SummerMovie1.Like.AfterMovie": "Heh, that was pretty funny. Thank you for inviting me.$h",
+
+    //It Howls in the Rain
+    "Diala.FallMovie1.Dislike.BeforeMovie": "Oh, no. I'm...not the biggest fan of horror movies.$9",
+    "Diala.FallMovie1.Dislike.DuringMovie": "%Diala covers her eyes.",
+    "Diala.FallMovie1.Dislike.AfterMovie": "...That totally didn't scare me. Nope.$8",
+
+    //Zuzu City Express
+    "Diala.WinterMovie1.Love.BeforeMovie": "Ooh, I'm a sucker for romantic movies.$u",
+    "Diala.WinterMovie1.Love.DuringMovie": "Aww, that's cute.$h",
+    "Diala.WinterMovie1.Love.AfterMovie": "I LOVE this genre of movies. Thanks for taking me to see it, @.$u",
+
+    //D E R Y A
+    //Brave Little Sapling
+    "Derya.SpringMovie0.Like.BeforeMovie": "Ooh, I remember Diala talking about this movie.$h",
+    "Derya.SpringMovie0.Like.DuringMovie": "Heh, it's cute.$h",
+    "Derya.SpringMovie0.Like.AfterMovie": "That was fun. Thanks, farmer!$u",
+
+    //Journey of the Praire King
+    "Derya.SummerMovie0.Love.BeforeMovie": "Oh my God, @, I've been looking forward to seeing this!",
+    "Derya.SummerMovie0.Love.DuringMovie": "Oh, heck yeah! Get their ass!$u",
+    "Derya.SummerMovie0.Love.AfterMovie": "Man, that was so much fun. Thanks, @!$u",
+
+    //Mysterium
+    "Derya.FallMovie0.Love.BeforeMovie": "Alright farmer, put on your detective hat.$u",
+    "Derya.FallMovie0.Love.DuringMovie": "Woah!$u",
+    "Derya.FallMovie0.Love.AfterMovie": "That was so cool, I didn't expect that twist!$h",
+
+    //Miracle at Coldstar Ranch
+    "Derya.WinterMovie0.Like.BeforeMovie": "I just know Diala would be crying her eyes out watching this.$u",
+    "Derya.WinterMovie0.Like.DuringMovie": "Aww, how sweet.$h",
+    "Derya.WinterMovie0.Like.AfterMovie": "That was fun, thank you for the invite!$u",
+
+    //Natural Wonders
+    "Derya.SpringMovie1.Dislike.BeforeMovie": "Hmm... an educational movie, huh?",
+    "Derya.SpringMovie1.Dislike.DuringMovie": "%Derya looks disinterested.",
+    "Derya.SpringMovie1.Dislike.AfterMovie": "Sorry, @. That was kind of boring.$8",
+
+    //Wumbus
+    "Derya.SummerMovie1.Love.BeforeMovie": "We love Wumbus in this household. I'm excited to see this.$u",
+    "Derya.SummerMovie1.Love.DuringMovie": "%Derya chuckles.",
+    "Derya.SummerMovie1.Love.AfterMovie": "That was awesome!$u",
+
+    //It Howls in the Rain
+    "Derya.FallMovie1.Dislike.BeforeMovie": "...You really want me to sit through a horror movie?$10",
+    "Derya.FallMovie1.Dislike.DuringMovie": "%Derya flinches.",
+    "Derya.FallMovie1.Dislike.AfterMovie": "Nope, totally not scared right now.$9",
+
+    //Zuzu City Express
+    "Derya.WinterMovie1.Like.BeforeMovie": "Aw, Diala would love this. It looks cool.$h",
+    "Derya.WinterMovie1.Like.DuringMovie": "%Derya is smiling.",
+    "Derya.WinterMovie1.Like.AfterMovie": "That was really sweet!$u",
+
+    //M O O N
+    //Brave Little Sapling
+    "Moon.SpringMovie0.Love.BeforeMovie": "Ooh, Moon is excited!$u",
+    "Moon.SpringMovie0.Love.DuringMovie": "Woah! So cute!$u",
+    "Moon.SpringMovie0.Love.AfterMovie": "Thanks for taking Moon to the movies!$h",
+
+    //Journey of the Praire King
+    "Moon.SummerMovie0.Dislike.BeforeMovie": "Hmm... Moon doesn't like video games very much.$s",
+    "Moon.SummerMovie0.Dislike.DuringMovie": "%Moon tilts her head in confusion.",
+    "Moon.SummerMovie0.Dislike.AfterMovie": "Moon appreciates the invite, but Moon didn't like the movie.$s",
+
+    //Mysterium
+    "Moon.FallMovie0.Love.BeforeMovie": "Ooh! Moon watches mystery movies with Diala and Derya all the time.$u",
+    "Moon.FallMovie0.Love.DuringMovie": "Woah! So cool.$u",
+    "Moon.FallMovie0.Love.AfterMovie": "Hehe, that was so interesting! Thank you, friend.$h",
+
+    //Miracle at Coldstar Ranch
+    "Moon.WinterMovie0.Love.BeforeMovie": "Moon heard about this movie!$h",
+    "Moon.WinterMovie0.Love.DuringMovie": "%Moon pokes you to ask for some tissues.",
+    "Moon.WinterMovie0.Love.AfterMovie": "That was so cute. Moon is happy.$h",
+
+    //Natural Wonders
+    "Moon.SpringMovie1.Like.BeforeMovie": "Ooh, Moon likes learning new things.$h",
+    "Moon.SpringMovie1.Like.DuringMovieu": "%Moon is focused on the movie.",
+    "Moon.SpringMovie1.Like.AfterMovie": "That was interesting!$u",
+
+    //Wumbus
+    "Moon.SummerMovie1.Love.BeforeMovie": "Wumbus is cool!$u",
+    "Moon.SummerMovie1.Love.DuringMovie": "%Moon is giggling.",
+    "Moon.SummerMovie1.Love.AfterMovie": "That was funny. Thank you, friend!$h",
+
+    //It Howls in the Rain
+    "Moon.FallMovie1.Dislike.BeforeMovie": "Hmm... Moon gets scared easily.$s",
+    "Moon.FallMovie1.Dislike.DuringMovie": "%Moon rolls down to hide beneath the chair.",
+    "Moon.FallMovie1.Dislike.AfterMovie": "Moon doesn't like scary things.$s",
+
+    //Zuzu City Express
+    "Moon.WinterMovie1.Like.BeforeMovie": "Ooh, Moon heard about this movie!",
+    "Moon.WinterMovie1.Like.DuringMovie": "Heh, that's sweet.$h",
+    "Moon.WinterMovie1.Like.AfterMovie": "Thank you for taking Moon to see the movie!$h",
+
+	//Map Strings
+	//-----------
+    "MapString.dd.moonhide": "There's something... eerie about this hole.",
+    "MapString.dd.cafe1": "There's a note:#'Hime's award-winning cake recipes! P.S: she gave them to us PERSONALLY!'",
+    "MapString.dd.cafe2": "An assortment of bread and scones. There's a note:#'We use Haku's famous bread recipes with a secret ingredient!'",
+    "MapString.dd.cafe3": "Different kinds of pancakes. There's a bag of mini marshmallows:#'Mini-Erins'.",
+    "MapString.dd.cafe4": "There's a chocolate cake in this case. The note reads:#'Almandite Chocolate Cake'.",
+    "MapString.dd.cafe5": "A bed for the cats to sleep on.",
+    "MapString.dd.cafe6": "A food bowl.",
+    "MapString.dd.cafe7": "A cat scratching post.",
+    "MapString.dd.cafe8": "A cat tower!",
+    "MapString.dd.cafe9": "There's plenty of plates and cups in this cupboard.",
+    "MapString.dd.house1": "'All About Retrogrades'#by Copper Djarin-Sun.",
+    "MapString.dd.house2": "'The Elements and Modes'#by Tai Kun.",
+    "MapString.dd.house3": "A cat bed.",
+    "MapString.dd.house4": "You read the cover:#'The Lunar Nodes' by Aster Isk.",
+    "MapString.dd.house5": "There are many pictures of Diala and Derya hung up on the wall.",
+    "MapString.dd.house6": "A spice cabinet. There's a lot in here.",
+    "MapString.dd.house7": "There's a sticky note on the fridge:#'Call Yri and Sophie back!'",
+    "MapString.dd.house8": "There's a book on the floor.#'Planets and Galaxies' by Zoe Doll.",
+    "MapString.dd.house9": "You take out a yearbook. There's a signature on it.#'Lenne Dalben <'",
+    "MapString.dd.house10": "'Why Are Geminis Like That?'#by Ace Trainer Ai Ryn.",
+    "MapString.dd.house11": "You take a peek at Diala's laptop. It has a forum open.#The last message was sent by Shiny Porygon.",
+    "MapString.dd.house12": "Diala's sunflowers. They look beautiful.",
+    "MapString.dd.house13": "Looks like one's Diala's spells. It's sealed in white wax.",
+    "MapString.dd.house14": "An assortment of candles.#'Red Moon Rose scent'. You have no idea what that means.",
+    "MapString.dd.house15": "Derya's game console.#You look at the video game title:#'Kedi vs. Bots'.",
+    "MapString.dd.house16": "Derya's precious coffee machine. Better leave it alone.",
+    "MapString.dd.house17": "You peek at Derya's computer. There's a chat between her and someone named 'Kamalei'.",
+    "MapString.dd.house18": "Derya's telescope. Better be careful with it.",
+    "MapString.dd.house19": "You pull out a note from the drawer. There's a business card.#'Ark Nir - Eventsmith'.",
+    "MapString.dd.house20": "There's yet another book in this drawer.#'Hemisphere of the Houses' by Tia Kalla.",
+    "MapString.dd.house21": "'Significance of Stelliums'#by Lemur Kat.",
+    "MapString.dd.house22": "There's a to-do list. You read the first point: 'Send Katalia the funny Pelicanmon memes.'",
+    "MapString.sbv.village1": "Iman's House",
+    "MapString.sbv.village2": "Sunberry Mountain",
+    "MapString.sbv.village3": "Miyoung and Silas' House",
+    "MapString.sbv.village4": "Diala and Derya's House",
+    "MapString.sbv.village5": "Maia, Jumana, and Amina's House",
+    "MapString.sbv.village6": "Ari and Blake's House",
+    "MapString.sbv.village7": "Sunberry Forest",
+
+
+	//Festival Dialogue
+	//-----------------
+
+	//Egg Festival
+	"Festivals.EggFest.Diala": "Derya and I helped Emily with painting the eggs!$h#$b#Look for the splotchy ones if you're participating, those are Derya's.$h",
+	"Festivals.EggFest.Derya": "Diala wanted to put her bunny ears on me for the festival. Little does she know, I hid them last night.$6",
+    "Festivals.EggFest.Moon": "Moon eats egg?$u#$b#What do you mean Moon has to cook egg first?$s",
+    //Flower Dance
+    "Festivals.FlowerDance.Diala": "I'm conflicted between wanting to dance and staying out of it so I can take some embarrassing pictures of Derya dancing.$h",
+    "Festivals.FlowerDance.Derya": "Don't get me wrong, I love these festivals, I just wish I could stay home with the cats instead.$h",
+    "Festivals.FlowerDance.Moon": "Moon doesn't dance. Moon jumps!$h#$b#...Moon falls over sometimes.$s",
+    //Luau
+    "Festivals.Luau.Diala": "I put some herbs from my garden into the soup.#$b#...Some seasoning too when Marnie wasn't looking. No one wants to eat bland soup.$h",
+    "Festivals.Luau.Derya": "I forgot to get something for the soup so I'm taking credit for whatever Diala puts in.$u#$b#If it's something bad, I had absolutely nothing to do with it.$h",
+    "Festivals.Luau.Moon": "Moon doesn't like soup.$s",
+    //Moonlight Jellies
+    "Festivals.Jellies.Diala": "You should see how wide Derya's eyes get when the jellyfish show up, it's adorable!$h",
+    "Festivals.Jellies.Derya": "I'm almost sure I saw Diala doze off twice. Not because she's bored, but she's not one to stay up this late usually.$h",
+    "Festivals.Jellies.Moon": "Moon touch jellies?$u#$b#...Jellies sting?$s",
+    //Stardew Fair
+    "Festivals.StardewFair.Diala": "I kicked Derya's ass at the slingshot game! I'm gonna hold this over her forever.$h",
+    "Festivals.StardewFair.Derya": "I'm not gonna lie, I'm mostly here for Gus' food. It's delicious!$h",
+    "Festivals.StardewFair.Moon": "Can you bring Moon tokens?$u#$b#Moon gets fedora!$h",
+    //Spirit's Eve
+    "Festivals.SpiritEve.Diala": "Derya and I are both easily scared, but it's all a matter of who jump-scares the other first.$h",
+    "Festivals.SpiritEve.Derya": "I know Diala is planning to jump-scare me, I'm keeping an eye out for any funny business.$h",
+    "Festivals.SpiritEve.Derya_spouse": "Hey, love. What'dya think of my outfit?$9#$b#Pretty hot, huh? Maybe it's... hot as hell.$9",
+    "Festivals.SpiritEve.Moon": "Moon is not scared!$a#$b#...Okay, maybe a little bit.$s",
+    //Ice Festival
+    "Festivals.IceFest.Diala": "It sure is cold out here, huh?#$b#I was planning on staying in but Derya wants to build a snowman.$h",
+    "Festivals.IceFest.Derya": "Hey, @! Wanna help me and Diala build a snowman?$h#$b#Ooh, maybe we can make snow angels too!$h",
+    "Festivals.IceFest.Moon": "Moon slipped on the ice.$s",
+    //WinterStar
+    "Festivals.WinterStar.Diala": "Happy Winter Star, @! I got my secret friend a batch of chocolate chip cookies!$h#$b#I also made some cat-safe cookies for the cats.$h",
+    "Festivals.WinterStar.Derya": "Happy holidays, @! I hope you've had a wonderful year.$h#$b#I got to cuddle the cats this morning, so I'm in a great mood.$h",
+    "Festivals.WinterStar.Moon": "Moon gets gift?$h",
+    //RidgesideGathering
+    "Festivals.RSVGathering.Diala": "Hey, @! Ysa and I just caught up.$u#$b#She booked a reading with me.$h",
+    "Festivals.RSVGathering.Derya": "I'm gonna start my own non-binary stall, spread the word.$6",
+    "Festivals.RSVGathering.Moon": "Moon hangs out with junimo friend!$u",
+    //EOR
+    "Festivals.EOR.Diala": "My resolution? I wanna see the cafe grow more, and I want to learn more about my practice.$u",
+    "Festivals.EOR.Derya": "Damn, it's a little chilly, huh?$9#$b#Should've let Diala get some blankets.$s",
+    "Festivals.EOR.Moon": "Happy new year, friend!$4#$b#Moon also burns log!$u",
+
+	//Dialogue
+	//--------
+
+    //Diala
+    "Diala.Dialogue.Introduction": "Hey, @! We're really glad you stopped by the cafe.$u#$b#You should drop by more often!$h",
+
+    //Spring
+    "Diala.Dialogue.spring_1": "The beginning of spring always feels more exciting than other seasons for some reason.$h",
+    "Diala.Dialogue.spring_12": "Hey, @! Are you participating in the egg hunt tomorrow?$h",
+    "Diala.Dialogue.spring_23": "I'm still trying to pick a cute outfit for the dance tomorrow, maybe I'll get Derya to help me out.",
+
+    //Summer
+    "Diala.Dialogue.summer_1": "Ah, summer.$h#$b#Make sure to stay hydrated, @.",
+    "Diala.Dialogue.summer_10": "Hey, @! What are you planning to put into the soup tomorrow?$h",
+    "Diala.Dialogue.summer_27": "I always get so excited to see the jellies.#$b#Derya keeps calling them 'squishy'.$s#$b#I have to make sure she watches from a distance.$h",
+
+    //Fall
+    "Diala.Dialogue.fall_1": "I like fall, but spring is just so much nicer.$h",
+    "Diala.Dialogue.fall_15": "Hi, @! I'm looking forward to the Fair just so I can finally get a chance to beat Derya at the minigames.$h",
+    "Diala.Dialogue.fall_26": "I like spooky things but... from far away.$s#$b#I'll stay away from the maze tomorrow.$h",
+
+    //Winter
+    "Diala.Dialogue.winter_1": "Brrr... I know the season's just started, but I already can't wait for it to be over.$s",
+    "Diala.Dialogue.winter_7": "Derya's dragging me to the festival tomorrow.$s#$b#She did promise to make me some hot chocolate when we get back, though.$h",
+    "Diala.Dialogue.winter_14": "I'm really looking forward to the Night Market. Can't wait to see what they have for sale.$h",
+    "Diala.Dialogue.winter_16": "@! I found a pretty plant at one of the vendors!$u",
+    "Diala.Dialogue.winter_24": "Hey, you excited for the feast tomorrow?#$b#I can't believe how quickly this year went by.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Diala.Dialogue.Mon": "Hi, @! I made some cookies earlier for Derya and a few cat-safe ones for the kitties.$h#$b#Would you like some? The human ones, of course! [223]$u",
+    "Diala.Dialogue.Tue": "Hey, @! Hope your day's going well.$h#$b#I just got a few readings done and sent so I'm feeling super productive!$h",
+    "Diala.Dialogue.Wed": "Ugh, I couldn't get any sleep last night. I kept hearing book pages getting turned.$s#$b#I just assumed it's one of the spirits messing with me.$s",
+    "Diala.Dialogue.Thu": "Hey, @! How's your day going?",
+    "Diala.Dialogue.Fri": "Are you growing anything on your farm right now?#$b#That's interesting.$h",
+    "Diala.Dialogue.Sat": "Derya made breakfast today. She put a chocolate bar in a piece of toast, rolled it, and then pan fried it.$9#$b#Don't get me wrong, it tasted good. I just... kinda wanted some pancakes instead, but she looked so proud.$u",
+    "Diala.Dialogue.Sun": "%Diala looks confused. She's mumbling to herself.#$e#Did I take my ADHD meds today?$s",
+
+    //2 hearts
+    "Diala.Dialogue.Mon2": "Derya woke up grumpy today. I said good morning when she walked in and all I heard is a bunch of grumbling.$u",
+    "Diala.Dialogue.Tue2": "I could really go for some pasta right now.$s#$b#Maybe I can get Derya to make me some.$h",
+    "Diala.Dialogue.Wed2": "Did you know you can use your birth chart to find what career is best for you?$h#$b#I helped Derya figure it out and she was shocked!$u",
+    "Diala.Dialogue.Thu2": "I just got a shipment I ordered a month ago.#$b#It was the premium cat treats that I spent way too much money on.$u#$b#Still worth it.$h",
+    "Diala.Dialogue.Fri2": "One of our cats, Zoro, somehow managed to steal a chocolate muffin and take a bite of it.$s#$b#Derya immediately took him to Dr. Jacob. He's going to be okay.$h",
+    "Diala.Dialogue.Sat2": "Hey, @! How's it going?$h#$b#Emily came by earlier for a tarot reading. I'm a little drained, but it was fun.$h",
+    "Diala.Dialogue.Sun2": "I got three new crystals yesterday...$s#$b#I know I have quite a few already, but they had an offer!$u",
+
+    //4 hearts
+    "Diala.Dialogue.Mon4": "Hey, @!#$b#$y 'What element is your sun sign?_Earth sign._Ooh! Earth signs are known for being practical and reliable.$h_Air sign._Interesting! I'm an air sign, too. People tend to think we're emotionless, but we just like keeping our feelings private.$h_Fire sign._Oh! I love fire signs, you guys are known for being very passionate.$h_Water sign._Some of the sweetest people I met were water signs. You guys are also super intuitive.$h' ",
+    "Diala.Dialogue.Tue4": "I overslept today.$s#$b#Derya made sure the kitties had breakfast, though.",
+    "Diala.Dialogue.Wed4": "I had sushi last night!$h#$b#Wish I could have it more often, but it's expensive.$s",
+    "Diala.Dialogue.Thu4": "I accidentally spaced out earlier while I was getting some chores done.$s#$b#Next thing I know I'm laying on the ground with three cats laying on me.$u",
+    "Diala.Dialogue.Fri4": "Hi, @! Hope the day's treating you well. I just got done trying Evelyn's cookie recipe.$h#$b#They were delicious!$h",
+    "Diala.Dialogue.Sat4": "I think I saw something move around in my room last night.$s#$b#I should really start cleansing my space more often.",
+    "Diala.Dialogue.Sun4": "I got some herbs and spices earlier.#$b#Derya thought they were for our kitchen cabinet, but I got them for my protection spells.$u",
+
+    //6 hearts
+    "Diala.Dialogue.Mon6": "Jas, Vincent and Eloise came by the cafe earlier and played with the cats.$h#$b#I gave them some muffins which they thoroughly enjoyed.$u",
+    "Diala.Dialogue.Tue6": "Hey, @! Feel free to drop by on my day off if you'd like a tarot reading.$h",
+    "Diala.Dialogue.Wed6": "I caught Derya talking to one of our cats this morning.$u#$b#She claims she was 'nicely telling her why it was wrong to keep eating from the other cat's bowls'.$u",
+    "Diala.Dialogue.Thu6": "Oh, @! Can I visit your farm someday?#$b#Would love to see what it looks like now.$h",
+    "Diala.Dialogue.Fri6": "I'm SO glad it's Friday.$h#$b#Don't get me wrong, I love my job, but I also enjoy getting some time off to continue learning more about astrology.$u",
+    "Diala.Dialogue.Sat6": "I somehow managed to go out and buy yet another tarot deck.$9#$b#It has such a nice design, I couldn't resist.$u",
+    "Diala.Dialogue.Sun6": "Hey, @! I made some muffins earlier. Here you go. [651]$h",
+
+    //8 hearts
+    "Diala.Dialogue.Mon8": "A lot of people seem to believe that astrology dictates their future.#$b#That's not true, it's just a tool that helps you figure out where you're going.#$b#You make your own destiny, astrology just helps you on your path.$u",
+    "Diala.Dialogue.Tue8": "Hey, @! I bought some crystals yesterday and got you one.$h#$b#I hope you like it. [66]$4",
+    "Diala.Dialogue.Wed8": "I went to bed last night forgetting to close the door to the house. I woke up to four of our cats surrounding me and demanding breakfast.$u",
+    "Diala.Dialogue.Thu8": "Seb and Sam came by earlier for a Dungeons and Dragons session.$h#$b#It was fun!$u",
+    "Diala.Dialogue.Fri8": "I made my favorite pasta yesterday.$h#$b#It's a recipe my mother learned from her roommate in college. Come by sometime if you'd like to try it!$h",
+    "Diala.Dialogue.Sat8": "Ugh, I have to get my ADHD meds refilled.$s",
+    "Diala.Dialogue.Sun8": "Last night, Derya slipped and fell while we were cleaning.#$b#Instead of asking for help, she posed on the ground to make it seem like she did it intentionally.$u",
+
+    //10 hearts
+    "Diala.Dialogue.Mon10": "Hey, @!$4#$b#Wanna come over for breakfast tomorrow?$h#$b#$y 'What would you like to eat?_Something sweet._Ooh! Maybe I can finally use the pancake recipe my friend Mia gave me.$h_Something savory._Great! Maybe some bacon and eggs? Ooh, falafel sounds good too.$h' ",
+    "Diala.Dialogue.Tue10": "I noticed Derya kept all the crystals I've given her over the years.$4#$b#It's nice when the people you love care about and respect your interests.$4",
+    "Diala.Dialogue.Wed10": "One of our cats, Pistachio, was rescued from an abusive home.$s#$b#He's very healthy, happy and cared for now, though.$u",
+    "Diala.Dialogue.Thu10": "I have a bunch of things I have to get done today but my brain won't let me hit the 'get things done' button.$9",
+    "Diala.Dialogue.Fri10": "I got you this, I hope you like it. [593]$h",
+    "Diala.Dialogue.Sat10": "Derya asked me an astrology question and I may have rambled.$9#$b#I got excited!$u",
+    "Diala.Dialogue.Sun10": "Do you wanna come over for a movie tonight?$h#$b#You will have to fight Derya while picking the movie, though.$u",
+
+    //Other Dialogue
+    "Diala.Dialogue.MovieInvitation": "Ooh! I would love to go to the movies. I'll meet you there.$h",
+
+    //Resort Dialogue
+
+    //Vanilla
+    "Diala.Dialogue.Resort_Entering": "Don't think I've left the valley since we opened the cafe. It's nice out here.$u",
+    "Diala.Dialogue.Resort_Leaving": "This was fun! Kinda don't wanna leave, but I do miss the cats.$h",
+    "Diala.Dialogue.Resort_Shore": "I wonder if I can use this seawater for a spell or potion of some sort.",
+    "Diala.Dialogue.Resort_Chair": "Ah, this is a well-deserved break.$h",
+    "Diala.Dialogue.Resort_Bar": "What am I drinking? Just... a fruity drink. I don't like alcohol.$h",
+    "Diala.Dialogue.Resort": "This place is pretty neat, huh? I LOVE the view.$h",
+
+    //GIMA
+    "Diala.Dialogue.Resort_IslandNorth": "Gosh, look at this place. It's gorgeous, isn't it?$h",
+    "Diala.Dialogue.Resort_Adventure": "Something about this place feels... magical, in a way.",
+    "Diala.Dialogue.Resort_Volcano": "Something about that volcano is unsettling.$9",
+    "Diala.Dialogue.Resort_Tent": "Woah, look at this place!$u",
+
+    //Mobile Phone Responses
+    "MP.Greeting.Diala": "Hey, @! How are you doing?",
+    "MP.Reminisce.Diala": "Oh? Reminisce? I'd love that!$",
+    "MP.Goodbye.Diala": "Take care of yourself! See you soon.",
+    
+    //Derya
+    "Derya.Dialogue.Introduction": "Ooh, @! I hope you enjoyed your visit at the cafe.$h#$b#Feel free to drop by whenever we're open.",
+
+    //Spring
+    "Derya.Dialogue.spring_1": "I'm so glad it's not winter anymore.$s#$b#Spring is so much nicer.",
+    "Derya.Dialogue.spring_12": "Ugh, eggs make me nauseous.$s#$b#I do like the egg hunt though.$h",
+    "Derya.Dialogue.spring_23": "I have a pretty nice suit in my closet. Maybe I can wear it to the dance tomorrow.$h",
+
+    //Summer
+    "Derya.Dialogue.summer_1": "Busted out my reindeer shorts earlier.#$b#No clue why they made winter-themed shorts, but you bet I'm gonna rock them.$u",
+    "Derya.Dialogue.summer_10": "I'm kinda excited for the soup tomorrow.$h#$b#Sam better not pull anything, I swear to God.$a",
+    "Derya.Dialogue.summer_27": "Man, Diala gets annoyed at me when I call the jellies squishy.$s#$b#They look squishy! I'm sorry for stating facts.$s",
+
+    //Fall
+    "Derya.Dialogue.fall_1": "Everyone's always raving about fall, but I don't get the appeal.$s#$b#I do like the spooky vibes, though.$h",
+    "Derya.Dialogue.fall_15": "It's physically impossible for Diala to beat me at the minigames tomorrow. Don't let her tell you otherwise.$u",
+    "Derya.Dialogue.fall_26": "Spooky maze!$u#$b#I'm excited for tomorrow.$u",
+
+    //Winter
+    "Derya.Dialogue.winter_1": "I put on three shirts and a jacket, so tell me, why am I still cold?$s",
+    "Derya.Dialogue.winter_7": "At this point, I have to bribe Diala into doing things with me.#$b#She's only going to the Ice Festival because I promised I'd make her some hot chocolate after.$u",
+    "Derya.Dialogue.winter_14": "The Night Market is probably one of my favorite events. I'm looking forward to it.$h",
+    "Derya.Dialogue.winter_16": "I got Diala a nerdy book. I remember seeing it on her list before, so I hope she enjoys it.$h",
+    "Derya.Dialogue.winter_24": "Just thinking about the feast tomorrow is making me hungry.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Derya.Dialogue.Mon": "Hey, @! Would you like a cookie?#$b#What? No, I didn't steal them from Diala.$a#$b#She actually made them specifically for me, so now you don't get a cookie.$h",
+    "Derya.Dialogue.Tue": "I hope your day's going better than mine is. I had to clean at least seven litter boxes earlier.$s",
+    "Derya.Dialogue.Wed": "I had a weird dream where one of our cats, Lily, was talking to me.$s#$b#She said some *very* unkind things.$s",
+    "Derya.Dialogue.Thu": "Hey, @. If you ever make any coffee, feel free to bring a cup or two my way.$h#$b#Diala is cutting me off. Apparently I 'drink too much'.$s",
+    "Derya.Dialogue.Fri": "I love Fridays. There's just... a nice vibe to them.#$b#Sorry, words are hard, so 'vibe' is all you're getting out of me today.$u",
+    "Derya.Dialogue.Sat": "Made breakfast today and decided that's enough productivity for the rest of the day.$u",
+    "Derya.Dialogue.Sun": "Living with a neurodivergent person is interesting. It's a little hard at first, I'm not gonna lie to you.#$b#But I try my best to adjust and communicate with her. She is my favorite person, after all.$u#$b#Don't tell her I said that.$a",
+
+    //2 hearts
+    "Derya.Dialogue.Mon2": "%Derya is grumbling to herself. Best to leave her alone.",
+    "Derya.Dialogue.Tue2": "Bean, one of the cats in our cafe, was separated from his litter way too early.$s#$b#He was sick for a long time, but was given lots of medical care.#$b#He's very healthy now, thankfully.",
+    "Derya.Dialogue.Wed2": "Diala learned something new and applied it to my birth chart. She's been super excited since then.$u",
+    "Derya.Dialogue.Thu2": "Diala called me an astronomy nerd.#$b#Jokes on her, we're *both* nerds. Our interests are literally connected.$u",
+    "Derya.Dialogue.Fri2": "I hung out with a friend last night so my social energy is at zero right now.$s#$b#Don't get me wrong, I love hanging out with them, but I also get drained way too fast around people.$s#$b#Doesn't happen with Diala, though. I wonder why.",
+    "Derya.Dialogue.Sat2": "Two of my sisters called me last night so I can solve a fight they were having.#$b#You know, they still live with my parents who can easily solve their fights, but I guess I'm still the parent to them despite moving all the way out here.$u",
+    "Derya.Dialogue.Sun2": "I'm a firm believer in the 'You have more than one soulmate.' saying.#$b#But I'm also being very impatient because what if I've found one of my soulmates already, but they don't have romantic feelings for me?$s#$b#Like, what if Dia-#$b#Nothing, ignore that. I was just rambling.$h",
+
+    //4 hearts
+    "Derya.Dialogue.Mon4": "Sorry, @. I didn't get any sleep last night, so I'm pretending people don't exist today.",
+    "Derya.Dialogue.Tue4": "I prepared breakfast for the cats. At some point, Chestnut climbed my back, reached my shoulders, and just sat there.$u#$b#I had to continue the feeding process with this cat vibing up there.",
+    "Derya.Dialogue.Wed4": "Diala tried to make me try sushi for years before I gave in.$u#$b#Now, it might just be one of my favorite things to eat.",
+    "Derya.Dialogue.Thu4": "Hey, do you wanna see this funny picture of Diala?$u#$b#I took it this morning.",
+    "Derya.Dialogue.Fri4": "Diala makes some really good dishes. You HAVE to come by for lunch someday.$u",
+    "Derya.Dialogue.Sat4": "Diala's witchcraft and spirituality practices mean that we get a lot of... paranormal activity in our house.$s#$b#I'm used to it at this point, but it was definitely scary at first.$u",
+    "Derya.Dialogue.Sun4": "Hey, @. I'm having a great day today.$h#$b#$y 'How's your day going?_Good!_That's nice.$h_Not that great._Oh man, I hope it gets better.$s' ",
+
+    //6 hearts
+    "Derya.Dialogue.Mon6": "Being non-binary has been interesting. I got asked by someone earlier, 'If you're non-binary, why aren't you androgynous?'.#$b#I rolled my eyes so hard, I saw my brain.$9",
+    "Derya.Dialogue.Tue6": "Hey, there's this cool documentary I found about habitable planets. Wanna watch it with me sometime?$h",
+    "Derya.Dialogue.Wed6": "I'm exposing myself before Diala tells you. Sometimes when it's 3 a.m. and I'm bored, I hang out downstairs and talk to the cats.#$b#They're entertaining! They give you the weirdest looks but they never judge you out loud.$h",
+    "Derya.Dialogue.Thu6": "Hey, @.$h#$b#$y 'Do you have any chickens on your farm?_Yes._Oh, hell yeah! Can I come play with them?$u_No._Oh, bummer.$s' ",
+    "Derya.Dialogue.Fri6": "Diala gave me a crystal this morning. Think it's called Black Tourmaline?#$b#She said it'd help me get through this retrograde.#$b#I'm not really sure what a retrograde is but I trust Diala.$h",
+    "Derya.Dialogue.Sat6": "Man, I wish I can still pull all-nighters. Teenage Derya could stay awake for 48 hours straight.#$b#Current Derya will start crying if they don't get at least eight hours of sleep every night.$s",
+    "Derya.Dialogue.Sun6": "%Derya has a mouthful of muffins. She waves at you.",
+
+    //8 hearts
+    "Derya.Dialogue.Mon8": "Hey, did you do something to your hair?$h#$b#You look good.$u",
+    "Derya.Dialogue.Tue8": "Hey, I made some pasta earlier. Saved some for you. [223]$h#$b#Oops, wait, that was a cookie. Here's the pasta. [224]$u",
+    "Derya.Dialogue.Wed8": "Look, I may lean more towards women and other non-binary people, but there's this actor on a show I'm watching...$4#$b#Man, he can definitely get it.$u",
+    "Derya.Dialogue.Thu8": "I did four weeks' worth of work in three hours last night.$6#$b#That was my one productive day this month.$u",
+    "Derya.Dialogue.Fri8": "If I have to experience one more paranormal thing in this house, I might just start crying.$10",
+    "Derya.Dialogue.Sat8": "You ever kinda forget to reply to people and feel guilty about it continuously?$s#$b#I think I have unread messages that go back at least four months.$s",
+    "Derya.Dialogue.Sun8": "Hey, I ordered some cute clothes for the cats. Wanna see?$h",
+
+    //10 hearts
+    "Derya.Dialogue.Mon10": "Hey, @.$h#$b#Wanna join Diala and I for lunch tomorrow? I'll make your favorite.$h",
+    "Derya.Dialogue.Tue10": "Hm, I wonder if Diala's free tomorrow.#$b#I've been planning a little road trip for us.$u",
+    "Derya.Dialogue.Wed10": "Oh, @! Ta-da! The result of my baking session. Enjoy! [651 223 234]$u",
+    "Derya.Dialogue.Thu10": "Hey, @. Know where I can take Diala sky-gazing around here?$h#$b#$y '..._Forest._Ooh, perfect. Thanks, @!$u_Beach._Ooh, perfect. Thanks, @!$u' ",
+    "Derya.Dialogue.Fri10": "Chestnut stepped on my chest while I was laying down on the floor.$10#$b#Chestnut is a big cat. I think he broke one of my ribs.$u",
+    "Derya.Dialogue.Sat10": "I finally managed to get some tickets for a play Diala was talking about a while back.$h#$b#She's gonna be so happy about this!$u",
+    "Derya.Dialogue.Sun10": "No one can ever catch me slipping.$6#$b#You saw me fall? No, you did not. I was just gracefully getting into a pose.$9",
+
+    //Other Dialogue
+    "Derya.Dialogue.MovieInvitation": "Movie! Yes, I'd love to go!$h",
+
+    //Resort Dialogue
+
+    //Vanilla
+    "Derya.Dialogue.Resort_Entering": "This is nice, huh?$h",
+    "Derya.Dialogue.Resort_Leaving": "Welp, this was nice while it lasted. Time to head home!$h",
+    "Derya.Dialogue.Resort_Shore": "Man, the view is incredible.$h#$b#And I say this as someone who really doesn't like being outdoors.",
+    "Derya.Dialogue.Resort_Chair": "I was gonna go explore for a bit but this is nice too.$h",
+    "Derya.Dialogue.Resort_Bar": "I just got some lemonade. Perfect for this weather.",
+    "Derya.Dialogue.Resort": "This is a pretty cool place. I do miss the cats, though.$h",
+
+    //GIMA
+    "Derya.Dialogue.Resort_IslandNorth": "Damn, suddenly very glad I put sunscreen on today.$u",
+    "Derya.Dialogue.Resort_Adventure": "Trying to convince Diala to go on an adventure and explore more of this island with me. Wish me luck.$u",
+    "Derya.Dialogue.Resort_Volcano": "Woah... I've never seen a volcano up close before!$u#$b#...It would be unfortunate if it erupts right after I said that.$10",
+    "Derya.Dialogue.Resort_Tent": "An archaeologist on such a small island, huh? Not sure how I feel about that.$12",
+
+    //Mobile Phone Responses
+    "MP.Greeting.Derya": "Well, hello there. How are you, @?",
+    "MP.Reminisce.Derya": "Hah, it's definitely fun to look back on our shenanigans.",
+    "MP.Goodbye.Derya": "Talk to you later! Drop by the cafe when you've got time.",
+
+    //Moon Special Dialogue
+    "Moon.EngagedRoommate": "...!$u#$b#You want Moon to live with you? Yes, of course!$u#$b#But you have to promise to let Moon take all the muffins you make.$h#$b#Give me a few days to say goodbye to Diala and Derya.",
+    "Moon.NoTheater": "Hm, sorry, @. I don't know if I want to yet.$s",
+    "Moon.Engagement0": "Moon can get her own room to decorate now? Friend helps Moon?$u",
+    "Moon.Engagement1": "Moon has to show Diala and Derya her room when it's done!$h",
+    
+    //Moon
+    "Moon.Dialogue.Introduction": "...You can see Moon! You saw Moon at bridge!$u#$b#Moon learns about astrology from Diala. Please don't tell anyone.$4",
+
+    //Spring
+    "Moon.Dialogue.spring_1": "Moon likes spring. Flowers pretty.$h",
+    "Moon.Dialogue.spring_12": "Moon can play egg hunt tomorrow?$u",
+    "Moon.Dialogue.spring_23": "Moon dance tomorrow, maybe?$h",
+
+    //Summer
+    "Moon.Dialogue.summer_1": "...Moon doesn't like summer.$s",
+    "Moon.Dialogue.summer_10": "Moon goes to festival tomorrow! Moon only looks around.$h",
+    "Moon.Dialogue.summer_27": "Jellies! Tomorrow jellies!$h",
+
+    //Fall
+    "Moon.Dialogue.fall_1": "Fall is okay. Moon likes fall.",
+    "Moon.Dialogue.fall_15": "Moon can't play minigames tomorrow.$s",
+    "Moon.Dialogue.fall_26": "Moon sees monsters tomorrow!$u",
+
+    //Winter
+    "Moon.Dialogue.winter_1": "Moon is cold.$s#$b#Maybe Moon borrow jacket from Diala?#$b#No, jacket too big.$s",
+    "Moon.Dialogue.winter_7": "Moon doesn't like ice. But Moon goes to festival tomorrow.$s",
+    "Moon.Dialogue.winter_14": "Moon sneaks on boats tomorrow!$h",
+    "Moon.Dialogue.winter_16": "Moon found crystal!#$b#Moon can't buy crystal.$s",
+    "Moon.Dialogue.winter_24": "Moon likes food and gifts. Moon excited for tomorrow.$h",
+
+    //Days of The Week
+
+    //0 hearts
+    "Moon.Dialogue.Mon": "%Moon glares at you.#$b#Moon friend, but Moon also suspicious of you.#$b#Don't take it personally.",
+    "Moon.Dialogue.Tue": "Moon read about retrogrades!$h#$b#Diala has so many notes.",
+    "Moon.Dialogue.Wed": "Hmm... you didn't tell other humans about Moon?#$b#Good!$h",
+    "Moon.Dialogue.Thu": "Hi, @!#$b#$y 'Do you have other junimo friends?_Yes._Woah! Moon can be friends with other junimos, yes?$u_No._Aw, Moon misses having other junimo friends.$s' ",
+    "Moon.Dialogue.Fri": "Moon took a cookie from Diala.#$b#Diala thought it was Derya, hehe.$h",
+    "Moon.Dialogue.Sat": "Moon knows what planets are!$h#$b#Moon studies hard!$h",
+    "Moon.Dialogue.Sun": "Hmm... You have muffins?#$b#Moon loves muffins!$h",
+
+    //2 hearts
+    "Moon.Dialogue.Mon2": "Moon likes the Moon. Moon pretty.$4",
+    "Moon.Dialogue.Tue2": "Moon pranked the Mayor.$h#$b#Moon took his paperwork.#$b#Moon gave them back later, though.$h",
+    "Moon.Dialogue.Wed2": "%Moon's reciting something to herself. Best to leave her alone.",
+    "Moon.Dialogue.Thu2": "Moon wonders if other humans can see her. Wizard can!#$b#Wizard friend. Moon likes pranking Wizard.$h",
+    "Moon.Dialogue.Fri2": "Moon busy today. No talking.",
+    "Moon.Dialogue.Sat2": "Moon hisses at cat.$a#$b#Cat is angry.$s",
+    "Moon.Dialogue.Sun2": "Moon found coconut! Here! [88]$h",
+
+    //4 hearts
+    "Moon.Dialogue.Mon4": "Moon doesn't have birth chart.$s#$b#Moon makes one up!$h",
+    "Moon.Dialogue.Tue4": "Moon learned about lunar nodes!$h",
+    "Moon.Dialogue.Wed4": "Moon likes you, kind of.$h",
+    "Moon.Dialogue.Thu4": "Moon looked at Diala's notes about career.#$b#Moon would be good teacher!$h",
+    "Moon.Dialogue.Fri4": "Look! Behind you!$u#$b#%You look behind you.#$b#Haha, Moon got you!$h",
+    "Moon.Dialogue.Sat4": "Moon makes protection spell!$h#$b#Moon protects Diala and Derya, too.$4",
+    "Moon.Dialogue.Sun4": "Hi! Moon busy. Moon talks to friend later.$h",
+
+    //6 hearts
+    "Moon.Dialogue.Mon6": "Hmm... maybe Moon gets hat?",
+    "Moon.Dialogue.Tue6": "Moon saw Diala cry.$s#$b#Moon hopes Diala is okay.$s",
+    "Moon.Dialogue.Wed6": "Moon eats peach! Peach is nice.$h",
+    "Moon.Dialogue.Thu6": "Moon happy today. Moon watch Diala make notes.$h",
+    "Moon.Dialogue.Fri6": "Moon uses Derya's telescope?$u#$b#But Moon too small.$s#$b#You carry Moon?$u",
+    "Moon.Dialogue.Sat6": "@, you're Moon's friend. Moon appreciates you.$h",
+    "Moon.Dialogue.Sun6": "Moon friends with Miu, the cat!$h",
+
+    //8 hearts
+    "Moon.Dialogue.Mon8": "Moon has a very big book of astrology notes!$h#$b#Moon proud.$4",
+    "Moon.Dialogue.Tue8": "@, Moon brought gift! [84]$h",
+    "Moon.Dialogue.Wed8": "Anyone makes @ upset? Moon fights them.$a",
+    "Moon.Dialogue.Thu8": "Diala and Derya watched movie. Moon watched with them.$h",
+    "Moon.Dialogue.Fri8": "Moon fell in the cafe.$s#$b#Moon knows the cats laughed.$a",
+    "Moon.Dialogue.Sat8": "Can Moon give friend a hug?$h#$b#$y 'Let Moon hug you?_Yes._%Moon clings to your leg._No._That's okay. Moon respects friend's wishes.$h' ",
+    "Moon.Dialogue.Sun8": "Woo! @, want to see Moon jump? Moon jumps high!$h",
+
+    //10 hearts
+    "Moon.Dialogue.Mon10": "Moon happy to be friends with you and Diala!$4",
+    "Moon.Dialogue.Tue10": "@! @! Diala taught Moon more about houses in astrology!$h",
+    "Moon.Dialogue.Wed10": "Moon ate spaghetti. Moon happy.$h",
+    "Moon.Dialogue.Thu10": "Moon and Diala pranked Derya, hehe.$h",
+    "Moon.Dialogue.Fri10": "Moon played with cats. Cats like Moon.$h",
+    "Moon.Dialogue.Sat10": "Friend wants to play with Moon, yes?$u",
+    "Moon.Dialogue.Sun10": "%Moon seems to be busy.#$b#@! Moon talks to you later, promise!$h",
+
+    //Moon Roommate Dialogue
+
+    //Specific Dates
+    "Moon.Roommate.Dialogue.spring_1": "Finally not winter anymore!$u#$b#Moon likes spring.$4",
+    "Moon.Roommate.Dialogue.spring_12": "@ wins the egg hunt tomorrow and gives Moon the prize?$u",
+    "Moon.Roommate.Dialogue.spring_23": "@! You want to dance with Moon tomorrow?$h",
+
+    "Moon.Roommate.Dialogue.summer_1": "It's so hot already.$s#$b#%Moon fans herself with a small leaf.",
+    "Moon.Roommate.Dialogue.summer_10": "Moon puts something in the soup tomorrow!$u#$b#Maybe something from %farm?$h",
+    "Moon.Roommate.Dialogue.summer_27": "@ watches jellies with Moon tomorrow, yes.$h",
+
+    "Moon.Roommate.Dialogue.fall_1": "Moon goes to play in the pile of leaves!$u",
+    "Moon.Roommate.Dialogue.fall_15": "@, you play minigames with Moon tomorrow?$h#$b#Moon wants to win prize!$u",
+    "Moon.Roommate.Dialogue.fall_26": "...Moon doesn't want to go in the maze tomorrow. Moon stays outside.$s",
+
+    "Moon.Roommate.Dialogue.winter_1": "Brrr... Moon is cold.$s",
+    "Moon.Roommate.Dialogue.winter_7": "Moon slides on ice tomorrow.$u#$b#Good luck with the contest!$h",
+    "Moon.Roommate.Dialogue.winter_14": "Night market tomorrow!$u#$b#Moon gets something cool for @!$h#$b#Moon will pay for it, promise.$h",
+    "Moon.Roommate.Dialogue.winter_16": "Moon found so many cool things! You wanna see?$u",
+    "Moon.Roommate.Dialogue.winter_24": "Moon will eat so much tomorrow!$u",
+
+    //Seasonal Dialogue
+    "Moon.Roommate.Dialogue.spring": "Moon likes spring because it brings cute flowers!$u",
+    "Moon.Roommate.Dialogue.summer": "%Moon sighs and fans herself.",
+    "Moon.Roommate.Dialogue.fall": "Fall is pretty. Not as pretty as spring, though.$h",
+    "Moon.Roommate.Dialogue.winter": "%Moon clings to your leg.#$b#Hmm... warmth.$h",
+
+    //Patio Dialogue
+    "Moon.Roommate.patio_1": "Moon likes hanging out here.$h",
+    "Moon.Roommate.patio_2": "Hmm... maybe %pet wants to play with Moon?$u",
+    "Moon.Roommate.patio_3": "%Moon seems to be enjoying her time outside.",
+    "Moon.Roommate.patio_4": "@, you want to hang out with Moon for a little bit?$h",
+
+    //Spouse Room Dialogue
+    "Moon.Roommate.spouseroom_1": "Shh, Moon is reading right now.$h",
+    "Moon.Roommate.spouseroom_2": "Moon should go see Diala soon! Moon still has a lot to learn.$h",
+    "Moon.Roommate.spouseroom_3": "@, you want to know what Moon just learned?$u#$b#%Moon proceeds to ramble about the hemisphere of the houses in astrology.",
+    "Moon.Roommate.spouseroom_4": "Moon wants to finish reading this book today.$h",
+
+    //Indoor Dialogue
+    "Moon.Roommate.Indoor_Day_0": "Moon made coffee for @! [395]$u#$b#%The coffee is cold. You ask Moon if she took this from the cat cafe. She pretends she didn't hear you.",
+    "Moon.Roommate.Indoor_Day_1": "%Moon looks at you nervously.#$b#@, will you teach Moon how to cook?$4#$b#Moon wants to make good food!$h#$b#...And muffins.$h",
+    "Moon.Roommate.Indoor_Day_2": "Moon is really happy to be your roommate!$h#$b#@ has been a good friend.#$b#...*gasp* Not friend, best friend!$u",
+    "Moon.Roommate.Indoor_Day_3": "Moon is going to learn how to knit today!$u",
+    "Moon.Roommate.Indoor_Day_4": "Hey, @... would you be mad if Moon accidentally brought a ghost into the house?$s#$b#No, no reason... just curious.$4",
+    "Moon.Roommate.Indoor_Day_5": "Hmm... maybe if Moon focuses hard enough she can make @ some coffee.$a#$b#...Moon looks angry? No, this is Moon's focused face.",
+
+    "Moon.Roommate.Indoor_Night_0": "How was your day?$h#$b#Moon walked around the farm.$u#$b#Legs hurt now. Too much bouncing.$s",
+    "Moon.Roommate.Indoor_Night_1": "Moon made muffin today!$u#$b#%Moon hands you a muffin. It looks... charred. You take a bite to make Moon happy.",
+    "Moon.Roommate.Indoor_Night_2": "Moon read a whole book today!$u#$b#Head hurts a little.$s",
+    "Moon.Roommate.Indoor_Night_3": "Moon couldn't knit. Hands too small.$s",
+    "Moon.Roommate.Indoor_Night_4": "%Moon seems to be shooing something away.#$b#O-oh! @ is back!$4#$b#Nothing suspicious going on here.$h",
+    "Moon.Roommate.Indoor_Night_5": "Moon made coffee!$u#$b#Moon drank it all! Moon has so much energy!$u",
+
+    //Rainy Dialogue
+    "Moon.Roommate.Rainy_Day_0": "Moon gets soaked in the rain.$s#$b#Maybe Moon uses a leaf as an umbrella!$u",
+    "Moon.Roommate.Rainy_Day_1": "Make sure you stay warm! Moon doesn't want you to get sick.$h",
+    "Moon.Roommate.Rainy_Day_2": "Ooh, maybe Moon and @ can watch a movie and drink hot chocolate today?$u",
+    "Moon.Roommate.Rainy_Day_3": "Moon made some tea! [614]#$b#Moon likes taking care of @.$h",
+    "Moon.Roommate.Rainy_Day_4": "Maybe Moon takes %pet outside to jump in the puddles!$u",
+    "Moon.Roommate.Rainy_Day_5": "Moon doesn't mind the rain. Thunder is scary, though.$s#$b#%Moon clings to your leg.",
+
+    "Moon.Roommate.Rainy_Night_0": "@ is back!$h#$b#%Moon struggles to lift a towel to give to you.",
+    "Moon.Roommate.Rainy_Night_1": "Moon got so much done today!$u#$b#...Okay, Moon mostly spent the day playing with %pet.$4",
+    "Moon.Roommate.Rainy_Night_2": "Ooh, does @ want to sit under the blanket and watch cat videos with Moon?$u",
+    "Moon.Roommate.Rainy_Night_3": "Oh no, you're soaked!$s#$b#Do you want Moon to get you a towel to dry off?$h",
+    "Moon.Roommate.Rainy_Night_4": "How was your day?$h#$b#Moon missed you! Moon wants to hang out!$u",
+    "Moon.Roommate.Rainy_Night_5": "Moon stayed home and did some reading!$h#$b#Moon also baked!$u#$b#Sorry, it's all gone.$s",
+
+    //Kids Dialogue
+    "Moon.Roommate.OneKid_0": "Moon played with %kid1 today!$h",
+    "Moon.Roommate.OneKid_1": "%kid1 made a mess earlier.$s#$b#It's okay, though. Moon cleaned it up and gave them a toy to play with.$h#$b#Are you proud of Moon?$u",
+    "Moon.Roommate.OneKid_2": "Moon can carry %kid1! Moon strong!$u#$b#%Moon proceeds to lift up the child above her head.",
+
+    "Moon.Roommate.TwoKids_0": "%kid1 and %kid2 cornered Moon today.$s#$b#It's okay, though. They're just playing, hehe.$h",
+    "Moon.Roommate.TwoKids_1": "Moon made food for %kid1 and %kid2... they spat it out.$s#$b#Maybe Moon needs to improve her cooking skills. Moon makes better food to make them happy.$u",
+    "Moon.Roommate.TwoKids_2": "@! Moon played with %kid1, %kid2, and %pet today!$u#$b#It was fun! You should join us next time.$h",
+
+    //Good/Neutral/Bad Dialogue
+    "Moon.Roommate.Good_0": "Moon is so glad she met you.$4#$b#Thank you for supporting Moon all the time.$h#$b#Moon supports @, too.$h",
+    "Moon.Roommate.Good_1": "%Moon reaches out to hold your hand.#$b#Want to go on a walk with Moon?$u",
+    "Moon.Roommate.Good_2": "Moon got help from Diala to make this for you! [223 651 211]$h#$b#Moon hopes you enjoy them, they're made with love.$4",
+    "Moon.Roommate.Good_3": "Moon found a good recipe for cake! Coconut cake!$u#$b#Does @ want to help Moon make it?$h",
+    "Moon.Roommate.Good_4": "Moon learned how to make good protection spells!$u#$b#Moon protects @ and our house.$4",
+    "Moon.Roommate.Good_5": "Moon went to play with the cats at the cafe!$h#$b#Derya played with us too.",
+    "Moon.Roommate.Good_6": "Moon made this for @! [403]$h#$b#It should give you some energy to finish your chores.$h",
+    "Moon.Roommate.Good_7": "Does @ want to read the comic Moon bought?$u#$b#It has superheroes! They can fly!$u",
+    "Moon.Roommate.Good_8": "%Moon seems to be reading something off of a paper.#$b#Oh, @! Moon is studying today.$h",
+    "Moon.Roommate.Good_9": "Do you wanna play hide and seek with Moon?$u#$b#Moon promises she will go easy on you.$h",
+
+    "Moon.Roommate.Neutral_0": "Moon went to the library today. So many people there.$u#$b#Not everyone can see Moon, though.$s",
+    "Moon.Roommate.Neutral_1": "Moon doesn't really feel like learning anything new today.$s#$b#Maybe Moon goes to hang out with Diala...$s",
+    "Moon.Roommate.Neutral_2": "Moon got this for @, it should help when you're working. [351]$h",
+    "Moon.Roommate.Neutral_3": "Hmm... maybe Moon goes out today. Moon is bored.$s",
+    "Moon.Roommate.Neutral_4": "Moon likes hanging out in the forest. So many butterflies there!$u",
+    "Moon.Roommate.Neutral_5": "Would you like Moon to help out with the farm more?#$b#Moon can't do much, but a little help can't hurt.$h",
+    "Moon.Roommate.Neutral_6": "Moon wants to go for a walk tonight, does @ wanna come with?$4",
+    "Moon.Roommate.Neutral_7": "Moon burnt the cookies she made. This is bad.$s",
+    "Moon.Roommate.Neutral_8": "Moon found another junimo friend in the forest!$h",
+
+    "Moon.Roommate.Bad_0": "...$a#$b#%Moon seems to be ignoring you.",
+    "Moon.Roommate.Bad_1": "Maybe Moon should've stayed with Diala and Derya...$s#$b#%Moon mumbles something about them appreciating her more.",
+    "Moon.Roommate.Bad_2": "Moon has no motivation to learn anymore. This was Moon's dream... now it's gone.$s",
+    "Moon.Roommate.Bad_3": "Don't talk to Moon. You never want to hang out anymore.$s#$b#...Do you not like Moon anymore?$s",
+    "Moon.Roommate.Bad_4": "Maybe Moon should've never become an astrologer. Waste of time.$s",
+    "Moon.Roommate.Bad_5": "@ hurt Moon.$s#$b#Moon trusted @.$s",
+    "Moon.Roommate.Bad_6": "Moon might sleep over at Diala and Derya's today. Moon can't stand being here.$a",
+    "Moon.Roommate.Bad_7": "%Moon is avoiding you. Best to leave her alone for now.",
+    "Moon.Roommate.Bad_8": "Diala taught Moon to always communicate. Moon deserves someone who will communicate with her.$s",
+    "Moon.Roommate.Bad_9": "Please leave Moon alone. Moon is tired.$s",
+
+    //Funleave and Funreturn Dialogue
+    "Moon.Roommate.funReturn_1": "@! Moon is back!$h#$b#Moon helped Diala with the cafe today!$u",
+    "Moon.Roommate.funReturn_2": "Phew, Moon is so tired from walking.$s#$b#Moon goes to lie down.$h",
+    "Moon.Roommate.funReturn_3": "@! Moon saw so many cool things today!$u#$b#Get changed so Moon can tell you all about it.$h",
+
+    "Moon.Roommate.funLeave_1": "Moon is going over to the cafe today. Maybe watch a movie with Diala and Derya!$u",
+    "Moon.Roommate.funLeave_2": "Moon might go on a walk today, do you want Moon to bring anything back with her?$h",
+    "Moon.Roommate.funLeave_3": "Moon is going out to explore more of the forest!$u#$b#Moon will be back later tonight. You take care of yourself for Moon, okay?$h",
+
+    //Resort Dialogue
+
+    //Vanilla
+    "Moon.Dialogue.Resort_Entering": "Moon snuck on boat! Moon vacation!$h",
+    "Moon.Dialogue.Resort_Leaving": "Aw, Moon doesn't want to leave.$s",
+    "Moon.Dialogue.Resort_Shore": "Moon likes water. Moon scared to drown, though.",
+    "Moon.Dialogue.Resort_Chair": "Moon sits! Moon hopes no one sits on her.$s",
+    "Moon.Dialogue.Resort_Bar": "Moon drinks water only!$h",
+    "Moon.Dialogue.Resort": "Moon likes this place.$h",
+
+    //GIMA
+    "Moon.Dialogue.Resort_IslandNorth": "Bird picked up Moon and flew. Moon did not have fun.$s",
+    "Moon.Dialogue.Resort_Adventure": "Adventure time! Adventure time!$u",
+    "Moon.Dialogue.Resort_Volcano": "@! Take Moon into the volcano! Moon explores!$u",
+    "Moon.Dialogue.Resort_Tent": "So cool! Moon wants to learn more about this place.$h",
+
+    //Mobile Phone Responses
+    "MP.Greeting.Moon": "Ooh! Hello, friend!",
+    "MP.Reminisce.Moon": "Heh, Moon enjoys thinking about the memories she made with you.",
+    "MP.Goodbye.Moon": "Bye, @! Moon can't wait to see you again soon.",
+
+    //Reihana
+    "Reihana.Dialogue.Introduction": "Oh, great. More people talking to me. Yes, I'm an actual demon. No, I won't possess you.$7#$b#...Oh, you're just introducing yourself?$3#$b#No thanks, have a good day.$h",
+
+    //Spring
+    "Reihana.Dialogue.spring_1": "I can't believe I'm allergic to flowers. This is what I get for coming to this town.$s#$b#Nay, summoned to this town.$7",
+    "Reihana.Dialogue.spring_12": "An... egg hunt? I can't believe I'm saying this, but this isn't the weirdest thing humans have done.$h#$b#You definitely won't catch me there tomorrow, though.",
+    "Reihana.Dialogue.spring_23": "I truly don't think the kind of dancing I enjoy would be appropriate for tomorrow's festival.$8#$b#Maybe I'll just watch to see if someone makes a fool out of themselves.$h",
+
+    //Summer
+    "Reihana.Dialogue.summer_1": "Hm? No, I don't think it's that hot. I've been to places much, much hotter.$6",
+    "Reihana.Dialogue.summer_10": "A communal soup? At this point you're just asking for food poisoning.$8",
+    "Reihana.Dialogue.summer_27": "Jellyfish? Now this is a festival I can get behind.$h#$b#Just gotta find myself a spot away from the villagers and the... couples.$7",
+
+    //Fall
+    "Reihana.Dialogue.fall_1": "Hm, I wonder if Ari has any pumpkin spice.$12#$b#That's one of the few things humans deserve praise for.$6",
+    "Reihana.Dialogue.fall_15": "Man, I want to play the minigames tomorrow, but I don't want to deal with all the 'Gasp! A demon!' comments.$7#$b#I don't bite.$7#$b#...Hard.$11",
+    "Reihana.Dialogue.fall_26": "Ooh, tomorrow's festival is my JAM.$h#$b#I'm gonna scare so many people.$8",
+
+    //Winter
+    "Reihana.Dialogue.winter_1": "Ugh, I hate this season with a passion.$s",
+    "Reihana.Dialogue.winter_7": "I'd hate to miss out on seeing people slip and fall on the ice tomorrow.$8",
+    "Reihana.Dialogue.winter_14": "A market, huh? Sounds kinda boring, I won't lie.$3",
+    "Reihana.Dialogue.winter_24": "Hmph, worst festival award goes to tomorrow's winter star thing.$13#$b#Don't expect to see me there. It's not like I have anyone to gift or get a gift from.$7",
+
+    //Days of The Week
+
+    //0 hearts
+    "Reihana.Dialogue.Mon": "Ugh, Mondays, am I right?$12#$b#What? This is what you all sound like.$8",
+    "Reihana.Dialogue.Tue": "Ah, you again.$3#$b#I was really hoping I'd look unapproachable but here you are.",
+    "Reihana.Dialogue.Wed": "Alright, if I give you this cookie I stole from the cat cafe, will you leave me alone?$3#$b#Ugh, here. [223]$13",
+    "Reihana.Dialogue.Thu": "People here in the village avoid me like the plague, so how come you keep continuously talking to me?$3",
+    "Reihana.Dialogue.Fri": "That blue junimo bouncing around annoys me.$13#$b#%Rei mumbles to herself.#$b#Would it hurt if I squish her a little?$12",
+    "Reihana.Dialogue.Sat": "The urge to crawl back into bed is so strong.$s",
+    "Reihana.Dialogue.Sun": "Diala keeps talking to me which I find very odd.$13#$b#Her little girlfriend is a coward though. I enjoy watching her squirm when I'm around.$h",
+
+    //2 hearts
+    "Reihana.Dialogue.Mon2": "I've spent eons around humans and the one thing that still confuses me is the way they complain about things and then refuse help.$7",
+    "Reihana.Dialogue.Tue2": "%Rei is pretending she doesn't see you.",
+    "Reihana.Dialogue.Wed2": "Placeholder.",
+    "Reihana.Dialogue.Thu2": "Placeholder.",
+    "Reihana.Dialogue.Fri2": "Placeholder.",
+    "Reihana.Dialogue.Sat2": "Placeholder.",
+    "Reihana.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Reihana.Dialogue.Mon4": "Placeholder.",
+    "Reihana.Dialogue.Tue4": "Placeholder.",
+    "Reihana.Dialogue.Wed4": "Placeholder.",
+    "Reihana.Dialogue.Thu4": "Placeholder.",
+    "Reihana.Dialogue.Fri4": "Placeholder.",
+    "Reihana.Dialogue.Sat4": "Placeholder.",
+    "Reihana.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Reihana.Dialogue.Mon6": "Placeholder.",
+    "Reihana.Dialogue.Tue6": "Placeholder.",
+    "Reihana.Dialogue.Wed6": "Placeholder.",
+    "Reihana.Dialogue.Thu6": "Placeholder.",
+    "Reihana.Dialogue.Fri6": "Placeholder.",
+    "Reihana.Dialogue.Sat6": "Placeholder.",
+    "Reihana.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Reihana.Dialogue.Mon8": "Placeholder.",
+    "Reihana.Dialogue.Tue8": "Placeholder.",
+    "Reihana.Dialogue.Wed8": "Placeholder.",
+    "Reihana.Dialogue.Thu8": "Placeholder.",
+    "Reihana.Dialogue.Fri8": "Placeholder.",
+    "Reihana.Dialogue.Sat8": "Placeholder.",
+    "Reihana.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Reihana.Dialogue.Mon10": "Placeholder.",
+    "Reihana.Dialogue.Tue10": "Placeholder.",
+    "Reihana.Dialogue.Wed10": "Placeholder.",
+    "Reihana.Dialogue.Thu10": "Placeholder.",
+    "Reihana.Dialogue.Fri10": "Placeholder.",
+    "Reihana.Dialogue.Sat10": "Placeholder.",
+    "Reihana.Dialogue.Sun10": "Placeholder.",
+
+    //Aicha
+    "Aicha.Dialogue.Introduction": "Placeholder.",
+
+    //Spring
+    "Aicha.Dialogue.spring_1": "Placeholder.",
+    "Aicha.Dialogue.spring_12": "Placeholder.",
+    "Aicha.Dialogue.spring_23": "Placeholder.",
+
+    //Summer
+    "Aicha.Dialogue.summer_1": "Placeholder.",
+    "Aicha.Dialogue.summer_10": "Placeholder.",
+    "Aicha.Dialogue.summer_27": "Placeholder.",
+
+    //Fall
+    "Aicha.Dialogue.fall_1": "Placeholder.",
+    "Aicha.Dialogue.fall_15": "Placeholder.",
+    "Aicha.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Aicha.Dialogue.winter_1": "Placeholder.",
+    "Aicha.Dialogue.winter_7": "Placeholder.",
+    "Aicha.Dialogue.winter_14": "Placeholder.",
+    "Aicha.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Aicha.Dialogue.Mon": "Placeholder.",
+    "Aicha.Dialogue.Tue": "Placeholder.",
+    "Aicha.Dialogue.Wed": "Placeholder.",
+    "Aicha.Dialogue.Thu": "Placeholder.",
+    "Aicha.Dialogue.Fri": "Placeholder.",
+    "Aicha.Dialogue.Sat": "Placeholder.",
+    "Aicha.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Aicha.Dialogue.Mon2": "Placeholder.",
+    "Aicha.Dialogue.Tue2": "Placeholder.",
+    "Aicha.Dialogue.Wed2": "Placeholder.",
+    "Aicha.Dialogue.Thu2": "Placeholder.",
+    "Aicha.Dialogue.Fri2": "Placeholder.",
+    "Aicha.Dialogue.Sat2": "Placeholder.",
+    "Aicha.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Aicha.Dialogue.Mon4": "Placeholder.",
+    "Aicha.Dialogue.Tue4": "Placeholder.",
+    "Aicha.Dialogue.Wed4": "Placeholder.",
+    "Aicha.Dialogue.Thu4": "Placeholder.",
+    "Aicha.Dialogue.Fri4": "Placeholder.",
+    "Aicha.Dialogue.Sat4": "Placeholder.",
+    "Aicha.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Aicha.Dialogue.Mon6": "Placeholder.",
+    "Aicha.Dialogue.Tue6": "Placeholder.",
+    "Aicha.Dialogue.Wed6": "Placeholder.",
+    "Aicha.Dialogue.Thu6": "Placeholder.",
+    "Aicha.Dialogue.Fri6": "Placeholder.",
+    "Aicha.Dialogue.Sat6": "Placeholder.",
+    "Aicha.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Aicha.Dialogue.Mon8": "Placeholder.",
+    "Aicha.Dialogue.Tue8": "Placeholder.",
+    "Aicha.Dialogue.Wed8": "Placeholder.",
+    "Aicha.Dialogue.Thu8": "Placeholder.",
+    "Aicha.Dialogue.Fri8": "Placeholder.",
+    "Aicha.Dialogue.Sat8": "Placeholder.",
+    "Aicha.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Aicha.Dialogue.Mon10": "Placeholder.",
+    "Aicha.Dialogue.Tue10": "Placeholder.",
+    "Aicha.Dialogue.Wed10": "Placeholder.",
+    "Aicha.Dialogue.Thu10": "Placeholder.",
+    "Aicha.Dialogue.Fri10": "Placeholder.",
+    "Aicha.Dialogue.Sat10": "Placeholder.",
+    "Aicha.Dialogue.Sun10": "Placeholder.",
+
+    //Amina
+    "Amina.Dialogue.Introduction": "Oh... I don't think I've seen you before.$3#$b#Do you also grow flowers like my grandma does?$4",
+
+    //Spring
+    "Amina.Dialogue.spring_1": "Spring is my favorite season because my grandma is always excited to garden again.$h",
+    "Amina.Dialogue.spring_12": "I always participate in the egg hunt but I don't find too many eggs.$s#$b#Maybe I will this year!$h",
+    "Amina.Dialogue.spring_23": "My mom bought me a pretty dress from Ezra's store for the flower dance!$3#$b#I can't wait to show Jas.$h",
+
+    //Summer
+    "Amina.Dialogue.summer_1": "Hmm... maybe I should get ice cream with Jas and Vincent.",
+    "Amina.Dialogue.summer_10": "My mom says we shouldn't have the soup tomorrow. I really want to try it, though.$s",
+    "Amina.Dialogue.summer_27": "My grandma and I are going to see the jellies tomorrow! Are you going to be there, @?$3",
+
+    //Fall
+    "Amina.Dialogue.fall_1": "My grandma is making a pie today!$h",
+    "Amina.Dialogue.fall_15": "Jas says there will be games at the fair tomorrow!$3#$b#I'm excited.#4",
+    "Amina.Dialogue.fall_26": "I'm not going to the festival tomorrow... I won't be able to sleep if I do.$s",
+
+    //Winter
+    "Amina.Dialogue.winter_1": "Grandma Miyoung is going to knit me a pretty scarf!$h",
+    "Amina.Dialogue.winter_14": "A market is coming to the beach!$3#$b#Mom is taking me to see the fishies!$h",
+    "Amina.Dialogue.winter_24": "Are you going to the feast tomorrow?$3#$b#Mom and grandma always get me gifts to celebrate.$h",
+
+    //Days of The Week
+
+    //0 hearts
+    "Amina.Dialogue.Mon": "Hi, @! Derya said she'd tutor me soon!$4#$b#I don't like math but she makes it very easy to understand.$3",
+    "Amina.Dialogue.Tue": "I want to get strong like mom so I can help grandma around the store and the house.$4",
+    "Amina.Dialogue.Wed": "Jas said I can come over soon so we can play together.$h#$b#She said she'd show me all the cows in Aunt Marnie's ranch.$4",
+    "Amina.Dialogue.Thu": "Have you been to the Sunberry Forest before?$3#$b#Mom says I shouldn't go alone but there are SO many cute bunnies!$3",
+    "Amina.Dialogue.Fri": "I wish we had a mall like they do in the city.$3",
+    "Amina.Dialogue.Sat": "I saw a blue... creature near Diala and Derya's Cafe. It ran away when I followed it.$3",
+    "Amina.Dialogue.Sun": "Grandma was teaching me about flower arrangement!$h",
+
+    //2 hearts
+    "Amina.Dialogue.Mon2": "Hello! How are you today?$4#$b#Grandma Miyoung baked a cake for me! It was delicious.$h",
+    "Amina.Dialogue.Tue2": "Miss Penny is teaching us how to draw.$4#$b#I like it a lot!$h",
+    "Amina.Dialogue.Wed2": "Did you know there was a cave up in the Sunberry Mountains? I saw it when I was going with mom to work.$3",
+    "Amina.Dialogue.Thu2": "I wish I could see my dad more often.$s#$b#Mom says he's busy at work but he's always thinking about me and missing me just as much.$3",
+    "Amina.Dialogue.Fri2": "Hehe, Vincent and I got some candy earlier. Jas scared him and told him his mom was behind him.$h",
+    "Amina.Dialogue.Sat2": "My grandma grows very pretty flowers, have you seen them before?$3",
+    "Amina.Dialogue.Sun2": "I like playing on the swings. Sometimes, Lyenne and Blake push me so I can go higher!$h",
+
+    //4 hearts
+    "Amina.Dialogue.Mon4": "My dad is a pilot! He gets to go everywhere.$3#$b#He said he'd take me with him someday.$h",
+    "Amina.Dialogue.Tue4": "Ezra's store has so many cute hats! Maybe I can get my mom to buy me one.$3",
+    "Amina.Dialogue.Wed4": "My mom works really hard. I wish she can rest more.$s",
+    "Amina.Dialogue.Thu4": "Diala and Derya let me pet the cats at the cafe. They're so friendly!$3#$b#...The cats, of course. But also Diala and Derya.$h",
+    "Amina.Dialogue.Fri4": "Did you see the ducks in the water? Grandma and I feed them when we can.$h",
+    "Amina.Dialogue.Sat4": "I bought some cheese from Mr. Ari so I can help grandma make some cheese cauliflower!$h#$b#It's her favorite.",
+    "Amina.Dialogue.Sun4": "Mom said we're going to the city soon! Do you wanna come with us?$3",
+
+    //6 hearts
+    "Amina.Dialogue.Mon6": "Hey, @, do you ever get sad?$3#$b#Sometimes, I miss my dad and I get sad. I wish he could be with us in the village.$s",
+    "Amina.Dialogue.Tue6": "Can I see your farm?$3#$b#I promise I'll be good!$h",
+    "Amina.Dialogue.Wed6": "Sometimes, I see squiggly worms in the ground.$3#$b#I wonder what they are.$3",
+    "Amina.Dialogue.Thu6": "Grandpa Silas promised to tell me stories when he's done with work!$3",
+    "Amina.Dialogue.Fri6": "Have you heard the legend of how our village came to be?$3#$b#My grandma told me once. I only remember that it involved two goddesses.$3",
+    "Amina.Dialogue.Sat6": "Miss Penny asked us what we wanted to be when we grow up.$3#$b#I'm not sure what I want to be, and mom says that's okay.$h",
+    "Amina.Dialogue.Sun6": "Jas let me borrow one of her toys, so I gave her one of grandma's flowers.$h#$b#A fairy rose! It's her favorite.$4",
+
+    //8 hearts
+    "Amina.Dialogue.Mon8": "My mom says we should always tell the people we love how much we love them.$3#$b#So, thank you for being a good friend to me. Here's a cake my grandma helped me bake.  [221]$h",
+    "Amina.Dialogue.Tue8": "Mom bought me a new sketchbook!$3#$b#I really like drawing.$4",
+    "Amina.Dialogue.Wed8": "Mr. Clint was helping mom with a new project!$3",
+    "Amina.Dialogue.Thu8": "I'm not sure why my dad doesn't want to be here with me and mom...$s#$b#I miss him.$s",
+    "Amina.Dialogue.Fri8": "Vincent's brother was playing the guitar for us!$3#$b#I want to learn how to play too!$h",
+    "Amina.Dialogue.Sat8": "I saw that blue creature again! Her name is Moon!$3#$b#Mom doesn't believe me, though.$s",
+    "Amina.Dialogue.Sun8": "The demon in the forest was nice.$3#$b#She gave me a cookie! I think she may have taken it from the cafe though...$3",
+
+    //10 hearts 
+    "Amina.Dialogue.Mon10": "You know, everyone in the village is my family!$4#$b#They all helped mom and grandma take care of me, and they still do.$h",
+    "Amina.Dialogue.Tue10": "Hey, @.#$b#$y 'You're my friend, right? Just like Jas and Vincent are._Yes!_Aw, yay! I like making friends.$h_No._...Oh. Okay, maybe I misunderstood.$s' ",
+    "Amina.Dialogue.Wed10": "Here, @. I asked grandma if I can get you a plate. [201 198 204]",
+    "Amina.Dialogue.Thu10": "I like snow. Whenever it snows, mom takes me to the mountain so I can make snowmen.$h",
+    "Amina.Dialogue.Fri10": "I heard that there's a magical creature that shows up in the forest sometimes!$3#$b#I have never seen it before, but I want to.$3",
+    "Amina.Dialogue.Sat10": "Miss Ophelia used to be an adventurer!$3#$b#She told me all kinds of stories about it.$h",
+    "Amina.Dialogue.Sun10": "I want to be just like my mom when I grow up.$4#$b#She's my role model.$h",
+
+    //Blake
+    "Blake.Dialogue.Introduction": "Placeholder.",
+
+    //Spring
+    "Blake.Dialogue.spring_1": "Placeholder.",
+    "Blake.Dialogue.spring_12": "Placeholder.",
+    "Blake.Dialogue.spring_23": "Placeholder.",
+
+    //Summer
+    "Blake.Dialogue.summer_1": "Placeholder.",
+    "Blake.Dialogue.summer_10": "Placeholder.",
+    "Blake.Dialogue.summer_27": "Placeholder.",
+
+    //Fall
+    "Blake.Dialogue.fall_1": "Placeholder.",
+    "Blake.Dialogue.fall_15": "Placeholder.",
+    "Blake.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Blake.Dialogue.winter_1": "Placeholder.",
+    "Blake.Dialogue.winter_7": "Placeholder.",
+    "Blake.Dialogue.winter_14": "Placeholder.",
+    "Blake.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Blake.Dialogue.Mon": "Placeholder.",
+    "Blake.Dialogue.Tue": "Placeholder.",
+    "Blake.Dialogue.Wed": "Placeholder.",
+    "Blake.Dialogue.Thu": "Placeholder.",
+    "Blake.Dialogue.Fri": "Placeholder.",
+    "Blake.Dialogue.Sat": "Placeholder.",
+    "Blake.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Blake.Dialogue.Mon2": "Placeholder.",
+    "Blake.Dialogue.Tue2": "Placeholder.",
+    "Blake.Dialogue.Wed2": "Placeholder.",
+    "Blake.Dialogue.Thu2": "Placeholder.",
+    "Blake.Dialogue.Fri2": "Placeholder.",
+    "Blake.Dialogue.Sat2": "Placeholder.",
+    "Blake.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Blake.Dialogue.Mon4": "Placeholder.",
+    "Blake.Dialogue.Tue4": "Placeholder.",
+    "Blake.Dialogue.Wed4": "Placeholder.",
+    "Blake.Dialogue.Thu4": "Placeholder.",
+    "Blake.Dialogue.Fri4": "Placeholder.",
+    "Blake.Dialogue.Sat4": "Placeholder.",
+    "Blake.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Blake.Dialogue.Mon6": "Placeholder.",
+    "Blake.Dialogue.Tue6": "Placeholder.",
+    "Blake.Dialogue.Wed6": "Placeholder.",
+    "Blake.Dialogue.Thu6": "Placeholder.",
+    "Blake.Dialogue.Fri6": "Placeholder.",
+    "Blake.Dialogue.Sat6": "Placeholder.",
+    "Blake.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Blake.Dialogue.Mon8": "Placeholder.",
+    "Blake.Dialogue.Tue8": "Placeholder.",
+    "Blake.Dialogue.Wed8": "Placeholder.",
+    "Blake.Dialogue.Thu8": "Placeholder.",
+    "Blake.Dialogue.Fri8": "Placeholder.",
+    "Blake.Dialogue.Sat8": "Placeholder.",
+    "Blake.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Blake.Dialogue.Mon10": "Placeholder.",
+    "Blake.Dialogue.Tue10": "Placeholder.",
+    "Blake.Dialogue.Wed10": "Placeholder.",
+    "Blake.Dialogue.Thu10": "Placeholder.",
+    "Blake.Dialogue.Fri10": "Placeholder.",
+    "Blake.Dialogue.Sat10": "Placeholder.",
+    "Blake.Dialogue.Sun10": "Placeholder.",
+
+    //Elias
+    "Elias.Dialogue.Introduction": "Placeholder.",
+
+    //Spring
+    "Elias.Dialogue.spring_1": "Placeholder.",
+    "Elias.Dialogue.spring_12": "Placeholder.",
+    "Elias.Dialogue.spring_23": "Placeholder.",
+
+    //Summer
+    "Elias.Dialogue.summer_1": "Placeholder.",
+    "Elias.Dialogue.summer_10": "Placeholder.",
+    "Elias.Dialogue.summer_27": "Placeholder.",
+
+    //Fall
+    "Elias.Dialogue.fall_1": "Placeholder.",
+    "Elias.Dialogue.fall_15": "Placeholder.",
+    "Elias.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Elias.Dialogue.winter_1": "Placeholder.",
+    "Elias.Dialogue.winter_7": "Placeholder.",
+    "Elias.Dialogue.winter_14": "Placeholder.",
+    "Elias.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Elias.Dialogue.Mon": "Placeholder.",
+    "Elias.Dialogue.Tue": "Placeholder.",
+    "Elias.Dialogue.Wed": "Placeholder.",
+    "Elias.Dialogue.Thu": "Placeholder.",
+    "Elias.Dialogue.Fri": "Placeholder.",
+    "Elias.Dialogue.Sat": "Placeholder.",
+    "Elias.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Elias.Dialogue.Mon2": "Placeholder.",
+    "Elias.Dialogue.Tue2": "Placeholder.",
+    "Elias.Dialogue.Wed2": "Placeholder.",
+    "Elias.Dialogue.Thu2": "Placeholder.",
+    "Elias.Dialogue.Fri2": "Placeholder.",
+    "Elias.Dialogue.Sat2": "Placeholder.",
+    "Elias.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Elias.Dialogue.Mon4": "Placeholder.",
+    "Elias.Dialogue.Tue4": "Placeholder.",
+    "Elias.Dialogue.Wed4": "Placeholder.",
+    "Elias.Dialogue.Thu4": "Placeholder.",
+    "Elias.Dialogue.Fri4": "Placeholder.",
+    "Elias.Dialogue.Sat4": "Placeholder.",
+    "Elias.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Elias.Dialogue.Mon6": "Placeholder.",
+    "Elias.Dialogue.Tue6": "Placeholder.",
+    "Elias.Dialogue.Wed6": "Placeholder.",
+    "Elias.Dialogue.Thu6": "Placeholder.",
+    "Elias.Dialogue.Fri6": "Placeholder.",
+    "Elias.Dialogue.Sat6": "Placeholder.",
+    "Elias.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Elias.Dialogue.Mon8": "Placeholder.",
+    "Elias.Dialogue.Tue8": "Placeholder.",
+    "Elias.Dialogue.Wed8": "Placeholder.",
+    "Elias.Dialogue.Thu8": "Placeholder.",
+    "Elias.Dialogue.Fri8": "Placeholder.",
+    "Elias.Dialogue.Sat8": "Placeholder.",
+    "Elias.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Elias.Dialogue.Mon10": "Placeholder.",
+    "Elias.Dialogue.Tue10": "Placeholder.",
+    "Elias.Dialogue.Wed10": "Placeholder.",
+    "Elias.Dialogue.Thu10": "Placeholder.",
+    "Elias.Dialogue.Fri10": "Placeholder.",
+    "Elias.Dialogue.Sat10": "Placeholder.",
+    "Elias.Dialogue.Sun10": "Placeholder.",
+
+    //Ezra
+    "Ezra.Dialogue.Introduction": "Placeholder.",
+
+    //Spring
+    "Ezra.Dialogue.spring_1": "Placeholder.",
+    "Ezra.Dialogue.spring_12": "Placeholder.",
+    "Ezra.Dialogue.spring_23": "Placeholder.",
+
+    //Summer
+    "Ezra.Dialogue.summer_1": "Placeholder.",
+    "Ezra.Dialogue.summer_10": "Placeholder.",
+    "Ezra.Dialogue.summer_27": "Placeholder.",
+
+    //Fall
+    "Ezra.Dialogue.fall_1": "Placeholder.",
+    "Ezra.Dialogue.fall_15": "Placeholder.",
+    "Ezra.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Ezra.Dialogue.winter_1": "Placeholder.",
+    "Ezra.Dialogue.winter_7": "Placeholder.",
+    "Ezra.Dialogue.winter_14": "Placeholder.",
+    "Ezra.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Ezra.Dialogue.Mon": "Placeholder.",
+    "Ezra.Dialogue.Tue": "Placeholder.",
+    "Ezra.Dialogue.Wed": "Placeholder.",
+    "Ezra.Dialogue.Thu": "Placeholder.",
+    "Ezra.Dialogue.Fri": "Placeholder.",
+    "Ezra.Dialogue.Sat": "Placeholder.",
+    "Ezra.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Ezra.Dialogue.Mon2": "Placeholder.",
+    "Ezra.Dialogue.Tue2": "Placeholder.",
+    "Ezra.Dialogue.Wed2": "Placeholder.",
+    "Ezra.Dialogue.Thu2": "Placeholder.",
+    "Ezra.Dialogue.Fri2": "Placeholder.",
+    "Ezra.Dialogue.Sat2": "Placeholder.",
+    "Ezra.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Ezra.Dialogue.Mon4": "Placeholder.",
+    "Ezra.Dialogue.Tue4": "Placeholder.",
+    "Ezra.Dialogue.Wed4": "Placeholder.",
+    "Ezra.Dialogue.Thu4": "Placeholder.",
+    "Ezra.Dialogue.Fri4": "Placeholder.",
+    "Ezra.Dialogue.Sat4": "Placeholder.",
+    "Ezra.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Ezra.Dialogue.Mon6": "Placeholder.",
+    "Ezra.Dialogue.Tue6": "Placeholder.",
+    "Ezra.Dialogue.Wed6": "Placeholder.",
+    "Ezra.Dialogue.Thu6": "Placeholder.",
+    "Ezra.Dialogue.Fri6": "Placeholder.",
+    "Ezra.Dialogue.Sat6": "Placeholder.",
+    "Ezra.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Ezra.Dialogue.Mon8": "Placeholder.",
+    "Ezra.Dialogue.Tue8": "Placeholder.",
+    "Ezra.Dialogue.Wed8": "Placeholder.",
+    "Ezra.Dialogue.Thu8": "Placeholder.",
+    "Ezra.Dialogue.Fri8": "Placeholder.",
+    "Ezra.Dialogue.Sat8": "Placeholder.",
+    "Ezra.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Ezra.Dialogue.Mon10": "Placeholder.",
+    "Ezra.Dialogue.Tue10": "Placeholder.",
+    "Ezra.Dialogue.Wed10": "Placeholder.",
+    "Ezra.Dialogue.Thu10": "Placeholder.",
+    "Ezra.Dialogue.Fri10": "Placeholder.",
+    "Ezra.Dialogue.Sat10": "Placeholder.",
+    "Ezra.Dialogue.Sun10": "Placeholder.",
+
+    //Iman
+    "Iman.Dialogue.Introduction": "Placeholder.",
+
+    //Spring
+    "Iman.Dialogue.spring_1": "Placeholder.",
+    "Iman.Dialogue.spring_12": "Placeholder.",
+    "Iman.Dialogue.spring_23": "Placeholder.",
+
+    //Summer
+    "Iman.Dialogue.summer_1": "Placeholder.",
+    "Iman.Dialogue.summer_10": "Placeholder.",
+    "Iman.Dialogue.summer_27": "Placeholder.",
+
+    //Fall
+    "Iman.Dialogue.fall_1": "Placeholder.",
+    "Iman.Dialogue.fall_15": "Placeholder.",
+    "Iman.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Iman.Dialogue.winter_1": "Placeholder.",
+    "Iman.Dialogue.winter_7": "Placeholder.",
+    "Iman.Dialogue.winter_14": "Placeholder.",
+    "Iman.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Iman.Dialogue.Mon": "Placeholder.",
+    "Iman.Dialogue.Tue": "Placeholder.",
+    "Iman.Dialogue.Wed": "Placeholder.",
+    "Iman.Dialogue.Thu": "Placeholder.",
+    "Iman.Dialogue.Fri": "Placeholder.",
+    "Iman.Dialogue.Sat": "Placeholder.",
+    "Iman.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Iman.Dialogue.Mon2": "Placeholder.",
+    "Iman.Dialogue.Tue2": "Placeholder.",
+    "Iman.Dialogue.Wed2": "Placeholder.",
+    "Iman.Dialogue.Thu2": "Placeholder.",
+    "Iman.Dialogue.Fri2": "Placeholder.",
+    "Iman.Dialogue.Sat2": "Placeholder.",
+    "Iman.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Iman.Dialogue.Mon4": "Placeholder.",
+    "Iman.Dialogue.Tue4": "Placeholder.",
+    "Iman.Dialogue.Wed4": "Placeholder.",
+    "Iman.Dialogue.Thu4": "Placeholder.",
+    "Iman.Dialogue.Fri4": "Placeholder.",
+    "Iman.Dialogue.Sat4": "Placeholder.",
+    "Iman.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Iman.Dialogue.Mon6": "Placeholder.",
+    "Iman.Dialogue.Tue6": "Placeholder.",
+    "Iman.Dialogue.Wed6": "Placeholder.",
+    "Iman.Dialogue.Thu6": "Placeholder.",
+    "Iman.Dialogue.Fri6": "Placeholder.",
+    "Iman.Dialogue.Sat6": "Placeholder.",
+    "Iman.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Iman.Dialogue.Mon8": "Placeholder.",
+    "Iman.Dialogue.Tue8": "Placeholder.",
+    "Iman.Dialogue.Wed8": "Placeholder.",
+    "Iman.Dialogue.Thu8": "Placeholder.",
+    "Iman.Dialogue.Fri8": "Placeholder.",
+    "Iman.Dialogue.Sat8": "Placeholder.",
+    "Iman.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Iman.Dialogue.Mon10": "Placeholder.",
+    "Iman.Dialogue.Tue10": "Placeholder.",
+    "Iman.Dialogue.Wed10": "Placeholder.",
+    "Iman.Dialogue.Thu10": "Placeholder.",
+    "Iman.Dialogue.Fri10": "Placeholder.",
+    "Iman.Dialogue.Sat10": "Placeholder.",
+    "Iman.Dialogue.Sun10": "Placeholder.",
+
+    //Jumana
+    "Jumana.Dialogue.Introduction": "Ah, welcome, dear! Ophelia told us a new face would show up soon. I'm Jumana, Sunberry Village's florist.$h",
+
+    //Spring
+    "Jumana.Dialogue.spring_1": "Ah, spring is finally here. It was a long winter.#$b#I'm looking forward to gardening with Miyoung.$h",
+    "Jumana.Dialogue.spring_12": "I'm sure Amina is looking forward to the egg hunt tomorrow. I'll be there cheering her on.$h",
+    "Jumana.Dialogue.spring_23": "I remember participating in the flower dance when I was younger.$3#$b#I'll be helping Evelyn with the flower arrangements instead.$h",
+
+    //Summer
+    "Jumana.Dialogue.summer_1": "Summer is my favorite season. Sure, it gets hot but it gives me an excuse to make homemade ice cream for Amina.$h",
+    "Jumana.Dialogue.summer_10": "Ah, the potluck. I have a very special flower that's bound to give the soup some much needed flavor!$h",
+    "Jumana.Dialogue.summer_27": "I've been seeing the moonlight jellies every year. I never tire of them.#$b#...If only my husband was still here to watch them with us.$s",
+
+    //Fall
+    "Jumana.Dialogue.fall_1": "Placeholder.",
+    "Jumana.Dialogue.fall_15": "Placeholder.",
+    "Jumana.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Jumana.Dialogue.winter_1": "Placeholder.",
+    "Jumana.Dialogue.winter_7": "Placeholder.",
+    "Jumana.Dialogue.winter_14": "Placeholder.",
+    "Jumana.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Jumana.Dialogue.Mon": "Placeholder.",
+    "Jumana.Dialogue.Tue": "Placeholder.",
+    "Jumana.Dialogue.Wed": "Placeholder.",
+    "Jumana.Dialogue.Thu": "Placeholder.",
+    "Jumana.Dialogue.Fri": "Placeholder.",
+    "Jumana.Dialogue.Sat": "Placeholder.",
+    "Jumana.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Jumana.Dialogue.Mon2": "Placeholder.",
+    "Jumana.Dialogue.Tue2": "Placeholder.",
+    "Jumana.Dialogue.Wed2": "Placeholder.",
+    "Jumana.Dialogue.Thu2": "Placeholder.",
+    "Jumana.Dialogue.Fri2": "Placeholder.",
+    "Jumana.Dialogue.Sat2": "Placeholder.",
+    "Jumana.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Jumana.Dialogue.Mon4": "Placeholder.",
+    "Jumana.Dialogue.Tue4": "Placeholder.",
+    "Jumana.Dialogue.Wed4": "Placeholder.",
+    "Jumana.Dialogue.Thu4": "Placeholder.",
+    "Jumana.Dialogue.Fri4": "Placeholder.",
+    "Jumana.Dialogue.Sat4": "Placeholder.",
+    "Jumana.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Jumana.Dialogue.Mon6": "Placeholder.",
+    "Jumana.Dialogue.Tue6": "Placeholder.",
+    "Jumana.Dialogue.Wed6": "Placeholder.",
+    "Jumana.Dialogue.Thu6": "Placeholder.",
+    "Jumana.Dialogue.Fri6": "Placeholder.",
+    "Jumana.Dialogue.Sat6": "Placeholder.",
+    "Jumana.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Jumana.Dialogue.Mon8": "Placeholder.",
+    "Jumana.Dialogue.Tue8": "Placeholder.",
+    "Jumana.Dialogue.Wed8": "Placeholder.",
+    "Jumana.Dialogue.Thu8": "Placeholder.",
+    "Jumana.Dialogue.Fri8": "Placeholder.",
+    "Jumana.Dialogue.Sat8": "Placeholder.",
+    "Jumana.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Jumana.Dialogue.Mon10": "Placeholder.",
+    "Jumana.Dialogue.Tue10": "Placeholder.",
+    "Jumana.Dialogue.Wed10": "Placeholder.",
+    "Jumana.Dialogue.Thu10": "Placeholder.",
+    "Jumana.Dialogue.Fri10": "Placeholder.",
+    "Jumana.Dialogue.Sat10": "Placeholder.",
+    "Jumana.Dialogue.Sun10": "Placeholder.",
+
+    //Lyenne
+    "Lyenne.Dialogue.Introduction": "Placeholder.",
+
+    //Spring
+    "Lyenne.Dialogue.spring_1": "Placeholder.",
+    "Lyenne.Dialogue.spring_12": "Placeholder.",
+    "Lyenne.Dialogue.spring_23": "Placeholder.",
+
+    //Summer
+    "Lyenne.Dialogue.summer_1": "Placeholder.",
+    "Lyenne.Dialogue.summer_10": "Placeholder.",
+    "Lyenne.Dialogue.summer_27": "Placeholder.",
+
+    //Fall
+    "Lyenne.Dialogue.fall_1": "Placeholder.",
+    "Lyenne.Dialogue.fall_15": "Placeholder.",
+    "Lyenne.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Lyenne.Dialogue.winter_1": "Placeholder.",
+    "Lyenne.Dialogue.winter_7": "Placeholder.",
+    "Lyenne.Dialogue.winter_14": "Placeholder.",
+    "Lyenne.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Lyenne.Dialogue.Mon": "Placeholder.",
+    "Lyenne.Dialogue.Tue": "Placeholder.",
+    "Lyenne.Dialogue.Wed": "Placeholder.",
+    "Lyenne.Dialogue.Thu": "Placeholder.",
+    "Lyenne.Dialogue.Fri": "Placeholder.",
+    "Lyenne.Dialogue.Sat": "Placeholder.",
+    "Lyenne.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Lyenne.Dialogue.Mon2": "Placeholder.",
+    "Lyenne.Dialogue.Tue2": "Placeholder.",
+    "Lyenne.Dialogue.Wed2": "Placeholder.",
+    "Lyenne.Dialogue.Thu2": "Placeholder.",
+    "Lyenne.Dialogue.Fri2": "Placeholder.",
+    "Lyenne.Dialogue.Sat2": "Placeholder.",
+    "Lyenne.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Lyenne.Dialogue.Mon4": "Placeholder.",
+    "Lyenne.Dialogue.Tue4": "Placeholder.",
+    "Lyenne.Dialogue.Wed4": "Placeholder.",
+    "Lyenne.Dialogue.Thu4": "Placeholder.",
+    "Lyenne.Dialogue.Fri4": "Placeholder.",
+    "Lyenne.Dialogue.Sat4": "Placeholder.",
+    "Lyenne.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Lyenne.Dialogue.Mon6": "Placeholder.",
+    "Lyenne.Dialogue.Tue6": "Placeholder.",
+    "Lyenne.Dialogue.Wed6": "Placeholder.",
+    "Lyenne.Dialogue.Thu6": "Placeholder.",
+    "Lyenne.Dialogue.Fri6": "Placeholder.",
+    "Lyenne.Dialogue.Sat6": "Placeholder.",
+    "Lyenne.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Lyenne.Dialogue.Mon8": "Placeholder.",
+    "Lyenne.Dialogue.Tue8": "Placeholder.",
+    "Lyenne.Dialogue.Wed8": "Placeholder.",
+    "Lyenne.Dialogue.Thu8": "Placeholder.",
+    "Lyenne.Dialogue.Fri8": "Placeholder.",
+    "Lyenne.Dialogue.Sat8": "Placeholder.",
+    "Lyenne.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Lyenne.Dialogue.Mon10": "Placeholder.",
+    "Lyenne.Dialogue.Tue10": "Placeholder.",
+    "Lyenne.Dialogue.Wed10": "Placeholder.",
+    "Lyenne.Dialogue.Thu10": "Placeholder.",
+    "Lyenne.Dialogue.Fri10": "Placeholder.",
+    "Lyenne.Dialogue.Sat10": "Placeholder.",
+    "Lyenne.Dialogue.Sun10": "Placeholder.",
+
+    //Maia
+    "Maia.Dialogue.Introduction": "Placeholder.",
+
+    //Spring
+    "Maia.Dialogue.spring_1": "Placeholder.",
+    "Maia.Dialogue.spring_12": "Placeholder.",
+    "Maia.Dialogue.spring_23": "Placeholder.",
+
+    //Summer
+    "Maia.Dialogue.summer_1": "Placeholder.",
+    "Maia.Dialogue.summer_10": "Placeholder.",
+    "Maia.Dialogue.summer_27": "Placeholder.",
+
+    //Fall
+    "Maia.Dialogue.fall_1": "Placeholder.",
+    "Maia.Dialogue.fall_15": "Placeholder.",
+    "Maia.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Maia.Dialogue.winter_1": "Placeholder.",
+    "Maia.Dialogue.winter_7": "Placeholder.",
+    "Maia.Dialogue.winter_14": "Placeholder.",
+    "Maia.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Maia.Dialogue.Mon": "Placeholder.",
+    "Maia.Dialogue.Tue": "Placeholder.",
+    "Maia.Dialogue.Wed": "Placeholder.",
+    "Maia.Dialogue.Thu": "Placeholder.",
+    "Maia.Dialogue.Fri": "Placeholder.",
+    "Maia.Dialogue.Sat": "Placeholder.",
+    "Maia.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Maia.Dialogue.Mon2": "Placeholder.",
+    "Maia.Dialogue.Tue2": "Placeholder.",
+    "Maia.Dialogue.Wed2": "Placeholder.",
+    "Maia.Dialogue.Thu2": "Placeholder.",
+    "Maia.Dialogue.Fri2": "Placeholder.",
+    "Maia.Dialogue.Sat2": "Placeholder.",
+    "Maia.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Maia.Dialogue.Mon4": "Placeholder.",
+    "Maia.Dialogue.Tue4": "Placeholder.",
+    "Maia.Dialogue.Wed4": "Placeholder.",
+    "Maia.Dialogue.Thu4": "Placeholder.",
+    "Maia.Dialogue.Fri4": "Placeholder.",
+    "Maia.Dialogue.Sat4": "Placeholder.",
+    "Maia.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Maia.Dialogue.Mon6": "Placeholder.",
+    "Maia.Dialogue.Tue6": "Placeholder.",
+    "Maia.Dialogue.Wed6": "Placeholder.",
+    "Maia.Dialogue.Thu6": "Placeholder.",
+    "Maia.Dialogue.Fri6": "Placeholder.",
+    "Maia.Dialogue.Sat6": "Placeholder.",
+    "Maia.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Maia.Dialogue.Mon8": "Placeholder.",
+    "Maia.Dialogue.Tue8": "Placeholder.",
+    "Maia.Dialogue.Wed8": "Placeholder.",
+    "Maia.Dialogue.Thu8": "Placeholder.",
+    "Maia.Dialogue.Fri8": "Placeholder.",
+    "Maia.Dialogue.Sat8": "Placeholder.",
+    "Maia.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Maia.Dialogue.Mon10": "Placeholder.",
+    "Maia.Dialogue.Tue10": "Placeholder.",
+    "Maia.Dialogue.Wed10": "Placeholder.",
+    "Maia.Dialogue.Thu10": "Placeholder.",
+    "Maia.Dialogue.Fri10": "Placeholder.",
+    "Maia.Dialogue.Sat10": "Placeholder.",
+    "Maia.Dialogue.Sun10": "Placeholder.",
+
+    //Miyoung
+    "Miyoung.Dialogue.Introduction": "Placeholder.",
+
+    //Spring
+    "Miyoung.Dialogue.spring_1": "Placeholder.",
+    "Miyoung.Dialogue.spring_12": "Placeholder.",
+    "Miyoung.Dialogue.spring_23": "Placeholder.",
+
+    //Summer
+    "Miyoung.Dialogue.summer_1": "Placeholder.",
+    "Miyoung.Dialogue.summer_10": "Placeholder.",
+    "Miyoung.Dialogue.summer_27": "Placeholder.",
+
+    //Fall
+    "Miyoung.Dialogue.fall_1": "Placeholder.",
+    "Miyoung.Dialogue.fall_15": "Placeholder.",
+    "Miyoung.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Miyoung.Dialogue.winter_1": "Placeholder.",
+    "Miyoung.Dialogue.winter_7": "Placeholder.",
+    "Miyoung.Dialogue.winter_14": "Placeholder.",
+    "Miyoung.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Miyoung.Dialogue.Mon": "Placeholder.",
+    "Miyoung.Dialogue.Tue": "Placeholder.",
+    "Miyoung.Dialogue.Wed": "Placeholder.",
+    "Miyoung.Dialogue.Thu": "Placeholder.",
+    "Miyoung.Dialogue.Fri": "Placeholder.",
+    "Miyoung.Dialogue.Sat": "Placeholder.",
+    "Miyoung.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Miyoung.Dialogue.Mon2": "Placeholder.",
+    "Miyoung.Dialogue.Tue2": "Placeholder.",
+    "Miyoung.Dialogue.Wed2": "Placeholder.",
+    "Miyoung.Dialogue.Thu2": "Placeholder.",
+    "Miyoung.Dialogue.Fri2": "Placeholder.",
+    "Miyoung.Dialogue.Sat2": "Placeholder.",
+    "Miyoung.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Miyoung.Dialogue.Mon4": "Placeholder.",
+    "Miyoung.Dialogue.Tue4": "Placeholder.",
+    "Miyoung.Dialogue.Wed4": "Placeholder.",
+    "Miyoung.Dialogue.Thu4": "Placeholder.",
+    "Miyoung.Dialogue.Fri4": "Placeholder.",
+    "Miyoung.Dialogue.Sat4": "Placeholder.",
+    "Miyoung.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Miyoung.Dialogue.Mon6": "Placeholder.",
+    "Miyoung.Dialogue.Tue6": "Placeholder.",
+    "Miyoung.Dialogue.Wed6": "Placeholder.",
+    "Miyoung.Dialogue.Thu6": "Placeholder.",
+    "Miyoung.Dialogue.Fri6": "Placeholder.",
+    "Miyoung.Dialogue.Sat6": "Placeholder.",
+    "Miyoung.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Miyoung.Dialogue.Mon8": "Placeholder.",
+    "Miyoung.Dialogue.Tue8": "Placeholder.",
+    "Miyoung.Dialogue.Wed8": "Placeholder.",
+    "Miyoung.Dialogue.Thu8": "Placeholder.",
+    "Miyoung.Dialogue.Fri8": "Placeholder.",
+    "Miyoung.Dialogue.Sat8": "Placeholder.",
+    "Miyoung.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Miyoung.Dialogue.Mon10": "Placeholder.",
+    "Miyoung.Dialogue.Tue10": "Placeholder.",
+    "Miyoung.Dialogue.Wed10": "Placeholder.",
+    "Miyoung.Dialogue.Thu10": "Placeholder.",
+    "Miyoung.Dialogue.Fri10": "Placeholder.",
+    "Miyoung.Dialogue.Sat10": "Placeholder.",
+    "Miyoung.Dialogue.Sun10": "Placeholder.",
+
+    //Ophelia
+    "Ophelia.Dialogue.Introduction": "Placeholder.",
+
+    //Spring
+    "Ophelia.Dialogue.spring_1": "Placeholder.",
+    "Ophelia.Dialogue.spring_12": "Placeholder.",
+    "Ophelia.Dialogue.spring_23": "Placeholder.",
+
+    //Summer
+    "Ophelia.Dialogue.summer_1": "Placeholder.",
+    "Ophelia.Dialogue.summer_10": "Placeholder.",
+    "Ophelia.Dialogue.summer_27": "Placeholder.",
+
+    //Fall
+    "Ophelia.Dialogue.fall_1": "Placeholder.",
+    "Ophelia.Dialogue.fall_15": "Placeholder.",
+    "Ophelia.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Ophelia.Dialogue.winter_1": "Placeholder.",
+    "Ophelia.Dialogue.winter_7": "Placeholder.",
+    "Ophelia.Dialogue.winter_14": "Placeholder.",
+    "Ophelia.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Ophelia.Dialogue.Mon": "Placeholder.",
+    "Ophelia.Dialogue.Tue": "Placeholder.",
+    "Ophelia.Dialogue.Wed": "Placeholder.",
+    "Ophelia.Dialogue.Thu": "Placeholder.",
+    "Ophelia.Dialogue.Fri": "Placeholder.",
+    "Ophelia.Dialogue.Sat": "Placeholder.",
+    "Ophelia.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Ophelia.Dialogue.Mon2": "Placeholder.",
+    "Ophelia.Dialogue.Tue2": "Placeholder.",
+    "Ophelia.Dialogue.Wed2": "Placeholder.",
+    "Ophelia.Dialogue.Thu2": "Placeholder.",
+    "Ophelia.Dialogue.Fri2": "Placeholder.",
+    "Ophelia.Dialogue.Sat2": "Placeholder.",
+    "Ophelia.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Ophelia.Dialogue.Mon4": "Placeholder.",
+    "Ophelia.Dialogue.Tue4": "Placeholder.",
+    "Ophelia.Dialogue.Wed4": "Placeholder.",
+    "Ophelia.Dialogue.Thu4": "Placeholder.",
+    "Ophelia.Dialogue.Fri4": "Placeholder.",
+    "Ophelia.Dialogue.Sat4": "Placeholder.",
+    "Ophelia.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Ophelia.Dialogue.Mon6": "Placeholder.",
+    "Ophelia.Dialogue.Tue6": "Placeholder.",
+    "Ophelia.Dialogue.Wed6": "Placeholder.",
+    "Ophelia.Dialogue.Thu6": "Placeholder.",
+    "Ophelia.Dialogue.Fri6": "Placeholder.",
+    "Ophelia.Dialogue.Sat6": "Placeholder.",
+    "Ophelia.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Ophelia.Dialogue.Mon8": "Placeholder.",
+    "Ophelia.Dialogue.Tue8": "Placeholder.",
+    "Ophelia.Dialogue.Wed8": "Placeholder.",
+    "Ophelia.Dialogue.Thu8": "Placeholder.",
+    "Ophelia.Dialogue.Fri8": "Placeholder.",
+    "Ophelia.Dialogue.Sat8": "Placeholder.",
+    "Ophelia.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Ophelia.Dialogue.Mon10": "Placeholder.",
+    "Ophelia.Dialogue.Tue10": "Placeholder.",
+    "Ophelia.Dialogue.Wed10": "Placeholder.",
+    "Ophelia.Dialogue.Thu10": "Placeholder.",
+    "Ophelia.Dialogue.Fri10": "Placeholder.",
+    "Ophelia.Dialogue.Sat10": "Placeholder.",
+    "Ophelia.Dialogue.Sun10": "Placeholder.",
+
+    //Silas
+    "Silas.Dialogue.Introduction": "Placeholder.",
+
+    //Spring
+    "Silas.Dialogue.spring_1": "Placeholder.",
+    "Silas.Dialogue.spring_12": "Placeholder.",
+    "Silas.Dialogue.spring_23": "Placeholder.",
+
+    //Summer
+    "Silas.Dialogue.summer_1": "Placeholder.",
+    "Silas.Dialogue.summer_10": "Placeholder.",
+    "Silas.Dialogue.summer_27": "Placeholder.",
+
+    //Fall
+    "Silas.Dialogue.fall_1": "Placeholder.",
+    "Silas.Dialogue.fall_15": "Placeholder.",
+    "Silas.Dialogue.fall_26": "Placeholder.",
+
+    //Winter
+    "Silas.Dialogue.winter_1": "Placeholder.",
+    "Silas.Dialogue.winter_7": "Placeholder.",
+    "Silas.Dialogue.winter_14": "Placeholder.",
+    "Silas.Dialogue.winter_24": "Placeholder.",
+
+    //Days of The Week
+
+    //0 hearts
+    "Silas.Dialogue.Mon": "Placeholder.",
+    "Silas.Dialogue.Tue": "Placeholder.",
+    "Silas.Dialogue.Wed": "Placeholder.",
+    "Silas.Dialogue.Thu": "Placeholder.",
+    "Silas.Dialogue.Fri": "Placeholder.",
+    "Silas.Dialogue.Sat": "Placeholder.",
+    "Silas.Dialogue.Sun": "Placeholder.",
+
+    //2 hearts
+    "Silas.Dialogue.Mon2": "Placeholder.",
+    "Silas.Dialogue.Tue2": "Placeholder.",
+    "Silas.Dialogue.Wed2": "Placeholder.",
+    "Silas.Dialogue.Thu2": "Placeholder.",
+    "Silas.Dialogue.Fri2": "Placeholder.",
+    "Silas.Dialogue.Sat2": "Placeholder.",
+    "Silas.Dialogue.Sun2": "Placeholder.",
+
+    //4 hearts
+    "Silas.Dialogue.Mon4": "Placeholder.",
+    "Silas.Dialogue.Tue4": "Placeholder.",
+    "Silas.Dialogue.Wed4": "Placeholder.",
+    "Silas.Dialogue.Thu4": "Placeholder.",
+    "Silas.Dialogue.Fri4": "Placeholder.",
+    "Silas.Dialogue.Sat4": "Placeholder.",
+    "Silas.Dialogue.Sun4": "Placeholder.",
+
+    //6 hearts
+    "Silas.Dialogue.Mon6": "Placeholder.",
+    "Silas.Dialogue.Tue6": "Placeholder.",
+    "Silas.Dialogue.Wed6": "Placeholder.",
+    "Silas.Dialogue.Thu6": "Placeholder.",
+    "Silas.Dialogue.Fri6": "Placeholder.",
+    "Silas.Dialogue.Sat6": "Placeholder.",
+    "Silas.Dialogue.Sun6": "Placeholder.",
+
+    //8 hearts
+    "Silas.Dialogue.Mon8": "Placeholder.",
+    "Silas.Dialogue.Tue8": "Placeholder.",
+    "Silas.Dialogue.Wed8": "Placeholder.",
+    "Silas.Dialogue.Thu8": "Placeholder.",
+    "Silas.Dialogue.Fri8": "Placeholder.",
+    "Silas.Dialogue.Sat8": "Placeholder.",
+    "Silas.Dialogue.Sun8": "Placeholder.",
+
+    //10 hearts 
+    "Silas.Dialogue.Mon10": "Placeholder.",
+    "Silas.Dialogue.Tue10": "Placeholder.",
+    "Silas.Dialogue.Wed10": "Placeholder.",
+    "Silas.Dialogue.Thu10": "Placeholder.",
+    "Silas.Dialogue.Fri10": "Placeholder.",
+    "Silas.Dialogue.Sat10": "Placeholder.",
+    "Silas.Dialogue.Sun10": "Placeholder.",
+        
+    //Conversation Topics
+    //-------------------
+
+    //Diala
+    "Diala.Dialogue.cc_Complete": "@! We heard the good news.$h#$b#Congrats on fixing up the community center!$u",
+    "Diala.Dialogue.cc_Bridge": "I heard the quarry bridge got repaired. That's awesome!$h",
+    "Diala.Dialogue.cc_Bus": "I'm so glad to hear the bus got repaired.#$b#Maybe I can take Derya on a trip on our day off.$u",
+    "Diala.Dialogue.movieTheater": "I can't believe we finally have a movie theater in town.$h#$b#We should go sometime.",
+    "Diala.Dialogue.SterlingTrash": "So, uh, the trashcan by the Saloon.#$b#Derya and I placed a bet, she thinks it was Sterling's mess. I think it's Shane's.$u.",
+    "Diala.Dialogue.SterlingDrugs": "I'm worried about Sterling.$s#$b#He's been a little off recently. Maybe I should talk to Mia?$6",
+    "Diala.Dialogue.SterlingRelapse": "Derya's telling me Sterling hasn't been at work since he got into that fight with Pierre.$s#$b#I hope he's doing okay.$s",
+    "Diala.Dialogue.SterlingApology": "Did you hear?$u#$b#Sterling's back at work. I hope things start looking up for him.$h",
+    "Diala.Dialogue.SterlingSwim": "Mia makes THE best pancakes. We're planning on getting together and baking someday!$u",
+    "Diala.Dialogue.SterlingSobriety": "The Coopers are super fun to be around. It's always a joy having them at the cafe.$u",
+    "Diala.Dialogue.JulietGremlin": "@! Have you seen the cute little dog Juliet found? She's adorable!$u",
+    "Diala.Dialogue.JunaSign": "Juna? Hmm... I don't think I've met her before.#$b#But then again, I usually get my gossip and news from Derya so I'm bound to hear about her sooner or later.$u",
+    "Diala.Dialogue.LavrilUnlocked": "Vincent, Jas, and Eloise have been a little... weird.#$b#They dropped by the cafe earlier and were whispering among themselves.",
+    "Diala.Dialogue.LucikielArrives": "I heard about the demon in town.$7#$b#I work with spirits and deities, but I've never come across a demon before!$u",
+    "Diala.Dialogue.ReputationIncreased": "Luci's a good demon. I've believed in him since he got here.$h#$b#Also, he and Clint tip well whenever they drop by the cafe.$u",
+    "Diala.Dialogue.JasperGone2": "I hope Professor Jasper is doing okay.$s",
+    "Diala.Dialogue.JasperHomeA": "Professor Jasper is wonderful. It's always nice talking to him.$u",
+    "Diala.Dialogue.keahi_prank": "Oh, @. I don't know where you were or what happened, but you might really want to hop in the shower.$7#$b#Would you like one of the cherry-scented soaps I made?",
+    "Diala.Dialogue.event_postweddingreception": "@! Congrats.$u#$b#I wish you and %spouse a happy, wonderful life together.$u",
+    "Diala.Dialogue.ToshiGotTherapy": "I heard Toshinori's going to therapy.$h#$b#Therapy's always good. It helps a lot.",
+    "Diala.Dialogue.LeilaniArrives": "Leilani's in town!$h#$b#I try to spend some time with her when she's around. I love hearing all about Ember Island.$u",
+    "Diala.Dialogue.SamAlissaProposed": "Derya's nosy ass hangs out with Jodi and the other ladies for the town gossip.#$b#She told me Sam is planning to propose to Alissa! I'm really happy for them.$u",
+    "Diala.Dialogue.SamAlissaMarried": "Sam and Alissa make a wonderful couple, don't they?$4",
+    "Diala.Dialogue.WelcomeBabyCadence": "Aww, Sam and Alissa's baby is ADORABLE!$h#$b#I hope she's not allergic to cats.$u",
+    "Diala.Dialogue.MeetTheCats": "Jorts and Jean are such wonderful cats.$u#$b#I'm not sure how or why I can understand what they're saying, but it's still super fun seeing Derya's confusion when they're around.$u",
+    "Diala.Dialogue.pumpkin_spice_madness": "It was really hard finding pumpkin spice where we came from, but now that Gus sells it we're able to get it more often.$h#$b#Now, I put it into almost everything I make.$u",
+    "Diala.Dialogue.wedding": "Congratulations, @!$u#$b#I wish you and your partner a lifetime of happiness.$h",
+    "Diala.Dialogue.divorce": "I'm sorry to hear about your relationship. Derya and I are here if you need anything.$s",
+    "Diala.Dialogue.babyBoy": "Aww, I heard about your baby boy! Really happy for you and your partner.$u",
+    "Diala.Dialogue.babyGirl": "Aww, I heard about your baby girl! Really happy for you and your partner.$u",
+    "Diala.Dialogue.luauBest": "That soup took me by surprise!$7#$b#I wasn't expecting it to be so delicious!$u",
+    "Diala.Dialogue.luauShorts": "*giggle* Whatever that purple thing in the soup was, I'm glad I didn't have any of it.$u",
+    "Diala.Dialogue.luauPoisoned": "Ugh... that soup really messed me up.$10#$b#I feel terrible.$s",
+
+    //Derya
+    "Derya.Dialogue.cc_Complete": "Hey! It's great to see the Community Center up and running, thank you, @!$h",
+    "Derya.Dialogue.cc_Bridge": "Looks like the bridge got fixed. I've heard stories about a little cave in that quarry, so I think I'm just gonna avoid it for now.$h",
+    "Derya.Dialogue.cc_Bus": "Oh, man. I'm so excited to be able to take the bus again. I haven't been to the city in a while.$h",
+    "Derya.Dialogue.movieTheater": "We have a movie theater now apparently.$h#$b#Can you tell I'm excited to trick Diala into seeing a horror movie?$u",
+    "Derya.Dialogue.SterlingTrash": "I'm so winning that bet with Diala. That mess outside the saloon is definitely Sterling's.$9",
+    "Derya.Dialogue.SterlingDrugs": "If Sterling's doing what I think he's doing, I'm going straight to his house and...$a#$b#Nevermind, I just hope he's okay.$s",
+    "Derya.Dialogue.SterlingRelapse": "I haven't seen Sterling at Pierre's in a while. Wonder what that's all about.$s",
+    "Derya.Dialogue.SterlingApology": "Henry's always hard at work. It's been pretty hard catching him before he goes off.",
+    "Derya.Dialogue.SterlingSwim": "I may have accidentally scared Mia the other day.$u#$b#She walked in while I was talking to one of the cats after he knocked over one of our mugs.$h",
+    "Derya.Dialogue.SterlingSobriety": "Hmm... maybe we should invite the Coopers for dinner sometime.",
+    "Derya.Dialogue.JulietGremlin": "Gremlin is adorable. I'm always around cats so it's a nice change to have a dog around to pet.$h",
+    "Derya.Dialogue.JunaSign": "Juna is most probably one of the funniest people I've ever met. Just pure chaotic, I love that.$u",
+    "Derya.Dialogue.LavrilUnlocked": "Have you seen Jas, Vincent, and Eloise recently?#$b#Do they seem a little... weird to you?$8",
+    "Derya.Dialogue.LucikielArrives": "A demon in town, huh? Diala wouldn't shut up about it ever since the whole thing went down.$9",
+    "Derya.Dialogue.ReputationIncreased": "Huh, guess I should've trusted Diala when she said Lucikiel's good.$u#$b#He's officially invited to all our game nights.$h",
+    "Derya.Dialogue.JasperGone2": "Professor Jasper's an interesting person to talk to.#$b#I don't seem to get much of what he says, but it's still nice to hear him ramble.$u",
+    "Derya.Dialogue.JasperHomeA": "Heard Professor Jasper is back. I'm glad he's okay.$h",
+    "Derya.Dialogue.keahi_prank": "Oh, dear God. @, for the sake of the cats and humanity, please hop into the shower.$8",
+    "Derya.Dialogue.event_postweddingreception": "You got hitched, huh?$u#$b#Congrats, I hope you and %spouse are happy together.$h",
+    "Derya.Dialogue.ToshiGotTherapy": "I'm glad Toshinori's seeing someone. I didn't have access to therapy for far too long, it really does help.$h",
+    "Derya.Dialogue.LeilaniArrives": "I heard Leilani's back in town.$u#$b#It's entertaining seeing Keahi try to behave when she's around.$h",
+    "Derya.Dialogue.SamAlissaProposed": "Psst, @. Did you hear? Sam's planning to propose to Alissa.$9#$b#What? Oh, I heard from the ladies during aerobics class.$u",
+    "Derya.Dialogue.SamAlissaMarried": "Ah, I'm so happy for Sam and Alissa.$u#$b#I wonder if they'll make music together. I'd definitely listen.$h",
+    "Derya.Dialogue.WelcomeBabyCadence": "Okay, I'm not the biggest fan of babies but Cadence is adorable.$u#$b#Heck, I even volunteered to babysit if needed.$h",
+    "Derya.Dialogue.MeetTheCats": "I thought talking to cats was my thing, but apparently Diala's doing it now with Jorts and Jean.$9",
+    "Derya.Dialogue.pumpkin_spice_madness": "Don't mind me, just thinking about my next cup of PSL.$u",
+    "Derya.Dialogue.wedding": "Congrats, @!$u#$b#I'm so happy for you and %spouse!$h",
+    "Derya.Dialogue.divorce": "Oh, @. I'm sorry to hear about the divorce. Let me know if you wanna talk, yeah?$s",
+    "Derya.Dialogue.babyBoy": "Congrats on the newest addition to your family!$u#$b#I hope he isn't allergic to cats.$h",
+    "Derya.Dialogue.babyGirl": "Congrats on the newest addition to your family!$u#$b#I hope she isn't allergic to cats.$h",
+    "Derya.Dialogue.luauBest": "Man, that soup was delicious!$u#$b#I wasn't expecting much considering what I heard about Sam's special ingredients.$u",
+    "Derya.Dialogue.luauShorts": "Heh, shorts in the soup, huh?$u#$b#I think it's hilarious, whoever added those is BOLD.$u",
+    "Derya.Dialogue.luauPoisoned": "Heard the soup was poisoned... how fun.$10#$b#Thankfully, I didn't have any.$10",
+
+    //Moon
+    "Moon.Dialogue.cc_Complete": "Community Center is repaired?$u#$b#But... junimo friends left?$s",
+    "Moon.Dialogue.cc_Bridge": "Moon goes on bridge!$u#$b#Moon scared of quarry, though.$s",
+    "Moon.Dialogue.cc_Bus": "Bus is repaired! Moon goes on an adventure!$u",
+    "Moon.Dialogue.movieTheater": "@, you will take Moon to see a movie, yes?$h",
+    "Moon.Dialogue.SterlingTrash": "Moon almost stepped in Sterling's mess. Yuck.$s",
+    "Moon.Dialogue.SterlingDrugs": "Moon talked some sense into Sterling.$a#$b#...Sterling can't see Moon.$s",
+    "Moon.Dialogue.SterlingRelapse": "Moon hangs out with Sterling in town sometimes.$h",
+    "Moon.Dialogue.SterlingApology": "@! Moon saw Mia work.#$b#Maybe Moon can becomes Agnor-?$u#$b#Arogn-?$s#$b#Agronomist!$u",
+    "Moon.Dialogue.SterlingSwim": "Moon plays with Max, the dog!$h#$b#Dog is a little scared of Moon.$s",
+    "Moon.Dialogue.SterlingSobriety": "Moon went to Grampleton with Henry! Pretty place.$u",
+    "Moon.Dialogue.JulietGremlin": "Gremlin played with Moon!$h",
+    "Moon.Dialogue.JunaSign": "Hehe, Moon saw Juna in the forest.$h#$b#Maybe Moon pulls prank on wizard with her?$u",
+    "Moon.Dialogue.LavrilUnlocked": "Moon saw ghost girl and her bunny!$h#$b#Maybe Moon becomes friends with them?$u",
+    "Moon.Dialogue.LucikielArrives": "Demon in town is scary.$s#$b#Moon does not like this.$s",
+    "Moon.Dialogue.ReputationIncreased": "Okay, maybe demon isn't so bad.$h#$b#Maybe demon is friend!$u",
+    "Moon.Dialogue.JasperGone2": "Jasper has nice books to read.$h#$b#Moon hopes Jasper comes back soon.$s",
+    "Moon.Dialogue.JasperHomeA": "Jasper is home! Moon can hang out in library again!$h",
+    "Moon.Dialogue.keahi_prank": "Oof. @, you smell like rotten vegetables.$s",
+    "Moon.Dialogue.event_postweddingreception": "@ got married? Woah!$u",
+    "Moon.Dialogue.ToshiGotTherapy": "Toshinori will be happy again, maybe?$u#$b#Moon likes him.$h",
+    "Moon.Dialogue.LeilaniArrives": "Leilani is nice.$h#$b#She makes Keahi behave, so Keahi does not chase Moon.$a",
+    "Moon.Dialogue.SamAlissaProposed": "Sam proposes to Alissa soon!$u#$b#Moon heard Derya talk about it.$h",
+    "Moon.Dialogue.SamAlissaMarried": "Sam and Alissa are married!$u#$b#Can Moon get married too?$u",
+    "Moon.Dialogue.WelcomeBabyCadence": "Cadence plays with Moon. Kids can see Moon.$h",
+    "Moon.Dialogue.MeetTheCats": "Jorts and Jean are friends! Moon plays with them.$u",
+    "Moon.Dialogue.pumpkin_spice_madness": "Moon loves pumpkin spice cookies.$u",
+    "Moon.Dialogue.wedding": "Moon is so happy for @!$u#$b#Moon hopes you and %spouse live happily ever after!$h",
+    "Moon.Dialogue.divorce": "Moon is so sorry to hear about the divorce.$s#$b#You know, not all relationships are meant to last. @ will be okay eventually!$h",
+    "Moon.Dialogue.luauBest": "Moon heard the soup was delicious!$u#$b#Maybe Moon should try it next time.",
+    "Moon.Dialogue.luauShorts": "Moon saw the purple shorts floating in the soup.$h#$b#The governor's reaction was funny, heh.$h",
+    "Moon.Dialogue.luauPoisoned": "Moon heard the soup was poisoned.$s#$b#Moon hopes Diala and Derya are okay.$s",
+    
+    //Vanilla Villagers
+    "MeetDND.Alex": "Yo! Are you going to that cat cafe? What, me?#$b#Nah, it's not really my thing.$h#$b#Unless you're going, I could always go then... you know, to keep you company.$h",
+    "MeetDND.Jodi": "Diala's always sending me pictures of the cats from the cafe.$h#$b#They always make my day so much better!$h",
+    "MeetDND.Caroline": "Diala? I don't know her very well, but Derya frequently joins our little get-togethers.$h",
+    "MeetDND.Pierre": "Ah, the cat cafe. Derya stops by occasionally for supplies.#$b#She is a little mischievous, though.$u",
+    "MeetDND.Abigail": "The cat cafe? Seb, Sam and I drop by pretty often.#$b#Derya's a riot. It's always fun hanging out with her.$h",
+    "MeetDND.Harvey": "I always stop by the cat cafe whenever I want to treat myself.#$b#Cats and delicious baked goods? Who'd say no to that?$h",
+    "MeetDND.George": "The cafe owners? Evelyn seems to have taken a liking to the one with the long hair.#$b#I, however, don't trust her or the things she's into. Hmph... tarot cards.",
+    "MeetDND.Evelyn": "Oh, Diala's just wonderful. She comes by the house every now and then to chat and trade recipes.$h",
+    "MeetDND.Penny": "I don't know why, but every time I go over to the cafe and talk to Diala and Derya, I feel so much more positive about myself.$h",
+    "MeetDND.Pam": "Derya convinced me to try some of their coffee. I'm not a fan of coffee, prefer beer but, I gotta admit, a cup of their coffee with a cat on my lap wasn't so bad!$h#$b#Don't tell Gus or Penny.$3",
+    "MeetDND.Lewis": "The cafe owners? Their business seems to be doing pretty well!$h",
+    "MeetDND.Gus": "Diala and Derya stop by the saloon every once in a while.#$b#Derya might be the only person in town who knows the secret ingredient to some of my recipes.$h",
+    "MeetDND.Emily": "It's nice to have someone like Diala around.#$b#She does in-depth readings that are really eye-opening!$h",
+    "MeetDND.Haley": "Emily dragged me to that cat cafe. It was surprisingly pleasant!$h#$b#The coffee they make is delicious.",
+    "MeetDND.Sam": "Oh, man, you should definitely join us for game nights at the cat cafe sometime. They're always a blast.$h",
+    "MeetDND.Vincent": "Diala and Derya always let us play with the cats at the cafe!#$b#Did you know they let me name one of them?$h",
+    "MeetDND.Jas": "The cats at the cafe are so cute.$h#$b#Once, Derya tried giving us coffee, but Diala wouldn't let her.$u",
+    "MeetDND.Marnie": "The ranch is a long walk from the cat cafe, but Diala and Derya always make the trip here for supplies.$h",
+    "MeetDND.Shane": "Jas wanted to see the cat cafe, so we went. Gotta say, they make great coffee and cookies there.$h",
+    "MeetDND.Robin": "The owners of the cafe over at Sunberry Village came to me for help with some renovations a while back.#$b#They sent a big batch of cookies our way when I was done working.$h",
+    "MeetDND.Demetrius": "Hi, @. Why do I look confused? Robin is making me go to the cat cafe.#$b#She told me I could debate science and astrology there, rather than to her ears. I think she just wants to see the cats.$h",
+    "MeetDND.Sebastian": "Diala and Derya always invite us over for game night.#$b#We almost always get distracted by the cats, though.$h",
+    "MeetDND.Maru": "@! I heard you went to the cat cafe!$h#$b#I met Diala when I was doing some research in Sunberry Village, and she's really sweet.#$b#I was invited to the cafe, and man... between cookies and cats... I don't know which to research first!$h",
+    "MeetDND.Linus": "Diala and Derya always bring over hot meals and baked goods when they're passing by.$h#$b#We even sit around the fire and share stories, sometimes.",
+    "MeetDND.Leah": "I love that we have a cat cafe so close.#$b#Petting a cat does wonders for you when you're having a bad day.$h",
+    "MeetDND.Elliott": "Ah, hello @. Want to help me fish a little? There's a new cat cafe, and I've found that going there is quite relaxing to a busy mind.#$b#The fish? Oh, well, they said I could give the cats a treat...$h",
+    "MeetDND.Clint": "The cafe in Sunberry Village has some of the most delicious baked goods I've ever had.$h#$b#I stop by very often, I just tend to avoid Derya. She can be a little... mean.$s",
+    "MeetDND.Wizard": "Hm? Diala? I've been keeping an eye on her, yes.#$b#She would make a good apprentice.",
+
+
+}
