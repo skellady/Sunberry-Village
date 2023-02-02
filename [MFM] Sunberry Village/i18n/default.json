@@ -1,0 +1,16 @@
+{
+
+
+    //Titles
+        "DND.invite.title": "D&D Invitation",
+        "DND.cofeedate.title": "Coffee with Diala",
+        "DND.tarotreading.title": "Tarot Reading",
+        "DND.moonlunarite.title": "Museum with Moon",
+
+    //Texts
+        "DND.invite.text": "Hello, @!^^We'd like to invite you to D&D's Cat Cafe. Feel free to drop by during our opening hours! We're located in Sunberry Village.^^Looking forward to seeing you!^^- Diala and Derya.",
+        "DND.coffeedate.text": "Hi, @!^^I've been meaning to invite you over for a cup of coffee, but it kept slipping my mind until Derya forced me to sit down and write this letter. Why don't you drop by sometime?^^- Diala.",
+        "DND.tarotreading.text": "Hey, @!^^I've had some free time recently to dedicate to my practice. Derya has talked me into giving tarot readings to people online instead of limiting myself to just the people in town. Why don't you drop by soon? I'd love to give you one!^^- Diala.",
+        "DND.moonlunarite.text": "Hi, @!^^Derya and I took Moon out to a museum in the city a few days ago! It was a great opportunity to see both of them nerd out. The highlight of the day was seeing Moon's fascination with Lunarite. I told her how this mineral is derived from the word 'lunar', which pertains to the Moon. Her eyes lit up and she decided that if anyone got her one, it'd be for a special occasion. It was so much fun, you should join us next time!^^- Diala.",
+}
+

@@ -1,0 +1,56 @@
+[
+  // DND Mail
+  {
+    "Id": "DND.Invite",
+    "Title": "DND.invite.title",
+    "Text": "DND.invite.text",
+    "LetterBG": "DDLetter.png",
+    "Repeatable": false,
+
+  },
+  {
+    "Id": "DND.CoffeeDate",
+    "Title": "DND.coffeedate.title",
+    "Text": "DND.coffeedate.text",
+    "LetterBG": "DDLetter2.png",
+    "Repeatable": false,
+    "FriendshipConditions": 
+    [
+      {
+        "NpcName": "Diala",
+        "FriendshipLevel": 2,
+
+      }
+    ]
+  },
+  {
+    "Id": "DND.TarotReading",
+    "Title": "DND.tarotreading.title",
+    "Text": "DND.tarotreading.text",
+    "LetterBG": "DDLetter.png",
+    "Repeatable": false,
+    "FriendshipConditions": 
+    [
+      {
+        "NpcName": "Diala",
+        "FriendshipLevel": 6,
+
+      }
+    ]
+  },
+  {
+    "Id": "DND.MoonLunarite",
+    "Title": "DND.moonlunarite.title",
+    "Text": "DND.moonlunarite.text",
+    "LetterBG": "DDLetter2.png",
+    "Repeatable": false,
+    "FriendshipConditions":
+    [
+      {
+        "NpcName": "Moon",
+        "FriendshipLevel": 10,
+      }
+    ]
+  },
+
+]
