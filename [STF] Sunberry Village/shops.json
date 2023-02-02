@@ -1,0 +1,79 @@
+{
+	"Shops":
+	[
+		{
+			"ShopName": "DNDCafe",
+			"StoreCurrency": "Money",
+			"CategoriesToSellHere": [ -7 ],
+			"PortraitPath": "assets/DNDCafe.png",
+			"Quote": "Welcome to D&D's Cat Cafe!",
+			"ClosedMessage": "Closed for the day!",
+			"ShopPrice": -1,
+			"MaxNumItemsSoldInStore": 6,
+			"DefaultSellPriceMultiplier": 0.7,
+			"PriceMultiplierWhen":
+			{
+				"0.6": ["f Diala 2000"]
+			},
+			"When": 
+			[
+				"!z spring/t 930 1900",
+				"!z summer/t 930 1300",
+				"!z fall/t 930 1900",
+				"!z winter/t 930 1900",
+			],
+			"LocalizedQuote":
+			{
+				//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+			},
+			"LocalizedClosedMessage":
+			{
+				//remove the "//" from your language
+        //"es": "PLACEHOLDER",
+        //"ko": "PLACEHOLDER",
+        //"de": "PLACEHOLDER",
+        //"fr": "PLACEHOLDER",
+        //"hu": "PLACEHOLDER",
+        //"it": "PLACEHOLDER",
+        //"ja": "PLACEHOLDER",
+        //"pt": "PLACEHOLDER",
+        //"ru": "PLACEHOLDER",
+        //"tr": "PLACEHOLDER",
+        //"zh": "PLACEHOLDER",
+			},
+			"ItemStocks": 
+			[
+				{
+					"ItemType": "Object",
+					"ItemNames": 
+					[
+						"Cookie",
+						"Rhubarb Pie",
+						"Maple Bar",
+						"Plum Pudding",
+						"Coffee",
+						"Triple Shot Espresso",
+						"Green Tea",
+						"Pink Cake",
+						"Poppyseed Muffin",
+						"Cranberry Candy",
+					],
+					"Stock": 1,
+				},
+			],
+
+
+		}
+	]
+}

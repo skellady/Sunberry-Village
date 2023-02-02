@@ -1,0 +1,16 @@
+{
+     
+    "Name": "Sunberry Village - Shop Tile Framework", 
+    "Author": "skellady",
+    "Version": "1.0.0", 
+    "Description": "Adds shops to Sunberry Village",
+    "UniqueID": "skellady.SBVSTF", 
+    "UpdateKeys": [ "Nexus:-1" ], 
+    "ContentPackFor":
+    {
+        "UniqueID": "Cherry.ShopTileFramework",
+        "MinimumVersion": "1.0.1"
+    },
+
+    "MinimumApiVersion": "2.0",
+}
