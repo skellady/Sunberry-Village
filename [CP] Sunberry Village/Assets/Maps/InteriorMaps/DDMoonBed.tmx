@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="2" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="32">
+ <properties>
+  <property name="DayTiles" value="Front 2 1 225 Front 8 1 225 Front 13 1 225 Front 19 1 225 Front 20 12 225 Front 2 2 275 Front 8 2 275 Front 13 2 275 Front 19 2 275 Front 20 13 275"/>
+  <property name="Doors" value="5 14 1 120 15 14 1 120"/>
+  <property name="NightTiles" value="Front 2 1 1222 Front 8 1 1222 Front 13 1 1222 Front 19 1 1222 Front 20 12 1222 Front 2 2 1254 Front 8 2 1254 Front 13 2 1254 Front 19 2 1254 Front 20 13 1254"/>
+  <property name="WindowLight" value="2 1 2 2 2 2 8 1 2 8 2 2 13 1 2 13 2 2 19 1 2 19 2 2 20 12 2 20 13 2"/>
+ </properties>
+ <tileset firstgid="1" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="zlumi_towninterior" tilewidth="16" tileheight="16" tilecount="3050" columns="25">
+  <image source="lumi_towninterior.png" width="400" height="1952"/>
+ </tileset>
+ <tileset firstgid="5227" name="zDDFurniture" tilewidth="16" tileheight="16" tilecount="624" columns="24">
+  <image source="DDFurniture.png" width="384" height="416"/>
+ </tileset>
+ <layer id="2" name="Back" width="2" height="2">
+  <data encoding="csv">
+232,233,
+2152,265
+</data>
+ </layer>
+ <objectgroup id="4" name="Back"/>
+ <layer id="11" name="Back2" width="2" height="2">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+5077,5078,
+0,0
+</data>
+ </layer>
+ <objectgroup id="12" name="Back2"/>
+ <layer id="1" name="Buildings" width="2" height="2">
+  <data encoding="csv">
+5808,5809,
+5832,5833
+</data>
+ </layer>
+ <objectgroup id="5" name="Buildings"/>
+ <layer id="3" name="Paths" width="2" height="2" visible="0">
+  <data encoding="csv">
+0,0,
+0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Paths"/>
+ <layer id="7" name="Front" width="2" height="2">
+  <data encoding="csv">
+0,0,
+197,2121
+</data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+ <layer id="13" name="Front2" width="2" height="2">
+  <properties>
+   <property name="Draw" value="Front"/>
+  </properties>
+  <data encoding="csv">
+0,0,
+0,0
+</data>
+ </layer>
+ <objectgroup id="14" name="Front2"/>
+ <layer id="9" name="AlwaysFront" width="2" height="2">
+  <data encoding="csv">
+0,0,
+0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>
