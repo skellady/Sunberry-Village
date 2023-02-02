@@ -1,0 +1,14 @@
+{
+   
+    "Name": "Sunberry Village - Custom Companions",      
+    "Author": "skellady",      
+    "Version": "1.0.0",         
+    "Description": "Custom Companions for SBV.",      
+    "UniqueID": "skellady.SBVCC",     
+    "UpdateKeys": [ "Nexus:-1" ], 
+    "ContentPackFor":
+    {
+        "UniqueID": "PeacefulEnd.CustomCompanions",
+        "MinimumVersion": "1.5.0"
+    },
+}
