@@ -1,0 +1,16 @@
+{
+	"Changes": [
+		//Intro CT
+		{
+			"LogName": "First D&D CT",
+			"Action": "EditData",
+			"Target": "sophie.ConversationTopics",
+			"Entries": {
+				"MeetDND": "true"
+			},
+			"When": {
+				"HasConversationTopic": "MeetDND"
+			}
+		},
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"Changes": [
+		// Spirit's Eve
+		{
+			"LogName": "Diala Spirit's Eve Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/Diala",
+			"FromFile": "assets/Portraits/Diala/Diala_angel.png",
+			"Update": "OnLocationChange",
+			"When": {
+				"LocationName": "Temp",
+				"DayEvent": "spirit's eve",
+			},
+		},
+		{
+			"LogName": "Diala Spirit's Eve Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/Diala",
+			"FromFile": "assets/Characters/Diala/Diala_angel.png",
+			"Update": "OnLocationChange",
+			"When": {
+				"LocationName": "Temp",
+				"DayEvent": "spirit's eve",
+			},
+		},
+		{
+			"LogName": "Derya Spirit's Eve Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/Derya",
+			"FromFile": "assets/Portraits/Derya/Derya_devil.png",
+			"Update": "OnLocationChange",
+			"When": {
+				"LocationName": "Temp",
+				"DayEvent": "spirit's eve",
+			},
+		},
+		{
+			"LogName": "Derya Spirit's Eve Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/Derya",
+			"FromFile": "assets/Characters/Derya/Derya_devil.png",
+			"Update": "OnLocationChange",
+			"When": {
+				"LocationName": "Temp",
+				"DayEvent": "spirit's eve",
+			},
+		},
+		{
+			"LogName": "Moon Spirit's Eve Portraits",
+			"Action": "EditImage",
+			"Target": "Portraits/Moon",
+			"FromFile": "assets/Portraits/Moon/Moon_ghost.png",
+			"Update": "OnLocationChange",
+			"When": {
+				"LocationName": "Temp",
+				"DayEvent": "spirit's eve",
+			},
+		},
+		{
+			"LogName": "Moon Spirit's Eve Sprites",
+			"Action": "EditImage",
+			"Target": "Characters/Moon",
+			"FromFile": "assets/Characters/Moon/Moon_ghost.png",
+			"Update": "OnLocationChange",
+			"When": {
+				"LocationName": "Temp",
+				"DayEvent": "spirit's eve",
+			},
+		},
+	]
+}

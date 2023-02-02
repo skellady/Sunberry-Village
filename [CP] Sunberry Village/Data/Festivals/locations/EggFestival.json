@@ -1,0 +1,65 @@
+{
+	"Changes": [
+		// Without SVE
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "DialaSBV 27 52 down/DeryaSBV 28 52 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "DialaSBV 27 52 down/DeryaSBV 28 52 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon At Egg Festival
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent": 20031403
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "MoonSBV 32 53 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "MoonSBV 32 53 down",
+					"Delimiter": "/",
+				},
+			]
+		}
+	]
+}

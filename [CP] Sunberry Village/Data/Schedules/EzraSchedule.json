@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Ezra's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/EzraSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_EzraClothes 11 6 2/1700 Custom_SBV_EzraClothes 12 11 0/2000 Custom_SBV_EzraHouse 3 5 3",
+				"rain": "610 Custom_SBV_EzraClothes 11 6 2/1700 Custom_SBV_EzraClothes 12 11 0/2000 Custom_SBV_EzraHouse 3 5 3",
+			},
+		},
+	]
+}

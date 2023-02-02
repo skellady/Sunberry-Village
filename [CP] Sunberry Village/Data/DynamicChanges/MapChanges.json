@@ -1,0 +1,26 @@
+{
+	"Changes": [
+		// Map Changes
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_DDHouse",
+			"FromFile": "Assets/Maps/InteriorMaps/DDMoonBed.tmx",
+			"FromArea": {
+				"X": 0,
+				"Y": 0,
+				"Width": 2,
+				"Height": 2,
+			},
+			"ToArea": {
+				"X": 7,
+				"Y": 9,
+				"Width": 2,
+				"Height": 2,
+			},
+			"PatchMode": "ReplaceByLayer",
+			"When": {
+				"HasSeenEvent": 20031412,
+			},
+		},
+	]
+}

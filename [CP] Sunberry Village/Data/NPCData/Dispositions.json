@@ -1,0 +1,42 @@
+{
+  "Changes": [
+    //NPC Dispositions
+    {
+      "LogName": "NPC Dispositions",
+      "Action": "EditData",
+      "Target": "Data/NPCDispositions",
+      "Entries": {
+
+        // Maia's Family
+        "AminaSBV": "child/polite/shy/positive/female/non-datable/null/Town/fall 17/{{i18n:NPC_Relationships.Amina}}/Custom_SBV_MaiaHouse 3 5/{{i18n:Name.Amina}}",
+        "JumanaSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/spring 27/{{i18n:NPC_Relationships.Jumana}}/Custom_SBV_MaiaHouse 14 6/{{i18n:Name.Jumana}}",
+        "MaiaSBV": "adult/polite/shy/neutral/female/non-datable/null/Town/fall 10/{{i18n:NPC_Relationships.Maia}}/Custom_SBV_MaiaHouse 27 5/{{i18n:Name.Maia}}",
+
+        // Inn People
+        "LyenneSBV": "teen/polite/outgoing/positive/female/non-datable/null/Town/winter 10//Custom_SBV_SerenityInn2ndFloor 4 6/{{i18n:Name.Lyenne}}",
+        "OpheliaSBV": "adult/polite/shy/neutral/female/non-datable/null/Town/spring 21//Custom_SBV_OpheliaHouse 4 5/{{i18n:Name.Ophelia}}",
+
+        // D&D's Family
+        "DialaSBV": "adult/polite/shy/positive/female/non-datable/null/Town/summer 26//Custom_SBV_DDHouse 2 7/{{i18n:Name.Diala}}",
+        "DeryaSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/fall 21//Custom_SBV_DDHouse 13 9/{{i18n:Name.Derya}}",
+        "MoonSBV": "child/polite/outgoing/positive/female/non-datable/null/Town/winter 13//Custom_SBV_DDHouse 13 16/{{i18n:Name.Moon}}",
+
+        // Elias' Family
+        "BlakeSBV": "teen/polite/shy/positive/male/non-datable/null/Town/summer 17/{{i18n:NPC_Relationships.Blake}}/Custom_SBV_AriMarket 3 5/{{i18n:Name.Blake}}",
+        "EliasSBV": "adult/rude/shy/negative/male/non-datable/null/Town/winter 23/{{i18n:NPC_Relationships.Elias}}/Custom_SBV_EliasHouse 3 5/{{i18n:Name.Elias}}",
+
+        // Ezra and Iman
+        "EzraSBV": "adult/polite/shy/neutral/male/non-datable/null/Town/spring 14//Custom_SBV_EzraHouse 3 5/{{i18n:Name.Ezra}}",
+        "ImanSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/spring 4//Custom_SBV_ImanHouse 5 5/{{i18n:Name.Iman}}",
+        
+        // Demons
+        "AichaSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/winter 15//Custom_SBV_SunberryWarpRoom 2 5/{{i18n:Name.Aicha}}",
+        "ReihanaSBV": "adult/rude/outgoing/negative/female/non-datable/null/Town/winter 3//Custom_SBV_ReiHouse 4 6/{{i18n:Name.Reihana}}",
+        
+        // Miyoung and Silas
+        "MiyoungSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/summer 5/{{i18n:NPC_Relationships.Miyoung}}/Custom_SBV_MiyoungHouse 13 5/{{i18n:Name.Miyoung}}",
+        "SilasSBV": "adult/polite/outgoing/positive/male/non-datable/null/Town/summer 15/{{i18n:NPC_Relationships.Silas}}/Custom_SBV_MiyoungHouse 15 5/{{i18n:Name.Silas}}",
+      },
+    },
+  ]
+}

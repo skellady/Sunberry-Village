@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Maia's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/MaiaSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_MaiaHouse 23 18 0/900 Custom_SBV_SilasBlacksmith 12 13 2/a2000 Custom_SBV_MaiaHouse 27 5 1",
+				"rain": "610 Custom_SBV_MaiaHouse 23 18 0/900 Custom_SBV_SilasBlacksmith 12 13 2/a2000 Custom_SBV_MaiaHouse 27 5 1",
+			},
+		},
+	]
+}

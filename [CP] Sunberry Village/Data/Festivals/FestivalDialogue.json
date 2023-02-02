@@ -1,0 +1,114 @@
+{
+	"Changes": [
+		//egg festival
+		{
+			"LogName": "EggFestival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"Entries": {
+				"DialaSBV": "{{i18n:Festivals.EggFest.Diala}}",
+				"DeryaSBV": "{{i18n:Festivals.EggFest.Derya}}",
+				"MoonSBV": "{{i18n:Festivals.EggFest.Moon}}",
+			},
+		},
+		//flower dance
+		{
+			"LogName": "FlowerDance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Entries": {
+				"DialaSBV": "{{i18n:Festivals.FlowerDance.Diala}}",
+				"DeryaSBV": "{{i18n:Festivals.FlowerDance.Derya}}",
+				"MoonSBV": "{{i18n:Festivals.FlowerDance.Moon}}",
+			},
+		},
+		//luau
+		{
+			"LogName": "Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"Entries": {
+				"DialaSBV": "{{i18n:Festivals.Luau.Diala}}",
+				"DeryaSBV": "{{i18n:Festivals.Luau.Derya}}",
+				"MoonSBV": "{{i18n:Festivals.Luau.Moon}}",
+			},
+		},
+		//moonlight jellies
+		{
+			"LogName": "Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"Entries": {
+				"DialaSBV": "{{i18n:Festivals.Jellies.Diala}}",
+				"DeryaSBV": "{{i18n:Festivals.Jellies.Derya}}",
+				"MoonSBV": "{{i18n:Festivals.Jellies.Moon}}",
+			},
+		},
+		//stardew fair
+		{
+			"LogName": "SVFair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"Entries": {
+				"DialaSBV": "{{i18n:Festivals.StardewFair.Diala}}",
+				"DeryaSBV": "{{i18n:Festivals.StardewFair.Derya}}",
+				"MoonSBV": "{{i18n:Festivals.StardewFair.Moon}}",
+			},
+		},
+		//spirit's eve
+		{
+			"LogName": "SpiritEve",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"Entries": {
+				"DialaSBV": "{{i18n:Festivals.SpiritEve.Diala}}",
+				"DeryaSBV": "{{i18n:Festivals.SpiritEve.Derya}}",
+				"MoonSBV": "{{i18n:Festivals.SpiritEve.Moon}}",
+			},
+		},
+		//ice festival
+		{
+			"LogName": "IceFest",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"DialaSBV": "{{i18n:Festivals.IceFest.Diala}}",
+				"DeryaSBV": "{{i18n:Festivals.IceFest.Derya}}",
+				"MoonSBV": "{{i18n:Festivals.IceFest.Moon}}",
+			},
+		},
+		//winterstar
+		{
+			"LogName": "WinterStar",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"Entries": {
+				"DialaSBV": "{{i18n:Festivals.WinterStar.Diala}}",
+				"DeryaSBV": "{{i18n:Festivals.WinterStar.Derya}}",
+				"MoonSBV": "{{i18n:Festivals.WinterStar.Moon}}",
+			},
+		},
+		//EOR (RSV)
+		{
+			"LogName": "EmbersResolution",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter28",
+			"Entries": {
+				"DialaSBV": "{{i18n:Festivals.EOR.Diala}}",
+				"DeryaSBV": "{{i18n:Festivals.EOR.Derya}}",
+				"MoonSBV": "{{i18n:Festivals.EOR.Moon}}",
+			},
+		},
+		//gathering (RSV)
+		{
+			"LogName": "RSVGathering",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall20",
+			"Entries": {
+				"DialaSBV": "{{i18n:Festivals.RSVGathering.Diala}}",
+				"DeryaSBV": "{{i18n:Festivals.RSVGathering.Derya}}",
+				"MoonSBV": "{{i18n:Festivals.RSVGathering.Moon}}",
+			},
+		},
+	]
+}

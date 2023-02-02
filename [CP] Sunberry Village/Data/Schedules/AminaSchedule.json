@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Amina's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/AminaSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_MaiaHouse 24 15 2/800 Custom_SBV_MaiaHouse 15 14 3/1200 Custom_SBV_SunberryVillage 40 49 2/2000 Custom_SBV_MaiaHouse 3 5 3",
+				"rain": "610 Custom_SBV_MaiaHouse 24 15 2/800 Custom_SBV_MaiaHouse 15 14 3/2000 Custom_SBV_MaiaHouse 3 5 3",
+			},
+		},
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Jumana's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/JumanaSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/a1400 Custom_SBV_SunberryVillage 29 51 2/2000 Custom_SBV_MaiaHouse 14 6 3",
+				"rain": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/2000 Custom_SBV_MaiaHouse 14 6 3",
+			},
+		},
+	]
+}

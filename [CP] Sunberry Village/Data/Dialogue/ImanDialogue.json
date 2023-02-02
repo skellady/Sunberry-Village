@@ -1,0 +1,77 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/ImanSBV",
+			"Entries": {
+				"Introduction": "{{i18n:Iman.Dialogue.Introduction}}",
+				//spring
+				"spring_1": "{{i18n:Iman.Dialogue.spring_1}}",
+				"spring_12": "{{i18n:Iman.Dialogue.spring_12}}",
+				"spring_23": "{{i18n:Iman.Dialogue.spring_23}}",
+				//summer
+				"summer_1": "{{i18n:Iman.Dialogue.summer_1}}",
+				"summer_10": "{{i18n:Iman.Dialogue.summer_10}}",
+				"summer_27": "{{i18n:Iman.Dialogue.summer_27}}",
+				//fall
+				"fall_1": "{{i18n:Iman.Dialogue.fall_1}}",
+				"fall_15": "{{i18n:Iman.Dialogue.fall_15}}",
+				"fall_26": "{{i18n:Iman.Dialogue.fall_26}}",
+				//winter
+				"winter_1": "{{i18n:Iman.Dialogue.winter_1}}",
+				"winter_7": "{{i18n:Iman.Dialogue.winter_7}}",
+				"winter_14": "{{i18n:Iman.Dialogue.winter_14}}",
+				"winter_24": "{{i18n:Iman.Dialogue.winter_24}}",
+				//days of the week
+				//0 Hearts
+				"Mon": "{{i18n:Iman.Dialogue.Mon}}",
+				"Tue": "{{i18n:Iman.Dialogue.Tue}}",
+				"Wed": "{{i18n:Iman.Dialogue.Wed}}",
+				"Thu": "{{i18n:Iman.Dialogue.Thu}}",
+				"Fri": "{{i18n:Iman.Dialogue.Fri}}",
+				"Sat": "{{i18n:Iman.Dialogue.Sat}}",
+				"Sun": "{{i18n:Iman.Dialogue.Sun}}",
+				//2 Hearts
+				"Mon2": "{{i18n:Iman.Dialogue.Mon2}}",
+				"Tue2": "{{i18n:Iman.Dialogue.Tue2}}",
+				"Wed2": "{{i18n:Iman.Dialogue.Wed2}}",
+				"Thu2": "{{i18n:Iman.Dialogue.Thu2}}",
+				"Fri2": "{{i18n:Iman.Dialogue.Fri2}}",
+				"Sat2": "{{i18n:Iman.Dialogue.Sat2}}",
+				"Sun2": "{{i18n:Iman.Dialogue.Sun2}}",
+				//4 Hearts
+				"Mon4": "{{i18n:Iman.Dialogue.Mon4}}",
+				"Tue4": "{{i18n:Iman.Dialogue.Tue4}}",
+				"Wed4": "{{i18n:Iman.Dialogue.Wed4}}",
+				"Thu4": "{{i18n:Iman.Dialogue.Thu4}}",
+				"Fri4": "{{i18n:Iman.Dialogue.Fri4}}",
+				"Sat4": "{{i18n:Iman.Dialogue.Sat4}}",
+				"Sun4": "{{i18n:Iman.Dialogue.Sun4}}",
+				//6 Hearts
+				"Mon6": "{{i18n:Iman.Dialogue.Mon6}}",
+				"Tue6": "{{i18n:Iman.Dialogue.Tue6}}",
+				"Wed6": "{{i18n:Iman.Dialogue.Wed6}}",
+				"Thu6": "{{i18n:Iman.Dialogue.Thu6}}",
+				"Fri6": "{{i18n:Iman.Dialogue.Fri6}}",
+				"Sat6": "{{i18n:Iman.Dialogue.Sat6}}",
+				"Sun6": "{{i18n:Iman.Dialogue.Sun6}}",
+				//8 Hearts
+				"Mon8": "{{i18n:Iman.Dialogue.Mon8}}",
+				"Tue8": "{{i18n:Iman.Dialogue.Tue8}}",
+				"Wed8": "{{i18n:Iman.Dialogue.Wed8}}",
+				"Thu8": "{{i18n:Iman.Dialogue.Thu8}}",
+				"Fri8": "{{i18n:Iman.Dialogue.Fri8}}",
+				"Sat8": "{{i18n:Iman.Dialogue.Sat8}}",
+				"Sun8": "{{i18n:Iman.Dialogue.Sun8}}",
+				//10 Hearts
+				"Mon10": "{{i18n:Iman.Dialogue.Mon10}}",
+				"Tue10": "{{i18n:Iman.Dialogue.Tue10}}",
+				"Wed10": "{{i18n:Iman.Dialogue.Wed10}}",
+				"Thu10": "{{i18n:Iman.Dialogue.Thu10}}",
+				"Fri10": "{{i18n:Iman.Dialogue.Fri10}}",
+				"Sat10": "{{i18n:Iman.Dialogue.Sat10}}",
+				"Sun10": "{{i18n:Iman.Dialogue.Sun10}}",
+			},
+		},
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Blake's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/BlakeSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_AriMarket 3 24 0/1000 Custom_SBV_AriMarket 16 26 0/1300 Custom_SBV_SunberryVillage 65 72 2/2000 Custom_SBV_AriMarket 3 5 3",
+				"rain": "610 Custom_SBV_AriMarket 3 24 0/1000 Custom_SBV_AriMarket 16 26 0/2000 Custom_SBV_AriMarket 3 5 3",
+			},
+		},
+	]
+}

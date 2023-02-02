@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Ophelia's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/OpheliaSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_SerenityInn 8 6 2/a1600 Custom_SBV_SunberryVillage 66 35 2/a2000 Custom_SBV_OpheliaHouse 4 5 3",
+				"rain": "610 Custom_SBV_SerenityInn 8 6 2/1600 Custom_SBV_SerenityInn 2 13 3/a2000 Custom_SBV_OpheliaHouse 4 5 3",
+			},
+		},
+	]
+}

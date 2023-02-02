@@ -1,0 +1,503 @@
+{
+  "Changes": [
+
+    // Exterior Maps	
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "AddWarps": [
+        "86 110 Custom_SBV_SunberryRoad 21 1",
+        "87 110 Custom_SBV_SunberryRoad 22 1",
+        "88 110 Custom_SBV_SunberryRoad 23 1",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryRoad",
+      "AddWarps": [
+        "-1 8 Custom_SBV_SunberryVillage 99 15",
+        "-1 9 Custom_SBV_SunberryVillage 99 16",
+        "-1 10 Custom_SBV_SunberryVillage 99 17",
+        "-1 11 Custom_SBV_SunberryVillage 99 15",
+        "-1 12 Custom_SBV_SunberryVillage 99 16",
+        "-1 13 Custom_SBV_SunberryVillage 99 17",
+        "21 0 Town 86 109",
+        "22 0 Town 87 109",
+        "23 0 Town 88 109",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "AddWarps": [
+        "57 -1 Custom_SBV_SunberryMountain 14 39",
+        "58 -1 Custom_SBV_SunberryMountain 15 39",
+        "59 -1 Custom_SBV_SunberryMountain 16 39",
+        "60 -1 Custom_SBV_SunberryMountain 17 39",
+        "61 -1 Custom_SBV_SunberryMountain 17 39",
+        "100 15 Custom_SBV_SunberryRoad 1 11",
+        "100 16 Custom_SBV_SunberryRoad 1 11",
+        "100 17 Custom_SBV_SunberryRoad 1 11",
+        "37 77 Custom_SBV_SunberryForest 68 2",
+        "38 77 Custom_SBV_SunberryForest 69 2"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryMountain",
+      "AddWarps": [
+        "14 41 Custom_SBV_SunberryVillage 57 1",
+        "15 41 Custom_SBV_SunberryVillage 58 1",
+        "16 41 Custom_SBV_SunberryVillage 59 1",
+        "17 41 Custom_SBV_SunberryVillage 60 1",
+        "29 25 Custom_SBV_CrystalCave 5 11",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryForest",
+      "AddWarps": [
+        "67 -1 Custom_SBV_SunberryVillage 37 76",
+        "68 -1 Custom_SBV_SunberryVillage 38 76",
+        "69 -1 Custom_SBV_SunberryVillage 37 76",
+        "70 -1 Custom_SBV_SunberryVillage 38 76",
+        "71 -1 Custom_SBV_SunberryVillage 37 76",
+        "72 -1 Custom_SBV_SunberryVillage 38 76",
+      ]
+    },
+
+    // Interior Maps
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_DialaCafe",
+      "AddWarps": [
+        "12 7 Custom_SBV_DDHouse 2 24",
+        "13 7 Custom_SBV_DDHouse 3 24",
+        "14 7 Custom_SBV_DDHouse 4 24",
+        "26 20 Custom_SBV_SunberryVillage 49 26",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_DDHouse",
+      "AddWarps": [
+        "2 25 Custom_SBV_DialaCafe 12 8",
+        "3 25 Custom_SBV_DialaCafe 13 8",
+        "4 25 Custom_SBV_DialaCafe 14 8",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_ReiHouse",
+      "AddWarps": [
+        "5 21 Custom_SBV_SunberryForest 54 12",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SerenityInn",
+      "AddWarps": [
+        "18 1 Custom_SBV_SerenityInn2ndFloor 14 19",
+        "19 1 Custom_SBV_SerenityInn2ndFloor 15 19",
+        "20 1 Custom_SBV_SerenityInn2ndFloor 16 19",
+        "11 16 Custom_SBV_SunberryVillage 74 31",
+        "12 16 Custom_SBV_SunberryVillage 75 31",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SerenityInn2ndFloor",
+      "AddWarps": [
+        "14 20 Custom_SBV_SerenityInn 18 2",
+        "15 20 Custom_SBV_SerenityInn 19 2",
+        "16 20 Custom_SBV_SerenityInn 20 2",
+        "15 4 Custom_SBV_SerenityInn3rdFloor 15 19",
+        "16 4 Custom_SBV_SerenityInn3rdFloor 16 19",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SerenityInn3rdFloor",
+      "AddWarps": [
+        "15 20 Custom_SBV_SerenityInn2ndFloor 15 5",
+        "16 20 Custom_SBV_SerenityInn2ndFloor 16 5",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_OpheliaHouse",
+      "AddWarps": [
+        "13 11 Custom_SBV_SerenityInn 3 5",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_MiyoungHouse",
+      "AddWarps": [
+        "8 17 Custom_SBV_SunberryVillage 94 10",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_AriMarket",
+      "AddWarps": [
+        "14 30 Custom_SBV_SunberryVillage 88 50",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryLibrary",
+      "AddWarps": [
+        "14 3 Custom_SBV_EliasHouse 8 11",
+        "15 3 Custom_SBV_EliasHouse 9 11",
+        "4 14 Custom_SBV_SunberryVillage 73 13",
+        "5 14 Custom_SBV_SunberryVillage 74 13",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_EliasHouse",
+      "AddWarps": [
+        "8 13 Custom_SBV_SunberryLibrary 14 4",
+        "9 13 Custom_SBV_SunberryLibrary 15 4",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_EzraClothes",
+      "AddWarps": [
+        "3 2 Custom_SBV_EzraHouse 3 12",
+        "4 2 Custom_SBV_EzraHouse 4 12",
+        "9 15 Custom_SBV_SunberryVillage 49 14",
+        "10 15 Custom_SBV_SunberryVillage 50 14",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_EzraHouse",
+      "AddWarps": [
+        "3 14 Custom_SBV_EzraClothes 3 3",
+        "4 14 Custom_SBV_EzraClothes 4 3",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_MaiaHouse",
+      "AddWarps": [
+        "15 20 Custom_SBV_SunberryVillage 31 49",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SilasBlacksmith",
+      "AddWarps": [
+        "6 20 Custom_SBV_SunberryMountain 16 23",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_ImanHouse",
+      "AddWarps": [
+        "7 17 Custom_SBV_SunberryVillage 37 14",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_CrystalCave",
+      "AddWarps": [
+        "4 13 Custom_SBV_SunberryMountain 29 27",
+        "5 13 Custom_SBV_SunberryMountain 29 27",
+        "6 13 Custom_SBV_SunberryMountain 29 27",
+      ]
+    },
+    // Locked Door Warps
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 49,
+            "Y": 25
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 26 18 Custom_SBV_DialaCafe 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 50,
+            "Y": 25
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 26 18 Custom_SBV_DialaCafe 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 74,
+            "Y": 30
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 11 14 Custom_SBV_SerenityInn 700 2400"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 75,
+            "Y": 30
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 12 14 Custom_SBV_SerenityInn 700 2400"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 94,
+            "Y": 9
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 8 15 Custom_SBV_MiyoungHouse 800 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 88,
+            "Y": 49
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 14 29 Custom_SBV_AriMarket 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 89,
+            "Y": 49
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 14 29 Custom_SBV_AriMarket 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 73,
+            "Y": 12
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 4 12 Custom_SBV_SunberryLibrary 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 74,
+            "Y": 12
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 5 12 Custom_SBV_SunberryLibrary 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 49,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 9 13 Custom_SBV_EzraClothes 900 2000"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 50,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 10 13 Custom_SBV_EzraClothes 900 2000"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 31,
+            "Y": 48
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 15 18 Custom_SBV_MaiaHouse 900 2000"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 37,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 7 15 Custom_SBV_ImanHouse 900 2000"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 38,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 7 15 Custom_SBV_ImanHouse 900 2000"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SerenityInn",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 3,
+            "Y": 4
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 13 9 Custom_SBV_OpheliaHouse 700 2200 OpheliaSBV 500"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryForest",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 54,
+            "Y": 11
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 5 20 Custom_SBV_ReiHouse 800 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryMountain",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 16,
+            "Y": 22
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 6 18 Custom_SBV_SilasBlacksmith 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "LogName": "Village NPC Warp",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "Action": "EditMap",
+      "MapProperties": {
+        "NPCWarp": "0 22 Custom_SBV_SunberryWarpRoom 4 9",
+      },
+    },
+    {
+      "LogName": "Room NPC Warp",
+      "Target": "Maps/Custom_SBV_SunberryWarpRoom",
+      "Action": "EditMap",
+      "MapProperties": {
+        "NPCWarp": "4 10 Custom_SBV_SunberryVillage 1 22",
+      },
+    },
+  ]
+}

@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Elias's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/EliasSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_SunberryLibrary 8 10 0/1200 Custom_SBV_SunberryLibrary 19 11 0/1500 Custom_SBV_SunberryVillage 77 14 2/2000 Custom_SBV_EliasHouse 3 5 3",
+				"rain": "610 Custom_SBV_SunberryLibrary 8 10 0/1200 Custom_SBV_SunberryLibrary 19 11 0/2000 Custom_SBV_EliasHouse 3 5 3",
+			},
+		},
+	]
+}

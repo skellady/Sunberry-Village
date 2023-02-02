@@ -1,0 +1,65 @@
+{
+	"Changes": [
+		// Without SVE
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "DialaSBV 42 24 down/DeryaSBV 43 24 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "DialaSBV 42 24 down/DeryaSBV 43 24 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon At Luau
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent": 20031403
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "MoonSBV 12 8 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "MoonSBV 12 8 down",
+					"Delimiter": "/",
+				},
+			]
+		}
+	]
+}

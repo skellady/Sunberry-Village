@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Miyoung's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/MiyoungSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_MiyoungHouse 1 8 1/a1400 Custom_SBV_SunberryVillage 30 51 2/a2200 Custom_SBV_MiyoungHouse 13 5 1",
+				"rain": "610 Custom_SBV_MiyoungHouse 1 8 1/1000 Custom_SBV_SunberryVillage 9 13 1/2000 Custom_SBV_MiyoungHouse 13 5 1",
+			},
+		},
+	]
+}

@@ -1,0 +1,31 @@
+{
+	"Changes": [
+		// Adds names to locations
+		{
+			"Action": "EditData",
+			"Target": "Mods/shekurika.EventLookup/locationnames",
+			"Entries": {
+				"Custom_SBV_DialaCafe": "{{i18n:Sunberry.Locations.DNDCafe}}",
+				"Custom_SBV_DDHouse": "{{i18n:Sunberry.Locations.DNDHouse}}",
+				"Custom_SBV_ReiHouse": "{{i18n:Sunberry.Locations.ReiHouse}}",
+				"Custom_SBV_SunberryVillage": "{{i18n:Sunberry.Locations.SunberryVillage}}",
+				"Custom_SBV_SunberryMountain": "{{i18n:Sunberry.Locations.SunberryMountain}}",
+				"Custom_SBV_SunberryForest": "{{i18n:Sunberry.Locations.SunberryForest}}",
+				"Custom_SBV_SunberryRoad": "{{i18n:Sunberry.Locations.SunberryRoad}}",
+				"Custom_SBV_SunberryLibrary": "{{i18n:Sunberry.Locations.SunberryLibrary}}",
+				"Custom_SBV_SerenityInn": "{{i18n:Sunberry.Locations.SerenityInn}}",
+				"Custom_SBV_SerenityInn2ndFloor": "{{i18n:Sunberry.Locations.SerenityInn2ndFloor}}",
+				"Custom_SBV_SerenityInn3rdFloor": "{{i18n:Sunberry.Locations.SerenityInn3rdFloor}}",
+				"Custom_SBV_OpheliaHouse": "{{i18n:Sunberry.Locations.OpheliaHouse}}",
+				"Custom_SBV_MiyoungHouse": "{{i18n:Sunberry.Locations.MiyoungHouse}}",
+				"Custom_SBV_AriMarket": "{{i18n:Sunberry.Locations.AriMarket}}",
+				"Custom_SBV_EliasHouse": "{{i18n:Sunberry.Locations.EliasHouse}}",
+				"Custom_SBV_EzraClothes": "{{i18n:Sunberry.Locations.EzraClothes}}",
+				"Custom_SBV_EzraHouse": "{{i18n:Sunberry.Locations.EzraHouse}}",
+				"Custom_SBV_MaiaHouse": "{{i18n:Sunberry.Locations.MaiaHouse}}",
+				"Custom_SBV_SilasBlacksmith": "{{i18n:Sunberry.Locations.SilasBlacksmith}}",
+				"Custom_SBV_ImanHouse": "{{i18n:Sunberry.Locations.ImanHouse}}",
+			}
+		}
+	]
+}

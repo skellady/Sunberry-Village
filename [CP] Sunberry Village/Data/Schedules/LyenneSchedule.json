@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Lyenne's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/LyenneSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_SerenityInn2ndFloor 7 6 0/1000 Custom_SBV_SerenityInn 3 12 0/1200 Custom_SBV_SunberryVillage 66 72 2/a2000 Custom_SBV_SerenityInn2ndFloor 4 6 3",
+				"rain": "610 Custom_SBV_SerenityInn2ndFloor 7 6 0/1000 Custom_SBV_SerenityInn 3 12 0/a2000 Custom_SBV_SerenityInn2ndFloor 4 6 3",
+			},
+		},
+	]
+}

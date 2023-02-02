@@ -1,0 +1,23 @@
+{
+  "Changes": [
+    // Entrance Patch
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "PatchMode": "Replace",
+      "FromFile": "assets/Maps/ExteriorMaps/SunberryEntrance.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 5,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 85,
+        "Y": 104,
+        "Width": 5,
+        "Height": 6
+      },
+    },
+  ]
+}

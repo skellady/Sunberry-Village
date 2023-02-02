@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Iman's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/ImanSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_ImanHouse 3 13 0/1000 Custom_SBV_EzraClothes 7 7 1/2000 Custom_SBV_ImanHouse 5 5 3",
+				"rain": "610 Custom_SBV_ImanHouse 3 13 0/1000 Custom_SBV_EzraClothes 7 7 1/2000 Custom_SBV_ImanHouse 5 5 3",
+			},
+		},
+	]
+}

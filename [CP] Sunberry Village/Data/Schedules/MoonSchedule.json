@@ -1,0 +1,31 @@
+{
+	"Changes": [
+		{
+			"LogName": "Moon's Temp Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/MoonSBV",
+			"Entries": {
+				"spring": "2400 Custom_SBV_DDHouse 13 16 0",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains=20031403": false
+			},
+		},
+		// After Intro Event
+		{
+			"LogName": "Moon's Actual Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/MoonSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_DDHouse 21 20 0/900 Custom_SBV_DialaCafe 30 17 3/1400 Town 29 54 2/2100 Custom_SBV_DDHouse 13 21 2",
+				"summer": "610 Custom_SBV_DDHouse 7 16 0/1300 Town 72 101 2/2100 Custom_SBV_DDHouse 13 21 2",
+				"fall": "610 Custom_SBV_DDHouse 2 9 0/900 Forest 81 15 2/1500 Town 33 36 2/2100 Custom_SBV_DDHouse 13 21 2",
+				"winter": "610 Custom_SBV_DDHouse 7 22 3/900 Custom_SBV_DDHouse 27 22 0/2100 Custom_SBV_DDHouse 13 21 2",
+				"winter_16": "610 Custom_SBV_DDHouse 7 22 3/900 Custom_SBV_DDHouse 27 22 0/1400 Beach 12 39 0/2100 Custom_SBV_DDHouse 3 21 2",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains=20031403": true
+			},
+		},
+	]
+}

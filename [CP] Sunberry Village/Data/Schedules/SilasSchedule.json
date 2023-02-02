@@ -1,0 +1,13 @@
+{
+	"Changes": [
+		{
+			"LogName": "Silas's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/SilasSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_MiyoungHouse 5 7 3/900 Custom_SBV_SilasBlacksmith 3 13 2/a2000 Custom_SBV_MiyoungHouse 15 5 3",
+				"rain": "610 Custom_SBV_MiyoungHouse 5 7 3/900 Custom_SBV_SilasBlacksmith 3 13 2/a2000 Custom_SBV_MiyoungHouse 15 5 3",
+			},
+		},
+	]
+}

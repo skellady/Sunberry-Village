@@ -1,0 +1,11 @@
+{
+"Changes": [
+
+{
+   "Action": "Load",
+   "Target": "Maps/BigHimeFurniture",
+   "FromFile": "assets/Maps/TileSheets/BigHimeFurniture.png"
+},
+
+   ]
+}

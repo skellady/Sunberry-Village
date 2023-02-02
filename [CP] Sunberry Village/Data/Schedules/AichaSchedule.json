@@ -1,0 +1,14 @@
+{
+	"Changes": [
+		{
+			"LogName": "Aicha's Temp Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/AichaSBV",
+			"Entries": {
+				"spring": "2400 Custom_SBV_SunberryWarpRoom 2 5 2",
+			},
+			
+		},
+		
+	]
+}

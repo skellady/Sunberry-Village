@@ -1,0 +1,81 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MoonSBV",
+			"Entries": {
+				"Introduction": "{{i18n:Moon.Dialogue.Introduction}}",
+				//spring
+				"spring_1": "{{i18n:Moon.Dialogue.spring_1}}",
+				"spring_12": "{{i18n:Moon.Dialogue.spring_12}}",
+				"spring_23": "{{i18n:Moon.Dialogue.spring_23}}",
+				//summer
+				"summer_1": "{{i18n:Moon.Dialogue.summer_1}}",
+				"summer_10": "{{i18n:Moon.Dialogue.summer_10}}",
+				"summer_27": "{{i18n:Moon.Dialogue.summer_27}}",
+				//fall
+				"fall_1": "{{i18n:Moon.Dialogue.fall_1}}",
+				"fall_15": "{{i18n:Moon.Dialogue.fall_15}}",
+				"fall_26": "{{i18n:Moon.Dialogue.fall_26}}",
+				//winter
+				"winter_1": "{{i18n:Moon.Dialogue.winter_1}}",
+				"winter_7": "{{i18n:Moon.Dialogue.winter_7}}",
+				"winter_14": "{{i18n:Moon.Dialogue.winter_14}}",
+				"BeachNightMarket": "{{i18n:Moon.Dialogue.winter_16}}",
+				"winter_24": "{{i18n:Moon.Dialogue.winter_24}}",
+				//days of the week
+				//0 Hearts
+				"Mon": "{{i18n:Moon.Dialogue.Mon}}",
+				"Tue": "{{i18n:Moon.Dialogue.Tue}}",
+				"Wed": "{{i18n:Moon.Dialogue.Wed}}",
+				"Thu": "{{i18n:Moon.Dialogue.Thu}}",
+				"Fri": "{{i18n:Moon.Dialogue.Fri}}",
+				"Sat": "{{i18n:Moon.Dialogue.Sat}}",
+				"Sun": "{{i18n:Moon.Dialogue.Sun}}",
+				//2 Hearts
+				"Mon2": "{{i18n:Moon.Dialogue.Mon2}}",
+				"Tue2": "{{i18n:Moon.Dialogue.Tue2}}",
+				"Wed2": "{{i18n:Moon.Dialogue.Wed2}}",
+				"Thu2": "{{i18n:Moon.Dialogue.Thu2}}",
+				"Fri2": "{{i18n:Moon.Dialogue.Fri2}}",
+				"Sat2": "{{i18n:Moon.Dialogue.Sat2}}",
+				"Sun2": "{{i18n:Moon.Dialogue.Sun2}}",
+				//4 Hearts
+				"Mon4": "{{i18n:Moon.Dialogue.Mon4}}",
+				"Tue4": "{{i18n:Moon.Dialogue.Tue4}}",
+				"Wed4": "{{i18n:Moon.Dialogue.Wed4}}",
+				"Thu4": "{{i18n:Moon.Dialogue.Thu4}}",
+				"Fri4": "{{i18n:Moon.Dialogue.Fri4}}",
+				"Sat4": "{{i18n:Moon.Dialogue.Sat4}}",
+				"Sun4": "{{i18n:Moon.Dialogue.Sun4}}",
+				//6 Hearts
+				"Mon6": "{{i18n:Moon.Dialogue.Mon6}}",
+				"Tue6": "{{i18n:Moon.Dialogue.Tue6}}",
+				"Wed6": "{{i18n:Moon.Dialogue.Wed6}}",
+				"Thu6": "{{i18n:Moon.Dialogue.Thu6}}",
+				"Fri6": "{{i18n:Moon.Dialogue.Fri6}}",
+				"Sat6": "{{i18n:Moon.Dialogue.Sat6}}",
+				"Sun6": "{{i18n:Moon.Dialogue.Sun6}}",
+				//8 Hearts
+				"Mon8": "{{i18n:Moon.Dialogue.Mon8}}",
+				"Tue8": "{{i18n:Moon.Dialogue.Tue8}}",
+				"Wed8": "{{i18n:Moon.Dialogue.Wed8}}",
+				"Thu8": "{{i18n:Moon.Dialogue.Thu8}}",
+				"Fri8": "{{i18n:Moon.Dialogue.Fri8}}",
+				"Sat8": "{{i18n:Moon.Dialogue.Sat8}}",
+				"Sun8": "{{i18n:Moon.Dialogue.Sun8}}",
+				//10 Hearts
+				"Mon10": "{{i18n:Moon.Dialogue.Mon10}}",
+				"Tue10": "{{i18n:Moon.Dialogue.Tue10}}",
+				"Wed10": "{{i18n:Moon.Dialogue.Wed10}}",
+				"Thu10": "{{i18n:Moon.Dialogue.Thu10}}",
+				"Fri10": "{{i18n:Moon.Dialogue.Fri10}}",
+				"Sat10": "{{i18n:Moon.Dialogue.Sat10}}",
+				"Sun10": "{{i18n:Moon.Dialogue.Sun10}}",
+				//event question
+				"moonchoice_1": "{{i18n:event-20031415.19}}",
+				"moonchoice_2": "{{i18n:event-20031415.20}}",
+			},
+		},
+	]
+}

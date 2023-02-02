@@ -1,0 +1,34 @@
+{
+	"Changes": [
+		// Diala
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/DialaSBV",
+			"Entries": {
+				"MobilePhoneGreeting": "{{i18n:MP.Greeting.Diala}}",
+				"MobilePhoneReminisce": "{{i18n:MP.Reminisce.Diala}}",
+				"MobilePhoneGoodBye": "{{i18n:MP.Goodbye.Diala}}",
+			}
+		},
+		// Derya
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/DeryaSBV",
+			"Entries": {
+				"MobilePhoneGreeting": "{{i18n:MP.Greeting.Derya}}",
+				"MobilePhoneReminisce": "{{i18n:MP.Reminisce.Derya}}",
+				"MobilePhoneGoodBye": "{{i18n:MP.Goodbye.Derya}}",
+			}
+		},
+		// Moon
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MoonSBV",
+			"Entries": {
+				"MobilePhoneGreeting": "{{i18n:MP.Greeting.Moon}}",
+				"MobilePhoneReminisce": "{{i18n:MP.Reminisce.Moon}}",
+				"MobilePhoneGoodBye": "{{i18n:MP.Goodbye.Moon}}",
+			}
+		},
+	]
+}

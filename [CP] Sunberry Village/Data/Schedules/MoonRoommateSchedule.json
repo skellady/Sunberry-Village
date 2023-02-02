@@ -1,0 +1,15 @@
+{
+	"Changes": [
+		{
+			"LogName": "Moon's Roommate Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/MoonSBV",
+			"Entries": {
+				"marriage_Mon": "900 Town 71 101 2/1100 Custom_DND_DialaCafe 24 9 0/1600 Custom_SBV_SunberryVillage 43 20 2/2200 BusStop -1 23 3",
+				"marriage_Wed": "900 Forest 81 15 2/1100 Custom_DND_DialaCafe 24 9 0/1600 Custom_SBV_SunberryVillage 43 20 2/2200 BusStop -1 23 3",
+				"marriage_Thu": "900 Beach 41 24 2/1100 Custom_DND_DialaCafe 24 9 0/1600 Custom_SBV_SunberryVillage 43 20 2/2200 BusStop -1 23 3",
+				"marriage_winter_16": "a1700 Beach 12 39 0/2100 BusStop -1 23 3",
+			},
+		},
+	]
+}

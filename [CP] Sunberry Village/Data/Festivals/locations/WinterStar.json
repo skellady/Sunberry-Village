@@ -1,0 +1,45 @@
+{
+	"Changes": [
+		// Without SVE
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "DialaSBV 20 57 right/DeryaSBV 21 57 left",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon At Feast
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent": 20031403
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "MoonSBV 19 49 down",
+					"Delimiter": "/",
+				},
+			]
+		}
+	]
+}

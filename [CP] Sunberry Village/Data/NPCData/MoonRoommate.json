@@ -1,0 +1,76 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/ObjectContextTags",
+      "TextOperations": [
+        //Adds roommate proposal code to Lunarite
+        {
+          "Operation": "Append",
+          "Target": [
+            "Entries",
+            "Lunarite"
+          ],
+          "Value": "propose_roommate_moon",
+          "Delimiter": ", ",
+        },
+      ],
+        "When": {
+        "HasSeenEvent": 20031412,
+      },
+    },
+    {
+      "LogName": "Moon Accepting Dialogue",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "Moon_EngagedRoommate": "{{i18n:Moon.EngagedRoommate}}",
+      },
+    },
+    {
+      "LogName": "Moon Rejecting Dialogue",
+      "Action": "EditData",
+      "Target": "Strings/Characters/MoonSBV",
+      "Entries": {
+        "MovieInvite_NoTheater": "{{i18n:Moon.NoTheater}}",
+      },
+    },
+    {
+      "LogName": "Moon Engagement Dialogue",
+      "Action": "EditData",
+      "Target": "Data/EngagementDialogue",
+      "Entries": {
+        "MoonRoommate0": "{{i18n:Moon.Engagement0}}",
+        "MoonRoommate1": "{{i18n:Moon.Engagement1}}",
+      },
+    },
+    //Register Spouse Room
+    {
+      "Action": "EditData",
+      "Target": "Data/SpouseRooms",
+      "Entries": {
+        "MoonSBV": "SBVSpouseRooms/0",
+      },
+    },
+    //Load Spouse Room
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVSpouseRooms",
+      "FromFile": "assets/Maps/SpouseRooms/{{TargetWithoutPath}}.tmx"
+    },
+    //Load Spouse Patios
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVSpousePatios",
+      "FromFile": "assets/Maps/SpouseRooms/{{TargetWithoutPath}}.tmx"
+    },
+    //Register patios
+    {
+      "Action": "EditData",
+      "Target": "Data/SpousePatios",
+      "Entries": {
+        "MoonSBV": "SBVSpousePatios/0/0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3/0 0",
+      },
+    },
+  ]
+}
