@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="85" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="36">
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="85" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="37">
  <properties>
   <property name="Outdoors" value="T"/>
  </properties>
@@ -1775,8 +1775,8 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="3812" name="zoutdoor" tilewidth="16" tileheight="16" tilecount="4700" columns="50">
-  <image source="spring_sunberrybuildings.png" width="800" height="1504"/>
+ <tileset firstgid="3812" name="zoutdoor" tilewidth="16" tileheight="16" tilecount="5300" columns="50">
+  <image source="spring_sunberrybuildings.png" width="800" height="1696"/>
  </tileset>
  <layer id="1" name="Back" width="85" height="60">
   <data encoding="csv">
@@ -1975,7 +1975,13 @@
 0,0,258,0,0,395,176,176,176,176,176,256,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,256,176,176,176,176,152,176,255,176,176,256,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,376,377,377,377,378,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176,176
 </data>
  </layer>
- <objectgroup id="7" name="Buildings"/>
+ <objectgroup id="7" name="Buildings">
+  <object id="36" name="TileData" x="864" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;rei.lockedhouse&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="3" name="Paths" width="85" height="60">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

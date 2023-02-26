@@ -38,8 +38,8 @@
         "100 15 Custom_SBV_SunberryRoad 1 11",
         "100 16 Custom_SBV_SunberryRoad 1 11",
         "100 17 Custom_SBV_SunberryRoad 1 11",
-        "37 77 Custom_SBV_SunberryForest 68 2",
-        "38 77 Custom_SBV_SunberryForest 69 2"
+        "37 78 Custom_SBV_SunberryForest 68 2",
+        "38 78 Custom_SBV_SunberryForest 69 2"
       ]
     },
     {
@@ -191,7 +191,7 @@
       "Action": "EditMap",
       "Target": "Maps/Custom_SBV_SilasBlacksmith",
       "AddWarps": [
-        "6 20 Custom_SBV_SunberryMountain 16 23",
+        "6 19 Custom_SBV_SunberryMountain 16 23",
       ]
     },
     {
@@ -226,6 +226,9 @@
           }
         }
       ],
+      "When": {
+        "HasSeenEvent: anyPlayer |contains=20031401": true
+      },
     },
     {
       "Action": "EditMap",
@@ -466,6 +469,9 @@
           }
         }
       ],
+      "When": {
+        "HasSeenEvent: anyPlayer |contains=20031427": true
+      },
     },
     {
       "Action": "EditMap",

@@ -1,11 +1,25 @@
 {
 	"Changes": [
 		{
-			"LogName": "Reihana's Schedule",
+			"LogName": "Reihana's Temp Schedule",
 			"Action": "EditData",
 			"Target": "Characters/schedules/ReihanaSBV",
 			"Entries": {
 				"spring": "2400 Custom_SBV_ReiHouse 4 6 2",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains=20031427": false
+			},
+		},
+		{
+			"LogName": "Reihana's First Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/ReihanaSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_ReiHouse 17 15 0/900 Custom_SBV_SunberryForest 37 36 2/2000 Custom_SBV_ReiHouse 3 5 3",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains=20031427": true
 			},
 		},
 	]

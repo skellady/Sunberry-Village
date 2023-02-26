@@ -15,6 +15,10 @@
         "derya_sleep": "39/39/39",
         "derya_read": "0/16 16 17 17 18 18 19 19 16 16/0/Strings\\animationDescriptions:derya.read",
         "derya_sit": "20/20/20",
+        //Amina
+        "amina_read": "16/16/16",
+        "amina_sitside": "17/17/17",
+        "amina_sitfront": "18/18/18"
       },
     },
     // Animation Strings

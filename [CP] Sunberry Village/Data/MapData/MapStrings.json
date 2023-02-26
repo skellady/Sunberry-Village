@@ -45,5 +45,16 @@
 				"sbv.village7": "{{i18n:MapString.sbv.village7}}",
 			},
 		},
+		{
+			"LogName": "Rei Temp Message",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"rei.lockedhouse": "{{i18n:MapString.rei.lockedhouse}}",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains=20031427": false
+			},
+		},
 	]
 }

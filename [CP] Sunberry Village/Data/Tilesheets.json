@@ -1,6 +1,6 @@
 {
 "Changes": [
-
+// Exterior Maps Folder
 {
    "Action": "Load",
    "Target": "Maps/BigHimeFurniture",

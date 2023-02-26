@@ -140,6 +140,11 @@
         "HasValue:{{season}}": true,
       },
     },
+    {
+      "Action": "Load",
+      "Target": "Characters/DDTable1",
+      "FromFile": "assets/Maps/tempActors/DDTable1.png",
+    },
 
     //Temporary Maps
     {
@@ -162,18 +167,52 @@
       "Target": "Maps/Planet_Moon",
       "FromFile": "assets/Maps/tempMaps/Planet_Moon.tmx",
     },
-
+    {
+      "Action": "Load",
+      "Target": "Maps/Phone_CG1",
+      "FromFile": "assets/Maps/tempMaps/Phone_CG1.tmx",
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Phone_CG2",
+      "FromFile": "assets/Maps/tempMaps/Phone_CG2.tmx",
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Phone_CG3",
+      "FromFile": "assets/Maps/tempMaps/Phone_CG3.tmx",
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Phone_CG4",
+      "FromFile": "assets/Maps/tempMaps/Phone_CG4.tmx",
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Phone_CG5",
+      "FromFile": "assets/Maps/tempMaps/Phone_CG5.tmx",
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Phone_CG6",
+      "FromFile": "assets/Maps/tempMaps/Phone_CG6.tmx",
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/Phone_CG",
+      "FromFile": "assets/Maps/tempMaps/Phone_CG.tmx",
+    },
     // Sprites + Portraits
     {
       "LogName": "Seasonal Sprites and Portraits",
       "Action": "Load",
-      "Target": "Characters/DialaSBV, Characters/DeryaSBV, Characters/AichaSBV, Portraits/DialaSBV, Portraits/DeryaSBV, Portraits/AichaSBV",
+      "Target": "Characters/DialaSBV, Characters/DeryaSBV, Characters/AichaSBV, Characters/JumanaSBV, Portraits/DialaSBV, Portraits/DeryaSBV, Portraits/AichaSBV, Portraits/JumanaSBV",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png"
     },
     {
       "LogName": "Sprites and Portraits",
       "Action": "Load",
-      "Target": "Characters/MoonSBV, Characters/ReihanaSBV, Characters/AminaSBV, Characters/BlakeSBV, Characters/EliasSBV, Characters/EzraSBV, Characters/ImanSBV, Characters/JumanaSBV, Characters/LyenneSBV, Characters/MaiaSBV, Characters/MiyoungSBV, Characters/OpheliaSBV, Characters/SilasSBV, Portraits/MoonSBV, Portraits/ReihanaSBV, Portraits/AminaSBV, Portraits/BlakeSBV, Portraits/EliasSBV, Portraits/EzraSBV, Portraits/ImanSBV, Portraits/JumanaSBV, Portraits/LyenneSBV, Portraits/MaiaSBV, Portraits/MiyoungSBV, Portraits/OpheliaSBV, Portraits/SilasSBV",
+      "Target": "Characters/MoonSBV, Characters/ReihanaSBV, Characters/AminaSBV, Characters/BlakeSBV, Characters/EliasSBV, Characters/EzraSBV, Characters/ImanSBV, Characters/LyenneSBV, Characters/MaiaSBV, Characters/MiyoungSBV, Characters/OpheliaSBV, Characters/SilasSBV, Portraits/MoonSBV, Portraits/ReihanaSBV, Portraits/AminaSBV, Portraits/BlakeSBV, Portraits/EliasSBV, Portraits/EzraSBV, Portraits/ImanSBV, Portraits/LyenneSBV, Portraits/MaiaSBV, Portraits/MiyoungSBV, Portraits/OpheliaSBV, Portraits/SilasSBV",
       "FromFile": "assets/{{Target}}/{{TargetWithoutPath}}.png",
     },
     
@@ -204,7 +243,7 @@
     },
     {
       "Action": "Load",
-      "Target": "Data/Events/Custom_SBV_DialaCafe, Data/Events/Custom_SBV_DDHouse, Data/Events/Custom_SBV_SunberryVillage, Data/Events/Custom_SBV_SunberryRoad, Data/Events/Custom_SBV_SunberryForest, Data/Events/Custom_SBV_SunberryMountain, Data/Events/Custom_SBV_SunberryLibrary, Data/Events/Custom_SBV_ReiHouse, Data/Events/Custom_SBV_AriMarket, Data/Events/Custom_SBV_EzraHouse, Data/Events/Custom_SBV_ImanHouse, Data/Events/Custom_SBV_MaiaHouse, Data/Events/Custom_SBV_EliasHouse, Data/Events/Custom_SBV_MiyoungHouse, Data/Events/Custom_SBV_SilasBlacksmith, Data/Events/Custom_SBV_SerenityInn, Data/Events/Custom_SBV_SerenityInn2ndFloor, Data/Events/Custom_SBV_SerenityInn3rdFloor, Data/Events/Custom_SBV_OpheliaHouse, Data/Events/Custom_SBV_EzraClothes",
+      "Target": "Data/Events/Custom_SBV_DialaCafe, Data/Events/Custom_SBV_DDHouse, Data/Events/Custom_SBV_SunberryVillage, Data/Events/Custom_SBV_SunberryRoad, Data/Events/Custom_SBV_SunberryForest, Data/Events/Custom_SBV_SunberryMountain, Data/Events/Custom_SBV_SunberryLibrary, Data/Events/Custom_SBV_ReiHouse, Data/Events/Custom_SBV_AriMarket, Data/Events/Custom_SBV_EzraHouse, Data/Events/Custom_SBV_ImanHouse, Data/Events/Custom_SBV_MaiaHouse, Data/Events/Custom_SBV_EliasHouse, Data/Events/Custom_SBV_MiyoungHouse, Data/Events/Custom_SBV_SilasBlacksmith, Data/Events/Custom_SBV_SerenityInn, Data/Events/Custom_SBV_SerenityInn2ndFloor, Data/Events/Custom_SBV_SerenityInn3rdFloor, Data/Events/Custom_SBV_OpheliaHouse, Data/Events/Custom_SBV_EzraClothes, Data/Events/Custom_SBV_CrystalCave",
       "FromFile": "Data/Dialogue/blank.json",
     },
     // Data Folder Includes
