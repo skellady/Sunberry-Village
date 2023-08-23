@@ -1,0 +1,29 @@
+{
+	"Name": "SBVFirefly",
+	"Type": "Flying",
+	"TravelSpeed": 0,
+	"SpawnOffsetX": 0,
+	"SpawnOffsetY": 0,
+	"MaxDistanceBeforeTeleport": -1,
+	"IdleBehavior": "Nothing",
+	"Light": {
+		"Color": [
+			255,
+			223,
+			46,
+			200
+		],
+		"Radius": 2,
+		"OffsetX": 8,
+		"OffsetY": 0,
+		"PulseSpeed": 6000,
+		"PulseMinRadius": 1.0,
+	},
+	"FrameSizeWidth": 16,
+	"FrameSizeHeight": 16,
+	"UniformAnimation": {
+		"StartingFrame": 0,
+		"NumberOfFrames": 1,
+		"Duration": 5000,
+	}
+}

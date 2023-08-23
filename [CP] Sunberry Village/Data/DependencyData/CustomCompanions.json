@@ -108,7 +108,7 @@
                },
                "Layer": "Back",
                "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: MainDog1, MainDog2, MainDog3, MainDog4, MainDog5, MainDog6}}"
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog1"
                },
             },
             {
@@ -118,7 +118,7 @@
                },
                "Layer": "Back",
                "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: MainDog1, MainDog2, MainDog3, MainDog4, MainDog5, MainDog6}}"
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog2"
                },
             },
             {
@@ -128,7 +128,7 @@
                },
                "Layer": "Back",
                "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: MainDog1, MainDog2, MainDog3, MainDog4, MainDog5, MainDog6}}"
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog3"
                },
             },
             {
@@ -138,7 +138,7 @@
                },
                "Layer": "Back",
                "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: MainDog1, MainDog2, MainDog3, MainDog4, MainDog5, MainDog6}}"
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog4"
                },
             },
             {
@@ -148,13 +148,270 @@
                },
                "Layer": "Back",
                "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: MainDog1, MainDog2, MainDog3, MainDog4, MainDog5, MainDog6}}"
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog5"
                },
-            },      
+            },
          ],
          "When": {
             "Weather": "Sun, Wind",
             "Season": "Spring, Summer, Fall",
+         },
+         "Update": "OnLocationChange",
+      },
+      {
+         "LogName": "Dog In the Inn Rain",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_SerenityInn",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 19,
+                  "Y": 9
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog1"
+               }
+            }
+         ],
+         "When": {
+            "Weather": "Rain, Storm",
+            "Season": "Spring, Summer, Fall"
+         },
+         "Update": "OnLocationChange"
+      },
+      {
+         "LogName": "Dog In Miyoung's House Rain",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_MiyoungHouse",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 5,
+                  "Y": 10
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog2"
+               }
+            }
+         ],
+         "When": {
+            "Weather": "Rain, Storm",
+            "Season": "Spring, Summer, Fall"
+         },
+         "Update": "OnLocationChange"
+      },
+      {
+         "LogName": "Dog In the Cafe Rain",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_DialaCafe",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 33,
+                  "Y": 15
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog3"
+               }
+            }
+         ],
+         "When": {
+            "Weather": "Rain, Storm",
+            "Season": "Spring, Summer, Fall"
+         },
+         "Update": "OnLocationChange"
+      },
+      {
+         "LogName": "Sunberry Village Fireflies",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_SunberryVillage",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 88,
+                  "Y": 17
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 66,
+                  "Y": 18
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 35,
+                  "Y": 18
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 20,
+                  "Y": 40
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 28,
+                  "Y": 63
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 15,
+                  "Y": 87
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 60,
+                  "Y": 42
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 72,
+                  "Y": 55
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 65,
+                  "Y": 68
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 58,
+                  "Y": 82
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 73,
+                  "Y": 91
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 82,
+                  "Y": 86
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 59,
+                  "Y": 91
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 54,
+                  "Y": 86
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 66,
+                  "Y": 86
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 52,
+                  "Y": 92
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 66,
+                  "Y": 86
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 64,
+                  "Y": 79
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+         ],
+         "When": {
+            "Time": "{{Range: 1800, 2400}}"
          },
          "Update": "OnLocationChange",
       },

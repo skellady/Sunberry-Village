@@ -1,11 +1,39 @@
 {
-"Changes": [
-// Exterior Maps Folder
-{
-   "Action": "Load",
-   "Target": "Maps/BigHimeFurniture",
-   "FromFile": "assets/Maps/TileSheets/BigHimeFurniture.png"
-},
-
-   ]
+  "Changes": [
+    // Load Tilesheets
+    {
+      "Action": "Load",
+      "Target": "Maps/BigHimeFurniture",
+      "FromFile": "Assets/Maps/TileSheets/BigHimeFurniture.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/lumi_recolored",
+      "FromFile": "Assets/Maps/TileSheets/lumi_recolored.png",
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/yri_furniture",
+      "FromFile": "Assets/Maps/TileSheets/yri_furniture.png",
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ChairTiles",
+      "Entries": {
+        // lumi stools
+        "lumi_recolored/11/3": "1/1/opposite/stool/-1/-1/false",
+        "lumi_recolored/12/3": "1/1/opposite/stool/-1/-1/false",
+        "lumi_recolored/13/3": "1/1/opposite/stool/-1/-1/false",
+        "lumi_recolored/15/5": "1/1/opposite/stool/-1/-1/false",
+      },
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/ChairTiles",
+      "Entries": {
+        // yri stools
+        "yri_furniture/4/3": "1/1/opposite/stool/-1/-1/false",
+      },
+    },
+  ]
 }

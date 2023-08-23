@@ -1,0 +1,45 @@
+{
+    "Name": "SBV Chocolate Chip Cookie",
+    "Description": "...",
+    "TranslationKey": "sbv-chocolate-chip-cookie",
+    "Category": "Cooking",
+    "Edibility": 50,
+    "EdibleIsDrink": false,
+    "Price": 220,
+    "EdibleBuffs": {
+        "Farming": 2,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 0,
+        "Duration": 300
+    },
+    "GiftTastes": {
+        "Love": ["AminaSBV", "Jas", "Vincent", "LyenneSBV", "BlakeSBV", "ImanSBV", "EzraSBV", "ReihanaSBV", "AichaSBV"],
+        "Like": ["Abigail", "Sebastian", "Caroline", "Sam", "Wizard"]
+    },
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": -5,
+                "Count": 1
+            },
+            {
+                "Object": 245,
+                "Count": 1
+            },
+            {
+                "Object": 246,
+                "Count": 1
+            },
+            {
+                "Object": "SBV Carob",
+                "Count": 3
+            }
+        ],
+        "CanPurchase": false
+    },
+    "ContextTags": [
+        "color_brown"
+    ]
+}

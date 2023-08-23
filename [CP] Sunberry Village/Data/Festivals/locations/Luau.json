@@ -4,9 +4,6 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
-			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
-			},
 			"TextOperations": [
 				// Set-up
 				{
@@ -15,7 +12,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "DialaSBV 42 24 down/DeryaSBV 43 24 down",
+					"Value": "DialaSBV 61 38 right/DeryaSBV 62 38 left/AminaSBV 73 28 down/MaiaSBV 70 30 right/EliasSBV 71 30 left/ImanSBV 64 34 down/EzraSBV 64 38 up/BlakeSBV 72 38 down/OpheliaSBV 71 39 right/LyenneSBV 72 40 up/MiyoungSBV 60 42 down/JumanaSBV 61 42 down/SilasSBV 75 46 down/AriSBV 76 46 down",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -23,9 +20,9 @@
 					"Operation": "Append",
 					"Target": [
 						"Entries",
-						"Set-Up_additionalCharacters"
+						"MainEvent_additionalCharacters"
 					],
-					"Value": "DialaSBV 42 24 down/DeryaSBV 43 24 down",
+					"Value": "DialaSBV 61 38 right/DeryaSBV 62 38 left/AminaSBV 73 28 down/MaiaSBV 70 30 right/EliasSBV 71 30 left/ImanSBV 64 34 down/EzraSBV 64 38 up/BlakeSBV 72 38 down/OpheliaSBV 71 39 right/LyenneSBV 72 40 up/MiyoungSBV 60 42 down/JumanaSBV 61 42 down/SilasSBV 75 46 down/AriSBV 76 46 down",
 					"Delimiter": "/",
 				},
 			]
@@ -35,8 +32,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
 			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasSeenEvent": 20031403
+				"HasSeenEvent": 20031402
 			},
 			"TextOperations": [
 				// Set-up
@@ -46,7 +42,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 12 8 down",
+					"Value": "MoonSBV 73 46 down",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -54,9 +50,38 @@
 					"Operation": "Append",
 					"Target": [
 						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "MoonSBV 73 46 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"HasSeenEvent": 20031427
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 12 8 down",
+					"Value": "ReihanaSBV 83 38 down/AichaSBV 84 38 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "ReihanaSBV 83 38 down/AichaSBV 84 38 down",
 					"Delimiter": "/",
 				},
 			]

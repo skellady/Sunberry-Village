@@ -4,9 +4,6 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
-			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
-			},
 			"TextOperations": [
 				// Set-up
 				{
@@ -15,7 +12,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "DialaSBV 77 43 right/DeryaSBV 78 43 left",
+					"Value": "DialaSBV 48 22 right/DeryaSBV 49 22 left/EliasSBV 73 33 right/MaiaSBV 48 25 right/AminaSBV 50 25 left/JumanaSBV 49 24 down/LyenneSBV 87 20 right/BlakeSBV 89 20 left/OpheliaSBV 88 19 down/MiyoungSBV 53 53 right/SilasSBV 54 53 left/ImanSBV 96 26 right/EzraSBV 97 26 left/AriSBV 59 38 down",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -23,9 +20,9 @@
 					"Operation": "Append",
 					"Target": [
 						"Entries",
-						"Set-Up_additionalCharacters"
+						"Main-Event_additionalCharacters"
 					],
-					"Value": "DialaSBV 77 43 right/DeryaSBV 78 43 left",
+					"Value": "DialaSBV 48 22 right/DeryaSBV 49 22 left/EliasSBV 73 33 right/MaiaSBV 48 25 right/AminaSBV 50 25 left/JumanaSBV 49 24 down/LyenneSBV 87 20 right/BlakeSBV 89 20 left/OpheliaSBV 88 19 down/MiyoungSBV 53 53 right/SilasSBV 54 53 left/ImanSBV 96 26 right/EzraSBV 97 26 left/AriSBV 59 38 down",
 					"Delimiter": "/",
 				},
 			]
@@ -35,8 +32,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
 			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasSeenEvent": 20031403
+				"HasSeenEvent": 20031402
 			},
 			"TextOperations": [
 				// Set-up
@@ -46,7 +42,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 61 10 down",
+					"Value": "MoonSBV 61 11 down",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -54,9 +50,38 @@
 					"Operation": "Append",
 					"Target": [
 						"Entries",
+						"Main-Event_additionalCharacters"
+					],
+					"Value": "MoonSBV 61 11 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"HasSeenEvent": 20031427
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 61 10 down",
+					"Value": "ReihanaSBV 39 54 right/AichaSBV 40 54 left",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Main-Event_additionalCharacters"
+					],
+					"Value": "ReihanaSBV 39 54 right/AichaSBV 40 54 left",
 					"Delimiter": "/",
 				},
 			]

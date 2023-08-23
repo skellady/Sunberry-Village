@@ -1,0 +1,41 @@
+{
+    "Name": "SBV Hot Chocolate",
+    "Description": "...",
+    "TranslationKey": "sbv-hot-chocolate",
+    "Category": "ArtisanGoods",
+    "Edibility": 10,
+    "EdibleIsDrink": true,
+    "Price": 500,
+    "EdibleBuffs": {
+        "Farming": 0,
+        "Fishing": 0,
+        "Mining": 0,
+        "Luck": 1,
+        "Duration": 300
+    },
+    "GiftTastes": {
+        "Love": ["AminaSBV", "Jas", "Vincent", "LyenneSBV", "BlakeSBV", "ImanSBV", "EzraSBV", "ReihanaSBV", "AichaSBV", "DialaSBV", "DeryaSBV", "MiyoungSBV"],
+        "Like": ["Abigail", "Sebastian", "Caroline", "Sam", "Wizard"]
+    },
+    "Recipe": {
+        "ResultCount": 1,
+        "Ingredients": [
+            {
+                "Object": -6,
+                "Count": 1
+            },
+            {
+                "Object": 245,
+                "Count": 1
+            },
+            {
+                "Object": "SBV Carob",
+                "Count": 2
+            }
+        ],
+        "CanPurchase": false
+    },
+    "ContextTags": [
+        "category_artisan_goods"
+    ]
+}

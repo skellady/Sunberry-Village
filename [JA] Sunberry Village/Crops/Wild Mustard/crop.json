@@ -1,0 +1,25 @@
+{
+    "Name": "SBV Wild Mustard Seeds",
+    "Product": "SBV Wild Mustard",
+    "SeedName": "SBV Wild Mustard Seeds",
+    "SeedPrice": 90,
+    "SeedDescription": "...",
+    "SeedTranslationKey": "sbv-wildmustard-seeds",
+    "Type": "Flower",
+    "Seasons": ["fall"],
+    "Phases": [1, 2, 1, 3],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 2,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchaseFrom": "JumanaShop",
+    "SeedPurchasePrice": 90,
+    
+}

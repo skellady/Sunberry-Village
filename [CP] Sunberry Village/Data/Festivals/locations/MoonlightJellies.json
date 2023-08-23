@@ -15,7 +15,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "DialaSBV 56 17 right/DeryaSBV 56 18 right",
+					"Value": "DialaSBV 59 37 left/DeryaSBV 59 36 left/MaiaSBV 67 30 left/AminaSBV 67 31 left/JumanaSBV 67 32 left/EzraSBV 66 36 down/ImanSBV 67 36 down/AriSBV 75 35 right/BlakeSBV 75 36 right/EliasSBV 75 37 right/OpheliaSBV 77 38 right/LyenneSBV 77 39 right/SilasSBV 65 46 down/MiyoungSBV 66 46 down",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -23,9 +23,9 @@
 					"Operation": "Append",
 					"Target": [
 						"Entries",
-						"Set-Up_additionalCharacters"
+						"MainEvent_additionalCharacters"
 					],
-					"Value": "DialaSBV 56 17 right/DeryaSBV 56 18 right",
+					"Value": "DialaSBV 59 37 left/DeryaSBV 59 36 left/MaiaSBV 67 30 left/AminaSBV 67 31 left/JumanaSBV 67 32 left/EzraSBV 66 36 down/ImanSBV 67 36 down/AriSBV 75 35 right/BlakeSBV 75 36 right/EliasSBV 75 37 right/OpheliaSBV 77 38 right/LyenneSBV 77 39 right/SilasSBV 65 46 down/MiyoungSBV 66 46 down",
 					"Delimiter": "/",
 				},
 			]
@@ -36,7 +36,7 @@
 			"Target": "Data/Festivals/summer28",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasSeenEvent": 20031403
+				"HasSeenEvent": 20031402
 			},
 			"TextOperations": [
 				// Set-up
@@ -46,7 +46,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 56 10 right",
+					"Value": "MoonSBV 59 42 left",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -54,12 +54,42 @@
 					"Operation": "Append",
 					"Target": [
 						"Entries",
-						"Set-Up_additionalCharacters"
+						"MainEvent_additionalCharacters"
 					],
-					"Value": "MoonSBV 56 10 right",
+					"Value": "MoonSBV 59 42 left",
 					"Delimiter": "/",
 				},
 			]
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent": 20031427
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "AichaSBV 75 29 right/ReihanaSBV 75 30 right",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "AichaSBV 75 29 right/ReihanaSBV 75 30 right",
+					"Delimiter": "/",
+				},
+			]
+		},
 	]
 }

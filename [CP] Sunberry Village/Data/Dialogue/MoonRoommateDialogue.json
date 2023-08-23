@@ -21,14 +21,14 @@
 				"winter_16": "{{i18n:Moon.Roommate.Dialogue.winter_16}}",
 				"winter_24": "{{i18n:Moon.Roommate.Dialogue.winter_24}}",
 				//Seasonal Dialogue
-				"spring_Moon": "{{i18n:Moon.Roommate.Dialogue.spring}}",
-				"summer_Moon": "{{i18n:Moon.Roommate.Dialogue.summer}}",
-				"fall_Moon": "{{i18n:Moon.Roommate.Dialogue.fall}}",
-				"winter_Moon": "{{i18n:Moon.Roommate.Dialogue.winter}}",
+				"spring_MoonSBV": "{{i18n:Moon.Roommate.Dialogue.spring}}",
+				"summer_MoonSBV": "{{i18n:Moon.Roommate.Dialogue.summer}}",
+				"fall_MoonSBV": "{{i18n:Moon.Roommate.Dialogue.fall}}",
+				"winter_MoonSBV": "{{i18n:Moon.Roommate.Dialogue.winter}}",
 				//Patio Dialogue
-				"patio_Moon": "{{Random: {{i18n:Moon.Roommate.patio_1}} ++ {{i18n:Moon.Roommate.patio_2}} ++ {{i18n:Moon.Roommate.patio_3}} ++ {{i18n:Moon.Roommate.patio_4}} |inputSeparator=++}}",
+				"patio_MoonSBV": "{{Random: {{i18n:Moon.Roommate.patio_1}} ++ {{i18n:Moon.Roommate.patio_2}} ++ {{i18n:Moon.Roommate.patio_3}} ++ {{i18n:Moon.Roommate.patio_4}} |inputSeparator=++}}",
 				//Spouse Room Dialogue
-				"spouseRoom_Moon": "{{Random: {{i18n:Moon.Roommate.spouseroom_1}} ++ {{i18n:Moon.Roommate.spouseroom_2}} ++ {{i18n:Moon.Roommate.spouseroom_3}} ++ {{i18n:Moon.Roommate.spouseroom_4}} |inputSeparator=++}}",
+				"spouseRoom_MoonSBV": "{{Random: {{i18n:Moon.Roommate.spouseroom_1}} ++ {{i18n:Moon.Roommate.spouseroom_2}} ++ {{i18n:Moon.Roommate.spouseroom_3}} ++ {{i18n:Moon.Roommate.spouseroom_4}} |inputSeparator=++}}",
 				//Indoor Dialogue
 				"Indoor_Day_0": "{{i18n:Moon.Roommate.Indoor_Day_0}}",
 				"Indoor_Day_1": "{{i18n:Moon.Roommate.Indoor_Day_1}}",
@@ -93,8 +93,8 @@
 				"Bad_8": "{{i18n:Moon.Roommate.Bad_8}}",
 				"Bad_9": "{{i18n:Moon.Roommate.Bad_9}}",
 				//Funleave and Funreturn Dialogue
-				"funLeave_Moon": "{{Random: {{i18n:Moon.Roommate.funReturn_1}} ++ {{i18n:Moon.Roommate.funReturn_2}} ++ {{i18n:Moon.Roommate.funReturn_3}} |inputSeparator=++}}",
-				"funReturn_Moon": "{{Random: {{i18n:Moon.Roommate.funLeave_1}} ++ {{i18n:Moon.Roommate.funLeave_2}} ++ {{i18n:Moon.Roommate.funLeave_3}} |inputSeparator=++}}",
+				"funLeave_MoonSBV": "{{Random: {{i18n:Moon.Roommate.funReturn_1}} ++ {{i18n:Moon.Roommate.funReturn_2}} ++ {{i18n:Moon.Roommate.funReturn_3}} |inputSeparator=++}}",
+				"funReturn_MoonSBV": "{{Random: {{i18n:Moon.Roommate.funLeave_1}} ++ {{i18n:Moon.Roommate.funLeave_2}} ++ {{i18n:Moon.Roommate.funLeave_3}} |inputSeparator=++}}",
 			},
 		},
 	]

@@ -6,8 +6,18 @@
 			"Target": "Characters/schedules/BlakeSBV",
 			"Entries": {
 				"spring": "610 Custom_SBV_AriMarket 3 24 0/1000 Custom_SBV_AriMarket 16 26 0/1300 Custom_SBV_SunberryVillage 65 72 2/2000 Custom_SBV_AriMarket 3 5 3",
-				"rain": "610 Custom_SBV_AriMarket 3 24 0/1000 Custom_SBV_AriMarket 16 26 0/2000 Custom_SBV_AriMarket 3 5 3",
-			},
-		},
+				"Sun": "900 Custom_SBV_AriMarket 7 6 0 blake_laptop/1200 Custom_SBV_AriMarket 16 26 0/1600 Custom_SBV_SunberryVillage 65 67 2/2100 Custom_SBV_AriMarket 3 5 3",
+				"Mon": "900 Custom_SBV_AriMarket 7 6 0 blake_laptop/1300 Custom_SBV_SunberryVillage 65 72 2/2100 Custom_SBV_AriMarket 3 5 3",
+				"Tue": "900 Custom_SBV_AriMarket 7 6 0 blake_laptop/1200 Custom_SBV_DialaCafe 32 13 1/2000 Custom_SBV_AriMarket 12 24 3/2200 Custom_SBV_AriMarket 3 5 3",
+				"Wed": "900 Custom_SBV_AriMarket 7 6 0 blake_laptop/1200 Custom_SBV_SerenityInn 17 14 1/2100 Custom_SBV_AriMarket 3 5 3",
+				"Thu": "900 Custom_SBV_AriMarket 7 6 0 blake_laptop/1200 Town 55 26 1/2100 Custom_SBV_AriMarket 3 5 3",
+				"Fri": "900 Custom_SBV_AriMarket 7 6 0 blake_laptop/1200 Custom_SBV_AriMarket 16 26 0/1600 Saloon 33 18 0/2300 Custom_SBV_AriMarket 3 5 3",
+				"spring_Sat": "800 Town 13 93 3/1230 SamHouse 20 15 1/1500 Custom_SBV_SunberryVillage 58 84 2 \"Strings\\schedules\\BlakeSBV:Fountain\"/2300 Custom_SBV_AriMarket 3 5 3",
+				"summer_Sat": "800 Town 13 93 3/1230 SamHouse 20 15 1/1500 Custom_SBV_SunberryVillage 58 84 2 \"Strings\\schedules\\BlakeSBV:Fountain\"/2300 Custom_SBV_AriMarket 3 5 3",
+				"fall_Sat": "800 Town 13 93 3/1230 SamHouse 20 15 1/1500 Custom_SBV_SunberryVillage 58 84 2 \"Strings\\schedules\\BlakeSBV:Fountain\"/2300 Custom_SBV_AriMarket 3 5 3",
+				"winter_Sat": "610 Custom_SBV_AriMarket 3 24 0/1000 Custom_SBV_AriMarket 16 26 0/1300 Custom_SBV_SunberryVillage 65 72 2/2000 Custom_SBV_AriMarket 3 5 3",
+				"rain": "610 Custom_SBV_AriMarket 3 24 0/1000 Custom_SBV_AriMarket 16 26 0/2000 Custom_SBV_AriMarket 3 5 3"
+			}
+		}
 	]
 }

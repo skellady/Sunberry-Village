@@ -1,0 +1,14 @@
+{
+    "Name": "Sunberry Village - Farm Type Manager",
+    "Author": "skellady",
+    "Version": "1.0.0",
+    "Description": "FTM component for Sunberry Village.",
+    "UniqueID": "skellady.SBVFTM",
+    "UpdateKeys": ["Nexus:-1"],
+    "ContentPackFor":
+    {
+        "UniqueID": "Esca.FarmTypeManager",
+        "MinimumVersion": "1.8"
+    },
+    "MinimumApiVersion": "3.0",
+}

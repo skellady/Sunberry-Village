@@ -36,6 +36,19 @@
     }
   },
 
+  // This plays when the companion travels upwards
+  "UpAnimation": {
+    "StartingFrame": 8,
+    "NumberOfFrames": 4,
+    "Duration": 100,
+
+    "IdleAnimation": {
+      "StartingFrame": 8,
+      "NumberOfFrames": 1,
+      "Duration": 500
+    }
+  },
+
   // This plays when the companion travels downwards
   "DownAnimation": {
     "StartingFrame": 0,
@@ -43,10 +56,33 @@
     "Duration": 100,
 
     "IdleAnimation": {
-      "StartingFrame": 0,
-      "NumberOfFrames": 1,
-      "Duration": 500
-    }
+      "ManualFrames": [
+        {
+          "Frame": 0,
+          "Duration": 2000
+        },
+        {
+          "Frame": 16,
+          "Duration": 200
+        },
+        {
+          "Frame": 17,
+          "Duration": 200
+        },
+        {
+          "Frame": 18,
+          "Duration": 2000
+        },
+        {
+          "Frame": 17,
+          "Duration": 200
+        },
+        {
+          "Frame": 16,
+          "Duration": 200
+        },
+      ],
+    },
   },
 
   // This plays when the companion travels left
@@ -56,10 +92,48 @@
     "Duration": 100,
 
     "IdleAnimation": {
-      "StartingFrame": 18,
-      "NumberOfFrames": 2,
-      "Duration": 300
-    }
+      "ManualFrames": [
+        {
+          "Frame": 12,
+          "Duration": 2000
+        },
+        {
+          "Frame": 20,
+          "Duration": 200,
+          "Flip": true
+        },
+        {
+          "Frame": 21,
+          "Duration": 200,
+          "Flip": true
+        },
+        {
+          "Frame": 22,
+          "Duration": 200,
+          "Flip": true
+        },
+        {
+          "Frame": 23,
+          "Duration": 2000,
+          "Flip": true
+        },
+        {
+          "Frame": 22,
+          "Duration": 200,
+          "Flip": true
+        },
+        {
+          "Frame": 21,
+          "Duration": 200,
+          "Flip": true
+        },
+        {
+          "Frame": 20,
+          "Duration": 200,
+          "Flip": true
+        },
+      ],
+    },
   },
 
   // This plays when the companion travels right
@@ -69,10 +143,41 @@
     "Duration": 100,
 
     "IdleAnimation": {
-      "StartingFrame": 16,
-      "NumberOfFrames": 2,
-      "Duration": 300
-    }
+      "ManualFrames": [
+        {
+          "Frame": 4,
+          "Duration": 2000
+        },
+        {
+          "Frame": 20,
+          "Duration": 200
+        },
+        {
+          "Frame": 21,
+          "Duration": 200
+        },
+        {
+          "Frame": 22,
+          "Duration": 200
+        },
+        {
+          "Frame": 23,
+          "Duration": 2000
+        },
+        {
+          "Frame": 22,
+          "Duration": 200
+        },
+        {
+          "Frame": 21,
+          "Duration": 200
+        },
+        {
+          "Frame": 20,
+          "Duration": 200
+        },
+      ],
+    },
   },
     "Sounds": 
   [

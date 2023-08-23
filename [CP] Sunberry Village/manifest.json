@@ -12,32 +12,44 @@
     // required mods
     {
       "UniqueID": "aedenthorn.ExtraMapLayers",
-      "IsRequired": true,
+      "IsRequired": true
     },
     {
       "UniqueID": "DaisyNiko.Tilesheets",
-      "IsRequired": true,
+      "IsRequired": true
     },
     {
       "UniqueID": "Lumisteria.LumiTilesheetsIndoor",
-      "IsRequired": true,
+      "IsRequired": true
     },
     {
       "UniqueID": "KediDili.Tilesheets.CP",
-      "IsRequired": true,
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Esca.EMP",
+      "IsRequired": true
     },
     // components
     {
       "UniqueID": "skellady.SBVCC",
-      "IsRequired": true,
+      "IsRequired": true
     },
     {
       "UniqueID": "skellady.SBVMFM",
-      "IsRequired": true,
+      "IsRequired": true
     },
     {
       "UniqueID": "skellady.SBVSTF",
-      "IsRequired": true,
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "skellady.SBVJA",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "skellady.SBVFTM",
+      "IsRequired": true
     },
   ],
   "ContentPackFor": {

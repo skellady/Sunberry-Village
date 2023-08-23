@@ -27,7 +27,6 @@
 				"Mon": "{{i18n:Ophelia.Dialogue.Mon}}",
 				"Tue": "{{i18n:Ophelia.Dialogue.Tue}}",
 				"Wed": "{{i18n:Ophelia.Dialogue.Wed}}",
-				"Thu": "{{i18n:Ophelia.Dialogue.Thu}}",
 				"Fri": "{{i18n:Ophelia.Dialogue.Fri}}",
 				"Sat": "{{i18n:Ophelia.Dialogue.Sat}}",
 				"Sun": "{{i18n:Ophelia.Dialogue.Sun}}",
@@ -71,7 +70,23 @@
 				"Fri10": "{{i18n:Ophelia.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Ophelia.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Ophelia.Dialogue.Sun10}}",
-			},
+			}
 		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/OpheliaSBV",
+			"Entries": {
+				"Thu": "{{i18n:Ophelia.Dialogue.Thu}}",
+			},
+			"When": { "HasMod: |contains=Rafseazz.RSVCP": false }
+		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/OpheliaSBV",
+			"Entries": {
+				"Thu": "{{i18n:Ophelia.Dialogue.ThuRSV}}",
+			},
+			"When": { "HasMod: |contains=Rafseazz.RSVCP": true }
+		}
 	]
 }

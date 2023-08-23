@@ -1,0 +1,17 @@
+{
+    "Changes": [
+        {
+            "LogName": "CP Letters",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "ReiSODessert": "{{i18n:Mail.ReiSODessert}}",
+                "MaiaSOWeapon1": "{{i18n:Mail.MaiaSOWeapon1}}",
+                "MaiaSOWeapon2": "{{i18n:Mail.MaiaSOWeapon2}}",
+                "MaiaSOWeapon3": "{{i18n:Mail.MaiaSOWeapon3}}",
+                "MaiaSOWeapon4": "{{i18n:Mail.MaiaSOWeapon4}}",
+                "AichaSOWeapon": "{{i18n:Mail.AichaSOWeapon}}"
+            }
+        }
+    ]
+}

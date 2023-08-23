@@ -1,0 +1,22 @@
+{
+    "Name": "SBV Sunberries",
+    "Description": "...",
+    "TranslationKey": "sbv-sunberries",
+    "Category": "Fruit",
+    "Edibility": 20,
+    "Price": 160,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Demetrius", "Elliott", "Harvey", "Leah", "Linus", "Robin", "Shane", "Sandy", "MoonSBV", "AminaSBV", "JumanaSBV", "SilasSBV", "MiyoungSBV", "OpheliaSBV", "AichaSBV"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sebastian", "Vincent", "Willy", "Wizard", "DeryaSBV", "DialaSBV", "MaiaSBV", "AriSBV", "EliasSBV", "BlakeSBV", "LyenneSBV", "ImanSBV", "EzraSBV"],
+        "Dislike": ["ReihanaSBV"],
+    },
+
+    "ContextTags": [
+        "season_summer",
+        "color_purple",
+        "fruit_item"
+    ]
+}

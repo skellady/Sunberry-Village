@@ -1,0 +1,16 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "Data/ChairTiles",
+      "Entries": {
+        //stools
+        "yri_furniture/0/0": "1/1/opposite/stool/-1/-1/false",
+        "lumi_recolored/11/3": "1/1/opposite/stool/-1/-1/false",
+        "lumi_recolored/12/3": "1/1/opposite/stool/-1/-1/false",
+        "lumi_recolored/13/3": "1/1/opposite/stool/-1/-1/false",
+        "lumi_recolored/15/5": "1/1/opposite/stool/-1/-1/false",
+      }
+    }
+  ]
+}

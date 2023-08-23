@@ -1,12 +1,8 @@
 {
 	"Changes": [
-		// Without SVE
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring13",
-			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
-			},
 			"TextOperations": [
 				// Set-up
 				{
@@ -15,28 +11,26 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "DialaSBV 27 52 down/DeryaSBV 28 52 down",
-					"Delimiter": "/",
+					"Value": "DialaSBV 58 66 right/DeryaSBV 58 65 right/EzraSBV 61 69 right/ImanSBV 62 69 left/AminaSBV 64 64 down/LyenneSBV 66 65 right/BlakeSBV 67 65 left/AriSBV 64 70 right/OpheliaSBV 67 69 left/SilasSBV 68 72 right/JumanaSBV 69 71 down/MiyoungSBV 70 72 left/MaiaSBV 56 73 right/EliasSBV 57 73 left",
+					"Delimiter": "/"
 				},
 				// Main Event
 				{
 					"Operation": "Append",
 					"Target": [
 						"Entries",
-						"Set-Up_additionalCharacters"
+						"MainEvent_additionalCharacters"
 					],
-					"Value": "DialaSBV 27 52 down/DeryaSBV 28 52 down",
-					"Delimiter": "/",
-				},
+					"Value": "DialaSBV 58 66 right/DeryaSBV 58 65 right/EzraSBV 61 69 right/ImanSBV 62 69 left/AminaSBV 64 64 down/LyenneSBV 66 65 right/BlakeSBV 67 65 left/AriSBV 64 70 right/OpheliaSBV 67 69 left/SilasSBV 68 72 right/JumanaSBV 69 71 down/MiyoungSBV 70 72 left/MaiaSBV 56 73 right/EliasSBV 57 73 left",
+					"Delimiter": "/"
+				}
 			]
 		},
-		// Moon At Egg Festival
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring13",
 			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasSeenEvent": 20031403
+				"HasSeenEvent": 20031402
 			},
 			"TextOperations": [
 				// Set-up
@@ -46,19 +40,48 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 32 53 down",
-					"Delimiter": "/",
+					"Value": "MoonSBV 66 63 down",
+					"Delimiter": "/"
 				},
 				// Main Event
 				{
 					"Operation": "Append",
 					"Target": [
 						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "MoonSBV 66 63 down",
+					"Delimiter": "/"
+				}
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"HasSeenEvent": 20031427
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 32 53 down",
-					"Delimiter": "/",
+					"Value": "ReihanaSBV 71 69 down/AichaSBV 72 69 down",
+					"Delimiter": "/"
 				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "ReihanaSBV 71 69 down/AichaSBV 72 69 down",
+					"Delimiter": "/"
+				}
 			]
 		}
 	]

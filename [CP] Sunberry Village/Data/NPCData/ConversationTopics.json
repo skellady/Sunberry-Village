@@ -2,6 +2,89 @@
     "Changes": [
         //Conversation Topics Dialogue
         {
+            "LogName": "Aicha CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/AichaSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Aicha.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Aicha.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Aicha.Dialogue.movieTheater}}",
+                "JunaSign": "{{i18n:Aicha.Dialogue.JunaSign}}",
+                "keahi_prank": "{{i18n:Aicha.Dialogue.keahi_prank}}",
+                "MeetTheCats": "{{i18n:Aicha.Dialogue.MeetTheCats}}",
+                "BookLaunchParty": "{{i18n:Aicha.Dialogue.BookLaunchParty}}",
+                "YriWalk": "{{i18n:Aicha.Dialogue.YriWalk}}",
+                "ThyMet": "{{i18n:Aicha.Dialogue.ThyMet}}",
+                "ShoujoIsForGirls": "{{i18n:Aicha.Dialogue.ShoujoIsForGirls}}",
+                "SterlingApology": "{{i18n:Aicha.Dialogue.SterlingApology}}",
+                "fairyFarmVisit": "{{i18n:Aicha.Dialogue.fairyFarmVisit}}",
+                "wedding": "{{i18n:Aicha.Dialogue.wedding}}",
+                "luauBest": "{{i18n:Aicha.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Aicha.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Aicha.Dialogue.luauPoisoned}}"
+            }
+        },
+        {
+            "LogName": "Amina CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/AminaSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Amina.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Amina.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Amina.Dialogue.movieTheater}}",
+                "SterlingApology": "{{i18n:Amina.Dialogue.SterlingApology}}",
+                "LavrilUnlocked": "{{i18n:Amina.Dialogue.LavrilUnlocked}}",
+                "keahi_prank": "{{i18n:Amina.Dialogue.keahi_prank}}",
+                "WelcomeBabyCadence": "{{i18n:Amina.Dialogue.WelcomeBabyCadence}}",
+                "MeetTheCats": "{{i18n:Amina.Dialogue.MeetTheCats}}",
+                "luauBest": "{{i18n:Amina.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Amina.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Amina.Dialogue.luauPoisoned}}",
+                "ReihanaIntro": "{{i18n:Amina.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
+            "LogName": "Ari CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/AriSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Ari.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Ari.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Ari.Dialogue.movieTheater}}",
+                "SterlingApology": "{{i18n:Ari.Dialogue.SterlingApology}}",
+                "keahi_prank": "{{i18n:Ari.Dialogue.keahi_prank}}",
+                "event_postweddingreception": "{{i18n:Ari.Dialogue.event_postweddingreception}}",
+                "MeetTheCats": "{{i18n:Ari.Dialogue.MeetTheCats}}",
+                "wedding": "{{i18n:Ari.Dialogue.wedding}}",
+                "divorce": "{{i18n:Ari.Dialogue.divorce}}",
+                "luauBest": "{{i18n:Ari.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Ari.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Ari.Dialogue.luauPoisoned}}",
+                "ReihanaIntro": "{{i18n:Ari.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
+            "LogName": "Blake CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/BlakeSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Blake.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Blake.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Blake.Dialogue.movieTheater}}",
+                "SterlingTrash": "{{i18n:Blake.Dialogue.SterlingTrash}}",
+                "SterlingSwim": "{{i18n:Blake.Dialogue.SterlingSwim}}",
+                "LucikielArrives": "{{i18n:Blake.Dialogue.LucikielArrives}}",
+                "keahi_prank": "{{i18n:Blake.Dialogue.keahi_prank}}",
+                "event_postweddingreception": "{{i18n:Blake.Dialogue.event_postweddingreception}}",
+                "MeetTheCats": "{{i18n:Blake.Dialogue.MeetTheCats}}",
+                "wedding": "{{i18n:Blake.Dialogue.wedding}}",
+                "luauBest": "{{i18n:Blake.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Blake.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Blake.Dialogue.luauPoisoned}}",
+                "ReihanaIntro": "{{i18n:Blake.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
             "LogName": "Diala CTs",
             "Action": "EditData",
             "Target": "Characters/Dialogue/DialaSBV",
@@ -39,7 +122,8 @@
                 "luauBest": "{{i18n:Diala.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Diala.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Diala.Dialogue.luauPoisoned}}",
-            },
+                "ReihanaIntro": "{{i18n:Diala.Dialogue.ReihanaIntro}}"
+            }
         },
         {
             "LogName": "Derya CTs",
@@ -79,7 +163,146 @@
                 "luauBest": "{{i18n:Derya.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Derya.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Derya.Dialogue.luauPoisoned}}",
-            },
+                "ReihanaIntro": "{{i18n:Derya.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
+            "LogName": "Elias CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EliasSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Elias.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Elias.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Elias.Dialogue.movieTheater}}",
+                "SterlingApology": "{{i18n:Elias.Dialogue.SterlingApology}}",
+                "keahi_prank": "{{i18n:Elias.Dialogue.keahi_prank}}",
+                "event_postweddingreception": "{{i18n:Elias.Dialogue.event_postweddingreception}}",
+                "MeetTheCats": "{{i18n:Elias.Dialogue.MeetTheCats}}",
+                "wedding": "{{i18n:Elias.Dialogue.wedding}}",
+                "divorce": "{{i18n:Elias.Dialogue.divorce}}",
+                "luauBest": "{{i18n:Elias.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Elias.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Elias.Dialogue.luauPoisoned}}",
+                "ReihanaIntro": "{{i18n:Elias.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
+            "LogName": "Ezra CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EzraSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Ezra.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Ezra.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Ezra.Dialogue.movieTheater}}",
+                "SterlingTrash": "{{i18n:Ezra.Dialogue.SterlingTrash}}",
+                "keahi_prank": "{{i18n:Ezra.Dialogue.keahi_prank}}",
+                "event_postweddingreception": "{{i18n:Ezra.Dialogue.event_postweddingreception}}",
+                "MeetTheCats": "{{i18n:Ezra.Dialogue.MeetTheCats}}",
+                "wedding": "{{i18n:Ezra.Dialogue.wedding}}",
+                "luauBest": "{{i18n:Ezra.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Ezra.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Ezra.Dialogue.luauPoisoned}}",
+                "YriIntroduction": "{{i18n:Ezra.Dialogue.YriIntroduction}}",
+                "ReihanaIntro": "{{i18n:Ezra.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
+            "LogName": "Iman CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/ImanSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Iman.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Iman.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Iman.Dialogue.movieTheater}}",
+                "SterlingTrash": "{{i18n:Iman.Dialogue.SterlingTrash}}",
+                "keahi_prank": "{{i18n:Iman.Dialogue.keahi_prank}}",
+                "event_postweddingreception": "{{i18n:Iman.Dialogue.event_postweddingreception}}",
+                "MeetTheCats": "{{i18n:Iman.Dialogue.MeetTheCats}}",
+                "wedding": "{{i18n:Iman.Dialogue.wedding}}",
+                "luauBest": "{{i18n:Iman.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Iman.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Iman.Dialogue.luauPoisoned}}",
+                "ReihanaIntro": "{{i18n:Iman.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
+            "LogName": "Jumana CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/JumanaSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Jumana.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Jumana.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Jumana.Dialogue.movieTheater}}",
+                "SterlingSwim": "{{i18n:Jumana.Dialogue.SterlingSwim}}",
+                "keahi_prank": "{{i18n:Jumana.Dialogue.keahi_prank}}",
+                "event_postweddingreception": "{{i18n:Jumana.Dialogue.event_postweddingreception}}",
+                "SamAlissaMarried": "{{i18n:Jumana.Dialogue.SamAlissaMarried}}",
+                "MeetTheCats": "{{i18n:Jumana.Dialogue.MeetTheCats}}",
+                "pumpkin_spice_madness": "{{i18n:Jumana.Dialogue.pumpkin_spice_madness}}",
+                "wedding": "{{i18n:Jumana.Dialogue.wedding}}",
+                "divorce": "{{i18n:Jumana.Dialogue.divorce}}",
+                "luauBest": "{{i18n:Jumana.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Jumana.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Jumana.Dialogue.luauPoisoned}}",
+                "ReihanaIntro": "{{i18n:Jumana.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
+            "LogName": "Lyenne CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/LyenneSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Lyenne.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Lyenne.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Lyenne.Dialogue.movieTheater}}",
+                "SterlingSwim": "{{i18n:Lyenne.Dialogue.SterlingSwim}}",
+                "keahi_prank": "{{i18n:Lyenne.Dialogue.keahi_prank}}",
+                "MeetTheCats": "{{i18n:Lyenne.Dialogue.MeetTheCats}}",
+                "luauBest": "{{i18n:Lyenne.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Lyenne.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Lyenne.Dialogue.luauPoisoned}}",
+                "BookLaunchParty": "{{i18n:Lyenne.Dialogue.BookLaunchParty}}",
+                "ReihanaIntro": "{{i18n:Lyenne.Dialogue.ReihanaIntro}}",
+                "PTJ03": "{{i18n:Lyenne.Dialogue.PTJ03}}"
+            }
+        },
+        {
+            "LogName": "Maia CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MaiaSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Maia.Dialogue.cc_Complete}}",
+                "cc_Bridge": "{{i18n:Maia.Dialogue.cc_Bridge}}",
+                "cc_Bus": "{{i18n:Maia.Dialogue.cc_Bus}}",
+                "SterlingDrugs": "{{i18n:Maia.Dialogue.SterlingDrugs}}",
+                "LavrilUnlocked": "{{i18n:Maia.Dialogue.LavrilUnlocked}}",
+                "JasperGone2": "{{i18n:Maia.Dialogue.JasperGone2}}",
+                "keahi_prank": "{{i18n:Maia.Dialogue.keahi_prank}}",
+                "MeetTheCats": "{{i18n:Maia.Dialogue.MeetTheCats}}",
+                "wedding": "{{i18n:Maia.Dialogue.wedding}}",
+                "luauBest": "{{i18n:Maia.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Maia.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Maia.Dialogue.luauPoisoned}}",
+                "ReihanaIntro": "{{i18n:Maia.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
+            "LogName": "Miyoung CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MiyoungSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Miyoung.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Miyoung.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Miyoung.Dialogue.movieTheater}}",
+                "SterlingDrugs": "{{i18n:Miyoung.Dialogue.SterlingDrugs}}",
+                "keahi_prank": "{{i18n:Miyoung.Dialogue.keahi_prank}}",
+                "MeetTheCats": "{{i18n:Miyoung.Dialogue.MeetTheCats}}",
+                "wedding": "{{i18n:Miyoung.Dialogue.wedding}}",
+                "luauBest": "{{i18n:Miyoung.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Miyoung.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Miyoung.Dialogue.luauPoisoned}}",
+                "ReihanaIntro": "{{i18n:Miyoung.Dialogue.ReihanaIntro}}"
+            }
         },
         {
             "LogName": "Moon CTs",
@@ -117,231 +340,500 @@
                 "luauBest": "{{i18n:Moon.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Moon.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Moon.Dialogue.luauPoisoned}}",
-            },
+                "ReihanaIntro": "{{i18n:Moon.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
+            "LogName": "Ophelia CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/OpheliaSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Ophelia.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Ophelia.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Ophelia.Dialogue.movieTheater}}",
+                "SterlingRelapse": "{{i18n:Ophelia.Dialogue.SterlingRelapse}}",
+                "keahi_prank": "{{i18n:Ophelia.Dialogue.keahi_prank}}",
+                "MeetTheCats": "{{i18n:Ophelia.Dialogue.MeetTheCats}}",
+                "wedding": "{{i18n:Ophelia.Dialogue.wedding}}",
+                "luauBest": "{{i18n:Ophelia.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Ophelia.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Ophelia.Dialogue.luauPoisoned}}",
+                "ReihanaIntro": "{{i18n:Ophelia.Dialogue.ReihanaIntro}}"
+            }
+        },
+        {
+            "LogName": "Reihana CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/ReihanaSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Reihana.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Reihana.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Reihana.Dialogue.movieTheater}}",
+                "JunaSign": "{{i18n:Reihana.Dialogue.JunaSign}}",
+                "keahi_prank": "{{i18n:Reihana.Dialogue.keahi_prank}}",
+                "YriWalk": "{{i18n:Reihana.Dialogue.YriWalk}}",
+                "ThyMet": "{{i18n:Reihana.Dialogue.ThyMet}}",
+                "WrenFliesIn": "{{i18n:Reihana.Dialogue.WrenFliesIn}}",
+                "MeetTheCats": "{{i18n:Reihana.Dialogue.MeetTheCats}}",
+                "wedding": "{{i18n:Reihana.Dialogue.wedding}}",
+                "luauBest": "{{i18n:Reihana.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Reihana.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Reihana.Dialogue.luauPoisoned}}"
+            }
+        },
+        {
+            "LogName": "Silas CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SilasSBV",
+            "Entries": {
+                "cc_Complete": "{{i18n:Silas.Dialogue.cc_Complete}}",
+                "cc_Bus": "{{i18n:Silas.Dialogue.cc_Bus}}",
+                "movieTheater": "{{i18n:Silas.Dialogue.movieTheater}}",
+                "JunaSign": "{{i18n:Silas.Dialogue.JunaSign}}",
+                "keahi_prank": "{{i18n:Silas.Dialogue.keahi_prank}}",
+                "MeetTheCats": "{{i18n:Silas.Dialogue.MeetTheCats}}",
+                "wedding": "{{i18n:Silas.Dialogue.wedding}}",
+                "luauBest": "{{i18n:Silas.Dialogue.luauBest}}",
+                "luauShorts": "{{i18n:Silas.Dialogue.luauShorts}}",
+                "luauPoisoned": "{{i18n:Silas.Dialogue.luauPoisoned}}",
+                "ReihanaIntro": "{{i18n:Silas.Dialogue.ReihanaIntro}}"
+            }
         },
         {
             "LogName": "Alex",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Alex",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Jodi",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jodi",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Caroline",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Caroline",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Pierre",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Pierre",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Abigail",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Harvey",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Harvey",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "George",
             "Action": "EditData",
             "Target": "Characters/Dialogue/George",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Evelyn",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Evelyn",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Penny",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Pam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Pam",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Lewis",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Lewis",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Gus",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Gus",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Emily",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Emily",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Haley",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Haley",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Sam",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Vincent",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Jas",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Marnie",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Shane",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Shane",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
+                "MeetDND": "{{i18n:MeetDND.Shane1}}"
             },
+            "When": {
+                "query: {{Hearts:Shane}} >= 6": true
+            }
+        },
+        {
+            "LogName": "Shane",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Shane",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.Shane2}}"
+            },
+            "When": {
+                "query: {{Hearts:Shane}} <= 6": true
+            }
         },
         {
             "LogName": "Robin",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Demetrius",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Demetrius",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Sebastian",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Maru",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Wizard",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Wizard",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Linus",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Linus",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Leah",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Leah",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Elliott",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Elliott",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
         {
             "LogName": "Clint",
             "Action": "EditData",
             "Target": "Characters/Dialogue/Clint",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
-            },
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            }
         },
+        {
+            "LogName": "Alissa",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alissa",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Ysabelle",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ysabelle",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Keahi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Keahi",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Trinnie",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Trinnie",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Yuuma",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Yuuma",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Richard",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Richard",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Lola",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lola",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Bert",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Bert",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Faye",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Faye",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Maive",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Maive",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Pika",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Pika",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Ian",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Ian",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Corine",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Corine",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Kiwi",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kiwi",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Lenny",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Lenny",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Flor",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Flor",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Olga",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Olga",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        {
+            "LogName": "Kiarra",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Kiarra",
+            "Entries": {
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
+            }
+        }
     ]
 }

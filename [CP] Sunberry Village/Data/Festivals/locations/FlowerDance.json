@@ -4,9 +4,6 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring24",
-			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
-			},
 			"TextOperations": [
 				// Set-up
 				{
@@ -15,7 +12,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "DialaSBV 8 38 down/DeryaSBV 9 38 down",
+					"Value": "DialaSBV 20 44 down/DeryaSBV 21 44 down/AminaSBV 5 46 right/MaiaSBV 6 46 left/JumanaSBV 3 46 left/OpheliaSBV 9 43 right/LyenneSBV 11 43 left/MiyoungSBV 3 48 right/SilasSBV 4 48 left/EzraSBV 12 46 right/ImanSBV 13 46 left/BlakeSBV 18 47 right/EliasSBV 19 46 down/AriSBV 20 47 left",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -23,9 +20,9 @@
 					"Operation": "Append",
 					"Target": [
 						"Entries",
-						"Set-Up_additionalCharacters"
+						"MainEvent_additionalCharacters"
 					],
-					"Value": "DialaSBV 8 38 down/DeryaSBV 9 38 down",
+					"Value": "DialaSBV 20 44 down/DeryaSBV 21 44 down/AminaSBV 5 46 right/MaiaSBV 6 46 left/JumanaSBV 3 46 left/OpheliaSBV 9 43 right/LyenneSBV 11 43 left/MiyoungSBV 3 48 right/SilasSBV 4 48 left/EzraSBV 12 46 right/ImanSBV 13 46 left/BlakeSBV 18 47 right/EliasSBV 19 46 down/AriSBV 20 47 left",
 					"Delimiter": "/",
 				},
 			]
@@ -35,8 +32,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring24",
 			"When": {
-				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasSeenEvent": 20031403
+				"HasSeenEvent": 20031402
 			},
 			"TextOperations": [
 				// Set-up
@@ -46,7 +42,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 27 41 down",
+					"Value": "MoonSBV 21 41 down",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -54,12 +50,43 @@
 					"Operation": "Append",
 					"Target": [
 						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "MoonSBV 21 41 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Rei and Aicha
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"HasSeenEvent": 20031427
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 27 41 down",
+					"Value": "ReihanaSBV 25 45 right/AichaSBV 25 47 right",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "ReihanaSBV 25 45 right/AichaSBV 25 47 right",
 					"Delimiter": "/",
 				},
 			]
 		}
+
 	]
 }

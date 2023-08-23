@@ -1,63 +1,58 @@
 {
-	"Shops":
-	[
+	"Shops": [
 		{
 			"ShopName": "DNDCafe",
 			"StoreCurrency": "Money",
-			"CategoriesToSellHere": [ -7 ],
+			"CategoriesToSellHere": [
+				-7
+			],
 			"PortraitPath": "assets/DNDCafe.png",
 			"Quote": "Welcome to D&D's Cat Cafe!",
 			"ClosedMessage": "Closed for the day!",
 			"ShopPrice": -1,
-			"MaxNumItemsSoldInStore": 6,
+			"MaxNumItemsSoldInStore": 8,
 			"DefaultSellPriceMultiplier": 0.7,
-			"PriceMultiplierWhen":
-			{
-				"0.6": ["f Diala 2000"]
+			"PriceMultiplierWhen": {
+				"0.6": [
+					"f DialaSBV 2000"
+				]
 			},
-			"When": 
-			[
-				"!z spring/t 930 1900",
-				"!z summer/t 930 1300",
-				"!z fall/t 930 1900",
-				"!z winter/t 930 1900",
+			"When": [
+				"NPCAt DialaSBV 26 7",
+				"NPCAt DeryaSBV 26 7"
 			],
-			"LocalizedQuote":
-			{
+			"LocalizedQuote": {
 				//remove the "//" from your language
-        //"es": "PLACEHOLDER",
-        //"ko": "PLACEHOLDER",
-        //"de": "PLACEHOLDER",
-        //"fr": "PLACEHOLDER",
-        //"hu": "PLACEHOLDER",
-        //"it": "PLACEHOLDER",
-        //"ja": "PLACEHOLDER",
-        //"pt": "PLACEHOLDER",
-        //"ru": "PLACEHOLDER",
-        //"tr": "PLACEHOLDER",
-        //"zh": "PLACEHOLDER",
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
 			},
-			"LocalizedClosedMessage":
-			{
+			"LocalizedClosedMessage": {
 				//remove the "//" from your language
-        //"es": "PLACEHOLDER",
-        //"ko": "PLACEHOLDER",
-        //"de": "PLACEHOLDER",
-        //"fr": "PLACEHOLDER",
-        //"hu": "PLACEHOLDER",
-        //"it": "PLACEHOLDER",
-        //"ja": "PLACEHOLDER",
-        //"pt": "PLACEHOLDER",
-        //"ru": "PLACEHOLDER",
-        //"tr": "PLACEHOLDER",
-        //"zh": "PLACEHOLDER",
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
 			},
-			"ItemStocks": 
-			[
+			"ItemStocks": [
 				{
 					"ItemType": "Object",
-					"ItemNames": 
-					[
+					"ItemNames": [
 						"Cookie",
 						"Rhubarb Pie",
 						"Maple Bar",
@@ -67,13 +62,774 @@
 						"Green Tea",
 						"Pink Cake",
 						"Poppyseed Muffin",
-						"Cranberry Candy",
+						"Cranberry Candy"
+					],
+					"Stock": 1
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 220,
+					"ItemNames": [
+						"SBV Chocolate Chip Cookie"
+					],
+					"Stock": 1
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 500,
+					"ItemNames": [
+						"SBV Hot Chocolate"
+					],
+					"Stock": 1
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 350,
+					"ItemNames": [
+						"SBV Ice Cream Bowl"
+					],
+					"Stock": 1
+				}
+			]
+		},
+		{
+			"ShopName": "JumanaShop",
+			"StoreCurrency": "Money",
+			"CategoriesToSellHere": [
+				-80,
+				-74
+			],
+			"PortraitPath": "assets/JumanaShop.png",
+			"Quote": "How can I help you, dear?",
+			"ClosedMessage": "Closed for the day!",
+			"ShopPrice": -1,
+			"MaxNumItemsSoldInStore": 12,
+			"DefaultSellPriceMultiplier": 0.7,
+			"PriceMultiplierWhen": {
+				"0.6": [
+					"f JumanaSBV 2000"
+				]
+			},
+			"When": [
+				"NPCAt JumanaSBV 12 14"
+			],
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"LocalizedClosedMessage": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"ItemStocks": [
+				{
+					"ItemType": "Object",
+					"StockPrice": 170,
+					"ItemNames": [
+						"SBV Speedwell Seeds"
+					],
+					"When": [ "!z spring" ]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 150,
+					"ItemNames": [
+						"SBV Arfaj Seeds"
+					],
+					"When": [ "!z spring" ]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 120,
+					"ItemNames": [
+						"SBV Coffee Blossom Seeds"
+					],
+					"When": [ "!z spring" ]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 70,
+					"ItemNames": [
+						"SBV Hyacinth Seeds"
+					],
+					"When": [ "!z spring" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Jazz Seeds",
+						"Tulip Bulb",
+						"Blue Jazz",
+						"Tulip"
+					],
+					"Stock": 10,
+					"When": [ "!z spring" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Spangle Seeds",
+						"Poppy Seeds",
+						"Summer Spangle",
+						"Poppy"
+					],
+					"Stock": 10,
+					"When": [ "!z summer" ]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 95,
+					"ItemNames": [
+						"SBV Calla Lily Seeds"
+					],
+					"When": [ "!z summer" ]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 90,
+					"ItemNames": [
+						"SBV Wild Mustard Seeds"
+					],
+					"When": [ "!z fall" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Sunflower Seeds",
+						"Fairy Seeds",
+						"Sunflower",
+						"Fairy Rose"
+					],
+					"Stock": 10,
+					"When": [ "!z fall" ]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 75,
+					"ItemNames": [
+						"SBV Cyclamen Seeds"
+					],
+					"When": [ "!z winter" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Crocus",
+						"Winter Seeds"
+					],
+					"Stock": 10,
+					"When": [ "!z winter" ]
+				}
+			]
+		},
+		{
+			"ShopName": "AriMarket",
+			"StoreCurrency": "Money",
+			"CategoriesToSellHere": [
+				-17
+			],
+			"PortraitPath": "assets/AriMarket.png",
+			"Quote": "Welcome! Feel free to look around.",
+			"ClosedMessage": "Closed.",
+			"ShopPrice": -1,
+			"MaxNumItemsSoldInStore": 15,
+			"PriceMultiplierWhen": {
+				"0.6": [
+					"f AriSBV 2000"
+				]
+			},
+			"When": [
+				"NPCAt AriSBV 5 19"
+			],
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"LocalizedClosedMessage": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"ItemStocks": [
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Bean Starter",
+						"Parsnip Seeds",
+						"Kale Seeds",
+						"Potato Seeds",
+						"Cauliflower Seeds",
+						"Spring Seeds",
+						"Fiber",
+						"Sugar",
+						"Flour",
+						"Rice",
+						"Vinegar",
+						"Oil"
+					],
+					"When": [ "!z spring" ]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 80,
+					"ItemNames": [
+						"Basic Fertilizer"
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 130,
+					"ItemNames": [
+						"Quality Fertilizer"
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 80,
+					"ItemNames": [
+						"Basic Retaining Soil"
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 130,
+					"ItemNames": [
+						"Quality Retaining Soil"
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 80,
+					"ItemNames": [
+						"Speed-Gro"
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 130,
+					"ItemNames": [
+						"Deluxe Speed-Gro"
+					],
+					"When": [ "y 2" ]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 150,
+					"ItemNames": [
+						"Tree Fertilizer"
+					]
+				},
+				{
+					"ItemType": "Object",
+					"StockPrice": 80,
+					"ItemNames": [
+						"SBV Sunberry Seeds"
+					],
+					"When": [ "!z summer" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Blueberry Seeds",
+						"Corn Seeds",
+						"Pepper Seeds",
+						"Melon Seeds",
+						"Hops Starter",
+						"Fiber",
+						"Sugar",
+						"Flour",
+						"Rice",
+						"Vinegar",
+						"Oil"
+					],
+					"When": [ "!z summer" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Amaranth Seeds",
+						"Artichoke Seeds",
+						"Beet Seeds",
+						"Pumpkin Seeds",
+						"Cranberry Seeds",
+						"Eggplant Seeds",
+						"Yam Seeds",
+						"Fiber",
+						"Sugar",
+						"Flour",
+						"Rice",
+						"Vinegar",
+						"Oil"
+					],
+					"When": [ "!z fall" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Fiber",
+						"Sugar",
+						"Flour",
+						"Rice",
+						"Vinegar",
+						"Oil"
+					],
+					"When": [ "!z winter" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"SBV Carob Sapling"
+					]
+				}
+			]
+		},
+		{
+			"ShopName": "SilasBlacksmith",
+			"StoreCurrency": "Money",
+			"CategoriesToSellHere": [
+				-12,
+				-15
+			],
+			"PortraitPath": "assets/SilasBlacksmith.png",
+			"Quote": "Welcome! How can I help you?",
+			"ClosedMessage": "Closed for the day!",
+			"ShopPrice": -1,
+			"MaxNumItemsSoldInStore": 12,
+			"PriceMultiplierWhen": {
+				"0.6": [
+					"f SilasSBV 2000"
+				]
+			},
+			"When": [
+				"NPCAt SilasSBV 3 13"
+			],
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"LocalizedClosedMessage": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"ItemStocks": [
+				{
+					"ItemType": "Object",
+					"StockPrice": 4000,
+					"ItemNames": [
+						"Artifact Trove"
+					],
+					"Stock": 2,
+					"When": [ "r 0.08" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Alamite"
 					],
 					"Stock": 1,
+					"When": [ "r 0.1" ]
 				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Bixite"
+					],
+					"Stock": 1,
+					"When": [ "r 0.1" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Baryte"
+					],
+					"Stock": 1,
+					"When": [ "r 0.1" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Aerinite"
+					],
+					"Stock": 1,
+					"When": [ "r 0.1" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Calcite"
+					],
+					"Stock": 1,
+					"When": [ "r 0.1" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Lunarite"
+					],
+					"Stock": 1,
+					"When": [ "r 0.1" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Malachite"
+					],
+					"Stock": 1,
+					"When": [ "r 0.1" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Neptunite"
+					],
+					"Stock": 1,
+					"When": [ "r 0.1" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Orpiment"
+					],
+					"Stock": 1,
+					"When": [ "r 0.1" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Fairy Stone"
+					],
+					"Stock": 1,
+					"When": [ "r 0.1" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Basalt"
+					],
+					"Stock": 1,
+					"When": [ "r 0.1" ]
+				},
+				{
+					"ItemType": "Object",
+					"ItemNames": [
+						"Copper Ore",
+						"Iron Ore",
+						"Gold Ore",
+						"Copper Bar",
+						"Iron Bar",
+						"Gold Bar",
+						"Geode",
+						"Magma Geode",
+						"Frozen Geode"
+					]
+				}
+			]
+		},
+		{
+			"ShopName": "EzraClothes",
+			"StoreCurrency": "Money",
+			"PortraitPath": "assets/EzraClothes.png",
+			"Quote": "Let's make sure you look chic!",
+			"ClosedMessage": "Closed for the day!",
+			"ShopPrice": -1,
+			"MaxNumItemsSoldInStore": 12,
+			"PriceMultiplierWhen": {
+				"0.6": [
+					"f EzraSBV 2000"
+				]
+			},
+			"When": [
+				"NPCAt EzraSBV 11 6"
 			],
-
-
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"LocalizedClosedMessage": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"ItemStocks": [
+				{
+					"ItemType": "Clothing",
+					"StockPrice": 1000,
+					"ItemNames": [
+						//Shirts
+						"Shirt",
+						"Tank Top",
+						"Crop Tank Top",
+						"High Waisted Shirt",
+						"Fluffy Shirt",
+						"Brown Overalls",
+						"Retro Rainbow Shirt"
+					],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 5
+				},
+				{
+					"ItemType": "Clothing",
+					"StockPrice": 1000,
+					"ItemNames": [
+						//Pants
+						"Shorts",
+						"Skirt",
+						"Pleated Skirt",
+						"Baggy Pants",
+						"Long Dress",
+						"Simple Dress"
+					],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 4
+				},
+				{
+					"ItemType": "Clothing",
+					"StockPrice": 1000,
+					"ItemNames": [
+						//Hats
+						"Spotted Headscarf",
+						"Beanie",
+						"Floppy Beanie",
+						"Witch Hat",
+						"Forager's Hat"
+					],
+					"Stock": 1,
+					"MaxNumItemsSoldInItemStock": 3
+				}
+			]
+		},
+		{
+			"ShopName": "MaiaWeapons",
+			"StoreCurrency": "Money",
+			"CategoriesToSellHere": [
+				-98
+			],
+			"PortraitPath": "assets/MaiaWeapons.png",
+			"Quote": "Anything to protect the valley. Let me know what you need.",
+			"ClosedMessage": "Closed. Come back later.",
+			"ShopPrice": -1,
+			"PriceMultiplierWhen": {
+				"0.6": [
+					"f MaiaSBV 2000"
+				]
+			},
+			"When": [
+				"NPCAt MaiaSBV 12 13"
+			],
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"LocalizedClosedMessage": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"ItemStocks": [
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 40000,
+					"ItemNames": [
+						"Theirin's Sword"
+					],
+					"When": [
+						"n MaiaSOWeapon1"
+					]
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 60000,
+					"ItemNames": [
+						"Dawne's Battle Axe"
+					],
+					"When": [
+						"n MaiaSOWeapon2"
+					]
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 50000,
+					"ItemNames": [
+						"Dragonfang"
+					],
+					"When": [
+						"n MaiaSOWeapon3"
+					]
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 30000,
+					"ItemNames": [
+						"Baleful Blade"
+					],
+					"When": [
+						"n MaiaSOWeapon4"
+					]
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 20000,
+					"ItemNames": [
+						"Flower Power"
+					],
+					"When": [
+						"n AichaSOWeapon"
+					]
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 9000,
+					"ItemNames": [
+						"Neptune's Glaive"
+					],
+					"Stock": 1
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 15000,
+					"ItemNames": [
+						"Obsidian Edge"
+					],
+					"Stock": 1
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 12000,
+					"ItemNames": [
+						"Ossified Blade"
+					],
+					"Stock": 1
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 15000,
+					"ItemNames": [
+						"Dark Sword"
+					],
+					"Stock": 1
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 12000,
+					"ItemNames": [
+						"Yeti Tooth"
+					],
+					"Stock": 1
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 10000,
+					"ItemNames": [
+						"Wicked Kris"
+					],
+					"Stock": 1
+				},
+				{
+					"ItemType": "Weapon",
+					"StockPrice": 10000,
+					"ItemNames": [
+						"The Slammer"
+					],
+					"Stock": 1
+				}
+			]
 		}
 	]
 }

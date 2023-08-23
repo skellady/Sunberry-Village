@@ -1,0 +1,59 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring19",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "DialaSBV 17 34 right/DeryaSBV 18 34 left/EliasSBV 11 17 up/BlakeSBV 37 35 up/LyenneSBV 38 35 up/MaiaSBV 11 16 down/AminaSBV 16 13 down/ImanSBV 40 16 right/EzraSBV 42 16 left",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "DialaSBV 17 34 right/DeryaSBV 18 34 left/EliasSBV 11 17 up/BlakeSBV 37 35 up/LyenneSBV 38 35 up/MaiaSBV 11 16 down/AminaSBV 16 13 down/ImanSBV 40 36 up/EzraSBV 41 36 up",
+					"Delimiter": "/",
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring19",
+			"When": {
+				"HasSeenEvent": 20031402
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "MoonSBV 26 12 left",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters"
+					],
+					"Value": "MoonSBV 26 12 left",
+					"Delimiter": "/",
+				},
+			]
+		},
+	]
+}

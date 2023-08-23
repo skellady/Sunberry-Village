@@ -1,6 +1,43 @@
 {
     "Changes": [
         {
+            "LogName": "CGD Aicha",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/AichaSBV",
+            "Entries": {
+                //Birthday
+                "GiftReaction_Apple_Birthday": "{{i18n:Birthday.Apple.Aicha}}",
+                "GiftReaction_Cherry_Birthday": "{{i18n:Birthday.Cherry.Aicha}}",
+                "GiftReaction_Solar_Essence_Birthday": "{{i18n:Birthday.SolarEssence.Aicha}}",
+                "GiftReaction_Fairy_Rose_Birthday": "{{i18n:Birthday.FairyRose.Aicha}}",
+                "GiftReaction_Star_Shards_Birthday": "{{i18n:Birthday.StarShards.Aicha}}",
+                "GiftReaction_Frozen_Tear_Birthday": "{{i18n:Birthday.FrozenTear.Aicha}}",
+                "GiftReaction_Stone_Birthday": "{{i18n:Birthday.Stone.Aicha}}",
+                "GiftReaction_Orange_Birthday": "{{i18n:Birthday.Orange.Aicha}}",
+                "GiftReactionCategory_-6_Birthday": "{{i18n:Birthday.Milk.Aicha}}",
+                //Love
+                "GiftReaction_Apple": "{{i18n:Apple.Aicha}}",
+                "GiftReaction_Cherry": "{{i18n:Cherry.Aicha}}",
+                "GiftReaction_Solar_Essence": "{{i18n:SolarEssence.Aicha}}",
+                "GiftReaction_Fairy_Rose": "{{i18n:FairyRose.Aicha}}",
+                "GiftReaction_Star_Shards": "{{i18n:StarShards.Aicha}}",
+                "GiftReaction_Frozen_Tear": "{{i18n:FrozenTear.Aicha}}",
+                "GiftReaction_Stone": "{{i18n:Stone.Aicha}}",
+                //Like
+                "GiftReaction_Coconut": "{{i18n:Coconut.Aicha}}",
+                "GiftReaction_Strange_Doll": "{{i18n:StrangeDoll.Aicha}}",
+                "GiftReaction_Sunflower": "{{i18n:Sunflower.Aicha}}",
+                "GiftReaction_Slime": "{{i18n:Slime.Aicha}}",
+                //Dislike
+                "GiftReaction_Hot_Pepper": "{{i18n:HotPepper.Aicha}}",
+                "GiftReaction_Pepper_Poppers": "{{i18n:PepperPoppers.Aicha}}",
+                "GiftReaction_Spicy_Eel": "{{i18n:SpicyEel.Aicha}}",
+                //Hate
+                "GiftReaction_Orange": "{{i18n:Orange.Aicha}}",
+                "GiftReactionCategory_-6": "{{i18n:Milk.Aicha}}"
+            }
+        },
+        {
             "LogName": "CGD Diala",
             "Action": "EditData",
             "Target": "Characters/Dialogue/DialaSBV",
@@ -123,8 +160,8 @@
                 "GiftReaction_Winter_Blue_Iris_Crown": "{{i18n:BlueIris.Crown.Diala}}",
             },
             "When": {
-                "HasMod": "Airyn.NPCFlowerCrownsJA",
-            },
+                "HasMod": "Airyn.NPCFlowerCrownsJA"
+            }
         },
         {
             "LogName": "CGD Derya",
@@ -277,6 +314,7 @@
                 "GiftReaction_Ancient_Doll": "{{i18n:AncientDoll.Moon}}",
                 "GiftReaction_Salad": "{{i18n:Salad.Moon}}",
                 "GiftReaction_Radish_Salad": "{{i18n:RadishSalad.Moon}}",
+                "GiftReaction_Starfruit": "{{Random: {{i18n:Starfruit.Moon.1}} ++ {{i18n:Starfruit.Moon.2}} ++ {{i18n:Starfruit.Moon.3}} |inputSeparator=++}}"
             }
         },
         {
@@ -338,6 +376,193 @@
             "When": {
                 "HasMod": "Airyn.NPCFlowerCrownsJA",
             },
+        },
+        {
+            "LogName": "Rodney Autograph Aicha",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/AichaSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Aicha}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Amina",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/AminaSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Amina}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Ari",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/AriSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Ari}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Blake",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/BlakeSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Blake}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Derya",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/DeryaSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Derya}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Diala",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/DialaSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Diala}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Elias",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EliasSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Elias}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Ezra",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EzraSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Ezra}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Iman",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/ImanSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Iman}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Jumana",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/JumanaSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Jumana}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Lyenne",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/LyenneSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Lyenne}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Maia",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MaiaSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Maia}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Miyoung",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MiyoungSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Miyoung}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Moon",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/MoonSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Moon}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Ophelia",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/OpheliaSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Ophelia}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Rei",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/ReihanaSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Reihana}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
+        },
+        {
+            "LogName": "Rodney Autograph Silas",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/SilasSBV",
+            "Entries": {
+                "GiftReaction_An_autographed_photo": "{{i18n:Autographed.Photo.Silas}}"
+            },
+            "When": {
+                "HasMod": "TheFrenchDodo.RodneyOBrien"
+            }
         },
     ]
 }

@@ -1,0 +1,20 @@
+{
+    "Name": "SBV Carob",
+    "Description": "...",
+    "TranslationKey": "sbv-carob",
+    "Category": "Fruit",
+    "Edibility": 30,
+    "Price": 150,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Haley", "Leah", "Sandy", "JumanaSBV", "AminaSBV", "SilasSBV", "DialaSBV", "DeryaSBV"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sebastian", "Shane", "Vincent", "Willy", "Wizard"]
+    },
+
+    "ContextTags": [
+        "season_fall",
+        "color_brown"
+    ]
+}

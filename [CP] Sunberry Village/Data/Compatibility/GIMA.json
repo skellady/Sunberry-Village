@@ -1,6 +1,5 @@
 {
 	"Changes": [
-
 		// Adds D&D + Moon to GIMA
 		{
 			"LogName": "DD Resort",
@@ -10,7 +9,6 @@
 				"DDTrio": "DialaSBV, DeryaSBV, MoonSBV",
 			},
 		},
-
 		// GI Remainder
 		{
 			"LogName": "Diala GIRemainder",
@@ -38,74 +36,70 @@
 		},
 		// Exploring time woo
 		{
-        "LogName": "D&D Explore GI",
-        "Action": "EditData",
-        "Target": "Mods/atravita_Ginger_Island_Adjustments_explorers", 
-        "Entries": {
-            "DDTrio": "DialaSBV, DeryaSBV, MoonSBV",
+			"LogName": "D&D Explore GI",
+			"Action": "EditData",
+			"Target": "Mods/atravita_Ginger_Island_Adjustments_explorers",
+			"Entries": {
+				"DDTrio": "DialaSBV, DeryaSBV, MoonSBV",
 			}
 		},
 		// Dialogue
 		{
-        "LogName": "Diala GI dialogue",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/DialaSBV", 
-        "Entries": {
+			"LogName": "Diala GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/DialaSBV",
+			"Entries": {
 				//vanilla
-            	"Resort_Entering": "{{i18n:Diala.Dialogue.Resort_Entering}}",
+				"Resort_Entering": "{{i18n:Diala.Dialogue.Resort_Entering}}",
 				"Resort_Leaving": "{{i18n:Diala.Dialogue.Resort_Leaving}}",
 				"Resort_Shore": "{{i18n:Diala.Dialogue.Resort_Shore}}",
 				"Resort_Chair": "{{i18n:Diala.Dialogue.Resort_Chair}}",
 				"Resort_Bar": "{{i18n:Diala.Dialogue.Resort_Bar}}",
 				"Resort": "{{i18n:Diala.Dialogue.Resort}}",
 				//GIMA
-				"Resort_IslandNorth": "{{i18n:Diala.Dialogue.Resort_IslandNorth}}", 
-				"Resort_Adventure": "{{i18n:Diala.Dialogue.Resort_Adventure}}", 
-				"Resort_Volcano": "{{i18n:Diala.Dialogue.Resort_Volcano}}", 
-				"Resort_Tent": "{{i18n:Diala.Dialogue.Resort_Tent}}", 
-				
+				"Resort_IslandNorth": "{{i18n:Diala.Dialogue.Resort_IslandNorth}}",
+				"Resort_Adventure": "{{i18n:Diala.Dialogue.Resort_Adventure}}",
+				"Resort_Volcano": "{{i18n:Diala.Dialogue.Resort_Volcano}}",
+				"Resort_Tent": "{{i18n:Diala.Dialogue.Resort_Tent}}",
 			}
 		},
 		{
-        "LogName": "Derya GI dialogue",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/DeryaSBV", 
-        "Entries": {
+			"LogName": "Derya GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/DeryaSBV",
+			"Entries": {
 				//vanilla
-            	"Resort_Entering": "{{i18n:Derya.Dialogue.Resort_Entering}}",
+				"Resort_Entering": "{{i18n:Derya.Dialogue.Resort_Entering}}",
 				"Resort_Leaving": "{{i18n:Derya.Dialogue.Resort_Leaving}}",
 				"Resort_Shore": "{{i18n:Derya.Dialogue.Resort_Shore}}",
 				"Resort_Chair": "{{i18n:Derya.Dialogue.Resort_Chair}}",
 				"Resort_Bar": "{{i18n:Derya.Dialogue.Resort_Bar}}",
 				"Resort": "{{i18n:Derya.Dialogue.Resort}}",
 				//GIMA
-				"Resort_IslandNorth": "{{i18n:Derya.Dialogue.Resort_IslandNorth}}", 
-				"Resort_Adventure": "{{i18n:Derya.Dialogue.Resort_Adventure}}", 
-				"Resort_Volcano": "{{i18n:Derya.Dialogue.Resort_Volcano}}", 
+				"Resort_IslandNorth": "{{i18n:Derya.Dialogue.Resort_IslandNorth}}",
+				"Resort_Adventure": "{{i18n:Derya.Dialogue.Resort_Adventure}}",
+				"Resort_Volcano": "{{i18n:Derya.Dialogue.Resort_Volcano}}",
 				"Resort_Tent": "{{i18n:Derya.Dialogue.Resort_Tent}}",
-				
 			}
 		},
 		{
-        "LogName": "Moon GI dialogue",
-        "Action": "EditData",
-        "Target": "Characters/Dialogue/MoonSBV", 
-        "Entries": {
+			"LogName": "Moon GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MoonSBV",
+			"Entries": {
 				//vanilla
-            	"Resort_Entering": "{{i18n:Moon.Dialogue.Resort_Entering}}",
+				"Resort_Entering": "{{i18n:Moon.Dialogue.Resort_Entering}}",
 				"Resort_Leaving": "{{i18n:Moon.Dialogue.Resort_Leaving}}",
 				"Resort_Shore": "{{i18n:Moon.Dialogue.Resort_Shore}}",
 				"Resort_Chair": "{{i18n:Moon.Dialogue.Resort_Chair}}",
 				"Resort_Bar": "{{i18n:Moon.Dialogue.Resort_Bar}}",
 				"Resort": "{{i18n:Moon.Dialogue.Resort}}",
 				//GIMA
-				"Resort_IslandNorth": "{{i18n:Moon.Dialogue.Resort_IslandNorth}}", 
-				"Resort_Adventure": "{{i18n:Moon.Dialogue.Resort_Adventure}}", 
-				"Resort_Volcano": "{{i18n:Moon.Dialogue.Resort_Volcano}}", 
-				"Resort_Tent": "{{i18n:Moon.Dialogue.Resort_Tent}}", 
-				
+				"Resort_IslandNorth": "{{i18n:Moon.Dialogue.Resort_IslandNorth}}",
+				"Resort_Adventure": "{{i18n:Moon.Dialogue.Resort_Adventure}}",
+				"Resort_Volcano": "{{i18n:Moon.Dialogue.Resort_Volcano}}",
+				"Resort_Tent": "{{i18n:Moon.Dialogue.Resort_Tent}}",
 			}
 		},
-
 	]
 }

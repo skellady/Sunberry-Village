@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="15" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="15" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="8">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="DayTiles" value="Front 4 1 225 Front 11 1 225 Front 4 2 257 Front 11 2 257"/>
@@ -40,15 +40,51 @@
 65,0,0,0,0,0,0,0,0,0,0,0,0,477,131,
 65,0,321,322,0,0,0,0,0,0,194,3,3,3,12,
 65,0,0,442,0,0,0,0,0,0,55,0,0,0,69,
-65,0,0,0,0,0,0,0,0,0,87,75,75,75,69,
-65,0,0,0,1180,888,889,0,0,0,119,107,107,107,69,
+65,676,0,0,0,0,0,0,0,432,87,75,75,75,69,
+65,0,2168,0,1180,888,889,0,0,0,119,107,107,107,69,
 65,2148,0,1394,0,0,0,0,0,0,0,499,500,501,69,
-161,402,0,0,0,0,0,0,0,0,0,0,0,0,168,
+161,402,2148,0,0,0,0,0,0,0,0,0,0,0,168,
 1,1,1,1,1,1,1,97,0,0,131,1,1,1,1,
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 </data>
  </layer>
- <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="48" y="112" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.eliashouse1&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="208" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.eliashouse2&quot;"/>
+   </properties>
+  </object>
+  <object id="3" name="TileData" x="16" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.eliashouse3&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="144" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.eliashouse4&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="16" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.eliashouse5&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="32" y="176" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.eliashouse6&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="208" y="160" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.eliashouse7&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="5" name="Paths" width="15" height="14">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -80,7 +116,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,854,857,0,0,0,0,0,0,0,0,
 0,2116,0,0,0,0,0,0,0,0,0,467,468,469,0,
-0,370,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,370,2116,0,0,0,0,0,0,0,0,0,0,0,0,
 0,162,166,166,166,166,166,163,0,0,164,166,166,167,0,
 0,0,0,0,0,0,0,0,166,166,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

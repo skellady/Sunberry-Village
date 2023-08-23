@@ -1,0 +1,21 @@
+{
+    "Name": "SBV Wild Mustard",
+    "Description": "...",
+    "TranslationKey": "sbv-wildmustard",
+    "Category": "Flower",
+    "Edibility": 15,
+    "Price": 180,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Haley", "Leah", "Sandy", "JumanaSBV", "AminaSBV", "SilasSBV", "MaiaSBV"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sebastian", "Shane", "Vincent", "Willy", "Wizard", "DeryaSBV"],
+    },
+
+    "ContextTags": [
+        "season_fall",
+        "color_yellow",
+        "flower_item"
+    ]
+}

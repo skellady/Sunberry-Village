@@ -5,6 +5,7 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
+				//cafe
 				"dd.moonhide": "{{i18n:MapString.dd.moonhide}}",
 				"dd.cafe1": "{{i18n:MapString.dd.cafe1}}",
 				"dd.cafe2": "{{i18n:MapString.dd.cafe2}}",
@@ -36,6 +37,7 @@
 				"dd.house20": "{{i18n:MapString.dd.house20}}",
 				"dd.house21": "{{i18n:MapString.dd.house21}}",
 				"dd.house22": "{{i18n:MapString.dd.house22}}",
+				//village
 				"sbv.village1": "{{i18n:MapString.sbv.village1}}",
 				"sbv.village2": "{{i18n:MapString.sbv.village2}}",
 				"sbv.village3": "{{i18n:MapString.sbv.village3}}",
@@ -43,18 +45,73 @@
 				"sbv.village5": "{{i18n:MapString.sbv.village5}}",
 				"sbv.village6": "{{i18n:MapString.sbv.village6}}",
 				"sbv.village7": "{{i18n:MapString.sbv.village7}}",
-			},
+				//mountain
+				"sbv.mountain1": "{{i18n:MapString.sbv.mountain1}}",
+				"sbv.mountain2": "{{i18n:MapString.sbv.mountain2}}",
+				"sbv.mountain3": "{{i18n:MapString.sbv.mountain3}}",
+				"sbv.mountain4": "{{i18n:MapString.sbv.mountain4}}",
+				//ari market
+				"sbv.market1": "{{i18n:MapString.sbv.market1}}",
+				"sbv.market2": "{{i18n:MapString.sbv.market2}}",
+				"sbv.market3": "{{i18n:MapString.sbv.market3}}",
+				"sbv.market4": "{{i18n:MapString.sbv.market4}}",
+				"sbv.market5": "{{i18n:MapString.sbv.market5}}",
+				"sbv.market6": "{{i18n:MapString.sbv.market6}}",
+				//broken diner
+				"sbv.brokendiner1": "{{i18n:MapString.sbv.brokendiner1}}",
+				//crystal cave entrance
+				"sbv.crystalcave1": "{{i18n:MapString.sbv.crystalcave1}}",
+				//elias house
+				"sbv.eliashouse1": "{{i18n:MapString.sbv.eliashouse1}}",
+				"sbv.eliashouse2": "{{i18n:MapString.sbv.eliashouse2}}",
+				"sbv.eliashouse3": "{{i18n:MapString.sbv.eliashouse3}}",
+				"sbv.eliashouse4": "{{i18n:MapString.sbv.eliashouse4}}",
+				"sbv.eliashouse5": "{{i18n:MapString.sbv.eliashouse5}}",
+				"sbv.eliashouse6": "{{i18n:MapString.sbv.eliashouse6}}",
+				"sbv.eliashouse7": "{{i18n:MapString.sbv.eliashouse7}}",
+				//elias house (old)
+				"sbv.eliashouseold1": "{{i18n:MapString.sbv.eliashouseold1}}",
+				"sbv.eliashouseold2": "{{i18n:MapString.sbv.eliashouseold2}}",
+				"sbv.eliashouseold3": "{{i18n:MapString.sbv.eliashouseold3}}",
+				"sbv.eliashouseold4": "{{i18n:MapString.sbv.eliashouseold4}}",
+				"sbv.eliashouseold5": "{{i18n:MapString.sbv.eliashouseold5}}",
+				"sbv.eliashouseold6": "{{i18n:MapString.sbv.eliashouseold6}}",
+				//ezra house
+				"sbv.ezrahouse1": "{{i18n:MapString.sbv.ezrahouse1}}",
+				"sbv.ezrahouse2": "{{i18n:MapString.sbv.ezrahouse2}}",
+				"sbv.ezrahouse3": "{{i18n:MapString.sbv.ezrahouse3}}",
+				//iman house
+				"sbv.imanhouse1": "{{i18n:MapString.sbv.imanhouse1}}",
+				"sbv.imanhouse2": "{{i18n:MapString.sbv.imanhouse2}}",
+				"sbv.imanhouse3": "{{i18n:MapString.sbv.imanhouse3}}",
+				//maia house
+				"sbv.maiahouse1": "{{i18n:MapString.sbv.maiahouse1}}",
+				"sbv.maiahouse2": "{{i18n:MapString.sbv.maiahouse2}}",
+				"sbv.maiahouse3": "{{i18n:MapString.sbv.maiahouse3}}",
+				"sbv.maiahouse4": "{{i18n:MapString.sbv.maiahouse4}}",
+				"sbv.maiahouse5": "{{i18n:MapString.sbv.maiahouse5}}",
+				"sbv.maiahouse6": "{{i18n:MapString.sbv.maiahouse6}}",
+				"sbv.maiahouse7": "{{i18n:MapString.sbv.maiahouse7}}",
+				//rei house
+				"sbv.reihouse1": "{{i18n:MapString.sbv.reihouse1}}",
+				"sbv.reihouse2": "{{i18n:MapString.sbv.reihouse2}}",
+				"sbv.reihouse3": "{{i18n:MapString.sbv.reihouse3}}",
+				"sbv.reihouse4": "{{i18n:MapString.sbv.reihouse4}}",
+				"sbv.reihouse5": "{{i18n:MapString.sbv.reihouse5}}",
+				"sbv.reihouse6": "{{i18n:MapString.sbv.reihouse6}}",
+				"sbv.reihouse7": "{{i18n:MapString.sbv.reihouse7}}",
+			}
 		},
 		{
 			"LogName": "Rei Temp Message",
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"rei.lockedhouse": "{{i18n:MapString.rei.lockedhouse}}",
+				"rei.lockedhouse": "{{i18n:MapString.rei.lockedhouse}}"
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=20031427": false
-			},
-		},
+			}
+		}
 	]
 }

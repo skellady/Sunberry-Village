@@ -1,0 +1,96 @@
+{
+	// SEEDS
+	//------
+
+	"sbv-cyclamen-seeds.name": "Cyclamen Seeds",
+	"sbv-cyclamen-seeds.description": "Plant in winter. Takes 9 days to produce a sweet-scented flower.",
+
+	"sbv-speedwell-seeds.name": "Speedwell Seeds",
+	"sbv-speedwell-seeds.description": "Plant in spring. Takes 7 days to produce a small blue flower.",
+
+	"sbv-wildmustard-seeds.name": "Wild Mustard Seeds",
+	"sbv-wildmustard-seeds.description": "Plant in fall. Takes 7 days to produce a four-petaled yellow flower.",
+
+	"sbv-sunberry-seeds.name": "Sunberry Seeds",
+	"sbv-sunberry-seeds.description": "Plant in summer. Takes 10 days to mature, and continues to produce after the first harvest.",
+
+	"sbv-arfaj-seeds.name": "Arfaj Seeds",
+	"sbv-arfaj-seeds.description": "Plant in spring. Takes 12 days to produce a bright yellow flower.",
+
+	"sbv-callalily-seeds.name": "Calla Lily Seeds",
+	"sbv-callalily-seeds.description": "Plant in summer. Takes 8 days to produce a fragrant flower.",
+
+	"sbv-coffeeblossom-seeds.name": "Coffee Blossom Seeds",
+	"sbv-coffeeblossom-seeds.description": "Plant in spring. Takes 8 days to produce a jasmine-scented flower.",
+
+	"sbv-hyacinth-seeds.name": "Hyacinth Seeds",
+	"sbv-hyacinth-seeds.description": "Plant in spring. Takes 9 days to produce a multi-colored bulbous flower.",
+
+	// OBJECTS
+	//--------
+
+	"sbv-cyclamen.name": "Cyclamen",
+	"sbv-cyclamen.description": "A petite, sweet-scented flower that thrives in winter.",
+
+	"sbv-speedwell.name": "Speedwell",
+	"sbv-speedwell.description": "A small, beautiful flower that represents kindness and loyalty.",
+
+	"sbv-wildmustard.name": "Wild Mustard",
+	"sbv-wildmustard.description": "A bright yellow flower used to spice up many culinary creations.",
+
+	"sbv-sunberries.name": "Sunberries",
+	"sbv-sunberries.description": "Legend says, the villagers named the town after this berry when the Goddess of Fruits blessed them during hard times. It's sweet, soft, and filling.",
+
+	"sbv-arfaj.name": "Arfaj",
+	"sbv-arfaj.description": "A small bright flower with thorny leaves. Can be used as fuel and spice.",
+
+	"sbv-callalilies.name": "Calla Lilies",
+	"sbv-callalilies.description": "A tubular shaped flower. Symbolizes faithfulness.",
+
+	"sbv-coffeeblossom.name": "Coffee Blossom",
+	"sbv-coffeeblossom.description": "A beautiful flower. It has a rich jasmine scent.",
+
+	"sbv-hyacinth.name": "Hyacinth",
+	"sbv-hyacinth.description": "A fragrant, multi-colored flower. It would look good in a bouquet.",
+
+	"sbv-carob.name": "Carob",
+	"sbv-carob.description": "A sweet, ripe pod that is used as a substitute for chocolate.",
+
+	// WEAPONS
+	//--------
+
+	"sbv-battleaxe.name": "Dawne's Battle Axe",
+	"sbv-battleaxe.description": "A recreation of the battle axe that once belonged to the great hero, Dawne, who won her kingdom's battle at daybreak.",
+
+	"sbv-theirin-sword.name": "Theirin's Sword",
+	"sbv-theirin-sword.description": "A similar sword once belonged to a charming yet dopey warrior. It's said that he was able to simultaneously steal hearts and help save the world.",
+
+	"sbv-dragonfang.name": "Dragonfang",
+	"sbv-dragonfang.description": "This sword is one of Maia's original work. It's named for its sharp tip and ferociousness.",
+
+	"sbv-flower-power.name": "Flower Power",
+	"sbv-flower-power.description": "Apparently, Aicha begged Maia for this sword day and night. Embrace the power of the flowers and make Aicha proud.",
+
+	"sbv-baleful-blade.name": "Baleful Blade",
+	"sbv-baleful-blade.description": "You can feel menacing energy radiating from the blade. It's infused with dark, powerful energy.",
+
+	"sbv-sunslash.name": "Sunslash",
+	"sbv-sunslash.description": "This khopesh once belonged to Ophelia, the guardian of Sunberry Village. Holding it makes you feel powerful and calm, all at once.",
+
+	// TREES
+	//------
+	"sbv-carob-sapling.name": "Carob Sapling",
+	"sbv-carob-sapling.description": "Takes 28 days to produce a mature Carob. Bears fruit in the fall.",
+
+	// COOKING
+	//--------
+
+	"sbv-ice-cream-bowl.name": "Ice Cream Bowl",
+	"sbv-ice-cream-bowl.description": "A refreshing bowl of ice cream consisting of Diala and Derya's favorite flavors: Mango, Strawberry, and Blueberry.",
+
+	"sbv-chocolate-chip-cookie.name": "Chocolate Chip Cookie",
+	"sbv-chocolate-chip-cookie.description": "Chocolate chip cookies made with love and Carob. Diala says it's her secret ingredient. Not very secret, now...",
+
+	"sbv-hot-chocolate.name": "Diala's Hot Chocolate",
+	"sbv-hot-chocolate.description": "Guaranteed to make you feel warm and cozy on cold days!"
+}

@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="5" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="43">
- <properties>
-  <property name="Outdoors" value="T"/>
- </properties>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="5" height="6" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="44">
  <tileset firstgid="1" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
-  <image source="spring_outdoorsTileSheet" width="400" height="1264"/>
+  <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
   <tile id="150">
    <properties>
     <property name="Spawnable" value="t"/>
@@ -1653,24 +1650,54 @@
  </tileset>
  <layer id="1" name="Back" width="5" height="6">
   <data encoding="csv">
-2917,2982,2982,2982,2917,
-2917,2921,2921,2921,2917,
-2917,2921,2921,2921,2917,
-2917,2921,2921,2921,2917,
-2917,2921,2921,2921,2917,
-2949,2981,2981,2981,2949
+1245,227,600,227,1245,
+1270,624,599,227,1270,
+1230,179,252,253,1230,
+1323,229,276,226,1275,
+600,229,276,226,1230,
+179,254,201,203,1230
 </data>
  </layer>
+ <objectgroup id="6" name="Back"/>
+ <layer id="12" name="Back2" width="5" height="6">
+  <properties>
+   <property name="Draw" value="Back"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="14" name="Back2"/>
  <layer id="2" name="Buildings" width="5" height="6">
   <data encoding="csv">
-2917,0,0,0,0,
-2917,0,0,0,0,
-2917,0,0,0,0,
-2917,0,0,0,0,
-0,0,0,0,0,
-2949,0,0,0,2949
+186,0,0,0,184,
+211,0,0,0,209,
+236,0,0,0,234,
+261,0,0,0,209,
+0,0,0,0,234,
+103,0,0,0,209
 </data>
  </layer>
+ <objectgroup id="7" name="Buildings"/>
+ <layer id="11" name="Buildings2" width="5" height="6">
+  <properties>
+   <property name="Draw" value="Buildings"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="13" name="Buildings2"/>
  <layer id="3" name="Paths" width="5" height="6">
   <data encoding="csv">
 0,0,0,0,0,
@@ -1681,16 +1708,18 @@
 0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="8" name="Paths"/>
  <layer id="4" name="Front" width="5" height="6">
   <data encoding="csv">
 0,0,0,0,0,
 0,0,0,0,0,
 0,0,0,0,0,
 0,0,0,0,0,
-2917,0,0,0,0,
+0,0,0,0,0,
 0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="9" name="Front"/>
  <layer id="5" name="AlwaysFront" width="5" height="6">
   <data encoding="csv">
 0,0,0,0,0,
@@ -1701,9 +1730,5 @@
 0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="6" name="Back"/>
- <objectgroup id="7" name="Buildings"/>
- <objectgroup id="8" name="Paths"/>
- <objectgroup id="9" name="Front"/>
  <objectgroup id="10" name="AlwaysFront"/>
 </map>

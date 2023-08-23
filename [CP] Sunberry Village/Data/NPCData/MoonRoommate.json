@@ -11,11 +11,11 @@
             "Entries",
             "Lunarite"
           ],
-          "Value": "propose_roommate_moon",
+          "Value": "propose_roommate_moonsbv",
           "Delimiter": ", ",
         },
       ],
-        "When": {
+      "When": {
         "HasSeenEvent": 20031412,
       },
     },
@@ -56,13 +56,13 @@
     {
       "Action": "Load",
       "Target": "Maps/SBVSpouseRooms",
-      "FromFile": "assets/Maps/SpouseRooms/{{TargetWithoutPath}}.tmx"
+      "FromFile": "Assets/Maps/SpouseRooms/{{TargetWithoutPath}}.tmx"
     },
     //Load Spouse Patios
     {
       "Action": "Load",
       "Target": "Maps/SBVSpousePatios",
-      "FromFile": "assets/Maps/SpouseRooms/{{TargetWithoutPath}}.tmx"
+      "FromFile": "Assets/Maps/SpouseRooms/{{TargetWithoutPath}}.tmx"
     },
     //Register patios
     {

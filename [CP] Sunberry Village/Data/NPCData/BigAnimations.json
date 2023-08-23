@@ -1,0 +1,15 @@
+{
+  "Changes": [
+    {
+      "Action": "EditData",
+      "Target": "mods/SBV/animations",
+      "Entries": {
+        "elias_fish": {
+          "npcName": "EliasSBV",
+          "size": "16, 64",
+          "offset": "0, 96"
+        }
+      }
+    }
+  ]
+}

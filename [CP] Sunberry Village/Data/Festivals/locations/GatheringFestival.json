@@ -14,7 +14,7 @@
                   "Entries",
                   "Set-Up_additionalCharacters"
                ],
-               "Value": "DialaSBV 99 53 down/DeryaSBV 99 54 up",
+               "Value": "DialaSBV 99 53 down/DeryaSBV 99 54 up/AminaSBV 105 47 right/BlakeSBV 121 55 left/EzraSBV 96 54 right/JumanaSBV 63 50 right/MiyoungSBV 66 49 down/OpheliaSBV 90 60 down",
                "Delimiter": "/"
             },
             // Main Event
@@ -24,7 +24,7 @@
                   "Entries",
                   "MainEvent_additionalCharacters"
                ],
-               "Value": "DialaSBV 75 50 up/DeryaSBV 76 50 up",
+               "Value": "DialaSBV 75 50 up/DeryaSBV 76 50 up/BlakeSBV 81 49 up/JumanaSBV 63 49 up/AminaSBV 64 49 up/EzraSBV 88 43 left/MiyoungSBV 67 51 up/OpheliaSBV 81 52 up",
                "Delimiter": "/"
             },
          ]
@@ -35,7 +35,7 @@
          "Target": "Data/Festivals/fall20",
          "When": {
             "HasMod": "Rafseazz.RSVCP",
-            "HasSeenEvent": 20031403
+            "HasSeenEvent": 20031402
          },
          "TextOperations": [
             // Set-up
@@ -55,7 +55,7 @@
                   "Entries",
                   "MainEvent_additionalCharacters"
                ],
-               "Value": "MoonSBV 66 30 left",
+               "Value": "MoonSBV 66 30 down",
                "Delimiter": "/",
             },
          ]

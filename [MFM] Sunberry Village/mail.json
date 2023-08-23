@@ -17,7 +17,7 @@
     "FriendshipConditions": 
     [
       {
-        "NpcName": "Diala",
+        "NpcName": "DialaSBV",
         "FriendshipLevel": 2,
 
       }
@@ -32,7 +32,7 @@
     "FriendshipConditions": 
     [
       {
-        "NpcName": "Diala",
+        "NpcName": "DialaSBV",
         "FriendshipLevel": 6,
 
       }
@@ -47,10 +47,68 @@
     "FriendshipConditions":
     [
       {
-        "NpcName": "Moon",
+        "NpcName": "MoonSBV",
         "FriendshipLevel": 10,
       }
     ]
   },
+  {
+    "Id": "Jumana.Husband",
+    "Title": "Jumana.Husband.title",
+    "Text": "Jumana.Husband.text",
+    "LetterBG": "JumanaLetter1.png",
+    "Repeatable": false,
+    "FriendshipConditions": 
+    [
+      {
+        "NpcName": "JumanaSBV",
+        "FriendshipLevel": 6
 
+      }
+    ],
+    "EventsSeen": [20031431]
+  },
+  {
+    "Id": "DND.DialaRecipe",
+    "Title": "DND.DialaRecipe.title",
+    "Text": "DND.DialaRecipe.text",
+    "Recipe": "SBV Hot Chocolate",
+    "LetterBG": "DDLetter.png",
+    "Repeatable": false,
+    "FriendshipConditions": [
+      {
+        "NpcName": "DialaSBV",
+        "FriendshipLevel": 4
+      }
+    ]
+  },
+  {
+    "Id": "DND.DeryaRecipe",
+    "Title": "DND.DeryaRecipe.title",
+    "Text": "DND.DeryaRecipe.text",
+    "Recipe": "SBV Ice Cream Bowl",
+    "LetterBG": "DDLetter2.png",
+    "Repeatable": false,
+    "Seasons": ["summer"],
+    "FriendshipConditions": [
+      {
+        "NpcName": "DeryaSBV",
+        "FriendshipLevel": 5
+      }
+    ]
+  },
+  {
+    "Id": "DND.MoonRecipe",
+    "Title": "DND.MoonRecipe.title",
+    "Text": "DND.MoonRecipe.text",
+    "Recipe": "SBV Chocolate Chip Cookies",
+    "LetterBG": "DDLetter.png",
+    "Repeatable": false,
+    "FriendshipConditions": [
+      {
+        "NpcName": "MoonSBV",
+        "FriendshipLevel": 6
+      }
+    ]
+  }
 ]

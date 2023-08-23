@@ -14,7 +14,7 @@
                               "Entries",
                               "Set-Up_additionalCharacters"
                          ],
-                         "Value": "DialaSBV 40 26 right/DeryaSBV 41 26 left",
+                         "Value": "DialaSBV 40 26 right/DeryaSBV 41 26 left/AminaSBV 33 25 right/AriSBV 21 49 down/BlakeSBV 21 51 up/EliasSBV 34 24 down/JumanaSBV 50 50 left/LyenneSBV 22 50 left/MaiaSBV 35 25 left/MiyoungSBV 46 55 right/OpheliaSBV 20 50 right/SilasSBV 47 55 left",
                          "Delimiter": "/"
                     },
                     //MainEvent
@@ -24,7 +24,7 @@
                               "Entries",
                               "MainEvent_additionalCharacters"
                          ],
-                         "Value": "DialaSBV 35 54 up/DeryaSBV 36 54 up",
+                         "Value": "DialaSBV 35 54 up/DeryaSBV 36 54 up/AminaSBV 33 25 down/AriSBV 21 49 up/BlakeSBV 21 51 up/EliasSBV 34 24 down/JumanaSBV 50 50 up/LyenneSBV 22 50 up/MaiaSBV 32 25 down/MiyoungSBV 46 55 up/OpheliaSBV 20 50 up/SilasSBV 47 55 up",
                          "Delimiter": "/"
                     },
                ]
@@ -34,7 +34,7 @@
                "Target": "Data/Festivals/winter28",
                "When": {
                     "HasMod": "Rafseazz.RSVCP",
-                    "HasSeenEvent": 20031403
+                    "HasSeenEvent": 20031402
                },
                "TextOperations": [
                     //SetUp

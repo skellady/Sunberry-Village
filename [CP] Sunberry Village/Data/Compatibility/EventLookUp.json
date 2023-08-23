@@ -25,6 +25,12 @@
 				"Custom_SBV_MaiaHouse": "{{i18n:Sunberry.Locations.MaiaHouse}}",
 				"Custom_SBV_SilasBlacksmith": "{{i18n:Sunberry.Locations.SilasBlacksmith}}",
 				"Custom_SBV_ImanHouse": "{{i18n:Sunberry.Locations.ImanHouse}}",
+				"Custom_SBV_CrystalCave": "{{i18n:Sunberry.Locations.CrystalCave}}",
+				"Custom_SBV_ChrisDinerBroken": "{{i18n:Sunberry.Locations.ChrisDinerBroken}}",
+				"Custom_SBV_ChrisDiner": "{{i18n:Sunberry.Locations.ChrisDiner}}",
+				"Custom_SBV_ChrisDinerRainbow": "{{i18n:Sunberry.Locations.ChrisDinerRainbow}}",
+				"Custom_SBV_EliasHouseOld": "{{i18n:Sunberry.Locations.EliasHouseOld}}",
+				"Custom_SBV_EliasHouseNew": "{{i18n:Sunberry.Locations.EliasHouseNew}}",
 			}
 		}
 	]

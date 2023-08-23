@@ -1,0 +1,20 @@
+{
+	"Changes": [
+		// Fountain Music
+		{
+			"LogName": "Saturday Hangout Music",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage",
+			"MapProperties": {
+				"Music": "{{Random: kindadumbautumn, poppy, SettlingIn}}"
+			},
+			"When": {
+				"Weather": "Sun",
+				"Season: |contains=winter": false,
+				"DayOfWeek": "Saturday",
+				"Time": "{{Range: 1800, 2400}}",
+			},
+			"Update": "OnLocationChange"
+		}
+	]
+}

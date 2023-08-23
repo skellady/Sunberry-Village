@@ -22,6 +22,7 @@
         "MoonSBV": "child/polite/outgoing/positive/female/non-datable/null/Town/winter 13//Custom_SBV_DDHouse 13 16/{{i18n:Name.Moon}}",
 
         // Elias' Family
+        "AriSBV": "adult/polite/shy/positive/male/non-datable/null/Town/winter 19/{{i18n:NPC_Relationships.Ari}}/Custom_SBV_AriMarket 18 5/{{i18n:Name.Ari}}",
         "BlakeSBV": "teen/polite/shy/positive/male/non-datable/null/Town/summer 17/{{i18n:NPC_Relationships.Blake}}/Custom_SBV_AriMarket 3 5/{{i18n:Name.Blake}}",
         "EliasSBV": "adult/rude/shy/negative/male/non-datable/null/Town/winter 23/{{i18n:NPC_Relationships.Elias}}/Custom_SBV_EliasHouse 3 5/{{i18n:Name.Elias}}",
 
@@ -30,8 +31,8 @@
         "ImanSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/spring 4//Custom_SBV_ImanHouse 5 5/{{i18n:Name.Iman}}",
         
         // Demons
-        "AichaSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/winter 15//Custom_SBV_SunberryWarpRoom 2 5/{{i18n:Name.Aicha}}",
-        "ReihanaSBV": "adult/rude/outgoing/negative/female/non-datable/null/Town/winter 3//Custom_SBV_ReiHouse 4 6/{{i18n:Name.Reihana}}",
+        "AichaSBV": "adult/polite/outgoing/positive/female/non-datable/null/Other/winter 15//Custom_SBV_ReiHouse 9 6/{{i18n:Name.Aicha}}",
+        "ReihanaSBV": "adult/rude/outgoing/negative/female/non-datable/null/Other/winter 3//Custom_SBV_ReiHouse 4 6/{{i18n:Name.Reihana}}",
         
         // Miyoung and Silas
         "MiyoungSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/summer 5/{{i18n:NPC_Relationships.Miyoung}}/Custom_SBV_MiyoungHouse 13 5/{{i18n:Name.Miyoung}}",

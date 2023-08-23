@@ -1,15 +1,41 @@
 {
   "Changes": [
-
     // Exterior Maps	
     {
       "Action": "EditMap",
       "Target": "Maps/Town",
       "AddWarps": [
-        "86 110 Custom_SBV_SunberryRoad 21 1",
+        "86 110 Custom_SBV_SunberryRoad 22 1",
         "87 110 Custom_SBV_SunberryRoad 22 1",
-        "88 110 Custom_SBV_SunberryRoad 23 1",
-      ]
+        "88 110 Custom_SBV_SunberryRoad 22 1",
+      ],
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP, DaisyNiko.SVR3": false
+      },
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "AddWarps": [
+        "86 116 Custom_SBV_SunberryRoad 22 1",
+        "87 116 Custom_SBV_SunberryRoad 22 1",
+        "88 116 Custom_SBV_SunberryRoad 22 1",
+      ],
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town",
+      "AddWarps": [
+        "86 110 Custom_SBV_SunberryRoad 22 1",
+        "87 110 Custom_SBV_SunberryRoad 22 1",
+        "88 110 Custom_SBV_SunberryRoad 22 1",
+      ],
+      "When": {
+        "HasMod: |contains=DaisyNiko.SVR3": true
+      },
     },
     {
       "Action": "EditMap",
@@ -21,10 +47,31 @@
         "-1 11 Custom_SBV_SunberryVillage 99 15",
         "-1 12 Custom_SBV_SunberryVillage 99 16",
         "-1 13 Custom_SBV_SunberryVillage 99 17",
-        "21 0 Town 86 109",
+        "21 0 Town 87 109",
         "22 0 Town 87 109",
-        "23 0 Town 88 109",
-      ]
+        "23 0 Town 87 109",
+      ],
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+      },
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryRoad",
+      "AddWarps": [
+        "-1 8 Custom_SBV_SunberryVillage 99 15",
+        "-1 9 Custom_SBV_SunberryVillage 99 16",
+        "-1 10 Custom_SBV_SunberryVillage 99 17",
+        "-1 11 Custom_SBV_SunberryVillage 99 15",
+        "-1 12 Custom_SBV_SunberryVillage 99 16",
+        "-1 13 Custom_SBV_SunberryVillage 99 17",
+        "21 0 Town 87 114",
+        "22 0 Town 87 114",
+        "23 0 Town 87 114",
+      ],
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+      },
     },
     {
       "Action": "EditMap",
@@ -50,7 +97,7 @@
         "15 41 Custom_SBV_SunberryVillage 58 1",
         "16 41 Custom_SBV_SunberryVillage 59 1",
         "17 41 Custom_SBV_SunberryVillage 60 1",
-        "29 25 Custom_SBV_CrystalCave 5 11",
+        "29 25 Custom_SBV_CrystalCave 10 16",
       ]
     },
     {
@@ -65,7 +112,6 @@
         "72 -1 Custom_SBV_SunberryVillage 38 76",
       ]
     },
-
     // Interior Maps
     {
       "Action": "EditMap",
@@ -90,7 +136,8 @@
       "Action": "EditMap",
       "Target": "Maps/Custom_SBV_ReiHouse",
       "AddWarps": [
-        "5 21 Custom_SBV_SunberryForest 54 12",
+        "5 21 Custom_SBV_SunberryForest 54 13",
+        "5 21 Custom_SBV_SunberryForest 55 13",
       ]
     },
     {
@@ -148,18 +195,18 @@
       "Action": "EditMap",
       "Target": "Maps/Custom_SBV_SunberryLibrary",
       "AddWarps": [
-        "14 3 Custom_SBV_EliasHouse 8 11",
-        "15 3 Custom_SBV_EliasHouse 9 11",
-        "4 14 Custom_SBV_SunberryVillage 73 13",
-        "5 14 Custom_SBV_SunberryVillage 74 13",
+        "29 3 Custom_SBV_EliasHouse 8 11",
+        "30 3 Custom_SBV_EliasHouse 9 11",
+        "19 14 Custom_SBV_SunberryVillage 73 13",
+        "20 14 Custom_SBV_SunberryVillage 74 13",
       ]
     },
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_SBV_EliasHouse",
       "AddWarps": [
-        "8 13 Custom_SBV_SunberryLibrary 14 4",
-        "9 13 Custom_SBV_SunberryLibrary 15 4",
+        "8 13 Custom_SBV_SunberryLibrary 29 4",
+        "9 13 Custom_SBV_SunberryLibrary 30 4",
       ]
     },
     {
@@ -205,9 +252,22 @@
       "Action": "EditMap",
       "Target": "Maps/Custom_SBV_CrystalCave",
       "AddWarps": [
-        "4 13 Custom_SBV_SunberryMountain 29 27",
-        "5 13 Custom_SBV_SunberryMountain 29 27",
-        "6 13 Custom_SBV_SunberryMountain 29 27",
+        "10 17 Custom_SBV_SunberryMountain 29 27",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_ChrisDinerBroken",
+      "AddWarps": [
+        "13 20 Custom_SBV_SunberryMountain 28 18",
+        "14 20 Custom_SBV_SunberryMountain 28 18",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_EliasHouseOld",
+      "AddWarps": [
+        "9 19 Custom_SBV_SunberryVillage 86 92",
       ]
     },
     // Locked Door Warps
@@ -440,6 +500,22 @@
     },
     {
       "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 86,
+            "Y": 91
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 9 18 Custom_SBV_EliasHouseOld 600 2400"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
       "Target": "Maps/Custom_SBV_SerenityInn",
       "MapTiles": [
         {
@@ -461,7 +537,26 @@
         {
           "Position": {
             "X": 54,
-            "Y": 11
+            "Y": 12
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 5 20 Custom_SBV_ReiHouse 800 2200"
+          }
+        }
+      ],
+      "When": {
+        "HasSeenEvent: anyPlayer |contains=20031427": true
+      },
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryForest",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 55,
+            "Y": 12
           },
           "Layer": "Buildings",
           "SetProperties": {
@@ -485,6 +580,22 @@
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "LockedDoorWarp 6 18 Custom_SBV_SilasBlacksmith 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryMountain",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 28,
+            "Y": 17
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 13 18 Custom_SBV_ChrisDinerBroken 600 2400"
           }
         }
       ],

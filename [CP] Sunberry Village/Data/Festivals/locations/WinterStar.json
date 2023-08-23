@@ -15,7 +15,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "DialaSBV 20 57 right/DeryaSBV 21 57 left",
+					"Value": "DialaSBV 64 64 left/DeryaSBV 63 64 right/AminaSBV 54 71 up/MaiaSBV 60 67 left/JumanaSBV 60 68 left/BlakeSBV 65 72 up/LyenneSBV 71 69 left/EliasSBV 66 72 up/AriSBV 64 71 right/OpheliaSBV 70 69 right/SilasSBV 58 65 down/MiyoungSBV 59 65 down/ImanSBV 72 72 left/EzraSBV 71 72 right",
 					"Delimiter": "/",
 				},
 			]
@@ -26,7 +26,7 @@
 			"Target": "Data/Festivals/winter25",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasSeenEvent": 20031403
+				"HasSeenEvent": 20031402
 			},
 			"TextOperations": [
 				// Set-up
@@ -36,10 +36,91 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 19 49 down",
+					"Value": "MoonSBV 52 71 up",
 					"Delimiter": "/",
 				},
 			]
-		}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent": 20031427
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "ReihanaSBV 53 77 down/AichaSBV 54 77 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// With SVE
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "DialaSBV 64 64 right/DeryaSBV 65 64 left/AminaSBV 55 72 up/MaiaSBV 62 66 left/JumanaSBV 62 67 left/BlakeSBV 68 70 left/LyenneSBV 71 69 left/EliasSBV 68 69 left/AriSBV 64 69 right/OpheliaSBV 70 69 right/SilasSBV 58 65 right/MiyoungSBV 58 66 right/ImanSBV 72 72 left/EzraSBV 71 72 right",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon At Feast
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent": 20031402
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "MoonSBV 53 72 up",
+					"Delimiter": "/",
+				},
+			]
+		},
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent": 20031427
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters"
+					],
+					"Value": "ReihanaSBV 53 77 down/AichaSBV 54 77 down",
+					"Delimiter": "/",
+				},
+			]
+		},
 	]
 }

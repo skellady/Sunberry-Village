@@ -1,0 +1,9 @@
+{
+    "Name": "SBV Carob Tree",
+    "Product": "SBV Carob",
+	"SaplingTranslationKey":"sbv-carob-sapling",
+    "SaplingName": "SBV Carob Sapling",
+    "SaplingPurchasePrice":"7000",
+    "SaplingDescription": "...", 
+    "Season": "fall"  
+}
