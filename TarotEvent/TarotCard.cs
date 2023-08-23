@@ -29,7 +29,7 @@ namespace SunberryVillage.TarotEvent
 			[3] = "A new beginning is here. Open yourself up and be vulnerable.",
 			[4] = "This is a sign for you to be kind to yourself. Embrace your creativity and quirks.",
 			[5] = "You might be experiencing confusion or anxiety. Take it slow today.",
-			[6] = "Pure harmony and love in your path. Show your truest feelings.",
+			[6] = "Pure harmony and love are in your path. Show your truest feelings.",
 			[7] = "Something looms in the horizon. Don't be afraid. Embrace the change.",
 			[8] = "Abundance and prosperity is on the way. Welcome all opportunities.",
 			[9] = "Allow yourself to recover and grieve the past. Let go. Don't look back.",
