@@ -10,6 +10,7 @@ internal class AssetManager
 {
 	internal static void LoadOrEditAssets(object sender, AssetRequestedEventArgs e)
 	{
+		// Load stuff for tarot event
 		if (e.NameWithoutLocale.IsEquivalentTo("sophie.DialaTarot/CardBack"))
 			e.LoadFromModFile<Texture2D>("Assets/cardBack.png", AssetLoadPriority.Medium);
 		else if (e.NameWithoutLocale.IsEquivalentTo("sophie.DialaTarot/Event"))
@@ -24,5 +25,9 @@ internal class AssetManager
 			if (e.NameWithoutLocale.IsEquivalentTo($"sophie.DialaTarot/Card{i}"))
 				e.LoadFromModFile<Texture2D>($"Assets/{TarotCard.Names[i]}.png", AssetLoadPriority.Medium);
 		}
+
+		// Load portrait shake asset
+		if (e.NameWithoutLocale.IsEquivalentTo("SBV.PortraitsToShake"))
+			e.LoadFrom(() => new Dictionary<string, List<int>>(), AssetLoadPriority.Low);
 	}
 }
