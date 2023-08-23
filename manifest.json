@@ -1,0 +1,10 @@
+{
+  "Name": "[C#] Sunberry Village",
+  "Author": "sophie",
+  "Version": "1.0.0",
+  "Description": "Code portion of Sunberry Village.",
+  "UniqueID": "skellady.SBV",
+  "EntryDll": "SunberryVillage.dll",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": [ "Nexus:-1" ]
+}
