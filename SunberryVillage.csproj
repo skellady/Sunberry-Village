@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>SunberryVillage</AssemblyName>
+    <RootNamespace>SunberryVillage</RootNamespace>
+    <Version>1.0.0</Version>
+    <GameModsPath>$(GamePath)\Mods\Sunberry Village</GameModsPath>
+    <ModFolderName>[C#] Sunberry Village</ModFolderName>
+    <TargetFramework>net5.0</TargetFramework>
+    <EnableHarmony>true</EnableHarmony>
+    <LangVersion>latest</LangVersion>
+    <EnableModZip>false</EnableModZip>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.0.1" />
+  </ItemGroup>
+  
+  <!-- this shouldn't be necessary, but it is i guess??? fuckin stardewvalley.targets, how does it work -->
+  <Target Name="FixModPath" BeforeTargets="AfterBuild">
+    <Message Text="Mod Path Before Fix: $(GameModsPath)" />
+      
+    <PropertyGroup>
+      <GameModsPath>$(GamePath)\Mods\Sunberry Village</GameModsPath>
+    </PropertyGroup>
+  
+    <Message Text="Mod Path After Fix: $(GameModsPath)" />
+  </Target>
+    
+  <Target Name="Deploy" AfterTargets="AfterBuild">
+    <ItemGroup>
+			<_SourceFiles Include="$(ProjectDir)*Sunberry Village\**\*.*;" />
+    </ItemGroup>
+    
+    <PropertyGroup>
+      <_OutputFolder>$(GamePath)\Mods\Sunberry Village</_OutputFolder>
+    </PropertyGroup>
+    
+    <!--<Message Text="Source Files: @(_SourceFiles)" />-->
+    <Message Text="Output Folder: $(_OutputFolder)" />
+    <Message Text="Game Path: $(GamePath)" />
+    <Message Text="Game Mods Path: $(GameModsPath)" />
+    
+		<Copy SourceFiles="@(_SourceFiles)" DestinationFolder="$(_OutputFolder)\%(RecursiveDir)" SkipUnchangedFiles="true" />
+    
+    <ZipDirectory SourceDirectory="$(_OutputFolder)" DestinationFile="$(ProjectDir)bin\$(Configuration)\$(TargetFramework)\Sunberry Village $(Version).zip" Overwrite="true" />
+	</Target>
+  
+</Project>
