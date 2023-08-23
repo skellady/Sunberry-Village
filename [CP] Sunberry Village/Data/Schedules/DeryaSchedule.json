@@ -28,7 +28,7 @@
 				"summer_Sat": "610 Custom_SBV_DialaCafe 26 7 2/a1700 Custom_SBV_SunberryVillage 53 91 0 derya_readawake \"Strings\\schedules\\DeryaSBV:Fountain\"/2300 Custom_SBV_DDHouse 15 5 3 derya_sleep",
 				"fall_Fri": "{{Random:610 Custom_SBV_DDHouse 7 16 0/1100 Custom_SBV_SunberryMountain 14 11 2 derya_read/2000 Custom_SBV_DDHouse 15 5 3 derya_sleep++610 Custom_SBV_DDHouse 7 16 0/1100 Custom_SBV_SunberryVillage 20 52 2 derya_read/2000 Custom_SBV_DDHouse 15 5 3 derya_sleep|inputSeparator=++ |key=DialaDeryaSchedule}}",
 				"fall_Sat": "610 Custom_SBV_DialaCafe 26 7 2/a1700 Custom_SBV_SunberryVillage 53 91 0 derya_readawake \"Strings\\schedules\\DeryaSBV:Fountain\"/2300 Custom_SBV_DDHouse 15 5 3 derya_sleep",
-				"winter_Fri": "610 Custom_SBV_DDHouse 7 16 0/1200 Custom_SBV_SunberryLibrary 20 11 2 derya_read/2000 Custom_SBV_DDHouse 15 5 3 derya_sleep",
+				"winter_Fri": "610 Custom_SBV_DDHouse 7 16 0/1200 Custom_SBV_SunberryLibrary 35 11 2 derya_read/2000 Custom_SBV_DDHouse 15 5 3 derya_sleep",
 				"winter_Sat": "610 Custom_SBV_DialaCafe 26 7 2/1600 Custom_SBV_DDHouse 5 20 2 derya_phone/2100 Custom_SBV_DDHouse 15 5 3 derya_sleep",
 				"winter_16": "610 Custom_SBV_DDHouse 20 8 2/900 Custom_SBV_DDHouse 21 16 0/1400 Beach 41 36 2/2100 Custom_SBV_DDHouse 15 5 3",
 				"rain": "610 Custom_SBV_DDHouse 13 9 0/900 Custom_SBV_DialaCafe 17 9 1/a1900 Custom_SBV_DDHouse 7 16 0/2100 Custom_SBV_DDHouse 15 5 3 derya_sleep",

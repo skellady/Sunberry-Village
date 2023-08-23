@@ -199,6 +199,16 @@
         "30 3 Custom_SBV_EliasHouse 9 11",
         "19 14 Custom_SBV_SunberryVillage 73 13",
         "20 14 Custom_SBV_SunberryVillage 74 13",
+        "9 3 Custom_SBV_SunberryMuseum 8 22",
+        "10 3 Custom_SBV_SunberryMuseum 9 22"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryMuseum",
+      "AddWarps": [
+        "8 23 Custom_SBV_SunberryLibrary 9 4",
+        "9 23 Custom_SBV_SunberryLibrary 10 4"
       ]
     },
     {
@@ -397,7 +407,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 4 12 Custom_SBV_SunberryLibrary 900 2200"
+            "Action": "LockedDoorWarp 19 12 Custom_SBV_SunberryLibrary 900 2200"
           }
         }
       ],
@@ -413,7 +423,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 5 12 Custom_SBV_SunberryLibrary 900 2200"
+            "Action": "LockedDoorWarp 20 12 Custom_SBV_SunberryLibrary 900 2200"
           }
         }
       ],

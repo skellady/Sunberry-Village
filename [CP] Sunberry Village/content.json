@@ -159,6 +159,10 @@
       "Name": "Custom_SBV_EliasHouseNew",
       "FromMapFile": "Assets/Maps/InteriorMaps/EliasHouseNew.tmx",
     },
+    {
+      "Name": "Custom_SBV_SunberryMuseum",
+      "FromMapFile": "Assets/Maps/InteriorMaps/SunberryMuseum.tmx"
+    },
     // Event Maps
     {
       "Name": "Custom_SBV_MoonWoods",
