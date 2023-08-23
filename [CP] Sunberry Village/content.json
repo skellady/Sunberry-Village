@@ -5,33 +5,33 @@
   "DynamicTokens": [
     {
       "Name": "WizardPronounsSubject",
-      "Value": "he"
+      "Value": "{{i18n:Wizard.Masc.Subject}}"
     },
     {
       "Name": "WizardPronounsSubject",
-      "Value": "she",
+      "Value": "{{i18n:Wizard.Femme.Subject}}",
       "When": {
         "HasMod |contains= Nom0ri.RomRas": true
       }
     },
     {
       "Name": "WizardPronounsObject",
-      "Value": "him"
+      "Value": "{{i18n:Wizard.Masc.Object}}"
     },
     {
       "Name": "WizardPronounsObject",
-      "Value": "her",
+      "Value": "{{i18n:Wizard.Femme.Object}}",
       "When": {
         "HasMod |contains= Nom0ri.RomRas": true
       }
     },
     {
       "Name": "WizardPronounsPossessive",
-      "Value": "his"
+      "Value": "{{i18n:Wizard.Masc.Possessive}}"
     },
     {
       "Name": "WizardPronounsPossessive",
-      "Value": "her",
+      "Value": "{{i18n:Wizard.Femme.Possessive}}",
       "When": {
         "HasMod |contains= Nom0ri.RomRas": true
       }

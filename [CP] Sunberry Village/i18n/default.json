@@ -60,6 +60,19 @@
     "Sunberry.Locations.ChrisDinerRainbow": "Chris' Diner",
     "Sunberry.Locations.EliasHouseOld": "Elias' House",
     "Sunberry.Locations.EliasHouseNew": "Elias' House",
+    
+    //Dynamic Tokens
+    //--------------
+
+    //Wizard Pronouns
+    "Wizard.Masc.Subject": "he",
+    "Wizard.Femme.Subject": "she",
+
+    "Wizard.Masc.Object": "him",
+    "Wizard.Femme.Object": "her",
+
+    "Wizard.Masc.Possessive": "his",
+    "Wizard.Femme.Possessive": "her",
 
     //Generic Gift Taste Dialogue
 	//-------------------
