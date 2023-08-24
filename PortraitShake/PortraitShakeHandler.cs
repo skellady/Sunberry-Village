@@ -42,7 +42,7 @@ namespace SunberryVillage.PortraitShake
 			PortraitShouldShake.Value = ShouldPortraitShake(dialogue);
 
 			//testing
-			Log.Trace($"Portrait {dialogue.speaker.Name}[{dialogue.getPortraitIndex()}] should {(PortraitShouldShake.Value ? "shake" : "not shake")}");
+			//Log.Trace($"Portrait {dialogue.speaker.Name}[{dialogue.getPortraitIndex()}] should {(PortraitShouldShake.Value ? "shake" : "not shake")}");
 		}
 
 		/// <summary>
