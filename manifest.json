@@ -3,7 +3,7 @@
   "Author": "Sunberry Team",
   "Version": "1.0.0",
   "Description": "Code portion of Sunberry Village.",
-  "UniqueID": "SunberryTeam.SunberrySMAPI",
+  "UniqueID": "SunberryTeam.SBVSMAPI",
   "EntryDll": "SunberryVillage.dll",
   "MinimumApiVersion": "3.13.0",
   "UpdateKeys": [ "Nexus:-1" ]
