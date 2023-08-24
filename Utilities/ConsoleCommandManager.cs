@@ -7,6 +7,7 @@ internal class ConsoleCommandManager
 {
 	internal static void InitializeConsoleCommands()
 	{
+		#if DEBUG
 		Globals.CCHelper.Add("sophie.dt.testevent", "Test Diala's tarot event", (command, args) =>
 			{
 				string eventString = Game1.content.Load<Dictionary<string, string>>("sophie.DialaTarot/Event")["Event"];
@@ -21,5 +22,6 @@ internal class ConsoleCommandManager
 				Game1.player.modData.Remove("sophie.DialaTarot/ReadingDoneForToday");
 			}
 		);
+		#endif
 	}
 }

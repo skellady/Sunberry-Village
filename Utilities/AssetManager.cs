@@ -1,8 +1,8 @@
-using System.Collections.Generic;
-using System.Linq;
 using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI.Events;
+using SunberryVillage.PortraitShake;
 using SunberryVillage.TarotEvent;
+using System.Collections.Generic;
 
 namespace SunberryVillage.Utilities;
 
@@ -10,7 +10,8 @@ internal class AssetManager
 {
 	internal static void LoadOrEditAssets(object sender, AssetRequestedEventArgs e)
 	{
-		// Load stuff for tarot event
+		#region Tarot
+
 		if (e.NameWithoutLocale.IsEquivalentTo("sophie.DialaTarot/CardBack"))
 			e.LoadFromModFile<Texture2D>("Assets/cardBack.png", AssetLoadPriority.Medium);
 		else if (e.NameWithoutLocale.IsEquivalentTo("sophie.DialaTarot/Event"))
@@ -26,8 +27,13 @@ internal class AssetManager
 				e.LoadFromModFile<Texture2D>($"Assets/{TarotCard.Names[i]}.png", AssetLoadPriority.Medium);
 		}
 
-		// Load portrait shake asset
-		if (e.NameWithoutLocale.IsEquivalentTo("SBV.PortraitsToShake"))
-			e.LoadFrom(() => new Dictionary<string, List<int>>(), AssetLoadPriority.Low);
+		#endregion
+
+		#region Portrait shake
+
+		if (e.NameWithoutLocale.IsEquivalentTo("SunberryTeam.SBV/PortraitsToShake"))
+			e.LoadFrom(() => new Dictionary<string, PortraitShakeModel>(), AssetLoadPriority.Low);
+
+		#endregion
 	}
 }

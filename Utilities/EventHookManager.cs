@@ -19,19 +19,28 @@ internal class EventHookManager
 		Globals.EventHelper.Display.MenuChanged += CheckForPortraitShake;
 	}
 
-	private static void CheckForPortraitShake(object sender, StardewModdingAPI.Events.MenuChangedEventArgs e)
-	{
-		if (e.NewMenu is DialogueBox dialogue)
-			PortraitShakeHandler.SetShake(dialogue.characterDialogue);
-	}
-
+	/// <summary>
+	/// Reloads any cached assets at the start of each day if they have been modified.
+	/// </summary>
 	private static void ReloadCachedAssets(object sender, StardewModdingAPI.Events.DayStartedEventArgs e)
 	{
 		PortraitShakeHandler.ReloadAsset();
 	}
-
+	
+	/// <summary>
+	/// Clears the mod data flag which prevents getting multiple tarot readings in one day.
+	/// </summary>
 	private static void ClearTarotFlag(object sender, StardewModdingAPI.Events.DayEndingEventArgs e)
 	{
 		Game1.player.modData.Remove("sophie.DialaTarot/ReadingDoneForToday");
+	}
+
+	/// <summary>
+	/// When a DialogueBox menu opens, checks to see if the portrait should shake. 
+	/// </summary>
+	private static void CheckForPortraitShake(object sender, StardewModdingAPI.Events.MenuChangedEventArgs e)
+	{
+		if (e.NewMenu is DialogueBox dialogue && dialogue.characterDialogue is not null)
+			PortraitShakeHandler.SetShake(dialogue.characterDialogue);
 	}
 }

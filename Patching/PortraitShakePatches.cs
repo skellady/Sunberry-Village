@@ -15,7 +15,7 @@ namespace SunberryVillage.Patching;
 #pragma warning disable IDE0060 // Remove unused parameter
 
 [HarmonyPatch]
-class PortraitShakePatch
+class PortraitShakePatches
 {
 
 	/// <summary>
@@ -27,6 +27,18 @@ class PortraitShakePatch
 	{
 		__result = PortraitShakeHandler.PortraitShouldShake.Value;
 		return !__result;
+	}
+
+	/// <summary>
+	/// Patches <c>DialogueBox.receiveLeftClick</c> to check if the portrait should shake whenever the text is advanced.
+	/// </summary>
+	/// <param name="__instance"></param>
+	[HarmonyPatch(typeof(DialogueBox), nameof(DialogueBox.receiveLeftClick))]
+	[HarmonyPostfix]
+	public static void receiveLeftClick_Postfix(DialogueBox __instance)
+	{
+		if (__instance.characterDialogue is not null)
+			PortraitShakeHandler.SetShake(__instance.characterDialogue);
 	}
 }
 
