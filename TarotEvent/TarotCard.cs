@@ -23,8 +23,8 @@ namespace SunberryVillage.TarotEvent
 		{
 			Id = id;
 			Name = Globals.TranslationHelper.Get($"{id}.name").UsePlaceholder(true);
-			Description = Globals.TranslationHelper.Get("${id}.desc").UsePlaceholder(true);
-			Texture = new Lazy<Texture2D>(() => Game1.content.Load<Texture2D>($"SunberryTeam.SBV/Tarot/{id}.texture"));
+			Description = Globals.TranslationHelper.Get($"{id}.desc").UsePlaceholder(true);
+			Texture = new Lazy<Texture2D>(() => Game1.content.Load<Texture2D>($"SunberryTeam.SBV/Tarot/Texture/{id}"));
 			Buff = buff;
 			Condition = condition;
 		}
