@@ -38,7 +38,7 @@
     },
     {
       "Name": "JumanaSaturday",
-      "Value": "1500 Custom_SBV_SunberryVillage 61 79 2 \"Strings\\schedules\\JumanaSBV:Fountain\""
+      "Value": "1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\""
     },
     {
       "Name": "JumanaSaturday",

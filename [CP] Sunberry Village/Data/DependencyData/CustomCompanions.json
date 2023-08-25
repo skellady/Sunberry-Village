@@ -3,6 +3,21 @@
    // Custom Companions - CP
    [
       {
+         "LogName": "CP Integration for Raccoon",
+         "Action": "EditData",
+         "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
+         "Entries": {
+            "Companion": {
+               "DialogueSequence": [
+                  {
+                     "Text": "{{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3}} |default={{i18n:RaccoonDialogue.default}}}}",
+                     "DisplayOnce": true
+                  }
+               ]
+            }
+         }
+      },
+      {
          "LogName": "D&D's House Custom Companions",
          "Action": "EditMap",
          "Target": "Maps/Custom_SBV_DDHouse",
@@ -503,6 +518,132 @@
                },
             },
          ],
+      },
+      {
+         "LogName": "Raccoon in Forest",
+         "Action": "EditMap",
+         "Target": "Maps/Forest",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": "{{Random: 88, 23, 101 |key=ForestCoords}}",
+                  "Y": "{{Random: 25, 16, 82 |key=ForestCoords}}"
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+               }
+            }
+         ],
+         "When": {
+            "Weather |contains=Rain, Storm": false,
+            "DayOfWeek": "Monday"
+         }
+      },
+      {
+         "LogName": "Raccoon in Mountain",
+         "Action": "EditMap",
+         "Target": "Maps/Mountain",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 39,
+                  "Y": 35
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+               }
+            }
+         ],
+         "When": {
+            "Weather |contains=Rain, Storm": false,
+            "DayOfWeek": "Tuesday"
+         }
+      },
+      {
+         "LogName": "Raccoon in Sunberry Village",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_SunberryVillage",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": "{{Random: 41, 12, 72 |key=SBVillageCoords}}",
+                  "Y": "{{Random: 23, 76, 57 |key=SBVillageCoords}}"
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+               }
+            }
+         ],
+         "When": {
+            "Weather |contains=Rain, Storm": false,
+            "DayOfWeek": "Wednesday, Sunday"
+         }
+      },
+      {
+         "LogName": "Raccoon in Sunberry Forest",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_SunberryForest",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": "{{Random: 70, 15, 66 |key=SBForestCoords}}",
+                  "Y": "{{Random: 16, 44, 52 |key=SBForestCoords}}"
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+               }
+            }
+         ],
+         "When": {
+            "Weather |contains=Rain, Storm": false,
+            "DayOfWeek": "Thursday"
+         }
+      },
+      {
+         "LogName": "Raccoon in Sunberry Mountain",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_SunberryMountain",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": "{{Random: 7, 48, 42 |key=SBMountainCoords}}",
+                  "Y": "{{Random: 22, 32, 11 |key=SBMountainCoords}}"
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+               }
+            }
+         ],
+         "When": {
+            "Weather |contains=Rain, Storm": false,
+            "DayOfWeek": "Friday"
+         }
+      },
+      {
+         "LogName": "Raccoon in Beach",
+         "Action": "EditMap",
+         "Target": "Maps/Beach",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": "{{Random: 41, 81, 87 |key=BeachCoords}}",
+                  "Y": "{{Random: 17, 10, 33 |key=BeachCoords}}"
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+               }
+            }
+         ],
+         "When": {
+            "Weather |contains=Rain, Storm": false,
+            "DayOfWeek": "Saturday"
+         }
       },
       {
          "LogName": "Sunberry Forest Ducks",

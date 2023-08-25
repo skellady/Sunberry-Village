@@ -15,6 +15,22 @@
       "IsRequired": true
     },
     {
+      "UniqueID": "spacechase0.JsonAssets",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "PeacefulEnd.CustomCompanions",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "Esca.FarmTypeManager",
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "DIGUS.MailFrameworkMod",
+      "IsRequired": true
+    },
+    {
       "UniqueID": "DaisyNiko.Tilesheets",
       "IsRequired": true
     },

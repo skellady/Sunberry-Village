@@ -21,16 +21,16 @@
 
     //NPC Relationships
     //-----------------
-    "NPC_Relationships.Amina": "Maia 'mom' Jumana 'grandma'",
-    "NPC_Relationships.Jumana": "Maia 'daughter' Amina 'granddaughter'",
-    "NPC_Relationships.Maia": "Jumana 'mother' Amina 'daughter'",
+    "NPC_Relationships.Amina": "MaiaSBV 'mom' JumanaSBV 'grandma'",
+    "NPC_Relationships.Jumana": "MaiaSBV 'daughter' AminaSBV 'granddaughter'",
+    "NPC_Relationships.Maia": "JumanaSBV 'mother' AminaSBV 'daughter'",
 
-    "NPC_Relationships.Ari": "Blake 'son'",
-    "NPC_Relationships.Blake": "Elias 'father' Ari 'dad'",
-    "NPC_Relationships.Elias": "Blake 'son'",
+    "NPC_Relationships.Ari": "BlakeSBV 'son'",
+    "NPC_Relationships.Blake": "EliasSBV 'father' AriSBV 'dad'",
+    "NPC_Relationships.Elias": "BlakeSBV 'son'",
 
-    "NPC_Relationships.Miyoung": "Silas 'husband'",
-    "NPC_Relationships.Silas": "Miyoung 'wife'",
+    "NPC_Relationships.Miyoung": "SilasSBV 'husband'",
+    "NPC_Relationships.Silas": "MiyoungSBV 'wife'",
 
     //Locations for Event Lookup
     //-------------------------
@@ -647,7 +647,7 @@
 
     "Amina.Dialogue.Fountain1": "I really wish Jas and Vin could come hang out with us. Maybe next time!$4",
     "Amina.Dialogue.Fountain2": "Every Friday, my grandma and I check the weather to make sure it isn't raining the next day, otherwise we wouldn't be able to come here.$4",
-    "Amina.Dialogue.Fountain3": "The food is REALLY good. Have you tried it?$3",
+    "Amina.Dialogue.Fountain3": "Miss Penny let me borrow this book from the library! It talks about dwarves and shadow people.$3",
 
     "Ari.Dialogue.Fountain1": "Ugh, so much socializing.$s#$b#I love these people, but I run out of energy so fast.$12",
     "Ari.Dialogue.Fountain2": "You know, Elias tried to teach Blake how to play the guitar, but he didn't seem to enjoy it.$9",
@@ -1150,7 +1150,7 @@
     "event-20031433.19": "Let me finish getting changed, next time.",
 
     // Special Order Board Unlock
-    "event-20031434.01": "Hey, farmer. We're bringing this old board back to life. Miyoung said it'd be good for the village and I always do what Miyoung says.$10",
+    "event-20031434.01": "Hey, farmer. We're bringin' this old board back to life. Miyoung said it'd be good for the village and I always do what Miyoung says.$10",
     "event-20031434.02": "Feel free to pick up any orders when you're droppin' by. It should be fully functional tomorrow, hopefully.",
     "event-20031434.03": "Hmm... I can finally put up that one order.",
 
@@ -3648,7 +3648,7 @@
 
     //0 hearts
     "Ophelia.Dialogue.Mon": "Ah, hello there. I'm a little busy at the moment. Shall we talk later instead?",
-    "Ophelia.Dialogue.Tue": "*sigh*... It's just paperwork, paperwork, and then more paperwork today. Do you ever have to deal with paperwork, @? I truly hope you don't.$s",
+    "Ophelia.Dialogue.Tue": "*sigh*... It's just paperwork, paperwork, and then more paperwork today. Do you ever have to deal with that, @? I truly hope you don't.$s",
     "Ophelia.Dialogue.Wed": "Hmm... room 2A needs a new dresser. Oh, more towels, too.$8#$b#Oh, hello, @. Sorry, I'm going over my to-do list. Is there anything I could do for you?",
     "Ophelia.Dialogue.Thu": "I need to get a few supplies for the inn. I wonder who'd have everything I need.$8#$b#$y '..._You should go to Ari's Market._Good idea, he's pretty close, too._You should go to Pierre's._Hmm, he might have what I need. Thanks, @._You should go to Joja._Uh, no thank you. I refuse to step foot in there.$8' ",
     "Ophelia.Dialogue.ThuRSV": "I need to get a few supplies for the inn. I wonder who'd have everything I need.$8#$b#$y '..._You should go to Ari's Market._Good idea, he's pretty close, too._You should go to Pierre's._Hmm, he might have what I need. Thanks, @._You should go to Heaps in Ridgeside Village._Oh! Of course. It would give me an excuse to see a few friends, too. Thanks, @.$h' ",
@@ -3780,7 +3780,105 @@
     "Silas.Dialogue.Fri10": "Hmm... I could really go for some cake with a cat in my lap right now. I'll ask Miyoung if she wants to go, too.$u#$e#You know, Derya lets me give the cats some treats! They love it.$u",
     "Silas.Dialogue.Sat10": "I hope the blacksmith has been useful to you and your farm. If there's anything Maia or I could do for you, don't hesitate to let us know.$h",
     "Silas.Dialogue.Sun10": "Ah, my granddaughter's growing up too fast. She was so little just last year!$6#$b#Time flies by so fast, you gotta make sure you cherish every moment.$h",
-        
+    
+    //Raccoon Dialogue
+    //----------------
+
+    //Default
+    "RaccoonDialogue.default": "The raccoon seems to be enjoying the weather.",
+  
+    //Spring
+    "RaccoonDialogue.Spring.Monday.1": "The raccoon hisses at you. He throws a broken CD at your feet. It's still dripping from when he washed it.[171]",
+    "RaccoonDialogue.Spring.Monday.2": "The raccoon hands you a parsnip. He chitters happily. [24]",
+    "RaccoonDialogue.Spring.Monday.3": "The raccoon purrs. He hands you a rusty spoon. It's still wet from when he washed it. [110]",
+    "RaccoonDialogue.Spring.Tuesday.1": "The raccoon snarls at you. He throws a soggy newspaper at your feet. It's soaking wet. [172]",
+    "RaccoonDialogue.Spring.Tuesday.2": "The raccoon seems to be enjoying an apple. Better leave him be.",
+    "RaccoonDialogue.Spring.Tuesday.3": "The raccoon chitters. He hands you a piece of wood. It's been gnawed on around the edges. [388]",
+    "RaccoonDialogue.Spring.Wednesday.1": "The raccoon seems to be enjoying the weather. He pats the spot next to him.",
+    "RaccoonDialogue.Spring.Wednesday.2": "The raccoon seems to be holding... a broken knife. Better back away.",
+    "RaccoonDialogue.Spring.Wednesday.3": "The raccoon quietly hands you a doll. He seems reluctant to part with it... [103]",
+    "RaccoonDialogue.Spring.Thursday.1": "The raccoon purrs. He gives you a bottle of maple syrup. It's half full. [724]",
+    "RaccoonDialogue.Spring.Thursday.2": "The raccoon throws a Halibut at your feet. It's still dripping. [708]",
+    "RaccoonDialogue.Spring.Thursday.3": "The raccoon purrs. He hands you a pack of starfruit seeds. You wonder where he got this from. [486]",
+    "RaccoonDialogue.Spring.Friday.1": "The raccoon gives you a Soapstone. He seems reluctant to part with it... [572]",
+    "RaccoonDialogue.Spring.Friday.2": "The raccoon chitters happily. He's holding a shiny piece of glass. It doesn't seem like he's willing to part with it...",
+    "RaccoonDialogue.Spring.Friday.3": "The raccoon purrs and hands you a tulip. It's been gnawed on around the edges. [591]",
+    "RaccoonDialogue.Spring.Saturday.1": "The raccoon snarls at you and throws a stone at your feet. It's still dripping from when he washed it. [390]",
+    "RaccoonDialogue.Spring.Saturday.2": "The raccoon seems to be enjoying a Poppyseed Muffin. You ask him to hand it over. He shakes his head and hisses at you.",
+    "RaccoonDialogue.Spring.Saturday.3": "The raccoon hands you a spring onion. It's soaking wet. [399]",
+    "RaccoonDialogue.Spring.Sunday.1": "The raccoon seems to be holding a piece of obsidian. He extends his hands out to give it to you before pulling away and chittering.",
+    "RaccoonDialogue.Spring.Sunday.2": "The raccoon gives you a pair of broken glasses. They look familiar... [170]",
+    "RaccoonDialogue.Spring.Sunday.3": "The raccoon purrs. He gives you a hazelnut. You wonder where he got that from... [408]",
+
+    //Summer
+     "RaccoonDialogue.Summer.Monday.1": "The raccoon seems to be enjoying the weather. He pats the spot next to him.",
+    "RaccoonDialogue.Summer.Monday.2": "The raccoon purrs. He gives you some cheese. It's been gnawed on around the edges. [424]",
+    "RaccoonDialogue.Summer.Monday.3": "The raccoon chitters happily before handing you a pack of garlic seeds. The pouch is soaking wet. [476]",
+    "RaccoonDialogue.Summer.Tuesday.1": "The raccoon hisses at you. He throws a can of Joja Cola at your feet. It's still dripping from when he washed it. [167]",
+    "RaccoonDialogue.Summer.Tuesday.2": "The raccoon gives you a bottle of oak resin. He chitters happily. [725]",
+    "RaccoonDialogue.Summer.Tuesday.3": "The raccoon seems to be holding an... ancient sword. Looks like he's holding onto it. Where did he manage to find that?!",
+    "RaccoonDialogue.Summer.Wednesday.1": "The raccoon seems to be enjoying a peach. Better leave him be.",
+    "RaccoonDialogue.Summer.Wednesday.2": "The raccoon purrs and hands you a half eaten plate of spaghetti. Its... a little wet. [224]",
+    "RaccoonDialogue.Summer.Wednesday.3": "The raccoon chitters happily and hands you a cup of coffee. It smells like the kind Diala makes... [395]",
+    "RaccoonDialogue.Summer.Thursday.1": "The raccoon is holding onto a piece of Lunarite. He snarls at you when you try to take it.",
+    "RaccoonDialogue.Summer.Thursday.2": "The raccoon whines before giving you a golden mask. He seems reluctant to part with it... [118]",
+    "RaccoonDialogue.Summer.Thursday.3": "The raccoon purrs and hands you a pack of... ancient seeds! You wonder where he got that from... [499]",
+    "RaccoonDialogue.Summer.Friday.1": "The raccoon chitters. He seems to be gnawing at a piece of hardwood. He hands it to you, but it's soaking wet. [709]",
+    "RaccoonDialogue.Summer.Friday.2": "The raccoon hisses at you before throwing a snail at your feet. It's a little sticky... [721]",
+    "RaccoonDialogue.Summer.Friday.3": "The raccoon is holding onto a pair of broken glasses. You wonder if those are Ari's reading glasses.",
+    "RaccoonDialogue.Summer.Saturday.1": "The raccoon hands you a ruby. It's still dripping from when he washed it. [64]",
+    "RaccoonDialogue.Summer.Saturday.2": "The raccoon purrs. He gives you some bug meat. It's soaking wet. Gross. [684]",
+    "RaccoonDialogue.Summer.Saturday.3": "The raccoon seems to be enjoying a cherry. You ask him to hand it over. He shakes his head and hisses at you.",
+    "RaccoonDialogue.Summer.Sunday.1": "The raccoon seems to be holding... a broken knife. Better back away.",
+    "RaccoonDialogue.Summer.Sunday.2": "The raccoon whines before giving you an apple. He seems reluctant to part with it... [613]",
+    "RaccoonDialogue.Summer.Sunday.3": "The raccoon chitters happily before giving you a pumpkin. It's still dripping from when he washed it. [276]",
+
+    //Fall
+    "RaccoonDialogue.Fall.Monday.1": "The raccoon is holding onto a pile of leaves. He throws them into the air then proceeds to step on them.",
+    "RaccoonDialogue.Fall.Monday.2": "The raccoon hisses at you before throwing a piece of trash at your feet. It's soaking wet. [168]",
+    "RaccoonDialogue.Fall.Monday.3": "The raccoon purrs and hands you a pouch of rare seeds! It's soaking wet. [347]",
+    "RaccoonDialogue.Fall.Tuesday.1": "The raccoon reluctantly gives you a treasure chest. You have to wrestle it out of his little hands. [166]",
+    "RaccoonDialogue.Fall.Tuesday.2": "The raccoon seems to be holding a cookie. He extends his hands out to give it to you before pulling away and chittering.",
+    "RaccoonDialogue.Fall.Tuesday.3": "The raccoon hands you a bottle of wine. It's still dripping from when he washed it. Where'd he even find that?! [348]",
+    "RaccoonDialogue.Fall.Wednesday.1": "The raccoon twirls around. He beckons you to join him. You share a silly little dance.",
+    "RaccoonDialogue.Fall.Wednesday.2": "The raccoon purrs. He gives you a poppy. It's still dripping from when he washed it. [376]",
+    "RaccoonDialogue.Fall.Wednesday.3": "The raccoon is holding onto an iridium bar. He hands it over to you reluctantly. Did he get that from Clint or Silas? [337]",
+    "RaccoonDialogue.Fall.Thursday.1": "The raccoon chitters happily before handing you a box of deluxe fertilizer. You wonder if he snagged that from Pierre's or Ari's... [919]",
+    "RaccoonDialogue.Fall.Thursday.2": "The raccoon hisses and throws an orange at your feet. It's gnawed on around the edges. Maybe he didn't enjoy it? [635]",
+    "RaccoonDialogue.Fall.Thursday.3": "You try to converse with the raccoon. He tilts his head in confusion. Alas, you are unable to communicate with him.",
+    "RaccoonDialogue.Fall.Friday.1": "The raccoon is holding onto what looks like a dwarven gadget. Doesn't look like he's willing to part with it.",
+    "RaccoonDialogue.Fall.Friday.2": "The raccoon purrs. He gives you some mixed seeds. They're still dripping from when he washed them. [770]",
+    "RaccoonDialogue.Fall.Friday.3": "The raccoon chitters happily before handing you a Tiger Trout. It's still dripping. [699]",
+    "RaccoonDialogue.Fall.Saturday.1": "The raccoon purrs before giving you some tea leaves. They're soaking wet. Where did he get those from? [815]",
+    "RaccoonDialogue.Fall.Saturday.2": "The raccoon seems to be holding onto a pair of purple shorts. You... don't want to know whose shorts these are.",
+    "RaccoonDialogue.Fall.Saturday.3": "The raccoon chitters happily and hands you some plum pudding. It's half eaten and a little wet. [604]",
+    "RaccoonDialogue.Fall.Sunday.1": "The raccoon seems to be enjoying the breeze. He's holding onto a knitted scarf. It looks like something Miyoung would make...",
+    "RaccoonDialogue.Fall.Sunday.2": "The raccoon hisses at you. He throws a can of Joja Cola at your feet. It's still dripping from when he washed it. [167]",
+    "RaccoonDialogue.Fall.Sunday.3": "The raccoon seems to be happy to see you. Not happy enough to give you the opal he's holding, though.",
+
+    //Winter
+    "RaccoonDialogue.Winter.Monday.1": "The raccoon chitters happily. He gives you a potato. It's still dripping from when he washed it. [192]",
+    "RaccoonDialogue.Winter.Monday.2": "The raccoon doesn't seem to be enjoying the weather. You agree, it *is* a little cold.",
+    "RaccoonDialogue.Winter.Monday.3": "You try to converse with the raccoon. He tilts his head in confusion. Alas, you are unable to communicate with him.",
+    "RaccoonDialogue.Winter.Tuesday.1": "The raccoon rubs his hands together. You're not sure if he's warming them up or scheming.",
+    "RaccoonDialogue.Winter.Tuesday.2": "The raccoon purrs. He hands you a half-eaten apricot. It's still dripping from when he washed it. [634]",
+    "RaccoonDialogue.Winter.Tuesday.3": "The raccoon is holding onto a sunflower. It's been gnawed on around the edges. He seems reluctant to part with it... [421]",
+    "RaccoonDialogue.Winter.Wednesday.1": "The raccoon is holding onto an anchor. You try to wrestle it out of his hands and... you did it! You're now the proud owner of an anchor. He doesn't seem to be pleased with this outcome. [117]",
+    "RaccoonDialogue.Winter.Wednesday.2": "The raccoon is holding a snowball in his little hands. You look away for a moment and he throws it at you. He chitters happily.",
+    "RaccoonDialogue.Winter.Wednesday.3": "The raccoon purrs. He hands you pack of artichoke seeds. The pouch is soaking wet. [489]",
+    "RaccoonDialogue.Winter.Thursday.1": "The raccoon chitters happily. He's holding onto a book. You wonder if Elias is missing a book from the library...",
+    "RaccoonDialogue.Winter.Thursday.2": "The raccoon is holding onto a piece of basalt. You ask him to hand it over. He throws it at your feet. It's still dripping from when he washed it. [570]",
+    "RaccoonDialogue.Winter.Thursday.3": "The raccoon purrs. He seems to be enjoying a jar of caviar. He offers the rest to you. You wonder where he got that from... [445]",
+    "RaccoonDialogue.Winter.Friday.1": "The raccoon snarls at you. He throws a piece of ginger at your feet. It's soaking wet. [829]",
+    "RaccoonDialogue.Winter.Friday.2": "The raccoon seems to be gnawing on a piece of vertebra. He hands it over to you. It's still dripping from when he washed it. [584]",
+    "RaccoonDialogue.Winter.Friday.3": "The raccoon chitters happily. He sips on a cup of green tea. Good for him, he's staying warm.",
+    "RaccoonDialogue.Winter.Saturday.1": "The raccoon hisses at you. He throws a piece of driftwood at your feet. It's soaking wet. [169]",
+    "RaccoonDialogue.Winter.Saturday.2": "The raccoon purrs and hands you a pack of... ancient seeds! You wonder where he got that from... [499]",
+    "RaccoonDialogue.Winter.Saturday.3": "The raccoon twirls around. He beckons you to join him. You share a silly little dance in the snow.",
+    "RaccoonDialogue.Winter.Sunday.1": "The raccoon is holding onto a fairy stone. He reluctantly gives it to you. [577]",
+    "RaccoonDialogue.Winter.Sunday.2": "The raccoon seems to be enjoying an apple. Better leave him be.",
+    "RaccoonDialogue.Winter.Sunday.3": "The raccoon is holding onto a toy. Did he steal that from one of the kids?",
+
     //Conversation Topics
     //-------------------
 
