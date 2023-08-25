@@ -1,9 +1,13 @@
 using System.Collections.Generic;
+using System.Linq;
 using HarmonyLib;
 using Microsoft.Xna.Framework;
 using StardewValley;
 using xTile.Dimensions;
 using SunberryVillage.TarotEvent;
+// ReSharper disable UnusedMember.Global
+// ReSharper disable RedundantAssignment
+// ReSharper disable InconsistentNaming
 
 namespace SunberryVillage.Patching;
 
@@ -15,7 +19,7 @@ namespace SunberryVillage.Patching;
 #pragma warning disable IDE0060 // Remove unused parameter
 
 [HarmonyPatch]
-class TarotEventPatches
+internal class TarotEventPatches
 {
 
 	/// <summary>
@@ -30,14 +34,8 @@ class TarotEventPatches
 
 		GameLocation currentLoc = Game1.currentLocation;
 
-		foreach (NPC npc in currentLoc.characters)
+		if (currentLoc.characters.Any(npc => npc.Name == "DialaSBV" && Vector2.Distance(npc.getTileLocation(), new Vector2(tileLocation.X, tileLocation.Y)) < 3f))
 		{
-			if (npc.Name != "DialaSBV" || !(Vector2.Distance(npc.getTileLocation(), new Vector2(tileLocation.X, tileLocation.Y)) < 3f))
-			{
-				continue;
-			}
-
-			// if you've already done a reading today, reject with specific message
 			if (who.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
 			{
 				Game1.drawObjectDialogue("You've already had a reading done today. Come back another time.");

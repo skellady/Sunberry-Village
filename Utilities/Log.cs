@@ -1,4 +1,5 @@
 using StardewModdingAPI;
+// ReSharper disable UnusedMember.Global
 
 namespace SunberryVillage.Utilities;
 
@@ -7,21 +8,21 @@ internal class Log
 {
 	public static IMonitor Monitor;
 
-	public static void Verbose(object obj) => Monitor.VerboseLog(obj.ToString());
+	public static void Verbose(object obj) => Monitor.VerboseLog(obj.ToString() ?? string.Empty);
 
 	// Only log Trace messages if compiled in Debug mode.
 	public static void Trace(object obj)
 	{
 		#if DEBUG
-		Monitor.Log(obj.ToString());
+		Monitor.Log(obj.ToString() ?? string.Empty);
 		#endif
 	}
 
-	public static void Debug(object obj) => Monitor.Log(obj.ToString(), LogLevel.Debug);
+	public static void Debug(object obj) => Monitor.Log(obj.ToString() ?? string.Empty, LogLevel.Debug);
 
-	public static void Info(object obj) => Monitor.Log(obj.ToString(), LogLevel.Info);
+	public static void Info(object obj) => Monitor.Log(obj.ToString() ?? string.Empty, LogLevel.Info);
 
-	public static void Warn(object obj) => Monitor.Log(obj.ToString(), LogLevel.Warn);
+	public static void Warn(object obj) => Monitor.Log(obj.ToString() ?? string.Empty, LogLevel.Warn);
 
-	public static void Error(object obj) => Monitor.Log(obj.ToString(), LogLevel.Error);
+	public static void Error(object obj) => Monitor.Log(obj.ToString() ?? string.Empty, LogLevel.Error);
 }

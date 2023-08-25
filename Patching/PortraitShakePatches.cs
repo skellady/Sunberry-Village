@@ -1,9 +1,10 @@
-using System.Collections.Generic;
 using HarmonyLib;
 using StardewValley;
 using StardewValley.Menus;
 using SunberryVillage.PortraitShake;
-using SunberryVillage.Utilities;
+// ReSharper disable UnusedMember.Global
+// ReSharper disable RedundantAssignment
+// ReSharper disable InconsistentNaming
 
 namespace SunberryVillage.Patching;
 
@@ -15,7 +16,7 @@ namespace SunberryVillage.Patching;
 #pragma warning disable IDE0060 // Remove unused parameter
 
 [HarmonyPatch]
-class PortraitShakePatches
+internal class PortraitShakePatches
 {
 
 	/// <summary>

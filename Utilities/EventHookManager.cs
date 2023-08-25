@@ -40,7 +40,7 @@ internal class EventHookManager
 	/// </summary>
 	private static void CheckForPortraitShake(object sender, StardewModdingAPI.Events.MenuChangedEventArgs e)
 	{
-		if (e.NewMenu is DialogueBox dialogue && dialogue.characterDialogue is not null)
+		if (e.NewMenu is DialogueBox {characterDialogue: { }} dialogue)
 			PortraitShakeHandler.SetShake(dialogue.characterDialogue);
 	}
 }

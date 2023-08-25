@@ -5,512 +5,512 @@ using StardewValley;
 using SunberryVillage.Utilities;
 using Vector2 = Microsoft.Xna.Framework.Vector2;
 
-namespace SunberryVillage.TarotEvent
+namespace SunberryVillage.TarotEvent;
+
+internal class EventScriptDialaTarot : ICustomEventScript
 {
-	internal class EventScriptDialaTarot : ICustomEventScript
+	private readonly Vector2 _screenCenterPosition;
+	private readonly Texture2D _cardBackTexture;
+
+	private const int CardWidth = 92;
+	private const int CardHeight = 139;
+
+	private const int SpacerWidth = 40;
+
+	private Vector2 _card1Pos;
+	private Vector2 _card2Pos;
+	private Vector2 _card3Pos;
+
+	private readonly Vector2 _textPos;
+
+	private float _card1SquishFactor;
+	private float _card2SquishFactor;
+	private float _card3SquishFactor;
+
+	private int _phaseTimer;
+	private int _phase;
+
+	private readonly TarotCard _card1;
+	private readonly TarotCard _card2;
+	private readonly TarotCard _card3;
+
+	private float _textOpacity;
+	private float _bgOpacity;
+
+	public EventScriptDialaTarot()
 	{
-		private readonly Vector2 ScreenCenterPosition;
-		private readonly Texture2D CardBackTexture;
+		_screenCenterPosition = new Vector2(Game1.graphics.GraphicsDevice.Viewport.Width / 2f,
+			Game1.graphics.GraphicsDevice.Viewport.Height / 2f);
 
-		private const int CardWidth = 92;
-		private const int CardHeight = 139;
+		_cardBackTexture = Game1.content.Load<Texture2D>("SunberryTeam.SBV/Tarot/CardBack");
 
-		private const int SpacerWidth = 40;
+		_card2Pos = _screenCenterPosition + new Vector2(0f - CardWidth * 2, -1200f);
+		_card1Pos = _card2Pos + new Vector2(0f - SpacerWidth - CardWidth * 4, 0f);
+		_card3Pos = _card2Pos + new Vector2(SpacerWidth + CardWidth * 4, 0f);
 
-		private Vector2 Card1Pos;
-		private Vector2 Card2Pos;
-		private Vector2 Card3Pos;
+		_textPos = _screenCenterPosition + new Vector2(-6 * CardWidth, CardHeight * 2 + SpacerWidth);
 
-		private readonly Vector2 TextPos;
+		_card1SquishFactor = 4f;
+		_card2SquishFactor = 4f;
+		_card3SquishFactor = 4f;
 
-		private float Card1SquishFactor;
-		private float Card2SquishFactor;
-		private float Card3SquishFactor;
+		_phase = 0;
+		_phaseTimer = 3000;
 
-		private int PhaseTimer;
-		private int Phase;
+		List<TarotCard> cards = TarotCardPool.GetAllTarotCardsWithConditionsMet();
 
-		private readonly TarotCard Card1;
-		private readonly TarotCard Card2;
-		private readonly TarotCard Card3;
+		_card1 = cards.TakeRandomElementFromList();
+		_card2 = cards.TakeRandomElementFromList();
+		_card3 = cards.TakeRandomElementFromList();
 
-		private float TextOpacity = 0f;
-		private float BgOpacity = 0f;
+		_card1.ApplyBuff();
+		_card2.ApplyBuff();
+		_card3.ApplyBuff();
+	}
 
-		public EventScriptDialaTarot()
+	public void drawAboveAlwaysFront(SpriteBatch b)
+	{
+		// black background
+		b.Draw(
+			Game1.staminaRect,
+			new Rectangle(0, 0, 1920, 1080),
+			Game1.staminaRect.Bounds,
+			Color.Black,
+			0f,
+			Vector2.Zero,
+			SpriteEffects.None,
+			0f
+		);
+
+		b.Draw(
+			Game1.mouseCursors,
+			Vector2.Zero,
+			new Rectangle(0, 1453, 638, 195),
+			Color.White * _bgOpacity,
+			0f,
+			Vector2.Zero,
+			4f,
+			SpriteEffects.None,
+			0f
+		);
+
+		b.Draw(
+			Game1.mouseCursors,
+			new Vector2(0f, 781),
+			new Rectangle(0, 1453, 638, 195),
+			Color.White * _bgOpacity,
+			0f,
+			Vector2.Zero,
+			4f,
+			SpriteEffects.None,
+			0f
+		);
+
+		b.Draw(
+			_cardBackTexture,
+			_card1Pos,
+			new Rectangle(0, 0, 92, 139),
+			Color.White,
+			0f,
+			new Vector2(0f, 0f),
+			new Vector2(_card1SquishFactor, 4f),
+			SpriteEffects.None,
+			layerDepth: 1f
+		);
+
+		if (_phase is >= 5 and <= 19)
 		{
-			ScreenCenterPosition = new Vector2(Game1.graphics.GraphicsDevice.Viewport.Width / 2f,
-				Game1.graphics.GraphicsDevice.Viewport.Height / 2f);
-
-			CardBackTexture = Game1.content.Load<Texture2D>("SunberryTeam.SBV/Tarot/CardBack");
-
-			Card2Pos = ScreenCenterPosition + new Vector2(0f - CardWidth * 2, -1200f);
-			Card1Pos = Card2Pos + new Vector2(0f - SpacerWidth - CardWidth * 4, 0f);
-			Card3Pos = Card2Pos + new Vector2(SpacerWidth + CardWidth * 4, 0f);
-
-			TextPos = ScreenCenterPosition + new Vector2(-6 * CardWidth, CardHeight * 2 + SpacerWidth);
-
-			Card1SquishFactor = 4f;
-			Card2SquishFactor = 4f;
-			Card3SquishFactor = 4f;
-
-			Phase = 0;
-			PhaseTimer = 3000;
-
-			List<TarotCard> cards = TarotCardPool.GetAllTarotCardsWithConditionsMet();
-
-			Card1 = cards.TakeRandomElementFromList();
-			Card2 = cards.TakeRandomElementFromList();
-			Card3 = cards.TakeRandomElementFromList();
-
-			Card1.ApplyBuff();
-			Card2.ApplyBuff();
-			Card3.ApplyBuff();
-		}
-
-		public void drawAboveAlwaysFront(SpriteBatch b)
-		{
-			// black background
 			b.Draw(
-				Game1.staminaRect,
-				new Rectangle(0, 0, 1920, 1080),
-				Game1.staminaRect.Bounds,
-				Color.Black,
-				0f,
-				Vector2.Zero,
-				SpriteEffects.None,
-				0f
-			);
-
-			b.Draw(
-				Game1.mouseCursors,
-				Vector2.Zero,
-				new Rectangle(0, 1453, 638, 195),
-				Color.White * BgOpacity,
-				0f,
-				Vector2.Zero,
-				4f,
-				SpriteEffects.None,
-				0f
-			);
-
-			b.Draw(
-				Game1.mouseCursors,
-				new Vector2(0f, 781),
-				new Rectangle(0, 1453, 638, 195),
-				Color.White * BgOpacity,
-				0f,
-				Vector2.Zero,
-				4f,
-				SpriteEffects.None,
-				0f
-			);
-
-			b.Draw(
-				CardBackTexture,
-				Card1Pos,
+				_card1.Texture.Value,
+				_card1Pos,
 				new Rectangle(0, 0, 92, 139),
 				Color.White,
 				0f,
 				new Vector2(0f, 0f),
-				new Vector2(Card1SquishFactor, 4f),
+				new Vector2(_card1SquishFactor, 4f),
 				SpriteEffects.None,
-				layerDepth: 1f
+				layerDepth: 2f
 			);
+		}
 
-			if (Phase is >= 5 and <= 19)
-			{
-				b.Draw(
-					Card1.Texture.Value,
-					Card1Pos,
-					new Rectangle(0, 0, 92, 139),
-					Color.White,
-					0f,
-					new Vector2(0f, 0f),
-					new Vector2(Card1SquishFactor, 4f),
-					SpriteEffects.None,
-					layerDepth: 2f
-				);
-			}
+		b.Draw(
+			_cardBackTexture,
+			_card2Pos,
+			null,
+			Color.White,
+			0f,
+			new Vector2(0f, 0f),
+			new Vector2(_card2SquishFactor, 4f),
+			SpriteEffects.None,
+			layerDepth: 1f
+		);
 
+		if (_phase is >= 10 and <= 19)
+		{
 			b.Draw(
-				CardBackTexture,
-				Card2Pos,
-				null,
+				_card2.Texture.Value,
+				_card2Pos,
+				new Rectangle(0, 0, 92, 139),
 				Color.White,
 				0f,
 				new Vector2(0f, 0f),
-				new Vector2(Card2SquishFactor, 4f),
+				new Vector2(_card2SquishFactor, 4f),
 				SpriteEffects.None,
-				layerDepth: 1f
+				layerDepth: 2f
 			);
+		}
 
-			if (Phase is >= 10 and <= 19)
-			{
+		b.Draw(
+			_cardBackTexture,
+			_card3Pos,
+			null,
+			Color.White,
+			0f,
+			new Vector2(0f, 0f),
+			new Vector2(_card3SquishFactor, 4f),
+			SpriteEffects.None,
+			layerDepth: 1f
+		);
+
+		switch (_phase)
+		{
+			case >= 15 and <= 19:
 				b.Draw(
-					Card2.Texture.Value,
-					Card2Pos,
+					_card3.Texture.Value,
+					_card3Pos,
 					new Rectangle(0, 0, 92, 139),
 					Color.White,
 					0f,
 					new Vector2(0f, 0f),
-					new Vector2(Card2SquishFactor, 4f),
+					new Vector2(_card3SquishFactor, 4f),
 					SpriteEffects.None,
 					layerDepth: 2f
 				);
-			}
+				break;
 
-			b.Draw(
-				CardBackTexture,
-				Card3Pos,
-				null,
-				Color.White,
-				0f,
-				new Vector2(0f, 0f),
-				new Vector2(Card3SquishFactor, 4f),
-				SpriteEffects.None,
-				layerDepth: 1f
+			case 6 or 7 or 8:
+				b.DrawString(
+					Game1.dialogueFont,
+					Game1.parseText($"{_card1.Name}: {_card1.Description}", Game1.dialogueFont, CardWidth * 12),
+					_textPos,
+					Color.White * _textOpacity
+				);
+				break;
+
+			case 11 or 12 or 13:
+				b.DrawString(
+					Game1.dialogueFont,
+					Game1.parseText($"{_card2.Name}: {_card2.Description}", Game1.dialogueFont, CardWidth * 12),
+					_textPos,
+					Color.White * _textOpacity
+				);
+				break;
+		}
+
+		if (_phase is 16 or 17 or 18)
+		{
+			b.DrawString(
+				Game1.dialogueFont,
+				Game1.parseText($"{_card3.Name}: {_card3.Description}", Game1.dialogueFont, CardWidth * 12),
+				//screenCenterPosition + new Vector2(-(Game1.dialogueFont.MeasureString(card3.Description).X / 2), cardHeight * 2 + spacerWidth),
+				_textPos,
+				Color.White * _textOpacity
 			);
-
-			if (Phase is >= 15 and <= 19)
-			{
-				b.Draw(
-					Card3.Texture.Value,
-					Card3Pos,
-					new Rectangle(0, 0, 92, 139),
-					Color.White,
-					0f,
-					new Vector2(0f, 0f),
-					new Vector2(Card3SquishFactor, 4f),
-					SpriteEffects.None,
-					layerDepth: 2f
-				);
-			}
-
-			if (Phase is 6 or 7 or 8)
-			{
-				b.DrawString(
-					Game1.dialogueFont,
-					Game1.parseText($"{Card1.Name}: {Card1.Description}", Game1.dialogueFont, CardWidth * 12),
-					TextPos,
-					Color.White * TextOpacity
-				);
-
-
-			}
-
-			if (Phase is 11 or 12 or 13)
-			{
-				b.DrawString(
-					Game1.dialogueFont,
-					Game1.parseText($"{Card2.Name}: {Card2.Description}", Game1.dialogueFont, CardWidth * 12),
-				TextPos,
-					Color.White * TextOpacity
-				);
-			}
-
-			if (Phase is 16 or 17 or 18)
-			{
-				b.DrawString(
-					Game1.dialogueFont,
-					Game1.parseText($"{Card3.Name}: {Card3.Description}", Game1.dialogueFont, CardWidth * 12),
-					//screenCenterPosition + new Vector2(-(Game1.dialogueFont.MeasureString(card3.Description).X / 2), cardHeight * 2 + spacerWidth),
-					TextPos,
-					Color.White * TextOpacity
-				);
-			}
 		}
+	}
 
-		public void draw(SpriteBatch b)
-		{
-		}
+	public void draw(SpriteBatch b)
+	{
+	}
 
-		public bool update(GameTime time, Event e)
+	public bool update(GameTime time, Event e)
+	{
+		switch (_phase)
 		{
-			switch (Phase)
+			case 0:
 			{
-				case 0:
-					{
-						PhaseTimer -= time.ElapsedGameTime.Milliseconds;
-						if (PhaseTimer <= 0)
-						{
-							Phase = 1;
-							BgOpacity = 1f;
-						}
-						else
-						{
-							BgOpacity = (3000 - PhaseTimer) / 3000f;
-						}
-						return false;
-					}
-
-				case 1:
-					{
-						if (Card1Pos.Y >= ScreenCenterPosition.Y - CardHeight * 2)
-						{
-							Card1Pos.Y = ScreenCenterPosition.Y - CardHeight * 2;
-							Phase = 2;
-						}
-						else
-						{
-							Card1Pos.Y += 10f;
-						}
-						return false;
-					}
-
-				case 2:
-					{
-						if (Card2Pos.Y >= ScreenCenterPosition.Y - CardHeight * 2)
-						{
-							Card2Pos.Y = ScreenCenterPosition.Y - CardHeight * 2;
-							Phase = 3;
-						}
-						else
-						{
-							Card2Pos.Y += 10f;
-						}
-						return false;
-					}
-
-				case 3:
-					{
-						if (Card3Pos.Y >= ScreenCenterPosition.Y - CardHeight * 2)
-						{
-							Card3Pos.Y = ScreenCenterPosition.Y - CardHeight * 2;
-							Phase = 4;
-						}
-						else
-						{
-							Card3Pos.Y += 10f;
-						}
-						return false;
-					}
-
-				case 4:
-					{
-						if (Card1SquishFactor <= 0)
-						{
-							Card1SquishFactor = 0;
-							Phase = 5;
-						}
-						else
-						{
-							Card1SquishFactor -= 0.2f;
-							Card1Pos.X += 10f;
-						}
-						return false;
-					}
-
-				case 5:
-					{
-
-						if (Card1SquishFactor >= 4)
-						{
-							Card1SquishFactor = 4;
-							Phase = 6;
-							PhaseTimer = 500;
-							TextOpacity = 0f;
-						}
-						else
-						{
-							Card1SquishFactor += 0.2f;
-							Card1Pos.X -= 10f;
-						}
-						return false;
-					}
-
-				case 6:
-					{
-						PhaseTimer -= time.ElapsedGameTime.Milliseconds;
-						if (PhaseTimer <= 0)
-						{
-							Phase = 7;
-							PhaseTimer = 5000;
-							TextOpacity = 1f;
-						}
-						else
-						{
-							TextOpacity = (500 - PhaseTimer) / 500f;
-						}
-						return false;
-					}
-
-				case 7:
-					{
-						PhaseTimer -= time.ElapsedGameTime.Milliseconds;
-						if (PhaseTimer <= 0)
-						{
-							Phase = 8;
-							PhaseTimer = 500;
-						}
-						return false;
-					}
-
-				case 8:
-					{
-						PhaseTimer -= time.ElapsedGameTime.Milliseconds;
-						if (PhaseTimer <= 0)
-						{
-							Phase = 9;
-						}
-						else
-						{
-							TextOpacity = PhaseTimer / 500f;
-						}
-						return false;
-					}
-
-				case 9:
-					{
-						if (Card2SquishFactor <= 0)
-						{
-							Card2SquishFactor = 0;
-							Phase = 10;
-						}
-						else
-						{
-							Card2SquishFactor -= 0.2f;
-							Card2Pos.X += 10f;
-						}
-						return false;
-					}
-
-				case 10:
-					{
-
-						if (Card2SquishFactor >= 4)
-						{
-							Card2SquishFactor = 4;
-							Phase = 11;
-							PhaseTimer = 0;
-							TextOpacity = 0f;
-						}
-						else
-						{
-							Card2SquishFactor += 0.2f;
-							Card2Pos.X -= 10f;
-						}
-						return false;
-					}
-
-				case 11:
-					{
-						PhaseTimer -= time.ElapsedGameTime.Milliseconds;
-						if (PhaseTimer <= 0)
-						{
-							Phase = 12;
-							PhaseTimer = 5000;
-							TextOpacity = 1f;
-						}
-						else
-						{
-							TextOpacity = (500 - PhaseTimer) / 500f;
-						}
-						return false;
-					}
-
-				case 12:
-					{
-						PhaseTimer -= time.ElapsedGameTime.Milliseconds;
-						if (PhaseTimer <= 0)
-						{
-							Phase = 13;
-							PhaseTimer = 500;
-						}
-						return false;
-					}
-
-				case 13:
-					{
-						PhaseTimer -= time.ElapsedGameTime.Milliseconds;
-						if (PhaseTimer <= 0)
-						{
-							Phase = 14;
-						}
-						else
-						{
-							TextOpacity = PhaseTimer / 500f;
-						}
-						return false;
-					}
-
-				case 14:
-					{
-						if (Card3SquishFactor <= 0)
-						{
-							Card3SquishFactor = 0;
-							Phase = 15;
-						}
-						else
-						{
-							Card3SquishFactor -= 0.2f;
-							Card3Pos.X += 10f;
-						}
-						return false;
-					}
-
-				case 15:
-					{
-
-						if (Card3SquishFactor >= 4)
-						{
-							Card3SquishFactor = 4;
-							Phase = 16;
-							PhaseTimer = 500;
-							TextOpacity = 0f;
-						}
-						else
-						{
-							Card3SquishFactor += 0.2f;
-							Card3Pos.X -= 10f;
-						}
-						return false;
-					}
-
-				case 16:
-					{
-						PhaseTimer -= time.ElapsedGameTime.Milliseconds;
-						if (PhaseTimer <= 0)
-						{
-							Phase = 17;
-							PhaseTimer = 5000;
-							TextOpacity = 1f;
-						}
-						else
-						{
-							TextOpacity = (500 - PhaseTimer) / 500f;
-						}
-						return false;
-					}
-
-				case 17:
-					{
-						PhaseTimer -= time.ElapsedGameTime.Milliseconds;
-						if (PhaseTimer <= 0)
-						{
-							Phase = 18;
-							PhaseTimer = 500;
-						}
-						return false;
-					}
-
-				case 18:
-					{
-						PhaseTimer -= time.ElapsedGameTime.Milliseconds;
-						if (PhaseTimer <= 0)
-						{
-							Phase = 19;
-						}
-						else
-						{
-							TextOpacity = PhaseTimer / 500f;
-						}
-						return false;
-					}
-
-				default:
-					return true;
+				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+				if (_phaseTimer <= 0)
+				{
+					_phase = 1;
+					_bgOpacity = 1f;
+				}
+				else
+				{
+					_bgOpacity = (3000 - _phaseTimer) / 3000f;
+				}
+				return false;
 			}
+
+			case 1:
+			{
+				if (_card1Pos.Y >= _screenCenterPosition.Y - CardHeight * 2)
+				{
+					_card1Pos.Y = _screenCenterPosition.Y - CardHeight * 2;
+					_phase = 2;
+				}
+				else
+				{
+					_card1Pos.Y += 10f;
+				}
+				return false;
+			}
+
+			case 2:
+			{
+				if (_card2Pos.Y >= _screenCenterPosition.Y - CardHeight * 2)
+				{
+					_card2Pos.Y = _screenCenterPosition.Y - CardHeight * 2;
+					_phase = 3;
+				}
+				else
+				{
+					_card2Pos.Y += 10f;
+				}
+				return false;
+			}
+
+			case 3:
+			{
+				if (_card3Pos.Y >= _screenCenterPosition.Y - CardHeight * 2)
+				{
+					_card3Pos.Y = _screenCenterPosition.Y - CardHeight * 2;
+					_phase = 4;
+				}
+				else
+				{
+					_card3Pos.Y += 10f;
+				}
+				return false;
+			}
+
+			case 4:
+			{
+				if (_card1SquishFactor <= 0)
+				{
+					_card1SquishFactor = 0;
+					_phase = 5;
+				}
+				else
+				{
+					_card1SquishFactor -= 0.2f;
+					_card1Pos.X += 10f;
+				}
+				return false;
+			}
+
+			case 5:
+			{
+
+				if (_card1SquishFactor >= 4)
+				{
+					_card1SquishFactor = 4;
+					_phase = 6;
+					_phaseTimer = 500;
+					_textOpacity = 0f;
+				}
+				else
+				{
+					_card1SquishFactor += 0.2f;
+					_card1Pos.X -= 10f;
+				}
+				return false;
+			}
+
+			case 6:
+			{
+				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+				if (_phaseTimer <= 0)
+				{
+					_phase = 7;
+					_phaseTimer = 5000;
+					_textOpacity = 1f;
+				}
+				else
+				{
+					_textOpacity = (500 - _phaseTimer) / 500f;
+				}
+				return false;
+			}
+
+			case 7:
+			{
+				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+
+				if (_phaseTimer > 0)
+					return false;
+
+				_phase = 8;
+				_phaseTimer = 500;
+				return false;
+			}
+
+			case 8:
+			{
+				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+				if (_phaseTimer <= 0)
+				{
+					_phase = 9;
+				}
+				else
+				{
+					_textOpacity = _phaseTimer / 500f;
+				}
+				return false;
+			}
+
+			case 9:
+			{
+				if (_card2SquishFactor <= 0)
+				{
+					_card2SquishFactor = 0;
+					_phase = 10;
+				}
+				else
+				{
+					_card2SquishFactor -= 0.2f;
+					_card2Pos.X += 10f;
+				}
+				return false;
+			}
+
+			case 10:
+			{
+
+				if (_card2SquishFactor >= 4)
+				{
+					_card2SquishFactor = 4;
+					_phase = 11;
+					_phaseTimer = 0;
+					_textOpacity = 0f;
+				}
+				else
+				{
+					_card2SquishFactor += 0.2f;
+					_card2Pos.X -= 10f;
+				}
+				return false;
+			}
+
+			case 11:
+			{
+				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+				if (_phaseTimer <= 0)
+				{
+					_phase = 12;
+					_phaseTimer = 5000;
+					_textOpacity = 1f;
+				}
+				else
+				{
+					_textOpacity = (500 - _phaseTimer) / 500f;
+				}
+				return false;
+			}
+
+			case 12:
+			{
+				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+
+				if (_phaseTimer > 0)
+					return false;
+
+				_phase = 13;
+				_phaseTimer = 500;
+				return false;
+			}
+
+			case 13:
+			{
+				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+				if (_phaseTimer <= 0)
+				{
+					_phase = 14;
+				}
+				else
+				{
+					_textOpacity = _phaseTimer / 500f;
+				}
+				return false;
+			}
+
+			case 14:
+			{
+				if (_card3SquishFactor <= 0)
+				{
+					_card3SquishFactor = 0;
+					_phase = 15;
+				}
+				else
+				{
+					_card3SquishFactor -= 0.2f;
+					_card3Pos.X += 10f;
+				}
+				return false;
+			}
+
+			case 15:
+			{
+
+				if (_card3SquishFactor >= 4)
+				{
+					_card3SquishFactor = 4;
+					_phase = 16;
+					_phaseTimer = 500;
+					_textOpacity = 0f;
+				}
+				else
+				{
+					_card3SquishFactor += 0.2f;
+					_card3Pos.X -= 10f;
+				}
+				return false;
+			}
+
+			case 16:
+			{
+				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+				if (_phaseTimer <= 0)
+				{
+					_phase = 17;
+					_phaseTimer = 5000;
+					_textOpacity = 1f;
+				}
+				else
+				{
+					_textOpacity = (500 - _phaseTimer) / 500f;
+				}
+				return false;
+			}
+
+			case 17:
+			{
+				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+
+				if (_phaseTimer > 0)
+					return false;
+
+				_phase = 18;
+				_phaseTimer = 500;
+				return false;
+			}
+
+			case 18:
+			{
+				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+				if (_phaseTimer <= 0)
+				{
+					_phase = 19;
+				}
+				else
+				{
+					_textOpacity = _phaseTimer / 500f;
+				}
+				return false;
+			}
+
+			default:
+				return true;
 		}
 	}
 }

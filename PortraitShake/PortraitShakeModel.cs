@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 
-namespace SunberryVillage.PortraitShake
+namespace SunberryVillage.PortraitShake;
+
+internal class PortraitShakeModel
 {
-	internal class PortraitShakeModel
-	{
-		public List<int> IndexList = new List<int>();
-	}
+	public List<int> IndexList = new();
 }
