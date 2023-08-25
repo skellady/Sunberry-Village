@@ -40,9 +40,6 @@ namespace SunberryVillage.PortraitShake
 		internal static void SetShake(Dialogue dialogue)
 		{
 			PortraitShouldShake.Value = ShouldPortraitShake(dialogue);
-
-			//testing
-			//Log.Trace($"Portrait {dialogue.speaker.Name}[{dialogue.getPortraitIndex()}] should {(PortraitShouldShake.Value ? "shake" : "not shake")}");
 		}
 
 		/// <summary>
