@@ -1,10 +1,10 @@
-using System.Collections.Generic;
-using System.Text.RegularExpressions;
 using HarmonyLib;
 using StardewValley;
-using StardewValley.Menus;
-using SunberryVillage.PortraitShake;
-using SunberryVillage.Utilities;
+using StardewValley.Quests;
+using System.Text.RegularExpressions;
+// ReSharper disable UnusedMember.Global
+// ReSharper disable RedundantAssignment
+// ReSharper disable InconsistentNaming
 
 namespace SunberryVillage.Patching;
 
@@ -16,7 +16,7 @@ namespace SunberryVillage.Patching;
 #pragma warning disable IDE0060 // Remove unused parameter
 
 [HarmonyPatch]
-class CTsInDialoguePatches
+internal class ConversationTopicPatches
 {
 
 	/// <summary>
@@ -37,10 +37,10 @@ class CTsInDialoguePatches
 		MatchCollection matches = pattern.Matches(currentDialogue);
 
 		// for each match, add a CT with the corresponding ctName group. If duration is specified, use that duration; otherwise, default to 1.
-		foreach(Match match in matches)
+		foreach (Match match in matches)
 		{
 			string ctName = match.Groups["ctName"].Value;
-			int duration = (match.Groups["duration"].Value != "") ? int.Parse(match.Groups["duration"].Value) : 1;
+			int duration = match.Groups["duration"].Value != "" ? int.Parse(match.Groups["duration"].Value) : 1;
 
 			if (Game1.player.activeDialogueEvents.ContainsKey(ctName))
 				Game1.player.activeDialogueEvents[ctName] = duration;
@@ -51,6 +51,32 @@ class CTsInDialoguePatches
 		// remove any matches from dialogue
 		if (matches.Count > 0)
 			__instance.dialogues[__instance.currentDialogueIndex] = pattern.Replace(currentDialogue, "");
+	}
+
+	/// <summary>
+	/// Patches <c>Quest.questComplete</c> to add a CT generated from the details of the quest that was just completed.
+	/// </summary>
+	/// <param name="__instance">The quest that has been completed.</param>
+	[HarmonyPatch(typeof(Quest), nameof(Quest.questComplete))]
+	[HarmonyPostfix]
+	public static void questComplete_Postfix(Quest __instance)
+	{
+		string title = __instance.questTitle.Replace(" ", "");
+		string name = __instance.questType.Value switch
+		{
+			3 => (__instance as ItemDeliveryQuest)?.target.Value,
+			4 => (__instance as SlayMonsterQuest)?.target.Value,
+			7 => (__instance as FishingQuest)?.target.Value,
+			10 => (__instance as ResourceCollectionQuest)?.target.Value,
+			_ => null
+		};
+
+		string questKey = "QuestComplete_" + title + (name is not null ? "_" + name : "");
+
+		if (Game1.player.activeDialogueEvents.ContainsKey(questKey))
+			return;
+
+		Game1.player.activeDialogueEvents.Add(questKey, __instance.dailyQuest.Value ? 1 : 7);
 	}
 }
 
