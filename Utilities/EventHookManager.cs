@@ -32,7 +32,7 @@ internal class EventHookManager
 	/// </summary>
 	private static void ClearTarotFlag(object sender, StardewModdingAPI.Events.DayEndingEventArgs e)
 	{
-		Game1.player.modData.Remove("sophie.DialaTarot/ReadingDoneForToday");
+		Game1.player.modData.Remove("SunberryTeam.SBV/Tarot/ReadingDoneForToday");
 	}
 
 	/// <summary>

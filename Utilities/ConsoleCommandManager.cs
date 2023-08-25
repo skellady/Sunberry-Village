@@ -10,7 +10,7 @@ internal class ConsoleCommandManager
 		#if DEBUG
 		Globals.CCHelper.Add("sophie.dt.testevent", "Test Diala's tarot event", (command, args) =>
 			{
-				string eventString = Game1.content.Load<Dictionary<string, string>>("sophie.DialaTarot/Event")["Event"];
+				string eventString = Game1.content.Load<Dictionary<string, string>>("SunberryTeam.SBV/Tarot/Event")["Event"];
 
 				GameLocation currentLoc = Game1.currentLocation;
 				currentLoc.startEvent(new Event(eventString));
@@ -19,7 +19,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sophie.dt.clearmoddata", "Clears the flag that blocks you from having multiple tarot readings done in a single day", (command, args) =>
 			{
-				Game1.player.modData.Remove("sophie.DialaTarot/ReadingDoneForToday");
+				Game1.player.modData.Remove("SunberryTeam.SBV/Tarot/ReadingDoneForToday");
 			}
 		);
 		#endif

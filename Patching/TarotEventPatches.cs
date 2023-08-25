@@ -38,7 +38,7 @@ class TarotEventPatches
 			}
 
 			// if you've already done a reading today, reject with specific message
-			if (who.modData.ContainsKey("sophie.DialaTarot/ReadingDoneForToday"))
+			if (who.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
 			{
 				Game1.drawObjectDialogue("You've already had a reading done today. Come back another time.");
 				return false;
@@ -72,12 +72,12 @@ class TarotEventPatches
 		if (questionAndAnswer != "tarotReading_Yes")
 			return true;
 
-		Game1.player.modData["sophie.DialaTarot/ReadingDoneForToday"] = "true";
+		Game1.player.modData["SunberryTeam.SBV/Tarot/ReadingDoneForToday"] = "true";
 
 		Game1.activeClickableMenu = null;
 		GameLocation currentLoc = Game1.currentLocation;
 
-		string eventString = Game1.content.Load<Dictionary<string, string>>("sophie.DialaTarot/Event")["Event"];
+		string eventString = Game1.content.Load<Dictionary<string, string>>("SunberryTeam.SBV/Tarot/Event")["Event"];
 
 		currentLoc.startEvent(new Event(eventString));
 		return false;

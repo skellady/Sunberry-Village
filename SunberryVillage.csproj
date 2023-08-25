@@ -44,5 +44,7 @@
     
     <ZipDirectory SourceDirectory="$(_OutputFolder)" DestinationFile="$(ProjectDir)bin\$(Configuration)\$(TargetFramework)\Sunberry Village $(Version).zip" Overwrite="true" />
 	</Target>
+    
+  <ProjectExtensions><VisualStudio><UserProperties i18n_4default_1json__JsonSchema="https://smapi.io/schemas/content-patcher.json" /></VisualStudio></ProjectExtensions>
   
 </Project>

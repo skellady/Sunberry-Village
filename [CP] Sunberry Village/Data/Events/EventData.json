@@ -119,7 +119,7 @@
         {
             "LogName": "Diala's Tarot Event",
             "Action": "EditData",
-            "Target": "sophie.DialaTarot/Event",
+            "Target": "SunberryTeam.SBV/Tarot/Event",
             "Entries": {
                 //soph is so cool for this. thats all.
                 "Event": "nightTime/-100 -100/farmer -100 -100 0/skippable/pause 1000/cutscene DialaTarot/pause 1000/end"

@@ -1,8 +1,8 @@
-using System;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
+using SunberryVillage.Utilities;
 using Vector2 = Microsoft.Xna.Framework.Vector2;
 
 namespace SunberryVillage.TarotEvent
@@ -41,8 +41,8 @@ namespace SunberryVillage.TarotEvent
 		{
 			ScreenCenterPosition = new Vector2(Game1.graphics.GraphicsDevice.Viewport.Width / 2f,
 				Game1.graphics.GraphicsDevice.Viewport.Height / 2f);
-			//e.aboveMapSprites.Add(new TemporaryAnimatedSprite());
-			CardBackTexture = Game1.content.Load<Texture2D>("sophie.DialaTarot/CardBack");
+
+			CardBackTexture = Game1.content.Load<Texture2D>("SunberryTeam.SBV/Tarot/CardBack");
 
 			Card2Pos = ScreenCenterPosition + new Vector2(0f - CardWidth * 2, -1200f);
 			Card1Pos = Card2Pos + new Vector2(0f - SpacerWidth - CardWidth * 4, 0f);
@@ -57,34 +57,15 @@ namespace SunberryVillage.TarotEvent
 			Phase = 0;
 			PhaseTimer = 3000;
 
-			/* Have to add new cards here if you want them to show up */
-			List<int> cards = new() { 2, 3, 4, 5, 7, 8, 9, 10 };
-			if (Game1.player.isMarried())
-			{
-				cards.Add(1);
-				cards.Add(6);
-			}
-			else if (Game1.player.isEngaged())
-			{
-				cards.Add(1);
-			}
+			List<TarotCard> cards = TarotCardPool.GetAllTarotCardsWithConditionsMet();
 
-			Random rand = new();
+			Card1 = cards.TakeRandomElementFromList();
+			Card2 = cards.TakeRandomElementFromList();
+			Card3 = cards.TakeRandomElementFromList();
 
-			int randNum = rand.Next(0, cards.Count);
-			Card1 = new TarotCard(cards[randNum]);
-			cards.RemoveAt(randNum);
-
-			randNum = rand.Next(0, cards.Count);
-			Card2 = new TarotCard(cards[randNum]);
-			cards.RemoveAt(randNum);
-
-			randNum = rand.Next(0, cards.Count);
-			Card3 = new TarotCard(cards[randNum]);
-
-			Card1.Buff.Invoke();
-			Card2.Buff.Invoke();
-			Card3.Buff.Invoke();
+			Card1.ApplyBuff();
+			Card2.ApplyBuff();
+			Card3.ApplyBuff();
 		}
 
 		public void drawAboveAlwaysFront(SpriteBatch b)
@@ -140,7 +121,7 @@ namespace SunberryVillage.TarotEvent
 			if (Phase is >= 5 and <= 19)
 			{
 				b.Draw(
-					Card1.Texture,
+					Card1.Texture.Value,
 					Card1Pos,
 					new Rectangle(0, 0, 92, 139),
 					Color.White,
@@ -167,7 +148,7 @@ namespace SunberryVillage.TarotEvent
 			if (Phase is >= 10 and <= 19)
 			{
 				b.Draw(
-					Card2.Texture,
+					Card2.Texture.Value,
 					Card2Pos,
 					new Rectangle(0, 0, 92, 139),
 					Color.White,
@@ -194,7 +175,7 @@ namespace SunberryVillage.TarotEvent
 			if (Phase is >= 15 and <= 19)
 			{
 				b.Draw(
-					Card3.Texture,
+					Card3.Texture.Value,
 					Card3Pos,
 					new Rectangle(0, 0, 92, 139),
 					Color.White,

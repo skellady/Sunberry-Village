@@ -12,9 +12,9 @@ internal class AssetManager
 	{
 		#region Tarot
 
-		if (e.NameWithoutLocale.IsEquivalentTo("sophie.DialaTarot/CardBack"))
+		if (e.NameWithoutLocale.IsEquivalentTo("SunberryTeam.SBV/Tarot/CardBack"))
 			e.LoadFromModFile<Texture2D>("Assets/cardBack.png", AssetLoadPriority.Medium);
-		else if (e.NameWithoutLocale.IsEquivalentTo("sophie.DialaTarot/Event"))
+		else if (e.NameWithoutLocale.IsEquivalentTo("SunberryTeam.SBV/Tarot/Event"))
 			e.LoadFrom(
 				() => new Dictionary<string, string>()
 				{
@@ -23,7 +23,7 @@ internal class AssetManager
 
 		for (int i = 1; i <= TarotCard.Names.Count; i++)
 		{
-			if (e.NameWithoutLocale.IsEquivalentTo($"sophie.DialaTarot/Card{i}"))
+			if (e.NameWithoutLocale.IsEquivalentTo($"SunberryTeam.SBV/Tarot/Card{i}"))
 				e.LoadFromModFile<Texture2D>($"Assets/{TarotCard.Names[i]}.png", AssetLoadPriority.Medium);
 		}
 
