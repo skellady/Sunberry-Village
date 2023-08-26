@@ -1,3 +1,5 @@
 dotnet build SunberryVillage.csproj
 
-PAUSE
+@ECHO OFF
+
+if %ERRORLEVEL% NEQ 0 PAUSE
