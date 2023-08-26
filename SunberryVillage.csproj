@@ -34,6 +34,7 @@
     
     <PropertyGroup>
       <_OutputFolder>$(GamePath)\Mods\Sunberry Village</_OutputFolder>
+      <_ZipTo>$(ProjectDir)zips</_ZipTo>
     </PropertyGroup>
     
     <!--<Message Text="Source Files: @(_SourceFiles)" />-->
@@ -50,8 +51,9 @@
 
     <Copy SourceFiles="@(_ZipFiles)" DestinationFolder="$(ProjectDir)\Sunberry Village\Sunberry Village\%(RecursiveDir)" SkipUnchangedFiles="true" />
     
+    <MakeDir Directories="$(_ZipTo)" Condition="!Exists('$(_ZipTo)')" />
     <!-- ReSharper disable once UnknownTask -->
-    <ZipDirectory SourceDirectory="$(ProjectDir)\Sunberry Village" DestinationFile="$(ProjectDir)bin\$(Configuration)\$(TargetFramework)\Sunberry Village $(Version).zip" Overwrite="true" />
+    <ZipDirectory SourceDirectory="$(ProjectDir)\Sunberry Village" DestinationFile="$(_ZipTo)\Sunberry Village $(Version).zip" Overwrite="true" />
 
     <!-- And now get rid of our temp dir-->
     <RemoveDir Directories="$(ProjectDir)\Sunberry Village" />

@@ -21,6 +21,7 @@ tramp
 [Bb]in/
 [Oo]bj/
 _releases/
+[z]ips
 
 # Visual Studio cache/options
 .vs/
