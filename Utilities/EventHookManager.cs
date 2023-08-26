@@ -1,6 +1,10 @@
 using StardewValley;
 using StardewValley.Menus;
+using StardewValley.Monsters;
 using SunberryVillage.PortraitShake;
+using System.Collections.Generic;
+using System;
+using SunberryVillage.Patching;
 
 namespace SunberryVillage.Utilities;
 
@@ -14,6 +18,7 @@ internal class EventHookManager
 
 		// Tarot
 		Globals.EventHelper.GameLoop.DayEnding += ClearTarotFlag;
+		Globals.EventHelper.GameLoop.DayEnding += AnimationsPatches.DayEnd;
 
 		// Portrait shake
 		Globals.EventHelper.Display.MenuChanged += CheckForPortraitShake;
@@ -23,9 +28,10 @@ internal class EventHookManager
 	/// Reloads any cached assets at the start of each day if they have been modified.
 	/// </summary>
 	private static void ReloadCachedAssets(object sender, StardewModdingAPI.Events.DayStartedEventArgs e)
-	{
+    {
 		PortraitShakeHandler.ReloadAsset();
-	}
+		AnimationsPatches.ReloadCPData();
+    }
 	
 	/// <summary>
 	/// Clears the mod data flag which prevents getting multiple tarot readings in one day.

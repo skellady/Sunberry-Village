@@ -1,6 +1,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI.Events;
+using SunberryVillage.Patching;
 using SunberryVillage.PortraitShake;
+using System;
 using System.Collections.Generic;
 
 namespace SunberryVillage.Utilities;
@@ -34,6 +36,13 @@ internal class AssetManager
 		else if (e.NameWithoutLocale.IsEquivalentTo("SunberryTeam.SBV/PortraitsToShake"))
 			e.LoadFrom(() => new Dictionary<string, PortraitShakeModel>(), AssetLoadPriority.Low);
 
-		#endregion
-	}
+        #endregion
+
+        #region Animations
+
+        else if (e.Name.IsEquivalentTo("SunberryTeam.SBV/Animations"))
+            e.LoadFrom(() => new Dictionary<String, AnimationData>(),AssetLoadPriority.Low);
+
+        #endregion
+    }
 }
