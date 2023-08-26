@@ -1,6 +1,5 @@
 ﻿<!-- ReSharper disable UnknownProperty -->
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <AssemblyName>SunberryVillage</AssemblyName>
     <RootNamespace>SunberryVillage</RootNamespace>
@@ -14,7 +13,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.7.2" />
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.1" />
   </ItemGroup>
   
