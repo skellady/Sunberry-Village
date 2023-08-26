@@ -1,4 +1,6 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+﻿<!-- ReSharper disable UnknownProperty -->
+<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <AssemblyName>SunberryVillage</AssemblyName>
     <RootNamespace>SunberryVillage</RootNamespace>
@@ -12,10 +14,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Build.Utilities.Core" Version="17.7.2" />
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.1" />
   </ItemGroup>
   
-  <!-- this shouldn't be necessary, but it is i guess??? fuckin stardewvalley.targets, how does it work -->
+  <!-- GamePath isn't defined right away so we need to redefine GameModsPath once it is. -->
   <Target Name="FixModPath" BeforeTargets="AfterBuild">
     <Message Text="Mod Path Before Fix: $(GameModsPath)" />
       
@@ -41,10 +44,22 @@
     <Message Text="Game Mods Path: $(GameModsPath)" />
     
 		<Copy SourceFiles="@(_SourceFiles)" DestinationFolder="$(_OutputFolder)\%(RecursiveDir)" SkipUnchangedFiles="true" />
+
+    <!-- ZipDirectory doesn't capture the parent directory so we need to make a temp dir to deploy the zip file from-->
+    <ItemGroup>
+      <_ZipFiles Include="$(_OutputFolder)\**\*.*;" />
+    </ItemGroup>
+
+    <Copy SourceFiles="@(_ZipFiles)" DestinationFolder="$(ProjectDir)\Sunberry Village\Sunberry Village\%(RecursiveDir)" SkipUnchangedFiles="true" />
     
-    <ZipDirectory SourceDirectory="$(_OutputFolder)" DestinationFile="$(ProjectDir)bin\$(Configuration)\$(TargetFramework)\Sunberry Village $(Version).zip" Overwrite="true" />
+    <!-- ReSharper disable once UnknownTask -->
+    <ZipDirectory SourceDirectory="$(ProjectDir)\Sunberry Village" DestinationFile="$(ProjectDir)bin\$(Configuration)\$(TargetFramework)\Sunberry Village $(Version).zip" Overwrite="true" />
+
+    <!-- And now get rid of our temp dir-->
+    <RemoveDir Directories="$(ProjectDir)\Sunberry Village" />
 	</Target>
     
   <ProjectExtensions><VisualStudio><UserProperties i18n_4default_1json__JsonSchema="https://smapi.io/schemas/content-patcher.json" /></VisualStudio></ProjectExtensions>
   
 </Project>
+<!-- ReSharper restore UnknownProperty -->
