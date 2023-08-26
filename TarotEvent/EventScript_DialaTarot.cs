@@ -59,9 +59,9 @@ internal class EventScriptDialaTarot : ICustomEventScript
 
 		List<TarotCard> cards = TarotCardPool.GetAllTarotCardsWithConditionsMet();
 
-		_card1 = cards.TakeRandomElementFromList();
-		_card2 = cards.TakeRandomElementFromList();
-		_card3 = cards.TakeRandomElementFromList();
+		_card1 = cards.GetRandomElementFromList(true);
+		_card2 = cards.GetRandomElementFromList(true);
+		_card3 = cards.GetRandomElementFromList(true);
 
 		_card1.ApplyBuff();
 		_card2.ApplyBuff();

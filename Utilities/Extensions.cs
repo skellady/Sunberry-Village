@@ -15,14 +15,16 @@ internal static class Extensions
 	/// <typeparam name="T">Any type.</typeparam>
 	/// <param name="list">The list from which to remove an element.</param>
 	/// <returns>The element removed from the list.</returns>
-	internal static T TakeRandomElementFromList<T>(this List<T> list)
+	internal static T GetRandomElementFromList<T>(this List<T> list, bool removeElement = false)
 	{
 		if (list is null || !list.Any())
 			return default;
 
 		int index = Random.Next(list.Count);
 		T element = list.ElementAt(index);
-		list.RemoveAt(index);
+
+		if (removeElement)
+			list.RemoveAt(index);
 
 		return element;
 	}
@@ -36,7 +38,7 @@ internal static class Extensions
 	/// <param name="list">The list from which to remove the elements.</param>
 	/// <param name="quantity">The element or elements removed from the list</param>
 	/// <returns></returns>
-	internal static List<T> TakeRandomElementsFromList<T>(this List<T> list, int quantity)
+	internal static List<T> GetRandomElementsFromList<T>(this List<T> list, int quantity, bool removeElements = false)
 	{
 		List<T> elementList = new();
 
@@ -54,7 +56,7 @@ internal static class Extensions
 		while (quantity > 0)
 		{
 			quantity--;
-			T element = TakeRandomElementFromList(list);
+			T element = GetRandomElementFromList(list, removeElements);
 			elementList.Add(element);
 		}
 
