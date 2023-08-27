@@ -5,6 +5,7 @@ using Microsoft.Xna.Framework;
 using StardewValley;
 using xTile.Dimensions;
 using SunberryVillage.TarotEvent;
+// ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
 // ReSharper disable RedundantAssignment
 // ReSharper disable InconsistentNaming
@@ -84,19 +85,21 @@ internal class TarotEventPatches
 	/// <summary>
 	/// Patches <c>Event.command_cutscene</c> to check for DialaTarot cutscene and handle it accordingly.
 	/// </summary>
+	/// <param name="__instance">The currently running Event.</param>
+	/// <param name="split">The command that was just parsed. split[0] is always the name of the command, and any additional values are parameters passed along with it.</param>
+	/// <returns><c>True</c> in order to run the original code following the execution of this patch.</returns>
 	[HarmonyPatch(typeof(Event), nameof(Event.command_cutscene))]
 	[HarmonyPrefix]
 	public static bool command_cutscene_Prefix(Event __instance, string[] split)
 	{
-		// if custom event script is active, skip prefix and run original code
 		if (__instance.currentCustomEventScript != null)
-		{
 			return true;
-		}
+
+		if (split.Length <= 1)
+			return true;
+
 		if (split[1] == "DialaTarot")
-		{
 			__instance.currentCustomEventScript = new EventScriptDialaTarot();
-		}
 
 		return true;
 	}

@@ -5,9 +5,11 @@ using System.Linq;
 
 namespace SunberryVillage.TarotEvent;
 
-internal class TarotCardPool
+internal class TarotCardHandler
 {
-	public static List<TarotCard> Cards = new()
+	internal const string TarotAssetPath = "SunberryTeam.SBV/Tarot";
+
+	public static List<TarotCard> CardPool = new()
 	{
 		new TarotCard(
 			id: "Sun",
@@ -55,16 +57,16 @@ internal class TarotCardPool
 
 	public static List<TarotCard> GetAllTarotCards()
 	{
-		return Cards.ToList();
+		return CardPool.ToList();
 	}
 
 	public static List<TarotCard> GetAllTarotCardsWithConditionsMet()
 	{
-		return Cards.Where(card => card.Condition is null || card.Condition()).ToList();
+		return CardPool.Where(card => card.Condition is null || card.Condition()).ToList();
 	}
 
 	public static TarotCard GetTarotCardById(string id)
 	{
-		return Cards.FirstOrDefault(card => card.Id == id);
+		return CardPool.FirstOrDefault(card => card.Id == id);
 	}
 }
