@@ -252,6 +252,16 @@
         "HasValue:{{season}}": true,
       },
     },
+    {
+      "Action": "Load",
+      "Target": "Characters/DDPicnic",
+      "FromFile": "Assets/Maps/tempActors/DDPicnic.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Characters/DDBook",
+      "FromFile": "Assets/Maps/tempActors/DDBook.png"
+    },
     //Temporary Maps
     {
       "Action": "Load",
