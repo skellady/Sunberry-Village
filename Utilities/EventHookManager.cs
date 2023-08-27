@@ -4,12 +4,16 @@ using StardewValley.Monsters;
 using SunberryVillage.PortraitShake;
 using System.Collections.Generic;
 using System;
+using SunberryVillage.Animations;
 using SunberryVillage.Patching;
 
 namespace SunberryVillage.Utilities;
 
 internal class EventHookManager
 {
+	/// <summary>
+	/// Initializes all event hooks which are applied without conditions. Event hooks with no conditional application should be added here.
+	/// </summary>
 	internal static void InitializeEventHooks()
 	{
 		// General
@@ -18,7 +22,9 @@ internal class EventHookManager
 
 		// Tarot
 		Globals.EventHelper.GameLoop.DayEnding += ClearTarotFlag;
-		Globals.EventHelper.GameLoop.DayEnding += AnimationsPatches.DayEnd;
+
+		// Big animations
+		Globals.EventHelper.GameLoop.DayEnding += AnimationsHandler.DayEnd;
 
 		// Portrait shake
 		Globals.EventHelper.Display.MenuChanged += CheckForPortraitShake;
@@ -29,8 +35,7 @@ internal class EventHookManager
 	/// </summary>
 	private static void ReloadCachedAssets(object sender, StardewModdingAPI.Events.DayStartedEventArgs e)
     {
-		PortraitShakeHandler.ReloadAsset();
-		AnimationsPatches.ReloadCPData();
+		AssetManager.ReloadAssets();
     }
 	
 	/// <summary>

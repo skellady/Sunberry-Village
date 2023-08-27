@@ -1,14 +1,13 @@
 ﻿using StardewModdingAPI.Utilities;
 using StardewValley;
-using SunberryVillage.Utilities;
 using System.Collections.Generic;
 
 namespace SunberryVillage.PortraitShake;
 
 internal class PortraitShakeHandler
 {
+	internal const string PortraitShakeAssetPath = "SunberryTeam.SBV/PortraitsToShake";
 	internal static Dictionary<string, PortraitShakeModel> PortraitsDict = new();
-
 	internal static readonly PerScreen<bool> PortraitShouldShake = new();
 
 	/// <summary>
@@ -31,13 +30,5 @@ internal class PortraitShakeHandler
 	internal static void SetShake(Dialogue dialogue)
 	{
 		PortraitShouldShake.Value = ShouldPortraitShake(dialogue);
-	}
-
-	/// <summary>
-	/// Reloads the internal asset once per day if it has changed since the last load.
-	/// </summary>
-	internal static void ReloadAsset()
-	{
-		PortraitsDict = Globals.GameContent.Load<Dictionary<string, PortraitShakeModel>>("SunberryTeam.SBV/PortraitsToShake");
 	}
 }

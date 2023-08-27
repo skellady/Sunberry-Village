@@ -2,6 +2,7 @@ using HarmonyLib;
 using StardewValley;
 using StardewValley.Menus;
 using SunberryVillage.PortraitShake;
+// ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
 // ReSharper disable RedundantAssignment
 // ReSharper disable InconsistentNaming

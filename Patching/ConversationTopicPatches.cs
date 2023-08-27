@@ -2,6 +2,7 @@ using HarmonyLib;
 using StardewValley;
 using StardewValley.Quests;
 using System.Text.RegularExpressions;
+// ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
 // ReSharper disable RedundantAssignment
 // ReSharper disable InconsistentNaming
