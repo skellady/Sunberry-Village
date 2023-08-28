@@ -1,4 +1,4 @@
-dotnet build SunberryVillage.csproj
+dotnet msbuild SunberryVillage.csproj
 
 @ECHO OFF
 
