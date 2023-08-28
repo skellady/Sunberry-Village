@@ -1,8 +1,8 @@
-using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
 using SunberryVillage.Utilities;
+using System.Collections.Generic;
 using Vector2 = Microsoft.Xna.Framework.Vector2;
 
 namespace SunberryVillage.TarotEvent;
@@ -57,7 +57,7 @@ internal class EventScriptDialaTarot : ICustomEventScript
 		_phase = 0;
 		_phaseTimer = 3000;
 
-		List<TarotCard> cards = TarotCardHandler.GetAllTarotCardsWithConditionsMet();
+		List<TarotCard> cards = TarotHandler.GetAllTarotCardsWithConditionsMet();
 
 		_card1 = cards.GetRandomElementFromList(true);
 		_card2 = cards.GetRandomElementFromList(true);
@@ -228,286 +228,286 @@ internal class EventScriptDialaTarot : ICustomEventScript
 		switch (_phase)
 		{
 			case 0:
-			{
-				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
-				if (_phaseTimer <= 0)
 				{
-					_phase = 1;
-					_bgOpacity = 1f;
+					_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+					if (_phaseTimer <= 0)
+					{
+						_phase = 1;
+						_bgOpacity = 1f;
+					}
+					else
+					{
+						_bgOpacity = (3000 - _phaseTimer) / 3000f;
+					}
+					return false;
 				}
-				else
-				{
-					_bgOpacity = (3000 - _phaseTimer) / 3000f;
-				}
-				return false;
-			}
 
 			case 1:
-			{
-				if (_card1Pos.Y >= _screenCenterPosition.Y - CardHeight * 2)
 				{
-					_card1Pos.Y = _screenCenterPosition.Y - CardHeight * 2;
-					_phase = 2;
+					if (_card1Pos.Y >= _screenCenterPosition.Y - CardHeight * 2)
+					{
+						_card1Pos.Y = _screenCenterPosition.Y - CardHeight * 2;
+						_phase = 2;
+					}
+					else
+					{
+						_card1Pos.Y += 10f;
+					}
+					return false;
 				}
-				else
-				{
-					_card1Pos.Y += 10f;
-				}
-				return false;
-			}
 
 			case 2:
-			{
-				if (_card2Pos.Y >= _screenCenterPosition.Y - CardHeight * 2)
 				{
-					_card2Pos.Y = _screenCenterPosition.Y - CardHeight * 2;
-					_phase = 3;
+					if (_card2Pos.Y >= _screenCenterPosition.Y - CardHeight * 2)
+					{
+						_card2Pos.Y = _screenCenterPosition.Y - CardHeight * 2;
+						_phase = 3;
+					}
+					else
+					{
+						_card2Pos.Y += 10f;
+					}
+					return false;
 				}
-				else
-				{
-					_card2Pos.Y += 10f;
-				}
-				return false;
-			}
 
 			case 3:
-			{
-				if (_card3Pos.Y >= _screenCenterPosition.Y - CardHeight * 2)
 				{
-					_card3Pos.Y = _screenCenterPosition.Y - CardHeight * 2;
-					_phase = 4;
+					if (_card3Pos.Y >= _screenCenterPosition.Y - CardHeight * 2)
+					{
+						_card3Pos.Y = _screenCenterPosition.Y - CardHeight * 2;
+						_phase = 4;
+					}
+					else
+					{
+						_card3Pos.Y += 10f;
+					}
+					return false;
 				}
-				else
-				{
-					_card3Pos.Y += 10f;
-				}
-				return false;
-			}
 
 			case 4:
-			{
-				if (_card1SquishFactor <= 0)
 				{
-					_card1SquishFactor = 0;
-					_phase = 5;
+					if (_card1SquishFactor <= 0)
+					{
+						_card1SquishFactor = 0;
+						_phase = 5;
+					}
+					else
+					{
+						_card1SquishFactor -= 0.2f;
+						_card1Pos.X += 10f;
+					}
+					return false;
 				}
-				else
-				{
-					_card1SquishFactor -= 0.2f;
-					_card1Pos.X += 10f;
-				}
-				return false;
-			}
 
 			case 5:
-			{
+				{
 
-				if (_card1SquishFactor >= 4)
-				{
-					_card1SquishFactor = 4;
-					_phase = 6;
-					_phaseTimer = 500;
-					_textOpacity = 0f;
+					if (_card1SquishFactor >= 4)
+					{
+						_card1SquishFactor = 4;
+						_phase = 6;
+						_phaseTimer = 500;
+						_textOpacity = 0f;
+					}
+					else
+					{
+						_card1SquishFactor += 0.2f;
+						_card1Pos.X -= 10f;
+					}
+					return false;
 				}
-				else
-				{
-					_card1SquishFactor += 0.2f;
-					_card1Pos.X -= 10f;
-				}
-				return false;
-			}
 
 			case 6:
-			{
-				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
-				if (_phaseTimer <= 0)
 				{
-					_phase = 7;
-					_phaseTimer = 5000;
-					_textOpacity = 1f;
+					_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+					if (_phaseTimer <= 0)
+					{
+						_phase = 7;
+						_phaseTimer = 5000;
+						_textOpacity = 1f;
+					}
+					else
+					{
+						_textOpacity = (500 - _phaseTimer) / 500f;
+					}
+					return false;
 				}
-				else
-				{
-					_textOpacity = (500 - _phaseTimer) / 500f;
-				}
-				return false;
-			}
 
 			case 7:
-			{
-				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+				{
+					_phaseTimer -= time.ElapsedGameTime.Milliseconds;
 
-				if (_phaseTimer > 0)
+					if (_phaseTimer > 0)
+						return false;
+
+					_phase = 8;
+					_phaseTimer = 500;
 					return false;
-
-				_phase = 8;
-				_phaseTimer = 500;
-				return false;
-			}
+				}
 
 			case 8:
-			{
-				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
-				if (_phaseTimer <= 0)
 				{
-					_phase = 9;
+					_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+					if (_phaseTimer <= 0)
+					{
+						_phase = 9;
+					}
+					else
+					{
+						_textOpacity = _phaseTimer / 500f;
+					}
+					return false;
 				}
-				else
-				{
-					_textOpacity = _phaseTimer / 500f;
-				}
-				return false;
-			}
 
 			case 9:
-			{
-				if (_card2SquishFactor <= 0)
 				{
-					_card2SquishFactor = 0;
-					_phase = 10;
+					if (_card2SquishFactor <= 0)
+					{
+						_card2SquishFactor = 0;
+						_phase = 10;
+					}
+					else
+					{
+						_card2SquishFactor -= 0.2f;
+						_card2Pos.X += 10f;
+					}
+					return false;
 				}
-				else
-				{
-					_card2SquishFactor -= 0.2f;
-					_card2Pos.X += 10f;
-				}
-				return false;
-			}
 
 			case 10:
-			{
+				{
 
-				if (_card2SquishFactor >= 4)
-				{
-					_card2SquishFactor = 4;
-					_phase = 11;
-					_phaseTimer = 0;
-					_textOpacity = 0f;
+					if (_card2SquishFactor >= 4)
+					{
+						_card2SquishFactor = 4;
+						_phase = 11;
+						_phaseTimer = 0;
+						_textOpacity = 0f;
+					}
+					else
+					{
+						_card2SquishFactor += 0.2f;
+						_card2Pos.X -= 10f;
+					}
+					return false;
 				}
-				else
-				{
-					_card2SquishFactor += 0.2f;
-					_card2Pos.X -= 10f;
-				}
-				return false;
-			}
 
 			case 11:
-			{
-				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
-				if (_phaseTimer <= 0)
 				{
-					_phase = 12;
-					_phaseTimer = 5000;
-					_textOpacity = 1f;
+					_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+					if (_phaseTimer <= 0)
+					{
+						_phase = 12;
+						_phaseTimer = 5000;
+						_textOpacity = 1f;
+					}
+					else
+					{
+						_textOpacity = (500 - _phaseTimer) / 500f;
+					}
+					return false;
 				}
-				else
-				{
-					_textOpacity = (500 - _phaseTimer) / 500f;
-				}
-				return false;
-			}
 
 			case 12:
-			{
-				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+				{
+					_phaseTimer -= time.ElapsedGameTime.Milliseconds;
 
-				if (_phaseTimer > 0)
+					if (_phaseTimer > 0)
+						return false;
+
+					_phase = 13;
+					_phaseTimer = 500;
 					return false;
-
-				_phase = 13;
-				_phaseTimer = 500;
-				return false;
-			}
+				}
 
 			case 13:
-			{
-				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
-				if (_phaseTimer <= 0)
 				{
-					_phase = 14;
+					_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+					if (_phaseTimer <= 0)
+					{
+						_phase = 14;
+					}
+					else
+					{
+						_textOpacity = _phaseTimer / 500f;
+					}
+					return false;
 				}
-				else
-				{
-					_textOpacity = _phaseTimer / 500f;
-				}
-				return false;
-			}
 
 			case 14:
-			{
-				if (_card3SquishFactor <= 0)
 				{
-					_card3SquishFactor = 0;
-					_phase = 15;
+					if (_card3SquishFactor <= 0)
+					{
+						_card3SquishFactor = 0;
+						_phase = 15;
+					}
+					else
+					{
+						_card3SquishFactor -= 0.2f;
+						_card3Pos.X += 10f;
+					}
+					return false;
 				}
-				else
-				{
-					_card3SquishFactor -= 0.2f;
-					_card3Pos.X += 10f;
-				}
-				return false;
-			}
 
 			case 15:
-			{
+				{
 
-				if (_card3SquishFactor >= 4)
-				{
-					_card3SquishFactor = 4;
-					_phase = 16;
-					_phaseTimer = 500;
-					_textOpacity = 0f;
+					if (_card3SquishFactor >= 4)
+					{
+						_card3SquishFactor = 4;
+						_phase = 16;
+						_phaseTimer = 500;
+						_textOpacity = 0f;
+					}
+					else
+					{
+						_card3SquishFactor += 0.2f;
+						_card3Pos.X -= 10f;
+					}
+					return false;
 				}
-				else
-				{
-					_card3SquishFactor += 0.2f;
-					_card3Pos.X -= 10f;
-				}
-				return false;
-			}
 
 			case 16:
-			{
-				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
-				if (_phaseTimer <= 0)
 				{
-					_phase = 17;
-					_phaseTimer = 5000;
-					_textOpacity = 1f;
+					_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+					if (_phaseTimer <= 0)
+					{
+						_phase = 17;
+						_phaseTimer = 5000;
+						_textOpacity = 1f;
+					}
+					else
+					{
+						_textOpacity = (500 - _phaseTimer) / 500f;
+					}
+					return false;
 				}
-				else
-				{
-					_textOpacity = (500 - _phaseTimer) / 500f;
-				}
-				return false;
-			}
 
 			case 17:
-			{
-				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+				{
+					_phaseTimer -= time.ElapsedGameTime.Milliseconds;
 
-				if (_phaseTimer > 0)
+					if (_phaseTimer > 0)
+						return false;
+
+					_phase = 18;
+					_phaseTimer = 500;
 					return false;
-
-				_phase = 18;
-				_phaseTimer = 500;
-				return false;
-			}
+				}
 
 			case 18:
-			{
-				_phaseTimer -= time.ElapsedGameTime.Milliseconds;
-				if (_phaseTimer <= 0)
 				{
-					_phase = 19;
+					_phaseTimer -= time.ElapsedGameTime.Milliseconds;
+					if (_phaseTimer <= 0)
+					{
+						_phase = 19;
+					}
+					else
+					{
+						_textOpacity = _phaseTimer / 500f;
+					}
+					return false;
 				}
-				else
-				{
-					_textOpacity = _phaseTimer / 500f;
-				}
-				return false;
-			}
 
 			default:
 				return true;

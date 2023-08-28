@@ -32,3 +32,11 @@ internal class PortraitShakeHandler
 		PortraitShouldShake.Value = ShouldPortraitShake(dialogue);
 	}
 }
+
+/// <summary>
+/// Data model for Content Patcher integration
+/// </summary>
+internal class PortraitShakeModel
+{
+	public List<int> IndexList = new();
+}

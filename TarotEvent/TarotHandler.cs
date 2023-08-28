@@ -5,9 +5,10 @@ using System.Linq;
 
 namespace SunberryVillage.TarotEvent;
 
-internal class TarotCardHandler
+internal class TarotHandler
 {
 	internal const string TarotAssetPath = "SunberryTeam.SBV/Tarot";
+	internal const int TarotRequiredEventId = 20031411;
 
 	public static List<TarotCard> CardPool = new()
 	{

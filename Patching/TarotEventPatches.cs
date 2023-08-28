@@ -1,12 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using HarmonyLib;
 using Microsoft.Xna.Framework;
 using StardewValley;
-using xTile.Dimensions;
 using SunberryVillage.TarotEvent;
 using SunberryVillage.Utilities;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using xTile.Dimensions;
 
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
@@ -49,7 +49,7 @@ internal class TarotEventPatches
 				}
 
 				// if you have seen the necessary event
-				if (who.eventsSeen.Contains(20031411))
+				if (who.eventsSeen.Contains(TarotHandler.TarotRequiredEventId))
 				{
 					currentLoc.createQuestionDialogue("Would you like to have a tarot reading done?",
 						currentLoc.createYesNoResponses(), "tarotReading");

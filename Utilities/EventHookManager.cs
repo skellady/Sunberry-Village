@@ -1,11 +1,7 @@
 using StardewValley;
 using StardewValley.Menus;
-using StardewValley.Monsters;
-using SunberryVillage.PortraitShake;
-using System.Collections.Generic;
-using System;
 using SunberryVillage.Animations;
-using SunberryVillage.Patching;
+using SunberryVillage.PortraitShake;
 
 namespace SunberryVillage.Utilities;
 
@@ -34,10 +30,10 @@ internal class EventHookManager
 	/// Reloads any cached assets at the start of each day if they have been modified.
 	/// </summary>
 	private static void ReloadCachedAssets(object sender, StardewModdingAPI.Events.DayStartedEventArgs e)
-    {
+	{
 		AssetManager.ReloadAssets();
-    }
-	
+	}
+
 	/// <summary>
 	/// Clears the mod data flag which prevents getting multiple tarot readings in one day.
 	/// </summary>
@@ -51,7 +47,7 @@ internal class EventHookManager
 	/// </summary>
 	private static void CheckForPortraitShake(object sender, StardewModdingAPI.Events.MenuChangedEventArgs e)
 	{
-		if (e.NewMenu is DialogueBox {characterDialogue: { }} dialogue)
+		if (e.NewMenu is DialogueBox { characterDialogue: { } } dialogue)
 			PortraitShakeHandler.SetShake(dialogue.characterDialogue);
 	}
 }

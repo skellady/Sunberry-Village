@@ -1,9 +1,9 @@
-using System;
 using HarmonyLib;
 using StardewValley;
 using StardewValley.Menus;
 using SunberryVillage.PortraitShake;
 using SunberryVillage.Utilities;
+using System;
 
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global

@@ -1,7 +1,7 @@
-using System.Collections.Generic;
 using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Quests;
+using System.Collections.Generic;
 
 namespace SunberryVillage.Utilities;
 
@@ -9,7 +9,7 @@ internal class ConsoleCommandManager
 {
 	internal static void InitializeConsoleCommands()
 	{
-		#if DEBUG
+#if DEBUG
 		Globals.CCHelper.Add("sbv.tarot.forceevent", "Test Diala's tarot event", (_, _) =>
 			{
 				if (!IsWorldReady())
@@ -43,7 +43,7 @@ internal class ConsoleCommandManager
 			}
 		);
 
-		#endif
+#endif
 	}
 
 	internal static bool IsWorldReady()

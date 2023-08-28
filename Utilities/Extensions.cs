@@ -49,7 +49,7 @@ internal static class Extensions
 		{
 			elementList.AddRange(list);
 			list.Clear();
-				
+
 			return elementList;
 		}
 

@@ -3,7 +3,7 @@ using StardewModdingAPI;
 
 namespace SunberryVillage.Utilities;
 
-// Credit to kittycatcasey
+// Credit to kittycatcasey for initial version. i've iterated on it a bit :3
 internal class Log
 {
 	public static IMonitor Monitor;
@@ -13,9 +13,9 @@ internal class Log
 	// Only log Trace messages if compiled in Debug mode.
 	public static void Trace(object obj)
 	{
-		#if DEBUG
+#if DEBUG
 		Monitor.Log(obj.ToString() ?? string.Empty);
-		#endif
+#endif
 	}
 
 	public static void Debug(object obj) => Monitor.Log(obj.ToString() ?? string.Empty, LogLevel.Debug);

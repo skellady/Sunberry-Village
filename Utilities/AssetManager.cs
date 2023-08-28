@@ -13,17 +13,17 @@ internal class AssetManager
 	{
 		#region Tarot
 
-		if (e.NameWithoutLocale.IsEquivalentTo($"{TarotCardHandler.TarotAssetPath}/CardBack"))
+		if (e.NameWithoutLocale.IsEquivalentTo($"{TarotHandler.TarotAssetPath}/CardBack"))
 			e.LoadFromModFile<Texture2D>("Assets/Tarot/cardBack.png", AssetLoadPriority.Medium);
-		else if (e.NameWithoutLocale.IsEquivalentTo($"{TarotCardHandler.TarotAssetPath}/Event"))
+		else if (e.NameWithoutLocale.IsEquivalentTo($"{TarotHandler.TarotAssetPath}/Event"))
 			e.LoadFrom(
 				() => new Dictionary<string, string>
 				{
 					["Event"] = "none/-100 -100/farmer -100 -100 0/globalFadeToClear/skippable/pause 1000/cutscene DialaTarot/pause 1000/end"
 				}, AssetLoadPriority.Low);
-		else if (e.NameWithoutLocale.StartsWith($"{TarotCardHandler.TarotAssetPath}/Texture"))
+		else if (e.NameWithoutLocale.StartsWith($"{TarotHandler.TarotAssetPath}/Texture"))
 		{
-			string id = e.NameWithoutLocale.ToString()?.Replace($"{TarotCardHandler.TarotAssetPath}/Texture", "");
+			string id = e.NameWithoutLocale.ToString()?.Replace($"{TarotHandler.TarotAssetPath}/Texture", "");
 			e.LoadFromModFile<Texture2D>($"Assets/Tarot/{id}.png", AssetLoadPriority.Medium);
 		}
 
@@ -39,7 +39,7 @@ internal class AssetManager
 		#region BigAnimations
 
 		else if (e.Name.IsEquivalentTo(AnimationsHandler.AnimationsAssetPath))
-			e.LoadFrom(() => new Dictionary<string, AnimationsHandler.AnimationDataModel>(), AssetLoadPriority.Low);
+			e.LoadFrom(() => new Dictionary<string, AnimationDataModel>(), AssetLoadPriority.Low);
 
 		#endregion
 	}
@@ -47,6 +47,6 @@ internal class AssetManager
 	internal static void ReloadAssets()
 	{
 		PortraitShakeHandler.PortraitsDict = Globals.GameContent.Load<Dictionary<string, PortraitShakeModel>>(PortraitShakeHandler.PortraitShakeAssetPath);
-		AnimationsHandler.AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationsHandler.AnimationDataModel>>(AnimationsHandler.AnimationsAssetPath);
+		AnimationsHandler.AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(AnimationsHandler.AnimationsAssetPath);
 	}
 }
