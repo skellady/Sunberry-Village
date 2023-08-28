@@ -5,7 +5,6 @@ using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
 // ReSharper disable UnusedMember.Global
 // ReSharper disable UnusedMember.Local
 
@@ -41,6 +40,8 @@ internal class AnimationsHandler
 	}
 }
 
+#pragma warning disable CS0649 // Remove unused variable
+
 /// <summary>
 /// Data model for Content Patcher integration
 /// </summary>
@@ -51,3 +52,5 @@ internal class AnimationDataModel
 	public Vector2 Offset;
 	public bool HideShadow;
 }
+
+#pragma warning restore CS0649
