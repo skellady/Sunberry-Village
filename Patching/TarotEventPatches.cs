@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using HarmonyLib;
@@ -5,6 +6,8 @@ using Microsoft.Xna.Framework;
 using StardewValley;
 using xTile.Dimensions;
 using SunberryVillage.TarotEvent;
+using SunberryVillage.Utilities;
+
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
 // ReSharper disable RedundantAssignment
@@ -30,35 +33,43 @@ internal class TarotEventPatches
 	[HarmonyPrefix]
 	public static bool performAction_Prefix(string action, Farmer who, Location tileLocation)
 	{
-		if (action != "DialaTarot" || !who.IsLocalPlayer)
-			return true;
-
-		GameLocation currentLoc = Game1.currentLocation;
-
-		if (currentLoc.characters.Any(npc => npc.Name == "DialaSBV" && Vector2.Distance(npc.getTileLocation(), new Vector2(tileLocation.X, tileLocation.Y)) < 3f))
+		try
 		{
-			if (who.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
+			if (action != "DialaTarot" || !who.IsLocalPlayer)
+				return true;
+
+			GameLocation currentLoc = Game1.currentLocation;
+
+			if (currentLoc.characters.Any(npc => npc.Name == "DialaSBV" && Vector2.Distance(npc.getTileLocation(), new Vector2(tileLocation.X, tileLocation.Y)) < 3f))
 			{
-				Game1.drawObjectDialogue("You've already had a reading done today. Come back another time.");
+				if (who.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
+				{
+					Game1.drawObjectDialogue("You've already had a reading done today. Come back another time.");
+					return false;
+				}
+
+				// if you have seen the necessary event
+				if (who.eventsSeen.Contains(20031411))
+				{
+					currentLoc.createQuestionDialogue("Would you like to have a tarot reading done?",
+						currentLoc.createYesNoResponses(), "tarotReading");
+					return false;
+				}
+
+				// otherwise generic rejection dialogue
+				Game1.drawObjectDialogue("Diala is busy.");
 				return false;
 			}
 
-			// if you have seen the necessary event
-			if (who.eventsSeen.Contains(20031411))
-			{
-				currentLoc.createQuestionDialogue("Would you like to have a tarot reading done?",
-					currentLoc.createYesNoResponses(), "tarotReading");
-				return false;
-			}
-
-			// otherwise generic rejection dialogue
-			Game1.drawObjectDialogue("Diala is busy.");
+			// if diala is not on the map or near the tile location
+			Game1.drawObjectDialogue("Come back when Diala is here.");
 			return false;
 		}
-
-		// if diala is not on the map or near the tile location
-		Game1.drawObjectDialogue("Come back when Diala is here.");
-		return false;
+		catch (Exception e)
+		{
+			Log.Error($"Harmony patch \"{nameof(performAction_Prefix)}\" has encountered an error while handling \"{action}\" at ({tileLocation.X}, {tileLocation.Y}) on {Game1.currentLocation}: \n{e}");
+			return true;
+		}
 	}
 
 	/// <summary>
@@ -68,18 +79,26 @@ internal class TarotEventPatches
 	[HarmonyPrefix]
 	public static bool answerDialogueAction_Prefix(string questionAndAnswer)
 	{
-		if (questionAndAnswer != "tarotReading_Yes")
+		try
+		{
+			if (questionAndAnswer != "tarotReading_Yes")
+				return true;
+
+			Game1.player.modData["SunberryTeam.SBV/Tarot/ReadingDoneForToday"] = "true";
+
+			Game1.activeClickableMenu = null;
+			GameLocation currentLoc = Game1.currentLocation;
+
+			string eventString = Game1.content.Load<Dictionary<string, string>>("SunberryTeam.SBV/Tarot/Event")["Event"];
+
+			currentLoc.startEvent(new Event(eventString));
+			return false;
+		}
+		catch (Exception e)
+		{
+			Log.Error($"Harmony patch \"{nameof(TarotEventPatches)}::{nameof(answerDialogueAction_Prefix)}\" has encountered an error while handling \"{questionAndAnswer}\": \n{e}");
 			return true;
-
-		Game1.player.modData["SunberryTeam.SBV/Tarot/ReadingDoneForToday"] = "true";
-
-		Game1.activeClickableMenu = null;
-		GameLocation currentLoc = Game1.currentLocation;
-
-		string eventString = Game1.content.Load<Dictionary<string, string>>("SunberryTeam.SBV/Tarot/Event")["Event"];
-
-		currentLoc.startEvent(new Event(eventString));
-		return false;
+		}
 	}
 
 	/// <summary>
@@ -92,16 +111,24 @@ internal class TarotEventPatches
 	[HarmonyPrefix]
 	public static bool command_cutscene_Prefix(Event __instance, string[] split)
 	{
-		if (__instance.currentCustomEventScript != null)
+		try
+		{
+			if (__instance.currentCustomEventScript != null)
+				return true;
+
+			if (split.Length <= 1)
+				return true;
+
+			if (split[1] == "DialaTarot")
+				__instance.currentCustomEventScript = new EventScriptDialaTarot();
+
 			return true;
-
-		if (split.Length <= 1)
+		}
+		catch (Exception e)
+		{
+			Log.Error($"Harmony patch \"{nameof(TarotEventPatches)}::{nameof(command_cutscene_Prefix)}\" has encountered an error during event \"{__instance.id}\" at command {string.Join(" ", split)}: \n{e}");
 			return true;
-
-		if (split[1] == "DialaTarot")
-			__instance.currentCustomEventScript = new EventScriptDialaTarot();
-
-		return true;
+		}
 	}
 }
 

@@ -1,7 +1,10 @@
+using System;
 using HarmonyLib;
 using StardewValley;
 using StardewValley.Menus;
 using SunberryVillage.PortraitShake;
+using SunberryVillage.Utilities;
+
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
 // ReSharper disable RedundantAssignment
@@ -27,8 +30,16 @@ internal class PortraitShakePatches
 	[HarmonyPrefix]
 	public static bool shouldPortraitShake_Prefix(Dialogue d, ref bool __result)
 	{
-		__result = PortraitShakeHandler.PortraitShouldShake.Value;
-		return !__result;
+		try
+		{
+			__result = PortraitShakeHandler.PortraitShouldShake.Value;
+			return !__result;
+		}
+		catch (Exception e)
+		{
+			Log.Error($"Harmony patch \"{nameof(PortraitShakePatches)}::{nameof(shouldPortraitShake_Prefix)}\" has encountered an error while handling dialogue \"{d.dialogues[d.currentDialogueIndex]}\": \n{e}");
+			return true;
+		}
 	}
 
 	/// <summary>
@@ -39,8 +50,15 @@ internal class PortraitShakePatches
 	[HarmonyPostfix]
 	public static void receiveLeftClick_Postfix(DialogueBox __instance)
 	{
-		if (__instance.characterDialogue is not null)
-			PortraitShakeHandler.SetShake(__instance.characterDialogue);
+		try
+		{
+			if (__instance.characterDialogue is not null)
+				PortraitShakeHandler.SetShake(__instance.characterDialogue);
+		}
+		catch (Exception e)
+		{
+			Log.Error($"Harmony patch \"{nameof(PortraitShakePatches)}::{nameof(shouldPortraitShake_Prefix)}\" has encountered an error while handling dialogue box for dialogue \"{__instance.characterDialogue?.dialogues[__instance.characterDialogue?.currentDialogueIndex ?? 0] ?? "[unknown dialogue]"}\": \n{e}");
+		}
 	}
 }
 

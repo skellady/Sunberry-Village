@@ -1,7 +1,10 @@
+using System;
 using HarmonyLib;
 using StardewValley;
 using StardewValley.Quests;
 using System.Text.RegularExpressions;
+using SunberryVillage.Utilities;
+
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
 // ReSharper disable RedundantAssignment
@@ -30,28 +33,35 @@ internal class ConversationTopicPatches
 	[HarmonyPostfix]
 	public static void checkForSpecialDialogueAttributes_Postfix(Dialogue __instance)
 	{
-		// get current dialogue line
-		string currentDialogue = __instance.dialogues[__instance.currentDialogueIndex];
-
-		// define pattern and search for matches in current line
-		Regex pattern = new(@"={3}(?<ctName>[A-Za-z0-9_]+)(?:\/(?<duration>\d+))?={3}");
-		MatchCollection matches = pattern.Matches(currentDialogue);
-
-		// for each match, add a CT with the corresponding ctName group. If duration is specified, use that duration; otherwise, default to 1.
-		foreach (Match match in matches)
+		try
 		{
-			string ctName = match.Groups["ctName"].Value;
-			int duration = match.Groups["duration"].Value != "" ? int.Parse(match.Groups["duration"].Value) : 1;
+			// get current dialogue line
+			string currentDialogue = __instance.dialogues[__instance.currentDialogueIndex];
 
-			if (Game1.player.activeDialogueEvents.ContainsKey(ctName))
-				Game1.player.activeDialogueEvents[ctName] = duration;
-			else
-				Game1.player.activeDialogueEvents.Add(ctName, duration);
+			// define pattern and search for matches in current line
+			Regex pattern = new(@"={3}(?<ctName>[A-Za-z0-9_]+)(?:\/(?<duration>\d+))?={3}");
+			MatchCollection matches = pattern.Matches(currentDialogue);
+
+			// for each match, add a CT with the corresponding ctName group. If duration is specified, use that duration; otherwise, default to 1.
+			foreach (Match match in matches)
+			{
+				string ctName = match.Groups["ctName"].Value;
+				int duration = match.Groups["duration"].Value != "" ? int.Parse(match.Groups["duration"].Value) : 1;
+
+				if (Game1.player.activeDialogueEvents.ContainsKey(ctName))
+					Game1.player.activeDialogueEvents[ctName] = duration;
+				else
+					Game1.player.activeDialogueEvents.Add(ctName, duration);
+			}
+
+			// remove any matches from dialogue
+			if (matches.Count > 0)
+				__instance.dialogues[__instance.currentDialogueIndex] = pattern.Replace(currentDialogue, "");
 		}
-
-		// remove any matches from dialogue
-		if (matches.Count > 0)
-			__instance.dialogues[__instance.currentDialogueIndex] = pattern.Replace(currentDialogue, "");
+		catch (Exception e)
+		{
+			Log.Error($"Harmony patch \"{nameof(ConversationTopicPatches)}::{nameof(checkForSpecialDialogueAttributes_Postfix)}\" has encountered an error while handling dialogue for {__instance.speaker?.Name ?? "unknown NPC"}: \"{__instance.dialogues[__instance.currentDialogueIndex]}\". \n{e}");
+		}
 	}
 
 	/// <summary>
@@ -62,22 +72,29 @@ internal class ConversationTopicPatches
 	[HarmonyPostfix]
 	public static void questComplete_Postfix(Quest __instance)
 	{
-		string title = __instance.questTitle.Replace(" ", "");
-		string name = __instance.questType.Value switch
+		try
 		{
-			3 => (__instance as ItemDeliveryQuest)?.target.Value,
-			4 => (__instance as SlayMonsterQuest)?.target.Value,
-			7 => (__instance as FishingQuest)?.target.Value,
-			10 => (__instance as ResourceCollectionQuest)?.target.Value,
-			_ => null
-		};
+			string title = __instance.questTitle.Replace(" ", "");
+			string name = __instance.questType.Value switch
+			{
+				3 => (__instance as ItemDeliveryQuest)?.target.Value,
+				4 => (__instance as SlayMonsterQuest)?.target.Value,
+				7 => (__instance as FishingQuest)?.target.Value,
+				10 => (__instance as ResourceCollectionQuest)?.target.Value,
+				_ => null
+			};
 
-		string questKey = "QuestComplete_" + title + (name is not null ? "_" + name : "");
+			string questKey = "QuestComplete_" + title + (name is not null ? "_" + name : "");
 
-		if (Game1.player.activeDialogueEvents.ContainsKey(questKey))
-			return;
+			if (Game1.player.activeDialogueEvents.ContainsKey(questKey))
+				return;
 
-		Game1.player.activeDialogueEvents.Add(questKey, __instance.dailyQuest.Value ? 1 : 7);
+			Game1.player.activeDialogueEvents.Add(questKey, __instance.dailyQuest.Value ? 1 : 7);
+		}
+		catch (Exception e)
+		{
+			Log.Error($"Harmony patch \"{nameof(ConversationTopicPatches)}::{nameof(questComplete_Postfix)}\" has encountered an error while handling conversation topic for completion of quest \"{__instance.questTitle}\": \n{e}");
+		}
 	}
 }
 

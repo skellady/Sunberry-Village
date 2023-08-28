@@ -52,7 +52,7 @@ internal class AnimationsPatches
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch \"{nameof(startRouteBehavior_Postfix)}\" has encountered an error for {__instance.Name} with {behaviorName}: \n{e}");
+			Log.Error($"Harmony patch \"{nameof(AnimationsPatches)}::{nameof(startRouteBehavior_Postfix)}\" has encountered an error for {__instance.Name} with {behaviorName}: \n{e}");
 		}
 	}
 
@@ -86,7 +86,7 @@ internal class AnimationsPatches
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch \"{nameof(finishRouteBehavior_Prefix)}\" has encountered an error for {__instance.Name} with {behaviorName}: \n{e}");
+			Log.Error($"Harmony patch \"{nameof(AnimationsPatches)}::{nameof(finishRouteBehavior_Prefix)}\" has encountered an error for {__instance.Name} with {behaviorName}: \n{e}");
 			return true;
 		}
 	}
