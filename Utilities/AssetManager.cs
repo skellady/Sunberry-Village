@@ -39,7 +39,7 @@ internal class AssetManager
 		#region BigAnimations
 
 		else if (e.Name.IsEquivalentTo(AnimationsHandler.AnimationsAssetPath))
-			e.LoadFrom(() => new Dictionary<string, AnimationsHandler.AnimationDataModel>(), AssetLoadPriority.Low);
+			e.LoadFrom(() => new Dictionary<string, AnimationDataModel>(), AssetLoadPriority.Low);
 
 		#endregion
 	}
@@ -47,6 +47,6 @@ internal class AssetManager
 	internal static void ReloadAssets()
 	{
 		PortraitShakeHandler.PortraitsDict = Globals.GameContent.Load<Dictionary<string, PortraitShakeModel>>(PortraitShakeHandler.PortraitShakeAssetPath);
-		AnimationsHandler.AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationsHandler.AnimationDataModel>>(AnimationsHandler.AnimationsAssetPath);
+		AnimationsHandler.AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(AnimationsHandler.AnimationsAssetPath);
 	}
 }

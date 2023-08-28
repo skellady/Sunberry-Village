@@ -36,7 +36,7 @@ internal class AnimationsPatches
 			if (behaviorName.Length > 0 && behaviorName[0] == '"')
 				return;
 
-			if (!AnimationsHandler.AnimationData.TryGetValue(behaviorName, out AnimationsHandler.AnimationDataModel animation))
+			if (!AnimationsHandler.AnimationData.TryGetValue(behaviorName, out AnimationDataModel animation))
 				return;
 
 			if (animation.Size != Vector2.Zero)

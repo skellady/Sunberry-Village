@@ -3,7 +3,7 @@ using StardewModdingAPI;
 
 namespace SunberryVillage.Utilities;
 
-// Credit to kittycatcasey
+// Credit to kittycatcasey for initial version. i've iterated on it a bit :3
 internal class Log
 {
 	public static IMonitor Monitor;
