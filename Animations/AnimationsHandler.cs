@@ -22,8 +22,16 @@ internal class AnimationsHandler
 	{
 		try
 		{
-			foreach (NPC npc in AnimationData.Select(entry => Game1.getCharacterFromName(entry.Value.NpcName)))
+			foreach (string npcName in AnimationData.Select(entry => entry.Value.NpcName))
 			{
+				NPC npc = Game1.getCharacterFromName(npcName);
+
+				if (npc is null)
+				{
+					Log.Warn($"Failed to find NPC named \"{npcName}\" from asset {AnimationsAssetPath}. Skipping this entry.");
+					continue;
+				}
+
 				npc.Sprite.SpriteHeight = 32;
 				npc.Sprite.SpriteWidth = 16;
 				npc.Sprite.ignoreSourceRectUpdates = false;
@@ -35,7 +43,7 @@ internal class AnimationsHandler
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Failed in SBV Animations Day End reset:\n{e}");
+			Log.Error($"Failed in {nameof(AnimationsHandler)}::{nameof(DayEnd)}:\n{e}");
 		}
 	}
 }
