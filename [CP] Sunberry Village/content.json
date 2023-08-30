@@ -392,6 +392,12 @@
       "Action": "Include",
       "FromFile": "Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/MapMusic.json",
     },
+    // Dynamic Changes Includes
+    {
+      "LogName": "Include Dynamic Changes",
+      "Action": "Include",
+      "FromFile": "Data/DynamicChanges/MapChanges.json, Data/DynamicChanges/OutfitChanges.json",
+    },
     // NPC Data Includes
     {
       "LogName": "Include NPC Data",
