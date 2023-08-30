@@ -1250,7 +1250,7 @@
 
     // Maia Fourth Weapon (Baleful Blade)
     "SBV.SpecialOrder.MaiaWeapon4_Name": "Menacing Blade",
-    "SBV.SpecialOrder.MaiaWeapon4_Text": "I found this blueprint for an ancient blade a while back. Silas and Raz have been talking so we can make it and infuse it correctly. I'm missing a few materials still and won't be able to gather them myself since I'm taking Amina to visit her father. If you're able to gather them, I'll compensate you.",
+    "SBV.SpecialOrder.MaiaWeapon4_Text": "I found this blueprint for an ancient blade a while back. Silas and Raz have been talking so we can make it and infuse it correctly. If you're able to gather the materials we're missing, I'll compensate you.",
     "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_0": "Collect 5 Rubies",
     "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_1": "Collect 10 Void Essence",
     "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_2": "Collect 10 Bat Wings",
@@ -2119,7 +2119,7 @@
     "Festivals.FlowerDance.Maia": "I'm booing whoever choreographed this dance. Boo! It needs more energy and passion.$u",
     "Festivals.FlowerDance.Miyoung": "Heh, Silas really liked the dress Ezra made me! His eyes lit up when he saw me this morning.$4",
     "Festivals.FlowerDance.Moon": "Moon doesn't dance. Moon jumps!$h#$b#...Moon falls over sometimes.$s",
-    "Festivals.FlowerDance.Ophelia": "Ah, hello, @. I'm not here to dance, I promise Jumana I'd come admire her flower arrangements. Beautiful as always.$u",
+    "Festivals.FlowerDance.Ophelia": "Ah, hello, @. I'm not here to dance, I promised Jumana I'd come admire her flower arrangements. Beautiful as always.$u",
     "Festivals.FlowerDance.Reihana": "I'm SO ready to watch people embarrass themselves. I have my binoculars and some snacks.$8",
     "Festivals.FlowerDance.Silas": "Yoba, Miyoung gets more beautiful every day. I'm actually speechless. I can't wait to dance with her.$4",
     //Luau
