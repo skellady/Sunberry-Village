@@ -23,5 +23,14 @@
   "TowerReversed.desc": "Something looms in the horizon. Don't be afraid. Embrace the change.",
   "AceOfPentacles.desc": "Abundance and prosperity is on the way. Welcome all opportunities.",
   "ThreeOfSwordsReversed.desc": "Allow yourself to recover and grieve the past. Let go. Don't look back.",
-  "WheelOfFortune.desc": "Luck is on your side today. Embrace what you cannot control."
+  "WheelOfFortune.desc": "Luck is on your side today. Embrace what you cannot control.",
+
+  // Elias Song Dialogue
+
+  "SongIntro": "Tonight's song is called...",
+  "poppy.name": "Poppy",
+  "SettlingIn.name": "Settling In",
+  "kindadumbautumn.name": "Kinda Dumb Autumn",
+  "SongCredits": ", by Eric Barone.",
+  "SongOutro": "Thanks for listenin', y'all."
 }

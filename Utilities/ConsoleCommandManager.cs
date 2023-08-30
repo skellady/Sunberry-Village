@@ -10,6 +10,9 @@ internal class ConsoleCommandManager
 	internal static void InitializeConsoleCommands()
 	{
 #if DEBUG
+
+		#region Tarot
+
 		Globals.CCHelper.Add("sbv.tarot.forceevent", "Test Diala's tarot event", (_, _) =>
 			{
 				if (!IsWorldReady())
@@ -31,6 +34,10 @@ internal class ConsoleCommandManager
 			}
 		);
 
+		#endregion
+
+		#region Quests
+
 		Globals.CCHelper.Add("sbv.quests.completeall", "Marks all quests in your log as completed.", (_, _) =>
 			{
 				if (!IsWorldReady())
@@ -42,6 +49,8 @@ internal class ConsoleCommandManager
 				}
 			}
 		);
+
+		#endregion
 
 #endif
 	}
