@@ -1,6 +1,7 @@
 using StardewValley;
 using StardewValley.Menus;
 using SunberryVillage.Animations;
+using SunberryVillage.Lighting;
 using SunberryVillage.PortraitShake;
 using SunberryVillage.PositionalAudio;
 using System;
@@ -31,8 +32,11 @@ internal class EventHookManager
 		Globals.EventHelper.GameLoop.DayStarted += ChooseMusic;
 		Globals.EventHelper.GameLoop.DayEnding += ClearSongIntroFlag;
 		Globals.EventHelper.GameLoop.SaveLoaded += InitializeSoundCues;
-		Globals.EventHelper.Player.Warped += OnWarped;
+		Globals.EventHelper.Player.Warped += HandleAudioOnWarp;
 		Globals.EventHelper.GameLoop.ReturnedToTitle += (_, _) => CleanUpMusicAndHandlers(fadeOut: false);
+
+		// Lighting
+		Globals.EventHelper.Player.Warped += HandleLightsOnWarp;
 	}
 
 	#region General
@@ -79,7 +83,7 @@ internal class EventHookManager
 	// idk it makes sense to me
 
 	// because these hooks are being added dynamically, track them so we don't leave behind or duplicate any
-	private static int RecheckConditionsHooks = 0;
+	private static int RecheckConditionsForMusicHooks = 0;
 	private static int FadeOutHooks = 0;
 	private static int UpdateVolumeHooks = 0;
 	private static int RestartSongIfNecessaryHooks = 0;
@@ -105,7 +109,7 @@ internal class EventHookManager
 	/// <summary>
 	/// Determines if the player is warping in or out of Sunberry Village and updates music status and event hooks if needed.
 	/// </summary>
-	private static void OnWarped(object sender, StardewModdingAPI.Events.WarpedEventArgs e)
+	private static void HandleAudioOnWarp(object sender, StardewModdingAPI.Events.WarpedEventArgs e)
 	{
 		GameLocation newLoc = e.NewLocation;
 		GameLocation oldLoc = e.OldLocation;
@@ -119,9 +123,9 @@ internal class EventHookManager
 			}
 			else
 			{
-				if (RecheckConditionsHooks == 0)
+				if (RecheckConditionsForMusicHooks == 0)
 				{
-					RecheckConditionsHooks++;
+					RecheckConditionsForMusicHooks++;
 					Globals.EventHelper.GameLoop.UpdateTicked += RecheckConditionsForMusic;
 				}
 				//TraceHooks();
@@ -140,9 +144,9 @@ internal class EventHookManager
 	private static void CleanUpMusicAndHandlers(bool fadeOut = false)
 	{
 		// make sure there are no stray conditional hooks
-		while (RecheckConditionsHooks > 0)
+		while (RecheckConditionsForMusicHooks > 0)
 		{
-			RecheckConditionsHooks--;
+			RecheckConditionsForMusicHooks--;
 			Globals.EventHelper.GameLoop.UpdateTicked -= RecheckConditionsForMusic;
 		}
 		while (UpdateVolumeHooks > 0)
@@ -220,10 +224,10 @@ internal class EventHookManager
 			Globals.EventHelper.GameLoop.OneSecondUpdateTicked += RestartSongIfNecessary; 
 		RestartSongIfNecessaryHooks++;
 		}
-		if (RecheckConditionsHooks == 0)
+		if (RecheckConditionsForMusicHooks == 0)
 		{
 			Globals.EventHelper.GameLoop.UpdateTicked += RecheckConditionsForMusic;
-			RecheckConditionsHooks++;
+			RecheckConditionsForMusicHooks++;
 		}
 		
 		//TraceHooks();
@@ -272,6 +276,25 @@ internal class EventHookManager
 	private static void RestartSongIfNecessary(object sender, StardewModdingAPI.Events.OneSecondUpdateTickedEventArgs e)
 	{
 		PositionalAudioHandler.RestartSongIfNecessary();
+	}
+
+	#endregion
+
+	#region Lighting
+
+	private static void HandleLightsOnWarp(object sender, StardewModdingAPI.Events.WarpedEventArgs e)
+	{
+		if (e.NewLocation.Name != "Custom_SBV_SunberryVillage")
+			return;
+
+		if (Game1.timeOfDay <= Game1.getTrulyDarkTime())
+		{
+			LightingHandler.AddLights();
+		}
+		else
+		{
+
+		}
 	}
 
 	#endregion

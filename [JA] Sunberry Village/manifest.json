@@ -2,7 +2,7 @@
     "Name": "Sunberry Village - Json Assets",
     "Author": "skellady",
     "Description": "JA component for Sunberry Village.",
-    "Version": "1.0.0",
+    "Version": "0.2.0",
     "MinimumApiVersion": "3.7.0",
     "UniqueID": "skellady.SBVJA",
     "UpdateKeys": ["Nexus:-1"],
