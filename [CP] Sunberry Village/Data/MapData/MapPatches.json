@@ -321,13 +321,13 @@
         "X": 0,
         "Y": 0,
         "Width": 28,
-        "Height": 9
+        "Height": 8
       },
       "ToArea": {
         "X": 0,
-        "Y": 41,
+        "Y": 42,
         "Width": 28,
-        "Height": 9
+        "Height": 8
       }
     },
     // Luau
