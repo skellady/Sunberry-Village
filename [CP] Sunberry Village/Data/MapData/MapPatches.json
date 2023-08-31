@@ -335,6 +335,42 @@
       "Action": "EditMap",
       "Target": "Maps/Beach-Luau",
       "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 68,
+        "Y": 25,
+        "Width": 4,
+        "Height": 4
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau2.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 25,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 27,
+        "Width": 25,
+        "Height": 15
+      }
+    },
+   /* {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau",
+      "PatchMode": "Replace",
       "FromFile": "Assets/Maps/MapPatches/SBVLuau.tmx",
       "FromArea": {
         "X": 0,
@@ -348,7 +384,7 @@
         "Width": 23,
         "Height": 23
       }
-    },
+    },*/
     {
       "Action": "EditMap",
       "Target": "Maps/Beach-Luau",
@@ -397,18 +433,36 @@
       "Action": "EditMap",
       "Target": "Maps/Beach-Jellies",
       "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 68,
+        "Y": 25,
+        "Width": 4,
+        "Height": 4
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Jellies",
+      "PatchMode": "Replace",
       "FromFile": "Assets/Maps/MapPatches/SBVJellies.tmx",
       "FromArea": {
         "X": 0,
         "Y": 0,
-        "Width": 23,
-        "Height": 24
+        "Width": 25,
+        "Height": 15
       },
       "ToArea": {
-        "X": 58,
-        "Y": 25,
-        "Width": 23,
-        "Height": 24
+        "X": 56,
+        "Y": 27,
+        "Width": 25,
+        "Height": 15
       }
     }
   ]
