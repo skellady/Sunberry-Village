@@ -35,6 +35,10 @@ internal class ConversationTopicPatches
 	{
 		try
 		{
+			// just for safety's sake
+			if (__instance.dialogues.Count <= __instance.currentDialogueIndex)
+				return;
+
 			// get current dialogue line
 			string currentDialogue = __instance.dialogues[__instance.currentDialogueIndex];
 
