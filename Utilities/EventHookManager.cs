@@ -37,6 +37,7 @@ internal class EventHookManager
 
 		// Lighting
 		Globals.EventHelper.Player.Warped += HandleLightsOnWarp;
+		Globals.EventHelper.GameLoop.ReturnedToTitle += CleanUpLights;
 	}
 
 	#region General
@@ -282,19 +283,24 @@ internal class EventHookManager
 
 	#region Lighting
 
+	/// <summary>
+	/// Adds light to Saturday hangout spot upon entering Sunberry Village, and removes it upon leaving.
+	/// </summary>
 	private static void HandleLightsOnWarp(object sender, StardewModdingAPI.Events.WarpedEventArgs e)
 	{
-		if (e.NewLocation.Name != "Custom_SBV_SunberryVillage")
-			return;
+		if (e.NewLocation.Name == "Custom_SBV_SunberryVillage")
+			LightingHandler.AddLight();
 
-		if (Game1.timeOfDay <= Game1.getTrulyDarkTime())
-		{
-			LightingHandler.AddLights();
-		}
-		else
-		{
+		else if (e.OldLocation.Name == "Custom_SBV_SunberryVillage")
+			LightingHandler.RemoveLight();
+	}
 
-		}
+	/// <summary>
+	/// Removes light when exiting to title, just to be safe.
+	/// </summary>
+	private static void CleanUpLights(object sender, StardewModdingAPI.Events.ReturnedToTitleEventArgs e)
+	{
+		LightingHandler.RemoveLight();
 	}
 
 	#endregion

@@ -1,6 +1,8 @@
+using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Quests;
+using SunberryVillage.Lighting;
 using System.Collections.Generic;
 
 namespace SunberryVillage.Utilities;
@@ -52,8 +54,51 @@ internal class ConsoleCommandManager
 
 		#endregion
 
+		#region Lighting
+
+		Globals.CCHelper.Add("sbv.light.add", "Adds or updates test light in Sunberry. Optional argument: [radius (as a float)]", (string command, string[] args) =>
+			{
+				if (!IsWorldReady())
+					return;
+
+				// was on the verge of making this way more complicated and decided to scale it back. may revisit it if i feel the need to.
+				// okay yes i will revisit this later bc im overhauling the lighting stuff :arson:
+				switch (args.Length)
+				{
+					// one parameter provided - assumed to be radius
+					case 1:
+							if (float.TryParse(args[0], out float value))
+								LightingHandler.AddLight(value);
+
+							else
+								Log.Warn($"Unrecognized argument \"{args[0]}\"");
+
+							break;
+
+					// no arguments provided - use default parameters
+					case 0:
+					default:
+						LightingHandler.AddLight();
+						break;
+				}
+			}
+		);
+
+		Globals.CCHelper.Add("sbv.light.remove", "Removes test light in Sunberry.", (_, _) =>
+			{
+				if (!IsWorldReady())
+					return;
+
+				LightingHandler.RemoveLight();
+			}
+		);
+
+		#endregion
+
 #endif
 	}
+
+	// Helpers
 
 	internal static bool IsWorldReady()
 	{
@@ -63,4 +108,6 @@ internal class ConsoleCommandManager
 		return false;
 
 	}
+
+
 }
