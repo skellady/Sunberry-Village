@@ -1,9 +1,9 @@
-using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Quests;
 using SunberryVillage.Lighting;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SunberryVillage.Utilities;
 
@@ -56,40 +56,87 @@ internal class ConsoleCommandManager
 
 		#region Lighting
 
-		Globals.CCHelper.Add("sbv.light.add", "Adds or updates test light in Sunberry. Optional argument: [radius (as a float)]", (string command, string[] args) =>
+		Globals.CCHelper.Add("sbv.lights.add", "Adds or updates test light on the current map." +
+			"\nFormat: \"sbv.lights.add\" OR \"sbv.lights.add [id] [xPos] [yPos] [intensity]\". If no arguments provided, will use random id, current position and default intensity of 1.0." +
+			"\nArguments:" +
+			"\n\tid (string): The id of the light to add. This will allow you to edit or remove the light later." +
+			"\n\txPos (float): X position (in tiles) where the light should be added. May use decimals (i.e., 58.5 is a valid argument)." +
+			"\n\tyPos (float): Y position (in tiles) where the light should be added. May use decimals (i.e., 67.1 is a valid argument)." +
+			"\n\tintensity (float): Intensity of the light. May use decimals (i.e., 3.92 is a valid argument).", (string command, string[] args) =>
 			{
 				if (!IsWorldReady())
 					return;
 
-				// was on the verge of making this way more complicated and decided to scale it back. may revisit it if i feel the need to.
-				// okay yes i will revisit this later bc im overhauling the lighting stuff :arson:
-				switch (args.Length)
+				// if no args provided, fill in default values
+				if (args.Length == 0)
 				{
-					// one parameter provided - assumed to be radius
-					case 1:
-							if (float.TryParse(args[0], out float value))
-								LightingHandler.AddLight(value);
+					string tempId = Utils.GenerateRandomString(6);
+					string xPos = Game1.player.getTileX().ToString();
+					string yPos = Game1.player.getTileY().ToString();
+					string intensity = "1";
 
-							else
-								Log.Warn($"Unrecognized argument \"{args[0]}\"");
-
-							break;
-
-					// no arguments provided - use default parameters
-					case 0:
-					default:
-						LightingHandler.AddLight();
-						break;
+					args = new string[] {tempId, xPos, yPos, intensity};
 				}
+				
+				if (LightingHandler.TryAddOrUpdateTempLight(args, out string error))
+				{
+					LightingHandler.AddLightsToCurrentLocation();
+
+					Log.Info($"Temporary light created with parameters {{{string.Join(", ", args)}}}.");
+					Log.Warn($"NOTE: THIS LIGHT WILL NOT PERSIST AFTER YOU EXIT THE GAME. IT IS SOLELY FOR TESTING PURPOSES. " +
+						$"In order to define a persistent light, you need to edit the \"{LightingHandler.LightsAssetPath}\" asset via Content Patcher. " +
+						$"See the example pack for details.");
+				}
+				else
+				{
+					Log.Error($"Error encountered while attempting to add light: {error}");
+				}
+
 			}
 		);
 
-		Globals.CCHelper.Add("sbv.light.remove", "Removes test light in Sunberry.", (_, _) =>
+		Globals.CCHelper.Add("sbv.lights.remove", "Removes temp light with given id.\nFormat: \"sbv.lights.remove [id]\".\nArguments:" +
+			"\n\tid (string): The id of the light to remove.", (_, args) =>
 			{
 				if (!IsWorldReady())
 					return;
 
-				LightingHandler.RemoveLight();
+				if (LightingHandler.RemoveTempLight(args[0]))
+					Log.Info($"Light with id \"{args[0]}\" removed.");
+				else
+					Log.Warn($"Light with id \"{args[0]}\" not removed. (Does it exist?)");
+				
+			}
+		);
+
+		Globals.CCHelper.Add("sbv.lights.listhere", "Prints list of all custom lights in the current location.", (_, _) =>
+			{
+				if (!IsWorldReady())
+					return;
+
+				GameLocation loc = Game1.currentLocation;
+
+				Log.Info($"\nData asset lights in the current location: \n\t{string.Join(",\n\t", LightingHandler.Lights.Where(kvp => kvp.Value.Location.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}" +
+					$"\n\nTemporary lights in the current location: \n\t{string.Join(",\n\t", LightingHandler.TempLights.Where(kvp => kvp.Value.Location.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
+			}
+		);
+
+		Globals.CCHelper.Add("sbv.lights.listall", "Prints list of all custom lights.", (_, _) =>
+			{
+				if (!IsWorldReady())
+					return;
+
+				Log.Info($"\nData asset lights: \n\t{string.Join(",\n\t", LightingHandler.Lights.Select(kvp => $"{kvp.Key}: {kvp.Value}"))}" +
+					$"\n\nTemporary lights: \n\t{string.Join(",\n\t", LightingHandler.TempLights.Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
+			}
+		);
+
+		Globals.CCHelper.Add("sbv.lights.dumplights", "Prints list of all light sources in the current location.", (_, _) =>
+			{
+				if (!IsWorldReady())
+					return;
+
+				Log.Info($"Light sources in the current location:\n\t{string.Join(",\n\t", Game1.currentLightSources.Select(l => $"{l.Identifier}: {{{l.textureIndex} | {l.position} | {l.radius} | {l.lightContext} | {l.PlayerID}}}"))}");
 			}
 		);
 
