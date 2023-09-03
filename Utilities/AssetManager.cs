@@ -1,7 +1,6 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI.Events;
-using StardewValley;
 using SunberryVillage.Animations;
 using SunberryVillage.Lighting;
 using SunberryVillage.PortraitShake;
@@ -52,9 +51,9 @@ internal class AssetManager
 			e.LoadFrom(() => new Dictionary<string, LightDataModel>
 			{
 				["sophie.SBVSaturdayHangoutLight"] = new LightDataModel(
-					location: "Custom_SBV_SunberryVillage",
-					position: new Vector2(59f, 85.5f),
-					intensity: 4.8f)
+					Location: "Custom_SBV_SunberryVillage",
+					Position: new Vector2(59f, 85.5f),
+					Intensity: 4.8f)
 			}, AssetLoadPriority.Low);
 
 		#endregion

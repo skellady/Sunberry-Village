@@ -30,7 +30,7 @@ namespace SunberryVillage.Lighting
 				}
 				else
 				{
-					GameLocation loc = Game1.currentLocation;
+					string loc = Game1.currentLocation.Name;
 					LightDataModel lightData = new(loc, new Vector2(xPos, yPos), intensity);
 
 					RemoveTempLight(id);
@@ -64,7 +64,7 @@ namespace SunberryVillage.Lighting
 		{
 			IEnumerable<KeyValuePair<string, LightDataModel>> allLights = Lights.Union(TempLights);
 
-			foreach (var light in allLights.Where(kvp => kvp.Value.Location == Game1.currentLocation))
+			foreach (var light in allLights.Where(kvp => kvp.Value.GameLocation == Game1.currentLocation))
 			{
 				Game1.currentLightSources.Add(light.Value.LightSource);
 			}
@@ -73,25 +73,25 @@ namespace SunberryVillage.Lighting
 
 	internal class LightDataModel
 	{
-		public GameLocation Location;
+		public string Location;
 		public Vector2 Position;
 		public float Intensity;
+		internal GameLocation GameLocation;
 		internal LightSource LightSource;
 
-		public LightDataModel(string location, Vector2 position, float intensity) : this(Game1.getLocationFromName(location), position, intensity)
-		{ }
-
-		public LightDataModel(GameLocation location, Vector2 position, float intensity)
+		public LightDataModel(string Location, Vector2 Position, float Intensity)
 		{
-			Location = location;
-			Position = position;
-			Intensity = intensity;
+			this.Location = Location;
+			this.Position = Position;
+			this.Intensity = Intensity;
+
+			GameLocation = Game1.getLocationFromName(Location);
 			LightSource = new(4, Position * 64f, Intensity);
 		}
 
 		public override string ToString()
 		{
-			return $"{{{Location.Name} | ({Position.X}, {Position.Y}) | {Intensity}}}";
+			return $"{{Location: {Location} | Position: ({Position.X}, {Position.Y}) | Intensity: {Intensity}}}";
 		}
 	}
 }

@@ -116,8 +116,8 @@ internal class ConsoleCommandManager
 
 				GameLocation loc = Game1.currentLocation;
 
-				Log.Info($"\nData asset lights in the current location: \n\t{string.Join(",\n\t", LightingHandler.Lights.Where(kvp => kvp.Value.Location.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}" +
-					$"\n\nTemporary lights in the current location: \n\t{string.Join(",\n\t", LightingHandler.TempLights.Where(kvp => kvp.Value.Location.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
+				Log.Info($"\nData asset lights in the current location: \n\t{string.Join(",\n\t", LightingHandler.Lights.Where(kvp => kvp.Value.GameLocation.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}" +
+					$"\n\nTemporary lights in the current location: \n\t{string.Join(",\n\t", LightingHandler.TempLights.Where(kvp => kvp.Value.GameLocation.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
 			}
 		);
 
