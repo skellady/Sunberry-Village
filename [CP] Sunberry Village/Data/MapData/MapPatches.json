@@ -141,7 +141,7 @@
     {
       "Action": "EditMap",
       "Target": "Maps/Town-EggFestival",
-      "PatchMode": "ReplaceByLayer",
+      "PatchMode": "Replace",
       "FromFile": "Assets/Maps/MapPatches/SBV_NEW_EggFestival.tmx",
       "FromArea":{
         "X": 0,
@@ -150,7 +150,7 @@
         "Height": 9
       },
       "ToArea": {
-        "X": 58,
+        "X": 59,
         "Y": 65,
         "Width": 10,
         "Height": 9
@@ -249,6 +249,29 @@
     {
       "Action": "EditMap",
       "Target": "Maps/Town-Fair",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_RSV_FairEntrance.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 1,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 41,
+        "Y": 32,
+        "Width": 1,
+        "Height": 4
+      },
+      "When": {
+        "HasMod: |contains=Rafseazz.RSVCP": false,
+        "HasMod: |contains=DaisyNiko.SVR3": false,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
       "PatchMode": "Overlay",
       "FromFile": "Assets/Maps/MapPatches/SBV_SVE_Fair.tmx",
       "FromArea": {
@@ -272,19 +295,19 @@
     {
       "Action": "EditMap",
       "Target": "Maps/Town-Christmas",
-      "PatchMode": "Overlay",
+      "PatchMode": "Replace",
       "FromFile": "Assets/Maps/MapPatches/SBVWinterFeast.tmx",
       "FromArea": {
         "X": 0,
         "Y": 0,
-        "Width": 18,
-        "Height": 18
+        "Width": 10,
+        "Height": 10
       },
       "ToArea": {
-        "X": 56,
-        "Y": 60,
-        "Width": 18,
-        "Height": 18
+        "X": 59,
+        "Y": 64,
+        "Width": 10,
+        "Height": 10
       },
       "When": {
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
@@ -293,26 +316,26 @@
     {
       "Action": "EditMap",
       "Target": "Maps/Town-Christmas",
-      "PatchMode": "Overlay",
+      "PatchMode": "Replace",
       "FromFile": "Assets/Maps/MapPatches/SBV_SVE_WinterFeast.tmx",
       "FromArea": {
         "X": 0,
         "Y": 0,
-        "Width": 18,
-        "Height": 18
+        "Width": 10,
+        "Height": 10
       },
       "ToArea": {
-        "X": 56,
-        "Y": 60,
-        "Width": 18,
-        "Height": 18
+        "X": 59,
+        "Y": 64,
+        "Width": 10,
+        "Height": 10
       },
       "When": {
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
       }
     },
     // Flower Dance
-    {
+    /*{
       "Action": "EditMap",
       "Target": "Maps/Forest-FlowerFestival",
       "PatchMode": "Replace",
@@ -328,6 +351,42 @@
         "Y": 42,
         "Width": 28,
         "Height": 8
+      }
+    },*/
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Forest-FlowerFestival",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_FlowerDance1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 21,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 6,
+        "Y": 42,
+        "Width": 21,
+        "Height": 2
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Forest-FlowerFestival",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_FlowerDance2.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 35,
+        "Height": 6
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 44,
+        "Width": 35,
+        "Height": 6
       }
     },
     // Luau

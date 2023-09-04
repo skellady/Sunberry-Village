@@ -26,7 +26,7 @@
 				//0 Hearts
 				"Mon": "{{i18n:Ophelia.Dialogue.Mon}}",
 				"Tue": "{{i18n:Ophelia.Dialogue.Tue}}",
-				"Wed": "{{i18n:Ophelia.Dialogue.Wed}}",
+				"Thu": "{{i18n:Ophelia.Dialogue.Thu}}",
 				"Fri": "{{i18n:Ophelia.Dialogue.Fri}}",
 				"Sat": "{{i18n:Ophelia.Dialogue.Sat}}",
 				"Sun": "{{i18n:Ophelia.Dialogue.Sun}}",
@@ -76,7 +76,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/OpheliaSBV",
 			"Entries": {
-				"Thu": "{{i18n:Ophelia.Dialogue.Thu}}",
+				"Wed": "{{i18n:Ophelia.Dialogue.Wed}}",
 			},
 			"When": { "HasMod: |contains=Rafseazz.RSVCP": false }
 		},
@@ -84,7 +84,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/OpheliaSBV",
 			"Entries": {
-				"Thu": "{{i18n:Ophelia.Dialogue.ThuRSV}}",
+				"Wed": "{{i18n:Ophelia.Dialogue.WedRSV}}",
 			},
 			"When": { "HasMod: |contains=Rafseazz.RSVCP": true }
 		}

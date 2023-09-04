@@ -431,6 +431,208 @@
          "Update": "OnLocationChange",
       },
       {
+         "LogName": "Sunberry Mountain Fireflies",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_SunberryMountain",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 16,
+                  "Y": 35
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 16,
+                  "Y": 26
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 29,
+                  "Y": 28
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 24,
+                  "Y": 19
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 24,
+                  "Y": 19
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 56,
+                  "Y": 34
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 53,
+                  "Y": 7
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            }
+         ],
+         "When": {
+            "Time": "{{Range: 1800, 2400}}"
+         },
+         "Update": "OnLocationChange"
+      },
+      {
+         "LogName": "Sunberry Forest Fireflies",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_SunberryForest",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 69,
+                  "Y": 7
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 66,
+                  "Y": 16
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 77,
+                  "Y": 29
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 50,
+                  "Y": 16
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 31,
+                  "Y": 18
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 19,
+                  "Y": 29
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 14,
+                  "Y": 44
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 25,
+                  "Y": 52
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 46,
+                  "Y": 51
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 57,
+                  "Y": 54
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            },
+            {
+               "Position": {
+                  "X": 74,
+                  "Y": 47
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+               }
+            }
+         ],
+         "When": {
+            "Time": "{{Range: 1800, 2400}}"
+         },
+         "Update": "OnLocationChange"
+      },
+      {
          "LogName": "Sunberry Village Ducks",
          "Action": "EditMap",
          "Target": "Maps/Custom_SBV_SunberryVillage",

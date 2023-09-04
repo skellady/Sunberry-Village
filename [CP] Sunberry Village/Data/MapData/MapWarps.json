@@ -295,10 +295,7 @@
             "Action": "LockedDoorWarp 26 18 Custom_SBV_DialaCafe 900 2200"
           }
         }
-      ],
-      "When": {
-        "HasSeenEvent: anyPlayer |contains=20031401": true
-      },
+      ]
     },
     {
       "Action": "EditMap",

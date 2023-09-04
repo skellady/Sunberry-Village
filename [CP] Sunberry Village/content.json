@@ -46,6 +46,18 @@
       "When": {
         "HasMod |contains= Arknir.Jonghyuk, Airyn.Dao.CP": true
       }
+    },
+    {
+      "Name": "AminaSchool",
+      "Value": "800 ArchaeologyHouse 16 11 1 amina_read/1400 Town 90 92 1 amina_read",
+    },
+    {
+      "Name": "AminaSchool",
+      "Value": "700 CommunityCenter 18 21 amina_readleft/1400 Town 12 14 1 amina_read",
+      "When": {
+        "HasMod |contains= LemurKat.CommunityCenter.CP": true,
+        "HasSeenEvent": "191393"
+      }
     }
   ],
   "CustomLocations": [
@@ -414,7 +426,7 @@
     {
       "LogName": "Include Compat Stuff",
       "Action": "Include",
-      "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/LastingCTs.json",
+      "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json",
     },
     // Festival Includes 
     {

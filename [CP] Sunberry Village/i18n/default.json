@@ -175,7 +175,7 @@
     //Birthday
     "Birthday.Apple.Aicha": "OH! You got me an apple on my birthday. That's so sweet of you. I'm going to go dip it in the peanut butter Rei stole from Derya the other day!$u",
     "Birthday.Cherry.Aicha": "Aw, a cherry for my birthday! How'd you know I was craving it?$u#$b#%Aicha swallows the cherry whole, seeds and everything.",
-    "Birthday.SolarEssence.Aicha": "You got me an actual solar essence for my birthday? I've only ever seen it as a plushie! I have five of them back home.$6#$b#Thank you so much! This is the best birthday ever.$u",
+    "Birthday.SolarEssence.Aicha": "You got me an actual solar essence for my birthday? They sell them as plushies back home! I have five of them.$6#$b#Thank you so much! This is the best birthday ever.$u",
     "Birthday.FairyRose.Aicha": "Aw, for my birthday? That's so nice of you! Do you also steal your flowers from Jumana?$u#$b#...No? How else do you get them?$7",
     "Birthday.StarShards.Aicha": "Is this an actual star shard? Wow, you're so cool! How'd you manage to convince the stars to let you take one?$6#$b#Last time I tried, they got really mad. I was so embarrassed, I went back home and crawled under my blanket.$s#$b#Thank you, though! This is such a nice birthday gift.$u",
     "Birthday.FrozenTear.Aicha": "*gasp*...A frozen tear! It's... for my birthday? Aw, you're so sweet. I love it!$u",
@@ -660,6 +660,10 @@
     "Derya.Dialogue.Fountain1": "I'm glad my shoulder could be of use to Diala. Anything to make sure she's comfortable.$9",
     "Derya.Dialogue.Fountain2": "I tried convincing Diala to cook something for the gathering, but she says she does enough cooking at home. I respect that. I'm glad I'm one of the few who get to experience her delicious food.$u",
     "Derya.Dialogue.Fountain3": "Miyoung and Silas are so cute. They seem to be attached at the hip.$u",
+    "Derya.Dialogue.FollowDerya1": "Look, I already gave you all the cookies I can give you. Go away.$11",
+    "Derya.Dialogue.FollowDerya2": "Oh, my God. You're gonna scare Ari! Let me shop in peace.$s",
+    "Derya.Dialogue.FollowDerya3": "Hey, Rei, you got any games on your phone? Might as well do something fun while you follow me around all day.$9",
+    "Derya.Dialogue.FollowDerya4": "Here, too?! Seriously? Stop staring at me while I try to sleep.$10",
 
     "Diala.Dialogue.Saloon1": "I don't drink, but I enjoy coming here for the vibes.$h",
     "Diala.Dialogue.Saloon2": "I come here pretty often.#$b#Mostly to get my dose of socialization without trying too hard.$u",
@@ -707,6 +711,10 @@
     "Reihana.Dialogue.Fountain1": "Ugh, I can't believe I have to be around these people. At least we can stay back here.$12",
     "Reihana.Dialogue.Fountain2": "Hah, Aicha tried crawling in to grab some food. Just... completely forgetting she can transform or go invisible.$8",
     "Reihana.Dialogue.Fountain3": "Ugh, I wish they had dessert. I can't believe Diala and Derya wouldn't bring some baked goods.$13",
+    "Reihana.Dialogue.FollowDerya1": "Okay, but I still see another cookie riiiight over there.$8",
+    "Reihana.Dialogue.FollowDerya2": "Eh, Ari's used to it. Ooh, you should get that bag of brown sugar.$h",
+    "Reihana.Dialogue.FollowDerya3": "Wh-? Play games on your own phone.$3",
+    "Reihana.Dialogue.FollowDerya4": "Yeah, scooch over, I'm sleeping here tonight.$8",
 
     "Silas.Dialogue.Fountain1": "Ah, it's a beautiful evening, isn't it? I'm glad Miyoung and I get to spend some time with everyone.$h",
     "Silas.Dialogue.Fountain2": "Miyoung looks so beautiful tonight. But then again, she looks beautiful everyday.$u",
@@ -2156,7 +2164,7 @@
     "Festivals.Jellies.Miyoung": "It's adorable how mesmerized Silas is by the jellies no matter how many times he sees them.$7",
     "Festivals.Jellies.Moon": "Moon touch jellies?$u#$b#...Jellies sting?$s",
     "Festivals.Jellies.Ophelia": "I'm really looking forward to their arrival. Make sure you find a good spot, @.$h",
-    "Festivals.Jellies.Reihana": "I refuse to sit on these rugs. I don't know why Aicha's doing that. Who knows how many people sat on these before?$13",
+    "Festivals.Jellies.Reihana": "I refuse to sit on there rugs. I don't know why Aicha's doing that. Who knows how many people sat on these before?$13",
     "Festivals.Jellies.Silas": "I love this festival. I don't think I can ever get tired of seeing it every year.$h#$b#Also, Miyoung's right here with me, how could I get tired?$4",
     //Stardew Fair
     "Festivals.StardewFair.Aicha": "I got a really high score at the strength game. Like, REALLY high. But the man gave me one token only. What do I even do with this?$s",
@@ -3684,9 +3692,9 @@
     //0 hearts
     "Ophelia.Dialogue.Mon": "Ah, hello there. I'm a little busy at the moment. Shall we talk later instead?",
     "Ophelia.Dialogue.Tue": "*sigh*... It's just paperwork, paperwork, and then more paperwork today. Do you ever have to deal with that, @? I truly hope you don't.$s",
-    "Ophelia.Dialogue.Wed": "Hmm... room 2A needs a new dresser. Oh, more towels, too.$8#$b#Oh, hello, @. Sorry, I'm going over my to-do list. Is there anything I could do for you?",
-    "Ophelia.Dialogue.Thu": "I need to get a few supplies for the inn. I wonder who'd have everything I need.$8#$b#$y '..._You should go to Ari's Market._Good idea, he's pretty close, too._You should go to Pierre's._Hmm, he might have what I need. Thanks, @._You should go to Joja._Uh, no thank you. I refuse to step foot in there.$8' ",
-    "Ophelia.Dialogue.ThuRSV": "I need to get a few supplies for the inn. I wonder who'd have everything I need.$8#$b#$y '..._You should go to Ari's Market._Good idea, he's pretty close, too._You should go to Pierre's._Hmm, he might have what I need. Thanks, @._You should go to Heaps in Ridgeside Village._Oh! Of course. It would give me an excuse to see a few friends, too. Thanks, @.$h' ",
+    "Ophelia.Dialogue.Wed": "I need to get a few supplies for the inn. I wonder who'd have everything I need.$8#$b#$y '..._You should go to Ari's Market._Good idea, he's pretty close, too._You should go to Pierre's._Hmm, he might have what I need. Thanks, @._You should go to Joja._Uh, no thank you. I refuse to step foot in there.$8' ",
+    "Ophelia.Dialogue.WedRSV": "I need to get a few supplies for the inn. I wonder who'd have everything I need.$8#$b#$y '..._You should go to Ari's Market._Good idea, he's pretty close, too._You should go to Pierre's._Hmm, he might have what I need. Thanks, @._You should go to Heaps in Ridgeside Village._Oh! Of course. It would give me an excuse to see a few friends, too. Thanks, @.$h' ",
+    "Ophelia.Dialogue.Thu": "Hmm... room 2A needs a new dresser. Oh, more towels, too.$8#$b#Oh, hello, @. Sorry, I'm going over my to-do list. Is there anything I could do for you?",
     "Ophelia.Dialogue.Fri": "Have you met Marlon yet? He sent me a letter asking me to stop by the guild. I wonder what he wants this time.",
     "Ophelia.Dialogue.Sat": "Lyenne is like the daughter I never had. Which means, you better watch it, farmer. Don't go near that girl with bad intentions unless you have a death wish.$8#$b#Sorry, I may be a little protective of the people I care for.$9",
     "Ophelia.Dialogue.Sun": "Ah, what a beautiful day. How's your farm, @? Grown anything interesting recently? I'd love to hear about it.",
@@ -4230,38 +4238,52 @@
     "Silas.Dialogue.luauPoisoned": "I feel sick. Not sure what went into that soup, but I'm never having any again. Miyoung's been taking care of me all day.$s",
     "Silas.Dialogue.ReihanaIntro": "I knew about the existence of demons, but I sure as hell didn't expect any in our little village.$s#$b#I've already contacted Razz. We'll meet today to discuss this.",
 
-    //MeetDND (Vanilla Villagers)
+    //CTs (Vanilla Villagers)
+
+    //MeetDND
     "MeetDND.Alex": "Yo! Are you going to that cat cafe? What, me?#$b#Nah, it's not really my thing.$h#$b#Unless you're going, I could always go then... you know, to keep you company.$h",
     "MeetDND.Jodi": "Diala's always sending me pictures of the cats from the cafe.$h#$b#They always make my day so much better!$h",
     "MeetDND.Caroline": "Diala? I don't know her very well, but Derya frequently joins our little get-togethers.$h",
-    "MeetDND.Pierre": "Ah, the cat cafe. Derya stops by occasionally for supplies.#$b#She is a little mischievous, though.$u",
-    "MeetDND.Abigail": "The cat cafe? Seb, Sam and I drop by pretty often.#$b#Derya's a riot. It's always fun hanging out with her.$h",
-    "MeetDND.Harvey": "I always stop by the cat cafe whenever I want to treat myself.#$b#Cats and delicious baked goods? Who'd say no to that?$h",
-    "MeetDND.George": "The cafe owners? Evelyn seems to have taken a liking to the one with the long hair.#$b#I, however, don't trust her or the things she's into. Hmph... tarot cards.",
-    "MeetDND.Evelyn": "Oh, Diala's just wonderful. She comes by the house every now and then to chat and trade recipes.$h",
-    "MeetDND.Penny": "I don't know why, but every time I go over to the cafe and talk to Diala and Derya, I feel so much more positive about myself.$h",
-    "MeetDND.Pam": "Derya convinced me to try some of their coffee. I'm not a fan of coffee, prefer beer but, I gotta admit, a cup of their coffee with a cat on my lap wasn't so bad!$h#$b#Don't tell Gus or Penny.$3",
-    "MeetDND.Lewis": "The cafe owners? Their business seems to be doing pretty well!$h",
-    "MeetDND.Gus": "Diala and Derya stop by the saloon every once in a while.#$b#Derya might be the only person in town who knows the secret ingredient to some of my recipes.$h",
-    "MeetDND.Emily": "It's nice to have someone like Diala around.#$b#She does in-depth readings that are really eye-opening!$h",
-    "MeetDND.Haley": "Emily dragged me to that cat cafe. It was surprisingly pleasant!$h#$b#The coffee they make is delicious.",
-    "MeetDND.Sam": "Oh, man, you should definitely join us for game nights at the cat cafe sometime. They're always a blast.$h",
-    "MeetDND.Vincent": "Diala and Derya always let us play with the cats at the cafe!#$b#Did you know they let me name one of them?$h",
-    "MeetDND.Jas": "The cats at the cafe are so cute.$h#$b#Once, Derya tried giving us coffee, but Diala wouldn't let her.$u",
-    "MeetDND.Marnie": "The ranch is a long walk from the cat cafe, but Diala and Derya always make the trip here for supplies.$h",
     "MeetDND.Shane1": "Jas wanted to see the cat cafe, so we went. Gotta say, they make great coffee and cookies there.$h",
     "MeetDND.Shane2": "Ugh, like we don't have enough cats, now they want us to drink with them.$2",
-    "MeetDND.Robin": "The owners of the cafe over at Sunberry Village came to me for help with some renovations a while back.#$b#They sent a big batch of cookies our way when I was done working.$h",
-    "MeetDND.Demetrius": "Hi, @. Why do I look confused? Robin is making me go to the cat cafe.#$b#She told me I could debate science and astrology there, rather than to her ears. I think she just wants to see the cats.$h",
-    "MeetDND.Sebastian": "Diala and Derya always invite us over for game night.#$b#We almost always get distracted by the cats, though.$h",
-    "MeetDND.Maru": "@! I heard you went to the cat cafe!$h#$b#I met Diala when I was doing some research in Sunberry Village, and she's really sweet.#$b#I was invited to the cafe, and man... between cookies and cats... I don't know which to research first!$h",
-    "MeetDND.Linus": "Diala and Derya always bring over hot meals and baked goods when they're passing by.$h#$b#We even sit around the fire and share stories, sometimes.",
-    "MeetDND.Leah": "I love that we have a cat cafe so close.#$b#Petting a cat does wonders for you when you're having a bad day.$h",
-    "MeetDND.Elliott": "Ah, hello @. Want to help me fish a little? There's a new cat cafe, and I've found that going there is quite relaxing to a busy mind.#$b#The fish? Oh, well, they said I could give the cats a treat...$h",
-    "MeetDND.Clint": "The cafe in Sunberry Village has some of the most delicious baked goods I've ever had.$h#$b#I stop by very often, I just tend to avoid Derya. She can be a little... mean.$s",
-    "MeetDND.Wizard": "Hm? Diala? I've been keeping an eye on her, yes.#$b#She would make a good apprentice.",
 
-    //MeetDND (RSV Villagers)
+    //DiscoveringMoon
+    "DiscoveringMoon.Abigail": "Lyenne and I are going to the cat cafe soon. I'm not sure why I'm nervous, I enjoy hanging out with her.$h",
+    "DiscoveringMoon.Harvey": "I always stop by the cat cafe whenever I want to treat myself.#$b#Cats and delicious baked goods? Who'd say no to that?$h",
+    "DiscoveringMoon.George": "Silas dropped by the other day. Evelyn invited him and Miyoung over for dinner, so I'm looking forward to that.$h",
+    "DiscoveringMoon.Evelyn": "Oh, Diala's just wonderful. She comes by the house every now and then to chat and trade recipes.$h",
+
+    //DialaConfesses
+    "DialaConfesses.Penny": "I don't know why, but every time I go over to the cafe and talk to Diala and Derya, I feel so much better. They have a very cozy vibe going.$h",
+    "DialaConfesses.Pam": "Derya convinced me to try some of their coffee. I'm not a fan of coffee, prefer beer but, I gotta admit, a cup of their coffee with a cat on my lap wasn't so bad!$h#$b#Don't tell Gus or Penny.$3",
+    "DialaConfesses.Lewis": "Ophelia dropped by earlier to pick up some paperwork. I think she's doing a wonderful job running that inn.$h",
+    "DialaConfesses.Gus": "I try to get Ari out of his bubble when he drops by the saloon, but it almost never works.$s#$b#I enjoy his company, I should drop by to see him soon.",
+
+    //DeryaConfesses
+    "DeryaConfesses.Emily": "It's nice to have someone like Diala around.#$b#She does in-depth readings that are really eye-opening!$h",
+    "DeryaConfesses.Haley": "Emily dragged me to that cat cafe. It was surprisingly pleasant!$h#$b#The coffee they make is delicious.",
+    "DeryaConfesses.Sam": "Oh, man, you should definitely join us for game nights at the cat cafe sometime. They're always a blast.$h",
+    "DeryaConfesses.Vincent": "Diala and Derya always let us play with the cats at the cafe!#$b#Did you know they let me name one of them?$h",
+
+    //DDFinalConfession
+    "DDFinalConfession.Jas": "Aunt Marnie agreed to let Amina and I have a sleepover! Amina is bringing the toys her dad got her",
+    "DDFinalConfession.Marnie": "The ranch is a long walk from the cat cafe, but Diala and Derya always make the trip here for supplies.$h",
+    "DDFinalConfession.Pierre": "I've been to Sunberry Village a few times, It's lovely.$h#$b#Ari on the other hand...$a",
+    "DDFinalConfession.Robin": "The owners of the cafe over at Sunberry Village came to me for help with some renovations a while back.#$b#They sent a big batch of cookies our way when I was done working.$h",
+
+    //DDEngaged
+    "DDEngaged.Demetrius": "Robin is making me go to the cat cafe.#$b#She told me I could debate science and astrology there, rather than to her ears. I think she just wants to see the cats.$h",
+    "DDEngaged.Sebastian": "Diala and Derya always invite us over for game night.#$b#We almost always get distracted by the cats, though.$h",
+    "DDEngaged.Maru": "I met Diala when I was doing some research in Sunberry Village, and she's really sweet.#$b#I was invited to the cafe, and man... between cookies and cats... I don't know which to research first!$h",
+    "DDEngaged.Linus": "Maia and Ophelia always bring over hot meals and baked goods when they're passing by.$h#$b#We even sit around the fire and share stories, sometimes.",
+
+    //ReihanaIntro
+    "ReihanaIntro.Leah": "I love that we have a cat cafe so close.#$b#Petting a cat does wonders for you when you're having a bad day.$h",
+    "ReihanaIntro.Elliott": "Ah, hello @. Want to help me fish a little? There's a new cat cafe, and I've found that going there is quite relaxing to a busy mind.#$b#The fish? Oh, well, they said I could give the cats a treat...$h",
+    "ReihanaIntro.Clint": "The cafe in Sunberry Village has some of the most delicious baked goods I've ever had.$h#$b#I stop by very often, I just tend to avoid Derya. She can be a little... mean.$s",
+    "ReihanaIntro.Wizard": "Silas is always ready to talk my ear off about the arcane. I endulge him... most of the time.",
+
+    //CTs (RSV Villagers)
     "MeetDND.Alissa": "Have you been to the Sunberry Forest before? It's so... serene. Most of the time, there's no one around so I enjoy spending time there.$h",
     "MeetDND.Ysabelle": "I can't wait to show off this dress I got from Ezra's!$h#$b#He has a shop over in Sunberry Village. I'll need to take Corine there some time.",
     "MeetDND.Keahi": "@! Did you see the cat cafe in Sunberry Village? It's SO cool!$h#$b#Oh! And we got cookies!$4",

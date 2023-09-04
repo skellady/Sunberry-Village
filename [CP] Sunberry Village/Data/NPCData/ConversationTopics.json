@@ -428,7 +428,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Pierre",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -436,7 +436,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Abigail",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DiscoveringMoon": "{{i18n:DiscoveringMoon.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -444,7 +444,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Harvey",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DiscoveringMoon": "{{i18n:DiscoveringMoon.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -452,7 +452,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/George",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DiscoveringMoon": "{{i18n:DiscoveringMoon.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -460,7 +460,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Evelyn",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DiscoveringMoon": "{{i18n:DiscoveringMoon.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -468,7 +468,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Penny",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DialaConfesses": "{{i18n:DialaConfesses.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -476,7 +476,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Pam",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DialaConfesses": "{{i18n:DialaConfesses.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -484,7 +484,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Lewis",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DialaConfesses": "{{i18n:DialaConfesses.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -492,7 +492,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Gus",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DialaConfesses": "{{i18n:DialaConfesses.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -500,7 +500,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Emily",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DeryaConfesses": "{{i18n:DeryaConfesses.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -508,7 +508,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Haley",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DeryaConfesses": "{{i18n:DeryaConfesses.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -516,7 +516,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DeryaConfesses": "{{i18n:DeryaConfesses.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -524,7 +524,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DeryaConfesses": "{{i18n:DeryaConfesses.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -532,7 +532,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -540,7 +540,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -570,7 +570,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -578,7 +578,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Demetrius",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DDEngaged": "{{i18n:DDEngaged.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -586,7 +586,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sebastian",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DDEngaged": "{{i18n:DDEngaged.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -594,7 +594,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DDEngaged": "{{i18n:DDEngaged.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -602,7 +602,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Wizard",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "ReihanaIntro": "{{i18n:ReihanaIntro.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -610,7 +610,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Linus",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "DDEngaged": "{{i18n:DDEngaged.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -618,7 +618,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Leah",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "ReihanaIntro": "{{i18n:ReihanaIntro.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -626,7 +626,7 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Elliott",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "ReihanaIntro": "{{i18n:ReihanaIntro.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -634,204 +634,30 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Clint",
             "Entries": {
+                "ReihanaIntro": "{{i18n:ReihanaIntro.{{TargetWithoutPath}}}}"
+            }
+        },
+        // Ridgeside NPCs
+        {
+            "LogName": "Alissa",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Alissa, Characters/Dialogue/Ysabelle, Characters/Dialogue/Keahi, Characters/Dialogue/Trinnie, Characters/Dialogue/Yuuma, Characters/Dialogue/Richard, Characters/Dialogue/Lola, Characters/Dialogue/Bert, Characters/Dialogue/Faye, Characters/Dialogue/Maive, Characters/Dialogue/Pika, Characters/Dialogue/Ian, Characters/Dialogue/Corine, Characters/Dialogue/Kiwi, Characters/Dialogue/Lenny, Characters/Dialogue/Flor, Characters/Dialogue/Olga, Characters/Dialogue/Kiarra",
+            "Entries": {
                 "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+            },
+            "When": {
+                "HasMod": "Rafseazz.RSVCP"
             }
         },
         {
             "LogName": "Alissa",
             "Action": "EditData",
-            "Target": "Characters/Dialogue/Alissa",
+            "Target": "Characters/Dialogue/Alissa, Characters/Dialogue/Ysabelle, Characters/Dialogue/Keahi, Characters/Dialogue/Trinnie, Characters/Dialogue/Yuuma, Characters/Dialogue/Richard, Characters/Dialogue/Lola, Characters/Dialogue/Bert, Characters/Dialogue/Faye, Characters/Dialogue/Maive, Characters/Dialogue/Pika, Characters/Dialogue/Ian, Characters/Dialogue/Corine, Characters/Dialogue/Kiwi, Characters/Dialogue/Lenny, Characters/Dialogue/Flor, Characters/Dialogue/Olga, Characters/Dialogue/Kiarra",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "MeetDND": null
             },
             "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Ysabelle",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Ysabelle",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Keahi",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Keahi",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Trinnie",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Trinnie",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Yuuma",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Yuuma",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Richard",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Richard",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Lola",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Lola",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Bert",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Bert",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Faye",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Faye",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Maive",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Maive",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Pika",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Pika",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Ian",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Ian",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Corine",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Corine",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Kiwi",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Kiwi",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Lenny",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Lenny",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Flor",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Flor",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Olga",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Olga",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
-                "HasMod": "Rafseazz.RSVCP"
-            }
-        },
-        {
-            "LogName": "Kiarra",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/Kiarra",
-            "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
-            },
-            "When": {
+                "Query: {{Random: {{Range:1, 100}} }} >= 50": true,
                 "HasMod": "Rafseazz.RSVCP"
             }
         }

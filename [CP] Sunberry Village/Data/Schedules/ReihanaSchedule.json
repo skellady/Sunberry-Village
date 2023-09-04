@@ -20,7 +20,7 @@
 				"Sun": "900 Custom_SBV_CrystalCave 16 8 3/1700 Custom_SBV_SunberryMountain 33 27 2/2000 Custom_SBV_ReiHouse 3 5 1",
 				"Mon": "1100 Custom_SBV_ReiHouse 17 15 0/1300 Custom_SBV_SunberryForest 36 36 2/2000 Custom_SBV_ReiHouse 3 5 1",
 				"Tue": "1100 Custom_SBV_ReiHouse 17 15 0/1300 Custom_SBV_SunberryMountain 33 27 2/1500 Custom_SBV_SunberryMountain 40 36 2/1600 Custom_SBV_SunberryMountain 12 29 3/1700 Custom_SBV_SunberryMountain 9 12 2/2000 Custom_SBV_ReiHouse 3 5 1",
-				"Wed": "610 Custom_SBV_DialaCafe 27 6 2/1400 Custom_SBV_AriMarket 15 26 1/1800 Custom_SBV_SunberryVillage 56 26 3/2200 Custom_SBV_DDHouse 14 5 1",
+				"Wed": "610 Custom_SBV_DialaCafe 27 6 2 \"Strings\\schedules\\ReihanaSBV:FollowDerya.000\"/1400 Custom_SBV_AriMarket 15 26 1 \"Strings\\schedules\\ReihanaSBV:FollowDerya.001\"/1800 Custom_SBV_SunberryVillage 56 26 3 \"Strings\\schedules\\ReihanaSBV:FollowDerya.002\"/2200 Custom_SBV_DDHouse 14 5 1 \"Strings\\schedules\\ReihanaSBV:FollowDerya.003\"",
 				"Thu": "900 Forest 38 41 0/2000 Custom_SBV_ReiHouse 3 5 1",
 				"Fri": "1100 Custom_SBV_ReiHouse 17 15 0/1300 Custom_SBV_SunberryForest 36 36 2/2000 Custom_SBV_ReiHouse 3 5 1",
 				"spring_Sat": "900 Custom_SBV_ReiHouse 17 15 0/1200 Custom_SBV_SunberryForest 60 13 2/1500 Custom_SBV_SunberryVillage 70 93 3 \"Strings\\schedules\\ReihanaSBV:Fountain\"/2130 Custom_SBV_ReiHouse 3 5 1",
