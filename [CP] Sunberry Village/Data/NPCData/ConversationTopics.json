@@ -40,7 +40,8 @@
                 "luauBest": "{{i18n:Amina.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Amina.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Amina.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Amina.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Amina.Dialogue.ReihanaIntro}}",
+                "RaccoonToy": "{{i18n:Amina.Dialogue.RaccoonToy}}"
             }
         },
         {
@@ -60,7 +61,9 @@
                 "luauBest": "{{i18n:Ari.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Ari.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Ari.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Ari.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Ari.Dialogue.ReihanaIntro}}",
+                "RaccoonGlasses": "{{i18n:Ari.Dialogue.RaccoonGlasses}}",
+                "RaccoonFertilizer": "{{i18n:Ari.Dialogue.RaccoonFertilizer}}"
             }
         },
         {
@@ -122,7 +125,8 @@
                 "luauBest": "{{i18n:Diala.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Diala.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Diala.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Diala.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Diala.Dialogue.ReihanaIntro}}",
+                "RaccoonMuffin": "{{i18n:Diala.Dialogue.RaccoonMuffin}}"
             }
         },
         {
@@ -163,7 +167,8 @@
                 "luauBest": "{{i18n:Derya.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Derya.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Derya.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Derya.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Derya.Dialogue.ReihanaIntro}}",
+                "RaccoonCoffee": "{{i18n:Derya.Dialogue.RaccoonCoffee}}"
             }
         },
         {
@@ -183,7 +188,8 @@
                 "luauBest": "{{i18n:Elias.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Elias.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Elias.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Elias.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Elias.Dialogue.ReihanaIntro}}",
+                "RaccoonBook": "{{i18n:Elias.Dialogue.RaccoonBook}}"
             }
         },
         {
@@ -301,7 +307,8 @@
                 "luauBest": "{{i18n:Miyoung.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Miyoung.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Miyoung.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Miyoung.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Miyoung.Dialogue.ReihanaIntro}}",
+                "RaccoonScarf": "{{i18n:Miyoung.Dialogue.RaccoonScarf}}"
             }
         },
         {
@@ -340,7 +347,8 @@
                 "luauBest": "{{i18n:Moon.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Moon.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Moon.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Moon.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Moon.Dialogue.ReihanaIntro}}",
+                "RaccoonLunarite": "{{i18n:Moon.Dialogue.RaccoonLunarite}}"
             }
         },
         {
@@ -396,7 +404,8 @@
                 "luauBest": "{{i18n:Silas.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Silas.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Silas.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Silas.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Silas.Dialogue.ReihanaIntro}}",
+                "RaccoonBar": "{{i18n:Silas.Dialogue.RaccoonBar}}"
             }
         },
         {
@@ -420,7 +429,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Caroline",
             "Entries": {
-                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}"
+                "MeetDND": "{{i18n:MeetDND.{{TargetWithoutPath}}}}",
+                "RaccoonTea": "{{i18n:RaccoonTea.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -428,7 +438,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Pierre",
             "Entries": {
-                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}"
+                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}",
+                "RaccoonFertilizer": "{{i18n:RaccoonFertilizer.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -492,7 +503,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Gus",
             "Entries": {
-                "DialaConfesses": "{{i18n:DialaConfesses.{{TargetWithoutPath}}}}"
+                "DialaConfesses": "{{i18n:DialaConfesses.{{TargetWithoutPath}}}}",
+                "RaccoonCaviar": "{{i18n:RaccoonCaviar.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -516,7 +528,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Sam",
             "Entries": {
-                "DeryaConfesses": "{{i18n:DeryaConfesses.{{TargetWithoutPath}}}}"
+                "DeryaConfesses": "{{i18n:DeryaConfesses.{{TargetWithoutPath}}}}",
+                "RaccoonCD": "{{i18n:RaccoonCD.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -524,7 +537,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Vincent",
             "Entries": {
-                "DeryaConfesses": "{{i18n:DeryaConfesses.{{TargetWithoutPath}}}}"
+                "DeryaConfesses": "{{i18n:DeryaConfesses.{{TargetWithoutPath}}}}",
+                "RaccoonToy": "{{i18n:RaccoonToy.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -532,7 +546,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Jas",
             "Entries": {
-                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}"
+                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}",
+                "RaccoonToy": "{{i18n:RaccoonToy.{{TargetWithoutPath}}}}"
             }
         },
         {

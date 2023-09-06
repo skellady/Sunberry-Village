@@ -15,6 +15,25 @@
 				"Time": "{{Range: 1800, 2400}}",
 			},
 			"Update": "OnLocationChange"
-		}
+		},
+		// Broken Diner Music
+		{
+			"LogName": "Broken Diner Music",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_ChrisDinerBroken",
+			"MapProperties": {
+				"Music": "communityCenter"
+			}
+		},
+		// Elias House Music
+		{
+			"LogName": "Elias House Music",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_EliasHouseOld",
+			"MapProperties": {
+				"Music": "communityCenter"
+			},
+			"Update": "OnLocationChange"
+		},
 	]
 }

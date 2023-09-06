@@ -2,7 +2,7 @@
   "Changes": [
     {
       "Action": "EditData",
-      "Target": "mods/SBV/animations",
+      "Target": "SunberryTeam.SBV/Animations",
       "Entries": {
         "elias_fish": {
           "npcName": "EliasSBV",

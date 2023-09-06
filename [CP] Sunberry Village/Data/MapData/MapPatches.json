@@ -154,6 +154,9 @@
         "Y": 65,
         "Width": 10,
         "Height": 9
+      },
+      "When": {
+        "FestivalPatches": true
       }
     },
     // SDV Fair
@@ -176,7 +179,8 @@
       },
       "When": {
         "HasMod: |contains=DaisyNiko.SVR3": false,
-        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
       }
     },
     {
@@ -199,6 +203,7 @@
       "When": {
         "HasMod: |contains=DaisyNiko.SVR3": true,
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
       }
     },
     {
@@ -221,6 +226,7 @@
       "When": {
         "HasMod: |contains=DaisyNiko.SVR3": true,
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
       }
     },
     {
@@ -243,7 +249,8 @@
       "When": {
         "HasMod: |contains=Rafseazz.RSVCP": true,
         "HasMod: |contains=DaisyNiko.SVR3": false,
-        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
       }
     },
     {
@@ -266,7 +273,8 @@
       "When": {
         "HasMod: |contains=Rafseazz.RSVCP": false,
         "HasMod: |contains=DaisyNiko.SVR3": false,
-        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
       }
     },
     {
@@ -289,6 +297,7 @@
       "When": {
         "HasMod: |contains=DaisyNiko.SVR3": false,
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "FestivalPatches": true
       }
     },
     // Winter Feast
@@ -310,7 +319,8 @@
         "Height": 10
       },
       "When": {
-        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
       }
     },
     {
@@ -331,7 +341,8 @@
         "Height": 10
       },
       "When": {
-        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+        "FestivalPatches": true
       }
     },
     // Flower Dance

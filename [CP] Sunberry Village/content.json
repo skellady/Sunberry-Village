@@ -58,6 +58,20 @@
         "HasMod |contains= LemurKat.CommunityCenter.CP": true,
         "HasSeenEvent": "191393"
       }
+    },
+    {
+      "Name": "BoardUnlockToken",
+      "Value": "f EliasSBV 1000",
+      "When": {
+        "BoardUnlock |contains= Elias": true 
+      }
+    },
+    {
+      "Name": "BoardUnlockToken",
+      "Value": "e 15389722",
+      "When": {
+        "BoardUnlock |contains= Vanilla": true
+      }
     }
   ],
   "CustomLocations": [
@@ -185,7 +199,17 @@
     "SDVR3Patch": {
       "AllowValues": "true, false",
       "Default": "true",
-      "Description": "Adjusts the entrance patch to Sunberry if you have the town edits in Stardew Valley Reimagined 3 disabled. Only disable this if you've disabled SVR3's town edits."
+      "Description": "{{i18n:config.SDVR3Patch.description}}"
+    },
+    "FestivalPatches": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "{{i18n:config.FestivalPatches.description}}"
+    },
+    "BoardUnlock": {
+      "AllowValues": "Elias, Vanilla",
+      "Default": "Vanilla",
+      "Description": "{{i18n:config.BoardUnlock.description}}"
     }
   },
   "Changes": [
