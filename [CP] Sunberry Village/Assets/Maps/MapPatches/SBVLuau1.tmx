@@ -1170,6 +1170,9 @@
    </properties>
   </tile>
  </tileset>
+ <tileset firstgid="2868" name="characters" tilewidth="16" tileheight="16" tilecount="144" columns="8">
+  <image source="characterSheet.png" width="128" height="288"/>
+ </tileset>
  <layer id="1" name="Back" width="4" height="4">
   <data encoding="csv">
 1168,1168,1168,1168,
