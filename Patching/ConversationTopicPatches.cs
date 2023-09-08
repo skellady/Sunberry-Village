@@ -29,14 +29,14 @@ internal class ConversationTopicPatches
 	///			 ===CTName/[number]=== for a CT with a duration of [number] days.<br />
 	///	Example: ===MyConversationTopic1/20=== would add a CT with name MyConversationTopic1 and duration of 20 days.
 	/// </summary>
-	[HarmonyPatch(typeof(Dialogue), "checkForSpecialDialogueAttributes")]
-	[HarmonyPostfix]
-	public static void checkForSpecialDialogueAttributes_Postfix(Dialogue __instance)
+	[HarmonyPatch(typeof(Dialogue), nameof(Dialogue.getCurrentDialogue))]
+	[HarmonyPrefix]
+	public static void getCurrentDialogue_Prefix(Dialogue __instance)
 	{
 		try
 		{
 			// just for safety's sake
-			if (__instance.dialogues.Count <= __instance.currentDialogueIndex)
+			if (__instance.dialogues.Count <= __instance.currentDialogueIndex || __instance.isDialogueFinished())
 				return;
 
 			// get current dialogue line
@@ -64,10 +64,9 @@ internal class ConversationTopicPatches
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch \"{nameof(ConversationTopicPatches)}::{nameof(checkForSpecialDialogueAttributes_Postfix)}\" has encountered an error while handling dialogue for {__instance.speaker?.Name ?? "unknown NPC"}: \"{__instance.dialogues[__instance.currentDialogueIndex]}\". \n{e}");
+			Log.Error($"Harmony patch \"{nameof(ConversationTopicPatches)}::{nameof(getCurrentDialogue_Prefix)}\" has encountered an error while handling dialogue for {__instance.speaker?.Name ?? "unknown NPC"}: \"{__instance.dialogues[__instance.currentDialogueIndex]}\". \n{e}");
 		}
 	}
-
 	/// <summary>
 	/// Patches <c>Quest.questComplete</c> to add a CT generated from the details of the quest that was just completed.
 	/// </summary>
