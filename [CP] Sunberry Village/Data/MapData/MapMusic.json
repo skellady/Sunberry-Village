@@ -15,6 +15,134 @@
 				"Time": "{{Range: 1800, 2400}}",
 			},
 			"Update": "OnLocationChange"
+		},
+		// Generic Day Music for Outdoors (thank you Raf!)
+		{
+			"LogName": "Generic Music Spring",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"MapProperties": {
+				"Music": "{{Random: spring1, spring2, spring3}}"
+			},
+			"When": {
+				"Weather |contains=Rain, Storm": false,
+				"Season": "spring",
+				"Time": "{{Range: 0600, 1900}}"
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Generic Music Summer",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"MapProperties": {
+				"Music": "{{Random: summer1, summer2, summer3}}"
+			},
+			"When": {
+				"Weather |contains=Rain, Storm": false,
+				"Season": "summer",
+				"Time": "{{Range: 0600, 1900}}"
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Generic Music Fall",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"MapProperties": {
+				"Music": "{{Random: fall1, fall2, fall3}}"
+			},
+			"When": {
+				"Weather |contains=Rain, Storm": false,
+				"Season": "fall",
+				"Time": "{{Range: 0600, 1900}}"
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Generic Music Winter",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"MapProperties": {
+				"Music": "{{Random: winter1, winter2, winter3}}"
+			},
+			"When": {
+				"Weather |contains=Rain, Storm": false,
+				"Season": "winter",
+				"Time": "{{Range: 0600, 1900}}"
+			},
+			"Update": "OnLocationChange"
+		},
+		// Night Ambience
+		{
+			"LogName": "Night Ambience",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"MapProperties": {
+				"Music": "spring_night_ambient"
+			},
+			"When": {
+				"Weather |contains=Rain, Storm": false,
+				"Season: |contains=winter": false,
+				"Time": "{{Range: 1900, 2400}}"
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Night Ambience",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"MapProperties": {
+				"Music": "AweAmbience"
+			},
+			"When": {
+				"Season: |contains=winter": true,
+				"Time": "{{Range: 1900, 2400}}"
+			},
+			"Update": "OnLocationChange"
+		},
+		// Rainy
+		{
+			"LogName": "Rain",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"MapProperties": {
+				"Music": "rain"
+			},
+			"When": {
+				"Weather |contains=Sun": false
+			},
+			"Update": "OnLocationChange"
+		},
+		// Broken Diner Music
+		{
+			"LogName": "Broken Diner Music",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_ChrisDinerBroken",
+			"MapProperties": {
+				"Music": "communityCenter"
+			},
+			"Update": "OnLocationChange"
+		},
+		// Elias House Music
+		{
+			"LogName": "Elias House Music",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_EliasHouseOld",
+			"MapProperties": {
+				"Music": "communityCenter"
+			},
+			"Update": "OnLocationChange"
+		},
+		// Mine Entrance
+		{
+			"LogName": "Cave Entrance",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_CrystalCave",
+			"MapProperties": {
+				"Music": "Frost_Ambient"
+			},
+			"Update": "OnLocationChange"
 		}
 	]
 }
