@@ -5,7 +5,7 @@ using SunberryVillage.Utilities;
 using System.Collections.Generic;
 using Vector2 = Microsoft.Xna.Framework.Vector2;
 
-namespace SunberryVillage.TarotEvent;
+namespace SunberryVillage.Tarot;
 
 internal class EventScriptDialaTarot : ICustomEventScript
 {
@@ -59,9 +59,9 @@ internal class EventScriptDialaTarot : ICustomEventScript
 
 		List<TarotCard> cards = TarotHandler.GetAllTarotCardsWithConditionsMet();
 
-		_card1 = cards.GetRandomElementFromList(true);
-		_card2 = cards.GetRandomElementFromList(true);
-		_card3 = cards.GetRandomElementFromList(true);
+		_card1 = cards.GetRandomElementFromList(removeElement: true);
+		_card2 = cards.GetRandomElementFromList(removeElement: true);
+		_card3 = cards.GetRandomElementFromList(removeElement: true);
 
 		_card1.ApplyBuff();
 		_card2.ApplyBuff();

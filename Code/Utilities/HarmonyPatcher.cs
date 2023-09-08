@@ -1,8 +1,7 @@
 using HarmonyLib;
-using SunberryVillage.Utilities;
 using System;
 
-namespace SunberryVillage.Patching;
+namespace SunberryVillage.Utilities;
 
 internal class HarmonyPatcher
 {

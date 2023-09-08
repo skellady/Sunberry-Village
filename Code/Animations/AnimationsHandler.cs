@@ -1,4 +1,5 @@
 ﻿using Microsoft.Xna.Framework;
+using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
 using SunberryVillage.Utilities;
@@ -13,7 +14,51 @@ namespace SunberryVillage.Animations;
 internal class AnimationsHandler
 {
 	internal const string AnimationsAssetPath = "SunberryTeam.SBV/Animations";
+	internal static IAssetName AnimationsAssetName = Globals.GameContent.ParseAssetName(AnimationsAssetPath);
 	internal static Dictionary<string, AnimationDataModel> AnimationData;
+
+	#region Logic
+
+	/// <summary>
+	/// Initialize animation data asset.
+	/// </summary>
+	private static void Init()
+	{
+		AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(AnimationsAssetPath);
+	}
+
+	#endregion
+
+	#region Event Hooks
+
+	/// <summary>
+	/// Adds Animations event hooks.
+	/// </summary>
+	internal static void AddEventHooks()
+	{
+		Globals.EventHelper.Content.AssetRequested += Animations_AssetRequested;
+		Globals.EventHelper.Content.AssetsInvalidated += Animations_AssetsInvalidated;
+		Globals.EventHelper.GameLoop.SaveLoaded += (_, _) => Init();
+		Globals.EventHelper.GameLoop.DayEnding += DayEnd;
+	}
+
+	/// <summary>
+	/// If animation data asset invalidated, reload asset.
+	/// </summary>
+	private static void Animations_AssetsInvalidated(object sender, AssetsInvalidatedEventArgs e)
+	{
+		if (e.NamesWithoutLocale.Contains(AnimationsAssetName))
+			AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(AnimationsAssetPath);
+	}
+
+	/// <summary>
+	/// If animation asset requested, provide empty <c>Dictionary&lt;<see cref="string"/>, <see cref="AnimationDataModel"/>&gt;</c>.
+	/// </summary>
+	private static void Animations_AssetRequested(object sender, AssetRequestedEventArgs e)
+	{
+		if (e.NameWithoutLocale.IsEquivalentTo(AnimationsAssetPath))
+			e.LoadFrom(() => new Dictionary<string, AnimationDataModel>(), AssetLoadPriority.Low);
+	}
 
 	/// <summary>
 	/// Resets sprites in case user ended day while animations were in progress.
@@ -46,9 +91,9 @@ internal class AnimationsHandler
 			Log.Error($"Failed in {nameof(AnimationsHandler)}::{nameof(DayEnd)}:\n{e}");
 		}
 	}
-}
 
-#pragma warning disable CS0649 // Remove unused variable
+	#endregion
+}
 
 /// <summary>
 /// Data model for Content Patcher integration
@@ -60,5 +105,3 @@ internal class AnimationDataModel
 	public Vector2 Offset;
 	public bool HideShadow;
 }
-
-#pragma warning restore CS0649

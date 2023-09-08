@@ -3,7 +3,7 @@ using StardewValley;
 using SunberryVillage.Utilities;
 using System;
 
-namespace SunberryVillage.TarotEvent;
+namespace SunberryVillage.Tarot;
 
 internal class TarotCard
 {

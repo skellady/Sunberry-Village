@@ -101,7 +101,7 @@ internal class ConsoleCommandManager
 				if (!IsWorldReady())
 					return;
 
-				if (LightingHandler.RemoveTempLight(args[0]))
+				if (LightingHandler.RemoveLight(args[0]))
 					Log.Info($"Light with id \"{args[0]}\" removed.");
 				else
 					Log.Warn($"Light with id \"{args[0]}\" not removed. (Does it exist?)");
@@ -131,7 +131,7 @@ internal class ConsoleCommandManager
 			}
 		);
 
-		Globals.CCHelper.Add("sbv.lights.dumplights", "Prints list of all light sources in the current location.", (_, _) =>
+		Globals.CCHelper.Add("sbv.lights.infodump", "Prints list of all light sources in the current location.", (_, _) =>
 			{
 				if (!IsWorldReady())
 					return;

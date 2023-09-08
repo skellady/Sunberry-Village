@@ -1,7 +1,6 @@
 using HarmonyLib;
 using Microsoft.Xna.Framework;
 using StardewValley;
-using SunberryVillage.TarotEvent;
 using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
@@ -13,7 +12,7 @@ using xTile.Dimensions;
 // ReSharper disable RedundantAssignment
 // ReSharper disable InconsistentNaming
 
-namespace SunberryVillage.Patching;
+namespace SunberryVillage.Tarot;
 
 // Boilerplate suppression for Harmony patch files
 #pragma warning disable IDE0079 // Remove unnecessary suppression
@@ -23,7 +22,7 @@ namespace SunberryVillage.Patching;
 #pragma warning disable IDE0060 // Remove unused parameter
 
 [HarmonyPatch]
-internal class TarotEventPatches
+internal class TarotPatches
 {
 
 	/// <summary>
@@ -96,7 +95,7 @@ internal class TarotEventPatches
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch \"{nameof(TarotEventPatches)}::{nameof(answerDialogueAction_Prefix)}\" has encountered an error while handling \"{questionAndAnswer}\": \n{e}");
+			Log.Error($"Harmony patch \"{nameof(TarotPatches)}::{nameof(answerDialogueAction_Prefix)}\" has encountered an error while handling \"{questionAndAnswer}\": \n{e}");
 			return true;
 		}
 	}
@@ -126,7 +125,7 @@ internal class TarotEventPatches
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch \"{nameof(TarotEventPatches)}::{nameof(command_cutscene_Prefix)}\" has encountered an error during event \"{__instance.id}\" at command {string.Join(" ", split)}: \n{e}");
+			Log.Error($"Harmony patch \"{nameof(TarotPatches)}::{nameof(command_cutscene_Prefix)}\" has encountered an error during event \"{__instance.id}\" at command {string.Join(" ", split)}: \n{e}");
 			return true;
 		}
 	}

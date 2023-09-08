@@ -10,7 +10,7 @@ using System.Text.RegularExpressions;
 // ReSharper disable RedundantAssignment
 // ReSharper disable InconsistentNaming
 
-namespace SunberryVillage.Patching;
+namespace SunberryVillage.ConversationTopics;
 
 // Boilerplate suppression for Harmony patch files
 #pragma warning disable IDE0079 // Remove unnecessary suppression

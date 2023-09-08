@@ -1,7 +1,6 @@
 using HarmonyLib;
 using StardewValley;
 using StardewValley.Menus;
-using SunberryVillage.PortraitShake;
 using SunberryVillage.Utilities;
 using System;
 
@@ -10,7 +9,7 @@ using System;
 // ReSharper disable RedundantAssignment
 // ReSharper disable InconsistentNaming
 
-namespace SunberryVillage.Patching;
+namespace SunberryVillage.Portrait;
 
 // Boilerplate suppression for Harmony patch files
 #pragma warning disable IDE0079 // Remove unnecessary suppression
@@ -20,7 +19,7 @@ namespace SunberryVillage.Patching;
 #pragma warning disable IDE0060 // Remove unused parameter
 
 [HarmonyPatch]
-internal class PortraitShakePatches
+internal class PortraitPatches
 {
 
 	/// <summary>
@@ -32,12 +31,12 @@ internal class PortraitShakePatches
 	{
 		try
 		{
-			__result = PortraitShakeHandler.PortraitShouldShake.Value;
+			__result = PortraitHandler.PortraitShouldShake.Value;
 			return !__result;
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch \"{nameof(PortraitShakePatches)}::{nameof(shouldPortraitShake_Prefix)}\" has encountered an error while handling dialogue: \n{e}");
+			Log.Error($"Harmony patch \"{nameof(PortraitPatches)}::{nameof(shouldPortraitShake_Prefix)}\" has encountered an error while handling dialogue: \n{e}");
 			return true;
 		}
 	}
@@ -53,11 +52,11 @@ internal class PortraitShakePatches
 		try
 		{
 			if (__instance.characterDialogue is not null)
-				PortraitShakeHandler.SetShake(__instance.characterDialogue);
+				PortraitHandler.SetShake(__instance.characterDialogue);
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch \"{nameof(PortraitShakePatches)}::{nameof(shouldPortraitShake_Prefix)}\" has encountered an error while handling dialogue box: \n{e}");
+			Log.Error($"Harmony patch \"{nameof(PortraitPatches)}::{nameof(shouldPortraitShake_Prefix)}\" has encountered an error while handling dialogue box: \n{e}");
 		}
 	}
 }

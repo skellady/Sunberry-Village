@@ -1,7 +1,6 @@
 ﻿using HarmonyLib;
 using Microsoft.Xna.Framework;
 using StardewValley;
-using SunberryVillage.Animations;
 using SunberryVillage.Utilities;
 using System;
 
@@ -10,7 +9,7 @@ using System;
 // ReSharper disable RedundantAssignment
 // ReSharper disable InconsistentNaming
 
-namespace SunberryVillage.Patching;
+namespace SunberryVillage.Animations;
 
 // Boilerplate suppression for Harmony patch files
 #pragma warning disable IDE0079 // Remove unnecessary suppression
