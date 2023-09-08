@@ -1,6 +1,8 @@
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI.Events;
 using SunberryVillage.Animations;
+using SunberryVillage.Lighting;
 using SunberryVillage.PortraitShake;
 using SunberryVillage.TarotEvent;
 using System.Collections.Generic;
@@ -38,8 +40,21 @@ internal class AssetManager
 
 		#region BigAnimations
 
-		else if (e.Name.IsEquivalentTo(AnimationsHandler.AnimationsAssetPath))
+		else if (e.NameWithoutLocale.IsEquivalentTo(AnimationsHandler.AnimationsAssetPath))
 			e.LoadFrom(() => new Dictionary<string, AnimationDataModel>(), AssetLoadPriority.Low);
+
+		#endregion
+
+		#region Lighting
+
+		else if (e.NameWithoutLocale.IsEquivalentTo(LightingHandler.LightsAssetPath))
+			e.LoadFrom(() => new Dictionary<string, LightDataModel>
+			{
+				["sophie.SBVSaturdayHangoutLight"] = new LightDataModel(
+					Location: "Custom_SBV_SunberryVillage",
+					Position: new Vector2(59f, 85.5f),
+					Intensity: 4.8f)
+			}, AssetLoadPriority.Low);
 
 		#endregion
 	}
@@ -48,5 +63,6 @@ internal class AssetManager
 	{
 		PortraitShakeHandler.PortraitsDict = Globals.GameContent.Load<Dictionary<string, PortraitShakeModel>>(PortraitShakeHandler.PortraitShakeAssetPath);
 		AnimationsHandler.AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(AnimationsHandler.AnimationsAssetPath);
+		LightingHandler.Lights = Globals.GameContent.Load<Dictionary<string, LightDataModel>>(LightingHandler.LightsAssetPath);
 	}
 }

@@ -1,59 +1,97 @@
 ﻿using Microsoft.Xna.Framework;
 using StardewValley;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace SunberryVillage.Lighting
 {
-	// Overcomplicated this but if i need to add more lights in the future, it will be pretty trivial, so that's nice
-	// Consider converting to CP asset for ease of use by max and other sbv resident authors
-	// you know, if you want to overcomplicate things even further...
-
-	internal class LightingHandler
+	internal static class LightingHandler
 	{
-		private static LightSource lightSource; // currently only supports adding a single LightSource instance at a time. May overhaul this later depending on max's needs.
+		internal static Dictionary<string, LightDataModel> Lights = new();              // contains lights defined in asset "SunberryTeam.SBV/Lights"
+		internal static readonly Dictionary<string, LightDataModel> TempLights = new(); // contains lights defined via console command - these DO NOT persist through save/load
 
-		private const float DefaultRadius = 4.8f;
-		private static readonly Vector2 DefaultPosition = new Vector2(59f, 85.5f) * 64f; // the center of the fountain is (58, 86) - shifting it up and to the right a bit to better cover everyone
+		internal const string LightsAssetPath = "SunberryTeam.SBV/Lights";
 
-		/// <summary>
-		/// Adds light to Saturday hangout area. Uses the default values.
-		/// </summary>
-		internal static void AddLight() => AddLight(DefaultRadius, DefaultPosition);
-
-		/// <summary>
-		/// Adds light to Saturday hangout area. Uses the default position and the provided radius.
-		/// </summary>
-		/// <param name="radius">The radius of the light.</param>
-		internal static void AddLight(float radius) => AddLight(radius, DefaultPosition);
-
-		/// <summary>
-		/// Adds light to Saturday hangout area. Uses the default radius and the provided position.
-		/// </summary>
-		/// <param name="position">The position at which to add the light.</param>
-		internal static void AddLight(Vector2 position) => AddLight(DefaultRadius, position);
-
-		/// <summary>
-		/// Adds light to map with the specified radius and position.
-		/// </summary>
-		/// <param name="radius">The radius of the light.</param>
-		/// <param name="position">The position at which to add the light.</param>
-		internal static void AddLight(float radius, Vector2 position)
+		internal static bool TryAddOrUpdateTempLight(string[] args, out string error)
 		{
-			RemoveLight();
+			error = "";
 
-			lightSource = new(4, position, radius);
-			Game1.currentLightSources.Add(lightSource);
+			if (args.Length != 4)
+			{
+				error = "Incorrect number of arguments supplied.";
+			}
+			else
+			{
+				string id = args[0];
+
+				if (!float.TryParse(args[1], out float xPos) || !float.TryParse(args[2], out float yPos) || !float.TryParse(args[3], out float intensity))
+				{
+					error = $"Unable to map provided arguments {{{string.Join(", ", args.Select(s => "\"" + s + "\""))}}} to expected parameters {{id (string), xPos (float), yPos (float), intensity (float)}}.";
+				}
+				else
+				{
+					string loc = Game1.currentLocation.Name;
+					LightDataModel lightData = new(loc, new Vector2(xPos, yPos), intensity);
+
+					RemoveTempLight(id);
+
+					if (!TempLights.TryAdd(id, lightData))
+					{
+						error = $"Unable to add light with parameters {{{string.Join(", ", args.Select(s => "\"" + s + "\""))}}}.";
+					}
+				}
+			}
+
+			if (error == "")
+				return true;
+
+			error += " Please modify the provided arguments and try again.";
+			return false;
 		}
 
-		/// <summary>
-		/// If the light exists, remove it.
-		/// </summary>
-		internal static void RemoveLight()
+		internal static bool RemoveTempLight(string id)
 		{
-			if (lightSource is not null)
+			if (!TempLights.ContainsKey(id))
+				return false;
+
+			LightDataModel lightData = TempLights[id];
+			Game1.currentLightSources?.Remove(lightData.LightSource);
+			TempLights.Remove(id);
+			return true;
+		}
+
+		internal static void AddLightsToCurrentLocation()
+		{
+			IEnumerable<KeyValuePair<string, LightDataModel>> allLights = Lights.Union(TempLights);
+
+			foreach (var light in allLights.Where(kvp => kvp.Value.GameLocation == Game1.currentLocation))
 			{
-				Game1.currentLightSources.Remove(lightSource);
-				lightSource = null;
+				Game1.currentLightSources.Add(light.Value.LightSource);
 			}
+		}
+	}
+
+	internal class LightDataModel
+	{
+		public string Location;
+		public Vector2 Position;
+		public float Intensity;
+		internal GameLocation GameLocation;
+		internal LightSource LightSource;
+
+		public LightDataModel(string Location, Vector2 Position, float Intensity)
+		{
+			this.Location = Location;
+			this.Position = Position;
+			this.Intensity = Intensity;
+
+			GameLocation = Game1.getLocationFromName(Location);
+			LightSource = new(4, Position * 64f, Intensity);
+		}
+
+		public override string ToString()
+		{
+			return $"{{Location: {Location} | Position: ({Position.X}, {Position.Y}) | Intensity: {Intensity}}}";
 		}
 	}
 }
