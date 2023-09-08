@@ -37,7 +37,7 @@ internal class PortraitShakePatches
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch \"{nameof(PortraitShakePatches)}::{nameof(shouldPortraitShake_Prefix)}\" has encountered an error while handling dialogue \"{d.dialogues[d.currentDialogueIndex]}\": \n{e}");
+			Log.Error($"Harmony patch \"{nameof(PortraitShakePatches)}::{nameof(shouldPortraitShake_Prefix)}\" has encountered an error while handling dialogue: \n{e}");
 			return true;
 		}
 	}
@@ -57,7 +57,7 @@ internal class PortraitShakePatches
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch \"{nameof(PortraitShakePatches)}::{nameof(shouldPortraitShake_Prefix)}\" has encountered an error while handling dialogue box for dialogue \"{__instance.characterDialogue?.dialogues[__instance.characterDialogue?.currentDialogueIndex ?? 0] ?? "[unknown dialogue]"}\": \n{e}");
+			Log.Error($"Harmony patch \"{nameof(PortraitShakePatches)}::{nameof(shouldPortraitShake_Prefix)}\" has encountered an error while handling dialogue box: \n{e}");
 		}
 	}
 }
