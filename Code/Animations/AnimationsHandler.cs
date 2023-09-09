@@ -24,28 +24,51 @@ internal class AnimationsHandler
 	/// </summary>
 	private static void Init()
 	{
-		AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(AnimationsAssetPath);
+		LoadData();
 	}
 
-	#endregion
+    private static void LoadData()
+    {
+        AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(AnimationsAssetPath);
+    }
 
-	#region Event Hooks
+    #endregion
 
-	/// <summary>
-	/// Adds Animations event hooks.
-	/// </summary>
-	internal static void AddEventHooks()
+    #region Event Hooks
+
+    /// <summary>
+    /// Adds Animations event hooks.
+    /// </summary>
+    internal static void AddEventHooks()
 	{
+		Globals.EventHelper.GameLoop.GameLaunched += AddConsoleCommands;
 		Globals.EventHelper.Content.AssetRequested += Animations_AssetRequested;
 		Globals.EventHelper.Content.AssetsInvalidated += Animations_AssetsInvalidated;
 		Globals.EventHelper.GameLoop.SaveLoaded += (_, _) => Init();
 		Globals.EventHelper.GameLoop.DayEnding += DayEnd;
 	}
 
-	/// <summary>
-	/// If animation data asset invalidated, reload asset.
-	/// </summary>
-	private static void Animations_AssetsInvalidated(object sender, AssetsInvalidatedEventArgs e)
+    private static void AddConsoleCommands(object sender, GameLaunchedEventArgs e)
+    {
+		Globals.Helper.ConsoleCommands.Add("SBVAnim", "", (s1, s2) =>
+		{
+			LoadData();	
+			if (s2.Length < 2)
+			{
+				return;
+			}
+			NPC npc = Game1.getCharacterFromName(s2[0]);
+			if(npc != null)
+			{
+				npc.StartActivityRouteEndBehavior(s2[1], "test");
+			}
+		});
+    }
+
+    /// <summary>
+    /// If animation data asset invalidated, reload asset.
+    /// </summary>
+    private static void Animations_AssetsInvalidated(object sender, AssetsInvalidatedEventArgs e)
 	{
 		if (e.NamesWithoutLocale.Contains(AnimationsAssetName))
 			AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(AnimationsAssetPath);
@@ -67,13 +90,13 @@ internal class AnimationsHandler
 	{
 		try
 		{
-			foreach (string npcName in AnimationData.Select(entry => entry.Value.NpcName))
+			foreach (var animation in AnimationData.Values)
 			{
-				NPC npc = Game1.getCharacterFromName(npcName);
+				NPC npc = Game1.getCharacterFromName(animation.NpcName);
 
 				if (npc is null)
 				{
-					Log.Warn($"Failed to find NPC named \"{npcName}\" from asset {AnimationsAssetPath}. Skipping this entry.");
+					Log.Warn($"Failed to find NPC named \"{animation.NpcName}\" from asset {AnimationsAssetPath}. Skipping this entry.");
 					continue;
 				}
 
@@ -84,6 +107,14 @@ internal class AnimationsHandler
 				npc.drawOffset.Value = Vector2.Zero;
 				npc.IsInvisible = false;
 				npc.HideShadow = false;
+
+				if(animation.ExtraAnimations != null)
+				{
+                    foreach (var extraAnimation in animation.ExtraAnimations)
+                    {
+                        Utility.getGameLocationOfCharacter(npc).removeTemporarySpritesWithID(extraAnimation.Name.GetHashCode());
+                    }
+                }
 			}
 		}
 		catch (Exception e)
@@ -104,4 +135,16 @@ internal class AnimationDataModel
 	public Vector2 Size;
 	public Vector2 Offset;
 	public bool HideShadow;
+	public List<ExtraAnimation> ExtraAnimations;
+}
+
+internal class ExtraAnimation
+{
+	public String Name;
+	public Vector2 Offset;
+	public Vector2 Size;
+	public float AnimationInterval = 5000f;
+	public int Frames;
+	public String TextureName;
+
 }
