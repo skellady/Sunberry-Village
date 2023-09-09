@@ -24,7 +24,7 @@
                               "Entries",
                               "MainEvent_additionalCharacters"
                          ],
-                         "Value": "DialaSBV 35 54 up/DeryaSBV 36 54 up/AminaSBV 33 25 down/AriSBV 21 49 up/BlakeSBV 21 51 up/EliasSBV 34 24 down/JumanaSBV 50 50 up/LyenneSBV 22 50 up/MaiaSBV 32 25 down/MiyoungSBV 46 55 up/OpheliaSBV 20 50 up/SilasSBV 47 55 up",
+                         "Value": "DialaSBV 35 54 up/DeryaSBV 36 54 up/AminaSBV 33 25 down/AriSBV 21 49 right/BlakeSBV 21 51 right/EliasSBV 34 24 down/JumanaSBV 50 50 up/LyenneSBV 22 50 right/MaiaSBV 32 25 down/MiyoungSBV 46 55 up/OpheliaSBV 20 50 right/SilasSBV 47 55 up",
                          "Delimiter": "/"
                     },
                ]

@@ -39,9 +39,11 @@
         "ezra_sit": "16/16/16",
         "ezra_camera": "17/17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 18 19 19 19 19 19 19 18 17 17 17 17 17 17 17 17 18 19 19 19 19 19 19 18 17 17 17 17 17/17",
         "ezra_drink": "20/20/20",
+        "ezra_sport": "21/21 22 23 24 25 26 27 28/21/Strings\\animationDescriptions:ezra.sport",
         //Iman
         "iman_sit": "16/16/16",
         "iman_drink": "17/17/17",
+        "iman_sport": "18/18 18 19 19 20 20 21 21 18 18 22 22 18 18 23 23/18/Strings\\animationDescriptions:iman.sport",
         //Jumana
         "jumana_cook": "18/18 18 19 19/19",
         //Lyenne
@@ -66,6 +68,8 @@
         "diala.nap": "{{i18n:Animations.Diala.Nap}}",
         "derya.read": "{{i18n:Animations.Derya.Read}}",
         "derya.phone": "{{i18n:Animations.Derya.Phone}}",
+        "ezra.sport": "{{i18n:Animations.Ezra.Sport}}",
+        "iman.sport": "{{i18n:Animations.Iman.Sport}}"
       },
     }
   ]

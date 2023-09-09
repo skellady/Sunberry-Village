@@ -42,9 +42,19 @@
     },
     {
       "Name": "JumanaSaturday",
-      "Value": "1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\"",
-      "When": {
-        "HasMod |contains= Arknir.Jonghyuk, Airyn.Dao.CP": true
+      "Value": "{{Random: 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\"|key= DaoJonghyukSaturdayHangout}}",
+      "When": 
+      {
+        "HasMod |contains= Airyn.Dao.CP, Arknir.Jonghyuk": true
+      }
+    },
+    {
+      "Name": "JumanaSaturday",
+      "Value": "{{Random: 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\"|key= DaoJonghyukSaturdayHangout}}",
+      "When": 
+      {
+        "HasMod |contains= Arknir.Jonghyuk": true,
+        "HasMod |contains= Airyn.Dao.CP": true,
       }
     },
     {

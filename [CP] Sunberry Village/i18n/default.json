@@ -1165,7 +1165,7 @@
 
     // Special Order Board Unlock
     "event-20031434.01": "Hey, farmer. We're bringin' this old board back to life. Miyoung said it'd be good for the village and I always do what Miyoung says.$10",
-    "event-20031434.02": "This is good. Thank you for suggesting the idea, Miyoung, and thank you Elias for fixing it up.$h",
+    "event-20031434.02": "This is good. Thank you for suggesting the idea Miyoung, and thank you Elias for fixing it up.$h",
     "event-20031434.03": "Feel free to pick up any orders when you're droppin' by. It should be fully functional tomorrow, hopefully.",
     "event-20031434.04": "Hmm... I can finally put up that one order.",
     "event-20031434.05": "...Can we ask for snacks?",
@@ -1214,6 +1214,8 @@
     "Animations.Diala.Nap": "%Diala is napping on Derya's shoulder.",
     "Animations.Derya.Read": "%Derya's busy reading. Best to leave her alone.",
     "Animations.Derya.Phone": "%Derya's reading something on her phone. She tilts it out of your view when she notices you and smiles awkwardly.",
+    "Animations.Ezra.Sport": "Ugh... Stupid rope.$a",
+    "Animations.Iman.Sport": "%Iman's too absorbed in her phone to notice you.",
 
     //Special Orders
     //--------------
@@ -3408,7 +3410,7 @@
     //6 hearts
     "Jumana.Dialogue.Mon6": "Have you eaten anything yet, dear?#$b#Here, I made this earlier today. [224]$h",
     "Jumana.Dialogue.Tue6": "My late husband and I were friends with your grandfather. We weren't too close, but I know he was a wonderful man.$u",
-    "Jumana.Dialogue.Wed6": "I'm still very capable of taking care of myself, thankfully.#$b#However, it would be nice... to have my partner by my side, taking care of me and I him.$s#$b#I miss him so much.$s",
+    "Jumana.Dialogue.Wed6": "I'm still very capable of taking care of myself, thankfully.#$b#However, it would be nice... to have my partner by my side, taking care of me, and I him.$s#$b#I miss him so much.$s",
     "Jumana.Dialogue.Thu6": "I wish Amina's father could be around more.$s#$b#I'm just glad she has us and everyone else in the village supporting her.",
     "Jumana.Dialogue.Fri6": "Aw, hello. It's nice seeing you around, dear.$h#$b#Brings me joy to hear about everything you've been up to.$6",
     "Jumana.Dialogue.Sat6": "Lyenne came to me earlier for advice. Poor thing, dealing with so much.$s#$b#I made her some comfort food and told her she's always welcome in our house.$h",
