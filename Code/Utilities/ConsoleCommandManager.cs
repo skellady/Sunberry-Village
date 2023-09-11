@@ -1,6 +1,7 @@
 using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Quests;
+using SunberryVillage.Animations;
 using SunberryVillage.Lighting;
 using System.Collections.Generic;
 using System.Linq;
@@ -139,6 +140,25 @@ internal class ConsoleCommandManager
 				Log.Info($"Light sources in the current location:\n\t{string.Join(",\n\t", Game1.currentLightSources.Select(l => $"{l.Identifier}: {{{l.textureIndex} | {l.position} | {l.radius} | {l.lightContext} | {l.PlayerID}}}"))}");
 			}
 		);
+
+		#endregion
+
+		#region Animations
+
+		
+		Globals.Helper.ConsoleCommands.Add("SBVAnim", "", (command, args) =>
+		{
+			AnimationsHandler.Init();
+			if (args.Length < 2)
+			{
+				return;
+			}
+			NPC npc = Game1.getCharacterFromName(args[0]);
+			if (npc != null)
+			{
+				npc.StartActivityRouteEndBehavior(args[1], "test");
+			}
+		});
 
 		#endregion
 

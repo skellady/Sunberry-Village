@@ -6,11 +6,14 @@ namespace SunberryVillage.Utilities
 	{
 		private static readonly Random Random = new();
 
-		// ended up not using this method at all, but it's so fuckin cool i dont wanna get rid of it
-		// i was using it to generate light IDs......
+		/// <summary>
+		/// Generates a string of random alphanumeric characters of the specified <paramref name="length"/>.
+		/// </summary>
+		/// <param name="length">The length of the string to generate.</param>
+		/// <returns>A string of random characters of the specified <paramref name="length"/>.</returns>
 		internal static string GenerateRandomString(int length)
 		{
-			string validChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+			const string validChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
 			char[] stringChars = new char[length];
 
