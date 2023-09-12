@@ -1207,8 +1207,36 @@
     "event-20031435.32": "Yeah... I kinda forgot about that. Better go get started.$10",
     "event-20031435.33": "I'm glad Diala and Derya got their happy ending. I should keep an eye on the mailbox for the wedding invitation!",
 
+    // Derya and Lyenne 2 Hearts Event
+    "event-20031436.01": "No way she said that!",
+    "event-20031436.02": "She did! I couldn't believe it. Like, my jaw was on the floor.$u",
+    "event-20031436.03": "And then...",
+    "event-20031436.04": "You're kidding!",
+    "event-20031436.05": "I wish!",
+    "event-20031436.06": "That's... absolutely wild. What did she tell them?$7",
+    "event-20031436.07": "She just made up all these weird lies about it! I was so confused.$8",
+    "event-20031436.08": "Ahem...",
+    "event-20031436.09": "Oh, hey, farmer! Sorry, didn't hear you coming in. Lyenne and I were catching up.$h",
+    "event-20031436.10": "Oops, sorry, I'll let you get back to work.$h",
+    "event-20031436.11": "Tell me the rest later!",
+    "event-20031436.12": "Alright, what can I do for you? Cats? Coffee? Cookies? All three?$9",
+
+    // Mine Entrance Intro
+    "event-20031437.01": "Ah, hello farmer. I just got done taking care of something for Silas. What brings you here?",
+    "event-20031437.02": "I want to explore the mines.",
+    "event-20031437.03": "I'm just looking around.",
+    "event-20031437.04": "I was afraid you'd say that. Don't let the cave's beauty fool you, it's dangerous in here.$11",
+    "event-20031437.05": "I'm afraid there's nothing to look at here, dear. Don't let the cave's beauty fool you, it's dangerous in here.$11",
+    "event-20031437.06": "*sigh*",
+    "event-20031437.07": "Have you met Marlon yet? Has he given you any weapon or training?$8",
+    "event-20031437.08": "Yes.",
+    "event-20031437.09": "No.",
+    "event-20031437.10": "Huh, okay. I still strongly advise you not to venture in, but if you do, please be careful.$12",
+    "event-20031437.11": "...I'm afraid I won't be able to stand by as you venture in with no protection or training. I'll allow you to descend once you've seen Marlon.$12",
+
     //Animation Dialogue
     //------------------
+
     "Animations.Diala.Read": "%Looks like Diala's caught up in her book, she doesn't seem to notice you.",
     "Animations.Diala.Meditate": "%Looks like Diala's meditating. Best to leave her alone.",
     "Animations.Diala.Nap": "%Diala is napping on Derya's shoulder.",
@@ -2063,6 +2091,9 @@
     "MapString.sbv.brokendiner1": "It's a to-do list. Only two of the lines are readable.#'-Get eggs, flour, and sugar ^-Call Ezra again'",
     // Crystal Cave Entrance
     "MapString.sbv.crystalcave1": "Out of order.",
+    "MapString.sbv.lockedladder": "I shouldn't go any further.",
+    // 5A and 5B
+    "MapString.sbv.rest1": "'Cleared out the tunnel. Should be safe if you need to sleep or rest.' - Maia",
     // Elias' (Library) House
     "MapString.sbv.eliashouse1": "Elias' guitar. Now that you think about it, you've never actually seen him play it before.",
     "MapString.sbv.eliashouse2": "Elias' computer. His background is a picture of everyone in the village posing by the fountain.#Elias appears to be running in the picture, perhaps he didn't make it into the shot before the timer went off.",

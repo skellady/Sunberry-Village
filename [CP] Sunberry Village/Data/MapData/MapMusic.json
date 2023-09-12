@@ -143,6 +143,67 @@
 				"Music": "Frost_Ambient"
 			},
 			"Update": "OnLocationChange"
+		},
+		// MINE MUSIC MINE MUSIC 
+
+		//Level 1 to 3
+		{
+			"LogName": "Level 1 to 3",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_Mines1, Maps/Custom_SBV_Mines2, Maps/Custom_SBV_Mines3",
+			"MapProperties": {
+				"Music": "EarthMine"
+			},
+			"Update": "OnLocationChange"
+		},
+		// Level 4 to 6
+		{
+			"LogName": "Level 4 to 6",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_Mines4, Maps/Custom_SBV_Mines5A, Maps/Custom_SBV_Mines5B, Maps/Custom_SBV_Mines6",
+			"MapProperties": {
+				"Music": "{{Random: echos, Cavern, Cloth}}"
+			},
+			"Update": "OnLocationChange"
+		},
+		// Level 7 to 9
+		{
+			"LogName": "Level 7 to 9",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_Mines7, Maps/Custom_SBV_Mines8, Maps/Custom_SBV_Mines9",
+			"MapProperties": {
+				"Music": "{{Random: Cyclops, XOR, junimoKart_mushroomMusic}}"
+			},
+			"Update": "OnLocationChange"
+		},
+		// Level 10 to 12
+		{
+			"LogName": "Level 10 to 12",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_Mines10A, Maps/Custom_SBV_Mines10B, Maps/Custom_SBV_Mines11, Maps/Custom_SBV_Mines12",
+			"MapProperties": {
+				"Music": "{{Random: grandpas_theme, Icicles, kindadumbautumn}}"
+			},
+			"Update": "OnLocationChange"
+		},
+		// Level 13 to 15
+		{
+			"LogName": "Level 13 to 15",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_Mines13, Maps/Custom_SBV_Mines14, Maps/Custom_SBV_Mines15",
+			"MapProperties": {
+				"Music": "{{Random: moonlightJellies, musicboxsong, Plums}}"
+			},
+			"Update": "OnLocationChange"
+		},
+		// Final Level
+		{
+			"LogName": "Final Level",
+			"Action": "EditMap",
+			"Target": "Maps/Custom_SBV_MinesFinal",
+			"MapProperties": {
+				"Music": "{{Random: junimoKart_whaleMusic, junimoKart_mushroomMusic}}"
+			}
 		}
 	]
 }

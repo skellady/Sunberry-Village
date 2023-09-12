@@ -623,5 +623,654 @@
         "NPCWarp": "4 10 Custom_SBV_SunberryVillage 1 22",
       },
     },
+    // Mine Warps
+    {
+      "LogName": "Entrance to 1",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_CrystalCave",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 15,
+            "Y": 8
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 12 6 Custom_SBV_Mines1"
+          }
+        }
+      ],
+      "When": {
+        "HasSeenEvent: anyPlayer |contains=100162": true
+      }
+    },
+    {
+      "LogName": "1 to Entrance",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines1",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 12,
+            "Y": 5
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 15 9 Custom_SBV_CrystalCave"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "1 to 2",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines1",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 31,
+            "Y": 21
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 8 5 Custom_SBV_Mines2"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "2 to 1",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines2",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 8,
+            "Y": 4
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 30 21 Custom_SBV_Mines1"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "2 to 3",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines2",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 35,
+            "Y": 8
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 30 5 Custom_SBV_Mines3"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "3 to 2",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines3",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 35,
+            "Y": 8
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 35 9 Custom_SBV_Mines2"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "3 to 4",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines3",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 30,
+            "Y": 30
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 23 5 Custom_SBV_Mines4"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "4 to 3",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines4",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 23,
+            "Y": 4
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 29 30 Custom_SBV_Mines3"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "4 to 5A",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines4",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 41,
+            "Y": 40
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 27 21 Custom_SBV_Mines5A"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "5A to 4",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines5A",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 27,
+            "Y": 20
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 40 40 Custom_SBV_Mines4"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "5A to 5B",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines5A",
+      "AddWarps": [
+        "4 32 Custom_SBV_Mines5B 13 4"
+      ]
+    },
+    {
+      "LogName": "5A to 6",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines5A",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 40,
+            "Y": 6
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 10 5 Custom_SBV_Mines6"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "5B to 5A",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines5B",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 13,
+            "Y": 3
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 5 32 Custom_SBV_Mines5A"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "5B to 6",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines5B",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 20,
+            "Y": 15
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 10 5 Custom_SBV_Mines6"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "6 to 5A",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines6",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 10,
+            "Y": 4
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 39 6 Custom_SBV_Mines5A"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "6 to 7",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines6",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 45,
+            "Y": 43
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 24 22 Custom_SBV_Mines7"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "7 to 6",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines7",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 24,
+            "Y": 21
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 45 44 Custom_SBV_Mines6"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "7 to 8",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines7",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 3,
+            "Y": 7
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 4 4 Custom_SBV_Mines8"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "8 to 7",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines8",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 4,
+            "Y": 3
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 4 7 Custom_SBV_Mines7"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "8 to 9",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines8",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 14,
+            "Y": 26
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 7 6 Custom_SBV_Mines9"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "9 to 8",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines9",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 7,
+            "Y": 5
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 13 26 Custom_SBV_Mines8"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "9 to 10A",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines9",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 23,
+            "Y": 17
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 15 5 Custom_SBV_Mines10A"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "10A to 9",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines10A",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 15,
+            "Y": 4
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 23 8 Custom_SBV_Mines9"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "10A to 10B",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines10A",
+      "AddWarps": [
+        "3 18 Custom_SBV_Mines10B 6 6"
+      ]
+    },
+    {
+      "LogName": "10B to 10A",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines10B",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 6,
+            "Y": 5
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 4 18 Custom_SBV_Mines10A"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "10B to 11",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines10B",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 15,
+            "Y": 11
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 27 24 Custom_SBV_Mines11"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "10A to 11",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines10A",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 5,
+            "Y": 35
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 27 24 Custom_SBV_Mines11"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "11 to 10A",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines11",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 27,
+            "Y": 23
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 6 35 Custom_SBV_Mines10A"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "11 to 12",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines11",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 11,
+            "Y": 7
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 19 9 Custom_SBV_Mines12"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "12 to 11",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines12",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 19,
+            "Y": 8
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 12 7 Custom_SBV_Mines11"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "12 to 13",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines12",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 9,
+            "Y": 29
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 9 8 Custom_SBV_Mines13"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "13 to 12",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines13",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 9,
+            "Y": 7
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 10 29 Custom_SBV_Mines12"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "13 to 14",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines13",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 34,
+            "Y": 14
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 44 24 Custom_SBV_Mines14"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "14 to 13",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines14",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 44,
+            "Y": 23
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 33 14 Custom_SBV_Mines13"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "14 to 15",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines14",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 14,
+            "Y": 4
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 18 11 Custom_SBV_Mines15"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "15 to 14",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines15",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 18,
+            "Y": 10
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 13 4 Custom_SBV_Mines14"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "15 to Final",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_Mines15",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 39,
+            "Y": 24
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 9 7 Custom_SBV_MinesFinal"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "Final to 15",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_MinesFinal",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 9,
+            "Y": 6
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 38 24 Custom_SBV_Mines15"
+          }
+        }
+      ]
+    },
+    {
+      "LogName": "Final to Entrance",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_MinesFinal",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 35,
+            "Y": 10
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 8 10 Custom_SBV_CrystalCave"
+          }
+        }
+      ]
+    },
   ]
 }

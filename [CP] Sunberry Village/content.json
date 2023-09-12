@@ -82,6 +82,20 @@
       "When": {
         "BoardUnlock |contains= Vanilla": true
       }
+    },
+    {
+      "Name": "MineUnlock",
+      "Value": "quickQuestion #{{i18n:event-20031437.08}}#{{i18n:event-20031437.09}}(break)speak OpheliaSBV \"{{i18n:event-20031437.10}}\"(break)speak OpheliaSBV \"{{i18n:event-20031437.11}}\"",
+      "When": {
+        "HasSeenEvent |contains= 100162": true
+      }
+    },
+    {
+      "Name": "MineUnlock",
+      "Value": "quickQuestion #{{i18n:event-20031437.09}}(break)speak OpheliaSBV \"{{i18n:event-20031437.11}}\"",
+      "When": {
+        "HasSeenEvent |contains= 100162": false
+      }
     }
   ],
   "CustomLocations": [
@@ -203,7 +217,80 @@
     {
       "Name": "Custom_SBV_MoonWoods",
       "FromMapFile": "Assets/Maps/EventMaps/MoonWoods.tmx",
-    }
+    },
+    // Mine Maps
+    {
+      "Name": "Custom_SBV_Mines1",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_1.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines2",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_2.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines3",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_3.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines4",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_4.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines5A",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_5A.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines5B",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_5B.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines6",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_6.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines7",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_7.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines8",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_8.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines9",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_9.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines10A",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_10A.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines10B",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_10B.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines11",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_11.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines12",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_12.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines13",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_13.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines14",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_14.tmx"
+    },
+    {
+      "Name": "Custom_SBV_Mines15",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_15.tmx"
+    },
+    {
+      "Name": "Custom_SBV_MinesFinal",
+      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_Final.tmx"
+    },
   ],
   "ConfigSchema": {
     "SDVR3Patch": {

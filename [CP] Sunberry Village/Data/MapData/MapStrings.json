@@ -61,6 +61,8 @@
 				"sbv.brokendiner1": "{{i18n:MapString.sbv.brokendiner1}}",
 				//crystal cave entrance
 				"sbv.crystalcave1": "{{i18n:MapString.sbv.crystalcave1}}",
+				//5A and 5B
+				"sbv.rest1": "{{i18n:MapString.sbv.rest1}}",
 				//elias house
 				"sbv.eliashouse1": "{{i18n:MapString.sbv.eliashouse1}}",
 				"sbv.eliashouse2": "{{i18n:MapString.sbv.eliashouse2}}",
@@ -111,6 +113,17 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=20031427": false
+			}
+		},
+		{
+			"LogName": "Mine Unlock Message",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.lockedladder": "{{i18n:MapString.sbv.lockedladder}}"
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains=100162": false
 			}
 		}
 	]
