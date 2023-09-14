@@ -14,7 +14,7 @@ internal class AnimationsHandler
 {
 	internal const string AnimationsAssetPath = "SunberryTeam.SBV/Animations";
 	internal static IAssetName AnimationsAssetName = Globals.GameContent.ParseAssetName(AnimationsAssetPath);
-	internal static Dictionary<string, AnimationDataModel> AnimationData;
+	internal static Dictionary<string, AnimationDataModel> AnimationData = new();
 
 	#region Logic
 
