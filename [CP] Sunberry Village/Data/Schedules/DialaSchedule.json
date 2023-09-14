@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/DialaSBV",
 			"Entries": {
-				"spring": "2400 Custom_SBV_DDHouse 2 7 2",
+				"spring": "610 Custom_SBV_DialaCafe 4 8 0/1200 Custom_SBV_DialaCafe 19 14 0/1800 Custom_SBV_DialaCafe 5 17 3/2100 Custom_SBV_DDHouse 4 5 3 diala_sleep",
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=20031401": false

@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/DeryaSBV",
 			"Entries": {
-				"spring": "2400 Custom_SBV_DDHouse 13 9 0",
+				"spring": "610 Custom_SBV_DialaCafe 26 7 2/2100 Custom_SBV_DDHouse 15 5 3 derya_sleep",
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=20031401": false

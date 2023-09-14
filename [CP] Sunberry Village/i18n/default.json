@@ -2043,6 +2043,8 @@
     "MapString.dd.cafe7": "A cat scratching post.",
     "MapString.dd.cafe8": "A cat tower!",
     "MapString.dd.cafe9": "There's plenty of plates and cups in this cupboard.",
+    "MapString.dd.cafe10": "Hazelnut is taking a nap. Better not bother him.",
+    "MapString.dd.cafe11": "Ginger is taking a nap. Better not bother her.",
     "MapString.dd.house1": "'All About Retrogrades'#by Copper Djarin-Sun.",
     "MapString.dd.house2": "'The Elements and Modes'#by Tai Kun.",
     "MapString.dd.house3": "A cat bed.",
@@ -2073,6 +2075,7 @@
     "MapString.sbv.village5": "Maia, Jumana, and Amina's House",
     "MapString.sbv.village6": "Ari and Blake's House",
     "MapString.sbv.village7": "Sunberry Forest",
+    "MapString.sbv.unoccupied": "An unoccupied house.",
     // Mountain
     "MapString.sbv.mountain1": "Looks like this campfire was used recently.",
     "MapString.sbv.mountain2": "\"Our Beloved Adeel\", forever in our hearts.",
@@ -2133,6 +2136,16 @@
     "MapString.sbv.reihouse5": "Looks like Rei is hoarding some precious artifacts and minerals.",
     "MapString.sbv.reihouse6": "The fridge is completely empty. You don't think it's working to begin with.",
     "MapString.sbv.reihouse7": "This plant is dead.",
+    // Unoccupied Houses
+    "MapString.sbv.unoccupieddao": "An unoccupied house. You think someone adventurous would like living here. Maybe a firefighter?",
+    "MapString.sbv.unoccupiedwren": "An unoccupied house. You think this village would greatly benefit from a plumber.",
+    "MapString.sbv.unoccupiedhyuk": "An unoccupied house. You think this is the perfect home for a mysterious, attractive man.",
+    "MapString.sbv.unoccupiedarv": "An unoccupied house. You think this place could use a tight-knit family.",
+    "MapString.sbv.unoccupieddido": "An unoccupied house. You think this is the perfect home for a teacher and her rebellious teen daughter.",
+    "MapString.sbv.unoccupiedyri": "An unoccupied house. You think this house is perfect for an architect.",
+    "MapString.sbv.unoccupiedlani": "An unoccupied house. You think this village would greatly benefit from someone who is tech savvy.",
+    "MapString.sbv.unoccupiedripley": "An unoccupied house. You hope this house never gets a rival farmer.",
+    "MapString.sbv.unoccupied.ripleyrsv": "An unoccupied house. You hope this house never gets a rival farmer. Your hands are full enough with Jeric as your rival.",
 
 	//Festival Dialogue
 	//-----------------

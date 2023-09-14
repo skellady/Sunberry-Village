@@ -5,7 +5,7 @@
 			"Action": "EditData",
 			"Target": "Characters/schedules/MoonSBV",
 			"Entries": {
-				"spring": "2400 Custom_SBV_DDHouse 13 16 0",
+				"spring": "2400 Custom_SBV_DDHouse 9 6 0",
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=20031402": false

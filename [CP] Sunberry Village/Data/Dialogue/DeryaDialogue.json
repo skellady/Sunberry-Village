@@ -4,7 +4,6 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/DeryaSBV",
 			"Entries": {
-				"Introduction": "{{i18n:Derya.Dialogue.Introduction}}",
 				//spring
 				"spring_1": "{{i18n:Derya.Dialogue.spring_1}}",
 				"spring_12": "{{i18n:Derya.Dialogue.spring_12}}",
@@ -76,5 +75,15 @@
 				"MovieInvitation": "{{i18n:Derya.Dialogue.MovieInvitation}}",
 			},
 		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/DeryaSBV",
+			"Entries": {
+				"Introduction": "{{i18n:Derya.Dialogue.Introduction}}",
+			},
+			"When": {
+				"HasSeenEvent": 20031401
+			}
+		}
 	]
 }

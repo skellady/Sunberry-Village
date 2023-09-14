@@ -16,6 +16,8 @@
 				"dd.cafe7": "{{i18n:MapString.dd.cafe7}}",
 				"dd.cafe8": "{{i18n:MapString.dd.cafe8}}",
 				"dd.cafe9": "{{i18n:MapString.dd.cafe9}}",
+				"dd.cafe10": "{{i18n:MapString.dd.cafe10}}",
+				"dd.cafe11": "{{i18n:MapString.dd.cafe11}}",
 				"dd.house1": "{{i18n:MapString.dd.house1}}",
 				"dd.house2": "{{i18n:MapString.dd.house2}}",
 				"dd.house3": "{{i18n:MapString.dd.house3}}",
@@ -45,6 +47,7 @@
 				"sbv.village5": "{{i18n:MapString.sbv.village5}}",
 				"sbv.village6": "{{i18n:MapString.sbv.village6}}",
 				"sbv.village7": "{{i18n:MapString.sbv.village7}}",
+				"sbv.unoccupied": "{{i18n:MapString.sbv.unoccupied}}",
 				//mountain
 				"sbv.mountain1": "{{i18n:MapString.sbv.mountain1}}",
 				"sbv.mountain2": "{{i18n:MapString.sbv.mountain2}}",
@@ -125,6 +128,97 @@
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=100162": false
 			}
-		}
+		},
+		// Unoccupied Houses
+		{
+			"LogName": "Dao's House",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupieddao": "{{i18n:MapString.sbv.unoccupieddao}}"
+			},
+			"When": {
+				"HasMod |contains= Airyn.Dao.CP": false
+			}
+		},
+		{
+			"LogName": "Wren's House",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupiedwren": "{{i18n:MapString.sbv.unoccupiedwren}}"
+			},
+			"When": {
+				"HasMod |contains= tiakall.wren": false
+			}
+		},
+		{
+			"LogName": "Jonghyuk's House",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupiedhyuk": "{{i18n:MapString.sbv.unoccupiedhyuk}}"
+			},
+			"When": {
+				"HasMod |contains= Arknir.Jonghyuk": false
+			}
+		},
+		{
+			"LogName": "ARV House",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupiedarv": "{{i18n:MapString.sbv.unoccupiedarv}}"
+			}
+		},
+		{
+			"LogName": "Dido & Cassie's House",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupieddido": "{{i18n:MapString.sbv.unoccupieddido}}"
+			},
+			"When": {
+				"HasMod |contains= ZoeDoll.NPCDidoAndCassie": false
+			}
+		},
+		{
+			"LogName": "Yri's House",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupiedyri": "{{i18n:MapString.sbv.unoccupiedyri}}"
+			}
+		},
+		{
+			"LogName": "Lani's House",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupiedlani": "{{i18n:MapString.sbv.unoccupiedlani}}"
+			}
+		},
+		{
+			"LogName": "Ripley's House NO RSV",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupiedripley": "{{i18n:MapString.sbv.unoccupiedripley}}"
+			},
+			"When": {
+				"HasMod |contains= Rafseazz.RSVCP": false
+			}
+		},
+		{
+			"LogName": "Ripley's House RSV",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupiedripley": "{{i18n:MapString.sbv.unoccupiedripleyrsv}}"
+			},
+			"When": {
+				"HasMod |contains= Rafseazz.RSVCP": true
+			}
+		}	
 	]
 }

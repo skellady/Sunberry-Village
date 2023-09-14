@@ -75,5 +75,15 @@
 				"MovieInvitation": "{{i18n:Diala.Dialogue.MovieInvitation}}",
 			},
 		},
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/DialaSBV",
+			"Entries": {
+				"Introduction": "{{i18n:Diala.Dialogue.Introduction}}",
+			},
+			"When": {
+				"HasSeenEvent": 20031401
+			}
+		}
 	]
 }

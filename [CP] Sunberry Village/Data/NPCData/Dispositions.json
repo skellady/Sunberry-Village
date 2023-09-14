@@ -19,7 +19,7 @@
         // D&D's Family
         "DialaSBV": "adult/polite/shy/positive/female/non-datable/null/Town/summer 26//Custom_SBV_DDHouse 2 7/{{i18n:Name.Diala}}",
         "DeryaSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/fall 21//Custom_SBV_DDHouse 13 9/{{i18n:Name.Derya}}",
-        "MoonSBV": "child/polite/outgoing/positive/female/non-datable/null/Town/winter 13//Custom_SBV_DDHouse 13 16/{{i18n:Name.Moon}}",
+        "MoonSBV": "child/polite/outgoing/positive/female/non-datable/null/Town/winter 13//Custom_SBV_DDHouse 9 6/{{i18n:Name.Moon}}",
 
         // Elias' Family
         "AriSBV": "adult/polite/shy/positive/male/non-datable/null/Town/winter 19/{{i18n:NPC_Relationships.Ari}}/Custom_SBV_AriMarket 18 5/{{i18n:Name.Ari}}",
