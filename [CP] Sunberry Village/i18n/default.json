@@ -1234,6 +1234,18 @@
     "event-20031437.10": "Huh, okay. I still strongly advise you not to venture in, but if you do, please be careful.$12#$b#Keep some food and a sleeping bag on you. You'll need them.$12",
     "event-20031437.11": "...I'm afraid I won't be able to stand by as you venture in with no protection or training. I'll allow you to descend once you've seen Marlon.$12",
 
+    // Derya and Wren Shenanigans
+    "event-20031438.01": "Psst. Over here.$10",
+    "event-20031438.02": "Wh-? Derya? Has no one ever told you not to scare an old woman like that?!$s",
+    "event-20031438.03": "God, okay, I'm sorry! I just can't let Diala see me here.$s",
+    "event-20031438.04": "Well, she... Okay, this sounds really silly, but she cut me off. No more soda for me.$10",
+    "event-20031438.05": "HAAH!$h",
+    "event-20031438.06": "Hey! Don't laugh. She might hear you.$11",
+    "event-20031438.07": "Alright, alright. I'll get you soda on one condition. You've got to let me hang out at the cafe tonight so I can pet the cats while I knit.$h",
+    "event-20031438.08": "Deal! Thank you, you're a life saver.$u",
+    "event-20031438.09": "Deryaaa? Where are you? I need your help with the cats.$h",
+    "event-20031438.10": "Shit. I'll be right there, angel!",
+
     //Animation Dialogue
     //------------------
 

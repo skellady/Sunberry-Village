@@ -22,19 +22,6 @@
                 "20031436/f DeryaSBV 500/f LyenneSBV 500/t 900 1700": "ragtime/-100 -100/farmer -100 -100 0 DeryaSBV 26 7 2 LyenneSBV 27 9 0/addTemporaryActor DDCat1 32 32 -999 -461 2 false/addTemporaryActor DDCat2 32 32 -999 -462 2 false/warp DDCat1 23 10 2/warp DDCat2 30 13 2/skippable/viewport 28 10/pause 600/textAboveHead DeryaSBV \"{{i18n:event-20031436.01}}\"/pause 1000/speak LyenneSBV \"{{i18n:event-20031436.02}}\"/pause 800/textAboveHead LyenneSBV \"{{i18n:event-20031436.03}}\"/pause 1200/jump DeryaSBV/pause 700/playSound doorOpen/warp farmer 26 18 0/advancedMove farmer false 0 -8 4 2000/textAboveHead DeryaSBV \"{{i18n:event-20031436.04}}\"/pause 2700/textAboveHead LyenneSBV \"{{i18n:event-20031436.05}}\"/pause 500/emote farmer 8/pause 500/emote DeryaSBV 12/pause 600/speak DeryaSBV \"{{i18n:event-20031436.06}}\"/pause 500/speak LyenneSBV \"{{i18n:event-20031436.07}}\"/pause 600/quickQuestion #{{i18n:event-20031436.08}}(break)pause 50/pause 400/speak DeryaSBV \"{{i18n:event-20031436.09}}\"/pause 500/speak LyenneSBV \"{{i18n:event-20031436.10}}\"/pause 500/advancedMove LyenneSBV false 0 4 2 0 1 2000/textAboveHead DeryaSBV \"{{i18n:event-20031436.11}}\"/pause 500/emote LyenneSBV 32/pause 2200/speak DeryaSBV \"{{i18n:event-20031436.12}}\"/pause 500/emote farmer 20/pause 1500/globalFade/viewport -999 -999/end",
             },  
         },
-                /*advancedMove true/false (loop) parameters
-
-        parameters:
-        x y x y x y = move without pause
-
-        x y z t x y z t = move with pauses
-
-        x y x y z t x y = move with mix of mentioned above
-
-        x = how many tiles move in x axis (+ = right, - = left)
-        y = how many tiles move in y axis (+ = down, - = up)
-        z = direction face upon reaching destination (1=right, 2=down, 3=left, 4=up)
-        t = duration in milliseconds how long to stay in that spot (must be >= 10000ms)*/
         {
             "LogName": "Moon Intro Event",
             "Action": "EditData",
@@ -216,6 +203,30 @@
                 //Mine Intro
                 "20031437": "Cavern/-100 -100/farmer -100 -100 0 OpheliaSBV 14 8 3/skippable/playSound stairsdown/pause 700/viewport 11 10/pause 400/emote OpheliaSBV 40/pause 500/move OpheliaSBV -6 0 2/pause 700/warp farmer 10 16/playSound stoneStep/pause 500/move farmer 0 -6 0/move OpheliaSBV 2 0 2/pause 500/emote farmer 32/speak OpheliaSBV \"{{i18n:event-20031437.01}}\"/pause 500/quickQuestion #{{i18n:event-20031437.02}}#{{i18n:event-20031437.03}}(break)speak OpheliaSBV \"{{i18n:event-20031437.04}}\"(break)speak OpheliaSBV \"{{i18n:event-20031437.05}}\"/pause 500/faceDirection OpheliaSBV 1/pause 500/emote OpheliaSBV 40/pause 500/faceDirection OpheliaSBV 2/pause 500/textAboveHead OpheliaSBV \"{{i18n:event-20031437.06}}\"/pause 800/speak OpheliaSBV \"{{i18n:event-20031437.07}}\"/pause 500/{{MineUnlock}}/pause 500/move OpheliaSBV 4 0 1 true/pause 1000/globalFade/viewport -999 -999/end",
             }
+        },
+        {
+            "LogName": "Sunberry Village Events",
+            "Action": "EditData",
+            "Target": "Data/Events/Custom_SBV_SunberryVillage",
+            "Entries": {
+                "20031438/w sunny/z winter/t 900 1700/r 0.3": "archaeo/-100 -100/farmer -100 -100 0 DialaSBV -100 -101 0 DeryaSBV 48 33 1 WrenSong 49 45 3/skippable/viewport 52 43/pause 800/advancedMove WrenSong false 3 0 0 -12 4 2000/viewport move 0 -1 7000/pause 6200/playSound leafrustle/pause 400/emote WrenSong 8/pause 500/faceDirection WrenSong 1/pause 300/faceDirection WrenSong 2/pause 400/speak DeryaSBV \"{{i18n:event-20031438.01}}\"/pause 500/faceDirection WrenSong 3/pause 400/jump WrenSong/pause 500/speak WrenSong \"{{i18n:event-20031438.02}}\"/pause 400/move DeryaSBV 2 0 1/pause 500/speak DeryaSBV \"{{i18n:event-20031438.03}}\"/pause 500/emote WrenSong 8/pause 800/speak DeryaSBV \"{{i18n:event-20031438.04}}\"/pause 500/emote WrenSong 40/pause 700/speak WrenSong \"{{i18n:event-20031438.05}}\"/pause 500/speak DeryaSBV \"{{i18n:event-20031438.06}}\"/pause 500/emote WrenSong 32/pause 700/speak WrenSong \"{{i18n:event-20031438.07}}\"/pause 500/jump DeryaSBV/pause 600/speak DeryaSBV \"{{i18n:event-20031438.08}}\"/pause 700/speak DialaSBV \"{{i18n:event-20031438.09}}\"/pause 400/jump DeryaSBV/pause 90/faceDirection DeryaSBV 0/speed DeryaSBV 4/advancedMove DeryaSBV false 0 -9 4 2000/textaboveHead DeryaSBV \"{{i18n:event-20031438.10}}\"/pause 300/faceDirection WrenSong 0/warp DeryaSBV -100 -102/playSound doorOpen/pause 500/emote WrenSong 32/pause 1500/globalFade/viewport -999 -999/end"
+            },
+            "When": {
+                "HasMod": "tiakall.wren"
+            }
         }
+        /*advancedMove true/false (loop) parameters
+
+        parameters:
+        x y x y x y = move without pause
+
+        x y z t x y z t = move with pauses
+
+        x y x y z t x y = move with mix of mentioned above
+
+        x = how many tiles move in x axis (+ = right, - = left)
+        y = how many tiles move in y axis (+ = down, - = up)
+        z = direction face upon reaching destination (1=right, 2=down, 3=left, 4=up)
+        t = duration in milliseconds how long to stay in that spot (must be >= 10000ms)*/
     ]
 }
