@@ -395,6 +395,11 @@
       "Target": "Characters/DDBook",
       "FromFile": "Assets/Maps/tempActors/DDBook.png"
     },
+    {
+      "Action": "Load",
+      "Target": "Characters/SBVCrate",
+      "FromFile": "Assets/Maps/tempActors/SBVCrate.png"
+    },
     //Temporary Maps
     {
       "Action": "Load",
