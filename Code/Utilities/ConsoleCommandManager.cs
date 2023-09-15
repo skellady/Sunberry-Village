@@ -146,7 +146,11 @@ internal class ConsoleCommandManager
 		#region Animations
 
 		
-		Globals.Helper.ConsoleCommands.Add("SBVAnim", "", (command, args) =>
+		Globals.Helper.ConsoleCommands.Add("sbv.anim.test", "Tests the specified animation for the character." +
+			"\nFormat: \"sbv.anim.test [npcName] [animationName]\"" +
+			"\nArguments:" +
+			"\n\tnpcName (string): The internal name of the NPC who is performing the animation." +
+			"\n\tanimationName (string): The name of the animation to perform.", (command, args) =>
 		{
 			AnimationsHandler.Init();
 			if (args.Length < 2)
