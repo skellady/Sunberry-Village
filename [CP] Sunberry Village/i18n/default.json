@@ -1257,6 +1257,14 @@
     "event-20031439.08": "Ugh.$6",
     "event-20031439.09": "I'll just deal with it later. What do you need?$10",
 
+    // Elias 2 Hearts Event
+    "event-20031440.01": "Ah, if it ain't the farmer. Droppin' by to check out the books? I could recommend you somethin'.$7",
+    "event-20031440.02": "Hmm...",
+    "event-20031440.03": "Have you read this book before? It's about a group of friends from varying backgrounds growin' closer and formin' a strong bond.$h",
+    "event-20031440.04": "The characters are pretty fun. There's one with a massive ego, the short friend they always bully, and of course, the menaces.$u",
+    "event-20031440.05": "Readin' about their adventures always feels like walkin' into a room that has been set on fire, somehow.$9",
+    "event-20031440.06": "Anyways, feel free to browse the shelves. I'll be right over there if you decide to pick somethin' up.",
+
     //Animation Dialogue
     //------------------
 
