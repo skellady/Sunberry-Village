@@ -107,6 +107,8 @@ internal class AnimationsHandler
 	#endregion
 }
 
+#pragma warning disable CS0649
+
 /// <summary>
 /// Data model for NPC animations
 /// </summary>
@@ -130,5 +132,6 @@ internal class ExtraAnimation
 	public float AnimationInterval = 5000f;
 	public int Frames;
 	public string TextureName;
-
 }
+
+#pragma warning restore CS0649
