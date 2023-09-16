@@ -1278,6 +1278,16 @@
     "event-20031441.10": "Alright, Blake. Your turn now.",
     "event-20031441.11": "Well, I'm gonna go kick some ass. I'll see you around, @.$h",
 
+    // Lyenne 2 Hearts Event
+    "event-20031442.01": "Oh, hey. Looking for Ophelia? She went to run an errand.#$b#Don't mind me, I asked her if I could paint here, but... it's not going the way I want it to.$s",
+    "event-20031442.02": "I'm making this painting for one of my classes and I really want to impress my professor, but I don't want to make something basic. I think I just need a break.$7",
+    "event-20031442.03": "Would you like to go on a walk?",
+    "event-20031442.04": "Alright, good luck!",
+    "event-20031442.05": "OH! I'd love to. Thanks, @.$h",
+    "event-20031442.06": "And then...",
+    "event-20031442.07": "It was absolutely hilarious, you should've been there.$h",
+    "event-20031442.08": "...Thank you, by the way. I needed this. I'll get back to my painting in a bit.$h",
+    "event-20031442.09": "Thanks! I better get back to this.$h",
     //Animation Dialogue
     //------------------
 

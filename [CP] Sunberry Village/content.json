@@ -400,6 +400,11 @@
       "Target": "Characters/SBVCrate",
       "FromFile": "Assets/Maps/tempActors/SBVCrate.png"
     },
+    {
+      "Action": "Load",
+      "Target": "Characters/SBVEasel",
+      "FromFile": "Assets/Maps/tempActors/SBVEasel.png"
+    },
     //Temporary Maps
     {
       "Action": "Load",
