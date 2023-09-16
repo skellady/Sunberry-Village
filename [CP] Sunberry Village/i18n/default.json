@@ -1265,6 +1265,19 @@
     "event-20031440.05": "Readin' about their adventures always feels like walkin' into a room that has been set on fire, somehow.$9",
     "event-20031440.06": "Anyways, feel free to browse the shelves. I'll be right over there if you decide to pick somethin' up.",
 
+    // Blake 2 Hearts Event
+    "event-20031441.01": "Oh, hey, @! Here to join us? I'm still waiting for my turn.$u",
+    "event-20031441.02": "...Say, do you like video games?",
+    "event-20031441.03": "Yeah!",
+    "event-20031441.04": "Not really.",
+    "event-20031441.05": "Me, too. I've been into video games for as long as I could remember. My dads got me my first console when they adopted me.$h",
+    "event-20031441.06": "I've... never really gotten presents before then. I think I played on that console for a week straight.$u",
+    "event-20031441.07": "Ah, gotcha. I've been into video games for as long as I could remember. My dads got me my first console when they adopted me.$h",
+    "event-20031441.08": "Ugh, I hate this game sometimes.$u",
+    "event-20031441.09": "Hehe...",
+    "event-20031441.10": "Alright, Blake. Your turn now.",
+    "event-20031441.11": "Well, I'm gonna go kick some ass. I'll see you around, @.$h",
+
     //Animation Dialogue
     //------------------
 
