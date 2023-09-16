@@ -1288,6 +1288,36 @@
     "event-20031442.07": "It was absolutely hilarious, you should've been there.$h",
     "event-20031442.08": "...Thank you, by the way. I needed this. I'll get back to my painting in a bit.$h",
     "event-20031442.09": "Thanks! I better get back to this.$h",
+
+    // Derya and Aicha 4 Hearts Event
+    "event-20031443.01": "Heh...",
+    "event-20031443.02": "Hello, cats and friends!",
+    "event-20031443.03": "*whispers* We should ask her.$8",
+    "event-20031443.04": "YES!$6",
+    "event-20031443.05": "Ahem...",
+    "event-20031443.06": "Hey, Aicha, we have a question for you.$6",
+    "event-20031443.07": "When I was six, my sister was half my age. Now, I'm seventy. How old is my sister?$9",
+    "event-20031443.08": "Wow! You don't look a day over thirty, Derya!$6",
+    "event-20031443.09": "Oh, damn!",
+    "event-20031443.10": "...$11",
+    "event-20031443.11": "Not the point! Answer the question, Aicha.$h",
+    "event-20031443.12": "Hm... thirty-five!$u",
+    "event-20031443.13": "HAH!",
+    "event-20031443.14": "Oh, my God.$u",
+    "event-20031443.15": "What? It's correct!$7",
+    "event-20031443.16": "Derya repeats the question.",
+    "event-20031443.17": "It's still thirty-five!$s",
+    "event-20031443.18": "*giggle*",
+    "event-20031443.19": "When I was SIX, my sister was HALF my age...$6",
+    "event-20031443.20": "Okay...",
+    "event-20031443.21": "Now, I'm SEVENTY. How old is my sister?$8",
+    "event-20031443.22": "Are you guys teasing Aicha again?$a",
+    "event-20031443.23": "No...",
+    "event-20031443.24": "Yes...",
+    "event-20031443.25": "Come here, Aicha. I'll get you a slice of cake.$h",
+    "event-20031443.26": "Yeah! No more math!$15",
+    "event-20031443.27": "Damn, I could go for a slice of cake right now...$s",
+
     //Animation Dialogue
     //------------------
 
