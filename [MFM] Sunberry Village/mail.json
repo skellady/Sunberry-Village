@@ -101,7 +101,7 @@
     "Id": "DND.MoonRecipe",
     "Title": "DND.MoonRecipe.title",
     "Text": "DND.MoonRecipe.text",
-    "Recipe": "SBV Chocolate Chip Cookies",
+    "Recipe": "SBV Chocolate Chip Cookie",
     "LetterBG": "DDLetter.png",
     "Repeatable": false,
     "FriendshipConditions": [
