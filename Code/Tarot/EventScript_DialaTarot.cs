@@ -72,103 +72,103 @@ internal class EventScriptDialaTarot : ICustomEventScript
 	{
 		// black background
 		b.Draw(
-			Game1.staminaRect,
-			new Rectangle(0, 0, 1920, 1080),
-			Game1.staminaRect.Bounds,
-			Color.Black,
-			0f,
-			Vector2.Zero,
-			SpriteEffects.None,
-			0f
+			texture: Game1.staminaRect,
+			destinationRectangle: new Rectangle(0, 0, 1920, 1080),
+			sourceRectangle: Game1.staminaRect.Bounds,
+			color: Color.Black,
+			rotation: 0f,
+			origin: Vector2.Zero,
+			effects: SpriteEffects.None,
+			layerDepth: 0f
 		);
 
 		b.Draw(
-			Game1.mouseCursors,
-			Vector2.Zero,
-			new Rectangle(0, 1453, 638, 195),
-			Color.White * _bgOpacity,
-			0f,
-			Vector2.Zero,
-			4f,
-			SpriteEffects.None,
-			0f
+			texture: Game1.mouseCursors,
+			position: Vector2.Zero,
+			sourceRectangle: new Rectangle(0, 1453, 638, 195),
+			color: Color.White * _bgOpacity,
+			rotation: 0f,
+			origin: Vector2.Zero,
+			scale: 4f,
+			effects: SpriteEffects.None,
+			layerDepth: 0f
 		);
 
 		b.Draw(
-			Game1.mouseCursors,
-			new Vector2(0f, 781),
-			new Rectangle(0, 1453, 638, 195),
-			Color.White * _bgOpacity,
-			0f,
-			Vector2.Zero,
-			4f,
-			SpriteEffects.None,
-			0f
+			texture: Game1.mouseCursors,
+			position: new Vector2(0f, 781),
+			sourceRectangle: new Rectangle(0, 1453, 638, 195),
+			color: Color.White * _bgOpacity,
+			rotation: 0f,
+			origin: Vector2.Zero,
+			scale: 4f,
+			effects: SpriteEffects.None,
+			layerDepth: 0f
 		);
 
 		b.Draw(
-			_cardBackTexture,
-			_card1Pos,
-			new Rectangle(0, 0, 92, 139),
-			Color.White,
-			0f,
-			new Vector2(0f, 0f),
-			new Vector2(_card1SquishFactor, 4f),
-			SpriteEffects.None,
+			texture: _cardBackTexture,
+			position: _card1Pos,
+			sourceRectangle: new Rectangle(0, 0, 92, 139),
+			color: Color.White,
+			rotation: 0f,
+			origin: new Vector2(0f, 0f),
+			scale: new Vector2(_card1SquishFactor, 4f),
+			effects: SpriteEffects.None,
 			layerDepth: 1f
 		);
 
 		if (_phase is >= 5 and <= 19)
 		{
 			b.Draw(
-				_card1.Texture.Value,
-				_card1Pos,
-				new Rectangle(0, 0, 92, 139),
-				Color.White,
-				0f,
-				new Vector2(0f, 0f),
-				new Vector2(_card1SquishFactor, 4f),
-				SpriteEffects.None,
+				texture: _card1.Texture.Value,
+				position: _card1Pos,
+				sourceRectangle: new Rectangle(0, 0, 92, 139),
+				color: Color.White,
+				rotation: 0f,
+				origin: new Vector2(0f, 0f),
+				scale: new Vector2(_card1SquishFactor, 4f),
+				effects: SpriteEffects.None,
 				layerDepth: 2f
 			);
 		}
 
 		b.Draw(
-			_cardBackTexture,
-			_card2Pos,
-			null,
-			Color.White,
-			0f,
-			new Vector2(0f, 0f),
-			new Vector2(_card2SquishFactor, 4f),
-			SpriteEffects.None,
+			texture: _cardBackTexture,
+			position: _card2Pos,
+			sourceRectangle: null,
+			color: Color.White,
+			rotation: 0f,
+			origin: new Vector2(0f, 0f),
+			scale: new Vector2(_card2SquishFactor, 4f),
+			effects: SpriteEffects.None,
 			layerDepth: 1f
 		);
 
 		if (_phase is >= 10 and <= 19)
 		{
 			b.Draw(
-				_card2.Texture.Value,
-				_card2Pos,
-				new Rectangle(0, 0, 92, 139),
-				Color.White,
-				0f,
-				new Vector2(0f, 0f),
-				new Vector2(_card2SquishFactor, 4f),
-				SpriteEffects.None,
+				texture: _card2.Texture.Value,
+				position: _card2Pos,
+				sourceRectangle: new Rectangle(0, 0, 92, 139),
+				color: Color.White,
+				rotation: 0f,
+				origin: new Vector2(0f, 0f),
+				scale: new Vector2(_card2SquishFactor, 4f),
+				effects: SpriteEffects.None,
 				layerDepth: 2f
 			);
 		}
 
 		b.Draw(
-			_cardBackTexture,
-			_card3Pos,
-			null,
-			Color.White,
-			0f,
-			new Vector2(0f, 0f),
-			new Vector2(_card3SquishFactor, 4f),
-			SpriteEffects.None,
+			texture: _cardBackTexture,
+			position: _card3Pos,
+			sourceRectangle: null,
+			color: Color.White,
+			rotation: 0f,
+			origin: new Vector2(0f, 0f),
+			scale: new Vector2(_card3SquishFactor, 4f),
+			effects: SpriteEffects.None,
 			layerDepth: 1f
 		);
 
@@ -176,33 +176,33 @@ internal class EventScriptDialaTarot : ICustomEventScript
 		{
 			case >= 15 and <= 19:
 				b.Draw(
-					_card3.Texture.Value,
-					_card3Pos,
-					new Rectangle(0, 0, 92, 139),
-					Color.White,
-					0f,
-					new Vector2(0f, 0f),
-					new Vector2(_card3SquishFactor, 4f),
-					SpriteEffects.None,
+					texture: _card3.Texture.Value,
+					position: _card3Pos,
+					sourceRectangle: new Rectangle(0, 0, 92, 139),
+					color: Color.White,
+					rotation: 0f,
+					origin: new Vector2(0f, 0f),
+					scale: new Vector2(_card3SquishFactor, 4f),
+					effects: SpriteEffects.None,
 					layerDepth: 2f
 				);
 				break;
 
 			case 6 or 7 or 8:
 				b.DrawString(
-					Game1.dialogueFont,
-					Game1.parseText($"{_card1.Name}: {_card1.Description}", Game1.dialogueFont, CardWidth * 12),
-					_textPos,
-					Color.White * _textOpacity
+					spriteFont: Game1.dialogueFont,
+					text: Game1.parseText($"{_card1.Name}: {_card1.Description}", Game1.dialogueFont, CardWidth * 12),
+					position: _textPos,
+					color: Color.White * _textOpacity
 				);
 				break;
 
 			case 11 or 12 or 13:
 				b.DrawString(
-					Game1.dialogueFont,
-					Game1.parseText($"{_card2.Name}: {_card2.Description}", Game1.dialogueFont, CardWidth * 12),
-					_textPos,
-					Color.White * _textOpacity
+					spriteFont: Game1.dialogueFont,
+					text: Game1.parseText($"{_card2.Name}: {_card2.Description}", Game1.dialogueFont, CardWidth * 12),
+					position: _textPos,
+					color: Color.White * _textOpacity
 				);
 				break;
 		}
@@ -210,11 +210,13 @@ internal class EventScriptDialaTarot : ICustomEventScript
 		if (_phase is 16 or 17 or 18)
 		{
 			b.DrawString(
-				Game1.dialogueFont,
-				Game1.parseText($"{_card3.Name}: {_card3.Description}", Game1.dialogueFont, CardWidth * 12),
+				spriteFont: Game1.dialogueFont,
+				text: Game1.parseText($"{_card3.Name}: {_card3.Description}", Game1.dialogueFont, CardWidth * 12),
+				//screenCenterPosition + new Vector2(-(Game1.dialogueFont.MeasureString(card3.Description).X / 2), cardHeight * 2 + spacerWidth),
+				position:
 				//screenCenterPosition + new Vector2(-(Game1.dialogueFont.MeasureString(card3.Description).X / 2), cardHeight * 2 + spacerWidth),
 				_textPos,
-				Color.White * _textOpacity
+				color: Color.White * _textOpacity
 			);
 		}
 	}
