@@ -4,7 +4,7 @@
   <property name="AmbientLight" value="50 50 50"/>
  </properties>
  <tileset firstgid="1" name="mine_final2" tilewidth="16" tileheight="16" tilecount="1239" columns="21">
-  <image source="mine_final2.png" width="336" height="944"/>
+  <image source="SBV_mine_final2.png" width="336" height="944"/>
   <tile id="13">
    <properties>
     <property name="Type" value="Grass"/>
@@ -497,7 +497,7 @@
   </tile>
  </tileset>
  <tileset firstgid="1240" name="Colors13" tilewidth="16" tileheight="16" tilecount="1200" columns="40">
-  <image source="Colors13.png" width="640" height="480"/>
+  <image source="SBVColors13.png" width="640" height="480"/>
  </tileset>
  <layer id="1" name="Back" width="40" height="30">
   <data encoding="csv">

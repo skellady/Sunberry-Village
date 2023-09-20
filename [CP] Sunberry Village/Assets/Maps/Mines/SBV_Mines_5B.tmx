@@ -5,7 +5,7 @@
   <property name="Esca.EMP/BedPlacement" value="true"/>
  </properties>
  <tileset firstgid="1" name="zmine" tilewidth="16" tileheight="16" tilecount="320" columns="16">
-  <image source="mine_mushroom.png" width="256" height="320"/>
+  <image source="SBV_mine_mushroom.png" width="256" height="320"/>
   <tile id="0">
    <properties>
     <property name="Type" value="Dirt"/>

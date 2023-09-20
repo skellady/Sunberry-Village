@@ -5,7 +5,7 @@
   <property name="Esca.EMP/BedPlacement" value="true"/>
  </properties>
  <tileset firstgid="1" name="mine_final2" tilewidth="16" tileheight="16" tilecount="1239" columns="21">
-  <image source="mine_final2.png" width="336" height="944"/>
+  <image source="SBV_mine_final2.png" width="336" height="944"/>
   <tile id="13">
    <properties>
     <property name="Type" value="Grass"/>
@@ -538,7 +538,7 @@
   </tile>
  </tileset>
  <tileset firstgid="1240" name="ColorsFinal" tilewidth="16" tileheight="16" tilecount="1650" columns="55">
-  <image source="ColorsFinal.png" width="880" height="480"/>
+  <image source="SBVColorsFinal.png" width="880" height="480"/>
  </tileset>
  <layer id="1" name="Back" width="55" height="30">
   <data encoding="csv">

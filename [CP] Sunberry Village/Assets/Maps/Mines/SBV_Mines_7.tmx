@@ -4,7 +4,7 @@
   <property name="AmbientLight" value="50 50 50"/>
  </properties>
  <tileset firstgid="1" name="zmine" tilewidth="16" tileheight="16" tilecount="288" columns="16">
-  <image source="mine_blue.png" width="256" height="288"/>
+  <image source="SBV_mine_blue.png" width="256" height="288"/>
   <tile id="0">
    <properties>
     <property name="Type" value="Dirt"/>
@@ -237,7 +237,7 @@
   </tile>
  </tileset>
  <tileset firstgid="289" name="zCrystals" tilewidth="16" tileheight="16" tilecount="15" columns="5">
-  <image source="Crystals.png" width="80" height="48"/>
+  <image source="SBV_YriCrystals.png" width="80" height="48"/>
  </tileset>
  <tileset firstgid="304" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths.png" width="64" height="144"/>

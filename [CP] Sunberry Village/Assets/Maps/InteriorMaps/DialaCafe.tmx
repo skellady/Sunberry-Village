@@ -22,7 +22,7 @@
   <image source="lumi_recolored.png" width="320" height="260"/>
  </tileset>
  <tileset firstgid="6143" name="zwall1" tilewidth="16" tileheight="16" tilecount="3" columns="1">
-  <image source="wall1.png" width="16" height="48"/>
+  <image source="SBV_wall1.png" width="16" height="48"/>
  </tileset>
  <tileset firstgid="6146" name="z_custom_kedi_pet_tilesheet" tilewidth="16" tileheight="16" tilecount="168" columns="8">
   <image source="z_custom_kedi_pet_tilesheet.png" width="128" height="336"/>

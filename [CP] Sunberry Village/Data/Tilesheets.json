@@ -17,6 +17,151 @@
       "FromFile": "Assets/Maps/TileSheets/yri_furniture.png",
     },
     {
+      "Action": "Load",
+      "Target": "Maps/DDFurniture",
+      "FromFile": "Assets/Maps/Tilesheets/DDFurniture.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_sunberrybuildings",
+      "FromFile": "Assets/Maps/TileSheets/spring_sunberrybuildings.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_sunberrybuildings",
+      "FromFile": "Assets/Maps/TileSheets/summer_sunberrybuildings.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_sunberrybuildings",
+      "FromFile": "Assets/Maps/TileSheets/fall_sunberrybuildings.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_sunberrybuildings",
+      "FromFile": "Assets/Maps/TileSheets/winter_sunberrybuildings.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_sunberryoutdoors",
+      "FromFile": "Assets/Maps/TileSheets/spring_sunberryoutdoors.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_sunberryoutdoors",
+      "FromFile": "Assets/Maps/TileSheets/summer_sunberryoutdoors.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_sunberryoutdoors",
+      "FromFile": "Assets/Maps/TileSheets/fall_sunberryoutdoors.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_sunberryoutdoors",
+      "FromFile": "Assets/Maps/TileSheets/winter_sunberryoutdoors.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/spring_Yri_catMail",
+      "FromFile": "Assets/Maps/TileSheets/spring_Yri_catMail.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_Yri_catMail",
+      "FromFile": "Assets/Maps/TileSheets/summer_Yri_catMail.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_Yri_catMail",
+      "FromFile": "Assets/Maps/TileSheets/fall_Yri_catMail.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_Yri_catMail",
+      "FromFile": "Assets/Maps/TileSheets/winter_Yri_catMail.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBV_mine_quarryshaftvines",
+      "FromFile": "Assets/Maps/TileSheets/SBV_mine_quarryshaftvines.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/hime_cafe",
+      "FromFile": "Assets/Maps/TileSheets/hime_cafe.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBV_wall1",
+      "FromFile": "Assets/Maps/TileSheets/SBV_wall1.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVFestivals",
+      "FromFile": "Assets/Maps/TileSheets/SBVFestivals.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors13",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors13.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors14",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors14.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors15",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors15.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColorsFinal",
+      "FromFile": "Assets/Maps/TileSheets/SBVColorsFinal.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBV_YriCrystals",
+      "FromFile": "Assets/Maps/TileSheets/SBV_YriCrystals.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBV_YriGoldenTree",
+      "FromFile": "Assets/Maps/TileSheets/SBV_YriGoldenTree.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBV_mine_blue",
+      "FromFile": "Assets/Maps/TileSheets/SBV_mine_blue.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBV_mine_purple",
+      "FromFile": "Assets/Maps/TileSheets/SBV_mine_purple.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBV_mine_mushroom",
+      "FromFile": "Assets/Maps/TileSheets/SBV_mine_mushroom.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBV_mine_final2",
+      "FromFile": "Assets/Maps/TileSheets/SBV_mine_final2.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBV_WoodsColors",
+      "FromFile": "Assets/Maps/TileSheets/SBV_WoodsColors.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBV_CrystalCave",
+      "FromFile": "Assets/Maps/TileSheets/SBV_CrystalCave.png"
+    },
+    {
       "Action": "EditData",
       "Target": "Data/ChairTiles",
       "Entries": {
