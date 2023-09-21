@@ -1321,14 +1321,20 @@
   // Ophelia, Yri, Wren, and Lenny Event
   "event-20031444.01": "Mmm...",
   "event-20031444.02": "Ah, a nice cup of coffee to start my morning.$h",
-  "event-20031444.03": "Time to head out.",
-  "event-20031444.04": "...Come on out, Lewis.",
-  "event-20031444.05": "Well, he sure is taking his sweet time.$8",
-  "event-20031444.06": "Knowing my brother, he's probably having his morning coffee. He'll be out in a bit.$h",
-  "event-20031444.07": "Oh, wait. I think I hear his footsteps.",
-  "event-20031444.08": "Uh...$2",
-  "event-20031444.09": "Well, that was something...$4",
-  "event-20031444.10": "*sigh*...Let's go drag him out.$6",
+  "event-20031444.03": "Ahh... delicious.",
+  "event-20031444.04": "Time to head out.",
+  "event-20031444.05": "...Come on out, Lewis.",
+  "event-20031444.06": "Well, he sure is taking his sweet time.$8",
+  "event-20031444.07": "Knowing my brother, he's probably having his morning coffee. He'll be out in a bit.$h",
+  "event-20031444.08": "Oh, wait. I think I hear his footsteps.",
+  "event-20031444.09": "We need to talk about JojaMart's drainage layout",
+  "event-20031444.10": "I've got some paperwork I need you to look over.",
+  "event-20031444.11": "I'd like to discuss the agenda for the next municipal meeting.",
+  "event-20031444.12": "I'm just here to watch the show...",
+  "event-20031444.13": "Uh...$2",
+  "event-20031444.14": "Well, that was something...$4",
+  "event-20031444.15": "*sigh*...Let's go drag him out.$6",
+  "event-20031444.16": "Why can't I ever just have a quiet morning?...",
 
   //Animation Dialogue
   //------------------
