@@ -2247,7 +2247,8 @@
   "MapString.sbv.unoccupiedyri": "An unoccupied house. You think this house is perfect for an architect.",
   "MapString.sbv.unoccupiedlani": "An unoccupied house. You think this village would greatly benefit from someone who is tech savvy.",
   "MapString.sbv.unoccupiedripley": "An unoccupied house. You hope this house never gets a rival farmer.",
-  "MapString.sbv.unoccupied.ripleyrsv": "An unoccupied house. You hope this house never gets a rival farmer. Your hands are full enough with Jeric as your rival.",
+  "MapString.sbv.unoccupiedripleyrsv": "An unoccupied house. You hope this house never gets a rival farmer. Your hands are full enough with Jeric as your rival.",
+  "MapString.sbv.unoccupiedvalli": "A house that's locked up tight. Only some sort of trash gremlin would consider breaking in and squatting.",
 
   //Festival Dialogue
   //-----------------

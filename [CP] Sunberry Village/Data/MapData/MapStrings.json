@@ -219,6 +219,14 @@
 			"When": {
 				"HasMod |contains= Rafseazz.RSVCP": true
 			}
+		},
+		{
+			"LogName": "Valli's House",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupiedvalli": "{{i18n:MapString.sbv.unoccupiedvalli}}"
+			}
 		}	
 	]
 }
