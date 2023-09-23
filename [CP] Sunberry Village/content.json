@@ -405,6 +405,12 @@
       "Target": "Characters/SBVEasel",
       "FromFile": "Assets/Maps/tempActors/SBVEasel.png"
     },
+    // Monsters
+    {
+      "Action": "Load",
+      "Target": "Characters/SBVRedMushroom, Characters/SBVPurpMushroom, Characters/SBVCrystalMenace, Characters/SBVGhoul, Characters/SBVMountainDustSprite, Characters/SBVCrystalBlob1, Characters/SBVCrystalBlob2, Characters/SBVCrystalBlob3",
+      "FromFile": "Assets/MonsterFiles/{{TargetWithoutPath}}.png"
+    },
     //Temporary Maps
     {
       "Action": "Load",

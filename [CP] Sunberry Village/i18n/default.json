@@ -1370,33 +1370,33 @@
 
   // Maia First Weapon (Theirin's Sword)
   "SBV.SpecialOrder.MaiaWeapon1_Name": "Maia's New Sword",
-  "SBV.SpecialOrder.MaiaWeapon1_Text": "I may or may not have overworked myself last week (look away, mother) and I'm unable to go into the caves to gather materials for this new sword I wanna make. If you gather the materials, please leave 'em by my anvil.",
+  "SBV.SpecialOrder.MaiaWeapon1_Text": "I may or may not have overworked myself last week (look away, mother) and I'm unable to go into the caves to gather materials for this new sword I wanna make. If you gather the materials, please leave 'em in the box in the back room.",
   "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_0": "Collect 5 Aquamarine",
   "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_1": "Collect 5 Frozen Tears",
   "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_2": "Collect 15 Iron Bars",
-  "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_3": "Drop off 5 Aquamarine by Maia's anvil",
-  "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_4": "Drop off 5 Frozen Tears by Maia's anvil",
-  "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_5": "Drop off 15 Iron Bars by Maia's anvil",
+  "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_3": "Drop off 5 Aquamarine in the back room",
+  "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_4": "Drop off 5 Frozen Tears in the back room",
+  "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_5": "Drop off 15 Iron Bars in the back room",
 
   // Maia Second Weapon (Dawne's Battle Axe)
   "SBV.SpecialOrder.MaiaWeapon2_Name": "Maia's Battle Axe",
-  "SBV.SpecialOrder.MaiaWeapon2_Text": "I found a blueprint of an axe that once belonged to a hero named Dawne. I'd like to recreate it, but I'm running low on materials. Drop the items by my anvil, I'll make it worth your while.",
+  "SBV.SpecialOrder.MaiaWeapon2_Text": "I found a blueprint of an axe that once belonged to a hero named Dawne. I'd like to recreate it, but I'm running low on materials. Drop the items in the box in the back room, I'll make it worth your while.",
   "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_0": "Collect 5 Topaz",
   "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_1": "Collect 10 Gold Bars",
   "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_2": "Collect 15 Iron Bars",
-  "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_3": "Drop off 5 Topaz by Maia's anvil",
-  "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_4": "Drop off 10 Gold Bars by Maia's anvil",
-  "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_5": "Drop off 15 Iron Bars by Maia's anvil",
+  "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_3": "Drop off 5 Topaz in the back room",
+  "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_4": "Drop off 10 Gold in the back room",
+  "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_5": "Drop off 15 Iron in the back room",
 
   // Maia Third Weapon (Dragonfang)
   "SBV.SpecialOrder.MaiaWeapon3_Name": "The Dragonfang",
-  "SBV.SpecialOrder.MaiaWeapon3_Text": "I stayed up last night planning out this sword and I think it'll be worthwhile. Elias told me one of the items I need is native to Ginger Island. Unfortunately, I won't be able to get it myself, so any help is appreciated. Drop 'em by the anvil, please.",
+  "SBV.SpecialOrder.MaiaWeapon3_Text": "I stayed up last night planning out this sword and I think it'll be worthwhile. Elias told me one of the items I need is native to Ginger Island. Unfortunately, I won't be able to get it myself, so any help is appreciated. Drop 'em in the box in the back room, please.",
   "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_0": "Collect 3 Dragon Teeth",
   "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_1": "Collect 10 Solar Essence",
   "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_2": "Collect 15 Iron Bars",
-  "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_3": "Drop off 3 Dragon Teeth by Maia's anvil",
-  "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_4": "Drop off 10 Solar Essence by Maia's anvil",
-  "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_5": "Drop off 15 Iron Bars by Maia's anvil",
+  "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_3": "Drop off 3 Dragon Teeth in the back room",
+  "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_4": "Drop off 10 Solar Essence in the back room",
+  "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_5": "Drop off 15 Iron Bars in the back room",
 
   // Maia Fourth Weapon (Baleful Blade)
   "SBV.SpecialOrder.MaiaWeapon4_Name": "Menacing Blade",
@@ -1405,10 +1405,10 @@
   "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_1": "Collect 10 Void Essence",
   "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_2": "Collect 10 Bat Wings",
   "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_3": "Collect 15 Iron Bars",
-  "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_4": "Drop off 5 Rubies by Maia's anvil",
-  "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_5": "Drop off 10 Void Essence by Maia's anvil",
-  "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_6": "Drop off 10 Bat Wings by Maia's anvil",
-  "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_7": "Drop off 15 Iron Bars by Maia's anvil",
+  "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_4": "Drop off 5 Rubies in the back room",
+  "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_5": "Drop off 10 Void Essence in the back room",
+  "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_6": "Drop off 10 Bat Wings in the back room",
+  "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_7": "Drop off 15 Iron Bars in the back room",
 
   // Aicha Floral Weapon (Flower Power)
   "SBV.SpecialOrder.AichaFloralWeapon_Name": "Flower Sword!",
@@ -1416,9 +1416,9 @@
   "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_0": "Collect 5 Tulips",
   "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_1": "Collect 30 Fiber",
   "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_2": "Collect 15 Iron Bars",
-  "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_3": "Drop off 5 Tulips by Maia's anvil",
-  "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_4": "Drop off 30 Fiber by Maia's anvil",
-  "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_5": "Drop off 15 Iron Bars by Maia's anvil",
+  "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_3": "Drop off 5 Tulips in the back room",
+  "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_4": "Drop off 30 Fiber in the back room",
+  "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_5": "Drop off 15 Iron Bars in the back room",
 
   //Mail
   //----
