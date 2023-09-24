@@ -879,5 +879,305 @@
          },
          "Update": "OnLocationChange",
       },
+      {
+         "LogName": "Critters in Mine 1",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_Mines1",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 27,
+                  "Y": 11
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime1"
+               }
+            }
+         ]
+      },
+      {
+         "LogName": "Critters in Mine 2",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_Mines2",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 11,
+                  "Y": 12
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime1"
+               }
+            },
+            {
+               "Position": {
+                  "X": 7,
+                  "Y": 45
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime1"
+               }
+            }
+         ]
+      },
+      {
+         "LogName": "Critters in Mine 5",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_Mines5A",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 12,
+                  "Y": 8
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime1"
+               }
+            },
+            {
+               "Position": {
+                  "X": 40,
+                  "Y": 22
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVMouseGuy1"
+               }
+            }
+         ]
+      },
+      {
+         "LogName": "Critters in Mine 7",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_Mines7",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 14,
+                  "Y": 40
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
+               }
+            },
+            {
+               "Position": {
+                  "X": 2,
+                  "Y": 21
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVMouseGuy1"
+               }
+            }
+         ]
+      },
+      {
+         "LogName": "Critters in Mine 8",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_Mines8",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 34,
+                  "Y": 17
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
+               }
+            },
+            {
+               "Position": {
+                  "X": 29,
+                  "Y": 27
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
+               }
+            }
+         ]
+      },
+      {
+         "LogName": "Critters in Mine 10",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_Mines10A",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 30,
+                  "Y": 31
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+               }
+            },
+            {
+               "Position": {
+                  "X": 4,
+                  "Y": 20
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+               }
+            },
+            {
+               "Position": {
+                  "X": 37,
+                  "Y": 31
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVMouseGuy2"
+               }
+            }
+         ]
+      },
+      {
+         "LogName": "Critters in Mine 11",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_Mines11",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 34,
+                  "Y": 27
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+               }
+            },
+            {
+               "Position": {
+                  "X": 37,
+                  "Y": 9
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+               }
+            },
+            {
+               "Position": {
+                  "X": 6,
+                  "Y": 29
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVMouseGuy2"
+               }
+            }
+         ]
+      },
+      {
+         "LogName": "Critters in Mine 12",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_Mines12",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 31,
+                  "Y": 8
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+               }
+            },
+            {
+               "Position": {
+                  "X": 12,
+                  "Y": 14
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+               }
+            },
+            {
+               "Position": {
+                  "X": 25,
+                  "Y": 26
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+               }
+            }
+         ]
+      },
+      {
+         "LogName": "Critters in Mine 13",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_Mines13",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 23,
+                  "Y": 12
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+               }
+            },
+            {
+               "Position": {
+                  "X": 5,
+                  "Y": 15
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
+               }
+            }
+         ]
+      },
+      {
+         "LogName": "Critters in Mine 15",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_Mines15",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 14,
+                  "Y": 16
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+               }
+            },
+            {
+               "Position": {
+                  "X": 40,
+                  "Y": 18
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
+               }
+            },
+            {
+               "Position": {
+                  "X": 9,
+                  "Y": 5
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime1"
+               }
+            }
+         ]
+      },
    ]
 }
