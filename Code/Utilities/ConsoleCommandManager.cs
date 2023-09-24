@@ -178,6 +178,8 @@ internal class ConsoleCommandManager
 		Globals.CCHelper.Add("sbv.mines.toggledraw", "Toggles debug drawing of walkable tiles.", (_, _) =>
 			{
 				drawWalkable = !drawWalkable;
+				if (drawWalkable)
+					PrintWalkableTileCount();
 			}
 		);
 
@@ -215,6 +217,7 @@ internal class ConsoleCommandManager
 		int tileCount = 0;
 		xTile.Map map = Game1.currentLocation.Map;
 		xTile.Layers.Layer back = map.GetLayer("Back");
+		xTile.Layers.Layer back2 = map.GetLayer("Back2");
 		xTile.Layers.Layer buildings = map.GetLayer("Buildings");
 		Rectangle bounds = new(0, 0, back.LayerWidth, back.LayerHeight);
 
@@ -224,12 +227,12 @@ internal class ConsoleCommandManager
 		Point currentTile = Game1.player.getTileLocationPoint();
 
 
-		WalkableFloodFill(currentTile, bounds, back, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(currentTile, bounds, back, back2, buildings, alreadyChecked, ref tileCount);
 
 		return tileCount;
 	}
 
-	private static void WalkableFloodFill(Point currentTile, Rectangle bounds, xTile.Layers.Layer back, xTile.Layers.Layer buildings, bool[,] alreadyChecked, ref int tileCount)
+	private static void WalkableFloodFill(Point currentTile, Rectangle bounds, xTile.Layers.Layer back, xTile.Layers.Layer back2, xTile.Layers.Layer buildings, bool[,] alreadyChecked, ref int tileCount)
 	{
 		if (!bounds.Contains(currentTile))
 			return;
@@ -242,15 +245,15 @@ internal class ConsoleCommandManager
 
 		alreadyChecked[x, y] = true;
 
-		if (back.Tiles[x, y] == null || (buildings.Tiles[x, y] != null && !IsBuildingTilePassable(buildings.Tiles[x, y])))
+		if ((back.Tiles[x, y] == null && back2?.Tiles[x, y] == null) || Game1.currentLocation.isWaterTile(x, y) || (buildings.Tiles[x, y] != null && !IsBuildingTilePassable(buildings.Tiles[x, y])))
 			return;
 
 		tileCount++;
 		walkable[x, y] = true;
-		WalkableFloodFill(new Point(x + 1, y), bounds, back, buildings, alreadyChecked, ref tileCount);
-		WalkableFloodFill(new Point(x - 1, y), bounds, back, buildings, alreadyChecked, ref tileCount);
-		WalkableFloodFill(new Point(x, y + 1), bounds, back, buildings, alreadyChecked, ref tileCount);
-		WalkableFloodFill(new Point(x, y - 1), bounds, back, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(new Point(x + 1, y), bounds, back, back2, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(new Point(x - 1, y), bounds, back, back2, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(new Point(x, y + 1), bounds, back, back2, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(new Point(x, y - 1), bounds, back, back2, buildings, alreadyChecked, ref tileCount);
 	}
 
 	private static bool IsBuildingTilePassable(Tile tile)
@@ -278,7 +281,7 @@ internal class ConsoleCommandManager
 						Game1.staminaRect,
 						new Rectangle(Game1.GlobalToLocal(new Vector2(x, y) * 64f).ToPoint(), new Point(64, 64)),
 						Game1.staminaRect.Bounds,
-						Color.Red,
+						Color.Red * 0.5f,
 						0f,
 						Vector2.Zero,
 						Microsoft.Xna.Framework.Graphics.SpriteEffects.None,
@@ -286,8 +289,6 @@ internal class ConsoleCommandManager
 					);
 			}
 		}
-
-		Game1.player.draw(e.SpriteBatch);
 	}
 
 	private static void ClearWalkableTileOverlay(object sender, StardewModdingAPI.Events.WarpedEventArgs e)
