@@ -1,8 +1,8 @@
 {
   "Name": "SBVBabySlime2",
   "Type": "Walking", // Can either be Walking or Flying | Walking has collision with objects, flying has no collision
-  "EnableCharacterCollision": false,
-  "EnableFarmerCollision": false, // Optional parameter, determines if the companion will collide with the farmer | NOTE: Only usable with map-based spawns, does nothing for follower-based spawns (e.g. with rings)
+  "EnableCharacterCollision": true,
+  "EnableFarmerCollision": true, // Optional parameter, determines if the companion will collide with the farmer | NOTE: Only usable with map-based spawns, does nothing for follower-based spawns (e.g. with rings)
   "EnableShadow": false, // Optional parameter, default false
   "Shadow": {
     "OffsetX": 0,
