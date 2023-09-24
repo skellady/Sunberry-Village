@@ -1,15 +1,21 @@
+using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Quests;
 using SunberryVillage.Animations;
 using SunberryVillage.Lighting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using xTile.Tiles;
 
 namespace SunberryVillage.Utilities;
 
 internal class ConsoleCommandManager
 {
+	private static bool[,] walkable;
+	private static bool drawWalkable;
+
 	internal static void InitializeConsoleCommands()
 	{
 #if DEBUG
@@ -166,7 +172,31 @@ internal class ConsoleCommandManager
 
 		#endregion
 
+		#region Mines
+
+		Globals.CCHelper.Add("sbv.mines.walkablearea", "Counts walkable tiles on the current map.", (_, _) => PrintWalkableTileCount());
+		Globals.CCHelper.Add("sbv.mines.toggledraw", "Toggles debug drawing of walkable tiles.", (_, _) =>
+			{
+				drawWalkable = !drawWalkable;
+			}
+		);
+
+		Globals.EventHelper.Display.RenderedWorld += DrawWalkableTileOverlay;
+		Globals.EventHelper.Player.Warped += ClearWalkableTileOverlay;
+
+		#endregion
+
 #endif
+	}
+
+	private static void PrintWalkableTileCount()
+	{
+		if (!IsWorldReady())
+			return;
+
+		int walkableTileCount = DoWalkableFloodFill();
+
+		Log.Info($"Walkable tiles in {Game1.currentLocation.Name}: {walkableTileCount}");
 	}
 
 	// Helpers
@@ -180,5 +210,93 @@ internal class ConsoleCommandManager
 
 	}
 
+	private static int DoWalkableFloodFill()
+	{
+		int tileCount = 0;
+		xTile.Map map = Game1.currentLocation.Map;
+		xTile.Layers.Layer back = map.GetLayer("Back");
+		xTile.Layers.Layer buildings = map.GetLayer("Buildings");
+		Rectangle bounds = new(0, 0, back.LayerWidth, back.LayerHeight);
+
+		bool[,] alreadyChecked = new bool[back.LayerWidth, back.LayerHeight];
+		walkable = new bool[back.LayerWidth, back.LayerHeight];
+
+		Point currentTile = Game1.player.getTileLocationPoint();
+
+
+		WalkableFloodFill(currentTile, bounds, back, buildings, alreadyChecked, ref tileCount);
+
+		return tileCount;
+	}
+
+	private static void WalkableFloodFill(Point currentTile, Rectangle bounds, xTile.Layers.Layer back, xTile.Layers.Layer buildings, bool[,] alreadyChecked, ref int tileCount)
+	{
+		if (!bounds.Contains(currentTile))
+			return;
+
+		int x = currentTile.X;
+		int y = currentTile.Y;
+
+		if (alreadyChecked[x, y])
+			return;
+
+		alreadyChecked[x, y] = true;
+
+		if (back.Tiles[x, y] == null || (buildings.Tiles[x, y] != null && !IsBuildingTilePassable(buildings.Tiles[x, y])))
+			return;
+
+		tileCount++;
+		walkable[x, y] = true;
+		WalkableFloodFill(new Point(x + 1, y), bounds, back, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(new Point(x - 1, y), bounds, back, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(new Point(x, y + 1), bounds, back, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(new Point(x, y - 1), bounds, back, buildings, alreadyChecked, ref tileCount);
+	}
+
+	private static bool IsBuildingTilePassable(Tile tile)
+	{
+		tile.TileIndexProperties.TryGetValue("Passable", out xTile.ObjectModel.PropertyValue property);
+		if (property == null)
+		{
+			tile.Properties.TryGetValue("Passable", out property);
+		}
+
+		return property != null;
+	}
+
+	private static void DrawWalkableTileOverlay(object sender, StardewModdingAPI.Events.RenderedWorldEventArgs e)
+	{
+		if (!drawWalkable || walkable is null)
+			return;
+
+		for (int x = 0; x < walkable.GetLength(0); x++)
+		{
+			for (int y = 0; y < walkable.GetLength(1); y++)
+			{
+				if (walkable[x, y])
+					e.SpriteBatch.Draw(
+						Game1.staminaRect,
+						new Rectangle(Game1.GlobalToLocal(new Vector2(x, y) * 64f).ToPoint(), new Point(64, 64)),
+						Game1.staminaRect.Bounds,
+						Color.Red,
+						0f,
+						Vector2.Zero,
+						Microsoft.Xna.Framework.Graphics.SpriteEffects.None,
+						0f
+					);
+			}
+		}
+
+		Game1.player.draw(e.SpriteBatch);
+	}
+
+	private static void ClearWalkableTileOverlay(object sender, StardewModdingAPI.Events.WarpedEventArgs e)
+	{
+		if (drawWalkable)
+			PrintWalkableTileCount();
+
+		else
+			walkable = null;
+	}
 
 }
