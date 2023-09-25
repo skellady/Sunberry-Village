@@ -4,10 +4,10 @@ using StardewValley;
 using StardewValley.Quests;
 using SunberryVillage.Animations;
 using SunberryVillage.Lighting;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using xTile.Tiles;
+using xTile.Layers;
+using xTile;
 
 namespace SunberryVillage.Utilities;
 
@@ -215,24 +215,22 @@ internal class ConsoleCommandManager
 	private static int DoWalkableFloodFill()
 	{
 		int tileCount = 0;
-		xTile.Map map = Game1.currentLocation.Map;
-		xTile.Layers.Layer back = map.GetLayer("Back");
-		xTile.Layers.Layer back2 = map.GetLayer("Back2");
-		xTile.Layers.Layer buildings = map.GetLayer("Buildings");
+		GameLocation curLoc = Game1.currentLocation;
+		Map map = curLoc.Map;
+		Layer back = map.GetLayer("Back");
+		Layer buildings = map.GetLayer("Buildings");
 		Rectangle bounds = new(0, 0, back.LayerWidth, back.LayerHeight);
 
 		bool[,] alreadyChecked = new bool[back.LayerWidth, back.LayerHeight];
 		walkable = new bool[back.LayerWidth, back.LayerHeight];
 
 		Point currentTile = Game1.player.getTileLocationPoint();
-
-
-		WalkableFloodFill(currentTile, bounds, back, back2, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(curLoc, currentTile, bounds, buildings, alreadyChecked, ref tileCount);
 
 		return tileCount;
 	}
 
-	private static void WalkableFloodFill(Point currentTile, Rectangle bounds, xTile.Layers.Layer back, xTile.Layers.Layer back2, xTile.Layers.Layer buildings, bool[,] alreadyChecked, ref int tileCount)
+	private static void WalkableFloodFill(GameLocation currentLocation, Point currentTile, Rectangle bounds, Layer buildings, bool[,] alreadyChecked, ref int tileCount)
 	{
 		if (!bounds.Contains(currentTile))
 			return;
@@ -245,26 +243,25 @@ internal class ConsoleCommandManager
 
 		alreadyChecked[x, y] = true;
 
-		if ((back.Tiles[x, y] == null && back2?.Tiles[x, y] == null) || Game1.currentLocation.isWaterTile(x, y) || (buildings.Tiles[x, y] != null && !IsBuildingTilePassable(buildings.Tiles[x, y])))
+		if (!IsTilePassable(currentLocation, buildings, x, y))
 			return;
 
 		tileCount++;
 		walkable[x, y] = true;
-		WalkableFloodFill(new Point(x + 1, y), bounds, back, back2, buildings, alreadyChecked, ref tileCount);
-		WalkableFloodFill(new Point(x - 1, y), bounds, back, back2, buildings, alreadyChecked, ref tileCount);
-		WalkableFloodFill(new Point(x, y + 1), bounds, back, back2, buildings, alreadyChecked, ref tileCount);
-		WalkableFloodFill(new Point(x, y - 1), bounds, back, back2, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(currentLocation, new Point(x + 1, y), bounds, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(currentLocation, new Point(x - 1, y), bounds, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(currentLocation, new Point(x, y + 1), bounds, buildings, alreadyChecked, ref tileCount);
+		WalkableFloodFill(currentLocation, new Point(x, y - 1), bounds, buildings, alreadyChecked, ref tileCount);
 	}
 
-	private static bool IsBuildingTilePassable(Tile tile)
+	private static bool IsTilePassable(GameLocation currentLocation, Layer buildings, int x, int y)
 	{
-		tile.TileIndexProperties.TryGetValue("Passable", out xTile.ObjectModel.PropertyValue property);
-		if (property == null)
-		{
-			tile.Properties.TryGetValue("Passable", out property);
-		}
+		bool backPassable = !currentLocation.isWaterTile(x, y) && currentLocation.doesTileHavePropertyNoNull(x, y, "Passable", "Back") != "F";
+		bool buildingsNull = buildings.Tiles[x, y] == null;
+		bool buildingsPassable = !buildingsNull && ((currentLocation.doesTileHaveProperty(x, y, "Passable", "Buildings") ?? "F") != "F" || currentLocation.doesTileHavePropertyNoNull(x, y, "Shadow", "Buildings") == "T");
+		bool terrainFeature = currentLocation.isTerrainFeatureAt(x, y);
 
-		return property != null;
+		return !terrainFeature && ((backPassable && buildingsNull) || buildingsPassable);
 	}
 
 	private static void DrawWalkableTileOverlay(object sender, StardewModdingAPI.Events.RenderedWorldEventArgs e)
@@ -278,14 +275,14 @@ internal class ConsoleCommandManager
 			{
 				if (walkable[x, y])
 					e.SpriteBatch.Draw(
-						Game1.staminaRect,
-						new Rectangle(Game1.GlobalToLocal(new Vector2(x, y) * 64f).ToPoint(), new Point(64, 64)),
-						Game1.staminaRect.Bounds,
-						Color.Red * 0.5f,
-						0f,
-						Vector2.Zero,
-						Microsoft.Xna.Framework.Graphics.SpriteEffects.None,
-						0f
+						texture: Game1.staminaRect,
+						destinationRectangle: new Rectangle(Game1.GlobalToLocal(new Vector2(x, y) * 64f).ToPoint(), new Point(64, 64)),
+						sourceRectangle: Game1.staminaRect.Bounds,
+						color: Color.Red * 0.5f,
+						rotation: 0f,
+						origin: Vector2.Zero,
+						effects: Microsoft.Xna.Framework.Graphics.SpriteEffects.None,
+						layerDepth: 0f
 					);
 			}
 		}
