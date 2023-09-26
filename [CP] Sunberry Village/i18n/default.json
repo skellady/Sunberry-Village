@@ -2250,6 +2250,11 @@
   "MapString.sbv.unoccupiedripleyrsv": "An unoccupied house. You hope this house never gets a rival farmer. Your hands are full enough with Jeric as your rival.",
   "MapString.sbv.unoccupiedvalli": "A house that's locked up tight. Only some sort of trash gremlin would consider breaking in and squatting.",
 
+  //Warp Strings
+  //------------
+  "String.SBV.GoUpOneLevel": "Go up a level",
+  "String.SBV.ReturnToEntrance": "Return to entrance",
+
   //Festival Dialogue
   //-----------------
 

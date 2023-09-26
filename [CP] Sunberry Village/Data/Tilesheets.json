@@ -103,6 +103,11 @@
     },
     {
       "Action": "Load",
+      "Target": "Maps/SBVColors9",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors9.png"
+    },
+    {
+      "Action": "Load",
       "Target": "Maps/SBVColors13",
       "FromFile": "Assets/Maps/TileSheets/SBVColors13.png"
     },

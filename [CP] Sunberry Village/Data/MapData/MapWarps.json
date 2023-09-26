@@ -1,5 +1,15 @@
 {
   "Changes": [
+    // Warp Strings
+    {
+      "LogName": "ChooseWarp Strings",
+      "Action": "EditData",
+      "Target": "Strings/StringsFromCSFiles",
+      "Entries": {
+        "SunberryTeam.SBV.GoUpOneLevel": "{{i18n:String.SBV.GoUpOneLevel}}",
+        "SunberryTeam.SBV.ReturnToEntrance": "{{i18n:String.SBV.ReturnToEntrance}}"
+      }
+    },
     // Exterior Maps	
     {
       "Action": "EditMap",
@@ -690,7 +700,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 30 21 Custom_SBV_Mines1"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 30 21 Custom_SBV_Mines1 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -719,12 +729,12 @@
       "MapTiles": [
         {
           "Position": {
-            "X": 35,
-            "Y": 8
+            "X": 30,
+            "Y": 4
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 35 9 Custom_SBV_Mines2"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 34 8 Custom_SBV_Mines2 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -758,7 +768,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 29 30 Custom_SBV_Mines3"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 29 30 Custom_SBV_Mines3 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -792,7 +802,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 40 40 Custom_SBV_Mines4"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 40 40 Custom_SBV_Mines4 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -834,7 +844,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 5 32 Custom_SBV_Mines5A"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 5 32 Custom_SBV_Mines5A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -868,7 +878,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 39 6 Custom_SBV_Mines5A"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 39 6 Custom_SBV_Mines5A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -902,7 +912,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 45 44 Custom_SBV_Mines6"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 45 44 Custom_SBV_Mines6 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -936,7 +946,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 4 7 Custom_SBV_Mines7"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 4 7 Custom_SBV_Mines7 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -970,7 +980,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 13 26 Custom_SBV_Mines8"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 13 26 Custom_SBV_Mines8 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -1004,7 +1014,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 23 8 Custom_SBV_Mines9"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 23 18 Custom_SBV_Mines9 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -1029,7 +1039,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 4 18 Custom_SBV_Mines10A"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 4 18 Custom_SBV_Mines10A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -1080,7 +1090,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 6 35 Custom_SBV_Mines10A"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 6 35 Custom_SBV_Mines10A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -1114,7 +1124,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 12 7 Custom_SBV_Mines11"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 12 7 Custom_SBV_Mines11 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -1148,7 +1158,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 10 29 Custom_SBV_Mines12"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 10 29 Custom_SBV_Mines12 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -1182,7 +1192,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 33 14 Custom_SBV_Mines13"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 33 14 Custom_SBV_Mines13 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
@@ -1216,7 +1226,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "Warp 13 4 Custom_SBV_Mines14"
+            "Action": "ChooseWarp \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 13 4 Custom_SBV_Mines14 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
           }
         }
       ]
