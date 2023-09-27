@@ -5,7 +5,7 @@
     "SeedPrice": 80,
     "SeedDescription": "...",
     "SeedTranslationKey": "sbv-sunberry-seeds",
-    "Type": "Flower",
+    "Type": "Fruit",
     "Seasons": ["summer"],
     "Phases": [1, 2, 3, 3, 1],
     "RegrowthPhase": 6,

@@ -1,0 +1,25 @@
+{
+    "Name": "SBV Royal Anemone Seeds",
+    "Product": "SBV Royal Anemone",
+    "SeedName": "SBV Royal Anemone Seeds",
+    "SeedPrice": 100,
+    "SeedDescription": "...",
+    "SeedTranslationKey": "sbv-royalanemone-seeds",
+    "Type": "Flower",
+    "Seasons": ["fall"],
+    "Phases": [2, 3, 3, 2],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus":
+    {
+        "MinimumPerHarvest": 1,
+        "MaximumPerHarvest": 1,
+        "MaxIncreasePerFarmLevel": 5,
+        "ExtraChance": 0.0,
+    },
+    "SeedPurchaseFrom": "JumanaShop",
+    "SeedPurchasePrice": 100,
+    
+}

@@ -1,0 +1,21 @@
+{
+    "Name": "SBV Royal Anemone",
+    "Description": "...",
+    "TranslationKey": "sbv-royalanemone",
+    "Category": "Flower",
+    "Edibility": 0,
+    "Price": 110,
+    "IsColored": false,
+    "Recipe": null,
+    "GiftTastes":
+    {
+        "Love": ["Haley", "Leah", "Sandy", "JumanaSBV", "AminaSBV", "SilasSBV", "DialaSBV", "MiyoungSBV"],
+        "Like": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sebastian", "Shane", "Vincent", "Willy", "Wizard", "MaiaSBV", "DeryaSBV"],
+    },
+
+    "ContextTags": [
+        "season_fall",
+        "color_pink",
+        "flower_item"
+    ]
+}

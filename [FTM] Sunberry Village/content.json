@@ -662,68 +662,61 @@
   },
   "Ore_Spawn_Settings": {
     "Areas": [
-
-      /* LEVELS 1 THROUGH 3 */
-
       {
-        // Area Identifier
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 223,
+          "Geode": 2,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 1,
+          "Copper": 18,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Diamond": 0,
+          "Ruby": 1,
+          "Jade": 1,
+          "Amethyst": 1,
+          "Topaz": 1,
+          "Emerald": 1,
+          "Aquamarine": 1
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 182,
+          "Geode": 10,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 3,
+          "Copper": 25,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Diamond": 0,
+          "Ruby": 5,
+          "Jade": 5,
+          "Amethyst": 5,
+          "Topaz": 5,
+          "Emerald": 5,
+          "Aquamarine": 5
+        },
         "UniqueAreaID": "SBV Mines Level 1",
         "MapName": "Custom_SBV_Mines1",
-        // Can spawn on any terrain types and at any coordinates
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "12,6/12,6" ],
-        // Ore spawn requirements - don't override global settings
-        "MiningLevelRequired": null,
-        // Ore spawn chances - do override global settings
-        // Total spawn chance adds up to 250 - a value of 1 means 0.4% chance to spawn
-        "StartingSpawnChance": {
-          "Stone": 223,
-          "Geode": 2,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 0,
-          "Gem": 1,
-          "Copper": 18,
-          "Iron": 0,
-          "Gold": 0,
-          "Iridium": 0,
-          "Mystic": 0,
-          "Diamond": 0,
-          "Ruby": 1,
-          "Jade": 1,
-          "Amethyst": 1,
-          "Topaz": 1,
-          "Emerald": 1,
-          "Aquamarine": 1
-        },
-        "LevelTenSpawnChance": {
-          "Stone": 182,
-          "Geode": 10,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 0,
-          "Gem": 3,
-          "Copper": 25,
-          "Iron": 0,
-          "Gold": 0,
-          "Iridium": 0,
-          "Mystic": 0,
-          "Diamond": 0,
-          "Ruby": 5,
-          "Jade": 5,
-          "Amethyst": 5,
-          "Topaz": 5,
-          "Emerald": 5,
-          "Aquamarine": 5
-        },
-        // Spawns per day - aiming for 10-15% of number of walkable tiles in level
         "MinimumSpawnsPerDay": 44,
         "MaximumSpawnsPerDay": 66,
-        // Tile checking setting: don't fuck with this unless stuff is having trouble spawning
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "12,6/12,6"
+        ],
         "StrictTileChecking": "Maximum",
-        // Only want ore to spawn at the beginning of the day
         "SpawnTiming": {
           "StartTime": 600,
           "EndTime": 600,
@@ -732,7 +725,6 @@
           "OnlySpawnIfAPlayerIsPresent": false,
           "SpawnSound": ""
         },
-        // No extra conditions
         "ExtraConditions": {
           "Years": [],
           "Seasons": [],
@@ -744,16 +736,85 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        // Want spawns to refresh daily
         "DaysUntilSpawnsExpire": 1
       },
       {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 223,
+          "Geode": 2,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 1,
+          "Copper": 18,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Diamond": 0,
+          "Ruby": 1,
+          "Jade": 1,
+          "Amethyst": 1,
+          "Topaz": 1,
+          "Emerald": 1,
+          "Aquamarine": 1
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 182,
+          "Geode": 10,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 3,
+          "Copper": 25,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Diamond": 0,
+          "Ruby": 5,
+          "Jade": 5,
+          "Amethyst": 5,
+          "Topaz": 5,
+          "Emerald": 5,
+          "Aquamarine": 5
+        },
         "UniqueAreaID": "SBV Mines Level 2",
         "MapName": "Custom_SBV_Mines2",
-        "IncludeTerrainTypes": [ "All" ],
+        "MinimumSpawnsPerDay": 64,
+        "MaximumSpawnsPerDay": 96,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "8,5/8,5" ],
+        "ExcludeCoordinates": [
+          "8,5/8,5"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
         "MiningLevelRequired": null,
         "StartingSpawnChance": {
           "Stone": 223,
@@ -795,80 +856,18 @@
           "Emerald": 5,
           "Aquamarine": 5
         },
-        "MinimumSpawnsPerDay": 64,
-        "MaximumSpawnsPerDay": 96,
-        "StrictTileChecking": "Maximum",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 600,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
-      },
-      {
         "UniqueAreaID": "SBV Mines Level 3",
         "MapName": "Custom_SBV_Mines3",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "30,5/30,5" ],
-        "MiningLevelRequired": null,
-        "StartingSpawnChance": {
-          "Stone": 223,
-          "Geode": 2,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 0,
-          "Gem": 1,
-          "Copper": 18,
-          "Iron": 0,
-          "Gold": 0,
-          "Iridium": 0,
-          "Mystic": 0,
-          "Diamond": 0,
-          "Ruby": 1,
-          "Jade": 1,
-          "Amethyst": 1,
-          "Topaz": 1,
-          "Emerald": 1,
-          "Aquamarine": 1
-        },
-        "LevelTenSpawnChance": {
-          "Stone": 182,
-          "Geode": 10,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 0,
-          "Gem": 3,
-          "Copper": 25,
-          "Iron": 0,
-          "Gold": 0,
-          "Iridium": 0,
-          "Mystic": 0,
-          "Diamond": 0,
-          "Ruby": 5,
-          "Jade": 5,
-          "Amethyst": 5,
-          "Topaz": 5,
-          "Emerald": 5,
-          "Aquamarine": 5
-        },
         "MinimumSpawnsPerDay": 45,
         "MaximumSpawnsPerDay": 68,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "30,5/30,5"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -891,59 +890,60 @@
         },
         "DaysUntilSpawnsExpire": 1
       },
-
-      /* LEVELS 4 THROUGH 6 */
-
       {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 214,
+          "Geode": 4,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 2,
+          "Gem": 1,
+          "Copper": 23,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Diamond": 0,
+          "Ruby": 1,
+          "Jade": 1,
+          "Amethyst": 1,
+          "Topaz": 1,
+          "Emerald": 1,
+          "Aquamarine": 1
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 170,
+          "Geode": 10,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 6,
+          "Gem": 4,
+          "Copper": 30,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Diamond": 0,
+          "Ruby": 5,
+          "Jade": 5,
+          "Amethyst": 5,
+          "Topaz": 5,
+          "Emerald": 5,
+          "Aquamarine": 5
+        },
         "UniqueAreaID": "SBV Mines Level 4",
         "MapName": "Custom_SBV_Mines4",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "23,5/23,5" ],
-        "MiningLevelRequired": null,
-        "StartingSpawnChance": {
-          "Stone": 214,
-          "Geode": 4,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 2,
-          "Gem": 1,
-          "Copper": 23,
-          "Iron": 0,
-          "Gold": 0,
-          "Iridium": 0,
-          "Mystic": 0,
-          "Diamond": 0,
-          "Ruby": 1,
-          "Jade": 1,
-          "Amethyst": 1,
-          "Topaz": 1,
-          "Emerald": 1,
-          "Aquamarine": 1
-        },
-        "LevelTenSpawnChance": {
-          "Stone": 170,
-          "Geode": 10,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 6,
-          "Gem": 4,
-          "Copper": 30,
-          "Iron": 0,
-          "Gold": 0,
-          "Iridium": 0,
-          "Mystic": 0,
-          "Diamond": 0,
-          "Ruby": 5,
-          "Jade": 5,
-          "Amethyst": 5,
-          "Topaz": 5,
-          "Emerald": 5,
-          "Aquamarine": 5
-        },
         "MinimumSpawnsPerDay": 59,
         "MaximumSpawnsPerDay": 89,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "23,5/23,5"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -967,55 +967,59 @@
         "DaysUntilSpawnsExpire": 1
       },
       {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 214,
+          "Geode": 4,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 2,
+          "Gem": 1,
+          "Copper": 23,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Diamond": 0,
+          "Ruby": 1,
+          "Jade": 1,
+          "Amethyst": 1,
+          "Topaz": 1,
+          "Emerald": 1,
+          "Aquamarine": 1
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 170,
+          "Geode": 10,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 6,
+          "Gem": 4,
+          "Copper": 30,
+          "Iron": 0,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Diamond": 0,
+          "Ruby": 5,
+          "Jade": 5,
+          "Amethyst": 5,
+          "Topaz": 5,
+          "Emerald": 5,
+          "Aquamarine": 5
+        },
         "UniqueAreaID": "SBV Mines Level 5A",
         "MapName": "Custom_SBV_Mines5A",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "27,21/27,21" ],
-        "MiningLevelRequired": null,
-        "StartingSpawnChance": {
-          "Stone": 214,
-          "Geode": 4,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 2,
-          "Gem": 1,
-          "Copper": 23,
-          "Iron": 0,
-          "Gold": 0,
-          "Iridium": 0,
-          "Mystic": 0,
-          "Diamond": 0,
-          "Ruby": 1,
-          "Jade": 1,
-          "Amethyst": 1,
-          "Topaz": 1,
-          "Emerald": 1,
-          "Aquamarine": 1
-        },
-        "LevelTenSpawnChance": {
-          "Stone": 170,
-          "Geode": 10,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 6,
-          "Gem": 4,
-          "Copper": 30,
-          "Iron": 0,
-          "Gold": 0,
-          "Iridium": 0,
-          "Mystic": 0,
-          "Diamond": 0,
-          "Ruby": 5,
-          "Jade": 5,
-          "Amethyst": 5,
-          "Topaz": 5,
-          "Emerald": 5,
-          "Aquamarine": 5
-        },
         "MinimumSpawnsPerDay": 66,
         "MaximumSpawnsPerDay": 99,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "27,21/27,21"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -1038,85 +1042,7 @@
         },
         "DaysUntilSpawnsExpire": 1
       },
-      //{
-      //  "UniqueAreaID": "SBV Mines Level 5B",
-      //  "MapName": "Custom_SBV_Mines5B",
-      //  "IncludeTerrainTypes": [ "All" ],
-      //  "ExcludeTerrainTypes": [],
-      //  "IncludeCoordinates": [],
-      //  "ExcludeCoordinates": [],
-      //  "MiningLevelRequired": null,
-      //  "StartingSpawnChance": {
-      //    "Stone": 150,
-      //    "Geode": 11,
-      //    "FrozenGeode": 0,
-      //    "MagmaGeode": 0,
-      //    "OmniGeode": 6,
-      //    "Gem": 2,
-      //    "Copper": 13,
-      //    "Iron": 0,
-      //    "Gold": 0,
-      //    "Iridium": 0,
-      //    "Mystic": 0,
-      //    "Diamond": 0,
-      //    "Ruby": 3,
-      //    "Jade": 3,
-      //    "Amethyst": 3,
-      //    "Topaz": 3,
-      //    "Emerald": 3,
-      //    "Aquamarine": 3
-      //  },
-      //  "LevelTenSpawnChance": {
-      //    "Stone": 125,
-      //    "Geode": 18,
-      //    "FrozenGeode": 0,
-      //    "MagmaGeode": 0,
-      //    "OmniGeode": 9,
-      //    "Gem": 4,
-      //    "Copper": 14,
-      //    "Iron": 0,
-      //    "Gold": 0,
-      //    "Iridium": 0,
-      //    "Mystic": 0,
-      //    "Diamond": 0,
-      //    "Ruby": 5,
-      //    "Jade": 5,
-      //    "Amethyst": 5,
-      //    "Topaz": 5,
-      //    "Emerald": 5,
-      //    "Aquamarine": 5
-      //  },
-      //  "MinimumSpawnsPerDay": 25,
-      //  "MaximumSpawnsPerDay": 25,
-      //  "StrictTileChecking": "Maximum",
-      //  "SpawnTiming": {
-      //    "StartTime": 600,
-      //    "EndTime": 600,
-      //    "MinimumTimeBetweenSpawns": 10,
-      //    "MaximumSimultaneousSpawns": null,
-      //    "OnlySpawnIfAPlayerIsPresent": false,
-      //    "SpawnSound": ""
-      //  },
-      //  "ExtraConditions": {
-      //    "Years": [],
-      //    "Seasons": [],
-      //    "Days": [],
-      //    "WeatherYesterday": [],
-      //    "WeatherToday": [],
-      //    "WeatherTomorrow": [],
-      //    "CPConditions": {},
-      //    "EPUPreconditions": [],
-      //    "LimitedNumberOfSpawns": null
-      //  },
-      //  "DaysUntilSpawnsExpire": 1
-      //},
       {
-        "UniqueAreaID": "SBV Mines Level 6",
-        "MapName": "Custom_SBV_Mines6",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "10,5/10,5" ],
         "MiningLevelRequired": null,
         "StartingSpawnChance": {
           "Stone": 214,
@@ -1158,8 +1084,18 @@
           "Emerald": 5,
           "Aquamarine": 5
         },
+        "UniqueAreaID": "SBV Mines Level 6",
+        "MapName": "Custom_SBV_Mines6",
         "MinimumSpawnsPerDay": 77,
         "MaximumSpawnsPerDay": 116,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "10,5/10,5"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -1182,59 +1118,60 @@
         },
         "DaysUntilSpawnsExpire": 1
       },
-
-      /* LEVELS 7 THROUGH 9 */
-
       {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 200,
+          "Geode": 5,
+          "FrozenGeode": 6,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 1,
+          "Copper": 18,
+          "Iron": 13,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Diamond": 1,
+          "Ruby": 1,
+          "Jade": 1,
+          "Amethyst": 1,
+          "Topaz": 1,
+          "Emerald": 1,
+          "Aquamarine": 1
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 164,
+          "Geode": 8,
+          "FrozenGeode": 8,
+          "MagmaGeode": 0,
+          "OmniGeode": 0,
+          "Gem": 4,
+          "Copper": 22,
+          "Iron": 17,
+          "Gold": 0,
+          "Iridium": 0,
+          "Mystic": 0,
+          "Diamond": 3,
+          "Ruby": 4,
+          "Jade": 4,
+          "Amethyst": 4,
+          "Topaz": 4,
+          "Emerald": 4,
+          "Aquamarine": 4
+        },
         "UniqueAreaID": "SBV Mines Level 7",
         "MapName": "Custom_SBV_Mines7",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "24,22/24,22" ],
-        "MiningLevelRequired": null,
-        "StartingSpawnChance": {
-          "Stone": 200,
-          "Geode": 5,
-          "FrozenGeode": 6,
-          "MagmaGeode": 0,
-          "OmniGeode": 0,
-          "Gem": 1,
-          "Copper": 18,
-          "Iron": 13,
-          "Gold": 0,
-          "Iridium": 0,
-          "Mystic": 0,
-          "Diamond": 1,
-          "Ruby": 1,
-          "Jade": 1,
-          "Amethyst": 1,
-          "Topaz": 1,
-          "Emerald": 1,
-          "Aquamarine": 1
-        },
-        "LevelTenSpawnChance": {
-          "Stone": 164,
-          "Geode": 8,
-          "FrozenGeode": 8,
-          "MagmaGeode": 0,
-          "OmniGeode": 0,
-          "Gem": 4,
-          "Copper": 22,
-          "Iron": 17,
-          "Gold": 0,
-          "Iridium": 0,
-          "Mystic": 0,
-          "Diamond": 3,
-          "Ruby": 4,
-          "Jade": 4,
-          "Amethyst": 4,
-          "Topaz": 4,
-          "Emerald": 4,
-          "Aquamarine": 4
-        },
         "MinimumSpawnsPerDay": 34,
         "MaximumSpawnsPerDay": 51,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "24,22/24,22"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -1258,12 +1195,6 @@
         "DaysUntilSpawnsExpire": 1
       },
       {
-        "UniqueAreaID": "SBV Mines Level 8",
-        "MapName": "Custom_SBV_Mines8",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "4,4/4,4" ],
         "MiningLevelRequired": null,
         "StartingSpawnChance": {
           "Stone": 200,
@@ -1305,8 +1236,18 @@
           "Emerald": 4,
           "Aquamarine": 4
         },
+        "UniqueAreaID": "SBV Mines Level 8",
+        "MapName": "Custom_SBV_Mines8",
         "MinimumSpawnsPerDay": 77,
         "MaximumSpawnsPerDay": 116,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "4,4/4,4"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -1329,131 +1270,60 @@
         },
         "DaysUntilSpawnsExpire": 1
       },
-      //{
-      //  "UniqueAreaID": "SBV Mines Level 9",
-      //  "MapName": "Custom_SBV_Mines9",
-      //  "IncludeTerrainTypes": [ "All" ],
-      //  "ExcludeTerrainTypes": [],
-      //  "IncludeCoordinates": [],
-      //  "ExcludeCoordinates": [],
-      //  "MiningLevelRequired": null,
-      //  "StartingSpawnChance": {
-      //    "Stone": 140,
-      //    "Geode": 10,
-      //    "FrozenGeode": 10,
-      //    "MagmaGeode": 0,
-      //    "OmniGeode": 0,
-      //    "Gem": 2,
-      //    "Copper": 10,
-      //    "Iron": 9,
-      //    "Gold": 0,
-      //    "Iridium": 0,
-      //    "Mystic": 0,
-      //    "Diamond": 1,
-      //    "Ruby": 3,
-      //    "Jade": 3,
-      //    "Amethyst": 3,
-      //    "Topaz": 3,
-      //    "Emerald": 3,
-      //    "Aquamarine": 3
-      //  },
-      //  "LevelTenSpawnChance": {
-      //    "Stone": 121,
-      //    "Geode": 13,
-      //    "FrozenGeode": 12,
-      //    "MagmaGeode": 0,
-      //    "OmniGeode": 0,
-      //    "Gem": 4,
-      //    "Copper": 13,
-      //    "Iron": 10,
-      //    "Gold": 0,
-      //    "Iridium": 0,
-      //    "Mystic": 0,
-      //    "Diamond": 3,
-      //    "Ruby": 4,
-      //    "Jade": 4,
-      //    "Amethyst": 4,
-      //    "Topaz": 4,
-      //    "Emerald": 4,
-      //    "Aquamarine": 4
-      //  },
-      //  "MinimumSpawnsPerDay": 25,
-      //  "MaximumSpawnsPerDay": 25,
-      //  "StrictTileChecking": "Maximum",
-      //  "SpawnTiming": {
-      //    "StartTime": 600,
-      //    "EndTime": 600,
-      //    "MinimumTimeBetweenSpawns": 10,
-      //    "MaximumSimultaneousSpawns": null,
-      //    "OnlySpawnIfAPlayerIsPresent": false,
-      //    "SpawnSound": ""
-      //  },
-      //  "ExtraConditions": {
-      //    "Years": [],
-      //    "Seasons": [],
-      //    "Days": [],
-      //    "WeatherYesterday": [],
-      //    "WeatherToday": [],
-      //    "WeatherTomorrow": [],
-      //    "CPConditions": {},
-      //    "EPUPreconditions": [],
-      //    "LimitedNumberOfSpawns": null
-      //  },
-      //  "DaysUntilSpawnsExpire": 1
-      //},
-
-      /* LEVELS 10 THROUGH 12 */
-
       {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 200,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 6,
+          "Gem": 1,
+          "Copper": 0,
+          "Iron": 20,
+          "Gold": 15,
+          "Iridium": 0,
+          "Mystic": 1,
+          "Diamond": 1,
+          "Ruby": 1,
+          "Jade": 1,
+          "Amethyst": 1,
+          "Topaz": 1,
+          "Emerald": 1,
+          "Aquamarine": 1
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 160,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 10,
+          "Gem": 5,
+          "Copper": 0,
+          "Iron": 25,
+          "Gold": 20,
+          "Iridium": 0,
+          "Mystic": 2,
+          "Diamond": 3,
+          "Ruby": 5,
+          "Jade": 5,
+          "Amethyst": 5,
+          "Topaz": 5,
+          "Emerald": 5,
+          "Aquamarine": 5
+        },
         "UniqueAreaID": "SBV Mines Level 10A",
         "MapName": "Custom_SBV_Mines10A",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "15,5/15,5" ],
-        "MiningLevelRequired": null,
-        "StartingSpawnChance": {
-          "Stone": 200,
-          "Geode": 0,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 6,
-          "Gem": 1,
-          "Copper": 0,
-          "Iron": 20,
-          "Gold": 15,
-          "Iridium": 0,
-          "Mystic": 1,
-          "Diamond": 1,
-          "Ruby": 1,
-          "Jade": 1,
-          "Amethyst": 1,
-          "Topaz": 1,
-          "Emerald": 1,
-          "Aquamarine": 1
-        },
-        "LevelTenSpawnChance": {
-          "Stone": 160,
-          "Geode": 0,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 10,
-          "Gem": 5,
-          "Copper": 0,
-          "Iron": 25,
-          "Gold": 20,
-          "Iridium": 0,
-          "Mystic": 2,
-          "Diamond": 3,
-          "Ruby": 5,
-          "Jade": 5,
-          "Amethyst": 5,
-          "Topaz": 5,
-          "Emerald": 5,
-          "Aquamarine": 5
-        },
         "MinimumSpawnsPerDay": 64,
         "MaximumSpawnsPerDay": 96,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "15,5/15,5"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -1476,128 +1346,60 @@
         },
         "DaysUntilSpawnsExpire": 1
       },
-      //{
-      //  "UniqueAreaID": "SBV Mines Level 10B",
-      //  "MapName": "Custom_SBV_Mines10B",
-      //  "IncludeTerrainTypes": [ "All" ],
-      //  "ExcludeTerrainTypes": [],
-      //  "IncludeCoordinates": [],
-      //  "ExcludeCoordinates": [],
-      //  "MiningLevelRequired": null,
-      //  "StartingSpawnChance": {
-      //    "Stone": 133,
-      //    "Geode": 0,
-      //    "FrozenGeode": 0,
-      //    "MagmaGeode": 0,
-      //    "OmniGeode": 10,
-      //    "Gem": 5,
-      //    "Copper": 0,
-      //    "Iron": 15,
-      //    "Gold": 12,
-      //    "Iridium": 0,
-      //    "Mystic": 5,
-      //    "Diamond": 2,
-      //    "Ruby": 3,
-      //    "Jade": 3,
-      //    "Amethyst": 3,
-      //    "Topaz": 3,
-      //    "Emerald": 3,
-      //    "Aquamarine": 3
-      //  },
-      //  "LevelTenSpawnChance": {
-      //    "Stone": 120,
-      //    "Geode": 0,
-      //    "FrozenGeode": 0,
-      //    "MagmaGeode": 0,
-      //    "OmniGeode": 15,
-      //    "Gem": 5,
-      //    "Copper": 0,
-      //    "Iron": 15,
-      //    "Gold": 12,
-      //    "Iridium": 0,
-      //    "Mystic": 10,
-      //    "Diamond": 5,
-      //    "Ruby": 3,
-      //    "Jade": 3,
-      //    "Amethyst": 3,
-      //    "Topaz": 3,
-      //    "Emerald": 3,
-      //    "Aquamarine": 3
-      //  },
-      //  "MinimumSpawnsPerDay": 25,
-      //  "MaximumSpawnsPerDay": 25,
-      //  "StrictTileChecking": "Maximum",
-      //  "SpawnTiming": {
-      //    "StartTime": 600,
-      //    "EndTime": 600,
-      //    "MinimumTimeBetweenSpawns": 10,
-      //    "MaximumSimultaneousSpawns": null,
-      //    "OnlySpawnIfAPlayerIsPresent": false,
-      //    "SpawnSound": ""
-      //  },
-      //  "ExtraConditions": {
-      //    "Years": [],
-      //    "Seasons": [],
-      //    "Days": [],
-      //    "WeatherYesterday": [],
-      //    "WeatherToday": [],
-      //    "WeatherTomorrow": [],
-      //    "CPConditions": {},
-      //    "EPUPreconditions": [],
-      //    "LimitedNumberOfSpawns": null
-      //  },
-      //  "DaysUntilSpawnsExpire": 1
-      //},
       {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 200,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 6,
+          "Gem": 1,
+          "Copper": 0,
+          "Iron": 20,
+          "Gold": 15,
+          "Iridium": 0,
+          "Mystic": 1,
+          "Diamond": 1,
+          "Ruby": 1,
+          "Jade": 1,
+          "Amethyst": 1,
+          "Topaz": 1,
+          "Emerald": 1,
+          "Aquamarine": 1
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 160,
+          "Geode": 0,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 10,
+          "Gem": 5,
+          "Copper": 0,
+          "Iron": 25,
+          "Gold": 20,
+          "Iridium": 0,
+          "Mystic": 2,
+          "Diamond": 3,
+          "Ruby": 5,
+          "Jade": 5,
+          "Amethyst": 5,
+          "Topaz": 5,
+          "Emerald": 5,
+          "Aquamarine": 5
+        },
         "UniqueAreaID": "SBV Mines Level 11",
         "MapName": "Custom_SBV_Mines11",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "27,24/27,24" ],
-        "MiningLevelRequired": null,
-        "StartingSpawnChance": {
-          "Stone": 200,
-          "Geode": 0,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 6,
-          "Gem": 1,
-          "Copper": 0,
-          "Iron": 20,
-          "Gold": 15,
-          "Iridium": 0,
-          "Mystic": 1,
-          "Diamond": 1,
-          "Ruby": 1,
-          "Jade": 1,
-          "Amethyst": 1,
-          "Topaz": 1,
-          "Emerald": 1,
-          "Aquamarine": 1
-        },
-        "LevelTenSpawnChance": {
-          "Stone": 160,
-          "Geode": 0,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 10,
-          "Gem": 5,
-          "Copper": 0,
-          "Iron": 25,
-          "Gold": 20,
-          "Iridium": 0,
-          "Mystic": 2,
-          "Diamond": 3,
-          "Ruby": 5,
-          "Jade": 5,
-          "Amethyst": 5,
-          "Topaz": 5,
-          "Emerald": 5,
-          "Aquamarine": 5
-        },
         "MinimumSpawnsPerDay": 45,
         "MaximumSpawnsPerDay": 68,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "27,24/27,24"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -1621,12 +1423,6 @@
         "DaysUntilSpawnsExpire": 1
       },
       {
-        "UniqueAreaID": "SBV Mines Level 12",
-        "MapName": "Custom_SBV_Mines12",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "19,9/19,9" ],
         "MiningLevelRequired": null,
         "StartingSpawnChance": {
           "Stone": 200,
@@ -1668,8 +1464,18 @@
           "Emerald": 5,
           "Aquamarine": 5
         },
+        "UniqueAreaID": "SBV Mines Level 12",
+        "MapName": "Custom_SBV_Mines12",
         "MinimumSpawnsPerDay": 63,
         "MaximumSpawnsPerDay": 95,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "19,9/19,9"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -1692,59 +1498,66 @@
         },
         "DaysUntilSpawnsExpire": 1
       },
-
-      /* LEVELS 13 THROUGH 15 */
-
       {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 200,
+          "Geode": 4,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 5,
+          "Gem": 1,
+          "Copper": 0,
+          "Iron": 2,
+          "Gold": 18,
+          "Iridium": 12,
+          "Mystic": 1,
+          "Diamond": 1,
+          "Ruby": 1,
+          "Jade": 1,
+          "Amethyst": 1,
+          "Topaz": 1,
+          "Emerald": 1,
+          "Aquamarine": 1
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 170,
+          "Geode": 5,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 10,
+          "Gem": 4,
+          "Copper": 0,
+          "Iron": 0,
+          "Gold": 25,
+          "Iridium": 20,
+          "Mystic": 2,
+          "Diamond": 2,
+          "Ruby": 2,
+          "Jade": 2,
+          "Amethyst": 2,
+          "Topaz": 2,
+          "Emerald": 2,
+          "Aquamarine": 2
+        },
         "UniqueAreaID": "SBV Mines Level 13",
         "MapName": "Custom_SBV_Mines13",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "9,8/9,8", "0,0/39,9", "0,10/3,29", "4,23/39,29", "25,10/39,22", "14,16/20,17", "18,18/19,22" ],
-        "MiningLevelRequired": null,
-        "StartingSpawnChance": {
-          "Stone": 200,
-          "Geode": 4,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 5,
-          "Gem": 1,
-          "Copper": 0,
-          "Iron": 2,
-          "Gold": 18,
-          "Iridium": 12,
-          "Mystic": 1,
-          "Diamond": 1,
-          "Ruby": 1,
-          "Jade": 1,
-          "Amethyst": 1,
-          "Topaz": 1,
-          "Emerald": 1,
-          "Aquamarine": 1
-        },
-        "LevelTenSpawnChance": {
-          "Stone": 170,
-          "Geode": 5,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 10,
-          "Gem": 4,
-          "Copper": 0,
-          "Iron": 0,
-          "Gold": 25,
-          "Iridium": 20,
-          "Mystic": 2,
-          "Diamond": 2,
-          "Ruby": 2,
-          "Jade": 2,
-          "Amethyst": 2,
-          "Topaz": 2,
-          "Emerald": 2,
-          "Aquamarine": 2
-        },
         "MinimumSpawnsPerDay": 24,
         "MaximumSpawnsPerDay": 36,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "9,8/9,8",
+          "0,0/39,9",
+          "0,10/3,29",
+          "4,23/39,29",
+          "25,10/39,22",
+          "14,16/20,17",
+          "18,18/19,22"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -1768,55 +1581,62 @@
         "DaysUntilSpawnsExpire": 1
       },
       {
+        "MiningLevelRequired": null,
+        "StartingSpawnChance": {
+          "Stone": 200,
+          "Geode": 4,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 5,
+          "Gem": 1,
+          "Copper": 0,
+          "Iron": 2,
+          "Gold": 18,
+          "Iridium": 12,
+          "Mystic": 1,
+          "Diamond": 1,
+          "Ruby": 1,
+          "Jade": 1,
+          "Amethyst": 1,
+          "Topaz": 1,
+          "Emerald": 1,
+          "Aquamarine": 1
+        },
+        "LevelTenSpawnChance": {
+          "Stone": 170,
+          "Geode": 5,
+          "FrozenGeode": 0,
+          "MagmaGeode": 0,
+          "OmniGeode": 10,
+          "Gem": 4,
+          "Copper": 0,
+          "Iron": 0,
+          "Gold": 25,
+          "Iridium": 20,
+          "Mystic": 2,
+          "Diamond": 2,
+          "Ruby": 2,
+          "Jade": 2,
+          "Amethyst": 2,
+          "Topaz": 2,
+          "Emerald": 2,
+          "Aquamarine": 2
+        },
         "UniqueAreaID": "SBV Mines Level 14",
         "MapName": "Custom_SBV_Mines14",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "44,24/44,24", "0,0/1,34", "2,27/49,34", "48,0/49,26" ],
-        "MiningLevelRequired": null,
-        "StartingSpawnChance": {
-          "Stone": 200,
-          "Geode": 4,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 5,
-          "Gem": 1,
-          "Copper": 0,
-          "Iron": 2,
-          "Gold": 18,
-          "Iridium": 12,
-          "Mystic": 1,
-          "Diamond": 1,
-          "Ruby": 1,
-          "Jade": 1,
-          "Amethyst": 1,
-          "Topaz": 1,
-          "Emerald": 1,
-          "Aquamarine": 1
-        },
-        "LevelTenSpawnChance": {
-          "Stone": 170,
-          "Geode": 5,
-          "FrozenGeode": 0,
-          "MagmaGeode": 0,
-          "OmniGeode": 10,
-          "Gem": 4,
-          "Copper": 0,
-          "Iron": 0,
-          "Gold": 25,
-          "Iridium": 20,
-          "Mystic": 2,
-          "Diamond": 2,
-          "Ruby": 2,
-          "Jade": 2,
-          "Amethyst": 2,
-          "Topaz": 2,
-          "Emerald": 2,
-          "Aquamarine": 2
-        },
         "MinimumSpawnsPerDay": 94,
         "MaximumSpawnsPerDay": 141,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "44,24/44,24",
+          "0,0/1,34",
+          "2,27/49,34",
+          "48,0/49,26"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -1840,12 +1660,6 @@
         "DaysUntilSpawnsExpire": 1
       },
       {
-        "UniqueAreaID": "SBV Mines Level 15",
-        "MapName": "Custom_SBV_Mines15",
-        "IncludeTerrainTypes": [ "All" ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [ "18,11/18,11", "0,0/5,34", "6,30/49,34", "47,0/49,29", "42,26/46,29", "30,0/43,5", "6,0/9,3" ],
         "MiningLevelRequired": null,
         "StartingSpawnChance": {
           "Stone": 200,
@@ -1887,8 +1701,24 @@
           "Emerald": 2,
           "Aquamarine": 2
         },
+        "UniqueAreaID": "SBV Mines Level 15",
+        "MapName": "Custom_SBV_Mines15",
         "MinimumSpawnsPerDay": 83,
         "MaximumSpawnsPerDay": 125,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "18,11/18,11",
+          "0,0/5,34",
+          "6,30/49,34",
+          "47,0/49,29",
+          "42,26/46,29",
+          "30,0/43,5",
+          "6,0/9,3"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
@@ -1911,11 +1741,8 @@
         },
         "DaysUntilSpawnsExpire": 1
       }
-
     ],
-    // at mining level 10, extra 10% ore
     "PercentExtraSpawnsPerMiningLevel": 1,
-    // Global settings - required level for ore to spawn - not restricting any ores behind mining level
     "MiningLevelRequired": {
       "Stone": 0,
       "Geode": 0,
@@ -1936,7 +1763,6 @@
       "Emerald": 0,
       "Aquamarine": 0
     },
-    // Starting spawn chance - should be overridden bc each level has its own spawn chance
     "StartingSpawnChance": {
       "Stone": 0,
       "Geode": 0,
@@ -1957,7 +1783,6 @@
       "Emerald": 0,
       "Aquamarine": 0
     },
-    // Spawn chance at level 10 - should be overridden bc each level has its own spawn chance
     "LevelTenSpawnChance": {
       "Stone": 0,
       "Geode": 0,
@@ -1978,7 +1803,6 @@
       "Emerald": 0,
       "Aquamarine": 0
     },
-    // Custom tilesheet indices to use for TerrainType "Custom" - can be ignored bc the tiles are set to Dirt/Grass/Diggable etc.
     "CustomTileIndex": []
   },
   "Monster_Spawn_Settings": {
@@ -1986,72 +1810,72 @@
       {
         "MonsterTypes": [
           {
-            "MonsterName": "shadow brute",
+            "MonsterName": "green slime",
             "Settings": {
-              "RelatedSkill": "Combat",
-              "MinimumSkillLevel": 8
+              "SpawnWeight": 5,
+              "HP": 40,
+              "Damage": 10,
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat"
             }
           },
           {
-            "MonsterName": "wilderness golem",
+            "MonsterName": "bug",
             "Settings": {
-              "SpawnWeight": 4
-            }
-          },
-          {
-            "MonsterName": "purple slime",
-            "Settings": {
-              "RelatedSkill": "Combat",
-              "MinimumSkillLevel": 10,
-              "SpawnWeight": 2
-            }
-          },
-          {
-            "MonsterName": "red slime",
-            "Settings": {
-              "RelatedSkill": "Combat",
-              "MinimumSkillLevel": 8,
-              "MaximumSkillLevel": 9,
-              "SpawnWeight": 2
-            }
-          },
-          {
-            "MonsterName": "blue slime",
-            "Settings": {
-              "RelatedSkill": "Combat",
-              "MinimumSkillLevel": 4,
-              "MaximumSkillLevel": 7,
-              "SpawnWeight": 2
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat"
             }
           },
           {
             "MonsterName": "green slime",
             "Settings": {
+              "SpawnWeight": 4,
+              "HP": 205,
+              "Damage": 16,
+              "Color": "150 150 150 255",
+              "SeesPlayersAtSpawn": false,
               "RelatedSkill": "Combat",
-              "MaximumSkillLevel": 3,
-              "SpawnWeight": 2
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Iron Ore",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 33
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
             }
           }
         ],
-        "UniqueAreaID": "Farm monster area 1",
-        "MapName": "Farm",
-        "MinimumSpawnsPerDay": 5,
-        "MaximumSpawnsPerDay": 8,
+        "UniqueAreaID": "SBV Mines Monsters 1",
+        "MapName": "Custom_SBV_Mines1",
+        "MinimumSpawnsPerDay": 7,
+        "MaximumSpawnsPerDay": 12,
         "IncludeTerrainTypes": [
-          "Dirt",
-          "Diggable",
-          "Grass"
+          "All"
         ],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
         "ExcludeCoordinates": [],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
-          "StartTime": 1900,
-          "EndTime": 2550,
+          "StartTime": 600,
+          "EndTime": 600,
           "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": 1,
-          "OnlySpawnIfAPlayerIsPresent": true,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
           "SpawnSound": ""
         },
         "ExtraConditions": {
@@ -2065,68 +1889,85 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": null
+        "DaysUntilSpawnsExpire": 1
       },
       {
         "MonsterTypes": [
           {
-            "MonsterName": "iridium bat",
+            "MonsterName": "green slime",
             "Settings": {
+              "SpawnWeight": 1,
+              "HP": 250,
+              "Damage": 18,
+              "Color": "150 150 150 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
               "RelatedSkill": "Combat",
-              "MinimumSkillLevel": 10,
-              "SpawnWeight": 4
-            }
-          },
-          {
-            "MonsterName": "serpent",
-            "Settings": {
-              "RelatedSkill": "Combat",
-              "MinimumSkillLevel": 10,
-              "SpawnWeight": 3
-            }
-          },
-          {
-            "MonsterName": "lava bat",
-            "Settings": {
-              "RelatedSkill": "Combat",
-              "MinimumSkillLevel": 8,
-              "SpawnWeight": 4
-            }
-          },
-          {
-            "MonsterName": "frost bat",
-            "Settings": {
-              "RelatedSkill": "Combat",
-              "MinimumSkillLevel": 5,
-              "SpawnWeight": 2
-            }
-          },
-          {
-            "MonsterName": "bat",
-            "Settings": {
-              "SpawnWeight": 2
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 0.5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 0.5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
             }
           }
         ],
-        "UniqueAreaID": "Farm monster area 2",
-        "MapName": "Farm",
-        "MinimumSpawnsPerDay": 2,
-        "MaximumSpawnsPerDay": 3,
+        "UniqueAreaID": "SBV Mines 1 Rare Grey",
+        "MapName": "Custom_SBV_Mines1",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [
-          "Dirt",
-          "Diggable",
-          "Grass"
+          "All"
         ],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
         "ExcludeCoordinates": [],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
-          "StartTime": 1900,
-          "EndTime": 2550,
+          "StartTime": 600,
+          "EndTime": 600,
           "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": 1,
-          "OnlySpawnIfAPlayerIsPresent": true,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
           "SpawnSound": ""
         },
         "ExtraConditions": {
@@ -2140,7 +1981,528 @@
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
-        "DaysUntilSpawnsExpire": null
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 40,
+              "Damage": 10,
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat"
+            }
+          },
+          {
+            "MonsterName": "bug",
+            "Settings": {
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat"
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 4,
+              "HP": 205,
+              "Damage": 16,
+              "Color": "150 150 150 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Iron Ore",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 33
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines Monsters 2",
+        "MapName": "Custom_SBV_Mines2",
+        "MinimumSpawnsPerDay": 8,
+        "MaximumSpawnsPerDay": 14,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 250,
+              "Damage": 18,
+              "Color": "150 150 150 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 0.5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 0.5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines 2 Rare Grey",
+        "MapName": "Custom_SBV_Mines2",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 40,
+              "Damage": 10,
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat"
+            }
+          },
+          {
+            "MonsterName": "bug",
+            "Settings": {
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat"
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 4,
+              "HP": 205,
+              "Damage": 16,
+              "Color": "150 150 150 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Iron Ore",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 33
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines Monsters 3",
+        "MapName": "Custom_SBV_Mines3",
+        "MinimumSpawnsPerDay": 7,
+        "MaximumSpawnsPerDay": 12,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 250,
+              "Damage": 18,
+              "Color": "150 150 150 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 0.5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 0.5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines 3 Rare Grey",
+        "MapName": "Custom_SBV_Mines3",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 215,
+              "Damage": 16,
+              "Speed": 4,
+              "Color": "150 75 0 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat"
+            }
+          },
+          {
+            "MonsterName": "false magma cap",
+            "Settings": {
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVRedMushroom",
+              "RelatedSkill": "Combat"
+            }
+          },
+          {
+            "MonsterName": "false magma cap",
+            "Settings": {
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVPurpMushroom",
+              "RelatedSkill": "Combat"
+            }
+          },
+          {
+            "MonsterName": "dust sprite",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 70,
+              "Damage": 10,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVMountainDustSprite",
+              "RelatedSkill": "Combat"
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines Monsters 4",
+        "MapName": "Custom_SBV_Mines4",
+        "MinimumSpawnsPerDay": 7,
+        "MaximumSpawnsPerDay": 12,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 250,
+              "Damage": 18,
+              "Color": "150 75 0 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 0.5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 0.5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines 4 Rare Brown",
+        "MapName": "Custom_SBV_Mines4",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
       }
     ],
     "CustomTileIndex": []

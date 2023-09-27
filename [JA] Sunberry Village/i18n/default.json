@@ -25,8 +25,17 @@
 
 	"sbv-hyacinth-seeds.name": "Hyacinth Seeds",
 	"sbv-hyacinth-seeds.description": "Plant in spring. Takes 9 days to produce a multi-colored bulbous flower.",
+	
+	"sbv-royalanemone-seeds.name": "Royal Anemone Seeds",
+	"sbv-royalanemone-seeds.description": "Plant in fall. Takes 10 days to produce an odor-less pink flower.",
 
-	// OBJECTS
+	"sbv-moonberry-seeds.name": "Moonberry Seeds",
+	"sbv-moonberry-seeds.description": "Plant in fall or winter. Takes 22 days to produce... an edible gem?",
+
+	"sbv-goldensunberry-seeds.name": "Golden Sunberry Seeds",
+	"sbv-goldensunberry-seeds.description": "Plant in spring, summer, or fall. Takes 35 days to mature, and continues to produce after the first harvest.",
+
+	// CROPS
 	//--------
 
 	"sbv-cyclamen.name": "Cyclamen",
@@ -56,6 +65,36 @@
 	"sbv-carob.name": "Carob",
 	"sbv-carob.description": "A sweet, ripe pod that is used as a substitute for chocolate.",
 
+	"sbv-royalanemone.name": "Royal Anemone",
+	"sbv-royalanemone.description": "A beautiful, odor-less pink flower.",
+
+	"sbv-goldensunberry.name": "Golden Sunberry",
+	"sbv-goldensunberry.description": "The elusive golden sunberry. This was the goddesses' last present for Sunberry Village. Tastes like friendship.",
+
+	// GEMS
+	//-----
+
+	"sbv-annabergite.name": "Annabergite",
+	"sbv-annabergite.description": "A rare mineral with a unique color. This gem is used for healing and self-reflection.",
+
+	"sbv-bluequartz.name": "Blue Aura Quartz",
+	"sbv-bluequartz.description": "A gorgeous blue gem with a hint of purple. This gem is used for protection and dispelling negative energy",
+
+	"sbv-citrine.name": "Citrine",
+	"sbv-citrine.description": "A yellow variety of quartz. Due to its cheerful color, it is used to build confidence.",
+
+	"sbv-lunarbean.name": "Lunar Bean",
+	"sbv-lunarbean.description": "The product of the berries Moon gave you. It's a little crunchy.",
+
+	"sbv-purpurite.name": "Purpurite",
+	"sbv-purpurite.description": "A beautiful purple mineral. It's used to encourage creativity and help with anxiety.",
+
+	"sbv-serpentine.name": "Serpentine",
+	"sbv-serpentine.description": "A decorative green mineral. It's used in building and architecture.",
+
+	"sbv-moonberry.name": "Moonberry",
+	"sbv-moonberry.description": "A crescent-shaped mineral.",
+
 	// WEAPONS
 	//--------
 
@@ -79,8 +118,15 @@
 
 	// TREES
 	//------
+
 	"sbv-carob-sapling.name": "Carob Sapling",
 	"sbv-carob-sapling.description": "Takes 28 days to produce a mature Carob. Bears fruit in the fall.",
+
+	// OBJECTS
+	//--------
+
+	"sbv-cinderleaf.name": "Cinder Leaf",
+	"sbv-cinderleaf.description": "A singular pink leaf. Can be used to brew potions.",
 
 	// COOKING
 	//--------
