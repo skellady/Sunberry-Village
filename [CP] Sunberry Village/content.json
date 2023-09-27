@@ -557,7 +557,7 @@
     {
       "LogName": "Include Compat Stuff",
       "Action": "Include",
-      "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json",
+      "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json",
     },
     // Festival Includes 
     {

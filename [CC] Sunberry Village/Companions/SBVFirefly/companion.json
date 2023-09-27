@@ -1,11 +1,11 @@
 {
 	"Name": "SBVFirefly",
 	"Type": "Flying",
-	"TravelSpeed": 0,
+	"TravelSpeed": 1,
 	"SpawnOffsetX": 0,
 	"SpawnOffsetY": 0,
 	"MaxDistanceBeforeTeleport": -1,
-	"IdleBehavior": "Nothing",
+	"IdleBehavior": "Wander",
 	"Light": {
 		"Color": [
 			255,
@@ -21,9 +21,55 @@
 	},
 	"FrameSizeWidth": 16,
 	"FrameSizeHeight": 16,
-	"UniformAnimation": {
+	  // This plays when the companion travels upwards
+	  "UpAnimation": {
 		"StartingFrame": 0,
 		"NumberOfFrames": 1,
-		"Duration": 5000,
-	}
+		"Duration": 200,
+	
+		"IdleAnimation": {
+		  "StartingFrame": 0,
+		  "NumberOfFrames": 1,
+		  "Duration": 500
+		}
+	  },
+	
+	  // This plays when the companion travels downwards
+	  "DownAnimation": {
+		"StartingFrame": 0,
+		"NumberOfFrames": 1,
+		"Duration": 200,
+	
+		"IdleAnimation": {
+		  "StartingFrame": 0,
+		  "NumberOfFrames": 1,
+		  "Duration": 500
+		}
+	  },
+	
+	  // This plays when the companion travels left
+	  "LeftAnimation": {
+		"StartingFrame": 0,
+		"NumberOfFrames": 1,
+		"Duration": 200,
+	
+		"IdleAnimation": {
+		  "StartingFrame": 0,
+		  "NumberOfFrames": 1,
+		  "Duration": 500
+		}    
+	  },
+	
+	  // This plays when the companion travels right
+	  "RightAnimation": {
+		"StartingFrame": 0,
+		"NumberOfFrames": 1,
+		"Duration": 200,
+	
+		"IdleAnimation": {
+		  "StartingFrame": 0,
+		  "NumberOfFrames": 1,
+		  "Duration": 500
+		}
+	  },
 }

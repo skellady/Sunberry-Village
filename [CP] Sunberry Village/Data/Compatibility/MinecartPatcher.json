@@ -1,0 +1,49 @@
+{
+	"Changes": [
+		{
+			"LogName": "Minecart Patcher SBV Village",
+			"Action": "EditData",
+			"Target": "MinecartPatcher.Minecarts",
+			"Entries": {
+				"minecartpatcher.sunberryvillage": {
+					"LocationName": "Custom_SBV_SunberryVillage",
+					"DisplayName": "Sunberry Village",
+					"LandingPointX": 19,
+					"LandingPointY": 11,
+					"LandingPointDirection": 2,
+					"IsUnderground": false
+				}
+			}
+		},
+		{
+			"LogName": "Minecart Patcher SBV Mountain",
+			"Action": "EditData",
+			"Target": "MinecartPatcher.Minecarts",
+			"Entries": {
+				"minecartpatcher.sunberrymountain": {
+					"LocationName": "Custom_SBV_SunberryMountain",
+					"DisplayName": "Sunberry Mountain",
+					"LandingPointX": 38,
+					"LandingPointY": 10,
+					"LandingPointDirection": 2,
+					"IsUnderground": false
+				}
+			}
+		},
+		{
+			"LogName": "Minecart Patcher SBV Forest",
+			"Action": "EditData",
+			"Target": "MinecartPatcher.Minecarts",
+			"Entries": {
+				"minecartpatcher.sunberryforest": {
+					"LocationName": "Custom_SBV_SunberryForest",
+					"DisplayName": "Sunberry Forest",
+					"LandingPointX": 15,
+					"LandingPointY": 40,
+					"LandingPointDirection": 2,
+					"IsUnderground": false
+				}
+			}
+		},
+	]
+}
