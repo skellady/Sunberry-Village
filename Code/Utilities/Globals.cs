@@ -8,6 +8,7 @@ internal class Globals
 {
 	public static IManifest Manifest { get; set; }
 	public static IModHelper Helper { get; set; }
+	public static IModRegistry ModRegistry => Helper.ModRegistry;
 	// ReSharper disable once InconsistentNaming
 	public static ICommandHelper CCHelper => Helper.ConsoleCommands;
 	public static IGameContentHelper GameContent => Helper.GameContent;

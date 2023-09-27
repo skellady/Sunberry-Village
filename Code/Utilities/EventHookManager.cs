@@ -1,5 +1,6 @@
 using SunberryVillage.Animations;
 using SunberryVillage.Audio;
+using SunberryVillage.Code.Integration;
 using SunberryVillage.Lighting;
 using SunberryVillage.Portrait;
 using SunberryVillage.Tarot;
@@ -10,6 +11,7 @@ internal class EventHookManager
 {
 	internal static void InitializeEventHooks()
 	{
+		IntegrationHandler.AddEventHooks();
 		TarotHandler.AddEventHooks();
 		AnimationsHandler.AddEventHooks();
 		PortraitHandler.AddEventHooks();
