@@ -3,7 +3,7 @@
     "Description": "...",
     "TranslationKey": "sbv-serpentine",
     "Category": "Gem",
-    "Edibility": 90,
+    "Edibility": -300,
     "Price": 130,
     "IsColored": false,
     "GiftTastes":
