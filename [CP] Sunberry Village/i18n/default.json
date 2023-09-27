@@ -1003,13 +1003,18 @@
 
   // Maia 4 Hearts Event
   "event-20031423.01": "Welcome!",
-  "event-20031423.02": "Hey, @. What can I do for you?",
-  "event-20031423.03": "Well, it's nice of you to drop by. I gotta get this sword ready to send over to Marlon.$h",
-  "event-20031423.04": "When did you start working here?",
-  "event-20031423.05": "Do you like your job?",
-  "event-20031423.06": "Oh, man. I think it was a bit after Amina was born. I moved here while I was still pregnant and Silas offered to help our family out.$h#$b#Once I was able to, I started working alongside him. He taught me everything I know.$h",
-  "event-20031423.07": "I do! I moved here while I was still pregnant and Silas offered to help our family out. Once I was able to, I started working alongside him.$h#$b#He taught me everything I know. I'm grateful, really. He and Miyoung helped us out a lot.$h",
-  "event-20031423.08": "Well, I better get back to work if you don't have any more questions, heh. Thanks for stopping by.",
+  "event-20031423.02": "Hey, @! What brings you here today?$h",
+  "event-20031423.03": "Maia? Ah, she's working on something for Marlon.",
+  "event-20031423.04": "Maia! Visitor for you!",
+  "event-20031423.05": "Ah, hey. Sorry, I didn't hear you walk in. Really nice of you to drop by.$h",
+  "event-20031423.06": "I'm working on Marlon's sword. Just a few upgrades and tweaks. I tried asking if I could make him a new one, but he seems to be attached to this one.$6",
+  "event-20031423.07": "Do you like your job?",
+  "event-20031423.08": "Why is Marlon so attached to it?",
+  "event-20031423.09": "I do! I moved here while I was still pregnant and Silas offered to help our family out.",
+  "event-20031423.10": "Once I was able to, I started working alongside him. He taught me everything I know. I'm grateful, really.$h",
+  "event-20031423.11": "I think it's all about finding \"the one\", if that makes sense. I believe someone gifted it to him, so it has sentimental value, too.",
+  "event-20031423.12": "Either way, if he needed a new weapon, he knows where to find me.$h",
+  "event-20031423.13": "Well, I better get back to work. I have to get it over to him sometime today. Thanks for dropping by.$h",
 
   // Maia 6 Hearts Event
   "event-20031424.01": "Been a long day, huh, kiddo?",
