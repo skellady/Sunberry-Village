@@ -167,6 +167,26 @@
       "FromFile": "Assets/Maps/TileSheets/SBV_CrystalCave.png"
     },
     {
+      "Action": "Load",
+      "Target": "Maps/spring_SBV_yrioutdoors",
+      "FromFile": "Assets/Maps/TileSheets/spring_SBV_yrioutdoors.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_SBV_yrioutdoors",
+      "FromFile": "Assets/Maps/TileSheets/summer_SBV_yrioutdoors.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_SBV_yrioutdoors",
+      "FromFile": "Assets/Maps/TileSheets/fall_SBV_yrioutdoors.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_SBV_yrioutdoors",
+      "FromFile": "Assets/Maps/TileSheets/winter_SBV_yrioutdoors.png"
+    },
+    {
       "Action": "EditData",
       "Target": "Data/ChairTiles",
       "Entries": {

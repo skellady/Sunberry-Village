@@ -31,10 +31,6 @@
       "IsRequired": true
     },
     {
-      "UniqueID": "DaisyNiko.Tilesheets",
-      "IsRequired": true
-    },
-    {
       "UniqueID": "Lumisteria.LumiTilesheetsIndoor",
       "IsRequired": true
     },
