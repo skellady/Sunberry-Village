@@ -96,7 +96,39 @@
       "When": {
         "HasSeenEvent |contains= 100162": false
       }
-    }
+    },
+    {
+      "Name": "TilesheetRecolor",
+      "Value": "Vanilla",
+    },
+    {
+      "Name": "TilesheetRecolor",
+      "Value": "VPR",
+      "When": {
+        "HasMod": "grapeponta.VibrantPastoralRecolor"
+      }
+    },
+    {
+      "Name": "TilesheetRecolor",
+      "Value": "Earthy",
+      "When": {
+        "HasMod": "DaisyNiko.EarthyRecolour"
+      }
+    },
+    {
+      "Name": "TilesheetRecolor",
+      "Value": "Retro",
+      "When": {
+        "HasMod": "yri.RetroRecolor"
+      }
+    },
+    {
+      "Name": "TilesheetRecolor",
+      "Value": "Wittily",
+      "When": {
+        "HasMod": "Acerbicon.Recolor"
+      }
+    },
   ],
   "CustomLocations": [
     // Exterior Maps

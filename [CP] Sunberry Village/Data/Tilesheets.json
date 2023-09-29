@@ -187,6 +187,38 @@
       "FromFile": "Assets/Maps/TileSheets/winter_SBV_yrioutdoors.png"
     },
     {
+      "Action": "EditImage",
+      "Target": "Maps/spring_SBV_yrioutdoors",
+      "FromFile": "Assets/Maps/Tilesheets/Recolor/{{TilesheetRecolor}}/spring_SBV_yrioutdoors.png",
+      "When": {
+        "TilesheetRecolor |contains= Vanilla": false
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/summer_SBV_yrioutdoors",
+      "FromFile": "Assets/Maps/Tilesheets/Recolor/{{TilesheetRecolor}}/summer_SBV_yrioutdoors.png",
+      "When": {
+        "TilesheetRecolor |contains= Vanilla": false
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/fall_SBV_yrioutdoors",
+      "FromFile": "Assets/Maps/Tilesheets/Recolor/{{TilesheetRecolor}}/fall_SBV_yrioutdoors.png",
+      "When": {
+        "TilesheetRecolor |contains= Vanilla": false
+      }
+    },
+    {
+      "Action": "EditImage",
+      "Target": "Maps/winter_SBV_yrioutdoors",
+      "FromFile": "Assets/Maps/Tilesheets/Recolor/{{TilesheetRecolor}}/winter_SBV_yrioutdoors.png",
+      "When": {
+        "TilesheetRecolor |contains= Vanilla": false
+      }
+    },
+    {
       "Action": "EditData",
       "Target": "Data/ChairTiles",
       "Entries": {
