@@ -214,6 +214,14 @@
 				},
 				{
 					"ItemType": "Object",
+					"StockPrice": 100,
+					"ItemNames": [
+						"SBV Royal Anemone Seeds"
+					],
+					"When": [ "!z fall" ]
+				},
+				{
+					"ItemType": "Object",
 					"ItemNames": [
 						"Sunflower Seeds",
 						"Fairy Seeds",
@@ -360,7 +368,7 @@
 				},
 				{
 					"ItemType": "Object",
-					"StockPrice": 80,
+					"StockPrice": 90,
 					"ItemNames": [
 						"SBV Sunberry Seeds"
 					],
