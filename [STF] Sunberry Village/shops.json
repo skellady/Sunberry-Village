@@ -838,6 +838,58 @@
 					"Stock": 1
 				}
 			]
+		},
+		{
+			"ShopName": "MoonBerryShop",
+			"StoreCurrency": "SBV Moonberry",
+			"PortraitPath": "assets/EzraClothes.png",
+			"Quote": "Psst, leave Moonberry here and take seed!",
+			"ClosedMessage": "Closed for the day!",
+			"ShopPrice": 0,
+			"MaxNumItemsSoldInStore": 1,
+			"PriceMultiplierWhen": {
+				"0.6": [
+					"f MoonSBV 2000"
+				]
+			},
+			"LocalizedQuote": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"LocalizedClosedMessage": {
+				//remove the "//" from your language
+				//"es": "PLACEHOLDER",
+				//"ko": "PLACEHOLDER",
+				//"de": "PLACEHOLDER",
+				//"fr": "PLACEHOLDER",
+				//"hu": "PLACEHOLDER",
+				//"it": "PLACEHOLDER",
+				//"ja": "PLACEHOLDER",
+				//"pt": "PLACEHOLDER",
+				//"ru": "PLACEHOLDER",
+				//"tr": "PLACEHOLDER",
+				//"zh": "PLACEHOLDER",
+			},
+			"ItemStocks": [
+				{
+					"ItemType": "Object",
+					"StockItemCurrency": "SBV Moonberry",
+					"StockCurrencyStack": 15,
+					"ItemNames": [
+						"SBV Moonberry Seeds"
+					],
+				},
+			]
 		}
 	]
 }
