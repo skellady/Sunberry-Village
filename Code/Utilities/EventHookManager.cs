@@ -1,6 +1,6 @@
 using SunberryVillage.Animations;
 using SunberryVillage.Audio;
-using SunberryVillage.Code.Integration;
+using SunberryVillage.Integration;
 using SunberryVillage.Lighting;
 using SunberryVillage.Portrait;
 using SunberryVillage.Tarot;

@@ -1,9 +1,9 @@
 ﻿using System;
 
-namespace SunberryVillage.Code.Integration.APIs;
+namespace SunberryVillage.Integration.APIs;
 
 /// <summary>Provides basic crop apis.</summary>
-public interface IBetterMixedSeedsApi
+public interface IBetterMixedSeedsAPI
 {
 	/*********
     ** Public Methods

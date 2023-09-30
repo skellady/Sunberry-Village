@@ -6,5 +6,11 @@
   "UniqueID": "SunberryTeam.SBVSMAPI",
   "EntryDll": "SunberryVillage.dll",
   "MinimumApiVersion": "3.13.0",
-  "UpdateKeys": [ "Nexus:-1" ]
+  "UpdateKeys": [ "Nexus:-1" ],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher",
+      "IsRequired": true
+    }
+  ]
 }

@@ -3,11 +3,13 @@ using StardewModdingAPI;
 using StardewValley;
 using StardewValley.Quests;
 using SunberryVillage.Animations;
+using SunberryVillage.Integration.Tokens;
 using SunberryVillage.Lighting;
 using System.Collections.Generic;
 using System.Linq;
-using xTile.Layers;
+using System.Text;
 using xTile;
+using xTile.Layers;
 
 namespace SunberryVillage.Utilities;
 
@@ -82,9 +84,9 @@ internal class ConsoleCommandManager
 					string yPos = Game1.player.getTileY().ToString();
 					string intensity = "1";
 
-					args = new string[] {tempId, xPos, yPos, intensity};
+					args = new string[] { tempId, xPos, yPos, intensity };
 				}
-				
+
 				if (LightingHandler.TryAddOrUpdateTempLight(args, out string error))
 				{
 					LightingHandler.AddLightsToCurrentLocation();
@@ -112,7 +114,7 @@ internal class ConsoleCommandManager
 					Log.Info($"Light with id \"{args[0]}\" removed.");
 				else
 					Log.Warn($"Light with id \"{args[0]}\" not removed. (Does it exist?)");
-				
+
 			}
 		);
 
@@ -151,8 +153,8 @@ internal class ConsoleCommandManager
 
 		#region Animations
 
-		
-		Globals.Helper.ConsoleCommands.Add("sbv.anim.test", "Tests the specified animation for the character." +
+
+		Globals.CCHelper.Add("sbv.anim.test", "Tests the specified animation for the character." +
 			"\nFormat: \"sbv.anim.test [npcName] [animationName]\"" +
 			"\nArguments:" +
 			"\n\tnpcName (string): The internal name of the NPC who is performing the animation." +
@@ -188,17 +190,89 @@ internal class ConsoleCommandManager
 
 		#endregion
 
+		#region Golden Sunberry Stage Token
+
+		Globals.CCHelper.Add("sbv.gs.stage", "Prints the current expected output of the Golden Sunberry Stage CP token.", (_, _) =>
+			{
+				Log.Info($"Current expected output of the Golden Sunberry Stage CP token is: {GoldenSunberryStageToken.Stage}");
+			});
+
+		Globals.CCHelper.Add("sbv.gs.info", "Displays info about the golden sunberry stage token. " +
+			"If any arguments are supplied, will provide verbose output.", (_, args) =>
+			{
+				if (!IsWorldReady())
+					return;
+
+				GoldenSunberryStageToken.UpdateHeartTotal();
+				StringBuilder infoBuilder = new("\nGolden Sunberry Stage Token Info:");
+
+				if (!GoldenSunberryStageToken.Growing)
+				{
+					infoBuilder.Append("\n\tGolden Sunberry is not currently growing.");
+				}
+				else if (GoldenSunberryStageToken.Stage >= GoldenSunberryStageToken.MAX_STAGE)
+				{
+					infoBuilder.Append("\n\tGolden Sunberry has reached its final growth stage and will not grow any further.");
+				}
+				else
+				{
+					infoBuilder.Append("\n\tGolden Sunberry is currently growing.");
+					infoBuilder.Append($"\n\tCurrent Golden Sunberry Stage: {GoldenSunberryStageToken.Stage}");
+
+					if (GoldenSunberryStageToken.ForceGrow)
+						infoBuilder.Append("\n\tForce Grow is toggled on, so the stage will advance overnight whether the conditions are met or not.");
+					else
+						infoBuilder.Append($"\n\tStage will {(GoldenSunberryStageToken.ReadyToAdvanceStage(probe: true) ? "advance overnight" : "not advance overnight")}.");
+
+					infoBuilder.Append($"\n\tNumber of Nights Needed to Advance Stage: {GoldenSunberryStageToken.MIN_NIGHTS_IN_STAGE}");
+					infoBuilder.Append($"\n\tNumber of Nights in Current Stage: {GoldenSunberryStageToken.NightsInStage}");
+					infoBuilder.Append($"\n\tSunberry Village Heart Level Needed to Advance Stage: {GoldenSunberryStageToken.HeartsNeededToAdvanceStage[GoldenSunberryStageToken.Stage]}");
+					infoBuilder.Append($"\n\tCurrent Sunberry Village Heart Level: {GoldenSunberryStageToken.HeartTotal}");
+
+					if (args.Any())
+					{
+						infoBuilder.Append("\n\tCurrent Sunberry Village Heart Level Breakdown:");
+						foreach (NPC npc in Utility.getAllCharacters())
+						{
+							if (GoldenSunberryStageToken.ResidentNames.Contains(npc.Name))
+								infoBuilder.Append($"\n\t\t{npc.Name}: {Game1.MasterPlayer.getFriendshipHeartLevelForNPC(npc.Name)}");
+						}
+					}
+
+				}
+
+				Log.Info(infoBuilder);
+
+			});
+
+		Globals.CCHelper.Add("sbv.gs.startgrowing", "Forces the token to act as if the golden sunberry is currently growing.", (_, _) =>
+			{
+				GoldenSunberryStageToken.Stage = 0;
+				GoldenSunberryStageToken.Growing = true;
+				Log.Info("Golden Sunberry will start growing.");
+			});
+
+		Globals.CCHelper.Add("sbv.gs.toggleforcegrow", "Toggles a bypass that will force the stage to advance overnight. ", (_, _) =>
+			{
+				if (!GoldenSunberryStageToken.Growing)
+				{
+					GoldenSunberryStageToken.Stage = 0;
+					GoldenSunberryStageToken.Growing = true;
+				}
+
+				GoldenSunberryStageToken.ForceGrow = !GoldenSunberryStageToken.ForceGrow;
+				Log.Info($"ForceGrow toggled {(GoldenSunberryStageToken.ForceGrow ? "on" : "off")}.");
+			});
+
+		#endregion
+
 #endif
 	}
 
 	private static void PrintWalkableTileCount()
 	{
-		if (!IsWorldReady())
-			return;
-
-		int walkableTileCount = DoWalkableFloodFill();
-
-		Log.Info($"Walkable tiles in {Game1.currentLocation.Name}: {walkableTileCount}");
+		if (IsWorldReady())
+			Log.Info($"Walkable tiles in {Game1.currentLocation.Name}: {DoWalkableFloodFill()}");
 	}
 
 	// Helpers
