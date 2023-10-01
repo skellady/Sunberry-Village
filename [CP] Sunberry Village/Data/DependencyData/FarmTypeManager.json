@@ -4,7 +4,7 @@
 		{
 			"LogName": "Monsters",
 			"Action": "Load",
-			"Target": "Characters/Monsters/SBVRedMushroom, Characters/Monsters/SBVPurpMushroom, Characters/Monsters/SBVCrystalMenace, Characters/Monsters/SBVGhoul, Characters/Monsters/SBVMountainDustSprite, Characters/Monsters/SBVCrystalBlob1, Characters/Monsters/SBVCrystalBlob2, Characters/Monsters/SBVCrystalBlob3",
+			"Target": "Characters/Monsters/SBVRedMushroom, Characters/Monsters/SBVPurpMushroom, Characters/Monsters/SBVCrystalMenace, Characters/Monsters/SBVCrystalMenace2, Characters/Monsters/SBVGhoul, Characters/Monsters/SBVGhoul2, Characters/Monsters/SBVMountainDustSprite, Characters/Monsters/SBVCrystalBlob1, Characters/Monsters/SBVCrystalBlob2, Characters/Monsters/SBVCrystalBlob3",
 			"FromFile": "Assets/MonsterFiles/{{TargetWithoutPath}}.png",
 		}
 	]

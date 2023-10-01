@@ -1843,6 +1843,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
@@ -1926,6 +1932,12 @@
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
                 },
                 {
                   "Category": "Object",
@@ -2019,6 +2031,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
@@ -2102,6 +2120,12 @@
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
                 },
                 {
                   "Category": "Object",
@@ -2195,6 +2219,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
@@ -2281,6 +2311,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -2344,7 +2380,33 @@
               "Speed": 4,
               "Color": "150 75 0 255",
               "SeesPlayersAtSpawn": false,
-              "RelatedSkill": "Combat"
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Copper Ore",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 33
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
             }
           },
           {
@@ -2353,7 +2415,39 @@
               "SpawnWeight": 3,
               "SeesPlayersAtSpawn": false,
               "Sprite": "Characters/Monsters/SBVRedMushroom",
-              "RelatedSkill": "Combat"
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Red Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Common Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 30
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Morel",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Chanterelle",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 4
+                }
+              ]
             }
           },
           {
@@ -2362,7 +2456,39 @@
               "SpawnWeight": 3,
               "SeesPlayersAtSpawn": false,
               "Sprite": "Characters/Monsters/SBVPurpMushroom",
-              "RelatedSkill": "Combat"
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Purple Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Common Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 30
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Morel",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Chanterelle",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 4
+                }
+              ]
             }
           },
           {
@@ -2450,6 +2576,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -2472,6 +2604,3592 @@
         ],
         "UniqueAreaID": "SBV Mines 4 Rare Brown",
         "MapName": "Custom_SBV_Mines4",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 215,
+              "Damage": 16,
+              "Speed": 4,
+              "Color": "150 75 0 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Copper Ore",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 33
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "false magma cap",
+            "Settings": {
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVRedMushroom",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Red Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Common Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 30
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Morel",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Chanterelle",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 4
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "false magma cap",
+            "Settings": {
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVPurpMushroom",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Purple Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Common Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 30
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Morel",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Chanterelle",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 4
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "dust sprite",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 70,
+              "Damage": 10,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVMountainDustSprite",
+              "RelatedSkill": "Combat"
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines Monsters 5",
+        "MapName": "Custom_SBV_Mines5A",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 250,
+              "Damage": 18,
+              "Color": "150 75 0 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines 5 Rare Brown",
+        "MapName": "Custom_SBV_Mines5A",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 215,
+              "Damage": 16,
+              "Speed": 4,
+              "Color": "150 75 0 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "false magma cap",
+            "Settings": {
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVRedMushroom",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Red Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Common Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 30
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Morel",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Chanterelle",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 4
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "false magma cap",
+            "Settings": {
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVPurpMushroom",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Purple Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Common Mushroom",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 30
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Morel",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Chanterelle",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 4
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "dust sprite",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 70,
+              "Damage": 10,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVMountainDustSprite",
+              "RelatedSkill": "Combat"
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines Monsters 6",
+        "MapName": "Custom_SBV_Mines6",
+        "MinimumSpawnsPerDay": 11,
+        "MaximumSpawnsPerDay": 16,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 250,
+              "Damage": 18,
+              "Color": "150 75 0 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines 6 Rare Brown",
+        "MapName": "Custom_SBV_Mines6",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 230,
+              "Damage": 18,
+              "Speed": 4,
+              "Color": "68 136 133 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 3,
+              "HP": 283,
+              "Damage": 15,
+              "Speed": 2,
+              "Defense": 28,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalMenace2",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 20
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Citrine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 20
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Serpentine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 20
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob1",
+              "RelatedSkill": "Combat"
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 70,
+              "Damage": 10,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob2",
+              "RelatedSkill": "Combat"
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines Monsters 7",
+        "MapName": "Custom_SBV_Mines7",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 260,
+              "Damage": 19,
+              "Color": "68 136 133 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Mines 7 Rare Blue",
+        "MapName": "Custom_SBV_Mines7",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 230,
+              "Damage": 18,
+              "Speed": 4,
+              "Color": "68 136 133 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 3,
+              "HP": 283,
+              "Damage": 15,
+              "Speed": 2,
+              "Defense": 28,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalMenace2",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Citrine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Serpentine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob1",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Citrine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Serpentine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob2",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Citrine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Serpentine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines7 monster area 1",
+        "MapName": "Custom_SBV_Mines7",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 260,
+              "Damage": 19,
+              "Color": "68 136 133 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines7 monster area 2",
+        "MapName": "Custom_SBV_Mines7",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 5,
+              "HP": 230,
+              "Damage": 18,
+              "Speed": 4,
+              "Color": "68 136 133 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 3,
+              "HP": 283,
+              "Damage": 15,
+              "Speed": 2,
+              "Defense": 28,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalMenace2",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Citrine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Serpentine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob1",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Citrine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Serpentine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob2",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Citrine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Serpentine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines8 monster area 1",
+        "MapName": "Custom_SBV_Mines8",
+        "MinimumSpawnsPerDay": 9,
+        "MaximumSpawnsPerDay": 14,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 260,
+              "Damage": 19,
+              "Color": "68 136 133 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines8 monster area 2",
+        "MapName": "Custom_SBV_Mines8",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 4,
+              "HP": 410,
+              "Damage": 19,
+              "Speed": 2,
+              "Color": "130 56 123 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 283,
+              "Damage": 15,
+              "Speed": 2,
+              "Defense": 28,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalMenace",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Citrine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Serpentine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 30
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul2",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 30
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob1",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob3",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines10 monster area 1",
+        "MapName": "Custom_SBV_Mines10A",
+        "MinimumSpawnsPerDay": 10,
+        "MaximumSpawnsPerDay": 15,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 420,
+              "Damage": 19,
+              "Color": "130 56 123 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines10 monster area 2",
+        "MapName": "Custom_SBV_Mines10A",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 4,
+              "HP": 410,
+              "Damage": 19,
+              "Speed": 2,
+              "Color": "130 56 123 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 283,
+              "Damage": 15,
+              "Speed": 2,
+              "Defense": 28,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalMenace",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Citrine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Serpentine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 30
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul2",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 30
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob1",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob3",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines11 monster area 1",
+        "MapName": "Custom_SBV_Mines11",
+        "MinimumSpawnsPerDay": 9,
+        "MaximumSpawnsPerDay": 14,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 420,
+              "Damage": 19,
+              "Color": "130 56 123 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines11 monster area 2",
+        "MapName": "Custom_SBV_Mines11",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 4,
+              "HP": 410,
+              "Damage": 19,
+              "Speed": 2,
+              "Color": "130 56 123 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "wilderness golem",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 283,
+              "Damage": 15,
+              "Speed": 2,
+              "Defense": 28,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalMenace",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Citrine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Serpentine",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul2",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob1",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob3",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines12 monster area 1",
+        "MapName": "Custom_SBV_Mines12",
+        "MinimumSpawnsPerDay": 9,
+        "MaximumSpawnsPerDay": 14,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 420,
+              "Damage": 19,
+              "Color": "130 56 123 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines12 monster area 2",
+        "MapName": "Custom_SBV_Mines12",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 460,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "74 119 118 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 460,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "142 60 123 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 460,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "197 130 46 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "big slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 600,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "74 119 118 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul2",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob1",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob3",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines13 monster area 1",
+        "MapName": "Custom_SBV_Mines13",
+        "MinimumSpawnsPerDay": 9,
+        "MaximumSpawnsPerDay": 14,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "9,8/9,8",
+          "0,0/39,9",
+          "0,10/3,29",
+          "4,23/39,29",
+          "25,10/39,22",
+          "14,16/20,17",
+          "18,18/19,22"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "big slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 19,
+              "Color": "142 60 123 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines13 monster area 2",
+        "MapName": "Custom_SBV_Mines13",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "9,8/9,8",
+          "0,0/39,9",
+          "0,10/3,29",
+          "4,23/39,29",
+          "25,10/39,22",
+          "14,16/20,17",
+          "18,18/19,22"
+        ],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 460,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "74 119 118 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 460,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "142 60 123 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 460,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "197 130 46 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "big slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 600,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "74 119 118 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul2",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob1",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob3",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines14 monster area 1",
+        "MapName": "Custom_SBV_Mines14",
+        "MinimumSpawnsPerDay": 9,
+        "MaximumSpawnsPerDay": 14,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "big slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 19,
+              "Color": "142 60 123 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines14 monster area 2",
+        "MapName": "Custom_SBV_Mines14",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 460,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "74 119 118 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 460,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "142 60 123 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 460,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "197 130 46 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "big slime",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 600,
+              "Damage": 20,
+              "Speed": 2,
+              "Color": "74 119 118 255",
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "pepper rex",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 20,
+              "Defense": 8,
+              "EXP": 15,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVGhoul2",
+              "RelatedSkill": "Combat",
+              "ExtraLoot": false,
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Moonberry",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Prismatic Shard",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob1",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          },
+          {
+            "MonsterName": "metal head",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 190,
+              "Damage": 15,
+              "Defense": 8,
+              "SeesPlayersAtSpawn": false,
+              "Sprite": "Characters/Monsters/SBVCrystalBlob3",
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 60
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Blue Aura Quartz",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Annabergite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Purpurite",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines15 monster area 1",
+        "MapName": "Custom_SBV_Mines15",
+        "MinimumSpawnsPerDay": 9,
+        "MaximumSpawnsPerDay": 14,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
+            "MonsterName": "big slime",
+            "Settings": {
+              "SpawnWeight": 1,
+              "HP": 700,
+              "Damage": 19,
+              "Color": "142 60 123 255",
+              "SeesPlayersAtSpawn": false,
+              "Segments": 3,
+              "EXP": 16,
+              "Speed": 4,
+              "RelatedSkill": "Combat",
+              "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll III",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Dwarf Scroll IV",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Diamond",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Slime",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "SBV Cinder Leaf",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Sap",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 50
+                },
+                {
+                  "Category": "Object",
+                  "Name": "Battery Pack",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Ring",
+                  "Name": "Lucky Ring",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
+                }
+              ]
+            }
+          }
+        ],
+        "UniqueAreaID": "Custom_SBV_Mines15 monster area 2",
+        "MapName": "Custom_SBV_Mines15",
         "MinimumSpawnsPerDay": -1,
         "MaximumSpawnsPerDay": 1,
         "IncludeTerrainTypes": [
