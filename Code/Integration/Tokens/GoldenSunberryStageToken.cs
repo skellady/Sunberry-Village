@@ -26,7 +26,7 @@ internal class GoldenSunberryStageToken
 	{
 		"AichaSBV",
 		"AminaSBV",
-		"AriSBV	",
+		"AriSBV",
 		"BlakeSBV",
 		"DialaSBV",
 		"DeryaSBV",
