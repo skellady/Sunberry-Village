@@ -437,6 +437,11 @@
       "Target": "Characters/SBVEasel",
       "FromFile": "Assets/Maps/tempActors/SBVEasel.png"
     },
+    {
+      "Action": "Load",
+      "Target": "Characters/GSBPlant",
+      "FromFile": "Assets/Maps/tempActors/GSBPlant.png"
+    },
     //Temporary Maps
     {
       "Action": "Load",
@@ -546,7 +551,7 @@
     },
     {
       "Action": "Load",
-      "Target": "Data/Events/Custom_SBV_DialaCafe, Data/Events/Custom_SBV_DDHouse, Data/Events/Custom_SBV_SunberryVillage, Data/Events/Custom_SBV_SunberryRoad, Data/Events/Custom_SBV_SunberryForest, Data/Events/Custom_SBV_SunberryMountain, Data/Events/Custom_SBV_SunberryLibrary, Data/Events/Custom_SBV_ReiHouse, Data/Events/Custom_SBV_AriMarket, Data/Events/Custom_SBV_EzraHouse, Data/Events/Custom_SBV_ImanHouse, Data/Events/Custom_SBV_MaiaHouse, Data/Events/Custom_SBV_EliasHouse, Data/Events/Custom_SBV_MiyoungHouse, Data/Events/Custom_SBV_SilasBlacksmith, Data/Events/Custom_SBV_SerenityInn, Data/Events/Custom_SBV_SerenityInn2ndFloor, Data/Events/Custom_SBV_SerenityInn3rdFloor, Data/Events/Custom_SBV_OpheliaHouse, Data/Events/Custom_SBV_EzraClothes, Data/Events/Custom_SBV_CrystalCave",
+      "Target": "Data/Events/Custom_SBV_DialaCafe, Data/Events/Custom_SBV_DDHouse, Data/Events/Custom_SBV_SunberryVillage, Data/Events/Custom_SBV_SunberryRoad, Data/Events/Custom_SBV_SunberryForest, Data/Events/Custom_SBV_SunberryMountain, Data/Events/Custom_SBV_SunberryLibrary, Data/Events/Custom_SBV_ReiHouse, Data/Events/Custom_SBV_AriMarket, Data/Events/Custom_SBV_EzraHouse, Data/Events/Custom_SBV_ImanHouse, Data/Events/Custom_SBV_MaiaHouse, Data/Events/Custom_SBV_EliasHouse, Data/Events/Custom_SBV_MiyoungHouse, Data/Events/Custom_SBV_SilasBlacksmith, Data/Events/Custom_SBV_SerenityInn, Data/Events/Custom_SBV_SerenityInn2ndFloor, Data/Events/Custom_SBV_SerenityInn3rdFloor, Data/Events/Custom_SBV_OpheliaHouse, Data/Events/Custom_SBV_EzraClothes, Data/Events/Custom_SBV_CrystalCave, Data/Events/Custom_SBV_MinesFinal",
       "FromFile": "Data/Dialogue/blank.json",
     },
     // Data Folder Includes
