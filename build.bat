@@ -1,4 +1,4 @@
-dotnet msbuild SunberryVillage.csproj
+dotnet msbuild SunberryVillage.csproj /t:Restore;Build
 
 @ECHO OFF
 
