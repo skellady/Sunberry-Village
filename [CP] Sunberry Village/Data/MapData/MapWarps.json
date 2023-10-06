@@ -1282,5 +1282,45 @@
         }
       ]
     },
+    {
+      "LogName": "Entrance to Final 1",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_CrystalCave",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 7,
+            "Y": 9
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 34 10 Custom_SBV_MinesFinal"
+          }
+        }
+      ],
+      "When": {
+        "HasSeenEvent: anyPlayer |contains=20031446": true
+      }
+    },
+    {
+      "LogName": "Entrance to Final 2",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_CrystalCave",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 8,
+            "Y": 9
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 34 10 Custom_SBV_MinesFinal"
+          }
+        }
+      ],
+      "When": {
+        "HasSeenEvent: anyPlayer |contains=20031446": true
+      }
+    },
   ]
 }

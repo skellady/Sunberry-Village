@@ -169,7 +169,7 @@
 			"Action": "EditMap",
 			"Target": "Maps/Custom_SBV_Mines10A, Maps/Custom_SBV_Mines10B, Maps/Custom_SBV_Mines11, Maps/Custom_SBV_Mines12",
 			"MapProperties": {
-				"Music": "{{Random: grandpas_theme, Icicles, kindadumbautumn}}"
+				"Music": "{{Random: grandpas_theme, Icicles, title_night}}"
 			},
 			"Update": "OnLocationChange"
 		},

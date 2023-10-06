@@ -1341,6 +1341,28 @@
   "event-20031444.15": "*sigh*...Let's go drag him out.$6",
   "event-20031444.16": "Why can't I ever just have a quiet morning...?$2",
 
+  // Final Mine Level Event 1
+  "event-20031445.01": "...What was that?",
+  "event-20031445.02": "Approach the source of the noise.",
+  "event-20031445.03": "Watch from a distance.",
+  "event-20031445.04": "What's going on here? Maybe Ophelia and Maia can help.",
+
+  // Final Mine Level Event 2
+  "event-20031446.01": "You managed to find Maia and Ophelia. You tried filling them in but thought it's best they see it for themselves.",
+  "event-20031446.02": "Woah...",
+  "event-20031446.03": "I've... never seen any seed like this before. You said it was sprouting?$8",
+  "event-20031446.04": "Hmm...",
+  "event-20031446.05": "Do you think Silas might know something? Or my mother, maybe?$7",
+  "event-20031446.06": "They might. Maybe we'll get some help from Razz, too.",
+  "event-20031446.07": "Are you going to leave it here?",
+  "event-20031446.08": "Will you tell me what you find out?",
+  "event-20031446.09": "We'll move it up to the surface so we can get someone to take a look. We'll keep you posted on what we find out.$9",
+  "event-20031446.10": "We got it from here. Thank you, @. Keep an eye on your mailbox.$h",
+  "event-20031446.11": "I'm going to stay and look around.",
+  "event-20031446.12": "I'm going to head back up.",
+  "event-20031446.13": "Sounds good. Hey, check out the water over there for me, will you? If it's got anything good, I'll bring Elias.$h",
+  "event-20031446.14": "Sounds good. I'll take a look at the minecart over there and get it working for you.",
+
   //Animation Dialogue
   //------------------
 

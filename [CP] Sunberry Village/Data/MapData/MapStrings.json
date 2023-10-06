@@ -62,8 +62,6 @@
 				"sbv.market6": "{{i18n:MapString.sbv.market6}}",
 				//broken diner
 				"sbv.brokendiner1": "{{i18n:MapString.sbv.brokendiner1}}",
-				//crystal cave entrance
-				"sbv.crystalcave1": "{{i18n:MapString.sbv.crystalcave1}}",
 				//5A and 5B
 				"sbv.rest1": "{{i18n:MapString.sbv.rest1}}",
 				//elias house
@@ -127,6 +125,17 @@
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=100162": false
+			}
+		},
+		{
+			"LogName": "Minecart Message",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.crystalcave1": "{{i18n:MapString.sbv.crystalcave1}}",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains=20031446": false,
 			}
 		},
 		// Unoccupied Houses
