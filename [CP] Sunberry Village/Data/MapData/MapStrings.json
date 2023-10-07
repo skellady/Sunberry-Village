@@ -103,6 +103,17 @@
 				"sbv.reihouse5": "{{i18n:MapString.sbv.reihouse5}}",
 				"sbv.reihouse6": "{{i18n:MapString.sbv.reihouse6}}",
 				"sbv.reihouse7": "{{i18n:MapString.sbv.reihouse7}}",
+				//sunberry library
+				"sbv.library1": "{{i18n:MapString.sbv.library1}}",
+				"sbv.library2": "{{i18n:MapString.sbv.library2}}",
+				"sbv.library3": "{{i18n:MapString.sbv.library3}}",
+				"sbv.library4": "{{i18n:MapString.sbv.library4}}",
+				"sbv.library5": "{{i18n:MapString.sbv.library5}}",
+				"sbv.library6": "{{i18n:MapString.sbv.library6}}",
+				"sbv.library7": "{{i18n:MapString.sbv.library7}}",
+				"sbv.library8": "{{i18n:MapString.sbv.library8}}",
+				"sbv.library9": "{{i18n:MapString.sbv.library9}}",
+				"sbv.library10": "{{i18n:MapString.sbv.library10}}",
 			}
 		},
 		{
