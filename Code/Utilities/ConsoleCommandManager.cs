@@ -266,6 +266,36 @@ internal class ConsoleCommandManager
 
 		#endregion
 
+		#region Misc
+
+		Globals.CCHelper.Add("sbv.misc.getlostbooks", "Gets all lost books.", (_, _) =>
+			{
+				if (IsWorldReady())
+					Game1.netWorldState.Value.LostBooksFound.Value = 21;
+			}
+		);
+
+		Globals.CCHelper.Add("sbv.misc.testbook", "Opens test Sunberry lore book.", (_, _) =>
+			{
+				//if (IsWorldReady())
+				//{
+					Game1.drawLetterMessage(
+						"Our Goddesses, Part 3:" +
+						"^^As time passed, the songs of the weather goddess became shorter and less frequent. Her heart grew hard and cold, and with it the weather turned frigid and harsh." +
+						"^^She turned her eyes away from the hardships of the humans, but they persevered and innovated, creating new technologies to help them through these hard times." +
+						"^^(Part 3 cont.)" +
+						"^^When they developed ships that could cross the vast oceans in search of more habitable lands, the goddess of fruit saw her chance, and pleaded with the villagers to let her join them on their voyage. They agreed at once, happy to have a goddess aboard, protecting them on what promised to be a difficult journey..." +
+						"^^^^^^Our Goddesses, Part 4: The ship sailed for many days and nights with the goddess always at the prow, searching for any sign of her beloved. Suddenly, they were beset by a raging tempest that threatened to dash the ship to pieces!" +
+						"^^[Fruit Goddess Name] tried to hold back the worst of the storm, but when she heard a keening wail being carried on the wind she understood at once. Crossing the ship to the captain, she ordered him to sail directly into the storm." +
+						"^^(Part 4 cont.)" +
+						"^^He was as furious as he was terrified, but the goddess had protected his voyage up to this point, so he relented to her demands and turned the ship into the storm, and they made slow but steady progress towards the source of the violent winds..."
+					);
+				//}
+			}
+		);
+
+		#endregion
+
 #endif
 	}
 
