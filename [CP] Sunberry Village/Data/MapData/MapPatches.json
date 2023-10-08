@@ -137,6 +137,28 @@
         "HasSeenEvent": 20031434
       }
     },
+    // Jonghyuk Cave
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_JonghyukPatchC.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 7,
+        "Height": 8
+      },
+      "ToArea": {
+        "X": 41,
+        "Y": 36,
+        "Width": 7,
+        "Height": 8
+      },
+      "When": {
+        "HasMod": "Arknir.Jonghyuk"
+      }
+    },
     // Egg Festival
     {
       "Action": "EditMap",
