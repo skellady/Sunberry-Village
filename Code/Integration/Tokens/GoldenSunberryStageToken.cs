@@ -14,8 +14,8 @@ internal class GoldenSunberryStageToken
 	internal static int HeartTotal = 0;
 
 	//todo: update this with correct event ID number
-	internal const int TRIGGER_EVENT_ID = 123;
-	internal const int MAX_STAGE = 5;
+	internal const string TRIGGER_MAIL_ID = "sbv.gsbtrigger";
+	internal const int MAX_STAGE = 7;
 	internal const int MIN_NIGHTS_IN_STAGE = 7;
 
 	internal const string GrowingModDataKey = "SunberryTeam.SBVSMAPI/GoldenSunberry/Growing";
@@ -89,7 +89,7 @@ internal class GoldenSunberryStageToken
 	private static void UpdateAndSaveGoldenSunberryStageVars(object sender, StardewModdingAPI.Events.DayEndingEventArgs e)
 	{
 		// "is true" is needed bc this statement returns a nullable bool, so we need to make sure it's 1. not null and 2. not false
-		if (!Growing && Game1.MasterPlayer.eventsSeen.Contains(TRIGGER_EVENT_ID) is true)
+		if (!Growing && Game1.MasterPlayer.hasOrWillReceiveMail(TRIGGER_MAIL_ID))
 		{
 			Stage = 0;
 			Growing = true;
