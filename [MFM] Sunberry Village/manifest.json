@@ -2,7 +2,7 @@
   
     "Name": "Sunberry Village - Mail Framework Mod", 
     "Author": "skellady",
-    "Version": "0.2.2",
+    "Version": "0.2.3",
     "Description": "Adds mail for Sunberry Village.", 
     "UniqueID": "skellady.SBVMFM", 
     "UpdateKeys": [ "Nexus:-1" ],
