@@ -1005,9 +1005,9 @@
          ]
       },*/
       {
-         "LogName": "Critters in Mine 8",
+         "LogName": "Critters in Mine 9",
          "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_Mines8",
+         "Target": "Maps/Custom_SBV_Mines9",
          "MapTiles": [
             {
                "Position": {
