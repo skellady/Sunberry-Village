@@ -63,6 +63,10 @@
       "UniqueID": "skellady.SBVFTM",
       "IsRequired": true
     },
+    {
+      "UniqueID": "SunberryTeam.SBVSMAPI",
+      "IsRequired": true
+    }
   ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"

@@ -110,5 +110,12 @@
         "FriendshipLevel": 6
       }
     ]
+  },
+  {
+    "Id": "sbv.gsbtrigger",
+    "Title": "sbv.gsbtrigger.title",
+    "Text": "sbv.gsbtrigger.text",
+    "Repeatable": false,
+    "EventsSeen": [20031447]
   }
 ]

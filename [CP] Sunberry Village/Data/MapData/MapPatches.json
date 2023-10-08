@@ -159,6 +159,27 @@
         "HasMod": "Arknir.Jonghyuk"
       }
     },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/GSBPatches/SBV_GSBPatch{{SunberryTeam.SBVSMAPI/GoldenSunberryStage}}.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 3,
+        "Height": 5
+      },
+      "ToArea": {
+        "X": 23,
+        "Y": 50,
+        "Width": 3,
+        "Height": 5
+      },
+      "When": {
+        "Query: {{SunberryTeam.SBVSMAPI/GoldenSunberryStage}} >= 0": true
+      }
+    },
     // Egg Festival
     {
       "Action": "EditMap",
