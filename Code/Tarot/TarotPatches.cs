@@ -24,81 +24,86 @@ namespace SunberryVillage.Tarot;
 [HarmonyPatch]
 internal class TarotPatches
 {
+	// keeping this code for a bit to make sure i haven't fucked anything up before removing it
 
-	/// <summary>
-	/// Patches <c>GameLocation.performAction</c> to check for the "DialaTarot" action and handle it accordingly.
-	/// </summary>
-	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.performAction))]
-	[HarmonyPrefix]
-	public static bool performAction_Prefix(string action, Farmer who, Location tileLocation)
-	{
-		try
-		{
-			if (action != "DialaTarot" || !who.IsLocalPlayer)
-				return true;
+	///// <summary>
+	///// Patches <c>GameLocation.performAction</c> to check for the "DialaTarot" action and handle it accordingly.
+	///// </summary>
+	//[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.performAction))]
+	//[HarmonyPrefix]
+	//public static bool performAction_Prefix(string action, Farmer who, Location tileLocation)
+	//{
+	//	try
+	//	{
+	//		if (action == "DialaTarot" && who.IsLocalPlayer)
+	//		{
+	//			GameLocation currentLoc = Game1.currentLocation;
 
-			GameLocation currentLoc = Game1.currentLocation;
+	//			if (currentLoc.characters.Any(npc => npc.Name == "DialaSBV" && Vector2.Distance(npc.getTileLocation(), new Vector2(tileLocation.X, tileLocation.Y)) < 3f))
+	//			{
+	//				if (who.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
+	//				{
+	//					Game1.drawObjectDialogue("You've already had a reading done today. Come back another time.");
+	//					return false;
+	//				}
 
-			if (currentLoc.characters.Any(npc => npc.Name == "DialaSBV" && Vector2.Distance(npc.getTileLocation(), new Vector2(tileLocation.X, tileLocation.Y)) < 3f))
-			{
-				if (who.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
-				{
-					Game1.drawObjectDialogue("You've already had a reading done today. Come back another time.");
-					return false;
-				}
+	//				// if you have seen the necessary event
+	//				if (who.eventsSeen.Contains(TarotHandler.TarotRequiredEventId))
+	//				{
+	//					currentLoc.createQuestionDialogue("Would you like to have a tarot reading done?",
+	//						currentLoc.createYesNoResponses(), "tarotReading");
+	//					return false;
+	//				}
 
-				// if you have seen the necessary event
-				if (who.eventsSeen.Contains(TarotHandler.TarotRequiredEventId))
-				{
-					currentLoc.createQuestionDialogue("Would you like to have a tarot reading done?",
-						currentLoc.createYesNoResponses(), "tarotReading");
-					return false;
-				}
+	//				// otherwise generic rejection dialogue
+	//				Game1.drawObjectDialogue("Diala is busy.");
+	//				return false;
+	//			}
 
-				// otherwise generic rejection dialogue
-				Game1.drawObjectDialogue("Diala is busy.");
-				return false;
-			}
+	//			// if diala is not on the map or near the tile location
+	//			Game1.drawObjectDialogue("Come back when Diala is here.");
+	//			return false;
+	//		}
 
-			// if diala is not on the map or near the tile location
-			Game1.drawObjectDialogue("Come back when Diala is here.");
-			return false;
-		}
-		catch (Exception e)
-		{
-			Log.Error($"Harmony patch \"{nameof(performAction_Prefix)}\" has encountered an error while handling \"{action}\" at ({tileLocation.X}, {tileLocation.Y}) on {Game1.currentLocation}: \n{e}");
-			return true;
-		}
-	}
+	//		return true;
+	//	}
+	//	catch (Exception e)
+	//	{
+	//		Log.Error($"Harmony patch \"{nameof(performAction_Prefix)}\" has encountered an error while handling \"{action}\" at ({tileLocation.X}, {tileLocation.Y}) on {Game1.currentLocation}: \n{e}");
+	//		return true;
+	//	}
+	//}
 
-	/// <summary>
-	/// Patches <c>GameLocation.answerDialogueAction</c> to check for tarotReading_Yes questionAndAnswer string and handle it accordingly.
-	/// </summary>
-	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.answerDialogueAction))]
-	[HarmonyPrefix]
-	public static bool answerDialogueAction_Prefix(string questionAndAnswer)
-	{
-		try
-		{
-			if (questionAndAnswer != "tarotReading_Yes")
-				return true;
+	///// <summary>
+	///// Patches <c>GameLocation.answerDialogueAction</c> to check for tarotReading_Yes questionAndAnswer string and handle it accordingly.
+	///// </summary>
+	//[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.answerDialogueAction))]
+	//[HarmonyPrefix]
+	//public static bool answerDialogueAction_Prefix(string questionAndAnswer)
+	//{
+	//	try
+	//	{
+	//		if (questionAndAnswer == "tarotReading_Yes")
+	//		{
+	//			Game1.player.modData["SunberryTeam.SBV/Tarot/ReadingDoneForToday"] = "true";
 
-			Game1.player.modData["SunberryTeam.SBV/Tarot/ReadingDoneForToday"] = "true";
+	//			Game1.activeClickableMenu = null;
+	//			GameLocation currentLoc = Game1.currentLocation;
 
-			Game1.activeClickableMenu = null;
-			GameLocation currentLoc = Game1.currentLocation;
+	//			string eventString = Game1.content.Load<Dictionary<string, string>>("SunberryTeam.SBV/Tarot/Event")["Event"];
 
-			string eventString = Game1.content.Load<Dictionary<string, string>>("SunberryTeam.SBV/Tarot/Event")["Event"];
+	//			currentLoc.startEvent(new Event(eventString));
+	//			return false;
+	//		}
 
-			currentLoc.startEvent(new Event(eventString));
-			return false;
-		}
-		catch (Exception e)
-		{
-			Log.Error($"Harmony patch \"{nameof(TarotPatches)}::{nameof(answerDialogueAction_Prefix)}\" has encountered an error while handling \"{questionAndAnswer}\": \n{e}");
-			return true;
-		}
-	}
+	//		return true;
+	//	}
+	//	catch (Exception e)
+	//	{
+	//		Log.Error($"Harmony patch \"{nameof(TarotPatches)}::{nameof(answerDialogueAction_Prefix)}\" has encountered an error while handling \"{questionAndAnswer}\": \n{e}");
+	//		return true;
+	//	}
+	//}
 
 	/// <summary>
 	/// Patches <c>Event.command_cutscene</c> to check for DialaTarot cutscene and handle it accordingly.
