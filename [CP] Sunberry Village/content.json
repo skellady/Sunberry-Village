@@ -129,6 +129,75 @@
         "HasMod": "Acerbicon.Recolor"
       }
     },
+    {
+      "Name": "GSBSetup",
+      "Value": "farmer 25 59 0 SilasSBV 24 53 2 Wizard 25 23 2 JumanaSBV 27 52 3 AminaSBV 31 51 3 EzraSBV 31 54 3 ImanSBV 31 55 3 MoonSBV 24 60 0 EliasSBV 24 57 0 AriSBV 23 57 0 MaiaSBV 22 53 1 BlakeSBV 19 54 1 LyenneSBV 19 53 1 OpheliaSBV 23 50 2 MiyoungSBV 21 50 2 DialaSBV 24 48 2 DeryaSBV 22 48 2" 
+    },
+    {
+      "Name": "GSBSetup",
+      "Value": "{{GSBSetup}} PS.Thysania 26 45 2",
+      "When": {
+        "HasMod": "KediDili.ProjectStarlight.CP",
+        "HasSeenEvent |contains= 70030006": true,
+        "HasSeenEvent |contains= 70030012": false 
+      }
+    },
+    {
+      "Name": "GSBSetup",
+      "Value": "{{GSBSetup}} PS.Thysania 17 52 1",
+      "When": {
+        "HasMod": "KediDili.ProjectStarlight.CP",
+        "HasSeenEvent |contains= 70030006": true,
+        "HasSeenEvent |contains= 70030012": true 
+      }
+    },
+    {
+      "Name": "GSBSetup",
+      "Value": "{{GSBSetup}} PS.Greyscale 25 45 2",
+      "When": {
+        "HasMod": "KediDili.ProjectStarlight.CP",
+        "HasSeenEvent |contains= 70030013": true,
+        "HasSeenEvent |contains= 70030012": false 
+      }
+    },
+    {
+      "Name": "GSBSetup",
+      "Value": "{{GSBSetup}} PS.Greyscale 17 53 1",
+      "When": {
+        "HasMod": "KediDili.ProjectStarlight.CP",
+        "HasSeenEvent |contains= 70030013": true,
+        "HasSeenEvent |contains= 70030012": true 
+      }
+    },
+    {
+      "Name": "GSBSetup",
+      "Value": "{{GSBSetup}} WrenSong 21 58 0",
+      "When": {
+        "HasMod": "tiakall.wren"
+      }
+    },
+    {
+      "Name": "GSBSetup",
+      "Value": "{{GSBSetup}} AirynDao 22 59 0",
+      "When": {
+        "HasMod": "Airyn.Dao.CP"
+      }
+    },
+    {
+      "Name": "GSBSetup",
+      "Value": "{{GSBSetup}} Jonghyuk 20 51 1",
+      "When": {
+        "HasMod": "Arknir.Jonghyuk"
+      }
+    },
+    {
+      "Name": "GSBSetup",
+      "Value": "{{GSBSetup}} Spanner 31 52 3",
+      "When": {
+        "HasMod": "Arknir.Jonghyuk",
+        "HasSeenEvent |contains= 63071007": true
+      } 
+    }
   ],
   "CustomLocations": [
     // Exterior Maps

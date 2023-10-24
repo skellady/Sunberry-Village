@@ -860,8 +860,8 @@
   "event-20031412.18": "Moon was supposed to leave with junimo friends a long time ago but... Moon found Diala and astrology!$h",
   "event-20031412.19": "Moon wants to become an astrologer.$4",
   "event-20031412.20": "Moon has been learning from Diala all along.",
-  "event-20031412.21": "Moon points at the hole in the wall.",
-  "event-20031412.22": "...Huh, so the hole mystery is solved.$u",
+  "event-20031412.21": "Moon looks at you and smiles. You smile back.",
+  "event-20031412.22": "...Huh, so that explains all the weird noises. Diala thought the ghosts were messing with her.$u",
   "event-20031412.23": "Moon is sorry. This was never meant to happen, Moon just wanted to learn.$s",
   "event-20031412.24": "Maybe Moon leaves now?$s",
   "event-20031412.25": "No! Moon, I would love to help you learn. At least directly now.$u#$b#You're welcome to stay here with us.$h",
@@ -1379,7 +1379,7 @@
 
   // Maia Monster Slaying
   "SBV.SpecialOrder.MaiaGrubs_Name": "Grub Help Needed!",
-  "SBV.SpecialOrder.MaiaGrubs_Text": "I'm tired of going into the mines and hearing these things buzz in my ear while I collect resources. If anyone could go in and get rid of a few of 'em, it'd make my job easier.",
+  "SBV.SpecialOrder.MaiaGrubs_Text": "I'm tired of going into the mines and hearing these things buzz in my ear when they hatch while I collect resources. If anyone could go in and get rid of a few of 'em, it'd make my job easier.",
   "SBV.SpecialOrder.MaiaGrubs_Objective_Text_0": "Slay 30 Grubs",
 
   // Ophelia Monster Slaying
