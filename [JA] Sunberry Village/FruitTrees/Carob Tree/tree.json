@@ -4,6 +4,7 @@
 	"SaplingTranslationKey":"sbv-carob-sapling",
     "SaplingName": "SBV Carob Sapling",
     "SaplingPurchasePrice":"7000",
+    "SaplingPurchaseFrom": "JumanaShop",
     "SaplingDescription": "...", 
     "Season": "fall"  
 }

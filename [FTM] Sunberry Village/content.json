@@ -160,6 +160,355 @@
           "LimitedNumberOfSpawns": null
         },
         "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Breakable",
+            "Contents": [
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 3,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 2,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 4,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Mixed Seeds",
+                "Stack": 2,
+                "PercentChanceToSpawn": 2
+              },
+              {
+                "Category": "Object",
+                "Name": "Stone",
+                "Stack": 4,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Stone",
+                "Stack": 6,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Copper Ore",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Copper Ore",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Breakable",
+            "Contents": [
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 3,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 2,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 4,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Mixed Seeds",
+                "Stack": 2,
+                "PercentChanceToSpawn": 2
+              },
+              {
+                "Category": "Object",
+                "Name": "Stone",
+                "Stack": 4,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Stone",
+                "Stack": 6,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Copper Ore",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Copper Ore",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Breakable",
+            "Contents": [
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 3,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 2,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 4,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Mixed Seeds",
+                "Stack": 2,
+                "PercentChanceToSpawn": 2
+              },
+              {
+                "Category": "Object",
+                "Name": "Stone",
+                "Stack": 4,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Stone",
+                "Stack": 6,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Copper Ore",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Copper Ore",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Breakable",
+            "Contents": [
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 2,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 3,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 4,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Wood",
+                "Stack": 5,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 2,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 4,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Sap",
+                "Stack": 5,
+                "PercentChanceToSpawn": 4
+              },
+              {
+                "Category": "Object",
+                "Name": "Mixed Seeds",
+                "Stack": 2,
+                "PercentChanceToSpawn": 2
+              },
+              {
+                "Category": "Object",
+                "Name": "Stone",
+                "Stack": 4,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Stone",
+                "Stack": 6,
+                "PercentChanceToSpawn": 9
+              },
+              {
+                "Category": "Object",
+                "Name": "Copper Ore",
+                "Stack": 2,
+                "PercentChanceToSpawn": 5
+              },
+              {
+                "Category": "Object",
+                "Name": "Copper Ore",
+                "Stack": 5,
+                "PercentChanceToSpawn": 5
+              }
+            ]
+          }
+        ],
+        "UniqueAreaID": "SBV Mines 1",
+        "MapName": "Custom_SBV_Mines1",
+        "MinimumSpawnsPerDay": -1,
+        "MaximumSpawnsPerDay": 5,
+        "IncludeTerrainTypes": [
+          "Wood"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "High",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
       }
     ],
     "PercentExtraSpawnsPerForagingLevel": 0,

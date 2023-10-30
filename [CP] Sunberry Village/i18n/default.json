@@ -1363,6 +1363,51 @@
   "event-20031446.13": "Sounds good. Hey, check out the water over there for me, will you? If it's got anything good, I'll bring Elias.$h",
   "event-20031446.14": "Sounds good. I'll take a look at the minecart over there and get it working for you.",
 
+  // event 20031447 is a silent event
+
+  // GSB First Event
+  "event-20031448.01": "If that's everyone, we may start.",
+  "event-20031448.02": "Thanks to the efforts of Silas, Jumana, and Elias, we have at last narrowed down what this plant could be.",
+  "event-20031448.03": "Oh, wow...",
+  "event-20031448.04": "Is it edible?",
+  "event-20031448.05": "We think it may be a variant of our purple sunberries. We're not entirely sure yet, but we will keep monitoring it as it grows.$h",
+  "event-20031448.06": "Accordin' to the books in the library, the purple sunberries were the Goddesses' final blessin' for us.#$b#You think this was a little surprise they left behind? Or could it be connected to...?$8",
+  "event-20031448.07": "Personally, I have no reason to believe it is connected to Dr. Zahra's research. I will, however, reach out to her soon to inform her of the details.",
+  "event-20031448.08": "Does it require any special attention? How long will it take to grow?$8",
+  "event-20031448.09": "We have no reason to believe it'd need any special care, but we're not sure about its growth time yet.$9",
+  "event-20031448.10": "It doesn't seem to grow the way the normal sunberries do. Perhaps there's something we're missing.",
+  "event-20031448.11": "Yeah, like the power of friendship!",
+  "event-20031448.12": "Hah, good one, Lyenne.",
+  "event-20031448.13": "Perhaps...",
+  "event-20031448.14": "...Anyway, we'll reconvene soon to check on its progress. Thank you all.",
+  "event-20031448.15": "Meeting adjourned.",
+  "event-20031448.16": "Woah...",
+  "event-20031448.17": "Alright, let's meet back here in a week, everyone.",
+  "event-20031448.18": "Wanna go over to Seb's?",
+
+  // Ophelia 2 Hearts Event
+  "event-20031449.01": "Do you have the paperwork I asked for? I need to mail it over to my husband today.",
+  "event-20031449.02": "Ah, yes! They should be... somewhere around here.$h",
+  "event-20031449.03": "Hello, @. Got business to do with Lewis or are you just dropping by?$h",
+  "event-20031449.04": "...Where is it?",
+  "event-20031449.05": "Here for business.",
+  "event-20031449.06": "Just dropping by.",
+  "event-20031449.07": "Ah, well, good luck with that. He's still looking for the paperwork I asked for last week.$8",
+  "event-20031449.08": "You might be waiting a while. He's still looking for the paperwork I asked for last week.$8",
+  "event-20031449.09": "I swear I left it here!$s",
+  "event-20031449.10": "...This is gonna be a long day.$9",
+
+  // Ezra 2 Hearts Event
+  "event-200314450.01": "Yeah! I'm making her the fanciest dress you've ever seen!$h",
+  "event-200314450.02": "I still can't believe you got asked to make a dress for THE Annie Hathisway.$u",
+  "event-200314450.03": "Me either! I'm a bundle of nerves right now, but I know I can make something amazing for the show.$u",
+  "event-200314450.04": "I've got the basic design down. It's upstairs.$h",
+  "event-200314450.05": "Hey, @! Welcome. How can I help?",
+  "event-200314450.06": "Hey, farmer. Did you hear the good news?$h",
+  "event-200314450.07": "I'm making a dress for a celebrity! I'm so excited, this is everything I've worked for. It'll really get my name out there.$6",
+  "event-200314450.08": "I was telling my sister all about it. My right ear still hurts from the scream she let out.$u",
+  "event-200314450.09": "Well, feel free to look around. I'll be over here if you need any help.$h",
+
   //Animation Dialogue
   //------------------
 
