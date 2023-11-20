@@ -511,6 +511,11 @@
       "Target": "Characters/GSBPlant",
       "FromFile": "Assets/Maps/tempActors/GSBPlant.png"
     },
+    {
+      "Action": "Load",
+      "Target": "Characters/SBVWizardPoof",
+      "FromFile": "Assets/Maps/tempActors/SBVWizardPoof.png"
+    },
     //Temporary Maps
     {
       "Action": "Load",
