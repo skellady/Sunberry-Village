@@ -35,7 +35,7 @@
          "Target": "Data/Festivals/fall20",
          "When": {
             "HasMod": "Rafseazz.RSVCP",
-            "HasSeenEvent": 20031402
+            "HasSeenEvent": "skellady.SBV_20031402"
          },
          "TextOperations": [
             // Set-up

@@ -3535,10 +3535,7 @@
 </data>
  </layer>
  <objectgroup id="6" name="Back"/>
- <layer id="12" name="Back2" width="7" height="8">
-  <properties>
-   <property name="Draw" value="Back"/>
-  </properties>
+ <layer id="12" name="Back+1" width="7" height="8">
   <data encoding="csv">
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
@@ -3550,7 +3547,6 @@
 0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="14" name="Back2"/>
  <layer id="2" name="Buildings" width="7" height="8">
   <data encoding="csv">
 0,795,0,0,797,150,151,
@@ -3564,10 +3560,7 @@
 </data>
  </layer>
  <objectgroup id="7" name="Buildings"/>
- <layer id="11" name="Buildings2" width="7" height="8">
-  <properties>
-   <property name="Draw" value="Buildings"/>
-  </properties>
+ <layer id="11" name="Buildings+1" width="7" height="8">
   <data encoding="csv">
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
@@ -3579,7 +3572,6 @@
 0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="15" name="Buildings2"/>
  <layer id="3" name="Paths" width="7" height="8">
   <data encoding="csv">
 0,0,0,0,0,0,0,
@@ -3606,10 +3598,7 @@
 </data>
  </layer>
  <objectgroup id="9" name="Front"/>
- <layer id="13" name="Front2" width="7" height="8">
-  <properties>
-   <property name="Draw" value="Front"/>
-  </properties>
+ <layer id="13" name="Front+1" width="7" height="8">
   <data encoding="csv">
 0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,
@@ -3621,7 +3610,6 @@
 0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="16" name="Front2"/>
  <layer id="5" name="AlwaysFront" width="7" height="8">
   <data encoding="csv">
 57,0,0,0,0,0,0,
@@ -3635,10 +3623,7 @@
 </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
- <layer id="17" name="AlwaysFront2" width="7" height="8">
-  <properties>
-   <property name="Draw" value="AlwaysFront"/>
-  </properties>
+ <layer id="17" name="AlwaysFront+1" width="7" height="8">
   <data encoding="csv">
 0,0,0,0,0,0,0,
 0,83,0,0,0,0,0,
@@ -3650,5 +3635,4 @@
 0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="18" name="AlwaysFront2"/>
 </map>

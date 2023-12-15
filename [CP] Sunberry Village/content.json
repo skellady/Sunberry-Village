@@ -1,6 +1,5 @@
 {
   "Format": "1.27.0",
-
   // Dynamic Tokens
   "DynamicTokens": [
     {
@@ -43,16 +42,14 @@
     {
       "Name": "JumanaSaturday",
       "Value": "{{Random: 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\"|key= DaoJonghyukSaturdayHangout}}",
-      "When": 
-      {
+      "When": {
         "HasMod |contains= Airyn.Dao.CP, Arknir.Jonghyuk": true
       }
     },
     {
       "Name": "JumanaSaturday",
       "Value": "{{Random: 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\"|key= DaoJonghyukSaturdayHangout}}",
-      "When": 
-      {
+      "When": {
         "HasMod |contains= Arknir.Jonghyuk": true,
         "HasMod |contains= Airyn.Dao.CP": true,
       }
@@ -73,7 +70,7 @@
       "Name": "BoardUnlockToken",
       "Value": "f EliasSBV 1000",
       "When": {
-        "BoardUnlock |contains= Elias": true 
+        "BoardUnlock |contains= Elias": true
       }
     },
     {
@@ -131,7 +128,7 @@
     },
     {
       "Name": "GSBSetup",
-      "Value": "farmer 25 59 0 SilasSBV 24 53 2 Wizard 25 54 2 JumanaSBV 27 52 3 AminaSBV 31 51 3 EzraSBV 31 54 3 ImanSBV 31 55 3 MoonSBV 24 60 0 EliasSBV 24 57 0 AriSBV 23 57 0 MaiaSBV 22 53 1 BlakeSBV 19 54 1 LyenneSBV 19 53 1 OpheliaSBV 23 50 2 MiyoungSBV 21 50 2 DialaSBV 24 48 2 DeryaSBV 22 48 2" 
+      "Value": "farmer 25 59 0 SilasSBV 24 53 2 Wizard 25 54 2 JumanaSBV 27 52 3 AminaSBV 31 51 3 EzraSBV 31 54 3 ImanSBV 31 55 3 MoonSBV 24 60 0 EliasSBV 24 57 0 AriSBV 23 57 0 MaiaSBV 22 53 1 BlakeSBV 19 54 1 LyenneSBV 19 53 1 OpheliaSBV 23 50 2 MiyoungSBV 21 50 2 DialaSBV 24 48 2 DeryaSBV 22 48 2"
     },
     {
       "Name": "GSBSetup",
@@ -139,7 +136,7 @@
       "When": {
         "HasMod": "KediDili.ProjectStarlight.CP",
         "HasSeenEvent |contains= 70030006": true,
-        "HasSeenEvent |contains= 70030012": false 
+        "HasSeenEvent |contains= 70030012": false
       }
     },
     {
@@ -148,7 +145,7 @@
       "When": {
         "HasMod": "KediDili.ProjectStarlight.CP",
         "HasSeenEvent |contains= 70030006": true,
-        "HasSeenEvent |contains= 70030012": true 
+        "HasSeenEvent |contains= 70030012": true
       }
     },
     {
@@ -157,7 +154,7 @@
       "When": {
         "HasMod": "KediDili.ProjectStarlight.CP",
         "HasSeenEvent |contains= 70030013": true,
-        "HasSeenEvent |contains= 70030012": false 
+        "HasSeenEvent |contains= 70030012": false
       }
     },
     {
@@ -166,7 +163,7 @@
       "When": {
         "HasMod": "KediDili.ProjectStarlight.CP",
         "HasSeenEvent |contains= 70030013": true,
-        "HasSeenEvent |contains= 70030012": true 
+        "HasSeenEvent |contains= 70030012": true
       }
     },
     {
@@ -196,10 +193,10 @@
       "When": {
         "HasMod": "Arknir.Jonghyuk",
         "HasSeenEvent |contains= 63071007": true
-      } 
+      }
     }
   ],
-  "CustomLocations": [
+  /*"CustomLocations": [
     // Exterior Maps
     {
       "Name": "Custom_SBV_SunberryVillage",
@@ -392,7 +389,7 @@
       "Name": "Custom_SBV_MinesFinal",
       "FromMapFile": "Assets/Maps/Mines/SBV_Mines_Final.tmx"
     },
-  ],
+  ],*/
   "ConfigSchema": {
     "SDVR3Patch": {
       "AllowValues": "true, false",
@@ -573,7 +570,7 @@
       "FromFile": "Assets/Maps/tempMaps/Phone_CG.tmx",
     },
     // Sprites + Portraits
-    {
+    /*{
       "LogName": "Seasonal Sprites and Portraits",
       "Action": "Load",
       "Target": "Characters/DialaSBV, Characters/DeryaSBV, Characters/AichaSBV, Characters/JumanaSBV, Portraits/DialaSBV, Portraits/DeryaSBV, Portraits/AichaSBV, Portraits/JumanaSBV",
@@ -597,7 +594,7 @@
       "Action": "Load",
       "Target": "Characters/AichaSBV_Beach",
       "FromFile": "Assets/BeachCharacters/{{TargetWithoutPath}}.png",
-    },
+    },*/
     // Schedule + Dialogue + Events
     {
       "LogName": "Schedule Blanks",
@@ -630,9 +627,9 @@
     },
     // Data Folder Includes
     {
-      "LogName": "Include Fish and Location Data",
+      "LogName": "Include Location Data",
       "Action": "Include",
-      "FromFile": "Data/Fish/FishData.json",
+      "FromFile": "Data/LocationData/Locations.json",
     },
     // Tilesheets
     {
@@ -644,7 +641,7 @@
     {
       "LogName": "Include Map Data",
       "Action": "Include",
-      "FromFile": "Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/MapMusic.json",
+      "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/MapMusic.json",
     },
     // Dynamic Changes Includes
     {
@@ -656,7 +653,13 @@
     {
       "LogName": "Include NPC Data",
       "Action": "Include",
-      "FromFile": "Data/NPCData/Animations.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/ConversationTopics.json, Data/NPCData/MoonRoommate.json, Data/NPCData/MovieData.json, Data/NPCData/Mail.json, Data/NPCData/BigAnimations.json",
+      "FromFile": "Data/NPCData/ImageLoads.json, Data/NPCData/Animations.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/ConversationTopics.json, Data/NPCData/MoonRoommate.json, Data/NPCData/MovieData.json, Data/NPCData/Mail.json, Data/NPCData/BigAnimations.json",
+    },
+    // Item Data Includes
+    {
+      "LogName": "Include Item Data",
+      "Action": "Include",
+      "FromFile": "Data/ItemData/Crops.json, Data/ItemData/Objects.json"
     },
     // Dialogue + Schedule Includes
     {

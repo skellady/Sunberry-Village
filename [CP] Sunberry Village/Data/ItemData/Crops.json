@@ -1,0 +1,292 @@
+{
+	"Changes": [
+		{
+			"LogName": "Load Crops",
+			"Action": "Load",
+			"Target": "Mods/skellady.SBVCP/Crops, Mods/skellady.SBVCP/GiantCrops",
+			"FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
+		},
+		{
+			"LogName": "Add Crops",
+			"Action": "EditData",
+			"Target": "Data/Crops",
+			"Entries": {
+				"skellady.SBVCP_ArfajSeeds": {
+					"Seasons": [
+						"spring"
+					],
+					"DaysInPhase": [
+						2,
+						3,
+						3,
+						4
+					],
+					"RegrowDays": -1,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_Arfaj",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"HarvestMaxIncreasePerFarmingLevel": 0.0,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 0
+				},
+				"skellady.SBVCP_CallaLilySeeds": {
+					"Seasons": [
+						"summer"
+					],
+					"DaysInPhase": [
+						1,
+						2,
+						3,
+						2
+					],
+					"RegrowDays": -1,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_CallaLilies",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"HarvestMaxIncreasePerFarmingLevel": 0.0,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 1
+				},
+				"skellady.SBVCP_CoffeeBlossomSeeds": {
+					"Seasons": [
+						"spring"
+					],
+					"DaysInPhase": [
+						1,
+						2,
+						2,
+						1,
+						2
+					],
+					"RegrowDays": -1,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_CoffeeBlossom",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"HarvestMaxIncreasePerFarmingLevel": 0.0,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 2
+				},
+				"skellady.SBVCP_CyclamenSeeds": {
+					"Seasons": [
+						"winter"
+					],
+					"DaysInPhase": [
+						1,
+						2,
+						3,
+						3
+					],
+					"RegrowDays": -1,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_Cyclamen",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"HarvestMaxIncreasePerFarmingLevel": 0.0,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 3
+				},
+				"skellady.SBVCP_GoldenSunberrySeeds": {
+					"Seasons": [
+						"spring",
+						"summer",
+						"fall"
+					],
+					"DaysInPhase": [
+						4,
+						10,
+						8,
+						6,
+						7
+					],
+					"RegrowDays": 7,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_GoldenSunberry",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"HarvestMaxIncreasePerFarmingLevel": 0.2,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 4
+				},
+				"skellady.SBVCP_HyacinthSeeds": {
+					"Seasons": [
+						"spring"
+					],
+					"DaysInPhase": [
+						1,
+						2,
+						3,
+						3
+					],
+					"RegrowDays": -1,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_Hyacinth",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"HarvestMaxIncreasePerFarmingLevel": 0.0,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 5
+				},
+				"skellady.SBVCP_MoonberrySeeds": {
+					"Seasons": [
+						"fall",
+						"winter"
+					],
+					"DaysInPhase": [
+						5,
+						4,
+						6,
+						7
+					],
+					"RegrowDays": -1,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_LunarBean",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"HarvestMaxIncreasePerFarmingLevel": 0.0,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 6
+				},
+				"skellady.SBVCP_RoyalAnemoneSeeds": {
+					"Seasons": [
+						"fall"
+					],
+					"DaysInPhase": [
+						2,
+						3,
+						3,
+						2
+					],
+					"RegrowDays": -1,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_RoyalAnemone",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 1,
+					"HarvestMaxIncreasePerFarmingLevel": 0.0,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 7
+				},
+				"skellady.SBVCP_SpeedwellSeeds": {
+					"Seasons": [
+						"spring"
+					],
+					"DaysInPhase": [
+						1,
+						2,
+						2,
+						2
+					],
+					"RegrowDays": -1,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_Speedwell",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
+					"HarvestMaxIncreasePerFarmingLevel": 0.0,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 8
+				},
+				"skellady.SBVCP_SunberrySeeds": {
+					"Seasons": [
+						"summer"
+					],
+					"DaysInPhase": [
+						1,
+						2,
+						3,
+						3,
+						1
+					],
+					"RegrowDays": 3,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_Sunberries",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 3,
+					"HarvestMaxIncreasePerFarmingLevel": 0.0,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 9
+				},
+				"skellady.SBVCP_WildMustardSeeds": {
+					"Seasons": [
+						"fall"
+					],
+					"DaysInPhase": [
+						1,
+						2,
+						1,
+						3
+					],
+					"RegrowDays": -1,
+					"IsRaised": false,
+					"HarvestItemId": "skellady.SBVCP_WildMustard",
+					"HarvestMethod": "Grab",
+					"ExtraHarvestChance": 0.0,
+					"HarvestMinStack": 1,
+					"HarvestMaxStack": 2,
+					"HarvestMaxIncreasePerFarmingLevel": 0.0,
+					"Texture": "Mods\\skellady.SBVCP\\Crops",
+					"SpriteIndex": 10
+				}
+			}
+		},
+		// Giant Crops
+		{
+			"LogName": "Add Giant Crops",
+			"Action": "EditData",
+			"Target": "Data/GiantCrops",
+			"Entries": {
+				"skellady.SBVCP_GiantSunberry": {
+					"FromItemId": "(O)skellady.SBVCP_Sunberries",
+					"HarvestItems": [
+						{
+							"Chance": 1.0,
+							"Id": "skellady.SBVCP_Sunberries",
+							"ItemId": "(O)skellady.SBVCP_Sunberries",
+							"MinStack": 18,
+							"MaxStack": 22
+						},
+						{
+							"Chance": 0.01,
+							"Id": "skellady.SBVCP_GoldenSunberry",
+							"ItemId": "(O)skellady.SBVCP_GoldenSunberry",
+							"MinStack": 1,
+							"MaxStack": 2
+						}
+					],
+					"Texture": "Mods\\skellady.SBVCP\\GiantCrops",
+					"TexturePosition": {
+						"X": 0,
+						"Y": 0
+					},
+					"TileSize": {
+						"X": 3,
+						"Y": 3
+					},
+					"Health": 3,
+					"Chance": 0.01
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,712 @@
+{
+	"Changes": [
+		// Load Objects
+		{
+			"LogName": "Load Objects",
+			"Action": "Load",
+			"Target": "Mods/skellady.SBVCP/Produce, Mods/skellady.SBVCP/Food, Mods/skellady.SBVCP/GemsArtifacts, Mods/skellady.SBVCP/MiscItems, Mods/skellady.SBVCP/Seeds",
+			"FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
+		},
+		// Produce
+		{
+			"LogName": "Crop Produce",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"Entries": {
+				"skellady.SBVCP_Arfaj": {
+					"Name": "Arfaj",
+					"DisplayName": "{{i18n:SBV.Arfaj.Name}}",
+					"Description": "{{i18n:SBV.Arfaj.Description}}",
+					"Edibility": "0",
+					"Type": "Flower",
+					"Category": -80,
+					"Price": 300,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 0,
+					"ContextTags": [
+						"flower_item",
+						"season_spring",
+						"color_orange"						
+					]
+				},
+				"skellady.SBVCP_CallaLilies": {
+					"Name": "Calla Lilies",
+					"DisplayName": "{{i18n:SBV.CallaLilies.Name}}",
+					"Description": "{{i18n:SBV.CallaLilies.Description}}",
+					"Edibility": "0",
+					"Type": "Flower",
+					"Category": -80,
+					"Price": 190,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 1,
+					"ContextTags": [
+						"flower_item",
+						"season_summer",
+						"color_pink",
+						"color_purple"						
+					]
+				},
+                "skellady.SBVCP_CoffeeBlossom": {
+					"Name": "Coffee Blossom",
+					"DisplayName": "{{i18n:SBV.CoffeeBlossom.Name}}",
+					"Description": "{{i18n:SBV.CoffeeBlossom.Description}}",
+					"Edibility": "0",
+					"Type": "Flower",
+					"Category": -80,
+					"Price": 240,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 2,
+					"ContextTags": [
+						"flower_item",
+						"season_spring",
+						"color_white"					
+					]
+				},
+                "skellady.SBVCP_Cyclamen": {
+					"Name": "Cyclamen",
+					"DisplayName": "{{i18n:SBV.Cyclamen.Name}}",
+					"Description": "{{i18n:SBV.Cyclamen.Description}}",
+					"Edibility": "0",
+					"Type": "Flower",
+					"Category": -80,
+					"Price": 150,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 3,
+					"ContextTags": [
+						"flower_item",
+						"season_winter",
+						"color_pink"					
+					]
+				},
+                "skellady.SBVCP_GoldenSunberry": {
+					"Name": "Golden Sunberry",
+					"DisplayName": "{{i18n:SBV.GoldenSunberry.Name}}",
+					"Description": "{{i18n:SBV.GoldenSunberry.Description}}",
+					"Edibility": "-300",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 750,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 4,
+					"ContextTags": [
+						"season_spring",
+                        "season_summer",
+                        "season_fall",
+						"color_yellow"					
+					]
+				},
+                "skellady.SBVCP_Hyacinth": {
+					"Name": "Hyacinth",
+					"DisplayName": "{{i18n:SBV.Hyacinth.Name}}",
+					"Description": "{{i18n:SBV.Hyacinth.Description}}",
+					"Edibility": "0",
+					"Type": "Flower",
+					"Category": -80,
+					"Price": 140,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 5,
+					"ContextTags": [
+						"season_spring",
+                        "flower_item",
+						"color_pink",
+                        "color_white"					
+					]
+				},
+                "skellady.SBVCP_LunarBean": {
+					"Name": "Lunar Bean",
+					"DisplayName": "{{i18n:SBV.LunarBean.Name}}",
+					"Description": "{{i18n:SBV.LunarBean.Description}}",
+					"Edibility": "90",
+					"Type": "Minerals",
+					"Category": -2,
+					"Price": 300,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 6,
+					"ContextTags": [
+						"season_fall",
+                        "season_winter",
+                        "color_white"					
+					]
+				},
+                "skellady.SBVCP_RoyalAnemone": {
+					"Name": "Royal Anemone",
+					"DisplayName": "{{i18n:SBV.RoyalAnemone.Name}}",
+					"Description": "{{i18n:SBV.RoyalAnemone.Description}}",
+					"Edibility": "0",
+					"Type": "Flower",
+					"Category": -80,
+					"Price": 110,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 7,
+					"ContextTags": [
+						"season_fall",
+                        "flower_item",
+                        "color_pink"					
+					]
+				},
+                "skellady.SBVCP_Speedwell": {
+					"Name": "Speedwell",
+					"DisplayName": "{{i18n:SBV.Speedwell.Name}}",
+					"Description": "{{i18n:SBV.Speedwell.Description}}",
+					"Edibility": "0",
+					"Type": "Flower",
+					"Category": -80,
+					"Price": 210,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 8,
+					"ContextTags": [
+						"season_spring",
+                        "flower_item",
+                        "color_blue"					
+					]
+				},
+                "skellady.SBVCP_Sunberries": {
+					"Name": "Sunberries",
+					"DisplayName": "{{i18n:SBV.Sunberries.Name}}",
+					"Description": "{{i18n:SBV.Sunberries.Description}}",
+					"Edibility": "20",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 110,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 9,
+					"ContextTags": [
+						"season_summer",
+                        "fruit_item",
+                        "color_purple"					
+					]
+				},
+                "skellady.SBVCP_WildMustard": {
+					"Name": "Wild Mustard",
+					"DisplayName": "{{i18n:SBV.WildMustard.Name}}",
+					"Description": "{{i18n:SBV.WildMustard.Description}}",
+					"Edibility": "15",
+					"Type": "Flower",
+					"Category": -80,
+					"Price": 180,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 10,
+					"ContextTags": [
+						"season_fall",
+                        "flower_item",
+                        "color_yellow"					
+					]
+				},
+                "skellady.SBVCP_Carob": {
+					"Name": "Carob",
+					"DisplayName": "{{i18n:SBV.Carob.Name}}",
+					"Description": "{{i18n:SBV.Carob.Description}}",
+					"Edibility": "30",
+					"Type": "Fruit",
+					"Category": -79,
+					"Price": 150,
+					"Texture": "Mods\\skellady.SBVCP\\Produce",
+					"SpriteIndex": 11,
+					"ContextTags": [
+						"season_fall",
+                        "color_brown"					
+					]
+				}
+			}
+		},
+        // Food
+        {
+            "LogName": "Add Food",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "skellady.SBVCP_ChocoChipCookies": {
+                    "Name": "skellady.SBVCP_ChocoChipCookies",
+                    "DisplayName": "{{i18n:SBV.ChocoChipCookies.Name}}",
+                    "Description": "{{i18n:SBV.ChocoChipCookies.Description}}",
+                    "Edibility": "50",
+                    "Type": "Cooking",
+					"Category": -7,
+                    "Price": 220,
+                    "Texture": "Mods\\skellady.SBVCP\\Food",
+                    "SpriteIndex": 0,
+                    "Buff": {
+                        "Duration": 300,
+                        "CustomAttributes": {
+                            "FarmingLevel": 2
+                        }
+                    },
+                    "IsDrink": false,
+                },
+                "skellady.SBVCP_DialaHotChoco": {
+                    "Name": "skellady.SBVCP_DialaHotChoco",
+                    "DisplayName": "{{i18n:SBV.DialaHotChoco.Name}}",
+                    "Description": "{{i18n:SBV.DialaHotChoco.Description}}",
+                    "Edibility": "10",
+                    "Type": "Cooking",
+					"Category": -7,
+                    "Price": 400,
+                    "Texture": "Mods\\skellady.SBVCP\\Food",
+                    "SpriteIndex": 1,
+                    "Buff": {
+                        "Duration": 300,
+                        "CustomAttributes": {
+                            "LuckLevel": 1
+                        }
+                    },
+                    "IsDrink": true,
+                },
+                "skellady.SBVCP_IceCreamBowl": {
+                    "Name": "skellady.SBVCP_IceCreamBowl",
+                    "DisplayName": "{{i18n:SBV.IceCreamBowl.Name}}",
+                    "Description": "{{i18n:SBV.IceCreamBowl.Description}}",
+                    "Edibility": "35",
+                    "Type": "Cooking",
+					"Category": -7,
+                    "Price": 350,
+                    "Texture": "Mods\\skellady.SBVCP\\Food",
+                    "SpriteIndex": 2,
+                    "Buff": {
+                        "Duration": 300,
+                        "CustomAttributes": {
+                            "MiningLevel": 2
+                        }
+                    },
+                    "IsDrink": false,
+                }
+            }
+        },
+        // Gems and Artifacts
+        {
+            "LogName": "Add Gems and Artifacts",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "skellady.SBVCP_Annabergite": {
+                    "Name": "Annabergite",
+                    "DisplayName": "{{i18n:SBV.Annabergite.Name}}",
+                    "Description": "{{i18n:SBV.Annabergite.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "Price": 150,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "color_blue"
+                    ]
+                },
+                "skellady.SBVCP_BlueAuraQuartz": {
+                    "Name": "Blue Aura Quartz",
+                    "DisplayName": "{{i18n:SBV.BlueAuraQuartz.Name}}",
+                    "Description": "{{i18n:SBV.BlueAuraQuartz.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "Price": 200,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "color_blue",
+                        "color_purple"
+                    ]
+                },
+                "skellady.SBVCP_Citrine": {
+                    "Name": "Citrine",
+                    "DisplayName": "{{i18n:SBV.Citrine.Name}}",
+                    "Description": "{{i18n:SBV.Citrine.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "Price": 120,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "color_yellow"
+                    ]
+                },
+                "skellady.SBVCP_Moonberry": {
+                    "Name": "Moonberry",
+                    "DisplayName": "{{i18n:SBV.Moonberry.Name}}",
+                    "Description": "{{i18n:SBV.Moonberry.Description}}",
+                    "Edibility": "90",
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "Price": 50,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "color_white"
+                    ]
+                },
+                "skellady.SBVCP_Purpurite": {
+                    "Name": "Purpurite",
+                    "DisplayName": "{{i18n:SBV.Purpurite.Name}}",
+                    "Description": "{{i18n:SBV.Purpurite.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "Price": 110,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "color_purple"
+                    ]
+                },
+                "skellady.SBVCP_Serpentine": {
+                    "Name": "Serpentine",
+                    "DisplayName": "{{i18n:SBV.Serpentine.Name}}",
+                    "Description": "{{i18n:SBV.Serpentine.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "Price": 130,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "color_green"
+                    ]
+                }
+            }
+        },
+        // Misc Items
+        {
+            "LogName": "Add Misc Items",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "skellady.SBVCP_CinderLeaf": {
+                    "Name": "Cinder Leaf",
+                    "DisplayName": "{{i18n:SBV.CinderLeaf.Name}}",
+                    "Description": "{{i18n:SBV.CinderLeaf.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Resource",
+                    "Category": -16,
+                    "Price": 10,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "color_pink"
+                    ]
+                },
+                "skellady.SBVCP_SerpentinePotion": {
+                    "Name": "Serpentine Potion",
+                    "DisplayName": "{{i18n:SBV.SerpentinePotion.Name}}",
+                    "Description": "{{i18n:SBV.SerpentinePotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 1,
+                    "Buff": {
+                        "Duration": 560,
+                        "CustomAttributes": {
+                            "MiningLevel": 2,
+                            "Speed": 1
+                        }
+                    },
+                    "IsDrink": true
+                },
+                "skellady.SBVCP_PurpuritePotion": {
+                    "Name": "Purpurite Potion",
+                    "DisplayName": "{{i18n:SBV.PurpuritePotion.Name}}",
+                    "Description": "{{i18n:SBV.PurpuritePotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 2,
+                    "Buff": {
+                        "Duration": 560,
+                        "CustomAttributes": {
+                            "ForagingLevel": 2,
+                            "Speed": 2
+                        }
+                    },
+                    "IsDrink": true
+                },
+                "skellady.SBVCP_AnnabergitePotion": {
+                    "Name": "Annabergite Potion",
+                    "DisplayName": "{{i18n:SBV.AnnabergitePotion.Name}}",
+                    "Description": "{{i18n:SBV.AnnabergitePotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 3,
+                    "Buff": {
+                        "Duration": 560,
+                        "CustomAttributes": {
+                            "FishingLevel": 2,
+                            "Defense": 2
+                        }
+                    },
+                    "IsDrink": true
+                },
+                "skellady.SBVCP_CitrinePotion": {
+                    "Name": "Citrine Potion",
+                    "DisplayName": "{{i18n:SBV.CitrinePotion.Name}}",
+                    "Description": "{{i18n:SBV.CitrinePotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 4,
+                    "Buff": {
+                        "Duration": 560,
+                        "CustomAttributes": {
+                            "MaxStamina": 60,
+                            "Attack": 2
+                        }
+                    },
+                    "IsDrink": true
+                },
+                "skellady.SBVCP_BlueAuraQuartzPotion": {
+                    "Name": "Citrine Potion",
+                    "DisplayName": "{{i18n:SBV.BlueAuraQuartzPotion.Name}}",
+                    "Description": "{{i18n:SBV.BlueAuraQuartzPotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 5,
+                    "Buff": {
+                        "Duration": 560,
+                        "CustomAttributes": {
+                            "FarmingLevel": 3,
+                            "Attack": 2,
+                            "Speed": 1
+                        }
+                    },
+                    "IsDrink": true
+                },
+                "skellady.SBVCP_MoonberryPotion": {
+                    "Name": "Citrine Potion",
+                    "DisplayName": "{{i18n:SBV.MoonberryPotion.Name}}",
+                    "Description": "{{i18n:SBV.MoonberryPotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 6,
+                    "Buff": {
+                        "Duration": 560,
+                        "CustomAttributes": {
+                            "LuckLevel": 2,
+                            "Defense": 2,
+                            "Speed": 1
+                        }
+                    },
+                    "IsDrink": true
+                },
+                "skellady.SBVCP_DolomitePotion": {
+                    "Name": "Dolomite Potion",
+                    "DisplayName": "{{i18n:SBV.DolomitePotion.Name}}",
+                    "Description": "{{i18n:SBV.DolomitePotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 7,
+                    "Buff": {
+                        "Duration": 560,
+                        "CustomAttributes": {
+                            "LuckLevel": 1,
+                            "Attack": 2,
+                            "Speed": 1
+                        }
+                    },
+                    "IsDrink": true
+                },
+                "skellady.SBVCP_TigerseyePotion": {
+                    "Name": "Tigerseye Potion",
+                    "DisplayName": "{{i18n:SBV.TigerseyePotion.Name}}",
+                    "Description": "{{i18n:SBV.TigerseyePotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 8,
+                    "Buff": {
+                        "Duration": 560,
+                        "CustomAttributes": {
+                            "MiningLevel": 3,
+                            "Attack": 2
+                        }
+                    },
+                    "IsDrink": true
+                },
+                "skellady.SBVCP_LunaritePotion": {
+                    "Name": "Lunarite Potion",
+                    "DisplayName": "{{i18n:SBV.LunaritePotion.Name}}",
+                    "Description": "{{i18n:SBV.LunaritePotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 9,
+                    "Buff": {
+                        "Duration": 560,
+                        "CustomAttributes": {
+                            "MiningLevel": 3,
+                            "Defense": 4
+                        }
+                    },
+                    "IsDrink": true
+                },
+                "skellady.SBVCP_FairyStonePotion": {
+                    "Name": "Fairy Stone Potion",
+                    "DisplayName": "{{i18n:SBV.FairyStonePotion.Name}}",
+                    "Description": "{{i18n:SBV.FairyStonePotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 10,
+                    "Buff": {
+                        "Duration": 560,
+                        "CustomAttributes": {
+                            "FarmingLevel": 3,
+                            "MiningLevel": 2,
+                            "LuckLevel": 1
+                        }
+                    },
+                    "IsDrink": true
+                }
+            }
+        },
+        // Seeds
+        {
+            "LogName": "Add Seeds",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "skellady.SBVCP_ArfajSeeds": {
+                    "Name": "Arfaj Seeds",
+                    "DisplayName": "{{i18n:SBV.ArfajSeeds.Name}}",
+                    "Description": "{{i18n:SBV.ArfajSeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 50,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 0
+                },
+                "skellady.SBVCP_CallaLilySeeds": {
+                    "Name": "Calla Lily Seeds",
+                    "DisplayName": "{{i18n:SBV.CallaLilySeeds.Name}}",
+                    "Description": "{{i18n:SBV.CallaLilySeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 20,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 1
+                },
+                "skellady.SBVCP_CoffeeBlossomSeeds": {
+                    "Name": "Coffee Blossom Seeds",
+                    "DisplayName": "{{i18n:SBV.CoffeeBlossomSeeds.Name}}",
+                    "Description": "{{i18n:SBV.CoffeeBlossomSeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 20,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 2
+                },
+                "skellady.SBVCP_CyclamenSeeds": {
+                    "Name": "Cyclamen Seeds",
+                    "DisplayName": "{{i18n:SBV.CyclamenSeeds.Name}}",
+                    "Description": "{{i18n:SBV.CyclamenSeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 30,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 3
+                },
+                "skellady.SBVCP_GoldenSunberrySeeds": {
+                    "Name": "Golden Sunberry Seeds",
+                    "DisplayName": "{{i18n:SBV.GoldenSunberrySeeds.Name}}",
+                    "Description": "{{i18n:SBV.GoldenSunberrySeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 150,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 4
+                },
+                "skellady.SBVCP_HyacinthSeeds": {
+                    "Name": "Hyacinth Seeds",
+                    "DisplayName": "{{i18n:SBV.HyacinthSeeds.Name}}",
+                    "Description": "{{i18n:SBV.HyacinthSeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 30,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 5
+                },
+                "skellady.SBVCP_MoonberrySeeds": {
+                    "Name": "Moonberry Seeds",
+                    "DisplayName": "{{i18n:SBV.MoonberrySeeds.Name}}",
+                    "Description": "{{i18n:SBV.MoonberrySeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 80,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 6
+                },
+                "skellady.SBVCP_RoyalAnemoneSeeds": {
+                    "Name": "Royal Anemone Seeds",
+                    "DisplayName": "{{i18n:SBV.RoyalAnemoneSeeds.Name}}",
+                    "Description": "{{i18n:SBV.RoyalAnemoneSeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 40,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 7
+                },
+                "skellady.SBVCP_SpeedwellSeeds": {
+                    "Name": "Speedwell Seeds",
+                    "DisplayName": "{{i18n:SBV.SpeedwellSeeds.Name}}",
+                    "Description": "{{i18n:SBV.SpeedwellSeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 30,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 8
+                },
+                "skellady.SBVCP_SunberrySeeds": {
+                    "Name": "Sunberry Seeds",
+                    "DisplayName": "{{i18n:SBV.SunberrySeeds.Name}}",
+                    "Description": "{{i18n:SBV.SunberrySeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 60,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 9
+                },
+                "skellady.SBVCP_WildMustardSeeds": {
+                    "Name": "Wild Mustard Seeds",
+                    "DisplayName": "{{i18n:SBV.WildMustardSeeds.Name}}",
+                    "Description": "{{i18n:SBV.WildMustardSeeds.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 40,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 10
+                },
+                "skellady.SBVCP_CarobSapling": {
+                    "Name": "CarobSapling",
+                    "DisplayName": "{{i18n:SBV.CarobSapling.Name}}",
+                    "Description": "{{i18n:SBV.CarobSapling.Description}}",
+                    "Edibility": "-300",
+                    "Category": -74,
+                    "Price": 5000,
+                    "Texture": "Mods\\skellady.SBVCP\\Seeds",
+                    "SpriteIndex": 11
+                },
+            }
+        }
+	]
+}

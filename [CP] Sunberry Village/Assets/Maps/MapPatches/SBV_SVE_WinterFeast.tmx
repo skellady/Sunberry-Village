@@ -1353,15 +1353,11 @@
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
- <layer id="3" name="Back2" width="10" height="10">
-  <properties>
-   <property name="Draw" value="Back"/>
-  </properties>
+ <layer id="3" name="Back+1" width="10" height="10">
   <data encoding="base64" compression="zlib">
    eJwNw0k6ggEAAND/EJrEDiFuYJZdCtUNDJl2MrtB5uzIfBMy38Rc9t77vtcWDYJ2O0zYaZfdJu2x17TjZsw64aRT5sxbcMWSq6657oabbrntjqeeWfXcCy+98tobb73z3poPPvrksy+++ua7H3765bc//lq34Z9NsSAIGTZi1JjNxm2x1T77HXDQIYcdcdSUY04746xzFp13wUWXXLbsrnvue+ChRx5b8cR/Yr43qw==
   </data>
  </layer>
- <objectgroup id="4" name="Back2"/>
  <layer id="9" name="Buildings" width="10" height="10">
   <data encoding="base64" compression="zlib">
    eJxjYIAABREGrGC7MAPDFmEI+yuQ/gbE34Ux1W0Dim2FiosCzRIDYnEgZhPEbi4ImALlzYDYHIfdMBAElA8G4hAkdZ+Adn0G4i9Y3IIMhIB6hIFYBMktrGhuYgHyjYDyxkBsQoZbYADdXHIAAG0CDwM=

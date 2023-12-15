@@ -1,43 +1,768 @@
 {
   "Changes": [
-    //NPC Dispositions
     {
       "LogName": "NPC Dispositions",
       "Action": "EditData",
-      "Target": "Data/NPCDispositions",
+      "Target": "Data/Characters",
       "Entries": {
-
         // Maia's Family
-        "AminaSBV": "child/polite/shy/positive/female/non-datable/null/Town/fall 17/{{i18n:NPC_Relationships.Amina}}/Custom_SBV_MaiaHouse 3 5/{{i18n:Name.Amina}}",
-        "JumanaSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/spring 27/{{i18n:NPC_Relationships.Jumana}}/Custom_SBV_MaiaHouse 14 6/{{i18n:Name.Jumana}}",
-        "MaiaSBV": "adult/polite/shy/neutral/female/non-datable/null/Town/fall 10/{{i18n:NPC_Relationships.Maia}}/Custom_SBV_MaiaHouse 27 5/{{i18n:Name.Maia}}",
-
+        "AminaSBV": {
+          "TextureName": "AminaSBV/AminaSBV",
+          "DisplayName": "{{i18n:Name.Amina}}",
+          "BirthSeason": "fall",
+          "BirthDay": 17,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "MaiaSBV": "",
+            "JumanaSBV": ""
+          },
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_MaiaHouse",
+              "Tile": {
+                "X": 3,
+                "Y": 5
+              },
+              "Direction": "right"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "JumanaSBV": {
+          "TextureName": "JumanaSBV/JumanaSBV",
+          "DisplayName": "{{i18n:Name.Jumana}}",
+          "BirthSeason": "spring",
+          "BirthDay": 27,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "MaiaSBV": "",
+            "AminaSBV": ""
+          },
+          "SpawnIfMissing": true,
+          "Appearance": [
+            {
+              "Id": "skellady.SBV.CPJumanaSpring",
+              "Condition": "LOCATION_SEASON Here Spring",
+              "Portrait": "Portraits/JumanaSBV/JumanaSBV_Spring",
+              "Sprite": "Characters/JumanaSBV/JumanaSBV_Spring",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPJumanaSummer",
+              "Condition": "LOCATION_SEASON Here Summer",
+              "Portrait": "Portraits/JumanaSBV/JumanaSBV_Summer",
+              "Sprite": "Characters/JumanaSBV/JumanaSBV_Summer",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPJumanaFall",
+              "Condition": "LOCATION_SEASON Here Fall",
+              "Portrait": "Portraits/JumanaSBV/JumanaSBV_Fall",
+              "Sprite": "Characters/JumanaSBV/JumanaSBV_Fall",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPJumanaWinter",
+              "Condition": "LOCATION_SEASON Here Winter",
+              "Portrait": "Portraits/JumanaSBV/JumanaSBV_Winter",
+              "Sprite": "Characters/JumanaSBV/JumanaSBV_Winter",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            }
+          ],
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_MaiaHouse",
+              "Tile": {
+                "X": 14,
+                "Y": 6
+              },
+              "Direction": "right"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "MaiaSBV": {
+          "TextureName": "MaiaSBV/MaiaSBV",
+          "DisplayName": "{{i18n:Name.Maia}}",
+          "BirthSeason": "fall",
+          "BirthDay": 10,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Neutral",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "AminaSBV": "",
+            "JumanaSBV": ""
+          },
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_MaiaHouse",
+              "Tile": {
+                "X": 27,
+                "Y": 5
+              },
+              "Direction": "left"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
         // Inn People
-        "LyenneSBV": "teen/polite/outgoing/positive/female/non-datable/null/Town/winter 10//Custom_SBV_SerenityInn2ndFloor 4 6/{{i18n:Name.Lyenne}}",
-        "OpheliaSBV": "adult/polite/shy/neutral/female/non-datable/null/Town/spring 21//Custom_SBV_OpheliaHouse 4 5/{{i18n:Name.Ophelia}}",
-
+        "LyenneSBV": {
+          "TextureName": "LyenneSBV/LyenneSBV",
+          "DisplayName": "{{i18n:Name.Lyenne}}",
+          "BirthSeason": "winter",
+          "BirthDay": 10,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_SerenityInn2ndFloor",
+              "Tile": {
+                "X": 4,
+                "Y": 6
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "OpheliaSBV": {
+          "TextureName": "OpheliaSBV/OpheliaSBV",
+          "DisplayName": "{{i18n:Name.Ophelia}}",
+          "BirthSeason": "spring",
+          "BirthDay": 21,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Neutral",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_OpheliaHouse",
+              "Tile": {
+                "X": 4,
+                "Y": 5
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
         // D&D's Family
-        "DialaSBV": "adult/polite/shy/positive/female/non-datable/null/Town/summer 26//Custom_SBV_DDHouse 2 7/{{i18n:Name.Diala}}",
-        "DeryaSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/fall 21//Custom_SBV_DDHouse 13 9/{{i18n:Name.Derya}}",
-        "MoonSBV": "child/polite/outgoing/positive/female/non-datable/null/Town/winter 13//Custom_SBV_DDHouse 9 6/{{i18n:Name.Moon}}",
-
+        "DialaSBV": {
+          "TextureName": "DialaSBV/DialaSBV",
+          "DisplayName": "{{i18n:Name.Diala}}",
+          "BirthSeason": "summer",
+          "BirthDay": 26,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Appearance": [
+            {
+              "Id": "skellady.SBV.CPDialaSpring",
+              "Condition": "LOCATION_SEASON Here Spring",
+              "Portrait": "Portraits/DialaSBV/DialaSBV_Spring",
+              "Sprite": "Characters/DialaSBV/DialaSBV_Spring",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPDialaSummer",
+              "Condition": "LOCATION_SEASON Here Summer",
+              "Portrait": "Portraits/DialaSBV/DialaSBV_Summer",
+              "Sprite": "Characters/DialaSBV/DialaSBV_Summer",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPDialaFall",
+              "Condition": "LOCATION_SEASON Here Fall",
+              "Portrait": "Portraits/DialaSBV/DialaSBV_Fall",
+              "Sprite": "Characters/DialaSBV/DialaSBV_Fall",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPDialaWinter",
+              "Condition": "LOCATION_SEASON Here Winter",
+              "Portrait": "Portraits/DialaSBV/DialaSBV_Winter",
+              "Sprite": "Characters/DialaSBV/DialaSBV_Winter",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            }
+          ],
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_DDHouse",
+              "Tile": {
+                "X": 2,
+                "Y": 7
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "DeryaSBV": {
+          "TextureName": "DeryaSBV/DeryaSBV",
+          "DisplayName": "{{i18n:Name.Derya}}",
+          "BirthSeason": "fall",
+          "BirthDay": 21,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Appearance": [
+            {
+              "Id": "skellady.SBV.CPDeryaSpring",
+              "Condition": "LOCATION_SEASON Here Spring",
+              "Portrait": "Portraits/DeryaSBV/DeryaSBV_Spring",
+              "Sprite": "Characters/DeryaSBV/DeryaSBV_Spring",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPDeryaSummer",
+              "Condition": "LOCATION_SEASON Here Summer",
+              "Portrait": "Portraits/DeryaSBV/DeryaSBV_Summer",
+              "Sprite": "Characters/DeryaSBV/DeryaSBV_Summer",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPDeryaFall",
+              "Condition": "LOCATION_SEASON Here Fall",
+              "Portrait": "Portraits/DeryaSBV/DeryaSBV_Fall",
+              "Sprite": "Characters/DeryaSBV/DeryaSBV_Fall",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPDeryaWinter",
+              "Condition": "LOCATION_SEASON Here Winter",
+              "Portrait": "Portraits/DeryaSBV/DeryaSBV_Winter",
+              "Sprite": "Characters/DeryaSBV/DeryaSBV_Winter",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            }
+          ],
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_DDHouse",
+              "Tile": {
+                "X": 13,
+                "Y": 9
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "MoonSBV": {
+          "TextureName": "MoonSBV/MoonSBV",
+          "DisplayName": "{{i18n:Name.Moon}}",
+          "BirthSeason": "winter",
+          "BirthDay": 13,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "HiddenUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_DDHouse",
+              "Tile": {
+                "X": 9,
+                "Y": 6
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
         // Elias' Family
-        "AriSBV": "adult/polite/shy/positive/male/non-datable/null/Town/winter 19/{{i18n:NPC_Relationships.Ari}}/Custom_SBV_AriMarket 18 5/{{i18n:Name.Ari}}",
-        "BlakeSBV": "teen/polite/shy/positive/male/non-datable/null/Town/summer 17/{{i18n:NPC_Relationships.Blake}}/Custom_SBV_AriMarket 3 5/{{i18n:Name.Blake}}",
-        "EliasSBV": "adult/rude/shy/negative/male/non-datable/null/Town/winter 23/{{i18n:NPC_Relationships.Elias}}/Custom_SBV_EliasHouse 3 5/{{i18n:Name.Elias}}",
-
+        "AriSBV": {
+          "TextureName": "AriSBV/AriSBV",
+          "DisplayName": "{{i18n:Name.Ari}}",
+          "BirthSeason": "winter",
+          "BirthDay": 19,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Neutral",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_AriMarket",
+              "Tile": {
+                "X": 18,
+                "Y": 5
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "BlakeSBV": {
+          "TextureName": "BlakeSBV/BlakeSBV",
+          "DisplayName": "{{i18n:Name.Blake}}",
+          "BirthSeason": "summer",
+          "BirthDay": 17,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_AriMarket",
+              "Tile": {
+                "X": 3,
+                "Y": 5
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "EliasSBV": {
+          "TextureName": "EliasSBV/EliasSBV",
+          "DisplayName": "{{i18n:Name.Elias}}",
+          "BirthSeason": "winter",
+          "BirthDay": 23,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Manner": "Rude",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Negative",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_EliasHouse",
+              "Tile": {
+                "X": 3,
+                "Y": 5
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
         // Ezra and Iman
-        "EzraSBV": "adult/polite/shy/neutral/male/non-datable/null/Town/spring 14//Custom_SBV_EzraHouse 3 5/{{i18n:Name.Ezra}}",
-        "ImanSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/spring 4//Custom_SBV_ImanHouse 5 5/{{i18n:Name.Iman}}",
-        
+        "EzraSBV": {
+          "TextureName": "EzraSBV/EzraSBV",
+          "DisplayName": "{{i18n:Name.Ezra}}",
+          "BirthSeason": "spring",
+          "BirthDay": 14,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Neutral",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_EzraHouse",
+              "Tile": {
+                "X": 3,
+                "Y": 5
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "ImanSBV": {
+          "TextureName": "ImanSBV/ImanSBV",
+          "DisplayName": "{{i18n:Name.Iman}}",
+          "BirthSeason": "spring",
+          "BirthDay": 4,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Neutral",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_ImanHouse",
+              "Tile": {
+                "X": 5,
+                "Y": 5
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
         // Demons
-        "AichaSBV": "adult/polite/outgoing/positive/female/non-datable/null/Other/winter 15//Custom_SBV_ReiHouse 9 6/{{i18n:Name.Aicha}}",
-        "ReihanaSBV": "adult/rude/outgoing/negative/female/non-datable/null/Other/winter 3//Custom_SBV_ReiHouse 4 6/{{i18n:Name.Reihana}}",
-        
-        // Miyoung and Silas
-        "MiyoungSBV": "adult/polite/outgoing/positive/female/non-datable/null/Town/summer 5/{{i18n:NPC_Relationships.Miyoung}}/Custom_SBV_MiyoungHouse 13 5/{{i18n:Name.Miyoung}}",
-        "SilasSBV": "adult/polite/outgoing/positive/male/non-datable/null/Town/summer 15/{{i18n:NPC_Relationships.Silas}}/Custom_SBV_MiyoungHouse 15 5/{{i18n:Name.Silas}}",
-      },
-    },
+        "AichaSBV": {
+          "TextureName": "AichaSBV/AichaSBV",
+          "DisplayName": "{{i18n:Name.Aicha}}",
+          "BirthSeason": "winter",
+          "BirthDay": 15,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "HiddenUntilMet",
+          "ExcludeFromIntroductionsQuest": true,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "TrailingGroup",
+          "SpawnIfMissing": true,
+          "Appearance": [
+            {
+              "Id": "skellady.SBV.CPAichaSpring",
+              "Condition": "LOCATION_SEASON Here Spring",
+              "Portrait": "Portraits/AichaSBV/AichaSBV_Spring",
+              "Sprite": "Characters/AichaSBV/AichaSBV_Spring",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPAichaSummer",
+              "Condition": "LOCATION_SEASON Here Summer",
+              "Portrait": "Portraits/AichaSBV/AichaSBV_Summer",
+              "Sprite": "Characters/AichaSBV/AichaSBV_Summer",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPAichaFall",
+              "Condition": "LOCATION_SEASON Here Fall",
+              "Portrait": "Portraits/AichaSBV/AichaSBV_Fall",
+              "Sprite": "Characters/AichaSBV/AichaSBV_Fall",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPAichaWinter",
+              "Condition": "LOCATION_SEASON Here Winter",
+              "Portrait": "Portraits/AichaSBV/AichaSBV_Winter",
+              "Sprite": "Characters/AichaSBV/AichaSBV_Winter",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPAichaBeach",
+              "Portrait": "Portraits/AichaSBV_Beach",
+              "Sprite": "Characters/AichaSBV_Beach",
+              "IsIslandAttire": true,
+              "Precedence": -100,
+              "Weight": 0
+            }
+          ],
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_ReiHouse",
+              "Tile": {
+                "X": 9,
+                "Y": 6
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "ReihanaSBV": {
+          "TextureName": "ReihanaSBV/ReihanaSBV",
+          "DisplayName": "{{i18n:Name.Reihana}}",
+          "BirthSeason": "winter",
+          "BirthDay": 3,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Manner": "Rude",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Negative",
+          "CanBeRomanced": false,
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "HiddenUntilMet",
+          "ExcludeFromIntroductionsQuest": true,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "TrailingGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_ReiHouse",
+              "Tile": {
+                "X": 4,
+                "Y": 6
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        // Silas and Miyoung
+        "MiyoungSBV": {
+          "TextureName": "MiyoungSBV/MiyoungSBV",
+          "DisplayName": "{{i18n:Name.Miyoung}}",
+          "BirthSeason": "summer",
+          "BirthDay": 5,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_MiyoungHouse",
+              "Tile": {
+                "X": 13,
+                "Y": 5
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "SilasSBV": {
+          "TextureName": "SilasSBV/SilasSBV",
+          "DisplayName": "{{i18n:Name.Silas}}",
+          "BirthSeason": "summer",
+          "BirthDay": 15,
+          "HomeRegion": "Town",
+          "Gender": "Male",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "AlwaysShown",
+          "SocialTab": "UnknownUntilMet",
+          "ExcludeFromIntroductionsQuest": false,
+          "ExcludeFromPerfectionScore": false,
+          "EndSlideShow": "MainGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_MiyoungHouse",
+              "Tile": {
+                "X": 15,
+                "Y": 5
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        }
+      }
+    }
   ]
 }

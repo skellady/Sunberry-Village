@@ -1,7 +1,7 @@
 {
   "Name": "Sunberry Village - Content Patcher",
   "Author": "skellady",
-  "Version": "0.2.4",
+  "Version": "0.2.3",
   "Description": "Adds a new area to Stardew Valley!",
   "UniqueID": "skellady.SBVCP",
   "MinimumApiVersion": "1.0.0",
@@ -10,26 +10,26 @@
   ],
   "Dependencies": [
     // required mods
-    {
+    /*{
       "UniqueID": "aedenthorn.ExtraMapLayers",
       "IsRequired": true
     },
     {
       "UniqueID": "spacechase0.JsonAssets",
       "IsRequired": true
-    },
+    },*/
     {
       "UniqueID": "PeacefulEnd.CustomCompanions",
       "IsRequired": true
     },
-    {
+    /*{
       "UniqueID": "Esca.FarmTypeManager",
       "IsRequired": true
     },
     {
       "UniqueID": "DIGUS.MailFrameworkMod",
       "IsRequired": true
-    },
+    },*/
     {
       "UniqueID": "Lumisteria.LumiTilesheetsIndoor",
       "IsRequired": true
@@ -38,12 +38,12 @@
       "UniqueID": "KediDili.Tilesheets.CP",
       "IsRequired": true
     },
-    {
+    /*{
       "UniqueID": "Esca.EMP",
       "IsRequired": true
-    },
+    },*/
     // components
-    {
+    /*{
       "UniqueID": "skellady.SBVCC",
       "IsRequired": true
     },
@@ -66,7 +66,7 @@
     {
       "UniqueID": "SunberryTeam.SBVSMAPI",
       "IsRequired": true
-    }
+    }*/
   ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"

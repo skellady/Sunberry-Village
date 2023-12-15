@@ -1,0 +1,290 @@
+{
+  "Changes": [
+    // Load Outdoor Maps
+    {
+      "LogName": "Load Village Map",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "FromFile": "Assets/Maps/ExteriorMaps/SunberryVillage.tmx"
+    },
+    {
+      "LogName": "Load Forest Map",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SunberryForest",
+      "FromFile": "Assets/Maps/ExteriorMaps/SunberryForest.tmx"
+    },
+    {
+      "LogName": "Load Mountain Map",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SunberryMountain",
+      "FromFile": "Assets/Maps/ExteriorMaps/SunberryMountain.tmx"
+    },
+    {
+      "LogName": "Load Road Map",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SunberryRoad",
+      "FromFile": "Assets/Maps/ExteriorMaps/SunberryRoad.tmx"
+    },
+    // Load Interior Maps
+    {
+      "LogName": "Load Ari Market",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_AriMarket",
+      "FromFile": "Assets/Maps/InteriorMaps/AriMarket.tmx"
+    },
+    {
+      "LogName": "Load Chris Diner",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_ChrisDiner",
+      "FromFile": "Assets/Maps/InteriorMaps/ChrisDiner.tmx"
+    },
+    {
+      "LogName": "Load Chris Diner Broken",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_ChrisDinerBroken",
+      "FromFile": "Assets/Maps/InteriorMaps/ChrisDinerBroken.tmx"
+    },
+    {
+      "LogName": "Load Chris Diner Rainbow",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_ChrisDinerRainbow",
+      "FromFile": "Assets/Maps/InteriorMaps/ChrisDinerRainbow.tmx"
+    },
+    {
+      "LogName": "Load Crystal Cave",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_CrystalCave",
+      "FromFile": "Assets/Maps/InteriorMaps/CrystalCave.tmx"
+    },
+    {
+      "LogName": "Load D&D Cafe",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_DialaCafe",
+      "FromFile": "Assets/Maps/InteriorMaps/DialaCafe.tmx"
+    },
+    {
+      "LogName": "Load D&D House",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_DDHouse",
+      "FromFile": "Assets/Maps/InteriorMaps/DDHouse.tmx"
+    },
+    {
+      "LogName": "Load Elias House",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_EliasHouse",
+      "FromFile": "Assets/Maps/InteriorMaps/EliasHouse.tmx"
+    },
+    {
+      "LogName": "Load Elias House Old",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_EliasHouseOld",
+      "FromFile": "Assets/Maps/InteriorMaps/EliasHouseOld.tmx"
+    },
+    {
+      "LogName": "Load Elias House New",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_EliasHouseNew",
+      "FromFile": "Assets/Maps/InteriorMaps/EliasHouseNew.tmx"
+    },
+    {
+      "LogName": "Load Ezra House",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_EzraHouse",
+      "FromFile": "Assets/Maps/InteriorMaps/EzraHouse.tmx"
+    },
+    {
+      "LogName": "Load Ezra Clothes",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_EzraClothes",
+      "FromFile": "Assets/Maps/InteriorMaps/EzraClothes.tmx"
+    },
+    {
+      "LogName": "Load Iman House",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_ImanHouse",
+      "FromFile": "Assets/Maps/InteriorMaps/ImanHouse.tmx"
+    },
+    {
+      "LogName": "Load Maia House",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_MaiaHouse",
+      "FromFile": "Assets/Maps/InteriorMaps/MaiaHouse.tmx"
+    },
+    {
+      "LogName": "Load Miyoung House",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_MiyoungHouse",
+      "FromFile": "Assets/Maps/InteriorMaps/MiyoungHouse.tmx"
+    },
+    {
+      "LogName": "Load Ophelia House",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_OpheliaHouse",
+      "FromFile": "Assets/Maps/InteriorMaps/OpheliaHouse.tmx"
+    },
+    {
+      "LogName": "Load Rei House",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_ReiHouse",
+      "FromFile": "Assets/Maps/InteriorMaps/ReiHouse.tmx"
+    },
+    {
+      "LogName": "Load Serenity Inn",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SerenityInn",
+      "FromFile": "Assets/Maps/InteriorMaps/SerenityInn.tmx"
+    },
+    {
+      "LogName": "Load Serenity Inn 2nd Floor",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SerenityInn2ndFloor",
+      "FromFile": "Assets/Maps/InteriorMaps/SerenityInn2ndFloor.tmx"
+    },
+    {
+      "LogName": "Load Serenity Inn 3rd Floor",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SerenityInn3rdFloor",
+      "FromFile": "Assets/Maps/InteriorMaps/SerenityInn3rdFloor.tmx"
+    },
+    {
+      "LogName": "Load Silas Blacksmith",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SilasBlacksmith",
+      "FromFile": "Assets/Maps/InteriorMaps/SilasBlacksmith.tmx"
+    },
+    {
+      "LogName": "Load Sunberry Library",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SunberryLibrary",
+      "FromFile": "Assets/Maps/InteriorMaps/SunberryLibrary.tmx"
+    },
+    {
+      "LogName": "Load Sunberry Museum",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SunberryMuseum",
+      "FromFile": "Assets/Maps/InteriorMaps/SunberryMuseum.tmx"
+    },
+    {
+      "LogName": "Load Sunberry Warp Room",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SunberryWarpRoom",
+      "FromFile": "Assets/Maps/InteriorMaps/SunberryWarpRoom.tmx"
+    },
+    // Load Event Maps
+    {
+      "LogName": "Load Moon Woods",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_MoonWoods",
+      "FromFile": "Assets/Maps/EventMaps/MoonWoods.tmx"
+    },
+    // Load Mine Maps
+    {
+      "LogName": "Load Mines 1",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines1",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_1.tmx"
+    },
+    {
+      "LogName": "Load Mines 2",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines2",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_2.tmx"
+    },
+    {
+      "LogName": "Load Mines 3",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines3",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_3.tmx"
+    },
+    {
+      "LogName": "Load Mines 4",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines4",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_4.tmx"
+    },
+    {
+      "LogName": "Load Mines 5A",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines5A",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_5A.tmx"
+    },
+    {
+      "LogName": "Load Mines 5B",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines5B",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_5B.tmx"
+    },
+    {
+      "LogName": "Load Mines 6",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines6",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_6.tmx"
+    },
+    {
+      "LogName": "Load Mines 7",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines7",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_7.tmx"
+    },
+    {
+      "LogName": "Load Mines 8",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines8",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_8.tmx"
+    },
+    {
+      "LogName": "Load Mines 9",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines9",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_9.tmx"
+    },
+    {
+      "LogName": "Load Mines 10A",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines10A",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_10A.tmx"
+    },
+    {
+      "LogName": "Load Mines 10B",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines10B",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_10B.tmx"
+    },
+    {
+      "LogName": "Load Mines 11",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines11",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_11.tmx"
+    },
+    {
+      "LogName": "Load Mines 12",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines12",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_12.tmx"
+    },
+    {
+      "LogName": "Load Mines 13",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines13",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_13.tmx"
+    },
+    {
+      "LogName": "Load Mines 14",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines14",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_14.tmx"
+    },
+    {
+      "LogName": "Load Mines 15",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_Mines15",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_15.tmx"
+    },
+    {
+      "LogName": "Load Mines Final",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_MinesFinal",
+      "FromFile": "Assets/Maps/Mines/SBV_Mines_Final.tmx"
+    },
+  ]
+}

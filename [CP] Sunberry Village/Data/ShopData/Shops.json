@@ -1,0 +1,74 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Portraits",
+            "Action": "Load",
+            "Target": "Portraits/AriMarket, Portraits/DNDCafe, Portraits/EzraClothes, Portraits/JumanaShop, Portraits/MaiaWeapons, Portraits/SilasBlacksmith",
+            "FromFile": "Assets/ShopIcons/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Add Shops",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "skellady.SBVCP_AriMarket": {
+                    "ID": "skellady.SBVCP_AriMarket",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Portraits/AriMarket",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "Welcome! Feel free to look around."
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            "Id": "FFFShopEmily.Pants",
+                            "ItemId": "RANDOM_ITEMS (P) @count 3",
+                            "Price": 1000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                        },
+                        {
+                            "Id": "FFFShopEmily.Shirts",
+                            "ItemId": "RANDOM_ITEMS (S) @count 9",
+                            "Price": 1000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                        }
+                    ]
+                },
+                "DecoWisteria": {
+                    "ID": "DecoWisteria",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Portraits/FFFShopWisteria",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "You look like you have good taste, nyes?"
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            "Id": "FFFDecoWisteria.Furniture",
+                            "ItemId": "RANDOM_ITEMS (F) @has_id_prefix UNA.FF.CP_WisteriaDeco @count 11",
+                            "AvailableStockLimit": "Player"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

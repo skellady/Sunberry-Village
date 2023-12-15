@@ -393,10 +393,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="12" name="AlwaysFront2" width="30" height="25">
-  <properties>
-   <property name="Draw" value="AlwaysFront"/>
-  </properties>
+ <layer id="12" name="AlwaysFront+1" width="30" height="25">
   <data encoding="csv">
 483,484,485,486,487,488,489,490,491,492,493,494,495,496,497,498,499,500,501,502,503,504,505,506,507,508,509,510,511,512,
 513,514,515,516,517,518,519,520,521,522,523,524,525,526,527,528,529,530,531,532,533,534,535,536,537,538,539,540,541,542,
@@ -430,5 +427,4 @@
  <objectgroup id="11" name="Paths"/>
  <objectgroup id="6" name="Front"/>
  <objectgroup id="9" name="AlwaysFront"/>
- <objectgroup id="13" name="AlwaysFront2"/>
 </map>

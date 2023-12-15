@@ -563,7 +563,7 @@
         }
       ],
       "When": {
-        "HasSeenEvent: anyPlayer |contains=20031427": true
+        "HasSeenEvent: anyPlayer |contains=skellady.SBV_20031427": true
       },
     },
     {
@@ -582,7 +582,7 @@
         }
       ],
       "When": {
-        "HasSeenEvent: anyPlayer |contains=20031427": true
+        "HasSeenEvent: anyPlayer |contains=skellady.SBV_20031427": true
       },
     },
     {
@@ -1299,7 +1299,7 @@
         }
       ],
       "When": {
-        "HasSeenEvent: anyPlayer |contains=20031446": true
+        "HasSeenEvent: anyPlayer |contains=skellady.SBV_20031446": true
       }
     },
     {
@@ -1319,7 +1319,7 @@
         }
       ],
       "When": {
-        "HasSeenEvent: anyPlayer |contains=20031446": true
+        "HasSeenEvent: anyPlayer |contains=skellady.SBV_20031446": true
       }
     },
   ]

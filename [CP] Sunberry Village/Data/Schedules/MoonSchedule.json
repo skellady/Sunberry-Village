@@ -8,7 +8,7 @@
 				"spring": "2400 Custom_SBV_DDHouse 9 6 0",
 			},
 			"When": {
-				"HasSeenEvent: anyPlayer |contains=20031402": false
+				"HasSeenEvent: anyPlayer |contains=skellady.SBV_20031402": false
 			},
 		},
 		// After Intro Event
@@ -32,7 +32,7 @@
 				"rain": "610 Custom_SBV_DialaCafe 29 9 0/1200 Custom_SBV_DialaCafe 33 15 2/2100 Custom_SBV_DDHouse 15 21 2"
 			},
 			"When": {
-				"HasSeenEvent: anyPlayer |contains=20031402": true
+				"HasSeenEvent: anyPlayer |contains=skellady.SBV_20031402": true
 			},
 		},
 		// After Finding Out About Moon
@@ -56,7 +56,7 @@
 				"rain": "610 Custom_SBV_DialaCafe 29 9 0/1200 Custom_SBV_DialaCafe 33 15 2/2100 Custom_SBV_DDHouse 15 21 2"
 			},
 			"When": {
-				"HasSeenEvent: anyPlayer |contains=20031412": true
+				"HasSeenEvent: anyPlayer |contains=skellady.SBV_20031412": true
 			},
 		},
 	]

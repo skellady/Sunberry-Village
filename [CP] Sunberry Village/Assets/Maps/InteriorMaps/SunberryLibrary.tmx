@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="39" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="39" height="15" tilewidth="16" tileheight="16" infinite="0" nextlayerid="15" nextobjectid="12">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="DayTiles" value="Front 3 6 225 Front 7 6 225 Front 12 7 225 Front 14 7 225 Front 19 2 225 Front 20 2 225 Front 25 7 225 Front 27 7 225 Front 32 6 225 Front 36 6 225 Front 3 7 257 Front 7 7 257 Front 12 8 257 Front 14 8 257 Front 19 3 257 Front 20 3 257 Front 25 8 257 Front 27 8 257 Front 32 7 257 Front 36 7 257"/>
@@ -37,7 +37,7 @@
 </data>
  </layer>
  <objectgroup id="2" name="Back"/>
- <layer id="13" name="Back2" width="39" height="15">
+ <layer id="13" name="Back+1" width="39" height="15">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -56,7 +56,6 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="14" name="Back2"/>
  <layer id="3" name="Buildings" width="39" height="15">
   <data encoding="csv">
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,16,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -76,7 +75,58 @@
 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 </data>
  </layer>
- <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="288" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.library1&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="304" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.library2&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="320" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.library3&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="336" y="96" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.library4&quot;"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="256" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.library5&quot;"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="272" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.library6&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="304" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.library7&quot;"/>
+   </properties>
+  </object>
+  <object id="9" name="TileData" x="320" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.library8&quot;"/>
+   </properties>
+  </object>
+  <object id="10" name="TileData" x="352" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.library9&quot;"/>
+   </properties>
+  </object>
+  <object id="11" name="TileData" x="368" y="144" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;sbv.library10&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="5" name="Paths" width="39" height="15">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

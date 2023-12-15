@@ -121,7 +121,7 @@
 </data>
  </layer>
  <objectgroup id="8" name="Front"/>
- <layer id="11" name="Front2" width="28" height="20">
+ <layer id="11" name="Front+1" width="28" height="20">
   <properties>
    <property name="Draw" value="Front"/>
   </properties>
@@ -148,7 +148,6 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="12" name="Front2"/>
  <layer id="9" name="AlwaysFront" width="28" height="20">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

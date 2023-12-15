@@ -325,10 +325,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <layer id="7" name="Back2" width="55" height="50">
-  <properties>
-   <property name="Draw" value="Back"/>
-  </properties>
+ <layer id="7" name="Back+1" width="55" height="50">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -599,7 +596,6 @@
 </data>
  </layer>
  <objectgroup id="4" name="Back"/>
- <objectgroup id="8" name="Back2"/>
  <objectgroup id="5" name="Buildings"/>
  <objectgroup id="13" name="Paths"/>
  <objectgroup id="6" name="Front"/>

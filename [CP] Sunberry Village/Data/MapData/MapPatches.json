@@ -112,7 +112,7 @@
         "Height": 2
       },
       "When": {
-        "HasSeenEvent: anyPlayer |contains=20031411": true,
+        "HasSeenEvent: anyPlayer |contains=skellady.SBV_20031411": true,
       }
     },
     // SBV Board
@@ -134,7 +134,7 @@
         "Height": 2
       },
       "When": {
-        "HasSeenEvent": 20031434
+        "HasSeenEvent": "skellady.SBV_20031434"
       }
     },
     // Jonghyuk Cave
