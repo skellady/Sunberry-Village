@@ -81,10 +81,10 @@
                     "Name": "Eel-tailed Catfish",
                     "DisplayName": "{{i18n:SBV.EeltailedCatfish.Name}}",
                     "Description": "{{i18n:SBV.EeltailedCatfish.Description}}",
-                    "Edibility": "10",
+                    "Edibility": "30",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 100,
+                    "Price": 200,
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 5
                 },

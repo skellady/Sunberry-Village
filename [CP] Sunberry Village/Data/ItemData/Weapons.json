@@ -1,0 +1,168 @@
+{
+    "Changes": [
+        // Load Weapons
+        {
+            "LogName": "Load Weapons",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/Weapons",
+            "FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
+        },
+        // Add Weapons
+        {
+            "LogName": "Add Weapons",
+            "Action": "EditData",
+            "Target": "Data/Weapons",
+            "Entries": {
+                "skellady.SBVCP_BalefulBlade": {
+                    "Name": "skellady.SBVCP_BalefulBlade",
+                    "DisplayName": "{{i18n:SBV.BalefulBlade.Name}}",
+                    "Description": "{{i18n:SBV.BalefulBlade.Description}}",
+                    "MinDamage": 50,
+                    "MaxDamage": 100,
+                    "Knockback": 1,
+                    "Speed": 3,
+                    "Precision": 100,
+					"Defense": 10,
+					"Type": 1,
+					"MineBaseLevel": -1,
+					"MineMinLevel": -1,
+					"AreaOfEffect": 1,
+					"CritChance": 0.30,
+					"CritMultiplier": 2,
+					"CanBeLostOnDeath": false,
+					"Texture": "Mods\\skellady.SBVCP\\Weapons",
+					"SpriteIndex": 0,
+                    "CustomFields": {}
+                },
+                "skellady.SBVCP_DawneBattleAxe": {
+                    "Name": "skellady.SBVCP_DawneBattleAxe",
+                    "DisplayName": "{{i18n:SBV.DawneBattleAxe.Name}}",
+                    "Description": "{{i18n:SBV.DawneBattleAxe.Description}}",
+                    "MinDamage": 100,
+                    "MaxDamage": 140,
+                    "Knockback": 2,
+                    "Speed": 3,
+                    "Precision": 80,
+					"Defense": 5,
+					"Type": 2,
+					"MineBaseLevel": -1,
+					"MineMinLevel": -1,
+					"AreaOfEffect": 2,
+					"CritChance": 0.20,
+					"CritMultiplier": 2,
+					"CanBeLostOnDeath": false,
+					"Texture": "Mods\\skellady.SBVCP\\Weapons",
+					"SpriteIndex": 1,
+                    "CustomFields": {}
+                },
+                "skellady.SBVCP_Dragonfang": {
+                    "Name": "skellady.SBVCP_Dragonfang",
+                    "DisplayName": "{{i18n:SBV.Dragonfang.Name}}",
+                    "Description": "{{i18n:SBV.Dragonfang.Description}}",
+                    "MinDamage": 90,
+                    "MaxDamage": 120,
+                    "Knockback": 1,
+                    "Speed": 4,
+                    "Precision": 90,
+					"Defense": 5,
+					"Type": 3,
+					"MineBaseLevel": -1,
+					"MineMinLevel": -1,
+					"AreaOfEffect": 2,
+					"CritChance": 0.20,
+					"CritMultiplier": 1,
+					"CanBeLostOnDeath": false,
+					"Texture": "Mods\\skellady.SBVCP\\Weapons",
+					"SpriteIndex": 2,
+                    "CustomFields": {}
+                },
+                "skellady.SBVCP_FlowerPower": {
+                    "Name": "skellady.SBVCP_FlowerPower",
+                    "DisplayName": "{{i18n:SBV.FlowerPower.Name}}",
+                    "Description": "{{i18n:SBV.FlowerPower.Description}}",
+                    "MinDamage": 50,
+                    "MaxDamage": 80,
+                    "Knockback": 1,
+                    "Speed": 2,
+                    "Precision": 80,
+					"Defense": 3,
+					"Type": 0,
+					"MineBaseLevel": -1,
+					"MineMinLevel": -1,
+					"AreaOfEffect": 2,
+					"CritChance": 0.10,
+					"CritMultiplier": 2,
+					"CanBeLostOnDeath": false,
+					"Texture": "Mods\\skellady.SBVCP\\Weapons",
+					"SpriteIndex": 3,
+                    "Projectiles": [
+                        {
+                            "Id": "skellady.SBVCP_FlowerProjectiles",
+                            "Damage": 15,
+                            "Bounces": 2,
+                            "MaxDistance": 8,
+                            "Velocity": 9,
+                            "FireSound": "dwop",
+                            "BounceSound": "dwop",
+                            "CollisionSound": "dwop",
+                            "Item": {
+                                "ID": "skellady.SBVCP_FlowerPowerFlowers",
+                                "RandomItemId": [
+                                    "(O)591",
+                                    "(O)593",
+                                    "(O)595",
+                                    "(O)597",
+                                    "(O)376",
+                                    "(O)421"
+                                ]
+                            }
+                        }
+                    ],
+                    "CustomFields": {}
+                },
+                "skellady.SBVCP_Sunslash": {
+                    "Name": "skellady.SBVCP_Sunslash",
+                    "DisplayName": "{{i18n:SBV.Sunslash.Name}}",
+                    "Description": "{{i18n:SBV.Sunslash.Description}}",
+                    "MinDamage": 140,
+                    "MaxDamage": 200,
+                    "Knockback": 2,
+                    "Speed": 3,
+                    "Precision": 80,
+					"Defense": 5,
+					"Type": 3,
+					"MineBaseLevel": -1,
+					"MineMinLevel": -1,
+					"AreaOfEffect": 2,
+					"CritChance": 0.50,
+					"CritMultiplier": 2,
+					"CanBeLostOnDeath": false,
+					"Texture": "Mods\\skellady.SBVCP\\Weapons",
+					"SpriteIndex": 4,
+                    "CustomFields": {}
+                },
+                "skellady.SBVCP_TheirinSword": {
+                    "Name": "skellady.SBVCP_TheirinSword",
+                    "DisplayName": "{{i18n:SBV.TheirinSword.Name}}",
+                    "Description": "{{i18n:SBV.TheirinSword.Description}}",
+                    "MinDamage": 80,
+                    "MaxDamage": 110,
+                    "Knockback": 2,
+                    "Speed": 2,
+                    "Precision": 80,
+					"Defense": 5,
+					"Type": 3,
+					"MineBaseLevel": -1,
+					"MineMinLevel": -1,
+					"AreaOfEffect": 2,
+					"CritChance": 0.30,
+					"CritMultiplier": 1,
+					"CanBeLostOnDeath": false,
+					"Texture": "Mods\\skellady.SBVCP\\Weapons",
+					"SpriteIndex": 5,
+                    "CustomFields": {}
+                },
+            }
+        }
+    ]
+}

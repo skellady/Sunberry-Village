@@ -659,7 +659,7 @@
     {
       "LogName": "Include Item Data",
       "Action": "Include",
-      "FromFile": "Data/ItemData/Crops.json, Data/ItemData/Objects.json"
+      "FromFile": "Data/ItemData/Crops.json, Data/ItemData/Objects.json, Data/ItemData/Fish.json, Data/ItemData/Weapons.json"
     },
     // Dialogue + Schedule Includes
     {
