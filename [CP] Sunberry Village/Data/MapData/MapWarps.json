@@ -60,6 +60,8 @@
         "21 0 Town 87 109",
         "22 0 Town 87 109",
         "23 0 Town 87 109",
+        "-1 19 Custom_SBV_SunberryForest 84 37",
+        "-1 20 Custom_SBV_SunberryForest 84 37"
       ],
       "When": {
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
@@ -78,6 +80,8 @@
         "21 0 Town 87 114",
         "22 0 Town 87 114",
         "23 0 Town 87 114",
+        "-1 19 Custom_SBV_SunberryForest 84 37",
+        "-1 20 Custom_SBV_SunberryForest 84 37"
       ],
       "When": {
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
@@ -120,6 +124,9 @@
         "70 -1 Custom_SBV_SunberryVillage 38 76",
         "71 -1 Custom_SBV_SunberryVillage 37 76",
         "72 -1 Custom_SBV_SunberryVillage 38 76",
+        "85 36 Custom_SBV_SunberryRoad 1 19",
+        "85 37 Custom_SBV_SunberryRoad 1 19",
+        "85 38 Custom_SBV_SunberryRoad 1 20"
       ]
     },
     // Interior Maps
