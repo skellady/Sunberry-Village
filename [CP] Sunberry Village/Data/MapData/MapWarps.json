@@ -60,8 +60,8 @@
         "21 0 Town 87 109",
         "22 0 Town 87 109",
         "23 0 Town 87 109",
-        "-1 19 Custom_SBV_SunberryForest 84 37",
-        "-1 20 Custom_SBV_SunberryForest 84 37"
+        "-1 19 Custom_SBV_ForestShortcut 63 15",
+        "-1 20 Custom_SBV_ForestShortcut 63 16"
       ],
       "When": {
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
@@ -80,8 +80,8 @@
         "21 0 Town 87 114",
         "22 0 Town 87 114",
         "23 0 Town 87 114",
-        "-1 19 Custom_SBV_SunberryForest 84 37",
-        "-1 20 Custom_SBV_SunberryForest 84 37"
+        "-1 19 Custom_SBV_ForestShortcut 63 15",
+        "-1 20 Custom_SBV_ForestShortcut 63 16"
       ],
       "When": {
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
@@ -124,9 +124,20 @@
         "70 -1 Custom_SBV_SunberryVillage 38 76",
         "71 -1 Custom_SBV_SunberryVillage 37 76",
         "72 -1 Custom_SBV_SunberryVillage 38 76",
-        "85 36 Custom_SBV_SunberryRoad 1 19",
-        "85 37 Custom_SBV_SunberryRoad 1 19",
-        "85 38 Custom_SBV_SunberryRoad 1 20"
+        "85 36 Custom_SBV_ForestShortcut 4 16",
+        "85 37 Custom_SBV_ForestShortcut 4 16",
+        "85 38 Custom_SBV_ForestShortcut 4 17"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_ForestShortcut",
+      "AddWarps": [
+        "64 15 Custom_SBV_SunberryRoad 1 19",
+        "64 16 Custom_SBV_SunberryRoad 1 20",
+        "3 16 Custom_SBV_SunberryForest 84 36",
+        "3 17 Custom_SBV_SunberryForest 84 36",
+        "3 17 Custom_SBV_SunberryForest 84 37",
       ]
     },
     // Interior Maps

@@ -25,6 +25,12 @@
       "Target": "Maps/Custom_SBV_SunberryRoad",
       "FromFile": "Assets/Maps/ExteriorMaps/SunberryRoad.tmx"
     },
+    {
+      "LogName": "Load Forest Shortcut Map",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_ForestShortcut",
+      "FromFile": "Assets/Maps/ExteriorMaps/ForestShortcut.tmx"
+    },
     // Load Interior Maps
     {
       "LogName": "Load Ari Market",
