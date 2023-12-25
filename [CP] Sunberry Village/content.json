@@ -661,6 +661,12 @@
       "Action": "Include",
       "FromFile": "Data/ItemData/Crops.json, Data/ItemData/Objects.json, Data/ItemData/Fish.json, Data/ItemData/Weapons.json"
     },
+    // Shop Data Includes
+    {
+      "LogName": "Include Shop Data",
+      "Action": "Include",
+      "FromFile": "Data/ShopData/Shops.json"
+    },
     // Dialogue + Schedule Includes
     {
       "LogName": "Includes Dialogue and Schedule",

@@ -697,7 +697,7 @@
                     "SpriteIndex": 10
                 },
                 "skellady.SBVCP_CarobSapling": {
-                    "Name": "CarobSapling",
+                    "Name": "Carob Sapling",
                     "DisplayName": "{{i18n:SBV.CarobSapling.Name}}",
                     "Description": "{{i18n:SBV.CarobSapling.Description}}",
                     "Edibility": "-300",

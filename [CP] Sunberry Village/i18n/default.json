@@ -4327,6 +4327,39 @@
   "SBV.TheirinSword.Name": "Theirin's Sword",
   "SBV.TheirinSword.Description": "A similar sword once belonged to a charming yet dopey warrior. It's said that he was able to simultaneously steal hearts and help save the world.",
 
+  //Shop Dialogue
+  //-------------
+
+  //Ari
+  "AriMarket.Dialogue.1": "Welcome! Feel free to look around.",
+  "AriMarket.Dialogue.2": "Welcome! Shop at Ari's, not Pierre's!",
+  "AriMarket.Dialogue.3": "New shipment just arrived, take a look!",
+  "AriMarket.Closed": "Closed.",
+
+  //D&D
+  "DNDCafe.Dialogue.1": "Welcome to D&D's Cat Cafe!",
+  "DNDCafe.Dialogue.2": "Sweet treats? Cats? Both?",
+  "DNDCafe.Dialogue.3": "Freshly baked goods! Take a look!",
+  "DNDCafe.Closed": "Closed for the day!",
+
+  //Ezra
+  "EzraClothes.Dialogue.1": "Let's make sure you look chic!",
+  "EzraClothes.Dialogue.2": "Oh, honey... How about a change in wardrobe?",
+  "EzraClothes.Dialogue.3": "The only place in the valley for trendy clothes! Take a look!",
+  "EzraClothes.Closed": "Closed for the day!",
+
+  //Jumana
+  "JumanaShop.Dialogue.1": "How can I help you, dear?",
+  "JumanaShop.Dialogue.2": "You won't find some of these seeds anywhere else!",
+  "JumanaShop.Dialogue.3": "These flowers are freshly harvested from my garden!",
+  "JumanaShop.Closed": "Closed for the day!",
+
+  //Maia
+  "MaiaWeapons.Dialogue.1": "Anything to protect the valley. Let me know what you need.",
+  "MaiaWeapons.Dialogue.2": "Can't find what you want? Look at Marlon's stock instead.",
+  "MaiaWeapons.Dialogue.3": "Let me know if anything captures your interest.",
+  "MaiaWeapons.Closed": "Closed. Come back later.",
+  
   //Conversation Topics
   //-------------------
 

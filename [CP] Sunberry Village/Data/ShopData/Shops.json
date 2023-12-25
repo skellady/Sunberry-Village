@@ -19,55 +19,771 @@
                             "Portrait": "Portraits/AriMarket",
                             "Dialogues": [
                                 {
-                                    "Dialogue": "Welcome! Feel free to look around."
+                                    "Dialogue": "{{i18n:AriMarket.Open.{{Random: 1, 2, 3}}}}"
                                 }
                             ],
-                            "Name": "AnyOrNone",
-                            "Id": "AnyOrNone"
+                            "ClosedMessage": "{{i18n:AriMarket.Closed}}",
+                            "Name": "AriSBV",
+                            "Id": "AriSBV"
                         }
                     ],
                     "PriceModifiers": null,
                     "Items": [
+                        // Spring Seeds
                         {
-                            "Id": "FFFShopEmily.Pants",
-                            "ItemId": "RANDOM_ITEMS (P) @count 3",
-                            "Price": 1000,
-                            "AvailableStock": 1,
-                            "AvailableStockLimit": "Player",
+                            "Id": "skellady.SBVCP_AriShop.BeanStarter",
+                            "ItemId": "(O)473",
+                            "Condition": "SEASON spring",
+                            "Price": 55
                         },
                         {
-                            "Id": "FFFShopEmily.Shirts",
-                            "ItemId": "RANDOM_ITEMS (S) @count 9",
-                            "Price": 1000,
-                            "AvailableStock": 1,
-                            "AvailableStockLimit": "Player",
+                            "Id": "skellady.SBVCP_AriShop.ParsnipSeeds",
+                            "ItemId": "(O)472",
+                            "Condition": "SEASON spring",
+                            "Price": 15
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.KaleSeeds",
+                            "ItemId": "(O)477",
+                            "Condition": "SEASON spring",
+                            "Price": 65
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.PotatoSeeds",
+                            "ItemId": "(O)475",
+                            "Condition": "SEASON spring",
+                            "Price": 45
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.CauliflowerSeeds",
+                            "ItemId": "(O)474",
+                            "Condition": "SEASON spring",
+                            "Price": 75
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.GarlicSeeds",
+                            "ItemId": "(O)476",
+                            "Condition": "SEASON spring, YEAR 2",
+                            "Price": 35
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.SpringSeeds",
+                            "ItemId": "(O)495",
+                            "Condition": "SEASON spring",
+                            "Price": 50,
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
+                        },
+                        // Summer Seeds
+                        {
+                            "Id": "skellady.SBVCP_AriShop.SunberrySeeds",
+                            "ItemId": "skellady.SBVCP_SunberrySeeds",
+                            "Condition": "SEASON summer",
+                            "Price": 110
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.BlueberrySeeds",
+                            "ItemId": "(O)481",
+                            "Condition": "SEASON summer",
+                            "Price": 75
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.CornSeeds",
+                            "ItemId": "(O)487",
+                            "Condition": "SEASON summer",
+                            "Price": 140
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.MelonSeeds",
+                            "ItemId": "(O)479",
+                            "Condition": "SEASON summer",
+                            "Price": 75
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.PepperSeeds",
+                            "ItemId": "(O)482",
+                            "Condition": "SEASON summer",
+                            "Price": 35
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.RedCabbageSeeds",
+                            "ItemId": "(O)485",
+                            "Condition": "SEASON summer, YEAR 2",
+                            "Price": 95
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.HopsStarter",
+                            "ItemId": "(O)302",
+                            "Condition": "SEASON summer",
+                            "Price": 55
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.SummerSeeds",
+                            "ItemId": "(O)496",
+                            "Condition": "SEASON summer",
+                            "Price": 50,
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
+                        },
+                        // Fall Seeds
+                        {
+                            "Id": "skellady.SBVCP_AriShop.AmaranthSeeds",
+                            "ItemId": "(O)299",
+                            "Condition": "SEASON fall",
+                            "Price": 65
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.ArtichokeSeeds",
+                            "ItemId": "(O)489",
+                            "Condition": "SEASON fall, YEAR 2",
+                            "Price": 25
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.BeetSeeds",
+                            "ItemId": "(O)494",
+                            "Condition": "SEASON fall",
+                            "Price": 40
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.CornSeedsFall",
+                            "ItemId": "(O)487",
+                            "Condition": "SEASON fall",
+                            "Price": 140
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.PumpkinSeeds",
+                            "ItemId": "(O)490",
+                            "Condition": "SEASON fall",
+                            "Price": 95
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.CranberrySeeds",
+                            "ItemId": "(O)493",
+                            "Condition": "SEASON fall",
+                            "Price": 230
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.EggplantSeeds",
+                            "ItemId": "(O)488",
+                            "Condition": "SEASON fall",
+                            "Price": 15
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.YamSeeds",
+                            "ItemId": "(O)492",
+                            "Condition": "SEASON fall",
+                            "Price": 55
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.BokChoySeeds",
+                            "ItemId": "(O)491",
+                            "Condition": "SEASON fall",
+                            "Price": 55
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.GrapeStarter",
+                            "ItemId": "(O)301",
+                            "Condition": "SEASON fall",
+                            "Price": 55
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.FallSeeds",
+                            "ItemId": "(O)497",
+                            "Condition": "SEASON fall",
+                            "Price": 50,
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
+                        },
+                        // Winter Seeds
+                        {
+                            "Id": "skellady.SBVCP_AriShop.WinterSeeds",
+                            "ItemId": "(O)498",
+                            "Condition": "SEASON winter",
+                            "Price": 50,
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
+                        },
+                        // Fruit Trees
+                        {
+                            "Id": "skellady.SBVCP_AriShop.CarobSapling",
+                            "ItemId": "skellady.SBVCP_CarobSapling",
+                            "Condition": "SEASON fall",
+                            "Price": 55
+                        },
+                        // Fertilizers
+                        {
+                            "Id": "skellady.SBVCP_AriShop.BasicFertilizer",
+                            "ItemId": "(O)368",
+                            "Price": 80,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.QualityFertilizer",
+                            "ItemId": "(O)369",
+                            "Price": 130,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.BasicRetainingSoil",
+                            "ItemId": "(O)370",
+                            "Price": 80,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.QualityRetainingSoil",
+                            "ItemId": "(O)371",
+                            "Price": 130,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.SpeedGro",
+                            "ItemId": "(O)465",
+                            "Price": 80,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.DeluxeSpeedGro",
+                            "ItemId": "(O)466",
+                            "Price": 130,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.TreeFertilizer",
+                            "ItemId": "(O)805",
+                            "Price": 150,
+                        },
+                        // Others
+                        {
+                            "Id": "skellady.SBVCP_AriShop.Fiber",
+                            "ItemId": "(O)771",
+                            "Price": 50,
+                            "AvailableStock": 20,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.Sugar",
+                            "ItemId": "(O)245",
+                            "Price": 90
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.Flour",
+                            "ItemId": "(O)246",
+                            "Price": 90
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.Rice",
+                            "ItemId": "(O)423",
+                            "Price": 190
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.Vinegar",
+                            "ItemId": "(O)419",
+                            "Price": 190
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriShop.Oil",
+                            "ItemId": "(O)247",
+                            "Price": 190
                         }
                     ]
                 },
-                "DecoWisteria": {
-                    "ID": "DecoWisteria",
+                "skellady.SBVCP_DNDCafe": {
+                    "ID": "skellady.SBVCP_DNDCafe",
                     "Owners": [
                         {
                             "Condition": null,
-                            "Portrait": "Portraits/FFFShopWisteria",
+                            "Portrait": "Portraits/DNDCafe",
                             "Dialogues": [
                                 {
-                                    "Dialogue": "You look like you have good taste, nyes?"
+                                    "Dialogue": "{{i18n:DNDCafe.Dialogue.{{Random: 1, 2, 3}}}}"
                                 }
                             ],
+                            "ClosedMessage": "{{i18n:DNDCafe.Closed}}",
                             "Name": "AnyOrNone",
                             "Id": "AnyOrNone"
                         }
                     ],
                     "PriceModifiers": null,
                     "Items": [
+                        // Food
                         {
-                            "Id": "FFFDecoWisteria.Furniture",
-                            "ItemId": "RANDOM_ITEMS (F) @has_id_prefix UNA.FF.CP_WisteriaDeco @count 11",
+                            "Id": "skellady.SBVCP_DNDCafe.ChocoChipCookies",
+                            "ItemId": "skellady.SBVCP_ChocoChipCookies",
+                            "Price": 220,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.IceCreamBowl",
+                            "ItemId": "skellady.SBVCP_IceCreamBowl",
+                            "Price": 350,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.Cookie",
+                            "ItemId": "(O)223",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.RhubarbPie",
+                            "ItemId": "(O)222",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.MapleBar",
+                            "ItemId": "(O)731",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.PlumPudding",
+                            "ItemId": "(O)604",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.PinkCake",
+                            "ItemId": "(O)221",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.PoppyseedMuffin",
+                            "ItemId": "(O)651",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        // Drinks
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.DialaHotChoco",
+                            "ItemId": "skellady.SBVCP_DialaHotChoco",
+                            "Price": 500,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.Coffee",
+                            "ItemId": "(O)395",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.TripleShotEspresso",
+                            "ItemId": "(O)253",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.GreenTea",
+                            "ItemId": "(O)614",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DNDCafe.CranberryCandy",
+                            "ItemId": "(O)612",
+                            "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         }
                     ]
-                }
+                },
+                "skellady.SBVCP_EzraClothes": {
+                    "ID": "skellady.SBVCP_EzraClothes",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Portraits/EzraClothes",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:EzraClothes.Dialogue.{{Random: 1, 2, 3}}}}"
+                                }
+                            ],
+                            "ClosedMessage": "{{i18n:EzraClothes.Closed}}",
+                            "Name": "EzraSBV",
+                            "Id": "EzraSBV"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        // Shirts
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.Shirts",
+                            "ItemId": "RANDOM_ITEMS (S) @count 5",
+                            "Price": 1000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        // Pants
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.Pants",
+                            "ItemId": "RANDOM_ITEMS (P) @count 5",
+                            "Price": 1000,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        // Hats Spring
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.SpottedHeadscarf",
+                            "ItemId": "(H)52",
+                            "Condition": "SEASON spring",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.FashionHat",
+                            "ItemId": "(H)47",
+                            "Condition": "SEASON spring",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.PinkBow",
+                            "ItemId": "(H)77",
+                            "Condition": "SEASON spring",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.ForagersHat",
+                            "ItemId": "(H)90",
+                            "Condition": "SEASON spring",
+                            "Price": 1000,
+                        },
+                        // Hats Summer
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.Sunglasses",
+                            "ItemId": "(H)88",
+                            "Condition": "SEASON summer",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.LogoCap",
+                            "ItemId": "(H)45",
+                            "Condition": "SEASON summer",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.FishingHat",
+                            "ItemId": "(H)55",
+                            "Condition": "SEASON summer",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.PartyHat",
+                            "ItemId": "(H)59",
+                            "Condition": "SEASON summer",
+                            "Price": 1000,
+                        },
+                        // Hats Fall
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.PumpkinMask",
+                            "ItemId": "(H)48",
+                            "Condition": "SEASON fall",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.HairBone",
+                            "ItemId": "(H)49",
+                            "Condition": "SEASON fall",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.WitchHat",
+                            "ItemId": "(H)70",
+                            "Condition": "SEASON fall",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.PirateHat",
+                            "ItemId": "(H)62",
+                            "Condition": "SEASON fall",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.PropellerHat",
+                            "ItemId": "(H)68",
+                            "Condition": "SEASON fall",
+                            "Price": 1000,
+                        },
+                        // Hats Winter
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.Earmuffs",
+                            "ItemId": "(H)11",
+                            "Condition": "SEASON winter",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.SantaHat",
+                            "ItemId": "(H)25",
+                            "Condition": "SEASON winter",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.Beanie",
+                            "ItemId": "(H)53",
+                            "Condition": "SEASON winter",
+                            "Price": 1000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EzraClothes.FloppyBeanie",
+                            "ItemId": "(H)54",
+                            "Condition": "SEASON winter",
+                            "Price": 1000,
+                        },
+                    ]
+                },
+                "skellady.SBVCP_JumanaShop": {
+                    "ID": "skellady.SBVCP_JumanaShop",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Portraits/JumanaShop",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:JumanaShop.Dialogue.{{Random: 1, 2, 3}}}}"
+                                }
+                            ],
+                            "ClosedMessage": "{{i18n:JumanaShop.Closed}}",
+                            "Name": "JumanaSBV",
+                            "Id": "JumanaSBV"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        // Spring
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.SpeedwellSeeds",
+                            "ItemId": "skellady.SBVCP_SpeedwellSeeds",
+                            "Condition": "SEASON spring",
+                            "Price": 30
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.ArfajSeeds",
+                            "ItemId": "skellady.SBVCP_ArfajSeeds",
+                            "Condition": "SEASON spring",
+                            "Price": 50
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.CoffeeBlossomSeeds",
+                            "ItemId": "skellady.SBVCP_CoffeeBlossomSeeds",
+                            "Condition": "SEASON spring",
+                            "Price": 20
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.HyacinthSeeds",
+                            "ItemId": "skellady.SBVCP_HyacinthSeeds",
+                            "Condition": "SEASON spring",
+                            "Price": 30
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.JazzSeeds",
+                            "ItemId": "(O)429",
+                            "Condition": "SEASON spring",
+                            "Price": 30
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.TulipBulb",
+                            "ItemId": "(O)427",
+                            "Condition": "SEASON spring",
+                            "Price": 20
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.BlueJazz",
+                            "ItemId": "(O)597",
+                            "Condition": "SEASON spring",
+                            "Price": 100,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.Tulip",
+                            "ItemId": "(O)591",
+                            "Condition": "SEASON spring",
+                            "Price": 90,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        },
+                        // Summer
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.CallaLilySeeds",
+                            "ItemId": "skellady.SBVCP_CallaLilySeeds",
+                            "Condition": "SEASON summer",
+                            "Price": 20
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.SpangleSeeds",
+                            "ItemId": "(O)455",
+                            "Condition": "SEASON summer",
+                            "Price": 50
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.PoppySeeds",
+                            "ItemId": "(O)453",
+                            "Condition": "SEASON summer",
+                            "Price": 100
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.SummerSpangle",
+                            "ItemId": "(O)593",
+                            "Condition": "SEASON summer",
+                            "Price": 100,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.Poppy",
+                            "ItemId": "(O)376",
+                            "Condition": "SEASON summer",
+                            "Price": 200,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        },
+                        // Fall
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.WildMustardSeeds",
+                            "ItemId": "skellady.SBVCP_WildMustardSeeds",
+                            "Condition": "SEASON fall",
+                            "Price": 40
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.RoyalAnemoneSeeds",
+                            "ItemId": "skellady.SBVCP_RoyalAnemoneSeeds",
+                            "Condition": "SEASON fall",
+                            "Price": 40
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.SunflowerSeeds",
+                            "ItemId": "(O)431",
+                            "Condition": "SEASON fall",
+                            "Price": 120
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.FairySeeds",
+                            "ItemId": "(O)425",
+                            "Condition": "SEASON fall",
+                            "Price": 200
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.Sunflower",
+                            "ItemId": "(O)421",
+                            "Condition": "SEASON fall",
+                            "Price": 200,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.FairyRose",
+                            "ItemId": "(O)595",
+                            "Condition": "SEASON fall",
+                            "Price": 350,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        },
+                        // Winter
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.CyclamenSeeds",
+                            "ItemId": "skellady.SBVCP_CyclamenSeeds",
+                            "Condition": "SEASON winter",
+                            "Price": 30
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.Crocus",
+                            "ItemId": "(O)418",
+                            "Condition": "SEASON winter",
+                            "Price": 130,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_JumanaShop.Holly",
+                            "ItemId": "(O)283",
+                            "Condition": "SEASON winter",
+                            "Price": 160,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        },
+                    ]
+                },
+                "skellady.SBVCP_MaiaWeapons": {
+                    "ID": "skellady.SBVCP_MaiaWeapons",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Portraits/MaiaWeapons",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:MaiaWeapons.Dialogue.{{Random: 1, 2, 3}}}}"
+                                }
+                            ],
+                            "ClosedMessage": "{{i18n:MaiaWeapons.Closed}}",
+                            "Name": "MaiaSBV",
+                            "Id": "MaiaSBV"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        // Weapons
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.TheirinSword",
+                            "ItemId": "skellady.SBVCP_TheirinSword",
+                            "Condition": "PLAYER_HAS_MAIL Current MaiaSOWeapon1 Received",
+                            "Price": 40000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.DawneBattleAxe",
+                            "ItemId": "skellady.SBVCP_DawneBattleAxe",
+                            "Condition": "PLAYER_HAS_MAIL Current MaiaSOWeapon2 Received",
+                            "Price": 60000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.Dragonfang",
+                            "ItemId": "skellady.SBVCP_Dragonfang",
+                            "Condition": "PLAYER_HAS_MAIL Current MaiaSOWeapon3 Received",
+                            "Price": 50000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.BalefulBlade",
+                            "ItemId": "skellady.SBVCP_BalefulBlade",
+                            "Condition": "PLAYER_HAS_MAIL Current MaiaSOWeapon4 Received",
+                            "Price": 30000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.FlowerPower",
+                            "ItemId": "skellady.SBVCP_FlowerPower",
+                            "Condition": "PLAYER_HAS_MAIL Current AichaSOWeapon Received",
+                            "Price": 30000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.NeptunesGlaive",
+                            "ItemId": "(W)14",
+                            "Price": 9000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.ObsidianEdge",
+                            "ItemId": "(W)8",
+                            "Price": 15000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.OssifiedBlade",
+                            "ItemId": "(W)60",
+                            "Price": 12000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.DarkSword",
+                            "ItemId": "(W)2",
+                            "Price": 15000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.YetiTooth",
+                            "ItemId": "(W)48",
+                            "Price": 12000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.WickedKris",
+                            "ItemId": "(W)45",
+                            "Price": 10000,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MaiaWeapons.TheSlammer",
+                            "ItemId": "(W)28",
+                            "Price": 10000,
+                        },
+                    ]
+                },
             }
         }
     ]
