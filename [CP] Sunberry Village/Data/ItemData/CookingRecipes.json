@@ -1,0 +1,14 @@
+{
+  "Changes": [
+    {
+      "LogName": "SBV Recipes",
+      "Action": "EditData",
+      "Target": "Data/CookingRecipes",
+      "Entries": {
+        "skellady.SBVCP_DialaHotChoco": "-6 1 245 1 skellady.SBVCP_Carob 1/1 8/skellady.SBVCP_DialaHotChoco/f DialaSBV 4/{{i18n:SBV.DialaHotChoco.Name}}",
+        "skellady.SBVCP_IceCreamBowl": "834 1 400 1 258 1/1 8/skellady.SBVCP_IceCreamBowl/f DeryaSBV 5/{{i18n:SBV.IceCreamBowl.Name}}",
+        "skellady.SBVCP_ChocoChipCookies": "-5 1 245 1 246 1 skellady.SBVCP_Carob 3/1 8/skellady.SBVCP_ChocoChipCookies/f MoonSBV 6/{{i18n:SBV.ChocoChipCookies.Name}}"
+      }
+    },
+  ]
+}

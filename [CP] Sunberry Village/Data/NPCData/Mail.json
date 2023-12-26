@@ -20,9 +20,9 @@
                 "skellady.SBVCP_JumanaHusbandLetter": "{{i18n:Mail.JumanaHusbandLetter}}",
 
                 // Recipes
-                "skellady.SBVCP_DialaHotChocoLetter": "{{i18n:Mail.DialaHotChocoLetter}}",
-                "skellady.SBVCP_DeryaIceCreamLetter": "{{i18n:Mail.DeryaIceCreamLetter}}",
-                "skellady.SBVCP_MoonCookieLetter": "{{i18n:Mail.MoonCookieLetter}}",
+                "DialaSBVCooking": "{{i18n:Mail.DialaHotChocoLetter}}",
+                "DeryaSBVCooking": "{{i18n:Mail.DeryaIceCreamLetter}}",
+                "MoonSBVCooking": "{{i18n:Mail.MoonCookieLetter}}",
 
                 // GSB Trigger
                 "skellady.SBVCP_GSBTriggerLetter": "{{i18n:Mail.GSBTriggerLetter}}",

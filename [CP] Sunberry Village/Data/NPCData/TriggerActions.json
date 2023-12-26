@@ -31,19 +31,19 @@
                     "Id": "skellady.SBVCP_DialaRecipe1",
                     "Trigger": "DayStarted",
                     "Condition": "PLAYER_HEARTS Current DialaSBV 4",
-                    "Action": "AddMail Current skellady.SBVCP_DialaHotChocoLetter"
+                    "Action": "AddMail Current DialaSBVCooking"
                 },
                 "skellady.SBVCP_DeryaRecipe1": {
                     "Id": "skellady.SBVCP_DeryaRecipe1",
                     "Trigger": "DayStarted",
                     "Condition": "PLAYER_HEARTS Current DeryaSBV 5",
-                    "Action": "AddMail Current skellady.SBVCP_DeryaIceCreamLetter"
+                    "Action": "AddMail Current DeryaSBVCooking"
                 },
                 "skellady.SBVCP_MoonRecipe1": {
                     "Id": "skellady.SBVCP_MoonRecipe1",
                     "Trigger": "DayStarted",
                     "Condition": "PLAYER_HEARTS Current MoonSBV 6",
-                    "Action": "AddMail Current skellady.SBVCP_MoonCookieLetter"
+                    "Action": "AddMail Current MoonSBVCooking"
                 },
                 "skellady.SBVCP_GSBTrigger": {
                     "Id": "skellady.SBVCP_GSBTrigger",
