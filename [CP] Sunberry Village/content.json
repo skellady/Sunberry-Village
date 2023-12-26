@@ -653,7 +653,7 @@
     {
       "LogName": "Include NPC Data",
       "Action": "Include",
-      "FromFile": "Data/NPCData/ImageLoads.json, Data/NPCData/Animations.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/ConversationTopics.json, Data/NPCData/MoonRoommate.json, Data/NPCData/MovieData.json, Data/NPCData/Mail.json, Data/NPCData/BigAnimations.json",
+      "FromFile": "Data/NPCData/TriggerActions.json, Data/NPCData/ImageLoads.json, Data/NPCData/Animations.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/ConversationTopics.json, Data/NPCData/MoonRoommate.json, Data/NPCData/MovieData.json, Data/NPCData/Mail.json, Data/NPCData/BigAnimations.json",
     },
     // Item Data Includes
     {

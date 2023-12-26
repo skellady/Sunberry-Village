@@ -1,0 +1,57 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "skellady.SBVCP_DNDInvite": {
+                    "Id": "skellady.SBVCP_DNDInvite",
+                    "Trigger": "DayStarted",
+                    "Action": "AddMail Current skellady.SBVCP_DNDInviteLetter"
+                },
+                "skellady.SBVCP_Diala2HLetter": {
+                    "Id": "skellady.SBVCP_Diala2HLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current DialaSBV 2",
+                    "Action": "AddMail Current skellady.SBVCP_DialaCoffeeLetter"
+                },
+                "skellady.SBVCP_Diala6HLetter": {
+                    "Id": "skellady.SBVCP_Diala6HLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current DialaSBV 6",
+                    "Action": "AddMail Current skellady.SBVCP_DialaTarotLetter"
+                },
+                "skellady.SBVCP_Jumana6HLetter": {
+                    "Id": "skellady.SBVCP_Jumana6HLetter",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current JumanaSBV 6",
+                    "Action": "AddMail Current skellady.SBVCP_JumanaHusbandLetter"
+                },
+                "skellady.SBVCP_DialaRecipe1": {
+                    "Id": "skellady.SBVCP_DialaRecipe1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current DialaSBV 4",
+                    "Action": "AddMail Current skellady.SBVCP_DialaHotChocoLetter"
+                },
+                "skellady.SBVCP_DeryaRecipe1": {
+                    "Id": "skellady.SBVCP_DeryaRecipe1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current DeryaSBV 5",
+                    "Action": "AddMail Current skellady.SBVCP_DeryaIceCreamLetter"
+                },
+                "skellady.SBVCP_MoonRecipe1": {
+                    "Id": "skellady.SBVCP_MoonRecipe1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current MoonSBV 6",
+                    "Action": "AddMail Current skellady.SBVCP_MoonCookieLetter"
+                },
+                "skellady.SBVCP_GSBTrigger": {
+                    "Id": "skellady.SBVCP_GSBTrigger",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Any skellady.SBVCP_20031446, !PLAYER_HAS_CONVERSATION_TOPIC Any SBVFinalLevel",
+                    "Action": "AddMail Current skellady.SBVCP_GSBTriggerLetter"
+                },
+            }
+        }
+    ]
+}

@@ -1,10 +1,33 @@
 {
     "Changes": [
         {
-            "LogName": "CP Letters",
+            "LogName": "Load BGs",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/SBVLetterBG",
+            "FromFile": "Assets/Images/LetterBG/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "SBV Letters",
             "Action": "EditData",
-            "Target": "Data/mail",
+            "Target": "Data/Mail",
             "Entries": {
+                // DND Invite
+                "skellady.SBVCP_DNDInviteLetter": "{{i18n:Mail.DNDInviteLetter}}",
+
+                // Heart Level Letters
+                "skellady.SBVCP_DialaCoffeeLetter": "{{i18n:Mail.DialaCoffeeLetter}}",
+                "skellady.SBVCP_DialaTarotLetter": "{{i18n:Mail.DialaTarotLetter}}",
+                "skellady.SBVCP_JumanaHusbandLetter": "{{i18n:Mail.JumanaHusbandLetter}}",
+
+                // Recipes
+                "skellady.SBVCP_DialaHotChocoLetter": "{{i18n:Mail.DialaHotChocoLetter}}",
+                "skellady.SBVCP_DeryaIceCreamLetter": "{{i18n:Mail.DeryaIceCreamLetter}}",
+                "skellady.SBVCP_MoonCookieLetter": "{{i18n:Mail.MoonCookieLetter}}",
+
+                // GSB Trigger
+                "skellady.SBVCP_GSBTriggerLetter": "{{i18n:Mail.GSBTriggerLetter}}",
+
+                // Special Order Letters
                 "ReiSODessert": "{{i18n:Mail.ReiSODessert}}",
                 "MaiaSOWeapon1": "{{i18n:Mail.MaiaSOWeapon1}}",
                 "MaiaSOWeapon2": "{{i18n:Mail.MaiaSOWeapon2}}",

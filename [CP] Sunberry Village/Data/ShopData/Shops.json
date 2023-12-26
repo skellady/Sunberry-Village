@@ -3,8 +3,8 @@
         {
             "LogName": "Load Portraits",
             "Action": "Load",
-            "Target": "Portraits/AriMarket, Portraits/DNDCafe, Portraits/EzraClothes, Portraits/JumanaShop, Portraits/MaiaWeapons, Portraits/SilasBlacksmith, Portraits/MoonberryShop",
-            "FromFile": "Assets/ShopIcons/{{TargetWithoutPath}}.png"
+            "Target": "Portraits/AriMarket, Portraits/DNDCafe, Portraits/EzraClothes, Portraits/JumanaShop, Portraits/MaiaWeapons, Portraits/SilasBlacksmith",
+            "FromFile": "Assets/Images/ShopIcons/{{TargetWithoutPath}}.png"
         },
         {
             "LogName": "Add Shops",

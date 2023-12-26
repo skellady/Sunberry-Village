@@ -1514,7 +1514,23 @@
   //Mail
   //----
 
-  //Rei Letter
+  //DND Invite
+  "Mail.DNDInviteLetter": "Hello, @!^^We'd like to invite you to D&D's Cat Cafe. Feel free to drop by during our opening hours! We're located in Sunberry Village.^^Looking forward to seeing you!^^- Diala and Derya[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0][#]D&D Cafe",
+
+  //Heart Level Letters
+  "Mail.DialaCoffeeLetter": "Hi, @!^^I've been meaning to invite you over for a cup of coffee, but it kept slipping my mind until Derya forced me to sit down and write this letter. Why don't you drop by sometime?^^- Diala[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 1][#]Coffee With Diala",
+  "Mail.DialaTarotLetter": "Hey, @!^^I've had some free time recently to dedicate to my practice. Derya has talked me into giving tarot readings to people online instead of limiting myself to just the people in town. Why don't you drop by soon? I'd love to give you one!^^- Diala[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0][#]Tarot Reading",
+  "Mail.JumanaHusbandLetter": "Hello, dear.^^I'd like to think we've grown closer recently, and I consider you a dear friend. Tomorrow will mark nine years since my husband passed away. Maia, Amina and I are planning to go visit his grave and I was hoping you'd stop by, too.^^Just... having a friend by my side would help greatly. It's a tough time. If you'd like to come, meet us at the Sunberry Mountain after 3 P.M.^^- Jumana[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 2][#]Jumana's Husband",
+
+  //Recipe Letters
+  "Mail.DialaHotChocoLetter": "Hey, @!^^I've been experimenting with this hot chocolate recipe for a while now, and I finally found what makes it taste SO good! It's Carob! I used to see my mother use it in her dessert back home, and I managed to find some at Ari's. Enjoy the recipe and let me know if you try it!^^- Diala[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0][#]Hot Chocolate Time!",
+  "Mail.DeryaIceCreamLetter": "Hi, @!^^I'm like, truly convinced Diala and I make the best ice cream in town (no offense to Alex). We've been trying out different flavors and we finally found the perfect combo! Mango, strawberries, and blueberries. I promise, it's amazing! Try it out and keep me updated.^^- Derya[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 1][#]Ice Cream, You Scream? No?",
+  "Mail.MoonCookieLetter": "Hello!^^Moon found this recipe in one of Diala's books. Moon tried to make it but... it didn't work very well. So, Moon decided to send you the recipe instead! It's very sweet and chewy, heh. Moon is going to go eat some of Diala's cookies now!^^...Moon hopes this letter gets sent. Goodbye!^^- Your junimo friend, Moon[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0][#]Choco Cookies!",
+
+  //GSB Trigger Letter
+  "Mail.GSBTriggerLetter": "Dear @,^^We've finally been able to get some information regarding the seed you found at the bottom of the cavern. Drop by soon, we're gathering everyone in town to let them know of our findings.^^- Ophelia[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3][#]Village Meeting",
+
+  //SO Letters
   "Mail.ReiSODessert": "@,^^It was... nice of you to help me out with my dessert drought. Ew, I didn't mean for that to rhyme. Anyways, thank you, I guess. Here's a little something from my artifacts pile.^^- Reihana %item object 122 1 %%[#]Rei's Gratitude",
   "Mail.MaiaSOWeapon1": "Hey, @,^^Thank you for gathering and collecting the materials. I really appreciate the help. My back's feeling a little better so I should be able to go back into the caves soon. Come by the blacksmith tomorrow, I'll have the weapon available in my shop..^^- Maia[#]Maia's New Weapon",
   "Mail.MaiaSOWeapon2": "Hello, @,^^I was finally able to recreate the battle axe thanks to your help. It's a beauty, honestly. I might have to make one for myself, hah. I should have it ready in the shop soon if you'd like to take a look.^^- Maia[#]The Battle Axe",
