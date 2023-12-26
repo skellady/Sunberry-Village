@@ -3967,7 +3967,7 @@
   </object>
   <object id="117" name="TileData" x="608" y="784" width="16" height="16">
    <properties>
-    <property name="Shop" value="MoonBerryShop"/>
+    <property name="Action" value="OpenShop skellady.SBVCP_MoonberryShop"/>
    </properties>
   </object>
  </objectgroup>

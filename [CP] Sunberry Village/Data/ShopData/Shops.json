@@ -3,7 +3,7 @@
         {
             "LogName": "Load Portraits",
             "Action": "Load",
-            "Target": "Portraits/AriMarket, Portraits/DNDCafe, Portraits/EzraClothes, Portraits/JumanaShop, Portraits/MaiaWeapons, Portraits/SilasBlacksmith",
+            "Target": "Portraits/AriMarket, Portraits/DNDCafe, Portraits/EzraClothes, Portraits/JumanaShop, Portraits/MaiaWeapons, Portraits/SilasBlacksmith, Portraits/MoonberryShop",
             "FromFile": "Assets/ShopIcons/{{TargetWithoutPath}}.png"
         },
         {
@@ -19,10 +19,9 @@
                             "Portrait": "Portraits/AriMarket",
                             "Dialogues": [
                                 {
-                                    "Dialogue": "{{i18n:AriMarket.Open.{{Random: 1, 2, 3}}}}"
+                                    "Dialogue": "{{i18n:AriMarket.Dialogue.{{Random: 1, 2, 3}}}}"
                                 }
                             ],
-                            "ClosedMessage": "{{i18n:AriMarket.Closed}}",
                             "Name": "AriSBV",
                             "Id": "AriSBV"
                         }
@@ -214,37 +213,37 @@
                         {
                             "Id": "skellady.SBVCP_AriShop.BasicFertilizer",
                             "ItemId": "(O)368",
-                            "Price": 80,
+                            "Price": 80
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.QualityFertilizer",
                             "ItemId": "(O)369",
-                            "Price": 130,
+                            "Price": 130
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.BasicRetainingSoil",
                             "ItemId": "(O)370",
-                            "Price": 80,
+                            "Price": 80
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.QualityRetainingSoil",
                             "ItemId": "(O)371",
-                            "Price": 130,
+                            "Price": 130
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.SpeedGro",
                             "ItemId": "(O)465",
-                            "Price": 80,
+                            "Price": 80
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.DeluxeSpeedGro",
                             "ItemId": "(O)466",
-                            "Price": 130,
+                            "Price": 130
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.TreeFertilizer",
                             "ItemId": "(O)805",
-                            "Price": 150,
+                            "Price": 150
                         },
                         // Others
                         {
@@ -292,7 +291,6 @@
                                     "Dialogue": "{{i18n:DNDCafe.Dialogue.{{Random: 1, 2, 3}}}}"
                                 }
                             ],
-                            "ClosedMessage": "{{i18n:DNDCafe.Closed}}",
                             "Name": "AnyOrNone",
                             "Id": "AnyOrNone"
                         }
@@ -395,7 +393,6 @@
                                     "Dialogue": "{{i18n:EzraClothes.Dialogue.{{Random: 1, 2, 3}}}}"
                                 }
                             ],
-                            "ClosedMessage": "{{i18n:EzraClothes.Closed}}",
                             "Name": "EzraSBV",
                             "Id": "EzraSBV"
                         }
@@ -423,107 +420,107 @@
                             "Id": "skellady.SBVCP_EzraClothes.SpottedHeadscarf",
                             "ItemId": "(H)52",
                             "Condition": "SEASON spring",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.FashionHat",
                             "ItemId": "(H)47",
                             "Condition": "SEASON spring",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.PinkBow",
                             "ItemId": "(H)77",
                             "Condition": "SEASON spring",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.ForagersHat",
                             "ItemId": "(H)90",
                             "Condition": "SEASON spring",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         // Hats Summer
                         {
                             "Id": "skellady.SBVCP_EzraClothes.Sunglasses",
                             "ItemId": "(H)88",
                             "Condition": "SEASON summer",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.LogoCap",
                             "ItemId": "(H)45",
                             "Condition": "SEASON summer",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.FishingHat",
                             "ItemId": "(H)55",
                             "Condition": "SEASON summer",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.PartyHat",
                             "ItemId": "(H)59",
                             "Condition": "SEASON summer",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         // Hats Fall
                         {
                             "Id": "skellady.SBVCP_EzraClothes.PumpkinMask",
                             "ItemId": "(H)48",
                             "Condition": "SEASON fall",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.HairBone",
                             "ItemId": "(H)49",
                             "Condition": "SEASON fall",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.WitchHat",
                             "ItemId": "(H)70",
                             "Condition": "SEASON fall",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.PirateHat",
                             "ItemId": "(H)62",
                             "Condition": "SEASON fall",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.PropellerHat",
                             "ItemId": "(H)68",
                             "Condition": "SEASON fall",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         // Hats Winter
                         {
                             "Id": "skellady.SBVCP_EzraClothes.Earmuffs",
                             "ItemId": "(H)11",
                             "Condition": "SEASON winter",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.SantaHat",
                             "ItemId": "(H)25",
                             "Condition": "SEASON winter",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.Beanie",
                             "ItemId": "(H)53",
                             "Condition": "SEASON winter",
-                            "Price": 1000,
+                            "Price": 1000
                         },
                         {
                             "Id": "skellady.SBVCP_EzraClothes.FloppyBeanie",
                             "ItemId": "(H)54",
                             "Condition": "SEASON winter",
-                            "Price": 1000,
-                        },
+                            "Price": 1000
+                        }
                     ]
                 },
                 "skellady.SBVCP_JumanaShop": {
@@ -537,7 +534,6 @@
                                     "Dialogue": "{{i18n:JumanaShop.Dialogue.{{Random: 1, 2, 3}}}}"
                                 }
                             ],
-                            "ClosedMessage": "{{i18n:JumanaShop.Closed}}",
                             "Name": "JumanaSBV",
                             "Id": "JumanaSBV"
                         }
@@ -695,7 +691,7 @@
                             "Price": 160,
                             "AvailableStock": 5,
                             "AvailableStockLimit": "Global"
-                        },
+                        }
                     ]
                 },
                 "skellady.SBVCP_MaiaWeapons": {
@@ -709,7 +705,6 @@
                                     "Dialogue": "{{i18n:MaiaWeapons.Dialogue.{{Random: 1, 2, 3}}}}"
                                 }
                             ],
-                            "ClosedMessage": "{{i18n:MaiaWeapons.Closed}}",
                             "Name": "MaiaSBV",
                             "Id": "MaiaSBV"
                         }
@@ -721,66 +716,171 @@
                             "Id": "skellady.SBVCP_MaiaWeapons.TheirinSword",
                             "ItemId": "skellady.SBVCP_TheirinSword",
                             "Condition": "PLAYER_HAS_MAIL Current MaiaSOWeapon1 Received",
-                            "Price": 40000,
+                            "Price": 40000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.DawneBattleAxe",
                             "ItemId": "skellady.SBVCP_DawneBattleAxe",
                             "Condition": "PLAYER_HAS_MAIL Current MaiaSOWeapon2 Received",
-                            "Price": 60000,
+                            "Price": 60000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.Dragonfang",
                             "ItemId": "skellady.SBVCP_Dragonfang",
                             "Condition": "PLAYER_HAS_MAIL Current MaiaSOWeapon3 Received",
-                            "Price": 50000,
+                            "Price": 50000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.BalefulBlade",
                             "ItemId": "skellady.SBVCP_BalefulBlade",
                             "Condition": "PLAYER_HAS_MAIL Current MaiaSOWeapon4 Received",
-                            "Price": 30000,
+                            "Price": 30000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.FlowerPower",
                             "ItemId": "skellady.SBVCP_FlowerPower",
                             "Condition": "PLAYER_HAS_MAIL Current AichaSOWeapon Received",
-                            "Price": 30000,
+                            "Price": 30000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.NeptunesGlaive",
                             "ItemId": "(W)14",
-                            "Price": 9000,
+                            "Price": 9000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.ObsidianEdge",
                             "ItemId": "(W)8",
-                            "Price": 15000,
+                            "Price": 15000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.OssifiedBlade",
                             "ItemId": "(W)60",
-                            "Price": 12000,
+                            "Price": 12000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.DarkSword",
                             "ItemId": "(W)2",
-                            "Price": 15000,
+                            "Price": 15000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.YetiTooth",
                             "ItemId": "(W)48",
-                            "Price": 12000,
+                            "Price": 12000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.WickedKris",
                             "ItemId": "(W)45",
-                            "Price": 10000,
+                            "Price": 10000
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.TheSlammer",
                             "ItemId": "(W)28",
-                            "Price": 10000,
+                            "Price": 10000
+                        }
+                    ]
+                },
+                "skellady.SBVCP_SilasBlacksmith": {
+                    "ID": "skellady.SBVCP_SilasBlacksmith",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Portraits/SilasBlacksmith",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:SilasBlacksmith.Dialogue.{{Random: 1, 2, 3}}}}"
+                                }
+                            ],
+                            "Name": "SilasSBV",
+                            "Id": "SilasSBV"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.ArtifactTrove",
+                            "ItemId": "(O)275",
+                            "Condition": "RANDOM 0.08 @addDailyLuck",
+                            "Price": 4000,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.Minerals",
+                            "ItemId": "RANDOM_ITEMS (O) 538 578",
+                            "PerItemCondition": "ITEM_CATEGORY Target -12",
+                            "Price": -1,
+                            "AvailableStock": 1,
+                            "MaxItems": 3
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.CopperOre",
+                            "ItemId": "(O)378"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.IronOre",
+                            "ItemId": "(O)380"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.GoldOre",
+                            "ItemId": "(O)384"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.CopperBar",
+                            "ItemId": "(O)334"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.IronBar",
+                            "ItemId": "(O)335"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.GoldBar",
+                            "ItemId": "(O)336"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.Geode",
+                            "ItemId": "(O)535",
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.FrozenGeode",
+                            "ItemId": "(O)536",
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.MagmaGeode",
+                            "ItemId": "(O)537",
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        }
+                    ]
+                },
+                "skellady.SBVCP_MoonberryShop": {
+                    "ID": "skellady.SBVCP_MoonberryShop",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Portraits/MoonSBV/MoonSBV",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:MoonberryShop.Dialogue.{{Random: 1, 2, 3}}}}"
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        // Moonberry Seeds
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.MoonberrySeeds",
+                            "ItemId": "skellady.SBVCP_MoonberrySeeds",
+                            "TradeItemId": "skellady.SBVCP_Moonberry",
+                            "TradeItemAmount": 1,
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
                         },
                     ]
                 },
