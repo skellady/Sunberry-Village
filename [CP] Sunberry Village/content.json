@@ -641,7 +641,7 @@
     {
       "LogName": "Include Map Data",
       "Action": "Include",
-      "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/MapMusic.json",
+      "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/MapMusic.json, Data/MapData/GarbageCans.json",
     },
     // Dynamic Changes Includes
     {

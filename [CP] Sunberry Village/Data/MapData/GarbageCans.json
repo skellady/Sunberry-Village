@@ -1,0 +1,247 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/GarbageCans",
+            "TargetField": [ "GarbageCans" ],
+            "Entries": {
+                "skellady.SBVCP_MiyoungTrash": {
+                    "Items": [
+                        {
+                            "ID": "skellady.SBVCP_MiyoungSeeds",
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "Condition": "RANDOM 0.2",
+                            "RandomItemId": [
+                                "(O)472",
+                                "(O)473",
+                                "(O)474",
+                                "(O)475",
+                                "(O)477",
+                                "(O)478",
+                                "(O)479",
+                                "(O)480",
+                                "(O)481",
+                                "(O)482",
+                                "(O)488",
+                                "(O)493",
+                            ]
+                        },
+                        {
+                            "ID": "skellady.SBVCP_MiyoungWool",
+                            "Condition": "RANDOM 0.05",
+                            "ItemId": "(O)440"
+                        },
+                        {
+                            "ID": "skellady.SBVCP_MiyoungDishes",
+                            "Condition": "RANDOM 0.02",
+                            "ItemId": "RANDOM_ITEMS (O) @has_category -7"
+                        },
+                        {
+                            "ID": "skellady.SBVCP_MiyoungTrashItems",
+                            "Condition": "RANDOM 0.3",
+                            "ItemId": "RANDOM_ITEMS (O) @has_category -20"
+                        }
+                    ]
+                },
+                "skellady.SBVCP_EzraImanTrash": {
+                    "Items": [
+                        {
+                            "ID": "skellady.SBVCP_EIJunkFood",
+                            "Condition": "RANDOM 0.04",
+							"RandomItemId": [
+                                "(O)206",
+                                "(O)241",
+                                "(O)210",
+                                "(O)213",
+                                "(O)167"
+                            ]
+                        },
+                        {
+                            "ID": "skellady.SBVCP_EIWool",
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Condition": "RANDOM 0.03",
+							"ItemId": "(O)440",
+                        },
+                        {
+                            "ID": "skellady.SBVCP_EICloth",
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Condition": "RANDOM 0.02",
+							"ItemId": "(O)428",
+                        },
+                        {
+                            "ID": "skellady.SBVCP_EITrashItems",
+                            "Condition": "RANDOM 0.3",
+							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+                        },
+                    ]
+                },
+                "skellady.SBVCP_CatCafeTrash": {
+                    "Items": [
+                        {
+                            "ID": "skellady.SBVCP_CCBakedGoods",
+                            "Condition": "RANDOM 0.03",
+							"RandomItemId": [
+								"(O)223",
+                                "(O)731",
+                                "(O)221",
+                                "(O)211",
+                                "(O)395",
+							],
+                        },
+                        {
+                            "ID": "skellady.SBVCP_CCJojaCans",
+                            "Condition": "RANDOM 0.2",
+							"ItemId": "(O)167",
+                        },
+                        {
+                            "ID": "skellady.SBVCP_CCTrashItems",
+                            "Condition": "RANDOM 0.3",
+							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+                        },
+                    ]
+                },
+                "skellady.SBVCP_AriMarketTrash": {
+                    "Items": [
+                        {
+                            "ID": "skellady.SBVCP_AriSeeds",
+                            "Condition": "RANDOM 0.1",
+							"RandomItemId": [
+								"(O)472",
+                                "(O)473",
+                                "(O)474",
+                                "(O)475",
+                                "(O)477",
+                                "(O)478",
+                                "(O)479",
+                                "(O)480",
+                                "(O)481",
+                                "(O)482",
+                                "(O)488",
+                                "(O)493",
+							],
+                        },
+                        {
+                            "ID": "skellady.SBVCP_AriFertilizers",
+                            "Condition": "RANDOM 0.02",
+							"ItemId": "RANDOM_ITEMS (O) @has_category -19",
+                        },
+                        {
+                            "ID": "skellady.SBVCP_AriResources",
+                            "Condition": "RANDOM 0.03",
+							"RandomItemId": [
+                                "(O)245",
+                                "(O)246",
+                                "(O)247"
+                            ] 
+                        },
+                        {
+                            "ID": "skellady.SBVCP_AriTrashItems",
+                            "Condition": "RANDOM 0.3",
+							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+                        },
+                    ]
+                },
+                "skellady.SBVCP_FountainTrash": {
+                    "Items": [
+                        {
+                            "ID": "skellady.SBVCP_FountainDishes",
+                            "Condition": "RANDOM 0.01",
+                            "ItemId":"RANDOM_ITEMS (O) @has_category -7"
+                        },
+                        {
+                            "ID": "skellady.SBVCP_FountainTrashItems",
+                            "Condition": "RANDOM 0.3",
+							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+                        },
+                        {
+                            "ID": "skellady.SBVCP_FountainGems",
+                            "Condition": "RANDOM 0.03",
+							"ItemId": "RANDOM_ITEMS (O) @has_id_in_base_range 60 68 @has_category -12",
+                        },
+                    ]
+                },
+                "skellady.SBVCP_MaiaTrash": {
+                    "Items": [
+                        {
+                            "ID": "skellady.SBVCP_JumanaSeeds",
+                            "Condition": "RANDOM 0.03",
+                            "RandomItemId": [
+                                "(O)427",
+                                "(O)429",
+                                "(O)431",
+                                "(O)453",
+                                "(O)455",
+                                "(O)425"
+                            ]
+                        },
+                        {
+                            "ID": "skellady.SBVCP_MaiaTrashItems",
+                            "Condition": "RANDOM 0.3",
+							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+                        },
+                        {
+                            "ID": "skellady.SBVCP_JumanaFlowers",
+                            "Condition": "RANDOM 0.02",
+							"RandomItemId": [
+                                "(O)591",
+                                "(O)593",
+                                "(O)595",
+                                "(O)597",
+                                "(O)421",
+                                "(O)376",
+                            ] 
+                        },
+                        {
+                            "ID": "skellady.SBVCP_MaiaFairyDust",
+                            "Condition": "RANDOM 0.01",
+							"ItemId": "(O)872",
+                        },
+                    ]
+                },
+                "skellady.SBVCP_SilasTrash": {
+                    "Items": [
+                        {
+                            "ID": "skellady.SBVCP_SilasBaseOres",
+                            "Condition": "RANDOM 0.1",
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "RandomItemId": [
+                                "(O)378",
+                                "(O)380",
+                                "(O)382",
+                                "(O)384"
+                            ]
+                        },
+                        {
+                            "ID": "skellady.SBVCP_SilasIridiumOre",
+                            "Condition": "RANDOM 0.02",
+                            "ItemId": "(O)386"
+                        },
+                        {
+                            "ID": "skellady.SBVCP_SilasBaseBars",
+                            "Condition": "RANDOM 0.1",
+                            "RandomItemId": [
+                                "(O)334",
+                                "(O)335",
+                                "(O)336",
+                            ]
+                        },
+                        {
+                            "ID": "skellady.SBVCP_SilasIridiumBar",
+                            "Condition": "RANDOM 0.01",
+                            "ItemId": "(O)337"
+                        },
+                        {
+                            "ID": "skellady.SBVCP_SilasTrashItems",
+                            "Condition": "RANDOM 0.3",
+							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+                        }
+                    ]
+                },
+            }
+        }
+    ]
+}
