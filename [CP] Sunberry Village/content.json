@@ -513,6 +513,11 @@
       "Target": "Characters/SBVWizardPoof",
       "FromFile": "Assets/Maps/tempActors/SBVWizardPoof.png"
     },
+    {
+      "Action": "Load",
+      "Target": "Characters/SBVSparklySparkles",
+      "FromFile": "Assets/Maps/tempActors/SBVSparklySparkles.png"
+    },
     //Temporary Maps
     {
       "Action": "Load",
