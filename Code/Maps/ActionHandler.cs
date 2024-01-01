@@ -19,11 +19,12 @@ internal class ActionHandler
 
 	private static void RegisterTileActions(object sender, GameLaunchedEventArgs e)
 	{
-		GameLocation.RegisterTouchAction("SBVBook", HandleBookAction);
-		GameLocation.RegisterTouchAction("ChooseWarp", HandleChooseWarpAction);
-		GameLocation.RegisterTouchAction("DialaTarot", HandleTarotAction);
+		GameLocation.RegisterTileAction("SBVBook", HandleBookAction);
+		GameLocation.RegisterTileAction("ChooseWarp", HandleChooseWarpAction);
+		GameLocation.RegisterTileAction("DialaTarot", HandleTarotAction);
 	}
-	private static void HandleBookAction(GameLocation location, string[] args, Farmer player, Vector2 tile)
+
+	private static bool HandleBookAction(GameLocation location, string[] args, Farmer player, Point tile)
 	{
 		if (args.Length < 2)
 			throw new Exception("Incorrect number of arguments provided to SBVBook action." +
@@ -37,9 +38,10 @@ internal class ActionHandler
 
 		// display letter menu with contents of pages
 		Game1.drawLetterMessage(book);
+		return true;
 	}
 
-	private static void HandleChooseWarpAction(GameLocation location, string[] args, Farmer player, Vector2 tile)
+	private static bool HandleChooseWarpAction(GameLocation location, string[] args, Farmer player, Point tile)
 	{
 		// strip out 0th entry because it just contains the action name
 		string[] actionParams = args[1..];
@@ -61,31 +63,33 @@ internal class ActionHandler
 		//Log.Trace($"ChooseWarp dialogue created.\nOptions:\n\t{string.Join("\n\t", responses.Select(r => r.responseKey))}");
 
 		location.createQuestionDialogue(" ", responses.ToArray(), "ChooseWarp");
+		return true;
 	}
 
-	private static void HandleTarotAction(GameLocation location, string[] args, Farmer player, Vector2 tile)
+	private static bool HandleTarotAction(GameLocation location, string[] args, Farmer player, Point tile)
 	{
 		if (location.characters.Any(npc => npc.Name == "DialaSBV" && Vector2.Distance(npc.Tile, tile) < 3f))
 		{
 			if (player.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
 			{
 				Game1.drawObjectDialogue(Globals.TranslationHelper.Get("TarotAlreadyReadToday").UsePlaceholder(true));
-				return;
+				return false;
 			}
 
 			// if you have seen the necessary event
 			if (player.eventsSeen.Contains(TarotHandler.TarotRequiredEventId))
 			{
 				location.createQuestionDialogue(Globals.TranslationHelper.Get("TarotPrompt").UsePlaceholder(true), location.createYesNoResponses(), "tarotReading");
-				return;
+				return true;
 			}
 
 			// otherwise generic rejection dialogue
 			Game1.drawObjectDialogue(Globals.TranslationHelper.Get("TarotDialaBusy").UsePlaceholder(true));
-			return;
+			return false;
 		}
 
 		// if diala is not on the map or near the tile location
 		Game1.drawObjectDialogue(Globals.TranslationHelper.Get("TarotDialaAway").UsePlaceholder(true));
+		return false;
 	}
 }
