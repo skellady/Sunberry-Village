@@ -68,7 +68,7 @@ internal class ActionHandler
 
 	private static bool HandleTarotAction(GameLocation location, string[] args, Farmer player, Point tile)
 	{
-		if (location.characters.Any(npc => npc.Name == "DialaSBV" && Vector2.Distance(npc.Tile, tile) < 3f))
+		if (location.characters.Any(npc => npc.Name == "DialaSBV" && Vector2.Distance(npc.Tile, tile.ToVector2()) < 3f))
 		{
 			if (player.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
 			{
