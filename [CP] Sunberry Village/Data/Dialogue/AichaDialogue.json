@@ -71,6 +71,41 @@
 				"Fri10": "{{i18n:Aicha.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Aicha.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Aicha.Dialogue.Sun10}}",
+				
+				//Gift Dialogue
+				//Love
+				"AcceptGift_(O)613": "{{i18n:Gift.Apple.Aicha}}",
+				"AcceptGift_(O)638": "{{i18n:Gift.Cherry.Aicha}}",
+				"AcceptGift_(O)768": "{{i18n:Gift.SolarEssence.Aicha}}",
+				"AcceptGift_(O)595": "{{i18n:Gift.FairyRose.Aicha}}",
+				"AcceptGift_(O)578": "{{i18n:Gift.StarShards.Aicha}}",
+				"AcceptGift_(O)84": "{{i18n:Gift.FrozenTear.Aicha}}",
+				"AcceptGift_(O)390": "{{i18n:Gift.Stone.Aicha}}",
+				//Like
+				"AcceptGift_(O)88": "{{i18n:Gift.Coconut.Aicha}}",
+				"AcceptGift_(O)126": "{{i18n:Gift.StrangeDoll.Aicha}}",
+				"AcceptGift_(O)127": "{{i18n:Gift.StrangeDoll.Aicha}}",
+				"AcceptGift_(O)766": "{{i18n:Gift.Slime.Aicha}}",
+				"AcceptGift_(O)421": "{{i18n:Gift.Sunflower.Aicha}}",
+				//Dislike
+				"AcceptGift_(O)260": "{{i18n:Gift.HotPepper.Aicha}}",
+				"AcceptGift_(O)226": "{{i18n:Gift.SpicyEel.Aicha}}",
+				"AcceptGift_(O)215": "{{i18n:Gift.PepperPoppers.Aicha}}",
+				//Hate
+				"AcceptGift_(O)635": "{{i18n:Gift.Orange.Aicha}}",
+				"AcceptGift_category_milk": "{{i18n:Gift.Milk.Aicha}}",
+				//Birthday love
+				"AcceptBirthdayGift_(O)613": "{{i18n:Birthday.Apple.Aicha}}",
+				"AcceptBirthdayGift_(O)638": "{{i18n:Birthday.Cherry.Aicha}}",
+				"AcceptBirthdayGift_(O)768": "{{i18n:Birthday.SolarEssence.Aicha}}",
+				"AcceptBirthdayGift_(O)595": "{{i18n:Birthday.FairyRose.Aicha}}",
+				"AcceptBirthdayGift_(O)578": "{{i18n:Birthday.StarShards.Aicha}}",
+				"AcceptBirthdayGift_(O)84": "{{i18n:Birthday.FrozenTear.Aicha}}",
+				"AcceptBirthdayGift_(O)390": "{{i18n:Birthday.Stone.Aicha}}",
+				//Birthday Hate
+				"AcceptBirthdayGift_(O)635": "{{i18n:Birthday.Orange.Aicha}}",
+				"AcceptBirthdayGift_category_milk": "{{i18n:Birthday.Milk.Aicha}}",
+
 			},
 		},
 	]
