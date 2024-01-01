@@ -72,7 +72,7 @@ internal class AnimationsPatches
                 }
 			}
 
-			__instance.drawOffset.Value = animation.Offset;
+			__instance.drawOffset = animation.Offset;
 			__instance.Sprite.ignoreSourceRectUpdates = false;
 			__instance.HideShadow = animation.HideShadow;
 		}
@@ -114,7 +114,7 @@ internal class AnimationsPatches
 			__instance.Sprite.SpriteWidth = 16;
 			__instance.Sprite.SpriteHeight = 32;
 			__instance.Sprite.UpdateSourceRect();
-			__instance.drawOffset.Value = Vector2.Zero;
+			__instance.drawOffset = Vector2.Zero;
 			__instance.Halt();
 			__instance.movementPause = 1;
 			__instance.HideShadow = false;

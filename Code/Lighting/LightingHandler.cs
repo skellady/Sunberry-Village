@@ -109,7 +109,7 @@ namespace SunberryVillage.Lighting
 		/// </summary>
 		internal static void AddLightsToCurrentLocation()
 		{
-			var lightsInLocation = Lights.Union(TempLights).Where(kvp => kvp.Value.GameLocation.Equals(Game1.currentLocation)).ToList();
+			var lightsInLocation = Lights.Union(TempLights).Where(kvp => kvp.Value.GameLocation is not null && kvp.Value.GameLocation.Equals(Game1.currentLocation)).ToList();
 
 			foreach (var light in lightsInLocation)
 			{

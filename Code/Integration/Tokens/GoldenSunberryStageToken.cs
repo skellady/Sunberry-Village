@@ -1,4 +1,5 @@
 ﻿using StardewValley;
+using StardewValley.Mods;
 using SunberryVillage.Utilities;
 using System.Collections.Generic;
 
@@ -47,9 +48,11 @@ internal class GoldenSunberryStageToken
 		"PS.Thysania",
 		"PS.Michelle",
 		"PS.Trevor",
+		"PS.Greyscale",
 		"TG.Valli",
 		"Lani",
-		"WF.FlourMouse",
+		"WildflourSASS",
+		"RoseSASS",
 		"Yri",
 		"Charles",
 		"Sierra",
@@ -58,7 +61,7 @@ internal class GoldenSunberryStageToken
 	};
 
 	//todo: put actual thresholds in
-	internal static readonly int[] HeartsNeededToAdvanceStage = new int[] { 10, 20, 30, 40, 50 };
+	internal static readonly int[] HeartsNeededToAdvanceStage = new int[] { 10, 25, 50, 80, 120 };
 
 	internal static void AddEventHooks()
 	{

@@ -63,9 +63,10 @@ internal class EventScriptDialaTarot : ICustomEventScript
 		_card2 = cards.GetRandomElementFromList(removeElement: true);
 		_card3 = cards.GetRandomElementFromList(removeElement: true);
 
-		_card1.ApplyBuff();
-		_card2.ApplyBuff();
-		_card3.ApplyBuff();
+		// apply in reverse order so they show up in the correct order on the buff bar
+		_card3.ApplyBuff("tarot3");
+		_card2.ApplyBuff("tarot2");
+		_card1.ApplyBuff("tarot1");
 	}
 
 	public void drawAboveAlwaysFront(SpriteBatch b)

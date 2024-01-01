@@ -70,7 +70,7 @@ namespace SunberryVillage.Audio
 		internal static void StartMusic()
 		{
 			// small delay in case other music tries to start, then kill it
-			DelayedAction.functionAfterDelay(() => Game1.stopMusicTrack(Game1.MusicContext.Default), 50);
+			//DelayedAction.functionAfterDelay(() => Game1.stopMusicTrack(Game1.MusicContext.Default), 50);
 
 			CurrentSong.Play();
 			IsMusicPlaying = true;
@@ -157,7 +157,7 @@ namespace SunberryVillage.Audio
 		{
 			// player hasn't moved and not fading in - no need to update volume
 			// even if we take the early out, we need to dampen the ambient sound - see below for details
-			Vector2 currentTilePos = Game1.player.getTileLocation();
+			Vector2 currentTilePos = Game1.player.Tile;
 			if (PreviousPlayerTilePos == currentTilePos && !FadingInMusic)
 			{
 				Game1.ambientCategory.SetVolume(Game1.options.ambientVolumeLevel * AmbientMod);
@@ -214,7 +214,7 @@ namespace SunberryVillage.Audio
 			if (Elias is null || Elias.currentLocation != Game1.currentLocation)
 				return false;
 
-			return (Vector2.Distance(Elias.getTileLocation(), EliasGuitarTilePos) < 1f) && Elias.doingEndOfRouteAnimation.Value;
+			return (Vector2.Distance(Elias.Tile, EliasGuitarTilePos) < 1f) && Elias.doingEndOfRouteAnimation.Value;
 		}
 
 		/// <summary>

@@ -85,7 +85,7 @@ internal class AnimationsHandler
 				npc.Sprite.SpriteWidth = 16;
 				npc.Sprite.ignoreSourceRectUpdates = false;
 				npc.Sprite.UpdateSourceRect();
-				npc.drawOffset.Value = Vector2.Zero;
+				npc.drawOffset = Vector2.Zero;
 				npc.IsInvisible = false;
 				npc.HideShadow = false;
 

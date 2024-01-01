@@ -1,4 +1,11 @@
 {
+  // Tarot Prompt and Responses
+  "TarotBuffDisplaySource": "Diala's Tarot Reading",
+  "TarotDialaBusy": "Diala is busy.",
+  "TarotDialaAway": "Come back when Diala is here.",
+  "TarotAlreadyReadToday": "You've already had a reading done today. Come back another time.",
+  "TarotPrompt": "Would you like to have a tarot reading done?",
+
   // Card Names
 
   "Sun.name": "The Sun",

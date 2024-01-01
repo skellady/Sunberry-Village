@@ -1,5 +1,6 @@
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
+using StardewValley.Buffs;
 using SunberryVillage.Utilities;
 using System;
 
@@ -8,30 +9,50 @@ namespace SunberryVillage.Tarot;
 internal class TarotCard
 {
 	// Buff should last the entire Stardew day - its fine to overshoot, it gets removed nightly
-	private const int BuffDurationMilliseconds = 60 * 60 * 1000;
+	private const int BuffDurationMilliseconds = 7200_000;	// 7200 seconds = 120 minutes
 
 	internal string Id;
 	internal string Name;
 	internal string Description;
 	internal Lazy<Texture2D> Texture;
-	internal Buff Buff;
+	internal string BuffId;
+	internal BuffEffects BuffEffects;
+	internal bool IsDebuff;
 	internal Func<bool> Condition;
 
-	internal TarotCard(string id, Buff buff, Func<bool> condition)
+	internal TarotCard(string id, Func<bool> condition, string buffId = null, BuffEffects buffEffects = null, bool isDebuff = false)
 	{
 		Id = id;
 		Name = Globals.TranslationHelper.Get($"{id}.name").UsePlaceholder(true);
 		Description = Globals.TranslationHelper.Get($"{id}.desc").UsePlaceholder(true);
 		Texture = new Lazy<Texture2D>(() => Game1.content.Load<Texture2D>($"SunberryTeam.SBV/Tarot/Texture/{id}"));
-		Buff = buff;
+		BuffId = buffId;
+		BuffEffects = buffEffects;
+		IsDebuff = isDebuff;
 		Condition = condition;
 	}
 
-	internal void ApplyBuff()
+	internal void ApplyBuff(string id)
 	{
-		Buff.source = Id;
-		Buff.displaySource = Name;
-		Buff.millisecondsDuration = BuffDurationMilliseconds;
-		Game1.buffsDisplay.addOtherBuff(Buff);
+		Buff buff = new(
+			id: BuffId ?? Id,
+			source: id,
+			displaySource: Globals.TranslationHelper.Get($"TarotBuffDisplaySource").UsePlaceholder(true),
+			duration: -999888,
+			iconTexture: TarotHandler.TarotBuffIcons,
+			iconSheetIndex: 0,
+			effects: BuffEffects,
+			isDebuff: IsDebuff,
+			displayName: Name,
+			description: null
+		);
+		//Buff.source = source;
+		//Buff.displaySource =;
+		//Buff.displayName = Name;
+		//Buff.iconTexture = Game1.buffsIcons;
+		//Buff.iconSheetIndex = 13;
+		////Buff.millisecondsDuration = BuffDurationMilliseconds;
+		//Buff.millisecondsDuration = ; // magic number to remove duration counter??
+		Game1.player.applyBuff(buff);
 	}
 }

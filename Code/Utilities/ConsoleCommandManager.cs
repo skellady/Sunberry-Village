@@ -80,8 +80,8 @@ internal class ConsoleCommandManager
 				if (args.Length == 0)
 				{
 					string tempId = Utils.GenerateRandomString(6);
-					string xPos = Game1.player.getTileX().ToString();
-					string yPos = Game1.player.getTileY().ToString();
+					string xPos = Game1.player.Tile.X.ToString();
+					string yPos = Game1.player.Tile.Y.ToString();
 					string intensity = "1";
 
 					args = new string[] { tempId, xPos, yPos, intensity };
@@ -271,7 +271,7 @@ internal class ConsoleCommandManager
 		Globals.CCHelper.Add("sbv.misc.getlostbooks", "Gets all lost books.", (_, _) =>
 			{
 				if (IsWorldReady())
-					Game1.netWorldState.Value.LostBooksFound.Value = 21;
+					Game1.netWorldState.Value.LostBooksFound = 21;
 			}
 		);
 
@@ -322,7 +322,7 @@ internal class ConsoleCommandManager
 		bool[,] alreadyChecked = new bool[back.LayerWidth, back.LayerHeight];
 		walkable = new bool[back.LayerWidth, back.LayerHeight];
 
-		Point currentTile = Game1.player.getTileLocationPoint();
+		Point currentTile = Game1.player.TilePoint;
 		WalkableFloodFill(curLoc, currentTile, bounds, buildings, alreadyChecked, ref tileCount);
 
 		return tileCount;
