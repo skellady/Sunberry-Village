@@ -30,8 +30,8 @@ internal class MinesPatches
 	// keeping this code for a bit to make sure i haven't fucked anything up
 
 	///// <summary>
-	///// Patches <c>GameLocation.performAction</c> to check for the "ChooseWarp" action and handle it accordingly.<br />
-	///// Proper syntax for ChooseWarp is as follows: <c>ChooseWarp "[Option1StringKey]" [x1] [y1] [LocationName1] "[Option2StringKey]" [x2] [y2] [LocationName2]</c><br />
+	///// Patches <c>GameLocation.performAction</c> to check for the "ChooseDestination" action and handle it accordingly.<br />
+	///// Proper syntax for ChooseDestination is as follows: <c>ChooseDestination "[Option1StringKey]" [x1] [y1] [LocationName1] "[Option2StringKey]" [x2] [y2] [LocationName2]</c><br />
 	///// OptionStringKey should refer to a string defined in <c>Strings/StringsFromCSFiles</c> or another game content file. <c>x</c> and <c>y</c> are the tile coords to warp to, and <c>LocationName</c> is the internal name of the map to warp to.
 	///// </summary>
 	//[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.performAction))]
@@ -40,15 +40,15 @@ internal class MinesPatches
 	//{
 	//	try
 	//	{
-	//		if (action.Trim().StartsWith("ChooseWarp ") && who.IsLocalPlayer)
+	//		if (action.Trim().StartsWith("ChooseDestination ") && who.IsLocalPlayer)
 	//		{
-	//			// strip out "ChooseWarp " and then split the rest of the string on spaces
-	//			string[] actionParams = action.Remove(0, "ChooseWarp ".Length).Split(' ');
+	//			// strip out "ChooseDestination " and then split the rest of the string on spaces
+	//			string[] actionParams = action.Remove(0, "ChooseDestination ".Length).Split(' ');
 
 	//			// number of parameters should be a multiple of 4 greater than 0
 	//			if (actionParams.Length < 1 || actionParams.Length % 4 != 0)
-	//				throw new Exception("Incorrect number of arguments provided to ChooseWarp action." +
-	//					"\nProper syntax for ChooseWarp is as follows: ChooseWarp \"[Option1StringKey]\" [x1] [y1] [LocationName1] \"[Option2StringKey]\" [x2] [y2] [LocationName2].");
+	//				throw new Exception("Incorrect number of arguments provided to ChooseDestination action." +
+	//					"\nProper syntax for ChooseDestination is as follows: ChooseDestination \"[Option1StringKey]\" [x1] [y1] [LocationName1] \"[Option2StringKey]\" [x2] [y2] [LocationName2].");
 
 	//			List<Response> responses = new();
 
@@ -59,9 +59,9 @@ internal class MinesPatches
 	//			responses.Add(new Response("Cancel", Game1.content.LoadString("Strings\\StringsFromCSFiles:LoadGameMenu.cs.10993")).SetHotKey(Keys.Escape));
 
 	//			// logging
-	//			Log.Trace($"ChooseWarp dialogue created.\nOptions:\n\t{string.Join("\n\t", responses.Select(r => r.responseKey))}");
+	//			Log.Trace($"ChooseDestination dialogue created.\nOptions:\n\t{string.Join("\n\t", responses.Select(r => r.responseKey))}");
 
-	//			Game1.currentLocation.createQuestionDialogue(" ", responses.ToArray(), "ChooseWarp");
+	//			Game1.currentLocation.createQuestionDialogue(" ", responses.ToArray(), "ChooseDestination");
 	//			return false;
 	//		}
 

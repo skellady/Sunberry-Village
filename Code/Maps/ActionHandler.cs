@@ -20,7 +20,7 @@ internal class ActionHandler
 	private static void RegisterTileActions(object sender, GameLaunchedEventArgs e)
 	{
 		GameLocation.RegisterTileAction("SBVBook", HandleBookAction);
-		GameLocation.RegisterTileAction("ChooseWarp", HandleChooseWarpAction);
+		GameLocation.RegisterTileAction("ChooseDestination", HandleChooseDestinationAction);
 		GameLocation.RegisterTileAction("DialaTarot", HandleTarotAction);
 	}
 
@@ -41,15 +41,15 @@ internal class ActionHandler
 		return true;
 	}
 
-	private static bool HandleChooseWarpAction(GameLocation location, string[] args, Farmer player, Point tile)
+	private static bool HandleChooseDestinationAction(GameLocation location, string[] args, Farmer player, Point tile)
 	{
 		// strip out 0th entry because it just contains the action name
 		string[] actionParams = args[1..];
 
 		// number of parameters should be a multiple of 4 greater than 0
 		if (actionParams.Length < 1 || actionParams.Length % 4 != 0)
-			throw new Exception("Incorrect number of arguments provided to ChooseWarp action." +
-				"\nProper syntax for ChooseWarp is as follows: ChooseWarp \"[Option1StringKey]\" [x1] [y1] [LocationName1] \"[Option2StringKey]\" [x2] [y2] [LocationName2] ... \"[OptionNStringKey]\" [xN] [yN] [LocationNameN]");
+			throw new Exception("Incorrect number of arguments provided to ChooseDestination action." +
+				"\nProper syntax for ChooseDestination is as follows: ChooseDestination \"[Option1StringKey]\" [x1] [y1] [LocationName1] \"[Option2StringKey]\" [x2] [y2] [LocationName2] ... \"[OptionNStringKey]\" [xN] [yN] [LocationNameN]");
 
 		List<Response> responses = new();
 
@@ -60,9 +60,9 @@ internal class ActionHandler
 		responses.Add(new Response("Cancel", Game1.content.LoadString("Strings\\StringsFromCSFiles:LoadGameMenu.cs.10993")).SetHotKey(Keys.Escape));
 
 		// logging
-		//Log.Trace($"ChooseWarp dialogue created.\nOptions:\n\t{string.Join("\n\t", responses.Select(r => r.responseKey))}");
+		//Log.Trace($"ChooseDestination dialogue created.\nOptions:\n\t{string.Join("\n\t", responses.Select(r => r.responseKey))}");
 
-		location.createQuestionDialogue(" ", responses.ToArray(), "ChooseWarp");
+		location.createQuestionDialogue(" ", responses.ToArray(), "ChooseDestination");
 		return true;
 	}
 

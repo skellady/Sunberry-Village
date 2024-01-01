@@ -27,7 +27,7 @@ internal class GameLocationPatches
 	 */
 
 	/// <summary>
-	/// Patches <c>GameLocation.answerDialogueAction</c> to check for response to ChooseWarp question and handle it accordingly.
+	/// Patches <c>GameLocation.answerDialogueAction</c> to check for response to ChooseDestination question and handle it accordingly.
 	/// </summary>
 	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.answerDialogueAction))]
 	[HarmonyPrefix]
@@ -35,8 +35,8 @@ internal class GameLocationPatches
 	{
 		try
 		{
-			if (questionAndAnswer.StartsWith("ChooseWarp"))
-				return HandleChooseWarpDialogueAction(questionAndAnswer);
+			if (questionAndAnswer.StartsWith("ChooseDestination"))
+				return HandleChooseDestinationDialogueAction(questionAndAnswer);
 
 			if (questionAndAnswer.Equals("tarotReading_Yes"))
 				return HandleTarotDialogueAction();
@@ -54,14 +54,14 @@ internal class GameLocationPatches
 	 *  Helpers
 	 */
 
-	private static bool HandleChooseWarpDialogueAction(string questionAndAnswer)
+	private static bool HandleChooseDestinationDialogueAction(string questionAndAnswer)
 	{
-		// if ChooseWarp answer dialogue and cancel selected, no further action needed
-		if (questionAndAnswer.Equals("ChooseWarp_Cancel"))
+		// if ChooseDestination answer dialogue and cancel selected, no further action needed
+		if (questionAndAnswer.Equals("ChooseDestination_Cancel"))
 			return false;
 
 		// otherwise - perform warp
-		string[] warpParams = questionAndAnswer.Remove(0, "ChooseWarp_".Length).Split('¦');
+		string[] warpParams = questionAndAnswer.Remove(0, "ChooseDestination_".Length).Split('¦');
 
 		//Log.Trace("Warp params: " + string.Join(" ", warpParams));
 		Game1.warpFarmer(warpParams[2], int.Parse(warpParams[0]), int.Parse(warpParams[1]), false);
@@ -100,8 +100,8 @@ internal class GameLocationPatches
 	//		if (action.Trim().StartsWith("SBVBook") && who.IsLocalPlayer)
 	//			return HandleSBVBookAction(action);
 
-	//		if (action.Trim().StartsWith("ChooseWarp") && who.IsLocalPlayer)
-	//			return HandleChooseWarpAction(action);
+	//		if (action.Trim().StartsWith("ChooseDestination") && who.IsLocalPlayer)
+	//			return HandleChooseDestinationAction(action);
 
 	//		if (action.Equals("DialaTarot") && who.IsLocalPlayer)
 	//			return HandleTarotAction(action, who, tileLocation);
@@ -136,15 +136,15 @@ internal class GameLocationPatches
 	//	return false;
 	//}
 
-	//private static bool HandleChooseWarpAction(string action)
+	//private static bool HandleChooseDestinationAction(string action)
 	//{
 	//	// split the string on spaces and then strip out the first entry because it just contains the action name
 	//	string[] actionParams = action.Split(' ')[1..];
 
 	//	// number of parameters should be a multiple of 4 greater than 0
 	//	if (actionParams.Length < 1 || actionParams.Length % 4 != 0)
-	//		throw new Exception("Incorrect number of arguments provided to ChooseWarp action." +
-	//			"\nProper syntax for ChooseWarp is as follows: ChooseWarp \"[Option1StringKey]\" [x1] [y1] [LocationName1] \"[Option2StringKey]\" [x2] [y2] [LocationName2] ... \"[OptionNStringKey]\" [xN] [yN] [LocationNameN]");
+	//		throw new Exception("Incorrect number of arguments provided to ChooseDestination action." +
+	//			"\nProper syntax for ChooseDestination is as follows: ChooseDestination \"[Option1StringKey]\" [x1] [y1] [LocationName1] \"[Option2StringKey]\" [x2] [y2] [LocationName2] ... \"[OptionNStringKey]\" [xN] [yN] [LocationNameN]");
 
 	//	List<Response> responses = new();
 
@@ -155,9 +155,9 @@ internal class GameLocationPatches
 	//	responses.Add(new Response("Cancel", Game1.content.LoadString("Strings\\StringsFromCSFiles:LoadGameMenu.cs.10993")).SetHotKey(Keys.Escape));
 
 	//	// logging
-	//	//Log.Trace($"ChooseWarp dialogue created.\nOptions:\n\t{string.Join("\n\t", responses.Select(r => r.responseKey))}");
+	//	//Log.Trace($"ChooseDestination dialogue created.\nOptions:\n\t{string.Join("\n\t", responses.Select(r => r.responseKey))}");
 
-	//	Game1.currentLocation.createQuestionDialogue(" ", responses.ToArray(), "ChooseWarp");
+	//	Game1.currentLocation.createQuestionDialogue(" ", responses.ToArray(), "ChooseDestination");
 	//	return false;
 	//}
 
