@@ -10,26 +10,14 @@
   ],
   "Dependencies": [
     // required mods
-    /*{
-      "UniqueID": "aedenthorn.ExtraMapLayers",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "spacechase0.JsonAssets",
-      "IsRequired": true
-    },*/
     {
       "UniqueID": "PeacefulEnd.CustomCompanions",
       "IsRequired": true
     },
-    /*{
+    {
       "UniqueID": "Esca.FarmTypeManager",
       "IsRequired": true
     },
-    {
-      "UniqueID": "DIGUS.MailFrameworkMod",
-      "IsRequired": true
-    },*/
     {
       "UniqueID": "Lumisteria.LumiTilesheetsIndoor",
       "IsRequired": true
@@ -43,20 +31,8 @@
       "IsRequired": true
     },*/
     // components
-    /*{
+    {
       "UniqueID": "skellady.SBVCC",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "skellady.SBVMFM",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "skellady.SBVSTF",
-      "IsRequired": true
-    },
-    {
-      "UniqueID": "skellady.SBVJA",
       "IsRequired": true
     },
     {
@@ -66,7 +42,7 @@
     {
       "UniqueID": "SunberryTeam.SBVSMAPI",
       "IsRequired": true
-    }*/
+    }
   ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher"
