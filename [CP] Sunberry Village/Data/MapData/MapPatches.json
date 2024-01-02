@@ -347,19 +347,19 @@
     {
       "Action": "EditMap",
       "Target": "Maps/Town-Christmas",
-      "PatchMode": "Replace",
+      "PatchMode": "Overlay",
       "FromFile": "Assets/Maps/MapPatches/SBVWinterFeast.tmx",
       "FromArea": {
         "X": 0,
         "Y": 0,
-        "Width": 10,
-        "Height": 10
+        "Width": 18,
+        "Height": 18
       },
       "ToArea": {
-        "X": 59,
-        "Y": 64,
-        "Width": 10,
-        "Height": 10
+        "X": 57,
+        "Y": 60,
+        "Width": 18,
+        "Height": 18
       },
       "When": {
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
