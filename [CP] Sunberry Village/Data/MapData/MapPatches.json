@@ -542,6 +542,7 @@
       }
     },
     // Moonlight Jellies
+    // Set-up
     {
       "Action": "EditMap",
       "Target": "Maps/Beach-Jellies",
@@ -576,6 +577,51 @@
         "Y": 27,
         "Width": 25,
         "Height": 15
+      }
+    },
+    // Main Event
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuau1.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 68,
+        "Y": 25,
+        "Width": 4,
+        "Height": 4
+      },
+      "When": {
+        "Season": "summer",
+        "Day": "28"
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVJellies.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 25,
+        "Height": 15
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 27,
+        "Width": 25,
+        "Height": 15
+      },
+      "When": {
+        "Season": "summer",
+        "Day": "28"
       }
     }
   ]
