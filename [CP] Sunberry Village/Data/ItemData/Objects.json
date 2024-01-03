@@ -1,214 +1,214 @@
 {
-	"Changes": [
-		// Load Objects
-		{
-			"LogName": "Load Objects",
-			"Action": "Load",
-			"Target": "Mods/skellady.SBVCP/Produce, Mods/skellady.SBVCP/Food, Mods/skellady.SBVCP/GemsArtifacts, Mods/skellady.SBVCP/MiscItems, Mods/skellady.SBVCP/Seeds",
-			"FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
-		},
-		// Produce
-		{
-			"LogName": "Crop Produce",
-			"Action": "EditData",
-			"Target": "Data/Objects",
-			"Entries": {
-				"skellady.SBVCP_Arfaj": {
-					"Name": "Arfaj",
-					"DisplayName": "{{i18n:SBV.Arfaj.Name}}",
-					"Description": "{{i18n:SBV.Arfaj.Description}}",
-					"Edibility": "0",
-					"Type": "Flower",
-					"Category": -80,
-					"Price": 300,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 0,
-					"ContextTags": [
-						"flower_item",
-						"season_spring",
-						"color_orange"						
-					]
-				},
-				"skellady.SBVCP_CallaLilies": {
-					"Name": "Calla Lilies",
-					"DisplayName": "{{i18n:SBV.CallaLilies.Name}}",
-					"Description": "{{i18n:SBV.CallaLilies.Description}}",
-					"Edibility": "0",
-					"Type": "Flower",
-					"Category": -80,
-					"Price": 190,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 1,
-					"ContextTags": [
-						"flower_item",
-						"season_summer",
-						"color_pink",
-						"color_purple"						
-					]
-				},
+    "Changes": [
+        // Load Objects
+        {
+            "LogName": "Load Objects",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/Produce, Mods/skellady.SBVCP/Food, Mods/skellady.SBVCP/GemsArtifacts, Mods/skellady.SBVCP/MiscItems, Mods/skellady.SBVCP/Seeds",
+            "FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
+        },
+        // Produce
+        {
+            "LogName": "Crop Produce",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "skellady.SBVCP_Arfaj": {
+                    "Name": "Arfaj",
+                    "DisplayName": "{{i18n:SBV.Arfaj.Name}}",
+                    "Description": "{{i18n:SBV.Arfaj.Description}}",
+                    "Edibility": "0",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 300,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 0,
+                    "ContextTags": [
+                        "flower_item",
+                        "season_spring",
+                        "color_orange"
+                    ]
+                },
+                "skellady.SBVCP_CallaLilies": {
+                    "Name": "Calla Lilies",
+                    "DisplayName": "{{i18n:SBV.CallaLilies.Name}}",
+                    "Description": "{{i18n:SBV.CallaLilies.Description}}",
+                    "Edibility": "0",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 190,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "flower_item",
+                        "season_summer",
+                        "color_pink",
+                        "color_purple"
+                    ]
+                },
                 "skellady.SBVCP_CoffeeBlossom": {
-					"Name": "Coffee Blossom",
-					"DisplayName": "{{i18n:SBV.CoffeeBlossom.Name}}",
-					"Description": "{{i18n:SBV.CoffeeBlossom.Description}}",
-					"Edibility": "0",
-					"Type": "Flower",
-					"Category": -80,
-					"Price": 240,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 2,
-					"ContextTags": [
-						"flower_item",
-						"season_spring",
-						"color_white"					
-					]
-				},
+                    "Name": "Coffee Blossom",
+                    "DisplayName": "{{i18n:SBV.CoffeeBlossom.Name}}",
+                    "Description": "{{i18n:SBV.CoffeeBlossom.Description}}",
+                    "Edibility": "0",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 240,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "flower_item",
+                        "season_spring",
+                        "color_white"
+                    ]
+                },
                 "skellady.SBVCP_Cyclamen": {
-					"Name": "Cyclamen",
-					"DisplayName": "{{i18n:SBV.Cyclamen.Name}}",
-					"Description": "{{i18n:SBV.Cyclamen.Description}}",
-					"Edibility": "0",
-					"Type": "Flower",
-					"Category": -80,
-					"Price": 150,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 3,
-					"ContextTags": [
-						"flower_item",
-						"season_winter",
-						"color_pink"					
-					]
-				},
+                    "Name": "Cyclamen",
+                    "DisplayName": "{{i18n:SBV.Cyclamen.Name}}",
+                    "Description": "{{i18n:SBV.Cyclamen.Description}}",
+                    "Edibility": "0",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 150,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "flower_item",
+                        "season_winter",
+                        "color_pink"
+                    ]
+                },
                 "skellady.SBVCP_GoldenSunberry": {
-					"Name": "Golden Sunberry",
-					"DisplayName": "{{i18n:SBV.GoldenSunberry.Name}}",
-					"Description": "{{i18n:SBV.GoldenSunberry.Description}}",
-					"Edibility": "-300",
-					"Type": "Fruit",
-					"Category": -79,
-					"Price": 750,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 4,
-					"ContextTags": [
-						"season_spring",
+                    "Name": "Golden Sunberry",
+                    "DisplayName": "{{i18n:SBV.GoldenSunberry.Name}}",
+                    "Description": "{{i18n:SBV.GoldenSunberry.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Price": 750,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 4,
+                    "ContextTags": [
+                        "season_spring",
                         "season_summer",
                         "season_fall",
-						"color_yellow"					
-					]
-				},
+                        "color_yellow"
+                    ]
+                },
                 "skellady.SBVCP_Hyacinth": {
-					"Name": "Hyacinth",
-					"DisplayName": "{{i18n:SBV.Hyacinth.Name}}",
-					"Description": "{{i18n:SBV.Hyacinth.Description}}",
-					"Edibility": "0",
-					"Type": "Flower",
-					"Category": -80,
-					"Price": 140,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 5,
-					"ContextTags": [
-						"season_spring",
+                    "Name": "Hyacinth",
+                    "DisplayName": "{{i18n:SBV.Hyacinth.Name}}",
+                    "Description": "{{i18n:SBV.Hyacinth.Description}}",
+                    "Edibility": "0",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 140,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "season_spring",
                         "flower_item",
-						"color_pink",
-                        "color_white"					
-					]
-				},
+                        "color_pink",
+                        "color_white"
+                    ]
+                },
                 "skellady.SBVCP_LunarBean": {
-					"Name": "Lunar Bean",
-					"DisplayName": "{{i18n:SBV.LunarBean.Name}}",
-					"Description": "{{i18n:SBV.LunarBean.Description}}",
-					"Edibility": "90",
-					"Type": "Minerals",
-					"Category": -2,
-					"Price": 300,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 6,
-					"ContextTags": [
-						"season_fall",
+                    "Name": "Lunar Bean",
+                    "DisplayName": "{{i18n:SBV.LunarBean.Name}}",
+                    "Description": "{{i18n:SBV.LunarBean.Description}}",
+                    "Edibility": "90",
+                    "Type": "Minerals",
+                    "Category": -2,
+                    "Price": 300,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 6,
+                    "ContextTags": [
+                        "season_fall",
                         "season_winter",
-                        "color_white"					
-					]
-				},
+                        "color_white"
+                    ]
+                },
                 "skellady.SBVCP_RoyalAnemone": {
-					"Name": "Royal Anemone",
-					"DisplayName": "{{i18n:SBV.RoyalAnemone.Name}}",
-					"Description": "{{i18n:SBV.RoyalAnemone.Description}}",
-					"Edibility": "0",
-					"Type": "Flower",
-					"Category": -80,
-					"Price": 110,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 7,
-					"ContextTags": [
-						"season_fall",
+                    "Name": "Royal Anemone",
+                    "DisplayName": "{{i18n:SBV.RoyalAnemone.Name}}",
+                    "Description": "{{i18n:SBV.RoyalAnemone.Description}}",
+                    "Edibility": "0",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 110,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 7,
+                    "ContextTags": [
+                        "season_fall",
                         "flower_item",
-                        "color_pink"					
-					]
-				},
+                        "color_pink"
+                    ]
+                },
                 "skellady.SBVCP_Speedwell": {
-					"Name": "Speedwell",
-					"DisplayName": "{{i18n:SBV.Speedwell.Name}}",
-					"Description": "{{i18n:SBV.Speedwell.Description}}",
-					"Edibility": "0",
-					"Type": "Flower",
-					"Category": -80,
-					"Price": 210,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 8,
-					"ContextTags": [
-						"season_spring",
+                    "Name": "Speedwell",
+                    "DisplayName": "{{i18n:SBV.Speedwell.Name}}",
+                    "Description": "{{i18n:SBV.Speedwell.Description}}",
+                    "Edibility": "0",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 210,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 8,
+                    "ContextTags": [
+                        "season_spring",
                         "flower_item",
-                        "color_blue"					
-					]
-				},
+                        "color_blue"
+                    ]
+                },
                 "skellady.SBVCP_Sunberries": {
-					"Name": "Sunberries",
-					"DisplayName": "{{i18n:SBV.Sunberries.Name}}",
-					"Description": "{{i18n:SBV.Sunberries.Description}}",
-					"Edibility": "20",
-					"Type": "Fruit",
-					"Category": -79,
-					"Price": 110,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 9,
-					"ContextTags": [
-						"season_summer",
+                    "Name": "Sunberries",
+                    "DisplayName": "{{i18n:SBV.Sunberries.Name}}",
+                    "Description": "{{i18n:SBV.Sunberries.Description}}",
+                    "Edibility": "20",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Price": 110,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 9,
+                    "ContextTags": [
+                        "season_summer",
                         "fruit_item",
-                        "color_purple"					
-					]
-				},
+                        "color_purple"
+                    ]
+                },
                 "skellady.SBVCP_WildMustard": {
-					"Name": "Wild Mustard",
-					"DisplayName": "{{i18n:SBV.WildMustard.Name}}",
-					"Description": "{{i18n:SBV.WildMustard.Description}}",
-					"Edibility": "15",
-					"Type": "Flower",
-					"Category": -80,
-					"Price": 180,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 10,
-					"ContextTags": [
-						"season_fall",
+                    "Name": "Wild Mustard",
+                    "DisplayName": "{{i18n:SBV.WildMustard.Name}}",
+                    "Description": "{{i18n:SBV.WildMustard.Description}}",
+                    "Edibility": "15",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 180,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 10,
+                    "ContextTags": [
+                        "season_fall",
                         "flower_item",
-                        "color_yellow"					
-					]
-				},
+                        "color_yellow"
+                    ]
+                },
                 "skellady.SBVCP_Carob": {
-					"Name": "Carob",
-					"DisplayName": "{{i18n:SBV.Carob.Name}}",
-					"Description": "{{i18n:SBV.Carob.Description}}",
-					"Edibility": "30",
-					"Type": "Fruit",
-					"Category": -79,
-					"Price": 150,
-					"Texture": "Mods\\skellady.SBVCP\\Produce",
-					"SpriteIndex": 11,
-					"ContextTags": [
-						"season_fall",
-                        "color_brown"					
-					]
-				}
-			}
-		},
+                    "Name": "Carob",
+                    "DisplayName": "{{i18n:SBV.Carob.Name}}",
+                    "Description": "{{i18n:SBV.Carob.Description}}",
+                    "Edibility": "30",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Price": 150,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 11,
+                    "ContextTags": [
+                        "season_fall",
+                        "color_brown"
+                    ]
+                }
+            }
+        },
         // Food
         {
             "LogName": "Add Food",
@@ -221,7 +221,7 @@
                     "Description": "{{i18n:SBV.ChocoChipCookies.Description}}",
                     "Edibility": "50",
                     "Type": "Cooking",
-					"Category": -7,
+                    "Category": -7,
                     "Price": 220,
                     "Texture": "Mods\\skellady.SBVCP\\Food",
                     "SpriteIndex": 0,
@@ -239,7 +239,7 @@
                     "Description": "{{i18n:SBV.DialaHotChoco.Description}}",
                     "Edibility": "10",
                     "Type": "Cooking",
-					"Category": -7,
+                    "Category": -7,
                     "Price": 400,
                     "Texture": "Mods\\skellady.SBVCP\\Food",
                     "SpriteIndex": 1,
@@ -257,7 +257,7 @@
                     "Description": "{{i18n:SBV.IceCreamBowl.Description}}",
                     "Edibility": "35",
                     "Type": "Cooking",
-					"Category": -7,
+                    "Category": -7,
                     "Price": 350,
                     "Texture": "Mods\\skellady.SBVCP\\Food",
                     "SpriteIndex": 2,
@@ -288,7 +288,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 0,
                     "ContextTags": [
-                        "color_blue"
+                        "color_blue",
+                        "not_museum_donatable"
                     ]
                 },
                 "skellady.SBVCP_BlueAuraQuartz": {
@@ -303,7 +304,8 @@
                     "SpriteIndex": 1,
                     "ContextTags": [
                         "color_blue",
-                        "color_purple"
+                        "color_purple",
+                        "not_museum_donatable"
                     ]
                 },
                 "skellady.SBVCP_Citrine": {
@@ -317,7 +319,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 2,
                     "ContextTags": [
-                        "color_yellow"
+                        "color_yellow",
+                        "not_museum_donatable"
                     ]
                 },
                 "skellady.SBVCP_Moonberry": {
@@ -331,7 +334,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 3,
                     "ContextTags": [
-                        "color_white"
+                        "color_white",
+                        "not_museum_donatable"
                     ]
                 },
                 "skellady.SBVCP_Purpurite": {
@@ -345,7 +349,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 4,
                     "ContextTags": [
-                        "color_purple"
+                        "color_purple",
+                        "not_museum_donatable"
                     ]
                 },
                 "skellady.SBVCP_Serpentine": {
@@ -359,9 +364,195 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 5,
                     "ContextTags": [
-                        "color_green"
+                        "color_green",
+                        "not_museum_donatable"
                     ]
-                }
+                },
+                "skellady.SBVCP_SunberryGeode": {
+                    "Name": "Sunberry Geode",
+                    "DisplayName": "{{i18n:SBV.SunberryGeode.Name}}",
+                    "Description": "{{i18n:SBV.SunberryGeode.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -2,
+                    "Price": 200,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 6,
+                    "GeodeDropsDefaultItems": true,
+                    "GeodeDrops": [
+                        {
+                            "Chance": 0.2,
+                            "Precedence": 0,
+                            "Id": "RareMinerals",
+                            "RandomItemId": [
+                                "(O)skellady.SBVCP_BlueAuraQuartz",
+                                "(O)skellady.SBVCP_Annabergite",
+                                "(O)skellady.SBVCP_Serpentine",
+                                "(O)562",
+                                "(O)577"
+                            ],
+                            "QualityModifierMode": "Stack"
+                        },
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "NormalMinerals",
+                            "RandomItemId": [
+                                "(O)skellady.SBVCP_Purpurite",
+                                "(O)skellady.SBVCP_Moonberry",
+                                "(O)skellady.SBVCP_Citrine",
+                                "(O)551",
+                                "(O)543"
+                            ]
+                        }
+                    ],
+                    "ContextTags": [
+                        "geode"
+                    ]
+                },
+                "skellady.SBVCP_MushroomStatue": {
+                    "Name": "Mushroom Statue",
+                    "DisplayName": "{{i18n:SBV.MushroomStatue.Name}}",
+                    "Description": "{{i18n:SBV.MushroomStatue.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 110,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 7,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "skellady.SBVCP_AncientStaff": {
+                    "Name": "Ancient Staff",
+                    "DisplayName": "{{i18n:SBV.AncientStaff.Name}}",
+                    "Description": "{{i18n:SBV.AncientStaff.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 120,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 8,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "skellady.SBVCP_SilverMask": {
+                    "Name": "Silver Mask",
+                    "DisplayName": "{{i18n:SBV.SilverMask.Name}}",
+                    "Description": "{{i18n:SBV.SilverMask.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 200,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 9,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "skellady.SBVCP_LapisNecklace": {
+                    "Name": "Lapis Necklace",
+                    "DisplayName": "{{i18n:SBV.LapisNecklace.Name}}",
+                    "Description": "{{i18n:SBV.LapisNecklace.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 90,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 10,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "skellady.SBVCP_WickedVase": {
+                    "Name": "Wicked Vase",
+                    "DisplayName": "{{i18n:SBV.WickedVase.Name}}",
+                    "Description": "{{i18n:SBV.WickedVase.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 80,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 11,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "skellady.SBVCP_GoldenCoins": {
+                    "Name": "Golden Coins",
+                    "DisplayName": "{{i18n:SBV.GoldenCoins.Name}}",
+                    "Description": "{{i18n:SBV.GoldenCoins.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 250,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 12,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "skellady.SBVCP_ChippedJug": {
+                    "Name": "Chipped Jug",
+                    "DisplayName": "{{i18n:SBV.ChippedJug.Name}}",
+                    "Description": "{{i18n:SBV.ChippedJug.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 120,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 13,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "skellady.SBVCP_DwarfKeyI": {
+                    "Name": "Dwarf Key I",
+                    "DisplayName": "{{i18n:SBV.DwarfKeyI.Name}}",
+                    "Description": "{{i18n:SBV.DwarfKeyI.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 10,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 14,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "skellady.SBVCP_DwarfKeyII": {
+                    "Name": "Dwarf Key II",
+                    "DisplayName": "{{i18n:SBV.DwarfKeyII.Name}}",
+                    "Description": "{{i18n:SBV.DwarfKeyII.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 10,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 15,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "skellady.SBVCP_DwarfKeyIII": {
+                    "Name": "Dwarf Key III",
+                    "DisplayName": "{{i18n:SBV.DwarfKeyIII.Name}}",
+                    "Description": "{{i18n:SBV.DwarfKeyIII.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 10,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 16,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
+                "skellady.SBVCP_DwarfKeyIV": {
+                    "Name": "Dwarf Key IV",
+                    "DisplayName": "{{i18n:SBV.DwarfKeyIV.Name}}",
+                    "Description": "{{i18n:SBV.DwarfKeyIV.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Arch",
+                    "Price": 10,
+                    "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
+                    "SpriteIndex": 17,
+                    "ContextTags": [
+                        "not_museum_donatable"
+                    ]
+                },
             }
         },
         // Misc Items
@@ -705,8 +896,8 @@
                     "Price": 5000,
                     "Texture": "Mods\\skellady.SBVCP\\Seeds",
                     "SpriteIndex": 11
-                },
+                }
             }
         }
-	]
+    ]
 }
