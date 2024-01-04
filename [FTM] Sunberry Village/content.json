@@ -7,7 +7,7 @@
     "Areas": [
       {
         "SpringItemIndex": [
-          "SBV Speedwell",
+          "skellady.SBVCP_Speedwell",
           22,
           20,
           16,
@@ -19,12 +19,12 @@
           402
         ],
         "FallItemIndex": [
-          "SBV Wild Mustard",
+          "skellady.SBVCP_WildMustard",
           404,
           410
         ],
         "WinterItemIndex": [
-          "SBV Cyclamen",
+          "skellady.SBVCP_Cyclamen",
           283,
           418
         ],
@@ -54,6 +54,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -105,6 +106,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -155,6 +157,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -504,6 +507,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -568,6 +572,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -607,6 +612,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -646,6 +652,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -685,6 +692,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -724,6 +732,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -763,6 +772,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -802,6 +812,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -841,6 +852,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -880,6 +892,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -919,6 +932,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -958,6 +972,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -998,6 +1013,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1079,6 +1095,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1155,6 +1172,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1231,6 +1249,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1307,6 +1326,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1383,6 +1403,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1459,6 +1480,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1535,6 +1557,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1611,6 +1634,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1687,6 +1711,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1763,6 +1788,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1839,6 +1865,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -1921,6 +1948,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -2000,6 +2028,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -2082,6 +2111,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -2192,9 +2222,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -2238,6 +2268,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -2284,9 +2315,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -2336,6 +2367,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -2380,9 +2412,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -2426,6 +2458,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -2472,9 +2505,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -2524,6 +2557,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -2568,9 +2602,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -2614,6 +2648,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -2660,9 +2695,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -2712,6 +2747,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -2739,9 +2775,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -2774,9 +2810,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -2815,9 +2851,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -2878,6 +2914,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -2925,9 +2962,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -2977,6 +3014,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -3004,9 +3042,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -3039,9 +3077,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -3080,9 +3118,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -3143,6 +3181,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -3190,7 +3229,7 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 45
                 },
@@ -3242,6 +3281,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -3269,9 +3309,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -3298,9 +3338,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -3339,9 +3379,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -3402,6 +3442,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -3449,9 +3490,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -3501,6 +3542,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -3528,9 +3570,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -3555,27 +3597,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 20
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Citrine",
+                  "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 20
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Serpentine",
+                  "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 20
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -3627,6 +3669,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -3720,6 +3763,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -3747,9 +3791,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -3774,27 +3818,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Citrine",
+                  "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Serpentine",
+                  "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -3812,27 +3856,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 45
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Citrine",
+                  "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Serpentine",
+                  "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -3850,27 +3894,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Citrine",
+                  "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Serpentine",
+                  "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -3902,6 +3946,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -3949,9 +3994,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -4001,6 +4046,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -4028,7 +4074,7 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 45
                 },
@@ -4055,27 +4101,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Citrine",
+                  "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Serpentine",
+                  "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -4093,27 +4139,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Citrine",
+                  "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Serpentine",
+                  "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -4131,27 +4177,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Citrine",
+                  "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Serpentine",
+                  "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -4183,6 +4229,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -4230,9 +4277,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -4282,6 +4329,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -4309,9 +4357,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -4336,27 +4384,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Citrine",
+                  "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Serpentine",
+                  "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -4376,15 +4424,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 30
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -4410,15 +4458,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 30
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -4442,27 +4490,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -4480,27 +4528,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -4532,6 +4580,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -4579,9 +4628,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -4631,6 +4680,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -4658,9 +4708,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -4685,27 +4735,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Citrine",
+                  "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Serpentine",
+                  "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -4725,15 +4775,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 30
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -4759,15 +4809,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 30
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -4791,27 +4841,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -4829,27 +4879,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -4881,6 +4931,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -4928,9 +4979,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -4980,6 +5031,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -5007,9 +5059,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5034,27 +5086,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Citrine",
+                  "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Serpentine",
+                  "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -5074,15 +5126,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -5108,15 +5160,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -5140,27 +5192,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -5178,27 +5230,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -5230,6 +5282,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -5277,9 +5330,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5329,6 +5382,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -5356,9 +5410,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5388,9 +5442,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5420,9 +5474,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5452,9 +5506,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5480,15 +5534,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -5514,15 +5568,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -5546,27 +5600,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -5584,27 +5638,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -5644,6 +5698,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -5751,6 +5806,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -6063,6 +6119,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -6167,6 +6224,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -6482,6 +6540,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
@@ -6589,6 +6648,7 @@
           "WeatherYesterday": [],
           "WeatherToday": [],
           "WeatherTomorrow": [],
+          "GameStateQueries": [],
           "CPConditions": {},
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
