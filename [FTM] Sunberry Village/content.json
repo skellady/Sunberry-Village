@@ -1,541 +1,11 @@
 {
-  "ForageSpawnEnabled": true,
+  "ForageSpawnEnabled": false,
   "LargeObjectSpawnEnabled": true,
   "OreSpawnEnabled": true,
   "MonsterSpawnEnabled": true,
   "Forage_Spawn_Settings": {
-    "Areas": [
-      {
-        "SpringItemIndex": [
-          "skellady.SBVCP_Speedwell",
-          22,
-          20,
-          16,
-          18,
-          296
-        ],
-        "SummerItemIndex": [
-          396,
-          402
-        ],
-        "FallItemIndex": [
-          "skellady.SBVCP_WildMustard",
-          404,
-          410
-        ],
-        "WinterItemIndex": [
-          "skellady.SBVCP_Cyclamen",
-          283,
-          418
-        ],
-        "UniqueAreaID": "SBV Sunberry Forest Forage",
-        "MapName": "Custom_SBV_SunberryForest",
-        "MinimumSpawnsPerDay": -1,
-        "MaximumSpawnsPerDay": 10,
-        "IncludeTerrainTypes": [
-          "Grass"
-        ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 600,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "GameStateQueries": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
-      },
-      {
-        "SpringItemIndex": [
-          22,
-          18,
-          591
-        ],
-        "SummerItemIndex": [
-          396,
-          402
-        ],
-        "FallItemIndex": [
-          408,
-          404,
-          406
-        ],
-        "WinterItemIndex": [
-          418,
-          283
-        ],
-        "UniqueAreaID": "SBV Sunberry Village Forage",
-        "MapName": "Custom_SBV_SunberryVillage",
-        "MinimumSpawnsPerDay": 2,
-        "MaximumSpawnsPerDay": 3,
-        "IncludeTerrainTypes": [
-          "Grass"
-        ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 600,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "GameStateQueries": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
-      },
-      {
-        "SpringItemIndex": [
-          16,
-          20
-        ],
-        "SummerItemIndex": [
-          396
-        ],
-        "FallItemIndex": [
-          408,
-          404,
-          406,
-          410
-        ],
-        "WinterItemIndex": [
-          418,
-          283
-        ],
-        "UniqueAreaID": "SBV Sunberry Mountain Forage",
-        "MapName": "Custom_SBV_SunberryMountain",
-        "MinimumSpawnsPerDay": 2,
-        "MaximumSpawnsPerDay": 3,
-        "IncludeTerrainTypes": [
-          "Grass"
-        ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 600,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "GameStateQueries": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
-      },
-      {
-        "SpringItemIndex": [
-          {
-            "Category": "Breakable",
-            "Contents": [
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 2,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 3,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 4,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 5,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 2,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 4,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 5,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Mixed Seeds",
-                "Stack": 2,
-                "PercentChanceToSpawn": 2
-              },
-              {
-                "Category": "Object",
-                "Name": "Stone",
-                "Stack": 4,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Stone",
-                "Stack": 6,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Copper Ore",
-                "Stack": 2,
-                "PercentChanceToSpawn": 5
-              },
-              {
-                "Category": "Object",
-                "Name": "Copper Ore",
-                "Stack": 5,
-                "PercentChanceToSpawn": 5
-              }
-            ]
-          }
-        ],
-        "SummerItemIndex": [
-          {
-            "Category": "Breakable",
-            "Contents": [
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 2,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 3,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 4,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 5,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 2,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 4,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 5,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Mixed Seeds",
-                "Stack": 2,
-                "PercentChanceToSpawn": 2
-              },
-              {
-                "Category": "Object",
-                "Name": "Stone",
-                "Stack": 4,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Stone",
-                "Stack": 6,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Copper Ore",
-                "Stack": 2,
-                "PercentChanceToSpawn": 5
-              },
-              {
-                "Category": "Object",
-                "Name": "Copper Ore",
-                "Stack": 5,
-                "PercentChanceToSpawn": 5
-              }
-            ]
-          }
-        ],
-        "FallItemIndex": [
-          {
-            "Category": "Breakable",
-            "Contents": [
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 2,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 3,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 4,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 5,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 2,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 4,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 5,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Mixed Seeds",
-                "Stack": 2,
-                "PercentChanceToSpawn": 2
-              },
-              {
-                "Category": "Object",
-                "Name": "Stone",
-                "Stack": 4,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Stone",
-                "Stack": 6,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Copper Ore",
-                "Stack": 2,
-                "PercentChanceToSpawn": 5
-              },
-              {
-                "Category": "Object",
-                "Name": "Copper Ore",
-                "Stack": 5,
-                "PercentChanceToSpawn": 5
-              }
-            ]
-          }
-        ],
-        "WinterItemIndex": [
-          {
-            "Category": "Breakable",
-            "Contents": [
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 2,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 3,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 4,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Wood",
-                "Stack": 5,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 2,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 4,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Sap",
-                "Stack": 5,
-                "PercentChanceToSpawn": 4
-              },
-              {
-                "Category": "Object",
-                "Name": "Mixed Seeds",
-                "Stack": 2,
-                "PercentChanceToSpawn": 2
-              },
-              {
-                "Category": "Object",
-                "Name": "Stone",
-                "Stack": 4,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Stone",
-                "Stack": 6,
-                "PercentChanceToSpawn": 9
-              },
-              {
-                "Category": "Object",
-                "Name": "Copper Ore",
-                "Stack": 2,
-                "PercentChanceToSpawn": 5
-              },
-              {
-                "Category": "Object",
-                "Name": "Copper Ore",
-                "Stack": 5,
-                "PercentChanceToSpawn": 5
-              }
-            ]
-          }
-        ],
-        "UniqueAreaID": "SBV Mines 1",
-        "MapName": "Custom_SBV_Mines1",
-        "MinimumSpawnsPerDay": -1,
-        "MaximumSpawnsPerDay": 5,
-        "IncludeTerrainTypes": [
-          "Wood"
-        ],
-        "ExcludeTerrainTypes": [],
-        "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
-        "StrictTileChecking": "High",
-        "SpawnTiming": {
-          "StartTime": 600,
-          "EndTime": 600,
-          "MinimumTimeBetweenSpawns": 10,
-          "MaximumSimultaneousSpawns": null,
-          "OnlySpawnIfAPlayerIsPresent": false,
-          "SpawnSound": ""
-        },
-        "ExtraConditions": {
-          "Years": [],
-          "Seasons": [],
-          "Days": [],
-          "WeatherYesterday": [],
-          "WeatherToday": [],
-          "WeatherTomorrow": [],
-          "GameStateQueries": [],
-          "CPConditions": {},
-          "EPUPreconditions": [],
-          "LimitedNumberOfSpawns": null
-        },
-        "DaysUntilSpawnsExpire": 1
-      }
-    ],
-    "PercentExtraSpawnsPerForagingLevel": 0,
-    "SpringItemIndex": [
-      16,
-      20,
-      22,
-      257
-    ],
-    "SummerItemIndex": [
-      396,
-      398,
-      402,
-      404
-    ],
-    "FallItemIndex": [
-      281,
-      404,
-      420,
-      422
-    ],
-    "WinterItemIndex": [],
-    "CustomTileIndex": []
+    "Areas": [ ],
+    "CustomTileIndex": [ ]
   },
   "Large_Object_Spawn_Settings": {
     "Areas": [
@@ -3231,7 +2701,7 @@
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -3858,7 +3328,7 @@
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -4076,7 +3546,7 @@
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5746,9 +5216,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5834,9 +5304,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5866,9 +5336,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5898,9 +5368,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5930,9 +5400,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -5958,15 +5428,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -5992,15 +5462,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -6024,27 +5494,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -6062,27 +5532,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -6167,9 +5637,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -6252,9 +5722,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -6284,9 +5754,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -6316,9 +5786,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -6348,9 +5818,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
@@ -6376,15 +5846,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -6410,15 +5880,15 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Moonberry",
+                  "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -6442,27 +5912,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -6480,27 +5950,27 @@
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Blue Aura Quartz",
+                  "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Annabergite",
+                  "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 15
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Purpurite",
+                  "Name": "skellady.SBVCP_Purpurite",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 10
+                  "PercentChanceToSpawn": 1
                 }
               ]
             }
@@ -6588,9 +6058,9 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "SBV Cinder Leaf",
+                  "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 45
+                  "PercentChanceToSpawn": 8
                 },
                 {
                   "Category": "Object",
