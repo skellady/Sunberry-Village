@@ -626,6 +626,7 @@
       "FromFile": "Data/Dialogue/blank.json",
     },
     {
+      "LogName": "Load Location Event File Blanks",
       "Action": "Load",
       "Target": "Data/Events/Custom_SBV_DialaCafe, Data/Events/Custom_SBV_DDHouse, Data/Events/Custom_SBV_SunberryVillage, Data/Events/Custom_SBV_SunberryRoad, Data/Events/Custom_SBV_SunberryForest, Data/Events/Custom_SBV_SunberryMountain, Data/Events/Custom_SBV_SunberryLibrary, Data/Events/Custom_SBV_ReiHouse, Data/Events/Custom_SBV_AriMarket, Data/Events/Custom_SBV_EzraHouse, Data/Events/Custom_SBV_ImanHouse, Data/Events/Custom_SBV_MaiaHouse, Data/Events/Custom_SBV_EliasHouse, Data/Events/Custom_SBV_MiyoungHouse, Data/Events/Custom_SBV_SilasBlacksmith, Data/Events/Custom_SBV_SerenityInn, Data/Events/Custom_SBV_SerenityInn2ndFloor, Data/Events/Custom_SBV_SerenityInn3rdFloor, Data/Events/Custom_SBV_OpheliaHouse, Data/Events/Custom_SBV_EzraClothes, Data/Events/Custom_SBV_CrystalCave, Data/Events/Custom_SBV_MinesFinal",
       "FromFile": "Data/Dialogue/blank.json",
@@ -646,7 +647,7 @@
     {
       "LogName": "Include Map Data",
       "Action": "Include",
-      "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/MapMusic.json, Data/MapData/GarbageCans.json",
+      "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/MapMusic.json, Data/MapData/GarbageCans.json, Data/MapData/ChairTiles.json",
     },
     // Dynamic Changes Includes
     {
