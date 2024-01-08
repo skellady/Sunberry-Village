@@ -13,7 +13,7 @@
           "BirthDay": 17,
           "HomeRegion": "Town",
           "Gender": "Female",
-          "Age": Child,
+          "Age": "Child",
           "Manner": "Polite",
           "SocialAnxiety": "Shy",
           "Optimism": "Positive",

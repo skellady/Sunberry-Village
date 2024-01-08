@@ -635,7 +635,7 @@
     {
       "LogName": "Include Location Data",
       "Action": "Include",
-      "FromFile": "Data/LocationData/Locations.json",
+      "FromFile": "Data/LocationData/Locations.json, Data/LocationData/LocationContexts.json",
     },
     // Tilesheets
     {

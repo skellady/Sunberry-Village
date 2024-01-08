@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="128">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="128">
  <editorsettings>
   <export target="DialaTarotPatch.tmx" format="tmx"/>
  </editorsettings>
  <properties>
   <property name="DayTiles" value="AlwaysFront 99 11 369 AlwaysFront 99 15 369 AlwaysFront 78 9 369 AlwaysFront 56 10 369 AlwaysFront 33 10 369 AlwaysFront 12 6 369 AlwaysFront 2 15 369 AlwaysFront 36 42 369 AlwaysFront 46 18 369 AlwaysFront 67 27 369 Front 84 27 369 AlwaysFront 81 40 369 AlwaysFront 79 73 369 AlwaysFront 70 73 369 AlwaysFront 51 78 369 AlwaysFront 64 90 369 Buildings 20 9 510"/>
   <property name="Light" value="99 11 4 99 15 4 78 9 4 56 10 4 33 10 4 12 6 4 2 15 4 36 42 4 46 18 4 67 27 4 84 27 4 81 40 4 79 73 4 70 73 4 51 78 4 65 90 4 89 11 4 39 46 4 62 89 4 54 83 4 58 86 4 54 89 4 62 83 4 61 78 4 65 77 4 20 9 4"/>
+  <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
   <property name="NightTiles" value="AlwaysFront 99 11 368 AlwaysFront 99 15 368 AlwaysFront 78 9 368 AlwaysFront 56 10 368 AlwaysFront 33 10 368 AlwaysFront 12 6 368 AlwaysFront 2 15 368 AlwaysFront 36 42 368 AlwaysFront 46 18 368 AlwaysFront 67 27 368 Front 84 27 368 AlwaysFront 81 40 368 AlwaysFront 79 73 368 AlwaysFront 70 73 368 AlwaysFront 51 78 368 AlwaysFront 65 90 368 Buildings 20 9 507"/>
   <property name="Outdoors" value="T"/>
  </properties>
