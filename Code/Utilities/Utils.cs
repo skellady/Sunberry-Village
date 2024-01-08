@@ -24,5 +24,7 @@ namespace SunberryVillage.Utilities
 
 			return new string(stringChars);
 		}
+
+		internal static string GetTranslationWithPlaceholder(string key) => Globals.TranslationHelper.Get(key).UsePlaceholder(true);
 	}
 }

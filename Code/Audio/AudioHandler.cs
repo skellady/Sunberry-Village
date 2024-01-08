@@ -94,9 +94,9 @@ namespace SunberryVillage.Audio
 		{
 			SongIntroed = true;
 
-			string speechBubble1 = Globals.TranslationHelper.Get("SongIntro").UsePlaceholder(true);
-			string speechBubble2 = Globals.TranslationHelper.Get($"{CurrentSong.Name}.name").UsePlaceholder(true) +
-				Globals.TranslationHelper.Get("SongCredits").UsePlaceholder(true);
+			string speechBubble1 = Utils.GetTranslationWithPlaceholder("SongIntro");
+			string speechBubble2 = Utils.GetTranslationWithPlaceholder($"{CurrentSong.Name}.name") +
+				Utils.GetTranslationWithPlaceholder("SongCredits");
 
 			// break up into two separate bubbles since they don't support newlines
 			Elias.showTextAboveHead(speechBubble1, duration: 5000);
@@ -108,7 +108,7 @@ namespace SunberryVillage.Audio
 		/// </summary>
 		private static void AddSongOutroSpeechBubble()
 		{
-			string speechBubble = Globals.TranslationHelper.Get("SongOutro").UsePlaceholder(true);
+			string speechBubble = Utils.GetTranslationWithPlaceholder("SongOutro");
 			Elias.showTextAboveHead(speechBubble, duration: 5000);
 		}
 

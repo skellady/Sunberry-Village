@@ -23,8 +23,8 @@ internal class TarotCard
 	internal TarotCard(string id, Func<bool> condition, string buffId = null, BuffEffects buffEffects = null, bool isDebuff = false)
 	{
 		Id = id;
-		Name = Globals.TranslationHelper.Get($"{id}.name").UsePlaceholder(true);
-		Description = Globals.TranslationHelper.Get($"{id}.desc").UsePlaceholder(true);
+		Name = Utils.GetTranslationWithPlaceholder($"{id}.name");
+		Description = Utils.GetTranslationWithPlaceholder($"{id}.desc");
 		Texture = new Lazy<Texture2D>(() => Game1.content.Load<Texture2D>($"SunberryTeam.SBV/Tarot/Texture/{id}"));
 		BuffId = buffId;
 		BuffEffects = buffEffects;
@@ -37,7 +37,7 @@ internal class TarotCard
 		Buff buff = new(
 			id: BuffId ?? Id,
 			source: id,
-			displaySource: Globals.TranslationHelper.Get($"TarotBuffDisplaySource").UsePlaceholder(true),
+			displaySource: Utils.GetTranslationWithPlaceholder($"TarotBuffDisplaySource"),
 			duration: -999888,
 			iconTexture: TarotHandler.TarotBuffIcons,
 			iconSheetIndex: 0,

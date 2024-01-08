@@ -10,27 +10,33 @@ using System.Linq;
 
 namespace SunberryVillage.Maps;
 
-internal class ActionHandler
+internal class ActionManager
 {
 	internal static void AddEventHooks()
 	{
 		Globals.EventHelper.GameLoop.GameLaunched += RegisterTileActions;
 	}
 
+	private static void InitializeToggles(object sender, WarpedEventArgs e)
+	{
+		throw new NotImplementedException();
+	}
+
 	private static void RegisterTileActions(object sender, GameLaunchedEventArgs e)
 	{
-		GameLocation.RegisterTileAction("SBVBook", HandleBookAction);
-		GameLocation.RegisterTileAction("ChooseDestination", HandleChooseDestinationAction);
-		GameLocation.RegisterTileAction("DialaTarot", HandleTarotAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_Book", HandleBookAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ChooseDestination", HandleChooseDestinationAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DialaTarot", HandleTarotAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ToggleTiles", TileToggleManager.HandleToggleTilesAction);
 	}
 
 	private static bool HandleBookAction(GameLocation location, string[] args, Farmer player, Point tile)
 	{
 		if (args.Length < 2)
-			throw new Exception("Incorrect number of arguments provided to SBVBook action." +
-				"\nProper syntax for SBVBook is as follows: SBVBook MandatoryStringPathAndKey [OptionalStringPathAndKey] ... [OptionalStringPathAndKey] (note the lack of quotes around each parameter)" +
+			throw new Exception("Incorrect number of arguments provided to SunberryTeam.SBVSMAPI_Book action." +
+				"\nProper syntax for SunberryTeam.SBVSMAPI_Book is as follows: SunberryTeam.SBVSMAPI_Book MandatoryStringPathAndKey [OptionalStringPathAndKey] ... [OptionalStringPathAndKey] (note the lack of quotes around each parameter)" +
 				"\nString path and key formatted like so: Path\\To\\File:StringKey" +
-				"\nExample: \"SBVBook Strings\\StringsFromCSFiles:summer\"");
+				"\nExample: \"SunberryTeam.SBVSMAPI_Book Strings\\StringsFromCSFiles:summer\"");
 
 		// separate individual pages with a bunch of newlines - ensures pages don't bleed over onto the previous page
 		// remove 0th arg as it is the command name
@@ -48,8 +54,8 @@ internal class ActionHandler
 
 		// number of parameters should be a multiple of 4 greater than 0
 		if (actionParams.Length < 1 || actionParams.Length % 4 != 0)
-			throw new Exception("Incorrect number of arguments provided to ChooseDestination action." +
-				"\nProper syntax for ChooseDestination is as follows: ChooseDestination \"[Option1StringKey]\" [x1] [y1] [LocationName1] \"[Option2StringKey]\" [x2] [y2] [LocationName2] ... \"[OptionNStringKey]\" [xN] [yN] [LocationNameN]");
+			throw new Exception("Incorrect number of arguments provided to SunberryTeam.SBVSMAPI_ChooseDestination action." +
+				"\nProper syntax for SunberryTeam.SBVSMAPI_ChooseDestination is as follows: SunberryTeam.SBVSMAPI_ChooseDestination \"[Option1StringKey]\" [x1] [y1] [LocationName1] \"[Option2StringKey]\" [x2] [y2] [LocationName2] ... \"[OptionNStringKey]\" [xN] [yN] [LocationNameN]");
 
 		List<Response> responses = new();
 
@@ -62,7 +68,7 @@ internal class ActionHandler
 		// logging
 		//Log.Trace($"ChooseDestination dialogue created.\nOptions:\n\t{string.Join("\n\t", responses.Select(r => r.responseKey))}");
 
-		location.createQuestionDialogue(" ", responses.ToArray(), "ChooseDestination");
+		location.createQuestionDialogue(" ", responses.ToArray(), "SunberryTeam.SBVSMAPI_ChooseDestination");
 		return true;
 	}
 
@@ -72,24 +78,24 @@ internal class ActionHandler
 		{
 			if (player.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
 			{
-				Game1.drawObjectDialogue(Globals.TranslationHelper.Get("TarotAlreadyReadToday").UsePlaceholder(true));
+				Game1.drawObjectDialogue(Utils.GetTranslationWithPlaceholder("TarotAlreadyReadToday"));
 				return false;
 			}
 
 			// if you have seen the necessary event
 			if (player.eventsSeen.Contains(TarotHandler.TarotRequiredEventId))
 			{
-				location.createQuestionDialogue(Globals.TranslationHelper.Get("TarotPrompt").UsePlaceholder(true), location.createYesNoResponses(), "tarotReading");
+				location.createQuestionDialogue(Utils.GetTranslationWithPlaceholder("TarotPrompt"), location.createYesNoResponses(), "tarotReading");
 				return true;
 			}
 
 			// otherwise generic rejection dialogue
-			Game1.drawObjectDialogue(Globals.TranslationHelper.Get("TarotDialaBusy").UsePlaceholder(true));
+			Game1.drawObjectDialogue(Utils.GetTranslationWithPlaceholder("TarotDialaBusy"));
 			return false;
 		}
 
 		// if diala is not on the map or near the tile location
-		Game1.drawObjectDialogue(Globals.TranslationHelper.Get("TarotDialaAway").UsePlaceholder(true));
+		Game1.drawObjectDialogue(Utils.GetTranslationWithPlaceholder("TarotDialaAway"));
 		return false;
 	}
 }

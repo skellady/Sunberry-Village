@@ -35,7 +35,7 @@ internal class GameLocationPatches
 	{
 		try
 		{
-			if (questionAndAnswer.StartsWith("ChooseDestination"))
+			if (questionAndAnswer.StartsWith("SunberryTeam.SBVSMAPI_ChooseDestination"))
 				return HandleChooseDestinationDialogueAction(questionAndAnswer);
 
 			if (questionAndAnswer.Equals("tarotReading_Yes"))
@@ -57,11 +57,11 @@ internal class GameLocationPatches
 	private static bool HandleChooseDestinationDialogueAction(string questionAndAnswer)
 	{
 		// if ChooseDestination answer dialogue and cancel selected, no further action needed
-		if (questionAndAnswer.Equals("ChooseDestination_Cancel"))
+		if (questionAndAnswer.Equals("SunberryTeam.SBVSMAPI_ChooseDestination_Cancel"))
 			return false;
 
 		// otherwise - perform warp
-		string[] warpParams = questionAndAnswer.Remove(0, "ChooseDestination_".Length).Split('¦');
+		string[] warpParams = questionAndAnswer.Remove(0, "SunberryTeam.SBVSMAPI_ChooseDestination_".Length).Split('¦');
 
 		//Log.Trace("Warp params: " + string.Join(" ", warpParams));
 		Game1.warpFarmer(warpParams[2], int.Parse(warpParams[0]), int.Parse(warpParams[1]), false);

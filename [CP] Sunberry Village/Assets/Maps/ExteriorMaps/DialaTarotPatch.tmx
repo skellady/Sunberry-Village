@@ -1728,12 +1728,12 @@
  <objectgroup id="7" name="Buildings">
   <object id="89" name="TileData" x="0" y="0" width="16" height="16">
    <properties>
-    <property name="Action" value="DialaTarot"/>
+    <property name="Action" value="SunberryTeam.SBVSMAPI_DialaTarot"/>
    </properties>
   </object>
   <object id="90" name="TileData" x="0" y="16" width="16" height="16">
    <properties>
-    <property name="Action" value="DialaTarot"/>
+    <property name="Action" value="SunberryTeam.SBVSMAPI_DialaTarot"/>
    </properties>
   </object>
  </objectgroup>

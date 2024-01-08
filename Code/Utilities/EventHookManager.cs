@@ -20,6 +20,6 @@ internal class EventHookManager
 		AudioHandler.AddEventHooks();
 		LightingHandler.AddEventHooks();
 		EmojiHandler.AddEventHooks();
-		ActionHandler.AddEventHooks();
+		ActionManager.AddEventHooks();
 	}
 }
