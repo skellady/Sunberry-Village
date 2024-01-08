@@ -39,6 +39,8 @@ internal static class TileToggleManager
 			// figure out tilesheet number stuff
 			location.setMapTileIndex(tile.X, tile.Y, tile.Active ? tile.OnTileIndex : tile.OffTileIndex, tile.Layer);
 		}
+
+		return true;
 	}
 }
 
