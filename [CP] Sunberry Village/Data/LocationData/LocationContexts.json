@@ -62,7 +62,58 @@
 							"SkipRandomSelection": true
 						}
 					]
-				}
+				},
+				"Custom_SBV_Mines": {
+					"Name": "Custom_SBV_Mines",
+					"DefaultValidPlantableLocations": [],
+					"AllowRainTotem": false,
+					"WeatherConditions": [
+						{
+							"Condition": "WEATHER Town Sun",
+							"Weather": "Sun"
+						},
+						{
+							"Condition": "WEATHER Town Rain",
+							"Weather": "Sun"
+						},
+						{
+							"Condition": "WEATHER Town Storm",
+							"Weather": "Sun"
+						},
+						{
+							"Condition": "WEATHER Town Wind",
+							"Weather": "Sun"
+						},
+						{
+							"Condition": "WEATHER Town Snow",
+							"Weather": "Sun"
+						},
+						{
+							"Condition": "WEATHER Town Festival",
+							"Weather": "Sun"
+						},
+						{
+							// just in case - no condition
+							"Weather": "Sun"
+						}
+					],
+					"ReviveLocations": [
+						{
+							"Condition": "LOCATION_CONTEXT Here Custom_SBV_Mines",
+							"Location": "Custom_SBV_SerenityInn2ndFloor",
+							"Position": {
+								"X": 23,
+								"Y": 24
+							}
+						}
+					],
+					"PassOutMail": [
+						{
+							"Mail": "passedOutSBV",
+							"SkipRandomSelection": true
+						}
+					]
+				},
 			}
 		}
 	]

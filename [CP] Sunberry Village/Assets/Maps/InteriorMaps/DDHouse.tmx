@@ -4,6 +4,7 @@
   <property name="AmbientLight" value="95 95 95"/>
   <property name="DayTiles" value="Front 2 1 225 Front 8 1 225 Front 13 1 225 Front 19 1 225 Front 20 12 225 Front 2 2 257 Front 8 2 257 Front 13 2 257 Front 19 2 257 Front 20 13 257"/>
   <property name="Doors" value="5 14 1 120 15 14 1 120"/>
+  <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
   <property name="NightTiles" value="Front 2 1 1222 Front 8 1 1222 Front 13 1 1222 Front 19 1 1222 Front 20 12 1222 Front 2 2 1254 Front 8 2 1254 Front 13 2 1254 Front 19 2 1254 Front 20 13 1254"/>
   <property name="WindowLight" value="2 1 2 2 2 2 8 1 2 8 2 2 13 1 2 13 2 2 19 1 2 19 2 2 20 12 2 20 13 2"/>
  </properties>

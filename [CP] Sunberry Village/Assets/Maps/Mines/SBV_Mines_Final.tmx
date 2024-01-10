@@ -3,6 +3,7 @@
  <properties>
   <property name="AmbientLight" value="50 50 50"/>
   <property name="Esca.EMP/BedPlacement" value="true"/>
+  <property name="LocationContext" value="Custom_SBV_Mines"/>
   <property name="Outdoors" value="T"/>
  </properties>
  <tileset firstgid="1" name="zmine_final2" tilewidth="16" tileheight="16" tilecount="1239" columns="21">

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="65" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="1">
  <properties>
+  <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
   <property name="Outdoors" value="T"/>
  </properties>
  <tileset firstgid="1" name="outdoor" tilewidth="16" tileheight="16" tilecount="1975" columns="25">

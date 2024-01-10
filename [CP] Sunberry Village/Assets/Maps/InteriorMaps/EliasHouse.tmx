@@ -3,6 +3,7 @@
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="DayTiles" value="Front 4 1 225 Front 11 1 225 Front 4 2 257 Front 11 2 257"/>
+  <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
   <property name="NightTiles" value="Front 4 1 1222 Front 11 1 1222 Front 4 2 1254 Front 11 2 1254"/>
  </properties>
  <tileset firstgid="1" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">

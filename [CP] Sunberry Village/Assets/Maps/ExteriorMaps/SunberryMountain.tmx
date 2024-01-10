@@ -3,6 +3,7 @@
  <properties>
   <property name="DayTiles" value="AlwaysFront 4 34 369 AlwaysFront 11 19 369 AlwaysFront 36 14 369 AlwaysFront 41 3 369 Buildings 39 8 510"/>
   <property name="Light" value="4 34 4 11 19 4 36 14 4 41 3 4 9 12 4 39 8 4"/>
+  <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
   <property name="NightTiles" value="AlwaysFront 4 34 368 AlwaysFront 11 19 368 AlwaysFront 36 14 368 AlwaysFront 41 3 368 Buildings 39 8 507"/>
   <property name="Outdoors" value="T"/>
  </properties>

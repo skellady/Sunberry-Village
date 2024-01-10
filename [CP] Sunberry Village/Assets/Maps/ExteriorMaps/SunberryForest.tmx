@@ -4,6 +4,7 @@
   <property name="DayTiles" value="Buildings 16 38 510"/>
   <property name="DefaultCrabPotArea" value="skellady.SBVCP.freshwater freshwater"/>
   <property name="Light" value="16 38 4"/>
+  <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
   <property name="NightTiles" value="Buildings 16 38 507"/>
   <property name="Outdoors" value="T"/>
  </properties>

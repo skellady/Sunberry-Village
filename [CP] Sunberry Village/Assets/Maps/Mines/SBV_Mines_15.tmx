@@ -2,6 +2,7 @@
 <map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="50" height="35" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="4">
  <properties>
   <property name="AmbientLight" value="50 50 50"/>
+  <property name="LocationContext" value="Custom_SBV_Mines"/>
   <property name="Outdoors" value="T"/>
  </properties>
  <tileset firstgid="1" name="zmine_final2" tilewidth="16" tileheight="16" tilecount="1239" columns="21">
