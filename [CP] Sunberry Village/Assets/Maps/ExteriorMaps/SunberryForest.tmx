@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="85" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="39">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="85" height="60" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="39">
  <properties>
   <property name="DayTiles" value="Buildings 16 38 510"/>
+  <property name="DefaultCrabPotArea" value="skellady.SBVCP.freshwater freshwater"/>
   <property name="Light" value="16 38 4"/>
   <property name="NightTiles" value="Buildings 16 38 507"/>
   <property name="Outdoors" value="T"/>

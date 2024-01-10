@@ -1,0 +1,71 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/cindertree_spring, Mods/skellady.SBVCP/cindertree_summer, Mods/skellady.SBVCP/cindertree_fall, Mods/skellady.SBVCP/cindertree_winter",
+            "FromFile": "Assets/Trees/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/WildTrees",
+            "Entries": {
+                "skellady.SBVCP.CinderTree": {
+                    "Textures": [
+                        {
+                            "Condition": null,
+                            "Season": "spring",
+                            "Texture": "Mods\\skellady.SBVCP\\cindertree_spring"
+                        },
+                        {
+                            "Condition": null,
+                            "Season": "summer",
+                            "Texture": "Mods\\skellady.SBVCP\\cindertree_summer"
+                        },
+                        {
+                            "Condition": null,
+                            "Season": "fall",
+                            "Texture": "Mods\\skellady.SBVCP\\cindertree_fall"
+                        },
+                        {
+                            "Condition": null,
+                            "Season": "winter",
+                            "Texture": "Mods\\skellady.SBVCP\\cindertree_winter"
+                        },
+                    ],
+                    "SeedPlantable": false,
+                    "GrowthChance": 0.8,
+                    "FertilizedGrowthChance": 1,
+                    "DropWoodOnChop": true,
+                    "DropHardwoodOnLumberChop": true,
+                    "IsLeafy": true,
+                    "IsLeafyInWinter": true,
+                    "GrowsInWinter": true,
+                    "IsStumpDuringWinter": false,
+                    "AllowWoodpeckers": false,
+                    "UseAlternateSpriteWhenSeedReady": false,
+                    "UseAlternateSpriteWhenNotShaken": false,
+                    "ChopItems": [
+                        {
+                            "MinSize": "Tree",
+                            "ForStump": false,
+                            "Chance": 1.0,
+                            "Id": "skellady.SBVCP_DropCinderLeaf",
+                            "ItemId": "skellady.SBVCP_CinderLeaf",
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                        },
+                    ],
+                    "ShakeItems": [
+                        {
+                            "Id": "skellady.SBVCP_ShakeCinderLeaf",
+                            "ItemId": "skellady.SBVCP_CinderLeaf",
+                            "Chance": 0.5,
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

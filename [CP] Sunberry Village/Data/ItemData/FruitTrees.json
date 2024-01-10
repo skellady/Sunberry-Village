@@ -1,0 +1,31 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/FruitTrees",
+            "FromFile": "Assets/Trees/{{TargetWithoutPath}}.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/FruitTrees",
+            "Entries": {
+                "skellady.SBVCP_CarobSapling": {
+                    "DisplayName": "{{i18n:SBV.CarobSapling.Name}}",
+                    "Seasons": [
+                        "fall"
+                    ],
+                    "Fruit": [
+                        {
+                            "Chance": 1.0,
+                            "Condition": null,
+                            "Id": "CarobSapling",
+                            "ItemId": "skellady.SBVCP_Carob",
+                        }
+                    ],
+                    "Texture": "Mods\\skellady.SBVCP\\FruitTrees",
+                    "TextureSpriteRow": 0
+                }
+            }
+        }
+    ]
+}
