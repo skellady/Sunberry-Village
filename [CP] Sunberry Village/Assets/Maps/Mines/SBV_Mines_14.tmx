@@ -3,7 +3,7 @@
  <properties>
   <property name="AmbientLight" value="50 50 50"/>
   <property name="LocationContext" value="Custom_SBV_Mines"/>
-  <property name="Outdoors" value="T"/>
+  <property name="TreatAsOutdoors" value="T"/>
  </properties>
  <tileset firstgid="1" name="zmine_final2" tilewidth="16" tileheight="16" tilecount="1239" columns="21">
   <image source="SBV_mine_final2.png" width="336" height="944"/>
