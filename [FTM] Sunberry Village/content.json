@@ -4,8 +4,28 @@
   "OreSpawnEnabled": true,
   "MonsterSpawnEnabled": true,
   "Forage_Spawn_Settings": {
-    "Areas": [ ],
-    "CustomTileIndex": [ ]
+    "Areas": [],
+    "PercentExtraSpawnsPerForagingLevel": 0,
+    "SpringItemIndex": [
+      16,
+      20,
+      22,
+      257
+    ],
+    "SummerItemIndex": [
+      396,
+      398,
+      402,
+      404
+    ],
+    "FallItemIndex": [
+      281,
+      404,
+      420,
+      422
+    ],
+    "WinterItemIndex": [],
+    "CustomTileIndex": []
   },
   "Large_Object_Spawn_Settings": {
     "Areas": [
@@ -3115,8 +3135,8 @@
         ],
         "UniqueAreaID": "SBV Mines Monsters 7",
         "MapName": "Custom_SBV_Mines7",
-        "MinimumSpawnsPerDay": 10,
-        "MaximumSpawnsPerDay": 15,
+        "MinimumSpawnsPerDay": 7,
+        "MaximumSpawnsPerDay": 11,
         "IncludeTerrainTypes": [
           "All"
         ],
