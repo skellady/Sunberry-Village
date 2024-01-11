@@ -1417,15 +1417,55 @@
   "event-20031449.10": "...This is gonna be a long day.$9",
 
   // Ezra 2 Hearts Event
-  "event-200314450.01": "Yeah! I'm making her the fanciest dress you've ever seen!$h",
-  "event-200314450.02": "I still can't believe you got asked to make a dress for THE Annie Hathisway.$u",
-  "event-200314450.03": "Me either! I'm a bundle of nerves right now, but I know I can make something amazing for the show.$u",
-  "event-200314450.04": "I've got the basic design down. It's upstairs.$h",
-  "event-200314450.05": "Hey, @! Welcome. How can I help?",
-  "event-200314450.06": "Hey, farmer. Did you hear the good news?$h",
-  "event-200314450.07": "I'm making a dress for a celebrity! I'm so excited, this is everything I've worked for. It'll really get my name out there.$6",
-  "event-200314450.08": "I was telling my sister all about it. My right ear still hurts from the scream she let out.$u",
-  "event-200314450.09": "Well, feel free to look around. I'll be over here if you need any help.$h",
+  "event-20031450.01": "Yeah! I'm making her the fanciest dress you've ever seen!$h",
+  "event-20031450.02": "I still can't believe you got asked to make a dress for THE Annie Hathisway.$u",
+  "event-20031450.03": "Me either! I'm a bundle of nerves right now, but I know I can make something amazing for the show.$u",
+  "event-20031450.04": "I've got the basic design down. It's upstairs.$h",
+  "event-20031450.05": "Hey, @! Welcome. How can I help?",
+  "event-20031450.06": "Hey, farmer. Did you hear the good news?$h",
+  "event-20031450.07": "I'm making a dress for a celebrity! I'm so excited, this is everything I've worked for. It'll really get my name out there.$6",
+  "event-20031450.08": "I was telling my sister all about it. My right ear still hurts from the scream she let out.$u",
+  "event-20031450.09": "Well, feel free to look around. I'll be over here if you need any help.$h",
+
+  // GSB Event Good
+  "event-20031451.01": "It grew! Maybe we just had to give it some time.$3",
+  "event-20031451.02": "Hmm... I feel like something else was required to get it to this stage, too. You said it started sprouting around the farmer?",
+  "event-20031451.03": "Mhmm... Correct.",
+  "event-20031451.04": "Maybe they're connected somehow. @ and this mysterious plant...$9",
+  "event-20031451.05": "Thats... possible. It might be connected to all of us, in a way.$8",
+  "event-20031451.06": "Well, we'll keep an eye on it as it grows.",
+  "event-20031451.07": "@, try to drop by weekly to check on it, alright?$h",
+  "event-20031451.08": "I'm glad the plant is growing! I should visit the village more often to figure out what's going on with the plant.",
+
+  // GSB Event Bad
+  "event-20031452.01": "It... doesn't seem to have grown at all.$s",
+  "event-20031452.02": "Something's missing... It has to be connected to the farmer somehow. It sprouted when they found it.$8",
+  "event-20031452.03": "It might be connected to all of us in a way...",
+  "event-20031452.04": "Well... Let's keep an eye out on it. Maybe we'll figure out what's missing.",
+  "event-20031452.05": "@, try to drop by weekly to check on it, alright?",
+  "event-20031452.06": "I wonder what's missing... Maybe I should visit the village more often to figure it out.",
+
+  // events 20031453-20031456 have no dialogue to i18n
+
+  // GSB FINAL EVENT
+  "event-20031457.01": "Thank you for gathering here today. We have some very exciting news to share with you all!$3",
+  "event-20031457.02": "The plant has finally borne fruit!$h",
+  "event-20031457.03": "We've come to the conclusion that this precious fruit is a variant of our beloved summer sunberry.",
+  "event-20031457.04": "It's a golden sunberry! We're... still not sure if it's this way naturally or if it was affected by being so far deep in our mines.",
+  "event-20031457.05": "We'll be giving every household a share of this plant as it comes to fruition again, but for now, @... come closer dear.$h",
+  "event-20031457.06": "Here's your share. Thank you for finding this plant and bringing it to us. It has brought our little village closer than ever.$4",
+  "event-20031457.07": "You received 2 Golden Sunberries!",
+  "event-20031457.08": "Make sure to hold onto 'em, @. Don't sell 'em right away.",
+  "event-20031457.09": "Thank you again for showing up, everyone. We'll keep you all updated when the plant blesses us again.$h",
+  "event-20031457.10": "These berries seem valuable! I better make good use of them.",
+
+  // PlayerKilled in Sunberry Areas
+  "SBV.PlayerKilled.01": "...Farmer?",
+  "SBV.PlayerKilled.02": "Oh, they're waking up!",
+  "SBV.PlayerKilled.03": "@... We found you in the Sunberry Mines earlier. We worried sick!$s",
+  "SBV.PlayerKilled.04": "We patched you up as best as we could. You should still check in with Harvey soon.$7",
+  "SBV.PlayerKilled.05": "We called Marlon over, he might have some of your missing items. Please, be careful next time.$s",
+  "SBV.PlayerKilled.06": "I feel better thanks to Maia and Ophelia. I should still get some rest, though.",
 
   //Animation Dialogue
   //------------------
