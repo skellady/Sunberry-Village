@@ -75,6 +75,41 @@
 				//event question
 				"moonchoice_1": "{{i18n:event-20031415.19}}",
 				"moonchoice_2": "{{i18n:event-20031415.20}}",
+				
+				//Gift Dialogue
+				//Love
+				"AcceptGift_category_gem": "{{i18n:Gift.Gems.Moon}}",
+				"AcceptGift_(O)88": "{{i18n:Gift.Coconut.Moon}}",
+				"AcceptGift_(O)202": "{{i18n:Gift.FriedCalamari.Moon}}",
+				"AcceptGift_(O)194": "{{i18n:Gift.FriedEgg.Moon}}",
+				"AcceptGift_(O)211": "{{i18n:Gift.Pancakes.Moon}}",
+				"AcceptGift_(O)206": "{{i18n:Gift.Pizza.Moon}}",
+				"AcceptGift_(O)651": "{{i18n:Gift.PoppyseedMuffin.Moon}}",
+				"AcceptGift_(O)768": "{{i18n:Gift.SolarEssence.Moon}}",
+				"AcceptGift_(O)400": "{{i18n:Gift.Strawberry.Moon}}",
+				"AcceptGift_(O)769": "{{i18n:Gift.VoidEssence.Moon}}",
+				//Like
+				"AcceptGift_(O)220": "{{i18n:Gift.ChocolateCake.Moon}}",
+				"AcceptGift_(O)270": "{{i18n:Gift.Corn.Moon}}",
+				"AcceptGift_(O)86": "{{i18n:Gift.EarthCrystal.Moon}}",
+				"AcceptGift_(O)84": "{{i18n:Gift.FrozenTear.Moon}}",
+				//Neutral
+				"AcceptGift_category_fish": "{{i18n:Gift.Fish.Moon}}",
+				//Dislike
+				"AcceptGift_(O)215": "{{i18n:Gift.PepperPoppers.Moon}}",
+				"AcceptGift_(O)260": "{{i18n:Gift.HotPepper.Moon}}",
+				//Hate
+				"AcceptGift_(O)103": "{{i18n:Gift.AncientDoll.Moon}}",
+				"AcceptGift_(O)196": "{{i18n:Gift.Salad.Moon}}",
+				"AcceptGift_(O)609": "{{i18n:Gift.RadishSalad.Moon}}",
+				"AcceptGift_(O)268": "{{Random: {{i18n:Gift.Starfruit.Moon.1}} ++ {{i18n:Gift.Starfruit.Moon.2}} ++ {{i18n:Gift.Starfruit.Moon.3}} |inputSeparator=++}}",
+				//Birthday
+				"AcceptBirthdayGift_category_gem": "{{i18n:Birthday.Gems.Moon}}",
+				"AcceptBirthdayGift_(O)88": "{{i18n:Birthday.Coconut.Moon}}",
+				"AcceptBirthdayGift_(O)211": "{{i18n:Birthday.Pancakes.Moon}}",
+				"AcceptBirthdayGift_(O)206": "{{i18n:Birthday.Pizza.Moon}}",
+				"AcceptBirthdayGift_(O)651": "{{i18n:Birthday.PoppyseedMuffin.Moon}}",
+				"AcceptBirthdayGift_(O)400": "{{i18n:Birthday.Strawberry.Moon}}",
 			},
 		},
 	]

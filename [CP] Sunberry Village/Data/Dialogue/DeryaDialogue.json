@@ -73,6 +73,55 @@
 				"Sun10": "{{i18n:Derya.Dialogue.Sun10}}",
 				//other dialogue
 				"MovieInvitation": "{{i18n:Derya.Dialogue.MovieInvitation}}",
+
+				//Gift Dialogue
+				//Love
+				"AcceptGift_(O)220": "{{i18n:Gift.ChocolateCake.Derya}}",
+				"AcceptGift_(O)395": "{{i18n:Gift.Coffee.Derya}}",
+				"AcceptGift_(O)223": "{{i18n:Gift.Cookie.Derya}}",
+				"AcceptGift_(O)270": "{{i18n:Gift.Corn.Derya}}",
+				"AcceptGift_(O)194": "{{i18n:Gift.FriedEgg.Derya}}",
+				"AcceptGift_(O)188": "{{i18n:Gift.GreenBean.Derya}}",
+				"AcceptGift_(O)260": "{{i18n:Gift.HotPepper.Derya}}",
+				"AcceptGift_(O)233": "{{i18n:Gift.IceCream.Derya}}",
+				"AcceptGift_(O)167": "{{i18n:Gift.JojaCola.Derya}}",
+				"AcceptGift_juice_item": "{{i18n:Gift.Juice.Derya}}",
+				"AcceptGift_(O)228": "{{i18n:Gift.MakiRoll.Derya}}",
+				"AcceptGift_(O)195": "{{i18n:Gift.Omelet.Derya}}",
+				"AcceptGift_(O)211": "{{i18n:Gift.Pancakes.Derya}}",
+				"AcceptGift_(O)215": "{{i18n:Gift.PepperPoppers.Derya}}",
+				"AcceptGift_(O)206": "{{i18n:Gift.Pizza.Derya}}",
+				"AcceptGift_(O)196": "{{i18n:Gift.Salad.Derya}}",
+				"AcceptGift_(O)227": "{{i18n:Gift.Sashimi.Derya}}",
+				"AcceptGift_(O)400": "{{i18n:Gift.Strawberry.Derya}}",
+				"AcceptGift_(O)253": "{{i18n:Gift.TripleShotEspresso.Derya}}",
+				//Like
+				"AcceptGift_(O)190": "{{i18n:Gift.Cauliflower.Derya}}",
+				"AcceptGift_(O)424": "{{i18n:Gift.Cheese.Derya}}",
+				"AcceptGift_(O)22": "{{i18n:Gift.Dandelion.Derya}}",
+				"AcceptGift_(O)426": "{{i18n:Gift.GoatCheese.Derya}}",
+				"AcceptGift_(O)402": "{{i18n:Gift.SweetPea.Derya}}",
+				//Neutral
+				"AcceptGift_category_gem": "{{i18n:Gift.Gems.Derya}}",
+				"AcceptGift_wine_item": "{{i18n:Gift.Wine.Derya}}",
+				//Dislike
+				"AcceptGift_(O)103": "{{i18n:Gift.AncientDoll.Derya}}",
+				"AcceptGift_(O)346": "{{i18n:Gift.Beer.Derya}}",
+				"AcceptGift_(O)459": "{{i18n:Gift.Mead.Derya}}",
+				"AcceptGift_(O)303": "{{i18n:Gift.PaleAle.Derya}}",
+				//Hate
+				"AcceptGift_(O)767": "{{i18n:Gift.BatWing.Derya}}",
+				"AcceptGift_(O)766": "{{i18n:Gift.Slime.Derya}}",
+				//Birthday
+				"AcceptBirthdayGift_(O)220": "{{i18n:Birthday.ChocolateCake.Derya}}",
+				"AcceptBirthdayGift_(O)395": "{{i18n:Birthday.Coffee.Derya}}",
+				"AcceptBirthdayGift_(O)223": "{{i18n:Birthday.Cookie.Derya}}",
+				"AcceptBirthdayGift_(O)233": "{{i18n:Birthday.IceCream.Derya}}",
+				"AcceptBirthdayGift_(O)228": "{{i18n:Birthday.MakiRoll.Derya}}",
+				"AcceptBirthdayGift_(O)211": "{{i18n:Birthday.Pancakes.Derya}}",
+				"AcceptBirthdayGift_(O)215": "{{i18n:Birthday.PepperPoppers.Derya}}",
+				"AcceptBirthdayGift_(O)227": "{{i18n:Birthday.Sashimi.Derya}}",
+				"AcceptBirthdayGift_(O)253": "{{i18n:Birthday.TripleShotEspresso.Derya}}",
 			},
 		},
 		{

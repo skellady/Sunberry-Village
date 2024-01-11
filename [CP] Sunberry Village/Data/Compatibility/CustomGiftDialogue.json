@@ -61,60 +61,6 @@
             }
         },
         {
-            "LogName": "CGD Derya",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/DeryaSBV",
-            "Entries": {
-                //Birthday
-                "GiftReaction_Chocolate_Cake_Birthday": "{{i18n:Birthday.ChocolateCake.Derya}}",
-                "GiftReaction_Coffee_Birthday": "{{i18n:Birthday.Coffee.Derya}}",
-                "GiftReaction_Cookie_Birthday": "{{i18n:Birthday.Cookie.Derya}}",
-                "GiftReaction_Ice_Cream_Birthday": "{{i18n:Birthday.IceCream.Derya}}",
-                "GiftReaction_Maki_Roll_Birthday": "{{i18n:Birthday.MakiRoll.Derya}}",
-                "GiftReaction_Pancakes_Birthday": "{{i18n:Birthday.Pancakes.Derya}}",
-                "GiftReaction_Pepper_Poppers_Birthday": "{{i18n:Birthday.PepperPoppers.Derya}}",
-                "GiftReaction_Sashimi_Birthday": "{{i18n:Birthday.Sashimi.Derya}}",
-                "GiftReaction_Triple_Shot_Espresso_Birthday": "{{i18n:Birthday.TripleShotEspresso.Derya}}",
-                //Love
-                "GiftReaction_Chocolate_Cake": "{{i18n:ChocolateCake.Derya}}",
-                "GiftReaction_Coffee": "{{i18n:Coffee.Derya}}",
-                "GiftReaction_Cookie": "{{i18n:Cookie.Derya}}",
-                "GiftReaction_Corn": "{{i18n:Corn.Derya}}",
-                "GiftReaction_Fried_Egg": "{{i18n:FriedEgg.Derya}}",
-                "GiftReaction_Green_Bean": "{{i18n:GreenBean.Derya}}",
-                "GiftReaction_Hot_Pepper": "{{i18n:HotPepper.Derya}}",
-                "GiftReaction_Ice_Cream": "{{i18n:IceCream.Derya}}",
-                "GiftReaction_Joja_Cola": "{{i18n:JojaCola.Derya}}",
-                "GiftReactionPreserved_Juice": "{{i18n:Juice.Derya}}",
-                "GiftReaction_Maki_Roll": "{{i18n:MakiRoll.Derya}}",
-                "GiftReaction_Omelet": "{{i18n:Omelet.Derya}}",
-                "GiftReaction_Pancakes": "{{i18n:Pancakes.Derya}}",
-                "GiftReaction_Pepper_Poppers": "{{i18n:PepperPoppers.Derya}}",
-                "GiftReaction_Pizza": "{{i18n:Pizza.Derya}}",
-                "GiftReaction_Salad": "{{i18n:Salad.Derya}}",
-                "GiftReaction_Sashimi": "{{i18n:Sashimi.Derya}}",
-                "GiftReaction_Strawberry": "{{i18n:Strawberry.Derya}}",
-                "GiftReaction_Triple_Shot_Espresso": "{{i18n:TripleShotEspresso.Derya}}",
-                //Like
-                "GiftReaction_Cauliflower": "{{i18n:Cauliflower.Derya}}",
-                "GiftReaction_Cheese": "{{i18n:Cheese.Derya}}",
-                "GiftReaction_Dandelion": "{{i18n:Dandelion.Derya}}",
-                "GiftReaction_Goat_Cheese": "{{i18n:GoatCheese.Derya}}",
-                "GiftReaction_Sweet_Pea": "{{i18n:SweetPea.Derya}}",
-                //Neutral
-                "GiftReactionCategory_-2": "{{i18n:Gems.Derya}}",
-                "GiftReactionPreserved_Wine": "{{i18n:Wine.Derya}}",
-                //Dislike
-                "GiftReaction_Ancient_Doll": "{{i18n:AncientDoll.Derya}}",
-                "GiftReaction_Beer": "{{i18n:Beer.Derya}}",
-                "GiftReaction_Mead": "{{i18n:Mead.Derya}}",
-                "GiftReaction_Pale_Ale": "{{i18n:PaleAle.Derya}}",
-                //Hate
-                "GiftReaction_Bat_Wing": "{{i18n:BatWing.Derya}}",
-                "GiftReaction_Slime": "{{i18n:Slime.Derya}}",
-            }
-        },
-        {
             "LogName": "CGD Derya Flower Crowns",
             "Action": "EditData",
             "Target": "Characters/Dialogue/DeryaSBV",
@@ -173,46 +119,6 @@
             "When": {
                 "HasMod": "Airyn.NPCFlowerCrownsJA",
             },
-        },
-        {
-            "LogName": "CGD Moon",
-            "Action": "EditData",
-            "Target": "Characters/Dialogue/MoonSBV",
-            "Entries": {
-                //Birthday
-                "GiftReactionCategory_-2_Birthday": "{{i18n:Birthday.Gems.Moon}}",
-                "GiftReaction_Coconut_Birthday": "{{i18n:Birthday.Coconut.Moon}}",
-                "GiftReaction_Pancakes_Birthday": "{{i18n:Birthday.Pancakes.Moon}}",
-                "GiftReaction_Pizza_Birthday": "{{i18n:Birthday.Pizza.Moon}}",
-                "GiftReaction_Poppyseed_Muffin_Birthday": "{{i18n:Birthday.PoppyseedMuffin.Moon}}",
-                "GiftReaction_Strawberry_Birthday": "{{i18n:Birthday.Strawberry.Moon}}",
-                //Love
-                "GiftReactionCategory_-2": "{{i18n:Gems.Moon}}",
-                "GiftReaction_Coconut": "{{i18n:Coconut.Moon}}",
-                "GiftReaction_Fried_Calamari": "{{i18n:FriedCalamari.Moon}}",
-                "GiftReaction_Fried_Egg": "{{i18n:FriedEgg.Moon}}",
-                "GiftReaction_Pancakes": "{{i18n:Pancakes.Moon}}",
-                "GiftReaction_Pizza": "{{i18n:Pizza.Moon}}",
-                "GiftReaction_Poppyseed_Muffin": "{{i18n:PoppyseedMuffin.Moon}}",
-                "GiftReaction_Solar_Essence": "{{i18n:SolarEssence.Moon}}",
-                "GiftReaction_Strawberry": "{{i18n:Strawberry.Moon}}",
-                "GiftReaction_Void_Essence": "{{i18n:VoidEssence.Moon}}",
-                //Like
-                "GiftReaction_Chocolate_Cake": "{{i18n:ChocolateCake.Moon}}",
-                "GiftReaction_Corn": "{{i18n:Corn.Moon}}",
-                "GiftReaction_Earth_Crystal": "{{i18n:EarthCrystal.Moon}}",
-                "GiftReaction_Frozen_Tear": "{{i18n:FrozenTear.Moon}}",
-                //Neutral
-                "GiftReactionCategory_-4": "{{i18n:Fish.Moon}}",
-                //Dislike
-                "GiftReaction_Pepper_Poppers": "{{i18n:PepperPoppers.Moon}}",
-                "GiftReaction_Hot_Pepper": "{{i18n:HotPepper.Moon}}",
-                //Hate
-                "GiftReaction_Ancient_Doll": "{{i18n:AncientDoll.Moon}}",
-                "GiftReaction_Salad": "{{i18n:Salad.Moon}}",
-                "GiftReaction_Radish_Salad": "{{i18n:RadishSalad.Moon}}",
-                "GiftReaction_Starfruit": "{{Random: {{i18n:Starfruit.Moon.1}} ++ {{i18n:Starfruit.Moon.2}} ++ {{i18n:Starfruit.Moon.3}} |inputSeparator=++}}"
-            }
         },
         {
             "LogName": "CGD Moon Flower Crowns",
