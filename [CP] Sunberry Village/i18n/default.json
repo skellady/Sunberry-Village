@@ -16,6 +16,7 @@
   "Name.Miyoung": "Miyoung",
   "Name.Moon": "Moon",
   "Name.Ophelia": "Ophelia",
+  "Name.PanSBV": "Pan",
   "Name.Reihana": "Reihana",
   "Name.Silas": "Silas",
 
@@ -4065,6 +4066,65 @@
   "Ophelia.Dialogue.Fri10": "Abigail's been convincing Lyenne to venture into the mines with her. I told her it's a horrible idea. You shouldn't be going into such places with no training or at least someone to protect you.$s#$b#*sigh*... I just hope she listens.$s",
   "Ophelia.Dialogue.Sat10": "I wonder what Sunberry would be like if we had a guild up here. I think it'd be good for the valley. Maybe you could even split your time between the Pelican Town guild and ours.$h#$b#Ah, I'm getting ahead of myself.$u",
   "Ophelia.Dialogue.Sun10": "Ah! @, we've got a new cook at the inn. Here, taste this. It's delightful. [618]$u",
+
+  //Pan
+  "Pan.Dialogue.Introduction": "Placeholder.",
+
+  //Days of The Week
+
+  //0 hearts
+  "Pan.Dialogue.Mon": "Placeholder.",
+  "Pan.Dialogue.Tue": "Placeholder.",
+  "Pan.Dialogue.Wed": "Placeholder.",
+  "Pan.Dialogue.Thu": "Placeholder.",
+  "Pan.Dialogue.Fri": "Placeholder.",
+  "Pan.Dialogue.Sat": "Placeholder.",
+  "Pan.Dialogue.Sun": "Placeholder.",
+
+  //2 hearts
+  "Pan.Dialogue.Mon2": "Placeholder.",
+  "Pan.Dialogue.Tue2": "Placeholder.",
+  "Pan.Dialogue.Wed2": "Placeholder.",
+  "Pan.Dialogue.Thu2": "Placeholder.",
+  "Pan.Dialogue.Fri2": "Placeholder.",
+  "Pan.Dialogue.Sat2": "Placeholder.",
+  "Pan.Dialogue.Sun2": "Placeholder.",
+
+  //4 hearts
+  "Pan.Dialogue.Mon4": "Placeholder.",
+  "Pan.Dialogue.Tue4": "Placeholder.",
+  "Pan.Dialogue.Wed4": "Placeholder.",
+  "Pan.Dialogue.Thu4": "Placeholder.",
+  "Pan.Dialogue.Fri4": "Placeholder.",
+  "Pan.Dialogue.Sat4": "Placeholder.",
+  "Pan.Dialogue.Sun4": "Placeholder.",
+
+  //6 hearts
+  "Pan.Dialogue.Mon6": "Placeholder.",
+  "Pan.Dialogue.Tue6": "Placeholder.",
+  "Pan.Dialogue.Wed6": "Placeholder.",
+  "Pan.Dialogue.Thu6": "Placeholder.",
+  "Pan.Dialogue.Fri6": "Placeholder.",
+  "Pan.Dialogue.Sat6": "Placeholder.",
+  "Pan.Dialogue.Sun6": "Placeholder.",
+
+  //8 hearts
+  "Pan.Dialogue.Mon8": "Placeholder.",
+  "Pan.Dialogue.Tue8": "Placeholder.",
+  "Pan.Dialogue.Wed8": "Placeholder.",
+  "Pan.Dialogue.Thu8": "Placeholder.",
+  "Pan.Dialogue.Fri8": "Placeholder.",
+  "Pan.Dialogue.Sat8": "Placeholder.",
+  "Pan.Dialogue.Sun8": "Placeholder.",
+
+  //10 hearts
+  "Pan.Dialogue.Mon10": "Placeholder.",
+  "Pan.Dialogue.Tue10": "Placeholder.",
+  "Pan.Dialogue.Wed10": "Placeholder.",
+  "Pan.Dialogue.Thu10": "Placeholder.",
+  "Pan.Dialogue.Fri10": "Placeholder.",
+  "Pan.Dialogue.Sat10": "Placeholder.",
+  "Pan.Dialogue.Sun10": "Placeholder.",
 
   //Silas
   "Silas.Dialogue.Introduction": "Ah, the new farmer we've heard so much about! Welcome to the valley.$h#$b#I was new here, too, at some point. You're gonna love it.$u",

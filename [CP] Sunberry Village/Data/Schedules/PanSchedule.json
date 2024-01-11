@@ -1,0 +1,15 @@
+{
+	"Changes": [
+		{
+			"LogName": "Pan's Temp Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/PanSBV",
+			"Entries": {
+				"spring": "2400 Custom_SBV_SunberryWarpRoom 4 6 2",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains=skellady.SBV_20031490": false
+			},
+		},
+	]
+}

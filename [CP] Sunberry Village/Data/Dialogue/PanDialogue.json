@@ -1,0 +1,60 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/PanSBV",
+			"Entries": {
+				"Introduction": "{{i18n:Pan.Dialogue.Introduction}}",
+				//days of the week
+				//0 Hearts
+				"Mon": "{{i18n:Pan.Dialogue.Mon}}",
+				"Tue": "{{i18n:Pan.Dialogue.Tue}}",
+				"Wed": "{{i18n:Pan.Dialogue.Wed}}",
+				"Thu": "{{i18n:Pan.Dialogue.Thu}}",
+				"Fri": "{{i18n:Pan.Dialogue.Fri}}",
+				"Sat": "{{i18n:Pan.Dialogue.Sat}}",
+				"Sun": "{{i18n:Pan.Dialogue.Sun}}",
+				//2 Hearts
+				"Mon2": "{{i18n:Pan.Dialogue.Mon2}}",
+				"Tue2": "{{i18n:Pan.Dialogue.Tue2}}",
+				"Wed2": "{{i18n:Pan.Dialogue.Wed2}}",
+				"Thu2": "{{i18n:Pan.Dialogue.Thu2}}",
+				"Fri2": "{{i18n:Pan.Dialogue.Fri2}}",
+				"Sat2": "{{i18n:Pan.Dialogue.Sat2}}",
+				"Sun2": "{{i18n:Pan.Dialogue.Sun2}}",
+				//4 Hearts
+				"Mon4": "{{i18n:Pan.Dialogue.Mon4}}",
+				"Tue4": "{{i18n:Pan.Dialogue.Tue4}}",
+				"Wed4": "{{i18n:Pan.Dialogue.Wed4}}",
+				"Thu4": "{{i18n:Pan.Dialogue.Thu4}}",
+				"Fri4": "{{i18n:Pan.Dialogue.Fri4}}",
+				"Sat4": "{{i18n:Pan.Dialogue.Sat4}}",
+				"Sun4": "{{i18n:Pan.Dialogue.Sun4}}",
+				//6 Hearts
+				"Mon6": "{{i18n:Pan.Dialogue.Mon6}}",
+				"Tue6": "{{i18n:Pan.Dialogue.Tue6}}",
+				"Wed6": "{{i18n:Pan.Dialogue.Wed6}}",
+				"Thu6": "{{i18n:Pan.Dialogue.Thu6}}",
+				"Fri6": "{{i18n:Pan.Dialogue.Fri6}}",
+				"Sat6": "{{i18n:Pan.Dialogue.Sat6}}",
+				"Sun6": "{{i18n:Pan.Dialogue.Sun6}}",
+				//8 Hearts
+				"Mon8": "{{i18n:Pan.Dialogue.Mon8}}",
+				"Tue8": "{{i18n:Pan.Dialogue.Tue8}}",
+				"Wed8": "{{i18n:Pan.Dialogue.Wed8}}",
+				"Thu8": "{{i18n:Pan.Dialogue.Thu8}}",
+				"Fri8": "{{i18n:Pan.Dialogue.Fri8}}",
+				"Sat8": "{{i18n:Pan.Dialogue.Sat8}}",
+				"Sun8": "{{i18n:Pan.Dialogue.Sun8}}",
+				//10 Hearts
+				"Mon10": "{{i18n:Pan.Dialogue.Mon10}}",
+				"Tue10": "{{i18n:Pan.Dialogue.Tue10}}",
+				"Wed10": "{{i18n:Pan.Dialogue.Wed10}}",
+				"Thu10": "{{i18n:Pan.Dialogue.Thu10}}",
+				"Fri10": "{{i18n:Pan.Dialogue.Fri10}}",
+				"Sat10": "{{i18n:Pan.Dialogue.Sat10}}",
+				"Sun10": "{{i18n:Pan.Dialogue.Sun10}}",
+			},
+		},
+	]
+}

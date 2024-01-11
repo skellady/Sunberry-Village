@@ -591,7 +591,7 @@
           },
           "Breather": true
         },
-        // Demons
+        // Demons and Dog
         "AichaSBV": {
           "TextureName": "AichaSBV/AichaSBV",
           "DisplayName": "{{i18n:Name.Aicha}}",
@@ -695,6 +695,41 @@
             {
               "Id": "Default",
               "Location": "Custom_SBV_ReiHouse",
+              "Tile": {
+                "X": 4,
+                "Y": 6
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "PanSBV": {
+          "TextureName": "PanSBV/PanSBV",
+          "DisplayName": "{{i18n:Name.PanSBV}}",
+          "BirthSeason": "winter",
+          "BirthDay": 20,
+          "HomeRegion": "Other",
+          "Gender": "Female",
+          "Age": "Child",
+          "Manner": "Polite",
+          "SocialAnxiety": "Shy",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "HiddenUntilMet",
+          "ExcludeFromIntroductionsQuest": true,
+          "ExcludeFromPerfectionScore": true,
+          "EndSlideShow": "TrailingGroup",
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_SunberryWarpRoom",
               "Tile": {
                 "X": 4,
                 "Y": 6
