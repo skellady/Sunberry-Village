@@ -108,8 +108,53 @@
     },
     {
       "Action": "Load",
+      "Target": "Maps/SBVColors5A",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors5A.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors5B",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors5B.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors6",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors6.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors7",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors7.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors8",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors8.png"
+    },
+    {
+      "Action": "Load",
       "Target": "Maps/SBVColors9",
       "FromFile": "Assets/Maps/TileSheets/SBVColors9.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors10A",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors10A.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors10B",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors10B.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors11",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors11.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVColors12",
+      "FromFile": "Assets/Maps/TileSheets/SBVColors12.png"
     },
     {
       "Action": "Load",
