@@ -118,6 +118,7 @@
   "Gift.Love.Miyoung": "Oh, for me? Thank you sweetheart, I love it.",
   "Gift.Love.Moon": "For Moon? Thank you, I love it!",
   "Gift.Love.Ophelia": "Thanks, I love it!",
+  "Gift.Love.Pan": "Placeholder.",
   "Gift.Love.Reihana": "This is a... surprisingly good gift. Thanks.",
   "Gift.Love.Silas": "Wow, thank you! I love it.",
   //Like
@@ -136,6 +137,7 @@
   "Gift.Like.Miyoung": "Aw, thank you dear.",
   "Gift.Like.Moon": "Moon appreciates @, thank you!",
   "Gift.Like.Ophelia": "Thanks, this is nice.",
+  "Gift.Like.Pan": "Placeholder.",
   "Gift.Like.Reihana": "Huh, this is nice. Thanks.",
   "Gift.Like.Silas": "This is a nice gift. Thank you!.",
   //Dislike
@@ -154,6 +156,7 @@
   "Gift.Dislike.Miyoung": "Oh, @. This is not a good gift, dear.",
   "Gift.Dislike.Moon": "Moon does not like this very much.",
   "Gift.Dislike.Ophelia": "...This is disappointing.",
+  "Gift.Dislike.Pan": "Placeholder.",
   "Gift.Dislike.Reihana": "...Okay, then.",
   "Gift.Dislike.Silas": "Hmph. Why would you give this to me?",
   //Hate
@@ -172,6 +175,7 @@
   "Gift.Hate.Miyoung": "Oh, this just makes me sad.",
   "Gift.Hate.Moon": "@... Moon hates this.",
   "Gift.Hate.Ophelia": "Hm. I'm not sure why you thought I'd like this. Get it out of my face, please.",
+  "Gift.Hate.Pan": "Placeholder.",
   "Gift.Hate.Reihana": "...Have you by any chance seen all the weapons I have in my house, @?",
   "Gift.Hate.Silas": "Really, @? I hate this.",
   //Neutral
@@ -190,6 +194,7 @@
   "Gift.Neutral.Miyoung": "Thank you, dear.",
   "Gift.Neutral.Moon": "Um... thank you?",
   "Gift.Neutral.Ophelia": "Hm. I'm not sure this is useful to me.",
+  "Gift.Neutral.Pan": "Placeholder.",
   "Gift.Neutral.Reihana": "Thanks, I guess.",
   "Gift.Neutral.Silas": "Huh, thank you, I guess.",
 
