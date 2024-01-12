@@ -267,7 +267,7 @@
 							"MaxStack": 22
 						},
 						{
-							"Chance": 0.01,
+							"Chance": "{{Query: 0.01 + ({{DailyLuck}} / 4)}}",
 							"Id": "skellady.SBVCP_GoldenSunberry",
 							"ItemId": "(O)skellady.SBVCP_GoldenSunberry",
 							"MinStack": 1,
