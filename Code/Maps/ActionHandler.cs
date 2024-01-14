@@ -27,7 +27,7 @@ internal class ActionManager
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_Book", HandleBookAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ChooseDestination", HandleChooseDestinationAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DialaTarot", HandleTarotAction);
-		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ToggleTiles", TileToggleManager.HandleToggleTilesAction);
+		//GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DoTrigger", TriggerActionManager.HandleDoTrigger);
 	}
 
 	private static bool HandleBookAction(GameLocation location, string[] args, Farmer player, Point tile)
