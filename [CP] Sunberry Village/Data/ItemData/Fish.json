@@ -185,7 +185,7 @@
             "Action": "EditData",
             "Target": "Data/AquariumFish",
             "Entries": {
-                "skellady.SBVCP_Mothfish": "0/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_Mothfish": "0/ground/////Mods\\skellady.SBVCP\\AquariumFish",
                 "skellady.SBVCP_FiretailGuppy": "1/fish/////Mods\\skellady.SBVCP\\AquariumFish",
                 "skellady.SBVCP_EmeraldSnapper": "2/fish/////Mods\\skellady.SBVCP\\AquariumFish",
                 "skellady.SBVCP_Aberrant": "3/fish/////Mods\\skellady.SBVCP\\AquariumFish",

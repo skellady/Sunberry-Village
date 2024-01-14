@@ -40,11 +40,20 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/DeryaSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Derya.Dialogue.Fountain1}} ++ {{i18n:Derya.Dialogue.Fountain2}} ++ {{i18n:Derya.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"Fountain": "{{Random: {{i18n:Derya.Dialogue.Fountain1}} ++ {{i18n:Derya.Dialogue.Fountain2}} ++ {{i18n:Derya.Dialogue.Fountain3}} |inputSeparator=++}}"
+			}
+		},
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/DeryaSBV",
+			"Entries": {
 				"FollowDerya.000": "{{i18n:Derya.Dialogue.FollowDerya1}}",
 				"FollowDerya.001": "{{i18n:Derya.Dialogue.FollowDerya2}}",
 				"FollowDerya.002": "{{i18n:Derya.Dialogue.FollowDerya3}}",
 				"FollowDerya.003": "{{i18n:Derya.Dialogue.FollowDerya4}}"
+			},
+			"When": {
+				"HasSeenEvent": "skellady.SBVCP_20031427"
 			}
 		},
 		{
