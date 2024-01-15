@@ -27,6 +27,9 @@
                 // GSB Trigger
                 "skellady.SBVCP_GSBTriggerLetter": "{{i18n:Mail.GSBTriggerLetter}}",
 
+                //PassedOut Mail
+                "passedOutSBV": "{{i18n:Mail.passedOutSBV}}",
+
                 // Special Order Letters
                 "ReiSODessert": "{{i18n:Mail.ReiSODessert}}",
                 "MaiaSOWeapon1": "{{i18n:Mail.MaiaSOWeapon1}}",

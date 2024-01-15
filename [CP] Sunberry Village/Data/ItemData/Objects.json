@@ -4,7 +4,7 @@
         {
             "LogName": "Load Objects",
             "Action": "Load",
-            "Target": "Mods/skellady.SBVCP/Produce, Mods/skellady.SBVCP/Food, Mods/skellady.SBVCP/GemsArtifacts, Mods/skellady.SBVCP/MiscItems, Mods/skellady.SBVCP/Seeds",
+            "Target": "Mods/skellady.SBVCP/Produce, Mods/skellady.SBVCP/Food, Mods/skellady.SBVCP/GemsArtifacts, Mods/skellady.SBVCP/MiscItems, Mods/skellady.SBVCP/Seeds, Mods/skellady.SBVCP/AnimalProduce",
             "FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
         },
         // Produce
@@ -774,7 +774,128 @@
                         }
                     },
                     "IsDrink": true
-                }
+                },
+                "{{ModId}}_SerpentinePowder": {
+                    "Name": "Serpentine Powder",
+                    "DisplayName": "{{i18n:SBV.SerpentinePowder.Name}}",
+                    "Description": "{{i18n:SBV.SerpentinePowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 260,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 11
+                },
+                "{{ModId}}_PurpuritePowder": {
+                    "Name": "Purpurite Powder",
+                    "DisplayName": "{{i18n:SBV.PurpuritePowder.Name}}",
+                    "Description": "{{i18n:SBV.PurpuritePowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 220,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 12
+                },
+                "{{ModId}}_AnnabergitePowder": {
+                    "Name": "Annabergite Powder",
+                    "DisplayName": "{{i18n:SBV.AnnabergitePowder.Name}}",
+                    "Description": "{{i18n:SBV.AnnabergitePowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 300,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 13
+                },
+                "{{ModId}}_CitrinePowder": {
+                    "Name": "Citrine Powder",
+                    "DisplayName": "{{i18n:SBV.CitrinePowder.Name}}",
+                    "Description": "{{i18n:SBV.CitrinePowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 240,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 14
+                },
+                "{{ModId}}_BlueAuraQuartzPowder": {
+                    "Name": "Blue Aura Quartz Powder",
+                    "DisplayName": "{{i18n:SBV.BlueAuraQuartzPowder.Name}}",
+                    "Description": "{{i18n:SBV.BlueAuraQuartzPowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 400,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 15
+                },
+                "{{ModId}}_MoonberryPowder": {
+                    "Name": "Moonberry Powder",
+                    "DisplayName": "{{i18n:SBV.MoonberryPowder.Name}}",
+                    "Description": "{{i18n:SBV.MoonberryPowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 16
+                },
+                "{{ModId}}_DolomitePowder": {
+                    "Name": "Dolomite Powder",
+                    "DisplayName": "{{i18n:SBV.DolomitePowder.Name}}",
+                    "Description": "{{i18n:SBV.DolomitePowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 600,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 17
+                },
+                "{{ModId}}_TigerseyePowder": {
+                    "Name": "Tigerseye Powder",
+                    "DisplayName": "{{i18n:SBV.TigerseyePowder.Name}}",
+                    "Description": "{{i18n:SBV.TigerseyePowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 550,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 18
+                },
+                "{{ModId}}_LunaritePowder": {
+                    "Name": "Lunarite Powder",
+                    "DisplayName": "{{i18n:SBV.LunaritePowder.Name}}",
+                    "Description": "{{i18n:SBV.LunaritePowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 400,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 19
+                },
+                "{{ModId}}_FairyStonePowder": {
+                    "Name": "Fairy Stone Powder",
+                    "DisplayName": "{{i18n:SBV.FairyStonePowder.Name}}",
+                    "Description": "{{i18n:SBV.FairyStonePowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 500,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 20
+                },
+                "{{ModId}}_WarpTotemSunberry": {
+                    "Name": "Warp Totem Sunberry",
+                    "DisplayName": "{{i18n:SBV.WarpTotemSunberry.Name}}",
+                    "Description": "{{i18n:SBV.WarpTotemSunberry.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Crafting",
+                    "Category": 0,
+                    "Price": 20,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 21
+                },
             }
         },
         // Seeds
@@ -914,6 +1035,36 @@
                     "Price": 5000,
                     "Texture": "Mods\\skellady.SBVCP\\Seeds",
                     "SpriteIndex": 11
+                }
+            }
+        },
+        // Add Animal Products
+        {
+            "LogName": "Add Animal Produce",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModID}}_AlpacaWool": {
+                    "Name": "Alpaca Wool",
+                    "DisplayName": "{{i18n:SBV.AlpacaWool.Name}}",
+                    "Description": "{{i18n:SBV.AlpacaWool.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -18,
+                    "Price": 520,
+                    "Texture": "Mods\\skellady.SBVCP\\AnimalProduce",
+                    "SpriteIndex": 0
+                },
+                "{{ModID}}_AlpacaWoolFabric": {
+                    "Name": "Alpaca Wool Fabric",
+                    "DisplayName": "{{i18n:SBV.AlpacaWoolFabric.Name}}",
+                    "Description": "{{i18n:SBV.AlpacaWoolFabric.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": -26,
+                    "Price": 720,
+                    "Texture": "Mods\\skellady.SBVCP\\AnimalProduce",
+                    "SpriteIndex": 1
                 }
             }
         },
