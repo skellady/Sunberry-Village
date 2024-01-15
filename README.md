@@ -1,5 +1,5 @@
 # Sunberry-Village
-An expansion mod for Stardew Valley. 
+Sunberry Village is an expansion mod that adds a new town south of Pelican Town with new NPCs, items, crops, special orders, and more! Explore this cozy new village and learn the stories and secrets of its people, uncover the legend behind Sunberry, and what hides in the mines underground.
 
 ## Compilation
 Generally speaking, compiling this mod is as simple as cloning the repository and hitting Build. The build process will deploy the C# portion and all framework portions of the mod into a single Sunberry Village folder in the Mods folder.
