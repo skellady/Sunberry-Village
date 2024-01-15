@@ -47,5 +47,8 @@ SmallBeachFarm/assets/spring_town.png
 # data files for FTM
 \[FTM\] Sunberry Village/data/*.save
 
+# config
+\[CP\] Sunberry Village/config.json
+
 # JetBrains Rider
 .idea/
