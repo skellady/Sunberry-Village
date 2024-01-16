@@ -1,0 +1,22 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Crafting Recipes",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "skellady.SBVCP_MineralGrinder": "390 50 337 3 338 5/Home/skellady.SBVCP_MineralGrinder/true/null/{{i18n:SBV.MineralGrinder.Name}}",
+        "skellady.SBVCP_SerpentinePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_SerpentinePowder 1/Home/skellady.SBVCP_SerpentinePotion/false/null/{{i18n:SBV.SerpentinePotion.Name}}",
+        "skellady.SBVCP_PurpuritePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_PurpuritePowder 1/Home/skellady.SBVCP_PurpuritePotion/false/null/{{i18n:SBV.PurpuritePotion.Name}}",
+        "skellady.SBVCP_AnnabergitePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_AnnabergitePowder 1/Home/skellady.SBVCP_AnnabergitePotion/false/null/{{i18n:SBV.AnnabergitePotion.Name}}",
+        "skellady.SBVCP_CitrinePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_CitrinePowder 1/Home/skellady.SBVCP_CitrinePotion/false/null/{{i18n:SBV.CitrinePotion.Name}}",
+        "skellady.SBVCP_BlueAuraQuartzPotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_BlueAuraQuartzPowder 1/Home/skellady.SBVCP_BlueAuraQuartzPotion/false/null/{{i18n:SBV.BlueAuraQuartzPotion.Name}}",
+        "skellady.SBVCP_MoonberryPotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_MoonberryPowder 1/Home/skellady.SBVCP_MoonberryPotion/false/null/{{i18n:SBV.MoonberryPotion.Name}}",
+        "skellady.SBVCP_DolomitePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_DolomitePowder 1/Home/skellady.SBVCP_DolomitePotion/false/null/{{i18n:SBV.DolomitePotion.Name}}",
+        "skellady.SBVCP_TigerseyePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_TigerseyePowder 1/Home/skellady.SBVCP_TigerseyePotion/false/null/{{i18n:SBV.TigerseyePotion.Name}}",
+        "skellady.SBVCP_LunaritePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_LunaritePowder 1/Home/skellady.SBVCP_LunaritePotion/false/null/{{i18n:SBV.LunaritePotion.Name}}",
+        "skellady.SBVCP_FairyStonePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_FairyStonePowder 1/Home/skellady.SBVCP_FairyStonePotion/false/null/{{i18n:SBV.FairyStonePotion.Name}}",
+      }
+    }
+  ]
+}

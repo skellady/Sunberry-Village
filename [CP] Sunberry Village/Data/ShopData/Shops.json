@@ -853,6 +853,23 @@
                             "ItemId": "(O)537",
                             "AvailableStock": 5,
                             "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.RandomRecipe",
+                            "RandomItemId": [
+                                "(O)skellady.SBVCP_SerpentinePotion",
+                                "(O)skellady.SBVCP_PurpuritePotion",
+                                "(O)skellady.SBVCP_AnnabergitePotion",
+                                "(O)skellady.SBVCP_CitrinePotion",
+                                "(O)skellady.SBVCP_BlueAuraQuartzPotion",
+                                "(O)skellady.SBVCP_MoonberryPotion",
+                                "(O)skellady.SBVCP_DolomitePotion",
+                                "(O)skellady.SBVCP_TigerseyePotion",
+                                "(O)skellady.SBVCP_LunaritePotion",
+                                "(O)skellady.SBVCP_FairyStonePotion",
+                            ],
+                            "IsRecipe": true,
+                            "Price": 1500
                         }
                     ]
                 },

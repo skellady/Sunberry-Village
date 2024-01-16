@@ -52,7 +52,6 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 2,
                     "ContextTags": [
-                        "color_blue",
                         "color_green",
                         "item_emeraldsnapper"
                     ]

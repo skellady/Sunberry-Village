@@ -6,24 +6,24 @@
             "Entries": {
                 "skellady.SBVCP_DNDInvite": {
                     "Id": "skellady.SBVCP_DNDInvite",
-                    "Trigger": "DayStarted",
+                    "Trigger": "DayEnding",
                     "Action": "AddMail Current skellady.SBVCP_DNDInviteLetter"
                 },
                 "skellady.SBVCP_Diala2HLetter": {
                     "Id": "skellady.SBVCP_Diala2HLetter",
-                    "Trigger": "DayStarted",
+                    "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current DialaSBV 2",
                     "Action": "AddMail Current skellady.SBVCP_DialaCoffeeLetter"
                 },
                 "skellady.SBVCP_Diala6HLetter": {
                     "Id": "skellady.SBVCP_Diala6HLetter",
-                    "Trigger": "DayStarted",
+                    "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current DialaSBV 6",
                     "Action": "AddMail Current skellady.SBVCP_DialaTarotLetter"
                 },
                 "skellady.SBVCP_Jumana6HLetter": {
                     "Id": "skellady.SBVCP_Jumana6HLetter",
-                    "Trigger": "DayStarted",
+                    "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current JumanaSBV 6",
                     "Action": "AddMail Current skellady.SBVCP_JumanaHusbandLetter"
                 },

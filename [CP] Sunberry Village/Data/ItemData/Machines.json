@@ -1,0 +1,266 @@
+{
+    "Changes": [
+        // Load Machines
+        {
+            "LogName": "Load Machines",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/Machines",
+            "FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
+        },
+        // Add Machines
+        {
+            "LogName": "Add Machines",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_MineralGrinder": {
+                    "Name": "skellady.SBVCP_MineralGrinder",
+                    "DisplayName": "{{i18n:SBV.MineralGrinder.Name}}",
+                    "Description": "{{i18n:SBV.MineralGrinder.Description}}",
+                    "Price": 30,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+				    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\skellady.SBVCP\\Machines",
+                    "SpriteIndex": 0,
+				    "CustomFields": {}
+                }
+            }
+        },
+        // Machine Data
+        {
+            "LogName": "Machine Data",
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "Entries": {
+                "(BC)skellady.SBVCP_MineralGrinder": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        {
+                            "Id": "skellady.SBVCP_SerpentinePowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_Serpentine",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_SerpentinePowder",
+                                    "ItemId": "(O)skellady.SBVCP_SerpentinePowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_PurpuritePowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_Purpurite",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_PurpuritePowder",
+                                    "ItemId": "(O)skellady.SBVCP_PurpuritePowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AnnabergitePowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_Annabergite",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_AnnabergitePowder",
+                                    "ItemId": "(O)skellady.SBVCP_AnnabergitePowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_CitrinePowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_Citrine",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_CitrinePowder",
+                                    "ItemId": "(O)skellady.SBVCP_CitrinePowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_BlueAuraQuartzPowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_BlueAuraQuartz",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_BlueAuraQuartzPowder",
+                                    "ItemId": "(O)skellady.SBVCP_BlueAuraQuartzPowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MoonberryPowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_Moonberry",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_MoonberryPowder",
+                                    "ItemId": "(O)skellady.SBVCP_MoonberryPowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DolomitePowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)543",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_DolomitePowder",
+                                    "ItemId": "(O)skellady.SBVCP_DolomitePowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_TigerseyePowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)562",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_TigerseyePowder",
+                                    "ItemId": "(O)skellady.SBVCP_TigerseyePowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_LunaritePowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)551",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_LunaritePowder",
+                                    "ItemId": "(O)skellady.SBVCP_LunaritePowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false,
+                        },
+                        {
+                            "Id": "skellady.SBVCP_FairyStonePowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)577",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_FairyStonePowder",
+                                    "ItemId": "(O)skellady.SBVCP_FairyStonePowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false,
+                        },
+                    ]
+                }
+            }
+        }   
+    ]
+}

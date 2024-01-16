@@ -582,7 +582,7 @@
                     ]
                 },
                 "skellady.SBVCP_SerpentinePotion": {
-                    "Name": "Serpentine Potion",
+                    "Name": "skellady.SBVCP_SerpentinePotion",
                     "DisplayName": "{{i18n:SBV.SerpentinePotion.Name}}",
                     "Description": "{{i18n:SBV.SerpentinePotion.Description}}",
                     "Edibility": "50",
@@ -601,7 +601,7 @@
                     "IsDrink": true
                 },
                 "skellady.SBVCP_PurpuritePotion": {
-                    "Name": "Purpurite Potion",
+                    "Name": "skellady.SBVCP_PurpuritePotion",
                     "DisplayName": "{{i18n:SBV.PurpuritePotion.Name}}",
                     "Description": "{{i18n:SBV.PurpuritePotion.Description}}",
                     "Edibility": "50",
@@ -620,7 +620,7 @@
                     "IsDrink": true
                 },
                 "skellady.SBVCP_AnnabergitePotion": {
-                    "Name": "Annabergite Potion",
+                    "Name": "skellady.SBVCP_AnnabergitePotion",
                     "DisplayName": "{{i18n:SBV.AnnabergitePotion.Name}}",
                     "Description": "{{i18n:SBV.AnnabergitePotion.Description}}",
                     "Edibility": "50",
@@ -639,7 +639,7 @@
                     "IsDrink": true
                 },
                 "skellady.SBVCP_CitrinePotion": {
-                    "Name": "Citrine Potion",
+                    "Name": "skellady.SBVCP_CitrinePotion",
                     "DisplayName": "{{i18n:SBV.CitrinePotion.Name}}",
                     "Description": "{{i18n:SBV.CitrinePotion.Description}}",
                     "Edibility": "50",
@@ -658,7 +658,7 @@
                     "IsDrink": true
                 },
                 "skellady.SBVCP_BlueAuraQuartzPotion": {
-                    "Name": "Citrine Potion",
+                    "Name": "skellady.SBVCP_BlueAuraQuartzPotion",
                     "DisplayName": "{{i18n:SBV.BlueAuraQuartzPotion.Name}}",
                     "Description": "{{i18n:SBV.BlueAuraQuartzPotion.Description}}",
                     "Edibility": "50",
@@ -678,7 +678,7 @@
                     "IsDrink": true
                 },
                 "skellady.SBVCP_MoonberryPotion": {
-                    "Name": "Citrine Potion",
+                    "Name": "skellady.SBVCP_MoonberryPotion",
                     "DisplayName": "{{i18n:SBV.MoonberryPotion.Name}}",
                     "Description": "{{i18n:SBV.MoonberryPotion.Description}}",
                     "Edibility": "50",
@@ -698,7 +698,7 @@
                     "IsDrink": true
                 },
                 "skellady.SBVCP_DolomitePotion": {
-                    "Name": "Dolomite Potion",
+                    "Name": "skellady.SBVCP_DolomitePotion",
                     "DisplayName": "{{i18n:SBV.DolomitePotion.Name}}",
                     "Description": "{{i18n:SBV.DolomitePotion.Description}}",
                     "Edibility": "50",
@@ -718,7 +718,7 @@
                     "IsDrink": true
                 },
                 "skellady.SBVCP_TigerseyePotion": {
-                    "Name": "Tigerseye Potion",
+                    "Name": "skellady.SBVCP_TigerseyePotion",
                     "DisplayName": "{{i18n:SBV.TigerseyePotion.Name}}",
                     "Description": "{{i18n:SBV.TigerseyePotion.Description}}",
                     "Edibility": "50",
@@ -737,7 +737,7 @@
                     "IsDrink": true
                 },
                 "skellady.SBVCP_LunaritePotion": {
-                    "Name": "Lunarite Potion",
+                    "Name": "skellady.SBVCP_LunaritePotion",
                     "DisplayName": "{{i18n:SBV.LunaritePotion.Name}}",
                     "Description": "{{i18n:SBV.LunaritePotion.Description}}",
                     "Edibility": "50",
@@ -756,7 +756,7 @@
                     "IsDrink": true
                 },
                 "skellady.SBVCP_FairyStonePotion": {
-                    "Name": "Fairy Stone Potion",
+                    "Name": "skellady.SBVCP_FairyStonePotion",
                     "DisplayName": "{{i18n:SBV.FairyStonePotion.Name}}",
                     "Description": "{{i18n:SBV.FairyStonePotion.Description}}",
                     "Edibility": "50",

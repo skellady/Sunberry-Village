@@ -4509,6 +4509,10 @@
   "SBV.Sunslash.Description": "This khopesh once belonged to Ophelia, the guardian of Sunberry Village. Holding it makes you feel powerful and calm, all at once.",
   "SBV.TheirinSword.Name": "Theirin's Sword",
   "SBV.TheirinSword.Description": "A similar sword once belonged to a charming yet dopey warrior. It's said that he was able to simultaneously steal hearts and help save the world.",
+  
+  //Machines
+  "SBV.MineralGrinder.Name": "Mineral Grinder",
+  "SBV.MineralGrinder.Description": "Grinds minerals into a fine powder. Only accepts certain minerals.",
 
   //Shop Dialogue
   //-------------
