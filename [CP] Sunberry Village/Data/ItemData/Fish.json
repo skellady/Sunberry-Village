@@ -22,7 +22,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 0,
                     "ContextTags": [
-                        "color_pink"
+                        "color_pink",
+                        "item_mothfish"
                     ]
                 },
                 "skellady.SBVCP_FiretailGuppy": {
@@ -36,7 +37,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 1,
                     "ContextTags": [
-                        "item_firetailguppy"
+                        "item_firetailguppy",
+                        "color_dark_blue"
                     ]
                 },
                 "skellady.SBVCP_EmeraldSnapper": {
@@ -51,7 +53,8 @@
                     "SpriteIndex": 2,
                     "ContextTags": [
                         "color_blue",
-                        "color_green"
+                        "color_green",
+                        "item_emeraldsnapper"
                     ]
                 },
                 "skellady.SBVCP_Aberrant": {
@@ -63,7 +66,11 @@
                     "Category": -4,
                     "Price": 3100,
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 3
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "item_aberrant",
+                        "color_dark_purple"
+                    ]
                 },
                 "skellady.SBVCP_BonbonFish": {
                     "Name": "Bonbon Fish",
@@ -77,7 +84,8 @@
                     "SpriteIndex": 4,
                     "ContextTags": [
                         "color_pink",
-                        "color_blue"
+                        "color_blue",
+                        "item_bonbonfish"
                     ]
                 },
                 "skellady.SBVCP_EeltailedCatfish": {
@@ -89,7 +97,11 @@
                     "Category": -4,
                     "Price": 200,
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 5
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "color_blue",
+                        "item_eeltailedcatfish"
+                    ]
                 },
                 "skellady.SBVCP_Najelfish": {
                     "Name": "Najelfish",
@@ -102,7 +114,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 6,
                     "ContextTags": [
-                        "color_red"
+                        "color_red",
+                        "item_najelfish"
                     ]
                 },
                 "skellady.SBVCP_AnglerJr": {
@@ -116,7 +129,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 7,
                     "ContextTags": [
-                        "color_brown"
+                        "color_brown",
+                        "item_anglerjr"
                     ]
                 },
                 "skellady.SBVCP_ChartreuseTilapia": {
@@ -130,7 +144,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 8,
                     "ContextTags": [
-                        "color_green"
+                        "color_dark_green",
+                        "item_chartreusetilapia"
                     ]
                 },
                 "skellady.SBVCP_BubblyBetta": {
@@ -144,11 +159,12 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 9,
                     "ContextTags": [
-                        "color_pink"
+                        "color_pink",
+                        "item_bubblybetta"
                     ]
                 },
                 "skellady.SBVCP_AzureanCarp": {
-                    "Name": "AzureanCarp",
+                    "Name": "Azurean Carp",
                     "DisplayName": "{{i18n:SBV.AzureanCarp.Name}}",
                     "Description": "{{i18n:SBV.AzureanCarp.Description}}",
                     "Edibility": "10",
@@ -158,9 +174,25 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 10,
                     "ContextTags": [
-                        "color_blue"
+                        "color_blue",
+                        "item_azureancarp"
                     ]
-                }
+                },
+                "skellady.SBVCP_SeaCow": {
+                    "Name": "Sea Cow",
+                    "DisplayName": "{{i18n:SBV.SeaCow.Name}}",
+                    "Description": "{{i18n:SBV.SeaCow.Description}}",
+                    "Edibility": "10",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 190,
+                    "Texture": "Mods\\skellady.SBVCP\\Fish",
+                    "SpriteIndex": 11,
+                    "ContextTags": [
+                        "color_gray",
+                        "item_seacow"
+                    ]
+                },
             }
         },
         // Fish Data
@@ -180,6 +212,7 @@
                 "skellady.SBVCP_ChartreuseTilapia": "Chartreuse Tilapia/55/mixed/11/30/600 1400/summer fall/both/683 .35/3/.4/.2/0/false",
                 "skellady.SBVCP_BubblyBetta": "Bubbly Beta/25/dart/8/20/600 2600/spring winter/both/685 .2/1/.45/.1/0/false",
                 "skellady.SBVCP_AzureanCarp": "Azurean Carp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0/false",
+                "skellady.SBVCP_SeaCow": "Sea Cow/20/sinker/108/116/600 1800/spring summer fall winter/both/682 .2/2/.35/.2/1/false"
             }
         },
         // Aquarium Fish Data
@@ -199,6 +232,7 @@
                 "skellady.SBVCP_ChartreuseTilapia": "8/fish/////Mods\\skellady.SBVCP\\AquariumFish",
                 "skellady.SBVCP_BubblyBetta": "9/fish/////Mods\\skellady.SBVCP\\AquariumFish",
                 "skellady.SBVCP_AzureanCarp": "10/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_SeaCow": "11/fish/////Mods\\skellady.SBVCP\\AquariumFish"
             }
         }
     ]
