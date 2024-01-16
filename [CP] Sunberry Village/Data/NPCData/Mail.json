@@ -23,6 +23,7 @@
                 "DialaSBVCooking": "{{i18n:Mail.DialaHotChocoLetter}}",
                 "DeryaSBVCooking": "{{i18n:Mail.DeryaIceCreamLetter}}",
                 "MoonSBVCooking": "{{i18n:Mail.MoonCookieLetter}}",
+                "skellady.SBVCP_SilasGrinderLetter": "{{i18n:Mail.SilasGrinderLetter}}",
 
                 // GSB Trigger
                 "skellady.SBVCP_GSBTriggerLetter": "{{i18n:Mail.GSBTriggerLetter}}",

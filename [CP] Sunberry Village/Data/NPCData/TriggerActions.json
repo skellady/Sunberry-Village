@@ -45,6 +45,12 @@
                     "Condition": "PLAYER_HEARTS Current MoonSBV 6",
                     "Action": "AddMail Current MoonSBVCooking"
                 },
+                "skellady.SBVCP_SilasRecipe1": {
+                    "Id": "skellady.SBVCP_SilasRecipe1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current SilasSBV 4",
+                    "Action": "AddMail Current skellady.SBVCP_SilasGrinderLetter"
+                },
                 "skellady.SBVCP_GSBTrigger": {
                     "Id": "skellady.SBVCP_GSBTrigger",
                     "Trigger": "DayStarted",
