@@ -34,7 +34,10 @@
                     "Category": -4,
                     "Price": 95,
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 1
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "item_firetailguppy"
+                    ]
                 },
                 "skellady.SBVCP_EmeraldSnapper": {
                     "Name": "Emerald Snapper",

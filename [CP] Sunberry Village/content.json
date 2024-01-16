@@ -1,6 +1,5 @@
 {
   "Format": "2.0",
-  // Dynamic Tokens
   "DynamicTokens": [
     {
       "Name": "WizardPronounsSubject",
@@ -196,200 +195,6 @@
       }
     }
   ],
-  /*"CustomLocations": [
-    // Exterior Maps
-    {
-      "Name": "Custom_SBV_SunberryVillage",
-      "FromMapFile": "Assets/Maps/ExteriorMaps/SunberryVillage.tmx"
-    },
-    {
-      "Name": "Custom_SBV_SunberryMountain",
-      "FromMapFile": "Assets/Maps/ExteriorMaps/SunberryMountain.tmx"
-    },
-    {
-      "Name": "Custom_SBV_SunberryForest",
-      "FromMapFile": "Assets/Maps/ExteriorMaps/SunberryForest.tmx",
-    },
-    {
-      "Name": "Custom_SBV_SunberryRoad",
-      "FromMapFile": "Assets/Maps/ExteriorMaps/SunberryRoad.tmx",
-    },
-    // Interior Maps
-    {
-      "Name": "Custom_SBV_DialaCafe",
-      "FromMapFile": "Assets/Maps/InteriorMaps/DialaCafe.tmx"
-    },
-    {
-      "Name": "Custom_SBV_DDHouse",
-      "FromMapFile": "Assets/Maps/InteriorMaps/DDHouse.tmx"
-    },
-    {
-      "Name": "Custom_SBV_ReiHouse",
-      "FromMapFile": "Assets/Maps/InteriorMaps/ReiHouse.tmx",
-    },
-    {
-      "Name": "Custom_SBV_SerenityInn",
-      "FromMapFile": "Assets/Maps/InteriorMaps/SerenityInn.tmx",
-    },
-    {
-      "Name": "Custom_SBV_SerenityInn2ndFloor",
-      "FromMapFile": "Assets/Maps/InteriorMaps/SerenityInn2ndFloor.tmx",
-    },
-    {
-      "Name": "Custom_SBV_SerenityInn3rdFloor",
-      "FromMapFile": "Assets/Maps/InteriorMaps/SerenityInn3rdFloor.tmx",
-    },
-    {
-      "Name": "Custom_SBV_OpheliaHouse",
-      "FromMapFile": "Assets/Maps/InteriorMaps/OpheliaHouse.tmx",
-    },
-    {
-      "Name": "Custom_SBV_MiyoungHouse",
-      "FromMapFile": "Assets/Maps/InteriorMaps/MiyoungHouse.tmx",
-    },
-    {
-      "Name": "Custom_SBV_AriMarket",
-      "FromMapFile": "Assets/Maps/InteriorMaps/AriMarket.tmx",
-    },
-    {
-      "Name": "Custom_SBV_SunberryLibrary",
-      "FromMapFile": "Assets/Maps/InteriorMaps/SunberryLibrary.tmx",
-    },
-    {
-      "Name": "Custom_SBV_EliasHouse",
-      "FromMapFile": "Assets/Maps/InteriorMaps/EliasHouse.tmx",
-    },
-    {
-      "Name": "Custom_SBV_EzraClothes",
-      "FromMapFile": "Assets/Maps/InteriorMaps/EzraClothes.tmx",
-    },
-    {
-      "Name": "Custom_SBV_EzraHouse",
-      "FromMapFile": "Assets/Maps/InteriorMaps/EzraHouse.tmx",
-    },
-    {
-      "Name": "Custom_SBV_MaiaHouse",
-      "FromMapFile": "Assets/Maps/InteriorMaps/MaiaHouse.tmx",
-    },
-    {
-      "Name": "Custom_SBV_SilasBlacksmith",
-      "FromMapFile": "Assets/Maps/InteriorMaps/SilasBlacksmith.tmx",
-    },
-    {
-      "Name": "Custom_SBV_ImanHouse",
-      "FromMapFile": "Assets/Maps/InteriorMaps/ImanHouse.tmx",
-    },
-    {
-      "Name": "Custom_SBV_SunberryWarpRoom",
-      "FromMapFile": "Assets/Maps/InteriorMaps/SunberryWarpRoom.tmx",
-    },
-    {
-      "Name": "Custom_SBV_CrystalCave",
-      "FromMapFile": "Assets/Maps/InteriorMaps/CrystalCave.tmx",
-    },
-    {
-      "Name": "Custom_SBV_ChrisDinerBroken",
-      "FromMapFile": "Assets/Maps/InteriorMaps/ChrisDinerBroken.tmx",
-    },
-    {
-      "Name": "Custom_SBV_ChrisDiner",
-      "FromMapFile": "Assets/Maps/InteriorMaps/ChrisDiner.tmx",
-    },
-    {
-      "Name": "Custom_SBV_ChrisDinerRainbow",
-      "FromMapFile": "Assets/Maps/InteriorMaps/ChrisDinerRainbow.tmx",
-    },
-    {
-      "Name": "Custom_SBV_EliasHouseOld",
-      "FromMapFile": "Assets/Maps/InteriorMaps/EliasHouseOld.tmx",
-    },
-    {
-      "Name": "Custom_SBV_EliasHouseNew",
-      "FromMapFile": "Assets/Maps/InteriorMaps/EliasHouseNew.tmx",
-    },
-    {
-      "Name": "Custom_SBV_SunberryMuseum",
-      "FromMapFile": "Assets/Maps/InteriorMaps/SunberryMuseum.tmx"
-    },
-    // Event Maps
-    {
-      "Name": "Custom_SBV_MoonWoods",
-      "FromMapFile": "Assets/Maps/EventMaps/MoonWoods.tmx",
-    },
-    // Mine Maps
-    {
-      "Name": "Custom_SBV_Mines1",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_1.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines2",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_2.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines3",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_3.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines4",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_4.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines5A",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_5A.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines5B",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_5B.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines6",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_6.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines7",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_7.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines8",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_8.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines9",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_9.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines10A",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_10A.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines10B",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_10B.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines11",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_11.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines12",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_12.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines13",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_13.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines14",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_14.tmx"
-    },
-    {
-      "Name": "Custom_SBV_Mines15",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_15.tmx"
-    },
-    {
-      "Name": "Custom_SBV_MinesFinal",
-      "FromMapFile": "Assets/Maps/Mines/SBV_Mines_Final.tmx"
-    },
-  ],*/
   "ConfigSchema": {
     "SDVR3Patch": {
       "AllowValues": "true, false",
@@ -408,302 +213,154 @@
     }
   },
   "Changes": [
-    //Temporary Actors
+
+    /* Temporary Actors */
+
     {
+      "LogName": "Load Temp Actors",
       "Action": "Load",
-      "Target": "Characters/DDCat1",
-      "FromFile": "Assets/Maps/tempActors/DDCat1.png",
+      "Target": "Characters/DDCat1, Characters/DDCat2, Characters/DDCat3, Characters/DDCat4, Characters/DDCat5, Characters/DDCat6, Characters/DeryaLay, Characters/DeryaLay2, Characters/DDTable1, Characters/JumanaPot, Characters/DDPicnic, Characters/DDBook, Characters/SBVCrate, Characters/SBVEasel, Characters/GSBPlant, Characters/SBVWizardPoof, Characters/SBVSparklySparkles",
+      "FromFile": "Assets/Maps/tempActors/{{TargetWithoutPath}}.png"
     },
     {
-      "Action": "Load",
-      "Target": "Characters/DDCat2",
-      "FromFile": "Assets/Maps/tempActors/DDCat2.png",
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/DDCat3",
-      "FromFile": "Assets/Maps/tempActors/DDCat3.png",
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/DDCat4",
-      "FromFile": "Assets/Maps/tempActors/DDCat4.png",
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/DDCat5",
-      "FromFile": "Assets/Maps/tempActors/DDCat5.png",
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/DDCat6",
-      "FromFile": "Assets/Maps/tempActors/DDCat6.png",
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/DeryaLay",
-      "FromFile": "Assets/Maps/tempActors/DeryaLay.png",
-    },
-    {
+      "LogName": "Seasonal Edit Temp Actors",
       "Action": "EditImage",
-      "Target": "Characters/DeryaLay",
-      "FromFile": "Assets/Maps/tempActors/DeryaLay_{{season}}.png",
+      "Target": "Characters/DeryaLay, Characters/DeryaLay2, Characters/JumanaPot",
+      "FromFile": "Assets/Maps/tempActors/{{TargetWithoutPath}}_{{Season}}.png",
       "When": {
-        "HasValue:{{season}}": true,
-      },
+        "HasValue:{{season}}": true
+      }
     },
+
+    /* Temporary Maps */
+
     {
+      "LogName": "Load Temp Maps",
       "Action": "Load",
-      "Target": "Characters/DeryaLay2",
-      "FromFile": "Assets/Maps/tempActors/DeryaLay2.png",
+      "Target": "Maps/Health_Tarot, Maps/Love_Tarot, Maps/Career_Tarot, Maps/Planet_Moon, Maps/Phone_CG1, Maps/Phone_CG2, Maps/Phone_CG3, Maps/Phone_CG4, Maps/Phone_CG5, Maps/Phone_CG6, Maps/Phone_CG",
+      "FromFile": "Assets/Maps/tempMaps/{{TargetWithoutPath}}.tmx"
     },
-    {
-      "Action": "EditImage",
-      "Target": "Characters/DeryaLay2",
-      "FromFile": "Assets/Maps/tempActors/DeryaLay2_{{season}}.png",
-      "When": {
-        "HasValue:{{season}}": true,
-      },
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/DDTable1",
-      "FromFile": "Assets/Maps/tempActors/DDTable1.png",
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/JumanaPot",
-      "FromFile": "Assets/Maps/tempActors/JumanaPot.png",
-    },
-    {
-      "Action": "EditImage",
-      "Target": "Characters/JumanaPot",
-      "FromFile": "Assets/Maps/tempActors/JumanaPot_{{season}}.png",
-      "When": {
-        "HasValue:{{season}}": true,
-      },
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/DDPicnic",
-      "FromFile": "Assets/Maps/tempActors/DDPicnic.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/DDBook",
-      "FromFile": "Assets/Maps/tempActors/DDBook.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/SBVCrate",
-      "FromFile": "Assets/Maps/tempActors/SBVCrate.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/SBVEasel",
-      "FromFile": "Assets/Maps/tempActors/SBVEasel.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/GSBPlant",
-      "FromFile": "Assets/Maps/tempActors/GSBPlant.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/SBVWizardPoof",
-      "FromFile": "Assets/Maps/tempActors/SBVWizardPoof.png"
-    },
-    {
-      "Action": "Load",
-      "Target": "Characters/SBVSparklySparkles",
-      "FromFile": "Assets/Maps/tempActors/SBVSparklySparkles.png"
-    },
-    //Temporary Maps
-    {
-      "Action": "Load",
-      "Target": "Maps/Health_Tarot",
-      "FromFile": "Assets/Maps/tempMaps/Health_Tarot.tmx",
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/Love_Tarot",
-      "FromFile": "Assets/Maps/tempMaps/Love_Tarot.tmx",
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/Career_Tarot",
-      "FromFile": "Assets/Maps/tempMaps/Career_Tarot.tmx",
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/Planet_Moon",
-      "FromFile": "Assets/Maps/tempMaps/Planet_Moon.tmx",
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/Phone_CG1",
-      "FromFile": "Assets/Maps/tempMaps/Phone_CG1.tmx",
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/Phone_CG2",
-      "FromFile": "Assets/Maps/tempMaps/Phone_CG2.tmx",
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/Phone_CG3",
-      "FromFile": "Assets/Maps/tempMaps/Phone_CG3.tmx",
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/Phone_CG4",
-      "FromFile": "Assets/Maps/tempMaps/Phone_CG4.tmx",
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/Phone_CG5",
-      "FromFile": "Assets/Maps/tempMaps/Phone_CG5.tmx",
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/Phone_CG6",
-      "FromFile": "Assets/Maps/tempMaps/Phone_CG6.tmx",
-    },
-    {
-      "Action": "Load",
-      "Target": "Maps/Phone_CG",
-      "FromFile": "Assets/Maps/tempMaps/Phone_CG.tmx",
-    },
-    // Sprites + Portraits
-    /*{
-      "LogName": "Seasonal Sprites and Portraits",
-      "Action": "Load",
-      "Target": "Characters/DialaSBV, Characters/DeryaSBV, Characters/AichaSBV, Characters/JumanaSBV, Portraits/DialaSBV, Portraits/DeryaSBV, Portraits/AichaSBV, Portraits/JumanaSBV",
-      "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}_{{season}}.png"
-    },
-    {
-      "LogName": "Sprites and Portraits",
-      "Action": "Load",
-      "Target": "Characters/MoonSBV, Characters/ReihanaSBV, Characters/AminaSBV, Characters/AriSBV, Characters/BlakeSBV, Characters/EliasSBV, Characters/EzraSBV, Characters/ImanSBV, Characters/LyenneSBV, Characters/MaiaSBV, Characters/MiyoungSBV, Characters/OpheliaSBV, Characters/SilasSBV, Portraits/MoonSBV, Portraits/ReihanaSBV, Portraits/AminaSBV, Portraits/AriSBV, Portraits/BlakeSBV, Portraits/EliasSBV, Portraits/EzraSBV, Portraits/ImanSBV, Portraits/LyenneSBV, Portraits/MaiaSBV, Portraits/MiyoungSBV, Portraits/OpheliaSBV, Portraits/SilasSBV",
-      "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png",
-    },
-    // Beach Sprites + Portraits
-    {
-      "LogName": "Beach Portraits",
-      "Action": "Load",
-      "Target": "Portraits/AichaSBV_Beach",
-      "FromFile": "Assets/BeachPortraits/{{TargetWithoutPath}}.png",
-    },
-    {
-      "LogName": "Beach Sprites",
-      "Action": "Load",
-      "Target": "Characters/AichaSBV_Beach",
-      "FromFile": "Assets/BeachCharacters/{{TargetWithoutPath}}.png",
-    },*/
-    // Schedule + Dialogue + Events
+
+    /* Blank Loads */
+
     {
       "LogName": "Schedule Blanks",
       "Action": "Load",
       "Target": "Characters/schedules/DialaSBV, Characters/schedules/DeryaSBV, Characters/schedules/MoonSBV, Characters/schedules/ReihanaSBV, Characters/schedules/AichaSBV, Characters/schedules/AminaSBV, Characters/schedules/AriSBV, Characters/schedules/BlakeSBV, Characters/schedules/EliasSBV, Characters/schedules/EzraSBV, Characters/schedules/ImanSBV, Characters/schedules/JumanaSBV, Characters/schedules/LyenneSBV, Characters/schedules/MaiaSBV, Characters/schedules/MiyoungSBV, Characters/schedules/OpheliaSBV, Characters/schedules/PanSBV, Characters/schedules/SilasSBV",
-      "FromFile": "Data/Dialogue/blank.json",
+      "FromFile": "Data/Dialogue/blank.json"
     },
     {
       "LogName": "Dialogue Blanks",
       "Action": "Load",
       "Target": "Characters/Dialogue/DialaSBV, Characters/Dialogue/DeryaSBV, Characters/Dialogue/MoonSBV, Characters/Dialogue/ReihanaSBV, Characters/Dialogue/AichaSBV, Characters/Dialogue/AminaSBV, Characters/Dialogue/AriSBV, Characters/Dialogue/BlakeSBV, Characters/Dialogue/EliasSBV, Characters/Dialogue/EzraSBV, Characters/Dialogue/ImanSBV, Characters/Dialogue/JumanaSBV, Characters/Dialogue/LyenneSBV, Characters/Dialogue/MaiaSBV, Characters/Dialogue/MiyoungSBV, Characters/Dialogue/OpheliaSBV, Characters/Dialogue/PanSBV, Characters/Dialogue/SilasSBV",
-      "FromFile": "Data/Dialogue/blank.json",
+      "FromFile": "Data/Dialogue/blank.json"
     },
     {
       "LogName": "Schedule Dialogue Blanks",
       "Action": "Load",
       "Target": "Strings/schedules/DialaSBV, Strings/schedules/AichaSBV, Strings/schedules/AminaSBV, Strings/schedules/AriSBV, Strings/schedules/BlakeSBV, Strings/schedules/DeryaSBV, Strings/schedules/EliasSBV, Strings/schedules/EzraSBV, Strings/schedules/ImanSBV, Strings/schedules/JumanaSBV, Strings/schedules/LyenneSBV, Strings/schedules/MaiaSBV, Strings/schedules/MiyoungSBV, Strings/schedules/MoonSBV, Strings/schedules/OpheliaSBV, Strings/schedules/ReihanaSBV, Strings/schedules/SilasSBV",
-      "FromFile": "Data/Dialogue/blank.json",
+      "FromFile": "Data/Dialogue/blank.json"
     },
     {
       "LogName": "Moon's Roommate Dialogue",
       "Action": "Load",
       "Target": "Characters/Dialogue/MarriageDialogueMoonSBV, Characters/Dialogue/MarriageDialogueMoonSBVRoommate",
-      "FromFile": "Data/Dialogue/blank.json",
+      "FromFile": "Data/Dialogue/blank.json"
     },
     {
       "LogName": "Load Location Event File Blanks",
       "Action": "Load",
       "Target": "Data/Events/Custom_SBV_DialaCafe, Data/Events/Custom_SBV_DDHouse, Data/Events/Custom_SBV_SunberryVillage, Data/Events/Custom_SBV_SunberryRoad, Data/Events/Custom_SBV_SunberryForest, Data/Events/Custom_SBV_SunberryMountain, Data/Events/Custom_SBV_SunberryLibrary, Data/Events/Custom_SBV_ReiHouse, Data/Events/Custom_SBV_AriMarket, Data/Events/Custom_SBV_EzraHouse, Data/Events/Custom_SBV_ImanHouse, Data/Events/Custom_SBV_MaiaHouse, Data/Events/Custom_SBV_EliasHouse, Data/Events/Custom_SBV_MiyoungHouse, Data/Events/Custom_SBV_SilasBlacksmith, Data/Events/Custom_SBV_SerenityInn, Data/Events/Custom_SBV_SerenityInn2ndFloor, Data/Events/Custom_SBV_SerenityInn3rdFloor, Data/Events/Custom_SBV_OpheliaHouse, Data/Events/Custom_SBV_EzraClothes, Data/Events/Custom_SBV_CrystalCave, Data/Events/Custom_SBV_MinesFinal",
-      "FromFile": "Data/Dialogue/blank.json",
+      "FromFile": "Data/Dialogue/blank.json"
     },
-    // Data Folder Includes
+
+    /* Includes */
+
+    // Location Data
     {
       "LogName": "Include Location Data",
       "Action": "Include",
-      "FromFile": "Data/LocationData/Locations.json, Data/LocationData/LocationContexts.json",
+      "FromFile": "Data/LocationData/Locations.json, Data/LocationData/LocationContexts.json"
     },
+    
     // Tilesheets
     {
       "LogName": "Include Tilesheets",
       "Action": "Include",
       "FromFile": "Data/Tilesheets.json"
     },
-    // Map Data Includes
+    
+    // Map Data
     {
       "LogName": "Include Map Data",
       "Action": "Include",
-      "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/MapMusic.json, Data/MapData/GarbageCans.json, Data/MapData/ChairTiles.json",
+      "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/MapMusic.json, Data/MapData/GarbageCans.json, Data/MapData/ChairTiles.json"
     },
-    // Dynamic Changes Includes
+    
+    // Dynamic Changes
     {
       "LogName": "Include Dynamic Changes",
       "Action": "Include",
-      "FromFile": "Data/DynamicChanges/MapChanges.json, Data/DynamicChanges/OutfitChanges.json",
+      "FromFile": "Data/DynamicChanges/MapChanges.json, Data/DynamicChanges/OutfitChanges.json"
     },
-    // NPC Data Includes
+    
+    // NPC Data
     {
       "LogName": "Include NPC Data",
       "Action": "Include",
-      "FromFile": "Data/NPCData/TriggerActions.json, Data/NPCData/ImageLoads.json, Data/NPCData/Animations.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/ConversationTopics.json, Data/NPCData/MoonRoommate.json, Data/NPCData/MovieData.json, Data/NPCData/Mail.json, Data/NPCData/BigAnimations.json",
+      "FromFile": "Data/NPCData/TriggerActions.json, Data/NPCData/ImageLoads.json, Data/NPCData/Animations.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/ConversationTopics.json, Data/NPCData/MoonRoommate.json, Data/NPCData/MovieData.json, Data/NPCData/Mail.json, Data/NPCData/BigAnimations.json"
     },
-    // Item Data Includes
+    
+    // Item Data
     {
       "LogName": "Include Item Data",
       "Action": "Include",
-      "FromFile": "Data/ItemData/Crops.json, Data/ItemData/Objects.json, Data/ItemData/Fish.json, Data/ItemData/Weapons.json, Data/ItemData/CookingRecipes.json, Data/ItemData/WildTrees.json, Data/ItemData/FruitTrees.json"
+      "FromFile": "Data/ItemData/Crops.json, Data/ItemData/Objects.json, Data/ItemData/Fish.json, Data/ItemData/FishPond.json, Data/ItemData/Weapons.json, Data/ItemData/CookingRecipes.json, Data/ItemData/WildTrees.json, Data/ItemData/FruitTrees.json"
     },
-    // Shop Data Includes
+    
+    // Shop Data
     {
       "LogName": "Include Shop Data",
       "Action": "Include",
       "FromFile": "Data/ShopData/Shops.json"
     },
-    // Dialogue + Schedule Includes
+    
+    // Dialogue + Schedule
     {
       "LogName": "Includes Dialogue and Schedule",
       "Action": "Include",
-      "FromFile": "Data/Dialogue/DialaDialogue.json, Data/Dialogue/DeryaDialogue.json, Data/Dialogue/MoonDialogue.json, Data/Dialogue/ReihanaDialogue.json, Data/Dialogue/AichaDialogue.json, Data/Dialogue/AminaDialogue.json, Data/Dialogue/AriDialogue.json, Data/Dialogue/BlakeDialogue.json, Data/Dialogue/EliasDialogue.json, Data/Dialogue/EzraDialogue.json, Data/Dialogue/ImanDialogue.json, Data/Dialogue/JumanaDialogue.json, Data/Dialogue/LyenneDialogue.json, Data/Dialogue/MaiaDialogue.json, Data/Dialogue/MiyoungDialogue.json, Data/Dialogue/OpheliaDialogue.json, Data/Dialogue/PanDialogue.json, Data/Dialogue/SilasDialogue.json, Data/Schedules/MoonSchedule.json, Data/Schedules/DialaSchedule.json, Data/Schedules/DeryaSchedule.json, Data/Dialogue/ScheduleDialogue.json, Data/Dialogue/MoonRoommateDialogue.json, Data/Schedules/MoonRoommateSchedule.json, Data/Schedules/ReihanaSchedule.json, Data/Schedules/AichaSchedule.json, Data/Schedules/AminaSchedule.json, Data/Schedules/AriSchedule.json, Data/Schedules/BlakeSchedule.json, Data/Schedules/EliasSchedule.json, Data/Schedules/EzraSchedule.json, Data/Schedules/ImanSchedule.json, Data/Schedules/JumanaSchedule.json, Data/Schedules/LyenneSchedule.json, Data/Schedules/MaiaSchedule.json, Data/Schedules/MiyoungSchedule.json, Data/Schedules/OpheliaSchedule.json, Data/Schedules/PanSchedule.json, Data/Schedules/SilasSchedule.json",
+      "FromFile": "Data/Dialogue/DialaDialogue.json, Data/Dialogue/DeryaDialogue.json, Data/Dialogue/MoonDialogue.json, Data/Dialogue/ReihanaDialogue.json, Data/Dialogue/AichaDialogue.json, Data/Dialogue/AminaDialogue.json, Data/Dialogue/AriDialogue.json, Data/Dialogue/BlakeDialogue.json, Data/Dialogue/EliasDialogue.json, Data/Dialogue/EzraDialogue.json, Data/Dialogue/ImanDialogue.json, Data/Dialogue/JumanaDialogue.json, Data/Dialogue/LyenneDialogue.json, Data/Dialogue/MaiaDialogue.json, Data/Dialogue/MiyoungDialogue.json, Data/Dialogue/OpheliaDialogue.json, Data/Dialogue/PanDialogue.json, Data/Dialogue/SilasDialogue.json, Data/Schedules/MoonSchedule.json, Data/Schedules/DialaSchedule.json, Data/Schedules/DeryaSchedule.json, Data/Dialogue/ScheduleDialogue.json, Data/Dialogue/MoonRoommateDialogue.json, Data/Schedules/MoonRoommateSchedule.json, Data/Schedules/ReihanaSchedule.json, Data/Schedules/AichaSchedule.json, Data/Schedules/AminaSchedule.json, Data/Schedules/AriSchedule.json, Data/Schedules/BlakeSchedule.json, Data/Schedules/EliasSchedule.json, Data/Schedules/EzraSchedule.json, Data/Schedules/ImanSchedule.json, Data/Schedules/JumanaSchedule.json, Data/Schedules/LyenneSchedule.json, Data/Schedules/MaiaSchedule.json, Data/Schedules/MiyoungSchedule.json, Data/Schedules/OpheliaSchedule.json, Data/Schedules/PanSchedule.json, Data/Schedules/SilasSchedule.json"
     },
-    // Compat Includes
+    
+    // Compatibility
     {
-      "LogName": "Include Compat Stuff",
+      "LogName": "Include Compatibility Data",
       "Action": "Include",
-      "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json",
+      "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json"
     },
-    // Festival Includes 
+    
+    // Festivals
     {
-      "LogName": "Include Festival Stuff",
+      "LogName": "Include Festival Data",
       "Action": "Include",
-      "FromFile": "Data/Festivals/FestivalDialogue.json, Data/Festivals/locations/EggFestival.json, Data/Festivals/locations/FlowerDance.json, Data/Festivals/locations/Luau.json, Data/Festivals/locations/MoonlightJellies.json, Data/Festivals/locations/SVFair.json, Data/Festivals/locations/SpiritEve.json, Data/Festivals/locations/IceFestival.json, Data/Festivals/locations/WinterStar.json, Data/Festivals/locations/GatheringFestival.json, Data/Festivals/locations/EmberOfResolutions.json",
+      "FromFile": "Data/Festivals/FestivalDialogue.json, Data/Festivals/locations/EggFestival.json, Data/Festivals/locations/FlowerDance.json, Data/Festivals/locations/Luau.json, Data/Festivals/locations/MoonlightJellies.json, Data/Festivals/locations/SVFair.json, Data/Festivals/locations/SpiritEve.json, Data/Festivals/locations/IceFestival.json, Data/Festivals/locations/WinterStar.json, Data/Festivals/locations/GatheringFestival.json, Data/Festivals/locations/EmberOfResolutions.json"
     },
-    // Event Data Includes
+    
+    // Event Data
     {
       "LogName": "Include Event Data",
       "Action": "Include",
-      "FromFile": "Data/Events/EventData.json",
+      "FromFile": "Data/Events/EventData.json"
     },
-    // Dependency Data Includes
+    
+    // Dependency Data
     {
       "LogName": "Include Dependency Data",
       "Action": "Include",
-      "FromFile": "Data/DependencyData/CustomCompanions.json, Data/DependencyData/FarmTypeManager.json",
+      "FromFile": "Data/DependencyData/CustomCompanions.json, Data/DependencyData/FarmTypeManager.json"
     },
-    // SO Stuff
+    
+    // SOs
     {
       "LogName": "Include SOs",
       "Action": "Include",

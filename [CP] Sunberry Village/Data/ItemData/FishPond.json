@@ -1,60 +1,63 @@
 {
-  "Changes": [
-    {
-      "LogName": "Add Fish Pond Data",
-      "Action": "EditData",
-      "Target": "Data/FishPondData",
-      "Entries": {
-        "skellady.SBVCP_FiretailGuppy": {
-          "Id": "skellady.SBVCP_FiretailGuppy",
-          "Precedence": 0,
-          "SpawnTime": -1,
-          "ProducedItems": [
-            {
-              "RequiredPopulation": 9,
-              "Chance": 0.04,
-              "ItemID": "(O)565",
-              "MinQuantity": 1,
-              "MaxQuantity": 1
-            },
-            {
-              "RequiredPopulation": 4,
-              "Chance": 0.2,
-              "ItemID": "(O)82",
-              "MinQuantity": 1,
-              "MaxQuantity": 1
-            },
-            {
-              "RequiredPopulation": 4,
-              "Chance": 0.2,
-              "ItemID": "(O)769",
-              "MinQuantity": 2,
-              "MaxQuantity": 4
-            },
-            {
-              "RequiredPopulation": 1,
-              "Chance": 1.0,
-              "ItemID": "(O)812",
-              "MinQuantity": 1,
-              "MaxQuantity": 1
+    "Changes": [
+        {
+            "LogName": "Add Fish Pond Data",
+            "Action": "EditData",
+            "Target": "Data/FishPondData",
+            "Entries": {
+                "skellady.SBVCP_FiretailGuppy": {
+                    "Id": "skellady.SBVCP_FiretailGuppy",
+                    "RequiredTags": [
+                        "item_firetailguppy"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.04,
+                            "ItemID": "(O)565",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.2,
+                            "ItemID": "(O)82",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.2,
+                            "ItemID": "(O)769",
+                            "MinQuantity": 2,
+                            "MaxQuantity": 4
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "(O)330 3"
+                        ],
+                        "4": [
+                            "skellady.SBVCP_Sunberries 2"
+                        ],
+                        "6": [
+                            "(O)382 10"
+                        ],
+                        "8": [
+                            "(O)305"
+                        ]
+                    }
+                }
             }
-          ],
-          "PopulationGates": {
-            "2": [
-              "(O)330 3"
-            ],
-            "4": [
-              "skellady.SBVCP_Sunberries 2"
-            ],
-            "6": [
-              "(O)382 10"
-            ],
-            "8": [
-              "(O)305"
-            ]
-          }
-        },
-      }
-    }
-  ]
+        }
+    ]
 }
