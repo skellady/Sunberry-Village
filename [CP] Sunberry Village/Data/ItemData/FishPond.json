@@ -63,7 +63,7 @@
                             "MaxQuantity": 1
                         },
                         {
-                            "RequiredPopulation": 4,
+                            "RequiredPopulation": 7,
                             "Chance": 0.2,
                             "ItemID": "(O)82",
                             "MinQuantity": 1,
@@ -141,6 +141,325 @@
                         ],
                         "8": [
                             "(O)394"
+                        ]
+                    }
+                },
+                "skellady.SBVCP_BonbonFish": {
+                    "Id": "skellady.SBVCP_BonbonFish",
+                    "RequiredTags": [
+                        "item_bonbonfish"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.4,
+                            "ItemID": "(O)612",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.4,
+                            "ItemID": "(O)233",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "(O)400 3"
+                        ],
+                        "4": [
+                            "(O)254"
+                        ],
+                        "6": [
+                            "(O)282 3"
+                        ],
+                        "8": [
+                            "(O)221"
+                        ]
+                    }
+                },
+                "skellady.SBVCP_EeltailedCatfish": {
+                    "Id": "skellady.SBVCP_EeltailedCatfish",
+                    "RequiredTags": [
+                        "item_eeltailedcatfish"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.05,
+                            "ItemID": "(O)541",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.4,
+                            "ItemID": "(O)330",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 4
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "(O)684 3"
+                        ],
+                        "4": [
+                            "(O)720"
+                        ],
+                        "6": [
+                            "(O)715"
+                        ],
+                        "8": [
+                            "(O)86 4"
+                        ]
+                    }
+                },
+                "skellady.SBVCP_Najelfish": {
+                    "Id": "skellady.SBVCP_Najelfish",
+                    "RequiredTags": [
+                        "item_najelfish"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.04,
+                            "ItemID": "(O)110",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.04,
+                            "ItemID": "(O)111",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.04,
+                            "ItemID": "(O)112",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.4,
+                            "ItemID": "(O)537",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "(O)378 10"
+                        ],
+                        "4": [
+                            "(O)334"
+                        ],
+                        "6": [
+                            "(O)112"
+                        ],
+                        "8": [
+                            "(O)717 2"
+                        ]
+                    }
+                },
+                "skellady.SBVCP_ChartreuseTilapia": {
+                    "Id": "skellady.SBVCP_ChartreuseTilapia",
+                    "RequiredTags": [
+                        "item_chartreusetilapia"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 0.04,
+                            "ItemID": "(O)skellady.SBVCP_Serpentine",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "(O)152 5"
+                        ],
+                        "4": [
+                            "(O)153 5"
+                        ],
+                        "6": [
+                            "(O)60"
+                        ],
+                        "8": [
+                            "(O)303"
+                        ]
+                    }
+                },
+                "skellady.SBVCP_BubblyBetta": {
+                    "Id": "skellady.SBVCP_BubblyBetta",
+                    "RequiredTags": [
+                        "item_bubblybetta"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.05,
+                            "ItemID": "(O)skellady.SBVCP_CallaLilies",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.4,
+                            "ItemID": "(O)578",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "(O)402 2"
+                        ],
+                        "4": [
+                            "(O)393 2"
+                        ],
+                        "6": [
+                            "(O)684 5"
+                        ],
+                        "8": [
+                            "(O)338"
+                        ]
+                    }
+                },
+                "skellady.SBVCP_AzureanCarp": {
+                    "Id": "skellady.SBVCP_AzureanCarp",
+                    "RequiredTags": [
+                        "item_azureancarp"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.05,
+                            "ItemID": "(O)709",
+                            "MinQuantity": 3,
+                            "MaxQuantity": 5
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.4,
+                            "ItemID": "(O)62",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "2": [
+                            "(O)84"
+                        ],
+                        "4": [
+                            "(O)536"
+                        ],
+                        "6": [
+                            "(O)766 15"
+                        ],
+                        "8": [
+                            "(O)72"
+                        ]
+                    }
+                },
+                "skellady.SBVCP_SeaCow": {
+                    "Id": "skellady.SBVCP_SeaCow",
+                    "RequiredTags": [
+                        "item_seacow"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": -1,
+                    "ProducedItems": [
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 0.2,
+                            "ItemID": "(O)186",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.4,
+                            "ItemID": "(O)184",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 1.0,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 1
+                        }
+                    ],
+                    "PopulationGates": {
+                        "3": [
+                            "(O)152 3"
+                        ],
+                        "7": [
+                            "(O)152 7"
+                        ],
+                        "10": [
+                            "(O)152 10"
                         ]
                     }
                 },
