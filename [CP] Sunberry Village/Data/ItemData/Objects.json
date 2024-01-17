@@ -392,7 +392,9 @@
                                 "(O)562",
                                 "(O)577",
                                 "(O)553",
-                                "(O)550"
+                                "(O)550",
+                                "(O)570",
+                                "(O)575"
                             ],
                             "QualityModifierMode": "Stack"
                         },
@@ -408,7 +410,9 @@
                                 "(O)543",
                                 "(O)558",
                                 "(O)556",
-                                "(O)573"
+                                "(O)573",
+                                "(O)574",
+                                "(O)578"
                             ]
                         }
                     ],
@@ -1099,7 +1103,7 @@
                 "skellady.SBVCP_DwarfKeysTrove": {
                     "Chance": 0.05,
                     "Precedence": -1,
-                    "Condition": "PLAYERS_VISITED_LOCATION Any Custom_SBV_Mines5A",
+                    "Condition": "PLAYER_VISITED_LOCATION Any Custom_SBV_Mines5A",
                     "Id": "skellady.SBVCP_DwarfKeysTrove",
                     "RandomItemId": [
                         "(O)skellady.SBVCP_DwarfKeyI",

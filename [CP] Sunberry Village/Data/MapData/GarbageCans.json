@@ -230,6 +230,11 @@
                             ]
                         },
                         {
+                            "ID": "skellady.SBVCP_SilasGeode",
+                            "Condition": "RANDOM 0.2",
+                            "ItemId":"(O)skellady.SBVCP_SunberryGeode"
+                        },
+                        {
                             "ID": "skellady.SBVCP_SilasIridiumBar",
                             "Condition": "RANDOM 0.01",
                             "ItemId": "(O)337"

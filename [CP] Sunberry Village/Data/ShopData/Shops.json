@@ -843,6 +843,12 @@
                             "AvailableStockLimit": "Global"
                         },
                         {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.SunberryGeode",
+                            "ItemId": "(O)skellady.SBVCP_SunberryGeode",
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
                             "Id": "skellady.SBVCP_SilasBlacksmith.FrozenGeode",
                             "ItemId": "(O)536",
                             "AvailableStock": 5,
