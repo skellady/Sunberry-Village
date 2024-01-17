@@ -894,7 +894,11 @@
                     "Category": 0,
                     "Price": 20,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 21
+                    "SpriteIndex": 21,
+                    "ContextTags": [
+                        "not_placeable",
+                        "totem_item"
+                    ]
                 },
             }
         },
