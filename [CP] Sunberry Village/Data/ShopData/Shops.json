@@ -883,7 +883,7 @@
                     "ID": "skellady.SBVCP_MoonberryShop",
                     "Owners": [
                         {
-                            "Condition": null,
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any skellady.SBVCP_20031458",
                             "Portrait": "Portraits/MoonSBV/MoonSBV",
                             "Dialogues": [
                                 {
