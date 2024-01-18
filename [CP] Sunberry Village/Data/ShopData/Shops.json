@@ -843,6 +843,12 @@
                             "AvailableStockLimit": "Global"
                         },
                         {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.SunberryGeode",
+                            "ItemId": "(O)skellady.SBVCP_SunberryGeode",
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
                             "Id": "skellady.SBVCP_SilasBlacksmith.FrozenGeode",
                             "ItemId": "(O)536",
                             "AvailableStock": 5,
@@ -877,7 +883,7 @@
                     "ID": "skellady.SBVCP_MoonberryShop",
                     "Owners": [
                         {
-                            "Condition": null,
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any skellady.SBVCP_20031458",
                             "Portrait": "Portraits/MoonSBV/MoonSBV",
                             "Dialogues": [
                                 {

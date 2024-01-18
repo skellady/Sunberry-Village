@@ -16,6 +16,7 @@
         "skellady.SBVCP_TigerseyePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_TigerseyePowder 1/Home/skellady.SBVCP_TigerseyePotion/false/null/{{i18n:SBV.TigerseyePotion.Name}}",
         "skellady.SBVCP_LunaritePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_LunaritePowder 1/Home/skellady.SBVCP_LunaritePotion/false/null/{{i18n:SBV.LunaritePotion.Name}}",
         "skellady.SBVCP_FairyStonePotion": "skellady.SBVCP_CinderLeaf 5 skellady.SBVCP_FairyStonePowder 1/Home/skellady.SBVCP_FairyStonePotion/false/null/{{i18n:SBV.FairyStonePotion.Name}}",
+        "skellady.SBVCP_WarpTotemSunberry": "709 1 771 5 skellady.SBVCP_Sunberries 1/Home/skellady.SBVCP_WarpTotemSunberry/false/null/{{i18n:SBV.WarpTotemSunberry.Name}}",
       }
     }
   ]
