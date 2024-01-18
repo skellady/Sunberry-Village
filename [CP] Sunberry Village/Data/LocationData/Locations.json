@@ -1,3020 +1,1295 @@
 {
-	"Changes": [
-		{
-			"Action": "EditData",
-			"Target": "Data/Locations",
-			"Entries": {
-				"Custom_SBV_SunberryVillage": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_SunberryVillage" },
-					"DisplayName": "{{i18n:Sunberry.Locations.SunberryVillage}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [
-						{
-							"Chance": 0.1,
-							"ApplyGenerousEnchantment": true,
-							"OneDebrisPerDrop": true,
-							"Precedence": 0,
-							"ContinueOnDrop": true,
-							"Id": "skellady.SBVCP_Artifacts",
-							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
-							"MinStack": 1,
-							"MaxStack": 1,
-						},
-						{
-							"Chance": 0.2,
-							"ApplyGenerousEnchantment": true,
-							"OneDebrisPerDrop": true,
-							"Precedence": 0,
-							"ContinueOnDrop": true,
-							"Id": "skellady.SBVCP_GeodeDrop",
-							"ItemId": "skellady.SBVCP_SunberryGeode",
-							"MinStack": 1,
-							"MaxStack": 1,
-						}
-					],
-					"FishAreas": {
-						"Default": {
-							"CrabPotFishTypes": [
-								"freshwater"
-							],
-							"CrabPotJunkChance": 0.3
-						}
-					},
-					"Fish": [
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring fall",
-							"Id": "skellady.SBVCP_VSmallmouthBass",
-							"ItemId": "(O)137",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here summer",
-							"Id": "skellady.SBVCP_VSeaCow",
-							"ItemId": "skellady.SBVCP_SeaCow",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": -1,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here fall",
-							"Id": "skellady.SBVCP_FiretailGuppy",
-							"ItemId": "skellady.SBVCP_FiretailGuppy",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": -1,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here summer fall winter",
-							"Id": "skellady.SBVCP_EmeraldSnapper",
-							"ItemId": "skellady.SBVCP_EmeraldSnapper",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_VBream",
-							"ItemId": "(O)132",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring fall winter",
-							"Id": "skellady.SBVCP_VCatfish",
-							"ItemId": "(O)143",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring summer",
-							"Id": "skellady.SBVCP_VSunfish",
-							"ItemId": "(O)145",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_VGreenAlgae",
-							"ItemId": "(O)153",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Summer",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_VRainbowTrout",
-							"ItemId": "(O)138",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here summer winter",
-							"Id": "skellady.SBVCP_VPike",
-							"ItemId": "(O)144",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here fall winter",
-							"Id": "skellady.SBVCP_VTigerTrout",
-							"ItemId": "(O)699",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Winter",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_VPerch",
-							"ItemId": "(O)141",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-					],
-					"Forage": [
-						{
-							"Chance": 0.9,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "VDaffodil",
-							"ItemId": "(O)18",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.3,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "VLeek",
-							"ItemId": "(O)20",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.7,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "VDandelion",
-							"ItemId": "(O)22",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.7,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "VSweetPea",
-							"ItemId": "(O)402",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.8,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "VSpiceBerry",
-							"ItemId": "(O)396",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "VGrape",
-							"ItemId": "(O)398",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.6,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "VWildPlum",
-							"ItemId": "(O)406",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.5,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "VHazelnut",
-							"ItemId": "(O)408",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.6,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "VBlackberry",
-							"ItemId": "(O)410",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.3,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "VCrystalFruit",
-							"ItemId": "(O)414",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.6,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "VCrocus",
-							"ItemId": "(O)418",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.5,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "VHolly",
-							"ItemId": "(O)283",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						}
-					]
-				},
-				"Custom_SBV_SunberryForest": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_SunberryForest" },
-					"DisplayName": "{{i18n:Sunberry.Locations.SunberryForest}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [
-						{
-							"Chance": 0.1,
-							"ApplyGenerousEnchantment": true,
-							"OneDebrisPerDrop": true,
-							"Precedence": 0,
-							"ContinueOnDrop": true,
-							"Id": "skellady.SBVCP_Artifacts",
-							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
-							"MinStack": 1,
-							"MaxStack": 1,
-						},
-						{
-							"Chance": 0.2,
-							"ApplyGenerousEnchantment": true,
-							"OneDebrisPerDrop": true,
-							"Precedence": 0,
-							"ContinueOnDrop": true,
-							"Id": "skellady.SBVCP_GeodeDrop",
-							"ItemId": "skellady.SBVCP_SunberryGeode",
-							"MinStack": 1,
-							"MaxStack": 1,
-						}
-					],
-					"FishAreas": {
-						"Default": {
-							"CrabPotFishTypes": [
-								"skellady.SBVCP.freshwater",
-								"freshwater"
-							],
-							"CrabPotJunkChance": 0.3
-						}
-					},
-					"Fish": [
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring fall",
-							"Id": "skellady.SBVCP_FSmallmouthBass",
-							"ItemId": "(O)137",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here summer fall",
-							"Id": "skellady.SBVCP_ChartreuseTilapia",
-							"ItemId": "skellady.SBVCP_ChartreuseTilapia",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring fall",
-							"Id": "skellady.SBVCP_FSeaCow",
-							"ItemId": "skellady.SBVCP_SeaCow",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring summer",
-							"Id": "skellady.SBVCP_EeltailedCatfish",
-							"ItemId": "skellady.SBVCP_EeltailedCatfish",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": 0,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring winter",
-							"Id": "skellady.SBVCP_BubblyBetta",
-							"ItemId": "skellady.SBVCP_BubblyBetta",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_FBream",
-							"ItemId": "(O)132",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring fall winter",
-							"Id": "skellady.SBVCP_FCatfish",
-							"ItemId": "(O)143",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring summer",
-							"Id": "skellady.SBVCP_FSunfish",
-							"ItemId": "(O)145",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_FGreenAlgae",
-							"ItemId": "(O)153",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Summer",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_FRainbowTrout",
-							"ItemId": "(O)138",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Summer",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_FDorado",
-							"ItemId": "(O)704",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here summer winter",
-							"Id": "skellady.SBVCP_FPike",
-							"ItemId": "(O)144",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here fall winter",
-							"Id": "skellady.SBVCP_FTigerTrout",
-							"ItemId": "(O)699",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Winter",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_FPerch",
-							"ItemId": "(O)141",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-					],
-					"Forage": [
-						{
-							"Chance": 0.9,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "FDaffodil",
-							"ItemId": "(O)18",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "FLeek",
-							"ItemId": "(O)20",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.7,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "FDandelion",
-							"ItemId": "(O)22",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.9,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "FHorseradish",
-							"ItemId": "(O)16",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.7,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "FSweetPea",
-							"ItemId": "(O)402",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.8,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "FSpiceBerry",
-							"ItemId": "(O)396",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "FGrape",
-							"ItemId": "(O)398",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.6,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "FWildPlum",
-							"ItemId": "(O)406",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.5,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "FHazelnut",
-							"ItemId": "(O)408",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.6,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "FBlackberry",
-							"ItemId": "(O)410",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.3,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "ForestRandomMushrooms",
-							"RandomItemId": [
-								"(O)404",
-								"(O)420",
-								"(O)422",
-								"(O)281",
-								"(O)257"
-							],
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.7,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "ForestRandomMushroomsRain",
-							"RandomItemId": [
-								"(O)404",
-								"(O)420",
-								"(O)422",
-								"(O)281",
-								"(O)257"
-							],
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.3,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "FCrystalFruit",
-							"ItemId": "(O)414",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.6,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "FCrocus",
-							"ItemId": "(O)418",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.5,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "FHolly",
-							"ItemId": "(O)283",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						}
-					]
-				},
-				"Custom_SBV_SunberryMountain": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_SunberryMountain"
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.SunberryMountain}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [
-						{
-							"Chance": 0.1,
-							"ApplyGenerousEnchantment": true,
-							"OneDebrisPerDrop": true,
-							"Precedence": 0,
-							"ContinueOnDrop": true,
-							"Id": "skellady.SBVCP_Artifacts",
-							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
-							"MinStack": 1,
-							"MaxStack": 1,
-						},
-						{
-							"Chance": 0.2,
-							"ApplyGenerousEnchantment": true,
-							"OneDebrisPerDrop": true,
-							"Precedence": 0,
-							"ContinueOnDrop": true,
-							"Id": "skellady.SBVCP_GeodeDrop",
-							"ItemId": "skellady.SBVCP_SunberryGeode",
-							"MinStack": 1,
-							"MaxStack": 1,
-						}
-					],
-					"FishAreas": {
-						"Default": {
-							"CrabPotFishTypes": [
-								"freshwater"
-							],
-							"CrabPotJunkChance": 0.3
-						}
-					},
-					"Fish": [
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_MGreenAlgae",
-							"ItemId": "(O)153",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": -1,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_BonbonFish",
-							"ItemId": "skellady.SBVCP_BonbonFish",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": -1,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_Najelfish",
-							"ItemId": "skellady.SBVCP_Najelfish",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": -1,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring summer fall",
-							"Id": "skellady.SBVCP_AzureanCarp",
-							"ItemId": "skellady.SBVCP_AzureanCarp",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Summer",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_MRainbowTrout",
-							"ItemId": "(O)138",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here fall winter",
-							"Id": "skellady.SBVCP_MWalleye",
-							"ItemId": "(O)140",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Winter",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_MPerch",
-							"ItemId": "(O)141",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_MChub",
-							"ItemId": "(O)702",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_MLargemouthBass",
-							"ItemId": "(O)136",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.1,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here summer winter",
-							"Id": "skellady.SBVCP_MSturgeon",
-							"ItemId": "(O)698",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_MBullhead",
-							"ItemId": "(O)700",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-					],
-					"Forage": [
-						{
-							"Chance": 0.7,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "MDandelion",
-							"ItemId": "(O)22",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.7,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "MSweetPea",
-							"ItemId": "(O)402",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.8,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "MSpiceBerry",
-							"ItemId": "(O)396",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.6,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "MWildPlum",
-							"ItemId": "(O)406",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.6,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "MBlackberry",
-							"ItemId": "(O)410",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.6,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "MCrocus",
-							"ItemId": "(O)418",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.5,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "MHolly",
-							"ItemId": "(O)283",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						}
-					]
-				},
-				"Custom_SBV_SunberryRoad": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_SunberryRoad" },
-					"DisplayName": "{{i18n:Sunberry.Locations.SunberryRoad}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [
-						{
-							"Chance": 0.1,
-							"ApplyGenerousEnchantment": true,
-							"OneDebrisPerDrop": true,
-							"Precedence": 0,
-							"ContinueOnDrop": true,
-							"Id": "skellady.SBVCP_Artifacts",
-							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
-							"MinStack": 1,
-							"MaxStack": 1,
-						},
-						{
-							"Chance": 0.2,
-							"ApplyGenerousEnchantment": true,
-							"OneDebrisPerDrop": true,
-							"Precedence": 0,
-							"ContinueOnDrop": true,
-							"Id": "skellady.SBVCP_GeodeDrop",
-							"ItemId": "skellady.SBVCP_SunberryGeode",
-							"MinStack": 1,
-							"MaxStack": 1,
-						}
-					],
-					"FishAreas": {
-						"Default": {
-							"CrabPotFishTypes": [
-								"freshwater"
-							],
-							"CrabPotJunkChance": 0.3
-						}
-					},
-					"Fish": [
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring fall",
-							"Id": "skellady.SBVCP_RSmallmouthBass",
-							"ItemId": "(O)137",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_RBream",
-							"ItemId": "(O)132",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring fall winter",
-							"Id": "skellady.SBVCP_RCatfish",
-							"ItemId": "(O)143",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring summer",
-							"Id": "skellady.SBVCP_RSunfish",
-							"ItemId": "(O)145",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_RGreenAlgae",
-							"ItemId": "(O)153",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Summer",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_RRainbowTrout",
-							"ItemId": "(O)138",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here summer winter",
-							"Id": "skellady.SBVCP_RPike",
-							"ItemId": "(O)144",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here fall winter",
-							"Id": "skellady.SBVCP_RTigerTrout",
-							"ItemId": "(O)699",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Winter",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_RPerch",
-							"ItemId": "(O)141",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-					],
-					"Forage": [
-						{
-							"Chance": 0.5,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "RDaffodil",
-							"ItemId": "(O)18",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "RDandelion",
-							"ItemId": "(O)22",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "RSweetPea",
-							"ItemId": "(O)402",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.5,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "RSpiceBerry",
-							"ItemId": "(O)396",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "RWildPlum",
-							"ItemId": "(O)406",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "RBlackberry",
-							"ItemId": "(O)410",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.3,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "RCrystalFruit",
-							"ItemId": "(O)414",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "RCrocus",
-							"ItemId": "(O)418",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "RHolly",
-							"ItemId": "(O)283",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						}
-					]
-				},
-				"Custom_SBV_ForestShortcut": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_ForestShortcut" },
-					"DisplayName": "{{i18n:Sunberry.Locations.ForestShortcut}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [
-						{
-							"Chance": 0.1,
-							"ApplyGenerousEnchantment": true,
-							"OneDebrisPerDrop": true,
-							"Precedence": 0,
-							"ContinueOnDrop": true,
-							"Id": "skellady.SBVCP_Artifacts",
-							"ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
-							"MinStack": 1,
-							"MaxStack": 1,
-						},
-						{
-							"Chance": 0.2,
-							"ApplyGenerousEnchantment": true,
-							"OneDebrisPerDrop": true,
-							"Precedence": 0,
-							"ContinueOnDrop": true,
-							"Id": "skellady.SBVCP_GeodeDrop",
-							"ItemId": "skellady.SBVCP_SunberryGeode",
-							"MinStack": 1,
-							"MaxStack": 1,
-						}
-					],
-					"FishAreas": {},
-					"Fish": [
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring fall",
-							"Id": "skellady.SBVCP_SSmallmouthBass",
-							"ItemId": "(O)137",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_SBream",
-							"ItemId": "(O)132",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring fall winter",
-							"Id": "skellady.SBVCP_SCatfish",
-							"ItemId": "(O)143",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here spring summer",
-							"Id": "skellady.SBVCP_SSunfish",
-							"ItemId": "(O)145",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_SGreenAlgae",
-							"ItemId": "(O)153",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Summer",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_SRainbowTrout",
-							"ItemId": "(O)138",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Summer",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_SDorado",
-							"ItemId": "(O)704",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here summer winter",
-							"Id": "skellady.SBVCP_SPike",
-							"ItemId": "(O)144",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Condition": "LOCATION_SEASON Here fall winter",
-							"Id": "skellady.SBVCP_STigerTrout",
-							"ItemId": "(O)699",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 1.0,
-							"Season": "Winter",
-							"MinFishingLevel": 0,
-							"MinDistanceFromShore": 0,
-							"MaxDistanceFromShore": -1,
-							"ApplyDailyLuck": false,
-							"CuriosityLureBuff": -1.0,
-							"CatchLimit": -1,
-							"IsBossFish": false,
-							"SetFlagOnCatch": null,
-							"RequireMagicBait": false,
-							"Precedence": 0,
-							"IgnoreFishDataRequirements": false,
-							"CanBeInherited": true,
-							"ChanceModifiers": null,
-							"ChanceModifierMode": "Stack",
-							"Id": "skellady.SBVCP_SPerch",
-							"ItemId": "(O)141",
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-					],
-					"Forage": [
-						{
-							"Chance": 0.5,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "SDaffodil",
-							"ItemId": "(O)18",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Spring",
-							"Condition": null,
-							"Id": "SDandelion",
-							"ItemId": "(O)22",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "SSweetPea",
-							"ItemId": "(O)402",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.5,
-							"Season": "Summer",
-							"Condition": null,
-							"Id": "SSpiceBerry",
-							"ItemId": "(O)396",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "SWildPlum",
-							"ItemId": "(O)406",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Fall",
-							"Condition": null,
-							"Id": "SBlackberry",
-							"ItemId": "(O)410",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.3,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "SCrystalFruit",
-							"ItemId": "(O)414",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "SCrocus",
-							"ItemId": "(O)418",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						},
-						{
-							"Chance": 0.4,
-							"Season": "Winter",
-							"Condition": null,
-							"Id": "SHolly",
-							"ItemId": "(O)283",
-							"RandomItemId": null,
-							"MinStack": -1,
-							"MaxStack": -1,
-							"Quality": -1,
-							"ObjectInternalName": null,
-							"ObjectDisplayName": null,
-							"ToolUpgradeLevel": -1,
-							"IsRecipe": false,
-							"StackModifiers": null,
-							"StackModifierMode": "Stack",
-							"QualityModifiers": null,
-							"QualityModifierMode": "Stack"
-						}
-					]
-				},
-				// INDOOR MAPS
-				"Custom_SBV_DialaCafe": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_DialaCafe" },
-					"DisplayName": "{{i18n:Sunberry.Locations.DNDCafe}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_DDHouse": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_DDHouse" },
-					"DisplayName": "{{i18n:Sunberry.Locations.DNDHouse}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_ReiHouse": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_ReiHouse" },
-					"DisplayName": "{{i18n:Sunberry.Locations.ReiHouse}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_SunberryLibrary": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_SunberryLibrary" },
-					"DisplayName": "{{i18n:Sunberry.Locations.SunberryLibrary}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_SerenityInn": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_SerenityInn" },
-					"DisplayName": "{{i18n:Sunberry.Locations.SerenityInn}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_SerenityInn2ndFloor": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_SerenityInn2ndFloor" },
-					"DisplayName": "{{i18n:Sunberry.Locations.SerenityInn2ndFloor}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_SerenityInn3rdFloor": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_SerenityInn3rdFloor" },
-					"DisplayName": "{{i18n:Sunberry.Locations.SerenityInn3rdFloor}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_OpheliaHouse": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_OpheliaHouse" },
-					"DisplayName": "{{i18n:Sunberry.Locations.OpheliaHouse}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_MiyoungHouse": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_MiyoungHouse" },
-					"DisplayName": "{{i18n:Sunberry.Locations.MiyoungHouse}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_AriMarket": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_AriMarket" },
-					"DisplayName": "{{i18n:Sunberry.Locations.AriMarket}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_EliasHouse": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_EliasHouse" },
-					"DisplayName": "{{i18n:Sunberry.Locations.EliasHouse}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_EzraHouse": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_EzraHouse" },
-					"DisplayName": "{{i18n:Sunberry.Locations.EzraHouse}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_EzraClothes": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_EzraClothes" },
-					"DisplayName": "{{i18n:Sunberry.Locations.EzraClothes}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_MaiaHouse": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_MaiaHouse" },
-					"DisplayName": "{{i18n:Sunberry.Locations.MaiaHouse}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_SilasBlacksmith": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_SilasBlacksmith" },
-					"DisplayName": "{{i18n:Sunberry.Locations.SilasBlacksmith}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_ImanHouse": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_ImanHouse" },
-					"DisplayName": "{{i18n:Sunberry.Locations.ImanHouse}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_CrystalCave": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_CrystalCave" },
-					"DisplayName": "{{i18n:Sunberry.Locations.CrystalCave}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_ChrisDinerBroken": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_ChrisDinerBroken" },
-					"DisplayName": "{{i18n:Sunberry.Locations.ChrisDinerBroken}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_ChrisDiner": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_ChrisDiner" },
-					"DisplayName": "{{i18n:Sunberry.Locations.ChrisDiner}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_ChrisDinerRainbow": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_ChrisDinerRainbow" },
-					"DisplayName": "{{i18n:Sunberry.Locations.ChrisDinerRainbow}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_EliasHouseOld": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_EliasHouseOld" },
-					"DisplayName": "{{i18n:Sunberry.Locations.EliasHouseOld}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_EliasHouseNew": {
-					"CreateOnLoad": { "MapPath": "Maps/Custom_SBV_EliasHouseNew" },
-					"DisplayName": "{{i18n:Sunberry.Locations.EliasHouseNew}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_SunberryMuseum": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_SunberryMuseum"
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.SunberryMuseum}}",
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				// EVENT MAPS
-				"Custom_SBV_MoonWoods": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_MoonWoods",
-					},
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				// WARP ROOM
-				"Custom_SBV_SunberryWarpRoom": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_SunberryWarpRoom",
-					},
-					"ExcludeFromNpcPathfinding": false,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				// MINES
-				"Custom_SBV_Mines1": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines1",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines1}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines2": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines2",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines2}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines3": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines3",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines3}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines4": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines4",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines4}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines5A": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines5A",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines5A}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines5B": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines5B",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines5B}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines6": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines6",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines6}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines7": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines7",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines7}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines8": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines8",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines8}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines9": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines9",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines9}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines10A": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines10A",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines10A}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines10B": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines10B",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines10B}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines11": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines11",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines11}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines12": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines12",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines12}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines13": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines13",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines13}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines14": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines14",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines14}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_Mines15": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_Mines15",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.Mines15}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-				"Custom_SBV_MinesFinal": {
-					"CreateOnLoad": {
-						"MapPath": "Maps/Custom_SBV_MinesFinal",
-					},
-					"DisplayName": "{{i18n:Sunberry.Locations.MinesFinal}}",
-					"ExcludeFromNpcPathfinding": true,
-					"ArtifactSpots": [],
-					"FishAreas": {},
-					"Fish": [],
-					"Forage": []
-				},
-			}
-		}
-	]
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "Custom_SBV_SunberryVillage": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryVillage"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryVillage}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_VSmallmouthBass",
+                            "ItemId": "(O)137",
+                            "Condition": "LOCATION_SEASON Here spring fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_VSeaCow",
+                            "ItemId": "{{ModId}}_SeaCow",
+                            "Precedence": -1,
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_FiretailGuppy",
+                            "ItemId": "{{ModId}}_FiretailGuppy",
+                            "Precedence": -1,
+                            "Season": "Fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_EmeraldSnapper",
+                            "ItemId": "{{ModId}}_EmeraldSnapper",
+                            "Precedence": -1,
+                            "Condition": "LOCATION_SEASON Here summer fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_VBream",
+                            "ItemId": "(O)132"
+                        },
+                        {
+                            "Id": "{{ModId}}_VCatfish",
+                            "ItemId": "(O)143",
+                            "Condition": "LOCATION_SEASON Here spring fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_VSunfish",
+                            "ItemId": "(O)145",
+                            "Condition": "LOCATION_SEASON Here spring summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_VGreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_VRainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_VPike",
+                            "ItemId": "(O)144",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+
+                            "Id": "{{ModId}}_VTigerTrout",
+                            "ItemId": "(O)699",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_VPerch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_VDaffodil",
+                            "ItemId": "(O)18",
+                            "Season": "Spring",
+                            "Chance": 0.9
+                        },
+                        {
+                            "Id": "{{ModId}}_VLeek",
+                            "ItemId": "(O)20",
+                            "Season": "Spring",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_VDandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_VSweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_VSpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.8
+                        },
+                        {
+                            "Id": "{{ModId}}_VGrape",
+                            "ItemId": "(O)398",
+                            "Season": "Summer",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_VWildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_VHazelnut",
+                            "ItemId": "(O)408",
+                            "Season": "Fall",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_VBlackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_VCrystalFruit",
+                            "ItemId": "(O)414",
+                            "Season": "Winter",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_VCrocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_VHolly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.5
+                        }
+                    ]
+                },
+                "Custom_SBV_SunberryForest": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryForest"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryForest}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "skellady.SBVCP.freshwater",
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_FSmallmouthBass",
+                            "ItemId": "(O)137",
+                            "Condition": "LOCATION_SEASON Here spring fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_ChartreuseTilapia",
+                            "ItemId": "{{ModId}}_ChartreuseTilapia",
+                            "Condition": "LOCATION_SEASON Here summer fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_FSeaCow",
+                            "ItemId": "{{ModId}}_SeaCow",
+                            "Condition": "LOCATION_SEASON Here spring fall",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_EeltailedCatfish",
+                            "ItemId": "{{ModId}}_EeltailedCatfish",
+                            "Condition": "LOCATION_SEASON Here spring summer",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_BubblyBetta",
+                            "ItemId": "{{ModId}}_BubblyBetta",
+                            "Condition": "LOCATION_SEASON Here spring winter",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_FBream",
+                            "ItemId": "(O)132"
+                        },
+                        {
+                            "Id": "{{ModId}}_FCatfish",
+                            "ItemId": "(O)143",
+                            "Condition": "LOCATION_SEASON Here spring fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_FSunfish",
+                            "ItemId": "(O)145",
+                            "Condition": "LOCATION_SEASON Here spring summer",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_FGreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_FRainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_FDorado",
+                            "ItemId": "(O)704",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_FPike",
+                            "ItemId": "(O)144",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_FTigerTrout",
+                            "ItemId": "(O)699",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_FPerch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_FDaffodil",
+                            "ItemId": "(O)18",
+                            "Season": "Spring",
+                            "Chance": 0.9
+                        },
+                        {
+                            "Id": "{{ModId}}_FLeek",
+                            "ItemId": "(O)20",
+                            "Season": "Spring",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_FDandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_FHorseradish",
+                            "ItemId": "(O)16",
+                            "Season": "Spring",
+                            "Chance": 0.9
+                        },
+                        {
+                            "Id": "{{ModId}}_FSweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_FSpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.8
+                        },
+                        {
+                            "Id": "{{ModId}}_FGrape",
+                            "ItemId": "(O)398",
+                            "Season": "Summer",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_FWildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_FHazelnut",
+                            "ItemId": "(O)408",
+                            "Season": "Fall",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_FBlackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_ForestRandomMushrooms",
+                            "RandomItemId": [
+                                "(O)404",
+                                "(O)420",
+                                "(O)422",
+                                "(O)281",
+                                "(O)257"
+                            ],
+                            "Season": "Fall",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_ForestRandomMushroomsRain",
+                            "RandomItemId": [
+                                "(O)404",
+                                "(O)420",
+                                "(O)422",
+                                "(O)281",
+                                "(O)257"
+                            ],
+                            "Season": "Fall",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_FCrystalFruit",
+                            "ItemId": "(O)414",
+                            "Season": "Winter",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_FCrocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_FHolly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.5
+                        }
+                    ]
+                },
+                "Custom_SBV_SunberryMountain": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryMountain"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryMountain}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_MGreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_MBonbonFish",
+                            "ItemId": "{{ModId}}_BonbonFish",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_MNajelfish",
+                            "ItemId": "{{ModId}}_Najelfish",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_AzureanCarp",
+                            "ItemId": "{{ModId}}_AzureanCarp",
+                            "Condition": "LOCATION_SEASON Here spring summer fall",
+                            "Precedence": -1
+                        },
+                        {
+                            "Id": "{{ModId}}_MRainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_MWalleye",
+                            "ItemId": "(O)140",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_MPerch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_MChub",
+                            "ItemId": "(O)702"
+                        },
+                        {
+                            "Id": "{{ModId}}_MLargemouthBass",
+                            "ItemId": "(O)136"
+                        },
+                        {
+                            "Id": "{{ModId}}_MSturgeon",
+                            "ItemId": "(O)698",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_MBullhead",
+                            "ItemId": "(O)700"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_MDandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_MSweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_MSpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.8
+                        },
+                        {
+                            "Id": "{{ModId}}_MWildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_MBlackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_MCrocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.6
+                        },
+                        {
+                            "Id": "{{ModId}}_MHolly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.5
+                        }
+                    ]
+                },
+                "Custom_SBV_SunberryRoad": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryRoad"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryRoad}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {
+                        "Default": {
+                            "CrabPotFishTypes": [
+                                "freshwater"
+                            ],
+                            "CrabPotJunkChance": 0.3
+                        }
+                    },
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_RSmallmouthBass",
+                            "ItemId": "(O)137",
+                            "Condition": "LOCATION_SEASON Here spring fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_RBream",
+                            "ItemId": "(O)132"
+                        },
+                        {
+                            "Id": "{{ModId}}_RCatfish",
+                            "ItemId": "(O)143",
+                            "Condition": "LOCATION_SEASON Here spring fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_RSunfish",
+                            "ItemId": "(O)145",
+                            "Condition": "LOCATION_SEASON Here spring summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_RGreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_RRainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_RPike",
+                            "ItemId": "(O)144",
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_RTigerTrout",
+                            "ItemId": "(O)699",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_RPerch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_RDaffodil",
+                            "ItemId": "(O)18",
+                            "Season": "Spring",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_RDandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RSweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RSpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_RWildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RBlackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RCrystalFruit",
+                            "ItemId": "(O)414",
+                            "Season": "Winter",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_RCrocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RHolly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        }
+                    ]
+                },
+                "Custom_SBV_ForestShortcut": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ForestShortcut"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ForestShortcut}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [
+                        {
+                            "Chance": 0.1,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_Artifacts",
+                            "ItemId": "RANDOM_ARTIFACT_FOR_DIG_SPOT",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        },
+                        {
+                            "Chance": 0.2,
+                            "ApplyGenerousEnchantment": true,
+                            "OneDebrisPerDrop": true,
+                            "Precedence": 0,
+                            "ContinueOnDrop": true,
+                            "Id": "{{ModId}}_GeodeDrop",
+                            "ItemId": "{{ModId}}_SunberryGeode",
+                            "MinStack": 1,
+                            "MaxStack": 1
+                        }
+                    ],
+                    "FishAreas": {},
+                    "Fish": [
+                        {
+                            "Id": "{{ModId}}_SSmallmouthBass",
+                            "ItemId": "(O)137",
+                            "Condition": "LOCATION_SEASON Here spring fall"
+                        },
+                        {
+                            "Id": "{{ModId}}_SBream",
+                            "ItemId": "(O)132"
+                        },
+                        {
+                            "Id": "{{ModId}}_SCatfish",
+                            "ItemId": "(O)143",
+                            "Condition": "LOCATION_SEASON Here spring fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_SSunfish",
+                            "ItemId": "(O)145",
+                            "Condition": "LOCATION_SEASON Here spring summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_SGreenAlgae",
+                            "ItemId": "(O)153"
+                        },
+                        {
+                            "Id": "{{ModId}}_SRainbowTrout",
+                            "ItemId": "(O)138",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_SDorado",
+                            "ItemId": "(O)704",
+                            "Season": "Summer"
+                        },
+                        {
+                            "Id": "{{ModId}}_SPike",
+                            "ItemId": "(O)144"
+                            "Condition": "LOCATION_SEASON Here summer winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_STigerTrout",
+                            "ItemId": "(O)699",
+                            "Condition": "LOCATION_SEASON Here fall winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_SPerch",
+                            "ItemId": "(O)141",
+                            "Season": "Winter"
+                        }
+                    ],
+                    "Forage": [
+                        {
+                            "Id": "{{ModId}}_SDaffodil",
+                            "ItemId": "(O)18",
+                            "Season": "Spring",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_SDandelion",
+                            "ItemId": "(O)22",
+                            "Season": "Spring",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_SSweetPea",
+                            "ItemId": "(O)402",
+                            "Season": "Summer",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_SSpiceBerry",
+                            "ItemId": "(O)396",
+                            "Season": "Summer",
+                            "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_SWildPlum",
+                            "ItemId": "(O)406",
+                            "Season": "Fall",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_SBlackberry",
+                            "ItemId": "(O)410",
+                            "Season": "Fall",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_SCrystalFruit",
+                            "ItemId": "(O)414",
+                            "Season": "Winter",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_SCrocus",
+                            "ItemId": "(O)418",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_SHolly",
+                            "ItemId": "(O)283",
+                            "Season": "Winter",
+                            "Chance": 0.4
+                        }
+                    ]
+                },
+                // INDOOR MAPS
+                "Custom_SBV_DialaCafe": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_DialaCafe"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.DNDCafe}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_DDHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_DDHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.DNDHouse}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_ReiHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ReiHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ReiHouse}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SunberryLibrary": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryLibrary"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryLibrary}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SerenityInn": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SerenityInn"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SerenityInn}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SerenityInn2ndFloor": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SerenityInn2ndFloor"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SerenityInn2ndFloor}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SerenityInn3rdFloor": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SerenityInn3rdFloor"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SerenityInn3rdFloor}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_OpheliaHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_OpheliaHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.OpheliaHouse}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_MiyoungHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_MiyoungHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.MiyoungHouse}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_AriMarket": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_AriMarket"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.AriMarket}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_EliasHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_EliasHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.EliasHouse}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_EzraHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_EzraHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.EzraHouse}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_EzraClothes": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_EzraClothes"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.EzraClothes}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_MaiaHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_MaiaHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.MaiaHouse}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SilasBlacksmith": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SilasBlacksmith"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SilasBlacksmith}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_ImanHouse": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ImanHouse"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ImanHouse}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_CrystalCave": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_CrystalCave"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.CrystalCave}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_ChrisDinerBroken": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ChrisDinerBroken"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ChrisDinerBroken}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_ChrisDiner": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ChrisDiner"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ChrisDiner}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_ChrisDinerRainbow": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_ChrisDinerRainbow"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.ChrisDinerRainbow}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_EliasHouseOld": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_EliasHouseOld"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.EliasHouseOld}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_EliasHouseNew": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_EliasHouseNew"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.EliasHouseNew}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_SunberryMuseum": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryMuseum"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryMuseum}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                // EVENT MAPS
+                "Custom_SBV_MoonWoods": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_MoonWoods"
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                // WARP ROOM
+                "Custom_SBV_SunberryWarpRoom": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SunberryWarpRoom"
+                    },
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                // MINES
+                "Custom_SBV_Mines1": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines1"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines1}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines2": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines2"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines2}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines3": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines3"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines3}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines4": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines4"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines4}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines5A": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines5A"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines5A}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines5B": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines5B"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines5B}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines6": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines6"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines6}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines7": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines7"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines7}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines8": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines8"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines8}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines9": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines9"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines9}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines10A": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines10A"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines10A}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines10B": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines10B"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines10B}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines11": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines11"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines11}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines12": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines12"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines12}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines13": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines13"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines13}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines14": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines14"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines14}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_Mines15": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_Mines15"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.Mines15}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
+                "Custom_SBV_MinesFinal": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_MinesFinal"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.MinesFinal}}",
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                }
+            }
+        }
+    ]
 }
