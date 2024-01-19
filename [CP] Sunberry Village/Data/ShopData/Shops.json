@@ -402,7 +402,8 @@
                         // Shirts
                         {
                             "Id": "skellady.SBVCP_EzraClothes.Shirts",
-                            "ItemId": "RANDOM_ITEMS (S) @count 5",
+                            "ItemId": "RANDOM_ITEMS (S)",
+                            "MaxItems": 5,
                             "Price": 1000,
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
@@ -410,7 +411,8 @@
                         // Pants
                         {
                             "Id": "skellady.SBVCP_EzraClothes.Pants",
-                            "ItemId": "RANDOM_ITEMS (P) @count 5",
+                            "ItemId": "RANDOM_ITEMS (P)",
+                            "MaxItems": 5,
                             "Price": 1000,
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
