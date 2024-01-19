@@ -247,7 +247,6 @@
                             "Id": "{{ModId}}_BubblyBetta",
                             "ItemId": "{{ModId}}_BubblyBetta",
                             "Condition": "LOCATION_SEASON Here spring winter",
-                            "Precedence": -1
                         },
                         {
                             "Id": "{{ModId}}_FBream",
