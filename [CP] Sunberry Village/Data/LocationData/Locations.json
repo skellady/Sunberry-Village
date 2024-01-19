@@ -743,7 +743,7 @@
                         },
                         {
                             "Id": "{{ModId}}_SPike",
-                            "ItemId": "(O)144"
+                            "ItemId": "(O)144",
                             "Condition": "LOCATION_SEASON Here summer winter"
                         },
                         {
