@@ -20,7 +20,7 @@
 		{
 			"LogName": "Generic Music Spring",
 			"Action": "EditMap",
-			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest, Maps/Custom_SBV_SunberryRoad, Maps/Custom_SBV_ForestShortcut",
 			"MapProperties": {
 				"Music": "{{Random: spring1, spring2, spring3}}"
 			},
@@ -34,7 +34,7 @@
 		{
 			"LogName": "Generic Music Summer",
 			"Action": "EditMap",
-			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest, Maps/Custom_SBV_SunberryRoad, Maps/Custom_SBV_ForestShortcut",
 			"MapProperties": {
 				"Music": "{{Random: summer1, summer2, summer3}}"
 			},
@@ -48,7 +48,7 @@
 		{
 			"LogName": "Generic Music Fall",
 			"Action": "EditMap",
-			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest, Maps/Custom_SBV_SunberryRoad, Maps/Custom_SBV_ForestShortcut",
 			"MapProperties": {
 				"Music": "{{Random: fall1, fall2, fall3}}"
 			},
@@ -62,7 +62,7 @@
 		{
 			"LogName": "Generic Music Winter",
 			"Action": "EditMap",
-			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest, Maps/Custom_SBV_SunberryRoad, Maps/Custom_SBV_ForestShortcut",
 			"MapProperties": {
 				"Music": "{{Random: winter1, winter2, winter3}}"
 			},
@@ -77,7 +77,7 @@
 		{
 			"LogName": "Night Ambience",
 			"Action": "EditMap",
-			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest, Maps/Custom_SBV_SunberryRoad, Maps/Custom_SBV_ForestShortcut",
 			"MapProperties": {
 				"Music": "spring_night_ambient"
 			},
@@ -92,7 +92,7 @@
 		{
 			"LogName": "Rain",
 			"Action": "EditMap",
-			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest",
+			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest, Maps/Custom_SBV_SunberryRoad, Maps/Custom_SBV_ForestShortcut",
 			"MapProperties": {
 				"Music": "rain"
 			},
