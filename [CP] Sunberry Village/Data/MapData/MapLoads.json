@@ -153,6 +153,12 @@
       "FromFile": "Assets/Maps/InteriorMaps/SerenityInn3rdFloor.tmx"
     },
     {
+      "LogName": "Load Serenity Inn Conference Room",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SerenityInnConference",
+      "FromFile": "Assets/Maps/InteriorMaps/SerenityInnConference.tmx"
+    },
+    {
       "LogName": "Load Silas Blacksmith",
       "Action": "Load",
       "Target": "Maps/Custom_SBV_SilasBlacksmith",

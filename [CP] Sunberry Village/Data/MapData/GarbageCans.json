@@ -35,12 +35,16 @@
                         {
                             "ID": "skellady.SBVCP_MiyoungDishes",
                             "Condition": "RANDOM 0.02",
-                            "ItemId": "RANDOM_ITEMS (O) @has_category -7"
+                            "ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -7",
                         },
                         {
                             "ID": "skellady.SBVCP_MiyoungTrashItems",
                             "Condition": "RANDOM 0.3",
-                            "ItemId": "RANDOM_ITEMS (O) @has_category -20"
+                            "ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -20",
                         }
                     ]
                 },
@@ -74,7 +78,9 @@
                         {
                             "ID": "skellady.SBVCP_EITrashItems",
                             "Condition": "RANDOM 0.3",
-							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+                            "ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -20",
                         },
                     ]
                 },
@@ -99,7 +105,9 @@
                         {
                             "ID": "skellady.SBVCP_CCTrashItems",
                             "Condition": "RANDOM 0.3",
-							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+							"ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -20",
                         },
                     ]
                 },
@@ -126,7 +134,9 @@
                         {
                             "ID": "skellady.SBVCP_AriFertilizers",
                             "Condition": "RANDOM 0.02",
-							"ItemId": "RANDOM_ITEMS (O) @has_category -19",
+                            "ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -19",
                         },
                         {
                             "ID": "skellady.SBVCP_AriResources",
@@ -140,7 +150,9 @@
                         {
                             "ID": "skellady.SBVCP_AriTrashItems",
                             "Condition": "RANDOM 0.3",
-							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+							"ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -20",
                         },
                     ]
                 },
@@ -149,17 +161,22 @@
                         {
                             "ID": "skellady.SBVCP_FountainDishes",
                             "Condition": "RANDOM 0.01",
-                            "ItemId":"RANDOM_ITEMS (O) @has_category -7"
+                            "ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -7",
                         },
                         {
                             "ID": "skellady.SBVCP_FountainTrashItems",
                             "Condition": "RANDOM 0.3",
-							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+							"ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -20",
                         },
                         {
                             "ID": "skellady.SBVCP_FountainGems",
                             "Condition": "RANDOM 0.03",
-							"ItemId": "RANDOM_ITEMS (O) @has_id_in_base_range 60 68 @has_category -12",
+							"ItemId": "RANDOM_ITEMS (O) 60 68",
+                            "PerItemCondition": "ITEM_CATEGORY Target -12",
                         },
                     ]
                 },
@@ -180,7 +197,9 @@
                         {
                             "ID": "skellady.SBVCP_MaiaTrashItems",
                             "Condition": "RANDOM 0.3",
-							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+							"ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -20",
                         },
                         {
                             "ID": "skellady.SBVCP_JumanaFlowers",
@@ -242,7 +261,9 @@
                         {
                             "ID": "skellady.SBVCP_SilasTrashItems",
                             "Condition": "RANDOM 0.3",
-							"ItemId": "RANDOM_ITEMS (O) @has_category -20",
+							"ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -20",
                         }
                     ]
                 },

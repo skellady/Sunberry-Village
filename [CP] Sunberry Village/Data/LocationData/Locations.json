@@ -892,6 +892,17 @@
                     "Fish": [],
                     "Forage": []
                 },
+                "Custom_SBV_SerenityInnConference": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_SerenityInnConference"
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.SerenityInnConference}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
                 "Custom_SBV_OpheliaHouse": {
                     "CreateOnLoad": {
                         "MapPath": "Maps/Custom_SBV_OpheliaHouse"

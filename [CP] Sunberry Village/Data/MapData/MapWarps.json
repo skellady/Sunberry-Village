@@ -175,8 +175,18 @@
         "18 1 Custom_SBV_SerenityInn2ndFloor 14 19",
         "19 1 Custom_SBV_SerenityInn2ndFloor 15 19",
         "20 1 Custom_SBV_SerenityInn2ndFloor 16 19",
+        "25 9 Custom_SBV_SerenityInnConference 1 6",
+        "25 10 Custom_SBV_SerenityInnConference 1 7",
         "11 16 Custom_SBV_SunberryVillage 74 31",
         "12 16 Custom_SBV_SunberryVillage 75 31",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SerenityInnConference",
+      "AddWarps": [
+        "0 6 Custom_SBV_SerenityInn 24 9",
+        "0 7 Custom_SBV_SerenityInn 24 10"
       ]
     },
     {
