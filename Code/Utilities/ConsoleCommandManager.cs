@@ -5,6 +5,7 @@ using StardewValley.Quests;
 using SunberryVillage.Animations;
 using SunberryVillage.Integration.Tokens;
 using SunberryVillage.Lighting;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,6 +18,8 @@ internal class ConsoleCommandManager
 {
 	private static bool[,] walkable;
 	private static bool drawWalkable;
+
+	private static readonly Random Random = new();
 
 	internal static void InitializeConsoleCommands()
 	{
@@ -266,6 +269,18 @@ internal class ConsoleCommandManager
 
 		#endregion
 
+		#region Fishing
+
+		Globals.CCHelper.Add("sbv.fish.dist", "Gets an estimate of the distribution of fish for the current location. Uses the player's fishing level.", (_, args) => {
+			int numToCatch = 100;
+			if (args.Length > 0 && int.TryParse(args[0], out int inputNum))
+				numToCatch = inputNum;
+			
+			PrintFishingDistribution(numToCatch);
+		});
+
+		#endregion
+
 		#region Misc
 
 		Globals.CCHelper.Add("sbv.misc.getlostbooks", "Gets all lost books.", (_, _) =>
@@ -295,9 +310,21 @@ internal class ConsoleCommandManager
 
 	private static void PrintWalkableTileCount()
 	{
-		if (IsWorldReady())
-			Log.Info($"Walkable tiles in {Game1.currentLocation.Name}: {DoWalkableFloodFill()}");
+		if (!IsWorldReady())
+			return;
+
+		Log.Info($"Walkable tiles in {Game1.currentLocation.Name}: {DoWalkableFloodFill()}");
 	}
+
+	private static void PrintFishingDistribution(int numToCatch)
+	{
+		if (!IsWorldReady())
+			return;
+
+		Dictionary<string, int> catches = DoFishingDistribution(numToCatch);
+		Log.Info($"Fishing distribution in {Game1.currentLocation.Name} over {numToCatch} attempts:\n\t{string.Join("\n\t", catches.OrderBy(kvp => kvp.Value).Select(kvp => $"{kvp.Value} x \"{kvp.Key}\""))}"); // sorry this line is ugly as fuck i don't care
+	}
+
 
 	// Helpers
 
@@ -308,6 +335,31 @@ internal class ConsoleCommandManager
 		Log.Warn("This command should only be used in a loaded save.");
 		return false;
 
+	}
+
+
+	private static Dictionary<string, int> DoFishingDistribution(int numToCatch)
+	{
+		Dictionary<string, int> catchQuantities = new();
+
+		for (int i = 0; i < numToCatch; i++)
+		{
+			Item item = Game1.currentLocation.getFish(
+				millisecondsAfterNibble: 0f,
+				bait: "",
+				waterDepth: Random.Next(1, 6),
+				who: Game1.player,
+				baitPotency: 0f,
+				bobberTile: Game1.player.Tile
+			);
+
+			if (catchQuantities.ContainsKey(item.DisplayName))
+				catchQuantities[item.DisplayName] += item.Stack;
+			else
+				catchQuantities.Add(item.DisplayName, item.Stack);
+		}
+
+		return catchQuantities;
 	}
 
 	private static int DoWalkableFloodFill()
