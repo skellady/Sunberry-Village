@@ -1474,6 +1474,24 @@
   "SBV.PlayerKilled.05": "We called Marlon over, he might have some of your missing items. Please, be careful next time.$s",
   "SBV.PlayerKilled.06": "I feel better thanks to Maia and Ophelia. I should still get some rest, though.",
 
+  // Moon's Moonberry Shop Event
+  "event-20031458.01": "Woah! Moon senses something in your backpack. It's calling Moon's name!$3",
+  "event-20031458.02": "*gasp*...It's a Moonberry, isn't it?$3",
+  "event-20031458.03": "Come with Moon! Moon shows you something!$h",
+  "event-20031458.04": "If you put the Moonberries you find here at the seedmaker, Moon gives you seeds in return!$h",
+  "event-20031458.05": "Moon likes collecting them! They bring good luck!$3",
+  "event-20031458.06": "You can now trade Moonberries for seeds!",
+
+  // Iman 2 Hearts Event
+  "event-20031459.01": "Oh, hey. Didn't think I'd run into anyone here.",
+  "event-20031459.02": "...I'm just... looking around.$7",
+  "event-20031459.03": "Did you lose something here?",
+  "event-20031459.04": "What are you looking at exactly?",
+  "event-20031459.05": "Not... really. It's nothing, don't mind me. I should head back to Ezra's.$s",
+  "event-20031459.06": "You're a very curious person, aren't you? It's nothing. I should head back to Ezra's.$8",
+  "event-20031459.07": "See you later, farmer.",
+  "event-20031459.08": "What was that all about?",
+
   //Animation Dialogue
   //------------------
 
