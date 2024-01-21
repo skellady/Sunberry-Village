@@ -269,7 +269,7 @@
 
   //Birthday
   "Birthday.Gems.Diala": "Aw, @! This is honestly one of my favorite things to get as a gift.$h#$b#Thank you for feeding my addiction by giving me more of them.$u",
-  "Birthday.Cookie.Diala": "Ooh! Thank you, these look and smell delicious.$4#$b#You can never go wrong with homemade baked treats as a birthday gift!$u",
+  "Birthday.Cookie.Diala": "Ooh! Thank you, these look and smell delicious.$4#$b#You can never go wrong with baked treats as a birthday gift!$u",
   "Birthday.FairyRose.Diala": "OH!$7#$b#...@, these are my favorite! Thank you so much.$4",
   "Birthday.FriedEgg.Diala": "Mmm, a homemade meal is definitely the way to my heart.$u#$b#Thank you, @!$h",
   "Birthday.IceCream.Diala": "Oh my God, ice cream on my birthday? You're the best!$u#$b#Thanks, @!$h",
@@ -280,7 +280,7 @@
   "Birthday.Sashimi.Diala": "Aw, @! This is one of my absolute favorite dishes. I gotta make sure Derya doesn't see it.$u#$b#Thank you!$h",
   "Birthday.Spaghetti.Diala": "Spaghetti on my birthday? You're an angel, @!$u#$b#Thank you.$h",
   "Birthday.StarShards.Diala": "Oh? For my birthday?$7#$b#It's beautiful! Thank you so much, @.$4",
-  "Birthday.Sunflower.Diala": "OH!$7#$b#...@, these are my favorite!$4#$b#They're beautiful, thank you.$h",
+  "Birthday.Sunflower.Diala": "OH!$7#$b#...@, sunflowers are my favorite!$4#$b#They're beautiful, thank you.$h",
 
   //Love
   "Gift.Gems.Diala": "Oh! @, this is beautiful!$h#$b#It's going straight to my collection, thank you.$u",
@@ -289,7 +289,7 @@
   "Gift.Cookie.Diala": "OH! This is delicious!$h#$b#My, I have to admit these are almost better than the ones I make.$u",
   "Gift.Corn.Diala": "You got me corn!$u#$b#You know, at some point, Derya and I spent a whole week eating nothing but corn.$9#$b#Thank you, @!",
   "Gift.FairyRose.Diala": "Oh! Flowers!$4#$b#I get so giddy whenever someone gets me flowers. Thank you, @.$4",
-  "Gift.FriedEgg.Diala": "Ooh, this is delicious! Thanks, @!$u",
+  "Gift.FriedEgg.Diala": "Ooh, this smells delicious! Thanks, @!$u",
   "Gift.GreenBean.Diala": "@, you better be stocking up on green beans because these are amazing.$u#$b#Thank you!$h",
   "Gift.HotPepper.Diala": "Oh, heck yeah!$u#$b#I can't wait to use these when I cook, thank you!$h",
   "Gift.IceCream.Diala": "Oh, sweet, sweet ice cream.$u#$b#You even got me my favorite flavor, thank you!$4",
@@ -2644,43 +2644,43 @@
   "Diala.Dialogue.Mon": "Hi, @! I made some cookies earlier for Derya and a few cat-safe ones for the kitties.$h#$b#Would you like some? The human ones, of course! [223]$u",
   "Diala.Dialogue.Tue": "Hey, @! Hope your day's going well.$h#$b#I just got a few readings done and sent so I'm feeling super productive!$h",
   "Diala.Dialogue.Wed": "Ugh, I couldn't get any sleep last night. I kept hearing book pages getting turned.$s#$b#I just assumed it's one of the spirits messing with me.$s",
-  "Diala.Dialogue.Thu": "Hey, @! How's your day going?",
-  "Diala.Dialogue.Fri": "Are you growing anything on your farm right now?#$b#That's interesting.$h",
+  "Diala.Dialogue.Thu": "Hey, @! How's your day going?#$b#I was on litter box duty today. You don't want to know how long it takes.$9",
+  "Diala.Dialogue.Fri": "Are you growing anything on your farm right now?#$b#If you ever sell your produce to Ari, I'd definitely buy some.$h",
   "Diala.Dialogue.Sat": "Derya made breakfast today. She put a chocolate bar in a piece of toast, rolled it, and then pan fried it.$9#$b#Don't get me wrong, it tasted good. I just... kinda wanted some pancakes instead, but she looked so proud.$u",
   "Diala.Dialogue.Sun": "%Diala looks confused. She's mumbling to herself.#$e#Did I take my ADHD meds today?$s",
 
   //2 hearts
-  "Diala.Dialogue.Mon2": "Derya woke up grumpy today. I said good morning when she walked in and all I heard is a bunch of grumbling.$u",
+  "Diala.Dialogue.Mon2": "Derya woke up grumpy today. I said good morning when she walked in and I heard a bunch of grumbling as she passed by.$u",
   "Diala.Dialogue.Tue2": "I could really go for some pasta right now.$s#$b#Maybe I can get Derya to make me some.$h",
   "Diala.Dialogue.Wed2": "Did you know you can use your birth chart to find what career is best for you?$h#$b#I helped Derya figure it out and she was shocked!$u",
   "Diala.Dialogue.Thu2": "I just got a shipment I ordered a month ago.#$b#It was the premium cat treats that I spent way too much money on.$u#$b#Still worth it.$h",
-  "Diala.Dialogue.Fri2": "One of our cats, Zoro, somehow managed to steal a chocolate muffin and take a bite of it.$s#$b#Derya immediately took him to Dr. Jacob. He's going to be okay.$h",
-  "Diala.Dialogue.Sat2": "Hey, @! How's it going?$h#$b#Emily came by earlier for a tarot reading. I'm a little drained, but it was fun.$h",
+  "Diala.Dialogue.Fri2": "One of our cats, Zoro, almost stole a chocolate muffin this morning.$9#$b#Derya started guarding the baked goods after that incident.$h",
+  "Diala.Dialogue.Sat2": "Hey, @! How's it going?$h#$b#Emily came by earlier for a tarot reading. I'm a little drained, but it was good to see her.$h",
   "Diala.Dialogue.Sun2": "I got three new crystals yesterday...$s#$b#I know I have quite a few already, but they had an offer!$u",
 
   //4 hearts
   "Diala.Dialogue.Mon4": "Hey, @!#$b#$y 'What element is your sun sign?_Earth sign._Ooh! Earth signs are known for being practical and reliable.$h_Air sign._Interesting! I'm an air sign, too. People tend to think we're emotionless, but we just like keeping our feelings private.$h_Fire sign._Oh! I love fire signs, you guys are known for being very passionate.$h_Water sign._Some of the sweetest people I met were water signs. You guys are also super intuitive.$h' ",
   "Diala.Dialogue.Tue4": "I overslept today.$s#$b#Derya made sure the kitties had breakfast, though.",
   "Diala.Dialogue.Wed4": "I had sushi last night!$h#$b#Wish I could have it more often, but it's expensive.$s",
-  "Diala.Dialogue.Thu4": "I accidentally spaced out earlier while I was getting some chores done.$s#$b#Next thing I know I'm laying on the ground with three cats laying on me.$u",
+  "Diala.Dialogue.Thu4": "I accidentally spaced out earlier while I was getting some chores done.$s#$b#Next thing I know I'm lying on the ground with three cats on top of me.$u",
   "Diala.Dialogue.Fri4": "Hi, @! Hope the day's treating you well. I just got done trying Evelyn's cookie recipe.$h#$b#They were delicious!$h",
   "Diala.Dialogue.Sat4": "I think I saw something move around in my room last night.$s#$b#I should really start cleansing my space more often.",
   "Diala.Dialogue.Sun4": "I got some herbs and spices earlier.#$b#Derya thought they were for our kitchen cabinet, but I got them for my protection spells.$u",
 
   //6 hearts
-  "Diala.Dialogue.Mon6": "Jas, Vincent and Eloise came by the cafe earlier and played with the cats.$h#$b#I gave them some muffins which they thoroughly enjoyed.$u",
-  "Diala.Dialogue.Tue6": "Hey, @! Feel free to drop by on my day off if you'd like a tarot reading.$h",
+  "Diala.Dialogue.Mon6": "Jas, Vincent and Amina came by the cafe earlier and played with the cats.$h#$b#I gave them some muffins which they thoroughly enjoyed.$u",
+  "Diala.Dialogue.Tue6": "Hey, @! Feel free to drop by when we close up the cafe if you'd like a tarot reading.$h",
   "Diala.Dialogue.Wed6": "I caught Derya talking to one of our cats this morning.$u#$b#She claims she was 'nicely telling her why it was wrong to keep eating from the other cat's bowls'.$u",
-  "Diala.Dialogue.Thu6": "Oh, @! Can I visit your farm someday?#$b#Would love to see what it looks like now.$h",
-  "Diala.Dialogue.Fri6": "I'm SO glad it's Friday.$h#$b#Don't get me wrong, I love my job, but I also enjoy getting some time off to continue learning more about astrology.$u",
-  "Diala.Dialogue.Sat6": "I somehow managed to go out and buy yet another tarot deck.$9#$b#It has such a nice design, I couldn't resist.$u",
+  "Diala.Dialogue.Thu6": "Oh, @! Can I visit your farm someday?#$b#I'd love to see what it looks like now.$h",
+  "Diala.Dialogue.Fri6": "I'm SO glad it's Friday.$h#$b#Don't get me wrong, I love my job, but I also enjoy getting some time off to learn more about astrology and hang out with Derya.$u",
+  "Diala.Dialogue.Sat6": "I somehow managed to go out and buy yet another tarot deck.$9#$b#It had such a nice design, I couldn't resist.$u",
   "Diala.Dialogue.Sun6": "Hey, @! I made some muffins earlier. Here you go. [651]$h",
 
   //8 hearts
   "Diala.Dialogue.Mon8": "A lot of people seem to believe that astrology dictates their future.#$b#That's not true, it's just a tool that helps you figure out where you're going.#$b#You make your own destiny, astrology just helps you on your path.$u",
   "Diala.Dialogue.Tue8": "Hey, @! I bought some crystals yesterday and got you one.$h#$b#I hope you like it. [66]$4",
   "Diala.Dialogue.Wed8": "I went to bed last night forgetting to close the door to the house. I woke up to four of our cats surrounding me and demanding breakfast.$u",
-  "Diala.Dialogue.Thu8": "Seb and Sam came by earlier for a Dungeons and Dragons session.$h#$b#It was fun!$u",
+  "Diala.Dialogue.Thu8": "Blake and Lyenne came by earlier for a Solarian Chronicles session.$h#$b#It was fun!$u",
   "Diala.Dialogue.Fri8": "I made my favorite pasta yesterday.$h#$b#It's a recipe my mother learned from her roommate in college. Come by sometime if you'd like to try it!$h",
   "Diala.Dialogue.Sat8": "Ugh, I have to get my ADHD meds refilled.$s",
   "Diala.Dialogue.Sun8": "Last night, Derya slipped and fell while we were cleaning.#$b#Instead of asking for help, she posed on the ground to make it seem like she did it intentionally.$u",
@@ -2690,8 +2690,8 @@
   "Diala.Dialogue.Tue10": "I noticed Derya kept all the crystals I've given her over the years.$4#$b#It's nice when the people you love care about and respect your interests.$4",
   "Diala.Dialogue.Wed10": "One of our cats, Pistachio, was rescued from an abusive home.$s#$b#He's very healthy, happy and cared for now, though.$u",
   "Diala.Dialogue.Thu10": "I have a bunch of things I have to get done today but my brain won't let me hit the 'get things done' button.$9",
-  "Diala.Dialogue.Fri10": "I got you this, I hope you like it. [593]$h",
-  "Diala.Dialogue.Sat10": "Derya asked me an astrology question and I may have rambled.$9#$b#I got excited!$u",
+  "Diala.Dialogue.Fri10": "Derya and I might go to the city soon.$4#$b#Thankfully, we have an entire village willing to catsit for us. Literally.$u",
+  "Diala.Dialogue.Sat10": "Derya asked me an astrology question and I may have rambled a little.$9#$b#It's a good thing she enjoys hearing me ramble, for some reason.$u",
   "Diala.Dialogue.Sun10": "Do you wanna come over for a movie tonight?$h#$b#You will have to fight Derya while picking the movie, though.$u",
 
   //Other Dialogue
@@ -2759,22 +2759,22 @@
   "Derya.Dialogue.Tue2": "Bean, one of the cats in our cafe, was separated from his litter way too early.$s#$b#He was sick for a long time, but was given lots of medical care.#$b#He's very healthy now, thankfully.",
   "Derya.Dialogue.Wed2": "Diala learned something new and applied it to my birth chart. She's been super excited since then.$u",
   "Derya.Dialogue.Thu2": "Diala called me an astronomy nerd.#$b#Jokes on her, we're *both* nerds. Our interests are literally connected.$u",
-  "Derya.Dialogue.Fri2": "I hung out with a friend last night so my social energy is at zero right now.$s#$b#Don't get me wrong, I love hanging out with them, but I also get drained way too fast around people.$s#$b#Doesn't happen with Diala, though. I wonder why.",
+  "Derya.Dialogue.Fri2": "I hung out with Iman and Ezra last night so my social energy is at zero right now.$s#$b#Don't get me wrong, I love hanging out with them, but I also get drained way too fast around people.$s#$b#Doesn't happen with Diala, though. I wonder why.",
   "Derya.Dialogue.Sat2": "Two of my sisters called me last night so I can solve a fight they were having.#$b#You know, they still live with my parents who can easily solve their fights, but I guess I'm still the parent to them despite moving all the way out here.$u",
   "Derya.Dialogue.Sun2": "I'm a firm believer in the 'You have more than one soulmate.' saying.#$b#But I'm also being very impatient because what if I've found one of my soulmates already, but they don't have romantic feelings for me?$s#$b#Like, what if Dia-#$b#Nothing, ignore that. I was just rambling.$h",
 
   //4 hearts
   "Derya.Dialogue.Mon4": "Sorry, @. I didn't get any sleep last night, so I'm pretending people don't exist today.",
-  "Derya.Dialogue.Tue4": "I prepared breakfast for the cats. At some point, Chestnut climbed my back, reached my shoulders, and just sat there.$u#$b#I had to continue the feeding process with this cat vibing up there.",
-  "Derya.Dialogue.Wed4": "Diala tried to make me try sushi for years before I gave in.$u#$b#Now, it might just be one of my favorite things to eat.",
+  "Derya.Dialogue.Tue4": "I prepared breakfast for the cats. At some point, Chestnut climbed my back, reached my shoulders, and just sat there.$u#$b#I had to continue the feeding process with him chilling up there.",
+  "Derya.Dialogue.Wed4": "Diala begged me to try sushi for years before I gave in.$u#$b#Now, it might just be one of my favorite things to eat.",
   "Derya.Dialogue.Thu4": "Hey, do you wanna see this funny picture of Diala?$u#$b#I took it this morning.",
   "Derya.Dialogue.Fri4": "Diala makes some really good dishes. You HAVE to come by for lunch someday.$u",
-  "Derya.Dialogue.Sat4": "Diala's witchcraft and spirituality practices mean that we get a lot of... paranormal activity in our house.$s#$b#I'm used to it at this point, but it was definitely scary at first.$u",
+  "Derya.Dialogue.Sat4": "Diala's witchcraft and spirituality practices mean that I hear about paranormal activity in our house a lot more often than I'd like.$s#$b#I'm used to it at this point, but it was definitely scary at first.$u",
   "Derya.Dialogue.Sun4": "Hey, @. I'm having a great day today.$h#$b#$y 'How's your day going?_Good!_That's nice.$h_Not that great._Oh man, I hope it gets better.$s' ",
 
   //6 hearts
-  "Derya.Dialogue.Mon6": "Being non-binary has been interesting. I got asked by someone earlier, 'If you're non-binary, why aren't you androgynous?'.#$b#I rolled my eyes so hard, I saw my brain.$9",
-  "Derya.Dialogue.Tue6": "Hey, there's this cool documentary I found about habitable planets. Wanna watch it with me sometime?$h",
+  "Derya.Dialogue.Mon6": "Being non-binary has been interesting. I got asked by someone earlier, 'If you're non-binary, why aren't you androgynous?'.#$b#I rolled my eyes so hard, I think I saw my brain for a moment there.$9",
+  "Derya.Dialogue.Tue6": "Hey, there's this cool documentary I found about habitable planets. Wanna watch it with us sometime?$h",
   "Derya.Dialogue.Wed6": "I'm exposing myself before Diala tells you. Sometimes when it's 3 a.m. and I'm bored, I hang out downstairs and talk to the cats.#$b#They're entertaining! They give you the weirdest looks but they never judge you out loud.$h",
   "Derya.Dialogue.Thu6": "Hey, @.$h#$b#$y 'Do you have any chickens on your farm?_Yes._Oh, hell yeah! Can I come play with them?$u_No._Oh, bummer.$s' ",
   "Derya.Dialogue.Fri6": "Diala gave me a crystal this morning. Think it's called Black Tourmaline?#$b#She said it'd help me get through this retrograde.#$b#I'm not really sure what a retrograde is but I trust Diala.$h",
@@ -2795,7 +2795,7 @@
   "Derya.Dialogue.Tue10": "Hm, I wonder if Diala's free tomorrow.#$b#I've been planning a little road trip for us.$u",
   "Derya.Dialogue.Wed10": "Oh, @! Ta-da! The result of my baking session. Enjoy! [651 223 234]$u",
   "Derya.Dialogue.Thu10": "Hey, @. Know where I can take Diala sky-gazing around here?$h#$b#$y '..._Forest._Ooh, perfect. Thanks, @!$u_Beach._Ooh, perfect. Thanks, @!$u' ",
-  "Derya.Dialogue.Fri10": "Chestnut stepped on my chest while I was laying down on the floor.$10#$b#Chestnut is a big cat. I think he broke one of my ribs.$u",
+  "Derya.Dialogue.Fri10": "Chestnut stepped on my chest while I was lying down on the floor.$10#$b#Chestnut is a big cat. I think he broke one of my ribs.$u",
   "Derya.Dialogue.Sat10": "I finally managed to get some tickets for a play Diala was talking about a while back.$h#$b#She's gonna be so happy about this!$u",
   "Derya.Dialogue.Sun10": "No one can ever catch me slipping.$6#$b#You saw me fall? No, you did not. I was just gracefully getting into a pose.$9",
 
@@ -2848,7 +2848,7 @@
   "Moon.Dialogue.fall_26": "Moon sees monsters tomorrow!$u",
 
   //Winter
-  "Moon.Dialogue.winter_1": "Moon is cold.$s#$b#Maybe Moon borrow jacket from Diala?#$b#No, jacket too big.$s",
+  "Moon.Dialogue.winter_1": "Moon is cold.$s#$b#Maybe Moon borrows jacket from Diala?#$b#No, jacket too big.$s",
   "Moon.Dialogue.winter_7": "Moon doesn't like ice. But Moon goes to festival tomorrow.$s",
   "Moon.Dialogue.winter_14": "Moon sneaks on boats tomorrow!$h",
   "Moon.Dialogue.winter_16": "Moon found crystal!#$b#Moon can't buy crystal.$s",
@@ -2884,10 +2884,10 @@
   "Moon.Dialogue.Sun4": "Hi! Moon busy. Moon talks to friend later.$h",
 
   //6 hearts
-  "Moon.Dialogue.Mon6": "Hmm... maybe Moon gets hat?",
+  "Moon.Dialogue.Mon6": "Hmm... maybe Moon gets hat? Moon would look good in hats!$3",
   "Moon.Dialogue.Tue6": "Moon saw Diala cry.$s#$b#Moon hopes Diala is okay.$s",
   "Moon.Dialogue.Wed6": "Moon eats peach! Peach is nice.$h",
-  "Moon.Dialogue.Thu6": "Moon happy today. Moon watch Diala make notes.$h",
+  "Moon.Dialogue.Thu6": "Moon happy today. Moon watched Diala make notes.$h",
   "Moon.Dialogue.Fri6": "Moon uses Derya's telescope?$u#$b#But Moon too small.$s#$b#You carry Moon?$u",
   "Moon.Dialogue.Sat6": "@, you're Moon's friend. Moon appreciates you.$h",
   "Moon.Dialogue.Sun6": "Moon friends with Miu, the cat!$h",
@@ -2990,8 +2990,8 @@
 
   //Good/Neutral/Bad Dialogue
   "Moon.Roommate.Good_0": "Moon is so glad she met you.$4#$b#Thank you for supporting Moon all the time.$h#$b#Moon supports @, too.$h",
-  "Moon.Roommate.Good_1": "%Moon reaches out to hold your hand.#$b#Want to go on a walk with Moon?$u",
-  "Moon.Roommate.Good_2": "Moon got help from Diala to make this for you! [223 651 211]$h#$b#Moon hopes you enjoy them, they're made with love.$4",
+  "Moon.Roommate.Good_1": "%Moon jumps to hold your hand.#$b#Want to go on a walk with Moon?$u",
+  "Moon.Roommate.Good_2": "Moon got help from Diala to make this for you! [223 651 211]$h#$b#Moon hopes you enjoy them, Moon made them with love.$4",
   "Moon.Roommate.Good_3": "Moon found a good recipe for cake! Coconut cake!$u#$b#Does @ want to help Moon make it?$h",
   "Moon.Roommate.Good_4": "Moon learned how to make good protection spells!$u#$b#Moon protects @ and our house.$4",
   "Moon.Roommate.Good_5": "Moon went to play with the cats at the cafe!$h#$b#Derya played with us too.",
@@ -3013,12 +3013,12 @@
   "Moon.Roommate.Bad_0": "...$a#$b#%Moon seems to be ignoring you.",
   "Moon.Roommate.Bad_1": "Maybe Moon should've stayed with Diala and Derya...$s#$b#%Moon mumbles something about them appreciating her more.",
   "Moon.Roommate.Bad_2": "Moon has no motivation to learn anymore. This was Moon's dream... now it's gone.$s",
-  "Moon.Roommate.Bad_3": "Don't talk to Moon. You never want to hang out anymore.$s#$b#...Do you not like Moon anymore?$s",
+  "Moon.Roommate.Bad_3": "Don't talk to Moon. @ never wants to hang out anymore.$s#$b#...Do you not like Moon anymore?$s",
   "Moon.Roommate.Bad_4": "Maybe Moon should've never become an astrologer. Waste of time.$s",
   "Moon.Roommate.Bad_5": "@ hurt Moon.$s#$b#Moon trusted @.$s",
   "Moon.Roommate.Bad_6": "Moon might sleep over at Diala and Derya's today. Moon can't stand being here.$a",
   "Moon.Roommate.Bad_7": "%Moon is avoiding you. Best to leave her alone for now.",
-  "Moon.Roommate.Bad_8": "Diala taught Moon to always communicate. Moon deserves someone who will communicate with her.$s",
+  "Moon.Roommate.Bad_8": "Diala taught Moon to always communicate. Moon deserves communication.$s",
   "Moon.Roommate.Bad_9": "Please leave Moon alone. Moon is tired.$s",
 
   //Funleave and Funreturn Dialogue
