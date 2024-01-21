@@ -42,7 +42,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
 			"When": {
-				"HasSeenEvent": "skellady.SBV_20031402"
+				"HasSeenEvent": "skellady.SBVCP_20031402"
 			},
 			"TextOperations": [
 				// Set-up
@@ -71,7 +71,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
 			"When": {
-				"HasSeenEvent": "skellady.SBV_20031427"
+				"HasSeenEvent": "{{ModId}}_20031427"
 			},
 			"TextOperations": [
 				// Set-up

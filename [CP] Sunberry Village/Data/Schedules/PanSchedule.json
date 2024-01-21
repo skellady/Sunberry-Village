@@ -8,7 +8,7 @@
 				"spring": "2400 Custom_SBV_SunberryWarpRoom 4 6 2",
 			},
 			"When": {
-				"HasSeenEvent: anyPlayer |contains=skellady.SBV_20031490": false
+				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031490": false
 			},
 		},
 	]

@@ -131,7 +131,7 @@
 				"Introduction": "{{i18n:Derya.Dialogue.Introduction}}",
 			},
 			"When": {
-				"HasSeenEvent": "skellady.SBV_20031401"
+				"HasSeenEvent": "{{ModId}}_20031401"
 			}
 		}
 	]

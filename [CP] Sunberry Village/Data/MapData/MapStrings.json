@@ -124,7 +124,7 @@
 				"rei.lockedhouse": "{{i18n:MapString.rei.lockedhouse}}"
 			},
 			"When": {
-				"HasSeenEvent: anyPlayer |contains=skellady.SBV_20031427": false
+				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031427": false
 			}
 		},
 		{
@@ -146,7 +146,7 @@
 				"sbv.crystalcave1": "{{i18n:MapString.sbv.crystalcave1}}",
 			},
 			"When": {
-				"HasSeenEvent: anyPlayer |contains=skellady.SBV_20031446": false,
+				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031446": false,
 			}
 		},
 		// Unoccupied Houses

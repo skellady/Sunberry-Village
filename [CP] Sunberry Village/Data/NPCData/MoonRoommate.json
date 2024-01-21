@@ -16,7 +16,7 @@
         },
       ],
       "When": {
-        "HasSeenEvent": "skellady.SBV_20031412",
+        "HasSeenEvent": "{{ModId}}_20031412",
       },
     },
     {

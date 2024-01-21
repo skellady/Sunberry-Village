@@ -30,7 +30,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring19",
 			"When": {
-				"HasSeenEvent": "skellady.SBV_20031402"
+				"HasSeenEvent": "skellady.SBVCP_20031402"
 			},
 			"TextOperations": [
 				// Set-up

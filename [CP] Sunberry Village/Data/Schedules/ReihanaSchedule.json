@@ -8,7 +8,7 @@
 				"spring": "2400 Custom_SBV_ReiHouse 3 5 1",
 			},
 			"When": {
-				"HasSeenEvent: anyPlayer |contains=skellady.SBV_20031427": false
+				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031427": false
 			},
 		},
 		{
@@ -30,7 +30,7 @@
 				"rain": "900 Custom_SBV_ReiHouse 17 15 0/1200 Custom_SBV_DialaCafe 8 8 0/2000 Custom_SBV_ReiHouse 3 5 1",
 			},
 			"When": {
-				"HasSeenEvent: anyPlayer |contains=skellady.SBV_20031427": true
+				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031427": true
 			}
 		}
 	]

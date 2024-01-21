@@ -591,7 +591,7 @@
         }
       ],
       "When": {
-        "HasSeenEvent: anyPlayer |contains=skellady.SBV_20031427": true
+        "HasSeenEvent: anyPlayer |contains={{ModId}}_20031427": true
       },
     },
     {
@@ -610,7 +610,7 @@
         }
       ],
       "When": {
-        "HasSeenEvent: anyPlayer |contains=skellady.SBV_20031427": true
+        "HasSeenEvent: anyPlayer |contains={{ModId}}_20031427": true
       },
     },
     {
@@ -1327,7 +1327,7 @@
         }
       ],
       "When": {
-        "HasSeenEvent: anyPlayer |contains=skellady.SBV_20031446": true
+        "HasSeenEvent: anyPlayer |contains={{ModId}}_20031446": true
       }
     },
     {
@@ -1347,7 +1347,7 @@
         }
       ],
       "When": {
-        "HasSeenEvent: anyPlayer |contains=skellady.SBV_20031446": true
+        "HasSeenEvent: anyPlayer |contains={{ModId}}_20031446": true
       }
     },
   ]

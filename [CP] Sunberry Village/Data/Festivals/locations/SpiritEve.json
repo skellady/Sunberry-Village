@@ -26,7 +26,7 @@
 			"Target": "Data/Festivals/fall27",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasSeenEvent": "skellady.SBV_20031402"
+				"HasSeenEvent": "skellady.SBVCP_20031402"
 			},
 			"TextOperations": [
 				// Set-up
