@@ -31,6 +31,18 @@
       "Target": "Maps/Custom_SBV_ForestShortcut",
       "FromFile": "Assets/Maps/ExteriorMaps/ForestShortcut.tmx"
     },
+    {
+      "LogName": "Load Secret Forest Area 1",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SecretForest1",
+      "FromFile": "Assets/Maps/ExteriorMaps/SecretForest1.tmx"
+    },
+    {
+      "LogName": "Load Secret Forest Area 2",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SecretForest2",
+      "FromFile": "Assets/Maps/ExteriorMaps/SecretForest2.tmx"
+    },
     // Load Interior Maps
     {
       "LogName": "Load Ari Market",

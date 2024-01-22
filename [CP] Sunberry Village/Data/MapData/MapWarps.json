@@ -126,7 +126,32 @@
         "72 -1 Custom_SBV_SunberryVillage 38 76",
         "85 36 Custom_SBV_ForestShortcut 4 16",
         "85 37 Custom_SBV_ForestShortcut 4 16",
-        "85 38 Custom_SBV_ForestShortcut 4 17"
+        "85 38 Custom_SBV_ForestShortcut 4 17",
+        "2 54 Custom_SBV_SecretForest1 56 9",
+        "2 55 Custom_SBV_SecretForest1 56 10",
+        "2 56 Custom_SBV_SecretForest1 56 10",
+        "2 57 Custom_SBV_SecretForest1 56 11",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SecretForest1",
+      "AddWarps": [
+        "57 9 Custom_SBV_SunberryForest 3 55",
+        "57 10 Custom_SBV_SunberryForest 3 56",
+        "57 11 Custom_SBV_SunberryForest 3 57",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SecretForest2",
+      "AddWarps": [
+        "26 40 Custom_SBV_SecretForest1 24 8",
+        "27 40 Custom_SBV_SecretForest1 24 8",
+        "28 40 Custom_SBV_SecretForest1 25 8",
+        "29 40 Custom_SBV_SecretForest1 25 8",
+        "30 40 Custom_SBV_SecretForest1 26 8",
+        "31 40 Custom_SBV_SecretForest1 26 8",
       ]
     },
     {
@@ -1349,6 +1374,23 @@
       "When": {
         "HasSeenEvent: anyPlayer |contains={{ModId}}_20031446": true
       }
+    },
+    {
+      "LogName": "Secret 1 to 2",
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SecretForest1",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 25,
+            "Y": 7
+          },
+          "Layer": "Back",
+          "SetProperties": {
+            "TouchAction": "MagicWarp Custom_SBV_SecretForest2 29 39"
+          }
+        }
+      ]
     },
   ]
 }

@@ -178,6 +178,16 @@
     },
     {
       "Action": "Load",
+      "Target": "Maps/SBVShortcutColors1",
+      "FromFile": "Assets/Maps/TileSheets/SBVShortcutColors1.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVShortcutColors2",
+      "FromFile": "Assets/Maps/TileSheets/SBVShortcutColors2.png"
+    },
+    {
+      "Action": "Load",
       "Target": "Maps/SBV_YriCrystals",
       "FromFile": "Assets/Maps/TileSheets/SBV_YriCrystals.png"
     },
