@@ -1768,40 +1768,86 @@
       {
         "MonsterTypes": [
           {
+            "MonsterName": "Haunted Skull",
+            "Settings": {
+              "SpawnWeight": 2,
+              "HP": 150,
+              "Damage": 17,
+              "Sprite": "Characters/Monsters/SBVForestSkull",
+              "SeesPlayersAtSpawn": false,
+              "EXP": 16,
+              "RelatedSkill": "Combat"
+            }
+          }
+        ],
+        "UniqueAreaID": "SBV Secret Forest 2 Monsters",
+        "MapName": "Custom_SBV_SecretForest2",
+        "MinimumSpawnsPerDay": 3,
+        "MaximumSpawnsPerDay": 8,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "MonsterTypes": [
+          {
             "MonsterName": "green slime",
             "Settings": {
-              "SpawnWeight": 1,
-              "HP": 250,
-              "Damage": 18,
+              "SpawnWeight": 5,
+              "HP": 40,
+              "Damage": 10,
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat"
+            }
+          },
+          {
+            "MonsterName": "bug",
+            "Settings": {
+              "SpawnWeight": 3,
+              "SeesPlayersAtSpawn": false,
+              "RelatedSkill": "Combat"
+            }
+          },
+          {
+            "MonsterName": "green slime",
+            "Settings": {
+              "SpawnWeight": 4,
+              "HP": 205,
+              "Damage": 16,
               "Color": "150 150 150 255",
               "SeesPlayersAtSpawn": false,
-              "Segments": 3,
-              "EXP": 16,
               "RelatedSkill": "Combat",
               "Loot": [
                 {
                   "Category": "Object",
-                  "Name": "Dwarf Scroll III",
+                  "Name": "Iron Ore",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 0.5
-                },
-                {
-                  "Category": "Object",
-                  "Name": "Dwarf Scroll IV",
-                  "Stack": 1,
-                  "PercentChanceToSpawn": 0.5
-                },
-                {
-                  "Category": "Object",
-                  "Name": "Diamond",
-                  "Stack": 1,
-                  "PercentChanceToSpawn": 1
-                },
-                {
-                  "Category": "Object",
-                  "Name": "Slime",
-                  "Stack": 1,
-                  "PercentChanceToSpawn": 80
+                  "PercentChanceToSpawn": 33
                 },
                 {
                   "Category": "Object",
@@ -1811,30 +1857,24 @@
                 },
                 {
                   "Category": "Object",
-                  "Name": "Sap",
+                  "Name": "Slime",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 50
+                  "PercentChanceToSpawn": 80
                 },
                 {
                   "Category": "Object",
-                  "Name": "Battery Pack",
+                  "Name": "Sap",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
-                },
-                {
-                  "Category": "Ring",
-                  "Name": "Lucky Ring",
-                  "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 50
                 }
               ]
             }
           }
         ],
-        "UniqueAreaID": "SBV Mines 1 Rare Grey",
+        "UniqueAreaID": "Custom_SBV_Mines1 monster area 1",
         "MapName": "Custom_SBV_Mines1",
-        "MinimumSpawnsPerDay": -1,
-        "MaximumSpawnsPerDay": 1,
+        "MinimumSpawnsPerDay": 7,
+        "MaximumSpawnsPerDay": 12,
         "IncludeTerrainTypes": [
           "All"
         ],
