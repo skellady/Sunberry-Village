@@ -1010,6 +1010,20 @@
                     },
                     "Fish": [
                         {
+                            "Id": "{{ModId}}_S2AnglerJr",
+                            "ItemId": "{{ModId}}_AnglerJr",
+                            "Season": "fall",
+                            "IsBossFish": "true",
+                            "CatchLimit": 1,
+                            "BobberPosition": {
+                                "X": 29,
+                                "Y": 18,
+                                "Width": 6,
+                                "Height": 2
+                            },
+                            "SetFlagOnCaught": "{{ModId}}_AnglerJrCaught"
+                        },
+                        {
                             "Id": "{{ModId}}_S2SmallmouthBass",
                             "ItemId": "(O)137",
                             "Condition": "LOCATION_SEASON Here spring fall"
