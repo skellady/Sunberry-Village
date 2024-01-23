@@ -194,6 +194,12 @@
       "Target": "Maps/Custom_SBV_SunberryWarpRoom",
       "FromFile": "Assets/Maps/InteriorMaps/SunberryWarpRoom.tmx"
     },
+    {
+      "LogName": "Load Secret Forest Cave",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SecretCave",
+      "FromFile": "Assets/Maps/InteriorMaps/SecretCave.tmx"
+    },
     // Load Event Maps
     {
       "LogName": "Load Moon Woods",

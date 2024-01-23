@@ -26,9 +26,51 @@
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
-            "MaiaSBV": "",
-            "JumanaSBV": ""
+            "MaiaSBV": "{{i18n:NPC_Relationships.AminaMom}}",
+            "JumanaSBV": "{{i18n:NPC_Relationships.AminaGrandma}}"
           },
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_CheeseCauliflower",
+              "ItemId": "(O)197",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_PinkCake",
+              "ItemId": "(O)221",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_FairyRose",
+              "ItemId": "(O)595",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_StrangeDoll1",
+              "ItemId": "(O)126",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_StrangeDoll2",
+              "ItemId": "(O)127",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+          ],
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -67,9 +109,91 @@
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
-            "MaiaSBV": "",
-            "AminaSBV": ""
+            "MaiaSBV": "{{i18n:NPC_Relationships.JumanaDaughter}}",
+            "AminaSBV": "{{i18n:NPC_Relationships.JumanaGranddaughter}}"
           },
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_Bouquet",
+              "ItemId": "(O)458",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_HyacinthSeeds",
+              "ItemId": "skellady.SBVCP_HyacinthSeeds",
+              "MinStack": 5,
+              "MaxStack": 10,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_ArfajSeeds",
+              "ItemId": "skellady.SBVCP_ArfajSeeds",
+              "MinStack": 5,
+              "MaxStack": 10,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_CyclamenSeeds",
+              "ItemId": "skellady.SBVCP_CyclamenSeeds",
+              "MinStack": 5,
+              "MaxStack": 10,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_CallaLilySeeds",
+              "ItemId": "skellady.SBVCP_CallaLilySeeds",
+              "MinStack": 5,
+              "MaxStack": 10,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_SpeedwellSeeds",
+              "ItemId": "skellady.SBVCP_SpeedwellSeeds",
+              "MinStack": 5,
+              "MaxStack": 10,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_WildMustardSeeds",
+              "ItemId": "skellady.SBVCP_WildMustardSeeds",
+              "MinStack": 5,
+              "MaxStack": 10,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_Arfaj",
+              "ItemId": "skellady.SBVCP_Arfaj",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_Hyacinth",
+              "ItemId": "skellady.SBVCP_Hyacinth",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_Sunflower",
+              "ItemId": "(O)421",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+          ],
           "SpawnIfMissing": true,
           "Appearance": [
             {
@@ -146,9 +270,51 @@
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
-            "AminaSBV": "",
-            "JumanaSBV": ""
+            "AminaSBV": "{{i18n:NPC_Relationships.MaiaDaughter}}",
+            "JumanaSBV": "{{i18n:NPC_Relationships.MaiaMom}}"
           },
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_IronBar",
+              "ItemId": "(O)335",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_GoldBar",
+              "ItemId": "(O)336",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_IridiumBar",
+              "ItemId": "(O)337",
+              "MinStack": 1,
+              "MaxStack": 4,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_ObsidianEdge",
+              "ItemId": "(W)8",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_SunberryGeode",
+              "ItemId": "skellady.SBVCP_SunberryGeode",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+          ],
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -470,6 +636,10 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "BlakeSBV": "{{i18n:NPC_Relationships.AriSon}}",
+            "EliasSBV": "{{i18n:NPC_Relationships.AriExHusband}}"
+          },
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -507,6 +677,10 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "AriSBV": "{{i18n:NPC_Relationships.BlakeDad}}",
+            "EliasSBV": "{{i18n:NPC_Relationships.BlakeFather}}"
+          },
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -544,6 +718,10 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "AriSBV": "{{i18n:NPC_Relationships.EliasExHusband}}",
+            "BlakeSBV": "{{i18n:NPC_Relationships.EliasSon}}"
+          },
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -814,6 +992,9 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "SilasSBV": "{{i18n:NPC_Relationships.MiyoungHusband}}"
+          },
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -851,6 +1032,9 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "MiyoungSBV": "{{i18n:NPC_Relationships.SilasWife}}"
+          },
           "SpawnIfMissing": true,
           "Home": [
             {

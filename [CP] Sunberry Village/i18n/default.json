@@ -22,16 +22,22 @@
 
   //NPC Relationships
   //-----------------
-  "NPC_Relationships.Amina": "MaiaSBV 'mom' JumanaSBV 'grandma'",
-  "NPC_Relationships.Jumana": "MaiaSBV 'daughter' AminaSBV 'granddaughter'",
-  "NPC_Relationships.Maia": "JumanaSBV 'mother' AminaSBV 'daughter'",
+  "NPC_Relationships.AminaMom": "mom",
+  "NPC_Relationships.AminaGrandma": "grandma",
+  "NPC_Relationships.JumanaDaughter": "daughter",
+  "NPC_Relationships.JumanaGranddaughter": "granddaughter",
+  "NPC_Relationships.MaiaDaughter": "daughter",
+  "NPC_Relationships.MaiaMom": "mother",
 
-  "NPC_Relationships.Ari": "BlakeSBV 'son'",
-  "NPC_Relationships.Blake": "EliasSBV 'father' AriSBV 'dad'",
-  "NPC_Relationships.Elias": "BlakeSBV 'son'",
+  "NPC_Relationships.AriSon": "son",
+  "NPC_Relationships.AriExHusband": "ex-husband",
+  "NPC_Relationships.BlakeDad": "dad",
+  "NPC_Relationships.BlakeFather": "father",
+  "NPC_Relationships.EliasSon": "son",
+  "NPC_Relationships.EliasExHusband": "ex-husband",
 
-  "NPC_Relationships.Miyoung": "SilasSBV 'husband'",
-  "NPC_Relationships.Silas": "MiyoungSBV 'wife'",
+  "NPC_Relationships.MiyoungHusband": "husband",
+  "NPC_Relationships.SilasWife": "wife",
 
   //Config Descriptions
   //-------------------
@@ -90,6 +96,7 @@
   "Sunberry.Locations.Mines14": "Mines 14",
   "Sunberry.Locations.Mines15": "Mines 15",
   "Sunberry.Locations.MinesFinal": "Bottom of Sunberry Mines",
+  "Sunberry.Locations.SecretCave": "Secret Forest Cave",
 
   //Dynamic Tokens
   //--------------
@@ -1494,6 +1501,20 @@
   "event-20031459.06": "You're a very curious person, aren't you? It's nothing. I should head back to Ezra's.$8",
   "event-20031459.07": "See you later, farmer.",
   "event-20031459.08": "What was that all about?",
+
+  // Miyoung 2 Hearts Event
+  "event-20031460.01": "Ah, hello dear!",
+  "event-20031460.02": "What brings you to our little village tod-",
+  "event-20031460.03": "*pant*...Miyoung!!",
+  "event-20031460.04": "I was hoping I could... catch you... before you head off to Jumana's.$8",
+  "event-20031460.05": "Oh, honey. Why were you running?! You're out of breath!$s",
+  "event-20031460.06": "I... have something for you.$4",
+  "event-20031460.07": "Silas pulls out a beautiful silver bracelet adorned with an emerald. He clasps it onto Miyoung's hand.",
+  "event-20031460.08": "!!!$4",
+  "event-20031460.09": "My love... It's beautiful! Thank you so much.$4",
+  "event-20031460.10": "Anything for you, my dear.$h",
+  "event-20031460.11": "Ah, I'm sorry farmer! I didn't mean to interrupt. I just couldn't contain my excitement.$u",
+  "event-20031460.12": "I better head back. I promised Clint I'd help out with something. See you later, my love. Have a good day, farmer!$h",
 
   //Animation Dialogue
   //------------------

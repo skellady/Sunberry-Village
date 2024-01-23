@@ -228,6 +228,11 @@
     },
     {
       "Action": "Load",
+      "Target": "Maps/SBVSecretCave",
+      "FromFile": "Assets/Maps/TileSheets/SBVSecretCave.png"
+    },
+    {
+      "Action": "Load",
       "Target": "Maps/spring_SBV_yrioutdoors",
       "FromFile": "Assets/Maps/TileSheets/spring_SBV_yrioutdoors.png"
     },

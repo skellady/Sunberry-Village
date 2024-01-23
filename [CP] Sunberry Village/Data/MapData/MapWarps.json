@@ -131,6 +131,16 @@
         "2 55 Custom_SBV_SecretForest1 56 10",
         "2 56 Custom_SBV_SecretForest1 56 10",
         "2 57 Custom_SBV_SecretForest1 56 11",
+        "67 28 Custom_SBV_SecretCave 15 38"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SecretCave",
+      "AddWarps": [
+        "14 39 Custom_SBV_SunberryForest 67 30",
+        "15 39 Custom_SBV_SunberryForest 67 30",
+        "16 39 Custom_SBV_SunberryForest 67 30",
       ]
     },
     {
