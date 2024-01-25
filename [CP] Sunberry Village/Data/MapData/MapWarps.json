@@ -127,10 +127,10 @@
         "85 36 Custom_SBV_ForestShortcut 4 16",
         "85 37 Custom_SBV_ForestShortcut 4 16",
         "85 38 Custom_SBV_ForestShortcut 4 17",
-        "2 54 Custom_SBV_SecretForest1 56 9",
-        "2 55 Custom_SBV_SecretForest1 56 10",
-        "2 56 Custom_SBV_SecretForest1 56 10",
-        "2 57 Custom_SBV_SecretForest1 56 11",
+        "1 54 Custom_SBV_SecretForest1 56 9",
+        "1 55 Custom_SBV_SecretForest1 56 10",
+        "1 56 Custom_SBV_SecretForest1 56 10",
+        "1 57 Custom_SBV_SecretForest1 56 11",
         "67 28 Custom_SBV_SecretCave 15 38"
       ]
     },
