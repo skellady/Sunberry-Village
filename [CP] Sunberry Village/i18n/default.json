@@ -1206,7 +1206,7 @@
 
   // Special Order Board Unlock
   "event-20031434.01": "Hey, farmer. We're bringin' this old board back to life. Miyoung said it'd be good for the village and I always do what Miyoung says.$10",
-  "event-20031434.02": "This is good. Thank you for suggesting the idea, Miyoung, and thank you Elias for fixing it up.$h",
+  "event-20031434.02": "This is good. Thank you for suggesting the idea, Miyoung, and thank you, Elias, for fixing it up.$h",
   "event-20031434.03": "Feel free to pick up any orders when you're droppin' by. It should be fully functional tomorrow, hopefully.",
   "event-20031434.04": "Hmm... I can finally put up that one order.",
   "event-20031434.05": "...Can we ask for snacks?",
@@ -1302,7 +1302,7 @@
   "event-20031440.01": "Ah, if it ain't the farmer. Droppin' by to check out the books? I could recommend you somethin'.$7",
   "event-20031440.02": "Hmm...",
   "event-20031440.03": "Have you read this book before? It's about a group of friends from varying backgrounds growin' closer and formin' a strong bond.$h",
-  "event-20031440.04": "The characters are pretty fun. There's one with a massive ego, the short friend they always bully, and of course, the menaces.$u",
+  "event-20031440.04": "The characters are pretty fun. There's one with a massive ego, the short friend they always bully, and, of course, the menaces.$u",
   "event-20031440.05": "Readin' about their adventures always feels like walkin' into a room that has been set on fire, somehow.$9",
   "event-20031440.06": "Anyways, feel free to browse the shelves. I'll be right over there if you decide to pick somethin' up.",
 
@@ -2380,7 +2380,7 @@
   // Mountain
   "MapString.sbv.mountain1": "Looks like this campfire was used recently.",
   "MapString.sbv.mountain2": "\"Our Beloved Adeel\", forever in our hearts.",
-  "MapString.sbv.mountain3": "The tombstone is faded, you can make out some of it.#\"In Memory of Chris\"",
+  "MapString.sbv.mountain3": "The tombstone is faded, but you can make out some of it.#\"In Memory of Chris\"",
   "MapString.sbv.mountain4": "There are flowers besides this tombstone.#\"Here lies Levi\"",
   // Rei's Door
   "MapString.rei.lockedhouse": "It's locked...",

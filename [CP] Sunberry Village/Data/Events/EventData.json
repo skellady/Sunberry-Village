@@ -443,6 +443,15 @@
                 //2 Hearts - Iman looks around
                 "skellady.SBVCP_20031459/t 600 1800/w sunny/f ImanSBV 500": "Cavern/-100 -100/farmer 19 40 2 ImanSBV 15 46 2/viewport 17 47/skippable/advancedMove farmer false 0 6 2 2000/pause 800/advancedMove ImanSBV false 0 3 3 900 4 0 1 800/pause 1500/emote ImanSBV 28/pause 450/emote farmer 32/pause 450/faceDirection ImanSBV 0/pause 400/speak ImanSBV \"{{i18n:event-20031459.01}}\"/pause 400/emote farmer 8/pause 450/speak ImanSBV \"{{i18n:event-20031459.02}}\"/pause 700/quickQuestion #{{i18n:event-20031459.03}}#{{i18n:event-20031459.04}}(break)emote ImanSBV 28\\speak ImanSBV \"{{i18n:event-20031459.05}}\"(break)speak ImanSBV \"{{i18n:event-20031459.06}}\"/pause 500/advancedMove ImanSBV false 1 0 0 -20 4 2000/pause 2000/faceDirection farmer 0/pause 450/textAboveHead ImanSBV \"{{i18n:event-20031459.07}}\"/pause 400/emote farmer 8/pause 1000/globalFade/viewport -999 -999/message \"{{i18n:event-20031459.08}}\"/pause 600/end"
             }
+        },
+        {
+            "LogName": "Wizard House Events",
+            "Action": "EditData",
+            "Target": "Data/Events/WizardHouse",
+            "Entries": {
+                //2 Hearts - Silas snoops around
+                "skellady.SBVCP_20031461/t 600 1800/f SilasSBV 500": "none/-100 -100/farmer -100 -100 0 SilasSBV 3 19 2 Wizard -100 -100 0/viewport 7 18/skippable/pause 500/advancedMove SilasSBV false 2 0 2 600 0 -2 -3 0 3 2000/pause 2000/playSound doorOpen/warp farmer 8 24 true/jump SilasSBV/faceDirection SilasSBV 0/pause 90/faceDirection SilasSBV 1/pause 90/faceDirection SilasSBV 2/advancedMove farmer false 0 -6 -3 0 3 2000/textAboveHead SilasSBV \"I'M NOT DOING ANYTHING!\"/pause 500/emote SilasSBV 40/pause 450/textAboveHead SilasSBV \"Oh, phew...\"/pause 500/faceDirection SilasSBV 1/pause 400/speak SilasSBV \"You scared me, I thought you were Razz! I was just looking around.$u\"/pause 400/emote farmer 8/pause 450/speak SilasSBV \"Razz and I are working on something. Well, Razz is doing all the work actually.$u\"/pause 300/speak SilasSBV \"He left to grab a book we need.\"/pause 400/quickQuestion #What are you working on?#Why are you not helping?(break)speak SilasSBV \"We uncovered an ancient scroll of sorts and we're working on deciphering it.#$b#I might get Elias, Maia, and Ophelia to help out since it seems to be related to our mines!$h\"(break)speak SilasSBV \"Well, apparently I get too into it. Miyoung asked Razz to keep me from doing that.$8\"\\pause 400\\speak SilasSBV \"We uncovered an ancient scroll of sorts and we're working on deciphering it.#$b#I might get Elias, Maia, and Ophelia to help out since it seems to be related to our mines!$h\"/pause 450/emote farmer 32/pause 400/message \"You hear footsteps approaching along with the sound of someone grumbling.\"/pause 400/speak SilasSBV \"Ah, the unmistakable sound of grumbling. I'm ready to work, Razz!$u\"/pause 400/emote farmer 32/pause 1000/globalFade/viewport -999 -999/end",
+            }
         }
         /*playMusic 50s/viewport 24 28/viewport move 0 1 2000/
         /*advancedMove true/false (loop) parameters
