@@ -9,6 +9,10 @@
                         "MapPath": "Maps/Custom_SBV_SunberryVillage"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SunberryVillage}}",
+                    "DefaultArrivalTile": {
+                        "X": 6,
+                        "Y": 9
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [
                         {
@@ -186,6 +190,10 @@
                         "MapPath": "Maps/Custom_SBV_SunberryForest"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SunberryForest}}",
+                    "DefaultArrivalTile": {
+                        "X": 48,
+                        "Y": 25
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [
                         {
@@ -246,7 +254,7 @@
                         {
                             "Id": "{{ModId}}_BubblyBetta",
                             "ItemId": "{{ModId}}_BubblyBetta",
-                            "Condition": "LOCATION_SEASON Here spring winter",
+                            "Condition": "LOCATION_SEASON Here spring winter"
                         },
                         {
                             "Id": "{{ModId}}_FBream",
@@ -403,6 +411,10 @@
                         "MapPath": "Maps/Custom_SBV_SunberryMountain"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SunberryMountain}}",
+                    "DefaultArrivalTile": {
+                        "X": 40,
+                        "Y": 23
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [
                         {
@@ -540,6 +552,10 @@
                         "MapPath": "Maps/Custom_SBV_SunberryRoad"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SunberryRoad}}",
+                    "DefaultArrivalTile": {
+                        "X": 21,
+                        "Y": 11
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [
                         {
@@ -680,6 +696,10 @@
                         "MapPath": "Maps/Custom_SBV_ForestShortcut"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.ForestShortcut}}",
+                    "DefaultArrivalTile": {
+                        "X": 37,
+                        "Y": 18
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [
                         {
@@ -818,6 +838,10 @@
                         "MapPath": "Maps/Custom_SBV_SecretForest1"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SecretForest1}}",
+                    "DefaultArrivalTile": {
+                        "X": 34,
+                        "Y": 18
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [
                         {
@@ -975,6 +999,10 @@
                         "MapPath": "Maps/Custom_SBV_SecretForest2"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SecretForest2}}",
+                    "DefaultArrivalTile": {
+                        "X": 33,
+                        "Y": 27
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [
                         {
@@ -1123,6 +1151,10 @@
                         "MapPath": "Maps/Custom_SBV_DialaCafe"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.DNDCafe}}",
+                    "DefaultArrivalTile": {
+                        "X": 21,
+                        "Y": 11
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1134,6 +1166,10 @@
                         "MapPath": "Maps/Custom_SBV_DDHouse"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.DNDHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 11,
+                        "Y": 19
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1145,6 +1181,10 @@
                         "MapPath": "Maps/Custom_SBV_ReiHouse"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.ReiHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 5,
+                        "Y": 16
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1156,6 +1196,10 @@
                         "MapPath": "Maps/Custom_SBV_SunberryLibrary"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SunberryLibrary}}",
+                    "DefaultArrivalTile": {
+                        "X": 20,
+                        "Y": 11
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1167,6 +1211,10 @@
                         "MapPath": "Maps/Custom_SBV_SerenityInn"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SerenityInn}}",
+                    "DefaultArrivalTile": {
+                        "X": 11,
+                        "Y": 10
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1178,6 +1226,10 @@
                         "MapPath": "Maps/Custom_SBV_SerenityInn2ndFloor"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SerenityInn2ndFloor}}",
+                    "DefaultArrivalTile": {
+                        "X": 25,
+                        "Y": 16
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1189,6 +1241,10 @@
                         "MapPath": "Maps/Custom_SBV_SerenityInn3rdFloor"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SerenityInn3rdFloor}}",
+                    "DefaultArrivalTile": {
+                        "X": 13,
+                        "Y": 16
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1200,6 +1256,10 @@
                         "MapPath": "Maps/Custom_SBV_SerenityInnConference"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SerenityInnConference}}",
+                    "DefaultArrivalTile": {
+                        "X": 6,
+                        "Y": 6
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1211,6 +1271,10 @@
                         "MapPath": "Maps/Custom_SBV_OpheliaHouse"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.OpheliaHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 13,
+                        "Y": 7
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1222,6 +1286,10 @@
                         "MapPath": "Maps/Custom_SBV_MiyoungHouse"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.MiyoungHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 9
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1233,6 +1301,10 @@
                         "MapPath": "Maps/Custom_SBV_AriMarket"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.AriMarket}}",
+                    "DefaultArrivalTile": {
+                        "X": 8,
+                        "Y": 23
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1244,6 +1316,10 @@
                         "MapPath": "Maps/Custom_SBV_EliasHouse"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.EliasHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 8,
+                        "Y": 8
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1255,6 +1331,10 @@
                         "MapPath": "Maps/Custom_SBV_EzraHouse"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.EzraHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 6,
+                        "Y": 11
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1266,6 +1346,10 @@
                         "MapPath": "Maps/Custom_SBV_EzraClothes"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.EzraClothes}}",
+                    "DefaultArrivalTile": {
+                        "X": 10,
+                        "Y": 11
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1277,6 +1361,10 @@
                         "MapPath": "Maps/Custom_SBV_MaiaHouse"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.MaiaHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 15,
+                        "Y": 15
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1288,6 +1376,10 @@
                         "MapPath": "Maps/Custom_SBV_SilasBlacksmith"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SilasBlacksmith}}",
+                    "DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 13
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1299,6 +1391,10 @@
                         "MapPath": "Maps/Custom_SBV_ImanHouse"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.ImanHouse}}",
+                    "DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 13
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1310,6 +1406,10 @@
                         "MapPath": "Maps/Custom_SBV_CrystalCave"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.CrystalCave}}",
+                    "DefaultArrivalTile": {
+                        "X": 11,
+                        "Y": 11
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1365,6 +1465,10 @@
                         "MapPath": "Maps/Custom_SBV_ChrisDinerBroken"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.ChrisDinerBroken}}",
+                    "DefaultArrivalTile": {
+                        "X": 14,
+                        "Y": 15
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1376,6 +1480,10 @@
                         "MapPath": "Maps/Custom_SBV_ChrisDiner"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.ChrisDiner}}",
+                    "DefaultArrivalTile": {
+                        "X": 14,
+                        "Y": 15
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1387,6 +1495,10 @@
                         "MapPath": "Maps/Custom_SBV_ChrisDinerRainbow"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.ChrisDinerRainbow}}",
+                    "DefaultArrivalTile": {
+                        "X": 14,
+                        "Y": 15
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1398,6 +1510,10 @@
                         "MapPath": "Maps/Custom_SBV_EliasHouseOld"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.EliasHouseOld}}",
+                    "DefaultArrivalTile": {
+                        "X": 10,
+                        "Y": 15
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1409,6 +1525,10 @@
                         "MapPath": "Maps/Custom_SBV_EliasHouseNew"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.EliasHouseNew}}",
+                    "DefaultArrivalTile": {
+                        "X": 10,
+                        "Y": 15
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1420,6 +1540,10 @@
                         "MapPath": "Maps/Custom_SBV_SunberryMuseum"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SunberryMuseum}}",
+                    "DefaultArrivalTile": {
+                        "X": 8,
+                        "Y": 18
+                    },
                     "ExcludeFromNpcPathfinding": false,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1454,6 +1578,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines1"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines1}}",
+                    "DefaultArrivalTile": {
+                        "X": 12,
+                        "Y": 6
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1465,6 +1593,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines2"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines2}}",
+                    "DefaultArrivalTile": {
+                        "X": 8,
+                        "Y": 5
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1476,6 +1608,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines3"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines3}}",
+                    "DefaultArrivalTile": {
+                        "X": 30,
+                        "Y": 5
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1487,6 +1623,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines4"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines4}}",
+                    "DefaultArrivalTile": {
+                        "X": 23,
+                        "Y": 6
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1498,6 +1638,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines5A"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines5A}}",
+                    "DefaultArrivalTile": {
+                        "X": 27,
+                        "Y": 21
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1509,6 +1653,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines5B"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines5B}}",
+                    "DefaultArrivalTile": {
+                        "X": 13,
+                        "Y": 4
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1520,6 +1668,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines6"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines6}}",
+                    "DefaultArrivalTile": {
+                        "X": 10,
+                        "Y": 6
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1531,6 +1683,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines7"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines7}}",
+                    "DefaultArrivalTile": {
+                        "X": 24,
+                        "Y": 23
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1542,6 +1698,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines8"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines8}}",
+                    "DefaultArrivalTile": {
+                        "X": 4,
+                        "Y": 5
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1553,6 +1713,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines9"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines9}}",
+                    "DefaultArrivalTile": {
+                        "X": 7,
+                        "Y": 7
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1564,6 +1728,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines10A"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines10A}}",
+                    "DefaultArrivalTile": {
+                        "X": 15,
+                        "Y": 6
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1575,6 +1743,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines10B"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines10B}}",
+                    "DefaultArrivalTile": {
+                        "X": 6,
+                        "Y": 6
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1586,6 +1758,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines11"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines11}}",
+                    "DefaultArrivalTile": {
+                        "X": 27,
+                        "Y": 24
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1597,6 +1773,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines12"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines12}}",
+                    "DefaultArrivalTile": {
+                        "X": 19,
+                        "Y": 10
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1608,6 +1788,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines13"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines13}}",
+                    "DefaultArrivalTile": {
+                        "X": 9,
+                        "Y": 8
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1619,6 +1803,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines14"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines14}}",
+                    "DefaultArrivalTile": {
+                        "X": 44,
+                        "Y": 24
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1630,6 +1818,10 @@
                         "MapPath": "Maps/Custom_SBV_Mines15"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.Mines15}}",
+                    "DefaultArrivalTile": {
+                        "X": 18,
+                        "Y": 11
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
@@ -1641,6 +1833,10 @@
                         "MapPath": "Maps/Custom_SBV_MinesFinal"
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.MinesFinal}}",
+                    "DefaultArrivalTile": {
+                        "X": 9,
+                        "Y": 7
+                    },
                     "ExcludeFromNpcPathfinding": true,
                     "ArtifactSpots": [],
                     "FishAreas": {},
