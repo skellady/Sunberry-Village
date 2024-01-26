@@ -8,44 +8,6 @@
 					"Name": "Custom_SBV_SunberryVillage",
 					"DefaultValidPlantableLocations": [],
 					"AllowRainTotem": true,
-					"WeatherConditions": [
-						{
-							"Condition": "WEATHER Town Sun",
-							"Weather": "Sun"
-						},
-						{
-							"Condition": "WEATHER Town Rain, RANDOM 0.5",
-							"Weather": "Sun"
-						},
-						{
-							"Condition": "WEATHER Town Rain",
-							"Weather": "Rain"
-						},
-						{
-							"Condition": "WEATHER Town Storm, RANDOM 0.5",
-							"Weather": "Sun"
-						},
-						{
-							"Condition": "WEATHER Town Storm",
-							"Weather": "Storm"
-						},
-						{
-							"Condition": "WEATHER Town Wind",
-							"Weather": "Wind"
-						},
-						{
-							"Condition": "WEATHER Town Snow",
-							"Weather": "Snow"
-						},
-						{
-							"Condition": "WEATHER Town Festival",
-							"Weather": "Sun"
-						},
-						{
-							// just in case - no condition
-							"Weather": "Sun"
-						}
-					],
 					"ReviveLocations": [
 						{
 							"Condition": "LOCATION_CONTEXT Here Custom_SBV_SunberryVillage",
@@ -67,36 +29,6 @@
 					"Name": "Custom_SBV_Mines",
 					"DefaultValidPlantableLocations": [],
 					"AllowRainTotem": false,
-					"WeatherConditions": [
-						{
-							"Condition": "WEATHER Town Sun",
-							"Weather": "Sun"
-						},
-						{
-							"Condition": "WEATHER Town Rain",
-							"Weather": "Sun"
-						},
-						{
-							"Condition": "WEATHER Town Storm",
-							"Weather": "Sun"
-						},
-						{
-							"Condition": "WEATHER Town Wind",
-							"Weather": "Sun"
-						},
-						{
-							"Condition": "WEATHER Town Snow",
-							"Weather": "Sun"
-						},
-						{
-							"Condition": "WEATHER Town Festival",
-							"Weather": "Sun"
-						},
-						{
-							// just in case - no condition
-							"Weather": "Sun"
-						}
-					],
 					"ReviveLocations": [
 						{
 							"Condition": "LOCATION_CONTEXT Here Custom_SBV_Mines",
