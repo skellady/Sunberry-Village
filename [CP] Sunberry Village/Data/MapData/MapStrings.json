@@ -53,6 +53,8 @@
 				"sbv.mountain2": "{{i18n:MapString.sbv.mountain2}}",
 				"sbv.mountain3": "{{i18n:MapString.sbv.mountain3}}",
 				"sbv.mountain4": "{{i18n:MapString.sbv.mountain4}}",
+				//road
+				"sbv.road1": "{{i18n:MapString.sbv.road1}}",
 				//ari market
 				"sbv.market1": "{{i18n:MapString.sbv.market1}}",
 				"sbv.market2": "{{i18n:MapString.sbv.market2}}",

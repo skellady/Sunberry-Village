@@ -2382,6 +2382,8 @@
   "MapString.sbv.mountain2": "\"Our Beloved Adeel\", forever in our hearts.",
   "MapString.sbv.mountain3": "The tombstone is faded, but you can make out some of it.#\"In Memory of Chris\"",
   "MapString.sbv.mountain4": "There are flowers besides this tombstone.#\"Here lies Levi\"",
+  // Road
+  "MapString.sbv.road1": "@ Sunberry Forest",
   // Rei's Door
   "MapString.rei.lockedhouse": "It's locked...",
   // Ari's Market
