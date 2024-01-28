@@ -353,6 +353,40 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_LPizza",
+              "ItemId": "(O)206",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_TripleShotEspresso",
+              "ItemId": "(O)253",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_RicePudding",
+              "ItemId": "(O)232",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_TeaSet",
+              "ItemId": "(O)341",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            }
+          ],
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -390,6 +424,40 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_NautilusShell",
+              "ItemId": "(O)392",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_PurpleMushroom",
+              "ItemId": "(O)422",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_TruffleOil",
+              "ItemId": "(O)432",
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_SlimeCharmer",
+              "ItemId": "(O)520",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            }
+          ],
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -428,6 +496,42 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_DialaBakedGoods",
+              "RandomItemId": [
+                "(O)223",
+                "(O)221",
+                "(O)222",
+                "(O)220",
+                "(O)234",
+                "(O)238",
+                "(O)243",
+                "(O)211"
+              ],
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_DialaGems",
+              "RandomItemId": [
+                "(O)538",
+                "(O)539",
+                "(O)551",
+                "(O)552",
+                "(O)554",
+                "(O)559",
+                "(O)64",
+                "(O)60"
+              ],
+              "MinStack": 1,
+              "MaxStack": 2,
+              "Quality": -1,
+              "Condition": null
+            }
+          ],
           "SpawnIfMissing": true,
           "Appearance": [
             {
@@ -503,6 +607,41 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_DeryaBakedGoods",
+              "RandomItemId": [
+                "(O)223",
+                "(O)221",
+                "(O)222",
+                "(O)220",
+                "(O)234",
+                "(O)238",
+                "(O)243",
+                "(O)211"
+              ],
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_DeryaCola",
+              "ItemId": "(O)167",
+              "MinStack": 6,
+              "MaxStack": 12,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_DeryaCoffee",
+              "ItemId": "(O)395",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            }
+          ],
           "SpawnIfMissing": true,
           "Appearance": [
             {
@@ -580,6 +719,50 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_MoonGems",
+              "RandomItemId": [
+                "(O)60",
+                "(O)62",
+                "(O)64",
+                "(O)66",
+                "(O)68",
+                "(O)70",
+                "(O)80",
+                "(O)82",
+                "(O)84"
+              ],
+              "MinStack": 2,
+              "MaxStack": 3,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_MoonPrismaticShard",
+              "ItemId": "(O)74",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": "PLAYER_HEARTS Current MoonSBV 4"
+            },
+            {
+              "Id": "skellady.SBVCP_MoonMuffin",
+              "ItemId": "(O)651",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_ChocoChipCookies",
+              "ItemId": "skellady.SBVCP_ChocoChipCookies",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+          ],
           "SpawnIfMissing": true,
           "SpouseRoom": {
             "MapAsset": "SBVSpouseRooms",
@@ -636,6 +819,40 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_AriFertilizer",
+              "RandomItemId": [
+                "(O)805",
+                "(O)919",
+                "(O)920",
+                "(O)368",
+                "(O)369",
+                "(O)370",
+                "(O)371"
+              ],
+              "MinStack": 5,
+              "MaxStack": 10,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_AriSunberry",
+              "ItemId": "skellady.SBVCP_Sunberries",
+              "MinStack": 1,
+              "MaxStack": 2,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_Carob",
+              "ItemId": "skellady.SBVCP_Carob",
+              "MinStack": 2,
+              "MaxStack": 4,
+              "Quality": -1,
+              "Condition": null
+            },
+          ],
           "FriendsAndFamily": {
             "BlakeSBV": "{{i18n:NPC_Relationships.AriSon}}",
             "EliasSBV": "{{i18n:NPC_Relationships.AriExHusband}}"
@@ -677,6 +894,38 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_BlakeFood",
+              "RandomItemId": [
+                "(O)211",
+                "(O)210",
+                "(O)206",
+                "(O)213",
+                "(O)241"
+              ],
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_BlakePickles",
+              "ItemId": "(O)342",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_RainbowShell",
+              "ItemId": "(O)394",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+          ],
           "FriendsAndFamily": {
             "AriSBV": "{{i18n:NPC_Relationships.BlakeDad}}",
             "EliasSBV": "{{i18n:NPC_Relationships.BlakeFather}}"
@@ -718,6 +967,50 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_EliasBait",
+              "RandomItemId": [
+                "(O)685",
+                "(O)774",
+                "(O)908",
+              ],
+              "MinStack": 10,
+              "MaxStack": 15,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_EliasTackles",
+              "RandomItemId": [
+                "(O)686",
+                "(O)692",
+                "(O)693",
+                "(O)694",
+                "(O)695",
+              ],
+              "MinStack": 1,
+              "MaxStack": 2,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_EliasPudding",
+              "ItemId": "(O)265",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_EliasSoup",
+              "ItemId": "(O)219",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            }
+          ],
           "FriendsAndFamily": {
             "AriSBV": "{{i18n:NPC_Relationships.EliasExHusband}}",
             "BlakeSBV": "{{i18n:NPC_Relationships.EliasSon}}"
@@ -760,6 +1053,39 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_Cloth",
+              "ItemId": "(O)428",
+              "MinStack": 3,
+              "MaxStack": 6,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_Feather",
+              "ItemId": "(O)444",
+              "MinStack": 2,
+              "MaxStack": 4,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_Rings",
+              "RandomItemId": [
+                "(O)529",
+                "(O)530",
+                "(O)531",
+                "(O)532",
+                "(O)533",
+                "(O)534",
+              ],
+              "MinStack": 2,
+              "MaxStack": 4,
+              "Quality": -1,
+              "Condition": null
+            }
+          ],
           "SpawnIfMissing": true,
           "Home": [
             {
