@@ -20,7 +20,7 @@
                     "Edibility": "0",
                     "Type": "Flower",
                     "Category": -80,
-                    "Price": 300,
+                    "Price": 200,
                     "Texture": "Mods\\skellady.SBVCP\\Produce",
                     "SpriteIndex": 0,
                     "ContextTags": [
@@ -53,7 +53,7 @@
                     "Edibility": "0",
                     "Type": "Flower",
                     "Category": -80,
-                    "Price": 240,
+                    "Price": 210,
                     "Texture": "Mods\\skellady.SBVCP\\Produce",
                     "SpriteIndex": 2,
                     "ContextTags": [
@@ -152,7 +152,7 @@
                     "Edibility": "0",
                     "Type": "Flower",
                     "Category": -80,
-                    "Price": 210,
+                    "Price": 180,
                     "Texture": "Mods\\skellady.SBVCP\\Produce",
                     "SpriteIndex": 8,
                     "ContextTags": [
@@ -184,7 +184,7 @@
                     "Edibility": "15",
                     "Type": "Flower",
                     "Category": -80,
-                    "Price": 180,
+                    "Price": 120,
                     "Texture": "Mods\\skellady.SBVCP\\Produce",
                     "SpriteIndex": 10,
                     "ContextTags": [

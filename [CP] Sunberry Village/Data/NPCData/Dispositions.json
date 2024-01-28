@@ -1053,6 +1053,7 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_Cloth",
@@ -1123,6 +1124,48 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_BatteryPack",
+              "ItemId": "(O)787",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_TeaLeaves",
+              "ItemId": "(O)815",
+              "MinStack": 1,
+              "MaxStack": 3,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_IridiumBar",
+              "ItemId": "(O)337",
+              "MinStack": 1,
+              "MaxStack": 4,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_LuckyLunch",
+              "ItemId": "(O)204",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_StirFry",
+              "ItemId": "(O)606",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+          ],
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -1160,6 +1203,40 @@
           "ExcludeFromIntroductionsQuest": true,
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "TrailingGroup",
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_SolarEssence",
+              "ItemId": "(O)768",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_VoidEssence",
+              "ItemId": "(O)769",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_AppleSapling",
+              "ItemId": "(O)633",
+              "MinStack": 1,
+              "MaxStack": 2,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_NapalmRing",
+              "ItemId": "(O)811",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            }
+          ],
           "SpawnIfMissing": true,
           "Appearance": [
             {
@@ -1242,6 +1319,7 @@
           "ExcludeFromIntroductionsQuest": true,
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "TrailingGroup",
+          "WinterStarParticipant": false,
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -1280,6 +1358,7 @@
           "ExcludeFromIntroductionsQuest": true,
           "ExcludeFromPerfectionScore": true,
           "EndSlideShow": "TrailingGroup",
+          "WinterStarParticipant": false,
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -1321,6 +1400,48 @@
           "FriendsAndFamily": {
             "SilasSBV": "{{i18n:NPC_Relationships.MiyoungHusband}}"
           },
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_RandomFood",
+              "RandomItemId": [
+                "(O)222",
+                "(O)227",
+                "(O)228",
+                "(O)230",
+                "(O)231",
+                "(O)235",
+                "(O)240",
+              ],
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_RandomSeeds",
+              "RandomItemId": [
+                "(O)486",
+                "(O)474",
+                "(O)473",
+                "(O)472",
+                "(O)475",
+                "(O)476",
+                "(O)477",
+              ],
+              "MinStack": 5,
+              "MaxStack": 10,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_TeaSetMiyoung",
+              "ItemId": "(O)341",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            }
+          ],
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -1361,6 +1482,38 @@
           "FriendsAndFamily": {
             "MiyoungSBV": "{{i18n:NPC_Relationships.SilasWife}}"
           },
+          "WinterStarGifts": [
+            {
+              "Id": "skellady.SBVCP_RandomGeode",
+              "RandomItemId": [
+                "(O)535",
+                "(O)536",
+                "(O)537",
+                "(O)749",
+                "(O)skellady.SBVCP_SunberryGeode"
+              ],
+              "MinStack": 5,
+              "MaxStack": 8,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_RandomSeeds",
+              "ItemId": "(O)275",
+              "MinStack": 2,
+              "MaxStack": 5,
+              "Quality": -1,
+              "Condition": null
+            },
+            {
+              "Id": "skellady.SBVCP_MagicRockCandy",
+              "ItemId": "(O)279",
+              "MinStack": 1,
+              "MaxStack": -1,
+              "Quality": -1,
+              "Condition": null
+            }
+          ],
           "SpawnIfMissing": true,
           "Home": [
             {

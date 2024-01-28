@@ -3907,7 +3907,7 @@
 
   //0 hearts
   "Maia.Dialogue.Mon": "%Maia yawns.#$b#God, I desperately need some sleep.$s",
-  "Maia.Dialogue.Tue": "Oh, hello.#$b#$y 'Have you been by Silas' blacksmith by any chance? I can't remember._Yes._Cool, we're always hard at work to make top quality tools and weapons.$h_No._Well, drop by when you can. We're always hard at work to make top quality tools and weapons.' ",
+  "Maia.Dialogue.Tue": "Have you checked out what Silas and I have to offer? I think we've got quite a few things that might interest you.",
   "Maia.Dialogue.Wed": "I've been working on a new weapon for a while. Still missing some resources, though. Might ask Clint if he's got any to spare.",
   "Maia.Dialogue.Thu": "Think I'll be taking Amina to the city soon. Her dad will be in town for a couple of days.$h",
   "Maia.Dialogue.Fri": "Silas is a good man. He offered me this job and taught me everything I know.$h",
