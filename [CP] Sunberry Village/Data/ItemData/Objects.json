@@ -375,7 +375,6 @@
                     "Description": "{{i18n:SBV.SunberryGeode.Description}}",
                     "Edibility": "-300",
                     "Type": "Basic",
-                    "Category": -2,
                     "Price": 200,
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 6,
