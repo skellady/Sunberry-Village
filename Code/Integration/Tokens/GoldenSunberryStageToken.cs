@@ -14,8 +14,7 @@ internal class GoldenSunberryStageToken
 	internal static int NightsInStage = 0;
 	internal static int HeartTotal = 0;
 
-	//todo: update this with correct event ID number
-	internal const string TRIGGER_MAIL_ID = "sbv.gsbtrigger";
+	internal const string TRIGGER_MAIL_ID = "skellady.SBVCP_GSBTriggerLetter";
 	internal const int MAX_STAGE = 7;
 	internal const int MIN_NIGHTS_IN_STAGE = 7;
 
