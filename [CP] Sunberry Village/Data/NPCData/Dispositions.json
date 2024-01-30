@@ -353,6 +353,9 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "BlakeSBV": "{{i18n:NPC_Relationships.LyenneFriend}}"
+          },
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_LPizza",
@@ -496,6 +499,9 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "DeryaSBV": "{{i18n:NPC_Relationships.DialaFriend}}"
+          },
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_DialaBakedGoods",
@@ -607,6 +613,9 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "DialaSBV": "{{i18n:NPC_Relationships.DeryaFriend}}"
+          },
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_DeryaBakedGoods",
@@ -855,7 +864,7 @@
           ],
           "FriendsAndFamily": {
             "BlakeSBV": "{{i18n:NPC_Relationships.AriSon}}",
-            "EliasSBV": "{{i18n:NPC_Relationships.AriExHusband}}"
+            "EliasSBV": "{{i18n:NPC_Relationships.AriExHusband}}",
           },
           "SpawnIfMissing": true,
           "Home": [
@@ -928,7 +937,8 @@
           ],
           "FriendsAndFamily": {
             "AriSBV": "{{i18n:NPC_Relationships.BlakeDad}}",
-            "EliasSBV": "{{i18n:NPC_Relationships.BlakeFather}}"
+            "EliasSBV": "{{i18n:NPC_Relationships.BlakeFather}}",
+            "LyenneSBV": "{{i18n:NPC_Relationships.BlakeFriend}}"
           },
           "SpawnIfMissing": true,
           "Home": [
@@ -1033,7 +1043,7 @@
           },
           "Breather": true
         },
-        // Ezra and Iman
+        // Ezra, Iman, and Nadia
         "EzraSBV": {
           "TextureName": "EzraSBV/EzraSBV",
           "DisplayName": "{{i18n:Name.Ezra}}",
@@ -1053,6 +1063,10 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "NadiaSBV": "{{i18n:NPC_Relationships.EzraSister}}",
+            "ImanSBV": "{{i18n:NPC_Relationships.EzraFriend}}"
+          },
           
           "WinterStarGifts": [
             {
@@ -1124,6 +1138,9 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "ExcludeFromPerfectionScore": false,
           "EndSlideShow": "MainGroup",
+          "FriendsAndFamily": {
+            "EzraSBV": "{{i18n:NPC_Relationships.ImanFriend}}"
+          },
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_BatteryPack",
@@ -1174,6 +1191,48 @@
               "Tile": {
                 "X": 5,
                 "Y": 5
+              },
+              "Direction": "down"
+            }
+          ],
+          "Size": {
+            "X": 16,
+            "Y": 32
+          },
+          "Breather": true
+        },
+        "NadiaSBV": {
+          "TextureName": "NadiaSBV/NadiaSBV",
+          "DisplayName": "{{i18n:Name.Nadia}}",
+          "BirthSeason": "summer",
+          "BirthDay": 6,
+          "HomeRegion": "Town",
+          "Gender": "Female",
+          "Age": "Adult",
+          "Manner": "Polite",
+          "SocialAnxiety": "Outgoing",
+          "Optimism": "Positive",
+          "CanBeRomanced": false,
+          "CanReceiveGifts": false,
+          "CanSocialize": false,
+          "Calendar": "HiddenUntilMet",
+          "SocialTab": "HiddenUntilMet",
+          "ExcludeFromIntroductionsQuest": true,
+          "ItemDeliveryQuests": false,
+          "ExcludeFromPerfectionScore": false,
+          "WinterStarParticipant": false,
+          "EndSlideShow": "TrailingGroup",
+          "FriendsAndFamily": {
+            "EzraSBV": "{{i18n:NPC_Relationships.NadiaBrother}}"
+          },
+          "SpawnIfMissing": true,
+          "Home": [
+            {
+              "Id": "Default",
+              "Location": "Custom_SBV_SunberryWarpRoom",
+              "Tile": {
+                "X": 8,
+                "Y": 4
               },
               "Direction": "down"
             }
@@ -1312,6 +1371,7 @@
           "Manner": "Rude",
           "SocialAnxiety": "Outgoing",
           "Optimism": "Negative",
+          "CanGreetNearbyCharacters": false,
           "CanBeRomanced": false,
           "CanReceiveGifts": true,
           "Calendar": "HiddenUntilMet",

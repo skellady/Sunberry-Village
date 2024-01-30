@@ -15,6 +15,7 @@
   "Name.Maia": "Maia",
   "Name.Miyoung": "Miyoung",
   "Name.Moon": "Moon",
+  "Name.Nadia": "Nadia",
   "Name.Ophelia": "Ophelia",
   "Name.PanSBV": "Pan",
   "Name.Reihana": "Reihana",
@@ -33,8 +34,17 @@
   "NPC_Relationships.AriExHusband": "ex-husband",
   "NPC_Relationships.BlakeDad": "dad",
   "NPC_Relationships.BlakeFather": "father",
+  "NPC_Relationships.BlakeFriend": "best friend",
   "NPC_Relationships.EliasSon": "son",
   "NPC_Relationships.EliasExHusband": "ex-husband",
+
+  "NPC_Relationships.EzraSister": "sister",
+  "NPC_Relationships.EzraFriend": "best friend",
+  "NPC_Relationships.ImanFriend": "best friend",
+  "NPC_Relationships.NadiaBrother": "brother",
+
+  "NPC_Relationships.DialaFriend": "best friend",
+  "NPC_Relationships.DeryaFriend": "best friend",
 
   "NPC_Relationships.MiyoungHusband": "husband",
   "NPC_Relationships.SilasWife": "wife",
@@ -128,6 +138,7 @@
   "Gift.Love.Maia": "Thank you, I love it!",
   "Gift.Love.Miyoung": "Oh, for me? Thank you sweetheart, I love it.",
   "Gift.Love.Moon": "For Moon? Thank you, I love it!",
+  "Gift.Love.Nadia": "Placeholder.",
   "Gift.Love.Ophelia": "Thanks, I love it!",
   "Gift.Love.Pan": "Placeholder.",
   "Gift.Love.Reihana": "This is a... surprisingly good gift. Thanks.",
@@ -147,6 +158,7 @@
   "Gift.Like.Maia": "This is cool, thank you!",
   "Gift.Like.Miyoung": "Aw, thank you dear.",
   "Gift.Like.Moon": "Moon appreciates @, thank you!",
+  "Gift.Like.Nadia": "Placeholder.",
   "Gift.Like.Ophelia": "Thanks, this is nice.",
   "Gift.Like.Pan": "Placeholder.",
   "Gift.Like.Reihana": "Huh, this is nice. Thanks.",
@@ -166,6 +178,7 @@
   "Gift.Dislike.Maia": "Ah... I'm sorry, this isn't necessarily something I enjoy.",
   "Gift.Dislike.Miyoung": "Oh, @. This is not a good gift, dear.",
   "Gift.Dislike.Moon": "Moon does not like this very much.",
+  "Gift.Dislike.Nadia": "Placeholder.",
   "Gift.Dislike.Ophelia": "...This is disappointing.",
   "Gift.Dislike.Pan": "Placeholder.",
   "Gift.Dislike.Reihana": "...Okay, then.",
@@ -185,6 +198,7 @@
   "Gift.Hate.Maia": "I... just can't believe you'd give me something like this.",
   "Gift.Hate.Miyoung": "Oh, this just makes me sad.",
   "Gift.Hate.Moon": "@... Moon hates this.",
+  "Gift.Hate.Nadia": "Placeholder.",
   "Gift.Hate.Ophelia": "Hm. I'm not sure why you thought I'd like this. Get it out of my face, please.",
   "Gift.Hate.Pan": "Placeholder.",
   "Gift.Hate.Reihana": "...Have you by any chance seen all the weapons I have in my house, @?",
@@ -204,6 +218,7 @@
   "Gift.Neutral.Maia": "Uh. Thank you.",
   "Gift.Neutral.Miyoung": "Thank you, dear.",
   "Gift.Neutral.Moon": "Um... thank you?",
+  "Gift.Neutral.Nadia": "Placeholder.",
   "Gift.Neutral.Ophelia": "Hm. I'm not sure this is useful to me.",
   "Gift.Neutral.Pan": "Placeholder.",
   "Gift.Neutral.Reihana": "Thanks, I guess.",
@@ -4039,6 +4054,86 @@
   "Miyoung.Dialogue.Sat10": "I'm glad we have Ophelia watching over us. She makes sure everyone's taken care of all the time. I just hope she stops to take care of herself for once.$9",
   "Miyoung.Dialogue.Sun10": "You're a wonderful friend, @. I was just telling Silas how nice it is to have more friends in the valley.$4",
 
+  //Nadia
+  "Nadia.Dialogue.Introduction": "Placeholder.",
+
+  //Spring
+  "Nadia.Dialogue.spring_1": "Placeholder.",
+  "Nadia.Dialogue.spring_12": "Placeholder.",
+  "Nadia.Dialogue.spring_23": "Placeholder.",
+
+  //Summer
+  "Nadia.Dialogue.summer_1": "Placeholder.",
+  "Nadia.Dialogue.summer_10": "Placeholder.",
+  "Nadia.Dialogue.summer_27": "Placeholder.",
+
+  //Fall
+  "Nadia.Dialogue.fall_1": "Placeholder.",
+  "Nadia.Dialogue.fall_15": "Placeholder.",
+  "Nadia.Dialogue.fall_26": "Placeholder.",
+
+  //Winter
+  "Nadia.Dialogue.winter_1": "Placeholder.",
+  "Nadia.Dialogue.winter_7": "Placeholder.",
+  "Nadia.Dialogue.winter_14": "Placeholder.",
+  "Nadia.Dialogue.winter_24": "Placeholder.",
+
+  //Days of The Week
+
+  //0 hearts
+  "Nadia.Dialogue.Mon": "Placeholder.",
+  "Nadia.Dialogue.Tue": "Placeholder.",
+  "Nadia.Dialogue.Wed": "Placeholder.",
+  "Nadia.Dialogue.Thu": "Placeholder.",
+  "Nadia.Dialogue.Fri": "Placeholder.",
+  "Nadia.Dialogue.Sat": "Placeholder.",
+  "Nadia.Dialogue.Sun": "Placeholder.",
+
+  //2 hearts
+  "Nadia.Dialogue.Mon2": "Placeholder.",
+  "Nadia.Dialogue.Tue2": "Placeholder.",
+  "Nadia.Dialogue.Wed2": "Placeholder.",
+  "Nadia.Dialogue.Thu2": "Placeholder.",
+  "Nadia.Dialogue.Fri2": "Placeholder.",
+  "Nadia.Dialogue.Sat2": "Placeholder.",
+  "Nadia.Dialogue.Sun2": "Placeholder.",
+
+  //4 hearts
+  "Nadia.Dialogue.Mon4": "Placeholder.",
+  "Nadia.Dialogue.Tue4": "Placeholder.",
+  "Nadia.Dialogue.Wed4": "Placeholder.",
+  "Nadia.Dialogue.Thu4": "Placeholder.",
+  "Nadia.Dialogue.Fri4": "Placeholder.",
+  "Nadia.Dialogue.Sat4": "Placeholder.",
+  "Nadia.Dialogue.Sun4": "Placeholder.",
+
+  //6 hearts
+  "Nadia.Dialogue.Mon6": "Placeholder.",
+  "Nadia.Dialogue.Tue6": "Placeholder.",
+  "Nadia.Dialogue.Wed6": "Placeholder.",
+  "Nadia.Dialogue.Thu6": "Placeholder.",
+  "Nadia.Dialogue.Fri6": "Placeholder.",
+  "Nadia.Dialogue.Sat6": "Placeholder.",
+  "Nadia.Dialogue.Sun6": "Placeholder.",
+
+  //8 hearts
+  "Nadia.Dialogue.Mon8": "Placeholder.",
+  "Nadia.Dialogue.Tue8": "Placeholder.",
+  "Nadia.Dialogue.Wed8": "Placeholder.",
+  "Nadia.Dialogue.Thu8": "Placeholder.",
+  "Nadia.Dialogue.Fri8": "Placeholder.",
+  "Nadia.Dialogue.Sat8": "Placeholder.",
+  "Nadia.Dialogue.Sun8": "Placeholder.",
+
+  //10 hearts
+  "Nadia.Dialogue.Mon10": "Placeholder.",
+  "Nadia.Dialogue.Tue10": "Placeholder.",
+  "Nadia.Dialogue.Wed10": "Placeholder.",
+  "Nadia.Dialogue.Thu10": "Placeholder.",
+  "Nadia.Dialogue.Fri10": "Placeholder.",
+  "Nadia.Dialogue.Sat10": "Placeholder.",
+  "Nadia.Dialogue.Sun10": "Placeholder.",
+  
   //Ophelia
   "Ophelia.Dialogue.Introduction": "Hello, @. Lewis told me about you when I dropped by a few days ago. I'm Ophelia, I run Serenity Inn.#$b#Let me know if there's anything I could do to help you settle in.",
 

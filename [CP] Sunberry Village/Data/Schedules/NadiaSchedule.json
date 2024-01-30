@@ -1,0 +1,15 @@
+{
+	"Changes": [
+		{
+			"LogName": "Nadia's Temp Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/NadiaSBV",
+			"Entries": {
+				"spring": "2400 Custom_SBV_SunberryWarpRoom 8 4 2",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031490": false
+			},
+		},
+	]
+}
