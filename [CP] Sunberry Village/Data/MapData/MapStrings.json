@@ -228,7 +228,8 @@
 				"sbv.unoccupiedripley": "{{i18n:MapString.sbv.unoccupiedripley}}"
 			},
 			"When": {
-				"HasMod |contains= Rafseazz.RSVCP": false
+				"HasMod |contains= Rafseazz.RSVCP": false,
+				"HasMod |contains= Clara.Ripley": false
 			}
 		},
 		{
@@ -239,7 +240,8 @@
 				"sbv.unoccupiedripley": "{{i18n:MapString.sbv.unoccupiedripleyrsv}}"
 			},
 			"When": {
-				"HasMod |contains= Rafseazz.RSVCP": true
+				"HasMod |contains= Rafseazz.RSVCP": true,
+				"HasMod |contains= Clara.Ripley": false
 			}
 		},
 		{
