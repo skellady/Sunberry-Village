@@ -1531,6 +1531,19 @@
   "event-20031460.11": "Ah, I'm sorry farmer! I didn't mean to interrupt. I just couldn't contain my excitement.$u",
   "event-20031460.12": "I better head back. I promised Clint I'd help out with something. See you later, my love. Have a good day, farmer!$h",
 
+  // Silas 2 Hearts Event
+  "event-20031461.01": "I'M NOT DOING ANYTHING!",
+  "event-20031461.02": "Oh, phew...",
+  "event-20031461.03": "You scared me, I thought you were Razz! I was just looking around.$u",
+  "event-20031461.04": "Razz and I are working on something. Well, Razz is doing all the work actually.$u",
+  "event-20031461.05": "He left to grab a book we need.",
+  "event-20031461.06": "What are you working on?",
+  "event-20031461.07": "Why are you not helping?",
+  "event-20031461.08": "We uncovered an ancient scroll of sorts and we're working on deciphering it.#$b#I might get Elias, Maia, and Ophelia to help out since it seems to be related to our mines!$h",
+  "event-20031461.09": "Well, apparently I get too into it. Miyoung asked Razz to keep me from doing that.$8",
+  "event-20031461.10": "You hear footsteps approaching along with the sound of someone grumbling.",
+  "event-20031461.11": "Ah, the unmistakable sound of grumbling. I'm ready to work, Razz!$u",
+
   //Animation Dialogue
   //------------------
 
