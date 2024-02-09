@@ -191,6 +191,9 @@
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
 				"sbv.unoccupiedarv": "{{i18n:MapString.sbv.unoccupiedarv}}"
+			},
+			"When": {
+				"HasMod |contains= Himetarts.ARV.CP": false
 			}
 		},
 		{

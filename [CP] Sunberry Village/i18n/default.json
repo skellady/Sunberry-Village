@@ -1161,7 +1161,7 @@
   "event-20031429.08": "Do you see your dad often, Diala?$3",
   "event-20031429.09": "Not... really.$9",
   "event-20031429.10": "I try to visit every now and then. It's just a little complicated, darling.$s",
-  "event-20031429.11": "I'm sure you dad misses you too, though. Why don't we get back to work so you can get back home and tell him all about what you learned today?$h",
+  "event-20031429.11": "I'm sure your dad misses you too, though. Why don't we start working again so you can get back home and tell him all about what you learned today?$h",
   "event-20031429.12": "Let me take over, Diala. You get some rest.",
 
   // Jumana 2 Hearts Event
@@ -3153,7 +3153,7 @@
   "Reihana.Dialogue.Mon4": "Have you seen the stash of artifacts at my house? Well, you can't have any.$8#$b#%Rei sticks her tongue out at you and laughs menacingly.",
   "Reihana.Dialogue.Tue4": "Having Aicha around is like having a golden retriever. Where does she get all that energy?$12",
   "Reihana.Dialogue.Wed4": "Oh, look at me, I'm a farmer, I do farm stuff. I wake up and take care of my crops and animals. Booo! How do you live like this?$8",
-  "Reihana.Dialogue.Thu4": "%Rei glares at you.#$b#Look, I've been up all night because Aicha invited Diala over for a movie for some reason. They are LOUD. Ugh, I need to get out of here.13",
+  "Reihana.Dialogue.Thu4": "%Rei glares at you.#$b#Look, I've been up all night because Aicha invited Diala over for a movie for some reason. They are LOUD. Ugh, I need to get out of here.$13",
   "Reihana.Dialogue.Fri4": "Ari tried kicking me out of his store by pointing his broom at me. I just wanted some rice!$s#$b#...No, I wasn't gonna pay for it. Imagine using money to buy things, hah.$8",
   "Reihana.Dialogue.Sat4": "%Rei ignores your greeting. You greet her again.#$b#Fine. Hi, hello, hey. Now, scram. I've got things to do.$a#$b#Yes, those \"things\" include scaring Derya while she works. Get out of my way.",
   "Reihana.Dialogue.Sun4": "Ugh, my dress ripped. Thankfully, that guy over at the clothing store would bend over backwards to do anything for a fashionable demon.$8",
