@@ -1544,6 +1544,18 @@
   "event-20031461.10": "You hear footsteps approaching along with the sound of someone grumbling.",
   "event-20031461.11": "Ah, the unmistakable sound of grumbling. I'm ready to work, Razz!$u",
 
+  // Reihana 2 Hearts Event
+  "event-20031462.01": "Ah, it smells so good. I can't wait to dig in!$h",
+  "event-20031462.02": "AHH!",
+  "event-20031462.03": "This is the fifth time this week! How do you not expect it, Derya?$9",
+  "event-20031462.04": "...Every time I think she'll stop, she does it again.$s",
+  "event-20031462.05": "So, what's for breakfast?$h",
+  "event-20031462.06": "Sorry, I only made enough for Derya and I.$8",
+  "event-20031462.07": "I mean, do you even NEED to eat? You know, with the whole being a demon thing?$12",
+  "event-20031462.08": "No, not really!$8",
+  "event-20031462.09": "Then... I've been making extra food for no reason?$7",
+  "event-20031462.10": "Kinda, yeah! It tastes good, though. Keep it up!$h",
+
   //Animation Dialogue
   //------------------
 
