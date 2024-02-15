@@ -322,7 +322,7 @@
   "Gift.Leek.Diala": "OH! Thank you, @. I can't wait to use these when I cook.$u",
   "Gift.MakiRoll.Diala": "Oh my-- For me?$u#$b#I love this, thanks!$h",
   "Gift.Omelet.Diala": "Mhmm, this is delicious! Thanks, @!$u",
-  "Gift.Pancakes.Diala": "I think I could have pancakes everyday for the rest of my life and wouldn't mind it.$u#$b#Thanks, @.",
+  "Gift.Pancakes.Diala": "I think I could have pancakes every day for the rest of my life and wouldn't mind it.$u#$b#Thanks, @.",
   "Gift.PepperPoppers.Diala": "God, I absolutely love spicy food. Thank you, @!$u",
   "Gift.Pizza.Diala": "I've been craving pizza all day, thank you!$u",
   "Gift.Quartz.Diala": "This is beautiful! Did you know you can use Quartz to ward off negative energy?$h",
@@ -739,10 +739,10 @@
 
   "Iman.Dialogue.Fountain1": "Mmm... I look forward to Saturdays just for the food. The company's nice, too, I guess.$h",
   "Iman.Dialogue.Fountain2": "Elias walked past me earlier. Completely forgot just how tall he is. It's pretty attractive, though, I won't lie.$h",
-  "Iman.Dialogue.Fountain3": "I try to get my dose of socialization at these gatherings. Ezra doesn't really count even if I see him everyday.$u",
+  "Iman.Dialogue.Fountain3": "I try to get my dose of socialization at these gatherings. Ezra doesn't really count even if I see him every day.$u",
 
   "Jumana.Dialogue.Fountain1": "Hungry, dear? Make sure to grab a plate! I can guarantee the food is absolutely delicious.$h",
-  "Jumana.Dialogue.Fountain2": "I'm really glad I get to see everyone in the same place. It feels like a big family gather, I like it.$6",
+  "Jumana.Dialogue.Fountain2": "I'm really glad I get to see everyone in the same place. It feels like a big family gathering, I like it.$6",
   "Jumana.Dialogue.Fountain3": "Our gatherings used to be bigger, but with people leaving the village or passing on, they've gotten slightly smaller.$s#$b#I'm glad we've still kept up the tradition despite that, though.$4",
 
   "Lyenne.Dialogue.Fountain1": "This is pretty cool. I've been going to these ever since Ophelia dragged me out when I moved here. We never had anything like this with my family.",
@@ -774,7 +774,7 @@
   "Reihana.Dialogue.FollowDerya4": "Yeah, scooch over, I'm sleeping here tonight.$8",
 
   "Silas.Dialogue.Fountain1": "Ah, it's a beautiful evening, isn't it? I'm glad Miyoung and I get to spend some time with everyone.$h",
-  "Silas.Dialogue.Fountain2": "Miyoung looks so beautiful tonight. But then again, she looks beautiful everyday.$u",
+  "Silas.Dialogue.Fountain2": "Miyoung looks so beautiful tonight. But then again, she looks beautiful every day.$u",
   "Silas.Dialogue.Fountain3": "I got to catch up with Ari. He's still a little grumpy, just how I remember him.$u",
 
   //Event Dialogue
@@ -3243,7 +3243,7 @@
 
   //4 hearts
   "Aicha.Dialogue.Mon4": "My boss let me lead a mission once. It wasn't a very good idea. Bad things happen when I lead... well, we mostly get lost.$s#$b#Like, very lost. I think I ended up taking us into a whole other place at some point.$16",
-  "Aicha.Dialogue.Tue4": "I want a cool sword! I tried asking Maia to make me one but she said \"It wouldn't feel right to give a weapon to a demon.\"$s#$b#I think if I show up everyday, she'll agree eventually!$u",
+  "Aicha.Dialogue.Tue4": "I want a cool sword! I tried asking Maia to make me one but she said \"It wouldn't feel right to give a weapon to a demon.\"$s#$b#I think if I show up every day, she'll agree eventually!$u",
   "Aicha.Dialogue.Wed4": "I asked Elias a question about the village and he kept talking for HOURS! I have a headache. What does parlance even *mean*?$s#$b#So many big words...$s",
   "Aicha.Dialogue.Thu4": "I would love for my arms to look like Maia's. She's so strong.$4#$b#Hmm... I mean, maybe I can try transforming my arms into hers? The last time I tried something like that, it went very wrong.$11",
   "Aicha.Dialogue.Fri4": "I accidentally... broke Derya's door. I thought she was in danger!$s#$b#...She was just singing, but it sounded like screaming.$s",
@@ -4027,7 +4027,7 @@
 
   //0 hearts
   "Miyoung.Dialogue.Mon": "Hm? Oh, it's nice to see you, darling. How's your day going?#$b#I tended to my crops and called one of my sons to catch up.$h",
-  "Miyoung.Dialogue.Tue": "Ah, I wonder what I should make for Silas and Maia tomorrow. I've been bringing them lunch everyday. Someone has to make sure they're fed.$8",
+  "Miyoung.Dialogue.Tue": "Ah, I wonder what I should make for Silas and Maia tomorrow. I've been bringing them lunch every day. Someone has to make sure they're fed.$8",
   "Miyoung.Dialogue.Wed": "Jodi is a sweetheart. We were sharing recipes the other day and decided to cook together. Sam and Vincent loved all the dishes!$u",
   "Miyoung.Dialogue.Thu": "I mostly grow crops to use when I cook. I assume you've been selling yours, yes?#$b#Make sure to sell some to Ari! We would love to have fresh produce readily available here.$u",
   "Miyoung.Dialogue.Fri": "My sons might try to visit soon. Hopefully they can take some time off from work and relax here.$u",
@@ -4055,7 +4055,7 @@
   //6 hearts
   "Miyoung.Dialogue.Mon6": "I should drop by Ezra's store soon. I need a new cardigan and he always has exactly what I want!$u#$b#No, seriously! I was talking to Jumana about how much I wanted a cardigan in a very specific color and he just whips it out!$7",
   "Miyoung.Dialogue.Tue6": "I do feel empathetic towards Lyenne's situation. Poor girl.$s#$b#I do try my best to make sure she's taken care of. We are a family in this village, after all.$6",
-  "Miyoung.Dialogue.Wed6": "You know, I'd love to see your farm someday. I bet you've been taking really good care of it.$u#$b#I love my taking care of my crops, but I can't imagine running an entire farm. You're doing a wonderful job, darling.$h",
+  "Miyoung.Dialogue.Wed6": "You know, I'd love to see your farm someday. I bet you've been taking really good care of it.$u#$b#I love taking care of my crops, but I can't imagine running an entire farm. You're doing a wonderful job, darling.$h",
   "Miyoung.Dialogue.Thu6": "Your grandpa was a good friend of ours. It was a long walk from Pelican Town to Sunberry, but he'd always come by to see us.$h#$b#I'm sure you must miss him.$9",
   "Miyoung.Dialogue.Fri6": "Elias is a sweetheart. He came by earlier to drop off some pie. It was delicious!$u#$b#He was his usual charming self, \"Here, Miss Miyoung. I made this specifically for you.\"$7",
   "Miyoung.Dialogue.Sat6": "I see the way Elias looks at Maia, I may be old but I'm not a fool!$7#$b#Same goes to Diala and Derya! I love seeing people in love, it makes me so happy.$8",
@@ -4196,7 +4196,7 @@
   "Ophelia.Dialogue.Sun": "Ah, what a beautiful day. How's your farm, @? Grown anything interesting recently? I'd love to hear about it.",
 
   //2 hearts
-  "Ophelia.Dialogue.Mon2": "I wonder how Clint is doing. I used to see him almost everyday when I was still an adventurer with the guild.#$b#Maybe I'll drop by Pelican Town soon.",
+  "Ophelia.Dialogue.Mon2": "I wonder how Clint is doing. I used to see him almost every day when I was still an adventurer with the guild.#$b#Maybe I'll drop by Pelican Town soon.",
   "Ophelia.Dialogue.Tue2": "Have you been into the mines, @? Make sure to keep some food and tonics on you. Yoba knows you'll need them. [349 227 226]",
   "Ophelia.Dialogue.Wed2": "I'm sure it's a long walk from your farm to Sunberry, the inn is available if you'd find yourself in need of rest.$h#$b#Just let me know if there's anything you need.",
   "Ophelia.Dialogue.Thu2": "I talked to my husband last night. Apparently we're opening yet another branch of Serenity Inn.#$b#$y '..._You don't seem too happy about that._Well, I'm happy to see his inn prospering, but this wasn't how I envisioned my life to be.$s_Congratulations! That's wonderful news._Thank you, @. I'm glad to hear the inn is doing so well.' ",
@@ -4362,7 +4362,7 @@
   "Silas.Dialogue.Sun6": "Oh, farmer! I just saw Maia make the most glorious sword! I'm so excited to see the final thing. I bet Ophelia would love it.$h",
 
   //8 hearts
-  "Silas.Dialogue.Mon8": "You know, I'm really happy with how everything's turned out. I have an amazing wife, a job I like, so many friends. I get to learn new things everyday through Razzy and you, @.$7#$b#I'm... I never really thought I'd get here. I'm proud of myself.$6",
+  "Silas.Dialogue.Mon8": "You know, I'm really happy with how everything's turned out. I have an amazing wife, a job I like, so many friends. I get to learn new things every day through Razzy and you, @.$7#$b#I'm... I never really thought I'd get here. I'm proud of myself.$6",
   "Silas.Dialogue.Tue8": "Hmm... hey, @, got a minute? Do you have any recommendations for a date? I feel like I've exhausted all my options, but I really want to make Miyoung happy.$8#$b#$y 'Any date ideas?_Take her stargazing._Oh! That's wonderful, @! I'll find a good spot.$h_Take her on a hot balloon ride._Oh! I'm a little scared of heights, but if she's into it, then that would be a great date!$u_Make her dinner._Oh! That's perfect! I'm not the best cook, though. I'll have to ask someone for help.$h' ",
   "Silas.Dialogue.Wed8": "My son called earlier. We talked for a bit before he had to go grab some food. I'm glad we're able to communicate with our loved ones who don't live nearby.$h#$b#Do you have someone dear to you who lives far away? I'm sure it's difficult.$s",
   "Silas.Dialogue.Thu8": "You know, the demons ain't that bad. Although, I think the bubbly one could tone it down a little. She's been asking Maia for a weapon for the last five days.$u",
