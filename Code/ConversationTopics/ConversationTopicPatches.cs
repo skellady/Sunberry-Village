@@ -22,51 +22,6 @@ namespace SunberryVillage.ConversationTopics;
 [HarmonyPatch]
 internal class ConversationTopicPatches
 {
-
-	/// <summary>
-	/// Patches <c>Dialogue.checkForSpecialDialogueAttributes</c> to check for CT addition.<br />
-	/// Syntax:  ===CTName=== for a CT with a duration of 1 day, or
-	///			 ===CTName/[number]=== for a CT with a duration of [number] days.<br />
-	///	Example: ===MyConversationTopic1/20=== would add a CT with name MyConversationTopic1 and duration of 20 days.
-	/// </summary>
-	[HarmonyPatch(typeof(Dialogue), nameof(Dialogue.getCurrentDialogue))]
-	[HarmonyPrefix]
-	public static void getCurrentDialogue_Prefix(Dialogue __instance)
-	{
-		try
-		{
-			// just for safety's sake
-			if (__instance.dialogues.Count <= __instance.currentDialogueIndex || __instance.isDialogueFinished())
-				return;
-
-			// get current dialogue line
-			string currentDialogue = __instance.dialogues[__instance.currentDialogueIndex];
-
-			// define pattern and search for matches in current line
-			Regex pattern = new(@"={3}(?<ctName>[A-Za-z0-9_]+)(?:\/(?<duration>\d+))?={3}");
-			MatchCollection matches = pattern.Matches(currentDialogue);
-
-			// for each match, add a CT with the corresponding ctName group. If duration is specified, use that duration; otherwise, default to 1.
-			foreach (Match match in matches)
-			{
-				string ctName = match.Groups["ctName"].Value;
-				int duration = match.Groups["duration"].Value != "" ? int.Parse(match.Groups["duration"].Value) : 1;
-
-				if (Game1.player.activeDialogueEvents.ContainsKey(ctName))
-					Game1.player.activeDialogueEvents[ctName] = duration;
-				else
-					Game1.player.activeDialogueEvents.Add(ctName, duration);
-			}
-
-			// remove any matches from dialogue
-			if (matches.Count > 0)
-				__instance.dialogues[__instance.currentDialogueIndex] = pattern.Replace(currentDialogue, "");
-		}
-		catch (Exception e)
-		{
-			Log.Error($"Harmony patch \"{nameof(ConversationTopicPatches)}::{nameof(getCurrentDialogue_Prefix)}\" has encountered an error while handling dialogue for {__instance.speaker?.Name ?? "unknown NPC"}: \"{__instance.dialogues[__instance.currentDialogueIndex]}\". \n{e}");
-		}
-	}
 	/// <summary>
 	/// Patches <c>Quest.questComplete</c> to add a CT generated from the details of the quest that was just completed.
 	/// </summary>
