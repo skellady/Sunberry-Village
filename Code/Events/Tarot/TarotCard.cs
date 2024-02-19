@@ -8,8 +8,8 @@ namespace SunberryVillage.Tarot;
 
 internal class TarotCard
 {
-	// Buff should last the entire Stardew day - its fine to overshoot, it gets removed nightly
-	private const int BuffDurationMilliseconds = 7200_000;	// 7200 seconds = 120 minutes
+	// hardcoded magic number to hide duration from buff hover text
+	private const int AllDayDuration = -999888;
 
 	internal string Id;
 	internal string Name;
@@ -38,7 +38,7 @@ internal class TarotCard
 			id: BuffId ?? Id,
 			source: id,
 			displaySource: Utils.GetTranslationWithPlaceholder($"TarotBuffDisplaySource"),
-			duration: -999888,
+			duration: AllDayDuration,
 			iconTexture: TarotManager.TarotBuffIcons,
 			iconSheetIndex: 0,
 			effects: BuffEffects,
