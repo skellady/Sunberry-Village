@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace SunberryVillage.Audio
 {
-	internal static class AudioHandler
+	internal static class AudioManager
 	{
 		// turning this into a property so i can use fancy getter logic
 		internal static ICue CurrentSong

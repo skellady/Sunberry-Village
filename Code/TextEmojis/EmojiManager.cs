@@ -11,7 +11,7 @@ using System.Collections.Generic;
 
 namespace SunberryVillage.TextEmojis;
 
-internal class EmojiHandler
+internal class EmojiManager
 {
 	internal const string EmojiAssetPath = "SunberryTeam.SBV/Emojis";
 	internal static IAssetName EmojisAssetName = Globals.GameContent.ParseAssetName(EmojiAssetPath);

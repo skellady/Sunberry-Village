@@ -39,20 +39,13 @@ internal class TarotCard
 			source: id,
 			displaySource: Utils.GetTranslationWithPlaceholder($"TarotBuffDisplaySource"),
 			duration: -999888,
-			iconTexture: TarotHandler.TarotBuffIcons,
+			iconTexture: TarotManager.TarotBuffIcons,
 			iconSheetIndex: 0,
 			effects: BuffEffects,
 			isDebuff: IsDebuff,
 			displayName: Name,
 			description: null
 		);
-		//Buff.source = source;
-		//Buff.displaySource =;
-		//Buff.displayName = Name;
-		//Buff.iconTexture = Game1.buffsIcons;
-		//Buff.iconSheetIndex = 13;
-		////Buff.millisecondsDuration = BuffDurationMilliseconds;
-		//Buff.millisecondsDuration = ; // magic number to remove duration counter??
 		Game1.player.applyBuff(buff);
 	}
 }

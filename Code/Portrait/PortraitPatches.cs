@@ -31,7 +31,7 @@ internal class PortraitPatches
 	{
 		try
 		{
-			__result = PortraitHandler.PortraitShouldShake.Value;
+			__result = PortraitManager.PortraitShouldShake.Value;
 			return !__result;
 		}
 		catch (Exception e)
@@ -52,7 +52,7 @@ internal class PortraitPatches
 		try
 		{
 			if (__instance.characterDialogue is not null)
-				PortraitHandler.SetShake(__instance.characterDialogue);
+				PortraitManager.SetShake(__instance.characterDialogue);
 		}
 		catch (Exception e)
 		{

@@ -9,7 +9,7 @@ using System.Linq;
 
 namespace SunberryVillage.Portrait;
 
-internal class PortraitHandler
+internal class PortraitManager
 {
 	internal const string PortraitAssetPath = "SunberryTeam.SBV/PortraitsToShake";
 	internal static IAssetName PortraitAssetName = Globals.GameContent.ParseAssetName(PortraitAssetPath);

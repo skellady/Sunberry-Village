@@ -1,5 +1,6 @@
 using SunberryVillage.Animations;
 using SunberryVillage.Audio;
+using SunberryVillage.Events;
 using SunberryVillage.Integration;
 using SunberryVillage.Lighting;
 using SunberryVillage.Maps;
@@ -13,13 +14,14 @@ internal class EventHookManager
 {
 	internal static void InitializeEventHooks()
 	{
-		IntegrationHandler.AddEventHooks();
-		TarotHandler.AddEventHooks();
-		AnimationsHandler.AddEventHooks();
-		PortraitHandler.AddEventHooks();
-		AudioHandler.AddEventHooks();
-		LightingHandler.AddEventHooks();
-		EmojiHandler.AddEventHooks();
+		IntegrationManager.AddEventHooks();
+		TarotManager.AddEventHooks();
+		AnimationsManager.AddEventHooks();
+		PortraitManager.AddEventHooks();
+		AudioManager.AddEventHooks();
+		LightingManager.AddEventHooks();
+		EmojiManager.AddEventHooks();
 		ActionManager.AddEventHooks();
+		EventCommandManager.AddEventHooks();
 	}
 }

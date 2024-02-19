@@ -8,7 +8,7 @@ using System.Linq;
 
 namespace SunberryVillage.Lighting
 {
-	internal static class LightingHandler
+	internal static class LightingManager
 	{
 		internal static Dictionary<string, LightDataModel> Lights = new();              // contains lights defined in asset "SunberryTeam.SBV/Lights"
 		internal static readonly Dictionary<string, LightDataModel> TempLights = new(); // contains lights defined via console command - these DO NOT persist through save/load

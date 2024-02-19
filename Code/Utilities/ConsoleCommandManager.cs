@@ -90,13 +90,13 @@ internal class ConsoleCommandManager
 					args = new string[] { tempId, xPos, yPos, intensity };
 				}
 
-				if (LightingHandler.TryAddOrUpdateTempLight(args, out string error))
+				if (LightingManager.TryAddOrUpdateTempLight(args, out string error))
 				{
-					LightingHandler.AddLightsToCurrentLocation();
+					LightingManager.AddLightsToCurrentLocation();
 
 					Log.Info($"Temporary light created with parameters {{{string.Join(", ", args)}}}.");
 					Log.Warn($"NOTE: THIS LIGHT WILL NOT PERSIST AFTER YOU EXIT THE GAME. IT IS SOLELY FOR TESTING PURPOSES. " +
-						$"In order to define a persistent light, you need to edit the \"{LightingHandler.LightsAssetPath}\" asset via Content Patcher. " +
+						$"In order to define a persistent light, you need to edit the \"{LightingManager.LightsAssetPath}\" asset via Content Patcher. " +
 						$"See the example pack for details.");
 				}
 				else
@@ -113,7 +113,7 @@ internal class ConsoleCommandManager
 				if (!IsWorldReady())
 					return;
 
-				if (LightingHandler.RemoveLight(args[0]))
+				if (LightingManager.RemoveLight(args[0]))
 					Log.Info($"Light with id \"{args[0]}\" removed.");
 				else
 					Log.Warn($"Light with id \"{args[0]}\" not removed. (Does it exist?)");
@@ -128,8 +128,8 @@ internal class ConsoleCommandManager
 
 				GameLocation loc = Game1.currentLocation;
 
-				Log.Info($"\nData asset lights in the current location: \n\t{string.Join(",\n\t", LightingHandler.Lights.Where(kvp => kvp.Value.GameLocation.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}" +
-					$"\n\nTemporary lights in the current location: \n\t{string.Join(",\n\t", LightingHandler.TempLights.Where(kvp => kvp.Value.GameLocation.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
+				Log.Info($"\nData asset lights in the current location: \n\t{string.Join(",\n\t", LightingManager.Lights.Where(kvp => kvp.Value.GameLocation.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}" +
+					$"\n\nTemporary lights in the current location: \n\t{string.Join(",\n\t", LightingManager.TempLights.Where(kvp => kvp.Value.GameLocation.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
 			}
 		);
 
@@ -138,8 +138,8 @@ internal class ConsoleCommandManager
 				if (!IsWorldReady())
 					return;
 
-				Log.Info($"\nData asset lights: \n\t{string.Join(",\n\t", LightingHandler.Lights.Select(kvp => $"{kvp.Key}: {kvp.Value}"))}" +
-					$"\n\nTemporary lights: \n\t{string.Join(",\n\t", LightingHandler.TempLights.Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
+				Log.Info($"\nData asset lights: \n\t{string.Join(",\n\t", LightingManager.Lights.Select(kvp => $"{kvp.Key}: {kvp.Value}"))}" +
+					$"\n\nTemporary lights: \n\t{string.Join(",\n\t", LightingManager.TempLights.Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
 			}
 		);
 
@@ -163,7 +163,7 @@ internal class ConsoleCommandManager
 			"\n\tnpcName (string): The internal name of the NPC who is performing the animation." +
 			"\n\tanimationName (string): The name of the animation to perform.", (command, args) =>
 		{
-			AnimationsHandler.Init();
+			AnimationsManager.Init();
 			if (args.Length < 2)
 			{
 				return;

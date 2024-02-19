@@ -24,15 +24,15 @@ internal class EmojiPatches
     [HarmonyPostfix]
     public static void IsSpecialCharacterPostfix(char c, ref bool __result)
     {
-        if(EmojiHandler.EmojiIndices.ContainsKey(c))
+        if(EmojiManager.EmojiIndices.ContainsKey(c))
             __result = true;
     }
 
     [HarmonyPatch(typeof(SpriteText), "getSourceRectForChar")]
     [HarmonyPrefix]
-    public static bool IsSpecialCharacterPostfix(char c, ref bool junimoText, ref Rectangle __result)
+    public static bool getSourceRectForCharPostfix(char c, ref bool junimoText, ref Rectangle __result)
     {
-        if (EmojiHandler.EmojiIndices.TryGetValue(c, out Rectangle rect))
+        if (EmojiManager.EmojiIndices.TryGetValue(c, out Rectangle rect))
         {
             __result = rect;
             return false;

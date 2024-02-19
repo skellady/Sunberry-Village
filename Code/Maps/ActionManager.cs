@@ -83,7 +83,7 @@ internal class ActionManager
 			}
 
 			// if you have seen the necessary event
-			if (player.eventsSeen.Contains(TarotHandler.TarotRequiredEventId))
+			if (player.eventsSeen.Contains(TarotManager.TarotRequiredEventId))
 			{
 				location.createQuestionDialogue(Utils.GetTranslationWithPlaceholder("TarotPrompt"), location.createYesNoResponses(), "tarotReading");
 				return true;

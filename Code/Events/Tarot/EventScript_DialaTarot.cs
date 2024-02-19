@@ -57,7 +57,7 @@ internal class EventScriptDialaTarot : ICustomEventScript
 		_phase = 0;
 		_phaseTimer = 3000;
 
-		List<TarotCard> cards = TarotHandler.GetAllTarotCardsWithConditionsMet();
+		List<TarotCard> cards = TarotManager.GetAllTarotCardsWithConditionsMet();
 
 		_card1 = cards.GetRandomElementFromList(removeElement: true);
 		_card2 = cards.GetRandomElementFromList(removeElement: true);

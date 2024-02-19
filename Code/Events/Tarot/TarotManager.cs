@@ -10,7 +10,7 @@ using System.Linq;
 
 namespace SunberryVillage.Tarot;
 
-internal static class TarotHandler
+internal static class TarotManager
 {
 	internal const string TarotAssetPath = "SunberryTeam.SBV/Tarot";
 	internal const string TarotRequiredEventId ="skellady.SBVCP_20031411";
@@ -90,20 +90,11 @@ internal static class TarotHandler
 	/// </summary>
 	public static void AddEventHooks()
 	{
-		Globals.EventHelper.GameLoop.GameLaunched += RegisterEventCommand;
 		Globals.EventHelper.Content.AssetRequested += Tarot_AssetRequested;
 		// AssetInvalidated hook isn't necessary because nothing is cached, it's all loaded on demand
 		// Init hook also isn't necessary for the same reason
 		// At the end of each day, clears the mod data flag which prevents getting multiple tarot readings in one day.
 		Globals.EventHelper.GameLoop.DayEnding += (_, _) => Game1.player.modData.Remove("SunberryTeam.SBV/Tarot/ReadingDoneForToday");
-	}
-
-	private static void RegisterEventCommand(object sender, GameLaunchedEventArgs e)
-	{
-		Event.RegisterCommand("SBVTarotCutscene", (ev, args, eventContext) => {
-			ev.currentCustomEventScript = new EventScriptDialaTarot();
-			ev.CurrentCommand++;
-		});
 	}
 
 	/// <summary>

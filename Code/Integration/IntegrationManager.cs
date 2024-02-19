@@ -4,7 +4,7 @@ using SunberryVillage.Utilities;
 
 namespace SunberryVillage.Integration;
 
-internal class IntegrationHandler
+internal class IntegrationManager
 {
 	private static IBetterMixedSeedsAPI BetterMixedSeedsApi;
 	private static IContentPatcherAPI ContentPatcherApi;

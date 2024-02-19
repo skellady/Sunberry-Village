@@ -10,7 +10,7 @@ using System.Collections.Generic;
 
 namespace SunberryVillage.Animations;
 
-internal class AnimationsHandler
+internal class AnimationsManager
 {
 	internal const string AnimationsAssetPath = "SunberryTeam.SBV/Animations";
 	internal static IAssetName AnimationsAssetName = Globals.GameContent.ParseAssetName(AnimationsAssetPath);
@@ -100,7 +100,7 @@ internal class AnimationsHandler
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Failed in {nameof(AnimationsHandler)}::{nameof(DayEnd)}:\n{e}");
+			Log.Error($"Failed in {nameof(AnimationsManager)}::{nameof(DayEnd)}:\n{e}");
 		}
 	}
 
