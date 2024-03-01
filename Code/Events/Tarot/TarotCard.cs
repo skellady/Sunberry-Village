@@ -9,7 +9,7 @@ namespace SunberryVillage.Tarot;
 internal class TarotCard
 {
 	// hardcoded magic number to hide duration from buff hover text
-	private const int AllDayDuration = -999888;
+	private const int AllDayDuration = -2;
 
 	internal string Id;
 	internal string Name;
