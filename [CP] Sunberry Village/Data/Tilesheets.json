@@ -93,6 +93,11 @@
     },
     {
       "Action": "Load",
+      "Target": "Maps/hime_fountainscentered",
+      "FromFile": "Assets/Maps/TileSheets/hime_fountainscentered.png"
+    },
+    {
+      "Action": "Load",
       "Target": "Maps/SBVFurniture",
       "FromFile": "Assets/Maps/TileSheets/SBVFurniture.png"
     },

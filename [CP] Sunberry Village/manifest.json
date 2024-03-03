@@ -6,7 +6,7 @@
   "UniqueID": "skellady.SBVCP",
   "MinimumApiVersion": "1.0.0",
   "UpdateKeys": [
-    "Nexus:???"
+    "Nexus:11111"
   ],
   "Dependencies": [
     // required mods
@@ -23,9 +23,13 @@
       "IsRequired": true
     },
     {
-      "UniqueID": "KediDili.Tilesheets.CP",
+      "UniqueID": "hxw.tilesheets",
       "IsRequired": true
     },
+    /*{
+      "UniqueID": "KediDili.Tilesheets.CP",
+      "IsRequired": true
+    },*/
     //{
     //  "UniqueID": "Esca.EMP",
     //  "IsRequired": true
