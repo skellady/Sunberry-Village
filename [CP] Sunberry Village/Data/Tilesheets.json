@@ -98,6 +98,11 @@
     },
     {
       "Action": "Load",
+      "Target": "Maps/hime_arishop",
+      "FromFile": "Assets/Maps/TileSheets/hime_arishop.png"
+    },
+    {
+      "Action": "Load",
       "Target": "Maps/SBVFurniture",
       "FromFile": "Assets/Maps/TileSheets/SBVFurniture.png"
     },
