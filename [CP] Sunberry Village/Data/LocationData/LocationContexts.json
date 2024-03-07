@@ -7,7 +7,8 @@
 				"Custom_SBV_SunberryVillage": {
 					"Name": "Custom_SBV_SunberryVillage",
 					"DefaultValidPlantableLocations": [],
-					"AllowRainTotem": true,
+                    "AllowRainTotem": true,
+                    "CopyWeatherFromLocation": "Default", 
 					"ReviveLocations": [
 						{
 							"Condition": "LOCATION_CONTEXT Here Custom_SBV_SunberryVillage",
