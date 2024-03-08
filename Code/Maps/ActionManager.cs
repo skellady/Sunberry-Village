@@ -7,6 +7,7 @@ using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using SunberryVillage.Shops;
 
 namespace SunberryVillage.Maps;
 
@@ -27,6 +28,7 @@ internal class ActionManager
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_Book", HandleBookAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ChooseDestination", HandleChooseDestinationAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DialaTarot", HandleTarotAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MarketDailySpecial", HandleMarketDailySpecialAction);
 		//GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DoTrigger", TriggerActionManager.HandleDoTrigger);
 	}
 
@@ -76,7 +78,7 @@ internal class ActionManager
 	{
 		if (location.characters.Any(npc => npc.Name == "DialaSBV" && Vector2.Distance(npc.Tile, tile.ToVector2()) < 3f))
 		{
-			if (player.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
+			if (player.modData.ContainsKey("SunberryTeam.SBVSMAPI_TarotReadingDoneForToday"))
 			{
 				Game1.drawObjectDialogue(Utils.GetTranslationWithPlaceholder("TarotAlreadyReadToday"));
 				return false;
@@ -96,6 +98,27 @@ internal class ActionManager
 
 		// if diala is not on the map or near the tile location
 		Game1.drawObjectDialogue(Utils.GetTranslationWithPlaceholder("TarotDialaAway"));
+		return false;
+	}
+
+	private static bool HandleMarketDailySpecialAction(GameLocation location, string[] args, Farmer player, Point tile)
+	{
+		// if Ari is on the map and close enough to the daily special tile
+		if (location.characters.Any(npc => npc.Name == "AriSBV" && Vector2.Distance(npc.Tile, tile.ToVector2()) < 15f))
+		{
+			if (player.modData.ContainsKey("SunberryTeam.SBVSMAPI_AlreadyPurchasedMarketDailySpecial"))
+			{
+				Game1.drawObjectDialogue("bought");
+				return false;
+			}
+
+			location.createQuestionDialogue(MarketDailySpecialManager.GetOfferDialogue(), location.createYesNoResponses(), "SunberryTeam.SBVSMAPI_MarketDailySpecialResponses");
+			return true;
+
+		}
+
+		// if Ari is not around
+		Game1.drawObjectDialogue("not here");
 		return false;
 	}
 }

@@ -94,7 +94,7 @@ internal static class TarotManager
 		// AssetInvalidated hook isn't necessary because nothing is cached, it's all loaded on demand
 		// Init hook also isn't necessary for the same reason
 		// At the end of each day, clears the mod data flag which prevents getting multiple tarot readings in one day.
-		Globals.EventHelper.GameLoop.DayEnding += (_, _) => Game1.player.modData.Remove("SunberryTeam.SBV/Tarot/ReadingDoneForToday");
+		Globals.EventHelper.GameLoop.DayEnding += (_, _) => Game1.player.modData.Remove("SunberryTeam.SBVSMAPI_TarotReadingDoneForToday");
 	}
 
 	/// <summary>

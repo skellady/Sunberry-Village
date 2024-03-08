@@ -1,43 +1,46 @@
 {
-  // Tarot Prompt and Responses
-  "TarotBuffDisplaySource": "Diala's Tarot Reading",
-  "TarotDialaBusy": "Diala is busy.",
-  "TarotDialaAway": "Come back when Diala is here.",
-  "TarotAlreadyReadToday": "You've already had a reading done today. Come back another time.",
-  "TarotPrompt": "Would you like to have a tarot reading done?",
+    // Tarot Prompt and Responses
+    "TarotBuffDisplaySource": "Diala's Tarot Reading",
+    "TarotDialaBusy": "Diala is busy.",
+    "TarotDialaAway": "Come back when Diala is here.",
+    "TarotAlreadyReadToday": "You've already had a reading done today. Come back another time.",
+    "TarotPrompt": "Would you like to have a tarot reading done?",
 
-  // Card Names
+    // Card Names
 
-  "Sun.name": "The Sun",
-  "ThreeOfWands.name": "The Three of Wands",
-  "AceOfCups.name": "The Ace of Cups",
-  "Empress.name": "The Empress",
-  "Moon.name": "The Moon",
-  "Lovers.name": "The Lovers",
-  "TowerReversed.name": "The Tower, Reversed",
-  "AceOfPentacles.name": "The Ace of Pentacles",
-  "ThreeOfSwordsReversed.name": "The Three of Swords, Reversed",
-  "WheelOfFortune.name": "The Wheel of Fortune",
+    "Sun.name": "The Sun",
+    "ThreeOfWands.name": "The Three of Wands",
+    "AceOfCups.name": "The Ace of Cups",
+    "Empress.name": "The Empress",
+    "Moon.name": "The Moon",
+    "Lovers.name": "The Lovers",
+    "TowerReversed.name": "The Tower, Reversed",
+    "AceOfPentacles.name": "The Ace of Pentacles",
+    "ThreeOfSwordsReversed.name": "The Three of Swords, Reversed",
+    "WheelOfFortune.name": "The Wheel of Fortune",
 
-  // Card Descriptions
+    // Card Descriptions
 
-  "Sun.desc": "Warmth, happiness, and success follow you. You're invincible.",
-  "ThreeOfWands.desc": "Indicates growth moving forward. Your hard work will pay off.",
-  "AceOfCups.desc": "A new beginning is here. Open yourself up and be vulnerable.",
-  "Empress.desc": "This is a sign for you to be kind to yourself. Embrace your creativity and quirks.",
-  "Moon.desc": "You might be experiencing confusion or anxiety. Take it slow today.",
-  "Lovers.desc": "Pure harmony and love are in your path. Show your truest feelings.",
-  "TowerReversed.desc": "Something looms in the horizon. Don't be afraid. Embrace the change.",
-  "AceOfPentacles.desc": "Abundance and prosperity is on the way. Welcome all opportunities.",
-  "ThreeOfSwordsReversed.desc": "Allow yourself to recover and grieve the past. Let go. Don't look back.",
-  "WheelOfFortune.desc": "Luck is on your side today. Embrace what you cannot control.",
+    "Sun.desc": "Warmth, happiness, and success follow you. You're invincible.",
+    "ThreeOfWands.desc": "Indicates growth moving forward. Your hard work will pay off.",
+    "AceOfCups.desc": "A new beginning is here. Open yourself up and be vulnerable.",
+    "Empress.desc": "This is a sign for you to be kind to yourself. Embrace your creativity and quirks.",
+    "Moon.desc": "You might be experiencing confusion or anxiety. Take it slow today.",
+    "Lovers.desc": "Pure harmony and love are in your path. Show your truest feelings.",
+    "TowerReversed.desc": "Something looms in the horizon. Don't be afraid. Embrace the change.",
+    "AceOfPentacles.desc": "Abundance and prosperity is on the way. Welcome all opportunities.",
+    "ThreeOfSwordsReversed.desc": "Allow yourself to recover and grieve the past. Let go. Don't look back.",
+    "WheelOfFortune.desc": "Luck is on your side today. Embrace what you cannot control.",
 
-  // Elias Song Dialogue
+    // Elias Song Dialogue
 
-  "SongIntro": "Tonight's song is called...",
-  "poppy.name": "Poppy",
-  "SettlingIn.name": "Settling In",
-  "kindadumbautumn.name": "Grapefruit Sky",
-  "SongCredits": ", by Eric Barone.",
-  "SongOutro": "Thanks for listenin', y'all."
+    "SongIntro": "Tonight's song is called...",
+    "poppy.name": "Poppy",
+    "SettlingIn.name": "Settling In",
+    "kindadumbautumn.name": "Grapefruit Sky",
+    "SongCredits": ", by Eric Barone.",
+    "SongOutro": "Thanks for listenin', y'all."
+
+    // Ari's Market Special Dialogue
+
 }

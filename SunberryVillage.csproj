@@ -59,7 +59,7 @@
     <RemoveDir Directories="$(ProjectDir)\Sunberry Village" />
 	</Target>
     
-  <ProjectExtensions><VisualStudio><UserProperties i18n_4default_1json__JsonSchema="https://smapi.io/schemas/content-patcher.json" /></VisualStudio></ProjectExtensions>
+  <ProjectExtensions><VisualStudio><UserProperties /></VisualStudio></ProjectExtensions>
   
 </Project>
 <!-- ReSharper restore UnknownProperty -->

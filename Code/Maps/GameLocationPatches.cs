@@ -3,6 +3,7 @@ using StardewValley;
 using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
+using SunberryVillage.Shops;
 
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
@@ -37,9 +38,12 @@ internal class GameLocationPatches
 		{
 			if (questionAndAnswer.StartsWith("SunberryTeam.SBVSMAPI_ChooseDestination"))
 				return HandleChooseDestinationDialogueAction(questionAndAnswer);
+			
+			if (questionAndAnswer.StartsWith("SunberryTeam.SBVSMAPI_MarketDailySpecialResponses"))
+				return HandleMarketDailySpecialPurchaseAction();
 
 			if (questionAndAnswer.Equals("tarotReading_Yes"))
-				return HandleTarotDialogueAction();
+				return HandleTarotDialogueAction(questionAndAnswer);
 
 			return true;
 		}
@@ -73,7 +77,7 @@ internal class GameLocationPatches
 
 	private static bool HandleTarotDialogueAction()
 	{
-		Game1.player.modData["SunberryTeam.SBV/Tarot/ReadingDoneForToday"] = "true";
+		Game1.player.modData["SunberryTeam.SBVSMAPI_TarotReadingDoneForToday"] = "true";
 
 		Game1.activeClickableMenu?.emergencyShutDown();
 		Game1.activeClickableMenu?.exitThisMenuNoSound();
@@ -82,6 +86,29 @@ internal class GameLocationPatches
 
 		Game1.currentLocation.startEvent(new Event(eventString));
 		return false;
+	}
+
+	private static bool HandleMarketDailySpecialPurchaseAction(string questionAndAnswer)
+	{
+		// if ChooseDestination answer dialogue and cancel selected, no further action needed
+		if (questionAndAnswer.Equals("SunberryTeam.SBVSMAPI_ChooseDestination_Cancel"))
+		{
+			// handle rejection logic - ari says something disappointed ?
+			return false;
+		}
+
+		if (Game1.player.Money < MarketDailySpecialManager.GetOfferPrice())
+		{
+			Game1.drawObjectDialogue("lol? broke bitch?");
+			return true;
+		}
+
+		Game1.player.Money -= MarketDailySpecialManager.GetOfferPrice();
+		Game1.player.addItemByMenuIfNecessary(MarketDailySpecialManager.GetOfferItem());
+
+		MarketDailySpecialManager.RemoveDailySpecial();
+
+		return true;
 	}
 
 	/*
@@ -167,7 +194,7 @@ internal class GameLocationPatches
 
 	//	if (currentLoc.characters.Any(npc => npc.Name == "DialaSBV" && Vector2.Distance(npc.Tile, new Vector2(tileLocation.X, tileLocation.Y)) < 3f))
 	//	{
-	//		if (who.modData.ContainsKey("SunberryTeam.SBV/Tarot/ReadingDoneForToday"))
+	//		if (who.modData.ContainsKey("SunberryTeam.SBVSMAPI_TarotReadingDoneForToday"))
 	//		{
 	//			Game1.drawObjectDialogue("You've already had a reading done today. Come back another time.");
 	//			return false;

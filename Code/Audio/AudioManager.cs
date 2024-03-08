@@ -13,15 +13,10 @@ namespace SunberryVillage.Audio
 		// turning this into a property so i can use fancy getter logic
 		internal static ICue CurrentSong
 		{
-			get
-			{
-				if (currentSong is null)
-					currentSong = EliasSongs.GetRandomElementFromList();
-				return currentSong;
-			}
-			set => currentSong = value;
+			get { return _currentSong ??= EliasSongs.GetRandomElementFromList(); }
+			set => _currentSong = value;
 		}
-		private static ICue currentSong;
+		private static ICue _currentSong;
 
 		internal static NPC Elias;
 		internal static readonly Vector2 EliasGuitarTilePos = new(52f, 84f);

@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "LogName": "Ari's Market Daily Special TileAction",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_AriMarket",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 20
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_MarketDailySpecial"
+                    }
+                }
+            ]
+        }
+    ]
+}

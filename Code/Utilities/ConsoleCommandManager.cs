@@ -44,7 +44,7 @@ internal class ConsoleCommandManager
 				if (!IsWorldReady())
 					return;
 
-				Game1.player.modData.Remove("SunberryTeam.SBV/Tarot/ReadingDoneForToday");
+				Game1.player.modData.Remove("SunberryTeam.SBVSMAPI_TarotReadingDoneForToday");
 			}
 		);
 
