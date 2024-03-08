@@ -30,6 +30,7 @@ _releases/
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
+*.DotSettings
 
 # NuGet packages
 *.nupkg
