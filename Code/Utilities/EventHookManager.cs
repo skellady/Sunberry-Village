@@ -4,7 +4,6 @@ using SunberryVillage.Events;
 using SunberryVillage.Integration;
 using SunberryVillage.Lighting;
 using SunberryVillage.Maps;
-using SunberryVillage.Portrait;
 using SunberryVillage.Shops;
 using SunberryVillage.Tarot;
 using SunberryVillage.TextEmojis;
@@ -18,7 +17,6 @@ internal class EventHookManager
 		IntegrationManager.AddEventHooks();
 		TarotManager.AddEventHooks();
 		AnimationsManager.AddEventHooks();
-		PortraitManager.AddEventHooks();
 		AudioManager.AddEventHooks();
 		LightingManager.AddEventHooks();
 		EmojiManager.AddEventHooks();

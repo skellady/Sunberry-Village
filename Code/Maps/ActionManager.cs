@@ -19,18 +19,12 @@ internal class ActionManager
 		Globals.EventHelper.GameLoop.GameLaunched += RegisterTileActions;
 	}
 
-	private static void InitializeToggles(object sender, WarpedEventArgs e)
-	{
-		throw new NotImplementedException();
-	}
-
 	private static void RegisterTileActions(object sender, GameLaunchedEventArgs e)
 	{
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_Book", HandleBookAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ChooseDestination", HandleChooseDestinationAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DialaTarot", HandleTarotAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MarketDailySpecial", HandleMarketDailySpecialAction);
-		//GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DoTrigger", TriggerActionManager.HandleDoTrigger);
 	}
 
 	private static bool HandleBookAction(GameLocation location, string[] args, Farmer player, Point tile)
@@ -116,8 +110,6 @@ internal class ActionManager
 				Game1.activeClickableMenu = new DialogueBox(new Dialogue(ari, null,Utils.GetTranslationWithPlaceholder("MarketDailySpecialAlreadyPurchasedToday").Replace("{0}", Game1.player.Name)));
 				return false;
 			}
-
-			int whichVariant = new Random().Next(2) + 1;
 
 			Game1.activeClickableMenu = new DialogueBox(new Dialogue(ari, null, MarketDailySpecialManager.GetOfferDialogue()));
 			Game1.afterDialogues = () => location.createQuestionDialogue(MarketDailySpecialManager.GetPurchaseConfirmationDialogue(),
