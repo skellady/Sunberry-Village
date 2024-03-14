@@ -1,12 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using StardewValley;
-using SunberryVillage.Tarot;
+using SunberryVillage.Events.Tarot;
 using SunberryVillage.Utilities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace SunberryVillage.Events;
 internal class EventCommandManager

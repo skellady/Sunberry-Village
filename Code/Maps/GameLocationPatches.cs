@@ -3,6 +3,7 @@ using StardewValley;
 using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
+using StardewValley.Menus;
 using SunberryVillage.Shops;
 
 // ReSharper disable UnusedMember.Local
@@ -28,7 +29,7 @@ internal class GameLocationPatches
 	 */
 
 	/// <summary>
-	/// Patches <c>GameLocation.answerDialogueAction</c> to check for response to ChooseDestination question and handle it accordingly.
+	/// Patches <c>GameLocation.answerDialogueAction</c> to check for response to custom questions and handle them accordingly.
 	/// </summary>
 	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.answerDialogueAction))]
 	[HarmonyPrefix]
@@ -40,10 +41,10 @@ internal class GameLocationPatches
 				return HandleChooseDestinationDialogueAction(questionAndAnswer);
 			
 			if (questionAndAnswer.StartsWith("SunberryTeam.SBVSMAPI_MarketDailySpecialResponses"))
-				return HandleMarketDailySpecialPurchaseAction();
+				return HandleMarketDailySpecialPurchaseAction(questionAndAnswer);
 
 			if (questionAndAnswer.Equals("tarotReading_Yes"))
-				return HandleTarotDialogueAction(questionAndAnswer);
+				return HandleTarotDialogueAction();
 
 			return true;
 		}
@@ -90,17 +91,28 @@ internal class GameLocationPatches
 
 	private static bool HandleMarketDailySpecialPurchaseAction(string questionAndAnswer)
 	{
+		NPC ari = Game1.currentLocation.getCharacterFromName("AriSBV");
+		if (ari is null)
+			return false;
+
+		int whichVariant = new Random().Next(2) + 1;
+
 		// if ChooseDestination answer dialogue and cancel selected, no further action needed
-		if (questionAndAnswer.Equals("SunberryTeam.SBVSMAPI_ChooseDestination_Cancel"))
+		if (questionAndAnswer.Equals("SunberryTeam.SBVSMAPI_MarketDailySpecialResponses_No"))
 		{
 			// handle rejection logic - ari says something disappointed ?
+			Dialogue rejectPurchaseDialogue = new (ari, "",
+				Utils.GetTranslationWithPlaceholder($"MarketDailySpecialRejectPurchase{whichVariant}"));
+			Game1.activeClickableMenu = new DialogueBox(rejectPurchaseDialogue);
 			return false;
 		}
 
 		if (Game1.player.Money < MarketDailySpecialManager.GetOfferPrice())
 		{
-			Game1.drawObjectDialogue("lol? broke bitch?");
-			return true;
+			Dialogue notEnoughDialogue = new (ari, "",
+				Utils.GetTranslationWithPlaceholder($"MarketDailySpecialNotEnoughMoney{whichVariant}").Replace("{0}", Game1.player.Name));
+			Game1.activeClickableMenu = new DialogueBox(notEnoughDialogue);
+			return false;
 		}
 
 		Game1.player.Money -= MarketDailySpecialManager.GetOfferPrice();
@@ -108,7 +120,11 @@ internal class GameLocationPatches
 
 		MarketDailySpecialManager.RemoveDailySpecial();
 
-		return true;
+		Dialogue purchaseDialogue = new (ari, "",
+			Utils.GetTranslationWithPlaceholder($"MarketDailySpecialPurchased{whichVariant}"));
+		Game1.activeClickableMenu = new DialogueBox(purchaseDialogue);
+
+		return false;
 	}
 
 	/*

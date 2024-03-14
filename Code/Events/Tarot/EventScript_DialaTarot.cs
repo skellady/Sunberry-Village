@@ -1,11 +1,12 @@
+using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
+using SunberryVillage.Tarot;
 using SunberryVillage.Utilities;
-using System.Collections.Generic;
 using Vector2 = Microsoft.Xna.Framework.Vector2;
 
-namespace SunberryVillage.Tarot;
+namespace SunberryVillage.Events.Tarot;
 
 internal class EventScriptDialaTarot : ICustomEventScript
 {

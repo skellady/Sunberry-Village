@@ -1,5 +1,8 @@
 {
     "Changes": [
+
+        // Ari's Market Daily Special
+
         {
             "LogName": "Ari's Market Daily Special TileAction",
             "Action": "EditMap",
@@ -16,6 +19,42 @@
                     }
                 }
             ]
+        },
+        {
+            "LogName": "Ari's Market Daily Special Base Pool",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBVSMAPI/MarketDailySpecialData",
+            "Entries": {
+                "{{ModId}}_BaseItems": {
+                    "Items": [
+                        // Random wallpaper for 200g
+                        // because of price shenanigans the Price you specify here should be double what you want it to actually sell for omg
+                        {
+                            "ItemId": "RANDOM_ITEMS (WP)",
+                            "MaxItems": 1,
+                            "Price": 400
+                        },
+                        // Random house plant
+                        {
+                            "ItemId": "RANDOM_ITEMS (F) 1376 1390",
+                            "MaxItems": 1
+                        },
+                        // 12 pack of joja cola
+                        {
+                            "ItemId": "(O)167",
+                            "MinStack": 12,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.12PackJojaCola}}"
+                            }
+                        },
+                        // random fruit wine (silver quality)
+                        {
+                            "ItemId": "FLAVORED_ITEM Wine (O){{Random:613,631,634,635,636,637,638,410,258,254,834}}",
+                            "Quality": "1"
+                        }
+                    ] 
+                } 
+            } 
         }
     ]
 }

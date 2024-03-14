@@ -7,6 +7,7 @@ using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using StardewValley.Menus;
 using SunberryVillage.Shops;
 
 namespace SunberryVillage.Maps;
@@ -103,22 +104,30 @@ internal class ActionManager
 
 	private static bool HandleMarketDailySpecialAction(GameLocation location, string[] args, Farmer player, Point tile)
 	{
+		NPC ari = Game1.currentLocation.getCharacterFromName("AriSBV");
+		if (ari is null)
+			return false;
+
 		// if Ari is on the map and close enough to the daily special tile
-		if (location.characters.Any(npc => npc.Name == "AriSBV" && Vector2.Distance(npc.Tile, tile.ToVector2()) < 15f))
+		if (location.characters.Contains(ari) && Vector2.Distance(ari.Tile, tile.ToVector2()) < 10f)
 		{
 			if (player.modData.ContainsKey("SunberryTeam.SBVSMAPI_AlreadyPurchasedMarketDailySpecial"))
 			{
-				Game1.drawObjectDialogue("bought");
+				Game1.activeClickableMenu = new DialogueBox(new Dialogue(ari, null,Utils.GetTranslationWithPlaceholder("MarketDailySpecialAlreadyPurchasedToday").Replace("{0}", Game1.player.Name)));
 				return false;
 			}
 
-			location.createQuestionDialogue(MarketDailySpecialManager.GetOfferDialogue(), location.createYesNoResponses(), "SunberryTeam.SBVSMAPI_MarketDailySpecialResponses");
-			return true;
+			int whichVariant = new Random().Next(2) + 1;
 
+			Game1.activeClickableMenu = new DialogueBox(new Dialogue(ari, null, MarketDailySpecialManager.GetOfferDialogue()));
+			Game1.afterDialogues = () => location.createQuestionDialogue(MarketDailySpecialManager.GetPurchaseConfirmationDialogue(),
+				location.createYesNoResponses(), "SunberryTeam.SBVSMAPI_MarketDailySpecialResponses");
+
+			return false;
 		}
 
 		// if Ari is not around
-		Game1.drawObjectDialogue("not here");
+		Game1.drawObjectDialogue(Utils.GetTranslationWithPlaceholder("MarketDailySpecialAriNotAround").Replace("{0}", MarketDailySpecialManager.GetOfferItemName()));
 		return false;
 	}
 }
