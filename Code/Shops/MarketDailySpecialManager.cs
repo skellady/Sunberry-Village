@@ -55,26 +55,39 @@ internal class MarketDailySpecialManager
 
 		// create seeded random to sync daily special across all players
 		Random seededRandom = new((int)Game1.MasterPlayer.UniqueMultiplayerID + SDate.Now().DaysSinceStart);
-
 		ItemQueryContext itemQueryContext = new(Game1.currentLocation, Game1.player, null);
-		KeyValuePair<string, MarketDailySpecialData> marketDailySpecialDataEntry = marketDailySpecialAsset
-			.Where(kvp =>
-				string.IsNullOrEmpty(kvp.Value.Condition) ||
-				GameStateQuery.CheckConditions(kvp.Value.Condition, Game1.currentLocation, Game1.player)).ToList()
-			.GetRandomElementFromList(seededRandom);
-		
-		Log.Trace($"Selected entry {marketDailySpecialDataEntry.Key} for market daily special.");
-		
-		if (!marketDailySpecialDataEntry.Value.Items.Any())
+		List<GenericSpawnItemData> spawnPool = new();
+
+		foreach (MarketDailySpecialData entry in marketDailySpecialAsset.Values.Where(entry => GameStateQuery.CheckConditions(entry.Condition, Game1.currentLocation, Game1.player)))
 		{
-			Log.Warn($"Could not get contents of Items field. Creating generic fallback item \"(O)0\".");
-			MarketDailySpecialItem = ItemRegistry.Create("(O)0");
-			return;
+			spawnPool.AddRange(entry.Items.Where(data => GameStateQuery.CheckConditions(data.Condition)));
 		}
 
-		MarketDailySpecialItem = ItemQueryResolver.TryResolveRandomItem(marketDailySpecialDataEntry.Value.Items.GetRandomElementFromList(seededRandom), itemQueryContext, logError: (query, message) => Log.Warn($"Failed parsing item query '{query}': {message}"));
+		bool itemResolved = false;
+		while (!itemResolved && spawnPool.Any())
+		{
+			GenericSpawnItemData selectedEntry = spawnPool.GetRandomElementFromList(seededRandom, true);
 
-		Log.Trace($"Selected item [{MarketDailySpecialItem.QualifiedItemId} ({MarketDailySpecialItem.DisplayName}) x {MarketDailySpecialItem.Stack}] for market daily special.");
+			// assume success unless logError fires
+			itemResolved = true;
+			MarketDailySpecialItem = ItemQueryResolver.TryResolveRandomItem(selectedEntry, itemQueryContext,
+				logError: (query, message) =>
+				{
+					itemResolved = false;
+					Log.Warn($"Failed parsing item query \"{query}\": {message}");
+				});
+		}
+
+		if (itemResolved)
+		{
+			Log.Trace($"Selected item \"{GetOfferItemName()}\" [{MarketDailySpecialItem.QualifiedItemId} '{MarketDailySpecialItem.DisplayName}' x {MarketDailySpecialItem.Stack}] for market daily special.");
+		}
+		else
+		{
+			Log.Warn("Unable to select valid item for market daily special. Creating generic fallback item \"(O)0\".");
+			MarketDailySpecialItem = ItemRegistry.Create("(O)0");
+		}
+
 	}
 
 	private static void OnWarped(object sender, WarpedEventArgs e)
@@ -166,9 +179,9 @@ internal class MarketDailySpecialData
 {
 	internal string Id;
 	internal string Condition;
-	internal List<GenericSpawnItemData> Items;
+	internal List<GenericSpawnItemDataWithCondition> Items;
 
-	public MarketDailySpecialData(string id, string condition = "", List<GenericSpawnItemData> items = default)
+	public MarketDailySpecialData(string id, string condition = "", List<GenericSpawnItemDataWithCondition> items = default)
 	{
 		Id = id;
 		Condition = condition;
