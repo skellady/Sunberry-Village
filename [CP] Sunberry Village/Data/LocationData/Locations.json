@@ -14,6 +14,34 @@
                         "Y": 9
                     },
                     "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_SaturdayHangout",
+                            "Track": "{{Random: kindadumbautumn, poppy, SettlingIn}}",
+                            "Condition": "!SEASON winter, TIME 1800 2400, WEATHER Here Sun Wind, DAY_OF_WEEK Saturday"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
                     "ArtifactSpots": [
                         {
                             "Chance": 0.1,
@@ -195,6 +223,29 @@
                         "Y": 25
                     },
                     "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
                     "ArtifactSpots": [
                         {
                             "Chance": 0.1,
@@ -416,6 +467,29 @@
                         "Y": 23
                     },
                     "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
                     "ArtifactSpots": [
                         {
                             "Chance": 0.1,
@@ -557,6 +631,29 @@
                         "Y": 11
                     },
                     "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
                     "ArtifactSpots": [
                         {
                             "Chance": 0.1,
@@ -701,6 +798,29 @@
                         "Y": 18
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_GenericSpringMusic",
+                            "Track": "{{Random: spring1, spring2, spring3 |key=OutdoorsSpringMusic}}",
+                            "Condition": "SEASON spring, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericSummerMusic",
+                            "Track": "{{Random: summer1, summer2, summer3 |key=OutdoorsSummerMusic}}",
+                            "Condition": "SEASON summer, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericFallMusic",
+                            "Track": "{{Random: fall1, fall2, fall3 |key=OutdoorsFallMusic}}",
+                            "Condition": "SEASON fall, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                        {
+                            "ID": "{{ModId}}_GenericWinterMusic",
+                            "Track": "{{Random: winter1, winter2, winter3|key=OutdoorsWinterMusic}}",
+                            "Condition": "SEASON winter, TIME 600 1800, WEATHER Here Sun Wind"
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
                     "ArtifactSpots": [
                         {
                             "Chance": 0.1,
@@ -843,6 +963,13 @@
                         "Y": 18
                     },
                     "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_WoodsMusic",
+                            "Track": "woodsTheme",
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
                     "ArtifactSpots": [
                         {
                             "Chance": 0.1,
@@ -1004,6 +1131,13 @@
                         "Y": 27
                     },
                     "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "ID": "{{ModId}}_WoodsMusic",
+                            "Track": "woodsTheme",
+                        },
+                    ],
+                    "MusicIgnoredInRain": true,
                     "ArtifactSpots": [
                         {
                             "Chance": 0.1,
@@ -1411,6 +1545,12 @@
                         "Y": 11
                     },
                     "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_CaveEntranceMusic",
+                            "Track": "Frost_Ambient",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1470,6 +1610,12 @@
                         "Y": 15
                     },
                     "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_BrokenDinerMusic",
+                            "Track": "communityCenter",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1515,6 +1661,12 @@
                         "Y": 15
                     },
                     "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_OldEliasHouseMusic",
+                            "Track": "communityCenter",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1583,6 +1735,12 @@
                         "Y": 6
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "EarthMine",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1598,6 +1756,12 @@
                         "Y": 5
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "EarthMine",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1613,6 +1777,12 @@
                         "Y": 5
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "EarthMine",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1628,6 +1798,12 @@
                         "Y": 6
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: echos, Cavern, Cloth}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1643,6 +1819,12 @@
                         "Y": 21
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: echos, Cavern, Cloth}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1658,6 +1840,12 @@
                         "Y": 4
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: echos, Cavern, Cloth}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [
@@ -1682,6 +1870,12 @@
                         "Y": 6
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: echos, Cavern, Cloth}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1697,6 +1891,12 @@
                         "Y": 23
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: Cyclops, XOR, junimoKart_mushroomMusic}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1712,6 +1912,12 @@
                         "Y": 5
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: Cyclops, XOR, junimoKart_mushroomMusic}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [
@@ -1732,6 +1938,12 @@
                         "Y": 7
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: Cyclops, XOR, junimoKart_mushroomMusic}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1747,6 +1959,12 @@
                         "Y": 6
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: grandpas_theme, Icicles, title_night}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1762,6 +1980,12 @@
                         "Y": 6
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: grandpas_theme, Icicles, title_night}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1777,6 +2001,12 @@
                         "Y": 24
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: grandpas_theme, Icicles, title_night}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1792,6 +2022,12 @@
                         "Y": 10
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: grandpas_theme, Icicles, title_night}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
@@ -1807,6 +2043,12 @@
                         "Y": 8
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: moonlightJellies, musicboxsong, Plums}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [
@@ -1827,6 +2069,12 @@
                         "Y": 24
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: moonlightJellies, musicboxsong, Plums}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [
@@ -1847,6 +2095,12 @@
                         "Y": 11
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: moonlightJellies, musicboxsong, Plums}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [
@@ -1867,6 +2121,12 @@
                         "Y": 7
                     },
                     "ExcludeFromNpcPathfinding": true,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_MineMusic",
+                            "Track": "{{Random: junimoKart_whaleMusic, junimoKart_mushroomMusic}}",
+                        }
+                    ],
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [

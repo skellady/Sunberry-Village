@@ -1,7 +1,7 @@
 {
 	"Changes": [
 		// Fountain Music
-		{
+		/*{
 			"LogName": "Saturday Hangout Music",
 			"Action": "EditMap",
 			"Target": "Maps/Custom_SBV_SunberryVillage",
@@ -9,15 +9,15 @@
 				"Music": "{{Random: kindadumbautumn, poppy, SettlingIn}}"
 			},
 			"When": {
-				"Weather": "Sun",
+				"Weather |contains=Sun, Wind": true,
 				"Season: |contains=winter": false,
 				"DayOfWeek": "Saturday",
 				"Time": "{{Range: 1800, 2400}}",
 			},
 			"Update": "OnLocationChange"
-		},
+		},*/
 		// Generic Day Music for Outdoors (thank you Raf!)
-		{
+		/*{
 			"LogName": "Generic Music Spring",
 			"Action": "EditMap",
 			"Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_SunberryMountain, Maps/Custom_SBV_SunberryForest, Maps/Custom_SBV_SunberryRoad, Maps/Custom_SBV_ForestShortcut",
@@ -100,9 +100,9 @@
 				"Weather |contains=Sun": false
 			},
 			"Update": "OnLocationChange"
-		},
+		},*/
 		// Broken Diner Music
-		{
+		/*{
 			"LogName": "Broken Diner Music",
 			"Action": "EditMap",
 			"Target": "Maps/Custom_SBV_ChrisDinerBroken",
@@ -110,9 +110,9 @@
 				"Music": "communityCenter"
 			},
 			"Update": "OnLocationChange"
-		},
+		},*/
 		// Elias House Music
-		{
+		/*{
 			"LogName": "Elias House Music",
 			"Action": "EditMap",
 			"Target": "Maps/Custom_SBV_EliasHouseOld",
@@ -120,9 +120,9 @@
 				"Music": "communityCenter"
 			},
 			"Update": "OnLocationChange"
-		},
+		},*/
 		// Mine Entrance
-		{
+		/*{
 			"LogName": "Cave Entrance",
 			"Action": "EditMap",
 			"Target": "Maps/Custom_SBV_CrystalCave",
@@ -130,11 +130,11 @@
 				"Music": "Frost_Ambient"
 			},
 			"Update": "OnLocationChange"
-		},
+		},*/
 		// MINE MUSIC MINE MUSIC 
 
 		//Level 1 to 3
-		{
+		/*{
 			"LogName": "Level 1 to 3",
 			"Action": "EditMap",
 			"Target": "Maps/Custom_SBV_Mines1, Maps/Custom_SBV_Mines2, Maps/Custom_SBV_Mines3",
@@ -191,6 +191,6 @@
 			"MapProperties": {
 				"Music": "{{Random: junimoKart_whaleMusic, junimoKart_mushroomMusic}}"
 			}
-		}
+		}*/
 	]
 }
