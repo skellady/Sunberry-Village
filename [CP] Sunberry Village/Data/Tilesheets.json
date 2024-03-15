@@ -93,6 +93,21 @@
     },
     {
       "Action": "Load",
+      "Target": "Maps/hime_fountainscentered",
+      "FromFile": "Assets/Maps/TileSheets/hime_fountainscentered.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/hime_arishop",
+      "FromFile": "Assets/Maps/TileSheets/hime_arishop.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/SBVFurniture",
+      "FromFile": "Assets/Maps/TileSheets/SBVFurniture.png"
+    },
+    {
+      "Action": "Load",
       "Target": "Maps/SBV_wall1",
       "FromFile": "Assets/Maps/TileSheets/SBV_wall1.png"
     },
