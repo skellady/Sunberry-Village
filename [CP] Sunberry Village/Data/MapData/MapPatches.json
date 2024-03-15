@@ -202,6 +202,28 @@
         "FestivalPatches": true
       }
     },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-EggFestival",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SVE_EggFestival.tmx",
+      "FromArea":{
+        "X": 0,
+        "Y": 0,
+        "Width": 10,
+        "Height": 9
+      },
+      "ToArea": {
+        "X": 59,
+        "Y": 65,
+        "Width": 10,
+        "Height": 9
+      },
+      "When": {
+        "FestivalPatches": true,
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+      }
+    },
     // SDV Fair
     {
       "Action": "EditMap",

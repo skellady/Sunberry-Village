@@ -1,11 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="19" height="12" tilewidth="16" tileheight="16" infinite="0" nextlayerid="27" nextobjectid="19">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="27">
  <properties>
-  <property name="Light" value="24 52 4 24 60 4 33 55 4 20 66 4 38 66 4 27 74 4 30 74 4 27 88 4 37 79 4 50 79 4 52 100 4 56 100 4 118 16 4 71 67 4 92 79 4 94 52 4 97 52 4 11 9 4 27 9 4 1 88 4 14 88 4 98 70 4 111 70 4 86 58 4 87 45 4 88 45 4 97 88 4 17 52 4 4 52 4 52 51 4 36 49 4 41 51 4 41 69 4 12 84 4 24 87 4 59 48 4 57 60 4 63 83 4 92 79 4 101 87 4 108 6 1 112 7 1 111 10 1 97 49 4 94 49 4 31 22 4 31 29 4 21 29 4 21 22 4 72 90 4 25 113 4"/>
+  <property name="Arch" value="102 .02 100 .008 110 .02 115 .002"/>
+  <property name="Debris" value="8 .01 4 0 .02 4"/>
+  <property name="Fall_Objects" value="410 .6"/>
+  <property name="Fish" value="139 .15 138 .19 137 .22 132 .4 140 .33 141 .4 143 .05 144 .1 145 .4 153 .3"/>
+  <property name="Light" value="19 2 4 28 5 4 19 10 4 16 16 4 12 38 4 22 38 4 33 17 4 25 24 4 22 24 4 37 30 4 36 21 4 56 19 4"/>
   <property name="Outdoors" value="T"/>
+  <property name="ScreenshotRegion" value="0 44 75 108"/>
+  <property name="Spring_Objects" value="18 .9"/>
+  <property name="Summer_Objects" value="402 .9"/>
   <property name="Warp" value="-1 6 BusStop 26 23 -1 7 BusStop 26 24 53 110 Beach 38 0 79 -1 Mountain 15 40 80 -1 Mountain 15 40 81 -1 Mountain 15 40 82 -1 Mountain 15 40 83 -1 Mountain 15 40 -1 42 Forest 59 15 54 110 Beach 38 0 55 110 Beach 38 0"/>
+  <property name="Winter_Objects" value="418 .7 414 .1"/>
+  <property name="adsf" value="Front 19 2 908 Front 28 5 908 Front 19 10 908 Front 22 24 908 Front 25 24 908 Front 33 17 908 Front 22 38 908 Front 12 38 908 Front 16 16 908 Buildings 37 30 190 Buildings 36 21 653 Buildings 56 19 726"/>
+  <property name="asdf" value="Front 19 2 907 Front 28 5 907 Front 19 10 907 Front 22 24 907 Front 25 24 907 Front 33 17 907 Front 22 38 907 Front 12 38 907 Front 16 16 907 Buildings 37 30 186 Buildings 36 21 560 Buildings 56 19 720"/>
  </properties>
- <tileset firstgid="1" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+ <tileset firstgid="1" name="characters" tilewidth="16" tileheight="16" tilecount="144" columns="8">
+  <image source="characterSheet" width="128" height="288"/>
+ </tileset>
+ <tileset firstgid="145" name="fest" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
+  <image source="Festivals" width="512" height="512"/>
+  <tile id="960">
+   <animation>
+    <frame tileid="960" duration="100"/>
+    <frame tileid="961" duration="100"/>
+    <frame tileid="962" duration="100"/>
+    <frame tileid="961" duration="100"/>
+    <frame tileid="960" duration="100"/>
+    <frame tileid="963" duration="100"/>
+    <frame tileid="964" duration="100"/>
+    <frame tileid="963" duration="100"/>
+   </animation>
+  </tile>
+  <tile id="992">
+   <animation>
+    <frame tileid="992" duration="100"/>
+    <frame tileid="993" duration="100"/>
+    <frame tileid="994" duration="100"/>
+    <frame tileid="993" duration="100"/>
+    <frame tileid="992" duration="100"/>
+    <frame tileid="995" duration="100"/>
+    <frame tileid="996" duration="100"/>
+    <frame tileid="995" duration="100"/>
+   </animation>
+  </tile>
+ </tileset>
+ <tileset firstgid="1169" name="Landscape" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet" width="400" height="1264"/>
   <tile id="150">
    <properties>
@@ -20,12 +60,7 @@
    <animation>
     <frame tileid="151" duration="1000"/>
     <frame tileid="152" duration="1000"/>
-   </animation>
-  </tile>
-  <tile id="152">
-   <animation>
     <frame tileid="152" duration="1000"/>
-    <frame tileid="151" duration="1000"/>
    </animation>
   </tile>
   <tile id="175">
@@ -1264,11 +1299,63 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="1976" name="fest" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
-  <image source="Festivals.png" width="512" height="512"/>
+ <tileset firstgid="3144" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
+  <tile id="0">
+   <properties>
+    <property name="PathType" value="NE"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="PathType" value="SE"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="PathType" value="WS"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="PathType" value="WN"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="PathType" value="Crossroad"/>
+   </properties>
+  </tile>
+  <tile id="7">
+   <properties>
+    <property name="PathType" value="End"/>
+   </properties>
+  </tile>
  </tileset>
- <tileset firstgid="3000" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
-  <image source="spring_town.png" width="512" height="1152"/>
+ <tileset firstgid="3208" name="Town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="spring_town" width="512" height="1152"/>
+  <tile id="45">
+   <animation>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="45" duration="1000"/>
+    <frame tileid="12" duration="1000"/>
+   </animation>
+  </tile>
   <tile id="159">
    <properties>
     <property name="Passable" value="T"/>
@@ -1369,16 +1456,6 @@
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
-  <tile id="905">
-   <properties>
-    <property name="Passable" value="F"/>
-   </properties>
-  </tile>
-  <tile id="909">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
   <tile id="916">
    <properties>
     <property name="Water" value="T"/>
@@ -1399,56 +1476,6 @@
     <property name="Water" value="T"/>
    </properties>
   </tile>
-  <tile id="931">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="932">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="950">
-   <properties>
-    <property name="Water" value="T"/>
-   </properties>
-  </tile>
-  <tile id="963">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="964">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="1007">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="1008">
-   <properties>
-    <property name="Type" value="Stone"/>
-   </properties>
-  </tile>
-  <tile id="1031">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1032">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1033">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
   <tile id="1037">
    <animation>
     <frame tileid="1037" duration="100"/>
@@ -1457,21 +1484,6 @@
     <frame tileid="1039" duration="100"/>
    </animation>
   </tile>
-  <tile id="1063">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1064">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1065">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
   <tile id="1070">
    <animation>
     <frame tileid="1070" duration="100"/>
@@ -1479,21 +1491,6 @@
     <frame tileid="1102" duration="100"/>
     <frame tileid="1043" duration="100"/>
    </animation>
-  </tile>
-  <tile id="1095">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1096">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
-  </tile>
-  <tile id="1097">
-   <properties>
-    <property name="Type" value="Dirt"/>
-   </properties>
   </tile>
   <tile id="1201">
    <animation>
@@ -1515,112 +1512,129 @@
     <frame tileid="1238" duration="100"/>
    </animation>
   </tile>
-  <tile id="1249">
-   <properties>
-    <property name="Shadow" value="T"/>
-   </properties>
-  </tile>
   <tile id="1265">
    <animation>
-    <frame tileid="1265" duration="105"/>
-    <frame tileid="1266" duration="105"/>
-    <frame tileid="1267" duration="105"/>
-    <frame tileid="1268" duration="105"/>
-    <frame tileid="1269" duration="105"/>
-    <frame tileid="1270" duration="105"/>
+    <frame tileid="1265" duration="95"/>
+    <frame tileid="1266" duration="95"/>
+    <frame tileid="1267" duration="95"/>
+    <frame tileid="1268" duration="95"/>
+    <frame tileid="1269" duration="95"/>
+    <frame tileid="1270" duration="95"/>
    </animation>
   </tile>
-  <tile id="1958">
-   <properties>
-    <property name="Shadow" value="T"/>
-   </properties>
-  </tile>
  </tileset>
- <tileset firstgid="5304" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
-  <image source="paths.png" width="64" height="144"/>
-  <tile id="0">
-   <properties>
-    <property name="PathType" value="NE"/>
-   </properties>
-  </tile>
-  <tile id="1">
-   <properties>
-    <property name="PathType" value="SE"/>
-   </properties>
-  </tile>
-  <tile id="2">
-   <properties>
-    <property name="PathType" value="WS"/>
-   </properties>
-  </tile>
-  <tile id="3">
-   <properties>
-    <property name="PathType" value="WN"/>
-   </properties>
-  </tile>
-  <tile id="4">
-   <properties>
-    <property name="PathType" value="Crossroad"/>
-   </properties>
-  </tile>
-  <tile id="7">
-   <properties>
-    <property name="PathType" value="End"/>
-   </properties>
-  </tile>
- </tileset>
- <tileset firstgid="5340" name="zSBVFestivals" tilewidth="16" tileheight="16" tilecount="1280" columns="40">
+ <tileset firstgid="5512" name="zSBVFestivals" tilewidth="16" tileheight="16" tilecount="1280" columns="40">
   <image source="SBVFestivals.png" width="640" height="512"/>
  </tileset>
- <layer id="1" name="Back" width="19" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYCAPdHNiYnLBSDBrFIwCYgAAK6sLkQ==
-  </data>
+ <layer id="1" name="Back" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <objectgroup id="2" name="Back"/>
- <layer id="3" name="Back2" width="19" height="12">
-  <properties>
-   <property name="Draw" value="Back"/>
-  </properties>
-  <data encoding="base64" compression="zlib">
-   eJzbI8bAsBeI9+Gg9wMxseAJUO1TIH6Gg35Oglk84gwMvEDMh4PmFx857tpDRBwR6y5i7DQBqjUFYjMctLn4wIUFMWCwuouYcAUAH3lPsQ==
-  </data>
+ <layer id="15" name="Back+1" width="10" height="9">
+  <data encoding="csv">
+5992,5993,5994,5993,5994,5993,5994,5993,5994,5995,
+6032,6033,6033,6034,6033,6033,6034,6033,6034,6035,
+6072,6073,6073,6074,6073,6073,6074,6073,6074,6075,
+6032,6033,6033,6034,6033,6033,6034,6033,6034,6035,
+6072,6073,6073,6074,6073,6073,6074,6073,6074,6075,
+6032,6033,6033,6034,6033,6033,6034,6033,6034,6035,
+6072,6073,6073,6074,6073,6073,6074,6073,6074,6075,
+6072,6073,6073,6074,6073,6073,6074,6073,6074,6075,
+6112,6113,6114,6113,6114,6114,6114,6113,6114,6115
+</data>
  </layer>
- <objectgroup id="4" name="Back2"/>
- <layer id="9" name="Buildings" width="19" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYMAOdrEzMNxih7B/s2PKZ3EyMGQj4RxOiPobQHwTi3p8oIsTld8D5f8AmvOTSmZJcDAwSHKgyhFy6yqg3tVIeA3ULAugOZZoZpHjVlwAm1vJBdjc+hDozkdobn3Ajl18IADMLbcGkVuwhQstwgsAxoYgYA==
-  </data>
+ <layer id="2" name="Buildings" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,177,178,0,0,0,0,0,148,0,
+0,209,210,187,0,0,0,0,187,0,
+185,241,242,0,0,0,0,0,0,0,
+0,273,274,0,0,0,0,249,250,0,
+0,0,0,0,0,0,0,281,282,0,
+147,0,0,0,0,0,0,313,314,187,
+185,0,0,0,0,0,0,273,274,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <objectgroup id="10" name="Buildings"/>
- <layer id="15" name="Front" width="19" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYGBg2MHOwLATiIcCGEpupSY4CPTzITR/H2DHLj4QAOaWwQDwhctgCS9cAAB1dwxg
-  </data>
+ <layer id="3" name="Front" width="10" height="9">
+  <data encoding="csv">
+0,145,146,0,0,0,0,0,0,0,
+0,0,0,155,0,0,0,0,155,0,
+153,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,217,218,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,155,
+153,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <objectgroup id="16" name="Front"/>
- <layer id="17" name="Paths" width="19" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBYAAAOQAAE=
-  </data>
+ <layer id="4" name="Paths" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <objectgroup id="18" name="Paths"/>
- <layer id="19" name="AlwaysFront" width="19" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBYAAAOQAAE=
-  </data>
+ <layer id="5" name="AlwaysFront" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,3990,3991,3992,3993,0,
+0,0,0,0,0,4022,4023,4024,4025,0,
+0,0,0,0,0,4054,4055,4056,4057,0
+</data>
  </layer>
- <objectgroup id="20" name="AlwaysFront"/>
- <layer id="23" name="Set-Up" width="19" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBYAAAOQAAE=
-  </data>
+ <layer id="6" name="Set-Up" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <objectgroup id="24" name="Set-Up"/>
- <layer id="25" name="MainEvent" width="19" height="12">
-  <data encoding="base64" compression="zlib">
-   eJxjYBgFo2AUDBYAAAOQAAE=
-  </data>
+ <layer id="7" name="MainEvent" width="10" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
  </layer>
- <objectgroup id="26" name="MainEvent"/>
+ <objectgroup id="8" name="Back"/>
+ <objectgroup id="9" name="Buildings"/>
+ <objectgroup id="10" name="Front"/>
+ <objectgroup id="11" name="Paths"/>
+ <objectgroup id="12" name="AlwaysFront"/>
+ <objectgroup id="13" name="Set-Up"/>
+ <objectgroup id="14" name="MainEvent"/>
 </map>
