@@ -12,6 +12,9 @@
 				//summer
 				"summer_1": "{{i18n:Elias.Dialogue.summer_1}}",
 				"summer_10": "{{i18n:Elias.Dialogue.summer_10}}",
+				"summer_19": "{{i18n:Elias.Dialogue.summer_19}}",
+				"summer_20": "{{i18n:Elias.Dialogue.summer_20}}",
+				"summer_21": "{{i18n:Elias.Dialogue.summer_21}}",
 				"summer_27": "{{i18n:Elias.Dialogue.summer_27}}",
 				//fall
 				"fall_1": "{{i18n:Elias.Dialogue.fall_1}}",
@@ -20,6 +23,9 @@
 				//winter
 				"winter_1": "{{i18n:Elias.Dialogue.winter_1}}",
 				"winter_7": "{{i18n:Elias.Dialogue.winter_7}}",
+				"winter_11": "{{i18n:Elias.Dialogue.winter_11}}",
+				"winter_12": "{{i18n:Elias.Dialogue.winter_12}}",
+				"winter_13": "{{i18n:Elias.Dialogue.winter_13}}",
 				"winter_14": "{{i18n:Elias.Dialogue.winter_14}}",
 				"winter_24": "{{i18n:Elias.Dialogue.winter_24}}",
 				//days of the week

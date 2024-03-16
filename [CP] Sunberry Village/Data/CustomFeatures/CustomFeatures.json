@@ -197,7 +197,11 @@
                         {
                             "ItemId": "(O)swordandsorcery.zuzustyleclamchowder",
                             "MaxItems": 1
-                        } 
+                        }, 
+                        {
+                            "ItemId": "(O)swordandsorcery.zuzustylebagelwithlox",
+                            "MaxItems": 1
+                        }
                     ] 
                 }
             },

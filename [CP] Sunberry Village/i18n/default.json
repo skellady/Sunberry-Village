@@ -3528,6 +3528,9 @@
     //Summer
     "Elias.Dialogue.summer_1": "Yoba, how is it this hot on the first day of the season already?$s#$b#I should get the air conditioner in the library fixed up soon.",
     "Elias.Dialogue.summer_10": "I'm not a picky eater by any means, but a communal soup doesn't exactly sound like a great idea.$8#$b#Unless Miyoung and Jumana are contributing, in which case, maybe I'll give it a shot.$h",
+    "Elias.Dialogue.summer_19": "Big day for anglers tomorrow. Are you goin' to join us at the Derby?#$b#You bet I'll be there. Willy and I get a little competitive durin' these. Just a little.$10",
+    "Elias.Dialogue.summer_20": "I pulled out my best fishin' rod for today. I'm not lettin' any of these anglers outfish me, nope.$7",
+    "Elias.Dialogue.summer_21": "Hmph... Willy's gotten a few more Golden Tags than I have. It's fine, it's not over yet. I can catch up to him.$7",
     "Elias.Dialogue.summer_27": "Can't remember where I read this, but if I recall correctly, the moonlight jellies are actually called 'Lunaloos'.#$e#You bet I'll be there to see them.$h",
 
     //Fall
@@ -3538,6 +3541,9 @@
     //Winter
     "Elias.Dialogue.winter_1": "I hate the cold with a passion, but I still look forward to it for all the fish I can catch now.$h#$b#Might hit up Willy to see if he's up for a fishin' trip soon.",
     "Elias.Dialogue.winter_7": "Are you participating in the Ice Festival tomorrow?#$b#$y '..._Yes._Oh, you are SO on, farmer. I'm taking that prize home.$u_No._Huh, less competition for me, then.$u' ",
+    "Elias.Dialogue.winter_11": "Did Willy tell you about the 'SquidFest' yet? It's takin' place at the beach tomorrow. Are you up to the challenge, farmer?$10",
+    "Elias.Dialogue.winter_12": "%Elias is grumbling to himself.#$b#Stupid squid. Can't believe I've been bested by a squid. Ari's never lettin' me live this down.$a",
+    "Elias.Dialogue.winter_13": "Once I got the hang of this, the squids got a little easier to catch. Willy slipped me some special bait, too. I hope you're enjoyin' yourself, @.$h",
     "Elias.Dialogue.winter_14": "I'll be at the submarine the moment the night market arrives at the beach.$u#$b#I do feel bad for those blobfish, though.$s",
     "Elias.Dialogue.winter_24": "Can you believe the damn year is almost over already? Maybe Lyenne was onto something when she was yellin' \"Time is fake and pointless!\" the other day.$u",
 
