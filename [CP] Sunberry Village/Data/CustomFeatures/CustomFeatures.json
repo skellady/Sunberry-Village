@@ -27,13 +27,6 @@
             "Entries": {
                 "{{ModId}}_BaseItems": {
                     "Items": [
-                        // Random wallpaper for 200g
-                        // because of price shenanigans the Price you specify here should be double what you want it to actually sell for omg
-                        {
-                            "ItemId": "RANDOM_ITEMS (WP)",
-                            "MaxItems": 1,
-                            "Price": 400
-                        },
                         // Random house plant
                         {
                             "ItemId": "RANDOM_ITEMS (F) 1376 1390",
@@ -51,9 +44,165 @@
                         {
                             "ItemId": "FLAVORED_ITEM Wine (O){{Random:613,631,634,635,636,637,638,410,258,254,834}}",
                             "Quality": "1"
+                        },
+                        // Random seeds
+                        {
+                            "RandomItemId": [
+                                "(O)472",
+                                "(O)473",
+                                "(O)474",
+                                "(O)475",
+                                "(O)476",
+                                "(O)479",
+                                "(O)480",
+                                "(O)481",
+                                "(O)482",
+                                "(O)484",
+                                "(O)485",
+                                "(O)486",
+                                "(O)488",
+                                "(O)490",
+                                "(O)493",
+                                "(O)489",
+                                "(O)CarrotSeeds",
+                                "(O)SummerSquashSeeds",
+                                "(O)BroccoliSeeds",
+                                "(O)PowdermelonSeeds"
+                            ],
+                            "MinStack": 10,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.10PackSeeds}}"
+                            }
+                        },
+                        // Grass starters
+                        {
+                            "ItemId": "(O)297",
+                            "MinStack": 70,
+                            "Price": 10000
+                        },
+                        // Blue grass starter
+                        {
+                            "ItemId": "(O)BlueGrassStarter",
+                            "MinStack": 70,
+                            "Price": 30000
+                        },
+                        // Random Qi fertilizers
+                        {
+                            "RandomItemId": [
+                                "(O)918",
+                                "(O)919",
+                                "(O)920"
+                            ],
+                            "MinStack": 15
+                        },
+                        // Enricher
+                        {
+                            "ItemId": "(O)913",
+                            "MinStack": 5,
+                            "Price": 15000
+                        },
+                        // Nozzle
+                        {
+                            "ItemId": "(O)915",
+                            "MinStack": 5,
+                            "Price": 20000
+                        },
+                        // Elias' catch of the day (spring)
+                        {
+                            "RandomItemId": [
+                                "(O)129",
+                                "(O)143",
+                                "(O)148",
+                                "(O)706",
+                                "(O)skellady.SBVCP_SeaCow",
+                                "(O)skellady.SBVCP_Najelfish",
+                                "(O)skellady.SBVCP_BonbonFish",
+                            ],
+                            "Season": "Spring",
+                            "MaxItems": 1,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.EliasCatch}}"
+                            }
+                        },
+                        // Elias' catch of the day (summer)
+                        {
+                            "RandomItemId": [
+                                "(O)128",
+                                "(O)130",
+                                "(O)698",
+                                "(O)150",
+                                "(O)skellady.SBVCP_EmeraldSnapper",
+                                "(O)skellady.SBVCP_EeltailedCatfish",
+                                "(O)skellady.SBVCP_ChartreuseTilapia",
+                            ],
+                            "Season": "Summer",
+                            "MaxItems": 1,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.EliasCatch}}"
+                            }
+                        },
+                        // Elias' catch of the day (fall)
+                        {
+                            "RandomItemId": [
+                                "(O)139",
+                                "(O)705",
+                                "(O)140",
+                                "(O)skellady.SBVCP_FiretailGuppy",
+                                "(O)skellady.SBVCP_AzureanCarp",
+                            ],
+                            "Season": "Fall",
+                            "MaxItems": 1,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.EliasCatch}}"
+                            }
+                        },
+                        // Tea sapling
+                        {
+                            "ItemId": "(O)251",
+                            "MinStack": 5
+                        },
+                        // Caviar
+                        {
+                            "ItemId": "(O)445",
+                            "MaxItems": 1
+                        },
+                        // Qi seasoning
+                        {
+                            "ItemId": "(O)917",
+                            "MaxItems": 1
                         }
                     ] 
                 } 
+            } 
+        },
+        {
+            "LogName": "Ari's Market Daily Special - S&S",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBVSMAPI/MarketDailySpecialData",
+            "Entries": {
+                "{{ModId}}_SwordSorceryItems": {
+                    "Items": [
+                        {
+                            "ItemId": "(O)swordandsorcery.portfiredrakesparkler",
+                            "MaxItems": 1
+                        },
+                        {
+                            "ItemId": "(O)swordandsorcery.zuzustylepizza",
+                            "MaxItems": 1
+                        },
+                        {
+                            "ItemId": "(O)swordandsorcery.zuzustylecheesecake",
+                            "MaxItems": 1
+                        },
+                        {
+                            "ItemId": "(O)swordandsorcery.zuzustyleclamchowder",
+                            "MaxItems": 1
+                        } 
+                    ] 
+                }
+            },
+            "When": {
+                "HasMod": "DN.SnS"
             } 
         }
     ]

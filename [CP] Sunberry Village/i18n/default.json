@@ -1157,7 +1157,7 @@
     "event-20031429.04": "Can you grab a muffin for Amina?",
     "event-20031429.05": "Mhm, here you go, angel.",
     "event-20031429.06": "You know, muffins are my dad's favorite!$3",
-    "event-20031429.07": "I miss my dad. I wish I can see him more often.$s",
+    "event-20031429.07": "I miss my dad. I wish I could see him more often.$s",
     "event-20031429.08": "Do you see your dad often, Diala?$3",
     "event-20031429.09": "Not... really.$9",
     "event-20031429.10": "I try to visit every now and then. It's just a little complicated, darling.$s",
@@ -5116,6 +5116,8 @@
     // Custom Features
 
     // Market specials - override display names
-    "MarketSpecial.12PackJojaCola": "12-pack of Joja Cola" 
+    "MarketSpecial.12PackJojaCola": "12-pack of Joja Cola",
+    "MarketSpecial.EliasCatch": "Elias' catch of the day",
+    "MarketSpecial.10PackSeeds": "packet of 10 seeds", 
 
 }
