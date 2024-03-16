@@ -77,6 +77,9 @@
 				"moonchoice_2": "{{i18n:event-20031415.20}}",
 				
 				//Gift Dialogue
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Moon}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Moon}}",
 				//Love
 				"AcceptGift_category_gem": "{{i18n:Gift.Gems.Moon}}",
 				"AcceptGift_(O)88": "{{i18n:Gift.Coconut.Moon}}",
@@ -88,6 +91,7 @@
 				"AcceptGift_(O)768": "{{i18n:Gift.SolarEssence.Moon}}",
 				"AcceptGift_(O)400": "{{i18n:Gift.Strawberry.Moon}}",
 				"AcceptGift_(O)769": "{{i18n:Gift.VoidEssence.Moon}}",
+				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Moon}}",
 				//Like
 				"AcceptGift_(O)220": "{{i18n:Gift.ChocolateCake.Moon}}",
 				"AcceptGift_(O)270": "{{i18n:Gift.Corn.Moon}}",

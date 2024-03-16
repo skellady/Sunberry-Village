@@ -229,6 +229,10 @@
 
     //A   I   C   H   A
 
+    //Positive/Negative
+    "Gift.Positive.Aicha": "Aw, for my birthday? That's so sweet of you. I'm now...$u#$b#%Aicha's age reveal is cut off by the sound of a train passing by.#$b#...years old! Can you believe it?$h",
+    "Gift.Negative.Aicha": "Oh? For my birthday? What is this? ...Ewwww.$s",
+
     //Birthday
     "Birthday.Apple.Aicha": "OH! You got me an apple on my birthday. That's so sweet of you. I'm going to go dip it in the peanut butter Rei stole from Derya the other day!$u",
     "Birthday.Cherry.Aicha": "Aw, a cherry for my birthday! How'd you know I was craving it?$u#$b#%Aicha swallows the cherry whole, including the pit.",
@@ -248,6 +252,7 @@
     "Gift.StarShards.Aicha": "Is this an actual star shard? Wow, you're so cool! How'd you manage to convince the stars to let you take one?$6#$b#Last time I tried, they got really mad. I was so embarrassed, I went back home and crawled under my blanket.$s#$b#Thank you, though!$h",
     "Gift.FrozenTear.Aicha": "OH! A frozen tear! It's for me? Aw, thank you!$u#$b#I'll go put it in Diala and Derya's freezer so it doesn't melt. Ours isn't working very well.$h",
     "Gift.Stone.Aicha": "A stone! It's so nice of you, @! I'm going to carve it into something nice and decorate the house with it.$u",
+    "Gift.StardropTea.Aicha": "Mmmm... this tastes like home! Same temperature, too!$6",
 
     //Like
     "Gift.Coconut.Aicha": "Ooh, where'd you get this from? It's so cool!$6#$b#Once, I saw Moon eat the whole thing in one bite. I wonder if I can do that too.$6",
@@ -271,12 +276,26 @@
 
     //A   M   I   N   A
 
+    //Positive/Negative
+    "Gift.Positive.Amina": "Is that for my birthday? Wow, that's SO cool. Thank you so much!!$3",
+    "Gift.Negative.Amina": "Oh? Is that for my birthday?$3#$b#Oh... this is not nice.$s",
+
+    //Love
+    "Gift.StardropTea.Amina": "Oh, wow! Are you sure I can have this?$3#$b#%Amina takes a sip. Her eyes widen at the taste.#$b#This tastes just like the cotton candy my dad gets me!$h",
+
     //JA Items
 
     //Rodney Autograph
     "Autographed.Photo.Amina": "Huh? Wait, I know him! I see him in the library sometimes.$h#$b#Why are you giving me a photo of him, though?$3",
 
     //A   R   I
+
+    //Positive/Negative
+    "Gift.Positive.Ari": "Aw, you remembered my birthday? That's really... nice of you. I'm the middle child, so I was almost always forgotten.$13#$b#Uh, anyways. Thank you, this is really sweet.$u",
+    "Gift.Negative.Ari": "Aw, you remembered my birthday? That's really... nice of yo-$h#$b#Wait. What is that? Seriously, @?$8",
+
+    //Love
+    "Gift.StardropTea.Ari": "Oh! Mmmm... this is absolutely delicious, wow. Thank you!$u",
 
     //JA Items
 
@@ -285,12 +304,23 @@
 
     //B   L   A   K   E
 
+    //Positive/Negative
+    "Gift.Positive.Blake": "Oh, hey! You got me a birthday present. This is amazing, thank you! I can't wait to show Lyenne.$u",
+    "Gift.Negative.Blake": "Oh, hey! You got me a birthday present.$h#$b#%Blake looks at your gift and grimaces before shooting you an awkward smile.",
+
+    //Love
+    "Gift.StardropTea.Blake": "Huh? Is this for me? Thank you! This would be perfect for a rainy day in, wouldn't it?$u",
+
     //JA Items
 
     //Rodney Autograph
     "Autographed.Photo.Blake": "Oh, hey! It's Mr. Rodney! Hah, I see these photos everywhere I go.$u#$b#Thanks, I'm collecting them to cover Lyenne's room with them.$10",
 
     //D   I   A   L   A
+
+    //Positive/Negative
+    "Gift.Positive.Diala": "Aw, @! You really didn't have to. Thank you, this made my day infinitely better!$u",
+    "Gift.Negative.Diala": "Aw, @! You really didn't have to.$h#$b#Oh... that's my gift? You *really* didn't have to.$9",
 
     //Birthday
     "Birthday.Gems.Diala": "Aw, @! This is honestly one of my favorite things to get as a gift.$h#$b#Thank you for feeding my addiction by giving me more of them.$u",
@@ -331,6 +361,7 @@
     "Gift.StarShards.Diala": "OH! These are gorgeous. I can't wait to put them on my altar, thanks!$u",
     "Gift.Strawberry.Diala": "Strawberries are one of my favorite fruits.$u#$b#Derya and I always fight over the last piece.$u",
     "Gift.Sunflower.Diala": "@...$4#$b#These are my favorite flowers, thank you. I appreciate it.$u",
+    "Gift.StardropTea.Diala": "Oh, wow! This taste... I can't put my finger on it, but it tastes nostalgic in a way. Thank you for sharing this with me.$u",
 
     //Like
     "Gift.Cauliflower.Diala": "Oh! I was just thinking about making some fried cauliflower. Thank you, @!$u",
@@ -416,6 +447,10 @@
 
     //D   E   R   Y   A
 
+    //Positive/Negative
+    "Gift.Positive.Derya": "Damn, @! You went all out for my birthday, huh? Thanks, this means a lot to me.$h",
+    "Gift.Negative.Derya": "Ooh? A birthday gift?#$b#...@. What is wrong with you?$12",
+
     //Birthday
     "Birthday.ChocolateCake.Derya": "@, I would give you the biggest hug if I wasn't holding this beautiful, beautiful cake in my hands.$9#$b#Thank you, I love it!$u",
     "Birthday.Coffee.Derya": "Feeding my caffeine addiction on my birthday will definitely get you on my good side.$9#$b#Thanks, farmer!$u",
@@ -447,6 +482,7 @@
     "Gift.Sashimi.Derya": "Mhmm, this is so damn good. Thank you!$u",
     "Gift.Strawberry.Derya": "Ooh, give me!$u#$b#I love strawberries. Thanks, @!$h",
     "Gift.TripleShotEspresso.Derya": "You're an angel, you know that?$u#$b#I haven't had any coffee yet. Thanks!$h",
+    "Gift.StardropTea.Derya": "OH! This looks magical. Did you make it yourself? It's delicious. Reminds me of a mocktail I had once in college. Best I ever had.$u",
 
     //Like
     "Gift.Cauliflower.Derya": "Oh! I was just thinking about grabbing some cauliflower. Thanks, farmer!$u",
@@ -528,12 +564,26 @@
 
     //E   L   I   A   S
 
+    //Positive/Negative
+    "Gift.Positive.Elias": "Hm? You got me a birthday present?$8#$b#Huh, wasn't expectin' this. Thank you, farmer, this is great.$h",
+    "Gift.Negative.Elias": "Hm? You got me a birthday present?$8#$b#Huh... you went out of your way to give me... this?$s",
+
+    //Love
+    "Gift.StardropTea.Elias": "Huh... So, Willy wasn't makin' up that mermaid legend thing, huh? This is delightful. That's the only time you'll be hearin' me use that word.$u",
+
     //JA Items
 
     //Rodney Autograph
     "Autographed.Photo.Elias": "Darn it. Come on, @. I already fish up so many of these when I go to the beach.$s",
 
     //E   Z   R   A
+
+    //Positive/Negative
+    "Gift.Positive.Ezra": "Ooh, a gift? Can I open it?$h#$b#Ah, @! You know me too well, this is wonderful. Thank you!$u",
+    "Gift.Negative.Ezra": "Ooh, a gift? Can I open it?$h#$b#Ah... I don't know why you thought I'd like this, @.$s",
+
+    //Love
+    "Gift.StardropTea.Ezra": "I'm not usually a tea person, but WOW! This... this tastes like the smoothies my father used to make us when we were kids. Thank you, @.$h",
 
     //JA Items
 
@@ -542,12 +592,26 @@
 
     //I   M   A   N
 
+    //Positive/Negative
+    "Gift.Positive.Iman": "Aw, @. I wasn't expecting you to remember my birthday, let alone get me something. This is really nice, thank you.$h",
+    "Gift.Negative.Iman": "Aw, @. I wasn't expecting you to remember my birthday, let alone get me somet-$h#$b#Oh. This is... I kinda wish you hadn't remembered my birthday.$13",
+
+    //Love
+    "Gift.StardropTea.Iman": "%Iman sniffs the tea before taking a small sip.#$b#Oh, wow. I wasn't expecting it to taste like this, but... I'm not disappointed at all.$h",
+
     //JA Items
 
     //Rodney Autograph
     "Autographed.Photo.Iman": "Oh, it's that writer guy from East Scarp, yeah? Sorry, @. I haven't read any of his books before. He did win like, three awards, didn't he?$10",
 
     //J   U   M   A   N   A
+
+    //Positive/Negative
+    "Gift.Positive.Jumana": "Aw, sweetheart! You made this old lady very happy. Thank you, I will cherish this.$7",
+    "Gift.Negative.Jumana": "Aw, sweetheart! You... got me a gift? Oh... this is nice, I guess. Thank you.$3",
+
+    //Love
+    "Gift.StardropTea.Jumana": "Hm? Stardrop tea? This... tastes like the pie my husband used to make. Thank you for letting me relive that one more time, dear.$4",
 
     //JA Items
 
@@ -556,12 +620,26 @@
 
     //L   Y   E   N   N   E
 
+    //Positive/Negative
+    "Gift.Positive.Lyenne": "Hey, you remembered! Thanks, farmer. This is really thoughtful.$u#$b#A year older... Time is such a weird concept.$7",
+    "Gift.Negative.Lyenne": "Hey, you remembered! Thanks for... this gift? I'm... yeah. Thanks.$7",
+
+    //Love
+    "Gift.StardropTea.Lyenne": "Oh... for me? Mmmm... this is so delicious. I don't think I've tasted anything like it before.$h",
+
     //JA Items
 
     //Rodney Autograph
     "Autographed.Photo.Lyenne": "Alright, I've had it with this guy. The other day, I found one of these under my laptop! Can you believe it?$10",
 
     //M   A   I   A
+
+    //Positive/Negative
+    "Gift.Positive.Maia": "Aw, you didn't have to get me anything for my birthday. I really appreciate it, though. Apparently, Amina has been saving a bit of her allowance to get me something. Such a sweet kid.$h#$b#Thank you, farmer. I appreciate it.",
+    "Gift.Negative.Maia": "Aw, you didn't have to get me anything for my birthday. Especially not whatever... that is.$7",
+
+    //Love
+    "Gift.StardropTea.Maia": "Oh, I can't possibly accept that. Are you sure? I'll take small sips to make it last longer. Thank you, @.$h",
 
     //JA Items
 
@@ -570,12 +648,22 @@
 
     //M   I   Y   O   U   N   G
 
+    //Positive/Negative
+    "Gift.Positive.Miyoung": "Ah, my dear! You went out of your way to get me a present? Thank you so much! This is almost as wonderful as you are.$u",
+    "Gift.Negative.Miyoung": "Ah, my dear! You went out of your way to get me a present?#$b#Oh? This is... nice. Thanks, darling.$9",
+
+    "Gift.StardropTea.Miyoung": "Oh, my! This... reminds me of my first date with Silas. He took me out to the most extravagant restaurant in town, even though we could barely afford it at the time! Ah, I should share this with him.$u",
+
     //JA Items
 
     //Rodney Autograph
     "Autographed.Photo.Miyoung": "Oh! Is that an autographed photo of Rodney O'Brien? Silas would love it! He's a big fan. He's so cute when he starts rambling about his books.$7",
 
     //M   O   O   N
+
+    //Positive/Negative
+    "Gift.Positive.Moon": "*gasp* A birthday gift for Moon! Wow, @ is spoiling Moon!$3#$b#Thank you, thank you, thank you!$h",
+    "Gift.Negative.Moon": "*gasp* A birthday gift for Moon!$3#$b#Oh... this is not what Moon was expecting.$s",
 
     //Birthday
     "Birthday.Gems.Moon": "Is this for Moon's birthday?$u#$b#Wow, thank you, @!$4",
@@ -596,6 +684,7 @@
     "Gift.SolarEssence.Moon": "Woah, pretty!$u#$b#Moon loves pretty things.$h",
     "Gift.Strawberry.Moon": "OH! Moon looooves strawberries. Thank you, friend.$h",
     "Gift.VoidEssence.Moon": "Woah, pretty and spooky!$u#$b#Moon loves pretty and spooky things.$h",
+    "Gift.StardropTea.Moon": "Whoa!! For Moon?$3#$b#%Moon drinks the entire cup.#$b#Wow, that was delicious. Does @ have more?$h",
 
     //Like
     "Gift.ChocolateCake.Moon": "Choco! Choco! Choco Cake!$u#$b#Thank you, @!",
@@ -675,14 +764,46 @@
     //Rodney Autograph
     "Autographed.Photo.Moon": "Boo! Moon is not a fool. Moon knows it's not a real autographed photo.$a#$b#%Moon continues to boo you. She eventually throws a tomato at you. You're not sure where she got that from.",
 
+    //N  A  D  I  A
+
+    //Positive/Negative
+    "Gift.Positive.Nadia": "Oh? A birthday present... for me? That's so sweet, wow. I usually only get gifts from Iman and Ezra. Thank you, @.$4",
+    "Gift.Negative.Nadia": "Oh? A birthday present... for me?#$b#Oh, wow... this is worse than the time Iman got me a perfume I was allergic to. In her defense, she didn't know.$h",
+
+    //Love
+    "Gift.StardropTea.Nadia": "OH! Are you sure? This... looks mesmerizing.$h#$b#What's in this stuff? It... reminds me of my childhood here. Thanks for sharing, @.$4",
+
     //O   P   H   E   L   I   A
+
+    //Positive/Negative
+    "Gift.Positive.Ophelia": "Hm? Is this for me? I appreciate you thinking of me. This is incredibly thoughtful, thank you.$h",
+    "Gift.Negative.Ophelia": "Hm? Is this for me? I appreciate you thinking of me, but no.$10",
+
+    //Love
+    "Gift.StardropTea.Ophelia": "Mmm... @... this tastes exactly like the very first potion I ever made myself, back when I was just starting as an adventurer. I remember feeling so... alive. Thank you.$h",
 
     //JA Items
 
     //Rodney Autograph
     "Autographed.Photo.Ophelia": "You shouldn't go around fooling people with this, @. It's obviously not genuine. Some people might react poorly.$s",
 
+    //P  A  N
+
+    //Positive/Negative
+    "Gift.Positive.Pan": "Arf!$u#$b#%Pan wags her tail. She seems to really like her present!",
+    "Gift.Negative.Pan": "Grr...$5#$b#%Oh no... Pan didn't seem to like that gift.",
+
+    //Love
+    "Gift.StardropTea.Pan": "Arf?$4#$b#%Pan drinks from the cup hesitantly before wagging her tail and drinking some more. She seems to really like it!",
+
     //R   E   I   H   A   N   A
+
+    //Positive/Negative
+    "Gift.Positive.Reihana": "Oh? I'm pleasantly surprised that you not only remembered my birthday, but also got me something decent! Good job.$h",
+    "Gift.Negative.Reihana": "Oh? Why am I not surprised that you're awful at gift-giving?$6",
+
+    //Love
+    "Gift.StardropTea.Reihana": "Oh, wow. We don't have anything like this back home. I think this tea just made me like being here.$8#$b#Just for a moment. The moment the cup's empty, I'm going back to normal.$h",
 
     //JA Items
 
@@ -690,6 +811,13 @@
     "Autographed.Photo.Reihana": "Hah, bold of you to assume I care about this man or his books. Give it to Aicha, she wouldn't be able to tell the difference between a fake and a genuine autograph.$8",
 
     //S   I   L   A   S
+
+    //Positive/Negative
+    "Gift.Positive.Silas": "Is this...? Oh, @! That's such a great present. Thank you for making this old man's day.$u",
+    "Gift.Negative.Silas": "Is this...? Oh... this is... something.$8",
+
+    //Love
+    "Gift.StardropTea.Silas": "Mmm...! @... this is wonderful! It... tastes like love.$4",
 
     //JA Items
 
@@ -2717,7 +2845,7 @@
 
     //2 hearts
     "Diala.Dialogue.Mon2": "Derya woke up grumpy today. I said good morning when she walked in and I heard a bunch of grumbling as she passed by.$u",
-    "Diala.Dialogue.Tue2": "I could really go for some pasta right now.$s#$b#Maybe I can get Derya to make me some.$h",
+    "Diala.Dialogue.Tue2": "$query {{HasMod |contains=Lumisteria.MtVapius}}#Célestine and Adélaïde are so cute. Derya and I visited Mount Vapius on our day off and saw them holding hands on a bench nearby. I can't wait to grow old with someone like that.$4|I could really go for some pasta right now.$s#$b#Maybe I can get Derya to make me some.$h",
     "Diala.Dialogue.Wed2": "Did you know you can use your birth chart to find what career is best for you?$h#$b#I helped Derya figure it out and she was shocked!$u",
     "Diala.Dialogue.Thu2": "I just got a shipment I ordered a month ago.#$b#It was the premium cat treats that I spent way too much money on.$u#$b#Still worth it.$h",
     "Diala.Dialogue.Fri2": "One of our cats, Zoro, almost stole a chocolate muffin this morning.$9#$b#Derya started guarding the baked goods after that incident.$h",

@@ -75,6 +75,9 @@
 				"MovieInvitation": "{{i18n:Diala.Dialogue.MovieInvitation}}",
 
 				//Gift Dialogue
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Diala}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Diala}}",
 				//Love
 				"AcceptGift_category_gem": "{{i18n:Gift.Gems.Diala}}",
 				"AcceptGift_(O)881": "{{i18n:Gift.BoneFragment.Diala}}",
@@ -99,6 +102,7 @@
 				"AcceptGift_(O)578": "{{i18n:Gift.StarShards.Diala}}",
 				"AcceptGift_(O)400": "{{i18n:Gift.Strawberry.Diala}}",
 				"AcceptGift_(O)421": "{{i18n:Gift.Sunflower.Diala}}",
+				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Diala}}",
 				//Like
 				"AcceptGift_(O)190": "{{i18n:Gift.Cauliflower.Diala}}",
 				"AcceptGift_(O)220": "{{i18n:Gift.ChocolateCake.Diala}}",

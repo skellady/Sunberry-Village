@@ -71,6 +71,13 @@
 				"Fri10": "{{i18n:Lyenne.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Lyenne.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Lyenne.Dialogue.Sun10}}",
+
+				//Gift Dialogue
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Lyenne}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Lyenne}}",
+				//Love
+				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Lyenne}}",
 			},
 		},
 	]

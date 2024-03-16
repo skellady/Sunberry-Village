@@ -71,6 +71,13 @@
 				"Fri10": "{{i18n:Blake.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Blake.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Blake.Dialogue.Sun10}}",
+
+				//Gift Dialogue
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Blake}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Blake}}",
+				//Love
+				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Blake}}",
 			},
 		},
 	]

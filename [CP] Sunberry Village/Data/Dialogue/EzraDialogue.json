@@ -71,6 +71,13 @@
 				"Fri10": "{{i18n:Ezra.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Ezra.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Ezra.Dialogue.Sun10}}",
+
+				//Gift Dialogue
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Ezra}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Ezra}}",
+				//Love
+				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Ezra}}",
 			},
 		},
 	]

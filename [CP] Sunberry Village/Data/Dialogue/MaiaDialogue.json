@@ -72,6 +72,13 @@
 				"Fri10": "{{i18n:Maia.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Maia.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Maia.Dialogue.Sun10}}",
+
+				//Gift Dialogue
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Maia}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Maia}}",
+				//Love
+				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Maia}}",
 			},
 		},
 	]

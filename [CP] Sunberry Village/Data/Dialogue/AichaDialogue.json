@@ -73,6 +73,9 @@
 				"Sun10": "{{i18n:Aicha.Dialogue.Sun10}}",
 				
 				//Gift Dialogue
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Aicha}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Aicha}}",
 				//Love
 				"AcceptGift_(O)613": "{{i18n:Gift.Apple.Aicha}}",
 				"AcceptGift_(O)638": "{{i18n:Gift.Cherry.Aicha}}",
@@ -81,6 +84,7 @@
 				"AcceptGift_(O)578": "{{i18n:Gift.StarShards.Aicha}}",
 				"AcceptGift_(O)84": "{{i18n:Gift.FrozenTear.Aicha}}",
 				"AcceptGift_(O)390": "{{i18n:Gift.Stone.Aicha}}",
+				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Aicha}}",
 				//Like
 				"AcceptGift_(O)88": "{{i18n:Gift.Coconut.Aicha}}",
 				"AcceptGift_(O)126": "{{i18n:Gift.StrangeDoll.Aicha}}",

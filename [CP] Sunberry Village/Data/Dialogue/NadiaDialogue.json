@@ -72,6 +72,13 @@
 				"Fri10": "{{i18n:Nadia.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Nadia.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Nadia.Dialogue.Sun10}}",
+
+				//Gift Dialogue
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Nadia}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Nadia}}",
+				//Love
+				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Nadia}}",
 			},
 		},
 	]

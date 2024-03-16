@@ -71,6 +71,13 @@
 				"Fri10": "{{i18n:Reihana.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Reihana.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Reihana.Dialogue.Sun10}}",
+
+				//Gift Dialogue
+				//Positive/Negative
+				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Reihana}}",
+				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Reihana}}",
+				//Love
+				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Reihana}}",
 			},
 		},
 	]
