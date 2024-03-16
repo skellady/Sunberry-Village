@@ -645,6 +645,28 @@
         "Season": "summer",
         "Day": "28"
       }
+    },
+    // RSV Gathering - Nonbinary Stall
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_Ridgeside_RSVGathering",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/{{Random: SBV_RSVGathering1, SBV_RSVGathering2}}.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 10,
+        "Height": 8
+      },
+      "ToArea": {
+        "X": 125,
+        "Y": 49,
+        "Width": 10,
+        "Height": 8
+      },
+      "When": {
+        "HasMod": "Rafseazz.RSVCP"
+      }
     }
   ]
 }
