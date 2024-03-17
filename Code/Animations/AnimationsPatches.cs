@@ -32,44 +32,45 @@ internal class AnimationsPatches
 	{
 		try
 		{
-			if (behaviorName.Length > 0 && behaviorName[0] == '"')
-				return;
-
-			if (!AnimationsManager.AnimationData.TryGetValue(behaviorName, out AnimationDataModel animation))
+			if (behaviorName.Length > 0 && behaviorName[0] == '"' || !AnimationsManager.AnimationData.TryGetValue(behaviorName, out AnimationDataModel animation))
 				return;
 
 			if (animation.Size != Vector2.Zero)
 			{
-				__instance.extendSourceRect((int)animation.Size.X - 16, (int)animation.Size.Y - 32);
-				__instance.Sprite.SpriteWidth = (int)animation.Size.X;
-				__instance.Sprite.SpriteHeight = (int)animation.Size.Y;
+				int width = (int)animation.Size.X;
+				int height = (int)animation.Size.Y;
+
+				__instance.extendSourceRect(width - 16, height - 32);
+				__instance.Sprite.SpriteWidth = width;
+				__instance.Sprite.SpriteHeight = height;
 			}
 
-			if(animation.ExtraAnimations != null)
+			if (animation.ExtraAnimations != null)
 			{
-				foreach (var extraAnimation in animation.ExtraAnimations)
+				foreach (ExtraAnimation extraAnimation in animation.ExtraAnimations)
 				{
-					Multiplayer multiplayer = Globals.Helper.Reflection.GetField<Multiplayer>(typeof(Game1), "multiplayer").GetValue();
-					multiplayer.broadcastSprites(Utility.getGameLocationOfCharacter(__instance),
-						new TemporaryAnimatedSprite(extraAnimation.TextureName,
-						new Microsoft.Xna.Framework.Rectangle(0, 0, (int)extraAnimation.Size.X, (int)extraAnimation.Size.Y),
-						extraAnimation.AnimationInterval,
-						extraAnimation.Frames,
-						999999,
-						__instance.Position + extraAnimation.Offset,
+					TemporaryAnimatedSprite extraAnim = new(
+						textureName: extraAnimation.TextureName,
+						sourceRect: new Rectangle(0, 0, (int)extraAnimation.Size.X, (int)extraAnimation.Size.Y),
+						animationInterval: extraAnimation.AnimationInterval,
+						animationLength: extraAnimation.Frames,
+						numberOfLoops: 999999,
+						position: __instance.Position + extraAnimation.Offset,
 						flicker: false,
 						flipped: false,
-						0.0002f,
-						0f,
-						Color.White,
-						4f,
-						0f,
-						0f,
-						0f)
-						{
-							id = extraAnimation.Name.GetHashCode()
-						});
-                }
+						layerDepth: 0.0002f,
+						alphaFade: 0f,
+						color: Color.White,
+						scale: 4f,
+						scaleChange: 0f,
+						rotation: 0f,
+						rotationChange: 0f)
+					{
+						id = extraAnimation.Name.GetHashCode()
+					};
+
+					Game1.Multiplayer.broadcastSprites(Utility.getGameLocationOfCharacter(__instance), extraAnim);
+				}
 			}
 
 			__instance.drawOffset = animation.Offset;
@@ -94,21 +95,8 @@ internal class AnimationsPatches
 	{
 		try
 		{
-			if (behaviorName.Length > 0 && behaviorName[0] == '"')
+			if (behaviorName.Length > 0 && behaviorName[0] == '"' || !AnimationsManager.AnimationData.TryGetValue(behaviorName, out AnimationDataModel animationDataModel))
 				return true;
-
-			if (AnimationsManager.AnimationData.TryGetValue(behaviorName, out AnimationDataModel animationDataModel))
-            {
-				if(animationDataModel.ExtraAnimations != null)
-				{
-					foreach(var extraAnimation in animationDataModel.ExtraAnimations) { 
-                        Utility.getGameLocationOfCharacter(__instance).removeTemporarySpritesWithID(extraAnimation.Name.GetHashCode());
-                    }
-				}
-            } else
-            {
-                return true;
-            }
 
 			__instance.reloadSprite();
 			__instance.Sprite.SpriteWidth = 16;
@@ -118,11 +106,20 @@ internal class AnimationsPatches
 			__instance.Halt();
 			__instance.movementPause = 1;
 			__instance.HideShadow = false;
+
+			if (animationDataModel.ExtraAnimations == null)
+				return true;
+
+			foreach (ExtraAnimation extraAnimation in animationDataModel.ExtraAnimations)
+			{
+				Utility.getGameLocationOfCharacter(__instance).removeTemporarySpritesWithID(extraAnimation.Name.GetHashCode());
+			}
+
 			return true;
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch \"{nameof(AnimationsPatches)}::{nameof(finishRouteBehavior_Prefix)}\" has encountered an error for {__instance.Name} with {behaviorName}: \n{e}");
+			Log.Error($"Harmony patch \"{nameof(AnimationsPatches)}::{nameof(finishRouteBehavior_Prefix)}\" has encountered an error for \"{__instance.Name}\" with behavior \"{behaviorName}\": \n{e}");
 			return true;
 		}
 	}

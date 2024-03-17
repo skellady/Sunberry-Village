@@ -32,12 +32,11 @@ internal class EmojiPatches
     [HarmonyPrefix]
     public static bool getSourceRectForCharPostfix(char c, ref bool junimoText, ref Rectangle __result)
     {
-        if (EmojiManager.EmojiIndices.TryGetValue(c, out Rectangle rect))
-        {
-            __result = rect;
-            return false;
-        }
-        return true;
+	    if (!EmojiManager.EmojiIndices.TryGetValue(c, out Rectangle rect))
+		    return true;
+
+	    __result = rect;
+        return false;
     }
 
 }

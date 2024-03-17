@@ -3,7 +3,6 @@ using StardewValley;
 using StardewValley.Quests;
 using SunberryVillage.Utilities;
 using System;
-using System.Text.RegularExpressions;
 
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global

@@ -140,9 +140,9 @@ namespace SunberryVillage.Lighting
 				e.LoadFrom(() => new Dictionary<string, LightDataModel>
 				{
 					["sophie.SBVSaturdayHangoutLight"] = new LightDataModel(
-						Location: "Custom_SBV_SunberryVillage",
-						Position: new Vector2(59f, 85.5f),
-						Intensity: 4.8f)
+						location: "Custom_SBV_SunberryVillage",
+						position: new Vector2(59f, 85.5f),
+						intensity: 4.8f)
 				}, AssetLoadPriority.Low);
 		}
 
@@ -174,14 +174,14 @@ internal class LightDataModel
 	internal GameLocation GameLocation;
 	internal LightSource LightSource;
 
-	public LightDataModel(string Location, Vector2 Position, float Intensity)
+	public LightDataModel(string location, Vector2 position, float intensity)
 	{
-		this.Location = Location;
-		this.Position = Position;
-		this.Intensity = Intensity;
+		this.Location = location;
+		this.Position = position;
+		this.Intensity = intensity;
 
-		GameLocation = Game1.getLocationFromName(Location);
-		LightSource = new(4, Position * 64f, Intensity);
+		GameLocation = Game1.getLocationFromName(location);
+		LightSource = new LightSource(4, position * 64f, intensity);
 	}
 
 	public override string ToString()

@@ -25,7 +25,7 @@ internal class ObjectPatches
 	 */
 
 	/// <summary>
-	/// Patches <c>GameLocation.answerDialogueAction</c> to check for response to ChooseDestination question and handle it accordingly.
+	/// Patches <c>Object.performUseAction</c> to handle Sunberry totem logic.
 	/// </summary>
 	[HarmonyPatch(typeof(SObject), nameof(SObject.performUseAction))]
 	[HarmonyPrefix]
@@ -33,82 +33,72 @@ internal class ObjectPatches
 	{
 		// basically just do exactly what vanilla does for warp totems
 
-		// early out 1 if player is immobile or object shouldn't be interacted with
-		if (!Game1.player.canMove || __instance.isTemporarilyInvisible)
-		{
+		// skip if item is not the sunberry warp totem or shouldn't be interacted with, or if not in normal gameplay (copied from vanilla code)
+		if (!__instance.QualifiedItemId.Equals("(O)skellady.SBVCP_WarpTotemSunberry") || !Game1.player.CanMove ||
+		    __instance.isTemporarilyInvisible || !Game1.eventUp || !Game1.isFestival() || !Game1.fadeToBlack ||
+		    !Game1.player.swimming.Value || !Game1.player.bathingClothes.Value || !Game1.player.onBridge.Value)
 			return true;
-		}
-
-		// early out 2 if not in normal gameplay (copied from vanilla code) or the item is no the sunberry warp totem
-		bool normal_gameplay = !Game1.eventUp && !Game1.isFestival() && !Game1.fadeToBlack && !Game1.player.swimming.Value && !Game1.player.bathingClothes.Value && !Game1.player.onBridge.Value;
-		if (!normal_gameplay || !__instance.QualifiedItemId.Equals("(O)skellady.SBVCP_WarpTotemSunberry"))
-		{
-			return true;
-		}
 
 		Game1.player.jitterStrength = 1f;
-		Color sprinkleColor = new(101, 27, 104);    // special purple sprinkles >:3
-		location.playSound("warrior");
 		Game1.player.faceDirection(2);
 		Game1.player.CanMove = false;
 		Game1.player.temporarilyInvincible = true;
 		Game1.player.temporaryInvincibilityTimer = -4000;
+		
+		location.playSound("warrior");
 		Game1.changeMusicTrack("silence");
-		Game1.player.FarmerSprite.animateOnce(new FarmerSprite.AnimationFrame[2]
+
+		Game1.player.FarmerSprite.animateOnce(new FarmerSprite.AnimationFrame[]
 			{
-					new FarmerSprite.AnimationFrame(57, 2000, secondaryArm: false, flip: false),
-					new FarmerSprite.AnimationFrame((short)Game1.player.FarmerSprite.CurrentFrame, 0, secondaryArm: false, flip: false, totemWarp, behaviorAtEndOfFrame: true)
+				new(57, 2000, secondaryArm: false, flip: false),
+				new((short)Game1.player.FarmerSprite.CurrentFrame, 0, secondaryArm: false, flip: false, totemWarp, behaviorAtEndOfFrame: true)
 			});
-		TemporaryAnimatedSprite sprite = new(0, 9999f, 1, 999, Game1.player.Position + new Vector2(0f, -96f), flicker: false, flipped: false, verticalFlipped: false, 0f)
+
+		Vector2 spritePos1 = Game1.player.Position + new Vector2(0f, -96f);
+		Vector2 spritePos2 = spritePos1 + new Vector2(-64f, 0f);
+
+		TemporaryAnimatedSprite sprite1 = new(
+			initialParentTileIndex: 0,
+			animationInterval: 9999f,
+			animationLength: 1,
+			numberOfLoops: 999,
+			position: spritePos1,
+			flicker: false,
+			flipped: false,
+			verticalFlipped: false,
+			rotation: 0f)
 		{
 			motion = new Vector2(0f, -1f),
 			scaleChange = 0.01f,
 			alpha = 1f,
 			alphaFade = 0.0075f,
 			shakeIntensity = 1f,
-			initialPosition = Game1.player.Position + new Vector2(0f, -96f),
+			initialPosition = spritePos1,
 			xPeriodic = true,
 			xPeriodicLoopTime = 1000f,
 			xPeriodicRange = 4f,
 			layerDepth = 1f
 		};
-		sprite.CopyAppearanceFromItemId(__instance.QualifiedItemId);
-		Game1.Multiplayer.broadcastSprites(location, sprite);
-		sprite = new(0, 9999f, 1, 999, Game1.player.Position + new Vector2(-64f, -96f), flicker: false, flipped: false, verticalFlipped: false, 0f)
-		{
-			motion = new Vector2(0f, -0.5f),
-			scaleChange = 0.005f,
-			scale = 0.5f,
-			alpha = 1f,
-			alphaFade = 0.0075f,
-			shakeIntensity = 1f,
-			delayBeforeAnimationStart = 10,
-			initialPosition = Game1.player.Position + new Vector2(-64f, -96f),
-			xPeriodic = true,
-			xPeriodicLoopTime = 1000f,
-			xPeriodicRange = 4f,
-			layerDepth = 0.9999f
-		};
-		sprite.CopyAppearanceFromItemId(__instance.QualifiedItemId);
-		Game1.Multiplayer.broadcastSprites(location, sprite);
-		sprite = new(0, 9999f, 1, 999, Game1.player.Position + new Vector2(64f, -96f), flicker: false, flipped: false, verticalFlipped: false, 0f)
-		{
-			motion = new Vector2(0f, -0.5f),
-			scaleChange = 0.005f,
-			scale = 0.5f,
-			alpha = 1f,
-			alphaFade = 0.0075f,
-			delayBeforeAnimationStart = 20,
-			shakeIntensity = 1f,
-			initialPosition = Game1.player.Position + new Vector2(64f, -96f),
-			xPeriodic = true,
-			xPeriodicLoopTime = 1000f,
-			xPeriodicRange = 4f,
-			layerDepth = 0.9988f
-		};
-		sprite.CopyAppearanceFromItemId(__instance.QualifiedItemId);
-		Game1.Multiplayer.broadcastSprites(location, sprite);
+		sprite1.CopyAppearanceFromItemId(__instance.QualifiedItemId);
+
+		TemporaryAnimatedSprite sprite2 = sprite1.getClone();
+		sprite2.motion = new Vector2(0f, -0.5f);
+		sprite2.scaleChange = 0.005f;
+		sprite2.scale = 0.5f;
+		sprite2.delayBeforeAnimationStart = 10;
+		sprite2.position = spritePos2;
+		sprite2.initialPosition = spritePos2;
+		sprite2.layerDepth = 0.9999f;
+
+		TemporaryAnimatedSprite sprite3 = sprite2.getClone();
+		sprite3.delayBeforeAnimationStart = 20;
+		sprite3.layerDepth = 0.9988f;
+
+		Game1.Multiplayer.broadcastSprites(location, sprite1, sprite2, sprite3);
+
+		Color sprinkleColor = new(101, 27, 104);    // special purple sprinkles >:3
 		Game1.screenGlowOnce(sprinkleColor, hold: false);
+
 		Utility.addSprinklesToLocation(location, Game1.player.TilePoint.X, Game1.player.TilePoint.Y, 16, 16, 1300, 20, Color.White, null, motionTowardCenter: true);
 
 		__result = true;
