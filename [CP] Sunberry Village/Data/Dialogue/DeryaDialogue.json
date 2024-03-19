@@ -71,6 +71,12 @@
 				"Fri10": "{{i18n:Derya.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Derya.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Derya.Dialogue.Sun10}}",
+
+				//Green Rain
+				"GreenRain": "{{i18n:Derya.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Derya.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Derya.Dialogue.GreenRain_2}}",
+
 				//other dialogue
 				"MovieInvitation": "{{i18n:Derya.Dialogue.MovieInvitation}}",
 

@@ -73,6 +73,11 @@
 				"Sat10": "{{i18n:Nadia.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Nadia.Dialogue.Sun10}}",
 
+				//Green Rain
+				"GreenRain": "{{i18n:Nadia.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Nadia.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Nadia.Dialogue.GreenRain_2}}",
+
 				//Gift Dialogue
 				//Positive/Negative
 				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Nadia}}",

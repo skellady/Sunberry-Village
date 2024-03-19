@@ -78,6 +78,11 @@
 				"Sat10": "{{i18n:Elias.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Elias.Dialogue.Sun10}}",
 
+				//Green Rain
+				"GreenRain": "{{i18n:Elias.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Elias.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Elias.Dialogue.GreenRain_2}}",
+
 				//Gift Dialogue
 				//Positive/Negative
 				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Elias}}",

@@ -2888,6 +2888,11 @@
     "Diala.Dialogue.Sat10": "Derya asked me an astrology question and I may have rambled a little.$9#$b#It's a good thing she enjoys hearing me ramble, for some reason.$u",
     "Diala.Dialogue.Sun10": "Do you wanna come over for a movie tonight?$h#$b#You will have to fight Derya while picking the movie, though.$u",
 
+    //Green Rain
+    "Diala.Dialogue.GreenRain": "I woke up to a horrible headache. I think it's... whatever that weather is. I've never seen anything like this before.$s",
+    "Diala.Dialogue.GreenRainFinished": "Oof, my headache is finally gone. Derya was really sweet, she made me some comfort food and lied down next to me all day.$u",
+    "Diala.Dialogue.GreenRain_2": "These trees are so beautiful. I wonder if I can use them in a spell of sorts. Maybe I'll ask Elias or Silas for help identifying them.$h",
+
     //Other Dialogue
     "Diala.Dialogue.MovieInvitation": "Ooh! I would love to go to the movies. I'll meet you there.$h",
 
@@ -2992,6 +2997,11 @@
     "Derya.Dialogue.Fri10": "Chestnut stepped on my chest while I was lying down on the floor.$10#$b#Chestnut is a big cat. I think he broke one of my ribs.$u",
     "Derya.Dialogue.Sat10": "I finally managed to get some tickets for a play Diala was talking about a while back.$h#$b#She's gonna be so happy about this!$u",
     "Derya.Dialogue.Sun10": "No one can ever catch me slipping.$6#$b#You saw me fall? No, you did not. I was just gracefully getting into a pose.$9",
+
+    //Green Rain
+    "Derya.Dialogue.GreenRain": "Don't I experience enough weirdness from Diala's ghosts and spirits? Now I have to deal with weird weather too?$$10",
+    "Derya.Dialogue.GreenRainFinished": "Well... I'm glad that's over. Didn't think I'd like seeing the sun this much.$u",
+    "Derya.Dialogue.GreenRain_2": "Ah, this damn rain again. I'm just make myself a cup of tea and hang out with the cats.$12",
 
     //Other Dialogue
     "Derya.Dialogue.MovieInvitation": "Movie! Yes, I'd love to go!$h",
@@ -3103,6 +3113,11 @@
     "Moon.Dialogue.Fri10": "Moon played with cats. Cats like Moon.$h",
     "Moon.Dialogue.Sat10": "Friend wants to play with Moon, yes?$u",
     "Moon.Dialogue.Sun10": "%Moon seems to be busy.#$b#@! Moon talks to you later, promise!$h",
+
+    //Green Rain
+    "Moon.Dialogue.GreenRain": "Woah! @ walked through the green rain! Maybe Moon can go too!$3",
+    "Moon.Dialogue.GreenRainFinished": "Moon was too scared to go outside during the rain.$s#$b#Maybe next time! Is there going to be a next time?$3",
+    "Moon.Dialogue.GreenRain_2": "Moon climbed the weird tree!$3",
 
     //Moon Roommate Dialogue
 
@@ -3325,6 +3340,11 @@
     "Reihana.Dialogue.Sat10": "Jumana gave me a flower from her garden. I never stopped to actually notice how pretty these are. I still don't like them very much, but I can still admire their beauty.$8",
     "Reihana.Dialogue.Sun10": "It's so peaceful here. Sure, nothing exciting happens around here, but I think I needed that. Especially after all the chaos I had to witness over the years.$6",
 
+    //Green Rain
+    "Reihana.Dialogue.GreenRain": "It's just rain, chill. You should see the kind of rain we had back home. Now *that's* scary.$8",
+    "Reihana.Dialogue.GreenRainFinished": "See? Everything's back to normal. I don't understand why everyone was panicking. Cowards.$h",
+    "Reihana.Dialogue.GreenRain_2": "*Yawn*... Perfect weather for a long, long nap, huh?$h",
+
     //Aicha
     "Aicha.Dialogue.Introduction": "Ah! I remember you! You were by that garden when Rei and I showed up.$u#$b#I'm Aicha, I'm a high-ranking demon! It's SO nice to meet you!$h",
 
@@ -3404,6 +3424,11 @@
     "Aicha.Dialogue.Fri10": "Hmph. We're out of cake. I think Diala and Derya are sold out for the day, too.$s#$b#The universe is so cruel, making me wait a whole day to have more cake.$s",
     "Aicha.Dialogue.Sat10": "You know, I'm glad the villagers don't hate us anymore! At least we can hang out by the fountain without scaring everyone, now.$u",
     "Aicha.Dialogue.Sun10": "Do you wanna roll around in the grass with me? It's SO much fun!$u#$b#Actually, maybe that's not a good idea. There were bugs last time I tried.$s#$b#I don't like bugs. I always get Rei to take care of them. Yes, I make sure she doesn't hurt them!$h",
+
+    //Green Rain
+    "Aicha.Dialogue.GreenRain": "The rain? It's not scary at all! I collected enough moss to make at LEAST ten batches of moss soup!$u",
+    "Aicha.Dialogue.GreenRainFinished": "Oh, @! Want some of the moss soup I made? It's delicious! [(O)MossSoup]$h",
+    "Aicha.Dialogue.GreenRain_2": "Rei doesn't want me to make moss soup this year. Apparently she's sick of it. How can someone be sick of such a delicious dish?!$s",
 
     //Amina
     "Amina.Dialogue.Introduction": "Oh... I don't think I've seen you before.$3#$b#Do you also grow flowers like my grandma does?$4",
@@ -3485,6 +3510,11 @@
     "Amina.Dialogue.Sat10": "Miss Ophelia used to be an adventurer!$3#$b#She told me all kinds of stories about it.$h",
     "Amina.Dialogue.Sun10": "I want to be just like my mom when I grow up.$4#$b#She's my role model.$h",
 
+    //Green Rain
+    "Amina.Dialogue.GreenRain": "What's happening outside? It's scary.$s#$b#I wanna make sure Jas and Vincent are okay...$s",
+    "Amina.Dialogue.GreenRainFinished": "I can't believe Vincent wanted to play outside yesterday... He's so brave.$3",
+    "Amina.Dialogue.GreenRain_2": "Mom told me the weather isn't something to be afraid of. She said we can go look at the weird trees together!$3",
+
     //Ari
     "Ari.Dialogue.Introduction": "Ah, a new face. I'm Ari. @? Well, it's nice to meet you.#$b#I sell good quality seeds, fertilizers, and more. Basically anything you need, I have at my store.$h",
 
@@ -3565,6 +3595,11 @@
     "Ari.Dialogue.Sat10": "I heard Pierre has some sort of secret stash. I'm absolutely DYING to know what that's all about.$7#$b#Hey, would it be bad if I ask you to snoop around for me?$u",
     "Ari.Dialogue.Sun10": "Blake was making fun of my clothes earlier.$6#$b#I mean, I know I'm old-ish but, they're okay, right?$9#$b#$y 'What do you think?_I think they look good on you!_Aw, thank you. It's reassuring hearing that from you.$13_I think... they're okay._Oh man, maybe Blake is right.$s",
 
+    //Green Rain
+    "Ari.Dialogue.GreenRain": "I heard Pierre's worried about his sales in this weather. What an odd man...$u#$b#I already asked Silas about it earlier and he rambled a little, but all I understood was that it's safe to go outside if needed.",
+    "Ari.Dialogue.GreenRainFinished": "Ah, what a beautiful day. I stayed up all night to watch the rain clear out.$h#$b#...On second thought, I think I need a nap. These old bones are NOT capable of going this long without sleep anymore.$12",
+    "Ari.Dialogue.GreenRain_2": "Blake and Lyenne are probably going out to play in the rain. Don't think I've seen Blake do that since he was a kid.$u",
+
     //Blake
     "Blake.Dialogue.Introduction": "Oh, hello there. You're not from around here, are you?#$b#Ah, yeah, I remember now. It's nice to meet you, I'm Blake.$h",
 
@@ -3644,6 +3679,11 @@
     "Blake.Dialogue.Fri10": "My father tells me Lyenne and I were inseperable from day one.$u#$b#It's kinda funny, I remember being so shy at first but she broke me out of my shell.$h",
     "Blake.Dialogue.Sat10": "Here, something to get you through the day. Yoba knows I need it, too. [395 253]$u",
     "Blake.Dialogue.Sun10": "I have so many games I still haven't played, yet I still buy more when I can. I'm gonna need you to knock some sense into me or make me play one of these sometime.$u",
+
+    //Green Rain
+    "Blake.Dialogue.GreenRain": "Ugh, how am I gonna get to Lyenne in this weather? I can't even play any of my video games to pass the time.$s",
+    "Blake.Dialogue.GreenRainFinished": "I'm so glad that's done with. How dare the weather separate me from my video games and best friend for a whole day?$s",
+    "Blake.Dialogue.GreenRain_2": "Those big plants are kinda crazy, huh? Sucks that none of our devices work, but we can still play in the rain.$h",
 
     //Elias
     "Elias.Dialogue.Introduction": "Hey, new farmer, yeah?#$b#I'm Elias, I work at the Sunberry Library. Hit me up if there's anythin' you'd like to know about Sunberry Village.",
@@ -3731,6 +3771,11 @@
     "Elias.Dialogue.Sat10": "I don't really speak much of my divorce with Ari, but it was amicable. I'm glad we did it, Blake got to grow up without havin' to deal with any toxicity from our relationship.",
     "Elias.Dialogue.Sun10": "Why don't we take a trip to the city sometime? I could borrow Ophelia's car so we don't have to deal with buses.$h",
 
+    //Green Rain
+    "Elias.Dialogue.GreenRain": "Yoba, what is this? I wonder if that's documented somewhere in the library books.#$b#Hm, no. That's impossible I've read every book in here.$8",
+    "Elias.Dialogue.GreenRainFinished": "I met up with Silas to ask about yesterday's weather. Apparently, it's harmless. He's such a knowledgeable man, I envy him a little bit sometimes.",
+    "Elias.Dialogue.GreenRain_2": "This year, I'm gonna make sure I document everything there is to know about green rain. It's so fascinating.$h",
+
     //Ezra
     "Ezra.Dialogue.Introduction": "Oh! New face! Very pretty face, if I may say so.$h#$b#I'm Ezra, you should check out my store. You could be the most chic farmer in town!$6",
 
@@ -3811,6 +3856,11 @@
     "Ezra.Dialogue.Sat10": "Shane is charming when he actually talks. I dropped by Marnie's and he was rambling about his chickens. It was endearing.$u#$b#Speaking of, how's the farm work going? Tell me everything!$u",
     "Ezra.Dialogue.Sun10": "Oh, @. I can't wait to show you these new designs. I convinced Haley and Alex to model them, they look so good!$u#$b#Don't worry, you and Iman will be the first to see them.$6",
 
+    //Green Rain
+    "Ezra.Dialogue.GreenRain": "I JUST got my hair done. I refuse to leave the house.$s#$b#Oh God, what if it stains my clothes green?!$8",
+    "Ezra.Dialogue.GreenRainFinished": "Phew, that was a little scary, huh? I managed to save my hair from being ruined by the rain, so that's a win in my books.$h",
+    "Ezra.Dialogue.GreenRain_2": "You know... this weather might inspire my next clothing line. Keep an eye out for that.$6",
+
     //Iman
     "Iman.Dialogue.Introduction": "Oh? Hello. The new farmer? Ah, doesn't really ring any bells. I might've not been paying attention when Ophelia let the rest of us know.#$b#I'm Iman. I'll see you around.",
 
@@ -3890,6 +3940,11 @@
     "Iman.Dialogue.Fri10": "I'm reading this book right now, it's pretty interesting but the characters are like, fourteen, so it's hard to imagine some of the things going on there.$u#$b#Maybe fourteen-year-olds are built different now-a-days, but I can't imagine one climbing into a burning building or saving the world.$10",
     "Iman.Dialogue.Sat10": "I found this in the forest and it creeped me out, but Elias said it might be useful to you for some reason, so here you go I guess. [127]$13#$b#%Iman practically throws the doll at you. You stash it away.",
     "Iman.Dialogue.Sun10": "I've been avoiding my yearly checkup like the plague. Doctors scare me, but I guess Harvey's nice enough.$13#$b#He is incredibly awkward, though. It's endearing.$u",
+
+    //Green Rain
+    "Iman.Dialogue.GreenRain": "Hm? The weather? I've seen worse. It'll probably go away soon.$6",
+    "Iman.Dialogue.GreenRainFinished": "Ezra refused to even come over last night. Something about his hair getting ruined and his clothes getting stained.$u",
+    "Iman.Dialogue.GreenRain_2": "You know, it looks kinda pretty outside. I wonder what's up with those trees, though.",
 
     //Jumana
     "Jumana.Dialogue.Introduction": "Ah, welcome, dear! Ophelia told us a new face would show up soon. I'm Jumana, Sunberry Village's florist.$h",
@@ -3972,6 +4027,11 @@
     "Jumana.Dialogue.Sat10": "Amina invited Jas and Vincent over the other day. I'm glad to see Amina has such good friends.$h",
     "Jumana.Dialogue.Sun10": "You're one of my favorite people, you know?$h#$b#After my family and Miyoung, of course.$7",
 
+    //Green Rain
+    "Jumana.Dialogue.GreenRain": "Oh, dear! What are you doing outside in this weather?! What if you get hurt? Please, stay over if you need to.$s",
+    "Jumana.Dialogue.GreenRainFinished": "This weather... it made my flowers grow! They weren't supposed to be fully grown for another week!$6",
+    "Jumana.Dialogue.GreenRain_2": "I wonder what the rain does to plants and trees to make them grow so fast. They look so healthy too!$h",
+
     //Lyenne
     "Lyenne.Dialogue.Introduction": "Oh! You must be the new farmer. Ophelia was telling us about you the other day. I'm Lyenne.$h",
 
@@ -4052,6 +4112,11 @@
     "Lyenne.Dialogue.Sat10": "Elias finally got this book I really wanted. It's about this vampire and human who fall in love despite their families being against it.$4#$b#Yeah, yeah. It's cliche, but it's gay. I wish we had more sapphic books, maybe I'd read more then.$u",
     "Lyenne.Dialogue.Sun10": "I asked Seb if I could borrow his motorcycle but he just kinda... glared at me.$7#$b#I was hoping you and I could go on a ride. And yes, I do have a license. We'll wear helmets, I promise.$u",
 
+    //Green Rain
+    "Lyenne.Dialogue.GreenRain": "Ugh, I miss Blake already. Ophelia won't let me leave the inn.$s",
+    "Lyenne.Dialogue.GreenRainFinished": "Freedom! I've never been happier to be able to leave my room!$h",
+    "Lyenne.Dialogue.GreenRain_2": "Well, I'm glad Ophelia's letting me leave the inn this time. I get to see these weird plants up close!$u",
+    
     //Maia
     "Maia.Dialogue.Introduction": "Oh, hello. Don't think I've seen you around before. I'm Maia, I work alongside Silas at the blacksmith.",
 
@@ -4133,6 +4198,11 @@
     "Maia.Dialogue.Sat10": "Oh, @! Look at this picture I took earlier. It's hilarious.$h#$b#%Maia shows you a picture of Derya on the ground with one cat on her chest, one on her face, and at least three others surrounding her.",
     "Maia.Dialogue.Sun10": "I'm so glad it's Sunday. I might go hang out in the forest for a while, it's... creepy, but peaceful.$h#$b#You should join me if you've got time.",
 
+    //Green Rain
+    "Maia.Dialogue.GreenRain": "I've been trying to get my mother to calm down since we woke up. It hasn't been very successful. I can't even call Silas to check on him.$s",
+    "Maia.Dialogue.GreenRainFinished": "Well, Silas is happy, mother is happy. Glad to see everything's back to normal.$h",
+    "Maia.Dialogue.GreenRain_2": "My mother has been anticipating this day. Apparently, the rain is good for her flowers. I'm just glad she ain't panicking anymore.$h",
+
     //Miyoung
     "Miyoung.Dialogue.Introduction": "Hm? Oh! You're the new farmer Ophelia mentioned on Saturday! It's so nice to meet you. I'm Miyoung. My husband is the very talented blacksmith here.$h#$b#OH! Not Clint, Silas. He works at the blacksmith in the Sunberry Mountains.$7",
 
@@ -4213,6 +4283,11 @@
     "Miyoung.Dialogue.Sat10": "I'm glad we have Ophelia watching over us. She makes sure everyone's taken care of all the time. I just hope she stops to take care of herself for once.$9",
     "Miyoung.Dialogue.Sun10": "You're a wonderful friend, @. I was just telling Silas how nice it is to have more friends in the valley.$4",
 
+    //Green Rain
+    "Miyoung.Dialogue.GreenRain": "Oh, darling. I was horrified when I looked out the window today! I'm so thankful I had Silas by my side to reassure me.$4",
+    "Miyoung.Dialogue.GreenRainFinished": "Poor Jumana... she must've been so scared yesterday. I'm glad she's doing okay.$h",
+    "Miyoung.Dialogue.GreenRain_2": "Silas has been very excited since he saw the weather forecast yesterday. He's always been so curious about everything. This man has vowed to learn everything he could in this lifetime.$7",
+
     //Nadia
     "Nadia.Dialogue.Introduction": "Placeholder.",
 
@@ -4292,6 +4367,11 @@
     "Nadia.Dialogue.Fri10": "Placeholder.",
     "Nadia.Dialogue.Sat10": "Placeholder.",
     "Nadia.Dialogue.Sun10": "Placeholder.",
+
+    //Green Rain
+    "Nadia.Dialogue.GreenRain": "Why is the rain green?! Is it... acid? Oh, Yoba. I have to make sure Ezra's okay.$s",
+    "Nadia.Dialogue.GreenRainFinished": "Ahem... I wasn't even all that scared yesterday. In fact, I went outside! Yup. I stepped outside while it was pouring.$h#$b#...Then I tripped on a giant plant.$s",
+    "Nadia.Dialogue.GreenRain_2": "I have GOT to start checking the weather forecast before bed. I walked outside and jumped back in like one of those cats you see in those videos.$s#$b#You know, the ones where they see a cucumber and jump. Hah, I wonder why they do that.$h",
 
     //Ophelia
     "Ophelia.Dialogue.Introduction": "Hello, @. Lewis told me about you when I dropped by a few days ago. I'm Ophelia, I run Serenity Inn.#$b#Let me know if there's anything I could do to help you settle in.",
@@ -4374,6 +4454,11 @@
     "Ophelia.Dialogue.Sat10": "I wonder what Sunberry would be like if we had a guild up here. I think it'd be good for the valley. Maybe you could even split your time between the Pelican Town guild and ours.$h#$b#Ah, I'm getting ahead of myself.$u",
     "Ophelia.Dialogue.Sun10": "Ah! @, we've got a new cook at the inn. Here, taste this. It's delightful. [618]$u",
 
+    //Green Rain
+    "Ophelia.Dialogue.GreenRain": "Please stay safe, @. I'm aware it's not harmless, but I still don't want people walking around until we get enough information.",
+    "Ophelia.Dialogue.GreenRainFinished": "Hm, I wonder if this rain had any effect on our mines. I'll have to ask Maia to investigate when she can.",
+    "Ophelia.Dialogue.GreenRain_2": "I assume this will be a yearly thing, now. I'm just glad no one's spreading any misinformation about this phenomenon.$h",
+
     //Pan
     "Pan.Dialogue.Introduction": "Placeholder.",
 
@@ -4432,6 +4517,11 @@
     "Pan.Dialogue.Fri10": "Placeholder.",
     "Pan.Dialogue.Sat10": "Placeholder.",
     "Pan.Dialogue.Sun10": "Placeholder.",
+
+    //Green Rain
+    "Pan.Dialogue.GreenRain": "%Pan seems to be unbothered by the rain. She's probably seen worse.",
+    "Pan.Dialogue.GreenRainFinished": "Arf? Arf arf arf?$h#$b#%You wonder what she's trying to tell you.",
+    "Pan.Dialogue.GreenRain_2": "Woof! Trees!$h#$b#%...Did Pan just speak?",
 
     //Silas
     "Silas.Dialogue.Introduction": "Ah, the new farmer we've heard so much about! Welcome to the valley.$h#$b#I was new here, too, at some point. You're gonna love it.$u",
@@ -4512,6 +4602,11 @@
     "Silas.Dialogue.Fri10": "Hmm... I could really go for some cake with a cat in my lap right now. I'll ask Miyoung if she wants to go, too.$u#$e#You know, Derya lets me give the cats some treats! They love it.$u",
     "Silas.Dialogue.Sat10": "I hope the blacksmith has been useful to you and your farm. If there's anything Maia or I could do for you, don't hesitate to let us know.$h",
     "Silas.Dialogue.Sun10": "Ah, my granddaughter's growing up too fast. She was so little just last year!$6#$b#Time flies by so fast, you gotta make sure you cherish every moment.$h",
+
+    //Green Rain
+    "Silas.Dialogue.GreenRain": "I need to go see Razz! This... this is magical! @, do you see this? I've never seen anything like it before.$u",
+    "Silas.Dialogue.GreenRainFinished": "I knew it was harmless. Our Goddesses would never bring any harm our way, but it was still nice to hear it from Razz when I asked.$h",
+    "Silas.Dialogue.GreenRain_2": "Ah, those trees. They're beautiful, aren't they? I wish we could grow some around here.$h",
 
     //Raccoon Dialogue
     //----------------

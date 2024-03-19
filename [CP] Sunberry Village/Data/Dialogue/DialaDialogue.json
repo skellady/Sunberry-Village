@@ -71,6 +71,12 @@
 				"Fri10": "{{i18n:Diala.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Diala.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Diala.Dialogue.Sun10}}",
+
+				//Green Rain
+				"GreenRain": "{{i18n:Diala.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Diala.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Diala.Dialogue.GreenRain_2}}",
+
 				//other dialogue
 				"MovieInvitation": "{{i18n:Diala.Dialogue.MovieInvitation}}",
 

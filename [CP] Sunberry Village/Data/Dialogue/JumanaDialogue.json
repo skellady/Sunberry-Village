@@ -73,6 +73,11 @@
 				"Sat10": "{{i18n:Jumana.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Jumana.Dialogue.Sun10}}",
 
+				//Green Rain
+				"GreenRain": "{{i18n:Jumana.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Jumana.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Jumana.Dialogue.GreenRain_2}}",
+
 				//Gift Dialogue
 				//Positive/Negative
 				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Jumana}}",

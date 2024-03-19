@@ -55,6 +55,11 @@
 				"Sat10": "{{i18n:Pan.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Pan.Dialogue.Sun10}}",
 
+				//Green Rain
+				"GreenRain": "{{i18n:Pan.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Pan.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Pan.Dialogue.GreenRain_2}}",
+
 				//Gift Dialogue
 				//Positive/Negative
 				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Pan}}",

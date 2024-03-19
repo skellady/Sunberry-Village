@@ -71,6 +71,11 @@
 				"Fri10": "{{i18n:Aicha.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Aicha.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Aicha.Dialogue.Sun10}}",
+
+				//Green Rain
+				"GreenRain": "{{i18n:Aicha.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Aicha.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Aicha.Dialogue.GreenRain_2}}",
 				
 				//Gift Dialogue
 				//Positive/Negative

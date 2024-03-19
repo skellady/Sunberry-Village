@@ -72,6 +72,12 @@
 				"Fri10": "{{i18n:Moon.Dialogue.Fri10}}",
 				"Sat10": "{{i18n:Moon.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Moon.Dialogue.Sun10}}",
+
+				//Green Rain
+				"GreenRain": "{{i18n:Moon.Dialogue.GreenRain}}",
+				"GreenRainFinished": "{{i18n:Moon.Dialogue.GreenRainFinished}}",
+				"GreenRain_2": "{{i18n:Moon.Dialogue.GreenRain_2}}",
+
 				//event question
 				"moonchoice_1": "{{i18n:event-20031415.19}}",
 				"moonchoice_2": "{{i18n:event-20031415.20}}",
