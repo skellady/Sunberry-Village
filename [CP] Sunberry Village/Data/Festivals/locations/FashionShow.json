@@ -3,6 +3,9 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring19",
+			"When": {
+				"HasMod": "UNA.FF.CP"
+			},
 			"TextOperations": [
 				// Set-up
 				{
@@ -11,7 +14,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "DialaSBV 17 34 right/DeryaSBV 18 34 left/EliasSBV 11 17 up/BlakeSBV 37 35 up/LyenneSBV 38 35 up/MaiaSBV 11 16 down/AminaSBV 16 13 down/ImanSBV 40 16 right/EzraSBV 42 16 left",
+					"Value": "DialaSBV 17 34 right/DeryaSBV 18 34 left/EliasSBV 11 17 up/BlakeSBV 37 35 up/LyenneSBV 38 35 up/MaiaSBV 11 16 down/AminaSBV 16 13 down/ImanSBV 41 16 right/EzraSBV 42 16 left",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -30,7 +33,8 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring19",
 			"When": {
-				"HasSeenEvent": "skellady.SBVCP_20031402"
+				"HasSeenEvent": "skellady.SBVCP_20031402",
+				"HasMod": "UNA.FF.CP"
 			},
 			"TextOperations": [
 				// Set-up

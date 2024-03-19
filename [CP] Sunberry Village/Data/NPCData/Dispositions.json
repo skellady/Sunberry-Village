@@ -575,6 +575,14 @@
               "IsIslandAttire": false,
               "Precedence": -100,
               "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPDialaBeach",
+              "Portrait": "Portraits/DialaSBV_Beach",
+              "Sprite": "Characters/DialaSBV_Beach",
+              "IsIslandAttire": true,
+              "Precedence": -100,
+              "Weight": 0
             }
           ],
           "Home": [
@@ -686,6 +694,14 @@
               "Portrait": "Portraits/DeryaSBV/DeryaSBV_Winter",
               "Sprite": "Characters/DeryaSBV/DeryaSBV_Winter",
               "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPDeryaBeach",
+              "Portrait": "Portraits/DeryaSBV_Beach",
+              "Sprite": "Characters/DeryaSBV_Beach",
+              "IsIslandAttire": true,
               "Precedence": -100,
               "Weight": 0
             }

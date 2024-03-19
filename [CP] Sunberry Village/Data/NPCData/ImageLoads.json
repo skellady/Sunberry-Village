@@ -33,13 +33,13 @@
     {
       "LogName": "Beach Portraits",
       "Action": "Load",
-      "Target": "Portraits/AichaSBV_Beach",
+      "Target": "Portraits/AichaSBV_Beach, Portraits/DialaSBV_Beach, Portraits/DeryaSBV_Beach",
       "FromFile": "Assets/BeachPortraits/{{TargetWithoutPath}}.png",
     },
     {
       "LogName": "Beach Sprites",
       "Action": "Load",
-      "Target": "Characters/AichaSBV_Beach",
+      "Target": "Characters/AichaSBV_Beach, Characters/DialaSBV_Beach, Characters/DeryaSBV_Beach",
       "FromFile": "Assets/BeachCharacters/{{TargetWithoutPath}}.png",
     }
   ]
