@@ -8,7 +8,7 @@ using SObject = StardewValley.Object;
 // ReSharper disable RedundantAssignment
 // ReSharper disable InconsistentNaming
 
-namespace SunberryVillage.Items;
+namespace SunberryVillage.Objects;
 
 // Boilerplate suppression for Harmony patch files
 #pragma warning disable IDE0079 // Remove unnecessary suppression
