@@ -47,44 +47,27 @@
                         },
                         // Random seeds
                         {
-                            "RandomItemId": [
-                                "(O)472",
-                                "(O)473",
-                                "(O)474",
-                                "(O)475",
-                                "(O)476",
-                                "(O)479",
-                                "(O)480",
-                                "(O)481",
-                                "(O)482",
-                                "(O)484",
-                                "(O)485",
-                                "(O)486",
-                                "(O)488",
-                                "(O)490",
-                                "(O)493",
-                                "(O)489",
-                                "(O)CarrotSeeds",
-                                "(O)SummerSquashSeeds",
-                                "(O)BroccoliSeeds",
-                                "(O)PowdermelonSeeds"
-                            ],
+                            "ItemId": "{{Random:(O)472, (O)473, (O)474, (O)475, (O)476, (O)479, (O)480, (O)481, (O)482, (O)484, (O)485, (O)486, (O)488, (O)490, (O)493, (O)489, (O)CarrotSeeds, (O)SummerSquashSeeds, (O)BroccoliSeeds, (O)PowdermelonSeeds |key=SeedPacketType}}",
                             "MinStack": 10,
                             "ModData": {
-                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.10PackSeeds}}"
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.10PackSeeds |SeedPacketName={{i18n: MarketSpecial.SeedPacket_{{Random:(O)472, (O)473, (O)474, (O)475, (O)476, (O)479, (O)480, (O)481, (O)482, (O)484, (O)485, (O)486, (O)488, (O)490, (O)493, (O)489, (O)CarrotSeeds, (O)SummerSquashSeeds, (O)BroccoliSeeds, (O)PowdermelonSeeds |key=SeedPacketType}} }} }}"
                             }
                         },
                         // Grass starters
                         {
                             "ItemId": "(O)297",
                             "MinStack": 70,
-                            "Price": 10000
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 10000
+                            }
                         },
                         // Blue grass starter
                         {
                             "ItemId": "(O)BlueGrassStarter",
                             "MinStack": 70,
-                            "Price": 30000
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 30000
+                            }
                         },
                         // Random Qi fertilizers
                         {
@@ -99,13 +82,17 @@
                         {
                             "ItemId": "(O)913",
                             "MinStack": 5,
-                            "Price": 15000
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 15000
+                            }
                         },
                         // Nozzle
                         {
                             "ItemId": "(O)915",
                             "MinStack": 5,
-                            "Price": 20000
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 20000
+                            }
                         },
                         // Elias' catch of the day (spring)
                         {

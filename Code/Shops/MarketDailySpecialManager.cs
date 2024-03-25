@@ -52,9 +52,8 @@ internal class MarketDailySpecialManager
 			MarketDailySpecialItem = ItemRegistry.Create("(O)0");
 			return;
 		}
-
-		// create seeded random to sync daily special across all players
-		Random seededRandom = new((int)Game1.MasterPlayer.UniqueMultiplayerID + SDate.Now().DaysSinceStart);
+		
+		Random dailyRandom = Utility.CreateDaySaveRandom();
 		ItemQueryContext itemQueryContext = new(Game1.currentLocation, Game1.player, null);
 		List<GenericSpawnItemData> spawnPool = new();
 
@@ -66,7 +65,7 @@ internal class MarketDailySpecialManager
 		bool itemResolved = false;
 		while (!itemResolved && spawnPool.Any())
 		{
-			GenericSpawnItemData selectedEntry = spawnPool.GetRandomElementFromList(seededRandom, true);
+			GenericSpawnItemData selectedEntry = spawnPool.GetRandomElementFromList(dailyRandom, true);
 
 			// assume success unless logError fires
 			itemResolved = true;
@@ -144,7 +143,7 @@ internal class MarketDailySpecialManager
 		if (MarketDailySpecialItem.modData.TryGetValue("SunberryTeam.SBVSMAPI_MarketSpecialDisplayName", out string overrideName) && !string.IsNullOrEmpty(overrideName))
 			return TokenParser.ParseText(overrideName, null, null, Game1.player);
 
-		return MarketDailySpecialItem.Stack == 1 ? MarketDailySpecialItem.DisplayName : $"{MarketDailySpecialItem.DisplayName} x {MarketDailySpecialItem.Stack}";
+		return TokenParser.ParseText($"[ArticleFor {MarketDailySpecialItem.DisplayName}] {MarketDailySpecialItem.DisplayName}{(MarketDailySpecialItem.Stack == 1 ? "" : $" x {MarketDailySpecialItem.Stack}")}");
 	}
 
 	internal static string GetOfferDialogue()
@@ -165,7 +164,10 @@ internal class MarketDailySpecialManager
 
 	internal static int GetOfferPrice()
 	{
-		return Utility.getSellToStorePriceOfItem(MarketDailySpecialItem);
+		if (MarketDailySpecialItem.modData.TryGetValue("SunberryTeam.SBVSMAPI_MarketSpecialPrice", out string priceString) && int.TryParse(priceString, out int price))
+			return price;
+
+		return MarketDailySpecialItem.sellToStorePrice();
 	}
 
 	internal static void RemoveDailySpecial()
