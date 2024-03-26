@@ -4116,7 +4116,7 @@
     "Lyenne.Dialogue.GreenRain": "Ugh, I miss Blake already. Ophelia won't let me leave the inn.$s",
     "Lyenne.Dialogue.GreenRainFinished": "Freedom! I've never been happier to be able to leave my room!$h",
     "Lyenne.Dialogue.GreenRain_2": "Well, I'm glad Ophelia's letting me leave the inn this time. I get to see these weird plants up close!$u",
-    
+
     //Maia
     "Maia.Dialogue.Introduction": "Oh, hello. Don't think I've seen you around before. I'm Maia, I work alongside Silas at the blacksmith.",
 
@@ -5345,8 +5345,29 @@
     // Custom Features
 
     // Market specials - override display names
-    "MarketSpecial.12PackJojaCola": "12-pack of Joja Cola",
+    "MarketSpecial.12PackJojaCola": "a 12-pack of Joja Cola",
     "MarketSpecial.EliasCatch": "Elias' catch of the day",
-    "MarketSpecial.10PackSeeds": "packet of 10 seeds", 
+    "MarketSpecial.10PackSeeds": "a packet of 10 {{SeedPacketName}}",
+    "MarketSpecial.SeedPacket_(O)472": "parsnip seeds",
+    "MarketSpecial.SeedPacket_(O)473": "bean starters",
+    "MarketSpecial.SeedPacket_(O)474": "cauliflower seeds",
+    "MarketSpecial.SeedPacket_(O)475": "potato seeds",
+    "MarketSpecial.SeedPacket_(O)476": "garlic seeds",
+    "MarketSpecial.SeedPacket_(O)479": "melon seeds",
+    "MarketSpecial.SeedPacket_(O)480": "tomato seeds",
+    "MarketSpecial.SeedPacket_(O)481": "blueberry seeds",
+    "MarketSpecial.SeedPacket_(O)482": "pepper seeds",
+    "MarketSpecial.SeedPacket_(O)484": "radish seeds",
+    "MarketSpecial.SeedPacket_(O)485": "red cabbage seeds",
+    "MarketSpecial.SeedPacket_(O)486": "starfruit seeds",
+    "MarketSpecial.SeedPacket_(O)488": "eggplant seeds",
+    "MarketSpecial.SeedPacket_(O)489": "artichoke seeds",
+    "MarketSpecial.SeedPacket_(O)490": "pumpkin seeds",
+    "MarketSpecial.SeedPacket_(O)493": "cranberry seeds",
+    "MarketSpecial.SeedPacket_(O)CarrotSeeds": "carrot seeds",
+    "MarketSpecial.SeedPacket_(O)SummerSquashSeeds": "summer squash seeds",
+    "MarketSpecial.SeedPacket_(O)BroccoliSeeds": "broccoli seeds",
+    "MarketSpecial.SeedPacket_(O)PowdermelonSeeds": "powdermelon seeds"
+
 
 }
