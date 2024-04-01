@@ -849,6 +849,10 @@
     "Derya.Dialogue.FollowDerya2": "Oh, my God. You're gonna scare Ari! Let me shop in peace.$s",
     "Derya.Dialogue.FollowDerya3": "Hey, Rei, you got any games on your phone? Might as well do something fun while you follow me around all day.$9",
     "Derya.Dialogue.FollowDerya4": "Here, too?! Seriously? Stop staring at me while I try to sleep.$10",
+    "Derya.Dialogue.PreRei1": "Hey! Check out what we have available today if you haven't yet. Derya made some delicious cookies.$h",
+    "Derya.Dialogue.PreRei2": "I try to shop both here and at Pierre's. It gets me great deals when I mention one in front of the other.$6",
+    "Derya.Dialogue.PreRei3": "Oh, hey. I'm just getting some fresh air. This is a nice spot, isn't it?$h",
+    "Derya.Dialogue.PreRei4": "...What are you doing in my room at this hour?$11",
 
     "Diala.Dialogue.Saloon1": "I don't drink, but I enjoy coming here for the vibes.$h",
     "Diala.Dialogue.Saloon2": "I come here pretty often.#$b#Mostly to get my dose of socialization without trying too hard.$u",
@@ -3596,8 +3600,8 @@
     "Ari.Dialogue.Sun10": "Blake was making fun of my clothes earlier.$6#$b#I mean, I know I'm old-ish but, they're okay, right?$9#$b#$y 'What do you think?_I think they look good on you!_Aw, thank you. It's reassuring hearing that from you.$13_I think... they're okay._Oh man, maybe Blake is right.$s",
 
     //Green Rain
-    "Ari.Dialogue.GreenRain": "I heard Pierre's worried about his sales in this weather. What an odd man...$u#$b#I already asked Silas about it earlier and he rambled a little, but all I understood was that it's safe to go outside if needed.",
-    "Ari.Dialogue.GreenRainFinished": "Ah, what a beautiful day. I stayed up all night to watch the rain clear out.$h#$b#...On second thought, I think I need a nap. These old bones are NOT capable of going this long without sleep anymore.$12",
+    "Ari.Dialogue.GreenRain": "I already asked Silas about the weather earlier and he rambled a little, but all I understood was that it's safe to go outside if needed.#$b#Hm? Oh, we just yelled back and forth from the window. Couldn't call him, the phone won't work.$u",
+    "Ari.Dialogue.GreenRainFinished": "I heard Pierre was worried about his sales yesterday rather than the weird weather we experienced. What an odd man...$u",
     "Ari.Dialogue.GreenRain_2": "Blake and Lyenne are probably going out to play in the rain. Don't think I've seen Blake do that since he was a kid.$u",
 
     //Blake
@@ -4455,7 +4459,7 @@
     "Ophelia.Dialogue.Sun10": "Ah! @, we've got a new cook at the inn. Here, taste this. It's delightful. [618]$u",
 
     //Green Rain
-    "Ophelia.Dialogue.GreenRain": "Please stay safe, @. I'm aware it's not harmless, but I still don't want people walking around until we get enough information.",
+    "Ophelia.Dialogue.GreenRain": "Please stay safe, @. I'm aware it's not harmless, but I still don't want people walking around until we get enough information.$8",
     "Ophelia.Dialogue.GreenRainFinished": "Hm, I wonder if this rain had any effect on our mines. I'll have to ask Maia to investigate when she can.",
     "Ophelia.Dialogue.GreenRain_2": "I assume this will be a yearly thing, now. I'm just glad no one's spreading any misinformation about this phenomenon.$h",
 

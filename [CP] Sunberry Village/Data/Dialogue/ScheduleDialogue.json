@@ -43,6 +43,7 @@
 				"Fountain": "{{Random: {{i18n:Derya.Dialogue.Fountain1}} ++ {{i18n:Derya.Dialogue.Fountain2}} ++ {{i18n:Derya.Dialogue.Fountain3}} |inputSeparator=++}}"
 			}
 		},
+		// After meeting Rei
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/DeryaSBV",
@@ -53,7 +54,21 @@
 				"FollowDerya.003": "{{i18n:Derya.Dialogue.FollowDerya4}}"
 			},
 			"When": {
-				"HasSeenEvent": "skellady.SBVCP_20031427"
+				"HasSeenEvent: currentPlayer |contains= skellady.SBVCP_20031427": true
+			}
+		},
+		// Before meeting Rei
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/DeryaSBV",
+			"Entries": {
+				"FollowDerya.000": "{{i18n:Derya.Dialogue.PreRei1}}",
+				"FollowDerya.001": "{{i18n:Derya.Dialogue.PreRei2}}",
+				"FollowDerya.002": "{{i18n:Derya.Dialogue.PreRei3}}",
+				"FollowDerya.003": "{{i18n:Derya.Dialogue.PreRei4}}"
+			},
+			"When": {
+				"HasSeenEvent: currentPlayer |contains= skellady.SBVCP_20031427": false
 			}
 		},
 		{

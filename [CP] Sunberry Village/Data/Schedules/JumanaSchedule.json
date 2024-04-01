@@ -21,6 +21,7 @@
 				"winter_Sat": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/1600 Custom_SBV_MaiaHouse 17 15 1/2200 Custom_SBV_MaiaHouse 14 6 3",
 				"winter_15": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/1300 Beach 12 8 2/2100 Custom_SBV_MaiaHouse 14 6 3",
 				"rain": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/1500 Custom_SBV_MaiaHouse 4 15 2/2000 Custom_SBV_MaiaHouse 14 6 3",
+				"GreenRain": "610 Custom_SBV_MaiaHouse 27 16 3"
 			},
 		},
 	]

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="21" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="3">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="21" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="3">
  <tileset firstgid="1" name="fest" tilewidth="16" tileheight="16" tilecount="1024" columns="32">
   <image source="Festivals.png" width="512" height="512"/>
   <tile id="15">
@@ -1266,8 +1266,8 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="3000" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
-  <image source="paths.png" width="64" height="144"/>
+ <tileset firstgid="3000" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
   <tile id="0">
    <properties>
     <property name="PathType" value="NE"/>
@@ -1299,19 +1299,25 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="3036" name="spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+ <tileset firstgid="3064" name="spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
   <image source="spring_town.png" width="512" height="1152"/>
  </tileset>
  <layer id="1" name="Back" width="21" height="2">
   <data encoding="csv">
-2269,2269,2269,2269,4006,2269,2269,2269,2269,2269,2269,2269,2269,2269,2269,2269,4006,2269,2269,2269,2269,
-2294,2294,2294,2294,4005,2294,2294,2294,2294,2294,2294,2294,2294,2294,2294,2294,4005,2294,2294,2294,2294
+2269,2269,2269,2269,4034,2269,2269,2269,2269,2269,2269,2269,2269,2269,2269,2269,4034,2269,2269,2269,2269,
+2294,2294,2294,2294,4033,2294,2294,2294,2294,2294,2294,2294,2294,2294,2294,2294,4033,2294,2294,2294,2294
 </data>
  </layer>
  <layer id="2" name="Buildings" width="21" height="2">
   <data encoding="csv">
-1236,1209,1209,3941,0,3941,1209,1236,1209,1236,1209,1236,1209,1236,1209,3941,0,3941,1209,1236,1209,
-1334,735,736,3973,0,3973,735,736,1333,1234,2343,1234,1334,735,736,3973,0,3973,735,736,1333
+1236,1209,1209,3969,0,3969,1209,1236,1209,1236,1209,1236,1209,1236,1209,3969,0,3969,1209,1236,1210,
+1334,735,736,4001,0,4001,735,736,1333,1234,2343,1234,1334,735,736,4001,0,4001,735,736,1309
+</data>
+ </layer>
+ <layer id="13" name="Buildings+1" width="21" height="2">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1333
 </data>
  </layer>
  <layer id="3" name="Set-Up" width="21" height="2">

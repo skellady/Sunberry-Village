@@ -20,6 +20,7 @@
 				"fall_Sat": "610 Custom_SBV_MiyoungHouse 5 7 3/900 Custom_SBV_SilasBlacksmith 3 13 2/a1800 Custom_SBV_SunberryVillage 62 85 2 silas_stand \"Strings\\schedules\\SilasSBV:Fountain\"/2310 Custom_SBV_MiyoungHouse 15 5 3",
 				"winter_Sat": "610 Custom_SBV_MiyoungHouse 5 7 3/900 Custom_SBV_SilasBlacksmith 3 13 2/1600 Custom_SBV_MiyoungHouse 11 14 3/2200 Custom_SBV_MiyoungHouse 15 5 3",
 				"rain": "610 Custom_SBV_MiyoungHouse 5 7 3/900 Custom_SBV_SilasBlacksmith 3 13 2/a2000 Custom_SBV_MiyoungHouse 15 5 3",
+				"GreenRain": "610 Custom_SBV_MiyoungHouse 6 10 3"
 			},
 		},
 	]

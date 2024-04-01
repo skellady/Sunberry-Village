@@ -20,7 +20,7 @@
                     "Edibility": "0",
                     "Type": "Flower",
                     "Category": -80,
-                    "Price": 200,
+                    "Price": 100,
                     "Texture": "Mods\\skellady.SBVCP\\Produce",
                     "SpriteIndex": 0,
                     "ContextTags": [
@@ -36,7 +36,7 @@
                     "Edibility": "0",
                     "Type": "Flower",
                     "Category": -80,
-                    "Price": 190,
+                    "Price": 90,
                     "Texture": "Mods\\skellady.SBVCP\\Produce",
                     "SpriteIndex": 1,
                     "ContextTags": [
@@ -53,7 +53,7 @@
                     "Edibility": "0",
                     "Type": "Flower",
                     "Category": -80,
-                    "Price": 210,
+                    "Price": 100,
                     "Texture": "Mods\\skellady.SBVCP\\Produce",
                     "SpriteIndex": 2,
                     "ContextTags": [
@@ -102,7 +102,7 @@
                     "Edibility": "0",
                     "Type": "Flower",
                     "Category": -80,
-                    "Price": 140,
+                    "Price": 110,
                     "Texture": "Mods\\skellady.SBVCP\\Produce",
                     "SpriteIndex": 5,
                     "ContextTags": [
@@ -136,7 +136,7 @@
                     "Edibility": "0",
                     "Type": "Flower",
                     "Category": -80,
-                    "Price": 110,
+                    "Price": 80,
                     "Texture": "Mods\\skellady.SBVCP\\Produce",
                     "SpriteIndex": 7,
                     "ContextTags": [
@@ -152,7 +152,7 @@
                     "Edibility": "0",
                     "Type": "Flower",
                     "Category": -80,
-                    "Price": 180,
+                    "Price": 95,
                     "Texture": "Mods\\skellady.SBVCP\\Produce",
                     "SpriteIndex": 8,
                     "ContextTags": [
