@@ -1,0 +1,37 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add RSV Gathering Shop",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "skellady.SBVCP_RSVEnby": {
+                    "ID": "skellady.SBVCP_RSVEnby",
+                    "Owners": [
+                        {
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:RSVEnbyShop.Dialogue}}"
+                                }
+                            ],
+                            "Name": "None",
+                        }
+                    ],
+                    "PriceModifiers": [
+						{
+							"Modification": "Multiply",
+							"Amount": 0.8
+						}
+					],
+                    "Items": [
+                        {
+							"Id": "{{ModId}}.RSVGirlsStall",
+							"ItemId": "rsv_choose_k 8 (O)517 (O)527 (O)621 (O)797 (O)698 (O)891 (O)223 (O)268 (O)347 (O)422 (O)577 (O)519 (O)579 (O)787 (O)107 (O)489",
+							"AvailableStock": 1,
+						},
+                    ],
+                },
+            }
+        }
+    ]
+}
