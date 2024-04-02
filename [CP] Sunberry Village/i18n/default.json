@@ -4293,28 +4293,29 @@
     "Miyoung.Dialogue.GreenRain_2": "Silas has been very excited since he saw the weather forecast yesterday. He's always been so curious about everything. This man has vowed to learn everything he could in this lifetime.$7",
 
     //Nadia
-    "Nadia.Dialogue.Introduction": "Placeholder.",
+    "Nadia.Dialogue.Introduction": "Hey! It's good to finally, properly meet you. Didn't really get to introduce myself to you properly the other day, huh?$h#$b#I'm Nadia, Ezra's older sister. I'll see you around, farmer.$6",
 
     //Spring
-    "Nadia.Dialogue.spring_1": "Placeholder.",
-    "Nadia.Dialogue.spring_12": "Placeholder.",
-    "Nadia.Dialogue.spring_23": "Placeholder.",
+    "Nadia.Dialogue.spring_1": "I always get so excited when the seasons change, especially when we finally make it out of winter.",
+    "Nadia.Dialogue.spring_12": "I wonder how different the Egg Festival is now compared to when I was younger.$h#$b#Hey, I'm not *that* old, but it's been a while.$6",
+    "Nadia.Dialogue.spring_23": "Ezra suggested making me a nice dress for the dance tomorrow but... I don't know. I don't even have anyone in mind to ask.$7",
+    //Did you know I won the egg hunt three years in a row back in my day? They had to make me stop so the other kids had a chance.$6
 
     //Summer
-    "Nadia.Dialogue.summer_1": "Placeholder.",
-    "Nadia.Dialogue.summer_10": "Placeholder.",
-    "Nadia.Dialogue.summer_27": "Placeholder.",
+    "Nadia.Dialogue.summer_1": "Mmm... Love this weather. It's always more tolerable here than it is in the city, for some reason. I like it.$h",
+    "Nadia.Dialogue.summer_10": "Hmm, I haven't had the Luau soup in so long.#$b#Last time I did, I think I got food poisoning.$s#$b#BUT... the year before that, it was delicious. I'll take my chances tomorrow.$6",
+    "Nadia.Dialogue.summer_27": "I never understood the appeal of the moonlight jellies. They're pretty, but do they warrant the entire town gathering to see them?$8#$b#I'll probably still go. Ezra and Iman will just drag me if I don't.$6",
 
     //Fall
-    "Nadia.Dialogue.fall_1": "Placeholder.",
-    "Nadia.Dialogue.fall_15": "Placeholder.",
-    "Nadia.Dialogue.fall_26": "Placeholder.",
+    "Nadia.Dialogue.fall_1": "You know, people in the city rarely cared for the change in seasons. Probably because of how busy everything always is.#$b#It's... nice here. Seeing Jumana and Miyoung get ready to plant their new seeds, Diala and Derya bringing out the fall desserts, Ezra's seasonal hats...$h#$b#It makes me feel giddy, in a way.$6",
+    "Nadia.Dialogue.fall_15": "My father used to love the yearly fair. He'd always join Gus early in the morning and help prepare the food.#$b#It was always exciting. Ezra and I would get into so many fights over these damn minigames.$6",
+    "Nadia.Dialogue.fall_26": "I'm no coward. I don't fear the maze or the monsters.$a#$b#Don't mind me, I'm just practicing so I can lie to Iman and Ezra tomorrow.$6",
 
     //Winter
-    "Nadia.Dialogue.winter_1": "Placeholder.",
-    "Nadia.Dialogue.winter_7": "Placeholder.",
-    "Nadia.Dialogue.winter_14": "Placeholder.",
-    "Nadia.Dialogue.winter_24": "Placeholder.",
+    "Nadia.Dialogue.winter_1": "Hm... I don't feel too cold for some reason. I'm still bundling up per Iman's request, but I'm not freezing my backside off yet.$6",
+    "Nadia.Dialogue.winter_7": "Is Elias fishing at this thing tomorrow? You better watch out for that man, @.$6#$b#%Nadia clears her throat and starts imitating Elias.#$b#He's all, 'I've been fishin' since I could crawl! I caught a fish with my mouth when I was five!'.$6",
+    "Nadia.Dialogue.winter_14": "You know, I'm not sure I've been around for the night market before. Or I never really went to check it out I guess. I'll make sure to drop by this time and see what it's all about.$h",
+    "Nadia.Dialogue.winter_24": "Damn, time goes by a lot faster in the Valley, huh? Happy new year, almost. I'm excited to find out who my gift giver is.$h",
 
     //Days of The Week
 
