@@ -5058,7 +5058,7 @@
     "Diala.Dialogue.luauBest": "That soup took me by surprise!$7#$b#I wasn't expecting it to be so delicious!$u",
     "Diala.Dialogue.luauShorts": "*giggle* Whatever that purple thing in the soup was, I'm glad I didn't have any of it.$u",
     "Diala.Dialogue.luauPoisoned": "Ugh... that soup really messed me up.$10#$b#I feel terrible.$s",
-    "Diala.Dialogue.ReihanaIntro": "Ugh, I swear I didn't mean for that to happen! What kind of potion for making fertilizer turns into a demon summoning?!$s#$b#Shit, I gotta fix this somehow.$s",
+    "Diala.Dialogue.ReihanaIntro": "Ugh, I swear I didn't mean for that to happen! What kind of potion for making fertilizer turns into a demon summoning?!$s#$b#I gotta fix this somehow...$s",
     "Diala.Dialogue.RaccoonMuffin": "Ugh... that raccoon stole one of my freshly baked muffins. I'm going to need to start making double the amount now that both Derya AND the raccoon keep taking them.$9",
 
     //Derya
@@ -5158,7 +5158,7 @@
     "Jumana.Dialogue.luauBest": "That soup was surprisingly delicious!$6#$b#I'm talking to everyone to see what was added to it so I can make it at home.$h",
     "Jumana.Dialogue.luauShorts": "Whoever put those shorts in is incredibly disrespectful.$a#$b#Not that I care about the governor, but It's a shame someone would want to ruin a festival like that.$s",
     "Jumana.Dialogue.luauPoisoned": "Poor Amina. She had some of that soup at the potluck and isn't feeling well now.$s",
-    "Jumana.Dialogue.ReihanaIntro": "That... incident earlier was horrifying. I'm glad everyone's okay. We just need to keep an eye out for each other until this is resolved.$s#$b#...All this for magical fertilizer. Poor Diala.$s",
+    "Jumana.Dialogue.ReihanaIntro": "That... incident earlier was horrifying. I'm glad everyone's okay. We just need to keep an eye out for each other until this is resolved.$s#$b#...All this for fertilizer. Poor Diala.$s",
 
     //Lyenne
     "Lyenne.Dialogue.cc_Complete": "I wonder if Sam, Seb, and Abi want to hang out in the community center now that it's fixed up.#$b#We tried hanging out when it was still broken down, but it was way too scary.$7",

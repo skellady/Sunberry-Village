@@ -137,6 +137,28 @@
         "HasSeenEvent": "{{ModId}}_20031434"
       }
     },
+    // Moonberry Shop
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/MoonberryShopPatch.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 1,
+        "Height": 1
+      },
+      "ToArea": {
+        "X": 38,
+        "Y": 49,
+        "Width": 1,
+        "Height": 1
+      },
+      "When": {
+        "HasSeenEvent": "{{ModId}}_20031458"
+      }
+    },
     // Jonghyuk Cave
     {
       "Action": "EditMap",
