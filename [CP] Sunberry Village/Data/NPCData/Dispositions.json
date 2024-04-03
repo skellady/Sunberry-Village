@@ -583,7 +583,15 @@
               "IsIslandAttire": true,
               "Precedence": -100,
               "Weight": 0
-            }
+            },
+            {
+              "Id": "skellady.SBV.CPDialaSpiritsEve",
+              "Portrait": "Portraits/DialaSBV/DialaSBV_SpiritsEve",
+              "Sprite": "Characters/DialaSBV/DialaSBV_SpiritsEve",
+              "Condition": "ANY \"EVENT_ID festival_fall27\" \"DAY_OF_MONTH 27, SEASON Fall\"",
+              "Precedence": -200,
+              "Weight": 0
+            },
           ],
           "Home": [
             {
@@ -704,7 +712,15 @@
               "IsIslandAttire": true,
               "Precedence": -100,
               "Weight": 0
-            }
+            },
+            {
+              "Id": "skellady.SBV.CPDeryaSpiritsEve",
+              "Portrait": "Portraits/DeryaSBV/DeryaSBV_SpiritsEve",
+              "Sprite": "Characters/DeryaSBV/DeryaSBV_SpiritsEve",
+              "Condition": "ANY \"EVENT_ID festival_fall27\" \"DAY_OF_MONTH 27, SEASON Fall\"",
+              "Precedence": -200,
+              "Weight": 0
+            },
           ],
           "Home": [
             {
@@ -789,6 +805,16 @@
             },
           ],
           "SpawnIfMissing": true,
+          "Appearance": [
+            {
+              "Id": "skellady.SBV.CPMoonSpiritsEve",
+              "Portrait": "Portraits/MoonSBV/MoonSBV_SpiritsEve",
+              "Sprite": "Characters/MoonSBV/MoonSBV_SpiritsEve",
+              "Condition": "ANY \"EVENT_ID festival_fall27\" \"DAY_OF_MONTH 27, SEASON Fall\"",
+              "Precedence": -200,
+              "Weight": 0
+            },
+          ],
           "SpouseRoom": {
             "MapAsset": "SBVSpouseRooms",
             "MapSourceRect": {

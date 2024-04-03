@@ -308,7 +308,7 @@
         {
             "LogName": "Include Dynamic Changes",
             "Action": "Include",
-            "FromFile": "Data/DynamicChanges/MapChanges.json, Data/DynamicChanges/OutfitChanges.json"
+            "FromFile": "Data/DynamicChanges/MapChanges.json"
         },
 
         // NPC Data

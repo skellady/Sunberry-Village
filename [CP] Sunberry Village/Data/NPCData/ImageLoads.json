@@ -41,6 +41,18 @@
       "Action": "Load",
       "Target": "Characters/AichaSBV_Beach, Characters/DialaSBV_Beach, Characters/DeryaSBV_Beach",
       "FromFile": "Assets/BeachCharacters/{{TargetWithoutPath}}.png",
+    },
+    {
+      "LogName": "Spirit's Eve Portraits",
+      "Action": "Load",
+      "Target": "Portraits/DialaSBV/DialaSBV_SpiritsEve, Portraits/DeryaSBV/DeryaSBV_SpiritsEve, Portraits/MoonSBV/MoonSBV_SpiritsEve",
+      "FromFile": "Assets/{{Target}}.png"
+    },
+    {
+      "LogName": "Spirit's Eve Sprites",
+      "Action": "Load",
+      "Target": "Characters/DialaSBV/DialaSBV_SpiritsEve, Characters/DeryaSBV/DeryaSBV_SpiritsEve, Characters/MoonSBV/MoonSBV_SpiritsEve",
+      "FromFile": "Assets/{{Target}}.png"
     }
   ]
 }
