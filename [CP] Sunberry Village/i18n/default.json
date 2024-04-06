@@ -108,6 +108,28 @@
     "Sunberry.Locations.MinesFinal": "Bottom of Sunberry Mines",
     "Sunberry.Locations.SecretCave": "Secret Forest Cave",
 
+    //World Map Text
+    //-------------
+
+    "WorldMap.Village.MiyoungHouse": "Silas and Miyoung's House",
+    "WorldMap.Village.SunberryLibrary": "Sunberry Library",
+    "WorldMap.Village.EzraClothes": "Ezra's Clothing Store",
+    "WorldMap.Village.ImanHouse": "Iman's House",
+    "WorldMap.Village.SerenityInn": "Serenity Inn",
+    "WorldMap.Village.DDCafe": "D&D's Cat Cafe",
+    "WorldMap.Village.AriMarket": "Ari's Market",
+    "WorldMap.Village.LaniHouse": "Lani's House",
+    "WorldMap.Village.JonghyukHouse": "Jonghyuk's House",
+    "WorldMap.Village.YriHouse": "Yri and Charles' House",
+    "WorldMap.Village.DidoHouse": "Dido and Cassie's House",
+    "WorldMap.Village.EliasOldHouse": "Elias' Old House",
+    "WorldMap.Village.SaturdayHangout": "Saturday Hangout Spot",
+    "WorldMap.Village.MaiaHouse": "Maia, Jumana, and Amina's House",
+    "WorldMap.Village.CooperHouse": "The Coopers' House",
+    "WorldMap.Village.WrenHouse": "Wren's House",
+    "WorldMap.Village.DaoHouse": "Dao's House",
+    "WorldMap.Village.RipleyHouse": "Ripley's House",
+
     //Dynamic Tokens
     //--------------
 

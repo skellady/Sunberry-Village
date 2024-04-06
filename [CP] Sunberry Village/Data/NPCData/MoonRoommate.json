@@ -44,14 +44,6 @@
         "MoonRoommate1": "{{i18n:Moon.Engagement1}}",
       },
     },
-    //Register Spouse Room
-    {
-      "Action": "EditData",
-      "Target": "Data/SpouseRooms",
-      "Entries": {
-        "MoonSBV": "SBVSpouseRooms/0",
-      },
-    },
     //Load Spouse Room
     {
       "Action": "Load",

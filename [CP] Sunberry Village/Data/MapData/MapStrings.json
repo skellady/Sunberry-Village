@@ -192,9 +192,9 @@
 			"Entries": {
 				"sbv.unoccupiedarv": "{{i18n:MapString.sbv.unoccupiedarv}}"
 			},
-			"When": {
+			/*"When": {
 				"HasMod |contains= Himetarts.ARV.CP": false
-			}
+			}*/ // RE-ENABLE THIS WHEN ARV RELEASES
 		},
 		{
 			"LogName": "Dido & Cassie's House",

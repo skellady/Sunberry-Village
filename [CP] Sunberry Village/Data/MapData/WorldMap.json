@@ -1,0 +1,135 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load World Map",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/SBVMap",
+            "FromFile": "Assets/Images/WorldMaps/{{Season}}_SBVMap.png"
+        },
+        {
+            "LogName": "Add World Map",
+            "Action": "EditData",
+            "Target": "Data/WorldMap",
+            "Entries": {
+                "skellady.SunberryVillage": {
+                    "BaseTexture": [
+                        {
+                            "Id": "Default",
+                            "Texture": "Mods\\skellady.SBVCP\\SBVMap"
+                        }
+                    ],
+                    "MapAreas": [
+                        {
+                            "Id": "SunberryVillage",
+                            "PixelArea": {
+                                "X": 0,
+                                "Y": 0,
+                                "Width": 109,
+                                "Height": 118
+                            },
+                            "ScrollText": "Sunberry Village",
+                            "Tooltips": [
+                                {
+                                    "Id": "MiyoungHouse",
+                                    "PixelArea": { "X": 93, "Y": 11, "Width": 9, "Height": 10 },
+                                    "Text": "{{i18n:WorldMap.Village.MiyoungHouse}}"
+                                },
+                                {
+                                    "Id": "SunberryLibrary",
+                                    "PixelArea": { "X": 69, "Y": 12, "Width": 15, "Height": 10 },
+                                    "Text": "{{i18n:WorldMap.Village.SunberryLibrary}}"
+                                },
+                                {
+                                    "Id": "EzraClothes",
+                                    "PixelArea": { "X": 51, "Y": 15, "Width": 11, "Height": 8 },
+                                    "Text": "{{i18n:WorldMap.Village.EzraClothes}}"
+                                },
+                                {
+                                    "Id": "ImanHouse",
+                                    "PixelArea": { "X": 42, "Y": 15, "Width": 7, "Height": 8 },
+                                    "Text": "{{i18n:WorldMap.Village.ImanHouse}}"
+                                },
+                                {
+                                    "Id": "SerenityInn",
+                                    "PixelArea": { "X": 74, "Y": 27, "Width": 16, "Height": 14 },
+                                    "Text": "{{i18n:WorldMap.Village.SerenityInn}}"
+                                },
+                                {
+                                    "Id": "DDCafe",
+                                    "PixelArea": { "X": 54, "Y": 26, "Width": 9, "Height": 10 },
+                                    "Text": "{{i18n:WorldMap.Village.DDCafe}}"
+                                },
+                                {
+                                    "Id": "AriMarket",
+                                    "PixelArea": { "X": 88, "Y": 46, "Width": 7, "Height": 11 },
+                                    "Text": "{{i18n:WorldMap.Village.AriMarket}}"
+                                },
+                                {
+                                    "Id": "LaniHouse",
+                                    "PixelArea": { "X": 71, "Y": 48, "Width": 7, "Height": 8 },
+                                    "Text": "{{i18n:WorldMap.Village.LaniHouse}}"
+                                },
+                                {
+                                    "Id": "JonghyukHouse",
+                                    "PixelArea": { "X": 87, "Y": 59, "Width": 7, "Height": 8 },
+                                    "Text": "{{i18n:WorldMap.Village.JonghyukHouse}}"
+                                },
+                                {
+                                    "Id": "YriHouse",
+                                    "PixelArea": { "X": 68, "Y": 58, "Width": 7, "Height": 8 },
+                                    "Text": "{{i18n:WorldMap.Village.YriHouse}}"
+                                },
+                                {
+                                    "Id": "DidoHouse",
+                                    "PixelArea": { "X": 80, "Y": 88, "Width": 7, "Height": 10 },
+                                    "Text": "{{i18n:WorldMap.Village.DidoHouse}}"
+                                },
+                                {
+                                    "Id": "EliasOldHouse",
+                                    "PixelArea": { "X": 89, "Y": 96, "Width": 7, "Height": 7 },
+                                    "Text": "{{i18n:WorldMap.Village.EliasOldHouse}}"
+                                },
+                                {
+                                    "Id": "SaturdayHangout",
+                                    "PixelArea": { "X": 63, "Y": 86, "Width": 12, "Height": 17 },
+                                    "Text": "{{i18n:WorldMap.Village.SaturdayHangout}}"
+                                },
+                                {
+                                    "Id": "MaiaHouse",
+                                    "PixelArea": { "X": 28, "Y": 47, "Width": 13, "Height": 20 },
+                                    "Text": "{{i18n:WorldMap.Village.MaiaHouse}}"
+                                },
+                                {
+                                    "Id": "CooperHouse",
+                                    "PixelArea": { "X": 17, "Y": 43, "Width": 7, "Height": 10 },
+                                    "Text": "{{i18n:WorldMap.Village.CooperHouse}}"
+                                },
+                                {
+                                    "Id": "WrenHouse",
+                                    "PixelArea": { "X": 16, "Y": 62, "Width": 7, "Height": 8 },
+                                    "Text": "{{i18n:WorldMap.Village.WrenHouse}}"
+                                },
+                                {
+                                    "Id": "DaoHouse",
+                                    "PixelArea": { "X": 35, "Y": 68, "Width": 7, "Height": 8 },
+                                    "Text": "{{i18n:WorldMap.Village.DaoHouse}}"
+                                },
+                                {
+                                    "Id": "RipleyHouse",
+                                    "PixelArea": { "X": 9, "Y": 88, "Width": 19, "Height": 24 },
+                                    "Text": "{{i18n:WorldMap.Village.RipleyHouse}}"
+                                },
+                            ],
+                            "WorldPositions": [
+                                {
+                                    "LocationName": "Custom_SBV_SunberryVillage"
+                                }
+                            ]
+                        },
+                    ],
+                    
+                }
+            }
+        }
+    ]
+}
