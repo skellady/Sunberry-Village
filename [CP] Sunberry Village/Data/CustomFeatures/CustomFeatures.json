@@ -76,7 +76,10 @@
                                 "(O)919",
                                 "(O)920"
                             ],
-                            "MinStack": 15
+                            "MinStack": 15,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 5000,
+                            }
                         },
                         // Enricher
                         {

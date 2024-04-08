@@ -226,12 +226,15 @@
                     "Price": 220,
                     "Texture": "Mods\\skellady.SBVCP\\Food",
                     "SpriteIndex": 0,
-                    "Buff": {
-                        "Duration": 300,
-                        "CustomAttributes": {
-                            "FarmingLevel": 2
+                    "Buffs": [
+                        {
+                            "Id": "ChocoChipCookies_Buffs",
+                            "Duration": 300,
+                            "CustomAttributes": {
+                                "FarmingLevel": 2
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": false,
                 },
                 "skellady.SBVCP_DialaHotChoco": {
@@ -244,12 +247,15 @@
                     "Price": 400,
                     "Texture": "Mods\\skellady.SBVCP\\Food",
                     "SpriteIndex": 1,
-                    "Buff": {
-                        "Duration": 300,
-                        "CustomAttributes": {
-                            "LuckLevel": 1
+                    "Buffs": [
+                        {
+                            "Id": "DialaHotChoco_Buffs",
+                            "Duration": 300,
+                            "CustomAttributes": {
+                                "LuckLevel": 1
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                 },
                 "skellady.SBVCP_IceCreamBowl": {
@@ -262,12 +268,15 @@
                     "Price": 350,
                     "Texture": "Mods\\skellady.SBVCP\\Food",
                     "SpriteIndex": 2,
-                    "Buff": {
-                        "Duration": 300,
-                        "CustomAttributes": {
-                            "MiningLevel": 2
+                    "Buffs": [
+                        {
+                            "Id": "IceCreamBowl_Buffs",
+                            "Duration": 300,
+                            "CustomAttributes": {
+                                "MiningLevel": 2
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": false,
                 }
             }
