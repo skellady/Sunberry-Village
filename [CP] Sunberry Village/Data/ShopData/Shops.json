@@ -402,7 +402,7 @@
                         // Shirts
                         {
                             "Id": "skellady.SBVCP_EzraClothes.Shirts",
-                            "ItemId": "RANDOM_ITEMS (S)",
+                            "ItemId": "RANDOM_ITEMS (S) 1000 1297",
                             "PerItemCondition": "!ITEM_ID_PREFIX Target Lumisteria.MtVapius_ShirtPride",
                             "MaxItems": 5,
                             "Price": 1000,
