@@ -219,8 +219,8 @@
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SunberryForest}}",
                     "DefaultArrivalTile": {
-                        "X": 48,
-                        "Y": 25
+                        "X": 68,
+                        "Y": 4
                     },
                     "ExcludeFromNpcPathfinding": false,
                     "Music": [
