@@ -1710,6 +1710,29 @@
     "event-20031462.09": "Then... I've been making extra food for no reason?$7",
     "event-20031462.10": "Kinda, yeah! It tastes good, though. Keep it up!$h",
 
+    // Wizard Totem Event
+
+    // Aicha 2 Hearts Event
+    "event-20031464.01": "Ooh, let me carry that for yo-",
+    "event-20031464.02": "Oh, Mr. Doctor! Would you like some help at the clini--$u",
+    "event-20031464.03": "Aw...$s",
+    "event-20031464.04": "Hello! Would you like some help with your flowers?$h",
+    "event-20031464.05": "AH!!",
+    "event-20031464.06": "...That old lady sure can run.$s",
+    "event-20031464.07": "*sigh*",
+    "event-20031464.08": "*sniffle*",
+    "event-20031464.09": "Diala? What... Why are you an angel?$7",
+    "event-20031464.10": "I'm not! I'm just here to set things right. You're doing a good thing, Aicha! Don't give up yet. People will warm up to you eventually.$h",
+    "event-20031464.11": "Rei! What are you doing here?$9",
+    "event-20031464.12": "To get rid of her, duh. Who cares what these humans think? You're superior to them. CRUSH them!$11",
+    "event-20031464.13": "...$a",
+    "event-20031464.14": "Oh! @, You're not here to drag me into a secret third direction, are you?$s",
+    "event-20031464.15": "I just... everyone keeps running away from me when I try to help. I don't know what to do.$s#$b#And on top of that, I just had to deal with both Diala and Rei trying to convince me between doing good or crushing the humans.$7",
+    "event-20031464.16": "You can always try again tomorrow!",
+    "event-20031464.17": "People will warm up to you, I can even help you out!",
+    "event-20031464.18": "You think so, @? I... Yeah! You're right.$u",
+    "event-20031464.19": "Thank you. I'm gonna head back home now. I'll make sure the humans like me, someday!$h",
+
     //Animation Dialogue
     //------------------
 
