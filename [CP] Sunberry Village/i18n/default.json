@@ -4365,13 +4365,13 @@
     //Days of The Week
 
     //0 hearts
-    "Nadia.Dialogue.Mon": "Placeholder.",
-    "Nadia.Dialogue.Tue": "Placeholder.",
-    "Nadia.Dialogue.Wed": "Placeholder.",
-    "Nadia.Dialogue.Thu": "Placeholder.",
-    "Nadia.Dialogue.Fri": "Placeholder.",
-    "Nadia.Dialogue.Sat": "Placeholder.",
-    "Nadia.Dialogue.Sun": "Placeholder.",
+    "Nadia.Dialogue.Mon": "%Nadia stretches and groans.#$b#*Yawn*... I stayed up far too late last night and barely got any sleep. Gonna grab some coffee from the cat cafe and hope that it wakes me up a little.$8",
+    "Nadia.Dialogue.Tue": "Huh... Is it Tuesday? I wonder what Ari's special offer is today. I'll have to drop by and see.$h",
+    "Nadia.Dialogue.Wed": "Oh, hey @! How's the farm doing? Sounds like lots of hard work. Make sure to get plenty of rest, yeah?",
+    "Nadia.Dialogue.Thu": "It's still a little weird waking up and remembering I'm back in Sunberry. It's been a while, but I'm sure I'll get used to it soon.$h#$b#Plus, it's nice being able to hang out with Ezra and Iman more.$h",
+    "Nadia.Dialogue.Fri": "I kinda wish we had more restaurants or diners around here. I feel like I've never ran out of places to eat out at back in the city.#$b#Yes, I can cook for myself and others at the diner, but I still enjoy other people's food.",
+    "Nadia.Dialogue.Sat": "Ah... I had to go into Pelican Town today. It was... interesting to see the people I haven't seen in years.$8",
+    "Nadia.Dialogue.Sun": "It's gonna take a while for me to get used to the weather here. Feels so different than what I was used to back in Zuzu.#$b#Oh, and speaking of weather, Ezra seems to be hellbent on taking me shopping. I hate shopping. I'd rather stick to the nice four to six shirts I cycle through.$s",
 
     //2 hearts
     "Nadia.Dialogue.Mon2": "Placeholder.",
