@@ -5,6 +5,7 @@ using StardewValley;
 using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
+using StardewValley.GameData;
 
 namespace SunberryVillage.Audio
 {
@@ -67,19 +68,20 @@ namespace SunberryVillage.Audio
 			// small delay in case other music tries to start, then kill it
 			//DelayedAction.functionAfterDelay(() => Game1.stopMusicTrack(Game1.MusicContext.Default), 50);
 
+			Game1.stopMusicTrack(MusicContext.Default);
+
 			CurrentSong.Play();
 			IsMusicPlaying = true;
 
 			// only introduce song once, when it first plays for the night
 			// you'll basically only ever see this if you're at the hangout when elias starts playing
 			// also only fade in song if he's just started playing
-			if (!SongIntroed)
-			{
-				FadeInMod = 0f;
-				FadingInMusic = true;
-				AddSongIntroSpeechBubble();
-			}
+			if (SongIntroed)
+				return;
 
+			FadeInMod = 0f;
+			FadingInMusic = true;
+			AddSongIntroSpeechBubble();
 		}
 
 		/// <summary>
@@ -137,12 +139,11 @@ namespace SunberryVillage.Audio
 				FadingOutMusic = false;
 				return true;
 			}
-			else
-			{
-				FadeOutMod -= FadeFactor;
-				CurrentSong.Volume = Game1.options.musicVolumeLevel * VolumeMod * FadeOutMod;
-				return false;
-			}
+
+			FadeOutMod -= FadeFactor;
+			CurrentSong.Volume = Game1.options.musicVolumeLevel * VolumeMod * FadeOutMod;
+			return false;
+
 		}
 
 		/// <summary>
@@ -159,10 +160,10 @@ namespace SunberryVillage.Audio
 				return;
 			}
 
-			float DistanceToElias = Vector2.Distance(currentTilePos, EliasGuitarTilePos);
+			float distanceToElias = Vector2.Distance(currentTilePos, EliasGuitarTilePos);
 
 			// if within MaxVolumeCutoffDistance tiles of Elias, can skip formula and set volume to max.
-			if (DistanceToElias < MaxVolumeCutoffDistance)
+			if (distanceToElias < MaxVolumeCutoffDistance)
 			{
 				VolumeMod = 1f;
 			}
@@ -173,7 +174,7 @@ namespace SunberryVillage.Audio
 				// gets value from 100 to 0 - divide by 100 to get VolumeMod
 				// using some inverse square law shit: https://www.wkcgroup.com/tools-room/inverse-square-law-sound-calculator/
 
-				VolumeMod = (float)(100 - FalloffFactor * Math.Log10(DistanceToElias / LogDivider)) / 100f;
+				VolumeMod = (float)(100 - FalloffFactor * Math.Log10(distanceToElias / LogDivider)) / 100f;
 				VolumeMod = Math.Clamp(VolumeMod, 0f, 1f);
 			}
 
@@ -203,13 +204,12 @@ namespace SunberryVillage.Audio
 		/// <returns><c>True</c> if Elias is in position and doing his guitar animation.</returns>
 		internal static bool ShouldMusicPlay()
 		{
-			if (Elias is null)
-				Elias = Game1.getCharacterFromName("EliasSBV");
+			Elias ??= Game1.getCharacterFromName("EliasSBV");
 
 			if (Elias is null || Elias.currentLocation != Game1.currentLocation)
 				return false;
 
-			return (Vector2.Distance(Elias.Tile, EliasGuitarTilePos) < 1f) && Elias.doingEndOfRouteAnimation.Value;
+			return Vector2.Distance(Elias.Tile, EliasGuitarTilePos) < 1f && Elias.doingEndOfRouteAnimation.Value;
 		}
 
 		/// <summary>
@@ -218,7 +218,7 @@ namespace SunberryVillage.Audio
 		internal static void RestartSongIfNecessary()
 		{
 			// SettlingIn loops so no need to manually Play it. the others don't loop
-			if (CurrentSong is ICue cue && cue.Name != "SettlingIn" && CurrentSong.IsStopped)
+			if (CurrentSong is { } cue && cue.Name != "SettlingIn" && CurrentSong.IsStopped)
 				CurrentSong.Play();
 		}
 
@@ -273,15 +273,12 @@ namespace SunberryVillage.Audio
 				{
 					StartMusicAndUpdateEventHooks();
 				}
-				else
+				else if (RecheckConditionsForMusicHooks == 0)
 				{
-					if (RecheckConditionsForMusicHooks == 0)
-					{
-						RecheckConditionsForMusicHooks++;
-						Globals.EventHelper.GameLoop.UpdateTicked += RecheckConditionsForMusic;
-					}
-					//TraceHooks();
+					RecheckConditionsForMusicHooks++;
+					Globals.EventHelper.GameLoop.UpdateTicked += RecheckConditionsForMusic;
 				}
+				//TraceHooks();
 			}
 			// Leaving Sunberry - stop music and remove event hooks
 			else if (oldLoc.Name == "Custom_SBV_SunberryVillage" && newLoc.Name != "Custom_SBV_SunberryVillage")
@@ -325,13 +322,10 @@ namespace SunberryVillage.Audio
 				StopMusic();
 			}
 			// otherwise, add a fade out hook which will, when done fading out, call this method again and force a stop
-			else
+			else if (FadeOutHooks == 0)
 			{
-				if (FadeOutHooks == 0)
-				{
-					Globals.EventHelper.GameLoop.UpdateTicked += FadeOutMusic;
-					FadeOutHooks++;
-				}
+				Globals.EventHelper.GameLoop.UpdateTicked += FadeOutMusic;
+				FadeOutHooks++;
 			}
 
 			// if there are any conditional hooks left at this point, there is a serious problem
@@ -355,7 +349,7 @@ namespace SunberryVillage.Audio
 				StartMusicAndUpdateEventHooks();
 
 			// if it is playing and shouldn't be, stop it with fade out
-			else if (!shouldMusicPlay && isMusicPlaying)
+			else if (isMusicPlaying && !shouldMusicPlay)
 				CleanUpMusicAndHandlers(forceStop: false);
 		}
 

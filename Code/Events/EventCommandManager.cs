@@ -1,11 +1,14 @@
 ﻿using Microsoft.Xna.Framework;
 using StardewValley;
+using SunberryVillage.Events.Phone;
 using SunberryVillage.Events.Tarot;
 using SunberryVillage.Utilities;
 
 namespace SunberryVillage.Events;
 internal class EventCommandManager
 {
+	internal static EventScriptPhoneConfession phoneScript;
+
 	internal static bool WizardWarpInitialized = false;
 	private static WizardWarpHelper warpHelper;
 
@@ -17,9 +20,25 @@ internal class EventCommandManager
 	private static void RegisterEventCommands(object sender, StardewModdingAPI.Events.GameLaunchedEventArgs e)
 	{
 		// Tarot cutscene command
-		Event.RegisterCommand("SBVTarotCutscene", (ev, args, eventContext) => {
+		Event.RegisterCommand("SBVTarotCutscene", (ev, _, _) => {
 			ev.currentCustomEventScript = new EventScriptDialaTarot();
 			ev.CurrentCommand++;
+		});
+
+		// Tarot cutscene command
+		Event.RegisterCommand("SunberryTeam.SBVSMAPI_PhoneConfession", (ev, _, context) =>
+		{
+			if (phoneScript is null)
+			{
+				phoneScript = new EventScriptPhoneConfession();
+				ev.currentCustomEventScript = phoneScript;
+			}
+			else if (phoneScript.update(context.Time, ev))
+			{
+				ev.currentCustomEventScript = null;
+				ev.CurrentCommand++;
+				phoneScript = null;
+			}
 		});
 
 		// Wizard sparkles

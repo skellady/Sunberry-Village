@@ -2,13 +2,13 @@
 using Microsoft.Xna.Framework.Input;
 using StardewModdingAPI.Events;
 using StardewValley;
-using SunberryVillage.Tarot;
+using StardewValley.Menus;
+using SunberryVillage.Events.Tarot;
+using SunberryVillage.Shops;
 using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using StardewValley.Menus;
-using SunberryVillage.Shops;
 
 namespace SunberryVillage.Maps;
 

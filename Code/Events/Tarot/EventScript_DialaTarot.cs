@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
-using SunberryVillage.Tarot;
 using SunberryVillage.Utilities;
 using Vector2 = Microsoft.Xna.Framework.Vector2;
 

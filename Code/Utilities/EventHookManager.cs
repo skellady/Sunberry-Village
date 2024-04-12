@@ -1,11 +1,12 @@
 using SunberryVillage.Animations;
 using SunberryVillage.Audio;
 using SunberryVillage.Events;
+using SunberryVillage.Events.Phone;
+using SunberryVillage.Events.Tarot;
 using SunberryVillage.Integration;
 using SunberryVillage.Lighting;
 using SunberryVillage.Maps;
 using SunberryVillage.Shops;
-using SunberryVillage.Tarot;
 using SunberryVillage.TextEmojis;
 
 namespace SunberryVillage.Utilities;
@@ -15,6 +16,7 @@ internal class EventHookManager
 	internal static void InitializeEventHooks()
 	{
 		IntegrationManager.AddEventHooks();
+		PhoneManager.AddEventHooks();
 		TarotManager.AddEventHooks();
 		AnimationsManager.AddEventHooks();
 		AudioManager.AddEventHooks();

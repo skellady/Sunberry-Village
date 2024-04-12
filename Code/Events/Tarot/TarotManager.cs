@@ -1,14 +1,12 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
-using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
-using StardewValley.Buffs;
 using SunberryVillage.Utilities;
 using System.Collections.Generic;
 using System.Linq;
 // ReSharper disable UnusedMember.Global
 
-namespace SunberryVillage.Tarot;
+namespace SunberryVillage.Events.Tarot;
 
 internal static class TarotManager
 {

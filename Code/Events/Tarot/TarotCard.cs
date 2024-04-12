@@ -4,7 +4,7 @@ using StardewValley.Buffs;
 using SunberryVillage.Utilities;
 using System;
 
-namespace SunberryVillage.Tarot;
+namespace SunberryVillage.Events.Tarot;
 
 internal class TarotCard
 {
