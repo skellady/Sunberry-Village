@@ -12,7 +12,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "DialaSBV 48 22 right/DeryaSBV 49 22 left/EliasSBV 73 32 right/MaiaSBV 48 25 right/AminaSBV 50 25 left/JumanaSBV 49 24 down/LyenneSBV 87 20 right/BlakeSBV 89 20 left/OpheliaSBV 88 19 down/MiyoungSBV 53 54 right/SilasSBV 54 54 left/ImanSBV 96 26 right/EzraSBV 97 26 left/AriSBV 59 38 down",
+					"Value": "DialaSBV 48 22 right/DeryaSBV 49 22 left/EliasSBV 74 31 right/MaiaSBV 48 25 right/AminaSBV 50 25 left/JumanaSBV 49 24 down/LyenneSBV 87 20 right/BlakeSBV 89 20 left/OpheliaSBV 88 19 down/MiyoungSBV 53 54 right/SilasSBV 54 54 left/ImanSBV 96 26 right/EzraSBV 97 26 left/AriSBV 59 38 down",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -22,7 +22,7 @@
 						"Entries",
 						"Main-Event_additionalCharacters"
 					],
-					"Value": "DialaSBV 48 22 right/DeryaSBV 49 22 left/EliasSBV 81 32 left/MaiaSBV 48 25 right/AminaSBV 50 25 left/JumanaSBV 49 24 down/LyenneSBV 87 20 right/BlakeSBV 89 20 left/OpheliaSBV 88 19 down/MiyoungSBV 53 54 right/SilasSBV 54 54 left/ImanSBV 96 26 right/EzraSBV 97 26 left/AriSBV 59 38 down",
+					"Value": "DialaSBV 48 22 right/DeryaSBV 49 22 left/EliasSBV 74 31 left/MaiaSBV 48 25 right/AminaSBV 50 25 left/JumanaSBV 49 24 down/LyenneSBV 87 20 right/BlakeSBV 89 20 left/OpheliaSBV 88 19 down/MiyoungSBV 53 54 right/SilasSBV 54 54 left/ImanSBV 96 26 right/EzraSBV 97 26 left/AriSBV 59 38 down",
 					"Delimiter": "/",
 				},
 			]

@@ -29,7 +29,8 @@
 				"fall_Sat": "610 Custom_SBV_DialaCafe 29 9 0/1200 Custom_SBV_SunberryLibrary 17 10 0/1500 Custom_SBV_SunberryVillage 55 80 1 \"Strings\\schedules\\MoonSBV:Fountain\"/2300 Custom_SBV_DDHouse 15 21 2",
 				"winter_Sat": "610 Custom_SBV_DialaCafe 29 9 0/900 ArchaeologyHouse 32 12 0/1700 Custom_SBV_DDHouse 2 20 3/2100 Custom_SBV_DDHouse 15 21 2",
 				"winter_16": "610 Custom_SBV_DDHouse 7 22 3/900 Custom_SBV_DDHouse 27 22 0/1400 Beach 12 39 0/2100 Custom_SBV_DDHouse 15 21 2",
-				"rain": "610 Custom_SBV_DialaCafe 29 9 0/1200 Custom_SBV_DialaCafe 33 15 2/2100 Custom_SBV_DDHouse 15 21 2"
+				"rain": "610 Custom_SBV_DialaCafe 29 9 0/1200 Custom_SBV_DialaCafe 33 15 2/2100 Custom_SBV_DDHouse 15 21 2",
+				"GreenRain": "610 Custom_SBV_DialaCafe 24 16 2"
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains=skellady.SBVCP_20031402": true
@@ -53,7 +54,8 @@
 				"fall_Sat": "610 Custom_SBV_DialaCafe 29 9 0/1200 Custom_SBV_SunberryLibrary 17 10 0/1500 Custom_SBV_SunberryVillage 56 90 3/2300 Custom_SBV_DDHouse 15 21 2",
 				"winter_Sat": "610 Custom_SBV_DialaCafe 29 9 0/900 ArchaeologyHouse 32 12 0/1700 Custom_SBV_DDHouse 2 20 3/2100 Custom_SBV_DDHouse 15 21 2",
 				"winter_16": "610 Custom_SBV_DDHouse 7 22 3/900 Custom_SBV_DDHouse 27 22 0/1400 Beach 12 39 0/2100 Custom_SBV_DDHouse 15 21 2",
-				"rain": "610 Custom_SBV_DialaCafe 29 9 0/1200 Custom_SBV_DialaCafe 33 15 2/2100 Custom_SBV_DDHouse 15 21 2"
+				"rain": "610 Custom_SBV_DialaCafe 29 9 0/1200 Custom_SBV_DialaCafe 33 15 2/2100 Custom_SBV_DDHouse 15 21 2",
+				"GreenRain": "610 Custom_SBV_DialaCafe 24 16 2"
 			},
 			"When": {
 				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031412": true

@@ -17,6 +17,7 @@
 				"fall_Sat": "610 Custom_SBV_SerenityInn 8 6 2/1300 Custom_SBV_SunberryVillage 66 35 2/1600 Custom_SBV_SunberryVillage 65 80 3 \"Strings\\schedules\\OpheliaSBV:Fountain\"/2350 Custom_SBV_SerenityInn 8 6 2",
 				"winter_Sat": "610 Custom_SBV_SerenityInn 8 6 2/1600 Custom_SBV_SunberryVillage 66 35 2/2100 Custom_SBV_SerenityInn 8 6 2",
 				"rain": "610 Custom_SBV_SerenityInn 8 6 2/1600 Custom_SBV_SerenityInn 2 13 3/a2000 Custom_SBV_SerenityInn 8 6 2",
+				"GreenRain": "610 Custom_SBV_SerenityInn 3 13 0"
 			},
 		},
 	]

@@ -301,14 +301,14 @@
         {
             "LogName": "Include Map Data",
             "Action": "Include",
-            "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/GarbageCans.json, Data/MapData/ChairTiles.json"
+            "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/GarbageCans.json, Data/MapData/ChairTiles.json, Data/MapData/WorldMap.json"
         },
 
         // Dynamic Changes
         {
             "LogName": "Include Dynamic Changes",
             "Action": "Include",
-            "FromFile": "Data/DynamicChanges/MapChanges.json, Data/DynamicChanges/OutfitChanges.json"
+            "FromFile": "Data/DynamicChanges/MapChanges.json"
         },
 
         // NPC Data
@@ -343,7 +343,7 @@
         {
             "LogName": "Include Compatibility Data",
             "Action": "Include",
-            "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json"
+            "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json, Data/Compatibility/RSVShop.json"
         },
 
         // Festivals

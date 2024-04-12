@@ -671,8 +671,8 @@
          "MapTiles": [
             {
                "Position": {
-                  "X": 25,
-                  "Y": 25
+                  "X": 33,
+                  "Y": 21
                },
                "Layer": "Back",
                "SetProperties": {
@@ -701,8 +701,8 @@
             },
             {
                "Position": {
-                  "X": 20,
-                  "Y": 54
+                  "X": 28,
+                  "Y": 52
                },
                "Layer": "Back",
                "SetProperties": {
@@ -711,7 +711,7 @@
             },
             {
                "Position": {
-                  "X": 61,
+                  "X": 58,
                   "Y": 50
                },
                "Layer": "Back",

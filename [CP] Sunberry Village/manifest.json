@@ -26,14 +26,10 @@
       "UniqueID": "hxw.tilesheets",
       "IsRequired": true
     },
-    /*{
-      "UniqueID": "KediDili.Tilesheets.CP",
+    {
+      "UniqueID": "Esca.EMP",
       "IsRequired": true
-    },*/
-    //{
-    //  "UniqueID": "Esca.EMP",
-    //  "IsRequired": true
-    //},
+    },
     // components
     {
       "UniqueID": "skellady.SBVCC",

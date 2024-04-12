@@ -21,6 +21,7 @@
 				"winter_Sat": "610 Custom_SBV_MaiaHouse 23 18 0/800 Custom_SBV_SilasBlacksmith 12 13 2/1400 Custom_SBV_SunberryMountain 46 19 1 maia_smoke/a2000 Custom_SBV_MaiaHouse 27 5 3",
 				"winter_15": "610 Custom_SBV_MaiaHouse 23 18 0/800 Custom_SBV_SilasBlacksmith 12 13 2/1300 Beach 11 8 2/2100 Custom_SBV_MaiaHouse 27 5 3",
 				"rain": "610 Custom_SBV_MaiaHouse 23 18 0/800 Custom_SBV_SilasBlacksmith 12 13 2/1600 Custom_SBV_SunberryMountain 46 19 1 maia_smoke/a2000 Custom_SBV_MaiaHouse 27 5 3",
+				"GreenRain": "610 Custom_SBV_MaiaHouse 26 15 2"
 			},
 		},
 	]

@@ -19,6 +19,7 @@
 				"TroutDerby": "610 Forest 95 39 2 elias_fish/2100 Custom_SBV_EliasHouse 3 5 3",
 				"SquidFest": "610 Custom_SBV_SunberryLibrary 23 10 0/900 Beach 26 36 elias_fish/2100 Custom_SBV_EliasHouse 3 5 3",
 				"rain": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/2000 Custom_SBV_EliasHouse 3 5 3",
+				"GreenRain": "610 Custom_SBV_SunberryLibrary 19 11 square_2_2_0",
 			},
 		},
 	]

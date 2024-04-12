@@ -108,6 +108,28 @@
     "Sunberry.Locations.MinesFinal": "Bottom of Sunberry Mines",
     "Sunberry.Locations.SecretCave": "Secret Forest Cave",
 
+    //World Map Text
+    //-------------
+
+    "WorldMap.Village.MiyoungHouse": "Silas and Miyoung's House",
+    "WorldMap.Village.SunberryLibrary": "Sunberry Library",
+    "WorldMap.Village.EzraClothes": "Ezra's Clothing Store",
+    "WorldMap.Village.ImanHouse": "Iman's House",
+    "WorldMap.Village.SerenityInn": "Serenity Inn",
+    "WorldMap.Village.DDCafe": "D&D's Cat Cafe",
+    "WorldMap.Village.AriMarket": "Ari's Market",
+    "WorldMap.Village.LaniHouse": "Lani's House",
+    "WorldMap.Village.JonghyukHouse": "Jonghyuk's House",
+    "WorldMap.Village.YriHouse": "Yri and Charles' House",
+    "WorldMap.Village.DidoHouse": "Dido and Cassie's House",
+    "WorldMap.Village.EliasOldHouse": "Elias' Old House",
+    "WorldMap.Village.SaturdayHangout": "Saturday Hangout Spot",
+    "WorldMap.Village.MaiaHouse": "Maia, Jumana, and Amina's House",
+    "WorldMap.Village.CooperHouse": "The Coopers' House",
+    "WorldMap.Village.WrenHouse": "Wren's House",
+    "WorldMap.Village.DaoHouse": "Dao's House",
+    "WorldMap.Village.RipleyHouse": "Ripley's House",
+
     //Dynamic Tokens
     //--------------
 
@@ -849,6 +871,10 @@
     "Derya.Dialogue.FollowDerya2": "Oh, my God. You're gonna scare Ari! Let me shop in peace.$s",
     "Derya.Dialogue.FollowDerya3": "Hey, Rei, you got any games on your phone? Might as well do something fun while you follow me around all day.$9",
     "Derya.Dialogue.FollowDerya4": "Here, too?! Seriously? Stop staring at me while I try to sleep.$10",
+    "Derya.Dialogue.PreRei1": "Hey! Check out what we have available today if you haven't yet. Derya made some delicious cookies.$h",
+    "Derya.Dialogue.PreRei2": "I try to shop both here and at Pierre's. It gets me great deals when I mention one in front of the other.$6",
+    "Derya.Dialogue.PreRei3": "Oh, hey. I'm just getting some fresh air. This is a nice spot, isn't it?$h",
+    "Derya.Dialogue.PreRei4": "...What are you doing in my room at this hour?$11",
 
     "Diala.Dialogue.Saloon1": "I don't drink, but I enjoy coming here for the vibes.$h",
     "Diala.Dialogue.Saloon2": "I come here pretty often.#$b#Mostly to get my dose of socialization without trying too hard.$u",
@@ -1683,6 +1709,29 @@
     "event-20031462.08": "No, not really!$8",
     "event-20031462.09": "Then... I've been making extra food for no reason?$7",
     "event-20031462.10": "Kinda, yeah! It tastes good, though. Keep it up!$h",
+
+    // Wizard Totem Event
+
+    // Aicha 2 Hearts Event
+    "event-20031464.01": "Ooh, let me carry that for yo-",
+    "event-20031464.02": "Oh, Mr. Doctor! Would you like some help at the clini--$u",
+    "event-20031464.03": "Aw...$s",
+    "event-20031464.04": "Hello! Would you like some help with your flowers?$h",
+    "event-20031464.05": "AH!!",
+    "event-20031464.06": "...That old lady sure can run.$s",
+    "event-20031464.07": "*sigh*",
+    "event-20031464.08": "*sniffle*",
+    "event-20031464.09": "Diala? What... Why are you an angel?$7",
+    "event-20031464.10": "I'm not! I'm just here to set things right. You're doing a good thing, Aicha! Don't give up yet. People will warm up to you eventually.$h",
+    "event-20031464.11": "Rei! What are you doing here?$9",
+    "event-20031464.12": "To get rid of her, duh. Who cares what these humans think? You're superior to them. CRUSH them!$11",
+    "event-20031464.13": "...$a",
+    "event-20031464.14": "Oh! @, You're not here to drag me into a secret third direction, are you?$s",
+    "event-20031464.15": "I just... everyone keeps running away from me when I try to help. I don't know what to do.$s#$b#And on top of that, I just had to deal with both Diala and Rei trying to convince me between doing good or crushing the humans.$7",
+    "event-20031464.16": "You can always try again tomorrow!",
+    "event-20031464.17": "People will warm up to you, I can even help you out!",
+    "event-20031464.18": "You think so, @? I... Yeah! You're right.$u",
+    "event-20031464.19": "Thank you. I'm gonna head back home now. I'll make sure the humans like me, someday!$h",
 
     //Animation Dialogue
     //------------------
@@ -2772,8 +2821,8 @@
     "Festivals.RSVGathering.Amina": "Trinnie, Jas, and I are going to win! Vin and Keahi don't stand a chance against us.$h#$b#I actually bought one of Trinnie's plants! I think grandma would like it.$3",
     "Festivals.RSVGathering.Blake": "I don't particularly care much for the whole boys versus girls thing. I'm just here for the food and the concert. Gotta support my friends!$u",
     "Festivals.RSVGathering.Diala": "Hey, @! Ysa and I just caught up.$u#$b#She booked a reading with me.$h",
-    "Festivals.RSVGathering.Derya": "I'm gonna start my own non-binary stall, spread the word.$6",
-    "Festivals.RSVGathering.Ezra": "I wonder if Derya's serious about starting a non-binary stall. If so, I'd like to think we'd be the most stylish!$6",
+    "Festivals.RSVGathering.Derya": "We asked Lenny for permission to start a non-binary stall. Now the girls and the guys have more competition.$6#$b#Check out what we've got for sale!$h",
+    "Festivals.RSVGathering.Ezra": "It was nice of Lenny to let us put up this stall. She wanted to make sure everyone was included.$u#$b#On that note, did anything in our stall catch your eye?$h",
     "Festivals.RSVGathering.Jumana": "Ah, it's always good to see Lola. It's a very long walk to Ridgeside, so I rarely get to see her.$4#$b#Elias is a sweetheart, he made sure to drive Miyoung and I up here.$7",
     "Festivals.RSVGathering.Miyoung": "You know, I considered moving to Ridgeside at some point. Silas really enjoyed the atmosphere here.#$b#I couldn't bear to leave my home, though. We can still enjoy the village and its people when we visit.$7",
     "Festivals.RSVGathering.Moon": "Moon hangs out with junimo friend!$u",
@@ -3596,8 +3645,8 @@
     "Ari.Dialogue.Sun10": "Blake was making fun of my clothes earlier.$6#$b#I mean, I know I'm old-ish but, they're okay, right?$9#$b#$y 'What do you think?_I think they look good on you!_Aw, thank you. It's reassuring hearing that from you.$13_I think... they're okay._Oh man, maybe Blake is right.$s",
 
     //Green Rain
-    "Ari.Dialogue.GreenRain": "I heard Pierre's worried about his sales in this weather. What an odd man...$u#$b#I already asked Silas about it earlier and he rambled a little, but all I understood was that it's safe to go outside if needed.",
-    "Ari.Dialogue.GreenRainFinished": "Ah, what a beautiful day. I stayed up all night to watch the rain clear out.$h#$b#...On second thought, I think I need a nap. These old bones are NOT capable of going this long without sleep anymore.$12",
+    "Ari.Dialogue.GreenRain": "I already asked Silas about the weather earlier and he rambled a little, but all I understood was that it's safe to go outside if needed.#$b#Hm? Oh, we just yelled back and forth from the window. Couldn't call him, the phone won't work.$u",
+    "Ari.Dialogue.GreenRainFinished": "I heard Pierre was worried about his sales yesterday rather than the weird weather we experienced. What an odd man...$u",
     "Ari.Dialogue.GreenRain_2": "Blake and Lyenne are probably going out to play in the rain. Don't think I've seen Blake do that since he was a kid.$u",
 
     //Blake
@@ -4289,39 +4338,40 @@
     "Miyoung.Dialogue.GreenRain_2": "Silas has been very excited since he saw the weather forecast yesterday. He's always been so curious about everything. This man has vowed to learn everything he could in this lifetime.$7",
 
     //Nadia
-    "Nadia.Dialogue.Introduction": "Placeholder.",
+    "Nadia.Dialogue.Introduction": "Hey! It's good to finally, properly meet you. Didn't really get to introduce myself to you properly the other day, huh?$h#$b#I'm Nadia, Ezra's older sister. I'll see you around, farmer.$6",
 
     //Spring
-    "Nadia.Dialogue.spring_1": "Placeholder.",
-    "Nadia.Dialogue.spring_12": "Placeholder.",
-    "Nadia.Dialogue.spring_23": "Placeholder.",
+    "Nadia.Dialogue.spring_1": "I always get so excited when the seasons change, especially when we finally make it out of winter.",
+    "Nadia.Dialogue.spring_12": "I wonder how different the Egg Festival is now compared to when I was younger.$h#$b#Hey, I'm not *that* old, but it's been a while.$6",
+    "Nadia.Dialogue.spring_23": "Ezra suggested making me a nice dress for the dance tomorrow but... I don't know. I don't even have anyone in mind to ask.$7",
+    //Did you know I won the egg hunt three years in a row back in my day? They had to make me stop so the other kids had a chance.$6
 
     //Summer
-    "Nadia.Dialogue.summer_1": "Placeholder.",
-    "Nadia.Dialogue.summer_10": "Placeholder.",
-    "Nadia.Dialogue.summer_27": "Placeholder.",
+    "Nadia.Dialogue.summer_1": "Mmm... Love this weather. It's always more tolerable here than it is in the city, for some reason. I like it.$h",
+    "Nadia.Dialogue.summer_10": "Hmm, I haven't had the Luau soup in so long.#$b#Last time I did, I think I got food poisoning.$s#$b#BUT... the year before that, it was delicious. I'll take my chances tomorrow.$6",
+    "Nadia.Dialogue.summer_27": "I never understood the appeal of the moonlight jellies. They're pretty, but do they warrant the entire town gathering to see them?$8#$b#I'll probably still go. Ezra and Iman will just drag me if I don't.$6",
 
     //Fall
-    "Nadia.Dialogue.fall_1": "Placeholder.",
-    "Nadia.Dialogue.fall_15": "Placeholder.",
-    "Nadia.Dialogue.fall_26": "Placeholder.",
+    "Nadia.Dialogue.fall_1": "You know, people in the city rarely cared for the change in seasons. Probably because of how busy everything always is.#$b#It's... nice here. Seeing Jumana and Miyoung get ready to plant their new seeds, Diala and Derya bringing out the fall desserts, Ezra's seasonal hats...$h#$b#It makes me feel giddy, in a way.$6",
+    "Nadia.Dialogue.fall_15": "My father used to love the yearly fair. He'd always join Gus early in the morning and help prepare the food.#$b#It was always exciting. Ezra and I would get into so many fights over these damn minigames.$6",
+    "Nadia.Dialogue.fall_26": "I'm no coward. I don't fear the maze or the monsters.$a#$b#Don't mind me, I'm just practicing so I can lie to Iman and Ezra tomorrow.$6",
 
     //Winter
-    "Nadia.Dialogue.winter_1": "Placeholder.",
-    "Nadia.Dialogue.winter_7": "Placeholder.",
-    "Nadia.Dialogue.winter_14": "Placeholder.",
-    "Nadia.Dialogue.winter_24": "Placeholder.",
+    "Nadia.Dialogue.winter_1": "Hm... I don't feel too cold for some reason. I'm still bundling up per Iman's request, but I'm not freezing my backside off yet.$6",
+    "Nadia.Dialogue.winter_7": "Is Elias fishing at this thing tomorrow? You better watch out for that man, @.$6#$b#%Nadia clears her throat and starts imitating Elias.#$b#He's all, 'I've been fishin' since I could crawl! I caught a fish with my mouth when I was five!'.$6",
+    "Nadia.Dialogue.winter_14": "You know, I'm not sure I've been around for the night market before. Or I never really went to check it out I guess. I'll make sure to drop by this time and see what it's all about.$h",
+    "Nadia.Dialogue.winter_24": "Damn, time goes by a lot faster in the Valley, huh? Happy new year, almost. I'm excited to find out who my gift giver is.$h",
 
     //Days of The Week
 
     //0 hearts
-    "Nadia.Dialogue.Mon": "Placeholder.",
-    "Nadia.Dialogue.Tue": "Placeholder.",
-    "Nadia.Dialogue.Wed": "Placeholder.",
-    "Nadia.Dialogue.Thu": "Placeholder.",
-    "Nadia.Dialogue.Fri": "Placeholder.",
-    "Nadia.Dialogue.Sat": "Placeholder.",
-    "Nadia.Dialogue.Sun": "Placeholder.",
+    "Nadia.Dialogue.Mon": "%Nadia stretches and groans.#$b#*Yawn*... I stayed up far too late last night and barely got any sleep. Gonna grab some coffee from the cat cafe and hope that it wakes me up a little.$8",
+    "Nadia.Dialogue.Tue": "Huh... Is it Tuesday? I wonder what Ari's special offer is today. I'll have to drop by and see.$h",
+    "Nadia.Dialogue.Wed": "Oh, hey @! How's the farm doing? Sounds like lots of hard work. Make sure to get plenty of rest, yeah?",
+    "Nadia.Dialogue.Thu": "It's still a little weird waking up and remembering I'm back in Sunberry. It's been a while, but I'm sure I'll get used to it soon.$h#$b#Plus, it's nice being able to hang out with Ezra and Iman more.$h",
+    "Nadia.Dialogue.Fri": "I kinda wish we had more restaurants or diners around here. I feel like I've never ran out of places to eat out at back in the city.#$b#Yes, I can cook for myself and others at the diner, but I still enjoy other people's food.",
+    "Nadia.Dialogue.Sat": "Ah... I had to go into Pelican Town today. It was... interesting to see the people I haven't seen in years.$8",
+    "Nadia.Dialogue.Sun": "It's gonna take a while for me to get used to the weather here. Feels so different than what I was used to back in Zuzu.#$b#Oh, and speaking of weather, Ezra seems to be hellbent on taking me shopping. I hate shopping. I'd rather stick to the nice four to six shirts I cycle through.$s",
 
     //2 hearts
     "Nadia.Dialogue.Mon2": "Placeholder.",
@@ -4455,7 +4505,7 @@
     "Ophelia.Dialogue.Sun10": "Ah! @, we've got a new cook at the inn. Here, taste this. It's delightful. [618]$u",
 
     //Green Rain
-    "Ophelia.Dialogue.GreenRain": "Please stay safe, @. I'm aware it's not harmless, but I still don't want people walking around until we get enough information.",
+    "Ophelia.Dialogue.GreenRain": "Please stay safe, @. I'm aware it's not harmless, but I still don't want people walking around until we get enough information.$8",
     "Ophelia.Dialogue.GreenRainFinished": "Hm, I wonder if this rain had any effect on our mines. I'll have to ask Maia to investigate when she can.",
     "Ophelia.Dialogue.GreenRain_2": "I assume this will be a yearly thing, now. I'm just glad no one's spreading any misinformation about this phenomenon.$h",
 
@@ -4947,6 +4997,9 @@
     "MoonberryShop.Dialogue.2": "Moon trusts you to leave the Moonberry here before taking the seeds!",
     "MoonberryShop.Dialogue.3": "Moonberry seeds! Moonberry seeds!",
 
+    //RSV Gathering Shop
+    "RSVEnbyShop.Dialogue": "Hey, take a look at our wares!",
+
     //Conversation Topics
     //-------------------
 
@@ -4976,7 +5029,7 @@
     "Amina.Dialogue.LavrilUnlocked": "Vincent, Jas, and Eloise were telling me about a girl and her bunny!$3#$b#I want to meet her.$3",
     "Amina.Dialogue.keahi_prank": "%Amina covers her nose.#$b#You smell like the time mom left the food outside the fridge for too long.$s",
     "Amina.Dialogue.WelcomeBabyCadence": "I can't believe Vincent is an uncle now.$u#$b#He said when baby Cadence is older, she'll play with us.$h",
-    "Amina.Dialogue.MeetTheCats": "@! Did you see the talking cats, yet?$3#$b#They were hanging out with me and grandma!$h",
+    "Amina.Dialogue.MeetTheCats": "@! Did you see the talking cats yet?$3#$b#They were hanging out with me and grandma!$h",
     "Amina.Dialogue.luauBest": "That soup was so good, grandma is trying to recreate it at home!$3",
     "Amina.Dialogue.luauShorts": "What was that purple thing in the soup? Mom pulled me away before I could see it.$s",
     "Amina.Dialogue.luauPoisoned": "%Amina doesn't look too well. Maybe she had some of yesterday's soup.",
@@ -5050,7 +5103,7 @@
     "Diala.Dialogue.luauBest": "That soup took me by surprise!$7#$b#I wasn't expecting it to be so delicious!$u",
     "Diala.Dialogue.luauShorts": "*giggle* Whatever that purple thing in the soup was, I'm glad I didn't have any of it.$u",
     "Diala.Dialogue.luauPoisoned": "Ugh... that soup really messed me up.$10#$b#I feel terrible.$s",
-    "Diala.Dialogue.ReihanaIntro": "Ugh, I swear I didn't mean for that to happen! What kind of potion for making fertilizer turns into a demon summoning?!$s#$b#Shit, I gotta fix this somehow.$s",
+    "Diala.Dialogue.ReihanaIntro": "Ugh, I swear I didn't mean for that to happen! What kind of potion for making fertilizer turns into a demon summoning?!$s#$b#I gotta fix this somehow...$s",
     "Diala.Dialogue.RaccoonMuffin": "Ugh... that raccoon stole one of my freshly baked muffins. I'm going to need to start making double the amount now that both Derya AND the raccoon keep taking them.$9",
 
     //Derya
@@ -5150,7 +5203,7 @@
     "Jumana.Dialogue.luauBest": "That soup was surprisingly delicious!$6#$b#I'm talking to everyone to see what was added to it so I can make it at home.$h",
     "Jumana.Dialogue.luauShorts": "Whoever put those shorts in is incredibly disrespectful.$a#$b#Not that I care about the governor, but It's a shame someone would want to ruin a festival like that.$s",
     "Jumana.Dialogue.luauPoisoned": "Poor Amina. She had some of that soup at the potluck and isn't feeling well now.$s",
-    "Jumana.Dialogue.ReihanaIntro": "That... incident earlier was horrifying. I'm glad everyone's okay. We just need to keep an eye out for each other until this is resolved.$s#$b#...All this for magical fertilizer. Poor Diala.$s",
+    "Jumana.Dialogue.ReihanaIntro": "That... incident earlier was horrifying. I'm glad everyone's okay. We just need to keep an eye out for each other until this is resolved.$s#$b#...All this for fertilizer. Poor Diala.$s",
 
     //Lyenne
     "Lyenne.Dialogue.cc_Complete": "I wonder if Sam, Seb, and Abi want to hang out in the community center now that it's fixed up.#$b#We tried hanging out when it was still broken down, but it was way too scary.$7",

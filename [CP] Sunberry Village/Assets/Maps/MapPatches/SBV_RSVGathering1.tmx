@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="2335">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="10" height="8" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="2341">
  <properties>
   <property name="Outdoors" type="bool" value="true"/>
  </properties>
@@ -4194,6 +4194,26 @@
   <object id="2037" name="TileData" x="16" y="0" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;rsv.4&quot;"/>
+   </properties>
+  </object>
+  <object id="2335" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_RSVEnby"/>
+   </properties>
+  </object>
+  <object id="2336" name="TileData" x="96" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_RSVEnby"/>
+   </properties>
+  </object>
+  <object id="2339" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_RSVEnby"/>
+   </properties>
+  </object>
+  <object id="2340" name="TileData" x="112" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_RSVEnby"/>
    </properties>
   </object>
  </objectgroup>
