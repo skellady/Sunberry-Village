@@ -65,5 +65,19 @@
 				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031411": true
 			},
 		},
+		{
+			"LogName": "Diala's VMV Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/DialaSBV",
+			"Entries": {
+				"spring_Fri": "{{Random:0 Lumisteria.MtVapius_Hamlet 29 53 2 diala_nap/610 Lumisteria.MtVapius_Hamlet 29 53 2 diala_nap/1200 Lumisteria.MtVapius_Hamlet 43 68 3/1600 Lumisteria.MtVapius_Hamlet 21 9 1/2000 Custom_SBV_DDHouse 4 5 3 diala_sleep++610 Custom_SBV_DDHouse 3 16 0/1100 Custom_SBV_SunberryForest 21 23 2 diala_nap/2000 Custom_SBV_DDHouse 4 5 3 diala_sleep++610 Custom_SBV_DDHouse 3 16 0/1100 Custom_SBV_SunberryVillage 21 52 2 diala_nap/2000 Custom_SBV_DDHouse 4 5 3 diala_sleep|inputSeparator=++ |key=DialaDeryaSchedule}}",
+				"summer_Fri": "{{Random:0 Lumisteria.MtVapius_Hamlet 29 53 2 diala_nap/610 Lumisteria.MtVapius_Hamlet 29 53 2 diala_nap/1200 Lumisteria.MtVapius_Hamlet 43 68 3/1600 Lumisteria.MtVapius_Hamlet 21 9 1/2000 Custom_SBV_DDHouse 4 5 3 diala_sleep++610 Custom_SBV_DDHouse 3 16 0/900 Town 43 78 2/2000 Custom_SBV_DDHouse 4 5 3 diala_sleep|inputSeparator=++ |key=DialaDeryaSchedule}}",
+				"fall_Fri": "{{Random:0 Lumisteria.MtVapius_Hamlet 29 53 2 diala_nap/610 Lumisteria.MtVapius_Hamlet 29 53 2 diala_nap1200 Lumisteria.MtVapius_Hamlet 43 68 3/1600 Lumisteria.MtVapius_Hamlet 21 9 1/2000 Custom_SBV_DDHouse 4 5 3 diala_sleep++610 Custom_SBV_DDHouse 3 16 0/1100 Custom_SBV_SunberryVillage 21 52 2 diala_nap/2000 Custom_SBV_DDHouse 4 5 3 diala_sleep|inputSeparator=++ |key=DialaDeryaSchedule}}",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031401": true,
+				"HasMod": "Lumisteria.MtVapius"
+			},
+		},
 	]
 }

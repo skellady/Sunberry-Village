@@ -823,7 +823,7 @@
     },
     {
       "Action": "EditMap",
-      "Target": "Maps/Beach-Luau2",
+      "Target": "Maps/Beach-Luau",
       "PatchMode": "Replace",
       "FromFile": "Assets/Maps/MapPatches/SBVLuauBridge.tmx",
       "FromArea": {
@@ -846,7 +846,50 @@
       "Action": "EditMap",
       "Target": "Maps/Beach-Luau2",
       "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuauBridge2.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 7,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 11,
+        "Width": 7,
+        "Height": 3
+      },
+      "When": {
+        "HasMod: |contains=Rafseazz.RSVCP": false
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau",
+      "PatchMode": "Replace",
       "FromFile": "Assets/Maps/MapPatches/SBVLuauBridge.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 7,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 56,
+        "Y": 11,
+        "Width": 7,
+        "Height": 3
+      },
+      "When": {
+        "Query: {{HasMod |contains=FlashShifter.StardewValleyExpandedCP}} OR {{HasMod |contains=DaisyNiko.SVR3}}": true,
+        "HasMod: |contains=Rafseazz.RSVCP": false
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Beach-Luau2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVLuauBridge2.tmx",
       "FromArea": {
         "X": 0,
         "Y": 0,
