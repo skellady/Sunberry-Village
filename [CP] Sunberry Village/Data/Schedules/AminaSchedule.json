@@ -6,7 +6,7 @@
 			"Target": "Characters/schedules/AminaSBV",
 			"Entries": {
 				"spring": "610 Custom_SBV_MaiaHouse 24 15 2/800 Custom_SBV_MaiaHouse 15 14 3/1200 Custom_SBV_SunberryVillage 40 49 2/2000 Custom_SBV_MaiaHouse 3 5 3",
-				"spring_Sun": "610 Custom_SBV_MaiaHouse 24 15 2/900 Custom_SBV_SunberryVillage 29 50 2/1300 Custom_SBV_SunberryVillage 58 70 2/2000 Custom_SBV_MaiaHouse 3 5 3",
+				"spring_Sun": "610 Custom_SBV_MaiaHouse 24 15 2/900 Custom_SBV_SunberryVillage 29 50 2/1300 Custom_SBV_SunberryVillage 58 71 2/2000 Custom_SBV_MaiaHouse 3 5 3",
 				"summer_Sun": "610 Custom_SBV_MaiaHouse 24 15 2/1000 Beach 10 9 1/1900 Custom_SBV_MaiaHouse 3 5 3",
 				"fall_Sun": "610 Custom_SBV_MaiaHouse 24 15 2/1100 Custom_SBV_MiyoungHouse 5 13 2/1900 Custom_SBV_MaiaHouse 3 5 3",
 				"winter_Sun": "610 Custom_SBV_MaiaHouse 24 15 2/1200 Custom_SBV_SunberryMountain 56 31 0/1900 Custom_SBV_MaiaHouse 3 5 3",

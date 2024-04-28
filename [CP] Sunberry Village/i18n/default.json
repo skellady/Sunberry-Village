@@ -860,7 +860,7 @@
     "Ari.Dialogue.Fountain2": "You know, Elias tried to teach Blake how to play the guitar, but he didn't seem to enjoy it.$9",
     "Ari.Dialogue.Fountain3": "Mmm... Nothing beats the food you can get here. If only Gus could join us sometime, I'm sure he can whip up something just as good.$u",
 
-    "Blake.Dialogue.Fountain1": "I'm a little tired, but I can never bring myself to miss one of these gatherings.$h#$b#I remember missing one when I was sick, the next day there was some new inside joke everyone was on except for me.$8",
+    "Blake.Dialogue.Fountain1": "I'm a little tired, but I can never bring myself to miss one of these gatherings.$h#$b#I remember missing one when I was sick, the next day there was some new inside joke everyone was in on except for me.$8",
     "Blake.Dialogue.Fountain2": "Hmm... I wonder if we can convince Seb, Sam, and Abi to join us sometime. It'd be fun.$u",
     "Blake.Dialogue.Fountain3": "The music's really good. I'm glad we convinced my father to play at these gatherings. I think it's the only time he whips out the guitar.$u",
 
@@ -2894,7 +2894,7 @@
 
     //2 hearts
     "Diala.Dialogue.Mon2": "Derya woke up grumpy today. I said good morning when she walked in and I heard a bunch of grumbling as she passed by.$u",
-    "Diala.Dialogue.Tue2": "$query {{HasMod |contains=Lumisteria.MtVapius}}#Célestine and Adélaïde are so cute. Derya and I visited Mount Vapius on our day off and saw them holding hands on a bench nearby. I can't wait to grow old with someone like that.$4|I could really go for some pasta right now.$s#$b#Maybe I can get Derya to make me some.$h",
+    "Diala.Dialogue.Tue2": "$query {{HasVMV}}#Célestine and Adélaïde are so cute. Derya and I visited Mount Vapius on our day off and saw them holding hands on a bench nearby. I can't wait to grow old with someone like that.$4|I could really go for some pasta right now.$s#$b#Maybe I can get Derya to make me some.$h",
     "Diala.Dialogue.Wed2": "Did you know you can use your birth chart to find what career is best for you?$h#$b#I helped Derya figure it out and she was shocked!$u",
     "Diala.Dialogue.Thu2": "I just got a shipment I ordered a month ago.#$b#It was the premium cat treats that I spent way too much money on.$u#$b#Still worth it.$h",
     "Diala.Dialogue.Fri2": "One of our cats, Zoro, almost stole a chocolate muffin this morning.$9#$b#Derya started guarding the baked goods after that incident.$h",

@@ -33,7 +33,7 @@
 				"Sun": "{{i18n:Diala.Dialogue.Sun}}",
 				//2 Hearts
 				"Mon2": "{{i18n:Diala.Dialogue.Mon2}}",
-				"Tue2": "{{i18n:Diala.Dialogue.Tue2}}",
+				"Tue2": "{{i18n:Diala.Dialogue.Tue2 |HasVMV={{HasMod |contains=Lumisteria.MtVapius}} }}",
 				"Wed2": "{{i18n:Diala.Dialogue.Wed2}}",
 				"Thu2": "{{i18n:Diala.Dialogue.Thu2}}",
 				"Fri2": "{{i18n:Diala.Dialogue.Fri2}}",
