@@ -1,6 +1,7 @@
 {
 	"Changes": [
 		// Without SVE
+		// Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
@@ -20,7 +21,27 @@
 				},
 			]
 		},
-		// Moon At Feast
+		// Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 64 64 right/DeryaSBV 65 64 left/AminaSBV 55 72 up/MaiaSBV 61 67 left/JumanaSBV 61 66 left/BlakeSBV 68 70 left/LyenneSBV 71 69 left/EliasSBV 68 68 left/AriSBV 64 69 right/OpheliaSBV 70 69 right/SilasSBV 59 65 right/MiyoungSBV 60 65 left/ImanSBV 72 72 left/EzraSBV 71 72 right",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
@@ -41,6 +62,28 @@
 				},
 			]
 		},
+		// Moon Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent": "skellady.SBVCP_20031402"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 52 71 up",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Demons Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
@@ -61,7 +104,29 @@
 				},
 			]
 		},
+		// Demons Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasSeenEvent": "{{ModId}}_20031427"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "ReihanaSBV 53 77 down/AichaSBV 54 77 down",
+					"Delimiter": "/",
+				},
+			]
+		},
 		// With SVE
+		// Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
@@ -81,7 +146,27 @@
 				},
 			]
 		},
-		// Moon At Feast
+		// Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 64 64 right/DeryaSBV 65 64 left/AminaSBV 55 72 up/MaiaSBV 63 65 left/JumanaSBV 63 67 left/BlakeSBV 68 70 left/LyenneSBV 71 69 left/EliasSBV 68 68 left/AriSBV 64 69 right/OpheliaSBV 70 69 right/SilasSBV 59 65 right/MiyoungSBV 59 66 right/ImanSBV 72 72 left/EzraSBV 71 72 right",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
@@ -102,6 +187,28 @@
 				},
 			]
 		},
+		// Moon Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent": "skellady.SBVCP_20031402"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 53 73 up",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Demons Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter25",
@@ -116,6 +223,27 @@
 					"Target": [
 						"Entries",
 						"Set-Up_additionalCharacters"
+					],
+					"Value": "ReihanaSBV 53 77 down/AichaSBV 54 77 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Demons Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent": "{{ModId}}_20031427"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
 					],
 					"Value": "ReihanaSBV 53 77 down/AichaSBV 54 77 down",
 					"Delimiter": "/",

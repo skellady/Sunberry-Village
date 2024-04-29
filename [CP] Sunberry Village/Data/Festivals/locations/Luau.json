@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		// Without SVE
+		// Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
@@ -27,7 +27,34 @@
 				},
 			]
 		},
-		// Moon At Luau
+		// Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 61 36 right/DeryaSBV 62 36 left/AminaSBV 73 28 down/MaiaSBV 73 30 right/EliasSBV 74 30 left/ImanSBV 58 30 right/EzraSBV 60 32 up/BlakeSBV 73 36 down/OpheliaSBV 72 37 right/LyenneSBV 73 38 up/MiyoungSBV 66 36 down/JumanaSBV 67 36 down/SilasSBV 74 40 down/AriSBV 75 40 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 61 36 right/DeryaSBV 62 36 left/AminaSBV 73 28 down/MaiaSBV 73 30 right/EliasSBV 74 30 left/ImanSBV 58 30 right/EzraSBV 60 32 up/BlakeSBV 73 36 down/OpheliaSBV 72 37 right/LyenneSBV 73 38 up/MiyoungSBV 66 36 down/JumanaSBV 67 36 down/SilasSBV 74 40 down/AriSBV 75 40 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
@@ -57,6 +84,37 @@
 				},
 			]
 		},
+		// Moon Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"HasSeenEvent": "skellady.SBVCP_20031402"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 78 32 right",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 78 32 right",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Demons Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
@@ -85,6 +143,36 @@
 					"Delimiter": "/",
 				},
 			]
-		}
+		},
+		// Demons Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"HasSeenEvent": "{{ModId}}_20031427"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "ReihanaSBV 83 38 down/AichaSBV 84 38 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "ReihanaSBV 83 38 down/AichaSBV 84 38 down",
+					"Delimiter": "/",
+				},
+			]
+		},
 	]
 }

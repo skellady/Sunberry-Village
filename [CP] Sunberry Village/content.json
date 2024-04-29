@@ -134,8 +134,8 @@
       "Value": "{{GSBSetup}} PS.Thysania 26 45 2",
       "When": {
         "HasMod": "KediDili.ProjectStarlight.CP",
-        "HasSeenEvent |contains= 70030006": true,
-        "HasSeenEvent |contains= 70030012": false
+        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030006": true,
+        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": false
       }
     },
     {
@@ -143,8 +143,8 @@
       "Value": "{{GSBSetup}} PS.Thysania 17 52 1",
       "When": {
         "HasMod": "KediDili.ProjectStarlight.CP",
-        "HasSeenEvent |contains= 70030006": true,
-        "HasSeenEvent |contains= 70030012": true
+        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030006": true,
+        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": true
       }
     },
     {
@@ -152,8 +152,8 @@
       "Value": "{{GSBSetup}} PS.Greyscale 25 45 2",
       "When": {
         "HasMod": "KediDili.ProjectStarlight.CP",
-        "HasSeenEvent |contains= 70030013": true,
-        "HasSeenEvent |contains= 70030012": false
+        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030013": true,
+        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": false
       }
     },
     {
@@ -161,8 +161,8 @@
       "Value": "{{GSBSetup}} PS.Greyscale 17 53 1",
       "When": {
         "HasMod": "KediDili.ProjectStarlight.CP",
-        "HasSeenEvent |contains= 70030013": true,
-        "HasSeenEvent |contains= 70030012": true
+        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030013": true,
+        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": true
       }
     },
     {

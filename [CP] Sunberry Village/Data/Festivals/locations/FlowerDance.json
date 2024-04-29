@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		// Without SVE
+		// Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring24",
@@ -27,7 +27,34 @@
 				},
 			]
 		},
-		// Moon At Flower Dance
+		// Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 20 45 down/DeryaSBV 21 45 down/AminaSBV 5 46 right/MaiaSBV 6 46 left/JumanaSBV 1 47 down/OpheliaSBV 8 48 right/LyenneSBV 10 48 left/MiyoungSBV 3 48 right/SilasSBV 4 48 left/EzraSBV 12 46 right/ImanSBV 13 46 left/BlakeSBV 18 47 right/EliasSBV 19 46 down/AriSBV 20 47 left",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 20 45 down/DeryaSBV 21 45 down/AminaSBV 5 46 right/MaiaSBV 6 46 left/JumanaSBV 1 47 down/OpheliaSBV 8 48 right/LyenneSBV 10 48 left/MiyoungSBV 3 48 right/SilasSBV 4 48 left/EzraSBV 12 46 right/ImanSBV 13 46 left/BlakeSBV 18 47 right/EliasSBV 19 46 down/AriSBV 20 47 left",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring24",
@@ -57,7 +84,37 @@
 				},
 			]
 		},
-		// Rei and Aicha
+		// Moon Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"HasSeenEvent": "skellady.SBVCP_20031402"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 16 45 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 16 45 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Demons Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/spring24",
@@ -86,7 +143,36 @@
 					"Delimiter": "/",
 				},
 			]
-		}
-
+		},
+		// Demons Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"HasSeenEvent": "{{ModId}}_20031427"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "ReihanaSBV 31 46 right/AichaSBV 31 47 right",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "ReihanaSBV 31 46 right/AichaSBV 31 47 right",
+					"Delimiter": "/",
+				},
+			]
+		},
 	]
 }
