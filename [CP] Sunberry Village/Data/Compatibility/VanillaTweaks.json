@@ -1,0 +1,12 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Mods/skellady.SBVCP/Seeds",
+			"FromFile": "Assets/Items/SeedsVT.png",
+			"When": {
+				"HasMod": "Taiyo.VanillaTweaks.Farming"
+			}
+		}
+	]
+}

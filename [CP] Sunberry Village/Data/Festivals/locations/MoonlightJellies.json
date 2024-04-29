@@ -1,6 +1,6 @@
 {
 	"Changes": [
-		// Without SVE
+		// Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
@@ -37,7 +37,44 @@
 				}
 			]
 		},
-		// Moon At Moonlight Jellies
+		// Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 58 35 left/DeryaSBV 58 36 left/MaiaSBV 59 31 left/AminaSBV 70 37 down/JumanaSBV 59 32 left/EzraSBV 62 40 down/ImanSBV 63 40 down/AriSBV 77 33 right/BlakeSBV 69 37 down/EliasSBV 77 35 right/OpheliaSBV 76 39 down/LyenneSBV 75 39 down/SilasSBV 59 39 down/MiyoungSBV 60 39 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 58 35 left/DeryaSBV 58 36 left/MaiaSBV 59 31 left/AminaSBV 58 31 left/JumanaSBV 59 32 left/EzraSBV 62 40 down/ImanSBV 63 40 down/AriSBV 77 33 right/BlakeSBV 77 34 right/EliasSBV 77 35 right/OpheliaSBV 76 39 down/LyenneSBV 75 39 down/SilasSBV 59 39 down/MiyoungSBV 60 39 down",
+					"Delimiter": "/",
+				},
+				// Animations
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"set-up_y2",
+						5
+					],
+					"Value": "/animate EzraSBV false true 200 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 17 18 19 19 19 19 19 19 18 17 17 17 17 17 17 17 17 18 19 19 19 19 19 19 18 17 17 17 17 17/animate BlakeSBV false true 100 19/animate AminaSBV false true 100 18"
+				}
+			]
+		},
+		// Moon Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
@@ -67,6 +104,37 @@
 				},
 			]
 		},
+		// Moon Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"HasSeenEvent": "skellady.SBVCP_20031402"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 64 40 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 64 40 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Demons Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
@@ -100,6 +168,46 @@
 					"Target": [
 						"Fields",
 						"set-up",
+						5
+					],
+					"Value": "/animate AichaSBV false true 100 26"
+				}
+			]
+		},
+		// Demons Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"HasSeenEvent": "{{ModId}}_20031427"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "AichaSBV 65 32 down/ReihanaSBV 64 32 down",
+					"Delimiter": "/",
+				},
+				// Main Event
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"MainEvent_additionalCharacters_y2"
+					],
+					"Value": "AichaSBV 75 29 right/ReihanaSBV 75 30 right",
+					"Delimiter": "/",
+				},
+				// Animations
+				{
+					"Operation": "Append",
+					"Target": [
+						"Fields",
+						"set-up_y2",
 						5
 					],
 					"Value": "/animate AichaSBV false true 100 26"

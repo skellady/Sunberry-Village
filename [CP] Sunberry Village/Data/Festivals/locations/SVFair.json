@@ -1,6 +1,7 @@
 {
 	"Changes": [
 		// Without SVE
+		// Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
@@ -21,7 +22,28 @@
 				},
 			]
 		},
-		// Moon At Fair
+		// Year 2 
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=DaisyNiko.SVR3": false
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 55 28 down/DeryaSBV 56 28 down/EliasSBV 59 34 right/BlakeSBV 61 33 down/AriSBV 63 34 left/OpheliaSBV 51 24 down/LyenneSBV 62 16 down/JumanaSBV 50 36 up/MaiaSBV 47 22 down/AminaSBV 65 20 down/MiyoungSBV 49 34 right/SilasSBV 51 22 down/ImanSBV 69 24 down/EzraSBV 70 24 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
@@ -43,6 +65,29 @@
 				},
 			]
 		},
+		// Moon Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=DaisyNiko.SVR3": false,
+				"HasSeenEvent": "skellady.SBVCP_20031402"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 59 25 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Demons Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
@@ -64,7 +109,30 @@
 				},
 			]
 		},
+		// Demons Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=DaisyNiko.SVR3": false,
+				"HasSeenEvent": "{{ModId}}_20031427"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "ReihanaSBV 69 18 down/AichaSBV 70 18 down",
+					"Delimiter": "/",
+				},
+			]
+		},
 		// With SVE
+		// Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
@@ -84,6 +152,27 @@
 				},
 			]
 		},
+		// Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 55 28 down/DeryaSBV 56 28 down/EliasSBV 59 34 right/BlakeSBV 61 33 down/AriSBV 63 34 left/OpheliaSBV 46 33 down/LyenneSBV 45 33 down/JumanaSBV 50 36 up/MaiaSBV 42 38 right/AminaSBV 43 38 left/MiyoungSBV 49 35 right/SilasSBV 51 36 up/ImanSBV 65 32 down/EzraSBV 66 32 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
@@ -104,6 +193,28 @@
 				},
 			]
 		},
+		// Moon Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent": "skellady.SBVCP_20031402"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 59 25 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Demons Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
@@ -124,7 +235,29 @@
 				},
 			]
 		},
+		// Demons Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
+				"HasSeenEvent": "{{ModId}}_20031427"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "ReihanaSBV 38 19 down/AichaSBV 37 19 down",
+					"Delimiter": "/",
+				},
+			]
+		},
 		// With SVR3
+		// Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
@@ -145,7 +278,28 @@
 				},
 			]
 		},
-		// Moon At Fair
+		// Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=DaisyNiko.SVR3": true
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "DialaSBV 55 28 down/DeryaSBV 56 28 down/EliasSBV 58 34 right/BlakeSBV 61 33 down/AriSBV 63 34 left/OpheliaSBV 51 24 down/LyenneSBV 62 16 down/JumanaSBV 50 36 up/MaiaSBV 47 24 down/AminaSBV 65 20 down/MiyoungSBV 48 34 right/SilasSBV 51 22 down/ImanSBV 69 24 down/EzraSBV 70 24 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Moon Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
@@ -167,6 +321,29 @@
 				},
 			]
 		},
+		// Moon Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=DaisyNiko.SVR3": true,
+				"HasSeenEvent": "skellady.SBVCP_20031402"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
+					],
+					"Value": "MoonSBV 64 27 left",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Demons Year 1
 		{
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
@@ -182,6 +359,28 @@
 					"Target": [
 						"Entries",
 						"Set-Up_additionalCharacters"
+					],
+					"Value": "ReihanaSBV 69 18 down/AichaSBV 70 18 down",
+					"Delimiter": "/",
+				},
+			]
+		},
+		// Demons Year 2
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+				"HasMod: |contains=DaisyNiko.SVR3": true,
+				"HasSeenEvent": "{{ModId}}_20031427"
+			},
+			"TextOperations": [
+				// Set-up
+				{
+					"Operation": "Append",
+					"Target": [
+						"Entries",
+						"Set-Up_additionalCharacters_y2"
 					],
 					"Value": "ReihanaSBV 69 18 down/AichaSBV 70 18 down",
 					"Delimiter": "/",

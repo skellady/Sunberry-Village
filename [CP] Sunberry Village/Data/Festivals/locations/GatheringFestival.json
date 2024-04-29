@@ -1,5 +1,6 @@
 {
    "Changes": [
+      // Year 1
       {
          "Action": "EditData",
          "Target": "Data/Festivals/fall20",
@@ -29,7 +30,37 @@
             },
          ]
       },
-      // Moon At Gathering
+      // Year 2
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/fall20",
+         "When": {
+            "HasMod": "Rafseazz.RSVCP"
+         },
+         "TextOperations": [
+            //Set-up
+            {
+               "Operation": "Append",
+               "Target": [
+                  "Entries",
+                  "Set-Up_additionalCharacters_y2"
+               ],
+               "Value": "DialaSBV 99 53 down/DeryaSBV 128 52 left/AminaSBV 105 47 right/BlakeSBV 121 55 left/EzraSBV 126 52 right/JumanaSBV 63 50 right/MiyoungSBV 71 50 left/OpheliaSBV 92 60 down",
+               "Delimiter": "/"
+            },
+            // Main Event
+            {
+               "Operation": "Append",
+               "Target": [
+                  "Entries",
+                  "MainEvent_additionalCharacters_y2"
+               ],
+               "Value": "DialaSBV 75 50 up/DeryaSBV 76 50 up/BlakeSBV 81 49 up/JumanaSBV 63 49 up/AminaSBV 64 49 up/EzraSBV 88 43 left/MiyoungSBV 67 51 up/OpheliaSBV 81 52 up",
+               "Delimiter": "/"
+            },
+         ]
+      },
+      // Moon Year 1
       {
          "Action": "EditData",
          "Target": "Data/Festivals/fall20",
@@ -59,6 +90,37 @@
                "Delimiter": "/",
             },
          ]
-      }
+      },
+      // Moon Year 2
+      {
+         "Action": "EditData",
+         "Target": "Data/Festivals/fall20",
+         "When": {
+            "HasMod": "Rafseazz.RSVCP",
+            "HasSeenEvent": "skellady.SBVCP_20031402"
+         },
+         "TextOperations": [
+            // Set-up
+            {
+               "Operation": "Append",
+               "Target": [
+                  "Entries",
+                  "Set-Up_additionalCharacters_y2"
+               ],
+               "Value": "MoonSBV 66 30 left",
+               "Delimiter": "/",
+            },
+            // Main Event
+            {
+               "Operation": "Append",
+               "Target": [
+                  "Entries",
+                  "MainEvent_additionalCharacters_y2"
+               ],
+               "Value": "MoonSBV 66 30 down",
+               "Delimiter": "/",
+            },
+         ]
+      },
    ]
 }

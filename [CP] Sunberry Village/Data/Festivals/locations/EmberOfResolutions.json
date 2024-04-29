@@ -1,5 +1,6 @@
 {
      "Changes": [
+          // Year 1
           {
                "Action": "EditData",
                "Target": "Data/Festivals/winter28",
@@ -29,6 +30,37 @@
                     },
                ]
           },
+          // Year 2
+          {
+               "Action": "EditData",
+               "Target": "Data/Festivals/winter28",
+               "When": {
+                    "HasMod": "Rafseazz.RSVCP"
+               },
+               "TextOperations": [
+                    //SetUp
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "Entries",
+                              "Set-Up_additionalCharacters_y2"
+                         ],
+                         "Value": "DialaSBV 40 26 right/DeryaSBV 41 26 left/AminaSBV 33 25 right/AriSBV 21 49 down/BlakeSBV 21 51 up/EliasSBV 34 24 down/JumanaSBV 50 50 left/LyenneSBV 22 50 left/MaiaSBV 35 25 left/MiyoungSBV 46 55 right/OpheliaSBV 20 50 right/SilasSBV 47 55 left",
+                         "Delimiter": "/"
+                    },
+                    //MainEvent
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "Entries",
+                              "MainEvent_additionalCharacters_y2"
+                         ],
+                         "Value": "DialaSBV 35 54 up/DeryaSBV 36 54 up/AminaSBV 33 25 down/AriSBV 21 49 right/BlakeSBV 21 51 right/EliasSBV 34 24 down/JumanaSBV 50 50 up/LyenneSBV 22 50 right/MaiaSBV 32 25 down/MiyoungSBV 46 55 up/OpheliaSBV 20 50 right/SilasSBV 47 55 up",
+                         "Delimiter": "/"
+                    },
+               ]
+          },
+          // Moon Year 1
           {
                "Action": "EditData",
                "Target": "Data/Festivals/winter28",
@@ -53,6 +85,37 @@
                          "Target": [
                               "Entries",
                               "MainEvent_additionalCharacters"
+                         ],
+                         "Value": "MoonSBV 26 29 down",
+                         "Delimiter": "/"
+                    },
+               ]
+          },
+          // Moon Year 2
+          {
+               "Action": "EditData",
+               "Target": "Data/Festivals/winter28",
+               "When": {
+                    "HasMod": "Rafseazz.RSVCP",
+                    "HasSeenEvent": "skellady.SBVCP_20031402"
+               },
+               "TextOperations": [
+                    //SetUp
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "Entries",
+                              "Set-Up_additionalCharacters_y2"
+                         ],
+                         "Value": "MoonSBV 26 29 down",
+                         "Delimiter": "/"
+                    },
+                    //MainEevent
+                    {
+                         "Operation": "Append",
+                         "Target": [
+                              "Entries",
+                              "MainEvent_additionalCharacters_y2"
                          ],
                          "Value": "MoonSBV 26 29 down",
                          "Delimiter": "/"

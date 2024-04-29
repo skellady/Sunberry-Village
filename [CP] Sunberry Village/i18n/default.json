@@ -860,7 +860,7 @@
     "Ari.Dialogue.Fountain2": "You know, Elias tried to teach Blake how to play the guitar, but he didn't seem to enjoy it.$9",
     "Ari.Dialogue.Fountain3": "Mmm... Nothing beats the food you can get here. If only Gus could join us sometime, I'm sure he can whip up something just as good.$u",
 
-    "Blake.Dialogue.Fountain1": "I'm a little tired, but I can never bring myself to miss one of these gatherings.$h#$b#I remember missing one when I was sick, the next day there was some new inside joke everyone was on except for me.$8",
+    "Blake.Dialogue.Fountain1": "I'm a little tired, but I can never bring myself to miss one of these gatherings.$h#$b#I remember missing one when I was sick, the next day there was some new inside joke everyone was in on except for me.$8",
     "Blake.Dialogue.Fountain2": "Hmm... I wonder if we can convince Seb, Sam, and Abi to join us sometime. It'd be fun.$u",
     "Blake.Dialogue.Fountain3": "The music's really good. I'm glad we convinced my father to play at these gatherings. I think it's the only time he whips out the guitar.$u",
 
@@ -1288,6 +1288,7 @@
     "event-20031427.23": "Ugh... just follow me, you dork.$13",
     "event-20031427.24": "Is everyone okay?",
     "event-20031427.25": "Yeah...",
+    "event-20031427.26": "Seriously, guys? RIGHT by my house?$2",
 
     // Amina 4 Hearts Event
     "event-20031428.01": "To make sure your flowers grow, you need to take good care of them. Make sure you give them plenty of water!$h",
@@ -2599,6 +2600,8 @@
     "MapString.sbv.mountain2": "\"Our Beloved Adeel\", forever in our hearts.",
     "MapString.sbv.mountain3": "The tombstone is faded, but you can make out some of it.#\"In Memory of Chris\"",
     "MapString.sbv.mountain4": "There are flowers besides this tombstone.#\"Here lies Levi\"",
+    // Forest
+    "MapString.sbv.forest1": "Looks like an unfinished barn. The door is barred.",
     // Road
     "MapString.sbv.road1": "@ Sunberry Forest",
     // Rei's Door
@@ -2669,7 +2672,7 @@
     "MapString.sbv.library10": "\"In the Depths, Part 3\"^^We've managed to study and name a few of the monsters we've come across. Crystal Menaces, Crystal Golems, and the Abominations. The most curious of all remain the Abominations. One of our scientists has managed to link them to the dwarves. They were used as sentries to keep intruders away, but eventually evolved into what they are now: Abominations. We haven't seen any proof of the dwarves' existence for centuries now. Hence, our investigation has led us to a dead end.^^-Dr. Zahra Y.",
     // Unoccupied Houses
     "MapString.sbv.unoccupieddao": "An unoccupied house. You think someone adventurous would like living here. Maybe a firefighter?",
-    "MapString.sbv.unoccupiedwren": "An unoccupied house. You think this village would greatly benefit from a plumber.",
+    "MapString.sbv.unoccupiedwren": "An unoccupied house.  It just screams \"queer nerdy plumber\" at you, though.",
     "MapString.sbv.unoccupiedhyuk": "An unoccupied house. You think this is the perfect home for a mysterious, attractive man.",
     "MapString.sbv.unoccupiedarv": "An unoccupied house. You think this place could use a tight-knit family.",
     "MapString.sbv.unoccupieddido": "An unoccupied house. You think this is the perfect home for a teacher and her rebellious teen daughter.",
@@ -2678,6 +2681,8 @@
     "MapString.sbv.unoccupiedripley": "An unoccupied house. You hope this house never gets a rival farmer.",
     "MapString.sbv.unoccupiedripleyrsv": "An unoccupied house. You hope this house never gets a rival farmer. Your hands are full enough with Jeric as your rival.",
     "MapString.sbv.unoccupiedvalli": "A house that's locked up tight. Only some sort of trash gremlin would consider breaking in and squatting.",
+    "MapString.sbv.unoccupiedthy": "You think a mothan on the run would like to live here with her familiars.",
+    "MapString.sbv.unoccupiedalchemist": "This house would be perfect for an alchemist and her little friend.",
 
     //Warp Strings
     //------------
@@ -2894,7 +2899,7 @@
 
     //2 hearts
     "Diala.Dialogue.Mon2": "Derya woke up grumpy today. I said good morning when she walked in and I heard a bunch of grumbling as she passed by.$u",
-    "Diala.Dialogue.Tue2": "$query {{HasMod |contains=Lumisteria.MtVapius}}#Célestine and Adélaïde are so cute. Derya and I visited Mount Vapius on our day off and saw them holding hands on a bench nearby. I can't wait to grow old with someone like that.$4|I could really go for some pasta right now.$s#$b#Maybe I can get Derya to make me some.$h",
+    "Diala.Dialogue.Tue2": "$query {{HasVMV}}#Célestine and Adélaïde are so cute. Derya and I visited Mount Vapius on our day off and saw them holding hands on a bench nearby. I can't wait to grow old with someone like that.$4|I could really go for some pasta right now.$s#$b#Maybe I can get Derya to make me some.$h",
     "Diala.Dialogue.Wed2": "Did you know you can use your birth chart to find what career is best for you?$h#$b#I helped Derya figure it out and she was shocked!$u",
     "Diala.Dialogue.Thu2": "I just got a shipment I ordered a month ago.#$b#It was the premium cat treats that I spent way too much money on.$u#$b#Still worth it.$h",
     "Diala.Dialogue.Fri2": "One of our cats, Zoro, almost stole a chocolate muffin this morning.$9#$b#Derya started guarding the baked goods after that incident.$h",
@@ -3048,7 +3053,7 @@
     "Derya.Dialogue.Sun10": "No one can ever catch me slipping.$6#$b#You saw me fall? No, you did not. I was just gracefully getting into a pose.$9",
 
     //Green Rain
-    "Derya.Dialogue.GreenRain": "Don't I experience enough weirdness from Diala's ghosts and spirits? Now I have to deal with weird weather too?$$10",
+    "Derya.Dialogue.GreenRain": "Don't I experience enough weirdness from Diala's ghosts and spirits? Now I have to deal with weird weather too?$10",
     "Derya.Dialogue.GreenRainFinished": "Well... I'm glad that's over. Didn't think I'd like seeing the sun this much.$u",
     "Derya.Dialogue.GreenRain_2": "Ah, this damn rain again. I'm just make myself a cup of tea and hang out with the cats.$12",
 

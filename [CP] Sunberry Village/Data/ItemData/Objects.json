@@ -126,7 +126,8 @@
                         "season_fall",
                         "season_winter",
                         "color_white",
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_unique_mineral"
                     ]
                 },
                 "skellady.SBVCP_RoyalAnemone": {
@@ -299,7 +300,8 @@
                     "SpriteIndex": 0,
                     "ContextTags": [
                         "color_blue",
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_rare_mineral"
                     ]
                 },
                 "skellady.SBVCP_BlueAuraQuartz": {
@@ -315,7 +317,8 @@
                     "ContextTags": [
                         "color_blue",
                         "color_purple",
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_rare_mineral"
                     ]
                 },
                 "skellady.SBVCP_Citrine": {
@@ -330,7 +333,8 @@
                     "SpriteIndex": 2,
                     "ContextTags": [
                         "color_yellow",
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_common_mineral"
                     ]
                 },
                 "skellady.SBVCP_Moonberry": {
@@ -345,7 +349,8 @@
                     "SpriteIndex": 3,
                     "ContextTags": [
                         "color_white",
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_common_mineral"
                     ]
                 },
                 "skellady.SBVCP_Purpurite": {
@@ -360,7 +365,8 @@
                     "SpriteIndex": 4,
                     "ContextTags": [
                         "color_purple",
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_common_mineral"
                     ]
                 },
                 "skellady.SBVCP_Serpentine": {
@@ -375,7 +381,8 @@
                     "SpriteIndex": 5,
                     "ContextTags": [
                         "color_green",
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_rare_mineral"
                     ]
                 },
                 "skellady.SBVCP_SunberryGeode": {
