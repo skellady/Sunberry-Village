@@ -53,6 +53,8 @@
 				"sbv.mountain2": "{{i18n:MapString.sbv.mountain2}}",
 				"sbv.mountain3": "{{i18n:MapString.sbv.mountain3}}",
 				"sbv.mountain4": "{{i18n:MapString.sbv.mountain4}}",
+				//forest
+				"sbv.forest1": "{{i18n:MapString.sbv.forest1}}",
 				//road
 				"sbv.road1": "{{i18n:MapString.sbv.road1}}",
 				//ari market
@@ -254,6 +256,28 @@
 			"Entries": {
 				"sbv.unoccupiedvalli": "{{i18n:MapString.sbv.unoccupiedvalli}}"
 			}
-		}	
+		},
+		{
+			"LogName": "Thy's House",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupiedthy": "{{i18n:MapString.sbv.unoccupiedthy}}"
+			},
+			"When": {
+				"HasMod |contains= KediDili.ProjectStarlight.CP": true
+			}
+		},
+		{
+			"LogName": "Alchemist's House",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"sbv.unoccupiedalchemist": "{{i18n:MapString.sbv.unoccupiedalchemist}}"
+			},
+			"When": {
+				"HasMod |contains= wildflour.SASS": true
+			}
+		},
 	]
 }

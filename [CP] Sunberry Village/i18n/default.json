@@ -2599,6 +2599,8 @@
     "MapString.sbv.mountain2": "\"Our Beloved Adeel\", forever in our hearts.",
     "MapString.sbv.mountain3": "The tombstone is faded, but you can make out some of it.#\"In Memory of Chris\"",
     "MapString.sbv.mountain4": "There are flowers besides this tombstone.#\"Here lies Levi\"",
+    // Forest
+    "MapString.sbv.forest1": "Looks like an unfinished barn. The door is barred.",
     // Road
     "MapString.sbv.road1": "@ Sunberry Forest",
     // Rei's Door
@@ -2678,6 +2680,8 @@
     "MapString.sbv.unoccupiedripley": "An unoccupied house. You hope this house never gets a rival farmer.",
     "MapString.sbv.unoccupiedripleyrsv": "An unoccupied house. You hope this house never gets a rival farmer. Your hands are full enough with Jeric as your rival.",
     "MapString.sbv.unoccupiedvalli": "A house that's locked up tight. Only some sort of trash gremlin would consider breaking in and squatting.",
+    "MapString.sbv.unoccupiedthy": "You think a mothan on the run would like to live here with her familiars.",
+    "MapString.sbv.unoccupiedalchemist": "This house would be perfect for an alchemist and her little friend.",
 
     //Warp Strings
     //------------
