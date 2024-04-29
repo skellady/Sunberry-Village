@@ -267,6 +267,28 @@
                         }
                     ]
                 },
+                "skellady.SBVCP_WrenTrash": {
+                    "Items": [
+                        {
+                            "ID": "skellady.SBVCP_WrenArtifacts",
+                            "Condition": "RANDOM 0.1",
+                            "RandomItemId": [
+                                "(O)112",
+                                "(O)110",
+                                "(O)111",
+                                "(O)100",
+                                "(O)105"
+                            ]
+                        },
+                        {
+                            "ID": "skellady.SBVCP_WrenTrashItems",
+                            "Condition": "RANDOM 0.3",
+							"ItemId": "RANDOM_ITEMS (O)",
+                            "MaxItems": 1,
+                            "PerItemCondition": "ITEM_CATEGORY Target -20",
+                        }
+                    ]
+                },
             }
         }
     ]
