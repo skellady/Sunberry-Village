@@ -1789,7 +1789,16 @@
         ],
         "ExcludeTerrainTypes": [],
         "IncludeCoordinates": [],
-        "ExcludeCoordinates": [],
+        "ExcludeCoordinates": [
+          "0,30/13,39",
+          "0,0/59,8",
+          "47,29/59,39",
+          "0,8/6,28",
+          "6,13/20,17",
+          "18,11/21,15",
+          "20,3/23,11",
+          "54,0/59,39"
+        ],
         "StrictTileChecking": "Maximum",
         "SpawnTiming": {
           "StartTime": 600,
