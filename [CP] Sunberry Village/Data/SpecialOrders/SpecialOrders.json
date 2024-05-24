@@ -36,25 +36,25 @@
                         }
                     ]
                 },
-                "SBV.SpecialOrder.OpheliaBats": {
-                    "Name": "[SBV.SpecialOrder.OpheliaBats_Name]",
+                "SBV.SpecialOrder.OpheliaMushrooms": {
+                    "Name": "[SBV.SpecialOrder.OpheliaMushrooms_Name]",
                     "Requester": "OpheliaSBV",
                     "Duration": "TwoWeeks",
                     "Repeatable": false,
                     "RequiredTags": "",
                     "OrderType": "Esca.EMP/SBVBoard",
                     "SpecialRule": "",
-                    "Text": "[SBV.SpecialOrder.OpheliaBats_Text]",
+                    "Text": "[SBV.SpecialOrder.OpheliaMushrooms_Text]",
                     "ItemToRemoveOnEnd": null,
                     "MailToRemoveOnEnd": null,
                     "RandomizedElements": null,
                     "Objectives": [
                         {
                             "Type": "Slay",
-                            "Text": "[SBV.SpecialOrder.OpheliaBats_Objective_Text_0]",
-                            "RequiredCount": "30",
+                            "Text": "[SBV.SpecialOrder.OpheliaMushrooms_Objective_Text_0]",
+                            "RequiredCount": "15",
                             "Data": {
-                                "TargetName": "Bat"
+                                "TargetName": "False Magma Cap"
                             }
                         }
                     ],

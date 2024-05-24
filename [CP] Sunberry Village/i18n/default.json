@@ -1754,9 +1754,9 @@
     "SBV.SpecialOrder.MaiaGrubs_Objective_Text_0": "Slay 30 Grubs",
 
     // Ophelia Monster Slaying
-    "SBV.SpecialOrder.OpheliaBats_Name": "Bat Slayer",
-    "SBV.SpecialOrder.OpheliaBats_Text": "Could someone go into the cave by Silas' to slay some bats? I'm a little busy with the inn at the moment and won't be able to go in myself. You'll be compensated accordingly.",
-    "SBV.SpecialOrder.OpheliaBats_Objective_Text_0": "Slay 30 Bats",
+    "SBV.SpecialOrder.OpheliaMushrooms_Name": "Mushroom Slayer",
+    "SBV.SpecialOrder.OpheliaMushrooms_Text": "Could someone go into the cave by Silas' to slay some of the monsters disguising themselves as mushrooms? I'm a little busy with the inn at the moment and won't be able to go in myself. You'll be compensated accordingly.",
+    "SBV.SpecialOrder.OpheliaMushrooms_Objective_Text_0": "Slay 15 False Mushrooms",
 
     // Rei Dessert 
     "SBV.SpecialOrder.ReihanaDessert_Name": "HELP FEED REI!",
