@@ -27,24 +27,6 @@
                     "Condition": "PLAYER_HEARTS Current JumanaSBV 6",
                     "Action": "AddMail Current skellady.SBVCP_JumanaHusbandLetter"
                 },
-                /*"skellady.SBVCP_DialaRecipe1": {
-                    "Id": "skellady.SBVCP_DialaRecipe1",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current DialaSBV 4",
-                    "Action": "AddMail Current DialaSBVCooking"
-                },
-                "skellady.SBVCP_DeryaRecipe1": {
-                    "Id": "skellady.SBVCP_DeryaRecipe1",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current DeryaSBV 5",
-                    "Action": "AddMail Current DeryaSBVCooking"
-                },
-                "skellady.SBVCP_MoonRecipe1": {
-                    "Id": "skellady.SBVCP_MoonRecipe1",
-                    "Trigger": "DayStarted",
-                    "Condition": "PLAYER_HEARTS Current MoonSBV 6",
-                    "Action": "AddMail Current MoonSBVCooking"
-                },*/
                 "skellady.SBVCP_SilasRecipe1": {
                     "Id": "skellady.SBVCP_SilasRecipe1",
                     "Trigger": "DayStarted",
@@ -56,6 +38,73 @@
                     "Trigger": "DayStarted",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Any skellady.SBVCP_20031446, !PLAYER_HAS_CONVERSATION_TOPIC Any SBVFinalLevel",
                     "Action": "AddMail Current skellady.SBVCP_GSBTriggerLetter"
+                },
+                // Villager Letters
+                "skellady.SBVCP_AminaSeedsLetter": {
+                    "Id": "skellady.SBVCP_AminaSeedsLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HEARTS Current AminaSBV 2",
+                    "Action": "AddMail Current skellady.SBVCP_AminaSeeds",
+                },
+                "skellady.SBVCP_AriSeedsLetter": {
+                    "Id": "skellady.SBVCP_AriSeedsLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "SEASON summer",
+                    "Action": "AddMail Current skellady.SBVCP_AriSeeds",
+                },
+                "skellady.SBVCP_AriSprinklerLetter": {
+                    "Id": "skellady.SBVCP_AriSprinklerLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HEARTS Current AriSBV 6",
+                    "Action": "AddMail Current skellady.SBVCP_AriSprinkler",
+                },
+                "skellady.SBVCP_JumanaSeedsLetter": {
+                    "Id": "skellady.SBVCP_JumanaSeedsLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "SEASON fall",
+                    "Action": "AddMail Current skellady.SBVCP_JumanaSeeds",
+                },
+                "skellady.SBVCP_MiyoungSeedsLetter": {
+                    "Id": "skellady.SBVCP_MiyoungSeedsLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HEARTS Current MiyoungSBV 2",
+                    "Action": "AddMail Current skellady.SBVCP_MiyoungSeeds",
+                },
+                "skellady.SBVCP_EvelynFlowersLetter": {
+                    "Id": "skellady.SBVCP_EvelynFlowersLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HEARTS Current Evelyn 2",
+                    "Action": "AddMail Current skellady.SBVCP_EvelynFlowers",
+                },
+                "skellady.SBVCP_LyenneBlakeBugMeatLetter": {
+                    "Id": "skellady.SBVCP_LyenneBlakeBugMeatLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HEARTS Current LyenneSBV 4, PLAYER_HEARTS Current BlakeSBV 4",
+                    "Action": "AddMail Current skellady.SBVCP_LyenneBlakeBugMeat",
+                },
+                "skellady.SBVCP_MaiaBarsLetter": {
+                    "Id": "skellady.SBVCP_MaiaBarsLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HEARTS Current MaiaSBV 4",
+                    "Action": "AddMail Current skellady.SBVCP_MaiaBars",
+                },
+                "skellady.SBVCP_DNDDessertLetter": {
+                    "Id": "skellady.SBVCP_DNDDessertLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HEARTS Current DialaSBV 4, PLAYER_HEARTS Current DeryaSBV 4",
+                    "Action": "AddMail Current skellady.SBVCP_DNDDessert",
+                },
+                "skellady.SBVCP_ReihanaSlimeLetter": {
+                    "Id": "skellady.SBVCP_ReihanaSlimeLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HEARTS Current ReihanaSBV 2",
+                    "Action": "AddMail Current skellady.SBVCP_ReihanaSlime",
+                },
+                "skellady.SBVCP_AichaSeedsLetter": {
+                    "Id": "skellady.SBVCP_AichaSeedsLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "SEASON summer, PLAYER_HEARTS Current AichaSBV 6",
+                    "Action": "AddMail Current skellady.SBVCP_AichaSeeds",
                 },
             }
         }

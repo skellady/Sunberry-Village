@@ -1665,12 +1665,14 @@
     // Iman 2 Hearts Event
     "event-20031459.01": "Oh, hey. Didn't think I'd run into anyone here.",
     "event-20031459.02": "...I'm just... looking around.$7",
-    "event-20031459.03": "Did you lose something here?",
-    "event-20031459.04": "What are you looking at exactly?",
-    "event-20031459.05": "Not... really. It's nothing, don't mind me. I should head back to Ezra's.$s",
-    "event-20031459.06": "You're a very curious person, aren't you? It's nothing. I should head back to Ezra's.$8",
-    "event-20031459.07": "See you later, farmer.",
-    "event-20031459.08": "What was that all about?",
+    "event-20031459.03": "Are you looking to buy this barn?",
+    "event-20031459.04": "Is this your barn?",
+    "event-20031459.05": "Iman gives you a rueful laugh.",
+    "event-20031459.06": "...Something like that. It's... not worth talking about.$7",
+    "event-20031459.07": "...Something like that. It's... not worth talking about.$s",
+    "event-20031459.08": "I should head back to Ezra's.$11",
+    "event-20031459.09": "See you later, farmer.",
+    "event-20031459.10": "...What was that all about?",
 
     // Miyoung 2 Hearts Event
     "event-20031460.01": "Ah, hello dear!",
@@ -1818,8 +1820,10 @@
     "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_4": "Drop off 30 Fiber in the back room",
     "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_5": "Drop off 15 Iron Bars in the back room",
 
-    //Mail
+    //Mail 
     //----
+
+    //FOR NEW TRANSLATORS: Don't translate or remove parts that say [letterbg Mods\\skellady.SBVCP\\SBVletterBG] or %item id (O)numberhere %%. Only translate the actual text and the part after the [#] as that is the title of the letter.
 
     //DND Invite
     "Mail.DNDInviteLetter": "Hello, @!^^We'd like to invite you to D&D's Cat Cafe. Feel free to drop by during our opening hours! We're located in Sunberry Village.^^Looking forward to seeing you!^^- Diala and Derya[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0][#]D&D Cafe",
@@ -1827,7 +1831,7 @@
     //Heart Level Letters
     "Mail.DialaCoffeeLetter": "Hi, @!^^I've been meaning to invite you over for a cup of coffee, but it kept slipping my mind until Derya forced me to sit down and write this letter. Why don't you drop by sometime?^^- Diala[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 1][#]Coffee With Diala",
     "Mail.DialaTarotLetter": "Hey, @!^^I've had some free time recently to dedicate to my practice. Derya has talked me into giving tarot readings to people online instead of limiting myself to just the people in town. Why don't you drop by soon? I'd love to give you one!^^- Diala[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0][#]Tarot Reading",
-    "Mail.JumanaHusbandLetter": "Hello, dear.^^I'd like to think we've grown closer recently, and I consider you a dear friend. Tomorrow will mark nine years since my husband passed away. Maia, Amina and I are planning to go visit his grave and I was hoping you'd stop by, too.^^Just... having a friend by my side would help greatly. It's a tough time. If you'd like to come, meet us at the Sunberry Mountain after 3 P.M.^^- Jumana[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 2][#]Jumana's Husband",
+    "Mail.JumanaHusbandLetter": "Hello dear,^^I'd like to think we've grown closer recently, and I consider you a dear friend. Tomorrow will mark nine years since my husband passed away. Maia, Amina and I are planning to go visit his grave and I was hoping you'd stop by, too.^^Just... having a friend by my side would help greatly. It's a tough time. If you'd like to come, meet us at the Sunberry Mountain after 3 P.M.^^- Jumana[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 2][#]Jumana's Husband",
 
     //Recipe Letters
     "Mail.DialaHotChocoLetter": "Hey, @!^^I've been experimenting with this hot chocolate recipe for a while now, and I finally found what makes it taste SO good! It's Carob! I used to see my mother use it in her dessert back home, and I managed to find some at Ari's. Enjoy the recipe and let me know if you try it!^^- Diala[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0]%item cookingRecipe %%[#]Hot Chocolate Time!",
@@ -1839,15 +1843,29 @@
     "Mail.GSBTriggerLetter": "Dear @,^^We've finally been able to get some information regarding the seed you found at the bottom of the cavern. Drop by soon, we're gathering everyone in town to let them know of our findings.^^- Ophelia[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3][#]Village Meeting",
 
     //SO Letters
-    "Mail.ReiSODessert": "@,^^It was... nice of you to help me out with my dessert drought. Ew, I didn't mean for that to rhyme. Anyways, thank you, I guess. Here's a little something from my artifacts pile.^^- Reihana %item object 122 1 %%[#]Rei's Gratitude",
+    "Mail.ReiSODessert": "@,^^It was... nice of you to help me out with my dessert drought. Ew, I didn't mean for that to rhyme. Anyways, thank you, I guess. Here's a little something from my artifacts pile.^^- Reihana %item id (O)122 1 %%[#]Rei's Gratitude",
     "Mail.MaiaSOWeapon1": "Hey, @,^^Thank you for gathering and collecting the materials. I really appreciate the help. My back's feeling a little better so I should be able to go back into the caves soon. Come by the blacksmith tomorrow, I'll have the weapon available in my shop..^^- Maia[#]Maia's New Weapon",
     "Mail.MaiaSOWeapon2": "Hello, @,^^I was finally able to recreate the battle axe thanks to your help. It's a beauty, honestly. I might have to make one for myself, hah. I should have it ready in the shop soon if you'd like to take a look.^^- Maia[#]The Battle Axe",
-    "Mail.MaiaSOWeapon3": "@!^^I couldn't believe my eyes when I saw that you managed to gather everything for this weapon. I'm never been so excited to work on something before, hah. Thank you so much, again. I hope it wasn't too much trouble for you. The sword should be available for purcahse soon if you're interested.^^- Maia[#]The Dragonfang",
+    "Mail.MaiaSOWeapon3": "@!^^I couldn't believe my eyes when I saw that you managed to gather everything for this weapon. I'm never been so excited to work on something before, hah. Thank you so much, again. I hope it wasn't too much trouble for you. The sword should be available for purchase soon if you're interested.^^- Maia[#]The Dragonfang",
     "Mail.MaiaSOWeapon4": "Hey, @,^^We finally got done working on the blade. Thank you for gathering the materials for us! Silas and Raz asked me to thank you, too, on their behalf. I'm not gonna lie, this blade scares me a little. Silas said it's energy might be a little chaotic but it should be useful against monsters. Drop by if you'd like to check it out.^^- Maia[#]Menacing Blade",
     "Mail.AichaSOWeapon": "@!!^^Maia FINALLY agreed to make the weapon! She said you dropped off the materials earlier. Thank you SO much, I'm so excited to use it! It is more pretty than powerful, but... that's okay, heh! I asked Maia if she could sell it to you, too, so she should have it in her little shop soon!^^P.S: Sorry I couldn't pay you more! That's all the money I had.^^- Aicha[#]The Floral Weapon",
 
     //Pass Out Letter
     "Mail.passedOutSBV": "@,^^Found you unconscious last night while I was doing my sweep with Maia. Try to be more careful next time. If there's anything I can do for you, you know where to find me.^^- Ophelia[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3][#]Ophelia's Note",
+
+    //Villager Letter
+    "Mail.AminaSeeds": "Hello!^^I asked my grandma if I could send you some flower seeds from the store, so she's helping me write this letter! The flowers my grandma grows are soooo pretty and they would look nice on your farm!!! Please show me when you're done growing them, I would love to see!^^- Amina[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 4]%item id (O)skellady.SBVCP_ArfajSeeds 5 (O)skellady.SBVCP_CoffeeBlossomSeeds 5 %%[#]Amina's Gift",
+    "Mail.AriSeeds": "Dear @,^^Have you grown sunberries yet? They're delicious this time of year. You won't be able to find them at Pierre's (hopefully, he better not be selling them), so I'm sending you a few packets to try out. If you need more, drop by my store. Don't come on Saturdays, it's my day off and I like spending it at the cat cafe before heading over to the fountain gathering.^^- Ari[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)skellady.SBVCP_SunberrySeeds 5 %%[#]Ari's Seeds",
+    "Mail.AriSprinkler": "Dearest @,^^I got a shipment of high quality sprinklers the other day and thought you might find some use for them. Well, obviously, you run a farm. Anyways, I hope they serve you well.^^P.S: This is the last of that shipment. You won't find any more in my stock unfortunately, but I might still have some up for the daily special eventually.^^- Ari[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)645 3%%[#]Ari's Sprinklers",
+    "Mail.JumanaSeeds": "Dear farmer,^^Fall might be my favorite season for growing flowers. It yield the most beautiful flowers and adds a nice pop of color to your field! I'm sending you a few packets of flower seeds, exclusive to Sunberry Village! I hope you like them.^^- Jumana[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)skellady.SBVCP_SpeedwellSeeds 8 %%[#]Jumana's Fall Seeds",
+    "Mail.MiyoungSeeds": "Dear @,^^Did you know Jumana sells seeds for a flower that grows in the winter? It's beautiful! Cyclamen is one of my favorite flowers, and it gives me something to do with my little field during this season! I accidentally bought more than I needed, so I'm sending the excess to you. Enjoy, dear!^^- Miyoung[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)skellady.SBVCP_CyclamenSeeds 5 %%[#]Miyoung's Cyclamen Seeds",
+    "Mail.EvelynFlowers": "Hello there, dear!^^Jumana sent me some flower seeds in the mail a while back, and I got to harvest them yesterday! I thought I'd send some your way along with some cookies. I hope they get to you in good shape.^^- Evelyn %item id (O)skellady.SBVCP_CallaLilies 3 (O)223 1 %%[#]Evelyn's Calla Lilies",
+    "Mail.LyenneBlakeBugMeat": "Hey!^^We found this... bug meat in one of the trashcans in the inn. I think Ophelia might've dumped them out. Blake said we should mail them over to you, so if you'd like to complain to someone, please go to his dads and not Ophelia. I already got lectured earlier that week. Thanks, have fun!^^- Lyenne and Blake, mostly Blake[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)684 10 %%[#]LnB Bug Meat",
+    "Mail.MaiaBars": "Hey, @,^^I was smelting some gold bars for a shipment, but ended up with a little more than I needed. Thought I'd send them your way as I have no use for them at the moment. Drop by the blacksmith sometimes, we've got plenty of cool stuff in stock.^^- Maia[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)336 5 %%[#]Maia's Bars",
+    "Mail.DNDDessert": "Hey, @!^^Derya and I were up early preparing some baked goods and thought we'd send some your way. Drop by the cafe soon! We miss you. Hope you like what we made!^^- Diala and Derya (D&D's Cat Cafe)[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0]%item id (O)skellady.SBVCP_ChocoChipCookies 2 %%[#]DND Dessert",
+    "Mail.ReihanaSlime": "Get slimed, haha.^^- Reihana %item id (O)766 15 %%[#]Get Slimed",
+    "Mail.AichaSeeds": "Hi, @!!^^Guess what? I bought some seeds! Yes, with my own money! I hope you like them. I'll come by the farm to see them when they're grown. Bye, have fun! :3^^- Aicha %item id (O)skellady.SBVCP_CallaLilySeeds 5 %%[#]Aicha's Seeds",
+
     //Movie Reactions
     //---------------
 
@@ -3601,7 +3619,7 @@
     "Ari.Dialogue.Wed": "Blake and his friends hung out at the store after I closed last night. These kids can be LOUD.$6#$e#Won't let an old man sleep peacefully.$s",
     "Ari.Dialogue.Thu": "Have you met Elias yet? He's my ex-husband.#$b#Don't worry, we're on good terms, I was just curious.$7",
     "Ari.Dialogue.Fri": "%Ari is mumbling to himself.#$b#Hmm... if I restock today, then get that new shipment...$10#$e#Ah, sorry, farmer. Didn't see you there. How's your day going?",
-    "Ari.Dialogue.Sat": "Everyone in the village hangs out by the fountain on Saturdays. Are you going to be there?",
+    "Ari.Dialogue.Sat": "$query ANY \"WEATHER Here Rain Storm\" \"SEASON Winter\"#Oh, hey there. Have you seen Pierre recently? Is he still as frustrating as ever?$u|Everyone in the village hangs out by the fountain on Saturdays. Are you going to be there?",
     "Ari.Dialogue.Sun": "I've been trying to get this damn phone working for a few days now. Lyenne and Blake told me to put it in rice. How funny.$6#$b#...I tried. It didn't work.$s",
 
     //2 hearts
@@ -3713,7 +3731,7 @@
     "Blake.Dialogue.Wed6": "Oh my God, @. There's this video game I'm playing and I have two romance options that are making me SO conflicted.$9#$b#Like, do I go with the incredibly sweet man who is also lowkey a dumbass, or do I go with the woman who is very mean to me, but in a hot way?$8",
     "Blake.Dialogue.Thu6": "Hmm... you know, I really do think we'd benefit from having a therapist or two around. When my dads were looking, the closest person we could find was all the way in Zuzu City.$s",
     "Blake.Dialogue.Fri6": "Hey, Lyenne and I are playing an online game tonight, I'd really like it if you could join us!$h#$b#It's going to be so much fun, I promise.",
-    "Blake.Dialogue.Sat6": "Don't forget to stop by the fountain tonight, I think Miss Jumana's cooking, so you know you're in for a treat.$u",
+    "Blake.Dialogue.Sat6": "$query ANY \"WEATHER Here Rain Storm\" \"SEASON Winter\"#Have you tried Miss Jumana's food before? It's delicious. I envy Amina sometimes.$u|Don't forget to stop by the fountain tonight, I think Miss Jumana's cooking, so you know you're in for a treat.$u",
     "Blake.Dialogue.Sun6": "My dad's inability to operate an electronic device will never not be funny to me. First thing I heard in the morning was, \"Blake! The phone's yelling at me again... Oh no, why is it in a different language now?\"$u",
 
     //8 hearts
@@ -3965,7 +3983,7 @@
     "Iman.Dialogue.Wed4": "Oh! This client I'm working with is going to have the CUTEST website! It's so pink, I love it.$u#$b#I enjoy working on sites that don't look basic. Give me something fun!$u",
     "Iman.Dialogue.Thu4": "Ezra's too scared to watch this new horror movie so I'm getting dragged into it for some reason.$8#$b#Adding another coward to the mix won't make a difference! I told him we should just watch a comedy or something.$u",
     "Iman.Dialogue.Fri4": "We have the sweetest people in this town, I swear to God. Miyoung invited me over for lunch when I dropped off a shirt Ezra was fixing up for her.$12#$b#It was really damn good, I'll tell you that.$u",
-    "Iman.Dialogue.Sat4": "This is the one day of the week where I enjoy some drinks by the fountain. I try not to drink otherwise, but it's fun when you're with a group of people.$h",
+    "Iman.Dialogue.Sat4": "$query ANY \"WEATHER Here Rain Storm\" \"SEASON Winter\"#Emily made me a cocktail the other day at the saloon. I try not to drink too often, but I could never say no to Emily.$h|This is the one day of the week where I enjoy some drinks by the fountain. I try not to drink otherwise, but it's fun when you're with a group of people.$h",
     "Iman.Dialogue.Sun4": "Sometimes, I feel down but then I remember that we have a whole cafe with cats in it. Immediately cheers me up. It's so comforting.$u",
 
     //6 hearts
@@ -4136,7 +4154,7 @@
     "Lyenne.Dialogue.Wed4": "I wonder if Leah would ever offer art classes. I'd love to learn from her, she's so cool.$4#$b#Artistic women... my heart's all yours.$u",
     "Lyenne.Dialogue.Thu4": "Sexuality is so confusing. Like, why can't I decide whether I like men or can't stand them? I need my brain to make a choice already.$7#$b#Don't mind me, @. Just my daily dose of questioning.",
     "Lyenne.Dialogue.Fri4": "Abigail can be so reckless sometimes. I'm kinda into that.$u#$b#Like, you know, just getting me out of my shell and all that. Not... the other definition of 'into that'.$8#$e#%Lyenne is blushing and avoiding your gaze.",
-    "Lyenne.Dialogue.Sat4": "Ughhh, I can't believe I have to be productive and make art. This is so unfair. I deserve to be in bed, watching four seasons of a show in one sitting.$s",
+    "Lyenne.Dialogue.Sat4": "Ughhh, I can't believe I have to be productive and make art. This is so unfair. I should be in bed watching four seasons of a show in one sitting.$s",
     "Lyenne.Dialogue.Sun4": "God, my favorite part of the day is messing with Ari and Elias. I love them, but I also adore the look on their faces when they come across these little inconveniences.$6#$b#You know, once, Ari tried grounding me. Then, the angry look dissolved into \"Oh, wait. That's not my child to ground.\"$u",
 
     //6 hearts
@@ -4145,7 +4163,7 @@
     "Lyenne.Dialogue.Wed6": "Alright, I'm gonna need permission to go see whatever animals you got on your farm. It's for... science.$h#$b#...Okay, fine. It's for my mental health. Animals make me happy.$9",
     "Lyenne.Dialogue.Thu6": "Iman is so cool. I couldn't find a good outfit for this party in Zuzu so she let me borrow THE prettiest dress. Here, look.$u#$b#%Lyenne shows you a picture of her with her arm over Blake's shoulder. She's wearing a strapless red dress.",
     "Lyenne.Dialogue.Fri6": "I sat down with Diala and Derya the other day to complain about something. It's so funny to me that they're like, an angel and a devil on your shoulder. I'm sure you know who's who by now.$u",
-    "Lyenne.Dialogue.Sat6": "Promised Abigail we'd play a video game together tonight, which means I'd have to sneak out of the hang out by fountain early.$u",
+    "Lyenne.Dialogue.Sat6": "$query ANY \"WEATHER Here Rain Storm\" \"SEASON Winter\"#Promised Abigail we'd play a video game together tonight. I'm looking forward to it, we rarely ever get to play without the guys.$h|Promised Abigail we'd play a video game together tonight, which means I'd have to sneak out of the hang out by fountain early.$u",
     "Lyenne.Dialogue.Sun6": "Hmm... I'm almost done with this painting I'm working on, but the urge to redo it is so strong.$7#$b#I need to accept that seeing flaws in my art means that I'm improving, but it also means I shouldn't be stuck in a loop of constantly redoing what I make.$9",
 
     //8 hearts
@@ -4289,7 +4307,7 @@
     "Miyoung.Dialogue.Wed": "Jodi is a sweetheart. We were sharing recipes the other day and decided to cook together. Sam and Vincent loved all the dishes!$u",
     "Miyoung.Dialogue.Thu": "I mostly grow crops to use when I cook. I assume you've been selling yours, yes?#$b#Make sure to sell some to Ari! We would love to have fresh produce readily available here.$u",
     "Miyoung.Dialogue.Fri": "My sons might try to visit soon. Hopefully they can take some time off from work and relax here.$u",
-    "Miyoung.Dialogue.Sat": "Are you going to join us by the fountain today? Don't be shy! It'll be fun to join our little gathering.$7",
+    "Miyoung.Dialogue.Sat": "$query ANY \"WEATHER Here Rain Storm\" \"SEASON Winter\"#Ah, I miss our little gatherings by the fountain. Hopefully, we'll get to gather soon enough.|Are you going to join us by the fountain today? Don't be shy! It'll be fun to join our little gathering.$7",
     "Miyoung.Dialogue.Sun": "%Miyoung is humming to herself.#$b#Ah, hello! I hope your day's going well, darling. I was just thinking about preserving these beautiful flowers I got from Jumana.$u",
 
     //2 hearts
@@ -4470,7 +4488,7 @@
     "Ophelia.Dialogue.Wed2": "I'm sure it's a long walk from your farm to Sunberry, the inn is available if you'd find yourself in need of rest.$h#$b#Just let me know if there's anything you need.",
     "Ophelia.Dialogue.Thu2": "I talked to my husband last night. Apparently we're opening yet another branch of Serenity Inn.#$b#$y '..._You don't seem too happy about that._Well, I'm happy to see his inn prospering, but this wasn't how I envisioned my life to be.$s_Congratulations! That's wonderful news._Thank you, @. I'm glad to hear the inn is doing so well.' ",
     "Ophelia.Dialogue.Fri2": "Lyenne is doing a wonderful job with her art. I wish she had the confidence to allow me to showcase her art in the lobby.$4#$b#I will have to let her be, but I'll be right here to support her.$4",
-    "Ophelia.Dialogue.Sat2": "Hello, @. I'm a little busy right now. I'm preparing for the weekly hang out by the fountain. Why don't you join us?",
+    "Ophelia.Dialogue.Sat2": "$query ANY \"WEATHER Here Rain Storm\" \"SEASON Winter\"#Hello, @. I'm... surprisingly more free than usual. I should be preparing for the weekly hang out by the fountain, but the weather is not on our side.$h|Hello, @. I'm a little busy right now. I'm preparing for the weekly hang out by the fountain. Why don't you join us?",
     "Ophelia.Dialogue.Sun2": "Family? Everyone in Sunberry is my family.$8#$b#However, if you're asking about my biological parents, both have passed on. I have my husband, but no children of my own. Lyenne and Blake are the closest thing to kids that I will ever want to have.",
 
     //4 hearts
@@ -4497,7 +4515,7 @@
     "Ophelia.Dialogue.Wed8": "We've been keeping some of the stray dogs in the inn during bad weather. Lyenne is so incredibly happy with that decision.$u",
     "Ophelia.Dialogue.Thu8": "I'm commissioning Maia for some new daggers. Her work is top-tier, I highly recommend her if you were looking to upgrade your weapons.",
     "Ophelia.Dialogue.Fri8": "I got to see Marlon and Gil earlier, they speak highly of you, @.$h#$b#I'm glad we have you to help protect the valley.",
-    "Ophelia.Dialogue.Sat8": "Ahh, ticking things off of my to-do list is so satisfying. I think it's the only thing motivating me to get this work done, right now.$u",
+    "Ophelia.Dialogue.Sat8": "Ahh, ticking things off of my to-do list is so satisfying. I think it's the only thing motivating me to get this work done right now.$u",
     "Ophelia.Dialogue.Sun8": "Hmm... Elias has a book about weapon enchantments. I wonder if I could find more information elsewhere.$10#$b#I think it'd give us an edge over the monsters.",
 
     //10 hearts 

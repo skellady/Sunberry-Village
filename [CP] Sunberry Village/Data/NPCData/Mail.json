@@ -28,7 +28,7 @@
                 // GSB Trigger
                 "skellady.SBVCP_GSBTriggerLetter": "{{i18n:Mail.GSBTriggerLetter}}",
 
-                //PassedOut Mail
+                // PassedOut Mail
                 "passedOutSBV": "{{i18n:Mail.passedOutSBV}}",
 
                 // Special Order Letters
@@ -37,7 +37,20 @@
                 "MaiaSOWeapon2": "{{i18n:Mail.MaiaSOWeapon2}}",
                 "MaiaSOWeapon3": "{{i18n:Mail.MaiaSOWeapon3}}",
                 "MaiaSOWeapon4": "{{i18n:Mail.MaiaSOWeapon4}}",
-                "AichaSOWeapon": "{{i18n:Mail.AichaSOWeapon}}"
+                "AichaSOWeapon": "{{i18n:Mail.AichaSOWeapon}}",
+
+                // Villager Letters
+                "skellady.SBVCP_AminaSeeds": "{{i18n:Mail.AminaSeeds}}",
+                "skellady.SBVCP_AriSeeds": "{{i18n:Mail.AriSeeds}}",
+                "skellady.SBVCP_AriSprinkler": "{{i18n:Mail.AriSprinkler}}",
+                "skellady.SBVCP_JumanaSeeds": "{{i18n:Mail.JumanaSeeds}}",
+                "skellady.SBVCP_MiyoungSeeds": "{{i18n:Mail.MiyoungSeeds}}",
+                "skellady.SBVCP_EvelynFlowers": "{{i18n:Mail.EvelynFlowers}}",
+                "skellady.SBVCP_LyenneBlakeBugMeat": "{{i18n:Mail.LyenneBlakeBugMeat}}",
+                "skellady.SBVCP_MaiaBars": "{{i18n:Mail.MaiaBars}}",
+                "skellady.SBVCP_DNDDessert": "{{i18n:Mail.DNDDessert}}",
+                "skellady.SBVCP_ReihanaSlime": "{{i18n:Mail.ReihanaSlime}}",
+                "skellady.SBVCP_AichaSeeds": "{{i18n:Mail.AichaSeeds}}"
             }
         }
     ]
