@@ -1,0 +1,252 @@
+{
+    "Changes": [
+        // Resort Dialogue
+        // Aicha
+        {
+			"LogName": "Aicha GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/AichaSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Aicha.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Aicha.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Aicha.Dialogue.Resort_Shore}}",
+				"Resort_Chair": "{{i18n:Aicha.Dialogue.Resort_Chair}}",
+				"Resort_Bar": "{{i18n:Aicha.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Aicha.Dialogue.Resort}}",
+			}
+		},
+        // Amina
+        {
+			"LogName": "Amina GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/AminaSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Amina.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Amina.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Amina.Dialogue.Resort_Shore}}",
+				"Resort": "{{i18n:Amina.Dialogue.Resort}}",
+			}
+		},
+        // Ari
+        {
+			"LogName": "Ari GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/AriSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Ari.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Ari.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Ari.Dialogue.Resort_Shore}}",
+				"Resort_Chair": "{{i18n:Ari.Dialogue.Resort_Chair}}",
+				"Resort_Bar": "{{i18n:Ari.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Ari.Dialogue.Resort}}",
+			}
+		},
+        // Blake
+        {
+			"LogName": "Blake GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/BlakeSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Blake.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Blake.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Blake.Dialogue.Resort_Shore}}",
+				"Resort_Chair": "{{i18n:Blake.Dialogue.Resort_Chair}}",
+				"Resort": "{{i18n:Blake.Dialogue.Resort}}",
+			}
+		},
+        // Diala
+        {
+			"LogName": "Diala GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/DialaSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Diala.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Diala.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Diala.Dialogue.Resort_Shore}}",
+				"Resort_Chair": "{{i18n:Diala.Dialogue.Resort_Chair}}",
+				"Resort_Bar": "{{i18n:Diala.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Diala.Dialogue.Resort}}",
+			}
+		},
+        // Derya
+        {
+			"LogName": "Derya GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/DeryaSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Derya.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Derya.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Derya.Dialogue.Resort_Shore}}",
+				"Resort_Chair": "{{i18n:Derya.Dialogue.Resort_Chair}}",
+				"Resort_Bar": "{{i18n:Derya.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Derya.Dialogue.Resort}}",
+			}
+		},
+        // Elias
+        {
+			"LogName": "Elias GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/EliasSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Elias.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Elias.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Elias.Dialogue.Resort_Shore}}",
+				"Resort_Bar": "{{i18n:Elias.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Elias.Dialogue.Resort}}",
+			}
+		},
+        // Ezra
+        {
+			"LogName": "Ezra GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/EzraSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Ezra.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Ezra.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Ezra.Dialogue.Resort_Shore}}",
+				"Resort_Bar": "{{i18n:Ezra.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Ezra.Dialogue.Resort}}",
+			}
+		},
+        // Iman
+        {
+			"LogName": "Iman GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/ImanSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Iman.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Iman.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Iman.Dialogue.Resort_Shore}}",
+				"Resort_Bar": "{{i18n:Iman.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Iman.Dialogue.Resort}}",
+			}
+		},
+        // Jumana
+        {
+			"LogName": "Jumana GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/JumanaSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Jumana.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Jumana.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Jumana.Dialogue.Resort_Shore}}",
+				"Resort": "{{i18n:Jumana.Dialogue.Resort}}",
+			}
+		},
+        // Lyenne
+        {
+			"LogName": "Lyenne GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LyenneSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Lyenne.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Lyenne.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Lyenne.Dialogue.Resort_Shore}}",
+				"Resort": "{{i18n:Lyenne.Dialogue.Resort}}",
+			}
+		},
+        // Maia
+        {
+			"LogName": "Maia GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MaiaSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Maia.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Maia.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Maia.Dialogue.Resort_Shore}}",
+				"Resort_Bar": "{{i18n:Maia.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Maia.Dialogue.Resort}}",
+			}
+		},
+        // Miyoung
+        {
+			"LogName": "Miyoung GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MiyoungSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Miyoung.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Miyoung.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Miyoung.Dialogue.Resort_Shore}}",
+				"Resort": "{{i18n:Miyoung.Dialogue.Resort}}",
+			}
+		},
+        // Moon
+        {
+			"LogName": "Moon GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MoonSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Moon.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Moon.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Moon.Dialogue.Resort_Shore}}",
+				"Resort_Chair": "{{i18n:Moon.Dialogue.Resort_Chair}}",
+				"Resort_Bar": "{{i18n:Moon.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Moon.Dialogue.Resort}}",
+			}
+		},
+        // Nadia
+        {
+			"LogName": "Nadia GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/NadiaSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Nadia.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Nadia.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Nadia.Dialogue.Resort_Shore}}",
+				"Resort_Bar": "{{i18n:Nadia.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Nadia.Dialogue.Resort}}",
+			}
+		},
+        // Ophelia
+        {
+			"LogName": "Ophelia GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/OpheliaSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Ophelia.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Ophelia.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Ophelia.Dialogue.Resort_Shore}}",
+				"Resort_Bar": "{{i18n:Ophelia.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Ophelia.Dialogue.Resort}}",
+			}
+		},
+        // Pan
+        {
+			"LogName": "Pan GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/PanSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Pan.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Pan.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Pan.Dialogue.Resort_Shore}}",
+				"Resort_Bar": "{{i18n:Pan.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Pan.Dialogue.Resort}}",
+			}
+		},
+        // Reihana
+        {
+			"LogName": "Reihana GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/ReihanaSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Reihana.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Reihana.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Reihana.Dialogue.Resort_Shore}}",
+				"Resort_Bar": "{{i18n:Reihana.Dialogue.Resort_Bar}}",
+				"Resort": "{{i18n:Reihana.Dialogue.Resort}}",
+			}
+		},
+        // Silas
+		{
+			"LogName": "Silas GI dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/SilasSBV",
+			"Entries": {
+				"Resort_Entering": "{{i18n:Silas.Dialogue.Resort_Entering}}",
+				"Resort_Leaving": "{{i18n:Silas.Dialogue.Resort_Leaving}}",
+				"Resort_Shore": "{{i18n:Silas.Dialogue.Resort_Shore}}",
+				"Resort": "{{i18n:Silas.Dialogue.Resort}}",
+			}
+		},
+    ]
+}

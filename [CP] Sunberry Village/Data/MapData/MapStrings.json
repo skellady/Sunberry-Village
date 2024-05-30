@@ -265,7 +265,7 @@
 				"sbv.unoccupiedthy": "{{i18n:MapString.sbv.unoccupiedthy}}"
 			},
 			"When": {
-				"HasMod |contains= KediDili.ProjectStarlight.CP": true
+				"HasMod |contains= KediDili.ProjectStarlight.CP": false
 			}
 		},
 		{
@@ -276,7 +276,7 @@
 				"sbv.unoccupiedalchemist": "{{i18n:MapString.sbv.unoccupiedalchemist}}"
 			},
 			"When": {
-				"HasMod |contains= wildflour.SASS": true
+				"HasMod |contains= wildflour.SASS": false
 			}
 		},
 	]

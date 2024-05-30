@@ -214,7 +214,7 @@
     "Gift.Hate.Derya": "Thanks, I hate it.",
     "Gift.Hate.Elias": "Ugh, if this is your idea of a gift, you might as well stay very far away from me.",
     "Gift.Hate.Ezra": "...Come on. Really?",
-    "Gift.Hate.Iman": "Ugh, where's the nearest trashcan?",
+    "Gift.Hate.Iman": "Ugh, where's the nearest trash can?",
     "Gift.Hate.Jumana": "...Sweetheart, did I wrong you somehow?",
     "Gift.Hate.Lyenne": "Uh. Ew.",
     "Gift.Hate.Maia": "I... just can't believe you'd give me something like this.",
@@ -1857,10 +1857,10 @@
     "Mail.AminaSeeds": "Hello!^^I asked my grandma if I could send you some flower seeds from the store, so she's helping me write this letter! The flowers my grandma grows are soooo pretty and they would look nice on your farm!!! Please show me when you're done growing them, I would love to see!^^- Amina[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 4]%item id (O)skellady.SBVCP_ArfajSeeds 5 (O)skellady.SBVCP_CoffeeBlossomSeeds 5 %%[#]Amina's Gift",
     "Mail.AriSeeds": "Dear @,^^Have you grown sunberries yet? They're delicious this time of year. You won't be able to find them at Pierre's (hopefully, he better not be selling them), so I'm sending you a few packets to try out. If you need more, drop by my store. Don't come on Saturdays, it's my day off and I like spending it at the cat cafe before heading over to the fountain gathering.^^- Ari[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)skellady.SBVCP_SunberrySeeds 5 %%[#]Ari's Seeds",
     "Mail.AriSprinkler": "Dearest @,^^I got a shipment of high quality sprinklers the other day and thought you might find some use for them. Well, obviously, you run a farm. Anyways, I hope they serve you well.^^P.S: This is the last of that shipment. You won't find any more in my stock unfortunately, but I might still have some up for the daily special eventually.^^- Ari[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)645 3%%[#]Ari's Sprinklers",
-    "Mail.JumanaSeeds": "Dear farmer,^^Fall might be my favorite season for growing flowers. It yield the most beautiful flowers and adds a nice pop of color to your field! I'm sending you a few packets of flower seeds, exclusive to Sunberry Village! I hope you like them.^^- Jumana[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)skellady.SBVCP_SpeedwellSeeds 8 %%[#]Jumana's Fall Seeds",
+    "Mail.JumanaSeeds": "Dear farmer,^^Fall might be my favorite season for growing flowers. It yield the most beautiful flowers and adds a nice pop of color to your field! I'm sending you a few packets of flower seeds, exclusive to Sunberry Village! I hope you like them.^^- Jumana[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)skellady.SBVCP_RoyalAnemoneSeeds 8 %%[#]Jumana's Fall Seeds",
     "Mail.MiyoungSeeds": "Dear @,^^Did you know Jumana sells seeds for a flower that grows in the winter? It's beautiful! Cyclamen is one of my favorite flowers, and it gives me something to do with my little field during this season! I accidentally bought more than I needed, so I'm sending the excess to you. Enjoy, dear!^^- Miyoung[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)skellady.SBVCP_CyclamenSeeds 5 %%[#]Miyoung's Cyclamen Seeds",
-    "Mail.EvelynFlowers": "Hello there, dear!^^Jumana sent me some flower seeds in the mail a while back, and I got to harvest them yesterday! I thought I'd send some your way along with some cookies. I hope they get to you in good shape.^^- Evelyn %item id (O)skellady.SBVCP_CallaLilies 3 (O)223 1 %%[#]Evelyn's Calla Lilies",
-    "Mail.LyenneBlakeBugMeat": "Hey!^^We found this... bug meat in one of the trashcans in the inn. I think Ophelia might've dumped them out. Blake said we should mail them over to you, so if you'd like to complain to someone, please go to his dads and not Ophelia. I already got lectured earlier that week. Thanks, have fun!^^- Lyenne and Blake, mostly Blake[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)684 10 %%[#]LnB Bug Meat",
+    "Mail.EvelynFlowers": "Hello there, dear!^^Jumana sent me some flower seeds in the mail a while back, and I got to harvest them yesterday! I thought I'd send some your way. I hope they get to you in good shape.^^- Evelyn %item id (O)skellady.SBVCP_CallaLilies 3 %%[#]Evelyn's Calla Lilies",
+    "Mail.LyenneBlakeBugMeat": "Hey!^^We found this... bug meat in one of the trash cans in the inn. I think Ophelia might've dumped them out. Blake said we should mail them over to you, so if you'd like to complain to someone, please go to his dads and not Ophelia. I already got lectured earlier this week. Thanks, have fun!^^- Lyenne and Blake, mostly Blake[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)684 10 %%[#]LnB Bug Meat",
     "Mail.MaiaBars": "Hey, @,^^I was smelting some gold bars for a shipment, but ended up with a little more than I needed. Thought I'd send them your way as I have no use for them at the moment. Drop by the blacksmith sometimes, we've got plenty of cool stuff in stock.^^- Maia[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)336 5 %%[#]Maia's Bars",
     "Mail.DNDDessert": "Hey, @!^^Derya and I were up early preparing some baked goods and thought we'd send some your way. Drop by the cafe soon! We miss you. Hope you like what we made!^^- Diala and Derya (D&D's Cat Cafe)[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0]%item id (O)skellady.SBVCP_ChocoChipCookies 2 %%[#]DND Dessert",
     "Mail.ReihanaSlime": "Get slimed, haha.^^- Reihana %item id (O)766 15 %%[#]Get Slimed",
@@ -3502,6 +3502,16 @@
     "Aicha.Dialogue.GreenRainFinished": "Oh, @! Want some of the moss soup I made? It's delicious! [(O)MossSoup]$h",
     "Aicha.Dialogue.GreenRain_2": "Rei doesn't want me to make moss soup this year. Apparently she's sick of it. How can someone be sick of such a delicious dish?!$s",
 
+    // Resort Dialogue
+
+    //Vanilla
+    "Aicha.Dialogue.Resort_Entering": "Ooh, a resort! How fun! I didn't know what to expect when I snuck onto the boat.$15",
+    "Aicha.Dialogue.Resort_Leaving": "Goodbye, resort! Goodbye, island!$u",
+    "Aicha.Dialogue.Resort_Shore": "Did you know we can breathe under water? It's pretty fun! I get to see all kinds of sea creatures.$h",
+    "Aicha.Dialogue.Resort_Chair": "Mmm... this chair is very comfortable.$h",
+    "Aicha.Dialogue.Resort_Bar": "This is delicious! Make sure you stay hydrated, @. I don't even need to drink, I just do it for fun!$u",
+    "Aicha.Dialogue.Resort": "%Aicha is looking around.",
+
     //Amina
     "Amina.Dialogue.Introduction": "Oh... I don't think I've seen you before.$3#$b#Do you also grow flowers like my grandma does?$4",
 
@@ -3586,6 +3596,14 @@
     "Amina.Dialogue.GreenRain": "What's happening outside? It's scary.$s#$b#I wanna make sure Jas and Vincent are okay...$s",
     "Amina.Dialogue.GreenRainFinished": "I can't believe Vincent wanted to play outside yesterday... He's so brave.$3",
     "Amina.Dialogue.GreenRain_2": "Mom told me the weather isn't something to be afraid of. She said we can go look at the weird trees together!$3",
+
+    // Resort Dialogue
+
+    //Vanilla
+    "Amina.Dialogue.Resort_Entering": "Wow! This place is so pretty.$3",
+    "Amina.Dialogue.Resort_Leaving": "I wish we could stay longer.$s#$b#Maybe next time.$h",
+    "Amina.Dialogue.Resort_Shore": "Mr. Gus made me a snack! I like watching the waves while I eat.$h",
+    "Amina.Dialogue.Resort": "Mom said I shouldn't stray too far from everyone, but I really want to explore!$3",
 
     //Ari
     "Ari.Dialogue.Introduction": "Ah, a new face. I'm Ari. @? Well, it's nice to meet you.#$b#I sell good quality seeds, fertilizers, and more. Basically anything you need, I have at my store.$h",
@@ -3672,6 +3690,16 @@
     "Ari.Dialogue.GreenRainFinished": "I heard Pierre was worried about his sales yesterday rather than the weird weather we experienced. What an odd man...$u",
     "Ari.Dialogue.GreenRain_2": "Blake and Lyenne are probably going out to play in the rain. Don't think I've seen Blake do that since he was a kid.$u",
 
+    // Resort Dialogue
+
+    //Vanilla
+    "Ari.Dialogue.Resort_Entering": "Ah, a day off at a resort. You know, I usually spend my days off at the cat cafe, but this is nice too.$h",
+    "Ari.Dialogue.Resort_Leaving": "Welp, time to head back home. You joining us, @?",
+    "Ari.Dialogue.Resort_Shore": "...I wish I learnt how to swim. Alas, I have to spend the rest of my life terrified of water.$12",
+    "Ari.Dialogue.Resort_Chair": "Well, this chair's a little uncomfortable. Hm... Maybe I can bring my own chair next time.$7",
+    "Ari.Dialogue.Resort_Bar": "Ahh, nothing beats the drinks Gus makes.$u",
+    "Ari.Dialogue.Resort": "It's really nice out here, huh?$h",
+
     //Blake
     "Blake.Dialogue.Introduction": "Oh, hello there. You're not from around here, are you?#$b#Ah, yeah, I remember now. It's nice to meet you, I'm Blake.$h",
 
@@ -3757,6 +3785,15 @@
     "Blake.Dialogue.GreenRainFinished": "I'm so glad that's done with. How dare the weather separate me from my video games and best friend for a whole day?$s",
     "Blake.Dialogue.GreenRain_2": "Those big plants are kinda crazy, huh? Sucks that none of our devices work, but we can still play in the rain.$h",
 
+    // Resort Dialogue
+
+    //Vanilla
+    "Blake.Dialogue.Resort_Entering": "I told my dad I got my assignment done before leaving. Little does he know, I absolutely did not.$u#$b#I'll have to stay up and work on it when we head back.$8",
+    "Blake.Dialogue.Resort_Leaving": "Time to face that assignment, I guess. This was good while it lasted.$u",
+    "Blake.Dialogue.Resort_Shore": "%Blake seems to be enjoying the view.",
+    "Blake.Dialogue.Resort_Chair": "I really like it here. That volcano back there, though... Kinda scary looking.$8",
+    "Blake.Dialogue.Resort": "I wish we could get everyone out here. You know, instead of Saturday hangouts by the fountain, we can have it here at the resort.$h",
+
     //Elias
     "Elias.Dialogue.Introduction": "Hey, new farmer, yeah?#$b#I'm Elias, I work at the Sunberry Library. Hit me up if there's anythin' you'd like to know about Sunberry Village.",
 
@@ -3803,7 +3840,7 @@
     "Elias.Dialogue.Tue2": "Hey, farmer. Been fishin' lately?#$b#I went on a trip with Willy yesterday. You should join us, sometime.",
     "Elias.Dialogue.Wed2": "I was fixing up a broken chair and Silas asked why I don't just get a professional over to do it.$8#$b#Like, sir, I'm pretty sure I can do this myself without payin' an absurd amount of money.$8",
     "Elias.Dialogue.Thu2": "So, the chair I was fixin' yesterday... it broke again.$9#$b#Maybe I should've listened to Silas.$s",
-    "Elias.Dialogue.Fri2": "Oh, it's you. You got any fish ponds on that farm of yours?#$b#I'd love some locally sources roe, let me know if you're ever sellin' any.$h",
+    "Elias.Dialogue.Fri2": "Oh, it's you. You got any fish ponds on that farm of yours?#$b#I'd love some locally sourced roe, let me know if you're ever sellin' any.$h",
     "Elias.Dialogue.Sat2": "Maia tried to hug me after my last fishin' trip. I don't think she's gonna attempt to again anytime soon.$u",
     "Elias.Dialogue.Sun2": "Lyenne dropped by earlier, stared at me for five minutes, took my donut, and left. Young people confuse the hell out of me sometimes.$8",
 
@@ -3847,6 +3884,15 @@
     "Elias.Dialogue.GreenRain": "Yoba, what is this? I wonder if that's documented somewhere in the library books.#$b#Hm, no. That's impossible I've read every book in here.$8",
     "Elias.Dialogue.GreenRainFinished": "I met up with Silas to ask about yesterday's weather. Apparently, it's harmless. He's such a knowledgeable man, I envy him a little bit sometimes.",
     "Elias.Dialogue.GreenRain_2": "This year, I'm gonna make sure I document everything there is to know about green rain. It's so fascinating.$h",
+
+    // Resort Dialogue
+
+    //Vanilla
+    "Elias.Dialogue.Resort_Entering": "Damn, I should've gotten my fishin' rod. Look at this place!$h",
+    "Elias.Dialogue.Resort_Leaving": "...I could've borrowed Willy's rod. Ah, next time maybe.$u",
+    "Elias.Dialogue.Resort_Shore": "%Blake seems to be enjoying the view.",
+    "Elias.Dialogue.Resort_Bar": "I really like it here. That volcano back there, though... Kinda scary looking.$8",
+    "Elias.Dialogue.Resort": "I wish we could get everyone out here. You know, instead of Saturday hangouts by the fountain, we can have it here at the resort.$h",
 
     //Ezra
     "Ezra.Dialogue.Introduction": "Oh! New face! Very pretty face, if I may say so.$h#$b#I'm Ezra, you should check out my store. You could be the most chic farmer in town!$6",
@@ -5097,7 +5143,7 @@
     "Diala.Dialogue.cc_Bridge": "I heard the quarry bridge got repaired. That's awesome!$h",
     "Diala.Dialogue.cc_Bus": "I'm so glad to hear the bus got repaired.#$b#Maybe I can take Derya on a trip on our day off.$u",
     "Diala.Dialogue.movieTheater": "I can't believe we finally have a movie theater in town.$h#$b#We should go sometime.",
-    "Diala.Dialogue.SterlingTrash": "So, uh, the trashcan by the Saloon.#$b#Derya and I placed a bet, she thinks it was Sterling's mess. I think it's Shane's.$u",
+    "Diala.Dialogue.SterlingTrash": "So, uh, the trash can by the Saloon.#$b#Derya and I placed a bet, she thinks it was Sterling's mess. I think it's Shane's.$u",
     "Diala.Dialogue.SterlingDrugs": "I'm worried about Sterling.$s#$b#He's been a little off recently. Maybe I should talk to Mia?$6",
     "Diala.Dialogue.SterlingRelapse": "Derya's telling me Sterling hasn't been at work since he got into that fight with Pierre.$s#$b#I hope he's doing okay.$s",
     "Diala.Dialogue.SterlingApology": "Did you hear?$u#$b#Sterling's back at work. I hope things start looking up for him.$h",

@@ -67,7 +67,7 @@
                 "skellady.SBVCP_MiyoungSeedsLetter": {
                     "Id": "skellady.SBVCP_MiyoungSeedsLetter",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HEARTS Current MiyoungSBV 2",
+                    "Condition": "PLAYER_HEARTS Current MiyoungSBV 2, SEASON winter",
                     "Action": "AddMail Current skellady.SBVCP_MiyoungSeeds",
                 },
                 "skellady.SBVCP_EvelynFlowersLetter": {
