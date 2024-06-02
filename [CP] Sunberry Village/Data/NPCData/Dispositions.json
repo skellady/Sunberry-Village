@@ -72,6 +72,17 @@
             },
           ],
           "SpawnIfMissing": true,
+          "Appearance": [
+            {
+              "Id": "skellady.SBV.CPAminaWinter",
+              "Condition": "LOCATION_SEASON Here Winter",
+              "Portrait": "Portraits/AminaSBV/AminaSBV_Winter",
+              "Sprite": "Characters/AminaSBV/AminaSBV_Winter",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+          ],
           "Home": [
             {
               "Id": "Default",
