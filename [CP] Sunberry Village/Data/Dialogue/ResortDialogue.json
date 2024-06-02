@@ -210,19 +210,6 @@
 				"Resort": "{{i18n:Ophelia.Dialogue.Resort}}",
 			}
 		},
-        // Pan
-        {
-			"LogName": "Pan GI dialogue",
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/PanSBV",
-			"Entries": {
-				"Resort_Entering": "{{i18n:Pan.Dialogue.Resort_Entering}}",
-				"Resort_Leaving": "{{i18n:Pan.Dialogue.Resort_Leaving}}",
-				"Resort_Shore": "{{i18n:Pan.Dialogue.Resort_Shore}}",
-				"Resort_Bar": "{{i18n:Pan.Dialogue.Resort_Bar}}",
-				"Resort": "{{i18n:Pan.Dialogue.Resort}}",
-			}
-		},
         // Reihana
         {
 			"LogName": "Reihana GI dialogue",
@@ -232,7 +219,6 @@
 				"Resort_Entering": "{{i18n:Reihana.Dialogue.Resort_Entering}}",
 				"Resort_Leaving": "{{i18n:Reihana.Dialogue.Resort_Leaving}}",
 				"Resort_Shore": "{{i18n:Reihana.Dialogue.Resort_Shore}}",
-				"Resort_Bar": "{{i18n:Reihana.Dialogue.Resort_Bar}}",
 				"Resort": "{{i18n:Reihana.Dialogue.Resort}}",
 			}
 		},

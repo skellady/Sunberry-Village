@@ -3417,6 +3417,14 @@
     "Reihana.Dialogue.GreenRainFinished": "See? Everything's back to normal. I don't understand why everyone was panicking. Cowards.$h",
     "Reihana.Dialogue.GreenRain_2": "*Yawn*... Perfect weather for a long, long nap, huh?$h",
 
+    // Resort Dialogue
+
+    //Vanilla
+    "Reihana.Dialogue.Resort_Entering": "...This place? Man, I've been here already.$7#$b#Yeah, like 6 decades ago. Booooring.$12",
+    "Reihana.Dialogue.Resort_Leaving": "Ah, finally. I can't wait to be back home.$h#$b#...Okay, yeah, I could've teleported over hours ago, but I wasn't feeling it.$6",
+    "Reihana.Dialogue.Resort_Shore": "You ever been to the bottom of the ocean?$6#$b#...Do you want to go?$10#$b#I'm just messing with you, chill.$h",
+    "Reihana.Dialogue.Resort": "I stole this soda from someone's backpack. Tastes awful, though. I should've taken the crackers.$s",
+
     //Aicha
     "Aicha.Dialogue.Introduction": "Ah! I remember you! You were by that garden when Rei and I showed up.$u#$b#I'm Aicha, I'm a high-ranking demon! It's SO nice to meet you!$h",
 
@@ -3890,9 +3898,9 @@
     //Vanilla
     "Elias.Dialogue.Resort_Entering": "Damn, I should've gotten my fishin' rod. Look at this place!$h",
     "Elias.Dialogue.Resort_Leaving": "...I could've borrowed Willy's rod. Ah, next time maybe.$u",
-    "Elias.Dialogue.Resort_Shore": "%Blake seems to be enjoying the view.",
-    "Elias.Dialogue.Resort_Bar": "I really like it here. That volcano back there, though... Kinda scary looking.$8",
-    "Elias.Dialogue.Resort": "I wish we could get everyone out here. You know, instead of Saturday hangouts by the fountain, we can have it here at the resort.$h",
+    "Elias.Dialogue.Resort_Shore": "%Elias seems to still be hung up on the fact that he hadn't brought his fishing rod.",
+    "Elias.Dialogue.Resort_Bar": "Here, let me get you a drink. Gotta stay hydrated with all the runnin' around you do. [350]",
+    "Elias.Dialogue.Resort": "I wonder if Gunther has any books on this place. I don't recall finding anything about it in the Sunberry Library.",
 
     //Ezra
     "Ezra.Dialogue.Introduction": "Oh! New face! Very pretty face, if I may say so.$h#$b#I'm Ezra, you should check out my store. You could be the most chic farmer in town!$6",
@@ -3979,6 +3987,15 @@
     "Ezra.Dialogue.GreenRainFinished": "Phew, that was a little scary, huh? I managed to save my hair from being ruined by the rain, so that's a win in my books.$h",
     "Ezra.Dialogue.GreenRain_2": "You know... this weather might inspire my next clothing line. Keep an eye out for that.$6",
 
+    // Resort Dialogue
+
+    //Vanilla
+    "Ezra.Dialogue.Resort_Entering": "Ah, beautiful! Stunning!$h#$b#Hm? No, I'm talking about this place.$u",
+    "Ezra.Dialogue.Resort_Leaving": "Have you seen the fish around here? The color of the blue discus would make a beautiful dress.$u",
+    "Ezra.Dialogue.Resort_Shore": "My sister loves swimming. My dad taught her when she was younger.#$b#He tried teaching me too, but... I didn't particularly have a great time.$u",
+    "Ezra.Dialogue.Resort_Bar": "Nothing like a refreshing drink in this weather. Gus always surprises me with something new and he never disappoints.$h",
+    "Ezra.Dialogue.Resort": "Hmm... Do you think I could explore that little area over there? Sometimes I hear music coming from there, but it's so faint.",
+
     //Iman
     "Iman.Dialogue.Introduction": "Oh? Hello. The new farmer? Ah, doesn't really ring any bells. I might've not been paying attention when Ophelia let the rest of us know.#$b#I'm Iman. I'll see you around.",
 
@@ -4063,6 +4080,15 @@
     "Iman.Dialogue.GreenRain": "Hm? The weather? I've seen worse. It'll probably go away soon.$6",
     "Iman.Dialogue.GreenRainFinished": "Ezra refused to even come over last night. Something about his hair getting ruined and his clothes getting stained.$u",
     "Iman.Dialogue.GreenRain_2": "You know, it looks kinda pretty outside. I wonder what's up with those trees, though.",
+
+    // Resort Dialogue
+
+    //Vanilla
+    "Iman.Dialogue.Resort_Entering": "I've been to my fair share of resorts before I moved to Sunberry. This place feels... different.",
+    "Iman.Dialogue.Resort_Leaving": "This was nice. I was getting frustrated with a client so it was nice to get out for a bit.$h",
+    "Iman.Dialogue.Resort_Shore": "It took us a while to get here. I wonder what other places could be nearby.",
+    "Iman.Dialogue.Resort_Bar": "I try not to drink too often, but hey, we're at a resort. No better time to drink.$h",
+    "Iman.Dialogue.Resort": "I've got to get Elias to ramble about this place sometime. He gets very excited when you ask questions, it's adorable.$u",
 
     //Jumana
     "Jumana.Dialogue.Introduction": "Ah, welcome, dear! Ophelia told us a new face would show up soon. I'm Jumana, Sunberry Village's florist.$h",
@@ -4150,6 +4176,14 @@
     "Jumana.Dialogue.GreenRainFinished": "This weather... it made my flowers grow! They weren't supposed to be fully grown for another week!$6",
     "Jumana.Dialogue.GreenRain_2": "I wonder what the rain does to plants and trees to make them grow so fast. They look so healthy too!$h",
 
+    // Resort Dialogue
+
+    //Vanilla
+    "Jumana.Dialogue.Resort_Entering": "What a stunning view! Look at these flowers! I have to get a closer look.$6",
+    "Jumana.Dialogue.Resort_Leaving": "Ah, I picked a few flowers to take home with me! Aren't they pretty?$h",
+    "Jumana.Dialogue.Resort_Shore": "I wish my husband was here to see this place. He used to take me to all sorts of places when he was alive. Never a dull moment with that man.$4",
+    "Jumana.Dialogue.Resort": "Oh, the trip on the boat was a little scary! I don't think I'm too fond of boats.$7",
+
     //Lyenne
     "Lyenne.Dialogue.Introduction": "Oh! You must be the new farmer. Ophelia was telling us about you the other day. I'm Lyenne.$h",
 
@@ -4234,6 +4268,14 @@
     "Lyenne.Dialogue.GreenRain": "Ugh, I miss Blake already. Ophelia won't let me leave the inn.$s",
     "Lyenne.Dialogue.GreenRainFinished": "Freedom! I've never been happier to be able to leave my room!$h",
     "Lyenne.Dialogue.GreenRain_2": "Well, I'm glad Ophelia's letting me leave the inn this time. I get to see these weird plants up close!$u",
+
+    // Resort Dialogue
+
+    //Vanilla
+    "Lyenne.Dialogue.Resort_Entering": "Woah, this place is amazing!$u",
+    "Lyenne.Dialogue.Resort_Leaving": "Oh, man. I tried getting Willy to let us stay a bit longer, but he didn't budge.$s",
+    "Lyenne.Dialogue.Resort_Shore": "I took a few pictures of the ocean. I've got to try and paint it when I'm back home.$h",
+    "Lyenne.Dialogue.Resort": "I built a sandcastle, but one of the crabs ran into it.$s",
 
     //Maia
     "Maia.Dialogue.Introduction": "Oh, hello. Don't think I've seen you around before. I'm Maia, I work alongside Silas at the blacksmith.",
@@ -4321,6 +4363,15 @@
     "Maia.Dialogue.GreenRainFinished": "Well, Silas is happy, mother is happy. Glad to see everything's back to normal.$h",
     "Maia.Dialogue.GreenRain_2": "My mother has been anticipating this day. Apparently, the rain is good for her flowers. I'm just glad she ain't panicking anymore.$h",
 
+    // Resort Dialogue
+
+    //Vanilla
+    "Maia.Dialogue.Resort_Entering": "Huh, this is pretty neat. Reminds me of a place my ex-husband took me to before.",
+    "Maia.Dialogue.Resort_Leaving": "Well, that was a nice little trip. It's been good to get out of the blacksmith for a bit.$h",
+    "Maia.Dialogue.Resort_Shore": "You know, I almost moved near a resort when I had Amina. I eventually decided to move back in with my mother instead.",
+    "Maia.Dialogue.Resort_Bar": "Ah, this is the good stuff. Always happy when I have some sort of drink in hand.$h",
+    "Maia.Dialogue.Resort": "Hmm... I wonder what's up with that volcano. You been in there, @?",
+
     //Miyoung
     "Miyoung.Dialogue.Introduction": "Hm? Oh! You're the new farmer Ophelia mentioned on Saturday! It's so nice to meet you. I'm Miyoung. My husband is the very talented blacksmith here.$h#$b#OH! Not Clint, Silas. He works at the blacksmith in the Sunberry Mountains.$7",
 
@@ -4405,6 +4456,14 @@
     "Miyoung.Dialogue.GreenRain": "Oh, darling. I was horrified when I looked out the window today! I'm so thankful I had Silas by my side to reassure me.$4",
     "Miyoung.Dialogue.GreenRainFinished": "Poor Jumana... she must've been so scared yesterday. I'm glad she's doing okay.$h",
     "Miyoung.Dialogue.GreenRain_2": "Silas has been very excited since he saw the weather forecast yesterday. He's always been so curious about everything. This man has vowed to learn everything he could in this lifetime.$7",
+
+    // Resort Dialogue
+
+    //Vanilla
+    "Miyoung.Dialogue.Resort_Entering": "Look at this place! It's beautiful.$h#$b#I'm so glad we made it here safely.",
+    "Miyoung.Dialogue.Resort_Leaving": "I took so many pictures on my little camera! I'll have to frame them and hang them up in the house.$7",
+    "Miyoung.Dialogue.Resort_Shore": "I think my sons would love this place! I know they've got resorts out there, but something about this place feels special.$u",
+    "Miyoung.Dialogue.Resort": "Ooh, I saw the prettiest bird earlier! I'm not sure I've seen anything like it before.$h",
 
     //Nadia
     "Nadia.Dialogue.Introduction": "Hey! It's good to finally, properly meet you. Didn't really get to introduce myself to you properly the other day, huh?$h#$b#I'm Nadia, Ezra's older sister. I'll see you around, farmer.$6",
@@ -4492,6 +4551,15 @@
     "Nadia.Dialogue.GreenRainFinished": "Ahem... I wasn't even all that scared yesterday. In fact, I went outside! Yup. I stepped outside while it was pouring.$h#$b#...Then I tripped on a giant plant.$s",
     "Nadia.Dialogue.GreenRain_2": "I have GOT to start checking the weather forecast before bed. I walked outside and jumped back in like one of those cats you see in those videos.$s#$b#You know, the ones where they see a cucumber and jump. Hah, I wonder why they do that.$h",
 
+    // Resort Dialogue
+
+    //Vanilla
+    "Nadia.Dialogue.Resort_Entering": "Now that's what I'm talking about! I'm gonna go lie on the sand and photosynthesize.$6",
+    "Nadia.Dialogue.Resort_Leaving": "Aw, I don't wanna go back home yet.$s#$b#Actually, scratch that. I kinda miss my bed.$h",
+    "Nadia.Dialogue.Resort_Shore": "Think I'm gonna go for a swim. Wanna hop in with me?$h#$b#Promise I won't splash you. Maybe.$9",
+    "Nadia.Dialogue.Resort_Bar": "Gus won't let me help. He says I already have to work at the diner all the time, but so does he!$s#$b#Gus! Please?$8",
+    "Nadia.Dialogue.Resort": "If you make a snow angel but in the sand, is it called a sand angel?#$b#Also, there's sand... everywhere. I kinda regret this.$3",
+
     //Ophelia
     "Ophelia.Dialogue.Introduction": "Hello, @. Lewis told me about you when I dropped by a few days ago. I'm Ophelia, I run Serenity Inn.#$b#Let me know if there's anything I could do to help you settle in.",
 
@@ -4577,6 +4645,15 @@
     "Ophelia.Dialogue.GreenRain": "Please stay safe, @. I'm aware it's not harmless, but I still don't want people walking around until we get enough information.$8",
     "Ophelia.Dialogue.GreenRainFinished": "Hm, I wonder if this rain had any effect on our mines. I'll have to ask Maia to investigate when she can.",
     "Ophelia.Dialogue.GreenRain_2": "I assume this will be a yearly thing, now. I'm just glad no one's spreading any misinformation about this phenomenon.$h",
+
+    // Resort Dialogue
+
+    //Vanilla
+    "Ophelia.Dialogue.Resort_Entering": "It's really nice out here. I wish the weather back home was like this.$h",
+    "Ophelia.Dialogue.Resort_Leaving": "I've been a little nervous about leaving the inn for the day, but I think I really needed this.$u",
+    "Ophelia.Dialogue.Resort_Shore": "I've always been intrigued by the ocean. So much left undiscovered... I wonder if we'll ever find out more.",
+    "Ophelia.Dialogue.Resort_Bar": "Gus, one more drink, please.$h#$b#Can I get you anything, @?",
+    "Ophelia.Dialogue.Resort": "Be careful when you explore this place. That volcano seems a little dangerous. Let me know if you need any help.",
 
     //Pan
     "Pan.Dialogue.Introduction": "Placeholder.",
@@ -4726,6 +4803,14 @@
     "Silas.Dialogue.GreenRain": "I need to go see Razz! This... this is magical! @, do you see this? I've never seen anything like it before.$u",
     "Silas.Dialogue.GreenRainFinished": "I knew it was harmless. Our Goddesses would never bring any harm our way, but it was still nice to hear it from Razz when I asked.$h",
     "Silas.Dialogue.GreenRain_2": "Ah, those trees. They're beautiful, aren't they? I wish we could grow some around here.$h",
+
+    // Resort Dialogue
+
+    //Vanilla
+    "Silas.Dialogue.Resort_Entering": "Mmm... love the smell of the ocean.$h",
+    "Silas.Dialogue.Resort_Leaving": "As much as I've enjoyed this little trip, I can't wait to get in bed. These old bones won't let me stay up as much as I'd like.$u",
+    "Silas.Dialogue.Resort_Shore": "I'd love to go for a swim, but I'm not sure I'm feeling up to it right now. The water's at a nice temperature, though.$h",
+    "Silas.Dialogue.Resort": "Next time, I'm gonna pack some snacks.#$b#Let's just hope I don't eat them on the way here!$u",
 
     //Raccoon Dialogue
     //----------------
