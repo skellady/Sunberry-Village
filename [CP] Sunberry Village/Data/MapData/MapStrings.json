@@ -108,7 +108,6 @@
 				"sbv.reihouse6": "{{i18n:MapString.sbv.reihouse6}}",
 				"sbv.reihouse7": "{{i18n:MapString.sbv.reihouse7}}",
 				//sunberry library
-				"sbv.library1": "{{i18n:MapString.sbv.library1}}",
 				"sbv.library2": "{{i18n:MapString.sbv.library2}}",
 				"sbv.library3": "{{i18n:MapString.sbv.library3}}",
 				"sbv.library4": "{{i18n:MapString.sbv.library4}}",
@@ -279,5 +278,95 @@
 				"HasMod |contains= wildflour.SASS": false
 			}
 		},
+		// sophie's book feature
+		{
+            "LogName": "Edit blank Books file to add book strings",
+            "Action": "EditData",
+            "Target": "Strings/SBV/Books",
+            "Entries": {
+                "MapString.GoddessLorePart1": "{{i18n:MapString.GoddessLorePart1}}",
+				"MapString.GoddessLorePart2": "{{i18n:MapString.GoddessLorePart2}}",
+                "MapString.GoddessLorePart3": "{{i18n:MapString.GoddessLorePart3}}",
+				"MapString.GoddessLorePart4": "{{i18n:MapString.GoddessLorePart4}}",
+                "MapString.GoddessLorePart5": "{{i18n:MapString.GoddessLorePart5}}",
+				"MapString.GoddessLorePart6": "{{i18n:MapString.GoddessLorePart6}}",
+                "MapString.GoddessLorePart7": "{{i18n:MapString.GoddessLorePart7}}",
+				"MapString.GoddessLoreAuthorsNote": "{{i18n:MapString.GoddessLoreAuthorsNote}}",
+				"MapString.sbvlibrary1": "{{i18n:MapString.sbv.library1}}",
+				"MapString.sbvlibrary2": "{{i18n:MapString.sbv.library2}}",
+				"MapString.sbvlibrary3": "{{i18n:MapString.sbv.library3}}",
+				"MapString.sbvlibrary4": "{{i18n:MapString.sbv.library4}}",
+				"MapString.sbvlibrary5": "{{i18n:MapString.sbv.library5}}",
+				"MapString.sbvlibrary6": "{{i18n:MapString.sbv.library6}}",
+				"MapString.sbvlibrary7": "{{i18n:MapString.sbv.library7}}",
+				"MapString.sbvlibrary8": "{{i18n:MapString.sbv.library8}}",
+				"MapString.sbvlibrary9": "{{i18n:MapString.sbv.library9}}",
+				"MapString.sbvlibrary10": "{{i18n:MapString.sbv.library10}}"
+            }
+        },
+		{
+            "LogName": "Add tiledata to map",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryLibrary",
+            "MapTiles": [
+				{
+					"Position": { "X": 18, "Y": 6 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						// you can list as many strings as you want after the Book property, they'll each be put on separate pages
+						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.GoddessLorePart1 Strings\\SBV\\Books:MapString.GoddessLorePart2 Strings\\SBV\\Books:MapString.GoddessLorePart3 Strings\\SBV\\Books:MapString.GoddessLorePart4"
+					}
+				},
+				{
+					"Position": { "X": 19, "Y": 6 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.GoddessLorePart5 Strings\\SBV\\Books:MapString.GoddessLorePart6 Strings\\SBV\\Books:MapString.GoddessLorePart7 Strings\\SBV\\Books:MapString.GoddessLoreAuthorsNote"
+					}
+				},	
+				{
+					"Position": { "X": 20, "Y": 6 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary1 Strings\\SBV\\Books:MapString.sbvlibrary7"
+					}
+				},
+				{
+					"Position": { "X": 21, "Y": 6 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary6 Strings\\SBV\\Books:MapString.sbvlibrary8 Strings\\SBV\\Books:MapString.sbvlibrary9"
+					}
+				},
+				{
+					"Position": { "X": 16, "Y": 9 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary3"
+					}
+				},
+				{
+					"Position": { "X": 17, "Y": 9 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary4"
+					}
+				},
+				{
+					"Position": { "X": 19, "Y": 9 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary5"
+					}
+				},	
+				{
+					"Position": { "X": 20, "Y": 9 },
+					"Layer": "Buildings",
+					"SetProperties": {
+						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary10"
+					}
+				},			
+			]
+        }
 	]
 }

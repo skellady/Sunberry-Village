@@ -73,7 +73,7 @@
                 "skellady.SBVCP_EvelynFlowersLetter": {
                     "Id": "skellady.SBVCP_EvelynFlowersLetter",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HEARTS Current Evelyn 2",
+                    "Condition": "PLAYER_HEARTS Current Evelyn 2, SEASON summer",
                     "Action": "AddMail Current skellady.SBVCP_EvelynFlowers",
                 },
                 "skellady.SBVCP_LyenneBlakeBugMeatLetter": {
