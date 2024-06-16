@@ -930,14 +930,16 @@
                     "DisplayName": "{{i18n:SBV.TwilightFeather.Name}}",
                     "Description": "{{i18n:SBV.TwilightFeather.Description}}",
                     "Edibility": "-300",
-                    "Type": "ArtisanGoods",
-                    "Category": 0,
+                    "Type": "Forage",
+                    "Category": -81,
                     "Price": 70,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 24,
                     "ContextTags": [
                         "color_purple",
-                        "color_orange"
+                        "color_orange",
+                        "forage_item",
+                        "feather_item"
                     ]
                 }
             }

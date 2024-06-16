@@ -3822,6 +3822,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -3902,6 +3908,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -3975,6 +3987,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Prismatic Shard",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -4006,6 +4024,12 @@
                   "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -4173,6 +4197,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -4253,6 +4283,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -4326,6 +4362,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Prismatic Shard",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -4357,6 +4399,12 @@
                   "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -4524,6 +4572,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -4604,6 +4658,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -4677,6 +4737,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Prismatic Shard",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -4708,6 +4774,12 @@
                   "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -4875,6 +4947,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -4955,6 +5033,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -4984,6 +5068,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -5019,6 +5109,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -5048,6 +5144,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -5085,6 +5187,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Prismatic Shard",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -5116,6 +5224,12 @@
                   "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -5291,6 +5405,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -5379,6 +5499,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -5408,6 +5534,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -5443,6 +5575,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -5472,6 +5610,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -5506,6 +5650,12 @@
                   "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -5712,6 +5862,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -5797,6 +5953,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -5826,6 +5988,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -5861,6 +6029,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -5890,6 +6064,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -5927,6 +6107,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
+                },
+                {
+                  "Category": "Object",
                   "Name": "Prismatic Shard",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -5958,6 +6144,12 @@
                   "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
@@ -6130,6 +6322,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 2,
+                  "PercentChanceToSpawn": 9
                 },
                 {
                   "Category": "Object",
