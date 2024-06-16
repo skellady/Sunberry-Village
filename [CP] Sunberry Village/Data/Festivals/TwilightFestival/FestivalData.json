@@ -1,0 +1,22 @@
+{
+    "Changes": [
+        {
+            "LogName": "SBV Spirits Eve",
+            "Action": "EditData",
+            "Target": "Data/PassiveFestivals",
+            "Entries": {
+                "{{ModId}}_TwilightFestival": {
+                    "DisplayName": "{{i18n:SBV.TwilightFestival.Name}}",
+                    "Season": "Fall",
+                    "StartDay": "26",
+                    "EndDay": "26",
+                    "StartTime": "1600",
+                    "StartMessage": "{{i18n:SBV.TwilightFestival.StartMessage}}",
+                    "MapReplacements": {
+                        "Custom_SBV_SunberryVillage": "Custom_SBV_SunberryVillage"
+                    }
+                }
+            }
+        }
+    ]
+}

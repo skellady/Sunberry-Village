@@ -210,6 +210,11 @@
                             "ItemId": "(O)283",
                             "Season": "Winter",
                             "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_TwilightFeather",
+                            "ItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "Chance": 0.9
                         }
                     ]
                 },
@@ -454,6 +459,11 @@
                             "ItemId": "(O)283",
                             "Season": "Winter",
                             "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_TwilightFeather",
+                            "ItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "Chance": 0.9
                         }
                     ]
                 },
@@ -618,6 +628,11 @@
                             "ItemId": "(O)283",
                             "Season": "Winter",
                             "Chance": 0.5
+                        },
+                        {
+                            "Id": "{{ModId}}_TwilightFeather",
+                            "ItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "Chance": 0.7
                         }
                     ]
                 },
@@ -1118,6 +1133,11 @@
                             "ItemId": "(O)283",
                             "Season": "Winter",
                             "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_TwilightFeather",
+                            "ItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "Chance": 0.6
                         }
                     ]
                 },
@@ -2149,6 +2169,52 @@
                         },
                     ],
                     "Forage": []
+                }
+            }
+        },
+        // Add forage to other areas
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Town",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModId}}_TwilightFeather": {
+                    "Id": "{{ModId}}_TwilightFeather",
+                    "ItemId": "{{ModId}}_TwilightFeather",
+                    "Chance": 0.4
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Forest",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModId}}_TwilightFeather": {
+                    "Id": "{{ModId}}_TwilightFeather",
+                    "ItemId": "{{ModId}}_TwilightFeather",
+                    "Chance": 0.5
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Woods",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModId}}_TwilightFeather": {
+                    "Id": "{{ModId}}_TwilightFeather",
+                    "ItemId": "{{ModId}}_TwilightFeather",
+                    "Chance": 0.5
                 }
             }
         }

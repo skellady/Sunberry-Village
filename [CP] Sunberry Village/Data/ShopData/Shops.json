@@ -207,7 +207,7 @@
                             "Id": "skellady.SBVCP_AriShop.CarobSapling",
                             "ItemId": "skellady.SBVCP_CarobSapling",
                             "Condition": "SEASON fall",
-                            "Price": 55
+                            "Price": 5000
                         },
                         // Fertilizers
                         {

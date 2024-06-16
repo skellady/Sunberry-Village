@@ -108,6 +108,11 @@
     "Sunberry.Locations.MinesFinal": "Bottom of Sunberry Mines",
     "Sunberry.Locations.SecretCave": "Secret Forest Cave",
 
+    //Festival Text
+    //-------------
+    "SBV.TwilightFestival.Name": "Twilight Festival",
+    "SBV.TwilightFestival.StartMessage": "The Twilight Festival has begun in Sunberry Village. Make sure to grab your twilight feathers!",
+
     //World Map Text
     //-------------
 
@@ -4996,6 +5001,8 @@
     //Misc Items
     "SBV.CinderLeaf.Name": "Cinder Leaf",
     "SBV.CinderLeaf.Description": "A singular pink leaf. Can be used to brew potions.",
+    "SBV.TwilightFeather.Name": "Twilight Feather",
+    "SBV.TwilightFeather.Description": "A feather resembling the period between sunset and nightfall. It's used as currency during Sunberry Village's Twilight Festival. Better hold on to it!",
 
     //Potions
     "SBV.SerpentinePotion.Name": "Serpentine Potion",

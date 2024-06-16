@@ -14,7 +14,7 @@
             "Target": "Data/Objects",
             "Entries": {
                 "skellady.SBVCP_Arfaj": {
-                    "Name": "Arfaj",
+                    "Name": "skellady.SBVCP_Arfaj",
                     "DisplayName": "{{i18n:SBV.Arfaj.Name}}",
                     "Description": "{{i18n:SBV.Arfaj.Description}}",
                     "Edibility": "0",
@@ -30,7 +30,7 @@
                     ]
                 },
                 "skellady.SBVCP_CallaLilies": {
-                    "Name": "Calla Lilies",
+                    "Name": "skellady.SBVCP_CallaLilies",
                     "DisplayName": "{{i18n:SBV.CallaLilies.Name}}",
                     "Description": "{{i18n:SBV.CallaLilies.Description}}",
                     "Edibility": "0",
@@ -47,7 +47,7 @@
                     ]
                 },
                 "skellady.SBVCP_CoffeeBlossom": {
-                    "Name": "Coffee Blossom",
+                    "Name": "skellady.SBVCP_CoffeeBlossom",
                     "DisplayName": "{{i18n:SBV.CoffeeBlossom.Name}}",
                     "Description": "{{i18n:SBV.CoffeeBlossom.Description}}",
                     "Edibility": "0",
@@ -63,7 +63,7 @@
                     ]
                 },
                 "skellady.SBVCP_Cyclamen": {
-                    "Name": "Cyclamen",
+                    "Name": "skellady.SBVCP_Cyclamen",
                     "DisplayName": "{{i18n:SBV.Cyclamen.Name}}",
                     "Description": "{{i18n:SBV.Cyclamen.Description}}",
                     "Edibility": "0",
@@ -79,7 +79,7 @@
                     ]
                 },
                 "skellady.SBVCP_GoldenSunberry": {
-                    "Name": "Golden Sunberry",
+                    "Name": "skellady.SBVCP_GoldenSunberry",
                     "DisplayName": "{{i18n:SBV.GoldenSunberry.Name}}",
                     "Description": "{{i18n:SBV.GoldenSunberry.Description}}",
                     "Edibility": "-300",
@@ -96,7 +96,7 @@
                     ]
                 },
                 "skellady.SBVCP_Hyacinth": {
-                    "Name": "Hyacinth",
+                    "Name": "skellady.SBVCP_Hyacinth",
                     "DisplayName": "{{i18n:SBV.Hyacinth.Name}}",
                     "Description": "{{i18n:SBV.Hyacinth.Description}}",
                     "Edibility": "0",
@@ -113,7 +113,7 @@
                     ]
                 },
                 "skellady.SBVCP_LunarBean": {
-                    "Name": "Lunar Bean",
+                    "Name": "skellady.SBVCP_LunarBean",
                     "DisplayName": "{{i18n:SBV.LunarBean.Name}}",
                     "Description": "{{i18n:SBV.LunarBean.Description}}",
                     "Edibility": "90",
@@ -131,7 +131,7 @@
                     ]
                 },
                 "skellady.SBVCP_RoyalAnemone": {
-                    "Name": "Royal Anemone",
+                    "Name": "skellady.SBVCP_RoyalAnemone",
                     "DisplayName": "{{i18n:SBV.RoyalAnemone.Name}}",
                     "Description": "{{i18n:SBV.RoyalAnemone.Description}}",
                     "Edibility": "0",
@@ -147,7 +147,7 @@
                     ]
                 },
                 "skellady.SBVCP_Speedwell": {
-                    "Name": "Speedwell",
+                    "Name": "skellady.SBVCP_Speedwell",
                     "DisplayName": "{{i18n:SBV.Speedwell.Name}}",
                     "Description": "{{i18n:SBV.Speedwell.Description}}",
                     "Edibility": "0",
@@ -163,7 +163,7 @@
                     ]
                 },
                 "skellady.SBVCP_Sunberries": {
-                    "Name": "Sunberries",
+                    "Name": "skellady.SBVCP_Sunberries",
                     "DisplayName": "{{i18n:SBV.Sunberries.Name}}",
                     "Description": "{{i18n:SBV.Sunberries.Description}}",
                     "Edibility": "20",
@@ -179,7 +179,7 @@
                     ]
                 },
                 "skellady.SBVCP_WildMustard": {
-                    "Name": "Wild Mustard",
+                    "Name": "skellady.SBVCP_WildMustard",
                     "DisplayName": "{{i18n:SBV.WildMustard.Name}}",
                     "Description": "{{i18n:SBV.WildMustard.Description}}",
                     "Edibility": "15",
@@ -195,7 +195,7 @@
                     ]
                 },
                 "skellady.SBVCP_Carob": {
-                    "Name": "Carob",
+                    "Name": "skellady.SBVCP_Carob",
                     "DisplayName": "{{i18n:SBV.Carob.Name}}",
                     "Description": "{{i18n:SBV.Carob.Description}}",
                     "Edibility": "30",
@@ -289,7 +289,7 @@
             "Target": "Data/Objects",
             "Entries": {
                 "skellady.SBVCP_Annabergite": {
-                    "Name": "Annabergite",
+                    "Name": "skellady.SBVCP_Annabergite",
                     "DisplayName": "{{i18n:SBV.Annabergite.Name}}",
                     "Description": "{{i18n:SBV.Annabergite.Description}}",
                     "Edibility": "-300",
@@ -305,7 +305,7 @@
                     ]
                 },
                 "skellady.SBVCP_BlueAuraQuartz": {
-                    "Name": "Blue Aura Quartz",
+                    "Name": "skellady.SBVCP_BlueAuraQuartz",
                     "DisplayName": "{{i18n:SBV.BlueAuraQuartz.Name}}",
                     "Description": "{{i18n:SBV.BlueAuraQuartz.Description}}",
                     "Edibility": "-300",
@@ -322,7 +322,7 @@
                     ]
                 },
                 "skellady.SBVCP_Citrine": {
-                    "Name": "Citrine",
+                    "Name": "skellady.SBVCP_Citrine",
                     "DisplayName": "{{i18n:SBV.Citrine.Name}}",
                     "Description": "{{i18n:SBV.Citrine.Description}}",
                     "Edibility": "-300",
@@ -338,7 +338,7 @@
                     ]
                 },
                 "skellady.SBVCP_Moonberry": {
-                    "Name": "Moonberry",
+                    "Name": "skellady.SBVCP_Moonberry",
                     "DisplayName": "{{i18n:SBV.Moonberry.Name}}",
                     "Description": "{{i18n:SBV.Moonberry.Description}}",
                     "Edibility": "90",
@@ -354,7 +354,7 @@
                     ]
                 },
                 "skellady.SBVCP_Purpurite": {
-                    "Name": "Purpurite",
+                    "Name": "skellady.SBVCP_Purpurite",
                     "DisplayName": "{{i18n:SBV.Purpurite.Name}}",
                     "Description": "{{i18n:SBV.Purpurite.Description}}",
                     "Edibility": "-300",
@@ -370,7 +370,7 @@
                     ]
                 },
                 "skellady.SBVCP_Serpentine": {
-                    "Name": "Serpentine",
+                    "Name": "skellady.SBVCP_Serpentine",
                     "DisplayName": "{{i18n:SBV.Serpentine.Name}}",
                     "Description": "{{i18n:SBV.Serpentine.Description}}",
                     "Edibility": "-300",
@@ -386,7 +386,7 @@
                     ]
                 },
                 "skellady.SBVCP_SunberryGeode": {
-                    "Name": "Sunberry Geode",
+                    "Name": "skellady.SBVCP_SunberryGeode",
                     "DisplayName": "{{i18n:SBV.SunberryGeode.Name}}",
                     "Description": "{{i18n:SBV.SunberryGeode.Description}}",
                     "Edibility": "-300",
@@ -442,7 +442,7 @@
                     ]
                 },
                 "skellady.SBVCP_MushroomStatue": {
-                    "Name": "Mushroom Statue",
+                    "Name": "skellady.SBVCP_MushroomStatue",
                     "DisplayName": "{{i18n:SBV.MushroomStatue.Name}}",
                     "Description": "{{i18n:SBV.MushroomStatue.Description}}",
                     "Edibility": "-300",
@@ -455,7 +455,7 @@
                     ]
                 },
                 "skellady.SBVCP_AncientStaff": {
-                    "Name": "Ancient Staff",
+                    "Name": "skellady.SBVCP_AncientStaff",
                     "DisplayName": "{{i18n:SBV.AncientStaff.Name}}",
                     "Description": "{{i18n:SBV.AncientStaff.Description}}",
                     "Edibility": "-300",
@@ -468,7 +468,7 @@
                     ]
                 },
                 "skellady.SBVCP_SilverMask": {
-                    "Name": "Silver Mask",
+                    "Name": "skellady.SBVCP_SilverMask",
                     "DisplayName": "{{i18n:SBV.SilverMask.Name}}",
                     "Description": "{{i18n:SBV.SilverMask.Description}}",
                     "Edibility": "-300",
@@ -481,7 +481,7 @@
                     ]
                 },
                 "skellady.SBVCP_LapisNecklace": {
-                    "Name": "Lapis Necklace",
+                    "Name": "skellady.SBVCP_LapisNecklace",
                     "DisplayName": "{{i18n:SBV.LapisNecklace.Name}}",
                     "Description": "{{i18n:SBV.LapisNecklace.Description}}",
                     "Edibility": "-300",
@@ -494,7 +494,7 @@
                     ]
                 },
                 "skellady.SBVCP_WickedVase": {
-                    "Name": "Wicked Vase",
+                    "Name": "skellady.SBVCP_WickedVase",
                     "DisplayName": "{{i18n:SBV.WickedVase.Name}}",
                     "Description": "{{i18n:SBV.WickedVase.Description}}",
                     "Edibility": "-300",
@@ -507,7 +507,7 @@
                     ]
                 },
                 "skellady.SBVCP_GoldenCoins": {
-                    "Name": "Golden Coins",
+                    "Name": "skellady.SBVCP_GoldenCoins",
                     "DisplayName": "{{i18n:SBV.GoldenCoins.Name}}",
                     "Description": "{{i18n:SBV.GoldenCoins.Description}}",
                     "Edibility": "-300",
@@ -520,7 +520,7 @@
                     ]
                 },
                 "skellady.SBVCP_ChippedJug": {
-                    "Name": "Chipped Jug",
+                    "Name": "skellady.SBVCP_ChippedJug",
                     "DisplayName": "{{i18n:SBV.ChippedJug.Name}}",
                     "Description": "{{i18n:SBV.ChippedJug.Description}}",
                     "Edibility": "-300",
@@ -533,7 +533,7 @@
                     ]
                 },
                 "skellady.SBVCP_DwarfKeyI": {
-                    "Name": "Dwarf Key I",
+                    "Name": "skellady.SBVCP_DwarfKeyI",
                     "DisplayName": "{{i18n:SBV.DwarfKeyI.Name}}",
                     "Description": "{{i18n:SBV.DwarfKeyI.Description}}",
                     "Edibility": "-300",
@@ -546,7 +546,7 @@
                     ]
                 },
                 "skellady.SBVCP_DwarfKeyII": {
-                    "Name": "Dwarf Key II",
+                    "Name": "skellady.SBVCP_DwarfKeyII",
                     "DisplayName": "{{i18n:SBV.DwarfKeyII.Name}}",
                     "Description": "{{i18n:SBV.DwarfKeyII.Description}}",
                     "Edibility": "-300",
@@ -559,7 +559,7 @@
                     ]
                 },
                 "skellady.SBVCP_DwarfKeyIII": {
-                    "Name": "Dwarf Key III",
+                    "Name": "skellady.SBVCP_DwarfKeyIII",
                     "DisplayName": "{{i18n:SBV.DwarfKeyIII.Name}}",
                     "Description": "{{i18n:SBV.DwarfKeyIII.Description}}",
                     "Edibility": "-300",
@@ -572,7 +572,7 @@
                     ]
                 },
                 "skellady.SBVCP_DwarfKeyIV": {
-                    "Name": "Dwarf Key IV",
+                    "Name": "skellady.SBVCP_DwarfKeyIV",
                     "DisplayName": "{{i18n:SBV.DwarfKeyIV.Name}}",
                     "Description": "{{i18n:SBV.DwarfKeyIV.Description}}",
                     "Edibility": "-300",
@@ -593,7 +593,7 @@
             "Target": "Data/Objects",
             "Entries": {
                 "skellady.SBVCP_CinderLeaf": {
-                    "Name": "Cinder Leaf",
+                    "Name": "skellady.SBVCP_CinderLeaf",
                     "DisplayName": "{{i18n:SBV.CinderLeaf.Name}}",
                     "Description": "{{i18n:SBV.CinderLeaf.Description}}",
                     "Edibility": "-300",
@@ -801,7 +801,7 @@
                     "IsDrink": true
                 },
                 "{{ModId}}_SerpentinePowder": {
-                    "Name": "Serpentine Powder",
+                    "Name": "{{ModId}}_SerpentinePowder",
                     "DisplayName": "{{i18n:SBV.SerpentinePowder.Name}}",
                     "Description": "{{i18n:SBV.SerpentinePowder.Description}}",
                     "Edibility": "-300",
@@ -812,7 +812,7 @@
                     "SpriteIndex": 11
                 },
                 "{{ModId}}_PurpuritePowder": {
-                    "Name": "Purpurite Powder",
+                    "Name": "{{ModId}}_PurpuritePowder",
                     "DisplayName": "{{i18n:SBV.PurpuritePowder.Name}}",
                     "Description": "{{i18n:SBV.PurpuritePowder.Description}}",
                     "Edibility": "-300",
@@ -823,7 +823,7 @@
                     "SpriteIndex": 12
                 },
                 "{{ModId}}_AnnabergitePowder": {
-                    "Name": "Annabergite Powder",
+                    "Name": "{{ModId}}_AnnabergitePowder",
                     "DisplayName": "{{i18n:SBV.AnnabergitePowder.Name}}",
                     "Description": "{{i18n:SBV.AnnabergitePowder.Description}}",
                     "Edibility": "-300",
@@ -834,7 +834,7 @@
                     "SpriteIndex": 13
                 },
                 "{{ModId}}_CitrinePowder": {
-                    "Name": "Citrine Powder",
+                    "Name": "{{ModId}}_CitrinePowder",
                     "DisplayName": "{{i18n:SBV.CitrinePowder.Name}}",
                     "Description": "{{i18n:SBV.CitrinePowder.Description}}",
                     "Edibility": "-300",
@@ -845,7 +845,7 @@
                     "SpriteIndex": 14
                 },
                 "{{ModId}}_BlueAuraQuartzPowder": {
-                    "Name": "Blue Aura Quartz Powder",
+                    "Name": "{{ModId}}_BlueAuraQuartzPowder",
                     "DisplayName": "{{i18n:SBV.BlueAuraQuartzPowder.Name}}",
                     "Description": "{{i18n:SBV.BlueAuraQuartzPowder.Description}}",
                     "Edibility": "-300",
@@ -856,7 +856,7 @@
                     "SpriteIndex": 15
                 },
                 "{{ModId}}_MoonberryPowder": {
-                    "Name": "Moonberry Powder",
+                    "Name": "{{ModId}}_MoonberryPowder",
                     "DisplayName": "{{i18n:SBV.MoonberryPowder.Name}}",
                     "Description": "{{i18n:SBV.MoonberryPowder.Description}}",
                     "Edibility": "-300",
@@ -867,7 +867,7 @@
                     "SpriteIndex": 16
                 },
                 "{{ModId}}_DolomitePowder": {
-                    "Name": "Dolomite Powder",
+                    "Name": "{{ModId}}_DolomitePowder",
                     "DisplayName": "{{i18n:SBV.DolomitePowder.Name}}",
                     "Description": "{{i18n:SBV.DolomitePowder.Description}}",
                     "Edibility": "-300",
@@ -878,7 +878,7 @@
                     "SpriteIndex": 17
                 },
                 "{{ModId}}_TigerseyePowder": {
-                    "Name": "Tigerseye Powder",
+                    "Name": "{{ModId}}_TigerseyePowder",
                     "DisplayName": "{{i18n:SBV.TigerseyePowder.Name}}",
                     "Description": "{{i18n:SBV.TigerseyePowder.Description}}",
                     "Edibility": "-300",
@@ -889,7 +889,7 @@
                     "SpriteIndex": 18
                 },
                 "{{ModId}}_LunaritePowder": {
-                    "Name": "Lunarite Powder",
+                    "Name": "{{ModId}}_LunaritePowder",
                     "DisplayName": "{{i18n:SBV.LunaritePowder.Name}}",
                     "Description": "{{i18n:SBV.LunaritePowder.Description}}",
                     "Edibility": "-300",
@@ -900,7 +900,7 @@
                     "SpriteIndex": 19
                 },
                 "{{ModId}}_FairyStonePowder": {
-                    "Name": "Fairy Stone Powder",
+                    "Name": "{{ModId}}_FairyStonePowder",
                     "DisplayName": "{{i18n:SBV.FairyStonePowder.Name}}",
                     "Description": "{{i18n:SBV.FairyStonePowder.Description}}",
                     "Edibility": "-300",
@@ -911,7 +911,7 @@
                     "SpriteIndex": 20
                 },
                 "{{ModId}}_WarpTotemSunberry": {
-                    "Name": "Warp Totem Sunberry",
+                    "Name": "{{ModId}}_WarpTotemSunberry",
                     "DisplayName": "{{i18n:SBV.WarpTotemSunberry.Name}}",
                     "Description": "{{i18n:SBV.WarpTotemSunberry.Description}}",
                     "Edibility": "-300",
@@ -925,6 +925,21 @@
                         "totem_item"
                     ]
                 },
+                "{{ModId}}_TwilightFeather": {
+                    "Name": "{{ModId}}_TwilightFeather",
+                    "DisplayName": "{{i18n:SBV.TwilightFeather.Name}}",
+                    "Description": "{{i18n:SBV.TwilightFeather.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": 0,
+                    "Price": 70,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 24,
+                    "ContextTags": [
+                        "color_purple",
+                        "color_orange"
+                    ]
+                }
             }
         },
         // Seeds
@@ -934,7 +949,7 @@
             "Target": "Data/Objects",
             "Entries": {
                 "skellady.SBVCP_ArfajSeeds": {
-                    "Name": "Arfaj Seeds",
+                    "Name": "skellady.SBVCP_ArfajSeeds",
                     "DisplayName": "{{i18n:SBV.ArfajSeeds.Name}}",
                     "Description": "{{i18n:SBV.ArfajSeeds.Description}}",
                     "Edibility": "-300",
@@ -945,7 +960,7 @@
                     "SpriteIndex": 0
                 },
                 "skellady.SBVCP_CallaLilySeeds": {
-                    "Name": "Calla Lily Seeds",
+                    "Name": "skellady.SBVCP_CallaLilySeeds",
                     "DisplayName": "{{i18n:SBV.CallaLilySeeds.Name}}",
                     "Description": "{{i18n:SBV.CallaLilySeeds.Description}}",
                     "Edibility": "-300",
@@ -956,7 +971,7 @@
                     "SpriteIndex": 1
                 },
                 "skellady.SBVCP_CoffeeBlossomSeeds": {
-                    "Name": "Coffee Blossom Seeds",
+                    "Name": "skellady.SBVCP_CoffeeBlossomSeeds",
                     "DisplayName": "{{i18n:SBV.CoffeeBlossomSeeds.Name}}",
                     "Description": "{{i18n:SBV.CoffeeBlossomSeeds.Description}}",
                     "Edibility": "-300",
@@ -967,7 +982,7 @@
                     "SpriteIndex": 2
                 },
                 "skellady.SBVCP_CyclamenSeeds": {
-                    "Name": "Cyclamen Seeds",
+                    "Name": "skellady.SBVCP_CyclamenSeeds",
                     "DisplayName": "{{i18n:SBV.CyclamenSeeds.Name}}",
                     "Description": "{{i18n:SBV.CyclamenSeeds.Description}}",
                     "Edibility": "-300",
@@ -978,7 +993,7 @@
                     "SpriteIndex": 3
                 },
                 "skellady.SBVCP_GoldenSunberrySeeds": {
-                    "Name": "Golden Sunberry Seeds",
+                    "Name": "skellady.SBVCP_GoldenSunberrySeeds",
                     "DisplayName": "{{i18n:SBV.GoldenSunberrySeeds.Name}}",
                     "Description": "{{i18n:SBV.GoldenSunberrySeeds.Description}}",
                     "Edibility": "-300",
@@ -989,7 +1004,7 @@
                     "SpriteIndex": 4
                 },
                 "skellady.SBVCP_HyacinthSeeds": {
-                    "Name": "Hyacinth Seeds",
+                    "Name": "skellady.SBVCP_HyacinthSeeds",
                     "DisplayName": "{{i18n:SBV.HyacinthSeeds.Name}}",
                     "Description": "{{i18n:SBV.HyacinthSeeds.Description}}",
                     "Edibility": "-300",
@@ -1000,7 +1015,7 @@
                     "SpriteIndex": 5
                 },
                 "skellady.SBVCP_MoonberrySeeds": {
-                    "Name": "Moonberry Seeds",
+                    "Name": "skellady.SBVCP_MoonberrySeeds",
                     "DisplayName": "{{i18n:SBV.MoonberrySeeds.Name}}",
                     "Description": "{{i18n:SBV.MoonberrySeeds.Description}}",
                     "Edibility": "-300",
@@ -1011,7 +1026,7 @@
                     "SpriteIndex": 6
                 },
                 "skellady.SBVCP_RoyalAnemoneSeeds": {
-                    "Name": "Royal Anemone Seeds",
+                    "Name": "skellady.SBVCP_RoyalAnemoneSeeds",
                     "DisplayName": "{{i18n:SBV.RoyalAnemoneSeeds.Name}}",
                     "Description": "{{i18n:SBV.RoyalAnemoneSeeds.Description}}",
                     "Edibility": "-300",
@@ -1022,7 +1037,7 @@
                     "SpriteIndex": 7
                 },
                 "skellady.SBVCP_SpeedwellSeeds": {
-                    "Name": "Speedwell Seeds",
+                    "Name": "skellady.SBVCP_SpeedwellSeeds",
                     "DisplayName": "{{i18n:SBV.SpeedwellSeeds.Name}}",
                     "Description": "{{i18n:SBV.SpeedwellSeeds.Description}}",
                     "Edibility": "-300",
@@ -1033,7 +1048,7 @@
                     "SpriteIndex": 8
                 },
                 "skellady.SBVCP_SunberrySeeds": {
-                    "Name": "Sunberry Seeds",
+                    "Name": "skellady.SBVCP_SunberrySeeds",
                     "DisplayName": "{{i18n:SBV.SunberrySeeds.Name}}",
                     "Description": "{{i18n:SBV.SunberrySeeds.Description}}",
                     "Edibility": "-300",
@@ -1044,7 +1059,7 @@
                     "SpriteIndex": 9
                 },
                 "skellady.SBVCP_WildMustardSeeds": {
-                    "Name": "Wild Mustard Seeds",
+                    "Name": "skellady.SBVCP_WildMustardSeeds",
                     "DisplayName": "{{i18n:SBV.WildMustardSeeds.Name}}",
                     "Description": "{{i18n:SBV.WildMustardSeeds.Description}}",
                     "Edibility": "-300",
@@ -1055,7 +1070,7 @@
                     "SpriteIndex": 10
                 },
                 "skellady.SBVCP_CarobSapling": {
-                    "Name": "Carob Sapling",
+                    "Name": "skellady.SBVCP_CarobSapling",
                     "DisplayName": "{{i18n:SBV.CarobSapling.Name}}",
                     "Description": "{{i18n:SBV.CarobSapling.Description}}",
                     "Edibility": "-300",
@@ -1074,7 +1089,7 @@
             "Target": "Data/Objects",
             "Entries": {
                 "{{ModID}}_AlpacaWool": {
-                    "Name": "Alpaca Wool",
+                    "Name": "{{ModID}}_AlpacaWool",
                     "DisplayName": "{{i18n:SBV.AlpacaWool.Name}}",
                     "Description": "{{i18n:SBV.AlpacaWool.Description}}",
                     "Edibility": "-300",
@@ -1085,7 +1100,7 @@
                     "SpriteIndex": 0
                 },
                 "{{ModID}}_AlpacaWoolFabric": {
-                    "Name": "Alpaca Wool Fabric",
+                    "Name": "{{ModID}}_AlpacaWoolFabric",
                     "DisplayName": "{{i18n:SBV.AlpacaWoolFabric.Name}}",
                     "Description": "{{i18n:SBV.AlpacaWoolFabric.Description}}",
                     "Edibility": "-300",

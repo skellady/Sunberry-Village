@@ -1094,6 +1094,29 @@
       "When": {
         "HasMod": "Rafseazz.RSVCP"
       }
+    },
+    // Twilight Festival Patch
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SBVSpiritsEvePatch.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 100,
+        "Height": 100,
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 100,
+        "Height": 100,
+      },
+      "When": {
+        "Season": "Fall",
+        "Day": "26"
+      }
     }
   ]
 }

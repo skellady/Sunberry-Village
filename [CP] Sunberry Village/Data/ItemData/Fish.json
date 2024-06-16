@@ -12,7 +12,7 @@
             "Target": "Data/Objects",
             "Entries": {
                 "skellady.SBVCP_Mothfish": {
-                    "Name": "Mothfish",
+                    "Name": "skellady.SBVCP_Mothfish",
                     "DisplayName": "{{i18n:SBV.Mothfish.Name}}",
                     "Description": "{{i18n:SBV.Mothfish.Description}}",
                     "Edibility": "10",
@@ -27,7 +27,7 @@
                     ]
                 },
                 "skellady.SBVCP_FiretailGuppy": {
-                    "Name": "Fire-tail Guppy",
+                    "Name": "skellady.SBVCP_FiretailGuppy",
                     "DisplayName": "{{i18n:SBV.FiretailGuppy.Name}}",
                     "Description": "{{i18n:SBV.FiretailGuppy.Description}}",
                     "Edibility": "10",
@@ -42,7 +42,7 @@
                     ]
                 },
                 "skellady.SBVCP_EmeraldSnapper": {
-                    "Name": "Emerald Snapper",
+                    "Name": "skellady.SBVCP_EmeraldSnapper",
                     "DisplayName": "{{i18n:SBV.EmeraldSnapper.Name}}",
                     "Description": "{{i18n:SBV.EmeraldSnapper.Description}}",
                     "Edibility": "10",
@@ -57,7 +57,7 @@
                     ]
                 },
                 "skellady.SBVCP_Aberrant": {
-                    "Name": "Aberrant",
+                    "Name": "skellady.SBVCP_Aberrant",
                     "DisplayName": "{{i18n:SBV.Aberrant.Name}}",
                     "Description": "{{i18n:SBV.Aberrant.Description}}",
                     "Edibility": "20",
@@ -72,7 +72,7 @@
                     ]
                 },
                 "skellady.SBVCP_BonbonFish": {
-                    "Name": "Bonbon Fish",
+                    "Name": "skellady.SBVCP_BonbonFish",
                     "DisplayName": "{{i18n:SBV.BonbonFish.Name}}",
                     "Description": "{{i18n:SBV.BonbonFish.Description}}",
                     "Edibility": "10",
@@ -88,7 +88,7 @@
                     ]
                 },
                 "skellady.SBVCP_EeltailedCatfish": {
-                    "Name": "Eel-tailed Catfish",
+                    "Name": "skellady.SBVCP_EeltailedCatfish",
                     "DisplayName": "{{i18n:SBV.EeltailedCatfish.Name}}",
                     "Description": "{{i18n:SBV.EeltailedCatfish.Description}}",
                     "Edibility": "30",
@@ -103,7 +103,7 @@
                     ]
                 },
                 "skellady.SBVCP_Najelfish": {
-                    "Name": "Najelfish",
+                    "Name": "skellady.SBVCP_Najelfish",
                     "DisplayName": "{{i18n:SBV.Najelfish.Name}}",
                     "Description": "{{i18n:SBV.Najelfish.Description}}",
                     "Edibility": "10",
@@ -118,7 +118,7 @@
                     ]
                 },
                 "skellady.SBVCP_AnglerJr": {
-                    "Name": "Angler Jr.",
+                    "Name": "skellady.SBVCP_AnglerJr",
                     "DisplayName": "{{i18n:SBV.AnglerJr.Name}}",
                     "Description": "{{i18n:SBV.AnglerJr.Description}}",
                     "Edibility": "10",
@@ -133,7 +133,7 @@
                     ]
                 },
                 "skellady.SBVCP_ChartreuseTilapia": {
-                    "Name": "Chartreuse Tilapia",
+                    "Name": "skellady.SBVCP_ChartreuseTilapia",
                     "DisplayName": "{{i18n:SBV.ChartreuseTilapia.Name}}",
                     "Description": "{{i18n:SBV.ChartreuseTilapia.Description}}",
                     "Edibility": "10",
@@ -148,7 +148,7 @@
                     ]
                 },
                 "skellady.SBVCP_BubblyBetta": {
-                    "Name": "Bubbly Betta",
+                    "Name": "skellady.SBVCP_BubblyBetta",
                     "DisplayName": "{{i18n:SBV.BubblyBetta.Name}}",
                     "Description": "{{i18n:SBV.BubblyBetta.Description}}",
                     "Edibility": "10",
@@ -163,7 +163,7 @@
                     ]
                 },
                 "skellady.SBVCP_AzureanCarp": {
-                    "Name": "Azurean Carp",
+                    "Name": "skellady.SBVCP_AzureanCarp",
                     "DisplayName": "{{i18n:SBV.AzureanCarp.Name}}",
                     "Description": "{{i18n:SBV.AzureanCarp.Description}}",
                     "Edibility": "10",
@@ -178,7 +178,7 @@
                     ]
                 },
                 "skellady.SBVCP_SeaCow": {
-                    "Name": "Sea Cow",
+                    "Name": "skellady.SBVCP_SeaCow",
                     "DisplayName": "{{i18n:SBV.SeaCow.Name}}",
                     "Description": "{{i18n:SBV.SeaCow.Description}}",
                     "Edibility": "10",
@@ -200,18 +200,18 @@
             "Action": "EditData",
             "Target": "Data/Fish",
             "Entries": {
-                "skellady.SBVCP_Mothfish": "Mothfish/trap/.05/682 .3/skellady.SBVCP.freshwater/2/3/false",
-                "skellady.SBVCP_FiretailGuppy": "Fire-tail Guppy/40/floater/3/16/1700 2600/fall/sunny/689 .35 682 .1/0/.3/.5/0/false",
-                "skellady.SBVCP_EmeraldSnapper": "Emerald Snapper/40/mixed/8/25/600 1900/summer fall winter/rainy/682 .25/2/.45/.1/0/false",
-                "skellady.SBVCP_Aberrant": "Aberrant/95/mixed/20/60/600 2000/winter/both/690 .15/4/.1/.1/7/false",
-                "skellady.SBVCP_BonbonFish": "Bonbon Fish/55/dart/8/25/600 2600/spring summer fall winter/both/685 .35/3/.4/.1/0/false",
-                "skellady.SBVCP_EeltailedCatfish": "Eel-tailed Catfish/70/smooth/20/35/600 1100/spring summer/rainy/685 .35/1/.45/.1/0/false",
-                "skellady.SBVCP_Najelfish": "Najelfish/45/smooth/10/20/600 2200/spring summer fall winter/both/685 .35/1/.3/.5/0/false",
-                "skellady.SBVCP_AnglerJr": "Angler Jr./85/smooth/18/18/600 2600/fall/both/690 .1/4/.05/.1/5/false",
-                "skellady.SBVCP_ChartreuseTilapia": "Chartreuse Tilapia/55/mixed/11/30/600 1400/summer fall/both/683 .35/3/.4/.2/0/false",
-                "skellady.SBVCP_BubblyBetta": "Bubbly Beta/25/dart/8/20/600 2600/spring winter/both/685 .2/1/.35/.1/0/false",
-                "skellady.SBVCP_AzureanCarp": "Azurean Carp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0/false",
-                "skellady.SBVCP_SeaCow": "Sea Cow/20/sinker/108/116/600 1800/spring summer fall winter/both/682 .2/2/.10/.2/1/false"
+                "skellady.SBVCP_Mothfish": "skellady.SBVCP_Mothfish/trap/.05/682 .3/skellady.SBVCP.freshwater/2/3/false",
+                "skellady.SBVCP_FiretailGuppy": "skellady.SBVCP_FiretailGuppy/40/floater/3/16/1700 2600/fall/sunny/689 .35 682 .1/0/.3/.5/0/false",
+                "skellady.SBVCP_EmeraldSnapper": "skellady.SBVCP_EmeraldSnapper/40/mixed/8/25/600 1900/summer fall winter/rainy/682 .25/2/.45/.1/0/false",
+                "skellady.SBVCP_Aberrant": "skellady.SBVCP_Aberrant/95/mixed/20/60/600 2000/winter/both/690 .15/4/.1/.1/7/false",
+                "skellady.SBVCP_BonbonFish": "skellady.SBVCP_BonbonFish/55/dart/8/25/600 2600/spring summer fall winter/both/685 .35/3/.4/.1/0/false",
+                "skellady.SBVCP_EeltailedCatfish": "skellady.SBVCP_EeltailedCatfish/70/smooth/20/35/600 1100/spring summer/rainy/685 .35/1/.45/.1/0/false",
+                "skellady.SBVCP_Najelfish": "skellady.SBVCP_Najelfish/45/smooth/10/20/600 2200/spring summer fall winter/both/685 .35/1/.3/.5/0/false",
+                "skellady.SBVCP_AnglerJr": "skellady.SBVCP_AnglerJr/85/smooth/18/18/600 2600/fall/both/690 .1/4/.05/.1/5/false",
+                "skellady.SBVCP_ChartreuseTilapia": "skellady.SBVCP_ChartreuseTilapia/55/mixed/11/30/600 1400/summer fall/both/683 .35/3/.4/.2/0/false",
+                "skellady.SBVCP_BubblyBetta": "skellady.SBVCP_BubblyBetta/25/dart/8/20/600 2600/spring winter/both/685 .2/1/.35/.1/0/false",
+                "skellady.SBVCP_AzureanCarp": "skellady.SBVCP_AzureanCarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0/false",
+                "skellady.SBVCP_SeaCow": "skellady.SBVCP_SeaCow/20/sinker/108/116/600 1800/spring summer fall winter/both/682 .2/2/.10/.2/1/false"
             }
         },
         // Aquarium Fish Data
