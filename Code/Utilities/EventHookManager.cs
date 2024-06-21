@@ -6,6 +6,7 @@ using SunberryVillage.Events.Tarot;
 using SunberryVillage.Integration;
 using SunberryVillage.Lighting;
 using SunberryVillage.Maps;
+using SunberryVillage.Queries;
 using SunberryVillage.Shops;
 using SunberryVillage.TextEmojis;
 
@@ -23,6 +24,7 @@ internal class EventHookManager
 		LightingManager.AddEventHooks();
 		EmojiManager.AddEventHooks();
 		ActionManager.AddEventHooks();
+		QueryManager.AddEventHooks();
 		EventCommandManager.AddEventHooks();
 		MarketDailySpecialManager.AddEventHooks();
 	}
