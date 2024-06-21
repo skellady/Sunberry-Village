@@ -129,7 +129,9 @@
             "Target": "Data/Events/Saloon",
             "Entries": {
                 //8 Hearts - Derya's confession
-                "skellady.SBVCP_20031421/f DeryaSBV 2000/t 1200 1800/e skellady.SBVCP_20031418/e skellady.SBVCP_20031419/e skellady.SBVCP_20031413/e skellady.SBVCP_20031407": "none/-100 -100/farmer -100 -100 0 Gus 13 18 1 DeryaSBV 14 18 3/addConversationTopic DeryaConfesses 3/skippable/viewport 16 19/emote DeryaSBV 12/playSound doorOpen/warp farmer 14 24 true/pause 600/move farmer 0 -4 0/pause 400/move DeryaSBV 0 0 2/pause 400/speak DeryaSBV \"{{i18n:event-20031421.01}}\"/pause 400/speak DeryaSBV \"{{i18n:event-20031421.02}}\"/pause 500/emote Gus 12/pause 300/speak Gus \"{{i18n:event-20031421.03}}\"/pause 400/move DeryaSBV 0 0 3/pause 400/speak DeryaSBV \"{{i18n:event-20031421.04}}\"/pause 600/speak Gus \"{{i18n:event-20031421.05}}\"/pause 300/speak DeryaSBV \"{{i18n:event-20031421.06}}\"/pause 500/move DeryaSBV 0 0 2/pause 400/speak DeryaSBV \"{{i18n:event-20031421.07}}\"/pause 500/emote farmer 28/move Gus 0 -1 0/pause 400/speak DeryaSBV \"{{i18n:event-20031421.08}}\"/pause 400/shake DeryaSBV 500/pause 500/speak DeryaSBV \"{{i18n:event-20031421.09}}\"/pause 400/emote farmer 40/emote Gus 40/pause 400/message \"{{i18n:event-20031421.10}}\"/pause 400/move DeryaSBV 0 0 0/pause 300/emote DeryaSBV 8/pause 400/move DeryaSBV 0 0 2/pause 500/speak DeryaSBV \"{{i18n:event-20031421.11}}\"/pause 700/move Gus 0 0 2/pause 300/speak Gus \"{{i18n:event-20031421.12}}\"/pause 900/speak DeryaSBV \"{{i18n:event-20031421.13}}\"/pause 500/speak Gus \"{{i18n:event-20031421.14}}\"/pause 400/emote farmer 32/pause 300/emote DeryaSBV 28/pause 1000/globalFade/viewport -999 -999/pause 600/message \"{{i18n:event-20031421.15}}\"/pause 500/end"
+                "skellady.SBVCP_20031421/f DeryaSBV 2000/t 1200 1800/e skellady.SBVCP_20031418/e skellady.SBVCP_20031419/e skellady.SBVCP_20031413/e skellady.SBVCP_20031407": "Saloon1/-100 -100/farmer -100 -100 0 Gus 13 18 1 DeryaSBV 14 18 3/addConversationTopic DeryaConfesses 3/skippable/viewport 16 19/emote DeryaSBV 12/playSound doorOpen/warp farmer 14 24 true/pause 600/move farmer 0 -4 0/pause 400/move DeryaSBV 0 0 2/pause 400/speak DeryaSBV \"{{i18n:event-20031421.01}}\"/pause 400/speak DeryaSBV \"{{i18n:event-20031421.02}}\"/pause 500/emote Gus 12/pause 300/speak Gus \"{{i18n:event-20031421.03}}\"/pause 400/move DeryaSBV 0 0 3/pause 400/speak DeryaSBV \"{{i18n:event-20031421.04}}\"/pause 600/speak Gus \"{{i18n:event-20031421.05}}\"/pause 300/speak DeryaSBV \"{{i18n:event-20031421.06}}\"/pause 500/move DeryaSBV 0 0 2/pause 400/speak DeryaSBV \"{{i18n:event-20031421.07}}\"/pause 500/emote farmer 28/move Gus 0 -1 0/pause 400/speak DeryaSBV \"{{i18n:event-20031421.08}}\"/pause 400/shake DeryaSBV 500/pause 500/speak DeryaSBV \"{{i18n:event-20031421.09}}\"/pause 400/emote farmer 40/emote Gus 40/pause 400/message \"{{i18n:event-20031421.10}}\"/pause 400/move DeryaSBV 0 0 0/pause 300/emote DeryaSBV 8/pause 400/move DeryaSBV 0 0 2/pause 500/speak DeryaSBV \"{{i18n:event-20031421.11}}\"/pause 700/move Gus 0 0 2/pause 300/speak Gus \"{{i18n:event-20031421.12}}\"/pause 900/speak DeryaSBV \"{{i18n:event-20031421.13}}\"/pause 500/speak Gus \"{{i18n:event-20031421.14}}\"/pause 400/emote farmer 32/pause 300/emote DeryaSBV 28/pause 1000/globalFade/viewport -999 -999/pause 600/message \"{{i18n:event-20031421.15}}\"/pause 500/end",
+                //6 Hearts - Ari's dilemma
+                "skellady.SBVCP_20031466/t 1200 1900/e skellady.SBVCP_20031465/f AriSBV 1500": "Saloon1/-100 -100/farmer -100 -100 0 Gus 10 18 2 AriSBV 11 20 0 Pam 3 17 2 Willy 12 21 3 EliasSBV 9 22 1 Demetrius 19 23 3 Robin 16 22 1 EzraSBV 20 19 1 ImanSBV 22 19 3 Leah 20 22 1 MaiaSBV 22 22 3 Emily 15 17 0"
             }
         },
         {
@@ -327,19 +329,6 @@
                 //14 Hearts - Moon's adventure
                 "skellady.SBVCP_20031433/f MoonSBV 3500/e skellady.SBVCP_20031420/t 900 1700/w sunny/z winter": "{{season}}1/-100 -100/farmer 69 0 2 MoonSBV 69 10 2 DialaSBV -999 -999 3 DeryaSBV -999 -999 3/skippable/viewport 69 12/pause 400/move farmer 0 8 2/pause 400/move MoonSBV 0 0 0/pause 400/jump MoonSBV/pause 500/speak MoonSBV \"{{i18n:event-20031433.01}}\"/pause 500/emote farmer 8/pause 500/speak MoonSBV \"{{i18n:event-20031433.02}}\"/pause 400/speak MoonSBV \"{{i18n:event-20031433.03}}\"/pause 400/quickQuestion #{{i18n:event-20031433.04}}#{{i18n:event-20031433.05}}(break)speak MoonSBV \"{{i18n:event-20031433.06}}\"(break)speak MoonSBV \"{{i18n:event-20031433.07}}\"/pause 500/speed MoonSBV 5/move MoonSBV 1 0 0/speed MoonSBV 5/move MoonSBV 0 -2 2/pause 500/speak MoonSBV \"{{i18n:event-20031433.08}}\"/pause 400/emote farmer 60/pause 400/jump MoonSBV/jump farmer/playSound wand/warp MoonSBV -999 -999/warp farmer -999 -998/pause 800/globalFade/viewport -1000 -1000/viewport 29 15/changeToTemporaryMap Custom_SBV_MoonWoods/pause 1200/fade unfade/warp MoonSBV 29 17 true/warp farmer 28 17 true/playSound wand/pause 500/faceDirection farmer 3/pause 500/faceDirection farmer 1/pause 500/faceDirection MoonSBV 3/pause 400/emote farmer 32/pause 500/speak MoonSBV \"{{i18n:event-20031433.09}}\"/pause 500/speak MoonSBV \"{{i18n:event-20031433.10}}\"/pause 500/emote MoonSBV 40/pause 800/jump MoonSBV/pause 400/speak MoonSBV \"{{i18n:event-20031433.11}}\"/pause 500/faceDirection MoonSBV 2/pause 400/jump MoonSBV/warp MoonSBV -999 -999/playSound wand/pause 500/emote farmer 8/pause 1300/warp MoonSBV 32 15/warp DialaSBV 36 17/warp DeryaSBV 36 18/playSound wand/pause 500/emote DeryaSBV 12/pause 500/textAboveHead DialaSBV \"{{i18n:event-20031433.12}}\"/pause 500/emote MoonSBV 32/pause 500/speak MoonSBV \"{{i18n:event-20031433.13}}\"/pause 500/speak DialaSBV \"{{i18n:event-20031433.14}}\"/pause 600/emote DialaSBV 40/pause 600/jump DialaSBV/pause 500/emote DialaSBV 20/pause 400/speak DialaSBV \"{{i18n:event-20031433.15}}\"/pause 500/speak DeryaSBV \"{{i18n:event-20031433.16}}\"/pause 500/emote MoonSBV 32/pause 500/speak MoonSBV \"{{i18n:event-20031433.17}}\"/pause 500/speak DialaSBV \"{{i18n:event-20031433.18}}\"/pause 500/textAboveHead DeryaSBV \"{{i18n:event-20031433.19}}\"/pause 500/faceDirection farmer 2/animate farmer false true 100 102 103/pause 1000/globalFade/viewport -999 -999/end",
             }
-                        /*advancedMove true/false (loop) parameters
-
-        parameters:
-        x y x y x y = move without pause
-
-        x y z t x y z t = move with pauses
-
-        x y x y z t x y = move with mix of mentioned above
-
-        x = how many tiles move in x axis (+ = right, - = left)
-        y = how many tiles move in y axis (+ = down, - = up)
-        z = direction face upon reaching destination (1=right, 2=down, 3=left, 4=up)
-        t = duration in milliseconds how long to stay in that spot (must be >= 10000ms)*/
         },
         {
             "LogName": "Mine Entrance Events",
@@ -371,9 +360,22 @@
                 "skellady.SBVCP_20031439/t 900 1800/d Sat/f AriSBV 500": "jaunty/-100 -100/farmer -100 -100 0 AriSBV 8 22 2/addTemporaryActor SBVCrate 16 32 -999 -460 2 false/warp SBVCrate 8 23 true/skippable/animate AriSBV false true 1000 21 21 21 22 22 22 23 23 23 23 23 23 23/viewport 9 23/pause 400/shake AriSBV 2000/pause 500/playSound doorOpen/warp farmer 14 29 true/advancedMove farmer false 0 -3 -6 0 0 -1 4 2000/pause 800/pause 500/stopAnimation AriSBV/showFrame AriSBV 0/pause 500/emote AriSBV 28/pause 1000/speak AriSBV \"{{i18n:event-20031439.01}}\"/pause 800/emote farmer 40/pause 600/question fork1 \"#{{i18n:event-20031439.02}}#{{i18n:event-20031439.03}}\"/fork NoHelpAri/pause 400/emote AriSBV 32/pause 450/speak AriSBV \"{{i18n:event-20031439.04}}\"/pause 400/speak AriSBV \"{{i18n:event-20031439.05}}\"/pause 400/emote farmer 32/move AriSBV -1 0 1/advancedMove farmer false 1 0 0 -3 -1 0 2 2000/pause 4000/showFrame farmer 4/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/faceDirection AriSBV 2/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/positionOffset SBVCrate 0 5/positionOffset farmer 0 5/pause 50/pause 400/stopAnimation farmer/move farmer 0 -2 3/faceDirection AriSBV 1/pause 500/emote AriSBV 20/pause 500/speak AriSBV \"{{i18n:event-20031439.06}}\"/pause 500/speak AriSBV \"{{i18n:event-20031439.07}}\"/pause 500/emote farmer 32/pause 1500/globalFade/viewport -999 -999/stopAdvancedMoves/end",
                 "NoHelpAri": "pause 500/animate AriSBV false true 1000 21 21 21 22 22 22 23 23 23 23 23 23 23/pause 2000/stopAnimation AriSBV/pause 500/emote AriSBV 12/pause 450/speak AriSBV \"{{i18n:event-20031439.08}}\"/pause 500/speak AriSBV \"{{i18n:event-20031439.09}}\"/pause 400/emote farmer 60/pause 1500/globalFade/viewport -999 -999/stopAdvancedMoves/end",
                 //4 Hearts - Ari and Elias talk dinner
-                "skellady.SBVCP_20031465/t 900 1600/d Sat/f AriSBV 1000": "jaunty/-100 -100/farmer 4 29 3 AriSBV 5 19 2 EliasSBV 10 25 0 BlakeSBV 10 21 1 LyenneSBV 11 21 3/skippable/",
+                "skellady.SBVCP_20031465/e skellady.SBVCP_20031439/t 900 1600/d Sat/f AriSBV 1000": "jaunty/-100 -100/farmer 4 29 3 AriSBV 5 19 2 EliasSBV 10 25 0 BlakeSBV 10 21 1 LyenneSBV 12 21 3/skippable/viewport 7 22/pause 1000/advancedMove EliasSBV false -4 0 0 -1 3 1200 0 -2 -2 0 3 600 1 0 0 -1 4 2000/advancedMove farmer false 2 0 1 2000 0 -4 -2 0 4 2000/textAboveHead BlakeSBV \"{{i18n:event-20031465.01}}\"/pause 1500/textAboveHead LyenneSBV \"{{i18n:event-20031465.02}}\"/pause 1500/emote BlakeSBV 40/speak EliasSBV \"{{i18n:event-20031465.03}}\"/pause 500/emote AriSBV 8/pause 450/speak AriSBV \"{{i18n:event-20031465.04}}\"/pause 400/emote EliasSBV 36/pause 450/speak EliasSBV \"{{i18n:event-20031465.05}}\"/pause 500/emote AriSBV 40/pause 450/speak AriSBV \"{{i18n:event-20031465.06}}\"/pause 400/speak EliasSBV \"{{i18n:event-20031465.07}}\"/pause 450/speak EliasSBV \"{{i18n:event-20031465.08}}\"/pause 300/faceDirection BlakeSBV 3/pause 200/emote BlakeSBV 12 true/emote LyenneSBV 28/pause 450/speak BlakeSBV \"{{i18n:event-20031465.09}}\"/pause 450/faceDirection EliasSBV 1/pause 300/speak EliasSBV \"{{i18n:event-20031465.10}}\"/pause 400/textAboveHead AriSBV \"{{i18n:event-20031465.11}}\"/pause 200/faceDirection EliasSBV 0/pause 200/emote EliasSBV 32/pause 1000/globalFade/viewport -999 -999/stopAdvancedMoves/end",
             }
         },
+                                /*advancedMove true/false (loop) parameters
+
+        parameters:
+        x y x y x y = move without pause
+
+        x y z t x y z t = move with pauses
+
+        x y x y z t x y = move with mix of mentioned above
+
+        x = how many tiles move in x axis (+ = right, - = left)
+        y = how many tiles move in y axis (+ = down, - = up)
+        z = direction face upon reaching destination (1=right, 2=down, 3=left, 4=up)
+        t = duration in milliseconds how long to stay in that spot (must be >= 10000ms)*/
         {
             "LogName": "Sunberry Library Events",
             "Action": "EditData",
@@ -410,19 +412,6 @@
                 "PlayerKilled": "none/-100 -100/farmer 23 24 2 OpheliaSBV 25 24 3 MaiaSBV 26 25 3/skippable/showFrame farmer 5/pause 1000/message \"{{i18n:SBV.PlayerKilled.01}}\"/pause 900/message \"{{i18n:SBV.PlayerKilled.02}}\"/pause 400/fade/viewport 25 23/pause 1000/speak OpheliaSBV \"{{i18n:SBV.PlayerKilled.03}}\"/pause 500/speak MaiaSBV \"{{i18n:SBV.PlayerKilled.04}}\"/pause 500/emote farmer 28/pause 500/speak OpheliaSBV \"{{i18n:SBV.PlayerKilled.05}}\"/pause 500/advancedMove OpheliaSBV false 0 -8 -1 0 1 2000/pause 200/doAction 25 22/advancedMove MaiaSBV false -1 0 0 -9 3 2000/pause 600/message \"{{i18n:SBV.PlayerKilled.06}}\"/pause 500/minedeath/globalFade/viewport -999 -999/stopAdvancedMoves/end"
             }
         },
-        /*advancedMove true/false (loop) parameters
-
-        parameters:
-        x y x y x y = move without pause
-
-        x y z t x y z t = move with pauses
-
-        x y x y z t x y = move with mix of mentioned above
-
-        x = how many tiles move in x axis (+ = right, - = left)
-        y = how many tiles move in y axis (+ = down, - = up)
-        z = direction face upon reaching destination (1=right, 2=down, 3=left, 4=up)
-        t = duration in milliseconds how long to stay in that spot (must be >= 10000ms)*/
         {
             "LogName": "Silly Lewis Event",
             "Action": "EditData",

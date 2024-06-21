@@ -1741,6 +1741,19 @@
     "event-20031464.18": "You think so, @? I... Yeah! You're right.$u",
     "event-20031464.19": "Thank you. I'm gonna head back home now. I'll make sure the humans like me, someday!$h",
 
+    // Ari 4 Hearts Event
+    "event-20031465.01": "Yeah, and then...",
+    "event-20031465.02": "No way!",
+    "event-20031465.03": "You know, I'm makin' your favorite dinner tonight.",
+    "event-20031465.04": "Oh? Shrimp cocktail?$8",
+    "event-20031465.05": "No, your other favorite.$h",
+    "event-20031465.06": "...Spicy eel?$h",
+    "event-20031465.07": "Ding, ding, ding! And Gus' famous crab cakes.$u",
+    "event-20031465.08": "You're welcome to join us if you're done with work by then. If not, I'll send some back with Blake.$h",
+    "event-20031465.09": "...Fish again?$s",
+    "event-20031465.10": "Oh, hush. I'm makin' some pasta for you and Lyenne. At least someone in here appreciates my fish dishes.$10",
+    "event-20031465.11": "Great, I'll meet you guys there.",
+
     //Animation Dialogue
     //------------------
 
