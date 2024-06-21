@@ -911,6 +911,24 @@
                     ]
                 },    
             }
+        },
+        // Adds Twilight Feathers to Traveling Merchant
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Traveler",
+                "Items"
+            ],
+            "Entries": {
+                "skellady.SBVCP_TwilightFeather": {
+                    "Id": "skellady.SBVCP_TwilightFeather",
+                    "ItemId": "skellady.SBVCP_TwilightFeather",
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                    "Price": 1000
+                }
+            }
         }
     ]
 }

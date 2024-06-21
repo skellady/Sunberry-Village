@@ -1871,6 +1871,9 @@
     "Mail.ReihanaSlime": "Get slimed, haha.^^- Reihana %item id (O)766 15 %%[#]Get Slimed",
     "Mail.AichaSeeds": "Hi, @!!^^Guess what? I bought some seeds! Yes, with my own money! I hope you like them. I'll come by the farm to see them when they're grown. Bye, have fun! :3^^- Aicha %item id (O)skellady.SBVCP_CallaLilySeeds 5 %%[#]Aicha's Seeds",
 
+    //Festival Letters
+    "Mail.TwilightFestival": "Dear @,^^Tomorrow we're holding our annual Twilight Festival in Sunberry Village! It's similar to Pelican Town's Spirit's Eve festival, but with our own twist on it. Drop by after 4 PM to join the festivities and make sure to grab the twilight feathers you've been collecting all year! You'll need them to trade with us.^^ - Ophelia[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3][#]Twilight Festival Notice",
+
     //Movie Reactions
     //---------------
 

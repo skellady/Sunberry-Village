@@ -50,7 +50,10 @@
                 "skellady.SBVCP_MaiaBars": "{{i18n:Mail.MaiaBars}}",
                 "skellady.SBVCP_DNDDessert": "{{i18n:Mail.DNDDessert}}",
                 "skellady.SBVCP_ReihanaSlime": "{{i18n:Mail.ReihanaSlime}}",
-                "skellady.SBVCP_AichaSeeds": "{{i18n:Mail.AichaSeeds}}"
+                "skellady.SBVCP_AichaSeeds": "{{i18n:Mail.AichaSeeds}}",
+
+                // Festival Mail
+                "fall_25": "{{i18n:Mail.TwilightFestival}}"
             }
         }
     ]

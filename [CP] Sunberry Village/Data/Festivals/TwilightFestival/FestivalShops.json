@@ -1,0 +1,337 @@
+{
+    "Changes": [
+        {
+            "LogName": "Twilight Festival Shops",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModId}}_SilasMaiaTwilightShop": {
+                    "ID": "{{ModId}}_SilasTwilightShop",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "SilasSBV",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:SilasTwilightShop.Dialogue}}"
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            "Id": "{{ModId}}_GeodesAndBox",
+                            "RandomItemId": [
+                                "(O)535",
+                                "(O)536",
+                                "(O)537",
+                                "(O)749",
+                                "(O)MysteryBox"
+                            ],
+                            "TradeItemId": "{{ModId}}_TwilightFeather",
+                            "TradeItemAmount": 1,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "{{ModId}}_GoldenBoxAndTroves",
+                            "RandomItemId": [
+                                "(O)GoldenMysteryBox",
+                                "(O)275"
+                            ],
+                            "TradeItemId": "{{ModId}}_TwilightFeather",
+                            "TradeItemAmount": 2,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "{{ModId}}_GeodeCrusher",
+                            "ItemId": "(BC)182",
+                            "TradeItemId": "{{ModId}}_TwilightFeather",
+                            "TradeItemAmount": 3,
+                            "AvailableStock": 3,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "{{ModId}}_Rings",
+                            "RandomItemId": [
+                                "(O)520",
+                                "(O)517",
+                                "(O)519",
+                                "(O)526",
+                                "(O)527",
+                                "(O)863",
+                                "(O)862",
+                                "(O)859",
+                                "(O)811"
+                            ],
+                            "TradeItemId": "{{ModId}}_TwilightFeather",
+                            "TradeItemAmount": 4,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "{{ModId}}_BarsAndOres",
+                            "RandomItemId": [
+                                "(O)378",
+                                "(O)380",
+                                "(O)382",
+                                "(O)384",
+                                "(O)386",
+                                "(O)334",
+                                "(O)335",
+                                "(O)336",
+                                "(O)337"
+                            ],
+                            "TradeItemId": "{{ModId}}_TwilightFeather",
+                            "TradeItemAmount": 2,
+                            "AvailableStock": 20,
+                            "AvailableStockLimit": "Global"
+                        }
+                    ]
+                },
+                "{{ModId}}_EliasTwilightShop": {
+                    "ID": "{{ModId}}_EliasTwilightShop",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "EliasSBV",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:EliasTwilightShop.Dialogue}}"
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            "Id": "{{ModId}}_Artifacts",
+                            "RandomItemId": [
+                                "(O)579",
+                                "(O)580",
+                                "(O)581",
+                                "(O)582",
+                                "(O)583",
+                                "(O)584",
+                                "(O)585",
+                                "(O)586",
+                                "(O)587",
+                                "(O)588",
+                                "(O)589",
+                                "(O)96",
+                                "(O)97",
+                                "(O)98",
+                                "(O)99",
+                                "(O)100",
+                                "(O)101",
+                                "(O)102",
+                                "(O)103",
+                                "(O)104",
+                                "(O)105",
+                                "(O)106",
+                                "(O)107",
+                                "(O)108",
+                                "(O)109",
+                                "(O)110",
+                                "(O)111",
+                                "(O)112",
+                                "(O)113",
+                                "(O)114",
+                                "(O)115",
+                                "(O)116",
+                                "(O)117",
+                                "(O)118",
+                                "(O)119",
+                                "(O)120",
+                                "(O)121",
+                                "(O)122",
+                                "(O)123",
+                                "(O)124",
+                                "(O)125",
+                                "(O)126",
+                                "(O)127"
+                            ],
+                            "TradeItemId": "{{ModId}}_TwilightFeather",
+                            "TradeItemAmount": 4,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "{{ModId}}_PrismaticShard",
+                            "ItemId": "(O)74",
+                            "TradeItemId": "{{ModId}}_TwilightFeather",
+                            "TradeItemAmount": 4,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
+                        }
+                    ]
+                },
+                "{{ModId}}_EzraImanTwilightShop": {
+                    "ID": "{{ModId}}_EzraImanTwilightShop",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "EzraSBV",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:EzraTwilightShop.Dialogue}}"
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            "Id": "",
+                            "ItemId": "",
+                            "TradeItemId": "",
+                            "TradeItemAmount": "",
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
+                        }
+                    ]
+                },
+                "{{ModId}}_DNDTwilightShop": {
+                    "ID": "{{ModId}}_DNDTwilightShop",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "Portraits/DNDCafe",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:DNDTwilightShop.Dialogue}}"
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            "Id": "{{ModId}}_BakedGoodsAndFood",
+                            "RandomItemId": [
+                                "(O)204",
+                                "(O)211",
+                                "(O)220",
+                                "(O)221",
+                                "(O)222",
+                                "(O)223",
+                                "(O)232",
+                                "(O)233",
+                                "(O)234",
+                                "(O)238",
+                                "(O)243",
+                                "(O)253",
+                                "(O)395",
+                                "(O)604",
+                                "(O)608",
+                                "(O)610",
+                                "(O)611",
+                                "(O)612",
+                                "(O)651",
+                                "(O)731",
+                                "(O)skellady.SBVCP_ChocoChipCookies",
+                                "(O)skellady.SBVCP_DialaHotChoco",
+                                "(O)skellady.SBVCP_IceCreamBowl"
+                            ],
+                            "TradeItemId": "{{ModId}}_TwilightFeather",
+                            "TradeItemAmount": 2,
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
+                        }
+                    ]
+                },
+                "{{ModId}}_AriTwilightShop": {
+                    "ID": "{{ModId}}_AriTwilightShop",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "AriSBV",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:AriTwilightShop.Dialogue}}"
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            "Id": "",
+                            "ItemId": "",
+                            "TradeItemId": "",
+                            "TradeItemAmount": "",
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
+                        }
+                    ]
+                },
+                "{{ModId}}_JumanaTwilightShop": {
+                    "ID": "{{ModId}}_JumanaTwilightShop",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "JumanaSBV",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:JumanaTwilightShop.Dialogue}}"
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            "Id": "",
+                            "ItemId": "",
+                            "TradeItemId": "",
+                            "TradeItemAmount": "",
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
+                        }
+                    ]
+                },
+                "{{ModId}}_AminaTwilightShop": {
+                    "ID": "{{ModId}}_AminaTwilightShop",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Portrait": "AminaSBV",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:AminaTwilightShop.Dialogue}}"
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            "Id": "",
+                            "ItemId": "",
+                            "TradeItemId": "",
+                            "TradeItemAmount": "",
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
