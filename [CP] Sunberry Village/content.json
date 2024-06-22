@@ -338,7 +338,7 @@
     {
       "LogName": "Include Festival Data",
       "Action": "Include",
-      "FromFile": "Data/Festivals/FestivalDialogue.json, Data/Festivals/Locations/EggFestival.json, Data/Festivals/Locations/FlowerDance.json, Data/Festivals/Locations/Luau.json, Data/Festivals/Locations/MoonlightJellies.json, Data/Festivals/Locations/SVFair.json, Data/Festivals/Locations/SpiritEve.json, Data/Festivals/Locations/IceFestival.json, Data/Festivals/Locations/WinterStar.json, Data/Festivals/Locations/GatheringFestival.json, Data/Festivals/Locations/EmberOfResolutions.json, Data/Festivals/Locations/FashionShow.json, Data/Festivals/TwilightFestival/FestivalData.json"
+      "FromFile": "Data/Festivals/FestivalDialogue.json, Data/Festivals/Locations/EggFestival.json, Data/Festivals/Locations/FlowerDance.json, Data/Festivals/Locations/Luau.json, Data/Festivals/Locations/MoonlightJellies.json, Data/Festivals/Locations/SVFair.json, Data/Festivals/Locations/SpiritEve.json, Data/Festivals/Locations/IceFestival.json, Data/Festivals/Locations/WinterStar.json, Data/Festivals/Locations/GatheringFestival.json, Data/Festivals/Locations/EmberOfResolutions.json, Data/Festivals/Locations/FashionShow.json, Data/Festivals/TwilightFestival/FestivalData.json, Data/Festivals/TwilightFestival/FestivalShops.json"
     },
     // Event Data
     {

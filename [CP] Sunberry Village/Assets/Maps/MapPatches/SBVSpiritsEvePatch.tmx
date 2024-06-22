@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="500">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="526">
  <properties>
   <property name="DayTiles" value="AlwaysFront 99 11 369 AlwaysFront 99 15 369 AlwaysFront 78 9 369 AlwaysFront 56 10 369 AlwaysFront 33 10 369 AlwaysFront 12 6 369 AlwaysFront 2 15 369 AlwaysFront 36 42 369 AlwaysFront 46 18 369 AlwaysFront 67 27 369 Front 84 27 369 AlwaysFront 81 40 369 AlwaysFront 79 73 369 AlwaysFront 70 73 369 AlwaysFront 51 78 369 AlwaysFront 64 90 369 Buildings 20 9 510"/>
   <property name="Light" value="99 11 4 99 15 4 78 9 4 56 10 4 33 10 4 12 6 4 2 15 4 36 42 4 46 18 4 67 27 4 84 27 4 81 40 4 79 73 4 70 73 4 51 78 4 65 90 4 89 11 4 39 46 4 62 89 4 54 83 4 58 86 4 54 89 4 62 83 4 61 78 4 65 77 4 20 9 4"/>
@@ -6627,7 +6627,138 @@
 </data>
  </layer>
  <objectgroup id="6" name="Back"/>
- <objectgroup id="7" name="Buildings"/>
+ <objectgroup id="7" name="Buildings">
+  <object id="500" name="TileData" x="1440" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_SilasMaiaTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="501" name="TileData" x="1456" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_SilasMaiaTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="502" name="TileData" x="1472" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_SilasMaiaTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="503" name="TileData" x="1488" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_SilasMaiaTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="504" name="TileData" x="1184" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_EliasTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="505" name="TileData" x="1200" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_EliasTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="506" name="TileData" x="1216" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_EliasTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="507" name="TileData" x="1232" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_EliasTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="508" name="TileData" x="880" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_EzraImanTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="509" name="TileData" x="896" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_EzraImanTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="510" name="TileData" x="912" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_EzraImanTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="511" name="TileData" x="928" y="256" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_EzraImanTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="512" name="TileData" x="656" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_DNDTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="513" name="TileData" x="672" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_DNDTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="514" name="TileData" x="688" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_DNDTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="515" name="TileData" x="704" y="352" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_DNDTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="516" name="TileData" x="1216" y="800" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_AriTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="517" name="TileData" x="1232" y="800" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_AriTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="518" name="TileData" x="1248" y="800" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_AriTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="519" name="TileData" x="1264" y="800" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_AriTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="520" name="TileData" x="256" y="848" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_JumanaTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="521" name="TileData" x="272" y="848" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_JumanaTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="522" name="TileData" x="288" y="848" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_JumanaTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="523" name="TileData" x="304" y="848" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_JumanaTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="524" name="TileData" x="672" y="816" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_AminaTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+  <object id="525" name="TileData" x="656" y="816" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_AminaTwilightShop none 1600 2600"/>
+   </properties>
+  </object>
+ </objectgroup>
  <objectgroup id="8" name="Paths"/>
  <objectgroup id="9" name="Front"/>
  <objectgroup id="10" name="AlwaysFront"/>

@@ -6,7 +6,7 @@
             "Target": "Data/Shops",
             "Entries": {
                 "{{ModId}}_SilasMaiaTwilightShop": {
-                    "ID": "{{ModId}}_SilasTwilightShop",
+                    "ID": "{{ModId}}_SilasMaiaTwilightShop",
                     "Owners": [
                         {
                             "Condition": null,
@@ -24,13 +24,7 @@
                     "Items": [
                         {
                             "Id": "{{ModId}}_GeodesAndBox",
-                            "RandomItemId": [
-                                "(O)535",
-                                "(O)536",
-                                "(O)537",
-                                "(O)749",
-                                "(O)MysteryBox"
-                            ],
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 3 (O)535 (O)536 (O)537 (O)749 (O)MysteryBox (O)skellady.SBVCP_SunberryGeode",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
                             "TradeItemAmount": 1,
                             "AvailableStock": 10,
@@ -38,10 +32,7 @@
                         },
                         {
                             "Id": "{{ModId}}_GoldenBoxAndTroves",
-                            "RandomItemId": [
-                                "(O)GoldenMysteryBox",
-                                "(O)275"
-                            ],
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 1 (O)GoldenMysteryBox (O)275",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
                             "TradeItemAmount": 2,
                             "AvailableStock": 10,
@@ -57,17 +48,7 @@
                         },
                         {
                             "Id": "{{ModId}}_Rings",
-                            "RandomItemId": [
-                                "(O)520",
-                                "(O)517",
-                                "(O)519",
-                                "(O)526",
-                                "(O)527",
-                                "(O)863",
-                                "(O)862",
-                                "(O)859",
-                                "(O)811"
-                            ],
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 4 (O)520 (O)517 (O)519 (O)526 (O)527 (O)863 (O)862 (O)859 (O)811",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
                             "TradeItemAmount": 4,
                             "AvailableStock": 2,
@@ -75,17 +56,7 @@
                         },
                         {
                             "Id": "{{ModId}}_BarsAndOres",
-                            "RandomItemId": [
-                                "(O)378",
-                                "(O)380",
-                                "(O)382",
-                                "(O)384",
-                                "(O)386",
-                                "(O)334",
-                                "(O)335",
-                                "(O)336",
-                                "(O)337"
-                            ],
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 5 (O)378 (O)380 (O)382 (O)384 (O)386 (O)334 (O)335 (O)336 (O)337",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
                             "TradeItemAmount": 2,
                             "AvailableStock": 20,
