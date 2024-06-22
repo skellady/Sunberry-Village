@@ -320,56 +320,56 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 		{
 			TimedActions = new Dictionary<int, Action>
 			{
-				[3 * 60] = () =>
+				[SecondsToTicks(3)] = () =>
 				{
 					Messages.Insert(0, new MessageBox("i think im in love u", MessageBox.MessageSource.Diala, true));
 				},
-				[7 * 60] = () =>
+				[SecondsToTicks(7)] = () =>
 				{
 					Messages.RemoveAt(0);
 				},
-				[9 * 60] = () =>
+				[SecondsToTicks(9)] = () =>
 				{
 					Messages.Insert(0, new MessageBox("i think im in love u", MessageBox.MessageSource.Diala, true));
 				},
-				[11 * 60] = () =>
+				[SecondsToTicks(11)] = () =>
 				{
 					Messages.RemoveAt(0);
 				},
-				[14 * 60] = () =>
+				[SecondsToTicks(14)] = () =>
 				{
 					Messages.Insert(0, new MessageBox("i think im in love u", MessageBox.MessageSource.Diala, true));
 				},
-				[(int)(17.5 * 60)] = () =>
+				[SecondsToTicks(17.5f)] = () =>
 				{
 					Messages[0].Typing = false;
 					Messages.Insert(1, new MessageBox("Today", MessageBox.MessageSource.System));
 				},
-				[(int)(18.5 * 60)] = () =>
+				[SecondsToTicks(18.5f)] = () =>
 				{
 					Messages.Insert(0, new MessageBox("witj", MessageBox.MessageSource.Diala, true));
 				},
-				[(int)(19 * 60)] = () =>
+				[SecondsToTicks(19f)] = () =>
 				{
 					Messages[0].Typing = false;
 				},
-				[(int)(20.5 * 60)] = () =>
+				[SecondsToTicks(20.5f)] = () =>
 				{
 					Messages.Insert(0, new MessageBox("WITH", MessageBox.MessageSource.Diala, true));
 				},
-				[(int)(21 * 60)] = () =>
+				[SecondsToTicks(21)] = () =>
 				{
 					Messages[0].Typing = false;
 				},
-				[22 * 60] = () =>
+				[SecondsToTicks(22)] = () =>
 				{
 					Messages.Insert(0, new MessageBox("WITH YOU", MessageBox.MessageSource.Diala, true));
 				},
-				[(int)(23.5 * 60)] = () =>
+				[SecondsToTicks(23.5f)] = () =>
 				{
 					Messages[0].Typing = false;
 				},
-				[27 * 60] = () =>
+				[SecondsToTicks(27)] = () =>
 				{
 					Script.done = true;
 				}
@@ -381,6 +381,11 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 			//new("witj", MessageBox.MessageSource.Diala),
 			//new("i think im in love u", MessageBox.MessageSource.Diala),
 			//new("Today", MessageBox.MessageSource.System),
+		}
+
+		private int SecondsToTicks(float seconds)
+		{
+			return (int) seconds * 60;
 		}
 	}
 }
