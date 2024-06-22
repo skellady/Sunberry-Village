@@ -38,10 +38,12 @@ internal class ChooseNFromSetQuery
 				"Quantity requested is greater than or equal to number of possible options.");
 		}
 
+		HashSet<string> avoidIdSet = avoidItemIds ?? new HashSet<string>();
+
 		List<ItemQueryResult> results = new();
 		foreach (string itemId in itemIds)
 		{
-			if (ItemRegistry.Exists(itemId) && !avoidItemIds.Contains(itemId))
+			if (ItemRegistry.Exists(itemId) && !avoidIdSet.Contains(itemId))
 			{
 				results.Add(new ItemQueryResult(ItemRegistry.Create(itemId)));
 			}
