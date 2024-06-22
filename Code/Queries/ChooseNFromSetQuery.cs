@@ -13,7 +13,7 @@ internal class ChooseNFromSetQuery
 		if (string.IsNullOrEmpty(arguments))
 		{
 			return ItemQueryResolver.Helpers.ErrorResult(key, arguments, logError,
-				"Query must be formatted as followed: \"SunberryTeam.SBVSMAPI_HandleChooseNFromSet <quantityToChoose> <itemId1> <itemId2> ... <itemIdN>\".");
+				"Query must be formatted as followed: \"SunberryTeam.SBVSMAPI_ChooseNFromSet <quantityToChoose> <itemId1> <itemId2> ... <itemIdN>\".");
 		}
 
 		string[] splitArgs = ArgUtility.SplitBySpace(arguments);
@@ -21,13 +21,13 @@ internal class ChooseNFromSetQuery
 		if (splitArgs.Length < 2)
 		{
 			return ItemQueryResolver.Helpers.ErrorResult(key, arguments, logError,
-				"Query must be formatted as followed: \"SunberryTeam.SBVSMAPI_HandleChooseNFromSet <quantityToChoose> <itemId1> <itemId2> ... <itemIdN>\".");
+				"Query must be formatted as followed: \"SunberryTeam.SBVSMAPI_ChooseNFromSet <quantityToChoose> <itemId1> <itemId2> ... <itemIdN>\".");
 		}
 
 		if (!int.TryParse(splitArgs[0], out int quantity))
 		{
 			return ItemQueryResolver.Helpers.ErrorResult(key, arguments, logError,
-				"Query must be formatted as followed: \"SunberryTeam.SBVSMAPI_HandleChooseNFromSet <quantityToChoose> <itemId1> <itemId2> ... <itemIdN>\".");
+				"Query must be formatted as followed: \"SunberryTeam.SBVSMAPI_ChooseNFromSet <quantityToChoose> <itemId1> <itemId2> ... <itemIdN>\".");
 		}
 
 		string[] itemIds = splitArgs[1..];
