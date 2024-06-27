@@ -1754,6 +1754,18 @@
     "event-20031465.10": "Oh, hush. I'm makin' some pasta for you and Lyenne. At least someone in here appreciates my fish dishes.$10",
     "event-20031465.11": "Great, I'll meet you guys there.",
 
+    // Ari 6 Hearts Event
+    "event-20031466.01": "Ugh...$s",
+    "event-20031466.02": "Is something wrong with your drink, Ari? I can replace it if you'd like.",
+    "event-20031466.03": "Oh! No, not at all. I'm sorry, my 'ugh' wasn't at your drink. It's great, thank you.$12",
+    "event-20031466.04": "Well, do you want to talk about it?$h",
+    "event-20031466.05": "Hold on.",
+    "event-20031466.06": "I... don't understand. How do people socialize? I feel like I lost that ability the moment I left college.$6",
+    "event-20031466.07": "Well... That's a good question. I never really have to think about it. It just... happens, you know?",
+    "event-20031466.08": "Why don't you hang out with Elias and Willy? You know Elias, obviously, considering he's your ex-husband.$h",
+    "event-20031466.09": "...",
+    "event-20031466.10": "No, I don't want to be a bother.$s#$b#I'll just... hang out here.",
+
     //Animation Dialogue
     //------------------
 
