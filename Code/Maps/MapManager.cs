@@ -9,14 +9,53 @@ using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using StardewValley.Extensions;
+using xTile.Dimensions;
+using xTile.Layers;
+using xTile.Tiles;
 
 namespace SunberryVillage.Maps;
 
-internal class ActionManager
+internal class MapManager
 {
 	internal static void AddEventHooks()
 	{
 		Globals.EventHelper.GameLoop.GameLaunched += RegisterTileActions;
+		Globals.EventHelper.Player.Warped += CheckForMinesChanges;
+	}
+
+	private static void CheckForMinesChanges(object sender, WarpedEventArgs e)
+	{
+		if (!e.NewLocation.Name.Contains("Custom_SBV_Mines") || !e.IsLocalPlayer)
+			return;
+
+		Farmer player = e.Player;
+		GameLocation mine = e.NewLocation;
+		Layer buildingsLayer = mine.Map.GetLayer("Buildings");
+		Layer frontLayer = mine.Map.GetLayer("Front");
+
+		if (buildingsLayer is null || frontLayer is null)
+			return;
+
+		for (int x = 0; x < buildingsLayer.LayerWidth; x++)
+		{
+			for (int y = 0; y < buildingsLayer.LayerHeight; y++)
+			{
+				if (buildingsLayer.Tiles[x, y]?.TileIndex != 194)
+					continue;
+
+				if (player.hasOrWillReceiveMail($"Coal_{mine.Name}_{x}_{y}_Collected"))
+				{
+					buildingsLayer.Tiles[x, y].TileIndex++;
+					frontLayer.Tiles[x, y - 1].TileIndex++;
+					buildingsLayer.Tiles[x, y].Properties.Remove("Action");
+				}
+				else
+				{
+					buildingsLayer.Tiles[x, y].Properties.Add("Action", "None");
+				}
+			}
+		}
 	}
 
 	private static void RegisterTileActions(object sender, GameLaunchedEventArgs e)

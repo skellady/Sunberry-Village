@@ -23,7 +23,7 @@ internal class EventHookManager
 		AudioManager.AddEventHooks();
 		LightingManager.AddEventHooks();
 		EmojiManager.AddEventHooks();
-		ActionManager.AddEventHooks();
+		MapManager.AddEventHooks();
 		QueryManager.AddEventHooks();
 		EventCommandManager.AddEventHooks();
 		MarketDailySpecialManager.AddEventHooks();

@@ -3,8 +3,10 @@ using StardewValley;
 using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
+using StardewValley.Extensions;
 using StardewValley.Menus;
 using SunberryVillage.Shops;
+using xTile.Dimensions;
 
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
@@ -54,6 +56,39 @@ internal class GameLocationPatches
 			return true;
 		}
 	}
+
+	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.checkAction))]
+	[HarmonyPrefix]
+	public static bool checkAction_Prefix(GameLocation __instance, Location tileLocation, Farmer who)
+	{
+		try
+		{
+			if (!__instance.Name.Contains("Custom_SBV_Mines") || !who.IsLocalPlayer)
+				return true;
+
+			switch (__instance.getTileIndexAt(tileLocation, "Buildings"))
+			{
+				case 194:
+					__instance.playSound("openBox");
+					__instance.playSound("Ship");
+					__instance.map.RequireLayer("Buildings").Tiles[tileLocation].TileIndex++;
+					__instance.map.RequireLayer("Front").Tiles[tileLocation.X, tileLocation.Y - 1].TileIndex++;
+					Game1.createRadialDebris(__instance, 382, tileLocation.X, tileLocation.Y, 6, resource: false, -1, item: true);
+					who.mailReceived.Add($"Coal_{__instance.Name}_{tileLocation.X}_{tileLocation.Y}_Collected");
+					__instance.map.RequireLayer("Buildings").Tiles[tileLocation].Properties.Remove("Action");
+					return false;
+
+				default:
+					return true;
+			}
+		}
+		catch (Exception e)
+		{
+			Log.Error($"Harmony patch \"{nameof(GameLocationPatches)}::{nameof(checkAction_Prefix)}\" has encountered an error while checking for action at \"{__instance.Name}\" ({tileLocation}): \n{e}");
+			return true;
+		}
+	}
+
 
 	/*
 	 *  Helpers
