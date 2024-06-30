@@ -8,9 +8,9 @@
         "SBV.SpecialOrder.MaiaGrubs_Text": "{{i18n:SBV.SpecialOrder.MaiaGrubs_Text}}",
         "SBV.SpecialOrder.MaiaGrubs_Objective_Text_0": "{{i18n:SBV.SpecialOrder.MaiaGrubs_Objective_Text_0}}",
 
-        "SBV.SpecialOrder.OpheliaBats_Name": "{{i18n:SBV.SpecialOrder.OpheliaBats_Name}}",
-        "SBV.SpecialOrder.OpheliaBats_Text": "{{i18n:SBV.SpecialOrder.OpheliaBats_Text}}",
-        "SBV.SpecialOrder.OpheliaBats_Objective_Text_0": "{{i18n:SBV.SpecialOrder.OpheliaBats_Objective_Text_0}}",
+        "SBV.SpecialOrder.OpheliaMushrooms_Name": "{{i18n:SBV.SpecialOrder.OpheliaMushrooms_Name}}",
+        "SBV.SpecialOrder.OpheliaMushrooms_Text": "{{i18n:SBV.SpecialOrder.OpheliaMushrooms_Text}}",
+        "SBV.SpecialOrder.OpheliaMushrooms_Objective_Text_0": "{{i18n:SBV.SpecialOrder.OpheliaMushrooms_Objective_Text_0}}",
 
         "SBV.SpecialOrder.ReihanaDessert_Name": "{{i18n:SBV.SpecialOrder.ReihanaDessert_Name}}",
         "SBV.SpecialOrder.ReihanaDessert_Text": "{{i18n:SBV.SpecialOrder.ReihanaDessert_Text}}",
