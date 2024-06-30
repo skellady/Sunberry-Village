@@ -9,10 +9,7 @@ using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using StardewValley.Extensions;
-using xTile.Dimensions;
 using xTile.Layers;
-using xTile.Tiles;
 
 namespace SunberryVillage.Maps;
 
