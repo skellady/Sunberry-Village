@@ -28,14 +28,15 @@ internal class SpecialOrderPatches
 	/// Patches <c>SpecialOrder.IsTimedQuest</c> for custom special orders with infinite duration
 	/// </summary>
 	[HarmonyPatch(typeof(SpecialOrder), nameof(SpecialOrder.IsTimedQuest))]
-	[HarmonyPrefix]
-	public static bool SpecialOrder_IsTimedQuest_Prefix(SpecialOrder __instance, ref bool __result)
+	[HarmonyPostfix]
+	public static void SpecialOrder_IsTimedQuest_Postfix(SpecialOrder __instance, ref bool __result)
 	{
-		if (!SpecialOrder.TryGetData(__instance.questName.Value, out SpecialOrderData SOData) || !SOData.CustomFields.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration"))
-			return true;
+		SpecialOrderData soData = __instance.GetData();
+
+		if (soData is null || !soData.CustomFields.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration"))
+			return;
 
 		__result = false;
-		return false;
 	}
 
 	/// <summary>
@@ -45,7 +46,9 @@ internal class SpecialOrderPatches
 	[HarmonyPrefix]
 	public static bool SpecialOrder_GetDaysLeft_Prefix(SpecialOrder __instance, ref int __result)
 	{
-		if (!SpecialOrder.TryGetData(__instance.questName.Value, out SpecialOrderData SOData) || !SOData.CustomFields.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration"))
+		SpecialOrderData soData = __instance.GetData();
+
+		if (soData is null || !soData.CustomFields.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration"))
 			return true;
 
 		__result = 99;
@@ -59,7 +62,9 @@ internal class SpecialOrderPatches
 	[HarmonyPrefix]
 	public static bool SpecialOrder_SetDuration_Prefix(SpecialOrder __instance)
 	{
-		if (!SpecialOrder.TryGetData(__instance.questName.Value, out SpecialOrderData SOData) || !SOData.CustomFields.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration"))
+		SpecialOrderData soData = __instance.GetData();
+
+		if (soData is null || !soData.CustomFields.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration"))
 			return true;
 
 		__instance.dueDate.Value = SDate.Now().AddDays(99).DaysSinceStart;
