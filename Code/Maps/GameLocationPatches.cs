@@ -2,7 +2,11 @@
 using StardewValley;
 using SunberryVillage.Utilities;
 using System;
+using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using System.Reflection;
+using System.Reflection.Emit;
 using StardewValley.Extensions;
 using StardewValley.Menus;
 using SunberryVillage.Shops;
@@ -89,6 +93,59 @@ internal class GameLocationPatches
 		}
 	}
 
+	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.lockedDoorWarp))]
+	[HarmonyTranspiler]
+	public static IEnumerable<CodeInstruction> lockedDoorWarp_Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
+	{
+		List<CodeInstruction> origInstructions = new(instructions); // store unaltered instructions in case anything goes wrong
+		List<CodeInstruction> newInstructions = new(origInstructions);
+		
+		try
+		{
+			MethodInfo m_getLocContext = typeof(GameLocation).GetMethod(nameof(GameLocation.GetLocationContextId));
+			MethodInfo m_stringEquals = typeof(string).GetMethod(nameof(string.Equals), new[] { typeof(string), typeof(string)});
+			MethodInfo m_inValleyContext = typeof(GameLocation).GetMethod(nameof(GameLocation.InValleyContext));
+			
+			List<CodeInstruction> sequenceToFind = new()
+			{
+				new CodeInstruction(OpCodes.Brfalse_S, new Label()),
+				new CodeInstruction(OpCodes.Ldloc_0),
+				new CodeInstruction(OpCodes.Brfalse_S, new Label()),
+				new CodeInstruction(OpCodes.Ldarg_0),
+				new CodeInstruction(OpCodes.Call, m_inValleyContext),
+				new CodeInstruction(OpCodes.Brtrue_S, new Label())
+			};
+
+			int index = HarmonyUtils.FindFirstSequenceMatch(newInstructions, sequenceToFind);
+
+			if (index == -1)
+			{
+				Log.Trace("Failed to match sequence. Aborting transpiler.");
+				return origInstructions;
+			}
+			
+			Label jumpLabel = (Label)newInstructions[index].operand;
+			int insertIndex = index + sequenceToFind.Count;
+
+			List<CodeInstruction> sequenceToInsert = new()
+			{
+				new CodeInstruction(OpCodes.Ldarg_0),
+				new CodeInstruction(OpCodes.Call, m_getLocContext),
+				new CodeInstruction(OpCodes.Ldstr, "Custom_SBV_SunberryVillage"),
+				new CodeInstruction(OpCodes.Call, m_stringEquals),
+				new CodeInstruction(OpCodes.Brtrue_S, jumpLabel),
+			};
+
+			newInstructions.InsertRange(insertIndex, sequenceToInsert);
+			return newInstructions;
+		}
+		catch (Exception e)
+		{
+			Log.Error($"Harmony patch <{nameof(GameLocationPatches)}::{nameof(lockedDoorWarp_Transpiler)}> has encountered an error while attempting to transpile <{nameof(GameLocation)}::{nameof(GameLocation.lockedDoorWarp)}>: \n{e}");
+			Log.Error("Faulty IL:\n\t" + string.Join("\n\t", newInstructions.Select((instruction, i) => $"{i}\t{instruction}")));
+			return origInstructions;
+		}
+	}
 
 	/*
 	 *  Helpers
