@@ -1653,7 +1653,7 @@
 
     // PlayerKilled in Sunberry Areas
     "SBV.PlayerKilled.01": "...Farmer?",
-    "SBV.PlayerKilled.02": "Oh, @ is waking up!",
+    "SBV.PlayerKilled.02": "Careful, now. Don't move.",
     "SBV.PlayerKilled.03": "@... We found you in the Sunberry Mines earlier. We worried sick!$s",
     "SBV.PlayerKilled.04": "We patched you up as best as we could. You should still check in with Harvey soon.$7",
     "SBV.PlayerKilled.05": "We called Marlon over, he might have some of your missing items. Please, be careful next time.$s",
@@ -1765,6 +1765,20 @@
     "event-20031466.08": "Why don't you hang out with Elias and Willy? You know Elias, obviously, considering he's your ex-husband.$h",
     "event-20031466.09": "...",
     "event-20031466.10": "No, I don't want to be a bother.$s#$b#I'll just... hang out here.",
+
+    // Blake 4 Hearts Event
+    "event-20031467.01": "Oh, it's you. I wasn't expecting to run into anyone in this weather.",
+    "event-20031467.02": "Are you okay?",
+    "event-20031467.03": "Why are you out in the rain?",
+    "event-20031467.04": "*sigh*",
+    "event-20031467.05": "I'm just having a really hard time with my classes. I... don't know what to do.$s",
+    "event-20031467.06": "I guess I wanted to be a little dramatic. You know, music video vibes while I think about all my life decisions.$u",
+    "event-20031467.07": "I'm just... having a really hard time with my classes. I don't know what to do.$s",
+    "event-20031467.08": "Why don't we get out of the rain and talk about it?",
+    "event-20031467.09": "Yeah... I'd like that.$9",
+    "event-20031467.10": "And... that's about it. I'm really not sure why I thought engineering was for me. It really isn't.$s",
+    "event-20031467.11": "It's okay. I'll be fine. I just... have to push through.$8",
+    "event-20031467.12": "Thank you for listening. I really appreciate it, @. I'll see you around.$h",
 
     //Animation Dialogue
     //------------------
