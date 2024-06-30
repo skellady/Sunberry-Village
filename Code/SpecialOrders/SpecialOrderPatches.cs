@@ -1,6 +1,5 @@
 ﻿using HarmonyLib;
 using StardewModdingAPI.Utilities;
-using StardewValley;
 using StardewValley.GameData.SpecialOrders;
 using StardewValley.SpecialOrders;
 // ReSharper disable UnusedMember.Local

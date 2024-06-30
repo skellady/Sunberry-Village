@@ -1,10 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
-using StardewValley;
-using StardewValley.Menus;
 using SunberryVillage.Utilities;
-using System;
 using System.Collections.Generic;
 // ReSharper disable UnusedMember.Global
 // ReSharper disable UnusedMember.Local
