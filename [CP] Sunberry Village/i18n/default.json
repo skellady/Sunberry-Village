@@ -1583,7 +1583,7 @@
     "event-20031448.04": "Is it edible?",
     "event-20031448.05": "We think it may be a variant of our purple sunberries. We're not entirely sure yet, but we will keep monitoring it as it grows.$h",
     "event-20031448.06": "Accordin' to the books in the library, the purple sunberries were the Goddesses' final blessin' for us.#$b#You think this was a little surprise they left behind? Or could it be connected to...?$8",
-    "event-20031448.07": "Personally, I have no reason to believe it is connected to Dr. Zahra's research. I will, however, reach out to her soon to inform her of the details.",
+    "event-20031448.07": "Personally, I have no reason to believe it is connected to Dr. Zahra's research. I will, however, reach out to her soon to see if she might have any more information for us.",
     "event-20031448.08": "Does it require any special attention? How long will it take to grow?$8",
     "event-20031448.09": "We have no reason to believe it'd need any special care, but we're not sure about its growth time yet.$9",
     "event-20031448.10": "It doesn't seem to grow the way the normal sunberries do. Perhaps there's something we're missing.",
@@ -1624,7 +1624,7 @@
     "event-20031451.02": "Hmm... I feel like something else was required to get it to this stage, too. You said it started sprouting around the farmer?",
     "event-20031451.03": "Mhmm... Correct.",
     "event-20031451.04": "Maybe they're connected somehow. @ and this mysterious plant...$9",
-    "event-20031451.05": "Thats... possible. It might be connected to all of us, in a way.$8",
+    "event-20031451.05": "That's... possible. It might be connected to all of us, in a way.$8",
     "event-20031451.06": "Well, we'll keep an eye on it as it grows.",
     "event-20031451.07": "@, try to drop by weekly to check on it, alright?$h",
     "event-20031451.08": "I'm glad the plant is growing! I should visit the village more often to figure out what's going on with the plant.",
@@ -1643,7 +1643,7 @@
     "event-20031457.01": "Thank you for gathering here today. We have some very exciting news to share with you all!$3",
     "event-20031457.02": "The plant has finally borne fruit!$h",
     "event-20031457.03": "We've come to the conclusion that this precious fruit is a variant of our beloved summer sunberry.",
-    "event-20031457.04": "It's a golden sunberry! We're... still not sure if it's this way naturally or if it was affected by being so far deep in our mines.",
+    "event-20031457.04": "It's a golden sunberry! We're... still not sure if it's this way naturally or if it was somehow affected by being so far deep in our mines.",
     "event-20031457.05": "We'll be giving every household a share of this plant as it comes to fruition again, but for now, @... come closer dear.$h",
     "event-20031457.06": "Here's your share. Thank you for finding this plant and bringing it to us. It has brought our little village closer than ever.$4",
     "event-20031457.07": "You received 2 Golden Sunberries!",
@@ -1790,6 +1790,27 @@
     "Animations.Derya.Phone": "%Derya's reading something on her phone. She tilts it out of your view when she notices you and smiles awkwardly.",
     "Animations.Ezra.Sport": "Ugh... Stupid rope.$a",
     "Animations.Iman.Sport": "%Iman's too absorbed in her phone to notice you.",
+
+    //Quests
+    //--------------
+
+    "SBV.Quest.GSBQuestName": "The Mysterious Seedling",
+    "skellady.SBVCP_GoldenSunberryIntroQuest.desc": "You found a strange seedling at the bottom of the Sunberry mines. Maia and Ophelia are investigating to see if they can identify it.",
+    "skellady.SBVCP_GoldenSunberryIntroQuest.task": "Wait to hear from Maia and Ophelia.",
+
+    "skellady.SBVCP_GoldenSunberryIdentified.desc": "You've identified the seedling as a unique variant of the purple sunberries which the village is known for. Right now, there's not much to do but wait for it to sprout.",
+    "skellady.SBVCP_GoldenSunberryIdentified.task": "Check back in on the seedling after a week has passed.",
+
+    "skellady.SBVCP_GoldenSunberryBadRoute.desc": "The seedling isn't doing well. It seems connected to your social bonds with the villagers, maybe that's the key to helping it grow?",
+    "skellady.SBVCP_GoldenSunberryBadRoute.task": "Strengthen your bonds with the villagers to help the seedling flourish.",
+
+    "skellady.SBVCP_GoldenSunberryGoodRoute.desc": "The seedling is doing well! It seems to be resonating with the positive energy in the village.",
+
+    "skellady.SBVCP_GoldenSunberryGrowing2.desc": "The seedling is growing steadily! The energy in the village has a sort of positive buzz to it.",
+    "skellady.SBVCP_GoldenSunberryGrowing3.desc": "The seedling is growing steadily! The energy in the village has a gentle warmth to it, like sunshine on your skin.",
+    "skellady.SBVCP_GoldenSunberryGrowing4.desc": "The seedling is growing steadily! The energy in the village has a vibrant happiness to it, like recalling a fond memory.",
+    "skellady.SBVCP_GoldenSunberryGrowing5.desc": "The seedling is growing steadily! The energy in the village has a radiant joy to it that makes you want to dance.",
+    "skellady.SBVCP_GoldenSunberryGrowing.task": "Continue strengthening your bonds with the villagers to help the seedling flourish.",
 
     //Special Orders
     //--------------

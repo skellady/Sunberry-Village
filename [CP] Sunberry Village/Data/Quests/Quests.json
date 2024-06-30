@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Quests",
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "skellady.SBVCP_GoldenSunberryIntroQuest": "Basic/{{i18n:SBV.Quest.GSBQuestName}}/{{i18n:skellady.SBVCP_GoldenSunberryIntroQuest.desc}}/{{i18n:skellady.SBVCP_GoldenSunberryIntroQuest.task}}/null/-1/0/-1/false",
+                "skellady.SBVCP_GoldenSunberryIdentified": "Basic/{{i18n:SBV.Quest.GSBQuestName}}/{{i18n:skellady.SBVCP_GoldenSunberryIdentified.desc}}/{{i18n:skellady.SBVCP_GoldenSunberryIdentified.task}}/null/-1/0/-1/false",
+                "skellady.SBVCP_GoldenSunberryBadRoute": "Basic/{{i18n:SBV.Quest.GSBQuestName}}/{{i18n:skellady.SBVCP_GoldenSunberryBadRoute.desc}}/{{i18n:skellady.SBVCP_GoldenSunberryBadRoute.task}}/null/-1/0/-1/false",
+                "skellady.SBVCP_GoldenSunberryGoodRoute": "Basic/{{i18n:SBV.Quest.GSBQuestName}}/{{i18n:skellady.SBVCP_GoldenSunberryGoodRoute.desc}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing.task}}/null/-1/0/-1/false",
+                "skellady.SBVCP_GoldenSunberryGrowing2": "Basic/{{i18n:SBV.Quest.GSBQuestName}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing2.desc}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing.task}}/null/-1/0/-1/false",
+                "skellady.SBVCP_GoldenSunberryGrowing3": "Basic/{{i18n:SBV.Quest.GSBQuestName}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing3.desc}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing.task}}/null/-1/0/-1/false",
+                "skellady.SBVCP_GoldenSunberryGrowing4": "Basic/{{i18n:SBV.Quest.GSBQuestName}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing4.desc}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing.task}}/null/-1/0/-1/false",
+                "skellady.SBVCP_GoldenSunberryGrowing5": "Basic/{{i18n:SBV.Quest.GSBQuestName}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing5.desc}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing.task}}/null/-1/0/-1/false"
+            }
+        }
+    ]
+}
