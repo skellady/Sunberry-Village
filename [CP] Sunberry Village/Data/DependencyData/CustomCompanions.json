@@ -170,8 +170,71 @@
          "When": {
             "Weather": "Sun, Wind",
             "Season": "Spring, Summer, Fall",
+            "Query: NOT '{{Season}} {{Day}}' = 'Fall 26' ": true
          },
          "Update": "OnLocationChange",
+      },
+      {
+         "LogName": "Sunberry Village Dogs on Twilight Festival",
+         "Action": "EditMap",
+         "Target": "Maps/Custom_SBV_SunberryVillage",
+         "MapTiles": [
+            {
+               "Position": {
+                  "X": 69,
+                  "Y": 90
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog1"
+               }
+            },
+            {
+               "Position": {
+                  "X": 82,
+                  "Y": 84
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog2"
+               }
+            },
+            {
+               "Position": {
+                  "X": 62,
+                  "Y": 87
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog3"
+               }
+            },
+            {
+               "Position": {
+                  "X": 57,
+                  "Y": 91
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog4"
+               }
+            },
+            {
+               "Position": {
+                  "X": 89,
+                  "Y": 93
+               },
+               "Layer": "Back",
+               "SetProperties": {
+                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog5"
+               }
+            },
+         ],
+         "When": {
+            "Season": "Fall",
+            "Day": 26
+         },
+         "Update": "OnLocationChange"
       },
       {
          "LogName": "Dog In the Inn Rain",
