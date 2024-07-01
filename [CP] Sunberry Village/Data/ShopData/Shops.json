@@ -864,19 +864,62 @@
                             "AvailableStockLimit": "Global"
                         },
                         {
-                            "Id": "skellady.SBVCP_SilasBlacksmith.RandomRecipe",
-                            "RandomItemId": [
-                                "(O)skellady.SBVCP_SerpentinePotion",
-                                "(O)skellady.SBVCP_PurpuritePotion",
-                                "(O)skellady.SBVCP_AnnabergitePotion",
-                                "(O)skellady.SBVCP_CitrinePotion",
-                                "(O)skellady.SBVCP_BlueAuraQuartzPotion",
-                                "(O)skellady.SBVCP_MoonberryPotion",
-                                "(O)skellady.SBVCP_DolomitePotion",
-                                "(O)skellady.SBVCP_TigerseyePotion",
-                                "(O)skellady.SBVCP_LunaritePotion",
-                                "(O)skellady.SBVCP_FairyStonePotion",
-                            ],
+                            "Id": "skellady.SBVCP_SerpentinePotionRecipe",
+                            "ItemId": "(O)skellady.SBVCP_SerpentinePotion",
+                            "IsRecipe": true,
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "skellady.SBVCP_PurpuritePotionRecipe",
+                            "ItemId": "(O)skellady.SBVCP_PurpuritePotion",
+                            "IsRecipe": true,
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AnnabergitePotionRecipe",
+                            "ItemId": "(O)skellady.SBVCP_AnnabergitePotion",
+                            "IsRecipe": true,
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "skellady.SBVCP_CitrinePotionRecipe",
+                            "ItemId": "(O)skellady.SBVCP_CitrinePotion",
+                            "IsRecipe": true,
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "skellady.SBVCP_BlueAuraQuartzPotionRecipe",
+                            "ItemId": "(O)skellady.SBVCP_BlueAuraQuartzPotion",
+                            "IsRecipe": true,
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MoonberryPotionRecipe",
+                            "ItemId": "(O)skellady.SBVCP_MoonberryPotion",
+                            "IsRecipe": true,
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DolomitePotionRecipe",
+                            "ItemId": "(O)skellady.SBVCP_DolomitePotion",
+                            "IsRecipe": true,
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "skellady.SBVCP_TigerseyePotionRecipe",
+                            "ItemId": "(O)skellady.SBVCP_TigerseyePotion",
+                            "IsRecipe": true,
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "skellady.SBVCP_LunaritePotionRecipe",
+                            "ItemId": "(O)skellady.SBVCP_LunaritePotion",
+                            "IsRecipe": true,
+                            "Price": 1500
+                        },
+                        {
+                            "Id": "skellady.SBVCP_FairyStonePotionRecipe",
+                            "ItemId": "(O)skellady.SBVCP_FairyStonePotion",
                             "IsRecipe": true,
                             "Price": 1500
                         }
