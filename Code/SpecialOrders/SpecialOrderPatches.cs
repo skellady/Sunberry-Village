@@ -1,5 +1,8 @@
-﻿using HarmonyLib;
+﻿using System.Collections.Generic;
+using System.Linq;
+using HarmonyLib;
 using StardewModdingAPI.Utilities;
+using StardewValley;
 using StardewValley.GameData.SpecialOrders;
 using StardewValley.SpecialOrders;
 // ReSharper disable UnusedMember.Local
@@ -22,6 +25,39 @@ internal class SpecialOrderPatches
 	/*
 	 *  Patches
 	 */
+
+	// avoiding a transpiler here by simply removing the affected SOs and putting them back after
+	// makes SBV special orders to slay monsters only count monsters killed in an SBV location
+	// not currently in use because the special orders aren't set up for monster types in the SBV areas
+
+	//[HarmonyPatch(typeof(GameLocation), "onMonsterKilled")]
+	//[HarmonyPrefix]
+	//public static void GameLocation_onMonsterSlain_Prefix(GameLocation __instance, List<SpecialOrder> __state)
+	//{
+	//	if (!__instance.Name.Contains("SBV"))
+	//		return;
+	//
+	//	foreach (SpecialOrder order in Game1.player.team.specialOrders.Where(order => order.questKey.Value.Contains("SBV")))
+	//	{
+	//		__state.Add(order);
+	//		Game1.player.team.specialOrders.Remove(order);
+	//	}
+	//}
+	//
+	//[HarmonyPatch(typeof(GameLocation), "onMonsterKilled")]
+	//[HarmonyPostfix]
+	//public static void GameLocation_onMonsterSlain_Postfix(GameLocation __instance, List<SpecialOrder> __state)
+	//{
+	//	if (!__instance.Name.Contains("SBV"))
+	//		return;
+	//
+	//	foreach (SpecialOrder order in __state)
+	//	{
+	//		Game1.player.team.specialOrders.Add(order);
+	//	}
+	//
+	//	__state.Clear();
+	//}
 
 	/// <summary>
 	/// Patches <c>SpecialOrder.IsTimedQuest</c> for custom special orders with infinite duration
