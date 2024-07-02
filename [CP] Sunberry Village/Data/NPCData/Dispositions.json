@@ -23,7 +23,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": false,
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
             "MaiaSBV": "{{i18n:NPC_Relationships.AminaMom}}",
@@ -117,7 +117,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
             "MaiaSBV": "{{i18n:NPC_Relationships.JumanaDaughter}}",
@@ -278,7 +278,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
             "AminaSBV": "{{i18n:NPC_Relationships.MaiaDaughter}}",
@@ -362,7 +362,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
             "BlakeSBV": "{{i18n:NPC_Relationships.LyenneFriend}}"
@@ -436,7 +436,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "WinterStarGifts": [
             {
@@ -504,11 +504,12 @@
           "Optimism": "Positive",
           "CanBeRomanced": false,
           "CanReceiveGifts": true,
+          "CanVisitIsland": "!DAY_OF_WEEK Friday",
           "Calendar": "AlwaysShown",
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
             "DeryaSBV": "{{i18n:NPC_Relationships.DialaFriend}}"
@@ -634,11 +635,12 @@
           "Optimism": "Positive",
           "CanBeRomanced": false,
           "CanReceiveGifts": true,
+          "CanVisitIsland": "!DAY_OF_WEEK Friday",
           "Calendar": "AlwaysShown",
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
             "DialaSBV": "{{i18n:NPC_Relationships.DeryaFriend}}"
@@ -769,7 +771,7 @@
           "MugShotSourceRect": { "X": 16, "Y": 224, "Width": 16, "Height": 19 },
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "WinterStarGifts": [
             {
@@ -879,7 +881,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "WinterStarGifts": [
             {
@@ -954,7 +956,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "WinterStarGifts": [
             {
@@ -1028,7 +1030,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "WinterStarGifts": [
             {
@@ -1125,7 +1127,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
             "NadiaSBV": "{{i18n:NPC_Relationships.EzraSister}}",
@@ -1200,7 +1202,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
             "EzraSBV": "{{i18n:NPC_Relationships.ImanFriend}}"
@@ -1283,7 +1285,7 @@
           "SocialTab": "HiddenUntilMet",
           "ExcludeFromIntroductionsQuest": true,
           "ItemDeliveryQuests": false,
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": true,
           "WinterStarParticipant": false,
           "EndSlideShow": "TrailingGroup",
           "FriendsAndFamily": {
@@ -1324,7 +1326,7 @@
           "Calendar": "HiddenUntilMet",
           "SocialTab": "HiddenUntilMet",
           "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "TrailingGroup",
           "WinterStarGifts": [
             {
@@ -1441,7 +1443,7 @@
           "Calendar": "HiddenUntilMet",
           "SocialTab": "HiddenUntilMet",
           "ExcludeFromIntroductionsQuest": true,
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "TrailingGroup",
           "WinterStarParticipant": false,
           "SpawnIfMissing": true,
@@ -1519,7 +1521,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
             "SilasSBV": "{{i18n:NPC_Relationships.MiyoungHusband}}"
@@ -1601,7 +1603,7 @@
           "SocialTab": "UnknownUntilMet",
           "ExcludeFromIntroductionsQuest": false,
           "ItemDeliveryQuests": "RANDOM 0.08",
-          "ExcludeFromPerfectionScore": false,
+          "ExcludeFromPerfectionScore": "{{ExcludeNPCsFromPerfection}}",
           "EndSlideShow": "MainGroup",
           "FriendsAndFamily": {
             "MiyoungSBV": "{{i18n:NPC_Relationships.SilasWife}}"

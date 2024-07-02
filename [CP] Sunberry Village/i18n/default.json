@@ -54,6 +54,7 @@
     "config.SDVR3Patch.description": "Adjusts the entrance patch to Sunberry if you have the town edits in Stardew Valley Reimagined 3 disabled. Only disable this if you've disabled SVR3's town edits.",
     "config.FestivalPatches.description": "Disables festival patches but keeps the NPCs where they are. Only disable if you run into a visual issue that annoys you.",
     "config.BoardUnlock.description": "Toggles whether you want the Sunberry special order board to unlock with vanilla, or with reaching 4 hearts with Elias.",
+    "config.ExcludeNPCsFromPerfection.description": "Excludes Sunberry Village NPCs from being included in the perfection score.",
 
     //Locations for Event Lookup/1.6 Display Names
     //-------------------------
@@ -2777,6 +2778,9 @@
     "MapString.sbv.unoccupiedvalli": "A house that's locked up tight. Only some sort of trash gremlin would consider breaking in and squatting.",
     "MapString.sbv.unoccupiedthy": "You think a mothan on the run would like to live here with her familiars.",
     "MapString.sbv.unoccupiedalchemist": "This house would be perfect for an alchemist and her little friend.",
+    // Twilight Festival
+    "MapString.sbv.twilightfestival.1": "Mila: Got hired to watch all these pets! This is the best day of my life.",
+    "MapString.sbv.twilightfestival.2": "'Pet Daycare'", // for translators: this string is available so you don't have to change the text on the sign by editing the tilesheet if you're not comfortable.
 
     //Warp Strings
     //------------

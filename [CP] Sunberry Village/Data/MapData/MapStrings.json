@@ -117,6 +117,9 @@
 				"sbv.library8": "{{i18n:MapString.sbv.library8}}",
 				"sbv.library9": "{{i18n:MapString.sbv.library9}}",
 				"sbv.library10": "{{i18n:MapString.sbv.library10}}",
+				// twilight festival
+				"sbv.twilightfestival.1": "{{i18n:MapString.sbv.twilightfestival.1}}",
+				"sbv.twilightfestival.2": "{{i18n:MapString.sbv.twilightfestival.2}}"
 			}
 		},
 		{

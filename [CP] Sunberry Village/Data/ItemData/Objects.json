@@ -59,7 +59,7 @@
                     "ContextTags": [
                         "flower_item",
                         "season_spring",
-                        "color_white"
+                        "color_sand"
                     ]
                 },
                 "skellady.SBVCP_Cyclamen": {
@@ -75,7 +75,7 @@
                     "ContextTags": [
                         "flower_item",
                         "season_winter",
-                        "color_pink"
+                        "color_dark_pink"
                     ]
                 },
                 "skellady.SBVCP_GoldenSunberry": {
@@ -92,7 +92,7 @@
                         "season_spring",
                         "season_summer",
                         "season_fall",
-                        "color_yellow"
+                        "color_gold"
                     ]
                 },
                 "skellady.SBVCP_Hyacinth": {
@@ -108,8 +108,8 @@
                     "ContextTags": [
                         "season_spring",
                         "flower_item",
-                        "color_pink",
-                        "color_white"
+                        "color_dark_pink",
+                        "color_sand"
                     ]
                 },
                 "skellady.SBVCP_LunarBean": {
@@ -125,7 +125,7 @@
                     "ContextTags": [
                         "season_fall",
                         "season_winter",
-                        "color_white",
+                        "color_sand",
                         "not_museum_donatable",
                         "sbv_unique_mineral"
                     ]
@@ -143,7 +143,7 @@
                     "ContextTags": [
                         "season_fall",
                         "flower_item",
-                        "color_pink"
+                        "color_salmon"
                     ]
                 },
                 "skellady.SBVCP_Speedwell": {
@@ -299,7 +299,7 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 0,
                     "ContextTags": [
-                        "color_blue",
+                        "color_cyan",
                         "not_museum_donatable",
                         "sbv_rare_mineral"
                     ]
@@ -315,8 +315,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 1,
                     "ContextTags": [
-                        "color_blue",
-                        "color_purple",
+                        "color_light_cyan",
+                        "color_poppyseed",
                         "not_museum_donatable",
                         "sbv_rare_mineral"
                     ]
@@ -332,7 +332,7 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 2,
                     "ContextTags": [
-                        "color_yellow",
+                        "color_gold",
                         "not_museum_donatable",
                         "sbv_common_mineral"
                     ]
@@ -348,7 +348,7 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 3,
                     "ContextTags": [
-                        "color_white",
+                        "color_sand",
                         "not_museum_donatable",
                         "sbv_common_mineral"
                     ]
@@ -364,7 +364,7 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 4,
                     "ContextTags": [
-                        "color_purple",
+                        "color_dark_purple",
                         "not_museum_donatable",
                         "sbv_common_mineral"
                     ]
@@ -603,7 +603,7 @@
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 0,
                     "ContextTags": [
-                        "color_pink"
+                        "color_dark_pink"
                     ]
                 },
                 "skellady.SBVCP_SerpentinePotion": {
