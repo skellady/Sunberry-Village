@@ -22,7 +22,7 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 0,
                     "ContextTags": [
-                        "color_pink",
+                        "color_salmon",
                         "item_mothfish"
                     ]
                 },
@@ -52,7 +52,7 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 2,
                     "ContextTags": [
-                        "color_green",
+                        "color_dark_cyan",
                         "item_emeraldsnapper"
                     ]
                 },
@@ -68,7 +68,7 @@
                     "SpriteIndex": 3,
                     "ContextTags": [
                         "item_aberrant",
-                        "color_dark_purple"
+                        "color_poppyseed"
                     ]
                 },
                 "skellady.SBVCP_BonbonFish": {
@@ -82,8 +82,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 4,
                     "ContextTags": [
-                        "color_pink",
-                        "color_blue",
+                        "color_salmon",
+                        "color_dark_blue",
                         "item_bonbonfish"
                     ]
                 },
@@ -158,7 +158,7 @@
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
                     "SpriteIndex": 9,
                     "ContextTags": [
-                        "color_pink",
+                        "color_dark_pink",
                         "item_bubblybetta"
                     ]
                 },
