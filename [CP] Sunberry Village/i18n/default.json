@@ -5236,6 +5236,28 @@
     //RSV Gathering Shop
     "RSVEnbyShop.Dialogue": "Hey, take a look at our wares!",
 
+    //Silas - Twilight Festival Shop
+    "SilasTwilightShop.Dialogue": "Special offers for the Twilight Festival! Check out what Maia and I got in stock today.",
+    "SilasTwilightShop.Closed": "Come back when the festival starts at 4 PM!",
+
+    //Elias - Twilight Festival Shop
+    "EliasTwilightShop.Dialogue": "Eyein' anything, farmer? The entire stock was donated by Dr. Zahra and her colleagues.",
+
+    //Ezra - Twilight Festival Shop
+    "EzraTwilightShop.Dialogue": "You should be the best dressed at the Spirit's Eve tomorrow, you hear me? Oh, and Iman's added some of her things into the shop.",
+
+    //DND - Twilight Festival Shop
+    "DNDTwilightShop.Dialogue": "We've got some delicious food and snacks available! Also, some of the minerals and gems Diala's been hoarding. Take a look!",
+
+    //Ari - Twilight Festival Shop
+    "AriTwilightShop.Dialogue": "You see, there are no spooky wares. I lied. I do have some really good stuff up for sale, though.",
+
+    //Jumana - Twilight Festival Shop
+    "JumanaTwilightShop.Dialogue": "Hello, dear! I did the best I could to stock this shop. Look at these beautiful flowers!",
+
+    //Amina - Twilight Festival Shop
+    "AminaTwilightShop.Dialogue": "Lucky dip here! Test your luck and see if you can find something cool from this random pile!",
+
     //Conversation Topics
     //-------------------
 
