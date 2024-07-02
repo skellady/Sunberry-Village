@@ -211,10 +211,10 @@
       "Default": "Vanilla",
       "Description": "{{i18n:config.BoardUnlock.description}}"
     },
-    "ExcludeNPCsFromPerfection": {
+    "IncludeNPCsInPerfection": {
       "AllowValues": "true, false",
-      "Default": "false",
-      "Description": "{{i18n:config.ExcludeNPCsFromPerfection.description}}"
+      "Default": "true",
+      "Description": "{{i18n:config.IncludeNPCsInPerfection.description}}"
     }
   },
     /* Event Limiter Compat */
