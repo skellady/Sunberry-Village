@@ -5,6 +5,7 @@ using System.Text;
 using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewValley;
+using StardewValley.GameData.Characters;
 using StardewValley.Quests;
 using SunberryVillage.Animations;
 using SunberryVillage.Integration.Tokens;
@@ -278,6 +279,42 @@ internal class ConsoleCommandManager
 			
 			PrintFishingDistribution(numToCatch);
 		});
+
+		#endregion
+
+		#region Perfection
+
+		Globals.CCHelper.Add("sbv.perf.countnpcs", "Counts NPCs needed for perfection.", (_, _) =>
+			{
+				if (IsWorldReady())
+				{
+					int maxedFriends = 0;
+					int totalFriends = 0;
+					foreach ((string npcName, CharacterData data) in Game1.characterData)
+					{
+						if (!data.PerfectionScore || GameStateQuery.IsImmutablyFalse(data.CanSocialize))
+						{
+							continue;
+						}
+
+						totalFriends++;
+
+						if (!Game1.player.friendshipData.TryGetValue(npcName, out var friendship))
+							continue;
+
+						int maxPoints = (data.CanBeRomanced ? 8 : 10) * 250;
+						if (friendship != null && friendship.Points >= maxPoints)
+						{
+							maxedFriends++;
+						}
+					}
+
+					float percentMaxed = (float)maxedFriends / totalFriends * 100f;
+
+					Log.Info($"{totalFriends} total NPCs needed for perfection, {maxedFriends} currently maxed out ({percentMaxed:n2}%)");
+				}
+			}
+		);
 
 		#endregion
 
