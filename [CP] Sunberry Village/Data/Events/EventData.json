@@ -316,7 +316,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_SBV_SunberryRoad",
             "Entries": {
-                "skellady.SBVCP_20031463":
+                "skellady.SBVCP_WarpTotemEvent":
                     "{{season}}_day_ambient/
                     -100 -100/
                     farmer 19 10 3 Wizard -100 -100 0/
@@ -325,11 +325,11 @@
                     viewport move  -2 0 1000/
                     move farmer -2 0 3 true/
                     --warp SBVWizardPoof 14 10/                                           -- warp in, sound, animate, warp wizard in, warp poof out/
-                    playSound wand/                                                     -- or maybe sound -> warp -> animate?/
+                    --playSound wand/                                                     -- or maybe sound -> warp -> animate?/
                     --animate SBVWizardPoof false true 200 0 1 2 3 4/
                     --warp SBVWizardPoof -100 -100 true/
                     SunberryTeam.SBVSMAPI_WizardWarpSprite 14 10/
-                    faceDirection Wizard 1/
+                    faceDirection Wizard 2/
                     warp Wizard 14 10/
                     pause 1000/
                     faceDirection farmer 3/
