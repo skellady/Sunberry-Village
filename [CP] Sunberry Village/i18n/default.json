@@ -54,6 +54,7 @@
     "config.SDVR3Patch.description": "Adjusts the entrance patch to Sunberry if you have the town edits in Stardew Valley Reimagined 3 disabled. Only disable this if you've disabled SVR3's town edits.",
     "config.FestivalPatches.description": "Disables festival patches but keeps the NPCs where they are. Only disable if you run into a visual issue that annoys you.",
     "config.BoardUnlock.description": "Toggles whether you want the Sunberry special order board to unlock with vanilla, or with reaching 4 hearts with Elias.",
+    "config.ExcludeNPCsFromPerfection.description": "Excludes Sunberry Village NPCs from being included in the perfection score.",
 
     //Locations for Event Lookup/1.6 Display Names
     //-------------------------
