@@ -3,7 +3,7 @@
   <PropertyGroup>
     <AssemblyName>SunberryVillage</AssemblyName>
     <RootNamespace>SunberryVillage</RootNamespace>
-    <Version>0.4.1</Version>
+    <Version>0.5.0</Version>
     <GameModsPath>$(GamePath)\Mods\Sunberry Village</GameModsPath>
     <ModFolderName>[C#] Sunberry Village</ModFolderName>
     <TargetFramework>net6.0</TargetFramework>
