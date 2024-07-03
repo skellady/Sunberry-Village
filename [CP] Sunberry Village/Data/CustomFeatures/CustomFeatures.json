@@ -166,6 +166,41 @@
             } 
         },
         {
+            "LogName": "Ari's Market Daily Special - WAG",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBVSMAPI/MarketDailySpecialData",
+            "Entries": {
+                "{{ModId}}_WAGItems": {
+                    "Items": [
+                        {
+                            "ItemId": "(O)wildflour.gourmetpantry_pectin",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 200
+                            }
+                        },
+                        {
+                            "ItemId": "(O)wildflour.gourmetpantry_brown_sugar",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 500
+                            }
+                        },
+                        {
+                            "ItemId": "(O)wildflour.gourmetpantry_confectioners_sugar",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 500
+                            }
+                        },
+                    ] 
+                }
+            },
+            "When": {
+                "HasMod": "wildflour.gourmetpantry"
+            } 
+        },
+        {
             "LogName": "Ari's Market Daily Special - S&S",
             "Action": "EditData",
             "Target": "SunberryTeam.SBVSMAPI/MarketDailySpecialData",
