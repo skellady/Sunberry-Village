@@ -9,15 +9,21 @@
                     "ID": "{{ModId}}_SilasMaiaTwilightShop",
                     "Owners": [
                         {
+                            "Name": "SilasSBV",
+                            "Id": "SilasSBV",
                             "Condition": null,
                             "Portrait": "SilasSBV",
                             "Dialogues": [
                                 {
+                                    "Id": "SilasShopDialogue",
                                     "Dialogue": "{{i18n:SilasTwilightShop.Dialogue}}"
                                 }
-                            ],
+                            ]    
+                        },
+                        {
                             "Name": "AnyOrNone",
-                            "Id": "AnyOrNone"
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:TwilightShop.Closed}}"
                         }
                     ],
                     "PriceModifiers": null,
@@ -75,8 +81,13 @@
                                     "Dialogue": "{{i18n:EliasTwilightShop.Dialogue}}"
                                 }
                             ],
+                            "Name": "EliasSBV",
+                            "Id": "EliasSBV"
+                        },
+                        {
                             "Name": "AnyOrNone",
-                            "Id": "AnyOrNone"
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:TwilightShop.Closed}}"
                         }
                     ],
                     "PriceModifiers": null,
@@ -110,8 +121,13 @@
                                     "Dialogue": "{{i18n:EzraTwilightShop.Dialogue}}"
                                 }
                             ],
+                            "Name": "EzraSBV",
+                            "Id": "EzraSBV"
+                        },
+                        {
                             "Name": "AnyOrNone",
-                            "Id": "AnyOrNone"
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:TwilightShop.Closed}}"
                         }
                     ],
                     "PriceModifiers": null,
@@ -153,8 +169,13 @@
                                     "Dialogue": "{{i18n:DNDTwilightShop.Dialogue}}"
                                 }
                             ],
+                            "Name": "DeryaSBV",
+                            "Id": "DeryaSBV"
+                        },
+                        {
                             "Name": "AnyOrNone",
-                            "Id": "AnyOrNone"
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:TwilightShop.Closed}}"
                         }
                     ],
                     "PriceModifiers": null,
@@ -188,8 +209,13 @@
                                     "Dialogue": "{{i18n:AriTwilightShop.Dialogue}}"
                                 }
                             ],
+                            "Name": "AriSBV",
+                            "Id": "AriSBV"
+                        },
+                        {
                             "Name": "AnyOrNone",
-                            "Id": "AnyOrNone"
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:TwilightShop.Closed}}"
                         }
                     ],
                     "PriceModifiers": null,
@@ -239,8 +265,13 @@
                                     "Dialogue": "{{i18n:JumanaTwilightShop.Dialogue}}"
                                 }
                             ],
+                            "Name": "JumanaSBV",
+                            "Id": "JumanaSBV"
+                        },
+                        {
                             "Name": "AnyOrNone",
-                            "Id": "AnyOrNone"
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:TwilightShop.Closed}}"
                         }
                     ],
                     "PriceModifiers": null,
@@ -282,8 +313,13 @@
                                     "Dialogue": "{{i18n:AminaTwilightShop.Dialogue}}"
                                 }
                             ],
+                            "Name": "AminaSBV",
+                            "Id": "AminaSBV"
+                        },
+                        {
                             "Name": "AnyOrNone",
-                            "Id": "AnyOrNone"
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:TwilightShop.Closed}}"
                         }
                     ],
                     "PriceModifiers": null,

@@ -5238,7 +5238,6 @@
 
     //Silas - Twilight Festival Shop
     "SilasTwilightShop.Dialogue": "Special offers for the Twilight Festival! Check out what Maia and I got in stock today.",
-    "SilasTwilightShop.Closed": "Come back when the festival starts at 4 PM!",
 
     //Elias - Twilight Festival Shop
     "EliasTwilightShop.Dialogue": "Eyein' anything, farmer? The entire stock was donated by Dr. Zahra and her colleagues.",
@@ -5257,6 +5256,9 @@
 
     //Amina - Twilight Festival Shop
     "AminaTwilightShop.Dialogue": "Lucky dip here! Test your luck and see if you can find something cool from this random pile!",
+
+    // Closed Twilight Shop
+    "TwilightShop.Closed": "Come back when the festival starts at 4 PM!",
 
     //Conversation Topics
     //-------------------
