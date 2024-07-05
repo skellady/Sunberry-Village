@@ -42,7 +42,7 @@
     "SongOutro": "Thanks for listenin', y'all.",
 
     // Ari's Market Special Dialogue
-    "MarketDailySpecialAriNotAround": "Today's special is a {0}. Come back when Ari is around to purchase it.",
+    "MarketDailySpecialAriNotAround": "Today's special is {0}. Come back when Ari is around to purchase it.",
     "MarketDailySpecialAlreadyPurchasedToday": "Sorry, {0}. Today's special is all sold out. Come back by tomorrow and see what I've got then!$9",
     "MarketDailySpecialOffer1": "Eyeing the daily special offer? It's {0}! You can take it home for only {1}$.$u",
     "MarketDailySpecialOffer2": "Today's special is {0}. A real steal at only {1}$!$u", // when you interact with the daily special
