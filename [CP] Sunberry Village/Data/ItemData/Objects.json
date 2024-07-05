@@ -941,6 +941,74 @@
                         "forage_item",
                         "feather_item"
                     ]
+                },
+                "{{ModId}}_SunriseOrb": {
+                    "Name": "{{ModId}}_SunriseOrb",
+                    "DisplayName": "{{i18n:SBV.SunriseOrb.Name}}",
+                    "Description": "{{i18n:SBV.SunriseOrb.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 0,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 25,
+                    "ContextTags": [
+                        "color_green",
+                        "color_orange",
+                        "geode",
+                        "geode_crusher_ignored"
+                    ]
+                },
+                "{{ModId}}_MidnightOrb": {
+                    "Name": "{{ModId}}_MidnightOrb",
+                    "DisplayName": "{{i18n:SBV.MidnightOrb.Name}}",
+                    "Description": "{{i18n:SBV.MidnightOrb.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 0,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 26,
+                    "ContextTags": [
+                        "color_dark_blue",
+                        "color_purple",
+                        "geode",
+                        "geode_crusher_ignored"
+                    ]
+                },
+                "{{ModId}}_SunsetOrb": {
+                    "Name": "{{ModId}}_SunsetOrb",
+                    "DisplayName": "{{i18n:SBV.SunsetOrb.Name}}",
+                    "Description": "{{i18n:SBV.SunsetOrb.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 0,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 27,
+                    "ContextTags": [
+                        "color_orange",
+                        "color_gold",
+                        "geode",
+                        "geode_crusher_ignored"
+                    ]
+                },
+                "{{ModId}}_EclipseOrb": {
+                    "Name": "{{ModId}}_EclipseOrb",
+                    "DisplayName": "{{i18n:SBV.EclipseOrb.Name}}",
+                    "Description": "{{i18n:SBV.EclipseOrb.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 0,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 28,
+                    "ContextTags": [
+                        "color_purple",
+                        "color_black",
+                        "geode",
+                        "geode_crusher_ignored"
+                    ]
                 }
             }
         },
