@@ -1668,6 +1668,19 @@
     "event-20031458.05": "Moon likes collecting them! They bring good luck!$3",
     "event-20031458.06": "You can now trade Moonberries for seeds!",
 
+    // Warp Totem Event
+    "event-WarpTotem.01": "Hmm. I've observed you walking down this road many times.",
+    "event-WarpTotem.02": "I feel I must ask... why do you not simply warp to your destination?",
+    "event-WarpTotem.03": "I don't know how...",
+    "event-WarpTotem.04": "None of your business!",
+    "event-WarpTotem.05": "Ah, I see... perhaps I overestimated your magical proficiency. In any case, it's a trivial matter.",
+    "event-WarpTotem.06": "One moment...",
+    "event-WarpTotem.07": "Here is the recipe for a simple warp totem.",
+    "event-WarpTotem.08": "Hmph. I suspect you simply lack the necessary knowledge, and are compensating with rudeness.",
+    "event-WarpTotem.09": "Educate yourself, you simpleton.",
+    "event-WarpTotem.10": "You learned how to craft a warp totem for Sunberry Village!",
+    "event-WarpTotem.11": "Now, if you'll excuse me, I have other villagers to spy- er, observe.",
+
     // Iman 2 Hearts Event
     "event-20031459.01": "Oh, hey. Didn't think I'd run into anyone here.",
     "event-20031459.02": "...I'm just... looking around.$7",

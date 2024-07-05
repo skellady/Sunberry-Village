@@ -15,10 +15,23 @@ namespace SunberryVillage.Maps;
 
 internal class MapManager
 {
+	internal const string TraveledSunberryRoadToday = "SunberryTeam.SBVSMAPI_TraveledSunberryRoadToday";
+
 	internal static void AddEventHooks()
 	{
 		Globals.EventHelper.GameLoop.GameLaunched += RegisterTileActions;
 		Globals.EventHelper.Player.Warped += CheckForMinesChanges;
+		Globals.EventHelper.Player.Warped += CheckTravelingSunberryRoad;
+		Globals.EventHelper.GameLoop.DayEnding += (_, _) => Game1.player.modData.Remove(TraveledSunberryRoadToday);
+	}
+
+	private static void CheckTravelingSunberryRoad(object sender, WarpedEventArgs e)
+	{
+		if (!e.OldLocation.Name.Equals("Town") || !e.NewLocation.Name.Equals("Custom_SBV_SunberryRoad") || !e.IsLocalPlayer || e.Player.modData.ContainsKey(TraveledSunberryRoadToday))
+			return;
+
+		e.Player.modData[TraveledSunberryRoadToday] = "true";
+		e.Player.stats.Increment("SunberryTeam.SBVSMAPI_DaysTraveledSunberryRoad");
 	}
 
 	private static void CheckForMinesChanges(object sender, WarpedEventArgs e)

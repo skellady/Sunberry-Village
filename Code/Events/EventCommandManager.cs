@@ -1,10 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Numerics;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
-using StardewValley.Audio;
 using SunberryVillage.Events.Phone;
 using SunberryVillage.Events.Tarot;
 using SunberryVillage.Utilities;
@@ -13,10 +11,9 @@ using Vector2 = Microsoft.Xna.Framework.Vector2;
 namespace SunberryVillage.Events;
 internal class EventCommandManager
 {
-	internal static EventScriptPhoneConfession phoneScript;
-
-	internal static bool WizardWarpInitialized = false;
-	private static WizardWarpHelper warpHelper;
+	internal static EventScriptPhoneConfession PhoneScript;
+	internal static WizardWarpIn WarpIn;
+	internal static WizardWarpOut WarpOut;
 
 	internal static void AddEventHooks()
 	{
@@ -31,53 +28,49 @@ internal class EventCommandManager
 			ev.CurrentCommand++;
 		});
 
-		// Tarot cutscene command
+		// Phone cutscene (WIP)
 		Event.RegisterCommand("SunberryTeam.SBVSMAPI_PhoneConfession", (ev, _, context) =>
 		{
-			if (phoneScript is null)
+			if (PhoneScript is null)
 			{
-				phoneScript = new EventScriptPhoneConfession();
-				ev.currentCustomEventScript = phoneScript;
+				PhoneScript = new EventScriptPhoneConfession();
+				ev.currentCustomEventScript = PhoneScript;
 			}
-			else if (phoneScript.update(context.Time, ev))
+			else if (PhoneScript.update(context.Time, ev))
 			{
 				ev.currentCustomEventScript = null;
 				ev.CurrentCommand++;
-				phoneScript = null;
+				PhoneScript = null;
 			}
 		});
 
-		// Wizard sparkles
-		Event.RegisterCommand("SunberryTeam.SBVSMAPI_WizardWarpSprite", (ev, args, eventContext) => {
+		WarpIn = new WizardWarpIn();
+		WarpOut = new WizardWarpOut();
 
-			if (!WizardWarpInitialized)
-			{
-				warpHelper = new WizardWarpHelper(ev, args, eventContext);
+		// Wizard warp in
+		Event.RegisterCommand("SunberryTeam.SBVSMAPI_WizardWarpIn", (ev, args, eventContext) => WarpIn.Initialize(ev, args, eventContext));
+		Event.RegisterCommand("SunberryTeam.SBVSMAPI_WaitForWizardWarpIn", (ev, _, _) =>
+		{
+			if (!WarpIn.IsActive)
+				ev.CurrentCommand++;
+		});
 
-				if (warpHelper.HasError)
-				{
-					ev.CurrentCommand++;
-					return;
-				}
-
-				WizardWarpInitialized = true;
-			}
-
-			if (!warpHelper.Update())
-				return;
-
-			WizardWarpInitialized = false;
-			ev.CurrentCommand++;
+		// Wizard warp out
+		Event.RegisterCommand("SunberryTeam.SBVSMAPI_WizardWarpOut", (ev, args, eventContext) => WarpOut.Initialize(ev, args, eventContext));
+		Event.RegisterCommand("SunberryTeam.SBVSMAPI_WaitForWizardWarpOut", (ev, _, _) =>
+		{
+			if (!WarpOut.IsActive)
+				ev.CurrentCommand++;
 		});
 	}
 
-	internal class WizardWarpHelper
+	internal class WizardWarpIn
 	{
-		internal bool HasError;
+		internal bool IsActive;
 
-		private readonly Event _ev;
+		private Event _ev;
 		private string[] _args;
-		private readonly EventContext _eventContext;
+		private EventContext _eventContext;
 
 		private enum AnimState
 		{
@@ -88,7 +81,7 @@ internal class EventCommandManager
 		}
 		private AnimState _state;
 
-		private readonly Vector2 _targetPos;
+		private Vector2 _targetPos;
 		private int _timer;
 		private int _sparkleTimer;
 		private int _errorTimer;
@@ -99,32 +92,45 @@ internal class EventCommandManager
 		private TemporaryAnimatedSprite _landedSprite;
 		private TemporaryAnimatedSprite _finishedSprite;
 
-		public WizardWarpHelper(Event ev, string[] args, EventContext eventContext)
+		private NPC _wizard;
+
+		private bool _initialized;
+
+		public void Initialize(Event ev, string[] args, EventContext eventContext)
 		{
+			if (_initialized)
+				return;
+
 			_ev = ev;
 			_args = args;
 			_eventContext = eventContext;
 
-			if (!ArgUtility.HasIndex(args, 2))
+			if (!ArgUtility.HasIndex(_args, 2))
 			{
-				ev.LogCommandError(args, "Not enough arguments supplied");
-				HasError = true;
+				_ev.LogCommandErrorAndSkip(_args, "Not enough arguments supplied");
 				return;
 			}
 
-			if (!ArgUtility.TryGetInt(args, 1, out int xPos, out string error) || !ArgUtility.TryGetInt(args, 2, out int yPos, out error))
+			_wizard = _ev.actors.Find(npc => npc.Name.Equals("Wizard"));
+			if (_wizard is null)
 			{
-				ev.LogCommandError(args, error);
-				HasError = true;
+				_ev.LogCommandErrorAndSkip(_args, "Wizard not present in event");
 				return;
 			}
-			
-			//if (!ArgUtility.TryGetOptionalDirection(args, 3, out int direction, out error, 2))
-			//{
-			//	ev.LogCommandError(args, error);
-			//	HasError = true;
-			//	return;
-			//}
+
+			if (!ArgUtility.TryGetInt(_args, 1, out int xPos, out string error)
+			    || !ArgUtility.TryGetInt(_args, 2, out int yPos, out error)
+			    || !ArgUtility.TryGetOptionalBool(_args, 3, out bool @continue, out error))
+			{
+				_ev.LogCommandErrorAndSkip(_args, error);
+				return;
+			}
+
+			_timer = 0;
+			_sparkleTimer = 0;
+			_errorTimer = 0;
+			_linedUp = false;
+			_initialized = true;
 
 			// formula for initial velocity given distance, time, and final velocity:
 			// u = (2 * s / t) - v where:
@@ -179,7 +185,7 @@ internal class EventCommandManager
 						scale = 4f,
 						motion = initialVelocity,
 						alpha = 0f,
-						alphaFade = alphaFade /*+ (0.001f * j)*/,
+						alphaFade = alphaFade + 0.001f * j,
 						drawAboveAlwaysFront = true,
 						stopAcceleratingWhenVelocityIsZero = true,
 						acceleration = accel,
@@ -193,20 +199,40 @@ internal class EventCommandManager
 
 			Game1.playSound("wand", out ICue sound);
 			_ev.TrackSound(sound);
-
+			
+			DelayedAction.functionAfterDelay(Update, 15);
+			
 			_state = AnimState.Warping;
-		}
 
-		public bool Update()
+			if (@continue)
+			{
+				_ev.CurrentCommand++;
+				_initialized = false;
+			}
+
+			IsActive = true;
+		}
+		
+		private void Update()
 		{
 			GameTime time = Game1.currentGameTime;
+
+			// if event is over back out
+			if (_ev.CurrentCommand >= _ev.eventCommands.Length)
+			{
+				_initialized = false;
+				IsActive = false;
+				return;
+			}
 
 			// force an error-out if command takes more than 5 seconds
 			_errorTimer += time.ElapsedGameTime.Milliseconds;
 			if (_errorTimer > 5000)
 			{
-				HasError = true;
-				return true;
+				_ev.LogCommandErrorAndSkip(_args, "Command timed out");
+				_initialized = false;
+				IsActive = false;
+				return;
 			}
 
 			switch (_state)
@@ -242,19 +268,6 @@ internal class EventCommandManager
 								sprite.motion = (_targetPos - sprite.Position) / 10f;
 							}
 
-							//if (!_linedUp)
-							//{
-							//	_linedUp = true;
-							//
-							//	// rough but idc it gets the job done
-							//	// throw some sparkles around to hide how crappy this part looks lol
-							//	foreach (TemporaryAnimatedSprite sprite in _warpingSprites)
-							//	{
-							//		sprite.motion = (_targetPos - sprite.Position);
-							//		sprite.acceleration = -sprite.motion;
-							//	}
-							//}
-
 							_timer += time.ElapsedGameTime.Milliseconds;
 						}
 
@@ -278,12 +291,13 @@ internal class EventCommandManager
 							foreach(TemporaryAnimatedSprite sprite in _warpingSprites)
 								_eventContext.Location.temporarySprites.Remove(sprite);
 
+							_warpingSprites.Clear();
 							_eventContext.Location.temporarySprites.Add(_landingSprite);
 
 							_state = AnimState.Landing;
 						}
 
-						return false;
+						break;
 					}
 
 				case AnimState.Landing:
@@ -328,7 +342,7 @@ internal class EventCommandManager
 							_state = AnimState.Landed;
 						}
 
-						return false;
+						break;
 					}
 
 				case AnimState.Landed:
@@ -373,7 +387,7 @@ internal class EventCommandManager
 							_state = AnimState.Finished;
 						}
 
-						return false;
+						break;
 					}
 
 				case AnimState.Finished:
@@ -399,23 +413,153 @@ internal class EventCommandManager
 						{
 							_eventContext.Location.temporarySprites.Remove(_finishedSprite);
 
-							NPC wizard = _ev.actors.Find(npc => npc.Name.Equals("Wizard"));
-							if (wizard is not null)
-							{
-								wizard.position.X = _ev.OffsetPositionX(_targetPos.X);
-								wizard.position.Y = _ev.OffsetPositionY(_targetPos.Y + 80f);
-								wizard.IsWalkingInSquare = false;
-							}
+							_wizard.position.X = _ev.OffsetPositionX(_targetPos.X);
+							_wizard.position.Y = _ev.OffsetPositionY(_targetPos.Y + 80f);
+							_wizard.IsWalkingInSquare = false;
 
-							return true;
+							_initialized = false;
+							IsActive = false;
+							_ev.CurrentCommand++;
+							return;
 						}
-						return false;
-					}
 
-				default:
-					return false;
+						break;
+					}
 			}
+
+			DelayedAction.functionAfterDelay(Update, 15);
+		}
+	}
+
+	internal class WizardWarpOut
+	{
+		internal bool IsActive;
+
+		private Event _ev;
+		private string[] _args;
+		private EventContext _eventContext;
+		
+		//private TemporaryAnimatedSprite _warpingSprite;
+		private TemporaryAnimatedSprite _warpingSpriteWhite;
+
+		private NPC _wizard;
+
+		private bool _initialized;
+
+		public void Initialize(Event ev, string[] args, EventContext eventContext)
+		{
+			if (_initialized)
+				return;
+
+			_ev = ev;
+			_args = args;
+			_eventContext = eventContext;
+
+			_initialized = true;
+
+			_wizard = _ev.actors.Find(npc => npc.Name.Equals("Wizard"));
+			if (_wizard is null)
+			{
+				_ev.LogCommandErrorAndSkip(_args, "Wizard not present in event");
+				return;
+			}
+
+			if (!ArgUtility.TryGetOptionalBool(_args, 1, out bool @continue, out string error))
+			{
+				_ev.LogCommandErrorAndSkip(_args, error);
+				return;
+			}
+
+			int warpTime = 200;
+			float alphaChange = 1 / (warpTime / 16f);
+			
+			//_warpingSprite = new TemporaryAnimatedSprite(
+			//	textureName: "Characters\\Wizard", 
+			//	sourceRect: new Rectangle(0, 128, 16, 32),
+			//	position: _wizard.Position + new Vector2(0, -80f),
+			//	flipped: false,
+			//	alphaFade: alphaChange,
+			//	color: Color.White
+			//)
+			//{
+			//	scale = 4f
+			//};
+
+			Texture2D wizardSheet = Globals.GameContent.Load<Texture2D>("Characters/Wizard");
+			int width = wizardSheet.Width;
+			int height = wizardSheet.Height;
+			Color[] data = new Color[width * height];
+			wizardSheet.GetData(data);
+
+			Texture2D whiteOverlay = new (Game1.graphics.GraphicsDevice, width, height);
+			whiteOverlay.SetData(GetWhiteWizardSprite(data));
+
+			_warpingSpriteWhite = new TemporaryAnimatedSprite(
+				textureName: "Characters\\Wizard", 
+				sourceRect: new Rectangle(0, 128, 16, 32),
+				position: _wizard.Position + new Vector2(0, -80f),
+				flipped: false,
+				alphaFade: alphaChange,
+				color: Color.White
+			)
+			{
+				scale = 4f,
+				texture = whiteOverlay,
+				alpha = 0f,
+				alphaFade = -alphaChange
+			};
+
+			Game1.playSound("wand", out ICue sound);
+			_ev.TrackSound(sound);
+			
+			DelayedAction.functionAfterDelay(() =>
+			{
+				_wizard.position.X = -6400f;
+				_wizard.position.Y = -6400f;
+				_wizard.IsWalkingInSquare = false;
+
+				_warpingSpriteWhite.alphaFade = alphaChange;
+			}, warpTime);
+			
+			DelayedAction.functionAfterDelay(() =>
+			{
+				IsActive = false;
+				if (!@continue)
+				{
+					_initialized = false;
+					_ev.CurrentCommand++;
+				}
+			}, warpTime * 2);
+			
+			//_eventContext.Location.temporarySprites.Add(_warpingSprite);
+			_eventContext.Location.temporarySprites.Add(_warpingSpriteWhite);
+
+
+			if (@continue)
+			{
+				_ev.CurrentCommand++;
+				_initialized = false;
+			}
+
+			IsActive = true;
 		}
 
+		private static Color[] GetWhiteWizardSprite(Color[] data)
+		{
+			if (data is null)
+			{
+				throw new ArgumentNullException(nameof(data));
+			}
+
+			Color[] output = new Color[data.Length];
+
+			for (int i = 0; i < data.Length; i++)
+			{
+				output[i] = data[i].A > 0 ? Color.White : Color.Transparent;
+			}
+
+			return output;
+		}
 	}
+
 }
