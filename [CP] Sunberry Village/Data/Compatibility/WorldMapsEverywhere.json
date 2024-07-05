@@ -1,0 +1,20 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Mods/skellady.SBVCP/SBVMapIcon",
+			"FromFile": "Assets/Images/WorldMaps/SBVMapIcon.png"
+		},
+		{
+			"Action": "EditData",
+			"Target": "Mods/shekurika.Worldmaps/WorldMapData",
+			"Entries": {
+				"skellady.SunberryVillage2": {
+					"Texture": "Mods\\skellady.SBVCP\\SBVMapIcon",
+					"SpriteIndex": 0,
+					"Location": "Custom_SBV_SunberryVillage",
+				}
+			}
+		}
+	]
+}
