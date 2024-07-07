@@ -25,6 +25,19 @@
                     "Texture": "Mods\\skellady.SBVCP\\Machines",
                     "SpriteIndex": 0,
 				    "CustomFields": {}
+                },
+                "{{ModId}}_AlchemyTable": {
+                    "Name": "skellady.SBVCP_AlchemyTable",
+                    "DisplayName": "{{i18n:SBV.AlchemyTable.Name}}",
+                    "Description": "{{i18n:SBV.AlchemyTable.Description}}",
+                    "Price": 30,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "Mods\\skellady.SBVCP\\Machines",
+                    "SpriteIndex": 2,
+                    "CustomFields": {}
                 }
             }
         },
@@ -56,7 +69,7 @@
                                     "IncrementMachineParentSheetIndex": 1
                                 }
                             ],
-                            "MinutesUntilReady": 1400,
+                            "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false,
                         },
@@ -78,7 +91,7 @@
                                     "IncrementMachineParentSheetIndex": 1
                                 }
                             ],
-                            "MinutesUntilReady": 1400,
+                            "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false,
                         },
@@ -100,7 +113,7 @@
                                     "IncrementMachineParentSheetIndex": 1
                                 }
                             ],
-                            "MinutesUntilReady": 1400,
+                            "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false,
                         },
@@ -122,7 +135,7 @@
                                     "IncrementMachineParentSheetIndex": 1
                                 }
                             ],
-                            "MinutesUntilReady": 1400,
+                            "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false,
                         },
@@ -144,7 +157,7 @@
                                     "IncrementMachineParentSheetIndex": 1
                                 }
                             ],
-                            "MinutesUntilReady": 1400,
+                            "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false,
                         },
@@ -166,7 +179,7 @@
                                     "IncrementMachineParentSheetIndex": 1
                                 }
                             ],
-                            "MinutesUntilReady": 1400,
+                            "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false,
                         },
@@ -188,7 +201,7 @@
                                     "IncrementMachineParentSheetIndex": 1
                                 }
                             ],
-                            "MinutesUntilReady": 1400,
+                            "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false,
                         },
@@ -210,7 +223,7 @@
                                     "IncrementMachineParentSheetIndex": 1
                                 }
                             ],
-                            "MinutesUntilReady": 1400,
+                            "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false,
                         },
@@ -232,7 +245,7 @@
                                     "IncrementMachineParentSheetIndex": 1
                                 }
                             ],
-                            "MinutesUntilReady": 1400,
+                            "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false,
                         },
@@ -254,11 +267,262 @@
                                     "IncrementMachineParentSheetIndex": 1
                                 }
                             ],
-                            "MinutesUntilReady": 1400,
+                            "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false,
                         },
                     ]
+                },
+                "(BC)skellady.SBVCP_AlchemyTable": {
+                    "HasInput": false,
+                    "HasOutput": false,
+                    "OutputRules": [
+                        {
+                            "Id": "skellady.SBVCP_AnnabergitePotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_AnnabergitePowder",
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_AnnabergitePotion",
+                                    "ItemId": "(O)skellady.SBVCP_AnnabergitePotion",
+                                    "CopyQuality": false,
+
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SerpentinePotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_SerpentinePowder",
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_SerpentinePotion",
+                                    "ItemId": "(O)skellady.SBVCP_SerpentinePotion",
+                                    "CopyQuality": false,
+
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_PurpuritePotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_PurpuritePowder",
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_PurpuritePotion",
+                                    "ItemId": "(O)skellady.SBVCP_PurpuritePotion",
+                                    "CopyQuality": false,
+
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_CitrinePotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_CitrinePowder",
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_CitrinePotion",
+                                    "ItemId": "(O)skellady.SBVCP_CitrinePotion",
+                                    "CopyQuality": false,
+
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_BlueAuraQuartzPotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_BlueAuraQuartzPowder",
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_BlueAuraQuartzPotion",
+                                    "ItemId": "(O)skellady.SBVCP_BlueAuraQuartzPotion",
+                                    "CopyQuality": false,
+
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MoonberryPotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_MoonberryPowder",
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_MoonberryPotion",
+                                    "ItemId": "(O)skellady.SBVCP_MoonberryPotion",
+                                    "CopyQuality": false,
+
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DolomitePotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_DolomitePowder",
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_DolomitePotion",
+                                    "ItemId": "(O)skellady.SBVCP_DolomitePotion",
+                                    "CopyQuality": false,
+
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_TigerseyePotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_TigerseyePowder",
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_TigerseyePotion",
+                                    "ItemId": "(O)skellady.SBVCP_TigerseyePotion",
+                                    "CopyQuality": false,
+
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_LunaritePotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_LunaritePowder",
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_LunaritePotion",
+                                    "ItemId": "(O)skellady.SBVCP_LunaritePotion",
+                                    "CopyQuality": false,
+
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_FairyStonePotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_FairyStonePowder",
+                                    "RequiredCount": 1,
+                                }
+                            ],
+                            "UseFirstValidOutput": false,
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_FairyStonePotion",
+                                    "ItemId": "(O)skellady.SBVCP_FairyStonePotion",
+                                    "CopyQuality": false,
+
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        }
+                    ],
+                    "AdditionalConsumedItems": [
+                        {
+                            "ItemId": "(O)skellady.SBVCP_CinderLeaf",
+                            "RequiredCount": 5,
+                            "InvalidCountMessage": "{{i18n:SBV.AlchemyTable.MissingCinderLeaf}}"
+                        }
+                    ],
+                    "InvalidItemMessage": "{{i18n:SBV.AlchemyTable.InvalidItem}}",
+                    "InvalidCountMessage": "{{i18n:SBV.AlchemyTable.InvalidCount}}",
+                    "ShowNextIndexWhileWorking": false,
+					"ShowNextIndexWhenReady": false,
+					"WobbleWhileWorking": false,
+                    "LoadEffects": [
+                        {
+                            "Frames": [0,1,2,3,4],
+                            "Interval": 200
+                        }
+                    ],
+                    "WorkingEffects": [
+                        {
+                            "Frames": [0,1,2,3,4],
+                            "Interval": 200
+                        }
+                    ],
+                    "WorkingEffectChance": 1
                 }
             }
         }   
