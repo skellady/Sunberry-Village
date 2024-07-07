@@ -316,53 +316,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_SBV_SunberryRoad",
             "Entries": {
-                "skellady.SBVCP_WarpTotemEvent/GameStateQuery PLAYER_STAT Current SunberryTeam.SBVSMAPI_DaysTraveledSunberryRoad 30/":
-                    "{{season}}_day_ambient/
-                    -100 -100/
-                    farmer 20 10 3 Wizard -100 -100 2/
-                    viewport 17 10/
-                    viewport move  -2 0 1000/
-                    move farmer -4 0 3 true/
-                    pause 1500/
-                    SunberryTeam.SBVSMAPI_WizardWarpIn 14 10 true/
-                    pause 250/
-                    halt farmer/
-                    emote farmer 16 true/
-                    jump farmer 6/
-                    SunberryTeam.SBVSMAPI_WaitForWizardWarpIn/
-                    emote farmer 8/
-                    faceDirection Wizard 1/
-                    pause 500/
-                    speak Wizard \"{{i18n:event-WarpTotem.01}}\"/
-                    speak Wizard \"{{i18n:event-WarpTotem.02}}\"/
-                    pause 300/
-                    emote farmer 40/
-                    pause 300/
-                    quickQuestion #{{i18n:event-WarpTotem.03}}#{{i18n:event-WarpTotem.04}}
-                        (break)pause 500\\speak Wizard \"{{i18n:event-WarpTotem.05}}\"\\speak Wizard \"{{i18n:event-WarpTotem.06}}\"\\pause 500\\speak Wizard \"{{i18n:event-WarpTotem.07}}\"
-                        (break)jump Wizard 4\\pause 250\\emote Wizard 12\\pause 100\\speak Wizard \"{{i18n:event-WarpTotem.08}}\"\\speak Wizard \"{{i18n:event-WarpTotem.07}}\"\\speak Wizard \"{{i18n:event-WarpTotem.09}}\"/
-                    pause 300/
-                    itemAboveHead/
-                    playSound getNewSpecialItem/
-                    message \"{{i18n:event-WarpTotem.10}}\"/
-                    addCraftingRecipe {{ModId}}_WarpTotemSunberry/
-                    pause 250/
-                    faceDirection farmer 3/
-                    pause 200/
-                    speak Wizard \"{{i18n:event-WarpTotem.11}}\"/
-                    pause 200/
-                    showFrame Wizard 16/
-                    pause 250/
-                    SunberryTeam.SBVSMAPI_WizardWarpOut/
-                    pause 750/
-                    emote farmer 40/
-                    pause 250/
-                    advancedMove farmer false -3 0 0 1 -2 0/
-                    pause 700/
-                    globalFade/
-                    viewport -1000 -1000/
-                    stopAdvancedMoves/
-                    end position 15 10"
+                "skellady.SBVCP_WarpTotemEvent/GameStateQuery PLAYER_STAT Current SunberryTeam.SBVSMAPI_DaysTraveledSunberryRoad 30/": "{{season}}_day_ambient/-100 -100/farmer 20 10 3 Wizard -100 -100 2/viewport 17 10/viewport move  -2 0 1000/move farmer -4 0 3 true/pause 1500/SunberryTeam.SBVSMAPI_WizardWarpIn 14 10 true/pause 250/halt farmer/emote farmer 16 true/jump farmer 6/SunberryTeam.SBVSMAPI_WaitForWizardWarpIn/emote farmer 8/faceDirection Wizard 1/pause 500/speak Wizard \"{{i18n:event-WarpTotem.01}}\"/speak Wizard \"{{i18n:event-WarpTotem.02}}\"/pause 300/emote farmer 40/pause 300/quickQuestion #{{i18n:event-WarpTotem.03}}#{{i18n:event-WarpTotem.04}}(break)pause 500\\speak Wizard \"{{i18n:event-WarpTotem.05}}\"\\speak Wizard \"{{i18n:event-WarpTotem.06}}\"\\pause 500\\speak Wizard \"{{i18n:event-WarpTotem.07}}\"(break)jump Wizard 4\\pause 250\\emote Wizard 12\\pause 100\\speak Wizard \"{{i18n:event-WarpTotem.08}}\"\\speak Wizard \"{{i18n:event-WarpTotem.07}}\"\\speak Wizard \"{{i18n:event-WarpTotem.09}}\"/pause 300/itemAboveHead/playSound getNewSpecialItem/message \"{{i18n:event-WarpTotem.10}}\"/addCraftingRecipe {{ModId}}_WarpTotemSunberry/pause 250/faceDirection farmer 3/pause 200/speak Wizard \"{{i18n:event-WarpTotem.11}}\"/pause 200/showFrame Wizard 16/pause 250/SunberryTeam.SBVSMAPI_WizardWarpOut/pause 750/emote farmer 40/pause 250/advancedMove farmer false -3 0 0 1 -2 0/pause 700/globalFade/viewport -1000 -1000/stopAdvancedMoves/end position 15 10"
             }
         },
         {
