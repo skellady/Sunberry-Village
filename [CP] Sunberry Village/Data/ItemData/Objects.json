@@ -952,6 +952,71 @@
                     "Price": 0,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 25,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_BasicSunriseDrops",
+                            "RandomItemId": [
+                                "(O)728",
+                                "(O)221",
+                                "(O)213",
+                                "(O)218",
+                                "(O)727",
+                                "(O)730",
+                                "(O)608",
+                                "(O)610",
+                                "(O)230",
+                                "(O)240",
+                                "(O)265",
+                                "(O)241",
+                                "(O)204",
+                                "(O)244",
+                                "(O)242",
+                                "(O)231",
+                                "(O)907",
+                                "(O)236",
+                                "(O)201",
+                                "(O)259",
+                                "(O)283",
+                                "(O)281",
+                                "(O)412",
+                                "(O)414",
+                                "(O)257",
+                                "(O)422",
+                                "(O)408",
+                                "(O)266",
+                                "(O)Moss"
+                            ],
+                            "QualityModifierMode": "Stack"
+                        },
+                        {
+                            "Chance": 0.7,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberrySeedsSunrise",
+                            "ItemId": "(O)skellady.SBVCP_SunberrySeeds",
+                            "MinStack": 3,
+                            "MaxStack": 10
+                        }
+                        {
+                            "Chance": 0.5,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunriseOrbMoonberries",
+                            "ItemId": "(O)skellady.SBVCP_MoonberrySeeds",
+                            "MinStack": 3,
+                            "MaxStack": 7,
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031458"
+                        },
+                        {
+                            "Chance": 0.4,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_MidnightInSunriseOrb",
+                            "ItemId": "(O)skellady.SBVCP_MidnightOrb",
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        }
+                    ],
                     "ContextTags": [
                         "color_green",
                         "color_orange",

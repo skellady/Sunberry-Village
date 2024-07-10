@@ -5083,6 +5083,14 @@
     "SBV.CinderLeaf.Description": "A singular pink leaf. Can be used to brew potions.",
     "SBV.TwilightFeather.Name": "Twilight Feather",
     "SBV.TwilightFeather.Description": "A feather resembling the period between sunset and nightfall. It's used as currency during Sunberry Village's Twilight Festival. Better hold on to it!",
+    "SBV.SunriseOrb.Name": "Sunrise Orb",
+    "SBV.SunriseOrb.Description": "A blacksmith can open this for you. Who knows what might be inside?",
+    "SBV.MidnightOrb.Name": "Midnight Orb",
+    "SBV.MidnightOrb.Description": "A blacksmith can open this for you. Who knows what might be inside?",
+    "SBV.SunsetOrb.Name": "Sunset Orb",
+    "SBV.SunsetOrb.Description": "A blacksmith can open this for you. Who knows what might be inside?",
+    "SBV.EclipseOrb.Name": "Eclipse Orb",
+    "SBV.EclipseOrb.Description": "A blacksmith can open this for you. Who knows what might be inside?",
 
     //Potions
     "SBV.SerpentinePotion.Name": "Serpentine Potion",
@@ -5207,6 +5215,11 @@
     //Machines
     "SBV.MineralGrinder.Name": "Mineral Grinder",
     "SBV.MineralGrinder.Description": "Grinds minerals into a fine powder. Only accepts certain minerals.",
+    "SBV.AlchemyTable.Name": "Alchemy Table",
+    "SBV.AlchemyTable.Description": "Provides all necessary tools to craft the finest potions and other magical items.",
+    "SBV.AlchemyTable.MissingCinderLeaf": "Requires 5 Cinder Leaves.",
+    "SBV.AlchemyTable.InvalidItem": "This item won't work here.",
+    "SBV.AlchemyTable.InvalidCount": "Requires more Cinder Leaves.",
 
     //Shop Dialogue
     //-------------
