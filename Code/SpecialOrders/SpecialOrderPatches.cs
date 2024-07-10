@@ -68,7 +68,7 @@ internal class SpecialOrderPatches
 	{
 		SpecialOrderData soData = __instance.GetData();
 
-		if (soData is null || (!soData.CustomFields?.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration") ?? false))
+		if (soData is null || (!soData.CustomFields?.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration") ?? true))
 			return;
 
 		__result = false;
@@ -83,7 +83,7 @@ internal class SpecialOrderPatches
 	{
 		SpecialOrderData soData = __instance.GetData();
 
-		if (soData is null || (!soData.CustomFields?.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration") ?? false))
+		if (soData is null || (!soData.CustomFields?.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration") ?? true))
 			return true;
 
 		__result = 99;
@@ -99,7 +99,7 @@ internal class SpecialOrderPatches
 	{
 		SpecialOrderData soData = __instance.GetData();
 
-		if (soData is null || (!soData.CustomFields?.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration") ?? false))
+		if (soData is null || (!soData.CustomFields?.ContainsKey("SunberryTeam.SBVSMAPI/InfiniteDuration") ?? true))
 			return true;
 
 		__instance.dueDate.Value = SDate.Now().AddDays(99).DaysSinceStart;
