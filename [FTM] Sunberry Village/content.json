@@ -1706,6 +1706,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "Iron Ore",
                   "Stack": 1,
                   "PercentChanceToSpawn": 33
@@ -1854,6 +1860,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "Iron Ore",
                   "Stack": 1,
                   "PercentChanceToSpawn": 33
@@ -1945,6 +1957,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "Iron Ore",
                   "Stack": 1,
                   "PercentChanceToSpawn": 33
@@ -2018,6 +2036,12 @@
               "EXP": 16,
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Dwarf Scroll III",
@@ -2135,6 +2159,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "Iron Ore",
                   "Stack": 1,
                   "PercentChanceToSpawn": 33
@@ -2208,6 +2238,12 @@
               "EXP": 16,
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Dwarf Scroll III",
@@ -2308,6 +2344,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "Copper Ore",
                   "Stack": 1,
                   "PercentChanceToSpawn": 33
@@ -2341,6 +2383,12 @@
               "Sprite": "Characters/Monsters/SBVRedMushroom",
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Red Mushroom",
@@ -2382,6 +2430,12 @@
               "Sprite": "Characters/Monsters/SBVPurpMushroom",
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Purple Mushroom",
@@ -2475,6 +2529,12 @@
               "Speed": 4,
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Dwarf Scroll III",
@@ -2575,6 +2635,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "Copper Ore",
                   "Stack": 1,
                   "PercentChanceToSpawn": 33
@@ -2608,6 +2674,12 @@
               "Sprite": "Characters/Monsters/SBVRedMushroom",
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Red Mushroom",
@@ -2649,6 +2721,12 @@
               "Sprite": "Characters/Monsters/SBVPurpMushroom",
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Purple Mushroom",
@@ -2742,6 +2820,12 @@
               "Speed": 4,
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Dwarf Scroll III",
@@ -2842,6 +2926,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
@@ -2869,6 +2959,12 @@
               "Sprite": "Characters/Monsters/SBVRedMushroom",
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Red Mushroom",
@@ -2910,6 +3006,12 @@
               "Sprite": "Characters/Monsters/SBVPurpMushroom",
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Purple Mushroom",
@@ -3003,6 +3105,12 @@
               "Speed": 4,
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "Dwarf Scroll III",
@@ -3103,6 +3211,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
@@ -3133,30 +3247,37 @@
               "SeesPlayersAtSpawn": false,
               "Sprite": "Characters/Monsters/SBVCrystalMenace2",
               "RelatedSkill": "Combat",
+              "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 8
+                  "PercentChanceToSpawn": 10
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 }
               ]
             }
@@ -3354,30 +3475,37 @@
               "SeesPlayersAtSpawn": false,
               "Sprite": "Characters/Monsters/SBVCrystalMenace2",
               "RelatedSkill": "Combat",
+              "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 8
+                  "PercentChanceToSpawn": 10
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 }
               ]
             }
@@ -3637,30 +3765,37 @@
               "SeesPlayersAtSpawn": false,
               "Sprite": "Characters/Monsters/SBVCrystalMenace2",
               "RelatedSkill": "Combat",
+              "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 8
+                  "PercentChanceToSpawn": 10
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 }
               ]
             }
@@ -3932,30 +4067,37 @@
               "SeesPlayersAtSpawn": false,
               "Sprite": "Characters/Monsters/SBVCrystalMenace",
               "RelatedSkill": "Combat",
+              "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 8
+                  "PercentChanceToSpawn": 10
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 }
               ]
             }
@@ -3973,6 +4115,12 @@
               "RelatedSkill": "Combat",
               "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
@@ -4015,6 +4163,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -4053,6 +4207,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -4089,6 +4249,12 @@
               "Sprite": "Characters/Monsters/SBVCrystalBlob3",
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
@@ -4271,6 +4437,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
@@ -4307,30 +4479,37 @@
               "SeesPlayersAtSpawn": false,
               "Sprite": "Characters/Monsters/SBVCrystalMenace",
               "RelatedSkill": "Combat",
+              "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 8
+                  "PercentChanceToSpawn": 10
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 }
               ]
             }
@@ -4348,6 +4527,12 @@
               "RelatedSkill": "Combat",
               "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
@@ -4390,6 +4575,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -4428,6 +4619,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -4464,6 +4661,12 @@
               "Sprite": "Characters/Monsters/SBVCrystalBlob3",
               "RelatedSkill": "Combat",
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
@@ -4682,30 +4885,37 @@
               "SeesPlayersAtSpawn": false,
               "Sprite": "Characters/Monsters/SBVCrystalMenace",
               "RelatedSkill": "Combat",
+              "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 10
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 8
+                  "PercentChanceToSpawn": 10
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
-                  "PercentChanceToSpawn": 1
+                  "PercentChanceToSpawn": 2
                 }
               ]
             }
@@ -4723,6 +4933,12 @@
               "RelatedSkill": "Combat",
               "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
@@ -4763,6 +4979,12 @@
               "RelatedSkill": "Combat",
               "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
@@ -5175,6 +5397,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -5213,6 +5441,12 @@
               "RelatedSkill": "Combat",
               "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
@@ -5641,6 +5875,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -5679,6 +5919,12 @@
               "RelatedSkill": "Combat",
               "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
@@ -6095,6 +6341,12 @@
               "Loot": [
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -6133,6 +6385,12 @@
               "RelatedSkill": "Combat",
               "ExtraLoot": false,
               "Loot": [
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_TwilightFeather",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 15
+                },
                 {
                   "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
