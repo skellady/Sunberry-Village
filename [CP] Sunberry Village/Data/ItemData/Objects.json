@@ -955,34 +955,42 @@
                     "GeodeDropsDefaultItems": false,
                     "GeodeDrops": [
                         {
-                            "Chance": 0.4,
-                            "Precedence": -100,
-                            "Id": "{{ModId}}_MidnightInSunriseOrb",
-                            "ItemId": "(O)skellady.SBVCP_MidnightOrb",
-                            "MinStack": 1,
-                            "MaxStack": 2
+                            "Chance": 0.05,     // 5% cumulative
+                            "Id": "NextTierOrb",
+                            "ItemId": "(O)skellady.SBVCP_SunsetOrb",
+                            "StackModifiers": [
+                                {
+                                    "Modification": "Set",
+                                    "RandomAmount": [ 1, 1, 1, 2 ]
+                                }
+                            ]
                         },
                         {
-                            "Chance": 0.5,
-                            "Precedence": -200,
-                            "Id": "{{ModId}}_SunriseOrbMoonberries",
+                            "Chance": 0.105,    // 10% cumulative
+                            "Id": "MoonberrySeeds_MoonberryEventSeen",
                             "ItemId": "(O)skellady.SBVCP_MoonberrySeeds",
                             "MinStack": 3,
                             "MaxStack": 7,
                             "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031458"
                         },
                         {
-                            "Chance": 0.7,
-                            "Precedence": -200,
-                            "Id": "{{ModId}}_SunberrySeedsSunrise",
+                            "Chance": 0.175,    // 15% cumulative
+                            "Id": "SunberrySeeds_MoonberryEventSeen",
                             "ItemId": "(O)skellady.SBVCP_SunberrySeeds",
                             "MinStack": 3,
-                            "MaxStack": 10
+                            "MaxStack": 10,
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031458"
                         },
                         {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_BasicSunriseDrops",
+                            "Chance": 0.275,     // 20% cumulative
+                            "Id": "SunberrySeeds_MoonberryEventNotSeen",
+                            "ItemId": "(O)skellady.SBVCP_SunberrySeeds",
+                            "MinStack": 3,
+                            "MaxStack": 10,
+                            "Condition": "!PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031458"
+                        },
+                        {
+                            "Id": "BasicDrops",
                             "RandomItemId": [
                                 "(O)728",
                                 "(O)221",
@@ -1024,105 +1032,6 @@
                         "geode_crusher_ignored"
                     ]
                 },
-                "{{ModId}}_MidnightOrb": {
-                    "Name": "{{ModId}}_MidnightOrb",
-                    "DisplayName": "{{i18n:SBV.MidnightOrb.Name}}",
-                    "Description": "{{i18n:SBV.MidnightOrb.Description}}",
-                    "Edibility": "-300",
-                    "Type": "Basic",
-                    "Category": 0,
-                    "Price": 0,
-                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 26,
-                    "GeodeDropsDefaultItems": false,
-                    "GeodeDrops": [
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_BasicMidnightDrops",
-                            "RandomItemId": [
-                                "(O)726",
-                                "(O)725",
-                                "(O)724",
-                                "(O)186",
-                                "(O)438",
-                                "(O)107",
-                                "(O)174",
-                                "(O)182",
-                                "(O)442",
-                                "(O)305",
-                                "(O)444",
-                                "(O)skellady.SBVCP_SunberryGeode",
-                                "(O)749"
-                            ],
-                            "MinStack": 1,
-                            "MaxStack": 5
-                        },
-                        {
-                            "Chance": 0.7,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_StardropTeaMidnight",
-                            "ItemId": "(O)StardropTea"
-                        },
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_ResourcesMidnight",
-                            "RandomItemId": [
-                                "(O)388", // wood
-                                "(O)390", // stone
-                                "(O)382", // coal
-                                "(O)771", // fiber
-                                "(O)330", // clay
-                                "(O)709", // hardwood
-                                "(O)skellady.SBVCP_CinderLeaf",
-                                "(O)787", // batteries,
-                                "(O)Moss"
-                            ],
-                            "MinStack": 10,
-                            "MaxStack": 60
-                        },
-                        {
-                            "Chance": 0.6,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_CinderShardsMidnight",
-                            "ItemId": "(O)848",
-                            "Condition": "PLAYER_VISITED_LOCATION Any IslandWest",
-                            "MinStack": 5,
-                            "MaxStack": 12
-                        },
-                        {
-                            "Chance": 0.5,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_RabbitsFootMidnight",
-                            "ItemId": "(O)446"
-                        },
-                        {
-                            "Chance": 0.5,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PotionMidnightDrops",
-                            "RandomItemId": [
-                                "(O)skellady.SBVCP_CitrinePotion",
-                                "(O)skellady.SBVCP_BlueAuraQuartzPotion",
-                                "(O)skellady.SBVCP_MoonberryPotion",
-                                "(O)skellady.SBVCP_DolomitePotion",
-                                "(O)skellady.SBVCP_FairyStonePotion"
-                            ]
-                        },
-                        {
-                            "Chance": 0.3,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}EclipseInMidnightOrb",
-                            "ItemId": "(O)skellady.SBVCP_EclipseOrb"
-                        }
-                    ],
-                    "ContextTags": [
-                        "color_dark_blue",
-                        "color_purple",
-                        "geode",
-                        "geode_crusher_ignored"
-                    ]
-                },
                 "{{ModId}}_SunsetOrb": {
                     "Name": "{{ModId}}_SunsetOrb",
                     "DisplayName": "{{i18n:SBV.SunsetOrb.Name}}",
@@ -1136,9 +1045,59 @@
                     "GeodeDropsDefaultItems": false,
                     "GeodeDrops": [
                         {
-                            "Chance": 1.0,
+                            "Chance": 0.05,     // 5% cumulative
                             "Precedence": 0,
-                            "Id": "{{ModId}}_BasicSunsetDrops",
+                            "Id": "NextTierOrb",
+                            "ItemId": "(O)skellady.SBVCP_MidnightOrb",
+                            "StackModifiers": [
+                                {
+                                    "Modification": "Set",
+                                    "RandomAmount": [ 1, 1, 1, 2 ]
+                                }
+                            ]
+                        },
+                        {
+                            "Chance": 0.105,    // 10% cumulative
+                            "Precedence": 0,
+                            "Id": "Potions",
+                            "RandomItemId": [
+                                "(O)skellady.SBVCP_SerpentinePotion",
+                                "(O)skellady.SBVCP_AnnabergitePotion",
+                                "(O)skellady.SBVCP_PurpuritePotion",
+                                "(O)skellady.SBVCP_TigerseyePotion",
+                                "(O)skellady.SBVCP_LunaritePotion"
+                            ],
+                            "StackModifiers": [
+                                {
+                                    "Modification": "Set",
+                                    "RandomAmount": [ 1, 1, 1, 2 ]
+                                }
+                            ]
+                        },
+                        {
+                            "Chance": 0.117,    // 10% cumulative
+                            "Precedence": 0,
+                            "Id": "CombatItems",
+                            "RandomItemId": [
+                                "(O)772",
+                                "(O)773",
+                                "(O)349",
+                                "(O)351"
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": 4
+                        },
+                        {
+                            "Chance": 0.13,    // 10% cumulative
+                            "Precedence": 0,
+                            "Id": "DesertWarpTotem",
+                            "ItemId": "(O)261",
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Condition": "PLAYER_VISITED_LOCATION Any Desert"
+                        },
+                        {
+                            "Id": "BasicDrops",
                             "RandomItemId": [
                                 "(O)767",
                                 "(O)766",
@@ -1161,53 +1120,122 @@
                             ],
                             "MinStack": 1,
                             "MaxStack": 5
-                        },
-                        {
-                            "Chance": 0.8,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_DesertTotemSunset",
-                            "ItemId": "(O)261",
-                            "MinStack": 1,
-                            "MaxStack": 3,
-                            "Condition": "PLAYER_VISITED_LOCATION Any Desert"
-                        },
-                        {
-                            "Chance": 0.8,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_CombatSunsetDrops",
-                            "RandomItemId": [
-                                "(O)772",
-                                "(O)773",
-                                "(O)349",
-                                "(O)351"
-                            ],
-                            "MinStack": 1,
-                            "MaxStack": 4
-                        },
-                        {
-                            "Chance": 0.5,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PotionSunsetDrops",
-                            "RandomItemId": [
-                                "(O)skellady.SBVCP_SerpentinePotion",
-                                "(O)skellady.SBVCP_AnnabergitePotion",
-                                "(O)skellady.SBVCP_PurpuritePotion",
-                                "(O)skellady.SBVCP_TigerseyePotion",
-                                "(O)skellady.SBVCP_LunaritePotion"
-                            ]
-                        },
-                        {
-                            "Chance": 0.4,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_MidnightInSunsetOrb",
-                            "ItemId": "(O)skellady.SBVCP_MidnightOrb",
-                            "MinStack": 1,
-                            "MaxStack": 2
                         }
                     ],
                     "ContextTags": [
                         "color_orange",
                         "color_gold",
+                        "geode",
+                        "geode_crusher_ignored"
+                    ]
+                },
+                "{{ModId}}_MidnightOrb": {
+                    "Name": "{{ModId}}_MidnightOrb",
+                    "DisplayName": "{{i18n:SBV.MidnightOrb.Name}}",
+                    "Description": "{{i18n:SBV.MidnightOrb.Description}}",
+                    "Edibility": "-300",
+                    "Type": "Basic",
+                    "Category": 0,
+                    "Price": 0,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 26,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": [
+                        {
+                            "Chance": 0.05,     // 5% cumulative chance
+                            "Id": "NextTierOrb",
+                            "ItemId": "(O)skellady.SBVCP_EclipseOrb",
+                            "StackModifiers": [
+                                {
+                                    "Modification": "Set",
+                                    "RandomAmount": [ 1, 1, 1, 2 ]
+                                }
+                            ]
+                        },
+                        {
+                            "Chance": 0.042,    // 4% cumulative chance
+                            "Id": "StardropTea",
+                            "ItemId": "(O)StardropTea",
+                            "StackModifiers": [
+                                {
+                                    "Modification": "Set",
+                                    "RandomAmount": [ 1, 1, 1, 2 ]
+                                }
+                            ]
+                        },
+                        {
+                            "Chance": 0.011,    // 1% cumulative chance
+                            "Id": "RabbitsFoot",
+                            "ItemId": "(O)446"
+                        },
+                        {
+                            "Chance": 0.111,    // 10% cumulative chance
+                            "Id": "Potions",
+                            "RandomItemId": [
+                                "(O)skellady.SBVCP_CitrinePotion",
+                                "(O)skellady.SBVCP_BlueAuraQuartzPotion",
+                                "(O)skellady.SBVCP_MoonberryPotion",
+                                "(O)skellady.SBVCP_DolomitePotion",
+                                "(O)skellady.SBVCP_FairyStonePotion"
+                            ]
+                        },
+                        {
+                            "Chance": 0.05,     // 4% cumulative chance
+                            "Id": "CinderShards",
+                            "ItemId": "(O)848",
+                            "Condition": "PLAYER_VISITED_LOCATION Any IslandWest",
+                            "MinStack": 5,
+                            "MaxStack": 12
+                        },
+                        {
+                            "Chance": 0.128,    // 10% cumulative chance
+                            "Id": "ResourceBundle",
+                            "RandomItemId": [
+                                "(O)388", // wood
+                                "(O)390", // stone
+                                "(O)382", // coal
+                                "(O)771", // fiber
+                                "(O)330", // clay
+                                "(O)709", // hardwood
+                                "(O)Moss"
+                            ],
+                            "MinStack": 10,
+                            "MaxStack": 60
+                        },
+                        {
+                            "Chance": 0.1,      // 7% cumulative chance
+                            "Id": "RareResourceBundle",
+                            "RandomItemId": [
+                                "(O)skellady.SBVCP_CinderLeaf",
+                                "(O)787" // batteries,
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": 5
+                        },
+                        {                       // 60-63% cumulative chance
+                            "Id": "BasicDrops",
+                            "RandomItemId": [
+                                "(O)726",
+                                "(O)725",
+                                "(O)724",
+                                "(O)186",
+                                "(O)438",
+                                "(O)107",
+                                "(O)174",
+                                "(O)182",
+                                "(O)442",
+                                "(O)305",
+                                "(O)444",
+                                "(O)skellady.SBVCP_SunberryGeode",
+                                "(O)749"
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": 5
+                        }
+                    ],
+                    "ContextTags": [
+                        "color_dark_blue",
+                        "color_purple",
                         "geode",
                         "geode_crusher_ignored"
                     ]
@@ -1225,22 +1253,27 @@
                     "GeodeDropsDefaultItems": false,
                     "GeodeDrops": [
                         {
-                            "Chance": 0.9,
-                            "Precedence": -100,
-                            "Id": "{{ModId}}_BarsInEclipse",
+                            "Chance": 0.1,      // 10% cumulative chance
+                            "Id": "MetalBars",
                             "RandomItemId": [
                                 "(O)334",
                                 "(O)335",
                                 "(O)336",
-                                "(O)337",
+                                "(O)337"
                             ],
-                            "MinStack": 1,
-                            "MaxStack": 5
+                            "MinStack": 5,
+                            "MaxStack": 10
                         },
                         {
-                            "Chance": 0.7,
-                            "Precedence": -100,
-                            "Id": "{{ModId}}_SprinklersInEclipse",
+                            "Chance": 0.111,     // 10% cumulative chance
+                            "Id": "FairyDust",
+                            "ItemId": "(O)872",
+                            "MinStack": 2,
+                            "MaxStack": 7
+                        },
+                        {
+                            "Chance": 0.062,     // 5% cumulative chance
+                            "Id": "Sprinklers",
                             "RandomItemId": [
                                 "(O)645",
                                 "(O)621"
@@ -1249,25 +1282,15 @@
                             "MaxStack": 2
                         },
                         {
-                            "Chance": 0.5,
-                            "Precedence": -100,
-                            "Id": "{{ModId}}_FairyDustInEclipse",
-                            "ItemId": "(O)872",
-                            "MinStack": 2,
-                            "MaxStack": 7
-                        },
-                        {
-                            "Chance": 0.6,
-                            "Precedence": -100,
-                            "Id": "{{ModId}}_BlueGrassInEclipse",
+                            "Chance": 0.065,    // 5% cumulative chance
+                            "Id": "BlueGrassStarter",
                             "ItemId": "(O)BlueGrassStarter",
                             "MinStack": 10,
                             "MaxStack": 40
                         },
                         {
-                            "Chance": 0.1,
-                            "Precedence": -100,
-                            "Id": "{{ModId}}_RingsInEclipse",
+                            "Chance": 0.069,    // 5% cumulative chance
+                            "Id": "Rings",
                             "RandomItemId": [
                                 "(O)859",
                                 "(O)860",
@@ -1275,10 +1298,8 @@
                                 "(O)887"
                             ]
                         },
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "Default",
+                        {                       // 65% cumulative chance
+                            "Id": "BasicDrops",
                             "RandomItemId": [
                                 "(O)570",
                                 "(O)575",
@@ -1297,9 +1318,9 @@
                                 "(O)98",
                                 "(O)99",
                                 "(O)578",
-                                "(O)577",
+                                "(O)577"
                             ]
-                        },
+                        }
                     ],
                     "ContextTags": [
                         "color_purple",
@@ -1321,260 +1342,116 @@
                     "GeodeDropsDefaultItems": false,
                     "GeodeDrops": [
                         {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticSunriseDrops1",
+                            "Chance": 0.2,      // 20% cumulative chance
+                            "Id": "SunriseDrops",
                             "RandomItemId": [
-                                "(O)213",
-                                "(O)218",
-                                "(O)727",
-                                "(O)730",
-                                "(O)265",
-                                "(O)241",
-                                "(O)204",
-                                "(O)242",
-                                "(O)279",
-                                "(O)201",
-                                "(O)281",
-                                "(O)257",
-                                "(O)422",
-                                "(O)408",
-                                "(O)266",
-                                "(O)Moss"
-                            ]
-                        },
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticSunriseDrops2",
-                            "ItemId": "(O)skellady.SBVCP_SunberrySeeds",
-                            "MinStack": 3,
-                            "MaxStack": 10
-                        },
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticSunriseDrops3",
-                            "ItemId": "(O)skellady.SBVCP_MoonberrySeeds",
-                            "MinStack": 3,
-                            "MaxStack": 7,
-                            "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031458"
-                        },
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticMidnightDrops1",
-                            "RandomItemId": [
-                                "(O)726",
-                                "(O)725",
-                                "(O)724",
-                                "(O)186",
-                                "(O)438",
-                                "(O)107",
-                                "(O)174",
-                                "(O)182",
-                                "(O)442",
-                                "(O)305",
-                                "(O)444",
-                                "(O)skellady.SBVCP_SunberryGeode",
-                                "(O)749"
+                                "(O)730", // lobster bisque
+                                "(O)265", // seafoam pudding
+                                "(O)241", // survival burger
+                                "(O)204", // lucky lunch
+                                "(O)279", // magic rock candy
+                                "(O)201", // complete breakfast
+                                "(O)266" // red cabbage
                             ],
-                            "MinStack": 1,
+                            "MinStack": 3,
                             "MaxStack": 5
                         },
                         {
-                            "Chance": 0.7,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticMidnightDrops2",
-                            "ItemId": "(O)StardropTea"
-                        },
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticMidnightDrops3",
+                            "Chance": 0.15,     // 12% cumulative chance
+                            "Id": "SunsetResources",
                             "RandomItemId": [
-                                "(O)388", // wood
-                                "(O)390", // stone
-                                "(O)382", // coal
-                                "(O)771", // fiber
-                                "(O)330", // clay
-                                "(O)709", // hardwood
-                                "(O)skellady.SBVCP_CinderLeaf",
-                                "(O)787", // batteries,
-                                "(O)Moss"
-                            ],
-                            "MinStack": 10,
-                            "MaxStack": 60
-                        },
-                        {
-                            "Chance": 0.7,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticMidnightDrops4",
-                            "ItemId": "(O)848",
-                            "Condition": "PLAYER_VISITED_LOCATION Any IslandWest",
-                            "MinStack": 5,
-                            "MaxStack": 12
-                        },
-                        {
-                            "Chance": 0.7,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticMidnightDrops5",
-                            "ItemId": "(O)446"
-                        },
-                        {
-                            "Chance": 0.8,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticMidnightDrops6",
-                            "RandomItemId": [
-                                "(O)skellady.SBVCP_CitrinePotion",
-                                "(O)skellady.SBVCP_BlueAuraQuartzPotion",
-                                "(O)skellady.SBVCP_MoonberryPotion",
-                                "(O)skellady.SBVCP_DolomitePotion",
-                                "(O)skellady.SBVCP_FairyStonePotion"
-                            ]
-                        },
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticSunsetDrops1",
-                            "RandomItemId": [
-                                "(O)767",
-                                "(O)766",
-                                "(O)768",
-                                "(O)769",
-                                "(O)684",
-                                "(O)874",
-                                "(O)286",
-                                "(O)287",
-                                "(O)288",
-                                "(O)378",
-                                "(O)380",
-                                "(O)382",
-                                "(O)384",
-                                "(O)386",
-                                "(O)688",
-                                "(O)689",
-                                "(O)690",
+                                "(O)287", // bomb
+                                "(O)288", // mega bomb
+                                "(O)386", // iridium ore
                                 "(O)skellady.SBVCP_CinderLeaf"
                             ],
-                            "MinStack": 1,
+                            "MinStack": 5,
                             "MaxStack": 10
                         },
                         {
-                            "Chance": 0.8,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticSunsetDrops2",
-                            "ItemId": "(O)261",
-                            "MinStack": 1,
-                            "MaxStack": 3,
-                            "Condition": "PLAYER_VISITED_LOCATION Any Desert"
-                        },
-                        {
-                            "Chance": 0.8,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticSunsetDrops3",
+                            "Chance": 0.142,    // 10% cumulative chance
+                            "Id": "SunsetCombatItems",
                             "RandomItemId": [
-                                "(O)772",
-                                "(O)773",
-                                "(O)349",
-                                "(O)351"
+                                "(O)772", // oil of garlic
+                                "(O)773", // life elixir
+                                "(O)349", // energy tonic
+                                "(O)351" // muscle remedy
                             ],
                             "MinStack": 1,
                             "MaxStack": 4
                         },
                         {
-                            "Chance": 0.5,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticSunsetDrops4",
+                            "Chance": 0.268,    // 17% cumulative chance
+                            "Id": "MidnightResources",
                             "RandomItemId": [
-                                "(O)skellady.SBVCP_SerpentinePotion",
-                                "(O)skellady.SBVCP_AnnabergitePotion",
-                                "(O)skellady.SBVCP_PurpuritePotion",
-                                "(O)skellady.SBVCP_TigerseyePotion",
-                                "(O)skellady.SBVCP_LunaritePotion"
-                            ]
-                        },
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticEclipseDrops1",
-                            "RandomItemId": [
-                                "(O)570",
-                                "(O)575",
-                                "(O)576",
-                                "(O)565",
-                                "(O)107",
-                                "(O)108",
-                                "(O)104",
-                                "(O)114",
-                                "(O)117",
-                                "(O)124",
-                                "(O)125",
-                                "(O)103",
-                                "(O)96",
-                                "(O)97",
-                                "(O)98",
-                                "(O)99",
-                                "(O)578",
-                                "(O)577",
-                            ]
-                        },
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticEclipseDrops2",
-                            "RandomItemId": [
-                                "(O)334",
-                                "(O)335",
-                                "(O)336",
-                                "(O)337",
+                                "(O)725", // oak resin
+                                "(O)724", // maple syrup
+                                "(O)107", // dino egg
+                                "(O)305", // void egg
+                                "(O)275" // artifact trove
                             ],
-                            "MinStack": 1,
+                            "MinStack": 3,
                             "MaxStack": 5
                         },
                         {
-                            "Chance": 0.7,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticEclipseDrops3",
+                            "Chance": 0.114,     // 6% cumulative chance  
+                            "Id": "MidnightRareResources",
                             "RandomItemId": [
-                                "(O)645",
-                                "(O)621"
+                                "(O)446", // rabbit's foot
+                                "(O)StardropTea"
+                            ]
+                        },
+                        {
+                            "Chance": 0.101,    // 5% cumulative chance
+                            "Id": "EclipseArtifacts",
+                            "RandomItemId": [
+                                "(O)570", // basalt
+                                "(O)114", // ancient seed
+                                "(O)124", // golden mask
+                                "(O)125", // golden relic
+                                "(O)103", // ancient doll
+                                "(O)96", // next 4 are dwarf scrolls
+                                "(O)97",
+                                "(O)98",
+                                "(O)99"
+                            ]
+                        },
+                        {
+                            "Chance": 0.106,    // 5% cumulative chance
+                            "Id": "EclipseSprinkler",
+                            "RandomItemId": [
+                                "(O)645" // iridium sprinkler
                             ],
                             "MinStack": 1,
                             "MaxStack": 2
                         },
                         {
-                            "Chance": 0.5,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticEclipseDrops4",
-                            "ItemId": "(O)872",
-                            "MinStack": 2,
-                            "MaxStack": 7
+                            "Chance": 0.112,    // 5% cumulative chance
+                            "Id": "EclipseFairyDust",
+                            "ItemId": "(O)872", // fairy dust
+                            "MinStack": 5,
+                            "MaxStack": 10
                         },
                         {
-                            "Chance": 0.6,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticEclipseDrops5",
+                            "Chance": 0.118,    // 5% cumulative chance
+                            "Id": "EclipseBlueGrassStarter",
                             "ItemId": "(O)BlueGrassStarter",
                             "MinStack": 10,
                             "MaxStack": 40
                         },
                         {
-                            "Chance": 0.1,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticEclipseDrops6",
+                            "Chance": 0.124,    // 5% cumulative chance
+                            "Id": "EclipseRings",
                             "RandomItemId": [
-                                "(O)859",
-                                "(O)860",
-                                "(O)862",
-                                "(O)887"
+                                "(O)859", // lucky ring
+                                "(O)860", // hot java ring
+                                "(O)862", // soul sapper ring
+                                "(O)887" // immunity band 
                             ]
                         },
-                        {
-                            "Chance": 0.5,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_PrismaticInPrismatic",
-                            "ItemId": "(O)74"
+                        {                       // 10% cumulative chance
+                            "Id": "PrismaticShard",
+                            "ItemId": "(O)74" // prismatic shard
                         }
                     ],
                     "ContextTags": [
