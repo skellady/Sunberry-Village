@@ -955,6 +955,31 @@
                     "GeodeDropsDefaultItems": false,
                     "GeodeDrops": [
                         {
+                            "Chance": 0.4,
+                            "Precedence": -100,
+                            "Id": "{{ModId}}_MidnightInSunriseOrb",
+                            "ItemId": "(O)skellady.SBVCP_MidnightOrb",
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        },
+                        {
+                            "Chance": 0.5,
+                            "Precedence": -200,
+                            "Id": "{{ModId}}_SunriseOrbMoonberries",
+                            "ItemId": "(O)skellady.SBVCP_MoonberrySeeds",
+                            "MinStack": 3,
+                            "MaxStack": 7,
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031458"
+                        },
+                        {
+                            "Chance": 0.7,
+                            "Precedence": -200,
+                            "Id": "{{ModId}}_SunberrySeedsSunrise",
+                            "ItemId": "(O)skellady.SBVCP_SunberrySeeds",
+                            "MinStack": 3,
+                            "MaxStack": 10
+                        },
+                        {
                             "Chance": 1.0,
                             "Precedence": 0,
                             "Id": "{{ModId}}_BasicSunriseDrops",
@@ -990,31 +1015,6 @@
                                 "(O)Moss"
                             ],
                             "QualityModifierMode": "Stack"
-                        },
-                        {
-                            "Chance": 0.7,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_SunberrySeedsSunrise",
-                            "ItemId": "(O)skellady.SBVCP_SunberrySeeds",
-                            "MinStack": 3,
-                            "MaxStack": 10
-                        },
-                        {
-                            "Chance": 0.5,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_SunriseOrbMoonberries",
-                            "ItemId": "(O)skellady.SBVCP_MoonberrySeeds",
-                            "MinStack": 3,
-                            "MaxStack": 7,
-                            "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031458"
-                        },
-                        {
-                            "Chance": 0.4,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_MidnightInSunriseOrb",
-                            "ItemId": "(O)skellady.SBVCP_MidnightOrb",
-                            "MinStack": 1,
-                            "MaxStack": 2
                         }
                     ],
                     "ContextTags": [
@@ -1225,9 +1225,60 @@
                     "GeodeDropsDefaultItems": false,
                     "GeodeDrops": [
                         {
+                            "Chance": 0.9,
+                            "Precedence": -100,
+                            "Id": "{{ModId}}_BarsInEclipse",
+                            "RandomItemId": [
+                                "(O)334",
+                                "(O)335",
+                                "(O)336",
+                                "(O)337",
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": 5
+                        },
+                        {
+                            "Chance": 0.7,
+                            "Precedence": -100,
+                            "Id": "{{ModId}}_SprinklersInEclipse",
+                            "RandomItemId": [
+                                "(O)645",
+                                "(O)621"
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": 2
+                        },
+                        {
+                            "Chance": 0.5,
+                            "Precedence": -100,
+                            "Id": "{{ModId}}_FairyDustInEclipse",
+                            "ItemId": "(O)872",
+                            "MinStack": 2,
+                            "MaxStack": 7
+                        },
+                        {
+                            "Chance": 0.6,
+                            "Precedence": -100,
+                            "Id": "{{ModId}}_BlueGrassInEclipse",
+                            "ItemId": "(O)BlueGrassStarter",
+                            "MinStack": 10,
+                            "MaxStack": 40
+                        },
+                        {
+                            "Chance": 0.1,
+                            "Precedence": -100,
+                            "Id": "{{ModId}}_RingsInEclipse",
+                            "RandomItemId": [
+                                "(O)859",
+                                "(O)860",
+                                "(O)862",
+                                "(O)887"
+                            ]
+                        },
+                        {
                             "Chance": 1.0,
                             "Precedence": 0,
-                            "Id": "{{ModId}}_BasicEclipseDrops",
+                            "Id": "Default",
                             "RandomItemId": [
                                 "(O)570",
                                 "(O)575",
@@ -1249,57 +1300,6 @@
                                 "(O)577",
                             ]
                         },
-                        {
-                            "Chance": 1.0,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_BarsInEclipse",
-                            "RandomItemId": [
-                                "(O)334",
-                                "(O)335",
-                                "(O)336",
-                                "(O)337",
-                            ],
-                            "MinStack": 1,
-                            "MaxStack": 5
-                        },
-                        {
-                            "Chance": 0.7,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_SprinklersInEclipse",
-                            "RandomItemId": [
-                                "(O)645",
-                                "(O)621"
-                            ],
-                            "MinStack": 1,
-                            "MaxStack": 2
-                        },
-                        {
-                            "Chance": 0.5,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_FairyDustInEclipse",
-                            "ItemId": "(O)872",
-                            "MinStack": 2,
-                            "MaxStack": 7
-                        },
-                        {
-                            "Chance": 0.6,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_BlueGrassInEclipse",
-                            "ItemId": "(O)BlueGrassStarter",
-                            "MinStack": 10,
-                            "MaxStack": 40
-                        },
-                        {
-                            "Chance": 0.1,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_RingsInEclipse",
-                            "RandomItemId": [
-                                "(O)859",
-                                "(O)860",
-                                "(O)862",
-                                "(O)887"
-                            ]
-                        }
                     ],
                     "ContextTags": [
                         "color_purple",
@@ -1325,30 +1325,17 @@
                             "Precedence": 0,
                             "Id": "{{ModId}}_PrismaticSunriseDrops1",
                             "RandomItemId": [
-                                "(O)728",
-                                "(O)221",
                                 "(O)213",
                                 "(O)218",
                                 "(O)727",
                                 "(O)730",
-                                "(O)608",
-                                "(O)610",
-                                "(O)230",
-                                "(O)240",
                                 "(O)265",
                                 "(O)241",
                                 "(O)204",
-                                "(O)244",
                                 "(O)242",
-                                "(O)231",
-                                "(O)907",
-                                "(O)236",
+                                "(O)279",
                                 "(O)201",
-                                "(O)259",
-                                "(O)283",
                                 "(O)281",
-                                "(O)412",
-                                "(O)414",
                                 "(O)257",
                                 "(O)422",
                                 "(O)408",
@@ -1357,7 +1344,7 @@
                             ]
                         },
                         {
-                            "Chance": 0.7,
+                            "Chance": 1.0,
                             "Precedence": 0,
                             "Id": "{{ModId}}_PrismaticSunriseDrops2",
                             "ItemId": "(O)skellady.SBVCP_SunberrySeeds",
@@ -1365,7 +1352,7 @@
                             "MaxStack": 10
                         },
                         {
-                            "Chance": 0.5,
+                            "Chance": 1.0,
                             "Precedence": 0,
                             "Id": "{{ModId}}_PrismaticSunriseDrops3",
                             "ItemId": "(O)skellady.SBVCP_MoonberrySeeds",
@@ -1420,7 +1407,7 @@
                             "MaxStack": 60
                         },
                         {
-                            "Chance": 0.6,
+                            "Chance": 0.7,
                             "Precedence": 0,
                             "Id": "{{ModId}}_PrismaticMidnightDrops4",
                             "ItemId": "(O)848",
@@ -1429,13 +1416,13 @@
                             "MaxStack": 12
                         },
                         {
-                            "Chance": 0.5,
+                            "Chance": 0.7,
                             "Precedence": 0,
                             "Id": "{{ModId}}_PrismaticMidnightDrops5",
                             "ItemId": "(O)446"
                         },
                         {
-                            "Chance": 0.5,
+                            "Chance": 0.8,
                             "Precedence": 0,
                             "Id": "{{ModId}}_PrismaticMidnightDrops6",
                             "RandomItemId": [
@@ -1471,7 +1458,7 @@
                                 "(O)skellady.SBVCP_CinderLeaf"
                             ],
                             "MinStack": 1,
-                            "MaxStack": 5
+                            "MaxStack": 10
                         },
                         {
                             "Chance": 0.8,
