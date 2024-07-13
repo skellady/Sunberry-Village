@@ -325,13 +325,37 @@
                     "PriceModifiers": null,
                     "Items": [
                         {
-                            "Id": "",
-                            "ItemId": "",
-                            "TradeItemId": "",
-                            "TradeItemAmount": "",
-                            "AvailableStock": 15,
+                            "Id": "{{ModId}}_SunriseOrbs",
+                            "ItemId": "(O)skellady.SBVCP_SunriseOrb",
+                            "TradeItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "TradeItemAmount": 1,
+                            "AvailableStock": 10,
                             "AvailableStockLimit": "Global"
-                        }
+                        },
+                        {
+                            "Id": "{{ModId}}_SunsetOrbs",
+                            "ItemId": "(O)skellady.SBVCP_SunsetOrb",
+                            "TradeItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "TradeItemAmount": 2,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "{{ModId}}_MidnightOrbs",
+                            "ItemId": "(O)skellady.SBVCP_MidnightOrb",
+                            "TradeItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "TradeItemAmount": 3,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "{{ModId}}_EclipseOrbs",
+                            "ItemId": "(O)skellady.SBVCP_EclipseOrb",
+                            "TradeItemId": "(O)skellady.SBVCP_TwilightFeather",
+                            "TradeItemAmount": 4,
+                            "AvailableStock": 10,
+                            "AvailableStockLimit": "Global"
+                        },
                     ]
                 }
             }

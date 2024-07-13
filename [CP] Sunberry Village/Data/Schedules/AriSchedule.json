@@ -15,6 +15,7 @@
 				"spring_Sat": "900 Custom_SBV_DialaCafe 25 13 3/1600 Custom_SBV_SunberryVillage 54 85 0 ari_drink \"Strings\\schedules\\AriSBV:Fountain\"/2230 Custom_SBV_AriMarket 18 5 3",
 				"summer_Sat": "900 Custom_SBV_DialaCafe 25 13 3/1600 Custom_SBV_SunberryVillage 54 85 0 ari_drink \"Strings\\schedules\\AriSBV:Fountain\"/2230 Custom_SBV_AriMarket 18 5 3",
 				"fall_Sat": "900 Custom_SBV_DialaCafe 25 13 3/1600 Custom_SBV_SunberryVillage 54 85 0 ari_drink \"Strings\\schedules\\AriSBV:Fountain\"/2230 Custom_SBV_AriMarket 18 5 3",
+				"fall_26": "1000 Custom_SBV_SunberryVillage 71 65 2/1600 Custom_SBV_SunberryVillage 77 49 2/2500 Custom_SBV_AriMarket 18 5 3",
 				"winter_Sat": "610 Custom_SBV_AriMarket 5 19 2/1600 Custom_SBV_SunberryVillage 80 49 0/2000 Custom_SBV_AriMarket 18 5 3",
 				"rain": "610 Custom_SBV_AriMarket 5 19 2/1600 Custom_SBV_AriMarket 5 25 0/2000 Custom_SBV_AriMarket 18 5 3",
 				"GreenRain": "610 Custom_SBV_AriMarket 3 19 0/1200 Custom_SBV_AriMarket 12 23 3/1600 Custom_SBV_AriMarket 6 28 1/2000 Custom_SBV_AriMarket 18 5 3"

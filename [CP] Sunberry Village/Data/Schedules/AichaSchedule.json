@@ -26,6 +26,7 @@
 				"spring_Sat": "900 Custom_SBV_ReiHouse 3 16 0/1200 Custom_SBV_SunberryForest 59 13 1/1500 Custom_SBV_SunberryVillage 69 93 1 \"Strings\\schedules\\AichaSBV:Fountain\"/2130 Custom_SBV_ReiHouse 10 6 1",
 				"summer_Sat": "900 Custom_SBV_ReiHouse 3 16 0/1200 Custom_SBV_SunberryForest 59 13 1/1500 Custom_SBV_SunberryVillage 69 93 1 \"Strings\\schedules\\AichaSBV:Fountain\"/2130 Custom_SBV_ReiHouse 10 6 1",
 				"fall_Sat": "900 Custom_SBV_ReiHouse 3 16 0/1200 Custom_SBV_SunberryForest 59 13 1/1500 Custom_SBV_SunberryVillage 69 93 1 \"Strings\\schedules\\AichaSBV:Fountain\"/2130 Custom_SBV_ReiHouse 10 6 1",
+				"fall_26": "1000 Custom_SBV_SunberryVillage 26 72 1/1600 Custom_SBV_SunberryVillage 40 24 1/2200 Custom_SBV_ReiHouse 10 6 1",
 				"winter_Sat": "900 Custom_SBV_ReiHouse 3 16 0/1300 Custom_SBV_SunberryForest 37 36 2/2000 Custom_SBV_ReiHouse 10 6 1",
 				"rain": "900 Custom_SBV_ReiHouse 3 16 0/1200 Custom_SBV_SunberryForest 49 12 2/2000 Custom_SBV_ReiHouse 10 6 1",
 				"GreenRain": "610 Custom_SBV_SunberryForest 51 13 1"

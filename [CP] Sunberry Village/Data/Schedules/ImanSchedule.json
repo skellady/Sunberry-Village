@@ -15,6 +15,7 @@
 				"spring_Sat": "610 Custom_SBV_ImanHouse 3 13 0/1200 Custom_SBV_ImanHouse 10 13 2/1500 Custom_SBV_SunberryVillage 66 87 3 iman_drink \"Strings\\schedules\\ImanSBV:Fountain\"/2230 Custom_SBV_ImanHouse 5 5 3",
 				"summer_Sat": "610 Custom_SBV_ImanHouse 3 13 0/1200 Custom_SBV_ImanHouse 10 13 2/1500 Custom_SBV_SunberryVillage 66 87 3 iman_drink \"Strings\\schedules\\ImanSBV:Fountain\"/2230 Custom_SBV_ImanHouse 5 5 3",
 				"fall_Sat": "610 Custom_SBV_ImanHouse 3 13 0/1200 Custom_SBV_ImanHouse 10 13 2/1500 Custom_SBV_SunberryVillage 66 87 3 iman_drink \"Strings\\schedules\\ImanSBV:Fountain\"/2230 Custom_SBV_ImanHouse 5 5 3",
+				"fall_26": "800 Custom_SBV_SunberryVillage 29 67 3/1500 Custom_SBV_SunberryVillage 54 15 2/2500 Custom_SBV_ImanHouse 5 5 3",
 				"winter_Sat": "610 Custom_SBV_ImanHouse 3 13 0/1000 Custom_SBV_EzraClothes 7 7 1/1600 Custom_SBV_SunberryVillage 63 13 2 iman_sit/2200 Custom_SBV_ImanHouse 5 5 3",
 				"rain": "610 Custom_SBV_ImanHouse 3 13 0/1000 Custom_SBV_EzraClothes 7 7 1/2000 Custom_SBV_ImanHouse 5 5 3",
 				"GreenRain": "610 Custom_SBV_ImanHouse 9 12 2 iman_sit"
