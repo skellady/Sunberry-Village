@@ -1,0 +1,32 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add VMV Totem and Geode to Silas",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "skellady.SBVCP_SilasBlacksmith",
+                "Items"
+            ],
+            "Entries": {
+                "skellady.SBVCP_VMVOwlCarving": {
+                    "Id": "skellady.SBVCP_VMVOwlCarving",
+                    "ItemId": "Lumisteria.MtVapius_OwlCarving",
+                    "Condition": "PLAYER_VISITED_LOCATION Current Lumisteria.MtVapius_Hamlet",
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                },
+                "skellady.SBVCP_VMVBlackGeode": {
+                    "Id": "skellady.SBVCP_VMVBlackGeode",
+                    "ItemId": "Lumisteria.MtVapius_BlackGeode",
+                    "Condition": "PLAYER_VISITED_LOCATION Current Lumisteria.MtVapius_Hamlet",
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                }
+            },
+            "When": {
+                "HasMod": "Lumisteria.MtVapius" 
+            }
+        }
+    ]
+}
