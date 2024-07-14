@@ -623,7 +623,8 @@
                             "Speed": 1
                         }
                     },
-                    "IsDrink": true
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "skellady.SBVCP_PurpuritePotion": {
                     "Name": "skellady.SBVCP_PurpuritePotion",
@@ -642,7 +643,8 @@
                             "Speed": 2
                         }
                     },
-                    "IsDrink": true
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "skellady.SBVCP_AnnabergitePotion": {
                     "Name": "skellady.SBVCP_AnnabergitePotion",
@@ -661,7 +663,8 @@
                             "Defense": 2
                         }
                     },
-                    "IsDrink": true
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "skellady.SBVCP_CitrinePotion": {
                     "Name": "skellady.SBVCP_CitrinePotion",
@@ -680,7 +683,8 @@
                             "Attack": 2
                         }
                     },
-                    "IsDrink": true
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "skellady.SBVCP_BlueAuraQuartzPotion": {
                     "Name": "skellady.SBVCP_BlueAuraQuartzPotion",
@@ -700,7 +704,8 @@
                             "Speed": 1
                         }
                     },
-                    "IsDrink": true
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "skellady.SBVCP_MoonberryPotion": {
                     "Name": "skellady.SBVCP_MoonberryPotion",
@@ -720,7 +725,8 @@
                             "Speed": 1
                         }
                     },
-                    "IsDrink": true
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "skellady.SBVCP_DolomitePotion": {
                     "Name": "skellady.SBVCP_DolomitePotion",
@@ -740,7 +746,8 @@
                             "Speed": 1
                         }
                     },
-                    "IsDrink": true
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "skellady.SBVCP_TigerseyePotion": {
                     "Name": "skellady.SBVCP_TigerseyePotion",
@@ -759,7 +766,8 @@
                             "Attack": 2
                         }
                     },
-                    "IsDrink": true
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "skellady.SBVCP_LunaritePotion": {
                     "Name": "skellady.SBVCP_LunaritePotion",
@@ -778,7 +786,8 @@
                             "Defense": 4
                         }
                     },
-                    "IsDrink": true
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "skellady.SBVCP_FairyStonePotion": {
                     "Name": "skellady.SBVCP_FairyStonePotion",
@@ -798,7 +807,8 @@
                             "LuckLevel": 1
                         }
                     },
-                    "IsDrink": true
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_SerpentinePowder": {
                     "Name": "{{ModId}}_SerpentinePowder",
@@ -809,7 +819,8 @@
                     "Category": -26,
                     "Price": 260,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 11
+                    "SpriteIndex": 11,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_PurpuritePowder": {
                     "Name": "{{ModId}}_PurpuritePowder",
@@ -820,7 +831,8 @@
                     "Category": -26,
                     "Price": 220,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 12
+                    "SpriteIndex": 12,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_AnnabergitePowder": {
                     "Name": "{{ModId}}_AnnabergitePowder",
@@ -831,7 +843,8 @@
                     "Category": -26,
                     "Price": 300,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 13
+                    "SpriteIndex": 13,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_CitrinePowder": {
                     "Name": "{{ModId}}_CitrinePowder",
@@ -842,7 +855,8 @@
                     "Category": -26,
                     "Price": 240,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 14
+                    "SpriteIndex": 14,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_BlueAuraQuartzPowder": {
                     "Name": "{{ModId}}_BlueAuraQuartzPowder",
@@ -853,7 +867,8 @@
                     "Category": -26,
                     "Price": 400,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 15
+                    "SpriteIndex": 15,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_MoonberryPowder": {
                     "Name": "{{ModId}}_MoonberryPowder",
@@ -864,7 +879,8 @@
                     "Category": -26,
                     "Price": 100,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 16
+                    "SpriteIndex": 16,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_DolomitePowder": {
                     "Name": "{{ModId}}_DolomitePowder",
@@ -875,7 +891,8 @@
                     "Category": -26,
                     "Price": 600,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 17
+                    "SpriteIndex": 17,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_TigerseyePowder": {
                     "Name": "{{ModId}}_TigerseyePowder",
@@ -886,7 +903,8 @@
                     "Category": -26,
                     "Price": 550,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 18
+                    "SpriteIndex": 18,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_LunaritePowder": {
                     "Name": "{{ModId}}_LunaritePowder",
@@ -897,7 +915,8 @@
                     "Category": -26,
                     "Price": 400,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 19
+                    "SpriteIndex": 19,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_FairyStonePowder": {
                     "Name": "{{ModId}}_FairyStonePowder",
@@ -908,7 +927,8 @@
                     "Category": -26,
                     "Price": 500,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
-                    "SpriteIndex": 20
+                    "SpriteIndex": 20,
+                    "ExcludeFromShippingCollection": true,
                 },
                 "{{ModId}}_WarpTotemSunberry": {
                     "Name": "{{ModId}}_WarpTotemSunberry",

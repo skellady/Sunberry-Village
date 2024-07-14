@@ -24,6 +24,7 @@
                 "DeryaSBVCooking": "{{i18n:Mail.DeryaIceCreamLetter}}",
                 "MoonSBVCooking": "{{i18n:Mail.MoonCookieLetter}}",
                 "skellady.SBVCP_SilasGrinderLetter": "{{i18n:Mail.SilasGrinderLetter}}",
+                "skellady.SBVCP_DDAlchemyTableLetter": "{{i18n:Mail.DDAlchemyTableLetter}}",
 
                 // GSB Trigger
                 "skellady.SBVCP_GSBTriggerLetter": "{{i18n:Mail.GSBTriggerLetter}}",

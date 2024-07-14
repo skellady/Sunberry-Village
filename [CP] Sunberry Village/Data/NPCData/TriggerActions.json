@@ -33,6 +33,12 @@
                     "Condition": "PLAYER_HEARTS Current SilasSBV 4",
                     "Action": "AddMail Current skellady.SBVCP_SilasGrinderLetter"
                 },
+                "skellady.SBVCP_DDRecipe1": {
+                    "Id": "skellady.SBVCP_DDRecipe1",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_HEARTS Current DialaSBV 4, PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031427",
+                    "Action": "AddMail Current skellady.SBVCP_DDAlchemyTableLetter"
+                },
                 "skellady.SBVCP_GSBTrigger": {
                     "Id": "skellady.SBVCP_GSBTrigger",
                     "Trigger": "DayStarted",
