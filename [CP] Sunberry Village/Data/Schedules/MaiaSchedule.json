@@ -18,7 +18,7 @@
 				"spring_Sat": "610 Custom_SBV_MaiaHouse 23 18 0/800 Custom_SBV_SilasBlacksmith 12 13 2/1500 Custom_SBV_SunberryVillage 53 82 2 maia_tap \"Strings\\schedules\\MaiaSBV:Fountain\"/2200 Custom_SBV_MaiaHouse 27 5 3",
 				"summer_Sat": "610 Custom_SBV_MaiaHouse 23 18 0/800 Custom_SBV_SilasBlacksmith 12 13 2/1500 Custom_SBV_SunberryVillage 53 82 2 maia_tap \"Strings\\schedules\\MaiaSBV:Fountain\"/2200 Custom_SBV_MaiaHouse 27 5 3",
 				"fall_Sat": "610 Custom_SBV_MaiaHouse 23 18 0/800 Custom_SBV_SilasBlacksmith 12 13 2/1500 Custom_SBV_SunberryVillage 53 82 2 maia_tap \"Strings\\schedules\\MaiaSBV:Fountain\"/2200 Custom_SBV_MaiaHouse 27 5 3",
-				"fall_26": "1000 Custom_SBV_SunberryVillage 28 62 2/1500 Custom_SBV_SunberryVillage 89 15 2/2500 Custom_SBV_MaiaHouse 27 5 3",
+				"fall_26": "1000 Custom_SBV_SunberryVillage 28 62 2 \"Strings\\schedules\\MaiaSBV:TwilightFestival.000\"/1500 Custom_SBV_SunberryVillage 89 15 2 \"Strings\\schedules\\MaiaSBV:TwilightFestival.001\"/2500 Custom_SBV_MaiaHouse 27 5 3",
 				"winter_Sat": "610 Custom_SBV_MaiaHouse 23 18 0/800 Custom_SBV_SilasBlacksmith 12 13 2/1400 Custom_SBV_SunberryMountain 46 19 1 maia_smoke/a2000 Custom_SBV_MaiaHouse 27 5 3",
 				"winter_15": "610 Custom_SBV_MaiaHouse 23 18 0/800 Custom_SBV_SilasBlacksmith 12 13 2/1300 Beach 11 8 2/2100 Custom_SBV_MaiaHouse 27 5 3",
 				"rain": "610 Custom_SBV_MaiaHouse 23 18 0/800 Custom_SBV_SilasBlacksmith 12 13 2/1600 Custom_SBV_SunberryMountain 46 19 1 maia_smoke/a2000 Custom_SBV_MaiaHouse 27 5 3",

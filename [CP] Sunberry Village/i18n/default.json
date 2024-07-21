@@ -857,18 +857,26 @@
     "Aicha.Dialogue.Fountain1": "It's so cozy here! I had to drag Rei out here, but I think she's enjoying herself!$u",
     "Aicha.Dialogue.Fountain2": "The food smells DELICIOUS! I can't wait to sneak a plate for Rei and I.$15",
     "Aicha.Dialogue.Fountain3": "Elias plays that instrument really well! I'm not sure what it is, but it sounds good!$u",
+    "Aicha.Dialogue.TwilightFestival1": "Placeholder.",
+    "Aicha.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Amina.Dialogue.Fountain1": "I really wish Jas and Vin could come hang out with us. Maybe next time!$4",
     "Amina.Dialogue.Fountain2": "Every Friday, my grandma and I check the weather to make sure it isn't raining the next day, otherwise we wouldn't be able to come here.$4",
     "Amina.Dialogue.Fountain3": "Miss Penny let me borrow this book from the library! It talks about dwarves and shadow people.$3",
+    "Amina.Dialogue.TwilightFestival1": "Placeholder.",
+    "Amina.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Ari.Dialogue.Fountain1": "Ugh, so much socializing.$s#$b#I love these people, but I run out of energy so fast.$12",
     "Ari.Dialogue.Fountain2": "You know, Elias tried to teach Blake how to play the guitar, but he didn't seem to enjoy it.$9",
     "Ari.Dialogue.Fountain3": "Mmm... Nothing beats the food you can get here. If only Gus could join us sometime, I'm sure he can whip up something just as good.$u",
+    "Ari.Dialogue.TwilightFestival1": "Placeholder.",
+    "Ari.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Blake.Dialogue.Fountain1": "I'm a little tired, but I can never bring myself to miss one of these gatherings.$h#$b#I remember missing one when I was sick, the next day there was some new inside joke everyone was in on except for me.$8",
     "Blake.Dialogue.Fountain2": "Hmm... I wonder if we can convince Seb, Sam, and Abi to join us sometime. It'd be fun.$u",
     "Blake.Dialogue.Fountain3": "The music's really good. I'm glad we convinced my father to play at these gatherings. I think it's the only time he whips out the guitar.$u",
+    "Blake.Dialogue.TwilightFestival1": "Placeholder.",
+    "Blake.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Derya.Dialogue.Fountain1": "I'm glad my shoulder could be of use to Diala. Anything to make sure she's comfortable.$9",
     "Derya.Dialogue.Fountain2": "I tried convincing Diala to cook something for the gathering, but she says she does enough cooking at home. I respect that. I'm glad I'm one of the few who get to experience her delicious food.$u",
@@ -881,6 +889,8 @@
     "Derya.Dialogue.PreRei2": "I try to shop both here and at Pierre's. It gets me great deals when I mention one in front of the other.$6",
     "Derya.Dialogue.PreRei3": "Oh, hey. I'm just getting some fresh air. This is a nice spot, isn't it?$h",
     "Derya.Dialogue.PreRei4": "...What are you doing in my room at this hour?$11",
+    "Derya.Dialogue.TwilightFestival1": "Placeholder.",
+    "Derya.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Diala.Dialogue.Saloon1": "I don't drink, but I enjoy coming here for the vibes.$h",
     "Diala.Dialogue.Saloon2": "I come here pretty often.#$b#Mostly to get my dose of socialization without trying too hard.$u",
@@ -888,42 +898,64 @@
     "Diala.Dialogue.Fountain1": "I'm so comfortable right now, I'm dreading the moment I'll have to get up and go home.$u",
     "Diala.Dialogue.Fountain2": "Derya's really into her book. I've been peeking over her shoulder every now and then. It looks interesting, I'll have to borrow it when she's done.$h",
     "Diala.Dialogue.Fountain3": "I love the fact that these gatherings never get boring or tiring. Seeing everyone enjoying themselves makes me happy.$h",
+    "Diala.Dialogue.TwilightFestival1": "Placeholder.",
+    "Diala.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Elias.Dialogue.Fountain1": "I'm glad I get to whip out the guitar for this. It was gatherin' dust by my bed.$10",
     "Elias.Dialogue.Fountain2": "Might take a break soon so I can grab a plate. I can't wait to see what they made today, it smells pretty darn good.$u",
     "Elias.Dialogue.Fountain3": "Ari was teasin' me earlier. Said I reminded him of my band days back in college. He was so close to going back home to grab the damn pictures, too!$9",
+    "Elias.Dialogue.TwilightFestival1": "Placeholder.",
+    "Elias.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Ezra.Dialogue.Fountain1": "We don't have a dress code or theme for these gatherings, but I wish we did. I'll still show up here and get told I'm overdressed, but we all know that's a myth.$6",
     "Ezra.Dialogue.Fountain2": "I'm so glad I take my camera everywhere. I took so many good shots of everyone!$u",
     "Ezra.Dialogue.Fountain3": "I can't cook very well, so I'm glad the food we get here is good.$u#$b#Ah, where would I be without everyone in this village making sure I'm well fed?$7",
+    "Ezra.Dialogue.TwilightFestival1": "Placeholder.",
+    "Ezra.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Iman.Dialogue.Fountain1": "Mmm... I look forward to Saturdays just for the food. The company's nice, too, I guess.$h",
     "Iman.Dialogue.Fountain2": "Elias walked past me earlier. Completely forgot just how tall he is. It's pretty attractive, though, I won't lie.$h",
     "Iman.Dialogue.Fountain3": "I try to get my dose of socialization at these gatherings. Ezra doesn't really count even if I see him every day.$u",
+    "Iman.Dialogue.TwilightFestival1": "Placeholder.",
+    "Iman.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Jumana.Dialogue.Fountain1": "Hungry, dear? Make sure to grab a plate! I can guarantee the food is absolutely delicious.$h",
     "Jumana.Dialogue.Fountain2": "I'm really glad I get to see everyone in the same place. It feels like a big family gathering, I like it.$6",
     "Jumana.Dialogue.Fountain3": "Our gatherings used to be bigger, but with people leaving the village or passing on, they've gotten slightly smaller.$s#$b#I'm glad we've still kept up the tradition despite that, though.$4",
+    "Jumana.Dialogue.TwilightFestival1": "Placeholder.",
+    "Jumana.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Lyenne.Dialogue.Fountain1": "This is pretty cool. I've been going to these ever since Ophelia dragged me out when I moved here. We never had anything like this with my family.",
     "Lyenne.Dialogue.Fountain2": "I was telling Abi she should join us sometime, but she said she didn't wanna intrude.$s#$b#I'm sure no one here would mind, though.",
     "Lyenne.Dialogue.Fountain3": "Blake and I are getting a board game for next time. It'll be fun, you should join us.$h",
+    "Lyenne.Dialogue.TwilightFestival1": "Placeholder.",
+    "Lyenne.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Maia.Dialogue.Fountain1": "Props to whoever convinced Elias to play his guitar. He's pretty good, maybe Sam could recruit him into their band.$3",
     "Maia.Dialogue.Fountain2": "Amina might feel a little lonely at these gatherings with no one her age around, but I made sure to bring her sketchbook so she could have something to do.",
     "Maia.Dialogue.Fountain3": "No matter who's cooking, you just know it'll be good. It's amazing how many good cooks we have in the village.$h#$b#Maybe I'll pick up a thing or two while watching.",
+    "Maia.Dialogue.TwilightFestival1": "Placeholder.",
+    "Maia.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Miyoung.Dialogue.Fountain1": "I can't bring myself to cook in front of an audience, but I did contribute! It's lovely seeing everyone enjoy a homemade dish.$u",
     "Miyoung.Dialogue.Fountain2": "I love watching the stars from here, especially with Silas right by my side.$4",
     "Miyoung.Dialogue.Fountain3": "My sons used to join us before they went off to the city. Maybe I can get them to visit on Saturdays so they could join us again.$7",
+    "Miyoung.Dialogue.TwilightFestival1": "Placeholder.",
+    "Miyoung.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Moon.Dialogue.Fountain1": "Moon ate a whole plate! It was SO good.$3",
     "Moon.Dialogue.Fountain2": "Moon likes the music! Maybe Moon dances a little.$h#$b#%Moon starts bouncing in place.",
     "Moon.Dialogue.Fountain3": "Moon can see so many stars from here! Come look with Moon!$3",
+    "Moon.Dialogue.TwilightFestival1": "Placeholder.",
+    "Moon.Dialogue.TwilightFestival2": "Placeholder.",
+    "Moon.RoommateDialogue.TwilightFestival1": "Placeholder.",
+    "Moon.RoommateDialogue.TwilightFestival2": "Placeholder.",
 
     "Ophelia.Dialogue.Fountain1": "Ah, hello. I'm glad you were able to join us. Feel free to help yourself to the food.",
     "Ophelia.Dialogue.Fountain2": "I remember the first time I brought Lyenne to these gatherings. She was really shy, but she eventually opened up.$h",
     "Ophelia.Dialogue.Fountain3": "It's always good to see everyone here. I try to make sure we keep these gatherings well-organized.$h",
+    "Ophelia.Dialogue.TwilightFestival1": "Placeholder.",
+    "Ophelia.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Reihana.Dialogue.Fountain1": "Ugh, I can't believe I have to be around these people. At least we can stay back here.$12",
     "Reihana.Dialogue.Fountain2": "Hah, Aicha tried crawling in to grab some food. Just... completely forgetting she can transform or go invisible.$8",
@@ -932,10 +964,14 @@
     "Reihana.Dialogue.FollowDerya2": "Eh, Ari's used to it. Ooh, you should get that bag of brown sugar.$h",
     "Reihana.Dialogue.FollowDerya3": "Wh-? Play games on your own phone.$3",
     "Reihana.Dialogue.FollowDerya4": "Yeah, scooch over, I'm sleeping here tonight.$8",
+    "Reihana.Dialogue.TwilightFestival1": "Placeholder.",
+    "Reihana.Dialogue.TwilightFestival2": "Placeholder.",
 
     "Silas.Dialogue.Fountain1": "Ah, it's a beautiful evening, isn't it? I'm glad Miyoung and I get to spend some time with everyone.$h",
     "Silas.Dialogue.Fountain2": "Miyoung looks so beautiful tonight. But then again, she looks beautiful every day.$u",
     "Silas.Dialogue.Fountain3": "I got to catch up with Ari. He's still a little grumpy, just how I remember him.$u",
+    "Silas.Dialogue.TwilightFestival1": "Placeholder.",
+    "Silas.Dialogue.TwilightFestival2": "Placeholder.",
 
     //Event Dialogue
     //--------------

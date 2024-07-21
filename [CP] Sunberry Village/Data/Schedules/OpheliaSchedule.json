@@ -15,7 +15,7 @@
 				"spring_Sat": "610 Custom_SBV_SerenityInn 8 6 2/1300 Custom_SBV_SunberryVillage 66 35 2/1600 Custom_SBV_SunberryVillage 65 80 3 \"Strings\\schedules\\OpheliaSBV:Fountain\"/2350 Custom_SBV_SerenityInn 8 6 2",
 				"summer_Sat": "610 Custom_SBV_SerenityInn 8 6 2/1300 Custom_SBV_SunberryVillage 66 35 2/1600 Custom_SBV_SunberryVillage 65 80 3 \"Strings\\schedules\\OpheliaSBV:Fountain\"/2350 Custom_SBV_SerenityInn 8 6 2",
 				"fall_Sat": "610 Custom_SBV_SerenityInn 8 6 2/1300 Custom_SBV_SunberryVillage 66 35 2/1600 Custom_SBV_SunberryVillage 65 80 3 \"Strings\\schedules\\OpheliaSBV:Fountain\"/2350 Custom_SBV_SerenityInn 8 6 2",
-				"fall_26": "900 Custom_SBV_SunberryVillage 73 65 2/1500 Custom_SBV_SunberryVillage 72 15 2/2500 Custom_SBV_SerenityInn 8 6 2",
+				"fall_26": "900 Custom_SBV_SunberryVillage 73 65 2 \"Strings\\schedules\\OpheliaSBV:TwilightFestival.000\"/1500 Custom_SBV_SunberryVillage 72 15 2 \"Strings\\schedules\\OpheliaSBV:TwilightFestival.001\"/2500 Custom_SBV_SerenityInn 8 6 2",
 				"winter_Sat": "610 Custom_SBV_SerenityInn 8 6 2/1600 Custom_SBV_SunberryVillage 66 35 2/2100 Custom_SBV_SerenityInn 8 6 2",
 				"rain": "610 Custom_SBV_SerenityInn 8 6 2/1600 Custom_SBV_SerenityInn 2 13 3/a2000 Custom_SBV_SerenityInn 8 6 2",
 				"GreenRain": "610 Custom_SBV_SerenityInn 3 13 0"

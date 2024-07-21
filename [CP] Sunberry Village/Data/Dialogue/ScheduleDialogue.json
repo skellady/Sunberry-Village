@@ -4,28 +4,36 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/AichaSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Aicha.Dialogue.Fountain1}} ++ {{i18n:Aicha.Dialogue.Fountain2}} ++ {{i18n:Aicha.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Aicha.Dialogue.Fountain1}} ++ {{i18n:Aicha.Dialogue.Fountain2}} ++ {{i18n:Aicha.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Aicha.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Aicha.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/AminaSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Amina.Dialogue.Fountain1}} ++ {{i18n:Amina.Dialogue.Fountain2}} ++ {{i18n:Amina.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Amina.Dialogue.Fountain1}} ++ {{i18n:Amina.Dialogue.Fountain2}} ++ {{i18n:Amina.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Amina.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Amina.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/AriSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Ari.Dialogue.Fountain1}} ++ {{i18n:Ari.Dialogue.Fountain2}} ++ {{i18n:Ari.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Ari.Dialogue.Fountain1}} ++ {{i18n:Ari.Dialogue.Fountain2}} ++ {{i18n:Ari.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Ari.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Ari.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/BlakeSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Blake.Dialogue.Fountain1}} ++ {{i18n:Blake.Dialogue.Fountain2}} ++ {{i18n:Blake.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Blake.Dialogue.Fountain1}} ++ {{i18n:Blake.Dialogue.Fountain2}} ++ {{i18n:Blake.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Blake.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Blake.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
@@ -33,14 +41,18 @@
 			"Target": "Strings/schedules/DialaSBV",
 			"Entries": {
 				"Saloon.000": "{{Random: {{i18n:Diala.Dialogue.Saloon1}} ++ {{i18n:Diala.Dialogue.Saloon2}} ++ {{i18n:Diala.Dialogue.Saloon3}} |inputSeparator=++}}",
-				"Fountain": "{{Random: {{i18n:Diala.Dialogue.Fountain1}} ++ {{i18n:Diala.Dialogue.Fountain2}} ++ {{i18n:Diala.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Diala.Dialogue.Fountain1}} ++ {{i18n:Diala.Dialogue.Fountain2}} ++ {{i18n:Diala.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Diala.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Diala.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/DeryaSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Derya.Dialogue.Fountain1}} ++ {{i18n:Derya.Dialogue.Fountain2}} ++ {{i18n:Derya.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Derya.Dialogue.Fountain1}} ++ {{i18n:Derya.Dialogue.Fountain2}} ++ {{i18n:Derya.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Derya.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Derya.Dialogue.TwilightFestival2}}"
 			}
 		},
 		// After meeting Rei
@@ -75,63 +87,83 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/EliasSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Elias.Dialogue.Fountain1}} ++ {{i18n:Elias.Dialogue.Fountain2}} ++ {{i18n:Elias.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Elias.Dialogue.Fountain1}} ++ {{i18n:Elias.Dialogue.Fountain2}} ++ {{i18n:Elias.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Elias.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Elias.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/EzraSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Ezra.Dialogue.Fountain1}} ++ {{i18n:Ezra.Dialogue.Fountain2}} ++ {{i18n:Ezra.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Ezra.Dialogue.Fountain1}} ++ {{i18n:Ezra.Dialogue.Fountain2}} ++ {{i18n:Ezra.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Ezra.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Ezra.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/ImanSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Iman.Dialogue.Fountain1}} ++ {{i18n:Iman.Dialogue.Fountain2}} ++ {{i18n:Iman.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Iman.Dialogue.Fountain1}} ++ {{i18n:Iman.Dialogue.Fountain2}} ++ {{i18n:Iman.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Iman.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Iman.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/JumanaSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Jumana.Dialogue.Fountain1}} ++ {{i18n:Jumana.Dialogue.Fountain2}} ++ {{i18n:Jumana.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Jumana.Dialogue.Fountain1}} ++ {{i18n:Jumana.Dialogue.Fountain2}} ++ {{i18n:Jumana.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Jumana.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Jumana.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/LyenneSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Lyenne.Dialogue.Fountain1}} ++ {{i18n:Lyenne.Dialogue.Fountain2}} ++ {{i18n:Lyenne.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Lyenne.Dialogue.Fountain1}} ++ {{i18n:Lyenne.Dialogue.Fountain2}} ++ {{i18n:Lyenne.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Lyenne.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Lyenne.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/MaiaSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Maia.Dialogue.Fountain1}} ++ {{i18n:Maia.Dialogue.Fountain2}} ++ {{i18n:Maia.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Maia.Dialogue.Fountain1}} ++ {{i18n:Maia.Dialogue.Fountain2}} ++ {{i18n:Maia.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Maia.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Maia.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/MiyoungSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Miyoung.Dialogue.Fountain1}} ++ {{i18n:Miyoung.Dialogue.Fountain2}} ++ {{i18n:Miyoung.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Miyoung.Dialogue.Fountain1}} ++ {{i18n:Miyoung.Dialogue.Fountain2}} ++ {{i18n:Miyoung.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Miyoung.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Miyoung.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/MoonSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Moon.Dialogue.Fountain1}} ++ {{i18n:Moon.Dialogue.Fountain2}} ++ {{i18n:Moon.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Moon.Dialogue.Fountain1}} ++ {{i18n:Moon.Dialogue.Fountain2}} ++ {{i18n:Moon.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Moon.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Moon.Dialogue.TwilightFestival2}}",
+				"TwilightFestival_Roommate.000": "{{i18n:Moon.RoommateDialogue.TwilightFestival1}}",
+				"TwilightFestival_Roommate.001": "{{i18n:Moon.RoommateDialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/OpheliaSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Ophelia.Dialogue.Fountain1}} ++ {{i18n:Ophelia.Dialogue.Fountain2}} ++ {{i18n:Ophelia.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Ophelia.Dialogue.Fountain1}} ++ {{i18n:Ophelia.Dialogue.Fountain2}} ++ {{i18n:Ophelia.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Ophelia.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Ophelia.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
@@ -142,14 +174,18 @@
 				"FollowDerya.000": "{{i18n:Reihana.Dialogue.FollowDerya1}}",
 				"FollowDerya.001": "{{i18n:Reihana.Dialogue.FollowDerya2}}",
 				"FollowDerya.002": "{{i18n:Reihana.Dialogue.FollowDerya3}}",
-				"FollowDerya.003": "{{i18n:Reihana.Dialogue.FollowDerya4}}"
+				"FollowDerya.003": "{{i18n:Reihana.Dialogue.FollowDerya4}}",
+				"TwilightFestival.000": "{{i18n:Reihana.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Reihana.Dialogue.TwilightFestival2}}"
 			}
 		},
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/SilasSBV",
 			"Entries": {
-				"Fountain": "{{Random: {{i18n:Silas.Dialogue.Fountain1}} ++ {{i18n:Silas.Dialogue.Fountain2}} ++ {{i18n:Silas.Dialogue.Fountain3}} |inputSeparator=++}}"
+				"Fountain": "{{Random: {{i18n:Silas.Dialogue.Fountain1}} ++ {{i18n:Silas.Dialogue.Fountain2}} ++ {{i18n:Silas.Dialogue.Fountain3}} |inputSeparator=++}}",
+				"TwilightFestival.000": "{{i18n:Silas.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Silas.Dialogue.TwilightFestival2}}"
 			}
 		}
 	]
