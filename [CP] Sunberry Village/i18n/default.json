@@ -3025,7 +3025,7 @@
     //Fall
     "Diala.Dialogue.fall_1": "I like fall, but spring is just so much nicer.$h",
     "Diala.Dialogue.fall_15": "Hi, @! I'm looking forward to the Fair just so I can finally get a chance to beat Derya at the minigames.$h",
-    "Diala.Dialogue.fall_26": "I like spooky things but... from far away.$s#$b#I'll stay away from the maze tomorrow.$h",
+    "Diala.Dialogue.fall_25": "Are you going to the Twilight Festival tomorrow? It's going to be incredible!$h#$b#Derya and I didn't participate in our first year here, but Ophelia encouraged us to the year after, so we have our own stall now!$u",
 
     //Winter
     "Diala.Dialogue.winter_1": "Brrr... I know the season's just started, but I already can't wait for it to be over.$s",
@@ -3135,7 +3135,7 @@
     //Fall
     "Derya.Dialogue.fall_1": "Everyone's always raving about fall, but I don't get the appeal.$s#$b#I do like the spooky vibes, though.$h",
     "Derya.Dialogue.fall_15": "It's physically impossible for Diala to beat me at the minigames tomorrow. Don't let her tell you otherwise.$u",
-    "Derya.Dialogue.fall_26": "Spooky maze!$u#$b#I'm excited for tomorrow.$u",
+    "Derya.Dialogue.fall_25": "I wish the Twilight Festival was just a little spookier, but I understand that it's not the exact same as Spirit's Eve.#$b#It's still gonna be a blast, so make sure you drop by tomorrow!$h",
 
     //Winter
     "Derya.Dialogue.winter_1": "I put on three shirts and a jacket, so tell me, why am I still cold?$s",
@@ -3251,7 +3251,7 @@
     //Fall
     "Moon.Dialogue.fall_1": "Fall is okay. Moon likes fall.",
     "Moon.Dialogue.fall_15": "Moon can't play minigames tomorrow.$s",
-    "Moon.Dialogue.fall_26": "Moon sees monsters tomorrow!$u",
+    "Moon.Dialogue.fall_25": "Moon collected feathers all year for the Twilight Festival tomorrow!$u",
 
     //Winter
     "Moon.Dialogue.winter_1": "Moon is cold.$s#$b#Maybe Moon borrows jacket from Diala?#$b#No, jacket too big.$s",
@@ -3334,7 +3334,7 @@
 
     "Moon.Roommate.Dialogue.fall_1": "Moon goes to play in the pile of leaves!$u",
     "Moon.Roommate.Dialogue.fall_15": "@, you play minigames with Moon tomorrow?$h#$b#Moon wants to win prize!$u",
-    "Moon.Roommate.Dialogue.fall_26": "...Moon doesn't want to go in the maze tomorrow. Moon stays outside.$s",
+    "Moon.Roommate.Dialogue.fall_25": "Moon excited to go to Twilight Festival with @!$h",
 
     "Moon.Roommate.Dialogue.winter_1": "Brrr... Moon is cold.$s",
     "Moon.Roommate.Dialogue.winter_7": "Moon slides on ice tomorrow.$u#$b#Good luck with the contest!$h",
@@ -3478,7 +3478,7 @@
     //Fall
     "Reihana.Dialogue.fall_1": "Hm, I wonder if Ari has any pumpkin spice.$12#$b#That's one of the few things humans deserve praise for.$8",
     "Reihana.Dialogue.fall_15": "Man, I want to play the minigames tomorrow, but I don't want to deal with all the 'Gasp! A demon!' comments.$7#$b#I don't bite.$7#$b#...Hard.$11",
-    "Reihana.Dialogue.fall_26": "Ooh, tomorrow's festival is my JAM.$h#$b#I'm gonna scare so many people.$8",
+    "Reihana.Dialogue.fall_25": "Ooh, tomorrow's festival is my JAM.$h#$b#I'm gonna scare so many people.$8#$b#Wait, wrong festival. Aicha's dragging me to the boring twilight one.$13",
 
     //Winter
     "Reihana.Dialogue.winter_1": "Ugh, I hate this season with a passion.$s",
@@ -3571,7 +3571,7 @@
     //Fall
     "Aicha.Dialogue.fall_1": "I'm matching with the trees! Look at me!$u#$b#Rei thought the orange was too basic, but I like it!$h",
     "Aicha.Dialogue.fall_15": "Oh! Diala told me we can play games tomorrow! Maybe the strength game? I think I'm strong enough for it.$u",
-    "Aicha.Dialogue.fall_26": "Rei told me I can't leave my human form for tomorrow's festival. It would've been perfect!$s",
+    "Aicha.Dialogue.fall_25": "Are you going to the festival tomorrow? Diala told me to collect all the feathers I could find. I have SO many now. Here, take one! [skellady.SBVCP_TwilightFeather]$15",
 
     //Winter
     "Aicha.Dialogue.winter_1": "Do you like my earrings? I made them myself! I told Rei I could make her some but she just grumbled.$u",
@@ -3666,7 +3666,7 @@
     //Fall
     "Amina.Dialogue.fall_1": "My grandma is making a pie today!$h",
     "Amina.Dialogue.fall_15": "Jas says there will be games at the fair tomorrow!$3#$b#I'm excited.$4",
-    "Amina.Dialogue.fall_26": "I'm not going to the festival tomorrow... I won't be able to sleep if I do.$s",
+    "Amina.Dialogue.fall_25": "Mom is letting me have my own stall for the festival tomorrow! It's going to be SO much fun.$3",
 
     //Winter
     "Amina.Dialogue.winter_1": "Grandma Miyoung is going to knit me a pretty scarf!$h",
@@ -3759,7 +3759,7 @@
     //Fall
     "Ari.Dialogue.fall_1": "Mmm... smell that, farmer? It's the smell of the best season of the year arriving.$u#$b#And no, I don't care if people think it's overrated.$6",
     "Ari.Dialogue.fall_15": "I know a few people from Sunberry who would love to participate in the fair tomorrow.#$b#I know Jumana would win if she decided to join in. Her beautiful flowers deserve the praise and the prize.$u",
-    "Ari.Dialogue.fall_26": "Blake and his friends will always hop on the chance to scare me during Spirit's Eve.$6#$b#*sigh*... I dread it every year.$s",
+    "Ari.Dialogue.fall_25": "Blake and his friends will always hop on the chance to scare me during Spirit's Eve.$6#$b#*sigh*... I dread it every year.$s",
 
     //Winter
     "Ari.Dialogue.winter_1": "Ugh, of course the heater breaks right on the first day of winter.$6",
@@ -3854,7 +3854,7 @@
     //Fall
     "Blake.Dialogue.fall_1": "Call me basic, but I always look forward to fall. Mostly so I could wear my favorite hoodies and watch horror movies with Lyenne.$h",
     "Blake.Dialogue.fall_15": "Ugh, my father is challenging me at the fishing minigame tomorrow.$s#$b#It's not fair! He literally goes fishing every week.$s",
-    "Blake.Dialogue.fall_26": "Hmm... I'm not too happy with my Spirit's Eve costume. Maybe I should go see Ezra.$s",
+    "Blake.Dialogue.fall_25": "Hey, @. Sorry, no time to talk. Lyenne and I are practicing a song to cheer my dads on tomorrow at the festival!$u",
 
     //Winter
     "Blake.Dialogue.winter_1": "Feels like there's a looot of grumbling when it comes to winter. I think it's a good season!$h#$b#I mean... sure I stay under my very soft, very fluffy blanket all day, but it's still good!$u",
@@ -3951,7 +3951,7 @@
     //Fall
     "Elias.Dialogue.fall_1": "New season, same old work.#$b#I better start bringing out all the fall-themed books to the front bookshelves now.$h",
     "Elias.Dialogue.fall_15": "I might help Willy out with his stall tomorrow. I've got a few fish he might like.$h#$b#Better watch out, farmer.$u#$b#Nah, I'm just messin' with you, we probably don't stand a chance against y'all.$u",
-    "Elias.Dialogue.fall_26": "Maia's been trying to scare me for years now, it never works.$u#$b#I do appreciate the determination, though.$7",
+    "Elias.Dialogue.fall_25": "Will we see you at the festival tomorrow? You should drop by. It'll be a good time, I promise.$h",
 
     //Winter
     "Elias.Dialogue.winter_1": "I hate the cold with a passion, but I still look forward to it for all the fish I can catch now.$h#$b#Might hit up Willy to see if he's up for a fishin' trip soon.",
@@ -4048,7 +4048,7 @@
     //Fall
     "Ezra.Dialogue.fall_1": "Fall fashion is boring... but I can make it fun. I believe Haley wanted to model a few pieces from my fall collection. It'll be wonderful, you just wait.$h",
     "Ezra.Dialogue.fall_15": "Lewis won't let me use a stall to showcase my clothing pieces tomorrow. I mean, Clint gets one for his metal bars and Willy gets one for his fish!$s#$b#Maybe I can talk to Ophelia, I'm sure she'll be able to convince him.$u",
-    "Ezra.Dialogue.fall_26": "Ah, another one of my favorite festivals! Everyone gets to play dress-up.$h#$b#I have to find the perfect costume for tomorrow.$u",
+    "Ezra.Dialogue.fall_25": "I've been working on my stall since last season! It's going to be perfect, make sure to check it out tomorrow.$u",
 
     //Winter
     "Ezra.Dialogue.winter_1": "Oh, dear. Just because it's winter doesn't mean you can't be fashionable! Come by soon, I'll have everything you'd need to be warm AND good-looking at the same time.$u",
@@ -4142,7 +4142,7 @@
     //Fall
     "Iman.Dialogue.fall_1": "Think we're doing a little photo shoot with Haley today. I think she's absolutely going to rock whatever Ezra puts her in.$h",
     "Iman.Dialogue.fall_15": "You know, if I'd pursued my dream of becoming a farmer, I would've given you a run for your money at the fair tomorrow.$h#$b#Good luck, farmer.$u",
-    "Iman.Dialogue.fall_26": "Ugh, not only am I easily scared but I'm also easily creeped out. Have you *seen* those wiggly hands in the maze? Gross.$s",
+    "Iman.Dialogue.fall_25": "Hm? There's a festival tomorrow?#$b#OH, damn. I guess I'll be there. Maybe I can help Ezra out.$u",
 
     //Winter
     "Iman.Dialogue.winter_1": "The perfect season to shop at Ezra's! Stay warm and fashionable! This is not an advertisement, I'm being genuine.$u",
@@ -4236,7 +4236,7 @@
     //Fall
     "Jumana.Dialogue.fall_1": "I wait all year for the chance to grow Fairy Roses. They're beautiful, aren't they?",
     "Jumana.Dialogue.fall_15": "I'm not interested in attending the fair tomorrow, but maybe Maia could take Amina so she can play.$h",
-    "Jumana.Dialogue.fall_26": "Oh dear, I'm afraid I'm too jumpy for tomorrow's festival. I will just stay home.$s",
+    "Jumana.Dialogue.fall_25": "Ah, the Twilight Festival is almost here! I hope you get to join us, dear. It's going to be a wonderful day, I'm sure.$u",
 
     //Winter
     "Jumana.Dialogue.winter_1": "I'm afraid these bones are not made for these harsh winters.$7",
@@ -4330,7 +4330,7 @@
     //Fall
     "Lyenne.Dialogue.fall_1": "Mmm, yes. The perfect season for basic bit-#$b#Hey, I'm one too, I won't lie.$u",
     "Lyenne.Dialogue.fall_15": "For the spinning wheel thing, I'm always going green, baby! I do NOT care if I lose four times in a row.$u#$b#Actually, maybe I should avoid that this year. Lost way too much last year.$7",
-    "Lyenne.Dialogue.fall_26": "Blake and I might skip the Spirit's Eve festival and just stay home in our costumes. Maybe we'll watch a horror movie and eat something.$h",
+    "Lyenne.Dialogue.fall_25": "Blake and I are just gonna sing and be a nuisance tomorrow. I'm looking forward to it.$u",
 
     //Winter
     "Lyenne.Dialogue.winter_1": "Brr... I don't like it here. I can't stand the cold.$s#$b#Like, the inn is super warm and then you walk outside and BAM! Cold.$s",
@@ -4423,7 +4423,7 @@
     //Fall
     "Maia.Dialogue.fall_1": "I personally adore this season.#$b#The leaves changing color, the pumpkin pie my mother makes, the Spirit's Eve festival. What's not to like?$h",
     "Maia.Dialogue.fall_15": "I'm a pro at the slingshot minigame. You should come by tomorrow and see how it's done.$u",
-    "Maia.Dialogue.fall_26": "Ah, my absolute favorite festival of the year!$h#$b#Maybe this could be my chance to finally scare Elias.$h",
+    "Maia.Dialogue.fall_25": "I'm going to bed before Amina's bedtime tonight. It's gonna be a long day tomorrow, but it'll be fun.$h",
 
     //Winter
     "Maia.Dialogue.winter_1": "Brr... I don't think I'd ever get used to the cold.$s",
@@ -4518,7 +4518,7 @@
     //Fall
     "Miyoung.Dialogue.fall_1": "This is your sign to go on a walk and admire the season's foliage before it gets too cold. Silas and I love walking around and watching the leaves fall and dance around with the wind.$u",
     "Miyoung.Dialogue.fall_15": "Ah, the fair. I always try to encourage Silas to participate! He doesn't want Clint to view him as competition.$7",
-    "Miyoung.Dialogue.fall_26": "Heh, I'm afraid tomorrow's festival isn't for me. I can't bring myself to go anywhere near that festival.$7",
+    "Miyoung.Dialogue.fall_25": "Are you going to join us tomorrow? My husband will have a wonderful collection at his stall. So will Jumana!$h",
 
     //Winter
     "Miyoung.Dialogue.winter_1": "Snow is a good omen! Next year should bring a good harvest, Jumana will be happy about that.$h",
@@ -4706,7 +4706,7 @@
     //Fall
     "Ophelia.Dialogue.fall_1": "Mmm... smell that? This season has a distinctive smell to it. It's... nostalgic, in a way.#$e#Lyenne will most likely be running around, getting ready to decorate the inn.$h",
     "Ophelia.Dialogue.fall_15": "That stupid slingshot minigame... it haunts me, @.$a#$b#I can't believe I let a silly game get to me like that.$s",
-    "Ophelia.Dialogue.fall_26": "I heard there'll be caged monsters at the Spirit's Eve tomorrow. There better be enough protection around. Wouldn't want anyone to get hurt.$s",
+    "Ophelia.Dialogue.fall_25": "Did you receive my invitation, @? We'd love to have you at the Twilight Festival tomorrow.$h",
 
     //Winter
     "Ophelia.Dialogue.winter_1": "I left my room to check on something, only to come back and find Lyenne buried under my blankets. This is going to be a long winter.$u",
@@ -4865,7 +4865,7 @@
     //Fall
     "Silas.Dialogue.fall_1": "This is Miyoung's favorite season. You should see how excited she gets about making sure she plants her seeds early in the morning.$u",
     "Silas.Dialogue.fall_15": "Ah, the fair's tomorrow? Maybe I'll finally beat Maia at the strength game this year.$u",
-    "Silas.Dialogue.fall_26": "During the spirit's eve, Miyoung and I just stay home and bundle up to watch a romantic movie. We're not built for anything scary.$u",
+    "Silas.Dialogue.fall_25": "I'm excited for the festival tomorrow. I'll be spending my feathers at Diala and Derya's stall. You can't miss out on their baked goods.$h",
 
     //Winter
     "Silas.Dialogue.winter_1": "Hmm... was it colder last year? I could've sworn it was.$h#$b#I did make sure to bundle up at Miyoung's request, though.$u",
