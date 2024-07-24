@@ -62,7 +62,7 @@ internal class MapManager
 				}
 				else
 				{
-					buildingsLayer.Tiles[x, y].Properties.Add("Action", "None");
+					buildingsLayer.Tiles[x, y].Properties["Action"] = "None";
 				}
 			}
 		}
