@@ -1718,6 +1718,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunriseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -1866,6 +1872,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunriseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "Iron Ore",
                   "Stack": 1,
                   "PercentChanceToSpawn": 33
@@ -1963,6 +1975,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunriseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "Iron Ore",
                   "Stack": 1,
                   "PercentChanceToSpawn": 33
@@ -2047,6 +2065,12 @@
                   "Name": "Dwarf Scroll III",
                   "Stack": 1,
                   "PercentChanceToSpawn": 0.5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_SunriseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
                 },
                 {
                   "Category": "Object",
@@ -2165,6 +2189,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunriseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "Iron Ore",
                   "Stack": 1,
                   "PercentChanceToSpawn": 33
@@ -2264,6 +2294,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunriseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
@@ -2356,6 +2392,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunriseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -2394,6 +2436,12 @@
                   "Name": "Red Mushroom",
                   "Stack": 1,
                   "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
                 },
                 {
                   "Category": "Object",
@@ -2447,6 +2495,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
                 },
                 {
                   "Category": "Object",
@@ -2540,6 +2594,12 @@
                   "Name": "Dwarf Scroll III",
                   "Stack": 1,
                   "PercentChanceToSpawn": 0.5
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
                 },
                 {
                   "Category": "Object",
@@ -2641,6 +2701,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "Copper Ore",
                   "Stack": 1,
                   "PercentChanceToSpawn": 33
@@ -2694,6 +2760,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "Common Mushroom",
                   "Stack": 1,
                   "PercentChanceToSpawn": 30
@@ -2738,6 +2810,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
                 },
                 {
                   "Category": "Object",
@@ -2840,6 +2918,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "Diamond",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
@@ -2932,6 +3016,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
@@ -2970,6 +3060,12 @@
                   "Name": "Red Mushroom",
                   "Stack": 1,
                   "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
                 },
                 {
                   "Category": "Object",
@@ -3017,6 +3113,12 @@
                   "Name": "Purple Mushroom",
                   "Stack": 1,
                   "PercentChanceToSpawn": 90
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
                 },
                 {
                   "Category": "Object",
@@ -3125,6 +3227,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "Diamond",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
@@ -3223,6 +3331,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_SunsetOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 7
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -3260,6 +3374,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -3371,6 +3491,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
@@ -3457,6 +3583,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -3494,6 +3626,12 @@
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -3535,6 +3673,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
@@ -3570,6 +3714,12 @@
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -3661,6 +3811,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -3747,6 +3903,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "Sap",
                   "Stack": 1,
                   "PercentChanceToSpawn": 50
@@ -3784,6 +3946,12 @@
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -3831,6 +3999,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_Serpentine",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
@@ -3866,6 +4040,12 @@
                   "Name": "skellady.SBVCP_Citrine",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -3930,6 +4110,12 @@
                   "Name": "Dwarf Scroll III",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -4037,6 +4223,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -4080,6 +4272,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_MidnightOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -4129,6 +4327,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -4172,6 +4376,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -4219,6 +4429,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
@@ -4260,6 +4476,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -4348,6 +4570,12 @@
                   "Name": "Diamond",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -4443,6 +4671,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
@@ -4495,6 +4729,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -4538,6 +4778,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -4593,6 +4839,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_TwilightFeather",
                   "Stack": 2,
                   "PercentChanceToSpawn": 9
@@ -4637,6 +4889,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
@@ -4672,6 +4930,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -4754,6 +5018,12 @@
                   "Name": "Dwarf Scroll IV",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -4855,6 +5125,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -4892,6 +5168,12 @@
                   "Name": "skellady.SBVCP_TwilightFeather",
                   "Stack": 1,
                   "PercentChanceToSpawn": 10
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -4938,6 +5220,12 @@
                   "Name": "skellady.SBVCP_TwilightFeather",
                   "Stack": 1,
                   "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -4993,6 +5281,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -5037,6 +5331,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
@@ -5066,6 +5366,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -5142,6 +5448,12 @@
                   "Name": "Dwarf Scroll III",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -5249,6 +5561,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -5293,6 +5611,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_TwilightFeather",
                   "Stack": 2,
                   "PercentChanceToSpawn": 9
@@ -5328,6 +5652,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -5369,6 +5699,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_TwilightFeather",
                   "Stack": 2,
                   "PercentChanceToSpawn": 9
@@ -5400,6 +5736,12 @@
                   "Name": "skellady.SBVCP_TwilightFeather",
                   "Stack": 1,
                   "PercentChanceToSpawn": 15
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -5455,6 +5797,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -5490,6 +5838,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -5534,6 +5888,12 @@
                   "Name": "skellady.SBVCP_BlueAuraQuartz",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_EclipseOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 6
                 },
                 {
                   "Category": "Object",
@@ -5624,6 +5984,12 @@
                   "Name": "Diamond",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -5733,6 +6099,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_TwilightFeather",
                   "Stack": 2,
                   "PercentChanceToSpawn": 9
@@ -5768,6 +6140,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -5809,6 +6187,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_TwilightFeather",
                   "Stack": 2,
                   "PercentChanceToSpawn": 9
@@ -5844,6 +6228,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 1
                 },
                 {
                   "Category": "Object",
@@ -5884,6 +6274,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -5933,6 +6329,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_Moonberry",
                   "Stack": 1,
                   "PercentChanceToSpawn": 2
@@ -5971,6 +6373,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_Annabergite",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
@@ -6000,6 +6408,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -6081,6 +6495,12 @@
                   "Name": "Dwarf Scroll III",
                   "Stack": 1,
                   "PercentChanceToSpawn": 1
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -6193,6 +6613,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -6228,6 +6654,12 @@
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -6269,6 +6701,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
@@ -6304,6 +6742,12 @@
                   "Name": "Slime",
                   "Stack": 1,
                   "PercentChanceToSpawn": 80
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -6350,6 +6794,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
@@ -6405,6 +6855,12 @@
                 },
                 {
                   "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
+                },
+                {
+                  "Category": "Object",
                   "Name": "skellady.SBVCP_TwilightFeather",
                   "Stack": 2,
                   "PercentChanceToSpawn": 9
@@ -6434,6 +6890,12 @@
                   "Name": "skellady.SBVCP_CinderLeaf",
                   "Stack": 1,
                   "PercentChanceToSpawn": 8
+                },
+                {
+                  "Category": "Object",
+                  "Name": "skellady.SBVCP_PrismaticOrb",
+                  "Stack": 1,
+                  "PercentChanceToSpawn": 2
                 },
                 {
                   "Category": "Object",
