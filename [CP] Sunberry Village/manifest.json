@@ -30,6 +30,10 @@
       "UniqueID": "Esca.EMP",
       "IsRequired": true
     },
+    {
+      "UniqueID": "mistyspring.ItemExtensions",
+      "IsRequired": true
+    },
     // components
     {
       "UniqueID": "skellady.SBVCC",

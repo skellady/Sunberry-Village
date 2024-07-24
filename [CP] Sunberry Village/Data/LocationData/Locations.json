@@ -1764,7 +1764,15 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 0.9,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
+                    ]
                 },
                 "Custom_SBV_Mines2": {
                     "CreateOnLoad": {
@@ -1793,6 +1801,13 @@
                             "ItemId": "{{ModId}}_SunriseOrbNode",
                             "MaxItems": 1
                         },
+                        {
+                            "Chance": 0.5,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
                     ]
                 },
                 "Custom_SBV_Mines3": {
@@ -1822,6 +1837,13 @@
                             "ItemId": "{{ModId}}_SunriseOrbNode",
                             "MaxItems": 1
                         },
+                        {
+                            "Chance": 0.6,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
                     ]
                 },
                 "Custom_SBV_Mines4": {
@@ -1858,6 +1880,13 @@
                             "ItemId": "{{ModId}}_SunsetOrbNode",
                             "MaxItems": 1
                         },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
                     ]
                 },
                 "Custom_SBV_Mines5A": {
@@ -1894,6 +1923,13 @@
                             "ItemId": "{{ModId}}_SunsetOrbNode",
                             "MaxItems": 1
                         },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
                     ]
                 },
                 "Custom_SBV_Mines5B": {
@@ -1960,6 +1996,13 @@
                             "ItemId": "{{ModId}}_SunsetOrbNode",
                             "MaxItems": 1
                         },
+                        {
+                            "Chance": 0.4,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
                     ]
                 },
                 "Custom_SBV_Mines7": {
@@ -1996,6 +2039,13 @@
                             "ItemId": "{{ModId}}_MidnightOrbNode",
                             "MaxItems": 1
                         },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
                     ]
                 },
                 "Custom_SBV_Mines8": {
@@ -2037,6 +2087,13 @@
                             "ItemId": "{{ModId}}_MidnightOrbNode",
                             "MaxItems": 1
                         },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
                     ]
                 },
                 "Custom_SBV_Mines9": {
@@ -2101,6 +2158,13 @@
                             "ItemId": "{{ModId}}_EclipseOrbNode",
                             "MaxItems": 1
                         },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
                     ]
                 },
                 "Custom_SBV_Mines10B": {
@@ -2256,6 +2320,13 @@
                             "ItemId": "{{ModId}}_EclipseOrbNode",
                             "MaxItems": 1
                         },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
                     ]
                 },
                 "Custom_SBV_Mines14": {
@@ -2345,6 +2416,13 @@
                             "ItemId": "{{ModId}}_PurpuriteNode",
                             "MaxItems": 4
                         },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunberryGeodeNode",
+                            "ItemId": "{{ModId}}_SunberryGeodeNode",
+                            "MaxItems": 1
+                        }
                         {
                             "Chance": 1.0,
                             "Precedence": 0,
