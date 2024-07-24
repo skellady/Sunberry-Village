@@ -1785,7 +1785,15 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 0.4,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunriseOrbNode",
+                            "ItemId": "{{ModId}}_SunriseOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines3": {
                     "CreateOnLoad": {
@@ -1806,7 +1814,15 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunriseOrbNode",
+                            "ItemId": "{{ModId}}_SunriseOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines4": {
                     "CreateOnLoad": {
@@ -1827,7 +1843,22 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SerpentineNode",
+                            "ItemId": "{{ModId}}_SerpentineNode",
+                            "MaxItems": 5
+                        },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunsetOrbNode",
+                            "ItemId": "{{ModId}}_SunsetOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines5A": {
                     "CreateOnLoad": {
@@ -1848,7 +1879,22 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SerpentineNode",
+                            "ItemId": "{{ModId}}_SerpentineNode",
+                            "MaxItems": 4
+                        },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunsetOrbNode",
+                            "ItemId": "{{ModId}}_SunsetOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines5B": {
                     "CreateOnLoad": {
@@ -1899,7 +1945,22 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SerpentineNode",
+                            "ItemId": "{{ModId}}_SerpentineNode",
+                            "MaxItems": 5
+                        },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_SunsetOrbNode",
+                            "ItemId": "{{ModId}}_SunsetOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines7": {
                     "CreateOnLoad": {
@@ -1920,7 +1981,22 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_CitrineNode",
+                            "ItemId": "{{ModId}}_CitrineNode",
+                            "MaxItems": 5
+                        },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_MidnightOrbNode",
+                            "ItemId": "{{ModId}}_MidnightOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines8": {
                     "CreateOnLoad": {
@@ -1946,7 +2022,22 @@
                             "ItemId": "(O)161",
                         },
                     ],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_CitrineNode",
+                            "ItemId": "{{ModId}}_CitrineNode",
+                            "MaxItems": 6
+                        },
+                        {
+                            "Chance": 0.2,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_MidnightOrbNode",
+                            "ItemId": "{{ModId}}_MidnightOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines9": {
                     "CreateOnLoad": {
@@ -1988,7 +2079,29 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_PurpuriteNode",
+                            "ItemId": "{{ModId}}_PurpuriteNode",
+                            "MaxItems": 5
+                        },
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_AnnabergiteNode",
+                            "ItemId": "{{ModId}}_AnnabergiteNode",
+                            "MaxItems": 4
+                        },
+                        {
+                            "Chance": 0.2,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_EclipseOrbNode",
+                            "ItemId": "{{ModId}}_EclipseOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines10B": {
                     "CreateOnLoad": {
@@ -2030,7 +2143,29 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_PurpuriteNode",
+                            "ItemId": "{{ModId}}_PurpuriteNode",
+                            "MaxItems": 5
+                        },
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_AnnabergiteNode",
+                            "ItemId": "{{ModId}}_AnnabergiteNode",
+                            "MaxItems": 4
+                        },
+                        {
+                            "Chance": 0.2,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_EclipseOrbNode",
+                            "ItemId": "{{ModId}}_EclipseOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines12": {
                     "CreateOnLoad": {
@@ -2051,7 +2186,29 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_PurpuriteNode",
+                            "ItemId": "{{ModId}}_PurpuriteNode",
+                            "MaxItems": 4
+                        },
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_AnnabergiteNode",
+                            "ItemId": "{{ModId}}_AnnabergiteNode",
+                            "MaxItems": 3
+                        },
+                        {
+                            "Chance": 0.2,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_EclipseOrbNode",
+                            "ItemId": "{{ModId}}_EclipseOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines13": {
                     "CreateOnLoad": {
@@ -2077,7 +2234,29 @@
                             "ItemId": "(O)269",
                         },
                     ],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_PurpuriteNode",
+                            "ItemId": "{{ModId}}_PurpuriteNode",
+                            "MaxItems": 5
+                        },
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_BlueAuraQuartzNode",
+                            "ItemId": "{{ModId}}_BlueAuraQuartzNode",
+                            "MaxItems": 4
+                        },
+                        {
+                            "Chance": 0.2,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_EclipseOrbNode",
+                            "ItemId": "{{ModId}}_EclipseOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines14": {
                     "CreateOnLoad": {
@@ -2103,7 +2282,29 @@
                             "ItemId": "(O)269",
                         },
                     ],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_PurpuriteNode",
+                            "ItemId": "{{ModId}}_PurpuriteNode",
+                            "MaxItems": 4
+                        },
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_BlueAuraQuartzNode",
+                            "ItemId": "{{ModId}}_BlueAuraQuartzNode",
+                            "MaxItems": 3
+                        },
+                        {
+                            "Chance": 0.3,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_EclipseOrbNode",
+                            "ItemId": "{{ModId}}_EclipseOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_Mines15": {
                     "CreateOnLoad": {
@@ -2129,7 +2330,43 @@
                             "ItemId": "(O)269",
                         },
                     ],
-                    "Forage": []
+                    "Forage": [
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_PurpuriteNode",
+                            "ItemId": "{{ModId}}_PurpuriteNode",
+                            "MaxItems": 4
+                        },
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_PurpuriteNode2",
+                            "ItemId": "{{ModId}}_PurpuriteNode",
+                            "MaxItems": 4
+                        },
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_BlueAuraQuartzNode",
+                            "ItemId": "{{ModId}}_BlueAuraQuartzNode",
+                            "MaxItems": 3
+                        },
+                        {
+                            "Chance": 1.0,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_BlueAuraQuartzNode2",
+                            "ItemId": "{{ModId}}_BlueAuraQuartzNode",
+                            "MaxItems": 3
+                        },
+                        {
+                            "Chance": 0.4,
+                            "Precedence": 0,
+                            "Id": "{{ModId}}_EclipseOrbNode",
+                            "ItemId": "{{ModId}}_EclipseOrbNode",
+                            "MaxItems": 1
+                        },
+                    ]
                 },
                 "Custom_SBV_MinesFinal": {
                     "CreateOnLoad": {

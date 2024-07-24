@@ -1,0 +1,207 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Node Sprites",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/Nodes",
+            "FromFile": "Assets/Items/Nodes.png"
+        },
+        {
+            "LogName": "Node Data",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/Resources",
+            "Entries": {
+                "{{ModId}}_SunberryGeodeNode": {
+                    "Name": "{{ModId}}_SunberryGeodeNode",
+                    "SpriteIndex": 0,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 2,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O){{ModId}}_SunberryGeode",
+                    "Tool": "pickaxe",
+                    "MinToolLevel": 0,
+					"MinDrops": 1,
+					"MaxDrops": 1,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)390",
+							"Chance": 0.1
+						}
+					]
+                },
+                "{{ModId}}_PurpuriteNode": {
+                    "Name": "{{ModId}}_PurpuriteNode",
+                    "SpriteIndex": 1,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 3,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O){{ModId}}_Purpurite",
+                    "Tool": "pickaxe",
+                    "MinToolLevel": 0,
+					"MinDrops": 1,
+					"MaxDrops": 2,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)390",
+							"Chance": 0.1
+						}
+					]
+                },
+                "{{ModId}}_BlueAuraQuartzNode": {
+                    "Name": "{{ModId}}_BlueAuraQuartzNode",
+                    "SpriteIndex": 2,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 4,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O){{ModId}}_BlueAuraQuartz",
+                    "Tool": "pickaxe",
+                    "MinToolLevel": 0,
+					"MinDrops": 1,
+					"MaxDrops": 2,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)390",
+							"Chance": 0.1
+						}
+					]
+                },
+                "{{ModId}}_AnnabergiteNode": {
+                    "Name": "{{ModId}}_AnnabergiteNode",
+                    "SpriteIndex": 3,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 4,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O){{ModId}}_Annabergite",
+                    "Tool": "pickaxe",
+                    "MinToolLevel": 0,
+					"MinDrops": 1,
+					"MaxDrops": 2,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)390",
+							"Chance": 0.1
+						}
+					]
+                },
+                "{{ModId}}_CitrineNode": {
+                    "Name": "{{ModId}}_CitrineNode",
+                    "SpriteIndex": 4,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 3,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O){{ModId}}_Citrine",
+                    "Tool": "pickaxe",
+                    "MinToolLevel": 0,
+					"MinDrops": 1,
+					"MaxDrops": 2,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)390",
+							"Chance": 0.1
+						}
+					]
+                },
+                "{{ModId}}_SerpentineNode": {
+                    "Name": "{{ModId}}_SerpentineNode",
+                    "SpriteIndex": 5,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 3,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O){{ModId}}_Serpentine",
+                    "Tool": "pickaxe",
+                    "MinToolLevel": 0,
+					"MinDrops": 1,
+					"MaxDrops": 2,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)390",
+							"Chance": 0.1
+						}
+					]
+                },
+                "{{ModId}}_SunriseOrbNode": {
+                    "Name": "{{ModId}}_SunriseOrbNode",
+                    "SpriteIndex": 6,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 2,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O){{ModId}}_SunriseOrb",
+                    "Tool": "pickaxe",
+                    "MinToolLevel": 0,
+					"MinDrops": 1,
+					"MaxDrops": 1,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)535",
+							"Chance": 0.1
+						}
+					]
+                },
+                "{{ModId}}_SunsetOrbNode": {
+                    "Name": "{{ModId}}_SunsetOrbNode",
+                    "SpriteIndex": 7,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 2,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O){{ModId}}_SunsetOrb",
+                    "Tool": "pickaxe",
+                    "MinToolLevel": 0,
+					"MinDrops": 1,
+					"MaxDrops": 1,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)536",
+							"Chance": 0.1
+						}
+					]
+                },
+                "{{ModId}}_MidnightOrbNode": {
+                    "Name": "{{ModId}}_MidnightOrbNode",
+                    "SpriteIndex": 8,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 3,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O){{ModId}}_MidnightOrb",
+                    "Tool": "pickaxe",
+                    "MinToolLevel": 2,
+					"MinDrops": 1,
+					"MaxDrops": 1,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)537",
+							"Chance": 0.1
+						}
+					]
+                },
+                "{{ModId}}_EclipseOrbNode": {
+                    "Name": "{{ModId}}_EclipseOrbNode",
+                    "SpriteIndex": 9,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 4,
+                    "Sound": "hammer",
+                    "BreakingSound": "stoneCrack",
+                    "ItemDropped": "(O){{ModId}}_EclipseOrb",
+                    "Tool": "pickaxe",
+                    "MinToolLevel": 3,
+					"MinDrops": 1,
+					"MaxDrops": 1,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)749",
+							"Chance": 0.1
+						}
+					]
+                },
+            }
+        }
+    ]
+}

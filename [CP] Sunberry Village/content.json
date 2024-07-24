@@ -325,7 +325,7 @@
     {
       "LogName": "Include Item Data",
       "Action": "Include",
-      "FromFile": "Data/ItemData/Crops.json, Data/ItemData/Objects.json, Data/ItemData/Fish.json, Data/ItemData/FishPond.json, Data/ItemData/Weapons.json, Data/ItemData/CookingRecipes.json, Data/ItemData/WildTrees.json, Data/ItemData/FruitTrees.json, Data/ItemData/Machines.json, Data/ItemData/CraftingRecipes.json"
+      "FromFile": "Data/ItemData/Crops.json, Data/ItemData/Objects.json, Data/ItemData/Fish.json, Data/ItemData/FishPond.json, Data/ItemData/Weapons.json, Data/ItemData/CookingRecipes.json, Data/ItemData/WildTrees.json, Data/ItemData/FruitTrees.json, Data/ItemData/Machines.json, Data/ItemData/CraftingRecipes.json, Data/ItemData/Nodes.json"
     },
     // Shop Data
     {
