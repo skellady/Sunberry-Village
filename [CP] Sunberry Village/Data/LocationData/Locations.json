@@ -2422,7 +2422,7 @@
                             "Id": "{{ModId}}_SunberryGeodeNode",
                             "ItemId": "{{ModId}}_SunberryGeodeNode",
                             "MaxItems": 1
-                        }
+                        },
                         {
                             "Chance": 1.0,
                             "Precedence": 0,
