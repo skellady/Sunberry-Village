@@ -1,10 +1,1623 @@
 {
-  "ForageSpawnEnabled": false,
+  "ForageSpawnEnabled": true,
   "LargeObjectSpawnEnabled": true,
   "OreSpawnEnabled": true,
   "MonsterSpawnEnabled": true,
   "Forage_Spawn_Settings": {
-    "Areas": [],
+    "Areas": [
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "UniqueAreaID": "SBV Mines1 Nodes",
+        "MapName": "Custom_SBV_Mines1",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunriseOrbNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunriseOrbNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunriseOrbNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunriseOrbNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "UniqueAreaID": "SBV Mines2 Nodes",
+        "MapName": "Custom_SBV_Mines2",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 2,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunriseOrbNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunriseOrbNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunriseOrbNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunriseOrbNode",
+            "PercentChanceToSpawn": 30
+          }
+        ],
+        "UniqueAreaID": "SBV Mines3 Nodes",
+        "MapName": "Custom_SBV_Mines3",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 3,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines4 Nodes",
+        "MapName": "Custom_SBV_Mines4",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines5A Nodes",
+        "MapName": "Custom_SBV_Mines5A",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "Tent Kit"
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "Tent Kit"
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "Tent Kit"
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "Tent Kit"
+          }
+        ],
+        "UniqueAreaID": "SBV Mines5B Tent",
+        "MapName": "Custom_SBV_Mines5B",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunsetOrbNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SerpentineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines6 Nodes",
+        "MapName": "Custom_SBV_Mines6",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_CitrineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_CitrineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_CitrineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_CitrineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines7 Nodes",
+        "MapName": "Custom_SBV_Mines7",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_CitrineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_CitrineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_CitrineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_CitrineNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines8 Nodes",
+        "MapName": "Custom_SBV_Mines8",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines10A Nodes",
+        "MapName": "Custom_SBV_Mines10A",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines11 Nodes",
+        "MapName": "Custom_SBV_Mines11",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_MidnightOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_AnnabergiteNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines12 Nodes",
+        "MapName": "Custom_SBV_Mines12",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines13 Nodes",
+        "MapName": "Custom_SBV_Mines13",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines14 Nodes",
+        "MapName": "Custom_SBV_Mines14",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_SunberryGeodeNode",
+            "PercentChanceToSpawn": 30
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_EclipseOrbNode",
+            "PercentChanceToSpawn": 20
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_PurpuriteNode",
+            "PercentChanceToSpawn": 70
+          },
+          {
+            "Category": "Object",
+            "Name": "skellady.SBVCP_BlueAuraQuartzNode",
+            "PercentChanceToSpawn": 70
+          }
+        ],
+        "UniqueAreaID": "SBV Mines15 Nodes",
+        "MapName": "Custom_SBV_Mines15",
+        "MinimumSpawnsPerDay": 2,
+        "MaximumSpawnsPerDay": 4,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      },
+      {
+        "SpringItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "Tent Kit"
+          }
+        ],
+        "SummerItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "Tent Kit"
+          }
+        ],
+        "FallItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "Tent Kit"
+          }
+        ],
+        "WinterItemIndex": [
+          {
+            "Category": "Object",
+            "Name": "Tent Kit"
+          }
+        ],
+        "UniqueAreaID": "SBV Mines10B Tent",
+        "MapName": "Custom_SBV_Mines10B",
+        "MinimumSpawnsPerDay": 1,
+        "MaximumSpawnsPerDay": 1,
+        "IncludeTerrainTypes": [
+          "All"
+        ],
+        "ExcludeTerrainTypes": [],
+        "IncludeCoordinates": [],
+        "ExcludeCoordinates": [],
+        "StrictTileChecking": "Maximum",
+        "SpawnTiming": {
+          "StartTime": 600,
+          "EndTime": 600,
+          "MinimumTimeBetweenSpawns": 10,
+          "MaximumSimultaneousSpawns": null,
+          "OnlySpawnIfAPlayerIsPresent": false,
+          "SpawnSound": ""
+        },
+        "ExtraConditions": {
+          "Years": [],
+          "Seasons": [],
+          "Days": [],
+          "WeatherYesterday": [],
+          "WeatherToday": [],
+          "WeatherTomorrow": [],
+          "GameStateQueries": [],
+          "CPConditions": {},
+          "EPUPreconditions": [],
+          "LimitedNumberOfSpawns": null
+        },
+        "DaysUntilSpawnsExpire": 1
+      }
+    ],
     "PercentExtraSpawnsPerForagingLevel": 0,
     "SpringItemIndex": [
       16,
