@@ -1764,15 +1764,7 @@
                     "ArtifactSpots": [],
                     "FishAreas": {},
                     "Fish": [],
-                    "Forage": [
-                        {
-                            "Chance": 0.9,
-                            "Precedence": 0,
-                            "Id": "{{ModId}}_SunberryGeodeNode",
-                            "ItemId": "{{ModId}}_SunberryGeodeNode",
-                            "MaxItems": 1
-                        }
-                    ]
+                    "Forage": []
                 },
                 "Custom_SBV_Mines2": {
                     "CreateOnLoad": {
