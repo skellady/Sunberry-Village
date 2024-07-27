@@ -208,23 +208,23 @@
                 "{{ModId}}_SwordSorceryItems": {
                     "Items": [
                         {
-                            "ItemId": "(O)DN.SNS_portfiredrakesparkler",
+                            "ItemId": "(O)DN.SnS_portfiredrakesparkler",
                             "MaxItems": 1
                         },
                         {
-                            "ItemId": "(O)DN.SNS_zuzustylepizza",
+                            "ItemId": "(O)DN.SnS_zuzustylepizza",
                             "MaxItems": 1
                         },
                         {
-                            "ItemId": "(O)DN.SNS_zuzustylecheesecake",
+                            "ItemId": "(O)DN.SnS_zuzustylecheesecake",
                             "MaxItems": 1
                         },
                         {
-                            "ItemId": "(O)DN.SNS_zuzustyleclamchowder",
+                            "ItemId": "(O)DN.SnS_zuzustyleclamchowder",
                             "MaxItems": 1
                         }, 
                         {
-                            "ItemId": "(O)DN.SNS_zuzustylebagelwithlox",
+                            "ItemId": "(O)DN.SnS_zuzustylebagelwithlox",
                             "MaxItems": 1
                         }
                     ] 
