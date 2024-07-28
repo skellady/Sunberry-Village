@@ -1325,7 +1325,7 @@
           "CanReceiveGifts": true,
           "Calendar": "HiddenUntilMet",
           "SocialTab": "HiddenUntilMet",
-          "IntroductionsQuest": true,
+          "IntroductionsQuest": false,
           "PerfectionScore": "{{IncludeNPCsInPerfection}}",
           "EndSlideShow": "TrailingGroup",
           "WinterStarGifts": [
@@ -1442,7 +1442,7 @@
           "CanReceiveGifts": true,
           "Calendar": "HiddenUntilMet",
           "SocialTab": "HiddenUntilMet",
-          "IntroductionsQuest": true,
+          "IntroductionsQuest": false,
           "PerfectionScore": "{{IncludeNPCsInPerfection}}",
           "EndSlideShow": "TrailingGroup",
           "WinterStarParticipant": false,
