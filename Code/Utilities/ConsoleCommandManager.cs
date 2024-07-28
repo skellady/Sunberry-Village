@@ -340,6 +340,46 @@ internal class ConsoleCommandManager
 			}
 		);
 
+		Globals.CCHelper.Add("sbv.misc.checkintro", "Checks to see who is counted in Introductions quest and what their status is", (_, args) =>
+			{
+				if (!IsWorldReady())
+					return;
+
+				List<string> npcsMet = new();
+				List<string> npcsNotMet = new();
+				int introNum = 0;
+				foreach ((string npcName, CharacterData data) in Game1.characterData)
+				{
+					if (!data.IntroductionsQuest ?? data.HomeRegion != "Town")
+						continue;
+
+					introNum++;
+
+					if (!Game1.player.friendshipData.TryGetValue(npcName, out Friendship friendship))
+					{
+						npcsNotMet.Add(npcName);
+					}
+					else
+					{
+						npcsMet.Add(npcName);
+					}
+				}
+
+				StringBuilder sb = new();
+				sb.AppendLine($"Introductions quest progress: {npcsMet.Count} / {introNum}");
+				sb.AppendLine($"NPCs met:\n\t{string.Join("\n\t", npcsMet)}");
+				sb.AppendLine($"NPCs not met:\n\t{string.Join("\n\t", npcsNotMet)}");
+
+				if (args.Any())
+				{
+					Log.Info(sb);
+				}
+				else
+				{
+					Log.Trace(sb);
+				}
+			});
+
 		#endregion
 
 #endif
