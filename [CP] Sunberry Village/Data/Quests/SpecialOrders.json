@@ -1,6 +1,12 @@
 {
     "Changes": [
         {
+            "LogName": "Add SO Emojis",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/SOEmojis",
+            "FromFile": "Assets/Images/SOEmojis/SOEmojis.png"
+        },
+        {
             "LogName": "Maia Bug SO",
             "Action": "EditData",
             "Target": "Data/SpecialOrders",
