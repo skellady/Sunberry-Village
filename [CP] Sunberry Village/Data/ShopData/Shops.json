@@ -26,6 +26,13 @@
                             "Id": "AriSBV"
                         }
                     ],
+                    "SalableItemTags": [
+                        "category_greens",
+                        "category_vegetable",
+                        "category_fruits",
+                        "category_sell_at_pierres",
+                        "category_ingredients",
+                    ],
                     "PriceModifiers": null,
                     "Items": [
                         // Spring Seeds
@@ -295,6 +302,13 @@
                             "Id": "AnyOrNone"
                         }
                     ],
+                    "SalableItemTags": [
+                        "category_cooking",
+                        "category_ingredients",
+                        "category_artisan_goods",
+                        "category_syrup",
+                        "category_gem"
+                    ],
                     "PriceModifiers": null,
                     "Items": [
                         // Food
@@ -541,6 +555,11 @@
                             "Id": "JumanaSBV"
                         }
                     ],
+                    "SalableItemTags": [
+                        "category_fertilizer",
+                        "category_seeds",
+                        "category_flowers"
+                    ],
                     "PriceModifiers": null,
                     "Items": [
                         // Spring
@@ -712,6 +731,11 @@
                             "Id": "MaiaSBV"
                         }
                     ],
+                    "SalableItemTags": [
+                        "category_weapon",
+                        "category_ring",
+                        "category_monster_loot"
+                    ],
                     "PriceModifiers": null,
                     "Items": [
                         // Weapons
@@ -796,6 +820,11 @@
                             "Name": "SilasSBV",
                             "Id": "SilasSBV"
                         }
+                    ],
+                    "SalableItemTags": [
+                        "category_monster_loot",
+                        "category_minerals",
+                        "category_gem"
                     ],
                     "PriceModifiers": null,
                     "Items": [
@@ -892,7 +921,7 @@
                             "AvailableStockLimit": "Global"
                         },
                     ]
-                },    
+                },
             }
         },
         // Adds Twilight Feathers to Traveling Merchant
