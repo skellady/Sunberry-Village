@@ -184,23 +184,25 @@ internal class GameLocationPatches
 		if (ari is null)
 			return false;
 
-		int whichVariant = new Random().Next(2) + 1;
+		int whichVariant = Utils.Random.Choose(1, 2);
 
 		// if ChooseDestination answer dialogue and cancel selected, no further action needed
 		if (questionAndAnswer.Equals("SunberryTeam.SBVSMAPI_MarketDailySpecialResponses_No"))
 		{
 			// handle rejection logic - ari says something disappointed ?
-			Dialogue rejectPurchaseDialogue = new (ari, "",
+			Dialogue rejectPurchaseDialogue = new(ari, "",
 				Utils.GetTranslationWithPlaceholder($"MarketDailySpecialRejectPurchase{whichVariant}"));
-			Game1.activeClickableMenu = new DialogueBox(rejectPurchaseDialogue);
+			ari.setNewDialogue(rejectPurchaseDialogue, true);
+			Game1.drawDialogue(ari);
 			return false;
 		}
 
 		if (Game1.player.Money < MarketDailySpecialManager.GetOfferPrice())
 		{
-			Dialogue notEnoughDialogue = new (ari, "",
+			Dialogue notEnoughDialogue = new(ari, "",
 				Utils.GetTranslationWithPlaceholder($"MarketDailySpecialNotEnoughMoney{whichVariant}").Replace("{0}", Game1.player.Name));
-			Game1.activeClickableMenu = new DialogueBox(notEnoughDialogue);
+			ari.setNewDialogue(notEnoughDialogue, true);
+			Game1.drawDialogue(ari);
 			return false;
 		}
 
@@ -209,10 +211,10 @@ internal class GameLocationPatches
 
 		MarketDailySpecialManager.RemoveDailySpecial();
 
-		Dialogue purchaseDialogue = new (ari, "",
+		Dialogue purchaseDialogue = new(ari, "",
 			Utils.GetTranslationWithPlaceholder($"MarketDailySpecialPurchased{whichVariant}"));
-		Game1.activeClickableMenu = new DialogueBox(purchaseDialogue);
-
+		ari.setNewDialogue(purchaseDialogue, true);
+		Game1.drawDialogue(ari);
 		return false;
 	}
 }

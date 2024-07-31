@@ -22,7 +22,7 @@ internal class MapManager
 		Globals.EventHelper.GameLoop.GameLaunched += RegisterTileActions;
 		Globals.EventHelper.Player.Warped += CheckForMinesChanges;
 		Globals.EventHelper.Player.Warped += CheckTravelingSunberryRoad;
-		Globals.EventHelper.GameLoop.DayEnding += (_, _) => Game1.player.modData.Remove(TraveledSunberryRoadToday);
+		Globals.EventHelper.GameLoop.DayEnding += ModifyTravelingSunberryRoadStat;
 	}
 
 	private static void CheckTravelingSunberryRoad(object sender, WarpedEventArgs e)
@@ -31,7 +31,15 @@ internal class MapManager
 			return;
 
 		e.Player.modData[TraveledSunberryRoadToday] = "true";
-		e.Player.stats.Increment("SunberryTeam.SBVSMAPI_DaysTraveledSunberryRoad");
+	}
+	
+	private static void ModifyTravelingSunberryRoadStat(object sender, DayEndingEventArgs e)
+	{
+		if (Game1.player.modData[TraveledSunberryRoadToday] != "true")
+			return;
+
+		Game1.player.modData.Remove(TraveledSunberryRoadToday);
+		Game1.player.stats.Increment("SunberryTeam.SBVSMAPI_DaysTraveledSunberryRoad");
 	}
 
 	private static void CheckForMinesChanges(object sender, WarpedEventArgs e)
@@ -156,13 +164,19 @@ internal class MapManager
 		{
 			if (player.modData.ContainsKey("SunberryTeam.SBVSMAPI_AlreadyPurchasedMarketDailySpecial"))
 			{
-				Game1.activeClickableMenu = new DialogueBox(new Dialogue(ari, null,Utils.GetTranslationWithPlaceholder("MarketDailySpecialAlreadyPurchasedToday").Replace("{0}", Game1.player.Name)));
+				Dialogue alreadyPurchasedDialogue = new(ari, null, Utils.GetTranslationWithPlaceholder("MarketDailySpecialAlreadyPurchasedToday").Replace("{0}", Game1.player.Name));
+				ari.setNewDialogue(alreadyPurchasedDialogue, true);
+				Game1.drawDialogue(ari);
+
 				return false;
 			}
 
-			Game1.activeClickableMenu = new DialogueBox(new Dialogue(ari, null, MarketDailySpecialManager.GetOfferDialogue()));
+			Dialogue offerDialogue = new(ari, null, MarketDailySpecialManager.GetOfferDialogue());
+
+			ari.setNewDialogue(offerDialogue, true);
 			Game1.afterDialogues = () => location.createQuestionDialogue(MarketDailySpecialManager.GetPurchaseConfirmationDialogue(),
 				location.createYesNoResponses(), "SunberryTeam.SBVSMAPI_MarketDailySpecialResponses");
+			Game1.drawDialogue(ari);
 
 			return false;
 		}
