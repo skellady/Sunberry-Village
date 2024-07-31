@@ -873,7 +873,7 @@
     "Ari.Dialogue.TwilightFestival2": "Ready? Behold, Ari's spooky wares!$7#$b#...Okay, they're not spooky, but they're good!$u",
 
     "Blake.Dialogue.Fountain1": "I'm a little tired, but I can never bring myself to miss one of these gatherings.$h#$b#I remember missing one when I was sick, the next day there was some new inside joke everyone was in on except for me.$8",
-    "Blake.Dialogue.Fountain2": "Hmm... I wonder if we can convince Seb, Sam, and Abi to join us sometime. It'd be fun.$u",
+    "Blake.Dialogue.Fountain2": "Hmm... I wonder if we can convince Seb, Sam, and Abby to join us sometime. It'd be fun.$u",
     "Blake.Dialogue.Fountain3": "The music's really good. I'm glad we convinced my father to play at these gatherings. I think it's the only time he whips out the guitar.$u",
     "Blake.Dialogue.TwilightFestival1": "We're mostly here for the food and cheering my dads on. Lyenne and I wrote a song for each of them so we can sing by their stalls.$u",
     "Blake.Dialogue.TwilightFestival2": "Okay, ready? ...Wait, no. I go first, then you sing the next part. God, Lyenne, we practiced this all night!$s",
@@ -926,7 +926,7 @@
     "Jumana.Dialogue.TwilightFestival2": "I've got all kinds of flowers, seeds, and useful items available today! Some that come from places far, far away, too. Take a look, dear.$h",
 
     "Lyenne.Dialogue.Fountain1": "This is pretty cool. I've been going to these ever since Ophelia dragged me out when I moved here. We never had anything like this with my family.",
-    "Lyenne.Dialogue.Fountain2": "I was telling Abi she should join us sometime, but she said she didn't wanna intrude.$s#$b#I'm sure no one here would mind, though.",
+    "Lyenne.Dialogue.Fountain2": "I was telling Abby she should join us sometime, but she said she didn't wanna intrude.$s#$b#I'm sure no one here would mind, though.",
     "Lyenne.Dialogue.Fountain3": "Blake and I are getting a board game for next time. It'll be fun, you should join us.$h",
     "Lyenne.Dialogue.TwilightFestival1": "Man, this is one of my favorite things about this village. We never had anything like it back home.#$b#I'm really glad I moved here. I don't see myself leaving anytime soon.$h",
     "Lyenne.Dialogue.TwilightFestival2": "%Lyenne seems to be singing over Blake talking.#$b#Ari's spooky wares! Ari's spooky wares! You won't find the spooky but you WILL find the wares!$u",
@@ -2405,7 +2405,7 @@
     "Lyenne.SpringMovie0.Love.AfterMovie": "I loved that, thank you, @!$u",
 
     //Journey of the Prairie King
-    "Lyenne.SummerMovie0.Love.BeforeMovie": "Oh, hell yeah! Now we're talking. Although, I was supposed to take Abi to see this with me but it's okay, I'll take her soon.$u",
+    "Lyenne.SummerMovie0.Love.BeforeMovie": "Oh, hell yeah! Now we're talking. Although, I was supposed to take Abby to see this with me but it's okay, I'll take her soon.$u",
     "Lyenne.SummerMovie0.Love.DuringMovie": "%Lyenne is smiling. She seems to be enjoying the movie.",
     "Lyenne.SummerMovie0.Love.AfterMovie": "Woo! That was really good. I was a little wary about a movie adaptation of the game but hey, it's well made!$u",
 
@@ -2713,7 +2713,7 @@
     "MapString.dd.house10": "'Why Are Geminis Like That?'#by Ace Trainer Ai Ryn.",
     "MapString.dd.house11": "You take a peek at Diala's laptop. It has a forum open.#The last message was sent by Shiny Porygon.",
     "MapString.dd.house12": "Diala's sunflowers. They look beautiful.",
-    "MapString.dd.house13": "Looks like one's Diala's spells. It's sealed in white wax.",
+    "MapString.dd.house13": "Looks like one of Diala's spells. It's sealed in white wax.",
     "MapString.dd.house14": "An assortment of candles.#'Red Moon Rose scent'. You have no idea what that means.",
     "MapString.dd.house15": "Derya's game console.#You look at the video game title:#'Kedi vs. Bots'.",
     "MapString.dd.house16": "Derya's precious coffee machine. Better leave it alone.",
@@ -2844,7 +2844,7 @@
     "Festivals.EggFest.Aicha": "So... the festival isn't actually about how many eggs you can eat? That's a little disappointing.$s",
     "Festivals.EggFest.Amina": "I'm SO excited to play with Vincent and Jas! Jas and I are gonna team up to win!$h",
     "Festivals.EggFest.Ari": "It's always nice to see how excited the kids get about the egg hunt. The kids being Blake and Lyenne, of course. I feel bad for the actual kids trying to participate.$u",
-    "Festivals.EggFest.Blake": "I don't care how old I get, I'm still going to be way too competitive as long as Abi and Lyenne participate.$u",
+    "Festivals.EggFest.Blake": "I don't care how old I get, I'm still going to be way too competitive as long as Abby and Lyenne participate.$u",
     "Festivals.EggFest.Derya": "Diala wanted to put her bunny ears on me for the festival. Little does she know, I hid them last night.$6",
     "Festivals.EggFest.Diala": "Derya and I helped Emily with painting the eggs!$h#$b#Look for the splotchy ones if you're participating, those are Derya's.$h",
     "Festivals.EggFest.Elias": "Mmm... Gus' food never disappoints. I always look forward to these festivals mostly for the food. Now we just have to convince Miyoung and Jumana to make some, too.$u",
@@ -2869,7 +2869,7 @@
     "Festivals.FlowerDance.Ezra": "Ah, it makes me so happy seeing everyone get all dressed up. I feel like a proud parent.$u#$b#Now, to find an equally stylish dance partner.$h",
     "Festivals.FlowerDance.Iman": "Haley looks SO good! I love all the outfits she picks out for festivals.$u#$b#Speaking of outfits, Ezra did an amazing job with my dress!$h",
     "Festivals.FlowerDance.Jumana": "How do you like the flowers? Eve and I worked really hard to make them look pretty!$u",
-    "Festivals.FlowerDance.Lyenne": "Abi looks so good today! I wonder if she already has a dance partner. I'd love to ask her to dance.$u#$b#PLATONICALLY! As a friend, of course.$8",
+    "Festivals.FlowerDance.Lyenne": "Abby looks so good today! I wonder if she already has a dance partner. I'd love to ask her to dance.$u#$b#PLATONICALLY! As a friend, of course.$8",
     "Festivals.FlowerDance.Maia": "I'm booing whoever choreographed this dance. Boo! It needs more energy and passion.$u",
     "Festivals.FlowerDance.Miyoung": "Heh, Silas really liked the dress Ezra made me! His eyes lit up when he saw me this morning.$4",
     "Festivals.FlowerDance.Moon": "Moon doesn't dance. Moon jumps!$h#$b#...Moon falls over sometimes.$s",
@@ -2923,7 +2923,7 @@
     "Festivals.StardewFair.Ezra": "Ophelia said she'd talk to Lewis about letting me set up a stall for my clothes next year. In the meantime, I'll enjoy the games and the food.$u",
     "Festivals.StardewFair.Iman": "Seeing everyone's stalls makes me wish I'd worked harder to be a farmer.$s#$b#Oh, well. In another lifetime, maybe.", //change after event
     "Festivals.StardewFair.Jumana": "I wasn't planning on attending, but Amina really wanted me to be there, so here I am.$7#$b#I'm glad she's having fun.",
-    "Festivals.StardewFair.Lyenne": "Can't believe I lost to Blake! I really need to up my game. I'll get him next time.$6#$b#I wonder if Abi is up for a challenge. I'll go find her.$h",
+    "Festivals.StardewFair.Lyenne": "Can't believe I lost to Blake! I really need to up my game. I'll get him next time.$6#$b#I wonder if Abby is up for a challenge. I'll go find her.$h",
     "Festivals.StardewFair.Maia": "Years of delving into caves and mines have definitely given me an advantage for the slingshot game. Elias may be the fishing professional, but he stands no chance against me when it comes to slingshots.$h",
     "Festivals.StardewFair.Miyoung": "I love seeing everyone having fun. They do tend to get a little competitive, though.$7",
     "Festivals.StardewFair.Moon": "Can you bring Moon tokens?$u#$b#Moon gets fedora!$h",
@@ -3843,7 +3843,7 @@
 
     //Spring
     "Blake.Dialogue.spring_1": "My dad's going around all \"Ugh, stupid season, stupid allergies.\" since he woke up. He's clearly having a great time.$u",
-    "Blake.Dialogue.spring_12": "Oh, I'm so beating both Lyenne and Abi at the egg hunt. You better watch out too, farmer.$h",
+    "Blake.Dialogue.spring_12": "Oh, I'm so beating both Lyenne and Abby at the egg hunt. You better watch out too, farmer.$h",
     "Blake.Dialogue.spring_23": "I genuinely do not care for tomorrow's dance, we're just going for the free food at this point.",
 
     //Summer
@@ -3878,7 +3878,7 @@
     "Blake.Dialogue.Tue2": "Lyenne's room at the inn is pretty cozy. Ophelia's really nice too, she's always looking after us.",
     "Blake.Dialogue.Wed2": "You ever think about how very few healthcare workers we have around in close proximity?$8#$b#That's not good. We don't even have a therapist or anything.$s",
     "Blake.Dialogue.Thu2": "My dad got some new seeds in stock. I might take a few to Miss Miyoung, I know she'd appreciate it.$h",
-    "Blake.Dialogue.Fri2": "Lyenne invited Seb, Sam, and Abi to our Saturday hangouts by the fountain, I hope they can make it.$u#$b#You should too, if you've got time.",
+    "Blake.Dialogue.Fri2": "Lyenne invited Seb, Sam, and Abby to our Saturday hangouts by the fountain, I hope they can make it.$u#$b#You should too, if you've got time.",
     "Blake.Dialogue.Sat2": "I'm SO glad I don't have classes today. I really can't be bothered.$s#$b#I mean, yeah, it's a little easier since I don't have to physically attend, but it's still just as draining.$s",
     "Blake.Dialogue.Sun2": "Lyenne suggested that we work with Seb to make a game! How cool is that?$u",
 
@@ -3906,7 +3906,7 @@
     "Blake.Dialogue.Wed8": "I'm glad we've gotten closer. I love Lyenne to bits, but it's always nice to expand my circle.$h#$b#...Damn, my father was right again.$s",
     "Blake.Dialogue.Thu8": "%Blake is looking at his phone intently.#$b#Sorry, @. Lyenne and I are playing a monster hunting game and she's catching them all. I'll talk to you later.$6",
     "Blake.Dialogue.Fri8": "Hmm... oh, @! I found this really cool spot just outside of town. I think you'd like it.$h#$b#I'll set up a day where we can all go and check it out.$u",
-    "Blake.Dialogue.Sat8": "Hey, you know how Abi, Sam and Seb are a trio? Well, now you, Lyenne, and I can be a trio too!$7#$b#Glad our abbreviation doesn't spell out ASS.$u",
+    "Blake.Dialogue.Sat8": "Hey, you know how Abby, Sam and Seb are a trio? Well, now you, Lyenne, and I can be a trio too!$7#$b#Glad our abbreviation doesn't spell out ASS.$u",
     "Blake.Dialogue.Sun8": "I'm taking a really interesting class right now, but the assignments for it are so hectic.$s#$b#It's a good thing I enjoy reading, otherwise I would've been screwed.$u",
 
     //10 hearts (PLATONIC)
@@ -4319,7 +4319,7 @@
 
     //Spring
     "Lyenne.Dialogue.spring_1": "It's still a little chilly, but way better than winter. I can actually tolerate this weather.$u",
-    "Lyenne.Dialogue.spring_12": "Egg hunt time! Egg hunt time!$6#$b#I'm so going to win this year, Abi doesn't stand a chance.$u",
+    "Lyenne.Dialogue.spring_12": "Egg hunt time! Egg hunt time!$6#$b#I'm so going to win this year, Abby doesn't stand a chance.$u",
     "Lyenne.Dialogue.spring_23": "Ugh, dancing.$s#$b#You know, I wouldn't be so opposed to it if someone who looks like that one video game character I like asked me to dance.$h",
 
     //Summer
@@ -4342,11 +4342,11 @@
 
     //0 hearts
     "Lyenne.Dialogue.Mon": "Sorry, my memory's pretty bad, I already forgot your name.$7#$b#$y '..._Tell Lyenne your name._Ah, @! Thank you, I'll do my best to remember it.$u_Make up a fake name._...Haha, very funny, I'll find out eventually.$u' ",
-    "Lyenne.Dialogue.Tue": "Oh, hi! Blake and I are going over to Seb's soon.#$b#I really hope Abi comes, too. I haven't seen her in a while.$h",
+    "Lyenne.Dialogue.Tue": "Oh, hi! Blake and I are going over to Seb's soon.#$b#I really hope Abby comes, too. I haven't seen her in a while.$h",
     "Lyenne.Dialogue.Wed": "Ugh, I should get a job soon. If only I had a grandfather who would let me inherit his farm.$7",
     "Lyenne.Dialogue.Thu": "I adore that waterfall in the forest. It's such a nice spot to just hang out and draw. That is, if you can ignore the creepy house with the weird tree on top.$u",
     "Lyenne.Dialogue.Fri": "Hmm... you know what this town is missing? An arcade!$u#$b#Maybe if we bother Lewis and Ophelia enough... Nah, Lewis is too cheap for that.$7",
-    "Lyenne.Dialogue.Sat": "I just heard the juciest gossip while I was texting Abi. I can't wait to tell Derya.$6",
+    "Lyenne.Dialogue.Sat": "I just heard the juiciest gossip while I was texting Abby. I can't wait to tell Derya.$6",
     "Lyenne.Dialogue.Sun": "It's like, I can't even talk to an old person without them mentioning the weather. I get it! I live in the same place as you!$u",
 
     //2 hearts
@@ -4383,7 +4383,7 @@
     "Lyenne.Dialogue.Thu8": "Oh, God. Blake's making fun of me for getting flustered around Maia.$10#$b#I can't help it! Have you seen her?$7",
     "Lyenne.Dialogue.Fri8": "Elias left a couple of cookies unsupervised on his table. Here, we can share. [223]$u",
     "Lyenne.Dialogue.Sat8": "%Lyenne rests her head on your shoulder.#$b#Ughhh, @. I have so much work to do for this class and no motivation to do any of it.$s#$b#It's okay, I'll try to get it done early so we could hang out for a bit if you're free.",
-    "Lyenne.Dialogue.Sun8": "Ah, yes. I love waking up on a Sunday morning thinking I'm going to spend it in bed, only to get dragged out by Blake.$u#$b#It's fine, we'll get to watch Abi, Sam, and Seb rehearse.$h",
+    "Lyenne.Dialogue.Sun8": "Ah, yes. I love waking up on a Sunday morning thinking I'm going to spend it in bed, only to get dragged out by Blake.$u#$b#It's fine, we'll get to watch Abby, Sam, and Seb rehearse.$h",
 
     //10 hearts (PLATONIC)
     "Lyenne.Dialogue.Mon10": "Hey, you. I've gotten all my assignments done so now I've got nothing to do. Wanna hang out with me and Blake? We found this cool multiplayer game earlier.$h",
@@ -5531,9 +5531,9 @@
     "Jumana.Dialogue.ReihanaIntro": "That... incident earlier was horrifying. I'm glad everyone's okay. We just need to keep an eye out for each other until this is resolved.$s#$b#...All this for fertilizer. Poor Diala.$s",
 
     //Lyenne
-    "Lyenne.Dialogue.cc_Complete": "I wonder if Sam, Seb, and Abi want to hang out in the community center now that it's fixed up.#$b#We tried hanging out when it was still broken down, but it was way too scary.$7",
+    "Lyenne.Dialogue.cc_Complete": "I wonder if Sam, Seb, and Abby want to hang out in the community center now that it's fixed up.#$b#We tried hanging out when it was still broken down, but it was way too scary.$7",
     "Lyenne.Dialogue.cc_Bus": "I'm glad the bus is working again. I do tend to avoid the city like the plague, so maybe I'll head to the desert instead.$u",
-    "Lyenne.Dialogue.movieTheater": "Oh, hell yeah! I'm SO taking Abi to a movie soon. And Blake, too, I guess.$u",
+    "Lyenne.Dialogue.movieTheater": "Oh, hell yeah! I'm SO taking Abby to a movie soon. And Blake, too, I guess.$u",
     "Lyenne.Dialogue.SterlingSwim": "Mia made me some bear pancakes. BEAR pancakes. How cute is that? They were delicious, too!$u",
     "Lyenne.Dialogue.keahi_prank": "...Did someone prank you? You really should hit the shower, trust me.$u",
     "Lyenne.Dialogue.MeetTheCats": "Oh, my GOD. Talking cats! They just hung out with me and listened to me complain about everything. Jean was very wise.$h",
@@ -5542,7 +5542,7 @@
     "Lyenne.Dialogue.luauPoisoned": "I didn't really have any of the soup yesterday, but Blake did unfortunately. Poor guy.$s",
     "Lyenne.Dialogue.BookLaunchParty": "Oh, my GOD! Rodney released his new book! I'm SO excited to read it. He's one of my favorite writers.$u",
     "Lyenne.Dialogue.ReihanaIntro": "Okay, while that whole demon summoning thing was terrifying, I am wondering if either of them are single. Is that bad? It is, isn't it?$7",
-    "Lyenne.Dialogue.PTJ03": "Abi's so funny. She told me all about the prank they pulled at Joja. Absolutely deserved.$u",
+    "Lyenne.Dialogue.PTJ03": "Abby's so funny. She told me all about the prank they pulled at Joja. Absolutely deserved.$u",
 
     //Maia
     "Maia.Dialogue.cc_Complete": "Glad to see the community center restored. Maybe Silas and I will join Clint to help out.$h",
@@ -5655,7 +5655,7 @@
     //MeetDND
     "MeetDND.Alex": "Yo! Are you going to that cat cafe? What, me?#$b#Nah, it's not really my thing.$h#$b#Unless you're going, I could always go then... you know, to keep you company.$h",
     "MeetDND.Jodi": "Diala's always sending me pictures of the cats from the cafe.$h#$b#They always make my day so much better!$h",
-    "MeetDND.Caroline": "It's nice to know Abi's making more friends. Lyenne and Blake are good kids.$h",
+    "MeetDND.Caroline": "It's nice to know Abby's making more friends. Lyenne and Blake are good kids.$h",
     "MeetDND.Shane1": "Jas wanted to see the cat cafe, so we went. Gotta say, they make great coffee and cookies there.$h",
     "MeetDND.Shane2": "Ugh, like we don't have enough cats, now they want us to drink with them.$2",
 
