@@ -1096,7 +1096,7 @@
       }
     },
     // Twilight Festival Patch
-    {
+    /*{
       "Action": "EditMap",
       "Target": "Maps/Custom_SBV_SunberryVillage",
       "PatchMode": "Overlay",
@@ -1117,6 +1117,6 @@
         "Season": "Fall",
         "Day": "26"
       }
-    }
+    }*/
   ]
 }

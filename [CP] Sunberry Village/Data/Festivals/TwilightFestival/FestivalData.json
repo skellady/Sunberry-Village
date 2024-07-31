@@ -13,7 +13,7 @@
                     "StartTime": "1600",
                     "StartMessage": "{{i18n:SBV.TwilightFestival.StartMessage}}",
                     "MapReplacements": {
-                        "Custom_SBV_SunberryVillage": "Custom_SBV_SunberryVillage"
+                        "Custom_SBV_SunberryVillage": "Custom_SBV_TwilightFestival"
                     }
                 }
             }

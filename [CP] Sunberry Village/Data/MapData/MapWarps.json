@@ -105,6 +105,22 @@
     },
     {
       "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "AddWarps": [
+        "57 -1 Custom_SBV_SunberryMountain 14 39",
+        "58 -1 Custom_SBV_SunberryMountain 15 39",
+        "59 -1 Custom_SBV_SunberryMountain 16 39",
+        "60 -1 Custom_SBV_SunberryMountain 17 39",
+        "61 -1 Custom_SBV_SunberryMountain 17 39",
+        "100 15 Custom_SBV_SunberryRoad 1 11",
+        "100 16 Custom_SBV_SunberryRoad 1 11",
+        "100 17 Custom_SBV_SunberryRoad 1 11",
+        "37 78 Custom_SBV_SunberryForest 68 2",
+        "38 78 Custom_SBV_SunberryForest 69 2"
+      ]
+    },
+    {
+      "Action": "EditMap",
       "Target": "Maps/Custom_SBV_SunberryMountain",
       "AddWarps": [
         "14 41 Custom_SBV_SunberryVillage 57 1",
@@ -1401,6 +1417,247 @@
           }
         }
       ]
+    },
+    // Twilight Festival Locked Door Warps
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 49,
+            "Y": 25
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 26 18 Custom_SBV_DialaCafe 900 2200"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 50,
+            "Y": 25
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 26 18 Custom_SBV_DialaCafe 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 74,
+            "Y": 30
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 11 14 Custom_SBV_SerenityInn 700 2400"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 75,
+            "Y": 30
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 12 14 Custom_SBV_SerenityInn 700 2400"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 94,
+            "Y": 9
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 8 15 Custom_SBV_MiyoungHouse 800 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 88,
+            "Y": 49
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 14 29 Custom_SBV_AriMarket 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 89,
+            "Y": 49
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 14 29 Custom_SBV_AriMarket 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 73,
+            "Y": 12
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 19 12 Custom_SBV_SunberryLibrary 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 74,
+            "Y": 12
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 20 12 Custom_SBV_SunberryLibrary 900 2200"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 49,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 9 13 Custom_SBV_EzraClothes 900 2000"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 50,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 10 13 Custom_SBV_EzraClothes 900 2000"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 31,
+            "Y": 48
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 15 18 Custom_SBV_MaiaHouse 900 2000"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 37,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 7 15 Custom_SBV_ImanHouse 900 2000"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 38,
+            "Y": 13
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 7 15 Custom_SBV_ImanHouse 900 2000"
+          }
+        }
+      ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 86,
+            "Y": 91
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 9 18 Custom_SBV_EliasHouseOld 600 2400"
+          }
+        }
+      ],
     },
   ]
 }

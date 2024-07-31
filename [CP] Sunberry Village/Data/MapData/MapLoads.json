@@ -316,5 +316,11 @@
       "Target": "Maps/Custom_SBV_MinesFinal",
       "FromFile": "Assets/Maps/Mines/SBV_Mines_Final.tmx"
     },
+    {
+      "LogName": "Load Twilight Festival Map",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "FromFile": "Assets/Maps/ExteriorMaps/TwilightFestival.tmx"
+    }
   ]
 }

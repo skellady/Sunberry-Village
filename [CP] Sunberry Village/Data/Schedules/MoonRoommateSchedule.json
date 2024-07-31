@@ -19,7 +19,7 @@
 				"marriage_fall_6": "900 Custom_SBV_DialaCafe 24 9 0/1500 Custom_SBV_SunberryVillage 56 90 3/2300 bed",
 				"marriage_fall_13": "900 Custom_SBV_DialaCafe 24 9 0/1500 Custom_SBV_SunberryVillage 56 90 3/2300 bed",
 				"marriage_fall_20": "900 Custom_SBV_DialaCafe 24 9 0/1500 Custom_SBV_SunberryVillage 56 90 3/2300 bed",
-				"marriage_fall_26": "610 Custom_SBV_SunberryVillage 63 65 1 \"Strings\\schedules\\MoonSBV:TwilightFestival_Roommate.000\"/1600 Custom_SBV_SunberryVillage 76 75 2 \"Strings\\schedules\\MoonSBV:TwilightFestival_Roommate.001\"/2400 Custom_SBV_DDHouse 15 21 2",
+				"marriage_skellady.SBVCP_TwilightFestival": "610 Custom_SBV_SunberryVillage 63 65 1 \"Strings\\schedules\\MoonSBV:TwilightFestival_Roommate.000\"/1600 Custom_SBV_SunberryVillage 76 75 2 \"Strings\\schedules\\MoonSBV:TwilightFestival_Roommate.001\"/2400 Custom_SBV_DDHouse 15 21 2",
 				"marriage_fall_27": "900 Custom_SBV_DialaCafe 24 9 0/1500 Custom_SBV_SunberryVillage 56 90 3/2300 bed",
 				"marriage_winter_16": "a1700 Beach 12 39 0/2100 bed",
 			},

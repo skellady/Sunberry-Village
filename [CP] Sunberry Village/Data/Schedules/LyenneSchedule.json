@@ -15,7 +15,7 @@
 				"spring_Sat": "800 Town 12 93 1/1230 SamHouse 21 15 3/1500 Custom_SBV_SunberryVillage 57 84 2 lyenne_drink \"Strings\\schedules\\LyenneSBV:Fountain\"/2300 Custom_SBV_SerenityInn2ndFloor 4 6 3",
 				"summer_Sat": "800 Town 12 93 1/1230 SamHouse 21 15 3/1500 Custom_SBV_SunberryVillage 57 84 2 lyenne_drink \"Strings\\schedules\\LyenneSBV:Fountain\"/2300 Custom_SBV_SerenityInn2ndFloor 4 6 3",
 				"fall_Sat": "800 Town 12 93 1/1230 SamHouse 21 15 3/1500 Custom_SBV_SunberryVillage 57 84 2 lyenne_drink \"Strings\\schedules\\LyenneSBV:Fountain\"/2300 Custom_SBV_SerenityInn2ndFloor 4 6 3",
-				"fall_26": "900 Custom_SBV_SunberryVillage 69 68 1 \"Strings\\schedules\\LyenneSBV:TwilightFestival.000\"/1600 Custom_SBV_SunberryVillage 75 53 3 \"Strings\\schedules\\LyenneSBV:TwilightFestival.001\"/2500 Custom_SBV_SerenityInn2ndFloor 4 6 3",
+				"skellady.SBVCP_TwilightFestival": "900 Custom_SBV_SunberryVillage 69 68 1 \"Strings\\schedules\\LyenneSBV:TwilightFestival.000\"/1600 Custom_SBV_SunberryVillage 75 53 3 \"Strings\\schedules\\LyenneSBV:TwilightFestival.001\"/2500 Custom_SBV_SerenityInn2ndFloor 4 6 3",
 				"winter_Sat": "610 Custom_SBV_SerenityInn2ndFloor 7 6 0/1000 Custom_SBV_SerenityInn 3 12 0/1200 Custom_SBV_SunberryVillage 66 72 2/a2000 Custom_SBV_SerenityInn2ndFloor 4 6 3",
 				"rain": "610 Custom_SBV_SerenityInn2ndFloor 7 6 0/1000 Custom_SBV_SerenityInn 3 12 0/a2000 Custom_SBV_SerenityInn2ndFloor 4 6 3",
 				"GreenRain": "610 Custom_SBV_SerenityInn 19 8 square_3_1_2"

@@ -929,7 +929,7 @@
     "Lyenne.Dialogue.Fountain2": "I was telling Abi she should join us sometime, but she said she didn't wanna intrude.$s#$b#I'm sure no one here would mind, though.",
     "Lyenne.Dialogue.Fountain3": "Blake and I are getting a board game for next time. It'll be fun, you should join us.$h",
     "Lyenne.Dialogue.TwilightFestival1": "Man, this is one of my favorite things about this village. We never had anything like it back home.#$b#I'm really glad I moved here. I don't see myself leaving anytime soon.$h",
-    "Lyenne.Dialogue.TwilightFestival2": "%Lyenne seems to be singing over Blake talking.#$b#Ari's spooky wares! Ari's spooky wares! You won't find the spooky but you WILL find the wares!$u.",
+    "Lyenne.Dialogue.TwilightFestival2": "%Lyenne seems to be singing over Blake talking.#$b#Ari's spooky wares! Ari's spooky wares! You won't find the spooky but you WILL find the wares!$u",
 
     "Maia.Dialogue.Fountain1": "Props to whoever convinced Elias to play his guitar. He's pretty good, maybe Sam could recruit him into their band.$3",
     "Maia.Dialogue.Fountain2": "Amina might feel a little lonely at these gatherings with no one her age around, but I made sure to bring her sketchbook so she could have something to do.",
@@ -1524,7 +1524,7 @@
     "event-20031441.03": "Yeah!",
     "event-20031441.04": "Not really.",
     "event-20031441.05": "Me, too. I've been into video games for as long as I could remember. My dads got me my first console when they adopted me.$h",
-    "event-20031441.06": "I've... never really gotten presents before then. I think I played on that console for a week straight.$u",
+    "event-20031441.06": "I... hadn't ever really gotten presents before then. I think I played on that console for a week straight.$u",
     "event-20031441.07": "Ah, gotcha. I've been into video games for as long as I could remember. My dads got me my first console when they adopted me.$h",
     "event-20031441.08": "Ugh, I hate this game sometimes.$u",
     "event-20031441.09": "Hehe...",
@@ -4019,7 +4019,7 @@
     "Elias.Dialogue.Sun10": "Why don't we take a trip to the city sometime? I could borrow Ophelia's car so we don't have to deal with buses.$h",
 
     //Green Rain
-    "Elias.Dialogue.GreenRain": "Yoba, what is this? I wonder if that's documented somewhere in the library books.#$b#Hm, no. That's impossible I've read every book in here.$8",
+    "Elias.Dialogue.GreenRain": "Yoba, what is this? I wonder if that's documented somewhere in the library books.#$b#Hm, no. That's impossible. I've read every book in here.$8",
     "Elias.Dialogue.GreenRainFinished": "I met up with Silas to ask about yesterday's weather. Apparently, it's harmless. He's such a knowledgeable man, I envy him a little bit sometimes.",
     "Elias.Dialogue.GreenRain_2": "This year, I'm gonna make sure I document everything there is to know about green rain. It's so fascinating.$h",
 
@@ -4772,7 +4772,7 @@
     "Ophelia.Dialogue.Sun10": "Ah! @, we've got a new cook at the inn. Here, taste this. It's delightful. [618]$u",
 
     //Green Rain
-    "Ophelia.Dialogue.GreenRain": "Please stay safe, @. I'm aware it's not harmless, but I still don't want people walking around until we get enough information.$8",
+    "Ophelia.Dialogue.GreenRain": "Please stay safe, @. I'm sure it's harmless, but I still don't want people walking around until we get enough information.$8",
     "Ophelia.Dialogue.GreenRainFinished": "Hm, I wonder if this rain had any effect on our mines. I'll have to ask Maia to investigate when she can.",
     "Ophelia.Dialogue.GreenRain_2": "I assume this will be a yearly thing, now. I'm just glad no one's spreading any misinformation about this phenomenon.$h",
 
@@ -5081,7 +5081,7 @@
     "SBV.Annabergite.Name": "Annbergite",
     "SBV.Annabergite.Description": "A rare mineral with a unique color. This gem is used for healing and self-reflection.",
     "SBV.BlueAuraQuartz.Name": "Blue Aura Quartz",
-    "SBV.BlueAuraQuartz.Description": "A gorgeous blue gem with a hint of purple. This gem is used for protection and dispelling negative energy",
+    "SBV.BlueAuraQuartz.Description": "A gorgeous blue gem with a hint of purple. This gem is used for protection and dispelling negative energy.",
     "SBV.Citrine.Name": "Citrine",
     "SBV.Citrine.Description": "A yellow variety of quartz. Due to its cheerful color, it is used to build confidence.",
     "SBV.Moonberry.Name": "Moonberry",

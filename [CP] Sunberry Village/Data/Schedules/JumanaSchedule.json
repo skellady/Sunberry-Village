@@ -18,7 +18,7 @@
 				"spring_Sat": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/{{JumanaSaturday}}/2200 Custom_SBV_MaiaHouse 14 6 3",
 				"summer_Sat": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/{{JumanaSaturday}}/2200 Custom_SBV_MaiaHouse 14 6 3",
 				"fall_Sat": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/{{JumanaSaturday}}/2200 Custom_SBV_MaiaHouse 14 6 3",
-				"fall_26": "1000 Custom_SBV_SunberryVillage 25 64 1 \"Strings\\schedules\\JumanaSBV:TwilightFestival.000\"/1600 Custom_SBV_SunberryVillage 17 52 2 \"Strings\\schedules\\JumanaSBV:TwilightFestival.001\"/2500 Custom_SBV_MaiaHouse 14 6 3",
+				"skellady.SBVCP_TwilightFestival": "1000 Custom_SBV_SunberryVillage 25 64 1 \"Strings\\schedules\\JumanaSBV:TwilightFestival.000\"/1600 Custom_SBV_SunberryVillage 17 52 2 \"Strings\\schedules\\JumanaSBV:TwilightFestival.001\"/2500 Custom_SBV_MaiaHouse 14 6 3",
 				"winter_Sat": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/1600 Custom_SBV_MaiaHouse 17 15 1/2200 Custom_SBV_MaiaHouse 14 6 3",
 				"winter_15": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/1300 Beach 12 8 2/2100 Custom_SBV_MaiaHouse 14 6 3",
 				"rain": "610 Custom_SBV_MaiaHouse 27 16 3/800 Custom_SBV_MaiaHouse 12 14 2/1500 Custom_SBV_MaiaHouse 4 15 2/2000 Custom_SBV_MaiaHouse 14 6 3",

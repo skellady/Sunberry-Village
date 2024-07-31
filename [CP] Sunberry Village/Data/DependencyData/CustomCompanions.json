@@ -177,7 +177,7 @@
       {
          "LogName": "Sunberry Village Dogs on Twilight Festival",
          "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryVillage",
+         "Target": "Maps/Custom_SBV_TwilightFestival",
          "MapTiles": [
             {
                "Position": {
@@ -698,7 +698,7 @@
       {
          "LogName": "Sunberry Village Ducks",
          "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryVillage",
+         "Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_TwilightFestival", 
          "MapTiles": [
             {
                "Position": {

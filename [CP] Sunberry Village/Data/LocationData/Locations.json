@@ -2169,6 +2169,24 @@
                         },
                     ],
                     "Forage": []
+                },
+                "Custom_SBV_TwilightFestival": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_TwilightFestival",
+                        "AlwaysActive": false
+                    },
+                    "DisplayName": "{{i18n:Sunberry.Locations.TwilightFestival}}",
+                    "ExcludeFromNpcPathfinding": false,
+                    "Music": [
+                        {
+                            "Id": "{{ModId}}_TwilightFestivalMusic",
+                            "Track": "junimoKart_whaleMusic",
+                        }
+                    ],
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": [],
                 }
             }
         },
