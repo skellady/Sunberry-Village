@@ -449,25 +449,25 @@
         "SpringItemIndex": [
           {
             "Category": "Object",
-            "Name": "Tent Kit"
+            "Name": "skellady.SBVCP_SupplyCrate1"
           }
         ],
         "SummerItemIndex": [
           {
             "Category": "Object",
-            "Name": "Tent Kit"
+            "Name": "skellady.SBVCP_SupplyCrate1"
           }
         ],
         "FallItemIndex": [
           {
             "Category": "Object",
-            "Name": "Tent Kit"
+            "Name": "skellady.SBVCP_SupplyCrate1"
           }
         ],
         "WinterItemIndex": [
           {
             "Category": "Object",
-            "Name": "Tent Kit"
+            "Name": "skellady.SBVCP_SupplyCrate1"
           }
         ],
         "UniqueAreaID": "SBV Mines5B Tent",
@@ -497,7 +497,9 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },
@@ -1563,25 +1565,25 @@
         "SpringItemIndex": [
           {
             "Category": "Object",
-            "Name": "Tent Kit"
+            "Name": "skellady.SBVCP_SupplyCrate2"
           }
         ],
         "SummerItemIndex": [
           {
             "Category": "Object",
-            "Name": "Tent Kit"
+            "Name": "skellady.SBVCP_SupplyCrate2"
           }
         ],
         "FallItemIndex": [
           {
             "Category": "Object",
-            "Name": "Tent Kit"
+            "Name": "skellady.SBVCP_SupplyCrate2"
           }
         ],
         "WinterItemIndex": [
           {
             "Category": "Object",
-            "Name": "Tent Kit"
+            "Name": "skellady.SBVCP_SupplyCrate2"
           }
         ],
         "UniqueAreaID": "SBV Mines10B Tent",
@@ -1611,7 +1613,9 @@
           "WeatherToday": [],
           "WeatherTomorrow": [],
           "GameStateQueries": [],
-          "CPConditions": {},
+          "CPConditions": {
+            "HasMod": "mistyspring.ItemExtensions"
+          },
           "EPUPreconditions": [],
           "LimitedNumberOfSpawns": null
         },

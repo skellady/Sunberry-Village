@@ -1,0 +1,88 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add SBV to Main Network",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [ "Default", "Destinations" ],
+            "Entries": {
+                "{{ModId}}_PTToSBV": {
+                    "Id": "{{ModId}}_PTToSBV",
+                    "DisplayName": "{{i18n:Sunberry.Locations.SunberryVillage}}",
+                    "TargetLocation": "Custom_SBV_SunberryVillage",
+                    "TargetTile": {
+                        "X": 19,
+                        "Y": 11
+                    },
+                    "TargetDirection": "down"
+                }
+            }
+        },
+        {
+            "LogName": "Add SBV Minecarts to Network",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "Entries": {
+                "{{ModId}}_SBVMinecartNetwork": {
+                    "Destinations": [
+                        /*{
+                            "Id": "{{ModId}}_SBVBusStop",
+                            "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_BusStop]",
+                            "Condition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received",
+                            "TargetLocation": "BusStop",
+                            "TargetTile": {
+                                "X": 14,
+                                "Y": 4
+                            },
+                            "TargetDirection": "down"
+                        },*/
+                        {
+                            "Id": "{{ModId}}_SBVTown",
+                            "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_Town]",
+                            "Condition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received",
+                            "TargetLocation": "Town",
+                            "TargetTile": {
+                                "X": 105,
+                                "Y": 80
+                            },
+                            "TargetDirection": "right"
+                        },
+                        {
+                            "Id": "{{ModId}}_SBVVillage",
+                            "DisplayName": "{{i18n:Sunberry.Locations.SunberryVillage}}",
+                            "Condition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received",
+                            "TargetLocation": "Custom_SBV_SunberryVillage",
+                            "TargetTile": {
+                                "X": 19,
+                                "Y": 11
+                            },
+                            "TargetDirection": "down"
+                        },
+                        {
+                            "Id": "{{ModId}}_SBVForest",
+                            "DisplayName": "{{i18n:Sunberry.Locations.SunberryForest}}",
+                            "Condition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received",
+                            "TargetLocation": "Custom_SBV_SunberryForest",
+                            "TargetTile": {
+                                "X": 15,
+                                "Y": 40
+                            },
+                            "TargetDirection": "down"
+                        },
+                        {
+                            "Id": "{{ModId}}_SBVMountain",
+                            "DisplayName": "{{i18n:Sunberry.Locations.SunberryMountain}}",
+                            "Condition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received",
+                            "TargetLocation": "Custom_SBV_SunberryMountain",
+                            "TargetTile": {
+                                "X": 38,
+                                "Y": 10
+                            },
+                            "TargetDirection": "down"
+                        },
+                    ]
+                }
+            }
+        }
+    ]
+}

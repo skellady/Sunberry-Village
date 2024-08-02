@@ -214,13 +214,7 @@
                         {
                             "Id": "{{ModId}}_TwilightFeather",
                             "ItemId": "(O)skellady.SBVCP_TwilightFeather",
-                            "Chance": 0.9,
-                            "QualityModifiers": [
-                                {
-                                    "Modification": "Set",
-                                    "Amount": 0
-                                }
-                            ]
+                            "Chance": 0.9
                         }
                     ]
                 },
@@ -469,13 +463,7 @@
                         {
                             "Id": "{{ModId}}_TwilightFeather",
                             "ItemId": "(O)skellady.SBVCP_TwilightFeather",
-                            "Chance": 0.9,
-                            "QualityModifiers": [
-                                {
-                                    "Modification": "Set",
-                                    "Amount": 0
-                                }
-                            ]
+                            "Chance": 0.9
                         }
                     ]
                 },
@@ -644,13 +632,7 @@
                         {
                             "Id": "{{ModId}}_TwilightFeather",
                             "ItemId": "(O)skellady.SBVCP_TwilightFeather",
-                            "Chance": 0.7,
-                            "QualityModifiers": [
-                                {
-                                    "Modification": "Set",
-                                    "Amount": 0
-                                }
-                            ]
+                            "Chance": 0.7
                         }
                     ]
                 },
@@ -1155,13 +1137,7 @@
                         {
                             "Id": "{{ModId}}_TwilightFeather",
                             "ItemId": "(O)skellady.SBVCP_TwilightFeather",
-                            "Chance": 0.6,
-                            "QualityModifiers": [
-                                {
-                                    "Modification": "Set",
-                                    "Amount": 0
-                                }
-                            ]
+                            "Chance": 0.6
                         }
                     ]
                 },
@@ -2226,13 +2202,7 @@
                 "{{ModId}}_TwilightFeather": {
                     "Id": "{{ModId}}_TwilightFeather",
                     "ItemId": "{{ModId}}_TwilightFeather",
-                    "Chance": 0.4,
-                    "QualityModifiers": [
-                        {
-                            "Modification": "Set",
-                            "Amount": 0
-                        }
-                    ]
+                    "Chance": 0.4
                 }
             }
         },
@@ -2247,13 +2217,7 @@
                 "{{ModId}}_TwilightFeather": {
                     "Id": "{{ModId}}_TwilightFeather",
                     "ItemId": "{{ModId}}_TwilightFeather",
-                    "Chance": 0.5,
-                    "QualityModifiers": [
-                        {
-                            "Modification": "Set",
-                            "Amount": 0
-                        }
-                    ]
+                    "Chance": 0.5
                 }
             }
         },
@@ -2268,13 +2232,7 @@
                 "{{ModId}}_TwilightFeather": {
                     "Id": "{{ModId}}_TwilightFeather",
                     "ItemId": "{{ModId}}_TwilightFeather",
-                    "Chance": 0.5,
-                    "QualityModifiers": [
-                        {
-                            "Modification": "Set",
-                            "Amount": 0
-                        }
-                    ]
+                    "Chance": 0.5
                 }
             }
         }

@@ -201,6 +201,68 @@
 						}
 					]
                 },
+                "{{ModId}}_SupplyCrate1": {
+                    "Name": "{{ModId}}_SupplyCrate1",
+                    "SpriteIndex": 10,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 6,
+                    "Sound": "axe",
+                    "BreakingSound": "cut",
+                    "ItemDropped": "(O)TentKit",
+                    "Tool": "Weapon",
+                    "MinToolLevel": 0,
+					"MinDrops": 1,
+					"MaxDrops": 1,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)206",
+							"Chance": 0.3
+						},
+                        {
+							"ItemId": "(O)608",
+							"Chance": 0.3
+						},
+                        {
+							"ItemId": "(O)606",
+							"Chance": 0.3
+						},
+                        {
+							"ItemId": "(O)241",
+							"Chance": 0.3
+						}
+					]
+                },
+                "{{ModId}}_SupplyCrate2": {
+                    "Name": "{{ModId}}_SupplyCrate2",
+                    "SpriteIndex": 11,
+                    "Texture": "Mods\\skellady.SBVCP\\Nodes",
+                    "Health": 6,
+                    "Sound": "axe",
+                    "BreakingSound": "cut",
+                    "ItemDropped": "(O)TentKit",
+                    "Tool": "Weapon",
+                    "MinToolLevel": 0,
+					"MinDrops": 1,
+					"MaxDrops": 1,
+                    "ExtraItems": [
+						{
+							"ItemId": "(O)770",
+							"Chance": 0.3
+						},
+                        {
+							"ItemId": "(O)771",
+							"Chance": 0.3
+						},
+                        {
+							"ItemId": "(O)773",
+							"Chance": 0.1
+						},
+                        {
+							"ItemId": "(O)skellady.SBVCP_SunberrySeeds",
+							"Chance": 0.3
+						}
+					]
+                },
             }
         }
     ]

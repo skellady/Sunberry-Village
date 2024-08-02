@@ -93,7 +93,8 @@
                         "season_summer",
                         "season_fall",
                         "color_gold"
-                    ]
+                    ],
+                    "ExcludeFromRandomSale": true
                 },
                 "skellady.SBVCP_Hyacinth": {
                     "Name": "skellady.SBVCP_Hyacinth",
@@ -1541,7 +1542,8 @@
                     "Category": -74,
                     "Price": 150,
                     "Texture": "Mods\\skellady.SBVCP\\Seeds",
-                    "SpriteIndex": 4
+                    "SpriteIndex": 4,
+                    "ExcludeFromRandomSale": true
                 },
                 "skellady.SBVCP_HyacinthSeeds": {
                     "Name": "skellady.SBVCP_HyacinthSeeds",

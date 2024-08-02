@@ -8570,7 +8570,7 @@
   </object>
   <object id="116" name="TileData" x="304" y="160" width="16" height="16">
    <properties>
-    <property name="Action" value="MinecartTransport"/>
+    <property name="Action" value="MinecartTransport skellady.SBVCP_SBVMinecartNetwork skellady.SBVCP_SBVVillage"/>
    </properties>
   </object>
   <object id="118" name="TileData" x="1408" y="176" width="16" height="16">
