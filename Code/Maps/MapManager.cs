@@ -94,7 +94,7 @@ internal class MapManager
 	
 	private static void ModifyTravelingSunberryRoadStat(object sender, DayEndingEventArgs e)
 	{
-		if (Game1.player.modData[TraveledSunberryRoadToday] != "true")
+		if (!Game1.player.modData.TryGetValue(TraveledSunberryRoadToday, out string value) || value != "true")
 			return;
 
 		Game1.player.modData.Remove(TraveledSunberryRoadToday);
