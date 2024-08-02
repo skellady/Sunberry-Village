@@ -1960,7 +1960,7 @@
 
     //SO Letters
     "Mail.ReiSODessert": "@,^^It was... nice of you to help me out with my dessert drought. Ew, I didn't mean for that to rhyme. Anyways, thank you, I guess. Here's a little something from my artifacts pile.^^- Reihana %item id (O)122 1 %%[#]Rei's Gratitude",
-    "Mail.MaiaSOWeapon1": "Hey, @,^^Thank you for gathering and collecting the materials. I really appreciate the help. My back's feeling a little better so I should be able to go back into the caves soon. Come by the blacksmith tomorrow, I'll have the weapon available in my shop..^^- Maia[#]Maia's New Weapon",
+    "Mail.MaiaSOWeapon1": "Hey, @,^^Thank you for gathering and collecting the materials. I really appreciate the help. My back's feeling a little better so I should be able to go back into the caves soon. Come by the blacksmith tomorrow, I'll have the weapon available in my shop.^^- Maia[#]Maia's New Weapon",
     "Mail.MaiaSOWeapon2": "Hello, @,^^I was finally able to recreate the battle axe thanks to your help. It's a beauty, honestly. I might have to make one for myself, hah. I should have it ready in the shop soon if you'd like to take a look.^^- Maia[#]The Battle Axe",
     "Mail.MaiaSOWeapon3": "@!^^I couldn't believe my eyes when I saw that you managed to gather everything for this weapon. I'm never been so excited to work on something before, hah. Thank you so much, again. I hope it wasn't too much trouble for you. The sword should be available for purchase soon if you're interested.^^- Maia[#]The Dragonfang",
     "Mail.MaiaSOWeapon4": "Hey, @,^^We finally got done working on the blade. Thank you for gathering the materials for us! Silas and Raz asked me to thank you, too, on their behalf. I'm not gonna lie, this blade scares me a little. Silas said it's energy might be a little chaotic but it should be useful against monsters. Drop by if you'd like to check it out.^^- Maia[#]Menacing Blade",
@@ -2955,7 +2955,7 @@
     //WinterStar
     "Festivals.WinterStar.Aicha": "%Aicha whispers to you.#$b#I got Rei THE best gift ever! It's a box of baked goods from the cafe. I even paid for it! I hope she likes it.$15",
     "Festivals.WinterStar.Amina": "My grandma helped me make something for my secret friend! I really hope they like it.$h#$b#Mom and grandma also got me gifts, but I'm not allowed to open them until we're back home.$s",
-    "Festivals.WinterStar.Ari": "I... got the gift on the last minute. I still think it's good, though. Anyways, happy Winter Star, farmer.$12",
+    "Festivals.WinterStar.Ari": "I... got my secret friend's gift at the last minute. I still think it's good, though. Anyways, happy Winter Star, farmer.$12",
     "Festivals.WinterStar.Blake": "Lyenne hasn't shut up about time being fake. I don't disagree, but girl, I really don't need an existential crisis right now.$u#$b#Happy Winter Star, @. I hope this year's treated you well.$h",
     "Festivals.WinterStar.Diala": "Happy Winter Star, @! I got my secret friend a batch of chocolate chip cookies!$h#$b#I also made some cat-safe cookies for the cats.$h",
     "Festivals.WinterStar.Derya": "Happy holidays, @! I hope you've had a wonderful year.$h#$b#I got to cuddle the cats this morning, so I'm in a great mood.$h",
