@@ -1,7 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
 using StardewModdingAPI.Events;
+using StardewModdingAPI.Utilities;
 using StardewValley;
+using StardewValley.BellsAndWhistles;
+using StardewValley.Extensions;
 using StardewValley.Menus;
 using SunberryVillage.Events.Tarot;
 using SunberryVillage.Shops;
@@ -9,7 +12,10 @@ using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using xTile.Layers;
+using static System.Collections.Specialized.BitVector32;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace SunberryVillage.Maps;
 
@@ -17,15 +23,68 @@ internal class MapManager
 {
 	internal const string TraveledSunberryRoadToday = "SunberryTeam.SBVSMAPI_TraveledSunberryRoadToday";
 
+	internal static readonly PerScreen<int> currentMineLevel = new PerScreen<int>(() => 0);
+	internal static readonly PerScreen<bool> isDrawingMineLevel = new PerScreen<bool>(() => false);
+
 	internal static void AddEventHooks()
 	{
 		Globals.EventHelper.GameLoop.GameLaunched += RegisterTileActions;
 		Globals.EventHelper.Player.Warped += CheckForMinesChanges;
+		Globals.EventHelper.Player.Warped += CheckForDrawingMineLevel;
 		Globals.EventHelper.Player.Warped += CheckTravelingSunberryRoad;
 		Globals.EventHelper.GameLoop.DayEnding += ModifyTravelingSunberryRoadStat;
 	}
 
-	private static void CheckTravelingSunberryRoad(object sender, WarpedEventArgs e)
+    private static void CheckForDrawingMineLevel(object sender, WarpedEventArgs e)
+    {
+        if (!e.IsLocalPlayer)
+        {
+			return;
+        }
+        if (!e.NewLocation.Name.Contains("Custom_SBV_Mines"))
+		{
+			endDrawingMineLevelNumber();
+			return;
+		}
+
+        string mineLevelNumber = Regex.Match(e.NewLocation.Name, @"\d+").Value;
+        if (mineLevelNumber.Length != 0 && int.TryParse(mineLevelNumber, out int minelevel))
+        {
+			currentMineLevel.Value = minelevel;
+			startDrawingMineLevelNumber();
+        } else
+		{
+			endDrawingMineLevelNumber();
+		}
+    }
+
+	private static void startDrawingMineLevelNumber()
+    {
+        if (!isDrawingMineLevel.Value)
+        {
+            Globals.EventHelper.Display.RenderedHud += drawMineLevelNumber;
+            isDrawingMineLevel.Value = true;
+        }
+    }
+
+	private static void endDrawingMineLevelNumber()
+	{
+        if (isDrawingMineLevel.Value)
+        {
+            Globals.EventHelper.Display.RenderedHud -= drawMineLevelNumber;
+            isDrawingMineLevel.Value = false;
+        }
+    }
+
+    private static void drawMineLevelNumber(object sender, RenderedHudEventArgs e)
+    {
+        Rectangle tsarea = Game1.game1.GraphicsDevice.Viewport.GetTitleSafeArea();
+		string text = currentMineLevel.Value.ToString();
+        int height = SpriteText.getHeightOfString(text);
+        SpriteText.drawString(e.SpriteBatch, text, tsarea.Left + 16, tsarea.Top + 16, 999999, -1, height, 1f, 1f, junimoText: false, 2, "", SpriteText.color_White);
+    }
+
+    private static void CheckTravelingSunberryRoad(object sender, WarpedEventArgs e)
 	{
 		if (!e.OldLocation.Name.Equals("Town") || !e.NewLocation.Name.Equals("Custom_SBV_SunberryRoad") || !e.IsLocalPlayer || e.Player.modData.ContainsKey(TraveledSunberryRoadToday))
 			return;
@@ -45,7 +104,7 @@ internal class MapManager
 	private static void CheckForMinesChanges(object sender, WarpedEventArgs e)
 	{
 		if (!e.NewLocation.Name.Contains("Custom_SBV_Mines") || !e.IsLocalPlayer)
-			return;
+            return;
 
 		Farmer player = e.Player;
 		GameLocation mine = e.NewLocation;
@@ -82,9 +141,25 @@ internal class MapManager
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ChooseDestination", HandleChooseDestinationAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DialaTarot", HandleTarotAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MarketDailySpecial", HandleMarketDailySpecialAction);
-	}
+        GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_LadderWarp", HandleLadderWarp);
+    }
 
-	private static bool HandleBookAction(GameLocation location, string[] args, Farmer player, Point tile)
+    private static bool HandleLadderWarp(GameLocation location, string[] arg, Farmer farmer, Point point)
+    {
+		//behaves similar to the vanilla "Warp" Action, but plays ladderdown sound
+        if (!ArgUtility.TryGetPoint(arg, 1, out var tile, out string error) || !ArgUtility.TryGet(arg, 3, out var locationName, out error))
+        {
+            Log.Error(error);
+			return false;
+        }
+        farmer.faceGeneralDirection(new Vector2(point.X, point.Y) * 64f);
+        Rumble.rumble(0.15f, 200f);
+        location.playSound("stairsdown", new Vector2(point.X, point.Y));
+        Game1.warpFarmer(locationName, tile.X, tile.Y, flip: false);
+		return true;
+    }
+
+    private static bool HandleBookAction(GameLocation location, string[] args, Farmer player, Point tile)
 	{
 		if (args.Length < 2)
 			throw new Exception("Incorrect number of arguments provided to SunberryTeam.SBVSMAPI_Book action." +
