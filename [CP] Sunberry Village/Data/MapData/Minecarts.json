@@ -25,17 +25,17 @@
             "Entries": {
                 "{{ModId}}_SBVMinecartNetwork": {
                     "Destinations": [
-                        /*{
+                        {
                             "Id": "{{ModId}}_SBVBusStop",
                             "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_BusStop]",
                             "Condition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received",
                             "TargetLocation": "BusStop",
                             "TargetTile": {
-                                "X": 14,
-                                "Y": 4
+                                "X": 21,
+                                "Y": 23
                             },
                             "TargetDirection": "down"
-                        },*/
+                        },
                         {
                             "Id": "{{ModId}}_SBVTown",
                             "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_Town]",
