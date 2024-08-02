@@ -725,8 +725,8 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 12 6 Custom_SBV_Mines1"
-          }
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 12 6 Custom_SBV_Mines1"
+			}
         }
       ],
       "When": {
@@ -762,7 +762,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 8 5 Custom_SBV_Mines2"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 8 5 Custom_SBV_Mines2"
           }
         }
       ]
@@ -796,7 +796,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 30 5 Custom_SBV_Mines3"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 30 5 Custom_SBV_Mines3"
           }
         }
       ]
@@ -830,7 +830,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 23 5 Custom_SBV_Mines4"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 23 5 Custom_SBV_Mines4"
           }
         }
       ]
@@ -864,7 +864,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 27 21 Custom_SBV_Mines5A"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 27 21 Custom_SBV_Mines5A"
           }
         }
       ]
@@ -906,7 +906,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 10 5 Custom_SBV_Mines6"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 10 5 Custom_SBV_Mines6"
           }
         }
       ]
@@ -940,7 +940,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 10 5 Custom_SBV_Mines6"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 10 5 Custom_SBV_Mines6"
           }
         }
       ]
@@ -974,7 +974,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 24 22 Custom_SBV_Mines7"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 24 22 Custom_SBV_Mines7"
           }
         }
       ]
@@ -1008,7 +1008,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 4 4 Custom_SBV_Mines8"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 4 4 Custom_SBV_Mines8"
           }
         }
       ]
@@ -1042,7 +1042,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 7 6 Custom_SBV_Mines9"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 7 6 Custom_SBV_Mines9"
           }
         }
       ]
@@ -1076,7 +1076,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 15 5 Custom_SBV_Mines10A"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 15 5 Custom_SBV_Mines10A"
           }
         }
       ]
@@ -1135,7 +1135,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 27 24 Custom_SBV_Mines11"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 27 24 Custom_SBV_Mines11"
           }
         }
       ]
@@ -1152,7 +1152,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 27 24 Custom_SBV_Mines11"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 27 24 Custom_SBV_Mines11"
           }
         }
       ]
@@ -1186,7 +1186,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 19 9 Custom_SBV_Mines12"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 19 9 Custom_SBV_Mines12"
           }
         }
       ]
@@ -1220,7 +1220,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 9 8 Custom_SBV_Mines13"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 9 8 Custom_SBV_Mines13"
           }
         }
       ]
@@ -1254,7 +1254,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 44 24 Custom_SBV_Mines14"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 44 24 Custom_SBV_Mines14"
           }
         }
       ]
@@ -1288,7 +1288,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 18 11 Custom_SBV_Mines15"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 18 11 Custom_SBV_Mines15"
           }
         }
       ]
@@ -1322,7 +1322,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 9 7 Custom_SBV_MinesFinal"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 9 7 Custom_SBV_MinesFinal"
           }
         }
       ]
@@ -1339,7 +1339,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_LadderWarp 38 24 Custom_SBV_Mines15"
+            "Action": "SunberryTeam.SBVSMAPI_MineLadder 38 24 Custom_SBV_Mines15"
           }
         }
       ]

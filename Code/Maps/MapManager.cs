@@ -141,7 +141,7 @@ internal class MapManager
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ChooseDestination", HandleChooseDestinationAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DialaTarot", HandleTarotAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MarketDailySpecial", HandleMarketDailySpecialAction);
-        GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_LadderWarp", HandleLadderWarp);
+        GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MineLadder", HandleLadderWarp);
     }
 
     private static bool HandleLadderWarp(GameLocation location, string[] arg, Farmer farmer, Point point)
