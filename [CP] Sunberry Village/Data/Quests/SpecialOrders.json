@@ -7,6 +7,45 @@
             "FromFile": "Assets/Images/SOEmojis/SOEmojis.png"
         },
         {
+            "LogName": "Add SO Emojis Data",
+            "Action": "EditData",
+            "Target": "Mods/skellady.SBVCP/SOEmojisData",
+            "Entries": {
+                "AichaSVB": 0,
+                "AminaSBV": 1,
+                "AriSBV": 2,
+                "BlakeSBV": 3,
+                "DeryaSBV": 4,
+                "DialaSBV": 5,
+                "EliasSBV": 6,
+                "EzraSBV": 7,
+                "ImanSBV": 8,
+                "JumanaSBV": 9,
+                "LyenneSBV": 10,
+                "MaiaSBV": 11,
+                "MiyoungSBV": 12,
+                "MoonSBV": 13,
+                "NadiaSBV": 14,
+                "OpheliaSBV": 15,
+                "PanSBV": 16,
+                "ReihanaSBV": 17,
+                "SilasSBV": 18,
+                "Clara.Ripley": 19,
+                "WrenSong": 20,
+                "DidoSBV": 21,
+                "CassieSBV": 22,
+                "AirynDao": 23,
+                "Bijou": 24,
+                "Jonghyuk": 25,
+                "Raymond": 26,
+                "Yri": 27,
+                "Charles": 28,
+                "Sterling": 29,
+                "Mia": 30,
+                "Henry": 31
+            }
+        },
+        {
             "LogName": "Maia Bug SO",
             "Action": "EditData",
             "Target": "Data/SpecialOrders",
@@ -609,6 +648,6 @@
                     ]
                 }
             }
-        }
+        },
     ]
 }

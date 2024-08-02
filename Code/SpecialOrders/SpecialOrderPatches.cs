@@ -1,10 +1,16 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using HarmonyLib;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI.Utilities;
 using StardewValley;
 using StardewValley.GameData.SpecialOrders;
+using StardewValley.Menus;
 using StardewValley.SpecialOrders;
+using SunberryVillage.Utilities;
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
 // ReSharper disable RedundantAssignment
@@ -104,6 +110,41 @@ internal class SpecialOrderPatches
 
 		__instance.dueDate.Value = SDate.Now().AddDays(99).DaysSinceStart;
 		return false;
+	}
+
+
+	const string ORDER_EMOJI_TEXTURE_PATH = "Mods/skellady.SBVCP/SOEmojis";
+    const string ORDER_EMOJI_DATA_PATH = "Mods/skellady.SBVCP/SOEmojisData";
+
+	const int emojisPerRow = 7;
+	const int emojiSize = 9;
+
+	static Lazy<Dictionary<string, int>> orderEmojiIndices = new Lazy<Dictionary<string, int>>(() => Globals.GameContent.Load<Dictionary<string, int>>(ORDER_EMOJI_DATA_PATH));
+
+    static Lazy<Texture2D> orderEmojiTexture = new Lazy<Texture2D>(() => Globals.GameContent.Load<Texture2D>(ORDER_EMOJI_TEXTURE_PATH));
+
+    /// <summary>
+    /// Patches <c>SpecialOrder.SetDuration</c> for custom special orders with infinite duration
+    /// </summary>
+    [HarmonyPatch(typeof(SpecialOrdersBoard), nameof(SpecialOrdersBoard.GetPortraitForRequester))]
+    [HarmonyPrefix]
+	public static bool SpecialOrderBoard_GetPortraitForRequester_Prefix(string requester_name, ref KeyValuePair<Texture2D, Rectangle>? __result)
+	{
+		try
+		{
+			if(orderEmojiIndices.Value.TryGetValue(requester_name, out int index)) {
+				Rectangle sourceRect = new Rectangle((index % emojisPerRow * emojiSize), (index / emojisPerRow * emojiSize), emojiSize, emojiSize);
+				__result = new KeyValuePair<Texture2D, Rectangle>(orderEmojiTexture.Value, sourceRect);
+				return false;
+			}
+			
+			return true;
+        }
+		catch (Exception ex)
+		{
+			Log.Error($"{nameof(SpecialOrderBoard_GetPortraitForRequester_Prefix)} failed with {ex}");
+			return true;
+		}
 	}
 }
 

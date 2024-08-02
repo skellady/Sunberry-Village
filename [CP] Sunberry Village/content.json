@@ -284,6 +284,12 @@
       "Target": "Strings/SBV/Books",
       "FromFile": "Data/Dialogue/blank.json"
     },
+	    {
+      "LogName": "Load SOEmojiData Blank",
+      "Action": "Load",
+      "Target": "Mods/skellady.SBVCP/SOEmojisData",
+      "FromFile": "Data/Dialogue/blank.json"
+    },
     /* Includes */
     // Custom Features
     {
