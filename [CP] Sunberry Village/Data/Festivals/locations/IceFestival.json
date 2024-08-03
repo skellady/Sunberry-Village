@@ -69,7 +69,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 63 10 down",
+					"Value": "MoonSBV 62 10 down",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -79,7 +79,7 @@
 						"Entries",
 						"Main-Event_additionalCharacters"
 					],
-					"Value": "MoonSBV 63 10 down",
+					"Value": "MoonSBV 62 10 down",
 					"Delimiter": "/",
 				},
 			]
@@ -99,7 +99,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters_y2"
 					],
-					"Value": "MoonSBV 63 10 down",
+					"Value": "MoonSBV 62 10 down",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -109,7 +109,7 @@
 						"Entries",
 						"Main-Event_additionalCharacters_y2"
 					],
-					"Value": "MoonSBV 63 10 down",
+					"Value": "MoonSBV 62 10 down",
 					"Delimiter": "/",
 				},
 			]
