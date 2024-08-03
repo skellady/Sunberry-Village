@@ -4,6 +4,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/DeryaSBV",
 			"Entries": {
+				"Introduction": "{{i18n:Derya.Dialogue.Introduction}}",
 				//spring
 				"spring_1": "{{i18n:Derya.Dialogue.spring_1}}",
 				"spring_12": "{{i18n:Derya.Dialogue.spring_12}}",
@@ -132,16 +133,6 @@
 				"AcceptBirthdayGift_(O)215": "{{i18n:Birthday.PepperPoppers.Derya}}",
 				"AcceptBirthdayGift_(O)227": "{{i18n:Birthday.Sashimi.Derya}}",
 				"AcceptBirthdayGift_(O)253": "{{i18n:Birthday.TripleShotEspresso.Derya}}",
-			},
-		},
-		{
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/DeryaSBV",
-			"Entries": {
-				"Introduction": "{{i18n:Derya.Dialogue.Introduction}}",
-			},
-			"When": {
-				"HasSeenEvent": "{{ModId}}_20031401"
 			}
 		}
 	]

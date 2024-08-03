@@ -288,16 +288,16 @@
         "30 3 Custom_SBV_EliasHouse 9 11",
         "19 14 Custom_SBV_SunberryVillage 73 13",
         "20 14 Custom_SBV_SunberryVillage 74 13",
-        "9 3 Custom_SBV_SunberryMuseum 8 22",
-        "10 3 Custom_SBV_SunberryMuseum 9 22"
+        "9 3 Custom_SBV_SunberryMuseum 8 12",
+        "10 3 Custom_SBV_SunberryMuseum 9 12"
       ]
     },
     {
       "Action": "EditMap",
       "Target": "Maps/Custom_SBV_SunberryMuseum",
       "AddWarps": [
-        "8 23 Custom_SBV_SunberryLibrary 9 4",
-        "9 23 Custom_SBV_SunberryLibrary 10 4"
+        "8 13 Custom_SBV_SunberryLibrary 9 4",
+        "9 13 Custom_SBV_SunberryLibrary 10 4"
       ]
     },
     {

@@ -144,16 +144,6 @@
 				"AcceptBirthdayGift_(O)224": "{{i18n:Birthday.Spaghetti.Diala}}",
 				"AcceptBirthdayGift_(O)578": "{{i18n:Birthday.StarShards.Diala}}",
 				"AcceptBirthdayGift_(O)400": "{{i18n:Birthday.Sunflower.Diala}}",
-			},
-		},
-		{
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/DialaSBV",
-			"Entries": {
-				"Introduction": "{{i18n:Diala.Dialogue.Introduction}}",
-			},
-			"When": {
-				"HasSeenEvent": "{{ModId}}_20031401"
 			}
 		}
 	]
