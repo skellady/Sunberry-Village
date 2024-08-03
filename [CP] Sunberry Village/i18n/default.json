@@ -5298,6 +5298,9 @@
     "MoonberryShop.Dialogue.2": "Moon trusts you to leave the Moonberry here before taking the seeds!",
     "MoonberryShop.Dialogue.3": "Moonberry seeds! Moonberry seeds!",
 
+    // Closed Shop
+    "SBV.Closed.Message": "Closed! Come back later.",
+
     //RSV Gathering Shop
     "RSVEnbyShop.Dialogue": "Hey, take a look at our wares!",
 

@@ -24,6 +24,11 @@
                             ],
                             "Name": "AriSBV",
                             "Id": "AriSBV"
+                        },
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:SBV.Closed.Message}}"
                         }
                     ],
                     "SalableItemTags": [
@@ -298,8 +303,24 @@
                                     "Dialogue": "{{i18n:DNDCafe.Dialogue.{{Random: 1, 2, 3}}}}"
                                 }
                             ],
+                            "Name": "DialaSBV",
+                            "Id": "DialaSBV"
+                        },
+                        {
+                            "Condition": null,
+                            "Portrait": "Portraits/DNDCafe",
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:DNDCafe.Dialogue.{{Random: 1, 2, 3}}}}"
+                                }
+                            ],
+                            "Name": "DeryaSBV",
+                            "Id": "DeryaSBV"
+                        },
+                        {
                             "Name": "AnyOrNone",
-                            "Id": "AnyOrNone"
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:SBV.Closed.Message}}"
                         }
                     ],
                     "SalableItemTags": [
@@ -409,6 +430,11 @@
                             ],
                             "Name": "EzraSBV",
                             "Id": "EzraSBV"
+                        },
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:SBV.Closed.Message}}"
                         }
                     ],
                     "PriceModifiers": null,
@@ -553,6 +579,11 @@
                             ],
                             "Name": "JumanaSBV",
                             "Id": "JumanaSBV"
+                        },
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:SBV.Closed.Message}}"
                         }
                     ],
                     "SalableItemTags": [
@@ -729,6 +760,11 @@
                             ],
                             "Name": "MaiaSBV",
                             "Id": "MaiaSBV"
+                        },
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:SBV.Closed.Message}}"
                         }
                     ],
                     "SalableItemTags": [
@@ -819,6 +855,11 @@
                             ],
                             "Name": "SilasSBV",
                             "Id": "SilasSBV"
+                        },
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "NobodyPresent",
+                            "ClosedMessage": "{{i18n:SBV.Closed.Message}}"
                         }
                     ],
                     "SalableItemTags": [
@@ -936,9 +977,10 @@
                 "skellady.SBVCP_TwilightFeather": {
                     "Id": "skellady.SBVCP_TwilightFeather",
                     "ItemId": "skellady.SBVCP_TwilightFeather",
-                    "AvailableStock": 5,
+                    "Condition": "RANDOM 0.5 @addDailyLuck",
+                    "AvailableStock": 3,
                     "AvailableStockLimit": "Global",
-                    "Price": 1000
+                    "Price": 2000
                 }
             }
         }

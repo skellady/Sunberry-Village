@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="16" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="49">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="16" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="56">
  <properties>
   <property name="AmbientLight" value="120 140 30"/>
   <property name="DayTiles" value="Front 4 8 225 Front 5 8 225 Front 4 9 257 Front 5 9 257"/>
@@ -25,10 +25,10 @@
    </animation>
   </tile>
  </tileset>
- <tileset firstgid="2177" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
-  <image source="paths" width="64" height="144"/>
+ <tileset firstgid="2177" name="Paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths" width="64" height="256"/>
  </tileset>
- <tileset firstgid="2213" name="zDDFurniture" tilewidth="16" tileheight="16" tilecount="720" columns="24">
+ <tileset firstgid="2241" name="zDDFurniture" tilewidth="16" tileheight="16" tilecount="720" columns="24">
   <image source="DDFurniture.png" width="384" height="480"/>
  </tileset>
  <layer id="1" name="Back" width="16" height="19">
@@ -61,15 +61,15 @@
 1,33,42,0,0,0,0,0,0,0,0,0,0,44,37,1,
 1,65,80,81,81,81,81,81,81,904,905,906,907,82,69,1,
 1,65,112,0,1554,113,113,113,113,936,937,938,939,114,69,1,
-1,65,144,1520,0,1680,1681,0,2475,968,969,970,971,146,69,1,
+1,65,144,1520,0,1680,1681,0,2503,968,969,970,971,146,69,1,
 1,65,1551,1552,0,0,0,0,0,0,1001,1002,0,1589,69,1,
 1,161,1615,0,1555,1556,0,0,0,0,0,0,0,1621,168,1,
 1,1,2,3,3,3,195,0,194,3,3,3,3,4,1,1,
 1,33,42,0,0,0,156,0,155,0,0,0,0,44,37,1,
 1,65,80,81,81,81,188,0,187,81,81,81,81,82,69,1,
 1,65,112,113,113,113,220,0,219,113,113,113,113,114,69,1,
-1,65,144,364,0,0,0,0,0,2243,2244,2245,2246,146,69,1,
-1,65,401,0,0,0,0,0,0,2267,2268,2269,2270,962,69,1,
+1,65,144,364,0,0,0,0,0,2271,2272,2273,2274,146,69,1,
+1,65,401,0,0,0,0,0,0,2295,2296,2297,2298,962,69,1,
 1,65,0,0,0,894,0,0,0,0,0,0,0,1030,69,1,
 1,65,952,951,952,926,0,0,0,0,0,966,967,0,69,1,
 1,65,887,0,0,0,0,0,0,0,0,0,0,0,69,1,
@@ -86,52 +86,52 @@
   </object>
   <object id="21" name="TileData" x="144" y="192" width="16" height="16">
    <properties>
-    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 900 1600 12 13 4 1"/>
+    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 600 2600 12 13 4 1"/>
    </properties>
   </object>
   <object id="37" name="TileData" x="176" y="224" width="16" height="16">
    <properties>
-    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 900 1600 12 13 1 1"/>
-   </properties>
-  </object>
-  <object id="41" name="TileData" x="48" y="208" width="16" height="16">
-   <properties>
-    <property name="Action" value="OpenShop skellady.SBVCP_SilasBlacksmith none 900 1600 3 13 2 2"/>
-   </properties>
-  </object>
-  <object id="42" name="TileData" x="160" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 900 1600 12 13 4 1"/>
-   </properties>
-  </object>
-  <object id="43" name="TileData" x="176" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 900 1600 12 13 4 1"/>
-   </properties>
-  </object>
-  <object id="44" name="TileData" x="192" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 900 1600 12 13 4 1"/>
-   </properties>
-  </object>
-  <object id="45" name="TileData" x="192" y="224" width="16" height="16">
-   <properties>
-    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 900 1600 12 13 1 1"/>
-   </properties>
-  </object>
-  <object id="46" name="TileData" x="64" y="208" width="16" height="16">
-   <properties>
-    <property name="Action" value="OpenShop skellady.SBVCP_SilasBlacksmith none 900 1600 3 13 2 2"/>
+    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 600 2600 12 13 1 1"/>
    </properties>
   </object>
   <object id="47" name="TileData" x="64" y="224" width="16" height="16">
    <properties>
-    <property name="Action" value="OpenShop skellady.SBVCP_SilasBlacksmith none 900 1600 3 13 2 2"/>
+    <property name="Action" value="OpenShop skellady.SBVCP_SilasBlacksmith none 600 2600 3 13 2 2"/>
    </properties>
   </object>
-  <object id="48" name="TileData" x="48" y="224" width="16" height="16">
+  <object id="49" name="TileData" x="192" y="224" width="16" height="16">
    <properties>
-    <property name="Action" value="OpenShop skellady.SBVCP_SilasBlacksmith none 900 1600 3 13 2 2"/>
+    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 600 2600 12 13 1 1"/>
+   </properties>
+  </object>
+  <object id="50" name="TileData" x="160" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 600 2600 12 13 4 1"/>
+   </properties>
+  </object>
+  <object id="51" name="TileData" x="176" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 600 2600 12 13 4 1"/>
+   </properties>
+  </object>
+  <object id="52" name="TileData" x="192" y="192" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_MaiaWeapons none 600 2600 12 13 4 1"/>
+   </properties>
+  </object>
+  <object id="53" name="TileData" x="48" y="224" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_SilasBlacksmith none 600 2600 3 13 2 2"/>
+   </properties>
+  </object>
+  <object id="54" name="TileData" x="48" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_SilasBlacksmith none 600 2600 3 13 2 2"/>
+   </properties>
+  </object>
+  <object id="55" name="TileData" x="64" y="208" width="16" height="16">
+   <properties>
+    <property name="Action" value="OpenShop skellady.SBVCP_SilasBlacksmith none 600 2600 3 13 2 2"/>
    </properties>
   </object>
  </objectgroup>
@@ -164,14 +164,14 @@
 0,0,0,0,0,0,0,0,0,0,669,670,1592,0,0,0,
 0,0,0,0,0,0,0,0,1625,0,701,702,1624,0,0,0,
 0,0,0,1521,1522,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,1553,0,1648,1649,0,2451,0,0,0,0,1525,0,0,
+0,0,0,1553,0,1648,1649,0,2479,0,0,0,0,1525,0,0,
 0,0,1519,0,0,0,0,0,0,0,0,0,0,1557,0,0,
 0,0,0,0,1523,1524,0,0,0,0,0,0,0,0,0,0,
 0,0,162,166,166,166,163,0,164,166,166,166,166,167,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,965,226,226,0,0,0,597,598,567,568,0,0,0,
 0,0,0,997,258,258,0,0,0,629,630,309,438,0,0,0,
-0,0,0,332,0,0,0,0,0,2219,2220,2221,2222,0,0,0,
+0,0,0,332,0,0,0,0,0,2247,2248,2249,2250,0,0,0,
 0,0,369,0,0,0,0,0,0,0,0,0,0,930,0,0,
 0,0,0,0,0,830,0,0,0,0,0,0,0,0,0,0,
 0,0,919,920,919,676,0,0,0,0,0,934,935,0,0,0,
