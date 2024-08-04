@@ -7,10 +7,14 @@ using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using HarmonyLib;
 using StardewValley.TokenizableStrings;
 using xTile.Layers;
+// ReSharper disable UnusedMember.Global
+// ReSharper disable InconsistentNaming
 
 namespace SunberryVillage.Shops;
+[HarmonyPatch]
 internal class MarketDailySpecialManager
 {
 	internal static Item MarketDailySpecialItem;
@@ -25,8 +29,6 @@ internal class MarketDailySpecialManager
 		Globals.EventHelper.Content.AssetRequested += DailySpecial_AssetRequested;
 
 		Globals.EventHelper.GameLoop.DayStarted += GetDailySpecial;
-		Globals.EventHelper.Player.Warped += OnWarped;
-
 		Globals.EventHelper.GameLoop.DayEnding += (_, _) => Game1.player.modData.Remove(AlreadyPurchasedMailFlag);
 	}
 
@@ -86,49 +88,62 @@ internal class MarketDailySpecialManager
 			MarketDailySpecialItem = ItemRegistry.Create("(O)0");
 		}
 
-	}
+		
+		// add to market
+		GameLocation market = Game1.getLocationFromName("Custom_SBV_AriMarket");
 
-	private static void OnWarped(object sender, WarpedEventArgs e)
-	{
-		if (!e.IsLocalPlayer || e.NewLocation.Name != "Custom_SBV_AriMarket" || Game1.MasterPlayer.modData.ContainsKey(AlreadyPurchasedMailFlag))
-			return;
-
-		// create TAS and assign appearance from selected daily special item
-		DailySpecialSprite = new TemporaryAnimatedSprite(null, Rectangle.Empty, Vector2.Zero, flipped: false, 0f, Color.White)
+		if (market is null)
 		{
-			layerDepth = 0.135f
-		};
-		DailySpecialSprite.CopyAppearanceFromItemId(MarketDailySpecialItem.QualifiedItemId);
-
-		int heightOffset = DailySpecialSprite.sourceRect.Height / 16;
-
-		// iterate over map to find property in order to determine where to place sprite for special item
-		bool found = false;
-		Layer layer = e.NewLocation.Map.GetLayer("Buildings");
-		for (int x = 0; x < layer.LayerWidth; x++)
+			Log.Error(
+				"Unable to find location matching \"Custom_SBV_AriMarket\", failed to add daily market special sprite to location.");
+		}
+		else
 		{
-			if (found)
-				break;
+			DailySpecialSprite =
+				new TemporaryAnimatedSprite(null, Rectangle.Empty, Vector2.Zero, flipped: false, 0f, Color.White)
+				{
+					layerDepth = 0.135f
+				};
+			DailySpecialSprite.CopyAppearanceFromItemId(MarketDailySpecialItem.QualifiedItemId);
 
-			for (int y = 0; y < layer.LayerHeight; y++)
+			int heightOffset = DailySpecialSprite.sourceRect.Height / 16;
+
+			// iterate over map to find property in order to determine where to place sprite for special item
+			bool found = false;
+			Layer layer = market.Map.GetLayer("Buildings");
+			for (int x = 0; x < layer.LayerWidth; x++)
 			{
 				if (found)
 					break;
 
-				string[] action = e.NewLocation.GetTilePropertySplitBySpaces("Action", "Buildings", x, y);
-				// ReSharper disable once InvertIf
-				if (ArgUtility.Get(action, 0, "") == "SunberryTeam.SBVSMAPI_MarketDailySpecial")
+				for (int y = 0; y < layer.LayerHeight; y++)
 				{
-					DailySpecialTilePosition = new Vector2(x, y) - new Vector2(0, heightOffset);
-					found = true;
+					if (found)
+						break;
+
+					string[] action = market.GetTilePropertySplitBySpaces("Action", "Buildings", x, y);
+					// ReSharper disable once InvertIf
+					if (ArgUtility.Get(action, 0, "") == "SunberryTeam.SBVSMAPI_MarketDailySpecial")
+					{
+						DailySpecialTilePosition = new Vector2(x, y) - new Vector2(0, heightOffset);
+						found = true;
+					}
 				}
 			}
-		}
-		
-		// convert tile pos to pixel pos and shift up slightly on counter
-		DailySpecialSprite.Position = DailySpecialTilePosition * 64f + new Vector2(0f, -16f);
 
-		e.NewLocation.TemporarySprites.Add(DailySpecialSprite);
+			// convert tile pos to pixel pos and shift up slightly on counter
+			DailySpecialSprite.Position = DailySpecialTilePosition * 64f + new Vector2(0f, -16f);
+		}
+	}
+
+	[HarmonyPatch(nameof(GameLocation), nameof(GameLocation.setUpLocationSpecificFlair))]
+	[HarmonyPrefix]
+	public static void setUpLocationSpecificFlair_Prefix(GameLocation __instance)
+	{
+		if (__instance.Name != "Custom_SBV_AriMarket")
+			return;
+
+		__instance.TemporarySprites.Add(DailySpecialSprite);
 	}
 	
 	internal static Item GetOfferItem()
