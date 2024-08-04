@@ -6,7 +6,7 @@
 			"Target": "Characters/schedules/MiyoungSBV",
 			"Entries": {
 				"spring": "610 Custom_SBV_MiyoungHouse 1 8 1/a1400 Custom_SBV_SunberryVillage 30 51 2/a2200 Custom_SBV_MiyoungHouse 13 5 1",
-				"spring_Sun": "610 Custom_SBV_MiyoungHouse 1 8 1/900 JoshHouse 3 19 3/1300 Town 32 77 1/1600 Custom_SBV_SunberryVillage 53 70 3/2200 Custom_SBV_MiyoungHouse 13 5 1",
+				"spring_Sun": "610 Custom_SBV_MiyoungHouse 1 8 1/900 JoshHouse 5 20 3/1300 Town 32 77 1/1600 Custom_SBV_SunberryVillage 53 70 3/2200 Custom_SBV_MiyoungHouse 13 5 1",
 				"summer_Sun": "610 Custom_SBV_MiyoungHouse 1 8 1/1100 Custom_SBV_SunberryForest 14 24 2/2000 Custom_SBV_MiyoungHouse 13 5 1",
 				"fall_Sun": "610 Custom_SBV_MiyoungHouse 1 8 1/1200 Custom_SBV_MiyoungHouse 3 5 3/1900 Custom_SBV_MiyoungHouse 5 13 2/2200 Custom_SBV_MiyoungHouse 13 5 1",
 				"winter_Sun": "610 Custom_SBV_MiyoungHouse 1 8 1/1200 Custom_SBV_MiyoungHouse 5 13 2/1600 Saloon 25 18 1/2200 Custom_SBV_MiyoungHouse 13 5 1",
