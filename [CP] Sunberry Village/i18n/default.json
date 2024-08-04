@@ -1848,6 +1848,9 @@
     "skellady.SBVCP_GoldenSunberryIntroQuest.desc": "You found a strange seedling at the bottom of the Sunberry mines. Maia and Ophelia are investigating to see if they can identify it.",
     "skellady.SBVCP_GoldenSunberryIntroQuest.task": "Wait to hear from Maia and Ophelia.",
 
+    "skellady.SBVCP_GoldenSunberryVillageMeeting.desc": "You received a letter from Ophelia asking you to come to Sunberry for more information regarding the strange seedling.",
+    "skellady.SBVCP_GoldenSunberryVillageMeeting.task": "Head over to Sunberry to find out more.",
+
     "skellady.SBVCP_GoldenSunberryIdentified.desc": "You've identified the seedling as a unique variant of the purple sunberries which the village is known for. Right now, there's not much to do but wait for it to sprout.",
     "skellady.SBVCP_GoldenSunberryIdentified.task": "Check back in on the seedling after a week has passed.",
 
@@ -1956,7 +1959,7 @@
     "Mail.DDAlchemyTableLetter": "Hi, @!^^I've been using my alchemy table a lot more recently, mostly to get better at what I do without... summoning a demon or two. I think I'm getting the hang of it! I'm sending you the recipe to make it since you might find it useful. To make potions, I grind my minerals at Silas' blacksmith, but I'm sure he can set you up with your own mineral grinder if he hasn't already. Oh, also, you'll need some cinder leaves! Maia usually grabs me some from the cave by the blacksmith.^^- Diala[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 1]%item craftingRecipe skellady.SBVCP_AlchemyTable %%[#]Alchemy Table Recipe",
 
     //GSB Trigger Letter
-    "Mail.GSBTriggerLetter": "Dear @,^^We've finally been able to get some information regarding the seed you found at the bottom of the cavern. Drop by soon, we're gathering everyone in town to let them know of our findings.^^- Ophelia[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3][#]Village Meeting",
+    "Mail.GSBTriggerLetter": "Dear @,^^We've finally been able to get some information regarding the seed you found at the bottom of the cavern. Drop by soon, we're gathering everyone in town to let them know of our findings.^^- Ophelia[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3]%action RemoveQuest skellady.SBVCP_GoldenSunberryIntroQuest%%%item quest skellady.SBVCP_GoldenSunberryVillageMeeting true%%[#]Village Meeting",
 
     //SO Letters
     "Mail.ReiSODessert": "@,^^It was... nice of you to help me out with my dessert drought. Ew, I didn't mean for that to rhyme. Anyways, thank you, I guess. Here's a little something from my artifacts pile.^^- Reihana %item id (O)122 1 %%[#]Rei's Gratitude",
