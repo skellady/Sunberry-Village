@@ -46,11 +46,12 @@
     "MarketDailySpecialAlreadyPurchasedToday": "Sorry, {0}. Today's special is all sold out. Come back by tomorrow and see what I've got then!$9",
     "MarketDailySpecialOffer1": "Eyeing the daily special offer? It's {0}! You can take it home for only {1}$.$u",
     "MarketDailySpecialOffer2": "Today's special is {0}. A real steal at only {1}$!$u", // when you interact with the daily special
-    "MarketDailySpecialConfirmPurchase": "Do you want to buy the {0} for {1} gold?", 
+    "MarketDailySpecialConfirmPurchase": "Do you want to buy {0} for {1} gold?",
     "MarketDailySpecialRejectPurchase1": "Oh... okay.$12",
     "MarketDailySpecialRejectPurchase2": "Damn. No money to spend, huh?$12", // if you choose not to buy it
     "MarketDailySpecialNotEnoughMoney1": "Sorry, {0}, I can't give credit. Come back when you've got enough, alright?$10",
     "MarketDailySpecialNotEnoughMoney2": "Nuh uh. Put that back, {0}. You'll need to pay the full amount up front, I'm afraid.$8", // try to buy it but don't have enough
     "MarketDailySpecialPurchased1": "Enjoy! Make sure to come back tomorrow to check out the new offer.$h",
-    "MarketDailySpecialPurchased2": "Enjoy your purchase! You won't find anything this good at Pierre's!$h" // successfully bought it
+    "MarketDailySpecialPurchased2": "Enjoy your purchase! You won't find anything this good at Pierre's!$h", // successfully bought it
+    "MarketDailySpecialQuantityIndicator": "x"  // the 'x' in, for example, "Tea Sapling x 5", to indicate there are 5 tea saplings
 }

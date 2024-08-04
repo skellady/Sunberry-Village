@@ -157,7 +157,7 @@ internal class MarketDailySpecialManager
 		if (MarketDailySpecialItem.modData.TryGetValue("SunberryTeam.SBVSMAPI_MarketSpecialDisplayName", out string overrideName) && !string.IsNullOrEmpty(overrideName))
 			return TokenParser.ParseText(overrideName, null, null, Game1.player);
 
-		return TokenParser.ParseText($"[ArticleFor {MarketDailySpecialItem.DisplayName}] {MarketDailySpecialItem.DisplayName}{(MarketDailySpecialItem.Stack == 1 ? "" : $" x {MarketDailySpecialItem.Stack}")}");
+		return TokenParser.ParseText($"[ArticleFor {MarketDailySpecialItem.DisplayName}] {MarketDailySpecialItem.DisplayName}{(MarketDailySpecialItem.Stack == 1 ? "" : $" {Utils.GetTranslationWithPlaceholder("MarketDailySpecialQuantityIndicator")} {MarketDailySpecialItem.Stack}")}");
 	}
 
 	internal static string GetOfferDialogue()
