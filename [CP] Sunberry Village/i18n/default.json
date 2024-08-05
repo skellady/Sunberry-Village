@@ -1941,7 +1941,7 @@
     //Mail 
     //----
 
-    //FOR NEW TRANSLATORS: Don't translate or remove parts that say [letterbg Mods\\skellady.SBVCP\\SBVletterBG] or %item id (O)numberhere %%. Only translate the actual text and the part after the [#] as that is the title of the letter.
+    //FOR TRANSLATORS: Don't translate or remove parts that say [letterbg Mods\\skellady.SBVCP\\SBVletterBG] or %item id (O)numberhere %%. Only translate the actual text and the part after the [#] as that is the title of the letter.
 
     //DND Invite
     "Mail.DNDInviteLetter": "Hello, @!^^We'd like to invite you to D&D's Cat Cafe. Feel free to drop by during our opening hours! We're located in Sunberry Village.^^Looking forward to seeing you!^^- Diala and Derya[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0][#]D&D Cafe",
@@ -4745,7 +4745,7 @@
     "Ophelia.Dialogue.Thu4": "Maia called earlier, apparently there's been sightings of monsters making it to the surface of the cave in the Sunberry Mountain.#$b#It felt good wielding my sword again.$u",
     "Ophelia.Dialogue.Fri4": "Ezra has good taste. I've been looking all over for a formal outfit for an event, and he had exactly what I needed. He even made some adjustments for me.$u#$b#He did recommend another designer in Ridgeside Village, maybe I'll take a look over there next time.",
     "Ophelia.Dialogue.Sat4": "Ah, Jumana, our wonderful florist. I don't know where I'd be without her. Have you seen how beautiful the inn looks? It brings me joy.$h",
-    "Ophelia.Dialogue.Sun4": "Have you been into the cave besides Silas' blacksmith? I know Maia's been getting their resources from there, but I must urge you to be careful.",
+    "Ophelia.Dialogue.Sun4": "Have you been into the cave beside Silas' blacksmith? I know Maia's been getting their resources from there, but I must urge you to be careful.",
 
     //6 hearts
     "Ophelia.Dialogue.Mon6": "Ah, hello, dear. It's good to see you around. Do you happen to have any animal produce? I get the inn's supply from Marnie's but I'd love to buy some from you, too.$h#$b#That way, we get to support both of you while still shopping local.",

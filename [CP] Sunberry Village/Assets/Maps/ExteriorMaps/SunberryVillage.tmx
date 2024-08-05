@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="500">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="874">
  <editorsettings>
   <export target="DialaTarotPatch.tmx" format="tmx"/>
  </editorsettings>
@@ -114,6 +114,7 @@
   <tile id="175">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -387,22 +388,26 @@
   <tile id="275">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="276">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
    </properties>
   </tile>
   <tile id="277">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
    </properties>
   </tile>
   <tile id="278">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
    </properties>
   </tile>
   <tile id="279">
@@ -446,24 +451,28 @@
   <tile id="300">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="301">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="302">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="303">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -529,18 +538,21 @@
   <tile id="325">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="326">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="327">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -595,18 +607,21 @@
   <tile id="350">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="351">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="352">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -643,18 +658,21 @@
   <tile id="375">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="376">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="377">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -697,18 +715,21 @@
   <tile id="400">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
    </properties>
   </tile>
   <tile id="401">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
     <property name="NoSpawn" value="T"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="402">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -2141,7 +2162,7 @@
   </tile>
   <tile id="175">
    <properties>
-    <property name="Spawnable" value="t"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -2381,19 +2402,26 @@
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
+  <tile id="275">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
   <tile id="276">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="277">
    <properties>
-    <property name="Spawnable" value="t"/>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="278">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -2419,8 +2447,14 @@
     <property name="Water" value="t"/>
    </properties>
   </tile>
+  <tile id="300">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
   <tile id="301">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -2432,6 +2466,7 @@
   </tile>
   <tile id="303">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -2477,16 +2512,19 @@
   </tile>
   <tile id="325">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="326">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="327">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -2537,6 +2575,7 @@
   </tile>
   <tile id="350">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -2548,6 +2587,7 @@
   </tile>
   <tile id="352">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -2573,16 +2613,19 @@
   </tile>
   <tile id="375">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="376">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
   <tile id="377">
    <properties>
+    <property name="Spawnable" value="T"/>
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
@@ -8462,6 +8505,1876 @@
    </properties>
   </object>
   <object id="498" name="TileData" x="224" y="1584" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="500" name="TileData" x="960" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="501" name="TileData" x="976" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="502" name="TileData" x="992" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="503" name="TileData" x="1008" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="504" name="TileData" x="1024" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="505" name="TileData" x="1040" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="506" name="TileData" x="1056" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="507" name="TileData" x="1072" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="508" name="TileData" x="1072" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="509" name="TileData" x="1056" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="510" name="TileData" x="1040" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="511" name="TileData" x="1024" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="512" name="TileData" x="1008" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="513" name="TileData" x="992" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="514" name="TileData" x="976" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="515" name="TileData" x="960" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="516" name="TileData" x="992" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="517" name="TileData" x="1008" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="518" name="TileData" x="1024" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="519" name="TileData" x="1040" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="520" name="TileData" x="1056" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="521" name="TileData" x="1072" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="522" name="TileData" x="1088" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="523" name="TileData" x="1104" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="524" name="TileData" x="1120" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="525" name="TileData" x="1136" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="526" name="TileData" x="1136" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="527" name="TileData" x="1120" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="528" name="TileData" x="1104" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="529" name="TileData" x="1104" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="530" name="TileData" x="1120" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="531" name="TileData" x="1136" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="532" name="TileData" x="1088" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="533" name="TileData" x="1072" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="534" name="TileData" x="1056" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="535" name="TileData" x="1040" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="536" name="TileData" x="1024" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="537" name="TileData" x="1008" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="538" name="TileData" x="992" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="539" name="TileData" x="992" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="540" name="TileData" x="992" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="541" name="TileData" x="1328" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="542" name="TileData" x="1344" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="543" name="TileData" x="1360" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="544" name="TileData" x="1392" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="545" name="TileData" x="1376" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="546" name="TileData" x="1408" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="547" name="TileData" x="1424" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="548" name="TileData" x="1440" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="549" name="TileData" x="1456" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="550" name="TileData" x="1456" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="551" name="TileData" x="1440" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="552" name="TileData" x="1424" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="553" name="TileData" x="1408" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="554" name="TileData" x="1392" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="555" name="TileData" x="1376" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="556" name="TileData" x="1360" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="557" name="TileData" x="1344" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="558" name="TileData" x="1328" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="559" name="TileData" x="1328" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="560" name="TileData" x="1344" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="561" name="TileData" x="1360" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="562" name="TileData" x="1376" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="563" name="TileData" x="1392" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="564" name="TileData" x="1408" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="565" name="TileData" x="1424" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="566" name="TileData" x="1440" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="567" name="TileData" x="1456" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="568" name="TileData" x="1456" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="569" name="TileData" x="1440" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="570" name="TileData" x="1424" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="571" name="TileData" x="1408" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="572" name="TileData" x="1392" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="573" name="TileData" x="1376" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="574" name="TileData" x="1360" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="575" name="TileData" x="1360" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="576" name="TileData" x="1376" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="577" name="TileData" x="1392" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="578" name="TileData" x="1408" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="579" name="TileData" x="1424" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="580" name="TileData" x="1440" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="581" name="TileData" x="1280" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="582" name="TileData" x="1296" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="583" name="TileData" x="1312" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="584" name="TileData" x="1328" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="585" name="TileData" x="1344" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="586" name="TileData" x="1360" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="587" name="TileData" x="1376" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="588" name="TileData" x="1392" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="589" name="TileData" x="1408" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="590" name="TileData" x="1424" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="591" name="TileData" x="1440" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="592" name="TileData" x="1440" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="593" name="TileData" x="1424" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="594" name="TileData" x="1408" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="595" name="TileData" x="1392" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="596" name="TileData" x="1376" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="597" name="TileData" x="1360" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="598" name="TileData" x="1344" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="599" name="TileData" x="1328" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="600" name="TileData" x="1312" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="601" name="TileData" x="1296" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="602" name="TileData" x="1280" y="928" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="603" name="TileData" x="1280" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="604" name="TileData" x="1296" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="605" name="TileData" x="1312" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="606" name="TileData" x="1328" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="607" name="TileData" x="1360" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="608" name="TileData" x="1344" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="609" name="TileData" x="1376" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="610" name="TileData" x="1392" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="611" name="TileData" x="1408" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="612" name="TileData" x="1424" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="613" name="TileData" x="1440" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="614" name="TileData" x="1344" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="615" name="TileData" x="1360" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="616" name="TileData" x="1376" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="617" name="TileData" x="1392" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="618" name="TileData" x="1408" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="619" name="TileData" x="1424" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="620" name="TileData" x="1440" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="621" name="TileData" x="1440" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="622" name="TileData" x="1424" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="623" name="TileData" x="1408" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="624" name="TileData" x="1392" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="625" name="TileData" x="1376" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="626" name="TileData" x="1360" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="627" name="TileData" x="1360" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="628" name="TileData" x="1376" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="629" name="TileData" x="1392" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="630" name="TileData" x="1408" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="631" name="TileData" x="1392" y="832" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="632" name="TileData" x="1376" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="633" name="TileData" x="1392" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="634" name="TileData" x="1408" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="635" name="TileData" x="1328" y="1232" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="636" name="TileData" x="1344" y="1232" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="637" name="TileData" x="1360" y="1232" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="638" name="TileData" x="1376" y="1232" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="639" name="TileData" x="1392" y="1232" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="640" name="TileData" x="1408" y="1232" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="641" name="TileData" x="1424" y="1232" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="642" name="TileData" x="1440" y="1232" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="643" name="TileData" x="1136" y="1328" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="644" name="TileData" x="1152" y="1328" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="645" name="TileData" x="1168" y="1328" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="646" name="TileData" x="1184" y="1328" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="647" name="TileData" x="1200" y="1328" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="648" name="TileData" x="1216" y="1328" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="649" name="TileData" x="1232" y="1328" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="650" name="TileData" x="1232" y="1312" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="651" name="TileData" x="1216" y="1312" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="652" name="TileData" x="1200" y="1312" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="653" name="TileData" x="1184" y="1312" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="654" name="TileData" x="1168" y="1312" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="655" name="TileData" x="1152" y="1312" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="656" name="TileData" x="1136" y="1312" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="657" name="TileData" x="1136" y="1296" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="658" name="TileData" x="1152" y="1296" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="659" name="TileData" x="1168" y="1296" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="660" name="TileData" x="1184" y="1296" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="661" name="TileData" x="1200" y="1296" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="662" name="TileData" x="1216" y="1296" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="663" name="TileData" x="1232" y="1296" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="664" name="TileData" x="1152" y="1280" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="665" name="TileData" x="1136" y="1280" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="666" name="TileData" x="1168" y="1280" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="667" name="TileData" x="1184" y="1280" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="668" name="TileData" x="1200" y="1280" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="669" name="TileData" x="1216" y="1280" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="670" name="TileData" x="1232" y="1280" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="671" name="TileData" x="1216" y="1264" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="672" name="TileData" x="1200" y="1264" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="673" name="TileData" x="1184" y="1264" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="674" name="TileData" x="1168" y="1264" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="675" name="TileData" x="1152" y="1264" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="676" name="TileData" x="1168" y="1248" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="677" name="TileData" x="1184" y="1248" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="678" name="TileData" x="1200" y="1248" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="679" name="TileData" x="1184" y="1232" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="680" name="TileData" x="1312" y="1424" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="681" name="TileData" x="1312" y="1408" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="682" name="TileData" x="1328" y="1408" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="683" name="TileData" x="1328" y="1424" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="684" name="TileData" x="1344" y="1424" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="685" name="TileData" x="1344" y="1408" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="686" name="TileData" x="1360" y="1408" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="687" name="TileData" x="1360" y="1424" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="688" name="TileData" x="1376" y="1424" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="689" name="TileData" x="1376" y="1408" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="690" name="TileData" x="1392" y="1408" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="691" name="TileData" x="1392" y="1424" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="692" name="TileData" x="1408" y="1424" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="693" name="TileData" x="1408" y="1408" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="694" name="TileData" x="1408" y="1392" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="695" name="TileData" x="1392" y="1392" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="696" name="TileData" x="1376" y="1392" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="697" name="TileData" x="1360" y="1392" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="698" name="TileData" x="1376" y="1376" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="699" name="TileData" x="752" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="700" name="TileData" x="768" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="701" name="TileData" x="784" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="702" name="TileData" x="800" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="703" name="TileData" x="816" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="704" name="TileData" x="832" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="705" name="TileData" x="848" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="706" name="TileData" x="864" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="707" name="TileData" x="880" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="708" name="TileData" x="896" y="352" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="709" name="TileData" x="896" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="710" name="TileData" x="880" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="711" name="TileData" x="864" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="712" name="TileData" x="848" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="713" name="TileData" x="800" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="714" name="TileData" x="816" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="715" name="TileData" x="832" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="716" name="TileData" x="784" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="717" name="TileData" x="768" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="718" name="TileData" x="752" y="336" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="719" name="TileData" x="752" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="720" name="TileData" x="768" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="721" name="TileData" x="784" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="722" name="TileData" x="800" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="723" name="TileData" x="816" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="724" name="TileData" x="832" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="725" name="TileData" x="848" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="726" name="TileData" x="864" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="727" name="TileData" x="880" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="728" name="TileData" x="896" y="320" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="729" name="TileData" x="832" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="730" name="TileData" x="816" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="731" name="TileData" x="800" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="732" name="TileData" x="784" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="733" name="TileData" x="768" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="734" name="TileData" x="752" y="304" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="735" name="TileData" x="784" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="736" name="TileData" x="800" y="288" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="737" name="TileData" x="432" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="738" name="TileData" x="448" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="739" name="TileData" x="464" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="740" name="TileData" x="480" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="741" name="TileData" x="496" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="742" name="TileData" x="512" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="743" name="TileData" x="544" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="744" name="TileData" x="528" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="745" name="TileData" x="560" y="704" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="746" name="TileData" x="432" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="747" name="TileData" x="448" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="748" name="TileData" x="464" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="749" name="TileData" x="480" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="750" name="TileData" x="496" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="751" name="TileData" x="512" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="752" name="TileData" x="528" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="753" name="TileData" x="544" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="754" name="TileData" x="560" y="688" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="755" name="TileData" x="560" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="756" name="TileData" x="544" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="757" name="TileData" x="528" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="758" name="TileData" x="512" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="759" name="TileData" x="496" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="760" name="TileData" x="480" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="761" name="TileData" x="464" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="762" name="TileData" x="448" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="763" name="TileData" x="432" y="672" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="764" name="TileData" x="448" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="765" name="TileData" x="464" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="766" name="TileData" x="480" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="767" name="TileData" x="496" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="768" name="TileData" x="512" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="769" name="TileData" x="528" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="770" name="TileData" x="544" y="656" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="771" name="TileData" x="528" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="772" name="TileData" x="512" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="773" name="TileData" x="496" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="774" name="TileData" x="480" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="775" name="TileData" x="464" y="640" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="776" name="TileData" x="480" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="777" name="TileData" x="496" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="778" name="TileData" x="512" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="779" name="TileData" x="496" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="780" name="TileData" x="544" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="781" name="TileData" x="560" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="782" name="TileData" x="576" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="783" name="TileData" x="592" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="784" name="TileData" x="608" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="785" name="TileData" x="624" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="786" name="TileData" x="640" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="787" name="TileData" x="656" y="1008" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="788" name="TileData" x="656" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="789" name="TileData" x="640" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="790" name="TileData" x="624" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="791" name="TileData" x="608" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="792" name="TileData" x="592" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="793" name="TileData" x="576" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="794" name="TileData" x="560" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="795" name="TileData" x="544" y="992" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="796" name="TileData" x="544" y="976" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="797" name="TileData" x="560" y="976" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="798" name="TileData" x="576" y="976" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="799" name="TileData" x="592" y="976" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="800" name="TileData" x="608" y="976" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="801" name="TileData" x="624" y="976" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="802" name="TileData" x="640" y="976" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="803" name="TileData" x="624" y="960" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="804" name="TileData" x="608" y="960" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="805" name="TileData" x="592" y="960" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="806" name="TileData" x="576" y="960" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="807" name="TileData" x="592" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="808" name="TileData" x="608" y="944" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="809" name="TileData" x="128" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="810" name="TileData" x="144" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="811" name="TileData" x="160" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="812" name="TileData" x="176" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="813" name="TileData" x="192" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="814" name="TileData" x="224" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="815" name="TileData" x="208" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="816" name="TileData" x="240" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="817" name="TileData" x="256" y="912" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="818" name="TileData" x="256" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="819" name="TileData" x="240" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="820" name="TileData" x="224" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="821" name="TileData" x="208" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="822" name="TileData" x="192" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="823" name="TileData" x="176" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="824" name="TileData" x="160" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="825" name="TileData" x="144" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="826" name="TileData" x="128" y="896" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="827" name="TileData" x="144" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="828" name="TileData" x="160" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="829" name="TileData" x="176" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="830" name="TileData" x="192" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="831" name="TileData" x="208" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="832" name="TileData" x="224" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="833" name="TileData" x="240" y="880" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="834" name="TileData" x="224" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="835" name="TileData" x="208" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="836" name="TileData" x="192" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="837" name="TileData" x="176" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="838" name="TileData" x="160" y="864" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="839" name="TileData" x="192" y="848" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="840" name="TileData" x="128" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="841" name="TileData" x="144" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="842" name="TileData" x="160" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="843" name="TileData" x="176" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="844" name="TileData" x="192" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="845" name="TileData" x="208" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="846" name="TileData" x="224" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="847" name="TileData" x="240" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="848" name="TileData" x="256" y="624" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="849" name="TileData" x="256" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="850" name="TileData" x="240" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="851" name="TileData" x="224" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="852" name="TileData" x="208" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="853" name="TileData" x="192" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="854" name="TileData" x="176" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="855" name="TileData" x="160" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="856" name="TileData" x="144" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="857" name="TileData" x="128" y="608" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="858" name="TileData" x="144" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="859" name="TileData" x="160" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="860" name="TileData" x="176" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="861" name="TileData" x="192" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="862" name="TileData" x="208" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="863" name="TileData" x="224" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="864" name="TileData" x="240" y="592" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="865" name="TileData" x="224" y="576" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="866" name="TileData" x="208" y="576" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="867" name="TileData" x="192" y="576" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="868" name="TileData" x="176" y="576" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="869" name="TileData" x="160" y="576" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="870" name="TileData" x="176" y="560" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="871" name="TileData" x="192" y="560" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="872" name="TileData" x="208" y="560" width="16" height="16">
+   <properties>
+    <property name="NoSpawn" value="All"/>
+   </properties>
+  </object>
+  <object id="873" name="TileData" x="192" y="544" width="16" height="16">
    <properties>
     <property name="NoSpawn" value="All"/>
    </properties>
