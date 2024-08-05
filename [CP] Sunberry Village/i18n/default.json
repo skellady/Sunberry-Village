@@ -3095,7 +3095,7 @@
 
     //Green Rain
     "Diala.Dialogue.GreenRain": "I woke up to a horrible headache. I think it's... whatever that weather is. I've never seen anything like this before.$s",
-    "Diala.Dialogue.GreenRainFinished": "Oof, my headache is finally gone. Derya was really sweet, she made me some comfort food and lied down next to me all day.$u",
+    "Diala.Dialogue.GreenRainFinished": "Oof, my headache is finally gone. Derya was really sweet, she made me some comfort food and laid down next to me all day.$u",
     "Diala.Dialogue.GreenRain_2": "These trees are so beautiful. I wonder if I can use them in a spell of sorts. Maybe I'll ask Elias or Silas for help identifying them.$h",
 
     //Other Dialogue
@@ -3205,7 +3205,7 @@
 
     //Green Rain
     "Derya.Dialogue.GreenRain": "Don't I experience enough weirdness from Diala's ghosts and spirits? Now I have to deal with weird weather too?$10",
-    "Derya.Dialogue.GreenRainFinished": "Well... I'm glad that's over. Didn't think I'd like seeing the sun this much.$u",
+    "Derya.Dialogue.GreenRainFinished": "Well... I'm glad that's over. Hopefully won't ever have to deal with that again.$u",
     "Derya.Dialogue.GreenRain_2": "Ah, this damn rain again. I'm just make myself a cup of tea and hang out with the cats.$12",
 
     //Other Dialogue
@@ -3672,7 +3672,7 @@
     "Amina.Dialogue.fall_25": "Mom is letting me have my own stall for the festival tomorrow! It's going to be SO much fun.$3",
 
     //Winter
-    "Amina.Dialogue.winter_1": "Grandma Miyoung is going to knit me a pretty scarf!$h",
+    "Amina.Dialogue.winter_1": "Granny Miyoung is going to knit me a pretty scarf!$h",
     "Amina.Dialogue.winter_14": "A market is coming to the beach!$3#$b#Mom is taking me to see the fishies!$h",
     "Amina.Dialogue.winter_15": "I'm so excited to see the fish!$3",
     "Amina.Dialogue.winter_24": "Are you going to the feast tomorrow?$3#$b#Mom and grandma always get me gifts to celebrate.$h",
@@ -3689,7 +3689,7 @@
     "Amina.Dialogue.Sun": "Grandma was teaching me about flower arrangement!$h",
 
     //2 hearts
-    "Amina.Dialogue.Mon2": "Hello! How are you today?$4#$b#Grandma Miyoung baked a cake for me! It was delicious.$h",
+    "Amina.Dialogue.Mon2": "Hello! How are you today?$4#$b#Granny Miyoung baked a cake for me! It was delicious.$h",
     "Amina.Dialogue.Tue2": "Miss Penny is teaching us how to draw.$4#$b#I like it a lot!$h",
     "Amina.Dialogue.Wed2": "Did you know there was a cave up in the Sunberry Mountains? I saw it when I was going with mom to work.$3",
     "Amina.Dialogue.Thu2": "I wish I could see my dad more often.$s#$b#Mom says he's busy at work but he's always thinking about me and missing me just as much.$3",
