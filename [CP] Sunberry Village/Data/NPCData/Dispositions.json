@@ -922,6 +922,16 @@
             "EliasSBV": "{{i18n:NPC_Relationships.AriExHusband}}",
           },
           "SpawnIfMissing": true,
+          "Appearance": [
+            {
+              "Id": "skellady.SBV.CPAriBeach",
+              "Portrait": "Portraits/AriSBV_Beach",
+              "Sprite": "Characters/AriSBV_Beach",
+              "IsIslandAttire": true,
+              "Precedence": -100,
+              "Weight": 0
+            }
+          ],
           "Home": [
             {
               "Id": "Default",
@@ -1091,6 +1101,23 @@
               "Precedence": -100,
               "Weight": 0
             },
+            {
+              "Id": "skellady.SBV.CPEliasIndoors",
+              "Condition": "LOCATION_NAME Target Custom_SBV_EliasHouse",
+              "Portrait": "Portraits/EliasSBV/EliasSBV_Indoors",
+              "Sprite": "Characters/EliasSBV/EliasSBV_Indoors",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPEliasBeach",
+              "Portrait": "Portraits/EliasSBV_Beach",
+              "Sprite": "Characters/EliasSBV_Beach",
+              "IsIslandAttire": true,
+              "Precedence": -100,
+              "Weight": 0
+            }
           ],
           "Home": [
             {
