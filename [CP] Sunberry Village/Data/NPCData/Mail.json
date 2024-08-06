@@ -12,49 +12,49 @@
             "Target": "Data/Mail",
             "Entries": {
                 // DND Invite
-                "skellady.SBVCP_DNDInviteLetter": "{{i18n:Mail.DNDInviteLetter}}",
+                "skellady.SBVCP_DNDInviteLetter": "{{i18n:Mail.DNDInviteLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0][#]{{i18n:Mail.DNDInviteLetter.Title}}",
 
                 // Heart Level Letters
-                "skellady.SBVCP_DialaCoffeeLetter": "{{i18n:Mail.DialaCoffeeLetter}}",
-                "skellady.SBVCP_DialaTarotLetter": "{{i18n:Mail.DialaTarotLetter}}",
-                "skellady.SBVCP_JumanaHusbandLetter": "{{i18n:Mail.JumanaHusbandLetter}}",
+                "skellady.SBVCP_DialaCoffeeLetter": "{{i18n:Mail.DialaCoffeeLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 1][#]{{i18n:Mail.DialaCoffeeLetter.Title}}",
+                "skellady.SBVCP_DialaTarotLetter": "{{i18n:Mail.DialaTarotLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0][#]{{i18n:Mail.DialaTarotLetter.Title}}",
+                "skellady.SBVCP_JumanaHusbandLetter": "{{i18n:Mail.JumanaHusbandLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 2][#]{{i18n:Mail.JumanaHusbandLetter.Title}}",
 
                 // Recipes
-                "DialaSBVCooking": "{{i18n:Mail.DialaHotChocoLetter}}",
-                "DeryaSBVCooking": "{{i18n:Mail.DeryaIceCreamLetter}}",
-                "MoonSBVCooking": "{{i18n:Mail.MoonCookieLetter}}",
-                "skellady.SBVCP_SilasGrinderLetter": "{{i18n:Mail.SilasGrinderLetter}}",
-                "skellady.SBVCP_DDAlchemyTableLetter": "{{i18n:Mail.DDAlchemyTableLetter}}",
+                "DialaSBVCooking": "{{i18n:Mail.DialaHotChocoLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0]%item cookingRecipe %%[#]{{i18n:Mail.DialaHotChocoLetter.Title}}",
+                "DeryaSBVCooking": "{{i18n:Mail.DeryaIceCreamLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 1]%item cookingRecipe %%[#]{{i18n:Mail.DeryaIceCreamLetter.Title}}",
+                "MoonSBVCooking": "{{i18n:Mail.MoonCookieLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0]%item cookingRecipe %%[#]{{i18n:Mail.MoonCookieLetter.Title}}",
+                "skellady.SBVCP_SilasGrinderLetter": "{{i18n:Mail.SilasGrinderLetter.Body}}[#]{{i18n:Mail.SilasGrinderLetter.Title}}",
+                "skellady.SBVCP_DDAlchemyTableLetter": "{{i18n:Mail.DDAlchemyTableLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 1]%item craftingRecipe skellady.SBVCP_AlchemyTable %%[#]{{i18n:Mail.DDAlchemyTableLetter.Title}}",
 
                 // GSB Trigger
-                "skellady.SBVCP_GSBTriggerLetter": "{{i18n:Mail.GSBTriggerLetter}}",
+                "skellady.SBVCP_GSBTriggerLetter": "{{i18n:Mail.GSBTriggerLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3]%action RemoveQuest skellady.SBVCP_GoldenSunberryIntroQuest%%%item quest skellady.SBVCP_GoldenSunberryVillageMeeting true%%[#]{{i18n:Mail.GSBTriggerLetter.Title}}",
 
                 // PassedOut Mail
-                "passedOutSBV": "{{i18n:Mail.passedOutSBV}}",
+                "passedOutSBV": "{{i18n:Mail.passedOutSBV.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3][#]{{i18n:Mail.passedOutSBV.Title}}",
 
                 // Special Order Letters
-                "ReiSODessert": "{{i18n:Mail.ReiSODessert}}",
-                "MaiaSOWeapon1": "{{i18n:Mail.MaiaSOWeapon1}}",
-                "MaiaSOWeapon2": "{{i18n:Mail.MaiaSOWeapon2}}",
-                "MaiaSOWeapon3": "{{i18n:Mail.MaiaSOWeapon3}}",
-                "MaiaSOWeapon4": "{{i18n:Mail.MaiaSOWeapon4}}",
-                "AichaSOWeapon": "{{i18n:Mail.AichaSOWeapon}}",
+                "ReiSODessert": "{{i18n:Mail.ReiSODessert.Body}} %item id (O)122 1 %%[#]{{i18n:Mail.ReiSODessert.Title}}",
+                "MaiaSOWeapon1": "{{i18n:Mail.MaiaSOWeapon1.Body}}[#]{{i18n:Mail.MaiaSOWeapon1.Title}}",
+                "MaiaSOWeapon2": "{{i18n:Mail.MaiaSOWeapon2.Body}}[#]{{i18n:Mail.MaiaSOWeapon2.Title}}",
+                "MaiaSOWeapon3": "{{i18n:Mail.MaiaSOWeapon3.Body}}[#]{{i18n:Mail.MaiaSOWeapon3.Title}}",
+                "MaiaSOWeapon4": "{{i18n:Mail.MaiaSOWeapon4.Body}}[#]{{i18n:Mail.MaiaSOWeapon4.Title}}",
+                "AichaSOWeapon": "{{i18n:Mail.AichaSOWeapon.Body}}[#]{{i18n:Mail.AichaSOWeapon.Title}}",
 
                 // Villager Letters
-                "skellady.SBVCP_AminaSeeds": "{{i18n:Mail.AminaSeeds}}",
-                "skellady.SBVCP_AriSeeds": "{{i18n:Mail.AriSeeds}}",
-                "skellady.SBVCP_AriSprinkler": "{{i18n:Mail.AriSprinkler}}",
-                "skellady.SBVCP_JumanaSeeds": "{{i18n:Mail.JumanaSeeds}}",
-                "skellady.SBVCP_MiyoungSeeds": "{{i18n:Mail.MiyoungSeeds}}",
-                "skellady.SBVCP_EvelynFlowers": "{{i18n:Mail.EvelynFlowers}}",
-                "skellady.SBVCP_LyenneBlakeBugMeat": "{{i18n:Mail.LyenneBlakeBugMeat}}",
-                "skellady.SBVCP_MaiaBars": "{{i18n:Mail.MaiaBars}}",
-                "skellady.SBVCP_DNDDessert": "{{i18n:Mail.DNDDessert}}",
-                "skellady.SBVCP_ReihanaSlime": "{{i18n:Mail.ReihanaSlime}}",
-                "skellady.SBVCP_AichaSeeds": "{{i18n:Mail.AichaSeeds}}",
+                "skellady.SBVCP_AminaSeeds": "{{i18n:Mail.AminaSeeds.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 4]%item id (O)skellady.SBVCP_ArfajSeeds 5 (O)skellady.SBVCP_CoffeeBlossomSeeds 5 %%[#]{{i18n:Mail.AminaSeeds.Title}}",
+                "skellady.SBVCP_AriSeeds": "{{i18n:Mail.AriSeeds.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)skellady.SBVCP_SunberrySeeds 5 %%[#]{{i18n:Mail.AriSeeds.Title}}",
+                "skellady.SBVCP_AriSprinkler": "{{i18n:Mail.AriSprinkler.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)645 3%%[#]{{i18n:Mail.AriSprinkler.Title}}",
+                "skellady.SBVCP_JumanaSeeds": "{{i18n:Mail.JumanaSeeds.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)skellady.SBVCP_RoyalAnemoneSeeds 8 %%[#]{{i18n:Mail.JumanaSeeds.Title}}",
+                "skellady.SBVCP_MiyoungSeeds": "{{i18n:Mail.MiyoungSeeds.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)skellady.SBVCP_CyclamenSeeds 5 %%[#]{{i18n:Mail.MiyoungSeeds.Title}}",
+                "skellady.SBVCP_EvelynFlowers": "{{i18n:Mail.EvelynFlowers.Body}} %item id (O)skellady.SBVCP_CallaLilies 3 %%[#]{{i18n:Mail.EvelynFlowers.Title}}",
+                "skellady.SBVCP_LyenneBlakeBugMeat": "{{i18n:Mail.LyenneBlakeBugMeat.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)684 10 %%[#]{{i18n:Mail.LyenneBlakeBugMeat.Title}}",
+                "skellady.SBVCP_MaiaBars": "{{i18n:Mail.MaiaBars.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 5]%item id (O)336 5 %%[#]{{i18n:Mail.MaiaBars.Title}}",
+                "skellady.SBVCP_DNDDessert": "{{i18n:Mail.DNDDessert.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0]%item id (O)skellady.SBVCP_ChocoChipCookies 2 %%[#]{{i18n:Mail.DNDDessert.Title}}",
+                "skellady.SBVCP_ReihanaSlime": "{{i18n:Mail.ReihanaSlime.Body}} %item id (O)766 15 %%[#]{{i18n:Mail.ReihanaSlime.Title}}",
+                "skellady.SBVCP_AichaSeeds": "{{i18n:Mail.AichaSeeds.Body}} %item id (O)skellady.SBVCP_CallaLilySeeds 5 %%[#]{{i18n:Mail.AichaSeeds.Title}}",
 
                 // Festival Mail
-                "fall_25": "{{i18n:Mail.TwilightFestival}}"
+                "fall_25": "{{i18n:Mail.TwilightFestival.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3][#]{{i18n:Mail.TwilightFestival.Title}}"
             }
         }
     ]
