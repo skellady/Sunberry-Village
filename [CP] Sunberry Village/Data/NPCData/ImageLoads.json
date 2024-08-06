@@ -6,30 +6,12 @@
       "Target": "Characters/MoonSBV/MoonSBV, Characters/ReihanaSBV/ReihanaSBV, Characters/PanSBV/PanSBV, Characters/AminaSBV/AminaSBV, Characters/AriSBV/AriSBV, Characters/BlakeSBV/BlakeSBV, Characters/EliasSBV/EliasSBV, Characters/EzraSBV/EzraSBV, Characters/ImanSBV/ImanSBV, Characters/LyenneSBV/LyenneSBV, Characters/MaiaSBV/MaiaSBV, Characters/MiyoungSBV/MiyoungSBV, Characters/NadiaSBV/NadiaSBV, Characters/OpheliaSBV/OpheliaSBV, Characters/SilasSBV/SilasSBV, Characters/DialaSBV/DialaSBV, Characters/DeryaSBV/DeryaSBV, Characters/AichaSBV/AichaSBV, Characters/JumanaSBV/JumanaSBV, Portraits/MoonSBV/MoonSBV, Portraits/ReihanaSBV/ReihanaSBV, Portraits/PanSBV/PanSBV, Portraits/AminaSBV/AminaSBV, Portraits/AriSBV/AriSBV, Portraits/BlakeSBV/BlakeSBV, Portraits/EliasSBV/EliasSBV, Portraits/EzraSBV/EzraSBV, Portraits/ImanSBV/ImanSBV, Portraits/LyenneSBV/LyenneSBV, Portraits/MaiaSBV/MaiaSBV, Portraits/MiyoungSBV/MiyoungSBV, Portraits/NadiaSBV/NadiaSBV, Portraits/OpheliaSBV/OpheliaSBV, Portraits/SilasSBV/SilasSBV, Portraits/DialaSBV/DialaSBV, Portraits/DeryaSBV/DeryaSBV, Portraits/AichaSBV/AichaSBV, Portraits/JumanaSBV/JumanaSBV, Characters/DialaSBV/DialaSBV_Spring, Characters/DeryaSBV/DeryaSBV_Spring, Characters/AichaSBV/AichaSBV_Spring, Characters/JumanaSBV/JumanaSBV_Spring, Portraits/DialaSBV/DialaSBV_Spring, Portraits/DeryaSBV/DeryaSBV_Spring, Portraits/AichaSBV/AichaSBV_Spring, Portraits/JumanaSBV/JumanaSBV_Spring, Characters/DialaSBV/DialaSBV_Summer, Characters/DeryaSBV/DeryaSBV_Summer, Characters/AichaSBV/AichaSBV_Summer, Characters/JumanaSBV/JumanaSBV_Summer, Portraits/DialaSBV/DialaSBV_Summer, Portraits/DeryaSBV/DeryaSBV_Summer, Portraits/AichaSBV/AichaSBV_Summer, Portraits/JumanaSBV/JumanaSBV_Summer, Characters/DialaSBV/DialaSBV_Fall, Characters/DeryaSBV/DeryaSBV_Fall, Characters/AichaSBV/AichaSBV_Fall, Characters/JumanaSBV/JumanaSBV_Fall, Portraits/DialaSBV/DialaSBV_Fall, Portraits/DeryaSBV/DeryaSBV_Fall, Portraits/AichaSBV/AichaSBV_Fall, Portraits/JumanaSBV/JumanaSBV_Fall, Characters/DialaSBV/DialaSBV_Winter, Characters/DeryaSBV/DeryaSBV_Winter, Characters/AichaSBV/AichaSBV_Winter, Characters/JumanaSBV/JumanaSBV_Winter, Characters/EliasSBV/EliasSBV_Winter, Characters/AminaSBV/AminaSBV_Winter, Portraits/DialaSBV/DialaSBV_Winter, Portraits/DeryaSBV/DeryaSBV_Winter, Portraits/AichaSBV/AichaSBV_Winter, Portraits/JumanaSBV/JumanaSBV_Winter, Portraits/EliasSBV/EliasSBV_Winter, Portraits/AminaSBV/AminaSBV_Winter",
       "FromFile": "Assets/{{Target}}.png"
     },
-    /*{
-      "LogName": "Spring Portraits and Sprites",
+    {
+      "LogName": "Extra Portraits and Sprites",
       "Action": "Load",
-      "Target": "Characters/DialaSBV_Spring, Characters/DeryaSBV_Spring, Characters/AichaSBV_Spring, Characters/JumanaSBV_Spring, Portraits/DialaSBV_Spring, Portraits/DeryaSBV_Spring, Portraits/AichaSBV_Spring, Portraits/JumanaSBV_Spring",
-      "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
+      "Target": "Characters/EliasSBV/EliasSBV_Indoors, Portraits/EliasSBV/EliasSBV_Indoors",
+      "FromFile": "Assets/{{Target}}.png"
     },
-    {
-        "LogName": "Summer Portraits and Sprites",
-        "Action": "Load",
-        "Target": "Characters/DialaSBV_Summer, Characters/DeryaSBV_Summer, Characters/AichaSBV_Summer, Characters/JumanaSBV_Summer, Portraits/DialaSBV_Summer, Portraits/DeryaSBV_Summer, Portraits/AichaSBV_Summer, Portraits/JumanaSBV_Summer",
-        "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
-    },
-    {
-        "LogName": "Fall Portraits and Sprites",
-        "Action": "Load",
-        "Target": "Characters/DialaSBV_Fall, Characters/DeryaSBV_Fall, Characters/AichaSBV_Fall, Characters/JumanaSBV_Fall, Portraits/DialaSBV_Fall, Portraits/DeryaSBV_Fall, Portraits/AichaSBV_Fall, Portraits/JumanaSBV_Fall",
-        "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
-    },
-    {
-        "LogName": "Winter Portraits and Sprites",
-        "Action": "Load",
-        "Target": "Characters/DialaSBV_Winter, Characters/DeryaSBV_Winter, Characters/AichaSBV_Winter, Characters/JumanaSBV_Winter, Portraits/DialaSBV_Winter, Portraits/DeryaSBV_Winter, Portraits/AichaSBV_Winter, Portraits/JumanaSBV_Winter",
-        "FromFile": "Assets/{{Target}}/{{TargetWithoutPath}}.png"
-    },*/
     {
       "LogName": "Beach Portraits",
       "Action": "Load",
