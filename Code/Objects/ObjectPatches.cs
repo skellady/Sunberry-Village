@@ -35,8 +35,8 @@ internal class ObjectPatches
 
 		// skip if item is not the sunberry warp totem or shouldn't be interacted with, or if not in normal gameplay (copied from vanilla code)
 		if (!__instance.QualifiedItemId.Equals("(O)skellady.SBVCP_WarpTotemSunberry") || !Game1.player.CanMove ||
-		    __instance.isTemporarilyInvisible || !Game1.eventUp || !Game1.isFestival() || !Game1.fadeToBlack ||
-		    !Game1.player.swimming.Value || !Game1.player.bathingClothes.Value || !Game1.player.onBridge.Value)
+		    __instance.isTemporarilyInvisible || Game1.eventUp || Game1.isFestival() || Game1.fadeToBlack ||
+		    Game1.player.swimming.Value || Game1.player.bathingClothes.Value || Game1.player.onBridge.Value)
 			return true;
 
 		Game1.player.jitterStrength = 1f;
