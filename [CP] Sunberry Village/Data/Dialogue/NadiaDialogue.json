@@ -3,88 +3,88 @@
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/NadiaSBV",
-			"Entries": {
-				"Introduction": "{{i18n:Nadia.Dialogue.Introduction}}",
-				//spring
-				"spring_1": "{{i18n:Nadia.Dialogue.spring_1}}",
-				"spring_12": "{{i18n:Nadia.Dialogue.spring_12}}",
-				"spring_23": "{{i18n:Nadia.Dialogue.spring_23}}",
-				//summer
-				"summer_1": "{{i18n:Nadia.Dialogue.summer_1}}",
-				"summer_10": "{{i18n:Nadia.Dialogue.summer_10}}",
-				"summer_27": "{{i18n:Nadia.Dialogue.summer_27}}",
-				//fall
-				"fall_1": "{{i18n:Nadia.Dialogue.fall_1}}",
-				"fall_15": "{{i18n:Nadia.Dialogue.fall_15}}",
-				"fall_26": "{{i18n:Nadia.Dialogue.fall_26}}",
-				//winter
-				"winter_1": "{{i18n:Nadia.Dialogue.winter_1}}",
-				"winter_7": "{{i18n:Nadia.Dialogue.winter_7}}",
-				"winter_14": "{{i18n:Nadia.Dialogue.winter_14}}",
-				"BeachNightMarket": "{{i18n:Nadia.Dialogue.winter_15}}",
-				"winter_24": "{{i18n:Nadia.Dialogue.winter_24}}",
-				//days of the week
-				//0 Hearts
-				"Mon": "{{i18n:Nadia.Dialogue.Mon}}",
-				"Tue": "{{i18n:Nadia.Dialogue.Tue}}",
-				"Wed": "{{i18n:Nadia.Dialogue.Wed}}",
-				"Thu": "{{i18n:Nadia.Dialogue.Thu}}",
-				"Fri": "{{i18n:Nadia.Dialogue.Fri}}",
-				"Sat": "{{i18n:Nadia.Dialogue.Sat}}",
-				"Sun": "{{i18n:Nadia.Dialogue.Sun}}",
-				//2 Hearts
-				"Mon2": "{{i18n:Nadia.Dialogue.Mon2}}",
-				"Tue2": "{{i18n:Nadia.Dialogue.Tue2}}",
-				"Wed2": "{{i18n:Nadia.Dialogue.Wed2}}",
-				"Thu2": "{{i18n:Nadia.Dialogue.Thu2}}",
-				"Fri2": "{{i18n:Nadia.Dialogue.Fri2}}",
-				"Sat2": "{{i18n:Nadia.Dialogue.Sat2}}",
-				"Sun2": "{{i18n:Nadia.Dialogue.Sun2}}",
-				//4 Hearts
-				"Mon4": "{{i18n:Nadia.Dialogue.Mon4}}",
-				"Tue4": "{{i18n:Nadia.Dialogue.Tue4}}",
-				"Wed4": "{{i18n:Nadia.Dialogue.Wed4}}",
-				"Thu4": "{{i18n:Nadia.Dialogue.Thu4}}",
-				"Fri4": "{{i18n:Nadia.Dialogue.Fri4}}",
-				"Sat4": "{{i18n:Nadia.Dialogue.Sat4}}",
-				"Sun4": "{{i18n:Nadia.Dialogue.Sun4}}",
-				//6 Hearts
-				"Mon6": "{{i18n:Nadia.Dialogue.Mon6}}",
-				"Tue6": "{{i18n:Nadia.Dialogue.Tue6}}",
-				"Wed6": "{{i18n:Nadia.Dialogue.Wed6}}",
-				"Thu6": "{{i18n:Nadia.Dialogue.Thu6}}",
-				"Fri6": "{{i18n:Nadia.Dialogue.Fri6}}",
-				"Sat6": "{{i18n:Nadia.Dialogue.Sat6}}",
-				"Sun6": "{{i18n:Nadia.Dialogue.Sun6}}",
-				//8 Hearts
-				"Mon8": "{{i18n:Nadia.Dialogue.Mon8}}",
-				"Tue8": "{{i18n:Nadia.Dialogue.Tue8}}",
-				"Wed8": "{{i18n:Nadia.Dialogue.Wed8}}",
-				"Thu8": "{{i18n:Nadia.Dialogue.Thu8}}",
-				"Fri8": "{{i18n:Nadia.Dialogue.Fri8}}",
-				"Sat8": "{{i18n:Nadia.Dialogue.Sat8}}",
-				"Sun8": "{{i18n:Nadia.Dialogue.Sun8}}",
-				//10 Hearts
-				"Mon10": "{{i18n:Nadia.Dialogue.Mon10}}",
-				"Tue10": "{{i18n:Nadia.Dialogue.Tue10}}",
-				"Wed10": "{{i18n:Nadia.Dialogue.Wed10}}",
-				"Thu10": "{{i18n:Nadia.Dialogue.Thu10}}",
-				"Fri10": "{{i18n:Nadia.Dialogue.Fri10}}",
-				"Sat10": "{{i18n:Nadia.Dialogue.Sat10}}",
-				"Sun10": "{{i18n:Nadia.Dialogue.Sun10}}",
+            "Entries": {
+                "Introduction": "{{i18n:Nadia.Dialogue.Introduction}}",
+                //spring
+                "spring_1": "{{i18n:Nadia.Dialogue.spring_1}}",
+                "spring_12": "{{i18n:Nadia.Dialogue.spring_12}}",
+                "spring_23": "{{i18n:Nadia.Dialogue.spring_23}}",
+                //summer
+                "summer_1": "{{i18n:Nadia.Dialogue.summer_1}}",
+                "summer_10": "{{i18n:Nadia.Dialogue.summer_10}}",
+                "summer_27": "{{i18n:Nadia.Dialogue.summer_27}}",
+                //fall
+                "fall_1": "{{i18n:Nadia.Dialogue.fall_1}}",
+                "fall_15": "{{i18n:Nadia.Dialogue.fall_15}}",
+                "fall_26": "{{i18n:Nadia.Dialogue.fall_26}}",
+                //winter
+                "winter_1": "{{i18n:Nadia.Dialogue.winter_1}}",
+                "winter_7": "{{i18n:Nadia.Dialogue.winter_7}}",
+                "winter_14": "{{i18n:Nadia.Dialogue.winter_14}}",
+                "BeachNightMarket": "{{i18n:Nadia.Dialogue.winter_15}}",
+                "winter_24": "{{i18n:Nadia.Dialogue.winter_24}}",
+                //days of the week
+                //0 Hearts
+                "Mon": "{{i18n:Nadia.Dialogue.Mon}}",
+                "Tue": "{{i18n:Nadia.Dialogue.Tue}}",
+                "Wed": "{{i18n:Nadia.Dialogue.Wed}}",
+                "Thu": "{{i18n:Nadia.Dialogue.Thu}}",
+                "Fri": "{{i18n:Nadia.Dialogue.Fri}}",
+                "Sat": "{{i18n:Nadia.Dialogue.Sat}}",
+                "Sun": "{{i18n:Nadia.Dialogue.Sun}}",
+                //2 Hearts
+                "Mon2": "$1 skellady.SBVCP_Nadia.Mon2.Seen#{{i18n:Nadia.Dialogue.Mon2}}#$e#{{i18n:Nadia.Dialogue.Mon2.Seen}}",
+                "Tue2": "{{i18n:Nadia.Dialogue.Tue2}}",
+                "Wed2": "{{i18n:Nadia.Dialogue.Wed2}}",
+                "Thu2": "{{i18n:Nadia.Dialogue.Thu2}}",
+                "Fri2": "{{i18n:Nadia.Dialogue.Fri2}}",
+                "Sat2": "{{i18n:Nadia.Dialogue.Sat2}}",
+                "Sun2": "{{i18n:Nadia.Dialogue.Sun2}}",
+                //4 Hearts
+                "Mon4": "{{i18n:Nadia.Dialogue.Mon4}}",
+                "Tue4": "{{i18n:Nadia.Dialogue.Tue4}}",
+                "Wed4": "{{i18n:Nadia.Dialogue.Wed4}}",
+                "Thu4": "{{i18n:Nadia.Dialogue.Thu4}}",
+                "Fri4": "{{i18n:Nadia.Dialogue.Fri4}}",
+                "Sat4": "{{i18n:Nadia.Dialogue.Sat4}}",
+                "Sun4": "{{i18n:Nadia.Dialogue.Sun4}}",
+                //6 Hearts
+                "Mon6": "{{i18n:Nadia.Dialogue.Mon6}}",
+                "Tue6": "{{i18n:Nadia.Dialogue.Tue6}}",
+                "Wed6": "{{i18n:Nadia.Dialogue.Wed6}}",
+                "Thu6": "{{i18n:Nadia.Dialogue.Thu6}}",
+                "Fri6": "{{i18n:Nadia.Dialogue.Fri6}}",
+                "Sat6": "{{i18n:Nadia.Dialogue.Sat6}}",
+                "Sun6": "{{i18n:Nadia.Dialogue.Sun6}}",
+                //8 Hearts
+                "Mon8": "{{i18n:Nadia.Dialogue.Mon8}}",
+                "Tue8": "{{i18n:Nadia.Dialogue.Tue8}}",
+                "Wed8": "{{i18n:Nadia.Dialogue.Wed8}}",
+                "Thu8": "{{i18n:Nadia.Dialogue.Thu8}}",
+                "Fri8": "{{i18n:Nadia.Dialogue.Fri8}}",
+                "Sat8": "{{i18n:Nadia.Dialogue.Sat8}}",
+                "Sun8": "{{i18n:Nadia.Dialogue.Sun8}}",
+                //10 Hearts
+                "Mon10": "{{i18n:Nadia.Dialogue.Mon10}}",
+                "Tue10": "{{i18n:Nadia.Dialogue.Tue10}}",
+                "Wed10": "{{i18n:Nadia.Dialogue.Wed10}}",
+                "Thu10": "{{i18n:Nadia.Dialogue.Thu10}}",
+                "Fri10": "{{i18n:Nadia.Dialogue.Fri10}}",
+                "Sat10": "{{i18n:Nadia.Dialogue.Sat10}}",
+                "Sun10": "{{i18n:Nadia.Dialogue.Sun10}}",
 
-				//Green Rain
-				"GreenRain": "{{i18n:Nadia.Dialogue.GreenRain}}",
-				"GreenRainFinished": "{{i18n:Nadia.Dialogue.GreenRainFinished}}",
-				"GreenRain_2": "{{i18n:Nadia.Dialogue.GreenRain_2}}",
+                //Green Rain
+                "GreenRain": "{{i18n:Nadia.Dialogue.GreenRain}}",
+                "GreenRainFinished": "{{i18n:Nadia.Dialogue.GreenRainFinished}}",
+                "GreenRain_2": "{{i18n:Nadia.Dialogue.GreenRain_2}}",
 
-				//Gift Dialogue
-				//Positive/Negative
-				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Nadia}}",
-				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Nadia}}",
-				//Love
-				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Nadia}}",
-			},
+                //Gift Dialogue
+                //Positive/Negative
+                "AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Nadia}}",
+                "AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Nadia}}",
+                //Love
+                "AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Nadia}}"
+            },
 		},
 	]
 }
