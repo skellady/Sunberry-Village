@@ -1748,9 +1748,9 @@
     "event-20031461.02": "Oh, phew...",
     "event-20031461.03": "You scared me, I thought you were Razz! I was just looking around.$u",
     "event-20031461.04": "Razz and I are working on something. Well, Razz is doing all the work actually.$u",
-    "event-20031461.05": "He left to grab a book we need.",
+    "event-20031461.05": "{{subject}} left to grab a book we need.",
     "event-20031461.06": "What are you working on?",
-    "event-20031461.07": "Why are you not helping?",
+    "event-20031461.07": "Why aren't you helping?",
     "event-20031461.08": "We uncovered an ancient scroll of sorts and we're working on deciphering it.#$b#I might get Elias, Maia, and Ophelia to help out since it seems to be related to our mines!$h",
     "event-20031461.09": "Well, apparently I get too into it. Miyoung asked Razz to keep me from doing that.$8",
     "event-20031461.10": "You hear footsteps approaching along with the sound of someone grumbling.",
@@ -4596,7 +4596,7 @@
     "Miyoung.Dialogue.Sun2": "Hmm... I wonder if Silas would be free next weekend for a date. I'd love to try this new restaurant in the city.$u",
 
     //4 hearts
-    "Miyoung.Dialogue.Mon4": "Silas learned something new about the cave by his blacksmith yesterday. He said he's going over to Razz's tower to see if {{subject}} knows anything about it.#$b#I didn't believe in any of this before, but it's hard to argue when the evidence is present. It's just a little hard to process.$u",
+    "Miyoung.Dialogue.Mon4": "Silas learned something new about the cave by his blacksmith yesterday. He said he's going over to Razz's tower to see if {{subject}} knows anything about it.#$b#You know, I didn't believe in any of this sort of thing before, but it's hard to argue when the evidence is right there in front of you. It's just a little hard to process.$u",
     "Miyoung.Dialogue.Tue4": "I've been knitting for quite a while now. I enjoy making little clothes for my grandchildren. They're just so cute and tiny!$7#$b#My sons were obviously subjected to my knitted clothes, too.$u",
     "Miyoung.Dialogue.Wed4": "Apparently, there's a shop in the desert? I've heard of the owner before, but I've never seen her! I wonder what life's like over there.$h",
     "Miyoung.Dialogue.Thu4": "I really wish you could meet my sons when they visit! I'm sure you'd love them.$u#$b#They both work in the city, but they rarely get any time off, unfortunately.$s",
@@ -4619,7 +4619,7 @@
     "Miyoung.Dialogue.Wed8": "Aw, Silas made a whole book filled with our pictures from all the way back in college. I think I cried enough for the next three weeks.$u",
     "Miyoung.Dialogue.Thu8": "I might go visit Evelyn soon. It's been a while.#$b#I usually feel like a third wheel when I bring Jumana! All they talk about is flowers. I love that for them, I'm glad they're happy.$7",
     "Miyoung.Dialogue.Fri8": "Did you eat yet, darling? Make sure you keep something on you, even if it's a little snack. And stay hydrated!$u#$b#Here, this should keep you going for a bit. Let me know if you ever need anything. [201]$6",
-    "Miyoung.Dialogue.Sat8": "Razz and Silas are going to the cave to make sure everything's in order. I know they're fully capable, I just hope they take Maia or Ophelia with them.$s",
+    "Miyoung.Dialogue.Sat8": "Razz and Silas are going to the cave to make sure everything's in order. I know they're fully capable of handling themselves, but I still wish they'd take Maia or Ophelia with them.$s",
     "Miyoung.Dialogue.Sun8": "Ah, @! Look at how cute my granddaughter looks.$u#$b#%Miyoung shows you a picture on her phone of a young girl being held by a man, presumably Miyoung's son.#$b#I can't wait to see her again. I'm going to make her all the dishes she likes.$7",
 
     //10 hearts 
