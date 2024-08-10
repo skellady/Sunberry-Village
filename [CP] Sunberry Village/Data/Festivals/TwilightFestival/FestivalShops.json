@@ -32,7 +32,7 @@
                             "Id": "{{ModId}}_GeodesAndBox",
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 3 (O)535 (O)536 (O)537 (O)749 (O)MysteryBox (O)skellady.SBVCP_SunberryGeode",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 1,
+                            "TradeItemAmount": 2,
                             "AvailableStock": 10,
                             "AvailableStockLimit": "Global"
                         },
@@ -40,7 +40,7 @@
                             "Id": "{{ModId}}_GoldenBoxAndTroves",
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 1 (O)GoldenMysteryBox (O)275",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 2,
+                            "TradeItemAmount": 4,
                             "AvailableStock": 6,
                             "AvailableStockLimit": "Global"
                         },
@@ -48,7 +48,7 @@
                             "Id": "{{ModId}}_GeodeCrusher",
                             "ItemId": "(BC)182",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 3,
+                            "TradeItemAmount": 6,
                             "AvailableStock": 3,
                             "AvailableStockLimit": "Global"
                         },
@@ -56,7 +56,7 @@
                             "Id": "{{ModId}}_Rings",
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 4 (O)520 (O)517 (O)519 (O)526 (O)527 (O)863 (O)862 (O)859 (O)811",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 4,
+                            "TradeItemAmount": 6,
                             "AvailableStock": 2,
                             "AvailableStockLimit": "Global"
                         },
@@ -64,7 +64,7 @@
                             "Id": "{{ModId}}_BarsAndOres",
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 5 (O)378 (O)380 (O)382 (O)384 (O)386 (O)334 (O)335 (O)336 (O)337",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 2,
+                            "TradeItemAmount": 1,
                             "AvailableStock": 20,
                             "AvailableStockLimit": "Global"
                         }
@@ -104,7 +104,7 @@
                             "Id": "{{ModId}}_PrismaticShard",
                             "ItemId": "(O)74",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 4,
+                            "TradeItemAmount": 8,
                             "AvailableStock": 5,
                             "AvailableStockLimit": "Global"
                         }
@@ -136,7 +136,7 @@
                             "Id": "{{ModId}}_CostumeyShirts", // thank u airyn for the list <3
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 6 (S)1014 (S)1034 (S)1131 (S)1156 (S)1166 (S)1168 (S)1199 (S)1215 (S)1232 (S)1243 (S)1192 (S)1008 (S)1004",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 1,
+                            "TradeItemAmount": 2,
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global"
                         },
@@ -144,7 +144,7 @@
                             "Id": "{{ModId}}_CostumeyHats",
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 6 (H)0 (H)6 (H)8 (H)9 (H)10 (H)23 (H)31 (H)32 (H)33 (H)40 (H)42 (H)48 (H)49 (H)60 (H)62 (H)66 (H)70 (H)93 (H)JesterHat",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 1,
+                            "TradeItemAmount": 2,
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global"
                         },
@@ -184,15 +184,15 @@
                             "Id": "{{ModId}}_BakedGoodsAndFood",
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 10 (O)204 (O)211 (O)220 (O)221 (O)222 (O)223 (O)234 (O)232 (O)233 (O)238 (O)243 (O)253 (O)395 (O)604 (O)608 (O)610 (O)611 (O)612 (O)651 (O)731 (O)skellady.SBVCP_ChocoChipCookies (O)skellady.SBVCP_DialaHotChoco (O)skellady.SBVCP_IceCreamBowl",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 2,
+                            "TradeItemAmount": 3,
                             "AvailableStock": 15,
                             "AvailableStockLimit": "Global"
                         },
                         {
                             "Id": "{{ModId}}_Minerals",
-                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 7 (O)538 (O)539 (O)540 (O)541 (O)542 (O)543 (O)544 (O)545 (O)546 (O)547 (O)548 (O)549 (O)550 (O)551 (O)552 (O)553 (O)554 (O)555 (O)556 (O)557 (O)558 (O)559 (O)560 (O)561 (O)562 (O)563 (O)564 (O)565 (O)566 (O)567 (O)568 (O)569 (O)570 (O)571 (O)572 (O)573 (O)574 (O)575 (O)576 (O)577 (O)578 (O)skellady.SBVCP_Annabergite (O)skellady.SBVCP_BlueAuraQuartz (O)skellady.SBVCP_Citrine (O)skellady.SBVCP_Purpurite",
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 7 (O)538 (O)539 (O)540 (O)541 (O)542 (O)543 (O)544 (O)545 (O)546 (O)547 (O)548 (O)549 (O)550 (O)551 (O)552 (O)553 (O)554 (O)555 (O)556 (O)557 (O)558 (O)559 (O)560 (O)561 (O)562 (O)563 (O)564 (O)565 (O)566 (O)567 (O)568 (O)569 (O)570 (O)571 (O)572 (O)573 (O)574 (O)575 (O)576 (O)577 (O)578 (O)skellady.SBVCP_Annabergite (O)skellady.SBVCP_BlueAuraQuartz (O)skellady.SBVCP_Citrine (O)skellady.SBVCP_Purpurite (O)skellady.SBVCP_Serpentine",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 1,
+                            "TradeItemAmount": 3,
                             "AvailableStock": 1,
                             "AvailableStockLimit": "Global"
                         }
@@ -224,7 +224,7 @@
                             "Id": "{{ModId}}_Sprinklers",
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 1 (O)621 (O)645",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 2,
+                            "TradeItemAmount": 3,
                             "AvailableStock": 15,
                             "AvailableStockLimit": "Global"
                         },
@@ -232,7 +232,7 @@
                             "Id": "{{ModId}}_Fertilizers",
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 3 (O)369 (O)371 (O)466 (O)919 (O)920",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 1,
+                            "TradeItemAmount": 2,
                             "AvailableStock": 20,
                             "AvailableStockLimit": "Global"
                         },
@@ -240,7 +240,7 @@
                             "Id": "{{ModId}}_Machines",
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 3 (BC)12 (BC)163 (BC)15 (BC)Dehydrator (BC)MushroomLog",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 4,
+                            "TradeItemAmount": 5,
                             "AvailableStock": 10,
                             "AvailableStockLimit": "Global"
                         },
@@ -248,7 +248,7 @@
                             "Id": "{{ModId}}_MiscItems",
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 4 (O)BlueGrassStarter (O)297 (O)725 (O)724 (O)726 (O)829 (O)891",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 1,
+                            "TradeItemAmount": 5,
                             "AvailableStock": 30,
                             "AvailableStockLimit": "Global"
                         }
@@ -286,9 +286,9 @@
                         },
                         {
                             "Id": "{{ModId}}_FlowerSeeds",
-                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 3 (O)427 (O)429 (O)431 (O)425 (O)453 (O)455",
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 4 (O)427 (O)429 (O)431 (O)425 (O)453 (O)455 (O)skellady.SBVCP_ArfajSeeds (O)skellady.SBVCP_CallaLilySeeds (O)skellady.SBVCP_HyacinthSeeds (O)skellady.SBVCP_CyclamenSeeds (O)skellady.SBVCP_SpeedwellSeeds (O)skellady.SBVCP_CoffeeBlossomSeeds (O)skellady.SBVCP_RoyalAnemoneSeeds (O)skellady.SBVCP_WildMustardSeeds",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 1,
+                            "TradeItemAmount": 2,
                             "AvailableStock": 20,
                             "AvailableStockLimit": "Global"
                         },
@@ -296,7 +296,7 @@
                             "Id": "{{ModId}}_GardenPots",
                             "ItemId": "(BC)62",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
-                            "TradeItemAmount": 2,
+                            "TradeItemAmount": 3,
                             "AvailableStock": 5,
                             "AvailableStockLimit": "Global"
                         },
@@ -328,7 +328,7 @@
                             "Id": "{{ModId}}_SunriseOrbs",
                             "ItemId": "(O)skellady.SBVCP_SunriseOrb",
                             "TradeItemId": "(O)skellady.SBVCP_TwilightFeather",
-                            "TradeItemAmount": 1,
+                            "TradeItemAmount": 2,
                             "AvailableStock": 10,
                             "AvailableStockLimit": "Global"
                         },
@@ -336,7 +336,7 @@
                             "Id": "{{ModId}}_SunsetOrbs",
                             "ItemId": "(O)skellady.SBVCP_SunsetOrb",
                             "TradeItemId": "(O)skellady.SBVCP_TwilightFeather",
-                            "TradeItemAmount": 2,
+                            "TradeItemAmount": 3,
                             "AvailableStock": 10,
                             "AvailableStockLimit": "Global"
                         },
@@ -344,7 +344,7 @@
                             "Id": "{{ModId}}_MidnightOrbs",
                             "ItemId": "(O)skellady.SBVCP_MidnightOrb",
                             "TradeItemId": "(O)skellady.SBVCP_TwilightFeather",
-                            "TradeItemAmount": 3,
+                            "TradeItemAmount": 4,
                             "AvailableStock": 10,
                             "AvailableStockLimit": "Global"
                         },
@@ -352,7 +352,7 @@
                             "Id": "{{ModId}}_EclipseOrbs",
                             "ItemId": "(O)skellady.SBVCP_EclipseOrb",
                             "TradeItemId": "(O)skellady.SBVCP_TwilightFeather",
-                            "TradeItemAmount": 4,
+                            "TradeItemAmount": 5,
                             "AvailableStock": 10,
                             "AvailableStockLimit": "Global"
                         },
