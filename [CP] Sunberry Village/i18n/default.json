@@ -1702,7 +1702,7 @@
     "event-20031458.03": "Come with Moon! Moon shows you something!$h",
     "event-20031458.04": "If you put the Moonberries you find here at the seedmaker, Moon gives you seeds in return!$h",
     "event-20031458.05": "Moon likes collecting them! They bring good luck!$3",
-    "event-20031458.06": "You can now trade Moonberries for seeds!",
+    "event-20031458.06": "You can now trade Moonberries for seeds at the seed maker! Check back tomorrow.",
 
     // Warp Totem Event
     "event-WarpTotem.01": "Hmm. I've observed you walking down this road many times.",
@@ -4153,7 +4153,7 @@
     "Ezra.Dialogue.Sun8": "Hey, do you maybe wanna hang out sometime while I get some work done? I always get work much faster when I have company.$h#$b#We can get some food and drinks, too!$u",
 
     //10 hearts (PLATONIC)
-    "Ezra.Dialogue.Mon10": "I called my sister earlier. I'm... really glad I did. We got to catch up and we even have plans to hang out soon!$h#$b#I really wouldn't have been able to do this without you, @. Thank you for always being here for me.$4",
+    "Ezra.Dialogue.Mon10": "I'm heading to the city soon to meet with another designer. I wish I could take you and Iman along. Definitely would help with the nerves.$u",
     "Ezra.Dialogue.Tue10": "Oh! Look at you! You look wonderful. You're absolutely rocking that outfit. Hmm... it is missing the Ezra touch, though. We'll have to work on that.$6",
     "Ezra.Dialogue.Wed10": "Alright, when are you free? I'm coming over with snacks and my laptop so we can watch a movie.$h#$b#I'll get Iman, too. She's been looking forward to watching this movie.$h",
     "Ezra.Dialogue.Thu10": "I'm really happy with the way things have turned out. I feel... light.$h#$b#I'm glad we met, @. I feel like the moment you stepped foot in the valley, things started changing for the better.",

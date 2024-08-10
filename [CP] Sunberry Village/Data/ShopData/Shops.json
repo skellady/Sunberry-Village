@@ -99,6 +99,18 @@
                             "Price": 75
                         },
                         {
+                            "Id": "{{ModId}}_AriShop.TomatoSeeds",
+                            "ItemId": "(O)480",
+                            "Condition": "SEASON summer",
+                            "Price": 45
+                        },
+                        {
+                            "Id": "{{ModId}}_AriShop.RadishSeeds",
+                            "ItemId": "(O)484",
+                            "Condition": "SEASON summer",
+                            "Price": 35
+                        },
+                        {
                             "Id": "skellady.SBVCP_AriShop.CornSeeds",
                             "ItemId": "(O)487",
                             "Condition": "SEASON summer",
