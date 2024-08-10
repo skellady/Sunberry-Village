@@ -463,6 +463,111 @@
                         ]
                     }
                 },
+                "skellady.SBVCP_Barkfish": {
+                    "Id": "skellady.SBVCP_Barkfish",
+                    "RequiredTags": [
+                        "item_barkfish"
+                    ],
+                    "Precedence": 0,
+                    "SpawnTime": 1,
+                    "ProducedItems": [
+                        // ok so basically their drops are pretty heavily gated by population, and if you don't get anything else you're always guaranteed some amount of wood based on how many you have in there
+                        {
+                            "RequiredPopulation": 10,
+                            "Chance": 0.1,
+                            "ItemID": "(O)MossySeed",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 6,
+                            "Chance": 0.2,
+                            "ItemID": "(O)709",
+                            "MinQuantity": 10,
+                            "MaxQuantity": 15
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 0.2,
+                            "ItemID": "(O)Moss",
+                            "MinQuantity": 15,
+                            "MaxQuantity": 20
+                        },
+                        {
+                            "RequiredPopulation": 4,
+                            "Chance": 0.2,
+                            "ItemID": "(O)709",
+                            "MinQuantity": 3,
+                            "MaxQuantity": 7
+                        },
+                        {
+                            "RequiredPopulation": 2,
+                            "Chance": 0.2,
+                            "ItemID": "(O)Moss",
+                            "MinQuantity": 5,
+                            "MaxQuantity": 10
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 0.4,
+                            "ItemID": "(O)812",
+                            "MinQuantity": 1,
+                            "MaxQuantity": 2
+                        },
+                        {
+                            "RequiredPopulation": 9,
+                            "Chance": 1.0,
+                            "ItemID": "(O)388",
+                            "MinQuantity": 75,
+                            "MaxQuantity": 90
+                        },
+                        {
+                            "RequiredPopulation": 7,
+                            "Chance": 1.0,
+                            "ItemID": "(O)388",
+                            "MinQuantity": 50,
+                            "MaxQuantity": 65
+                        },
+                        {
+                            "RequiredPopulation": 5,
+                            "Chance": 1.0,
+                            "ItemID": "(O)388",
+                            "MinQuantity": 25,
+                            "MaxQuantity": 40
+                        },
+                        {
+                            "RequiredPopulation": 3,
+                            "Chance": 1.0,
+                            "ItemID": "(O)388",
+                            "MinQuantity": 10,
+                            "MaxQuantity": 20
+                        },
+                        {
+                            "RequiredPopulation": 1,
+                            "Chance": 1.0,
+                            "ItemID": "(O)388",
+                            "MinQuantity": 5,
+                            "MaxQuantity": 10
+                        }
+                    ],
+                    "PopulationGates": {    // the price to pay for their drops being pretty good - their quests are annoying and frequent :lmaodog:
+                        "3": [
+                            "(O)169 2",     // 2 driftwood
+                            "(O)153 3"      // 3 green algae
+                        ],
+                        "5": [
+                            "(O)169 3",     // 3 driftwood
+                            "(O)153 4"      // 4 green algae
+                        ],
+                        "7": [
+                            "(O)169 4",     // 4 driftwood
+                            "(O)153 5"      // 5 green algae
+                        ],
+                        "10": [
+                            "(O)369 10"     // 10 quality fertilizer
+                        ]
+                    }
+                }
             }
         }
     ]

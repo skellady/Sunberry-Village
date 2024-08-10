@@ -319,6 +319,10 @@
                             "Condition": "LOCATION_SEASON Here spring winter"
                         },
                         {
+                            "Id": "{{ModId}}_FBarkfish",
+                            "ItemId": "{{ModId}}_Barkfish"
+                        },
+                        {
                             "Id": "{{ModId}}_FBream",
                             "ItemId": "(O)132"
                         },
@@ -927,6 +931,10 @@
                             "Id": "{{ModId}}_SPerch",
                             "ItemId": "(O)141",
                             "Season": "Winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_SBarkfish",
+                            "ItemId": "{{ModId}}_Barkfish"
                         }
                     ],
                     "Forage": [
@@ -1089,6 +1097,10 @@
                             "Id": "{{ModId}}_S1Perch",
                             "ItemId": "(O)141",
                             "Season": "Winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_S1Barkfish",
+                            "ItemId": "{{ModId}}_Barkfish"
                         }
                     ],
                     "Forage": [
@@ -1282,6 +1294,10 @@
                             "Id": "{{ModId}}_S2Perch",
                             "ItemId": "(O)141",
                             "Season": "Winter"
+                        },
+                        {
+                            "Id": "{{ModId}}_S2Barkfish",
+                            "ItemId": "{{ModId}}_Barkfish"
                         }
                     ],
                     "Forage": [

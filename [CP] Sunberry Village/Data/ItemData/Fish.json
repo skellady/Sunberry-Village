@@ -192,6 +192,21 @@
                         "item_seacow"
                     ]
                 },
+                "skellady.SBVCP_Barkfish": {
+                    "Name": "skellady.SBVCP_Barkfish",
+                    "DisplayName": "{{i18n:SBV.Barkfish.Name}}",
+                    "Description": "{{i18n:SBV.Barkfish.Description}}",
+                    "Edibility": "10",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 40,
+                    "Texture": "Mods\\skellady.SBVCP\\Fish",
+                    "SpriteIndex": 12,
+                    "ContextTags": [
+                        "color_brown",
+                        "item_barkfish"
+                    ]
+                }
             }
         },
         // Fish Data
@@ -211,7 +226,8 @@
                 "skellady.SBVCP_ChartreuseTilapia": "skellady.SBVCP_ChartreuseTilapia/55/mixed/11/30/600 1400/summer fall/both/683 .35/3/.4/.2/0/false",
                 "skellady.SBVCP_BubblyBetta": "skellady.SBVCP_BubblyBetta/25/dart/8/20/600 2600/spring winter/both/685 .2/1/.35/.1/0/false",
                 "skellady.SBVCP_AzureanCarp": "skellady.SBVCP_AzureanCarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0/false",
-                "skellady.SBVCP_SeaCow": "skellady.SBVCP_SeaCow/20/sinker/108/116/600 1800/spring summer fall winter/both/682 .2/2/.10/.2/1/false"
+                "skellady.SBVCP_SeaCow": "skellady.SBVCP_SeaCow/20/sinker/108/116/600 1800/spring summer fall winter/both/682 .2/2/.10/.2/1/false",
+                "skellady.SBVCP_Barkfish": "skellady.SBVCP_Barkfish/20/smooth/6/18/600 2600/spring summer fall winter/both/682 .2/0/.5/.4/0/false"
             }
         },
         // Aquarium Fish Data
@@ -231,7 +247,8 @@
                 "skellady.SBVCP_ChartreuseTilapia": "8/fish/////Mods\\skellady.SBVCP\\AquariumFish",
                 "skellady.SBVCP_BubblyBetta": "9/fish/////Mods\\skellady.SBVCP\\AquariumFish",
                 "skellady.SBVCP_AzureanCarp": "10/fish/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_SeaCow": "11/fish/////Mods\\skellady.SBVCP\\AquariumFish"
+                "skellady.SBVCP_SeaCow": "11/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_Barkfish": "12/crawl/////Mods\\skellady.SBVCP\\AquariumFish"
             }
         }
     ]

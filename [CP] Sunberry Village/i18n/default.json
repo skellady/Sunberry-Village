@@ -5286,6 +5286,8 @@
     "SBV.AzureanCarp.Description": "This fish uses its tail for self-defense, courtship rituals and digging in the soft river mud.",
     "SBV.SeaCow.Name": "Sea Cow",
     "SBV.SeaCow.Description": "It doesn't look that much like a cow, honestly.",
+    "SBV.Barkfish.Name": "Barkfish",
+    "SBV.Barkfish.Description": "In an impressive display of mimicry, this bottom-feeding fish resembles a piece of bark resting on the riverbed.",
 
     //Weapons
     "SBV.BalefulBlade.Name": "Baleful Blade",
