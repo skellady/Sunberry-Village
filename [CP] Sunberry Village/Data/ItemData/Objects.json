@@ -1663,6 +1663,25 @@
                 "GeodeDrops",
             ],
             "Entries": {
+                "{{ModId}}_PrismaticOrbInTrove": {
+                    "Chance": 0.02,
+                    "Precedence": -1,
+                    "Condition": "PLAYER_VISITED_LOCATION Any Custom_SBV_Mines10A",
+                    "Id": "{{ModId}}_PrismaticOrbInTrove",
+                    "ItemId": "(O)skellady.SBVCP_PrismaticOrb"
+                },
+                "skellady.SBVCP_DwarfKeysTrove": {
+                    "Chance": 0.05,
+                    "Precedence": -1,
+                    "Condition": "PLAYER_VISITED_LOCATION Any Custom_SBV_Mines5A",
+                    "Id": "skellady.SBVCP_DwarfKeysTrove",
+                    "RandomItemId": [
+                        "(O)skellady.SBVCP_DwarfKeyI",
+                        "(O)skellady.SBVCP_DwarfKeyII",
+                        "(O)skellady.SBVCP_DwarfKeyIII",
+                        "(O)skellady.SBVCP_DwarfKeyIV"
+                    ]
+                },
                 "skellady.SBVCP_ArtifactsInTrove": {
                     "Chance": 0.2,
                     "Precedence": -1,
@@ -1677,19 +1696,7 @@
                         "(O)skellady.SBVCP_GoldenCoins",
                         "(O)skellady.SBVCP_ChippedJug"
                     ]
-                },
-                "skellady.SBVCP_DwarfKeysTrove": {
-                    "Chance": 0.05,
-                    "Precedence": -1,
-                    "Condition": "PLAYER_VISITED_LOCATION Any Custom_SBV_Mines5A",
-                    "Id": "skellady.SBVCP_DwarfKeysTrove",
-                    "RandomItemId": [
-                        "(O)skellady.SBVCP_DwarfKeyI",
-                        "(O)skellady.SBVCP_DwarfKeyII",
-                        "(O)skellady.SBVCP_DwarfKeyIII",
-                        "(O)skellady.SBVCP_DwarfKeyIV"
-                    ]
-                }
+                }  
             },
         }
     ]
