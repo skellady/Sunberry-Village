@@ -28,16 +28,17 @@ internal class IntegrationManager
 		{
 			Log.Warn("Failed to load Content Patcher API, certain Sunberry Village components may be impacted.");
 		}
-
-		if (BetterMixedSeedsApi is not null)
-		{
-			Log.Info("Better Mixed Seeds API loaded, performing mod integration.");
-			PerformBetterMixedSeedsIntegration();
-		}
-		else
-		{
-			Log.Info("Better Mixed Seeds API failed to load, skipping mod integration.");
-		}
+		
+		// not needed unless better mixed seeds gets ported to 1.6
+		//if (BetterMixedSeedsApi is not null)
+		//{
+		//	Log.Info("Better Mixed Seeds API loaded, performing mod integration.");
+		//	PerformBetterMixedSeedsIntegration();
+		//}
+		//else
+		//{
+		//	Log.Info("Better Mixed Seeds API failed to load, skipping mod integration.");
+		//}
 	}
 
 	private static void RegisterContentPatcherTokens()
