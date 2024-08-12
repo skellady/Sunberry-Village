@@ -610,7 +610,7 @@
                 "skellady.SBVCP_SerpentinePotion": {
                     "Name": "skellady.SBVCP_SerpentinePotion",
                     "DisplayName": "{{i18n:SBV.SerpentinePotion.Name}}",
-                    "Description": "{{i18n:SBV.SerpentinePotion.Description}}",
+                    "Description": "{{i18n:SBV.SerpentinePotion.Description |title= {{WizardOrWitch}} }}",
                     "Edibility": "50",
                     "Type": "ArtisanGoods",
                     "Category": -26,
@@ -690,7 +690,7 @@
                 "skellady.SBVCP_BlueAuraQuartzPotion": {
                     "Name": "skellady.SBVCP_BlueAuraQuartzPotion",
                     "DisplayName": "{{i18n:SBV.BlueAuraQuartzPotion.Name}}",
-                    "Description": "{{i18n:SBV.BlueAuraQuartzPotion.Description}}",
+                    "Description": "{{i18n:SBV.BlueAuraQuartzPotion.Description |title={{WizardOrWitch}} }}",
                     "Edibility": "50",
                     "Type": "ArtisanGoods",
                     "Category": -26,

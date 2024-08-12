@@ -35,6 +35,17 @@
       }
     },
     {
+      "Name": "WizardOrWitch",
+      "Value": "{{i18n:Wizard.Masc.Title}}"
+    },
+    {
+      "Name": "WizardOrWitch",
+      "Value": "{{i18n:Wizard.Femme.Title}}",
+      "When": {
+        "HasMod |contains= Nom0ri.RomRas": true
+      }
+    },
+    {
       "Name": "JumanaSaturday",
       "Value": "1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\""
     },

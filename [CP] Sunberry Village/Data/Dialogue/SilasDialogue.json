@@ -32,7 +32,7 @@
 				"Sat": "{{i18n:Silas.Dialogue.Sat}}",
 				"Sun": "{{i18n:Silas.Dialogue.Sun}}",
 				//2 Hearts
-				"Mon2": "{{i18n:Silas.Dialogue.Mon2 |object={{WizardPronounsObject}} }}",
+				"Mon2": "{{i18n:Silas.Dialogue.Mon2 |title={{WizardOrWitch}}|object={{WizardPronounsObject}} }}",
 				"Tue2": "{{i18n:Silas.Dialogue.Tue2}}",
 				"Wed2": "{{i18n:Silas.Dialogue.Wed2}}",
 				"Thu2": "{{i18n:Silas.Dialogue.Thu2}}",

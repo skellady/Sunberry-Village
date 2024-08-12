@@ -36,7 +36,7 @@
 				"Mon2": "{{i18n:Moon.Dialogue.Mon2}}",
 				"Tue2": "{{i18n:Moon.Dialogue.Tue2}}",
 				"Wed2": "{{i18n:Moon.Dialogue.Wed2}}",
-				"Thu2": "{{i18n:Moon.Dialogue.Thu2}}",
+				"Thu2": "{{i18n:Moon.Dialogue.Thu2 |title={{WizardOrWitch}} }}",
 				"Fri2": "{{i18n:Moon.Dialogue.Fri2}}",
 				"Sat2": "{{i18n:Moon.Dialogue.Sat2}}",
 				"Sun2": "{{i18n:Moon.Dialogue.Sun2}}",

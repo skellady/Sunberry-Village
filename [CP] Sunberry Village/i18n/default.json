@@ -149,6 +149,9 @@
     "Wizard.Masc.Possessive": "his",
     "Wizard.Femme.Possessive": "her",
 
+    "Wizard.Masc.Title": "Wizard",
+    "Wizard.Femme.Title": "Witch",
+
     //Generic Gift Taste Dialogue
     //-------------------
     //Love
@@ -3325,7 +3328,7 @@
     "Moon.Dialogue.Mon2": "Moon likes the Moon. Moon pretty.$4",
     "Moon.Dialogue.Tue2": "Moon pranked the Mayor.$h#$b#Moon took his paperwork.#$b#Moon gave them back later, though.$h",
     "Moon.Dialogue.Wed2": "%Moon's reciting something to herself. Best to leave her alone.",
-    "Moon.Dialogue.Thu2": "Moon wonders if other humans can see her. Wizard can!#$b#Wizard friend. Moon likes pranking Wizard.$h",
+    "Moon.Dialogue.Thu2": "Moon wonders if other humans can see her. {{title}} can!#$b#{{title}} friend. Moon likes pranking {{title}}.$h",
     "Moon.Dialogue.Fri2": "Moon busy today. No talking.",
     "Moon.Dialogue.Sat2": "Moon hisses at cat.$a#$b#Cat is angry.$s",
     "Moon.Dialogue.Sun2": "Moon found coconut! Here! [88]$h",
@@ -4940,7 +4943,7 @@
     "Silas.Dialogue.Sun": "I found this beautiful flower on my way to work. I hope Miyoung likes it.$h",
 
     //2 hearts
-    "Silas.Dialogue.Mon2": "The wizard and I have been friends for a while now. I've learnt so much from {{object}}, things I didn't even know existed while I was doing my own research!$h",
+    "Silas.Dialogue.Mon2": "The {{title}} and I have been friends for a while now. I've learnt so much from {{object}}, things I didn't even know existed while I was doing my own research!$h",
     "Silas.Dialogue.Tue2": "I actually wanted to work in research, but I thought the next best thing would be to make tools and weapons for the guild. If it helps them keep the valley safe, then my job was well done.",
     "Silas.Dialogue.Wed2": "You should check out Maia's weapons, sometime. Top-tier weapons, you won't find anything like them in Pelican Town.$u",
     "Silas.Dialogue.Thu2": "I wonder if Jumana has the flowers Miyoung likes in stock. I'd love to get her a bouquet.$h",
@@ -5188,7 +5191,7 @@
 
     //Potions
     "SBV.SerpentinePotion.Name": "Serpentine Potion",
-    "SBV.SerpentinePotion.Description": "A glimmering green liquid. It smells fresh. Surely it can't taste as bad as the Wizard's concoctions...?",
+    "SBV.SerpentinePotion.Description": "A glimmering green liquid. It smells fresh. Surely it can't taste as bad as the {{title}}'s concoctions...?",
     "SBV.PurpuritePotion.Name": "Purpurite Potion",
     "SBV.PurpuritePotion.Description": "A shimmering purple liquid. You smell a hint of lavender.",
     "SBV.AnnabergitePotion.Name": "Annabergite Potion",
@@ -5196,7 +5199,7 @@
     "SBV.CitrinePotion.Name": "Citrine Potion",
     "SBV.CitrinePotion.Description": "A golden yellow liquid. You wonder if it would taste citrusy.",
     "SBV.BlueAuraQuartzPotion.Name": "Blue Aura Quartz Potion",
-    "SBV.BlueAuraQuartzPotion.Description": "The color of the liquid is enchanting. Surely it can't taste as bad as the Wizard's concoctions...?",
+    "SBV.BlueAuraQuartzPotion.Description": "The color of the liquid is enchanting. Surely it can't taste as bad as the {{title}}'s concoctions...?",
     "SBV.MoonberryPotion.Name": "Moonberry Potion",
     "SBV.MoonberryPotion.Description": "A glimmering liquid. It smells like cotton candy!",
     "SBV.DolomitePotion.Name": "Dolomite Potion",
@@ -5645,7 +5648,7 @@
     "Moon.Dialogue.SterlingSwim": "Moon plays with Max, the dog!$h#$b#Dog is a little scared of Moon.$s",
     "Moon.Dialogue.SterlingSobriety": "Moon went to Grampleton with Henry! Pretty place.$u",
     "Moon.Dialogue.JulietGremlin": "Gremlin played with Moon!$h",
-    "Moon.Dialogue.JunaSign": "Hehe, Moon saw Juna in the forest.$h#$b#Maybe Moon pulls prank on wizard with her?$u",
+    "Moon.Dialogue.JunaSign": "Hehe, Moon saw Juna in the forest.$h#$b#Maybe Moon pulls prank on {{title}} with her?$u",
     "Moon.Dialogue.LavrilUnlocked": "Moon saw ghost girl and her bunny!$h#$b#Maybe Moon becomes friends with them?$u",
     "Moon.Dialogue.LucikielArrives": "Demon in town is scary.$s#$b#Moon does not like this.$s",
     "Moon.Dialogue.ReputationIncreased": "Okay, maybe demon isn't so bad.$h#$b#Maybe demon is friend!$u",
@@ -5685,7 +5688,7 @@
     "Reihana.Dialogue.cc_Complete": "Oh, wow, you fixed up a broken down building!$12#$b#No one cares, bud. What, you want a cookie?#$b#...Actually, nevermind. I'm on my last cookie. You can't have it.$8",
     "Reihana.Dialogue.cc_Bus": "Can't believe it took your people that long to restore the bus. Don't you like, need that to get to places?$12#$b#Hah, now I get to make fun of humans for not being able to teleport.$8",
     "Reihana.Dialogue.movieTheater": "I'll admit, the movie theater sounds fun. They better have some decent movies showing, though.$6",
-    "Reihana.Dialogue.JunaSign": "I sense chaos in the valley. Directly below the wizard's tower to be specific. Oh, this is going to be very fun.$8",
+    "Reihana.Dialogue.JunaSign": "I sense chaos in the valley. Directly below the {{title}}'s tower to be specific. Oh, this is going to be very fun.$8",
     "Reihana.Dialogue.keahi_prank": "Hm? Noo, @, you smell wonderful! You should go talk to everyone, I'm sure they'd love to smell whatever perfume you sprayed on today.$u",
     "Reihana.Dialogue.YriWalk": "Yri asks SO many questions. \"Can a human turn into a demon?\", \"Why's your horn broken?\", \"Can I touch your horn?\"$13#$b#I made up the most random excuse and teleported out of there. I have a headache.$s",
     "Reihana.Dialogue.ThyMet": "Hah, scaring that owl is going to be fun. She just covers her eyes everytime I do.$8#$b#...Thy did put up some protection spell, so I can't do it as often as I'd like. Whatever happened to being neighborly?$7",
