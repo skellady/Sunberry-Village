@@ -42,6 +42,8 @@ internal class GoldenSunberryStageToken
 		"OpheliaSBV",
 		"ReihanaSBV",
 		"SilasSBV",
+		"NadiaSBV",
+		"PanSBV",
 		"WrenSong",
 		"Jonghyuk",
 		"Spanner",
