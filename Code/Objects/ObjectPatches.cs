@@ -25,6 +25,21 @@ internal class ObjectPatches
 	 */
 
 	/// <summary>
+	/// Patches <c>Object.isForage</c> to exclude twilight feathers so they don't have their quality overwritten.
+	/// </summary>
+	[HarmonyPatch(typeof(SObject), nameof(SObject.isForage))]
+	[HarmonyPrefix]
+	public static bool isForage_Prefix(SObject __instance, ref bool __result)
+	{
+		if (!__instance.QualifiedItemId.Equals("(O)skellady.SBVCP_TwilightFeather"))
+			return true;
+
+		__result = false;
+		return false;
+	}
+
+
+	/// <summary>
 	/// Patches <c>Object.performUseAction</c> to handle Sunberry totem logic.
 	/// </summary>
 	[HarmonyPatch(typeof(SObject), nameof(SObject.performUseAction))]
