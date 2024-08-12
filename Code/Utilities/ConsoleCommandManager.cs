@@ -214,7 +214,7 @@ internal class ConsoleCommandManager
 				{
 					infoBuilder.Append("\n\tGolden Sunberry is not currently growing.");
 				}
-				else if (GoldenSunberryStageToken.Stage >= GoldenSunberryStageToken.MAX_STAGE)
+				else if (GoldenSunberryStageToken.Stage >= GoldenSunberryStageToken.MaxStage)
 				{
 					infoBuilder.Append("\n\tGolden Sunberry has reached its final growth stage and will not grow any further.");
 				}
@@ -228,7 +228,7 @@ internal class ConsoleCommandManager
 					else
 						infoBuilder.Append($"\n\tStage will {(GoldenSunberryStageToken.ReadyToAdvanceStage(probe: true) ? "advance overnight" : "not advance overnight")}.");
 
-					infoBuilder.Append($"\n\tNumber of Nights Needed to Advance Stage: {GoldenSunberryStageToken.MIN_NIGHTS_IN_STAGE}");
+					infoBuilder.Append($"\n\tNumber of Nights Needed to Advance Stage: {GoldenSunberryStageToken.MinNightsInStage}");
 					infoBuilder.Append($"\n\tNumber of Nights in Current Stage: {GoldenSunberryStageToken.NightsInStage}");
 					infoBuilder.Append($"\n\tSunberry Village Heart Level Needed to Advance Stage: {GoldenSunberryStageToken.HeartsNeededToAdvanceStage[GoldenSunberryStageToken.Stage]}");
 					infoBuilder.Append($"\n\tCurrent Sunberry Village Heart Level: {GoldenSunberryStageToken.HeartTotal}");

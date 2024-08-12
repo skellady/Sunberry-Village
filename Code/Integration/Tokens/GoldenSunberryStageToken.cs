@@ -2,21 +2,22 @@
 using StardewValley.Mods;
 using SunberryVillage.Utilities;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace SunberryVillage.Integration.Tokens;
 
 internal class GoldenSunberryStageToken
 {
-	internal static bool Growing = false;
-	internal static bool ForceGrow = false;
+	internal static bool Growing;
+	internal static bool ForceGrow;
 
 	internal static int Stage = -1;
-	internal static int NightsInStage = 0;
-	internal static int HeartTotal = 0;
+	internal static int NightsInStage;
+	internal static int HeartTotal;
 
-	internal const string TRIGGER_MAIL_ID = "skellady.SBVCP_GSBTriggerLetter";
-	internal const int MAX_STAGE = 5;
-	internal const int MIN_NIGHTS_IN_STAGE = 7;
+	internal const string TriggerMailId = "skellady.SBVCP_GSBTriggerLetter";
+	internal const int MaxStage = 5;
+	internal const int MinNightsInStage = 7;
 
 	internal const string GrowingModDataKey = "SunberryTeam.SBVSMAPI/GoldenSunberry/Growing";
 	internal const string StageModDataKey = "SunberryTeam.SBVSMAPI/GoldenSunberry/Stage";
@@ -59,9 +60,8 @@ internal class GoldenSunberryStageToken
 		"Bijou",
 		"Clara.Ripley"
 	};
-
-	//todo: put actual thresholds in
-	internal static readonly int[] HeartsNeededToAdvanceStage = new int[] { 10, 25, 50, 80, 120 };
+	
+	internal static readonly int[] HeartsNeededToAdvanceStage = { 10, 25, 50, 80, 120 };
 
 	internal static void AddEventHooks()
 	{
@@ -74,7 +74,7 @@ internal class GoldenSunberryStageToken
 		ModDataDictionary modData = Game1.MasterPlayer.modData;
 
 		// cannot find GoldenSunberryGrowing moddata, assume no golden sunberry vars have been saved to moddata
-		if (!modData.TryGetValue(GrowingModDataKey, out string GrowingModDataValue))
+		if (!modData.TryGetValue(GrowingModDataKey, out string growingModDataValue))
 		{
 			Growing = false;
 			Stage = -1;
@@ -82,7 +82,7 @@ internal class GoldenSunberryStageToken
 		}
 		else
 		{
-			Growing = bool.Parse(GrowingModDataValue);
+			Growing = bool.Parse(growingModDataValue);
 			Stage = modData.ContainsKey(StageModDataKey) ? int.Parse(modData[StageModDataKey]) : -1;
 			NightsInStage = modData.ContainsKey(DaysInStageModDataKey) ? int.Parse(modData[DaysInStageModDataKey]) : 0;
 		}
@@ -91,15 +91,14 @@ internal class GoldenSunberryStageToken
 
 	private static void UpdateAndSaveGoldenSunberryStageVars(object sender, StardewModdingAPI.Events.DayEndingEventArgs e)
 	{
-		// "is true" is needed bc this statement returns a nullable bool, so we need to make sure it's 1. not null and 2. not false
-		if (!Growing && Game1.MasterPlayer.hasOrWillReceiveMail(TRIGGER_MAIL_ID))
+		if (!Growing && Game1.MasterPlayer.hasOrWillReceiveMail(TriggerMailId))
 		{
 			Stage = 0;
 			Growing = true;
 		}
 
 		// short circuit if not currently growing or if maxed out
-		if (!Growing || Stage >= MAX_STAGE)
+		if (!Growing || Stage >= MaxStage)
 			return;
 
 		NightsInStage++;
@@ -120,27 +119,19 @@ internal class GoldenSunberryStageToken
 	internal static bool ReadyToAdvanceStage(bool probe = false)
 	{
 		// cannot grow past max Stage
-		if (Stage >= MAX_STAGE)
+		if (Stage >= MaxStage)
 			return false;
 
 		// probe means test whether the conditions will be true when the day ends, not whether they're true at this moment
 		// only used in sbv.gs.info debug command
 		if (probe)
-			return NightsInStage + 1 >= MIN_NIGHTS_IN_STAGE && HeartTotal >= HeartsNeededToAdvanceStage[Stage];
+			return NightsInStage + 1 >= MinNightsInStage && HeartTotal >= HeartsNeededToAdvanceStage[Stage];
 
-		return NightsInStage >= MIN_NIGHTS_IN_STAGE && HeartTotal >= HeartsNeededToAdvanceStage[Stage] || ForceGrow;
+		return NightsInStage >= MinNightsInStage && HeartTotal >= HeartsNeededToAdvanceStage[Stage] || ForceGrow;
 	}
 
 	internal static void UpdateHeartTotal()
 	{
-		int heartTotal = 0;
-
-		foreach (NPC npc in Utility.getAllCharacters())
-		{
-			if (ResidentNames.Contains(npc.Name))
-				heartTotal += Game1.MasterPlayer.getFriendshipHeartLevelForNPC(npc.Name);
-		}
-
-		HeartTotal = heartTotal;
+		HeartTotal = Utility.getAllCharacters().Where(npc => ResidentNames.Contains(npc.Name)).Sum(npc => Game1.MasterPlayer.getFriendshipHeartLevelForNPC(npc.Name));
 	}
 }
