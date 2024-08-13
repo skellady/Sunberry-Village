@@ -10421,64 +10421,9 @@
     <property name="Action" value="Message &quot;sbv.village7&quot;"/>
    </properties>
   </object>
-  <object id="103" name="TileData" x="1168" y="1392" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupieddido&quot;"/>
-   </properties>
-  </object>
-  <object id="104" name="TileData" x="1184" y="1392" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupieddido&quot;"/>
-   </properties>
-  </object>
-  <object id="106" name="TileData" x="128" y="1408" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedripley&quot;"/>
-   </properties>
-  </object>
   <object id="107" name="TileData" x="1376" y="1296" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;sbv.unoccupied&quot;"/>
-   </properties>
-  </object>
-  <object id="108" name="TileData" x="1392" y="992" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedhyuk&quot;"/>
-   </properties>
-  </object>
-  <object id="109" name="TileData" x="1376" y="992" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedhyuk&quot;"/>
-   </properties>
-  </object>
-  <object id="110" name="TileData" x="1040" y="928" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedyri&quot;"/>
-   </properties>
-  </object>
-  <object id="111" name="TileData" x="1024" y="928" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedyri&quot;"/>
-   </properties>
-  </object>
-  <object id="112" name="TileData" x="1040" y="752" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedlani&quot;"/>
-   </properties>
-  </object>
-  <object id="113" name="TileData" x="192" y="976" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedwren&quot;"/>
-   </properties>
-  </object>
-  <object id="114" name="TileData" x="592" y="1056" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupieddao&quot;"/>
-   </properties>
-  </object>
-  <object id="115" name="TileData" x="192" y="704" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedarv&quot;"/>
    </properties>
   </object>
   <object id="116" name="TileData" x="304" y="160" width="16" height="16">

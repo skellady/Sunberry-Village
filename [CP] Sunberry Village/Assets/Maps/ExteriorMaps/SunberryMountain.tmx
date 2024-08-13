@@ -4142,11 +4142,6 @@
     <property name="Action" value="Message &quot;sbv.mountain4&quot;"/>
    </properties>
   </object>
-  <object id="47" name="TileData" x="128" y="480" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedvalli&quot;"/>
-   </properties>
-  </object>
   <object id="48" name="TileData" x="608" y="144" width="16" height="16">
    <properties>
     <property name="Action" value="MinecartTransport skellady.SBVCP_SBVMinecartNetwork skellady.SBVCP_SBVMountain"/>

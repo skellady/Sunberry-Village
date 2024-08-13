@@ -1,376 +1,611 @@
 {
-	"Changes": [
-		//Map Strings
-		{
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				//cafe
-				"dd.moonhide": "{{i18n:MapString.dd.moonhide}}",
-				"dd.cafe1": "{{i18n:MapString.dd.cafe1}}",
-				"dd.cafe2": "{{i18n:MapString.dd.cafe2}}",
-				"dd.cafe3": "{{i18n:MapString.dd.cafe3}}",
-				"dd.cafe4": "{{i18n:MapString.dd.cafe4}}",
-				"dd.cafe5": "{{i18n:MapString.dd.cafe5}}",
-				"dd.cafe6": "{{i18n:MapString.dd.cafe6}}",
-				"dd.cafe7": "{{i18n:MapString.dd.cafe7}}",
-				"dd.cafe8": "{{i18n:MapString.dd.cafe8}}",
-				"dd.cafe9": "{{i18n:MapString.dd.cafe9}}",
-				"dd.cafe10": "{{i18n:MapString.dd.cafe10}}",
-				"dd.cafe11": "{{i18n:MapString.dd.cafe11}}",
-				"dd.house1": "{{i18n:MapString.dd.house1}}",
-				"dd.house2": "{{i18n:MapString.dd.house2}}",
-				"dd.house3": "{{i18n:MapString.dd.house3}}",
-				"dd.house4": "{{i18n:MapString.dd.house4}}",
-				"dd.house6": "{{i18n:MapString.dd.house6}}",
-				"dd.house7": "{{i18n:MapString.dd.house7}}",
-				"dd.house8": "{{i18n:MapString.dd.house8}}",
-				"dd.house9": "{{i18n:MapString.dd.house9}}",
-				"dd.house10": "{{i18n:MapString.dd.house10}}",
-				"dd.house11": "{{i18n:MapString.dd.house11}}",
-				"dd.house12": "{{i18n:MapString.dd.house12}}",
-				"dd.house13": "{{i18n:MapString.dd.house13}}",
-				"dd.house14": "{{i18n:MapString.dd.house14}}",
-				"dd.house15": "{{i18n:MapString.dd.house15}}",
-				"dd.house16": "{{i18n:MapString.dd.house16}}",
-				"dd.house17": "{{i18n:MapString.dd.house17}}",
-				"dd.house18": "{{i18n:MapString.dd.house18}}",
-				"dd.house19": "{{i18n:MapString.dd.house19}}",
-				"dd.house20": "{{i18n:MapString.dd.house20}}",
-				"dd.house21": "{{i18n:MapString.dd.house21}}",
-				"dd.house22": "{{i18n:MapString.dd.house22}}",
-				//village
-				"sbv.village1": "{{i18n:MapString.sbv.village1}}",
-				"sbv.village2": "{{i18n:MapString.sbv.village2}}",
-				"sbv.village3": "{{i18n:MapString.sbv.village3}}",
-				"sbv.village4": "{{i18n:MapString.sbv.village4}}",
-				"sbv.village5": "{{i18n:MapString.sbv.village5}}",
-				"sbv.village6": "{{i18n:MapString.sbv.village6}}",
-				"sbv.village7": "{{i18n:MapString.sbv.village7}}",
-				"sbv.village8": "{{i18n:MapString.sbv.village8}}",
-				"sbv.unoccupied": "{{i18n:MapString.sbv.unoccupied}}",
-				//mountain
-				"sbv.mountain1": "{{i18n:MapString.sbv.mountain1}}",
-				"sbv.mountain2": "{{i18n:MapString.sbv.mountain2}}",
-				"sbv.mountain3": "{{i18n:MapString.sbv.mountain3}}",
-				"sbv.mountain4": "{{i18n:MapString.sbv.mountain4}}",
-				//forest
-				"sbv.forest1": "{{i18n:MapString.sbv.forest1}}",
-				//road
-				"sbv.road1": "{{i18n:MapString.sbv.road1}}",
-				//ari market
-				"sbv.market1": "{{i18n:MapString.sbv.market1}}",
-				"sbv.market2": "{{i18n:MapString.sbv.market2}}",
-				"sbv.market3": "{{i18n:MapString.sbv.market3}}",
-				"sbv.market4": "{{i18n:MapString.sbv.market4}}",
-				"sbv.market5": "{{i18n:MapString.sbv.market5}}",
-				"sbv.market6": "{{i18n:MapString.sbv.market6}}",
-				//broken diner
-				"sbv.brokendiner1": "{{i18n:MapString.sbv.brokendiner1}}",
-				//5A and 5B
-				"sbv.rest1": "{{i18n:MapString.sbv.rest1}}",
-				//elias house
-				"sbv.eliashouse1": "{{i18n:MapString.sbv.eliashouse1}}",
-				"sbv.eliashouse2": "{{i18n:MapString.sbv.eliashouse2}}",
-				"sbv.eliashouse3": "{{i18n:MapString.sbv.eliashouse3}}",
-				"sbv.eliashouse4": "{{i18n:MapString.sbv.eliashouse4}}",
-				"sbv.eliashouse5": "{{i18n:MapString.sbv.eliashouse5}}",
-				"sbv.eliashouse6": "{{i18n:MapString.sbv.eliashouse6}}",
-				"sbv.eliashouse7": "{{i18n:MapString.sbv.eliashouse7}}",
-				//elias house (old)
-				"sbv.eliashouseold1": "{{i18n:MapString.sbv.eliashouseold1}}",
-				"sbv.eliashouseold2": "{{i18n:MapString.sbv.eliashouseold2}}",
-				"sbv.eliashouseold3": "{{i18n:MapString.sbv.eliashouseold3}}",
-				"sbv.eliashouseold4": "{{i18n:MapString.sbv.eliashouseold4}}",
-				"sbv.eliashouseold5": "{{i18n:MapString.sbv.eliashouseold5}}",
-				"sbv.eliashouseold6": "{{i18n:MapString.sbv.eliashouseold6}}",
-				//ezra house
-				"sbv.ezrahouse1": "{{i18n:MapString.sbv.ezrahouse1}}",
-				"sbv.ezrahouse2": "{{i18n:MapString.sbv.ezrahouse2}}",
-				"sbv.ezrahouse3": "{{i18n:MapString.sbv.ezrahouse3}}",
-				//iman house
-				"sbv.imanhouse1": "{{i18n:MapString.sbv.imanhouse1}}",
-				"sbv.imanhouse2": "{{i18n:MapString.sbv.imanhouse2}}",
-				"sbv.imanhouse3": "{{i18n:MapString.sbv.imanhouse3}}",
-				//maia house
-				"sbv.maiahouse1": "{{i18n:MapString.sbv.maiahouse1}}",
-				"sbv.maiahouse2": "{{i18n:MapString.sbv.maiahouse2}}",
-				"sbv.maiahouse3": "{{i18n:MapString.sbv.maiahouse3}}",
-				"sbv.maiahouse4": "{{i18n:MapString.sbv.maiahouse4}}",
-				"sbv.maiahouse5": "{{i18n:MapString.sbv.maiahouse5}}",
-				"sbv.maiahouse6": "{{i18n:MapString.sbv.maiahouse6}}",
-				"sbv.maiahouse7": "{{i18n:MapString.sbv.maiahouse7}}",
-				//rei house
-				"sbv.reihouse1": "{{i18n:MapString.sbv.reihouse1}}",
-				"sbv.reihouse2": "{{i18n:MapString.sbv.reihouse2}}",
-				"sbv.reihouse3": "{{i18n:MapString.sbv.reihouse3}}",
-				"sbv.reihouse4": "{{i18n:MapString.sbv.reihouse4}}",
-				"sbv.reihouse5": "{{i18n:MapString.sbv.reihouse5}}",
-				"sbv.reihouse6": "{{i18n:MapString.sbv.reihouse6}}",
-				"sbv.reihouse7": "{{i18n:MapString.sbv.reihouse7}}",
-				//sunberry library
-				"sbv.library2": "{{i18n:MapString.sbv.library2}}",
-				"sbv.library3": "{{i18n:MapString.sbv.library3}}",
-				"sbv.library4": "{{i18n:MapString.sbv.library4}}",
-				"sbv.library5": "{{i18n:MapString.sbv.library5}}",
-				"sbv.library6": "{{i18n:MapString.sbv.library6}}",
-				"sbv.library7": "{{i18n:MapString.sbv.library7}}",
-				"sbv.library8": "{{i18n:MapString.sbv.library8}}",
-				"sbv.library9": "{{i18n:MapString.sbv.library9}}",
-				"sbv.library10": "{{i18n:MapString.sbv.library10}}",
-				// twilight festival
-				"sbv.twilightfestival.1": "{{i18n:MapString.sbv.twilightfestival.1}}",
-				"sbv.twilightfestival.2": "{{i18n:MapString.sbv.twilightfestival.2}}"
-			}
-		},
-		{
-			"LogName": "Rei Temp Message",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"rei.lockedhouse": "{{i18n:MapString.rei.lockedhouse}}"
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031427": false
-			}
-		},
-		{
-			"LogName": "Mine Unlock Message",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.lockedladder": "{{i18n:MapString.sbv.lockedladder}}"
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer |contains=100162": false
-			}
-		},
-		{
-			"LogName": "Minecart Message",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.crystalcave1": "{{i18n:MapString.sbv.crystalcave1}}",
-			},
-			"When": {
-				"HasSeenEvent: anyPlayer |contains={{ModId}}_20031446": false,
-			}
-		},
-		// Unoccupied Houses
-		{
-			"LogName": "Dao's House",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupieddao": "{{i18n:MapString.sbv.unoccupieddao}}"
-			},
-			"When": {
-				"HasMod |contains= Airyn.Dao.CP": false
-			}
-		},
-		{
-			"LogName": "Wren's House",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupiedwren": "{{i18n:MapString.sbv.unoccupiedwren}}"
-			},
-			"When": {
-				"HasMod |contains= tiakall.wren": false
-			}
-		},
-		{
-			"LogName": "Jonghyuk's House",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupiedhyuk": "{{i18n:MapString.sbv.unoccupiedhyuk}}"
-			},
-			"When": {
-				"HasMod |contains= Arknir.Jonghyuk": false
-			}
-		},
-		{
-			"LogName": "ARV House",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupiedarv": "{{i18n:MapString.sbv.unoccupiedarv}}"
-			},
-			/*"When": {
-				"HasMod |contains= Himetarts.ARV.CP": false
-			}*/ // RE-ENABLE THIS WHEN ARV RELEASES
-		},
-		{
-			"LogName": "Dido & Cassie's House",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupieddido": "{{i18n:MapString.sbv.unoccupieddido}}"
-			},
-			"When": {
-				"HasMod |contains= ZoeDoll.NPCDidoAndCassie": false
-			}
-		},
-		{
-			"LogName": "Yri's House",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupiedyri": "{{i18n:MapString.sbv.unoccupiedyri}}"
-			}
-		},
-		{
-			"LogName": "Lani's House",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupiedlani": "{{i18n:MapString.sbv.unoccupiedlani}}"
-			}
-		},
-		{
-			"LogName": "Ripley's House NO RSV",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupiedripley": "{{i18n:MapString.sbv.unoccupiedripley}}"
-			},
-			"When": {
-				"HasMod |contains= Rafseazz.RSVCP": false,
-				"HasMod |contains= Clara.Ripley": false
-			}
-		},
-		{
-			"LogName": "Ripley's House RSV",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupiedripley": "{{i18n:MapString.sbv.unoccupiedripleyrsv}}"
-			},
-			"When": {
-				"HasMod |contains= Rafseazz.RSVCP": true,
-				"HasMod |contains= Clara.Ripley": false
-			}
-		},
-		{
-			"LogName": "Valli's House",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupiedvalli": "{{i18n:MapString.sbv.unoccupiedvalli}}"
-			}
-		},
-		{
-			"LogName": "Thy's House",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupiedthy": "{{i18n:MapString.sbv.unoccupiedthy}}"
-			},
-			"When": {
-				"HasMod |contains= KediDili.ProjectStarlight.CP": false
-			}
-		},
-		{
-			"LogName": "Alchemist's House",
-			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
-			"Entries": {
-				"sbv.unoccupiedalchemist": "{{i18n:MapString.sbv.unoccupiedalchemist}}"
-			},
-			"When": {
-				"HasMod |contains= wildflour.SASS": false
-			}
-		},
-		// sophie's book feature
-		{
+    "Changes": [
+        //Map Strings
+        {
+            "Action": "EditData",
+            "Target": "Strings/StringsFromMaps",
+            "Entries": {
+                //cafe
+                "dd.moonhide": "{{i18n:MapString.dd.moonhide}}",
+                "dd.cafe1": "{{i18n:MapString.dd.cafe1}}",
+                "dd.cafe2": "{{i18n:MapString.dd.cafe2}}",
+                "dd.cafe3": "{{i18n:MapString.dd.cafe3}}",
+                "dd.cafe4": "{{i18n:MapString.dd.cafe4}}",
+                "dd.cafe5": "{{i18n:MapString.dd.cafe5}}",
+                "dd.cafe6": "{{i18n:MapString.dd.cafe6}}",
+                "dd.cafe7": "{{i18n:MapString.dd.cafe7}}",
+                "dd.cafe8": "{{i18n:MapString.dd.cafe8}}",
+                "dd.cafe9": "{{i18n:MapString.dd.cafe9}}",
+                "dd.cafe10": "{{i18n:MapString.dd.cafe10}}",
+                "dd.cafe11": "{{i18n:MapString.dd.cafe11}}",
+                "dd.house1": "{{i18n:MapString.dd.house1}}",
+                "dd.house2": "{{i18n:MapString.dd.house2}}",
+                "dd.house3": "{{i18n:MapString.dd.house3}}",
+                "dd.house4": "{{i18n:MapString.dd.house4}}",
+                "dd.house6": "{{i18n:MapString.dd.house6}}",
+                "dd.house7": "{{i18n:MapString.dd.house7}}",
+                "dd.house8": "{{i18n:MapString.dd.house8}}",
+                "dd.house9": "{{i18n:MapString.dd.house9}}",
+                "dd.house10": "{{i18n:MapString.dd.house10}}",
+                "dd.house11": "{{i18n:MapString.dd.house11}}",
+                "dd.house12": "{{i18n:MapString.dd.house12}}",
+                "dd.house13": "{{i18n:MapString.dd.house13}}",
+                "dd.house14": "{{i18n:MapString.dd.house14}}",
+                "dd.house15": "{{i18n:MapString.dd.house15}}",
+                "dd.house16": "{{i18n:MapString.dd.house16}}",
+                "dd.house17": "{{i18n:MapString.dd.house17}}",
+                "dd.house18": "{{i18n:MapString.dd.house18}}",
+                "dd.house19": "{{i18n:MapString.dd.house19}}",
+                "dd.house20": "{{i18n:MapString.dd.house20}}",
+                "dd.house21": "{{i18n:MapString.dd.house21}}",
+                "dd.house22": "{{i18n:MapString.dd.house22}}",
+                //village
+                "sbv.village1": "{{i18n:MapString.sbv.village1}}",
+                "sbv.village2": "{{i18n:MapString.sbv.village2}}",
+                "sbv.village3": "{{i18n:MapString.sbv.village3}}",
+                "sbv.village4": "{{i18n:MapString.sbv.village4}}",
+                "sbv.village5": "{{i18n:MapString.sbv.village5}}",
+                "sbv.village6": "{{i18n:MapString.sbv.village6}}",
+                "sbv.village7": "{{i18n:MapString.sbv.village7}}",
+                "sbv.village8": "{{i18n:MapString.sbv.village8}}",
+                "sbv.unoccupied": "{{i18n:MapString.sbv.unoccupied}}",
+                //mountain
+                "sbv.mountain1": "{{i18n:MapString.sbv.mountain1}}",
+                "sbv.mountain2": "{{i18n:MapString.sbv.mountain2}}",
+                "sbv.mountain3": "{{i18n:MapString.sbv.mountain3}}",
+                "sbv.mountain4": "{{i18n:MapString.sbv.mountain4}}",
+                //forest
+                "sbv.forest1": "{{i18n:MapString.sbv.forest1}}",
+                //road
+                "sbv.road1": "{{i18n:MapString.sbv.road1}}",
+                //ari market
+                "sbv.market1": "{{i18n:MapString.sbv.market1}}",
+                "sbv.market2": "{{i18n:MapString.sbv.market2}}",
+                "sbv.market3": "{{i18n:MapString.sbv.market3}}",
+                "sbv.market4": "{{i18n:MapString.sbv.market4}}",
+                "sbv.market5": "{{i18n:MapString.sbv.market5}}",
+                "sbv.market6": "{{i18n:MapString.sbv.market6}}",
+                //broken diner
+                "sbv.brokendiner1": "{{i18n:MapString.sbv.brokendiner1}}",
+                //5A and 5B
+                "sbv.rest1": "{{i18n:MapString.sbv.rest1}}",
+                //elias house
+                "sbv.eliashouse1": "{{i18n:MapString.sbv.eliashouse1}}",
+                "sbv.eliashouse2": "{{i18n:MapString.sbv.eliashouse2}}",
+                "sbv.eliashouse3": "{{i18n:MapString.sbv.eliashouse3}}",
+                "sbv.eliashouse4": "{{i18n:MapString.sbv.eliashouse4}}",
+                "sbv.eliashouse5": "{{i18n:MapString.sbv.eliashouse5}}",
+                "sbv.eliashouse6": "{{i18n:MapString.sbv.eliashouse6}}",
+                "sbv.eliashouse7": "{{i18n:MapString.sbv.eliashouse7}}",
+                //elias house (old)
+                "sbv.eliashouseold1": "{{i18n:MapString.sbv.eliashouseold1}}",
+                "sbv.eliashouseold2": "{{i18n:MapString.sbv.eliashouseold2}}",
+                "sbv.eliashouseold3": "{{i18n:MapString.sbv.eliashouseold3}}",
+                "sbv.eliashouseold4": "{{i18n:MapString.sbv.eliashouseold4}}",
+                "sbv.eliashouseold5": "{{i18n:MapString.sbv.eliashouseold5}}",
+                "sbv.eliashouseold6": "{{i18n:MapString.sbv.eliashouseold6}}",
+                //ezra house
+                "sbv.ezrahouse1": "{{i18n:MapString.sbv.ezrahouse1}}",
+                "sbv.ezrahouse2": "{{i18n:MapString.sbv.ezrahouse2}}",
+                "sbv.ezrahouse3": "{{i18n:MapString.sbv.ezrahouse3}}",
+                //iman house
+                "sbv.imanhouse1": "{{i18n:MapString.sbv.imanhouse1}}",
+                "sbv.imanhouse2": "{{i18n:MapString.sbv.imanhouse2}}",
+                "sbv.imanhouse3": "{{i18n:MapString.sbv.imanhouse3}}",
+                //maia house
+                "sbv.maiahouse1": "{{i18n:MapString.sbv.maiahouse1}}",
+                "sbv.maiahouse2": "{{i18n:MapString.sbv.maiahouse2}}",
+                "sbv.maiahouse3": "{{i18n:MapString.sbv.maiahouse3}}",
+                "sbv.maiahouse4": "{{i18n:MapString.sbv.maiahouse4}}",
+                "sbv.maiahouse5": "{{i18n:MapString.sbv.maiahouse5}}",
+                "sbv.maiahouse6": "{{i18n:MapString.sbv.maiahouse6}}",
+                "sbv.maiahouse7": "{{i18n:MapString.sbv.maiahouse7}}",
+                //rei house
+                "sbv.reihouse1": "{{i18n:MapString.sbv.reihouse1}}",
+                "sbv.reihouse2": "{{i18n:MapString.sbv.reihouse2}}",
+                "sbv.reihouse3": "{{i18n:MapString.sbv.reihouse3}}",
+                "sbv.reihouse4": "{{i18n:MapString.sbv.reihouse4}}",
+                "sbv.reihouse5": "{{i18n:MapString.sbv.reihouse5}}",
+                "sbv.reihouse6": "{{i18n:MapString.sbv.reihouse6}}",
+                "sbv.reihouse7": "{{i18n:MapString.sbv.reihouse7}}",
+                //sunberry library
+                "sbv.library2": "{{i18n:MapString.sbv.library2}}",
+                "sbv.library3": "{{i18n:MapString.sbv.library3}}",
+                "sbv.library4": "{{i18n:MapString.sbv.library4}}",
+                "sbv.library5": "{{i18n:MapString.sbv.library5}}",
+                "sbv.library6": "{{i18n:MapString.sbv.library6}}",
+                "sbv.library7": "{{i18n:MapString.sbv.library7}}",
+                "sbv.library8": "{{i18n:MapString.sbv.library8}}",
+                "sbv.library9": "{{i18n:MapString.sbv.library9}}",
+                "sbv.library10": "{{i18n:MapString.sbv.library10}}",
+                // twilight festival
+                "sbv.twilightfestival.1": "{{i18n:MapString.sbv.twilightfestival.1}}",
+                "sbv.twilightfestival.2": "{{i18n:MapString.sbv.twilightfestival.2}}",
+                // conditional or temporary messages
+                "rei.lockedhouse": "{{i18n:MapString.rei.lockedhouse}}",
+                "sbv.lockedladder": "{{i18n:MapString.sbv.lockedladder}}",
+                "sbv.crystalcave1": "{{i18n:MapString.sbv.crystalcave1}}",
+                // addons
+                "sbv.unoccupieddao": "{{i18n:MapString.sbv.unoccupieddao}}",
+                "sbv.unoccupiedwren": "{{i18n:MapString.sbv.unoccupiedwren}}",
+                "sbv.unoccupiedhyuk": "{{i18n:MapString.sbv.unoccupiedhyuk}}",
+                "sbv.unoccupiedarv": "{{i18n:MapString.sbv.unoccupiedarv}}",
+                "sbv.unoccupieddido": "{{i18n:MapString.sbv.unoccupieddido}}",
+                "sbv.unoccupiedyri": "{{i18n:MapString.sbv.unoccupiedyri}}",
+                "sbv.unoccupiedlani": "{{i18n:MapString.sbv.unoccupiedlani}}",
+                "sbv.unoccupiedripley": "{{i18n:MapString.sbv.unoccupiedripley}}",
+                "sbv.unoccupiedripleyrsv": "{{i18n:MapString.sbv.unoccupiedripleyrsv}}",
+                "sbv.unoccupiedvalli": "{{i18n:MapString.sbv.unoccupiedvalli}}",
+                "sbv.unoccupiedthy": "{{i18n:MapString.sbv.unoccupiedthy}}",
+                "sbv.unoccupiedalchemist": "{{i18n:MapString.sbv.unoccupiedalchemist}}"
+            }
+        },
+        {
+            "LogName": "Rei Pre-Unlock Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryForest",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 54,
+                        "Y": 12
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"rei.lockedhouse\""
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 55,
+                        "Y": 12
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"rei.lockedhouse\""
+                    }
+                }
+            ],
+            "When": {
+                "HasSeenEvent: anyPlayer |contains={{ModId}}_20031427": false
+            }
+        },
+        {
+            "LogName": "Mine Pre-Unlock Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_CrystalCave",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 8
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.lockedladder\""
+                    }
+                }
+            ],
+            "When": {
+                "HasSeenEvent: anyPlayer |contains=100162": false
+            }
+        },
+        {
+            "LogName": "Minecart Pre-Unlock Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_CrystalCave",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 7,
+                        "Y": 9
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.crystalcave1\""
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 9
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.crystalcave1\""
+                    }
+                }
+            ],
+            "When": {
+                "HasSeenEvent: anyPlayer |contains={{ModId}}_20031446": false
+            }
+        },
+        // Addon Messages
+        {
+            "LogName": "Dao Absent Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 37,
+                        "Y": 66
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupieddao\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= Airyn.Dao.CP": false
+            }
+        },
+        {
+            "LogName": "ARV Absent Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 12,
+                        "Y": 44
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedarv\""
+                    }
+                }
+            ]
+            // disabled for now in case user has ES copy of ARV installed
+            //"When": {
+            //    "HasMod |contains= Himetarts.ARV.CP": false
+            //}
+        },
+        {
+            "LogName": "Wren Absent Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 12,
+                        "Y": 61
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedwren\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= tiakall.wren": false
+            }
+        },
+        {
+            "LogName": "Jonghyuk Absent Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 86,
+                        "Y": 62
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedhyuk\""
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 87,
+                        "Y": 62
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedhyuk\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= Arknir.Jonghyuk": false
+            }
+        },
+        {
+            "LogName": "Dido & Cassie Absent Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 73,
+                        "Y": 87
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupieddido\""
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 74,
+                        "Y": 87
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupieddido\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= ZoeDoll.NPCDidoAndCassie": false
+            }
+        },
+        {
+            "LogName": "Yri Absent Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 64,
+                        "Y": 58
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedyri\""
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 65,
+                        "Y": 58
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedyri\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= yri.yri": false
+            }
+        },
+        {
+            "LogName": "Lani Absent Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 65,
+                        "Y": 47
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedlani\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= lilico.Lani": false
+            }
+        },
+        {
+            "LogName": "Ripley Absent Message - No RSV",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 88
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedripley\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= Rafseazz.RSVCP, Clara.Ripley": false
+            }
+        },
+        {
+            "LogName": "Ripley Absent Message - RSV",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 88
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedripleyrsv\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= Rafseazz.RSVCP": true,
+                "HasMod |contains= Clara.Ripley": false
+            }
+        },
+        {
+            "LogName": "Thy Absent Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryForest",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 42,
+                        "Y": 7
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedthy\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= KediDili.ProjectStarlight.CP": false
+            }
+        },
+        {
+            "LogName": "Alchemist Absent Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryForest",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 48,
+                        "Y": 27
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedalchemist\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= wildflour.SASS": false
+            }
+        },
+        {
+            "LogName": "Valli Absent Message",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryMountain",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 30
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Message \"sbv.unoccupiedvalli\""
+                    }
+                }
+            ],
+            "When": {
+                "HasMod |contains= RedxMoonxRose.TrashGremlin.CP": false
+            }
+        },
+        // sophie's book feature
+        {
             "LogName": "Edit blank Books file to add book strings",
             "Action": "EditData",
             "Target": "Strings/SBV/Books",
             "Entries": {
                 "MapString.GoddessLorePart1": "{{i18n:MapString.GoddessLorePart1}}",
-				"MapString.GoddessLorePart2": "{{i18n:MapString.GoddessLorePart2}}",
+                "MapString.GoddessLorePart2": "{{i18n:MapString.GoddessLorePart2}}",
                 "MapString.GoddessLorePart3": "{{i18n:MapString.GoddessLorePart3}}",
-				"MapString.GoddessLorePart4": "{{i18n:MapString.GoddessLorePart4}}",
+                "MapString.GoddessLorePart4": "{{i18n:MapString.GoddessLorePart4}}",
                 "MapString.GoddessLorePart5": "{{i18n:MapString.GoddessLorePart5}}",
-				"MapString.GoddessLorePart6": "{{i18n:MapString.GoddessLorePart6}}",
+                "MapString.GoddessLorePart6": "{{i18n:MapString.GoddessLorePart6}}",
                 "MapString.GoddessLorePart7": "{{i18n:MapString.GoddessLorePart7}}",
-				"MapString.GoddessLoreAuthorsNote": "{{i18n:MapString.GoddessLoreAuthorsNote}}",
-				"MapString.sbvlibrary1": "{{i18n:MapString.sbv.library1}}",
-				"MapString.sbvlibrary2": "{{i18n:MapString.sbv.library2}}",
-				"MapString.sbvlibrary3": "{{i18n:MapString.sbv.library3}}",
-				"MapString.sbvlibrary4": "{{i18n:MapString.sbv.library4}}",
-				"MapString.sbvlibrary5": "{{i18n:MapString.sbv.library5}}",
-				"MapString.sbvlibrary6": "{{i18n:MapString.sbv.library6}}",
-				"MapString.sbvlibrary7": "{{i18n:MapString.sbv.library7}}",
-				"MapString.sbvlibrary8": "{{i18n:MapString.sbv.library8}}",
-				"MapString.sbvlibrary9": "{{i18n:MapString.sbv.library9}}",
-				"MapString.sbvlibrary10": "{{i18n:MapString.sbv.library10}}"
+                "MapString.GoddessLoreAuthorsNote": "{{i18n:MapString.GoddessLoreAuthorsNote}}",
+                "MapString.sbvlibrary1": "{{i18n:MapString.sbv.library1}}",
+                "MapString.sbvlibrary2": "{{i18n:MapString.sbv.library2}}",
+                "MapString.sbvlibrary3": "{{i18n:MapString.sbv.library3}}",
+                "MapString.sbvlibrary4": "{{i18n:MapString.sbv.library4}}",
+                "MapString.sbvlibrary5": "{{i18n:MapString.sbv.library5}}",
+                "MapString.sbvlibrary6": "{{i18n:MapString.sbv.library6}}",
+                "MapString.sbvlibrary7": "{{i18n:MapString.sbv.library7}}",
+                "MapString.sbvlibrary8": "{{i18n:MapString.sbv.library8}}",
+                "MapString.sbvlibrary9": "{{i18n:MapString.sbv.library9}}",
+                "MapString.sbvlibrary10": "{{i18n:MapString.sbv.library10}}"
             }
         },
-		{
-            "LogName": "Add tiledata to map",
+        {
+            "LogName": "Add Book tiledata to library",
             "Action": "EditMap",
             "Target": "Maps/Custom_SBV_SunberryLibrary",
             "MapTiles": [
-				{
-					"Position": { "X": 18, "Y": 6 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						// you can list as many strings as you want after the Book property, they'll each be put on separate pages
-						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.GoddessLorePart1 Strings\\SBV\\Books:MapString.GoddessLorePart2 Strings\\SBV\\Books:MapString.GoddessLorePart3 Strings\\SBV\\Books:MapString.GoddessLorePart4"
-					}
-				},
-				{
-					"Position": { "X": 19, "Y": 6 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.GoddessLorePart5 Strings\\SBV\\Books:MapString.GoddessLorePart6 Strings\\SBV\\Books:MapString.GoddessLorePart7 Strings\\SBV\\Books:MapString.GoddessLoreAuthorsNote"
-					}
-				},	
-				{
-					"Position": { "X": 20, "Y": 6 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary1 Strings\\SBV\\Books:MapString.sbvlibrary7"
-					}
-				},
-				{
-					"Position": { "X": 21, "Y": 6 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary6 Strings\\SBV\\Books:MapString.sbvlibrary8 Strings\\SBV\\Books:MapString.sbvlibrary9"
-					}
-				},
-				{
-					"Position": { "X": 16, "Y": 9 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary3"
-					}
-				},
-				{
-					"Position": { "X": 17, "Y": 9 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary4"
-					}
-				},
-				{
-					"Position": { "X": 19, "Y": 9 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary5"
-					}
-				},	
-				{
-					"Position": { "X": 20, "Y": 9 },
-					"Layer": "Buildings",
-					"SetProperties": {
-						"Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary10"
-					}
-				},			
-			]
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        // you can list as many strings as you want after the Book property, they'll each be put on separate pages
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.GoddessLorePart1 Strings\\SBV\\Books:MapString.GoddessLorePart2 Strings\\SBV\\Books:MapString.GoddessLorePart3 Strings\\SBV\\Books:MapString.GoddessLorePart4"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.GoddessLorePart5 Strings\\SBV\\Books:MapString.GoddessLorePart6 Strings\\SBV\\Books:MapString.GoddessLorePart7 Strings\\SBV\\Books:MapString.GoddessLoreAuthorsNote"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 20,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary1 Strings\\SBV\\Books:MapString.sbvlibrary7"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 21,
+                        "Y": 6
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary6 Strings\\SBV\\Books:MapString.sbvlibrary8 Strings\\SBV\\Books:MapString.sbvlibrary9"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 9
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary3"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 17,
+                        "Y": 9
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary4"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 9
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary5"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 20,
+                        "Y": 9
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary10"
+                    }
+                }
+            ]
         }
-	]
+    ]
 }

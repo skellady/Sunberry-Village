@@ -53,23 +53,6 @@
 79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79,79
 </data>
  </layer>
- <objectgroup id="4" name="Buildings">
-  <object id="2" name="TileData" x="128" y="144" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.crystalcave1&quot;"/>
-   </properties>
-  </object>
-  <object id="3" name="TileData" x="112" y="144" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.crystalcave1&quot;"/>
-   </properties>
-  </object>
-  <object id="4" name="TileData" x="240" y="128" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.lockedladder&quot;"/>
-   </properties>
-  </object>
- </objectgroup>
  <layer id="13" name="Buildings+1" width="22" height="19">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,

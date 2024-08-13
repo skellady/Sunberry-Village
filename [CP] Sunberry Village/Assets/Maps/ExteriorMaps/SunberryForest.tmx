@@ -5291,29 +5291,9 @@
   </object>
  </objectgroup>
  <objectgroup id="7" name="Buildings">
-  <object id="36" name="TileData" x="864" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;rei.lockedhouse&quot;"/>
-   </properties>
-  </object>
-  <object id="37" name="TileData" x="880" y="192" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;rei.lockedhouse&quot;"/>
-   </properties>
-  </object>
   <object id="38" name="TileData" x="240" y="624" width="16" height="16">
    <properties>
     <property name="Action" value="MinecartTransport skellady.SBVCP_SBVMinecartNetwork skellady.SBVCP_SBVForest"/>
-   </properties>
-  </object>
-  <object id="327" name="TileData" x="672" y="112" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedthy&quot;"/>
-   </properties>
-  </object>
-  <object id="328" name="TileData" x="768" y="432" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.unoccupiedalchemist&quot;"/>
    </properties>
   </object>
   <object id="330" name="TileData" x="208" y="752" width="16" height="16">
