@@ -31,8 +31,8 @@
                             "Condition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received",
                             "TargetLocation": "BusStop",
                             "TargetTile": {
-                                "X": 21,
-                                "Y": 23
+                                "X": 14,
+                                "Y": 4
                             },
                             "TargetDirection": "down"
                         },

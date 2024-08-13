@@ -7,7 +7,7 @@ using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using StardewValley.Extensions;
-using StardewValley.Menus;
+using StardewValley.Locations;
 using SunberryVillage.Shops;
 using xTile.Dimensions;
 
@@ -32,6 +32,28 @@ internal class GameLocationPatches
 	/*
 	 *  Patches
 	 */
+
+	[HarmonyPatch(typeof(BusStop), "resetLocalState")]
+	[HarmonyPrefix]
+	public static void BusStop_resetLocalState_Prefix(bool __state)
+	{
+		if (!Game1.player.previousLocationName.Contains("Custom_SBV"))
+			return;
+
+		__state = Game1.eventUp;
+		Game1.eventUp = true;
+	}
+
+	[HarmonyPatch(typeof(BusStop), "resetLocalState")]
+	[HarmonyPostfix]
+	public static void BusStop_resetLocalState_Postfix(bool __state)
+	{
+		if (!Game1.player.previousLocationName.Contains("Custom_SBV"))
+			return;
+
+		Game1.eventUp = __state;
+	}
+
 
 	/// <summary>
 	/// Patches <c>GameLocation.answerDialogueAction</c> to check for response to custom questions and handle them accordingly.
