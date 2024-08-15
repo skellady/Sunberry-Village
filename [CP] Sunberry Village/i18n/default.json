@@ -1487,8 +1487,16 @@
     "event-20031437.07": "Have you met Marlon yet? Has he given you any weapon or training?$8",
     "event-20031437.08": "Yes.",
     "event-20031437.09": "No.",
-    "event-20031437.10": "Huh, okay. I still strongly advise you not to venture in, but if you do, please be careful.$12#$b#Keep some food and a sleeping bag on you. You'll need them.$12",
-    "event-20031437.11": "...I'm afraid I won't be able to stand by as you venture in with no protection or training. I'll allow you to descend once you've seen Marlon.$12",
+    "event-20031437.10": "Hmm...",
+    "event-20031437.11": "...I'm afraid I won't be able to stand by as you venture in with no protection or training. I'll allow you to descend once you've done so.$12",
+    "event-20031437.12.None": "You've been given a weapon, yes, but it's obvious that you hardly know which end to hold it by.$5#$b#I simply cannot let you enter with such a lack of experience$12.",
+    "event-20031437.12.Novice": "It seems you are somewhat familiar with your weapon, but I do not think you're adequately prepared for the trials ahead.$2#$b#I would caution you against entering until you've built up your strength, but I will not stop you if you choose to proceed.$11",
+    "event-20031437.12.Skilled": "You appear skilled in the ways of combat, but I must warn you that the monsters that lurk below are dangerous even to the most experienced of fighters.$2#$b#Keep your wits about you if you choose to delve deeper.$11",
+    "event-20031437.12.Expert": "It's clear you're a powerful warrior. You may proceed, but please, exercise caution.$10#$b#As a wise man once said, 'overconfidence is a slow and insidious killer'.$4",
+    "event-20031437.12.Master": "I can see plainly that you've mastered the ways of combat, and I will not prevent you from entering.$10#$b#Just remember, these caves are home to a carefully balanced ecosystem, strange though it may seem to us.$12",
+    "event-20031437.13": "Be careful, @.$11",
+    //"event-20031437.12": "Huh, okay. I still strongly advise you not to venture in, but if you do, please be careful.$12#$b#Keep some food and a sleeping bag on you. You'll need them.$12",
+
 
     // Derya and Wren Shenanigans
     "event-20031438.01": "Psst. Over here.$10",
@@ -2807,11 +2815,11 @@
     "MapString.sbv.brokendiner1": "It's a to-do list. Only two of the lines are readable.#'-Get eggs, flour, and sugar ^-Call Ezra again'",
     // Crystal Cave Entrance
     "MapString.sbv.crystalcave1": "Out of order.",
-    "MapString.sbv.lockedladder": "I shouldn't go any further.",
+    "MapString.sbv.lockedladder": "Ophelia has barred me from entering until I have some more combat experience.",
     // 5A and 5B
     "MapString.sbv.rest1": "'Cleared out the tunnel. Should be safe if you need to sleep or rest.' - Maia",
     // Elias' (Library) House
-    "MapString.sbv.eliashouse1": "Elias' guitar. Now that you think about it, you've never actually seen him play it before.",
+    "MapString.sbv.eliashouse1": "Elias' guitar. Unlike most of the stuff in here, it's obviously been well cared for.",
     "MapString.sbv.eliashouse2": "Elias' computer. His background is a picture of everyone in the village posing by the fountain.#Elias appears to be running in the picture, perhaps he didn't make it into the shot before the timer went off.",
     "MapString.sbv.eliashouse3": "It's a book.#'Beyond Recovery: Messiest Sport Injuries.'",
     "MapString.sbv.eliashouse4": "It's a book. There's a message written on the first page.#'I finished this book in a day. It was really good, I think you'd like it. -Maia'",
@@ -2827,8 +2835,8 @@
     "MapString.sbv.eliashouseold6": "It's a box. It's labeled 'PHOTO ALBUMS'",
     // Ezra's House
     "MapString.sbv.ezrahouse1": "There's a piece of paper in the drawer. It seems to be a will. You skim through it.#'To my son, Ezra, I leave you with the shack in the mountains. ^To my daughter, Nadia, I leave you with the family farm in Zuzu City.'",
-    "MapString.sbv.ezrahouse2": "Ezra's sewing materials. They seem to be in perfect quality.",
-    "MapString.sbv.ezrahouse3": "A piece of fabric. It's very soft to the touch.",
+    "MapString.sbv.ezrahouse2": "Ezra's sewing materials. They seem to be in perfect condition.",
+    "MapString.sbv.ezrahouse3": "A colorful piece of fabric. It's very soft to the touch.",
     // Iman's House
     "MapString.sbv.imanhouse1": "You open the drawer. It's a disorganized mess of receipts, accessories, and pens.",
     "MapString.sbv.imanhouse2": "Iman's laptop. The background is a picture of her, Ezra, and Haley in the forest.",

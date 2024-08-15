@@ -1,396 +1,428 @@
 {
-  "Format": "2.0",
-  "DynamicTokens": [
-    {
-      "Name": "WizardPronounsSubject",
-      "Value": "{{i18n:Wizard.Masc.Subject}}"
+    "Format": "2.0",
+    "DynamicTokens": [
+        {
+            "Name": "WizardPronounsSubject",
+            "Value": "{{i18n:Wizard.Masc.Subject}}"
+        },
+        {
+            "Name": "WizardPronounsSubject",
+            "Value": "{{i18n:Wizard.Femme.Subject}}",
+            "When": {
+                "HasMod |contains= Nom0ri.RomRas": true
+            }
+        },
+        {
+            "Name": "WizardPronounsObject",
+            "Value": "{{i18n:Wizard.Masc.Object}}"
+        },
+        {
+            "Name": "WizardPronounsObject",
+            "Value": "{{i18n:Wizard.Femme.Object}}",
+            "When": {
+                "HasMod |contains= Nom0ri.RomRas": true
+            }
+        },
+        {
+            "Name": "WizardPronounsPossessive",
+            "Value": "{{i18n:Wizard.Masc.Possessive}}"
+        },
+        {
+            "Name": "WizardPronounsPossessive",
+            "Value": "{{i18n:Wizard.Femme.Possessive}}",
+            "When": {
+                "HasMod |contains= Nom0ri.RomRas": true
+            }
+        },
+        {
+            "Name": "WizardOrWitch",
+            "Value": "{{i18n:Wizard.Masc.Title}}"
+        },
+        {
+            "Name": "WizardOrWitch",
+            "Value": "{{i18n:Wizard.Femme.Title}}",
+            "When": {
+                "HasMod |contains= Nom0ri.RomRas": true
+            }
+        },
+        {
+            "Name": "JumanaSaturday",
+            "Value": "1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\""
+        },
+        {
+            "Name": "JumanaSaturday",
+            "Value": "{{Random: 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\"|key= DaoJonghyukSaturdayHangout}}",
+            "When": {
+                "HasMod |contains= Airyn.Dao.CP, Arknir.Jonghyuk": true
+            }
+        },
+        {
+            "Name": "JumanaSaturday",
+            "Value": "{{Random: 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\"|key= DaoJonghyukSaturdayHangout}}",
+            "When": {
+                "HasMod |contains= Arknir.Jonghyuk": true,
+                "HasMod |contains= Airyn.Dao.CP": true
+            }
+        },
+        {
+            "Name": "AminaSchool",
+            "Value": "800 ArchaeologyHouse 16 11 1 amina_read/1400 Town 90 92 1 amina_read"
+        },
+        {
+            "Name": "AminaSchool",
+            "Value": "700 CommunityCenter 18 21 amina_readleft/1400 Town 12 14 1 amina_read",
+            "When": {
+                "HasMod |contains= LemurKat.CommunityCenter.CP": true,
+                "HasSeenEvent": "191393"
+            }
+        },
+        {
+            "Name": "BoardUnlockToken",
+            "Value": "f EliasSBV 1000",
+            "When": {
+                "BoardUnlock |contains= Elias": true
+            }
+        },
+        {
+            "Name": "BoardUnlockToken",
+            "Value": "e 15389722",
+            "When": {
+                "BoardUnlock |contains= Vanilla": true
+            }
+        },
+        {
+            "Name": "TilesheetRecolor",
+            "Value": "Vanilla"
+        },
+        {
+            "Name": "TilesheetRecolor",
+            "Value": "VPR",
+            "When": {
+                "HasMod": "grapeponta.VibrantPastoralRecolor"
+            }
+        },
+        {
+            "Name": "TilesheetRecolor",
+            "Value": "Earthy",
+            "When": {
+                "HasMod": "DaisyNiko.EarthyRecolour"
+            }
+        },
+        {
+            "Name": "TilesheetRecolor",
+            "Value": "Retro",
+            "When": {
+                "HasMod": "yri.RetroRecolor"
+            }
+        },
+        {
+            "Name": "TilesheetRecolor",
+            "Value": "Wittily",
+            "When": {
+                "HasMod": "Acerbicon.Recolor"
+            }
+        },
+        {
+            "Name": "GSBSetup",
+            "Value": "farmer 25 59 0 SilasSBV 24 53 2 Wizard 25 54 2 JumanaSBV 27 52 3 AminaSBV 31 51 3 EzraSBV 31 54 3 ImanSBV 31 55 3 MoonSBV 24 60 0 EliasSBV 24 57 0 AriSBV 23 57 0 MaiaSBV 22 53 1 BlakeSBV 19 54 1 LyenneSBV 19 53 1 OpheliaSBV 23 50 2 MiyoungSBV 21 50 2 DialaSBV 24 48 2 DeryaSBV 22 48 2"
+        },
+        {
+            "Name": "GSBSetup",
+            "Value": "{{GSBSetup}} PS.Thysania 26 45 2",
+            "When": {
+                "HasMod": "KediDili.ProjectStarlight.CP",
+                "HasSeenEvent |contains= KediDili.ProjectStarlight_70030006": true,
+                "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": false
+            }
+        },
+        {
+            "Name": "GSBSetup",
+            "Value": "{{GSBSetup}} PS.Thysania 17 52 1",
+            "When": {
+                "HasMod": "KediDili.ProjectStarlight.CP",
+                "HasSeenEvent |contains= KediDili.ProjectStarlight_70030006": true,
+                "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": true
+            }
+        },
+        {
+            "Name": "GSBSetup",
+            "Value": "{{GSBSetup}} PS.Greyscale 25 45 2",
+            "When": {
+                "HasMod": "KediDili.ProjectStarlight.CP",
+                "HasSeenEvent |contains= KediDili.ProjectStarlight_70030013": true,
+                "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": false
+            }
+        },
+        {
+            "Name": "GSBSetup",
+            "Value": "{{GSBSetup}} PS.Greyscale 17 53 1",
+            "When": {
+                "HasMod": "KediDili.ProjectStarlight.CP",
+                "HasSeenEvent |contains= KediDili.ProjectStarlight_70030013": true,
+                "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": true
+            }
+        },
+        {
+            "Name": "GSBSetup",
+            "Value": "{{GSBSetup}} WrenSong 21 58 0",
+            "When": {
+                "HasMod": "tiakall.wren"
+            }
+        },
+        {
+            "Name": "GSBSetup",
+            "Value": "{{GSBSetup}} AirynDao 22 59 0",
+            "When": {
+                "HasMod": "Airyn.Dao.CP"
+            }
+        },
+        {
+            "Name": "GSBSetup",
+            "Value": "{{GSBSetup}} Jonghyuk 20 51 1",
+            "When": {
+                "HasMod": "Arknir.Jonghyuk"
+            }
+        },
+        {
+            "Name": "GSBSetup",
+            "Value": "{{GSBSetup}} Spanner 20 58 0",
+            "When": {
+                "HasMod": "Arknir.Jonghyuk",
+                "HasSeenEvent |contains= 63071007": true
+            }
+        },
+        { // 0, 1-3, 4-7, 8-9, 10+
+            "Name": "CombatSkill",
+            "Value": "None",
+            "When": {
+                "SkillLevel:Combat": "0"
+            }
+        },
+        {
+            "Name": "CombatSkill",
+            "Value": "Novice",
+            "When": {
+                "SkillLevel:Combat": "1, 2, 3"
+            }
+        },
+        {
+            "Name": "CombatSkill",
+            "Value": "Skilled",
+            "When": {
+                "SkillLevel:Combat": "4, 5, 6"
+            }
+        },
+        {
+            "Name": "CombatSkill",
+            "Value": "Expert",
+            "When": {
+                "SkillLevel:Combat": "7, 8, 9"
+            }
+        },
+        {
+            "Name": "CombatSkill",
+            "Value": "Master",
+            "When": {
+                "Query: {{SkillLevel:Combat}} >= 10": true
+            }
+        },
+        {
+            "Name": "MineUnlock",
+            "Value": "quickQuestion #{{i18n:event-20031437.09}}(break)speak OpheliaSBV \"{{i18n:event-20031437.11}}\""
+        },
+        {
+            "Name": "MineUnlock",
+            "Value": "quickQuestion #{{i18n:event-20031437.08}}#{{i18n:event-20031437.09}}(break)pause 250\\emote farmer 40\\pause 400\\speak OpheliaSBV \"{{i18n:event-20031437.10}}\"\\pause 650\\speak OpheliaSBV \"{{i18n:event-20031437.12.{{CombatSkill}} }}\" \\pause 500\\speak OpheliaSBV \"{{i18n:event-20031437.13}}\"(break)speak OpheliaSBV \"{{i18n:event-20031437.11}}\"",
+            "When": {
+                "HasSeenEvent |contains= 100162": true
+            }
+        }
+    ],
+    "ConfigSchema": {
+        "SDVR3Patch": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "{{i18n:config.SDVR3Patch.description}}"
+        },
+        "FestivalPatches": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "{{i18n:config.FestivalPatches.description}}"
+        },
+        "BoardUnlock": {
+            "AllowValues": "Elias, Vanilla",
+            "Default": "Vanilla",
+            "Description": "{{i18n:config.BoardUnlock.description}}"
+        },
+        "IncludeNPCsInPerfection": {
+            "AllowValues": "true, false",
+            "Default": "true",
+            "Description": "{{i18n:config.IncludeNPCsInPerfection.description}}"
+        }
     },
-    {
-      "Name": "WizardPronounsSubject",
-      "Value": "{{i18n:Wizard.Femme.Subject}}",
-      "When": {
-        "HasMod |contains= Nom0ri.RomRas": true
-      }
-    },
-    {
-      "Name": "WizardPronounsObject",
-      "Value": "{{i18n:Wizard.Masc.Object}}"
-    },
-    {
-      "Name": "WizardPronounsObject",
-      "Value": "{{i18n:Wizard.Femme.Object}}",
-      "When": {
-        "HasMod |contains= Nom0ri.RomRas": true
-      }
-    },
-    {
-      "Name": "WizardPronounsPossessive",
-      "Value": "{{i18n:Wizard.Masc.Possessive}}"
-    },
-    {
-      "Name": "WizardPronounsPossessive",
-      "Value": "{{i18n:Wizard.Femme.Possessive}}",
-      "When": {
-        "HasMod |contains= Nom0ri.RomRas": true
-      }
-    },
-    {
-      "Name": "WizardOrWitch",
-      "Value": "{{i18n:Wizard.Masc.Title}}"
-    },
-    {
-      "Name": "WizardOrWitch",
-      "Value": "{{i18n:Wizard.Femme.Title}}",
-      "When": {
-        "HasMod |contains= Nom0ri.RomRas": true
-      }
-    },
-    {
-      "Name": "JumanaSaturday",
-      "Value": "1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\""
-    },
-    {
-      "Name": "JumanaSaturday",
-      "Value": "{{Random: 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\"|key= DaoJonghyukSaturdayHangout}}",
-      "When": {
-        "HasMod |contains= Airyn.Dao.CP, Arknir.Jonghyuk": true
-      }
-    },
-    {
-      "Name": "JumanaSaturday",
-      "Value": "{{Random: 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 59 81 0 \"Strings\\schedules\\JumanaSBV:Fountain\", 1500 Custom_SBV_SunberryVillage 61 79 2 jumana_cook \"Strings\\schedules\\JumanaSBV:Fountain\"|key= DaoJonghyukSaturdayHangout}}",
-      "When": {
-        "HasMod |contains= Arknir.Jonghyuk": true,
-        "HasMod |contains= Airyn.Dao.CP": true,
-      }
-    },
-    {
-      "Name": "AminaSchool",
-      "Value": "800 ArchaeologyHouse 16 11 1 amina_read/1400 Town 90 92 1 amina_read",
-    },
-    {
-      "Name": "AminaSchool",
-      "Value": "700 CommunityCenter 18 21 amina_readleft/1400 Town 12 14 1 amina_read",
-      "When": {
-        "HasMod |contains= LemurKat.CommunityCenter.CP": true,
-        "HasSeenEvent": "191393"
-      }
-    },
-    {
-      "Name": "BoardUnlockToken",
-      "Value": "f EliasSBV 1000",
-      "When": {
-        "BoardUnlock |contains= Elias": true
-      }
-    },
-    {
-      "Name": "BoardUnlockToken",
-      "Value": "e 15389722",
-      "When": {
-        "BoardUnlock |contains= Vanilla": true
-      }
-    },
-    {
-      "Name": "MineUnlock",
-      "Value": "quickQuestion #{{i18n:event-20031437.08}}#{{i18n:event-20031437.09}}(break)speak OpheliaSBV \"{{i18n:event-20031437.10}}\"(break)speak OpheliaSBV \"{{i18n:event-20031437.11}}\"",
-      "When": {
-        "HasSeenEvent |contains= 100162": true
-      }
-    },
-    {
-      "Name": "MineUnlock",
-      "Value": "quickQuestion #{{i18n:event-20031437.09}}(break)speak OpheliaSBV \"{{i18n:event-20031437.11}}\"",
-      "When": {
-        "HasSeenEvent |contains= 100162": false
-      }
-    },
-    {
-      "Name": "TilesheetRecolor",
-      "Value": "Vanilla",
-    },
-    {
-      "Name": "TilesheetRecolor",
-      "Value": "VPR",
-      "When": {
-        "HasMod": "grapeponta.VibrantPastoralRecolor"
-      }
-    },
-    {
-      "Name": "TilesheetRecolor",
-      "Value": "Earthy",
-      "When": {
-        "HasMod": "DaisyNiko.EarthyRecolour"
-      }
-    },
-    {
-      "Name": "TilesheetRecolor",
-      "Value": "Retro",
-      "When": {
-        "HasMod": "yri.RetroRecolor"
-      }
-    },
-    {
-      "Name": "TilesheetRecolor",
-      "Value": "Wittily",
-      "When": {
-        "HasMod": "Acerbicon.Recolor"
-      }
-    },
-    {
-      "Name": "GSBSetup",
-      "Value": "farmer 25 59 0 SilasSBV 24 53 2 Wizard 25 54 2 JumanaSBV 27 52 3 AminaSBV 31 51 3 EzraSBV 31 54 3 ImanSBV 31 55 3 MoonSBV 24 60 0 EliasSBV 24 57 0 AriSBV 23 57 0 MaiaSBV 22 53 1 BlakeSBV 19 54 1 LyenneSBV 19 53 1 OpheliaSBV 23 50 2 MiyoungSBV 21 50 2 DialaSBV 24 48 2 DeryaSBV 22 48 2"
-    },
-    {
-      "Name": "GSBSetup",
-      "Value": "{{GSBSetup}} PS.Thysania 26 45 2",
-      "When": {
-        "HasMod": "KediDili.ProjectStarlight.CP",
-        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030006": true,
-        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": false
-      }
-    },
-    {
-      "Name": "GSBSetup",
-      "Value": "{{GSBSetup}} PS.Thysania 17 52 1",
-      "When": {
-        "HasMod": "KediDili.ProjectStarlight.CP",
-        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030006": true,
-        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": true
-      }
-    },
-    {
-      "Name": "GSBSetup",
-      "Value": "{{GSBSetup}} PS.Greyscale 25 45 2",
-      "When": {
-        "HasMod": "KediDili.ProjectStarlight.CP",
-        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030013": true,
-        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": false
-      }
-    },
-    {
-      "Name": "GSBSetup",
-      "Value": "{{GSBSetup}} PS.Greyscale 17 53 1",
-      "When": {
-        "HasMod": "KediDili.ProjectStarlight.CP",
-        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030013": true,
-        "HasSeenEvent |contains= KediDili.ProjectStarlight_70030012": true
-      }
-    },
-    {
-      "Name": "GSBSetup",
-      "Value": "{{GSBSetup}} WrenSong 21 58 0",
-      "When": {
-        "HasMod": "tiakall.wren"
-      }
-    },
-    {
-      "Name": "GSBSetup",
-      "Value": "{{GSBSetup}} AirynDao 22 59 0",
-      "When": {
-        "HasMod": "Airyn.Dao.CP"
-      }
-    },
-    {
-      "Name": "GSBSetup",
-      "Value": "{{GSBSetup}} Jonghyuk 20 51 1",
-      "When": {
-        "HasMod": "Arknir.Jonghyuk"
-      }
-    },
-    {
-      "Name": "GSBSetup",
-      "Value": "{{GSBSetup}} Spanner 20 58 0",
-      "When": {
-        "HasMod": "Arknir.Jonghyuk",
-        "HasSeenEvent |contains= 63071007": true
-      }
-    }
-  ],
-  "ConfigSchema": {
-    "SDVR3Patch": {
-      "AllowValues": "true, false",
-      "Default": "true",
-      "Description": "{{i18n:config.SDVR3Patch.description}}"
-    },
-    "FestivalPatches": {
-      "AllowValues": "true, false",
-      "Default": "true",
-      "Description": "{{i18n:config.FestivalPatches.description}}"
-    },
-    "BoardUnlock": {
-      "AllowValues": "Elias, Vanilla",
-      "Default": "Vanilla",
-      "Description": "{{i18n:config.BoardUnlock.description}}"
-    },
-    "IncludeNPCsInPerfection": {
-      "AllowValues": "true, false",
-      "Default": "true",
-      "Description": "{{i18n:config.IncludeNPCsInPerfection.description}}"
-    }
-  },
     /* Event Limiter Compat */
-  "EventLimiterExceptions": [
-    // GSB Start
-    "skellady.SBVCP_20031445",
-    "skellady.SBVCP_20031446"
-  ],
-  "Changes": [
-    /* Temporary Actors */
-    {
-      "LogName": "Load Temp Actors",
-      "Action": "Load",
-      "Target": "Characters/DDCat1, Characters/DDCat2, Characters/DDCat3, Characters/DDCat4, Characters/DDCat5, Characters/DDCat6, Characters/DeryaLay, Characters/DeryaLay2, Characters/DDTable1, Characters/JumanaPot, Characters/DDPicnic, Characters/DDBook, Characters/SBVCrate, Characters/SBVEasel, Characters/GSBPlant, Characters/SBVWizardPoof, Characters/SBVSparklySparkles",
-      "FromFile": "Assets/Maps/tempActors/{{TargetWithoutPath}}.png"
-    },
-    {
-      "LogName": "Seasonal Edit Temp Actors",
-      "Action": "EditImage",
-      "Target": "Characters/DeryaLay, Characters/DeryaLay2, Characters/JumanaPot",
-      "FromFile": "Assets/Maps/tempActors/{{TargetWithoutPath}}_{{Season}}.png",
-      "When": {
-        "HasValue:{{season}}": true
-      }
-    },
-    /* Temporary Maps */
-    {
-      "LogName": "Load Temp Maps",
-      "Action": "Load",
-      "Target": "Maps/Health_Tarot, Maps/Love_Tarot, Maps/Career_Tarot, Maps/Planet_Moon, Maps/Phone_CG1, Maps/Phone_CG2, Maps/Phone_CG3, Maps/Phone_CG4, Maps/Phone_CG5, Maps/Phone_CG6, Maps/Phone_CG",
-      "FromFile": "Assets/Maps/tempMaps/{{TargetWithoutPath}}.tmx"
-    },
-    /* Blank Loads */
-    {
-      "LogName": "Schedule Blanks",
-      "Action": "Load",
-      "Target": "Characters/schedules/DialaSBV, Characters/schedules/DeryaSBV, Characters/schedules/MoonSBV, Characters/schedules/ReihanaSBV, Characters/schedules/AichaSBV, Characters/schedules/AminaSBV, Characters/schedules/AriSBV, Characters/schedules/BlakeSBV, Characters/schedules/EliasSBV, Characters/schedules/EzraSBV, Characters/schedules/ImanSBV, Characters/schedules/JumanaSBV, Characters/schedules/LyenneSBV, Characters/schedules/MaiaSBV, Characters/schedules/MiyoungSBV, Characters/schedules/NadiaSBV, Characters/schedules/OpheliaSBV, Characters/schedules/PanSBV, Characters/schedules/SilasSBV",
-      "FromFile": "Data/Dialogue/blank.json"
-    },
-    {
-      "LogName": "Dialogue Blanks",
-      "Action": "Load",
-      "Target": "Characters/Dialogue/DialaSBV, Characters/Dialogue/DeryaSBV, Characters/Dialogue/MoonSBV, Characters/Dialogue/ReihanaSBV, Characters/Dialogue/AichaSBV, Characters/Dialogue/AminaSBV, Characters/Dialogue/AriSBV, Characters/Dialogue/BlakeSBV, Characters/Dialogue/EliasSBV, Characters/Dialogue/EzraSBV, Characters/Dialogue/ImanSBV, Characters/Dialogue/JumanaSBV, Characters/Dialogue/LyenneSBV, Characters/Dialogue/MaiaSBV, Characters/Dialogue/MiyoungSBV, Characters/Dialogue/NadiaSBV, Characters/Dialogue/OpheliaSBV, Characters/Dialogue/PanSBV, Characters/Dialogue/SilasSBV",
-      "FromFile": "Data/Dialogue/blank.json"
-    },
-    {
-      "LogName": "Schedule Dialogue Blanks",
-      "Action": "Load",
-      "Target": "Strings/schedules/DialaSBV, Strings/schedules/AichaSBV, Strings/schedules/AminaSBV, Strings/schedules/AriSBV, Strings/schedules/BlakeSBV, Strings/schedules/DeryaSBV, Strings/schedules/EliasSBV, Strings/schedules/EzraSBV, Strings/schedules/ImanSBV, Strings/schedules/JumanaSBV, Strings/schedules/LyenneSBV, Strings/schedules/MaiaSBV, Strings/schedules/MiyoungSBV, Strings/schedules/MoonSBV, Strings/schedules/OpheliaSBV, Strings/schedules/ReihanaSBV, Strings/schedules/SilasSBV",
-      "FromFile": "Data/Dialogue/blank.json"
-    },
-    {
-      "LogName": "Moon's Roommate Dialogue",
-      "Action": "Load",
-      "Target": "Characters/Dialogue/MarriageDialogueMoonSBV, Characters/Dialogue/MarriageDialogueMoonSBVRoommate",
-      "FromFile": "Data/Dialogue/blank.json"
-    },
-    {
-      "LogName": "Load Location Event File Blanks",
-      "Action": "Load",
-      "Target": "Data/Events/Custom_SBV_DialaCafe, Data/Events/Custom_SBV_DDHouse, Data/Events/Custom_SBV_SunberryVillage, Data/Events/Custom_SBV_SunberryRoad, Data/Events/Custom_SBV_SunberryForest, Data/Events/Custom_SBV_SunberryMountain, Data/Events/Custom_SBV_SunberryLibrary, Data/Events/Custom_SBV_ReiHouse, Data/Events/Custom_SBV_AriMarket, Data/Events/Custom_SBV_EzraHouse, Data/Events/Custom_SBV_ImanHouse, Data/Events/Custom_SBV_MaiaHouse, Data/Events/Custom_SBV_EliasHouse, Data/Events/Custom_SBV_MiyoungHouse, Data/Events/Custom_SBV_SilasBlacksmith, Data/Events/Custom_SBV_SerenityInn, Data/Events/Custom_SBV_SerenityInn2ndFloor, Data/Events/Custom_SBV_SerenityInn3rdFloor, Data/Events/Custom_SBV_OpheliaHouse, Data/Events/Custom_SBV_EzraClothes, Data/Events/Custom_SBV_CrystalCave, Data/Events/Custom_SBV_MinesFinal, Data/Events/Custom_SBV_SecretForest1, Data/Events/Custom_SBV_SecretForest2, Data/Events/Custom_SBV_SecretCave, Data/Events/Custom_SBV_ForestShortcut",
-      "FromFile": "Data/Dialogue/blank.json"
-    },
-    {
-      "LogName": "Load Books File Blank",
-      "Action": "Load",
-      "Target": "Strings/SBV/Books",
-      "FromFile": "Data/Dialogue/blank.json"
-    },
-	    {
-      "LogName": "Load SOEmojiData Blank",
-      "Action": "Load",
-      "Target": "Mods/skellady.SBVCP/SOEmojisData",
-      "FromFile": "Data/Dialogue/blank.json"
-    },
-    /* Includes */
-    // Custom Features
-    {
-      "LogName": "Include Custom Features Data",
-      "Action": "Include",
-      "FromFile": "Data/CustomFeatures/CustomFeatures.json"
-    },
-    // Location Data
-    {
-      "LogName": "Include Location Data",
-      "Action": "Include",
-      "FromFile": "Data/LocationData/Locations.json, Data/LocationData/LocationContexts.json"
-    },
-    // Tilesheets
-    {
-      "LogName": "Include Tilesheets",
-      "Action": "Include",
-      "FromFile": "Data/Tilesheets.json"
-    },
-    // Map Data
-    {
-      "LogName": "Include Map Data",
-      "Action": "Include",
-      "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/GarbageCans.json, Data/MapData/ChairTiles.json, Data/MapData/WorldMap.json, Data/MapData/Minecarts.json"
-    },
-    // Dynamic Changes
-    {
-      "LogName": "Include Dynamic Changes",
-      "Action": "Include",
-      "FromFile": "Data/DynamicChanges/MapChanges.json"
-    },
-    // NPC Data
-    {
-      "LogName": "Include NPC Data",
-      "Action": "Include",
-      "FromFile": "Data/NPCData/TriggerActions.json, Data/NPCData/ImageLoads.json, Data/NPCData/Animations.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/ConversationTopics.json, Data/NPCData/MoonRoommate.json, Data/NPCData/MovieData.json, Data/NPCData/Mail.json, Data/NPCData/BigAnimations.json"
-    },
-    // Item Data
-    {
-      "LogName": "Include Item Data",
-      "Action": "Include",
-      "FromFile": "Data/ItemData/Crops.json, Data/ItemData/Objects.json, Data/ItemData/Fish.json, Data/ItemData/FishPond.json, Data/ItemData/Weapons.json, Data/ItemData/CookingRecipes.json, Data/ItemData/WildTrees.json, Data/ItemData/FruitTrees.json, Data/ItemData/Machines.json, Data/ItemData/CraftingRecipes.json, Data/ItemData/Nodes.json"
-    },
-    // Shop Data
-    {
-      "LogName": "Include Shop Data",
-      "Action": "Include",
-      "FromFile": "Data/ShopData/Shops.json"
-    },
-    // Dialogue + Schedule
-    {
-      "LogName": "Includes Dialogue and Schedule",
-      "Action": "Include",
-      "FromFile": "Data/Dialogue/DialaDialogue.json, Data/Dialogue/DeryaDialogue.json, Data/Dialogue/MoonDialogue.json, Data/Dialogue/ReihanaDialogue.json, Data/Dialogue/AichaDialogue.json, Data/Dialogue/AminaDialogue.json, Data/Dialogue/AriDialogue.json, Data/Dialogue/BlakeDialogue.json, Data/Dialogue/EliasDialogue.json, Data/Dialogue/EzraDialogue.json, Data/Dialogue/ImanDialogue.json, Data/Dialogue/JumanaDialogue.json, Data/Dialogue/LyenneDialogue.json, Data/Dialogue/MaiaDialogue.json, Data/Dialogue/MiyoungDialogue.json, Data/Dialogue/NadiaDialogue.json, Data/Dialogue/OpheliaDialogue.json, Data/Dialogue/PanDialogue.json, Data/Dialogue/SilasDialogue.json, Data/Dialogue/ResortDialogue.json, Data/Schedules/MoonSchedule.json, Data/Schedules/DialaSchedule.json, Data/Schedules/DeryaSchedule.json, Data/Dialogue/ScheduleDialogue.json, Data/Dialogue/MoonRoommateDialogue.json, Data/Schedules/MoonRoommateSchedule.json, Data/Schedules/ReihanaSchedule.json, Data/Schedules/AichaSchedule.json, Data/Schedules/AminaSchedule.json, Data/Schedules/AriSchedule.json, Data/Schedules/BlakeSchedule.json, Data/Schedules/EliasSchedule.json, Data/Schedules/EzraSchedule.json, Data/Schedules/ImanSchedule.json, Data/Schedules/JumanaSchedule.json, Data/Schedules/LyenneSchedule.json, Data/Schedules/MaiaSchedule.json, Data/Schedules/MiyoungSchedule.json, Data/Schedules/NadiaSchedule.json, Data/Schedules/OpheliaSchedule.json, Data/Schedules/PanSchedule.json, Data/Schedules/SilasSchedule.json"
-    },
-    // Compatibility
-    {
-      "LogName": "Include Compatibility Data",
-      "Action": "Include",
-      "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json, Data/Compatibility/RSVShop.json, Data/Compatibility/VanillaTweaks.json, Data/Compatibility/WorldMapsEverywhere.json, Data/Compatibility/VisitMtVapius.json"
-    },
-    // Festivals
-    {
-      "LogName": "Include Festival Data",
-      "Action": "Include",
-      "FromFile": "Data/Festivals/FestivalDialogue.json, Data/Festivals/Locations/EggFestival.json, Data/Festivals/Locations/FlowerDance.json, Data/Festivals/Locations/Luau.json, Data/Festivals/Locations/MoonlightJellies.json, Data/Festivals/Locations/SVFair.json, Data/Festivals/Locations/IceFestival.json, Data/Festivals/Locations/WinterStar.json, Data/Festivals/Locations/GatheringFestival.json, Data/Festivals/Locations/EmberOfResolutions.json, Data/Festivals/Locations/FashionShow.json, Data/Festivals/TwilightFestival/FestivalData.json, Data/Festivals/TwilightFestival/FestivalShops.json, Data/Festivals/TwilightFestival/CompatShops.json"
-    },
-    // Event Data
-    {
-      "LogName": "Include Event Data",
-      "Action": "Include",
-      "FromFile": "Data/Events/EventData.json"
-    },
-    // Dependency Data
-    {
-      "LogName": "Include Dependency Data",
-      "Action": "Include",
-      "FromFile": "Data/DependencyData/CustomCompanions.json, Data/DependencyData/FarmTypeManager.json"
-    },
-    // Quests
-    {
-      "LogName": "Include Quests",
-      "Action": "Include",
-      "FromFile": "Data/Quests/Quests.json"
-    },
-    // SOs
-    {
-      "LogName": "Include SOs",
-      "Action": "Include",
-      "FromFile": "Data/Quests/SpecialOrders.json, Data/Quests/SOStrings.json"
-    }
-  ]
+    "EventLimiterExceptions": [
+        // GSB Start
+        "skellady.SBVCP_20031445",
+        "skellady.SBVCP_20031446"
+    ],
+    "Changes": [
+        /* Temporary Actors */
+        {
+            "LogName": "Load Temp Actors",
+            "Action": "Load",
+            "Target": "Characters/DDCat1, Characters/DDCat2, Characters/DDCat3, Characters/DDCat4, Characters/DDCat5, Characters/DDCat6, Characters/DeryaLay, Characters/DeryaLay2, Characters/DDTable1, Characters/JumanaPot, Characters/DDPicnic, Characters/DDBook, Characters/SBVCrate, Characters/SBVEasel, Characters/GSBPlant, Characters/SBVWizardPoof, Characters/SBVSparklySparkles",
+            "FromFile": "Assets/Maps/tempActors/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Seasonal Edit Temp Actors",
+            "Action": "EditImage",
+            "Target": "Characters/DeryaLay, Characters/DeryaLay2, Characters/JumanaPot",
+            "FromFile": "Assets/Maps/tempActors/{{TargetWithoutPath}}_{{Season}}.png",
+            "When": {
+                "HasValue:{{season}}": true
+            }
+        },
+        /* Temporary Maps */
+        {
+            "LogName": "Load Temp Maps",
+            "Action": "Load",
+            "Target": "Maps/Health_Tarot, Maps/Love_Tarot, Maps/Career_Tarot, Maps/Planet_Moon, Maps/Phone_CG1, Maps/Phone_CG2, Maps/Phone_CG3, Maps/Phone_CG4, Maps/Phone_CG5, Maps/Phone_CG6, Maps/Phone_CG",
+            "FromFile": "Assets/Maps/tempMaps/{{TargetWithoutPath}}.tmx"
+        },
+        /* Blank Loads */
+        {
+            "LogName": "Schedule Blanks",
+            "Action": "Load",
+            "Target": "Characters/schedules/DialaSBV, Characters/schedules/DeryaSBV, Characters/schedules/MoonSBV, Characters/schedules/ReihanaSBV, Characters/schedules/AichaSBV, Characters/schedules/AminaSBV, Characters/schedules/AriSBV, Characters/schedules/BlakeSBV, Characters/schedules/EliasSBV, Characters/schedules/EzraSBV, Characters/schedules/ImanSBV, Characters/schedules/JumanaSBV, Characters/schedules/LyenneSBV, Characters/schedules/MaiaSBV, Characters/schedules/MiyoungSBV, Characters/schedules/NadiaSBV, Characters/schedules/OpheliaSBV, Characters/schedules/PanSBV, Characters/schedules/SilasSBV",
+            "FromFile": "Data/Dialogue/blank.json"
+        },
+        {
+            "LogName": "Dialogue Blanks",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/DialaSBV, Characters/Dialogue/DeryaSBV, Characters/Dialogue/MoonSBV, Characters/Dialogue/ReihanaSBV, Characters/Dialogue/AichaSBV, Characters/Dialogue/AminaSBV, Characters/Dialogue/AriSBV, Characters/Dialogue/BlakeSBV, Characters/Dialogue/EliasSBV, Characters/Dialogue/EzraSBV, Characters/Dialogue/ImanSBV, Characters/Dialogue/JumanaSBV, Characters/Dialogue/LyenneSBV, Characters/Dialogue/MaiaSBV, Characters/Dialogue/MiyoungSBV, Characters/Dialogue/NadiaSBV, Characters/Dialogue/OpheliaSBV, Characters/Dialogue/PanSBV, Characters/Dialogue/SilasSBV",
+            "FromFile": "Data/Dialogue/blank.json"
+        },
+        {
+            "LogName": "Schedule Dialogue Blanks",
+            "Action": "Load",
+            "Target": "Strings/schedules/DialaSBV, Strings/schedules/AichaSBV, Strings/schedules/AminaSBV, Strings/schedules/AriSBV, Strings/schedules/BlakeSBV, Strings/schedules/DeryaSBV, Strings/schedules/EliasSBV, Strings/schedules/EzraSBV, Strings/schedules/ImanSBV, Strings/schedules/JumanaSBV, Strings/schedules/LyenneSBV, Strings/schedules/MaiaSBV, Strings/schedules/MiyoungSBV, Strings/schedules/MoonSBV, Strings/schedules/OpheliaSBV, Strings/schedules/ReihanaSBV, Strings/schedules/SilasSBV",
+            "FromFile": "Data/Dialogue/blank.json"
+        },
+        {
+            "LogName": "Moon's Roommate Dialogue",
+            "Action": "Load",
+            "Target": "Characters/Dialogue/MarriageDialogueMoonSBV, Characters/Dialogue/MarriageDialogueMoonSBVRoommate",
+            "FromFile": "Data/Dialogue/blank.json"
+        },
+        {
+            "LogName": "Load Location Event File Blanks",
+            "Action": "Load",
+            "Target": "Data/Events/Custom_SBV_DialaCafe, Data/Events/Custom_SBV_DDHouse, Data/Events/Custom_SBV_SunberryVillage, Data/Events/Custom_SBV_SunberryRoad, Data/Events/Custom_SBV_SunberryForest, Data/Events/Custom_SBV_SunberryMountain, Data/Events/Custom_SBV_SunberryLibrary, Data/Events/Custom_SBV_ReiHouse, Data/Events/Custom_SBV_AriMarket, Data/Events/Custom_SBV_EzraHouse, Data/Events/Custom_SBV_ImanHouse, Data/Events/Custom_SBV_MaiaHouse, Data/Events/Custom_SBV_EliasHouse, Data/Events/Custom_SBV_MiyoungHouse, Data/Events/Custom_SBV_SilasBlacksmith, Data/Events/Custom_SBV_SerenityInn, Data/Events/Custom_SBV_SerenityInn2ndFloor, Data/Events/Custom_SBV_SerenityInn3rdFloor, Data/Events/Custom_SBV_OpheliaHouse, Data/Events/Custom_SBV_EzraClothes, Data/Events/Custom_SBV_CrystalCave, Data/Events/Custom_SBV_MinesFinal, Data/Events/Custom_SBV_SecretForest1, Data/Events/Custom_SBV_SecretForest2, Data/Events/Custom_SBV_SecretCave, Data/Events/Custom_SBV_ForestShortcut",
+            "FromFile": "Data/Dialogue/blank.json"
+        },
+        {
+            "LogName": "Load Books File Blank",
+            "Action": "Load",
+            "Target": "Strings/SBV/Books",
+            "FromFile": "Data/Dialogue/blank.json"
+        },
+        {
+            "LogName": "Load SOEmojiData Blank",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/SOEmojisData",
+            "FromFile": "Data/Dialogue/blank.json"
+        },
+        /* Includes */
+        // Custom Features
+        {
+            "LogName": "Include Custom Features Data",
+            "Action": "Include",
+            "FromFile": "Data/CustomFeatures/CustomFeatures.json"
+        },
+        // Location Data
+        {
+            "LogName": "Include Location Data",
+            "Action": "Include",
+            "FromFile": "Data/LocationData/Locations.json, Data/LocationData/LocationContexts.json"
+        },
+        // Tilesheets
+        {
+            "LogName": "Include Tilesheets",
+            "Action": "Include",
+            "FromFile": "Data/Tilesheets.json"
+        },
+        // Map Data
+        {
+            "LogName": "Include Map Data",
+            "Action": "Include",
+            "FromFile": "Data/MapData/MapLoads.json, Data/MapData/MapWarps.json, Data/MapData/MapPatches.json, Data/MapData/MapStrings.json, Data/MapData/GarbageCans.json, Data/MapData/ChairTiles.json, Data/MapData/WorldMap.json, Data/MapData/Minecarts.json"
+        },
+        // Dynamic Changes
+        {
+            "LogName": "Include Dynamic Changes",
+            "Action": "Include",
+            "FromFile": "Data/DynamicChanges/MapChanges.json"
+        },
+        // NPC Data
+        {
+            "LogName": "Include NPC Data",
+            "Action": "Include",
+            "FromFile": "Data/NPCData/TriggerActions.json, Data/NPCData/ImageLoads.json, Data/NPCData/Animations.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/ConversationTopics.json, Data/NPCData/MoonRoommate.json, Data/NPCData/MovieData.json, Data/NPCData/Mail.json, Data/NPCData/BigAnimations.json"
+        },
+        // Item Data
+        {
+            "LogName": "Include Item Data",
+            "Action": "Include",
+            "FromFile": "Data/ItemData/Crops.json, Data/ItemData/Objects.json, Data/ItemData/Fish.json, Data/ItemData/FishPond.json, Data/ItemData/Weapons.json, Data/ItemData/CookingRecipes.json, Data/ItemData/WildTrees.json, Data/ItemData/FruitTrees.json, Data/ItemData/Machines.json, Data/ItemData/CraftingRecipes.json, Data/ItemData/Nodes.json"
+        },
+        // Shop Data
+        {
+            "LogName": "Include Shop Data",
+            "Action": "Include",
+            "FromFile": "Data/ShopData/Shops.json"
+        },
+        // Dialogue + Schedule
+        {
+            "LogName": "Includes Dialogue and Schedule",
+            "Action": "Include",
+            "FromFile": "Data/Dialogue/DialaDialogue.json, Data/Dialogue/DeryaDialogue.json, Data/Dialogue/MoonDialogue.json, Data/Dialogue/ReihanaDialogue.json, Data/Dialogue/AichaDialogue.json, Data/Dialogue/AminaDialogue.json, Data/Dialogue/AriDialogue.json, Data/Dialogue/BlakeDialogue.json, Data/Dialogue/EliasDialogue.json, Data/Dialogue/EzraDialogue.json, Data/Dialogue/ImanDialogue.json, Data/Dialogue/JumanaDialogue.json, Data/Dialogue/LyenneDialogue.json, Data/Dialogue/MaiaDialogue.json, Data/Dialogue/MiyoungDialogue.json, Data/Dialogue/NadiaDialogue.json, Data/Dialogue/OpheliaDialogue.json, Data/Dialogue/PanDialogue.json, Data/Dialogue/SilasDialogue.json, Data/Dialogue/ResortDialogue.json, Data/Schedules/MoonSchedule.json, Data/Schedules/DialaSchedule.json, Data/Schedules/DeryaSchedule.json, Data/Dialogue/ScheduleDialogue.json, Data/Dialogue/MoonRoommateDialogue.json, Data/Schedules/MoonRoommateSchedule.json, Data/Schedules/ReihanaSchedule.json, Data/Schedules/AichaSchedule.json, Data/Schedules/AminaSchedule.json, Data/Schedules/AriSchedule.json, Data/Schedules/BlakeSchedule.json, Data/Schedules/EliasSchedule.json, Data/Schedules/EzraSchedule.json, Data/Schedules/ImanSchedule.json, Data/Schedules/JumanaSchedule.json, Data/Schedules/LyenneSchedule.json, Data/Schedules/MaiaSchedule.json, Data/Schedules/MiyoungSchedule.json, Data/Schedules/NadiaSchedule.json, Data/Schedules/OpheliaSchedule.json, Data/Schedules/PanSchedule.json, Data/Schedules/SilasSchedule.json"
+        },
+        // Compatibility
+        {
+            "LogName": "Include Compatibility Data",
+            "Action": "Include",
+            "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json, Data/Compatibility/RSVShop.json, Data/Compatibility/VanillaTweaks.json, Data/Compatibility/WorldMapsEverywhere.json, Data/Compatibility/VisitMtVapius.json"
+        },
+        // Festivals
+        {
+            "LogName": "Include Festival Data",
+            "Action": "Include",
+            "FromFile": "Data/Festivals/FestivalDialogue.json, Data/Festivals/Locations/EggFestival.json, Data/Festivals/Locations/FlowerDance.json, Data/Festivals/Locations/Luau.json, Data/Festivals/Locations/MoonlightJellies.json, Data/Festivals/Locations/SVFair.json, Data/Festivals/Locations/IceFestival.json, Data/Festivals/Locations/WinterStar.json, Data/Festivals/Locations/GatheringFestival.json, Data/Festivals/Locations/EmberOfResolutions.json, Data/Festivals/Locations/FashionShow.json, Data/Festivals/TwilightFestival/FestivalData.json, Data/Festivals/TwilightFestival/FestivalShops.json, Data/Festivals/TwilightFestival/CompatShops.json"
+        },
+        // Event Data
+        {
+            "LogName": "Include Event Data",
+            "Action": "Include",
+            "FromFile": "Data/Events/EventData.json"
+        },
+        // Dependency Data
+        {
+            "LogName": "Include Dependency Data",
+            "Action": "Include",
+            "FromFile": "Data/DependencyData/CustomCompanions.json, Data/DependencyData/FarmTypeManager.json"
+        },
+        // Quests
+        {
+            "LogName": "Include Quests",
+            "Action": "Include",
+            "FromFile": "Data/Quests/Quests.json"
+        },
+        // SOs
+        {
+            "LogName": "Include SOs",
+            "Action": "Include",
+            "FromFile": "Data/Quests/SpecialOrders.json, Data/Quests/SOStrings.json"
+        }
+    ]
 }

@@ -186,8 +186,8 @@
                     }
                 }
             ],
-            "When": {
-                "HasSeenEvent: anyPlayer |contains=100162": false
+            "When": {   // player must have seen vanilla mines intro event AND raised their combat over 0 to unlock
+                "Query: ('{{HasSeenEvent:anyPlayer |contains=100162}}' = 'false') OR ('{{CombatSkill}}' = 'None')": true
             }
         },
         {
