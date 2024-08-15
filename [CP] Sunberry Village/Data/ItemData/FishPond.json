@@ -97,7 +97,11 @@
                         "8": [
                             "(O)305"
                         ]
-                    }
+                    },
+                    // example of how to use custom fish pond color
+                    //"CustomFields": {
+                    //    "SunberryTeam.SBVSMAPI_FishPondWaterColor": "255 134 53" 
+                    //} 
                 },
                 "skellady.SBVCP_EmeraldSnapper": {
                     "Id": "skellady.SBVCP_EmeraldSnapper",
