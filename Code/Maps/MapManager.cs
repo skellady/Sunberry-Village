@@ -5,7 +5,6 @@ using StardewModdingAPI.Utilities;
 using StardewValley;
 using StardewValley.BellsAndWhistles;
 using StardewValley.Extensions;
-using StardewValley.Menus;
 using SunberryVillage.Events.Tarot;
 using SunberryVillage.Shops;
 using SunberryVillage.Utilities;
@@ -14,8 +13,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 using xTile.Layers;
-using static System.Collections.Specialized.BitVector32;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace SunberryVillage.Maps;
 
@@ -23,8 +20,20 @@ internal class MapManager
 {
 	internal const string TraveledSunberryRoadToday = "SunberryTeam.SBVSMAPI_TraveledSunberryRoadToday";
 
-	internal static readonly PerScreen<int> currentMineLevel = new PerScreen<int>(() => 0);
-	internal static readonly PerScreen<bool> isDrawingMineLevel = new PerScreen<bool>(() => false);
+	internal static readonly PerScreen<int> CurrentMineLevelNumber = new(() => 0);
+	internal static readonly PerScreen<string> CurrentMineLevelText = new(() => "");
+	internal static readonly PerScreen<bool> IsDrawingMineLevel = new(() => false);
+
+	internal static Color[] BiomeColors =
+	{
+		new(106, 131, 157),
+		new(238, 79, 115),
+		new(183, 108, 155),
+		new(255, 173, 15),
+		new(85, 113, 131),
+		new(203, 99, 45),
+		new(104, 96, 83)
+	};
 
 	internal static void AddEventHooks()
 	{
@@ -38,53 +47,117 @@ internal class MapManager
     private static void CheckForDrawingMineLevel(object sender, WarpedEventArgs e)
     {
         if (!e.IsLocalPlayer)
-        {
-			return;
-        }
+	        return;
+
         if (!e.NewLocation.Name.Contains("Custom_SBV_Mines"))
 		{
-			endDrawingMineLevelNumber();
+			EndDrawingMineLevelNumber();
 			return;
 		}
 
-        string mineLevelNumber = Regex.Match(e.NewLocation.Name, @"\d+").Value;
-        if (mineLevelNumber.Length != 0 && int.TryParse(mineLevelNumber, out int minelevel))
-        {
-			currentMineLevel.Value = minelevel;
-			startDrawingMineLevelNumber();
-        } else
+        string mineLevel = Regex.Match(e.NewLocation.Name, @"Custom_SBV_Mines(?<level>.*)").Groups["level"].Value;
+
+		switch (mineLevel)
 		{
-			endDrawingMineLevelNumber();
+			case "Final":
+				mineLevel = "";
+				break;
+
+			case "":
+				mineLevel = "";
+				break;
+
+			case "5A":
+				CurrentMineLevelNumber.Value = 5;
+				CurrentMineLevelText.Value = "5";
+				break;
+
+			case "5B":
+				CurrentMineLevelNumber.Value = 5;
+				CurrentMineLevelText.Value = "???";
+				break;
+
+			case "10A":
+				CurrentMineLevelNumber.Value = 10;
+				CurrentMineLevelText.Value = "10";
+				break;
+
+			case "10B":
+				CurrentMineLevelNumber.Value = 10;
+				CurrentMineLevelText.Value = "???";
+				break;
+
+			default:
+				_ = int.TryParse(mineLevel, out int val);
+				CurrentMineLevelNumber.Value = val;
+				CurrentMineLevelText.Value = mineLevel;
+				break;
 		}
+
+		if (mineLevel != "")
+			StartDrawingMineLevelNumber();
+
+		else
+			EndDrawingMineLevelNumber();
     }
 
-	private static void startDrawingMineLevelNumber()
-    {
-        if (!isDrawingMineLevel.Value)
-        {
-            Globals.EventHelper.Display.RenderedHud += drawMineLevelNumber;
-            isDrawingMineLevel.Value = true;
-        }
-    }
-
-	private static void endDrawingMineLevelNumber()
+	private static void StartDrawingMineLevelNumber()
 	{
-        if (isDrawingMineLevel.Value)
-        {
-            Globals.EventHelper.Display.RenderedHud -= drawMineLevelNumber;
-            isDrawingMineLevel.Value = false;
-        }
-    }
+		if (IsDrawingMineLevel.Value)
+			return;
 
-    private static void drawMineLevelNumber(object sender, RenderedHudEventArgs e)
+		Globals.EventHelper.Display.RenderedHud += DrawMineLevelNumber;
+		IsDrawingMineLevel.Value = true;
+	}
+
+	private static void EndDrawingMineLevelNumber()
+	{
+		if (!IsDrawingMineLevel.Value)
+			return;
+
+		Globals.EventHelper.Display.RenderedHud -= DrawMineLevelNumber;
+		IsDrawingMineLevel.Value = false;
+	}
+
+    private static void DrawMineLevelNumber(object sender, RenderedHudEventArgs e)
     {
-        Rectangle tsarea = Game1.game1.GraphicsDevice.Viewport.GetTitleSafeArea();
-		string text = currentMineLevel.Value.ToString();
+        Rectangle safeArea = Game1.game1.GraphicsDevice.Viewport.GetTitleSafeArea();
+		string text = CurrentMineLevelText.Value;
         int height = SpriteText.getHeightOfString(text);
-        SpriteText.drawString(e.SpriteBatch, text, tsarea.Left + 16, tsarea.Top + 16, 999999, -1, height, 1f, 1f, junimoText: false, 2, "", SpriteText.color_White);
+        Color textColor = GetMineLevelColor(CurrentMineLevelNumber.Value);
+        SpriteText.drawString(
+				b: e.SpriteBatch,
+				s: text,
+				x: safeArea.Left + 16,
+				y: safeArea.Top + 16,
+				characterPosition: 999999,
+				width: -1,
+				height: height,
+				alpha: 1f,
+				layerDepth: 1f,
+				junimoText: false,
+				drawBGScroll: 2,
+				placeHolderScrollWidthText: "",
+				color: textColor
+	        );
     }
 
-    private static void CheckTravelingSunberryRoad(object sender, WarpedEventArgs e)
+    private static Color GetMineLevelColor(int value)
+    {
+	    return value switch
+	    {
+		    > 15 => BiomeColors[0],
+		    > 12 => BiomeColors[1],
+		    > 9 => BiomeColors[2],
+		    > 8 => BiomeColors[3],
+		    > 6 => BiomeColors[4],
+		    > 3 => BiomeColors[5],
+		    > 0 => BiomeColors[6],
+		    _ => SpriteText.color_White
+	    };
+    }
+
+	private static void CheckTravelingSunberryRoad(object sender, WarpedEventArgs e)
 	{
 		if (!e.OldLocation.Name.Equals("Town") || !e.NewLocation.Name.Equals("Custom_SBV_SunberryRoad") || !e.IsLocalPlayer || e.Player.modData.ContainsKey(TraveledSunberryRoadToday))
 			return;
