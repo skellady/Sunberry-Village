@@ -3869,7 +3869,7 @@
 
     //8 hearts
     "Ari.Dialogue.Mon8": "Hey, farmer. Looking good today.$u#$b#You may be covered in dirt and other things I'd rather not think about right now, but you always manage to pull it off.$7",
-    "Ari.Dialogue.Tue8": "Lyenne was telling me about a bad grade she got earlier. Apparently one of her professors is just a piece of sh-$6#$b#Sorry, farmer. I just hate seeing my kids upset over trivial things like grades.$s#$b#I told her that grades doesn't define her and that I'd kick the professor's ass if I ever see him.$7",
+    "Ari.Dialogue.Tue8": "Lyenne was telling me about a bad grade she got earlier. Apparently one of her professors is just a piece of sh-$6#$b#Sorry, farmer. I just hate seeing my kids upset over trivial things like grades.$s#$b#I told her that her grades don't define her - and that I'd kick the professor's ass if I ever see him.$7",
     "Ari.Dialogue.Wed8": "Blake was out late last night and didn't message me to let me know.$a#$b#...I know, I know, he's a grown man, I just worry.$s",
     "Ari.Dialogue.Thu8": "You know, you're not so bad.#$b#Wait! I mean... not like, BAD. But...$11#$b#Ugh, I think you're cool. I'm just not very good with words, my apologies.$12",
     "Ari.Dialogue.Fri8": "Have you eaten today? Here, I had some food leftover.#$b#Someone has to make sure you're well-fed. [618 199 201]$7",
@@ -3881,7 +3881,7 @@
     "Ari.Dialogue.Tue10": "I'm glad I get to call you my friend, @. You always hear about how hard it is to make friends once you're out of school or college, and they're not wrong.$9#$b#I'm WAY past being out of college, so it feels good to know It's still possible to make good friends.$u",
     "Ari.Dialogue.Wed10": "Ugh, do you ever get tired of having the same routine every single day?$s#$b#I mean, I assume you at least have some variety.#$b#$y '..._You could always try out something new._Hmm... you're not wrong, maybe I'll pick up something new soon.$h_I also have to deal with the same boring routine._Huh, I would've never guessed. Glad someone else gets me, at least.$7' ",
     "Ari.Dialogue.Thu10": "That cave by Silas' blacksmith scares me.$s#$b#I mean, if you peek your head in you see these beautiful vines, but sometimes I hear weird noises. I'm glad we have Ophelia and Maia around.$9",
-    "Ari.Dialogue.Fri10": "You know, we should have dinner sometimes when Blake and Lyenne are free.$h#$b#It'll be fun, having all the people I care about under the same roof.$u",
+    "Ari.Dialogue.Fri10": "You know, we should have dinner sometimes when Blake and Lyenne are free.$h#$b#It'll be fun, having all the people I care about most under the same roof.$u",
     "Ari.Dialogue.Sat10": "I heard Pierre has some sort of secret stash. I'm absolutely DYING to know what that's all about.$7#$b#Hey, would it be bad if I ask you to snoop around for me?$u",
     "Ari.Dialogue.Sun10": "Blake was making fun of my clothes earlier.$6#$b#I mean, I know I'm old-ish but, they're okay, right?$9#$b#$y 'What do you think?_I think they look good on you!_Aw, thank you. It's reassuring hearing that from you.$13_I think... they're okay._Oh man, maybe Blake is right.$s",
 
