@@ -1859,6 +1859,26 @@
     "event-20031468.13": "No worries. More for me.$u",
     "event-20031468.14": "Feel free to stay and enjoy this meal with me if you change your mind. I'll be done in a moment.",
 
+    // Elias 6 Hearts Event
+    "event-20031469.01": "Who's there?$8",
+    "event-20031469.02": "It's {0}. Can I come in?",
+    "event-20031469.03": "You couldn't recognize my voice? Booo!",
+    "event-20031469.04": "...Yeah, sure. Come on in.$9",
+    "event-20031469.05": "Ah... @. I'm sorry. You can come in.$9",
+    "event-20031469.06": "*sigh*",
+    "event-20031469.07": "This is my old house. My family lived here.$s",
+    "event-20031469.08": "Ari and I lived here, too. Well, until the divorce happened.$11",
+    "event-20031469.09": "*chuckle*... Lotta divorces happenin' under this roof, huh?$9",
+    "event-20031469.10": "I tried renovatin' it to make it smaller, but I just...$s",
+    "event-20031469.11": "I couldn't stay here.$11",
+    "event-20031469.12": "I... kinda miss it, though.$11",
+    "event-20031469.13": "You can make it work again!",
+    "event-20031469.14": "You have to leave the past behind. Start anew.",
+    "event-20031469.15": "...You know what? It won't hurt to try.$7",
+    "event-20031469.16": "Maybe I'll get Diala to do her cleansin' thing. You know, with the incense and stuff.$u",
+    "event-20031469.17": "I'm not sure what that's all about, but I trust her.$h",
+    "event-20031469.18": "And... thank you. I needed the push. I'm gonna make this a proper home again.$12",
+
     //Animation Dialogue
     //------------------
 
@@ -3655,7 +3675,7 @@
     //2 hearts
     "Aicha.Dialogue.Mon2": "Do you like my outfit? I think I got it all from Ezra's! He even gave it to me for free.$u",
     "Aicha.Dialogue.Tue2": "Apparently, the junimo's name is Moon! She's so stinkin' cute!$h#$b#She said she wants to show me the stars at night. I think we're using Derya's magnifying glass thing. You know, the one they use to see space?$u",
-    "Aicha.Dialogue.Wed2": "%Aicha is humming to herself.#$b#Hi, @! I'm just thinking about work. Technically, we're working right now! Well, Rei is, since Diala summoned her. I'm just here for company.$u",
+    "Aicha.Dialogue.Wed2": "%Aicha is humming to herself.#$b#Hi, @! I'm just thinking about work. Technically, we're working in the village right now! Well, Rei is, since Diala summoned her. I just came here to keep her company.$u",
     "Aicha.Dialogue.Thu2": "Amina was surprised when I told her I don't have parents or a family.$u#$b#She did seem a little sad about that and offered to be my little sister! I've never had a sister before.$15",
     "Aicha.Dialogue.Fri2": "Oh! I think I saw a white bird earlier. It was so pretty, it had cute little ears, too.$u#$b#...What do you mean birds don't have ears? They do back home!$16",
     "Aicha.Dialogue.Sat2": "I heard someone mention a gathering by the fountain! I really wanna go but Rei doesn't seem too keen on it.$s",

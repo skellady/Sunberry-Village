@@ -1340,7 +1340,9 @@
                                 "(O)99",
                                 "(O)578",
                                 "(O)577"
-                            ]
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": 1
                         }
                     ],
                     "ContextTags": [
