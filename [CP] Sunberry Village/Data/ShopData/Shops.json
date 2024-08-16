@@ -37,6 +37,8 @@
                         "category_fruits",
                         "category_sell_at_pierres",
                         "category_ingredients",
+                        "category_artisan_goods",
+                        "category_seeds"
                     ],
                     "PriceModifiers": null,
                     "Items": [

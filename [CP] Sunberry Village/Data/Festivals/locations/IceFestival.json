@@ -159,7 +159,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters_y2"
 					],
-					"Value": "ReihanaSBV 39 54 right/AichaSBV 40 54 left",
+					"Value": "ReihanaSBV 53 53 right/AichaSBV 54 53 left",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -169,7 +169,7 @@
 						"Entries",
 						"Main-Event_additionalCharacters_y2"
 					],
-					"Value": "ReihanaSBV 39 54 right/AichaSBV 40 54 left",
+					"Value": "ReihanaSBV 53 53 right/AichaSBV 54 53 left",
 					"Delimiter": "/",
 				},
 			]
