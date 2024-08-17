@@ -1701,7 +1701,7 @@
     "event-20031457.10": "These berries seem valuable! I better make good use of them.",
 
     // PlayerKilled in Sunberry Areas
-    "SBV.PlayerKilled.01": "...Farmer?",
+    "SBV.PlayerKilled.01": "...{{PlayerName}}?",
     "SBV.PlayerKilled.02": "Careful, now. Don't move.",
     "SBV.PlayerKilled.03": "@... We found you in the Sunberry Mines earlier. We worried sick!$s",
     "SBV.PlayerKilled.04": "We patched you up as best as we could. You should still check in with Harvey soon.$7",
