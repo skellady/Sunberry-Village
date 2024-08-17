@@ -1861,7 +1861,7 @@
 
     // Elias 6 Hearts Event
     "event-20031469.01": "Who's there?$8",
-    "event-20031469.02": "It's {0}. Can I come in?",
+    "event-20031469.02": "It's {{PlayerName}}. Can I come in?",
     "event-20031469.03": "You couldn't recognize my voice? Booo!",
     "event-20031469.04": "...Yeah, sure. Come on in.$9",
     "event-20031469.05": "Ah... @. I'm sorry. You can come in.$9",
@@ -3675,7 +3675,7 @@
     //2 hearts
     "Aicha.Dialogue.Mon2": "Do you like my outfit? I think I got it all from Ezra's! He even gave it to me for free.$u",
     "Aicha.Dialogue.Tue2": "Apparently, the junimo's name is Moon! She's so stinkin' cute!$h#$b#She said she wants to show me the stars at night. I think we're using Derya's magnifying glass thing. You know, the one they use to see space?$u",
-    "Aicha.Dialogue.Wed2": "%Aicha is humming to herself.#$b#Hi, @! I'm just thinking about work. Technically, we're working in the village right now! Well, Rei is, since Diala summoned her. I just came here to keep her company.$u",
+    "Aicha.Dialogue.Wed2": "%Aicha is humming to herself.#$b#Hi, @! I'm just thinking about work. Technically, we're working in the village right now! Well, Rei is, since Diala summoned her. I just came along to keep her company.$u",
     "Aicha.Dialogue.Thu2": "Amina was surprised when I told her I don't have parents or a family.$u#$b#She did seem a little sad about that and offered to be my little sister! I've never had a sister before.$15",
     "Aicha.Dialogue.Fri2": "Oh! I think I saw a white bird earlier. It was so pretty, it had cute little ears, too.$u#$b#...What do you mean birds don't have ears? They do back home!$16",
     "Aicha.Dialogue.Sat2": "I heard someone mention a gathering by the fountain! I really wanna go but Rei doesn't seem too keen on it.$s",
