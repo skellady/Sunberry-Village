@@ -4738,15 +4738,15 @@
     "Nadia.Dialogue.Wed4": "Hey, @. Do you ever wonder if you made the right choice moving out here?$8#$b#Don't get me wrong, I do love this place, I just... sometimes, I'm not sure why I came back.$2",
     "Nadia.Dialogue.Thu4": "You know, Ezra and I used to run wild through those woods outside of town.$1#$b#Blake always wanted to come along, but he was too young and I wasn't patient enough to put up with that. Guess it wasn't very nice of us to leave him out...$11#$b#Do you think I should apologize? Nah, surely he's forgotten about it, right? That was so long ago.$10#$b#Anyways, eventually some monsters moved in and the adults put a stop to our little adventures. Be careful out there, @.$0",
     "Nadia.Dialogue.Fri4": "I dropped by the cat cafe earlier. Those cats are so cute! They swarmed me as soon as I came in, I didn't have enough hands to pet them all!$6#$b#Not to brag, but animals just naturally love me. Must be my charming personality.$9",
-    "Nadia.Dialogue.Sat4.Winter": "I always miss the bees in winter. I like seeing them flying around, napping in flowers and stuff.$10#$b#Hope they're warm and cozy in their little hives.$11", 
+    "Nadia.Dialogue.Sat4.Winter": "I always miss the bees in winter. I like seeing them flying around, napping in flowers and stuff.$10#$b#Hope they're warm and cozy in their little hives.$11",
     "Nadia.Dialogue.Sat4.NotWinter": "I found a bee on the ground outside my door this morning. Poor thing was too tired to fly.$11#$b#I held it in my hand for a bit to warm it up, and I gave it a little sugar water to drink. It rested for a bit and then flew away.$10#$b#I really hope it makes it back to its hive.$2",
-    "Nadia.Dialogue.Sun4": "Placeholder.",
+    "Nadia.Dialogue.Sun4": "Hey @, check out this cute picture I took when I was at the cat cafe the other day!$6#$b#%Nadia shows you a very blurry picture on her phone. It appears to be several cats napping together.#$b#Sorry, I'm not great with cameras. You should see my selfies, they're even worse.$4",
 
     //6 hearts
     "Nadia.Dialogue.Mon6": "Placeholder.",
     "Nadia.Dialogue.Tue6": "Placeholder.",
     "Nadia.Dialogue.Wed6": "Placeholder.",
-    "Nadia.Dialogue.Thu6": "Placeholder.",
+    "Nadia.Dialogue.Thu6": "Hey, I was looking for you earlier. I wanted to say thank you. For sticking around, I guess.$0#$b#I'm... not really used to people doing that. I had plenty of friends when I lived in the city, but they were all the type to back off as soon as things got hard.$2#$b#You couldn't rely on them if you got into trouble, or needed help, or just wanted a shoulder to cry on.$10#$b#I feel like people here are different. You're different. And I really appreciate that.$8#$b#Alright, enough of that sappy stuff. I usually save that for when I've had a bit too much at the saloon.$4",
     "Nadia.Dialogue.Fri6": "Placeholder.",
     "Nadia.Dialogue.Sat6": "*sigh* ...Ezra and I had a big fight yesterday.$2#$b#I guess I never realized how hard it was for him when I left and it was just him and Dad.$11#$b#But I couldn't stay. I didn't even know who I was and I sure wasn't gonna find out if I stuck around. I just wish he understood that.$10#$b#Oh, don't worry about us, @. We've been fighting since we could talk and we still love each other, that's not gonna change.$8",
     "Nadia.Dialogue.Sun6": "Placeholder.",
