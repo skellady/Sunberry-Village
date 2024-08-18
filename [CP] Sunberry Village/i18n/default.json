@@ -37,6 +37,7 @@
     "NPC_Relationships.BlakeFriend": "best friend",
     "NPC_Relationships.EliasSon": "son",
     "NPC_Relationships.EliasExHusband": "ex-husband",
+    "NPC_Relationships.LyenneFriend": "best friend",
 
     "NPC_Relationships.EzraSister": "sister",
     "NPC_Relationships.EzraFriend": "best friend",
@@ -3243,7 +3244,7 @@
     "Derya.Dialogue.Wed2": "Diala learned something new and applied it to my birth chart. She's been super excited since then.$u",
     "Derya.Dialogue.Thu2": "Diala called me an astronomy nerd.#$b#Jokes on her, we're *both* nerds. Our interests are literally connected.$u",
     "Derya.Dialogue.Fri2": "I hung out with Iman and Ezra last night so my social energy is at zero right now.$s#$b#Don't get me wrong, I love hanging out with them, but I also get drained way too fast around people.$s#$b#Doesn't happen with Diala, though. I wonder why.",
-    "Derya.Dialogue.Sat2": "Two of my sisters called me last night so I can solve a fight they were having.#$b#You know, they still live with my parents who can easily solve their fights, but I guess I'm still the parent to them despite moving all the way out here.$u",
+    "Derya.Dialogue.Sat2": "Two of my sisters called me last night so I could solve a fight they were having.#$b#You know, they still live with my parents who can easily solve their fights, but I guess I'm still the parent to them despite moving all the way out here.$u",
     "Derya.Dialogue.Sun2": "I'm a firm believer in the 'You have more than one soulmate.' saying.#$b#But I'm also being very impatient because what if I've found one of my soulmates already, but they don't have romantic feelings for me?$s#$b#Like, what if Dia-#$b#Nothing, ignore that. I was just rambling.$h",
 
     //4 hearts
@@ -3779,7 +3780,7 @@
     //4 hearts
     "Amina.Dialogue.Mon4": "My dad is a pilot! He gets to go everywhere.$3#$b#He said he'd take me with him someday.$h",
     "Amina.Dialogue.Tue4": "Ezra's store has so many cute hats! Maybe I can get my mom to buy me one.$3",
-    "Amina.Dialogue.Wed4": "My mom works really hard. I wish she can rest more.$s",
+    "Amina.Dialogue.Wed4": "My mom works really hard. I wish she could rest more.$s",
     "Amina.Dialogue.Thu4": "Diala and Derya let me pet the cats at the cafe. They're so friendly!$3#$b#...The cats, of course. But also Diala and Derya.$h",
     "Amina.Dialogue.Fri4": "Did you see the ducks in the water? Grandma and I feed them when we can.$h",
     "Amina.Dialogue.Sat4": "I bought some cheese from Mr. Ari so I can help grandma make some cheese cauliflower!$h#$b#It's her favorite.",
