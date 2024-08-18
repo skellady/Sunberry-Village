@@ -4694,6 +4694,10 @@
     "Nadia.Dialogue.summer_10": "Hmm, I haven't had the Luau soup in so long.#$b#Last time I did, I think I got food poisoning.$s#$b#BUT... the year before that, it was delicious. I'll take my chances tomorrow.$6",
     "Nadia.Dialogue.summer_27": "I never understood the appeal of the moonlight jellies. They're pretty, but do they warrant the entire town gathering to see them?$8#$b#I'll probably still go. Ezra and Iman will just drag me if I don't.$6",
     "Nadia.Dialogue.summer_Thu": "We used to play in the village creek on hot days like this.$0#$b#Ezra would catch tadpoles with his hands and then chase me around with them.$6#$b#Ahh, good times...$1",
+    "Nadia.Dialogue.summer_Mon2.NoRain": "Oof. I am not built for this kind of heat, @.$12#$b#Fall needs to hurry up and get here.$11",
+    "Nadia.Dialogue.summer_Mon2.Rain": "Ugh. I hate these summer rains where everything feels sticky and muggy afterwards. Not to mention the mud and the bugs.$12#$b#If I sound like I'm whining, it's because I am.$6",
+    "Nadia.Dialogue.summer_Tue.RainTomorrow": "The air feels so still and heavy today.$10#$b#We'll be getting some rain soon, I'm sure of it.$0",
+    "Nadia.Dialogue.summer_Tue.NoRainTomorrow": "I think my favorite thing about summer is the sounds. The birds, the bugs, the wind blowing through the trees...$0#$b#Takes me right back to my childhood.$1",
 
     //Fall
     "Nadia.Dialogue.fall_1": "You know, people in the city rarely cared for the change in seasons. Things felt mostly the same all year round, I guess.#$b#I gotta say, it's nice here. Seeing Jumana and Miyoung get ready to plant their new seeds, Diala and Derya bringing out the fall desserts, Ezra's seasonal hats...$h#$b#It makes me feel giddy, in a way.$6",
@@ -4712,7 +4716,7 @@
     "Nadia.Dialogue.Mon": "%Nadia stretches and groans.#$b#*Yawn*... I stayed up far too late last night and barely got any sleep. Gonna grab some coffee from the cat cafe and hope that it wakes me up a little.$8",
     "Nadia.Dialogue.Tue": "Huh... Is it Tuesday? I wonder what Ari's special offer is today. I'll have to drop by and see.$h",
     "Nadia.Dialogue.Wed": "Oh, hey @! How's the farm doing? Sounds like lots of hard work. Make sure to get plenty of rest, yeah?",
-    "Nadia.Dialogue.Thu": "Hi, @.#$b#...#$b#...#$b#... Welp, that was awkward. See you later.",
+    "Nadia.Dialogue.Thu": "Hi, @.#$b#...#$b#...#$b#... Welp, that was awkward. See you later.$10",
     "Nadia.Dialogue.Fri": "I kinda wish we had more restaurants or diners around here. I feel like I've never ran out of places to eat out at back in the city.#$b#Yes, I can cook for myself and others at the diner, but I still enjoy other people's food.",
     "Nadia.Dialogue.Sat": "Ah... I had to go into Pelican Town today. It was... interesting to see the people I haven't seen in years.$8",
     "Nadia.Dialogue.Sun": "It's gonna take a while for me to get used to the weather here. Feels so different than what I was used to back in Zuzu.#$b#Oh, and speaking of weather, Ezra seems to be hellbent on taking me shopping. I hate shopping. I'd rather stick to the nice four to six shirts I cycle through.$s",
@@ -4720,20 +4724,21 @@
     //2 hearts
     "Nadia.Dialogue.Mon2": "In the city, I lived across the street from this little bakery. Every Monday morning, I'd go over there and grab a pain au chocolat to get my week started off right.$1#$b#That place made the best pastries I've ever had... oops. Don't tell Diala I said that last part!$9",
     "Nadia.Dialogue.Mon2.Seen": "Oh, hey @. Don't mind me, just thinking about those Monday morning pastries I used to get...$6",
-    "Nadia.Dialogue.Tue2": "Ugh, remind me why I came back here...$5#$b#%Nadia notices you standing in front of her.%#$b#Oh! Hi. Sorry, I'm just a bit grumpy today.$2",
+    "Nadia.Dialogue.Tue2": "Ugh, remind me why I came back here...$5#$b#%Nadia notices you standing in front of her.#$b#Oh! Hi. Sorry, I'm just a bit grumpy today.$2",
     "Nadia.Dialogue.Wed2": "Hi, @. Got any fun evening plans? Personally, I'm gonna curl up with a good book and a glass of wine.$1#$b#I picked up a new one the other day, it's a post-apocalypse fantasy novel about this kingdom trying to fight off these giant mutant bugs and-$6#$b#Oh sorry, I'm rambling.$7",
     "Nadia.Dialogue.Thu2": "It feels so strange being back here. In some ways this place hasn't changed at all, and in some ways it's barely even recognizable.$8#$b#Hmm... did the village change, or did I? Makes you think, doesn't it?$6",
     "Nadia.Dialogue.Fri2": "$y 'Hey! Pick a hand!_Left_Let's see!_Right_Let's see!'$1#$b#$c 0.7 #Ooh, tough luck, bud.$9#Nice! You got it![(O)skellady.SBVCP_TwilightFeather]$6",
-    "Nadia.Dialogue.Sat2": "You know the nice thing about Saturdays here? Nobody trying to drag me to any crazy parties or clubs or whatever.$0#$b#I hate to admit it, but I'm getting older, and I don't have the social battery for that sort of thing anymore.$6",
+    "Nadia.Dialogue.Sat2": "You know the nice thing about Saturdays here? Nobody trying to drag me to any crazy parties or clubs or whatever.$0#$b#I hate to admit it, but I'm getting older, and I don't have the social battery for that sort of thing anymore.$12",
     "Nadia.Dialogue.Sun2": "It's still a little weird waking up and remembering I'm back in Sunberry. It's been a while, but I'm sure I'll get used to it soon.$h#$b#Plus, it's nice being able to hang out with Ezra and Iman more.$h",
 
     //4 hearts
     "Nadia.Dialogue.Mon4": "Placeholder.",
     "Nadia.Dialogue.Tue4": "Placeholder.",
     "Nadia.Dialogue.Wed4": "Hey, @. Do you ever wonder if you made the right choice moving out here?$8#$b#Don't get me wrong, I do love this place, I just... sometimes, I'm not sure why I came back.$2",
-    "Nadia.Dialogue.Thu4": "You know, Ezra and I used to run wild through those woods outside of town.$1#$b#Blake always wanted to come along, but he was too young and I wasn't patient enough to put up with that. Guess it wasn't very nice of us to leave him out...$11#$b#Do you think I should apologize? Nah, surely he's forgotten about it right? That was so long ago.$10#$b#Anyways, eventually some monsters moved in and the adults put a stop to our little adventures. Be careful out there, @.$0",
+    "Nadia.Dialogue.Thu4": "You know, Ezra and I used to run wild through those woods outside of town.$1#$b#Blake always wanted to come along, but he was too young and I wasn't patient enough to put up with that. Guess it wasn't very nice of us to leave him out...$11#$b#Do you think I should apologize? Nah, surely he's forgotten about it, right? That was so long ago.$10#$b#Anyways, eventually some monsters moved in and the adults put a stop to our little adventures. Be careful out there, @.$0",
     "Nadia.Dialogue.Fri4": "I dropped by the cat cafe earlier. Those cats are so cute! They swarmed me as soon as I came in, I didn't have enough hands to pet them all!$6#$b#Not to brag, but animals just naturally love me. Must be my charming personality.$9",
-    "Nadia.Dialogue.Sat4": "Placeholder.",
+    "Nadia.Dialogue.Sat4.Winter": "I always miss the bees in winter. I like seeing them flying around, napping in flowers and stuff.$10#$b#Hope they're warm and cozy in their little hives.$11", 
+    "Nadia.Dialogue.Sat4.NotWinter": "I found a bee on the ground outside my door this morning. Poor thing was too tired to fly.$11#$b#I held it in my hand for a bit to warm it up, and I gave it a little sugar water to drink. It rested for a bit and then flew away.$10#$b#I really hope it makes it back to its hive.$2",
     "Nadia.Dialogue.Sun4": "Placeholder.",
 
     //6 hearts
