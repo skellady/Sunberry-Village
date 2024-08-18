@@ -35,7 +35,7 @@ internal class BuildingPatches
 	{
 		FishPondData data = __instance.GetFishPondData();
 
-		if (data is null || !data.CustomFields.TryGetValue("SunberryTeam.SBVSMAPI_FishPondWaterColor", out string waterColor))
+		if (__instance.currentOccupants.Value < 1 || data?.CustomFields is null || !data.CustomFields.TryGetValue("SunberryTeam.SBVSMAPI_FishPondWaterColor", out string waterColor))
 		{
 			__instance.overrideWaterColor.Value = Color.White;
 			return true;
