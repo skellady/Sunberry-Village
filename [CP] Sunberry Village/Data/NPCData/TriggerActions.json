@@ -112,6 +112,14 @@
                     "Condition": "SEASON summer, PLAYER_HEARTS Current AichaSBV 6",
                     "Action": "AddMail Current skellady.SBVCP_AichaSeeds",
                 },
+                // Twilight Festival Invite
+                "skellady.SBVCP_TwilightFestivalInvite": {
+                    "Id": "skellady.SBVCP_TwilightFestivalInvite",
+                    "Trigger": "DayEnding",
+                    "Condition": "SEASON_DAY fall 24",
+                    "Action": "AddMail Current skellady.SBVCP_TwilightFestivalLetter",
+                    "MarkActionApplied": false
+                }
             }
         }
     ]

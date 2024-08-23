@@ -54,7 +54,7 @@
                 "skellady.SBVCP_AichaSeeds": "{{i18n:Mail.AichaSeeds.Body}} %item id (O)skellady.SBVCP_CallaLilySeeds 5 %%[#]{{i18n:Mail.AichaSeeds.Title}}",
 
                 // Festival Mail
-                "fall_25": "{{i18n:Mail.TwilightFestival.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3][#]{{i18n:Mail.TwilightFestival.Title}}"
+                "skellady.SBVCP_TwilightFestivalLetter": "{{i18n:Mail.TwilightFestival.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3][#]{{i18n:Mail.TwilightFestival.Title}}"
             }
         }
     ]

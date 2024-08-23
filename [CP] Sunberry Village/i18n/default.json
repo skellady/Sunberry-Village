@@ -114,7 +114,7 @@
     //Festival Text
     //-------------
     "SBV.TwilightFestival.Name": "Twilight Festival",
-    "SBV.TwilightFestival.StartMessage": "The Twilight Festival has begun in Sunberry Village. Make sure to grab your twilight feathers!",
+    "SBV.TwilightFestival.StartMessage": "The Twilight Festival has begun in Sunberry Village. Make sure to grab your Twilight Feathers!",
 
     //World Map Text
     //-------------
@@ -2075,7 +2075,7 @@
     "Mail.AichaSeeds.Title": "Aicha's Seeds",
 
     //Festival Letters
-    "Mail.TwilightFestival.Body": "Dear @,^^Tomorrow we're holding our annual Twilight Festival in Sunberry Village! It's similar to Pelican Town's Spirit's Eve festival, but with our own twist on it. Drop by after 4 PM to join the festivities and make sure to grab the twilight feathers you've been collecting all year! You'll need them to trade with us. You can also drop by before 4 PM to join the villagers. We'll be around to chat and get things set up.^^ - Ophelia",
+    "Mail.TwilightFestival.Body": "Dear @,^^Tomorrow we're holding our annual Twilight Festival in Sunberry Village! It's similar to Pelican Town's Spirit's Eve festival, but with our own twist on it. The festival starts at 4 PM so make sure to grab the twilight feathers you've been collecting all year and come join the festivities! You'll need those feathers to trade with us. You can also drop by before 4 PM to join the villagers. We'll be around to chat and get things set up.^^ - Ophelia",
     "Mail.TwilightFestival.Title": "Twilight Festival Notice",
 
     //Movie Reactions
