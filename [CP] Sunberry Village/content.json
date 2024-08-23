@@ -188,7 +188,7 @@
             "Value": "{{GSBSetup}} Spanner 20 58 0",
             "When": {
                 "HasMod": "Arknir.Jonghyuk",
-                "HasSeenEvent |contains= 63071007": true
+                "HasSeenEvent |contains= SpannerIntroConclusion": true
             }
         },
         { // 0, 1-3, 4-7, 8-9, 10+
