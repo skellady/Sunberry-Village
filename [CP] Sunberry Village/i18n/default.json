@@ -114,7 +114,7 @@
     //Festival Text
     //-------------
     "SBV.TwilightFestival.Name": "Twilight Festival",
-    "SBV.TwilightFestival.StartMessage": "The Twilight Festival has begun in Sunberry Village. Make sure to grab your twilight feathers!",
+    "SBV.TwilightFestival.StartMessage": "The Twilight Festival has begun in Sunberry Village. Make sure to grab your Twilight Feathers!",
 
     //World Map Text
     //-------------
@@ -1880,6 +1880,17 @@
     "event-20031469.17": "I'm not sure what that's all about, but I trust her.$h",
     "event-20031469.18": "And... thank you. I needed the push. I'm gonna make this a proper home again.$12",
 
+    // Blake 6 Hearts Event
+    "event-20031470.01": "I just don't get why you wanna keep doing this to yourself.$s",
+    "event-20031470.02": "You deserve to do something you love, you know?$s",
+    "event-20031470.03": "I mean... I want to, but what if my dads don't agree? I... I don't want to disappoint them.$s",
+    "event-20031470.04": "Pfft...",
+    "event-20031470.05": "Your dads are SO incredibly supportive, it's insane. You remember that one phase you had when...$u",
+    "event-20031470.06": "NO! We do not speak of that, please.$u",
+    "event-20031470.07": "Point is, they'll always have your back, Blake, no matter what you decide to do.$h",
+    "event-20031470.08": "Yeah... you're right. Thank you for being here, by the way. It means the world to me.$9",
+    "event-20031470.09": "Of course. I love you, I'll always be here to hold your hand and cheer you on.$u",
+
     //Animation Dialogue
     //------------------
 
@@ -2064,7 +2075,7 @@
     "Mail.AichaSeeds.Title": "Aicha's Seeds",
 
     //Festival Letters
-    "Mail.TwilightFestival.Body": "Dear @,^^Tomorrow we're holding our annual Twilight Festival in Sunberry Village! It's similar to Pelican Town's Spirit's Eve festival, but with our own twist on it. Drop by after 4 PM to join the festivities and make sure to grab the twilight feathers you've been collecting all year! You'll need them to trade with us. You can also drop by before 4 PM to join the villagers. We'll be around to chat and get things set up.^^ - Ophelia",
+    "Mail.TwilightFestival.Body": "Dear @,^^Tomorrow we're holding our annual Twilight Festival in Sunberry Village! It's similar to Pelican Town's Spirit's Eve festival, but with our own twist on it. The festival starts at 4 PM so make sure to grab the twilight feathers you've been collecting all year and come join the festivities! You'll need those feathers to trade with us. You can also drop by before 4 PM to join the villagers. We'll be around to chat and get things set up.^^ - Ophelia",
     "Mail.TwilightFestival.Title": "Twilight Festival Notice",
 
     //Movie Reactions
@@ -5477,7 +5488,7 @@
     "Ari.Dialogue.RaccoonFertilizer": "HAH! Apparently, that raccoon managed to snag one of Pierre's fertilizer. Oh, @, you should've seen the way he was chasing him.$u",
 
     //Blake
-    "Blake.Dialogue.cc_Complete": "You fixed up the community center? That's so cool! Maybe we can starting hanging out there sometime.$h",
+    "Blake.Dialogue.cc_Complete": "You fixed up the community center? That's so cool! Maybe we can start hanging out there sometime.$h",
     "Blake.Dialogue.cc_Bus": "Oh, hell yeah. I'm so glad the bus is back up and running. Lyenne and I can finally go on those trips we planned a while ago.$u",
     "Blake.Dialogue.movieTheater": "I'm so excited to go to the movie theater. Just gotta check out what's showing at the moment.$u",
     "Blake.Dialogue.SterlingTrash": "Mia sent my dad some bear muffins once. I'm absolutely obsessed. They're SO cute.$u",

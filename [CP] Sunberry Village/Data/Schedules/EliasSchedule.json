@@ -15,7 +15,7 @@
 				"spring_Sat": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1600 Custom_SBV_SunberryVillage 52 84 1 elias_guitar \"Strings\\schedules\\EliasSBV:Fountain\"/2300 Custom_SBV_EliasHouse 3 5 3",
 				"summer_Sat": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1600 Custom_SBV_SunberryVillage 52 84 1 elias_guitar \"Strings\\schedules\\EliasSBV:Fountain\"/2300 Custom_SBV_EliasHouse 3 5 3",
 				"fall_Sat": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1600 Custom_SBV_SunberryVillage 52 84 1 elias_guitar \"Strings\\schedules\\EliasSBV:Fountain\"/2300 Custom_SBV_EliasHouse 3 5 3",
-				"skellady.SBVCP_TwilightFestival": "900 Custom_SBV_SunberryVillage 74 67 3 \"Strings\\schedules\\EliasSBV:TwilightFestival.000\"/1530 Custom_SBV_SunberryVillage 75 15 2 \"Strings\\schedules\\EliasSBV:TwilightFestival.001\"/2500 Custom_SBV_EliasHouse 3 5 3",
+				"skellady.SBVCP_TwilightFestival": "900 Custom_SBV_SunberryVillage 74 67 3 \"Strings\\schedules\\EliasSBV:TwilightFestival.000\"/a1600 Custom_SBV_SunberryVillage 75 15 2 \"Strings\\schedules\\EliasSBV:TwilightFestival.001\"/2500 Custom_SBV_EliasHouse 3 5 3",
 				"winter_Sat": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1500 Custom_SBV_SunberryVillage 77 14 2/2000 Custom_SBV_EliasHouse 3 5 3",
 				"TroutDerby": "610 Forest 95 39 2 elias_fish/2100 Custom_SBV_EliasHouse 3 5 3",
 				"SquidFest": "610 Custom_SBV_SunberryLibrary 23 10 0/900 Beach 26 36 elias_fish/2100 Custom_SBV_EliasHouse 3 5 3",
