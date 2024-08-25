@@ -1,0 +1,30 @@
+{
+    "Changes": [
+      {
+        "Action": "EditData",
+        "Target": "Mods/shekurika.VisibleFish/LocationData",
+        "Entries": {
+          "Custom_SBV_MinesFinal": {
+            "Spawns": {
+              "{{ModId}}_Aberrant": {
+                "Condition": "!PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_Aberrant",
+                "X": 31,
+                "Y": 27,
+                "QualifiedItemId": "(O){{ModId}}_Aberrant"
+              }
+            }
+          },
+          "Custom_SBV_SecretForest2": {
+            "Spawns": {
+              "{{ModId}}_AnglerJr": {
+                "Condition": "SEASON fall, PLAYER_FISHING_LEVEL current 5, !PLAYER_HAS_CAUGHT_FISH Current {{ModId}}_AnglerJr",
+                "X": 32,
+                "Y": 18,
+                "QualifiedItemId": "(O){{ModId}}_AnglerJr"
+              }
+            }
+          },
+        }
+      }
+    ]
+  }
