@@ -233,6 +233,48 @@
             "When": {
                 "HasMod": "DN.SnS"
             } 
+        },
+        {
+            "LogName": "Ari's Market Daily Special - VMV",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBVSMAPI/MarketDailySpecialData",
+            "Entries": {
+                "{{ModId}}_VMVItems": {
+                    "Items": [
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_FireBeansStarter",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 500
+                            }
+                        },
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_BasilSeeds",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 680
+                            }
+                        },
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_LambLettuceSeeds",
+                            "MinStack": 5,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 600
+                            }
+                        },
+                        {
+                            "ItemId": "(O)Lumisteria.MtVapius_Butter",
+                            "MinStack": 1,
+                            "ModData": {
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 210
+                            }
+                        }
+                    ] 
+                }
+            },
+            "When": {
+                "HasMod": "Lumisteria.MtVapius"
+            } 
         }
     ]
 }

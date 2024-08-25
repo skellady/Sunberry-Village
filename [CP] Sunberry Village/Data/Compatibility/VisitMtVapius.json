@@ -1,5 +1,6 @@
 {
     "Changes": [
+        // VMV Totem and Geode for Silas' Shop
         {
             "LogName": "Add VMV Totem and Geode to Silas",
             "Action": "EditData",
@@ -26,6 +27,29 @@
             },
             "When": {
                 "HasMod": "Lumisteria.MtVapius" 
+            }
+        },
+        // VMV flowers in Secret Forest 1
+        {
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Custom_SBV_SecretForest1",
+                "Forage"
+            ],
+            "Entries": {
+                "{{ModId}}_VMVLaceFlower": {
+                    "Id": "{{ModId}}_VMVLaceFlower",
+                    "ItemId": "Lumisteria.MtVapius_LaceFlower",
+                    "Season": "Summer",
+                    "Chance": 0.4
+                },
+                "{{ModId}}_VMVWoodSilkFlower": {
+                    "Id": "{{ModId}}_VMVWoodSilkFlower",
+                    "ItemId": "Lumisteria.MtVapius_WoodSilkFlower",
+                    "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here rain",
+                    "Chance": 0.5
+                }
             }
         }
     ]
