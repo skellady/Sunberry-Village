@@ -186,7 +186,7 @@
                     }
                 }
             ],
-            "When": {   // player must have seen vanilla mines intro event AND raised their combat over 0 to unlock
+            "When": { // player must have seen vanilla mines intro event AND raised their combat over 0 to unlock
                 "Query: ('{{HasSeenEvent:anyPlayer |contains=100162}}' = 'false') OR ('{{CombatSkill}}' = 'None')": true
             }
         },
@@ -606,6 +606,27 @@
                     }
                 }
             ]
+        },
+        {
+            "LogName": "Edit blank FishInfo file to add fish info strings",
+            "Action": "EditData",
+            "Target": "Strings/SBV/Books",
+            "Entries": {
+                "Aberrant": "{{i18n:FishInfo.Aberrant}}",
+                "AnglerJr": "{{i18n:FishInfo.AnglerJr}}",
+                "AzureanCarp": "{{i18n:FishInfo.AzureanCarp}}",
+                "Barkfish": "{{i18n:FishInfo.Barkfish}}",
+                "BonbonFish": "{{i18n:FishInfo.BonbonFish}}",
+                "BubblyBetta": "{{i18n:FishInfo.BubblyBetta}}",
+                "ChartreuseTilapia": "{{i18n:FishInfo.ChartreuseTilapia}}",
+                "EeltailedCatfish": "{{i18n:FishInfo.EeltailedCatfish}}",
+                "EmeraldSnapper": "{{i18n:FishInfo.EmeraldSnapper}}",
+                "FiretailGuppy": "{{i18n:FishInfo.FiretailGuppy}}",
+                "Mothfish": "{{i18n:FishInfo.Mothfish}}",
+                "Najelfish": "{{i18n:FishInfo.Najelfish}}",
+                "SeaCow": "{{i18n:FishInfo.SeaCow}}",
+                "NoFishPond": "{{i18n:FishInfo.NoFishPond}}"
+            }
         }
     ]
 }

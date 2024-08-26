@@ -236,6 +236,108 @@
             "When": {
                 "HasSeenEvent |contains= 100162": true
             }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": ""
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:AzureanCarp",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_AzureanCarp": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:Barkfish",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_Barkfish": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:BonbonFish",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_BonbonFish": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:BubblyBetta",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_BubblyBetta": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:ChartreuseTilapia",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_ChartreuseTilapia": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:EeltailedCatfish",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_EeltailedCatfish": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:EmeraldSnapper",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_EmeraldSnapper": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:FiretailGuppy",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_FiretailGuppy": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:Mothfish",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_Mothfish": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:Najelfish",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_Najelfish": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:SeaCow",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_SeaCow": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:NoFishPond",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_Aberrant, skellady.SBVCP_AnglerJr": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:Aberrant",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_Aberrant": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:AnglerJr",
+            "When": {
+                "HasCaughtFish |contains= skellady.SBVCP_AnglerJr": true
+            }
         }
     ],
     "ConfigSchema": {
@@ -322,9 +424,9 @@
             "FromFile": "Data/Dialogue/blank.json"
         },
         {
-            "LogName": "Load Books File Blank",
+            "LogName": "Load Books File Blanks",
             "Action": "Load",
-            "Target": "Strings/SBV/Books",
+            "Target": "Strings/SBV/Books, Strings/SBV/FishInfo",
             "FromFile": "Data/Dialogue/blank.json"
         },
         {
