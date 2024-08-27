@@ -38,7 +38,7 @@ internal class CJBPatches
 	public static IEnumerable<CodeInstruction> ShouldFreezeTime_Transpiler(IEnumerable<CodeInstruction> instructions)
 	{
 		List<CodeInstruction> origInstructions = new(instructions); // store unaltered instructions in case anything goes wrong
-		CodeMatcher matcher = new(origInstructions);
+		CodeMatcher matcher = new(instructions);
 
 		try
 		{
@@ -61,7 +61,7 @@ internal class CJBPatches
 		}
 		catch (Exception e)
 		{
-			Log.Error($"Harmony patch <{nameof(CJBPatches)}::{nameof(ShouldFreezeTime_Transpiler)}> has encountered an error while attempting to transpile <{nameof(GameLocation)}::{nameof(GameLocation.lockedDoorWarp)}>: \n{e}");
+			Log.Error($"Harmony patch <{nameof(CJBPatches)}::{nameof(ShouldFreezeTime_Transpiler)}> has encountered an error while attempting to transpile <CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat::ShouldFreezeTime>: \n{e}");
 			Log.Error("Faulty IL:\n\t" + string.Join("\n\t", matcher.Instructions().Select((instruction, i) => $"{i}\t{instruction}")));
 			return origInstructions;
 		}
