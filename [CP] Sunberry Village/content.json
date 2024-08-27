@@ -494,7 +494,7 @@
         {
             "LogName": "Include Compatibility Data",
             "Action": "Include",
-            "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json, Data/Compatibility/RSVShop.json, Data/Compatibility/VanillaTweaks.json, Data/Compatibility/WorldMapsEverywhere.json, Data/Compatibility/VisitMtVapius.json"
+            "FromFile": "Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json, Data/Compatibility/RSVShop.json, Data/Compatibility/VanillaTweaks.json, Data/Compatibility/WorldMapsEverywhere.json, Data/Compatibility/VisitMtVapius.json, Data/Compatibility/VisibleFish.json"
         },
         // Festivals
         {
