@@ -42,9 +42,23 @@ internal class MapManager
 		Globals.EventHelper.Player.Warped += CheckForDrawingMineLevel;
 		Globals.EventHelper.Player.Warped += CheckTravelingSunberryRoad;
 		Globals.EventHelper.GameLoop.DayEnding += ModifyTravelingSunberryRoadStat;
+		Globals.EventHelper.GameLoop.DayStarted += RemoveDigSpotsFromMines;
 	}
 
-    private static void CheckForDrawingMineLevel(object sender, WarpedEventArgs e)
+	private static void RemoveDigSpotsFromMines(object sender, DayStartedEventArgs e)
+	{
+		foreach (GameLocation loc in Game1.locations.Where(loc => loc.Name.Contains("Custom_SBV_Mines")))
+		{
+			List<Vector2> toRemove = new();
+			toRemove.AddRange(loc.Objects.Pairs.Where(kvp => kvp.Value.QualifiedItemId == "(O)590" || kvp.Value.QualifiedItemId == "(O)SeedSpot").Select(kvp => kvp.Key));
+			foreach (Vector2 tile in toRemove)
+			{
+				loc.Objects.Remove(tile);
+			}
+		}
+	}
+
+	private static void CheckForDrawingMineLevel(object sender, WarpedEventArgs e)
     {
         if (!e.IsLocalPlayer)
 	        return;

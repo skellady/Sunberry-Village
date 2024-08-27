@@ -82,6 +82,9 @@ internal class GameLocationPatches
 		}
 	}
 
+	/// <summary>
+	/// Patches <c>GameLocation.checkAction</c> to make Sunberry mines coal cart functional.
+	/// </summary>
 	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.checkAction))]
 	[HarmonyPrefix]
 	public static bool checkAction_Prefix(GameLocation __instance, Location tileLocation, Farmer who)
@@ -114,6 +117,9 @@ internal class GameLocationPatches
 		}
 	}
 
+	/// <summary>
+	/// Patches <c>GameLocation.lockedDoorWarp</c> to make Sunberry doors openable with the town key.
+	/// </summary>
 	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.lockedDoorWarp))]
 	[HarmonyTranspiler]
 	public static IEnumerable<CodeInstruction> lockedDoorWarp_Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
@@ -166,6 +172,17 @@ internal class GameLocationPatches
 			Log.Error("Faulty IL:\n\t" + string.Join("\n\t", newInstructions.Select((instruction, i) => $"{i}\t{instruction}")));
 			return origInstructions;
 		}
+	}
+
+	/// <summary>
+	/// Patches <c>GameLocation.getFootstepSoundReplacement</c> to make Sunberry mines grass not make snowy sounds/footsteps in winter.
+	/// </summary>
+	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.getFootstepSoundReplacement))]
+	[HarmonyPostfix]
+	public static void getFootstepSoundReplacement_Postfix(GameLocation __instance, string footstep, ref string __result)
+	{
+		if (__instance?.GetLocationContextId() == "Custom_SBV_Mines" && footstep == "snowyStep")
+			__result = "grassyStep";
 	}
 
 	/*
