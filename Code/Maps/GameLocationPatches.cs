@@ -1,14 +1,13 @@
 ﻿using HarmonyLib;
 using StardewValley;
-using SunberryVillage.Utilities;
+using StardewValley.Extensions;
+using StardewValley.Locations;
+using SunberryVillage.Shops;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
-using StardewValley.Extensions;
-using StardewValley.Locations;
-using SunberryVillage.Shops;
 using xTile.Dimensions;
 
 // ReSharper disable UnusedMember.Local

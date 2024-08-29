@@ -8,6 +8,7 @@ using StardewValley;
 using StardewValley.GameData.Characters;
 using StardewValley.Quests;
 using SunberryVillage.Animations;
+using SunberryVillage.Events.Tarot;
 using SunberryVillage.Integration.Tokens;
 using SunberryVillage.Lighting;
 using xTile;
@@ -47,6 +48,23 @@ internal class ConsoleCommandManager
 
 				Game1.player.modData.Remove("SunberryTeam.SBVSMAPI_TarotReadingDoneForToday");
 			}
+		);
+
+		Globals.CCHelper.Add("sbv.tarot.temperance", "Gives Temperance buff", (_, _) =>
+			{
+				if (!IsWorldReady())
+					return;
+
+				TarotCard card = new(
+					id: "Temperance",
+					buffEffects: null,	// custom buff for Temperance
+					iconIndex: 13,
+					condition: () => Game1.player.eventsSeen.Contains("JonghyukCoffee")
+					);
+
+				card.ApplyBuff("debug");
+			}
+				
 		);
 
 		#endregion

@@ -1,6 +1,5 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI.Events;
-using SunberryVillage.Utilities;
 
 namespace SunberryVillage.Events.Phone;
 

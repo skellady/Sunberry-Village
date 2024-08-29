@@ -2,10 +2,9 @@
 using Microsoft.Xna.Framework.Audio;
 using StardewModdingAPI.Events;
 using StardewValley;
-using SunberryVillage.Utilities;
+using StardewValley.GameData;
 using System;
 using System.Collections.Generic;
-using StardewValley.GameData;
 
 namespace SunberryVillage.Audio
 {

@@ -8,6 +8,7 @@
 
     // Card Names
 
+    "AceOfSwords.name": "The Ace of Swords",
     "Sun.name": "The Sun",
     "ThreeOfWands.name": "The Three of Wands",
     "AceOfCups.name": "The Ace of Cups",
@@ -18,19 +19,26 @@
     "AceOfPentacles.name": "The Ace of Pentacles",
     "ThreeOfSwordsReversed.name": "The Three of Swords, Reversed",
     "WheelOfFortune.name": "The Wheel of Fortune",
+    "Fool.name": "The Fool",
+    "Temperance.name": "Temperance",
+    "World.name": "The World",
 
     // Card Descriptions
 
-    "Sun.desc": "Warmth, happiness, and success follow you. You're invincible.",
-    "ThreeOfWands.desc": "Indicates growth moving forward. Your hard work will pay off.",
-    "AceOfCups.desc": "A new beginning is here. Open yourself up and be vulnerable.",
-    "Empress.desc": "This is a sign for you to be kind to yourself. Embrace your creativity and quirks.",
-    "Moon.desc": "You might be experiencing confusion or anxiety. Take it slow today.",
-    "Lovers.desc": "Pure harmony and love are in your path. Show your truest feelings.",
-    "TowerReversed.desc": "Something looms in the horizon. Don't be afraid. Embrace the change.",
-    "AceOfPentacles.desc": "Abundance and prosperity is on the way. Welcome all opportunities.",
-    "ThreeOfSwordsReversed.desc": "Allow yourself to recover and grieve the past. Let go. Don't look back.",
-    "WheelOfFortune.desc": "Luck is on your side today. Embrace what you cannot control.",
+    "AceOfSwords.desc": "You're compelled by sheer power. Emerge from the clouds to see the truth. ",
+    "Sun.desc": "Warmth, happiness, and success follow you. You're invincible. (Immunity to debuffs)",
+    "ThreeOfWands.desc": "Indicates growth moving forward. Your hard work will pay off. (Mining +3)",
+    "AceOfCups.desc": "A new beginning is here. Open yourself up and be vulnerable. (Magnetism +75)",
+    "Empress.desc": "This is a sign for you to be kind to yourself. Embrace your creativity and quirks. (Speed +1)",
+    "Moon.desc": "You might be experiencing confusion or anxiety. Take it slow today. (Speed -1)",
+    "Lovers.desc": "Pure harmony and love are in your path. Show your truest feelings. (Max Energy +50)",
+    "TowerReversed.desc": "Something looms in the horizon. Don't be afraid. Embrace the change. (Darkness)",
+    "AceOfPentacles.desc": "Abundance and prosperity is on the way. Welcome all opportunities. (Foraging +3)",
+    "ThreeOfSwordsReversed.desc": "Allow yourself to recover and grieve the past. Let go. Don't look back. (Defense +3)",
+    "WheelOfFortune.desc": "Luck is on your side today. Embrace what you cannot control. (Luck +3)",
+    "Fool.desc": "A new adventure begins. Take a step forward. Embrace the change. (Luck +1)",
+    "Temperance.desc": "Everything is balanced, as all things should be. Remain calm and think of your next step. (Balanced HP and Energy)",
+    "World.desc": "The four elements surround you. You feel a sense of belonging. You made it. (All Skills +1)",
 
     // Elias Song Dialogue
 
@@ -53,5 +61,5 @@
     "MarketDailySpecialNotEnoughMoney2": "Nuh uh. Put that back, {0}. You'll need to pay the full amount up front, I'm afraid.$8", // try to buy it but don't have enough
     "MarketDailySpecialPurchased1": "Enjoy! Make sure to come back tomorrow to check out the new offer.$h",
     "MarketDailySpecialPurchased2": "Enjoy your purchase! You won't find anything this good at Pierre's!$h", // successfully bought it
-    "MarketDailySpecialQuantityIndicator": "x"  // the 'x' in, for example, "Tea Sapling x 5", to indicate there are 5 tea saplings
+    "MarketDailySpecialQuantityIndicator": "x" // the 'x' in, for example, "Tea Sapling x 5", to indicate there are 5 tea saplings
 }

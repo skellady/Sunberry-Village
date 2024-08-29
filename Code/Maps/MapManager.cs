@@ -7,7 +7,6 @@ using StardewValley.BellsAndWhistles;
 using StardewValley.Extensions;
 using SunberryVillage.Events.Tarot;
 using SunberryVillage.Shops;
-using SunberryVillage.Utilities;
 using System;
 using System.Collections.Generic;
 using System.Linq;

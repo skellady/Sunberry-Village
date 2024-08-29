@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using StardewValley;
 using SunberryVillage.Events.Phone;
 using SunberryVillage.Events.Tarot;
-using SunberryVillage.Utilities;
+using System;
+using System.Collections.Generic;
 using Vector2 = Microsoft.Xna.Framework.Vector2;
 
 namespace SunberryVillage.Events;

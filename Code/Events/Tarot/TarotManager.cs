@@ -1,7 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 using StardewModdingAPI.Events;
 using StardewValley;
-using SunberryVillage.Utilities;
 using System.Collections.Generic;
 using System.Linq;
 // ReSharper disable UnusedMember.Global
@@ -18,46 +17,77 @@ internal static class TarotManager
 
 	public static List<TarotCard> CardPool = new()
 	{
+		
+		new TarotCard(
+			id: "AceOfSwords",
+			buffEffects: new() { LuckLevel = { 3 } },
+			iconIndex: 2,
+			condition: null),
 		new TarotCard(
 			id: "Sun",
-			buffId: "21",
+			buffId: "28",	// Squid ink ravioli buff - can't be debuffed
+			iconIndex: 3,
 			condition: () => Game1.player.isMarriedOrRoommates()),
 		new TarotCard(
 			id: "ThreeOfWands",
 			buffEffects: new() { MiningLevel = { 3 } },
+			iconIndex: 4,
 			condition: null),
 		new TarotCard(
 			id: "AceOfCups",
 			buffEffects: new() { MagneticRadius = { 75 } },
+			iconIndex: 5,
 			condition: null),
 		new TarotCard(
 			id: "Empress",
 			buffEffects : new() { Speed = { 1 } },
+			iconIndex: 6,
 			condition: null),
 		new TarotCard(
 			id: "Moon",
 			buffEffects: new() { Speed = { -1 } },
+			iconIndex: 7,
 			condition: null),
 		new TarotCard(
 			id: "Lovers",
 			buffEffects: new() { MaxStamina = { 50 } },
+			iconIndex: 8,
 			condition: () => Game1.player.isMarriedOrRoommates() || Game1.player.isEngaged()),
 		new TarotCard(
 			id: "TowerReversed",
-			buffId: "26",
-			condition: null),
+			buffId: "26",	// darkness - would like to implement a custom effect but this is fine for now
+			iconIndex: 9,
+			condition: () => Utils.Random.NextSingle() < 0.5f),	// lowered chance for this one to show up bc it's kind of a pain
 		new TarotCard(
 			id: "AceOfPentacles",
 			buffEffects: new() { ForagingLevel = { 3 } },
+			iconIndex: 10,
 			condition: null),
 		new TarotCard(
 			id: "ThreeOfSwordsReversed",
-			buffEffects: new() { Immunity = { 3 } },
+			buffEffects: new() { Defense = { 3 } },
+			iconIndex: 11,
 			condition: null),
 		new TarotCard(
 			id: "WheelOfFortune",
 			buffEffects: new() { LuckLevel = { 3 } },
-			condition: null)
+			iconIndex: 12,
+			condition: null),
+		new TarotCard(
+			id: "Fool",
+			buffEffects: new() { LuckLevel = { 1 } },
+			iconIndex: 12,
+			condition: () => Game1.player.eventsSeen.Contains("JonghyukCoffee")),
+		new TarotCard(
+			id: "Temperance",
+			buffEffects: null,	// custom buff for Temperance
+			iconIndex: 13,
+			condition: () => Game1.player.eventsSeen.Contains("JonghyukCoffee")),
+		new TarotCard(
+			id: "World",
+			buffEffects: new() { FarmingLevel = { 1 }, MiningLevel = { 1 }, ForagingLevel = { 1 }, FishingLevel = { 1 }, CombatLevel = { 1 } },
+			iconIndex: 14,
+			condition: () => Game1.player.eventsSeen.Contains("JonghyukCoffee"))
 	};
 
 	#endregion

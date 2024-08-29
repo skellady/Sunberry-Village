@@ -1,7 +1,6 @@
 ﻿using HarmonyLib;
 using Microsoft.Xna.Framework;
 using StardewValley;
-using SunberryVillage.Utilities;
 using System;
 
 // ReSharper disable UnusedMember.Local
