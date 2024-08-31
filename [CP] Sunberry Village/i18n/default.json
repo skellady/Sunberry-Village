@@ -1999,6 +1999,14 @@
     "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_4": "Drop off 30 Fiber in the back room",
     "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_5": "Drop off 15 Iron Bars in the back room",
 
+    // Blake and Lyenne Monster Parts (Science Experiment)
+    "SBV.SpecialOrder.BlakeLyenneExperiment_Name": "Help Us Do Science",
+    "SBV.SpecialOrder.BlakeLyenneExperiment_Text": "Lyenne and I would like for someone to collect some monster parts for a science experiment we're working on. Definitely nothing shady going on here! Keep this between us though. For no reason. Secrets are fun, right?",
+    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_0": "Collect 50 Bug Meat",
+    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_1": "Collect 50 Slime",
+    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_2": "Drop off 50 Bug Meat in the barrel next to Ari's market",
+    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3": "Drop off 50 Slime in the barrel next to Ari's market",
+
     //Mail 
     //----
 
@@ -2041,10 +2049,12 @@
     "Mail.MaiaSOWeapon2.Title": "The Battle Axe",
     "Mail.MaiaSOWeapon3.Body": "@!^^I couldn't believe my eyes when I saw that you managed to gather everything for this weapon. I'm never been so excited to work on something before, hah. Thank you so much, again. I hope it wasn't too much trouble for you. The sword should be available for purchase soon if you're interested.^^- Maia",
     "Mail.MaiaSOWeapon3.Title": "The Dragonfang",
-    "Mail.MaiaSOWeapon4.Body": "Hey, @,^^We finally got done working on the blade. Thank you for gathering the materials for us! Silas and Raz asked me to thank you, too, on their behalf. I'm not gonna lie, this blade scares me a little. Silas said it's energy might be a little chaotic but it should be useful against monsters. Drop by if you'd like to check it out.^^- Maia",
+    "Mail.MaiaSOWeapon4.Body": "Hey, @,^^We finally got done working on the blade. Thank you for gathering the materials for us! Silas and Raz asked me to thank you, too, on their behalf. I'm not gonna lie, this blade scares me a little. Silas said its energy might be a little chaotic but it should be useful against monsters. Drop by if you'd like to check it out.^^- Maia",
     "Mail.MaiaSOWeapon4.Title": "Menacing Blade",
-    "Mail.AichaSOWeapon.Body": "@!!^^Maia FINALLY agreed to make the weapon! She said you dropped off the materials earlier. Thank you SO much, I'm so excited to use it! It is more pretty than powerful, but... that's okay, heh! I asked Maia if she could sell it to you, too, so she should have it in her little shop soon!^^P.S: Sorry I couldn't pay you more! That's all the money I had.^^- Aicha",
+    "Mail.AichaSOWeapon.Body": "@!!^^Maia FINALLY agreed to make the weapon! She said you dropped off the materials earlier. Thank you SO much, I'm so excited to use it! It is more pretty than powerful, but... that's okay, heh! I asked Maia if she could sell it to you, too, so she should have it in her little shop soon!^^- Aicha^^P.S: Sorry I couldn't pay you more! That's all the money I had.",
     "Mail.AichaSOWeapon.Title": "The Floral Weapon",
+    "Mail.BlakeLyenneSOExperiment.Body": "Hey @,^^Thanks for getting that stuff for us! You should come by the village soon and see the results of our experiment. We can't disclose any more information for legal reasons. It's gonna be awesome though. Trust us. :)^^- Blake and Lyenne",
+    "Mail.BlakeLyenneSOExperiment.Title": "Blake and Lyenne's Experiment",
 
     //Pass Out Letter
     "Mail.passedOutSBV.Body": "@,^^Found you unconscious last night while I was doing my sweep with Maia. Try to be more careful next time. If there's anything I can do for you, you know where to find me.^^- Ophelia",
@@ -4473,7 +4483,7 @@
     "Lyenne.Dialogue.Sun2": "You know, Abigail's hair is really pretty. I was looking at her the other day when we hung out and there's this cute strand that ju-$u#$b#Oh! Haha, don't mind me. I'm going to water my fish now.$8",
 
     //4 hearts
-    "Lyenne.Dialogue.Mon4": "Someone assumed Blake and I were dating the other day and I shuddered at thought.$7#$b#Nothing's wrong with Blake, he's my best friend in the whole world, but he's more like the annoying sibling I never had.$u",
+    "Lyenne.Dialogue.Mon4": "Someone assumed Blake and I were dating the other day and I shuddered at the thought.$7#$b#Nothing's wrong with Blake, he's my best friend in the whole world, but he's more like the annoying sibling I never had.$u",
     "Lyenne.Dialogue.Tue4": "Alright, look. I spend like eighty percent of my day on social media, but it makes me so uncomfortable seeing people talk in person the way they do online.$7#$b#Like no, stop quoting that one viral post thinking you're funny! I will physically recoil.$7#$b#Blake did that once and I just gave him the silent treatment for the rest of the day.$u",
     "Lyenne.Dialogue.Wed4": "I wonder if Leah would ever offer art classes. I'd love to learn from her, she's so cool.$4#$b#Artistic women... my heart's all yours.$u",
     "Lyenne.Dialogue.Thu4": "Sexuality is so confusing. Like, why can't I decide whether I like men or can't stand them? I need my brain to make a choice already.$7#$b#Don't mind me, @. Just my daily dose of questioning.",
@@ -4487,7 +4497,7 @@
     "Lyenne.Dialogue.Wed6": "Alright, I'm gonna need permission to go see whatever animals you got on your farm. It's for... science.$h#$b#...Okay, fine. It's for my mental health. Animals make me happy.$9",
     "Lyenne.Dialogue.Thu6": "Iman is so cool. I couldn't find a good outfit for this party in Zuzu so she let me borrow THE prettiest dress. Here, look.$u#$b#%Lyenne shows you a picture of her with her arm over Blake's shoulder. She's wearing a strapless red dress.",
     "Lyenne.Dialogue.Fri6": "I sat down with Diala and Derya the other day to complain about something. It's so funny to me that they're like, an angel and a devil on your shoulder. I'm sure you know who's who by now.$u",
-    "Lyenne.Dialogue.Sat6": "$query ANY \"WEATHER Here Rain Storm\" \"SEASON Winter\"#Promised Abigail we'd play a video game together tonight. I'm looking forward to it, we rarely ever get to play without the guys.$h|Promised Abigail we'd play a video game together tonight, which means I'd have to sneak out of the hang out by fountain early.$u",
+    "Lyenne.Dialogue.Sat6": "$query ANY \"WEATHER Here Rain Storm\" \"SEASON Winter\"#Promised Abigail we'd play a video game together tonight. I'm looking forward to it, we rarely ever get to play without the guys.$h|Promised Abigail we'd play a video game together tonight, which means I'd have to sneak out of the hang out by the fountain early.$u",
     "Lyenne.Dialogue.Sun6": "Hmm... I'm almost done with this painting I'm working on, but the urge to redo it is so strong.$7#$b#I need to accept that seeing flaws in my art means that I'm improving, but it also means I shouldn't be stuck in a loop of constantly redoing what I make.$9",
 
     //8 hearts
@@ -5471,6 +5481,7 @@
     "Aicha.Dialogue.luauBest": "The soup was really good! I wish I could've convinced Rei to try it, but apparently she doesn't trust whatever the humans put in there.$s",
     "Aicha.Dialogue.luauShorts": "Were those... someone's shorts in the soup? I wonder how they got there. Surely it was just an accident.$7",
     "Aicha.Dialogue.luauPoisoned": "Ugh, that soup was horrible. Rei healed me but I felt sooo sick for a while. Maybe she was right not to try the soup.$s",
+    "Aicha.Dialogue.AriGetsSlimed": "I saw Ari getting slime poured on his head earlier. It looked so fun!$3#$b#Do you think I can get Blake and Lyenne to do that to me too?$1",
 
     //Amina
     "Amina.Dialogue.cc_Complete": "Mom told me you fixed the community center! You're so cool!$3",
@@ -5486,6 +5497,7 @@
     "Amina.Dialogue.luauPoisoned": "%Amina doesn't look too well. Maybe she had some of yesterday's soup.",
     "Amina.Dialogue.ReihanaIntro": "I'm scared, but I want to be strong like my mom.$s#$b#Those girls that showed up in town, they're not gonna hurt us, right?$s",
     "Amina.Dialogue.RaccoonToy": "Vincent told us a raccoon stole one of his toys. Do you think he's telling the truth?$3",
+    "Amina.Dialogue.AriGetsSlimed": "Mom said I shouldn't do stuff like what Blake and Lyenne did with that slime, but... it looked pretty fun.$4#$b#You won't tell on me if I do a prank, will you?$3",
 
     //Ari
     "Ari.Dialogue.cc_Complete": "I'm glad to hear the community center is up and running again. It'll be good for the villagers.$h",
@@ -5503,6 +5515,7 @@
     "Ari.Dialogue.ReihanaIntro": "So... the one time I decide to take a stroll, demons appear? Is this my sign to never leave my shop again?$6#$b#I'm just glad Blake and Elias are okay. Everyone else, too.$s",
     "Ari.Dialogue.RaccoonGlasses": "That pesky raccoon took my reading glasses! How am I supposed to read the book Lyenne gave me before I go to bed?$s",
     "Ari.Dialogue.RaccoonFertilizer": "HAH! Apparently, that raccoon managed to snag one of Pierre's fertilizer. Oh, @, you should've seen the way he was chasing him.$u",
+    "Ari.Dialogue.AriGetsSlimed": "Hey, @. Don't worry, I know you weren't behind that little stunt with the slime earlier.$0#$b#Truth be told, once I'd calmed down and cleaned off, it was a little bit funny.$7#$b#Blake will never hear this from me, but... I used to be a bit of a troublemaker in my youth, if you can believe it.$12#$b#Of course, that doesn't mean he's off the hook. I'll have him doing chores around the shop for weeks.$6",
 
     //Blake
     "Blake.Dialogue.cc_Complete": "You fixed up the community center? That's so cool! Maybe we can start hanging out there sometime.$h",
@@ -5519,6 +5532,7 @@
     "Blake.Dialogue.luauShorts": "Oh, my God. The purple shorts make an appearance. That was absolutely hilarious, I loved it.$u",
     "Blake.Dialogue.luauPoisoned": "Ugh, @. I don't feel too good. I'm never having soup again.$s",
     "Blake.Dialogue.ReihanaIntro": "God, I can't believe we like, ACTUALLY saw that! Lyenne would've never believed me if she wasn't there to see Diala summon those demons.$u",
+    "Blake.Dialogue.AriGetsSlimed": "Oh, hey. You probably guessed that the slime prank was supposed to be on you and not my dad.$8#$b#I'm basically gonna be living in the market for the next week or two. Don't worry, I totally learned my lesson.$12",
 
     //Diala
     "Diala.Dialogue.cc_Complete": "@! We heard the good news.$h#$b#Congrats on fixing up the community center!$u",
@@ -5556,6 +5570,7 @@
     "Diala.Dialogue.luauPoisoned": "Ugh... that soup really messed me up.$10#$b#I feel terrible.$s",
     "Diala.Dialogue.ReihanaIntro": "Ugh, I swear I didn't mean for that to happen! What kind of potion for making fertilizer turns into a demon summoning?!$s#$b#I gotta fix this somehow...$s",
     "Diala.Dialogue.RaccoonMuffin": "Ugh... that raccoon stole one of my freshly baked muffins. I'm going to need to start making double the amount now that both Derya AND the raccoon keep taking them.$9",
+    "Diala.Dialogue.AriGetsSlimed": "Hey @! I heard Ari got slimed, do you know anything about that?$1#$b#Derya's been asking around to see if anyone got a picture, she thinks it's hilarious.$3",
 
     //Derya
     "Derya.Dialogue.cc_Complete": "Hey! It's great to see the Community Center up and running, thank you, @!$h",
@@ -5593,6 +5608,7 @@
     "Derya.Dialogue.luauPoisoned": "Heard the soup was poisoned... how fun.$10#$b#Thankfully, I didn't have any.$10",
     "Derya.Dialogue.ReihanaIntro": "Hah... haha. Two demons in town, great. Yeah, I'm chilling. Everything's juuuust fine.$10",
     "Derya.Dialogue.RaccoonCoffee": "Can you believe this? Diala made me a cup of coffee and this raccoon snagged it right out of my hands!$13#$b#She did make me another cup, though. It's so sweet of her.$h",
+    "Derya.Dialogue.AriGetsSlimed": "Ohoho, I *so* wish I'd gotten to see Ari all covered in slime.$3#$b#Hey, you didn't happen to get a picture, did you?$6",
 
     //Elias
     "Elias.Dialogue.cc_Complete": "I can't believe you fixed up the community center! Lewis better be so incredibly thankful for your existence right now.$u",
@@ -5609,6 +5625,7 @@
     "Elias.Dialogue.luauPoisoned": "I didn't feel like having soup yesterday but Blake and Ari don't seem to be doin' well. Guess I dodged a bullet.$9",
     "Elias.Dialogue.ReihanaIntro": "I don't like how that demon talked to me. I still gotta make sure everyone's okay. Make sure to stay away, @.$a",
     "Elias.Dialogue.RaccoonBook": "%Elias is grumbling.#$b#Damn raccoon, I'm never leavin' the library door open while I organize the bookshelves. Takin' books like they belong to him, hmph.$a",
+    "Elias.Dialogue.AriGetsSlimed": "Howdy, @. Ari marched our boy over here to tell me what he'd done himself.$1#$b#I had to act upset, but honestly? Blake's li'l prank pales in comparison to half the stuff his dad used to pull off.$3#$b#Oh, the stories I could tell...$11#$b#Ari probably wouldn't be too happy with me if I did, though.$3",
 
     //Ezra
     "Ezra.Dialogue.cc_Complete": "Ah! I heard the community center's fixed up! That's wonderful news.$h#$b#I wonder if the townsfolk would mind me doing a little advertising over there.$u",
@@ -5624,6 +5641,7 @@
     "Ezra.Dialogue.luauPoisoned": "Blegh, I don't feel too good. Maybe it was the soup from yesterday? I think I need to lie down.$s",
     "Ezra.Dialogue.YriIntroduction": "Yri is a sweetheart! She helped with the plans for my shop. It wouldn't be as magnificent if it weren't for her genius.$u",
     "Ezra.Dialogue.ReihanaIntro": "Oh, great. A demon. Sorry, TWO demons. What is going on in this place?$s",
+    "Ezra.Dialogue.AriGetsSlimed": "That prank Blake and Lyenne pulled with the bucket of slime sounds like something my sister would do to me.$7",
 
     //Iman
     "Iman.Dialogue.cc_Complete": "The community center? That broken down building? Huh, never thought I'd see that get fixed up. Congrats!$h",
@@ -5638,6 +5656,7 @@
     "Iman.Dialogue.luauShorts": "HAH! I desperately need to know whose shorts those were. That was hilarious.$u",
     "Iman.Dialogue.luauPoisoned": "Ugh, I'm never listening to Ezra ever again. \"Try the soup, Iman! You'll love it.\"$s#$b#I think I'm gonna be sick.$s",
     "Iman.Dialogue.ReihanaIntro": "Okay, I've probably seen weirder things than two demons in a small town, however, that demon is stylish! I wonder where she got that outfit from.$u",
+    "Iman.Dialogue.AriGetsSlimed": "Ari was in a terrible mood when I saw him earlier. What happened?$7#$b#Ezra mentioned something about a prank Blake and Lyenne pulled, but I kind of zoned out...$2#$b#Their pranks get a little repetitive, that's all.$11",
 
     //Jumana
     "Jumana.Dialogue.cc_Complete": "I heard the wonderful news! I'm glad the community center is back up and running.$h",
@@ -5655,6 +5674,7 @@
     "Jumana.Dialogue.luauShorts": "Whoever put those shorts in is incredibly disrespectful.$a#$b#Not that I care about the governor, but It's a shame someone would want to ruin a festival like that.$s",
     "Jumana.Dialogue.luauPoisoned": "Poor Amina. She had some of that soup at the potluck and isn't feeling well now.$s",
     "Jumana.Dialogue.ReihanaIntro": "That... incident earlier was horrifying. I'm glad everyone's okay. We just need to keep an eye out for each other until this is resolved.$s#$b#...All this for fertilizer. Poor Diala.$s",
+    "Jumana.Dialogue.AriGetsSlimed": "Oh, hi dear. Miyoung caught me up on what happened earlier with Lyenne and Blake.$0#$b#After the pranks Ari used to pull, I'm not sure he has any room to be upset.$6",
 
     //Lyenne
     "Lyenne.Dialogue.cc_Complete": "I wonder if Sam, Seb, and Abby want to hang out in the community center now that it's fixed up.#$b#We tried hanging out when it was still broken down, but it was way too scary.$7",
@@ -5669,6 +5689,7 @@
     "Lyenne.Dialogue.BookLaunchParty": "Oh, my GOD! Rodney released his new book! I'm SO excited to read it. He's one of my favorite writers.$u",
     "Lyenne.Dialogue.ReihanaIntro": "Okay, while that whole demon summoning thing was terrifying, I am wondering if either of them are single. Is that bad? It is, isn't it?$7",
     "Lyenne.Dialogue.PTJ03": "Abby's so funny. She told me all about the prank they pulled at Joja. Absolutely deserved.$u",
+    "Lyenne.Dialogue.AriGetsSlimed": "Hey, sorry about, uh, trying to dump a bucket of slime on you.$4#$b#That was maybe not one of our most well-planned pranks.$3#$b#Ophelia hasn't said anything to me about it yet, but I wish she'd just get it over with. I hate the waiting more than the scolding.$7",
 
     //Maia
     "Maia.Dialogue.cc_Complete": "Glad to see the community center restored. Maybe Silas and I will join Clint to help out.$h",
@@ -5684,6 +5705,7 @@
     "Maia.Dialogue.luauShorts": "How inappropriate. What do I even tell Amina when she asks about what happened at the potluck?$a",
     "Maia.Dialogue.luauPoisoned": "Ugh. Not feeling good today, @... Stupid soup.$s",
     "Maia.Dialogue.ReihanaIntro": "Ugh... I had a sword on me but I didn't think it'd be wise to pull it out when I don't know what these demons are capable of. It's best to know your enemy first.$7",
+    "Maia.Dialogue.AriGetsSlimed": "Poor Ari, I heard about the slime incident from Elias.$2#$b#I know he loves those kids to death, but I'm sure he could do without all the pranks.$0",
 
     //Miyoung
     "Miyoung.Dialogue.cc_Complete": "I heard about the community center! That's wonderful news. Maybe Eve, Jumana and I could start hanging out there, now.$u",
@@ -5698,6 +5720,7 @@
     "Miyoung.Dialogue.luauPoisoned": "Poor Silas, he hasn't felt well since he had the soup yesterday. I'll make sure to take him to Harvey's when I can.$s",
     "Miyoung.Dialogue.ReihanaIntro": "What has this place come to? Demons in our town?$s#$b#I just hope they don't hurt anyone.$s",
     "Miyoung.Dialogue.RaccoonScarf": "That raccoon took the scarf I was knitting for Silas... I worked really hard on it.$s#$b#Oh, well. I guess Silas has enough scarves as is.$7",
+    "Miyoung.Dialogue.AriGetsSlimed": "Hello, darling. I heard Ari got quite a surprise from Blake and Lyenne outside the inn.$0#$b#Personally, I think it's karma for all the tricks he used to pull when he was younger.$7",
 
     //Moon
     "Moon.Dialogue.cc_Complete": "Community Center is repaired?$u#$b#But... junimo friends left?$s",
@@ -5733,6 +5756,10 @@
     "Moon.Dialogue.luauPoisoned": "Moon heard the soup was poisoned.$s#$b#Moon hopes Diala and Derya are okay.$s",
     "Moon.Dialogue.ReihanaIntro": "Diala summoned demons? How... you know what? Moon won't question that too much.$s",
     "Moon.Dialogue.RaccoonLunarite": "Hmph, the raccoon took Moon's Lunarite! Moon took that from Diala first.$s",
+    "Moon.Dialogue.AriGetsSlimed": "Moon saw Ari get slime all over him! Moon laughed.$1#$b#Will @ pull prank on Diala and Derya with Moon?$0",
+
+    //Nadia
+    "Nadia.Dialogue.AriGetsSlimed": "Hah, that prank Blake and Lyenne pulled was awesome!$1#$b#Seems like something I would have done to my brother.$6",
 
     //Ophelia
     "Ophelia.Dialogue.cc_Complete": "I'm thrilled to see the community center back to its previous glory. This should benefit everyone, hopefully.$h",
@@ -5746,6 +5773,7 @@
     "Ophelia.Dialogue.luauShorts": "That was disgusting. Who would even think about putting something so vile in the soup?$a",
     "Ophelia.Dialogue.luauPoisoned": "That soup was a disaster. I can't imagine what Harvey's clinic looks like right now.$s",
     "Ophelia.Dialogue.ReihanaIntro": "...It's times like these I wish I was still a full-time adventurer. We wouldn't have had demons in town.$s#$b#I have to make sure everyone's okay and then deal with those two.$a",
+    "Ophelia.Dialogue.AriGetsSlimed": "Ari came into the inn in a foul mood earlier, and he was tracking slime all over my clean floor.$12#$b#I suppose it's only appropriate to have Lyenne clean it up, since she was almost certainly involved.$10",
 
     //Reihana
     "Reihana.Dialogue.cc_Complete": "Oh, wow, you fixed up a broken down building!$12#$b#No one cares, bud. What, you want a cookie?#$b#...Actually, nevermind. I'm on my last cookie. You can't have it.$8",
@@ -5761,6 +5789,7 @@
     "Reihana.Dialogue.luauBest": "I refused to try that soup no matter how much Aicha gushed over it. No, thank you.$12",
     "Reihana.Dialogue.luauShorts": "HAH! Everytime I remember how those shorts got fished out of the soup, I start laughing until I cry. Oh, that was amazing.$u",
     "Reihana.Dialogue.luauPoisoned": "Aicha got poisoned yesterday. Was it you, @? How dare you mess with the soup?$14#$b#She's never going to have soup ever again.$s",
+    "Reihana.Dialogue.AriGetsSlimed": "Hah! I so wish I'd gotten to see that shopkeeper's face when the slime was pouring onto his head.$1#$b#How do I know about that? I certainly haven't been spying on the villagers, if that's what you're implying.$3#$b#...Get out of my face.$25",
 
     //Silas
     "Silas.Dialogue.cc_Complete": "I'm really glad the community center is fixed up. Maia and I should drop by to hang out with Clint sometimes.$u",
@@ -5775,6 +5804,7 @@
     "Silas.Dialogue.luauPoisoned": "I feel sick. Not sure what went into that soup, but I'm never having any again. Miyoung's been taking care of me all day.$s",
     "Silas.Dialogue.ReihanaIntro": "I knew about the existence of demons, but I sure as hell didn't expect any in our little village.$s#$b#I've already contacted Razz. We'll meet today to discuss this.",
     "Silas.Dialogue.RaccoonBar": "That sneaky raccoon snatched the bar right out of my hands! I was caught off guard!$8",
+    "Silas.Dialogue.AriGetsSlimed": "Hi, @. My wife filled me in on the whole incident with Blake and Ari.$0#$b#Between you and me, I wish I'd gotten to see Ari's face when it happened.$3",
 
     //CTs (Vanilla Villagers)
 
@@ -5825,6 +5855,11 @@
     "ReihanaIntro.Elliott": "Ah, hello @. Want to help me fish a little? There's a new cat cafe, and I've found that going there is quite relaxing to a busy mind.#$b#The fish? Oh, well, they said I could give the cats a treat...$h",
     "ReihanaIntro.Clint": "The cafe in Sunberry Village has some of the most delicious baked goods I've ever had.$h#$b#I stop by very often, I just tend to avoid Derya. She can be a little... mean.$s",
     "ReihanaIntro.Wizard": "Silas is always ready to talk my ear off about the arcane. I indulge him... most of the time.",
+
+    //AriGetsSlimed
+    //"AriGetsSlimed.Sam": "Placeholder",
+    //"AriGetsSlimed.Abigail": "Placeholder",
+    //"AriGetsSlimed.Sebastian": "Placeholder",
 
     //CTs (RSV Villagers)
     "MeetDND.Alissa": "Have you been to the Sunberry Forest before? It's so... serene. Most of the time, there's no one around so I enjoy spending time there.$h",

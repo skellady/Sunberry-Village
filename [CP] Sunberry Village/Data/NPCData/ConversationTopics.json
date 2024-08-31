@@ -21,7 +21,8 @@
                 "wedding": "{{i18n:Aicha.Dialogue.wedding}}",
                 "luauBest": "{{i18n:Aicha.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Aicha.Dialogue.luauShorts}}",
-                "luauPoisoned": "{{i18n:Aicha.Dialogue.luauPoisoned}}"
+                "luauPoisoned": "{{i18n:Aicha.Dialogue.luauPoisoned}}",
+                "AriGetsSlimed": "{{i18n:Aicha.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -41,7 +42,8 @@
                 "luauShorts": "{{i18n:Amina.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Amina.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Amina.Dialogue.ReihanaIntro}}",
-                "RaccoonToy": "{{i18n:Amina.Dialogue.RaccoonToy}}"
+                "RaccoonToy": "{{i18n:Amina.Dialogue.RaccoonToy}}",
+                "AriGetsSlimed": "{{i18n:Amina.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -63,7 +65,8 @@
                 "luauPoisoned": "{{i18n:Ari.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Ari.Dialogue.ReihanaIntro}}",
                 "RaccoonGlasses": "{{i18n:Ari.Dialogue.RaccoonGlasses}}",
-                "RaccoonFertilizer": "{{i18n:Ari.Dialogue.RaccoonFertilizer}}"
+                "RaccoonFertilizer": "{{i18n:Ari.Dialogue.RaccoonFertilizer}}",
+                "AriGetsSlimed": "{{i18n:Ari.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -84,7 +87,8 @@
                 "luauBest": "{{i18n:Blake.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Blake.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Blake.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Blake.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Blake.Dialogue.ReihanaIntro}}",
+                "AriGetsSlimed": "{{i18n:Blake.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -126,7 +130,8 @@
                 "luauShorts": "{{i18n:Diala.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Diala.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Diala.Dialogue.ReihanaIntro}}",
-                "RaccoonMuffin": "{{i18n:Diala.Dialogue.RaccoonMuffin}}"
+                "RaccoonMuffin": "{{i18n:Diala.Dialogue.RaccoonMuffin}}",
+                "AriGetsSlimed": "{{i18n:Diala.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -168,7 +173,8 @@
                 "luauShorts": "{{i18n:Derya.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Derya.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Derya.Dialogue.ReihanaIntro}}",
-                "RaccoonCoffee": "{{i18n:Derya.Dialogue.RaccoonCoffee}}"
+                "RaccoonCoffee": "{{i18n:Derya.Dialogue.RaccoonCoffee}}",
+                "AriGetsSlimed": "{{i18n:Derya.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -189,7 +195,8 @@
                 "luauShorts": "{{i18n:Elias.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Elias.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Elias.Dialogue.ReihanaIntro}}",
-                "RaccoonBook": "{{i18n:Elias.Dialogue.RaccoonBook}}"
+                "RaccoonBook": "{{i18n:Elias.Dialogue.RaccoonBook}}",
+                "AriGetsSlimed": "{{i18n:Elias.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -209,7 +216,8 @@
                 "luauShorts": "{{i18n:Ezra.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Ezra.Dialogue.luauPoisoned}}",
                 "YriIntroduction": "{{i18n:Ezra.Dialogue.YriIntroduction}}",
-                "ReihanaIntro": "{{i18n:Ezra.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Ezra.Dialogue.ReihanaIntro}}",
+                "AriGetsSlimed": "{{i18n:Ezra.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -228,7 +236,8 @@
                 "luauBest": "{{i18n:Iman.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Iman.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Iman.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Iman.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Iman.Dialogue.ReihanaIntro}}",
+                "AriGetsSlimed": "{{i18n:Iman.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -250,7 +259,8 @@
                 "luauBest": "{{i18n:Jumana.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Jumana.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Jumana.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Jumana.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Jumana.Dialogue.ReihanaIntro}}",
+                "AriGetsSlimed": "{{i18n:Jumana.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -269,7 +279,8 @@
                 "luauPoisoned": "{{i18n:Lyenne.Dialogue.luauPoisoned}}",
                 "BookLaunchParty": "{{i18n:Lyenne.Dialogue.BookLaunchParty}}",
                 "ReihanaIntro": "{{i18n:Lyenne.Dialogue.ReihanaIntro}}",
-                "PTJ03": "{{i18n:Lyenne.Dialogue.PTJ03}}"
+                "PTJ03": "{{i18n:Lyenne.Dialogue.PTJ03}}",
+                "AriGetsSlimed": "{{i18n:Lyenne.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -289,7 +300,8 @@
                 "luauBest": "{{i18n:Maia.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Maia.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Maia.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Maia.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Maia.Dialogue.ReihanaIntro}}",
+                "AriGetsSlimed": "{{i18n:Maia.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -308,7 +320,8 @@
                 "luauShorts": "{{i18n:Miyoung.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Miyoung.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Miyoung.Dialogue.ReihanaIntro}}",
-                "RaccoonScarf": "{{i18n:Miyoung.Dialogue.RaccoonScarf}}"
+                "RaccoonScarf": "{{i18n:Miyoung.Dialogue.RaccoonScarf}}",
+                "AriGetsSlimed": "{{i18n:Miyoung.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -348,7 +361,16 @@
                 "luauShorts": "{{i18n:Moon.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Moon.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Moon.Dialogue.ReihanaIntro}}",
-                "RaccoonLunarite": "{{i18n:Moon.Dialogue.RaccoonLunarite}}"
+                "RaccoonLunarite": "{{i18n:Moon.Dialogue.RaccoonLunarite}}",
+                "AriGetsSlimed": "{{i18n:Moon.Dialogue.AriGetsSlimed}}"
+            }
+        },
+        {
+            "LogName": "Nadia CTs",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/NadiaSBV",
+            "Entries": {
+                "AriGetsSlimed": "{{i18n:Nadia.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -366,7 +388,8 @@
                 "luauBest": "{{i18n:Ophelia.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Ophelia.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Ophelia.Dialogue.luauPoisoned}}",
-                "ReihanaIntro": "{{i18n:Ophelia.Dialogue.ReihanaIntro}}"
+                "ReihanaIntro": "{{i18n:Ophelia.Dialogue.ReihanaIntro}}",
+                "AriGetsSlimed": "{{i18n:Ophelia.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -386,7 +409,8 @@
                 "wedding": "{{i18n:Reihana.Dialogue.wedding}}",
                 "luauBest": "{{i18n:Reihana.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Reihana.Dialogue.luauShorts}}",
-                "luauPoisoned": "{{i18n:Reihana.Dialogue.luauPoisoned}}"
+                "luauPoisoned": "{{i18n:Reihana.Dialogue.luauPoisoned}}",
+                "AriGetsSlimed": "{{i18n:Reihana.Dialogue.AriGetsSlimed}}"
             }
         },
         {
@@ -405,7 +429,8 @@
                 "luauShorts": "{{i18n:Silas.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Silas.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Silas.Dialogue.ReihanaIntro}}",
-                "RaccoonBar": "{{i18n:Silas.Dialogue.RaccoonBar}}"
+                "RaccoonBar": "{{i18n:Silas.Dialogue.RaccoonBar}}",
+                "AriGetsSlimed": "{{i18n:Silas.Dialogue.AriGetsSlimed}}"
             }
         },
         {

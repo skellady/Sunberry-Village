@@ -947,7 +947,8 @@
             "X": 16,
             "Y": 32
           },
-          "Breather": true
+            "Breather": true,
+            "ShakePortraits": [ 16 ]
         },
         "BlakeSBV": {
           "TextureName": "BlakeSBV/BlakeSBV",

@@ -46,7 +46,7 @@
             }
         },
         {
-            "LogName": "Maia Bug SO",
+            "LogName": "Add Special Orders",
             "Action": "EditData",
             "Target": "Data/SpecialOrders",
             "Entries": {
@@ -132,7 +132,7 @@
                             "Data": {
                                 "DropBox": "SBVReiBox",
                                 "DropBoxGameLocation": "Custom_SBV_ReiHouse",
-                                "DropBoxIndicatorLocation": "8 3",
+                                "DropBoxIndicatorLocation": "13.5 13.5",
                                 "AcceptedContextTags": "item_cookie"
                             }
                         },
@@ -143,7 +143,7 @@
                             "Data": {
                                 "DropBox": "SBVReiBox",
                                 "DropBoxGameLocation": "Custom_SBV_ReiHouse",
-                                "DropBoxIndicatorLocation": "8 3",
+                                "DropBoxIndicatorLocation": "13.5 13.5",
                                 "AcceptedContextTags": "item_maple_bar"
                             }
                         },
@@ -154,7 +154,7 @@
                             "Data": {
                                 "DropBox": "SBVReiBox",
                                 "DropBoxGameLocation": "Custom_SBV_ReiHouse",
-                                "DropBoxIndicatorLocation": "8 3",
+                                "DropBoxIndicatorLocation": "13.5 13.5",
                                 "AcceptedContextTags": "item_pink_cake"
                             }
                         },
@@ -165,7 +165,7 @@
                             "Data": {
                                 "DropBox": "SBVReiBox",
                                 "DropBoxGameLocation": "Custom_SBV_ReiHouse",
-                                "DropBoxIndicatorLocation": "8 3",
+                                "DropBoxIndicatorLocation": "13.5 13.5",
                                 "AcceptedContextTags": "item_chocolate_cake"
                             }
                         }
@@ -565,7 +565,7 @@
                     "Requester": "AichaSBV",
                     "Duration": "Month",
                     "Repeatable": false,
-                    "RequiredTags": "event_{{ModId}}_20031427, season_spring",
+                    "RequiredTags": "event_{{ModId}}_20031427, knows_AichaSBV, season_spring",
                     "OrderType": "Esca.EMP/SBVBoard",
                     "SpecialRule": "",
                     "Text": "[SBV.SpecialOrder.AichaFloralWeapon_Text]",
@@ -642,6 +642,82 @@
                             "Type": "Mail",
                             "Data": {
                                 "MailReceived": "AichaSOWeapon",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.BlakeLyenneExperiment": {
+                    "Name": "[SBV.SpecialOrder.BlakeLyenneExperiment_Name]",
+                    "Requester": "BlakeSBV",
+                    "Duration": "Week",
+                    "Repeatable": false,
+                    "RequiredTags": "knows_BlakeSBV, knows_LyenneSBV",
+                    "OrderType": "Esca.EMP/SBVBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.BlakeLyenneExperiment_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_0]",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "AcceptedContextTags": "id_(o)684"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_1]",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "AcceptedContextTags": "id_(o)766"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_2]",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "DropBox": "SBVBlakeBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryVillage",
+                                "DropBoxIndicatorLocation": "80 47",
+                                "AcceptedContextTags": "id_(o)684"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3]",
+                            "RequiredCount": "50",
+                            "Data": {
+                                "DropBox": "SBVBlakeBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryVillage",
+                                "DropBoxIndicatorLocation": "80 47",
+                                "AcceptedContextTags": "id_(o)766"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "250",
+                                "TargetName": "BlakeSBV"
+                            }
+                        },
+                        {
+                            "Type": "Friendship",
+                            "Data": {
+                                "Amount": "250",
+                                "TargetName": "LyenneSBV"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "BlakeLyenneSOExperiment",
                                 "NoLetter": false
                             }
                         }

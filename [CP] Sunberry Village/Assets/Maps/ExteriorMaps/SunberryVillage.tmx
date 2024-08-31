@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="881">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="100" height="100" tilewidth="16" tileheight="16" infinite="0" nextlayerid="20" nextobjectid="882">
  <editorsettings>
   <export target="DialaTarotPatch.tmx" format="tmx"/>
  </editorsettings>
@@ -10484,6 +10484,11 @@
   <object id="880" name="TileData" x="0" y="320" width="16" height="16">
    <properties>
     <property name="Action" value="Message &quot;sbv.village8"/>
+   </properties>
+  </object>
+  <object id="881" name="TileData" x="1280" y="752" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox SBVBlakeBox"/>
    </properties>
   </object>
  </objectgroup>
