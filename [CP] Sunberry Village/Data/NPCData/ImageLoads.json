@@ -9,7 +9,7 @@
     {
       "LogName": "Extra Portraits and Sprites",
       "Action": "Load",
-      "Target": "Characters/EliasSBV/EliasSBV_Indoors, Portraits/EliasSBV/EliasSBV_Indoors",
+      "Target": "Characters/EliasSBV/EliasSBV_Indoors, Portraits/EliasSBV/EliasSBV_Indoors, Characters/AriSBV/AriSBV_Slimed",
       "FromFile": "Assets/{{Target}}.png"
     },
     {

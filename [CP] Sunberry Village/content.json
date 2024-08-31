@@ -385,6 +385,13 @@
                 "HasValue:{{season}}": true
             }
         },
+        /* TemporaryAnimatedSprites */
+        {
+            "LogName": "Load Temp Animated Sprites",
+            "Action": "Load",
+            "Target": "Events/SBV/Animations",
+            "FromFile": "Assets/Images/Events/Animations.png"
+        },
         /* Temporary Maps */
         {
             "LogName": "Load Temp Maps",

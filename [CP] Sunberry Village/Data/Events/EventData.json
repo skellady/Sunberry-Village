@@ -171,7 +171,130 @@
                 // 4 Hearts - Blake vents
                 "skellady.SBVCP_20031467/w rainy/t 1200 2200/!SunberryTeam.SBVSMAPI_IsPassiveFestivalToday/e skellady.SBVCP_20031441/f BlakeSBV 1000": "none/-100 -100/farmer 50 60 1 BlakeSBV 58 71 2/skippable/viewport 59 69/advancedMove farmer false 9 0 0 4 2 2500 0 7 3 2000/pause 500/emote BlakeSBV 28/pause 5000/emote farmer 8/pause 4000/faceDirection BlakeSBV 1/pause 700/speak BlakeSBV \"{{i18n:event-20031467.01}}\"/pause 400/emote farmer 40/pause 450/quickQuestion #{{i18n:event-20031467.02}}#{{i18n:event-20031467.03}}(break)pause 600\\textAboveHead BlakeSBV \"{{i18n:event-20031467.04}}\"\\pause 1200\\speak BlakeSBV \"{{i18n:event-20031467.05}}\"\\pause 450\\emote farmer 28(break)pause 600\\textAboveHead BlakeSBV \"{{i18n:event-20031467.04}}\"\\pause 1200\\speak BlakeSBV \"{{i18n:event-20031467.06}}\"\\pause 450\\speak BlakeSBV \"{{i18n:event-20031467.07}}\"\\pause 450\\emote farmer 28/pause 450/quickQuestion #{{i18n:event-20031467.08}}(break)emote BlakeSBV 20/speak BlakeSBV \"{{i18n:event-20031467.09}}\"/pause 1000/globalFade/viewport -1000 -1000/pause 1000/warp BlakeSBV 84 32/warp farmer 85 32/viewport 84 34 clamp/pause 1000/speak BlakeSBV \"{{i18n:event-20031467.10}}\"/pause 450/emote farmer 28/pause 400/speak BlakeSBV \"{{i18n:event-20031467.11}}\"/pause 400/speak BlakeSBV \"{{i18n:event-20031467.12}}\"/pause 450/advancedMove BlakeSBV false -9 0 0 15 2 2000/pause 1000/globalFade/viewport -999 -999/stopAdvancedMoves/end",
                 // 6 Hearts - Elias' Old House
-                "skellady.SBVCP_20031469/w sunny/t 600 2000/!SunberryTeam.SBVSMAPI_IsPassiveFestivalToday/e skellady.SBVCP_20031468/f EliasSBV 1500": "desolate/-100 -100/farmer 80 83 2 EliasSBV 86 93 0/addConversationTopic EliasOldHouse 7/skippable/viewport 86 90 clamp/advancedMove farmer false 0 10 6 0 4 2000/pause 2000/emote EliasSBV 28/pause 450/move EliasSBV 0 -1 0/playSound doorOpen/warp EliasSBV -100 -100/pause 200/playSound doorClose/pause 1200/emote farmer 8/pause 1900/globalFade/viewport -1000 -1000/pause 1000/warp farmer -100 -100/warp EliasSBV 10 15/changeLocation Custom_SBV_EliasHouseOld/viewport 11 12 clamp/viewport move 0 1 1000/pause 1000/advancedMove EliasSBV false -1 0 3 2000 3 0 1 5000/pause 5000/playSound woodyStep/pause 200/playSound woodyStep/pause 200/playSound woodyStep/pause 500/emote EliasSBV 8/pause 300/advancedMove EliasSBV false -3 0 2 2000/pause 900/speak EliasSBV \"{{i18n:event-20031469.01}}\"/pause 400/quickQuestion #{{i18n:event-20031469.02 |PlayerName={{PlayerName}} }}#{{i18n:event-20031469.03}}(break)pause 400\\speak EliasSBV \"{{i18n:event-20031469.04}}\"(break)pause 400\\speak EliasSBV \"{{i18n:event-20031469.05}}\"/playSound doorOpen/faceDirection farmer 0/warp farmer 9 18/pause 400/move farmer 0 -1 0/pause 500/faceDirection farmer 1/pause 800/faceDirection farmer 3/pause 600/faceDirection farmer 0/pause 400/emote farmer 8/pause 450/textAboveHead EliasSBV \"{{i18n:event-20031469.06}}\"/pause 1200/advancedMove EliasSBV false 3 0 0 1 1 0 4 2000/faceDirection farmer 1/pause 500/speak EliasSBV \"{{i18n:event-20031469.07}}\"/pause 800/emote EliasSBV 28/pause 450/faceDirection EliasSBV 3/pause 400/speak EliasSBV \"{{i18n:event-20031469.08}}\"/pause 400/speak EliasSBV \"{{i18n:event-20031469.09}}\"/pause 400/faceDirection EliasSBV 0/pause 400/speak EliasSBV \"{{i18n:event-20031469.10}}\"/pause 400/emote EliasSBV 28/pause 450/faceDirection EliasSBV 3/pause 400/speak EliasSBV \"{{i18n:event-20031469.11}}\"/pause 400/speak EliasSBV \"{{i18n:event-20031469.12}}\"/pause 500/emote farmer 40/pause 450/stopMusic/quickQuestion #{{i18n:event-20031469.13}}#{{i18n:event-20031469.14}}(break)pause 400\\playMusic {{season}}1\\speak EliasSBV \"{{i18n:event-20031469.15}}\"(break)pause 400\\playMusic {{season}}1\\speak EliasSBV \"{{i18n:event-20031469.15}}\"/pause 500/emote farmer 20/pause 450/speak EliasSBV \"{{i18n:event-20031469.16}}\"/pause 400/speak EliasSBV \"{{i18n:event-20031469.17}}\"/pause 400/move EliasSBV -1 0 3/pause 400/speak EliasSBV \"{{i18n:event-20031469.18}}\"/pause 400/emote farmer 32/pause 1000/globalFade/viewport -999 -999/stopAdvancedMoves/end"
+                "skellady.SBVCP_20031469/w sunny/t 600 2000/!SunberryTeam.SBVSMAPI_IsPassiveFestivalToday/e skellady.SBVCP_20031468/f EliasSBV 1500": "desolate/-100 -100/farmer 80 83 2 EliasSBV 86 93 0/addConversationTopic EliasOldHouse 7/skippable/viewport 86 90 clamp/advancedMove farmer false 0 10 6 0 4 2000/pause 2000/emote EliasSBV 28/pause 450/move EliasSBV 0 -1 0/playSound doorOpen/warp EliasSBV -100 -100/pause 200/playSound doorClose/pause 1200/emote farmer 8/pause 1900/globalFade/viewport -1000 -1000/pause 1000/warp farmer -100 -100/warp EliasSBV 10 15/changeLocation Custom_SBV_EliasHouseOld/viewport 11 12 clamp/viewport move 0 1 1000/pause 1000/advancedMove EliasSBV false -1 0 3 2000 3 0 1 5000/pause 5000/playSound woodyStep/pause 200/playSound woodyStep/pause 200/playSound woodyStep/pause 500/emote EliasSBV 8/pause 300/advancedMove EliasSBV false -3 0 2 2000/pause 900/speak EliasSBV \"{{i18n:event-20031469.01}}\"/pause 400/quickQuestion #{{i18n:event-20031469.02 |PlayerName={{PlayerName}} }}#{{i18n:event-20031469.03}}(break)pause 400\\speak EliasSBV \"{{i18n:event-20031469.04}}\"(break)pause 400\\speak EliasSBV \"{{i18n:event-20031469.05}}\"/playSound doorOpen/faceDirection farmer 0/warp farmer 9 18/pause 400/move farmer 0 -1 0/pause 500/faceDirection farmer 1/pause 800/faceDirection farmer 3/pause 600/faceDirection farmer 0/pause 400/emote farmer 8/pause 450/textAboveHead EliasSBV \"{{i18n:event-20031469.06}}\"/pause 1200/advancedMove EliasSBV false 3 0 0 1 1 0 4 2000/faceDirection farmer 1/pause 500/speak EliasSBV \"{{i18n:event-20031469.07}}\"/pause 800/emote EliasSBV 28/pause 450/faceDirection EliasSBV 3/pause 400/speak EliasSBV \"{{i18n:event-20031469.08}}\"/pause 400/speak EliasSBV \"{{i18n:event-20031469.09}}\"/pause 400/faceDirection EliasSBV 0/pause 400/speak EliasSBV \"{{i18n:event-20031469.10}}\"/pause 400/emote EliasSBV 28/pause 450/faceDirection EliasSBV 3/pause 400/speak EliasSBV \"{{i18n:event-20031469.11}}\"/pause 400/speak EliasSBV \"{{i18n:event-20031469.12}}\"/pause 500/emote farmer 40/pause 450/stopMusic/quickQuestion #{{i18n:event-20031469.13}}#{{i18n:event-20031469.14}}(break)pause 400\\playMusic {{season}}1\\speak EliasSBV \"{{i18n:event-20031469.15}}\"(break)pause 400\\playMusic {{season}}1\\speak EliasSBV \"{{i18n:event-20031469.15}}\"/pause 500/emote farmer 20/pause 450/speak EliasSBV \"{{i18n:event-20031469.16}}\"/pause 400/speak EliasSBV \"{{i18n:event-20031469.17}}\"/pause 400/move EliasSBV -1 0 3/pause 400/speak EliasSBV \"{{i18n:event-20031469.18}}\"/pause 400/emote farmer 32/pause 1000/globalFade/viewport -999 -999/stopAdvancedMoves/end",
+                // temp precondition while testing
+                "skellady.SBVCP_PrankGoesWrong/G false": "none
+                    /-100 -100
+                    /farmer 65 25 2 BlakeSBV 74 26 2 LyenneSBV 69 24 3 AriSBV -100 999 2
+                    /positionOffset LyenneSBV 12 -8
+                    /positionOffset BlakeSBV -10 -8
+                    /temporaryAnimatedSprite Events\\SBV\\Animations 16 0 16 32 100 1 999 73 24 false false -100 0 1 0 0 0 
+                    /advancedMove farmer false 0 7 6 0 1 1000
+                    /viewport 69 28
+                    /pause 800
+                    /textAboveHead BlakeSBV \"Hehehe...\"
+                    /pause 600
+                    /textAboveHead LyenneSBV \"Here they come!\"
+                    /speed LyenneSBV 6
+                    /advancedMove LyenneSBV false 3 0 0 2 2 1000
+                    /pause 1200
+                    /viewport move 3 0 1000
+                    /pause 1250
+                    /textAboveHead BlakeSBV \"Shhh!\"
+                    /pause 2500
+                    /stopAdvancedMoves
+                    /speak BlakeSBV \"Okay, get ready...$10\"
+                    /move farmer 1 0 1 true
+                    /pause 250
+                    /beginSimultaneousCommand
+                    /faceDirection BlakeSBV 3
+                    /faceDirection LyenneSBV 1
+                    /endSimultaneousCommand
+                    /playSound doorClose
+                    /warp AriSBV 75 31
+                    /positionOffset AriSBV -8 0
+                    /advancedMove BlakeSBV false 2 1000
+                    /advancedMove LyenneSBV false 2 1000
+                    /textAboveHead LyenneSBV \"!!!\"
+                    /textAboveHead BlakeSBV \"!!!\"
+                    /pause 250
+                    /faceDirection AriSBV 3
+                    /pause 250
+                    /speak AriSBV \"Hey, @! Just who I was looking for!$1\"
+                    /advancedMove AriSBV false 0 1 -2 0 3 1000
+                    /pause 300
+                    /textAboveHead AriSBV \"I wanted to ask you about something...\"
+                    /pause 2000
+                    /viewport move 0 -1 2500
+                    /pause 500
+                    /emote farmer 32
+                    /pause 200
+                    /speak BlakeSBV \"No no no, he's standing right in the way!$8\"/
+                    /pause 200
+                    /removeTemporarySprites
+                    /temporaryAnimatedSprite Events\\SBV\\Animations 0 0 16 32 120 3 999 73 24 false false -100 0 1 0 0 0 ping_pong
+                    /pause 200
+                    /advancedMove BlakeSBV false 3 1000
+                    /advancedMove LyenneSBV false 1 1000
+                    /pause 100
+                    /textAboveHead LyenneSBV \"Hold it still...\"
+                    /shake LyenneSBV 250
+                    /pause 400
+                    /emote AriSBV 8
+                    /pause 400
+                    /removeTemporarySprites
+                    /temporaryAnimatedSprite Events\\SBV\\Animations 0 0 16 32 100 3 999 73 24 false false -100 0 1 0 0 0 ping_pong
+                    /pause 200
+                    /textAboveHead BlakeSBV \"I'm... trying...\"
+                    /shake BlakeSBV 250
+                    /pause 600
+                    /emote farmer 40
+                    /pause 600
+                    /textAboveHead LyenneSBV \"So... heavy...\"
+                    /shake LyenneSBV 250
+                    /pause 400
+                    /removeTemporarySprites
+                    /temporaryAnimatedSprite Events\\SBV\\Animations 0 0 16 32 80 3 999 73 24 false false -100 0 1 0 0 0 ping_pong
+                    /pause 200
+                    /emote AriSBV 40
+                    /pause 600
+                    /textAboveHead LyenneSBV \"Oops.\"
+                    /shake LyenneSBV 250
+                    /textAboveHead BlakeSBV \"Uh-oh.\"
+                    /shake BlakeSBV 250
+                    /advancedMove BlakeSBV false 2 1000
+                    /advancedMove LyenneSBV false 2 1000
+                    /removeTemporarySprites
+                    /temporaryAnimatedSprite Events\\SBV\\Animations 0 0 16 32 100 12 1 73 24 false false 500 0 1 0 0 0 motion 0 0.04 acceleration 0 0.16
+                    /pause 900
+                    /removeTemporarySprites
+                    /temporaryAnimatedSprite Events\\SBV\\Animations 0 32 16 32 200 8 1 73 30 false false 500 -0.02 1 0.02 0 0 motion -0.08 -0.12
+                    /playSound slimedead
+                    /changeSprite AriSBV Slimed
+                    /jump AriSBV 8
+                    /emote farmer 16 true
+                    /pause 800
+                    /speak AriSBV \"...$14\"
+                    /pause 500
+                    /speak AriSBV \"...$15\"
+                    /pause 500
+                    /speak AriSBV \"BLAKE!!!!!!!$16\"
+                    /pause 250
+                    /jump BlakeSBV 6
+                    /pause 400
+                    /emote BlakeSBV 28 true
+                    /emote LyenneSBV 28
+                    /speed BlakeSBV 10
+                    /advancedMove BlakeSBV false -4 0 0 6 -5 0 0 -18 -7 0 0 -15 0 1000
+                    /pause 250
+                    /speed LyenneSBV 10
+                    /advancedMove LyenneSBV false -2 0 0 6 -5 0 0 -18 -7 0 0 -15 0 1000
+                    /pause 1500
+                    /textAboveHead AriSBV \"*sigh*\"
+                    /pause 1000
+                    /speak AriSBV \"If you'll excuse me, farmer, I need to go get cleaned up...$15\"
+                    /pause 500
+                    /speak AriSBV \"And ask Ophelia if it's too late to un-adopt that kid.$17\"
+                    /advancedMove AriSBV  false 1 0 0 -1 0 1000
+                    /pause 700
+                    /playSound doorClose
+                    /warp AriSBV -999 999
+                    /pause 250
+                    /emote farmer 40
+                    /pause 250
+                    /globalFade 0.005 
+                    /viewport -999 -999
+                    /end"
             }
         },
         {
