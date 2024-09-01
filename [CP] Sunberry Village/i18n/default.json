@@ -1473,11 +1473,14 @@
     "event-20031436.05": "I wish!",
     "event-20031436.06": "That's... absolutely wild. What did she tell them?$7",
     "event-20031436.07": "She just made up all these weird lies about it! I was so confused.$8",
-    "event-20031436.08": "Ahem...",
-    "event-20031436.09": "Oh, hey, farmer! Sorry, didn't hear you coming in. Lyenne and I were catching up.$h",
-    "event-20031436.10": "Oops, sorry, I'll let you get back to work.$h",
-    "event-20031436.11": "Tell me the rest later!",
-    "event-20031436.12": "Alright, what can I do for you? Cats? Coffee? Cookies? All three?$9",
+    "event-20031436.08a": "(Interrupt.)",
+    "event-20031436.08b": "(Say nothing.)",
+    "event-20031436.09": "That's so embarrassing!$7",
+    "event-20031436.10": "I know! I was like, what am I supposed to do about that?$7",
+    "event-20031436.11": "Oh, hey, farmer! Sorry, didn't hear you coming in. Lyenne and I were catching up.$h",
+    "event-20031436.12": "Oops, sorry, I'll let you get back to work.$h",
+    "event-20031436.13": "Tell me the rest later!",
+    "event-20031436.14": "Alright, what can I do for you? Cats? Coffee? Cookies? All three?$9",
 
     // Mine Entrance Intro
     "event-20031437.01": "Ah, hello farmer. I just got done taking care of something for Silas. What brings you here?",
@@ -5612,7 +5615,7 @@
     "Diala.Dialogue.luauPoisoned": "Ugh... that soup really messed me up.$10#$b#I feel terrible.$s",
     "Diala.Dialogue.ReihanaIntro": "Ugh, I swear I didn't mean for that to happen! What kind of potion for making fertilizer turns into a demon summoning?!$s#$b#I gotta fix this somehow...$s",
     "Diala.Dialogue.RaccoonMuffin": "Ugh... that raccoon stole one of my freshly baked muffins. I'm going to need to start making double the amount now that both Derya AND the raccoon keep taking them.$9",
-    "Diala.Dialogue.AriGetsSlimed": "Hey @! I heard Ari got slimed, do you know anything about that?$1#$b#Derya's been asking around to see if anyone got a picture, she thinks it's hilarious.$3",
+    "Diala.Dialogue.AriGetsSlimed": "Hey, @, I heard Ari got slimed. Do you know anything about that?$1#$b#Derya's been asking around to see if anyone got a picture, she thinks it's hilarious.$3",
 
     //Derya
     "Derya.Dialogue.cc_Complete": "Hey! It's great to see the Community Center up and running, thank you, @!$h",
