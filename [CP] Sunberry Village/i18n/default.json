@@ -1891,6 +1891,48 @@
     "event-20031470.08": "Yeah... you're right. Thank you for being here, by the way. It means the world to me.$9",
     "event-20031470.09": "Of course. I love you, I'll always be here to hold your hand and cheer you on.$u",
 
+    // Miyoung 4 Hearts Event
+    "event-20031471.01": "Come in!",
+    "event-20031471.02": "Ah, @! I'm so glad you're here.$h",
+    "event-20031471.03": "I need your help, if you can spare this old lady some of your time.$7",
+    "event-20031471.04": "I'm making Jumana's favorite dish, but it's a little complicated.#$b#If I don't have another set of hands helping me, I'll be here all day!$9",
+    "event-20031471.05": "Let's get to work!",
+    "event-20031471.06": "I'm ready!",
+    "event-20031471.07": "A while later...",
+    "event-20031471.08": "It's done! It smells wonderful, doesn't it?",
+    "event-20031471.09": "Thank you, sweetheart. I couldn't have gotten it done on time if it weren't for your help.$u",
+    "event-20031471.10": "I'm going to take this over to Jumana. Would you like to tag along?$h",
+    "event-20031471.11": "I'd love to!",
+    "event-20031471.12": "I have to get back to work, you go ahead!",
+    "event-20031471.13": "I hope work goes well! Make sure to take care of yourself, dear. I'm going to head over to Jumana's now.$u", // if farmer doesn't tag along
+    "event-20031471.14": "Let's get going, then.$h",
+    "event-20031471.15": "Ah, hello my dear! Maia told me you had a lot going on today, so I thought I'd make you lunch to help lessen the load.$h",
+    "event-20031471.16": "@ helped, too! Saved me quite a lot of time. We would've had dinner instead if I was working alone!$7",
+    "event-20031471.17": "Aw, Miyoung! This is such a wonderful surprise. You really didn't have to go through all that trouble.$4",
+    "event-20031471.18": "Nuh uh, I wanted to! You deserve to be spoiled too. I can't just be spoiling Silas all the time!$u",
+    "event-20031471.19": "There's more than enough for everyone! Let's head inside and have some lunch, shall we?$h",
+    "event-20031471.20": "I'll get the table set. Thank you again, both of you!$7",
+    "event-20031471.21": "Lunch was delicious! We had a great time.",
+
+    // Prank Goes Wrong - Blake and Lyenne's SO event
+    "event-PrankGoesWrong.01": "Hehehe...",
+    "event-PrankGoesWrong.02": "Here they come!",
+    "event-PrankGoesWrong.03": "Shhh!",
+    "event-PrankGoesWrong.04": "Okay, get ready...$10",
+    "event-PrankGoesWrong.05": "!!!",
+    "event-PrankGoesWrong.06": "Hey, @! Just who I was looking for!$1",
+    "event-PrankGoesWrong.07": "I wanted to ask you about something...",
+    "event-PrankGoesWrong.08": "No no no, he's standing right in the way!$8",
+    "event-PrankGoesWrong.09": "Hold it still...",
+    "event-PrankGoesWrong.10": "I'm... trying...",
+    "event-PrankGoesWrong.11": "So... heavy...",
+    "event-PrankGoesWrong.12": "Oops.",
+    "event-PrankGoesWrong.13": "Uh-oh.",
+    "event-PrankGoesWrong.14": "BLAKE!!!!!!!$16",
+    "event-PrankGoesWrong.15": "*sigh*",
+    "event-PrankGoesWrong.16": "If you'll excuse me, farmer, I need to go get cleaned up.$15",
+    "event-PrankGoesWrong.17": "...And ask Ophelia if it's too late to un-adopt that kid.$17",
+
     //Animation Dialogue
     //------------------
 
