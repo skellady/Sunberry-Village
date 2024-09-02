@@ -27,10 +27,6 @@
       "IsRequired": true
     },
     {
-      "UniqueID": "Esca.EMP",
-      "IsRequired": true
-    },
-    {
       "UniqueID": "mistyspring.ItemExtensions",
       "IsRequired": true
     },
