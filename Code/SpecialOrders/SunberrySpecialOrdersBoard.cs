@@ -19,7 +19,7 @@ internal class SunberrySpecialOrdersBoard : SpecialOrdersBoard
 
 	private static void UpdateSpecialOrderBoardIfBuilt(object sender, StardewModdingAPI.Events.WarpedEventArgs e)
 	{
-		if (!Game1.currentLocation.Name.Equals("Custom_SBV_SunberryVillage") || !Game1.player.eventsSeen.Contains("skellady.SBVCP_20031434") && Game1.currentLocation.currentEvent?.id != "skellady.SBVCP_20031434")
+		if (!(Game1.currentLocation.Name.Equals("Custom_SBV_SunberryVillage") || Game1.currentLocation.Name.Equals("Custom_SBV_TwilightFestival")) || !Game1.player.eventsSeen.Contains("skellady.SBVCP_20031434") && Game1.currentLocation.currentEvent?.id != "skellady.SBVCP_20031434")
 		{
 			return;
 		}
