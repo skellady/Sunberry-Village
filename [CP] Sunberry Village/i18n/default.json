@@ -1917,6 +1917,20 @@
     "event-20031471.20": "I'll get the table set. Thank you again, both of you!$7",
     "event-20031471.21": "Lunch was delicious! We had a great time.",
 
+    // Silas 4 Hearts Event
+    "event-20031472.01": "Thank you for the meal, my dear. I'm gonna get my keys and head to work.$h",
+    "event-20031472.02": "Take care, my love. I'm glad you could join us, @!$u",
+    "event-20031472.03": "RAZ! We're old! You can't keep scaring us like that!$5",
+    "event-20031472.04": "...I apologize, for both the scare and the intrusion.",
+    "event-20031472.05": "Oh, dear. What is it now?$9",
+    "event-20031472.06": "He hasn't returned my book yet. I informed him that I needed it back yesterday.",
+    "event-20031472.07": "I'm not done reading it yet, though!$s",
+    "event-20031472.08": "Hand it over, Silas.",
+    "event-20031472.09": "Not yet!",
+    "event-20031472.10": "I have 50 pages left!",
+    "event-20031472.11": "*sigh*",
+    "event-20031472.12": "And here I thought I was done raising children.$7",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",
