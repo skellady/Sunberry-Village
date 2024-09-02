@@ -116,7 +116,7 @@
       }
     },
     // SBV Board
-    {
+    /*{
       "Action": "EditMap",
       "Target": "Maps/Custom_SBV_SunberryVillage",
       "PatchMode": "Replace",
@@ -136,7 +136,7 @@
       "When": {
         "HasSeenEvent": "{{ModId}}_20031434"
       }
-    },
+    },*/
     // Moonberry Shop
     {
       "Action": "EditMap",

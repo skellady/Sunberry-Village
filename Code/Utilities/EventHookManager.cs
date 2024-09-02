@@ -8,6 +8,7 @@ using SunberryVillage.Lighting;
 using SunberryVillage.Maps;
 using SunberryVillage.Queries;
 using SunberryVillage.Shops;
+using SunberryVillage.SpecialOrders;
 using SunberryVillage.TextEmojis;
 
 namespace SunberryVillage.Utilities;
@@ -27,5 +28,6 @@ internal class EventHookManager
 		QueryManager.AddEventHooks();
 		EventCommandManager.AddEventHooks();
 		MarketDailySpecialManager.AddEventHooks();
+		SunberrySpecialOrdersBoard.AddEventHooks();
 	}
 }
