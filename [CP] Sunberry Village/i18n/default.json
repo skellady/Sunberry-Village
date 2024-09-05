@@ -2071,6 +2071,17 @@
     "SBV.SpecialOrder.EliasRareFish_Text": "I'm puttin' out a challenge to keep the art of fishing alive: anyone who can catch me some rare fish will get a nice reward. And you can even keep the fish! This time around, I'm thinkin' 5 {FishType:TextPlural} will do the trick.",
     "SBV.SpecialOrder.EliasRareFish_Objective_Text_0": "Catch 5 {FishType:TextPlural}.",
 
+    // Jumana In Season Flowers
+    "SBV.SpecialOrder.JumanaFlowerOrder_Name": "Flowers for Jumana",
+    "SBV.SpecialOrder.JumanaFlowerOrder_Text": "I have a big order to ship out, but I'm running low on space in my garden! If anyone could spare some time to grow some {FlowerType:TextPlural}, I would be grateful! Please drop them at the box in my house by the counter when they're ready for harvest.",
+    "SBV.SpecialOrder.JumanaFlowerOrder_Objective_Text_0": "Harvest 10 {FlowerType:TextPlural}",
+    "SBV.SpecialOrder.JumanaFlowerOrder_Objective_Text_1": "Drop off 10 {FlowerType:TextPlural} in the box at Jumana's house.",
+
+    // Jumana Out of Season Flowers
+    "SBV.SpecialOrder.JumanaFlowerOrder2_Name": "More Flowers for Jumana",
+    "SBV.SpecialOrder.JumanaFlowerOrder2_Text": "Looking for out-of-season flowers for an order! If anyone's managed to save any {FlowerType:TextPlural} from the previous season, please send some my way!",
+    "SBV.SpecialOrder.JumanaFlowerOrder2_Objective_Text_0": "Drop off 10 {FlowerType:TextPlural} in the box at Jumana's house.",
+
     //Mail 
     //----
 
@@ -2119,6 +2130,10 @@
     "Mail.AichaSOWeapon.Title": "The Floral Weapon",
     "Mail.BlakeLyenneSOExperiment.Body": "Hey @,^^Thanks for getting that stuff for us! You should come by the village soon and see the results of our experiment. We can't disclose any more information for legal reasons. It's gonna be awesome though. Trust us. :)^^- Blake and Lyenne",
     "Mail.BlakeLyenneSOExperiment.Title": "Blake and Lyenne's Experiment",
+    "Mail.JumanaSOFlowers.Body": "Dear @,^^Thank you for helping out this old lady! The flowers you grew were beautiful and my customer absolutely adored them! I'm sure your grandpa would've been just as proud as I am.^^P.S: Make sure to set some of this season's flowers away! Who knows when you might need them.^^- Jumana",
+    "Mail.JumanaSOFlowers.Title": "Jumana's Flowers",
+    "Mail.JumanaSOFlowers2.Body": "Dearest @,^^I knew you'd be able to help me out once again! Thank you for taking my advice and setting some flowers aside. I know it's hard to preserve flowers, so I'm grateful for your help.^^- Jumana",
+    "Mail.JumanaSOFlowers2.Title": "More Flowers for Jumana",
     "Mail.EliasSORareFish.Body": "Hey @,^^I'm impressed. You took my challenge head-on and fished up everything I asked for! You've already got the posted reward, but I couldn't help sending over a li'l extra. Enjoy, and keep the art of fishing alive!^^- Elias",
     "Mail.EliasSORareFish.Title": "Mighty Fine Fishin'",
 

@@ -2,22 +2,17 @@
   "Changes": [
     {
       "Action": "EditData",
-      "Target": "Data/ObjectContextTags",
-      "TextOperations": [
-        //Adds roommate proposal code to Lunarite
-        {
-          "Operation": "Append",
-          "Target": [
-            "Entries",
-            "Lunarite"
-          ],
-          "Value": "propose_roommate_moonsbv",
-          "Delimiter": ", ",
-        },
+      "Target": "Data/Objects",
+      "TargetField": [
+        "551",
+        "ContextTags"
       ],
+      "Entries": {
+        "#-1": "propose_roommate_moonsbv"
+      },
       "When": {
         "HasSeenEvent": "{{ModId}}_20031412",
-      },
+      }
     },
     {
       "LogName": "Moon Accepting Dialogue",

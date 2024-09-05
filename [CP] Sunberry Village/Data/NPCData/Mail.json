@@ -40,6 +40,8 @@
                 "MaiaSOWeapon4": "{{i18n:Mail.MaiaSOWeapon4.Body}}[#]{{i18n:Mail.MaiaSOWeapon4.Title}}",
                 "AichaSOWeapon": "{{i18n:Mail.AichaSOWeapon.Body}}[#]{{i18n:Mail.AichaSOWeapon.Title}}",
                 "BlakeLyenneSOExperiment": "{{i18n:Mail.BlakeLyenneSOExperiment.Body}}[#]{{i18n:Mail.BlakeLyenneSOExperiment.Title}}",
+                "JumanaSOFlowers": "{{i18n:Mail.JumanaSOFlowers.Body}}[#]{{i18n:Mail.JumanaSOFlowers.Title}}",
+                "JumanaSOFlowers2": "{{i18n:Mail.JumanaSOFlowers2.Body}}[#]{{i18n:Mail.JumanaSOFlowers2.Title}}",
                 "EliasSORareFish": "{{i18n:Mail.EliasSORareFish.Body}}%item id (O)ChallengeBait 5 %%[#]{{i18n:Mail.EliasSORareFish.Title}}",
 
                 // Villager Letters

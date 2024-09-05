@@ -42,7 +42,12 @@
                 "Charles": 28,
                 "Sterling": 29,
                 "Mia": 30,
-                "Henry": 31
+                "Henry": 31,
+                "PS.Greyscale": 32,
+                "PS.Trevor": 33,
+                "PS.Michelle": 34,
+                "RoseSASS": 35,
+                "WildflourSASS": 36
             }
         },
         {
@@ -722,6 +727,143 @@
                             }
                         }
                     ]
+                },
+                "SBV.SpecialOrder.JumanaFlowerOrder": {
+                    "Name": "[SBV.SpecialOrder.JumanaFlowerOrder_Name]",
+                    "Requester": "JumanaSBV",
+                    "Duration": "TwoWeeks",
+                    "Repeatable": false,
+                    "RequiredTags": "knows_JumanaSBV",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.JumanaFlowerOrder_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "FlowerType",
+                            "Values": [
+                                {
+                                    "RequiredTags": "season_spring",
+                                    "Value": "PICK_ITEM skellady.SBVCP_Arfaj, skellady.SBVCP_CoffeeBlossom, skellady.SBVCP_Hyacinth, skellady.SBVCP_Speedwell"
+                                },
+                                {
+                                    "RequiredTags": "season_summer",
+                                    "Value": "PICK_ITEM skellady.SBVCP_CallaLilies, Summer Spangle, Poppy"
+                                },
+                                {
+                                    "RequiredTags": "season_fall",
+                                    "Value": "PICK_ITEM skellady.SBVCP_RoyalAnemone, skellady.SBVCP_WildMustard, Fairy Rose, Sunflower"
+                                },
+                                {
+                                    "RequiredTags": "season_winter",
+                                    "Value": "PICK_ITEM skellady.SBVCP_Cyclamen"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.JumanaFlowerOrder_Objective_Text_0]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "AcceptedContextTags": "{FlowerType:Tags}"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.JumanaFlowerOrder_Objective_Text_1]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "DropBox": "SBVJumanaBox",
+                                "DropBoxGameLocation": "Custom_SBV_MaiaHouse",
+                                "DropBoxIndicatorLocation": "18 14",
+                                "AcceptedContextTags": "{FlowerType:Tags}"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": 10000
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "JumanaSOFlowers",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+                "SBV.SpecialOrder.JumanaFlowerOrder2": {
+                    "Name": "[SBV.SpecialOrder.JumanaFlowerOrder2_Name]",
+                    "Requester": "JumanaSBV",
+                    "Duration": "Week",
+                    "Repeatable": false,
+                    "RequiredTags": "knows_JumanaSBV, mail_JumanaSOFlowers",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.JumanaFlowerOrder2_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "FlowerType",
+                            "Values": [
+                                {
+                                    "RequiredTags": "season_spring",
+                                    "Value": "PICK_ITEM skellady.SBVCP_Cyclamen"
+                                },
+                                {
+                                    "RequiredTags": "season_summer",
+                                    "Value": "PICK_ITEM skellady.SBVCP_Arfaj, skellady.SBVCP_CoffeeBlossom, skellady.SBVCP_Hyacinth, skellady.SBVCP_Speedwell"
+                                },
+                                {
+                                    "RequiredTags": "season_fall",
+                                    "Value": "PICK_ITEM skellady.SBVCP_CallaLilies, Summer Spangle, Poppy"
+                                },
+                                {
+                                    "RequiredTags": "season_winter",
+                                    "Value": "PICK_ITEM skellady.SBVCP_RoyalAnemone, skellady.SBVCP_WildMustard, Fairy Rose, Sunflower"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.JumanaFlowerOrder2_Objective_Text_0]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "DropBox": "SBVJumanaBox",
+                                "DropBoxGameLocation": "Custom_SBV_MaiaHouse",
+                                "DropBoxIndicatorLocation": "18 14",
+                                "AcceptedContextTags": "{FlowerType:Tags}"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": 8000
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "JumanaSOFlowers2",
+                                "NoLetter": false
+                            }
+                        }
+                    ]
+                },
+            }
+        }
                 },
                 "SBV.SpecialOrder.EliasRareFish": {
                     "Name": "[SBV.SpecialOrder.EliasRareFish_Name]",
