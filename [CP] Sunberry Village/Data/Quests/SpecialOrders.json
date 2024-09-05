@@ -722,6 +722,71 @@
                             }
                         }
                     ]
+                },
+                "SBV.SpecialOrder.EliasRareFish": {
+                    "Name": "[SBV.SpecialOrder.EliasRareFish_Name]",
+                    "Requester": "EliasSBV",
+                    "Duration": "Week",
+                    "Repeatable": true,
+                    "RequiredTags": "knows_EliasSBV",
+                    "OrderType": "SunberryBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.EliasRareFish_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": [
+                        {
+                            "Name": "FishType",
+                            "Values": [
+                                {
+                                    "RequiredTags": "island",
+                                    "Value": "PICK_ITEM Blue Discus, Lionfish, Stingray"
+                                },
+                                {
+                                    "RequiredTags": "mail_ccVault",
+                                    "Value": "PICK_ITEM Scorpion Carp"
+                                },
+                                {
+                                    "RequiredTags": "mail_HasDarkTalisman",
+                                    "Value": "PICK_ITEM Void Salmon"
+                                },
+                                {
+                                    "RequiredTags": "",
+                                    "Value": "PICK_ITEM Ice Pip, Lava Eel, skellady.SBVCP_EeltailedCatfish"
+                                }
+                            ]
+                        }
+                    ],
+                    "Objectives": [
+                        {
+                            "Type": "Fish",
+                            "Text": "[SBV.SpecialOrder.EliasRareFish_Objective_Text_0]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "AcceptedContextTags": "{FishType:Tags}"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Friendship",
+                            "Data": {}
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "EliasSORareFish",
+                                "NoLetter": "false"
+                            }
+                        },
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "{FishType:Price}",
+                                "Multiplier": "10"
+                            }
+                        }
+                    ]
                 }
             }
         },

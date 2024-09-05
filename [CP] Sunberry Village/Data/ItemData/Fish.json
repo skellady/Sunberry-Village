@@ -204,7 +204,8 @@
                     "SpriteIndex": 12,
                     "ContextTags": [
                         "color_brown",
-                        "item_barkfish"
+                        "item_barkfish",
+                        "fish_talk_stiff"
                     ]
                 }
             }

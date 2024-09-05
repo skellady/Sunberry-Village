@@ -71,7 +71,12 @@
             "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_0": "{{i18n:SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_0}}",
             "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_1": "{{i18n:SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_1}}",
             "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_2": "{{i18n:SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_2}}",
-            "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3": "{{i18n:SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3}}"
+            "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3": "{{i18n:SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3}}",
+
+            "SBV.SpecialOrder.EliasRareFish_Name": "{{i18n:SBV.SpecialOrder.EliasRareFish_Name}}",
+            "SBV.SpecialOrder.EliasRareFish_Text": "{{i18n:SBV.SpecialOrder.EliasRareFish_Text}}",
+            "SBV.SpecialOrder.EliasRareFish_Objective_Text_0": "{{i18n:SBV.SpecialOrder.EliasRareFish_Objective_Text_0}}",
+            "SBV.SpecialOrder.EliasRareFish_Objective_Text_1": "{{i18n:SBV.SpecialOrder.EliasRareFish_Objective_Text_1}}"
         }
     }
   ]

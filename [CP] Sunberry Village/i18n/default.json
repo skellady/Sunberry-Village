@@ -1991,85 +1991,90 @@
     // Maia Monster Slaying
     "SBV.SpecialOrder.MaiaGrubs_Name": "Grub Help Needed!",
     "SBV.SpecialOrder.MaiaGrubs_Text": "I'm tired of going into the mines and hearing these things buzz in my ear when they hatch while I collect resources. If anyone could go in and get rid of a few of 'em, it'd make my job easier.",
-    "SBV.SpecialOrder.MaiaGrubs_Objective_Text_0": "Slay 30 Grubs",
+    "SBV.SpecialOrder.MaiaGrubs_Objective_Text_0": "Slay 30 Grubs.",
 
     // Ophelia Monster Slaying
     "SBV.SpecialOrder.OpheliaMushrooms_Name": "Mushroom Slayer",
     "SBV.SpecialOrder.OpheliaMushrooms_Text": "Could someone go into the cave by Silas' to slay some of the monsters disguising themselves as mushrooms? I'm a little busy with the inn at the moment and won't be able to go in myself. You'll be compensated accordingly.",
-    "SBV.SpecialOrder.OpheliaMushrooms_Objective_Text_0": "Slay 15 False Mushrooms",
+    "SBV.SpecialOrder.OpheliaMushrooms_Objective_Text_0": "Slay 15 False Mushrooms.",
 
     // Rei Dessert 
     "SBV.SpecialOrder.ReihanaDessert_Name": "HELP FEED REI!",
     "SBV.SpecialOrder.ReihanaDessert_Text": "Help! Rei is on the verge of going insane because she hasn't had dessert in two days! Diala and Derya are refusing to give her more free dessert. Please drop them off in our kitchen! I'm begging!",
-    "SBV.SpecialOrder.ReihanaDessert_Objective_Text_0": "Drop off a Cookie in Rei and Aicha's kitchen",
-    "SBV.SpecialOrder.ReihanaDessert_Objective_Text_1": "Drop off a Maple Bar in Rei and Aicha's kitchen",
-    "SBV.SpecialOrder.ReihanaDessert_Objective_Text_2": "Drop off a Pink Cake in Rei and Aicha's kitchen",
-    "SBV.SpecialOrder.ReihanaDessert_Objective_Text_3": "Drop off a Chocolate Cake in Rei and Aicha's kitchen",
+    "SBV.SpecialOrder.ReihanaDessert_Objective_Text_0": "Drop off a Cookie in Rei and Aicha's kitchen.",
+    "SBV.SpecialOrder.ReihanaDessert_Objective_Text_1": "Drop off a Maple Bar in Rei and Aicha's kitchen.",
+    "SBV.SpecialOrder.ReihanaDessert_Objective_Text_2": "Drop off a Pink Cake in Rei and Aicha's kitchen.",
+    "SBV.SpecialOrder.ReihanaDessert_Objective_Text_3": "Drop off a Chocolate Cake in Rei and Aicha's kitchen.",
 
     // Maia First Weapon (Theirin's Sword)
     "SBV.SpecialOrder.MaiaWeapon1_Name": "Maia's New Sword",
     "SBV.SpecialOrder.MaiaWeapon1_Text": "I may or may not have overworked myself last week (look away, mother) and I'm unable to go into the caves to gather materials for this new sword I wanna make. If you gather the materials, please leave 'em in the box in the back room.",
-    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_0": "Collect 5 Aquamarine",
-    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_1": "Collect 5 Frozen Tears",
-    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_2": "Collect 15 Iron Bars",
-    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_3": "Drop off 5 Aquamarine in the back room",
-    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_4": "Drop off 5 Frozen Tears in the back room",
-    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_5": "Drop off 15 Iron Bars in the back room",
+    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_0": "Collect 5 Aquamarine.",
+    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_1": "Collect 5 Frozen Tears.",
+    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_2": "Collect 15 Iron Bars.",
+    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_3": "Drop off 5 Aquamarine in the back room.",
+    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_4": "Drop off 5 Frozen Tears in the back room.",
+    "SBV.SpecialOrder.MaiaWeapon1_Objective_Text_5": "Drop off 15 Iron Bars in the back room.",
 
     // Maia Second Weapon (Dawne's Battle Axe)
     "SBV.SpecialOrder.MaiaWeapon2_Name": "Maia's Battle Axe",
     "SBV.SpecialOrder.MaiaWeapon2_Text": "I found a blueprint of an axe that once belonged to a hero named Dawne. I'd like to recreate it, but I'm running low on materials. Drop the items in the box in the back room, I'll make it worth your while.",
-    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_0": "Collect 5 Topaz",
-    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_1": "Collect 10 Gold Bars",
-    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_2": "Collect 15 Iron Bars",
-    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_3": "Drop off 5 Topaz in the back room",
-    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_4": "Drop off 10 Gold in the back room",
-    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_5": "Drop off 15 Iron Bars in the back room",
+    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_0": "Collect 5 Topaz.",
+    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_1": "Collect 10 Gold Bars.",
+    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_2": "Collect 15 Iron Bars.",
+    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_3": "Drop off 5 Topaz in the back room.",
+    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_4": "Drop off 10 Gold in the back room.",
+    "SBV.SpecialOrder.MaiaWeapon2_Objective_Text_5": "Drop off 15 Iron Bars in the back room.",
 
     // Maia Third Weapon (Dragonfang)
     "SBV.SpecialOrder.MaiaWeapon3_Name": "The Dragonfang",
     "SBV.SpecialOrder.MaiaWeapon3_Text": "I stayed up last night planning out this sword and I think it'll be worthwhile. Elias told me one of the items I need is native to Ginger Island. Unfortunately, I won't be able to get it myself, so any help is appreciated. Drop 'em in the box in the back room, please.",
-    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_0": "Collect 3 Dragon Teeth",
-    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_1": "Collect 10 Solar Essence",
-    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_2": "Collect 15 Iron Bars",
-    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_3": "Drop off 3 Dragon Teeth in the back room",
-    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_4": "Drop off 10 Solar Essence in the back room",
-    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_5": "Drop off 15 Iron Bars in the back room",
+    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_0": "Collect 3 Dragon Teeth.",
+    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_1": "Collect 10 Solar Essence.",
+    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_2": "Collect 15 Iron Bars.",
+    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_3": "Drop off 3 Dragon Teeth in the back room.",
+    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_4": "Drop off 10 Solar Essence in the back room.",
+    "SBV.SpecialOrder.MaiaWeapon3_Objective_Text_5": "Drop off 15 Iron Bars in the back room.",
 
     // Maia Fourth Weapon (Baleful Blade)
     "SBV.SpecialOrder.MaiaWeapon4_Name": "Menacing Blade",
     "SBV.SpecialOrder.MaiaWeapon4_Text": "I found this blueprint for an ancient blade a while back. Silas and Raz have been talking so we can make it and infuse it correctly. If you're able to gather the materials we're missing, I'll compensate you.",
-    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_0": "Collect 5 Rubies",
-    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_1": "Collect 10 Void Essence",
-    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_2": "Collect 10 Bat Wings",
-    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_3": "Collect 15 Iron Bars",
-    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_4": "Drop off 5 Rubies in the back room",
-    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_5": "Drop off 10 Void Essence in the back room",
-    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_6": "Drop off 10 Bat Wings in the back room",
-    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_7": "Drop off 15 Iron Bars in the back room",
+    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_0": "Collect 5 Rubies.",
+    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_1": "Collect 10 Void Essence.",
+    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_2": "Collect 10 Bat Wings.",
+    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_3": "Collect 15 Iron Bars.",
+    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_4": "Drop off 5 Rubies in the back room.",
+    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_5": "Drop off 10 Void Essence in the back room.",
+    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_6": "Drop off 10 Bat Wings in the back room.",
+    "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_7": "Drop off 15 Iron Bars in the back room.",
 
     // Aicha Floral Weapon (Flower Power)
     "SBV.SpecialOrder.AichaFloralWeapon_Name": "Flower Sword!",
     "SBV.SpecialOrder.AichaFloralWeapon_Text": "I saw some of Maia's weapons a while back and they are SO nice! I really want a floral weapon, but Maia refuses to make one for me :( Something about giving a demon a weapon. Could someone pretty, pretty please collect the materials and give them to Maia?",
-    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_0": "Collect 5 Tulips",
-    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_1": "Collect 30 Fiber",
-    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_2": "Collect 15 Iron Bars",
-    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_3": "Drop off 5 Tulips in the back room",
-    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_4": "Drop off 30 Fiber in the back room",
-    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_5": "Drop off 15 Iron Bars in the back room",
+    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_0": "Collect 5 Tulips.",
+    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_1": "Collect 30 Fiber.",
+    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_2": "Collect 15 Iron Bars.",
+    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_3": "Drop off 5 Tulips in the back room.",
+    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_4": "Drop off 30 Fiber in the back room.",
+    "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_5": "Drop off 15 Iron Bars in the back room.",
 
-    // Blake and Lyenne Monster Parts (Science Experiment)
+    // Blake and Lyenne Monster Parts
     "SBV.SpecialOrder.BlakeLyenneExperiment_Name": "Help Us Do Science",
     "SBV.SpecialOrder.BlakeLyenneExperiment_Text": "Lyenne and I would like for someone to collect some monster parts for a science experiment we're working on. Definitely nothing shady going on here! Keep this between us though. For no reason. Secrets are fun, right?",
-    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_0": "Collect 50 Bug Meat",
-    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_1": "Collect 50 Slime",
-    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_2": "Drop off 50 Bug Meat in the barrel next to Ari's market",
-    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3": "Drop off 50 Slime in the barrel next to Ari's market",
+    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_0": "Collect 50 Bug Meat.",
+    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_1": "Collect 50 Slime.",
+    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_2": "Drop off 50 Bug Meat in the barrel next to Ari's market.",
+    "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3": "Drop off 50 Slime in the barrel next to Ari's market.",
+
+    // Elias Rare Fish
+    "SBV.SpecialOrder.EliasRareFish_Name": "The Art of Fishing",
+    "SBV.SpecialOrder.EliasRareFish_Text": "I'm puttin' out a challenge to keep the art of fishing alive: anyone who can catch me some rare fish will get a nice reward. And you can even keep the fish! This time around, I'm thinkin' 5 {FishType:TextPlural} will do the trick.",
+    "SBV.SpecialOrder.EliasRareFish_Objective_Text_0": "Catch 5 {FishType:TextPlural}.",
 
     //Mail 
     //----
 
-    //FOR TRANSLATORS: Don't translate or remove parts that say [letterbg Mods\\skellady.SBVCP\\SBVletterBG] or %item id (O)numberhere %%. Only translate the actual text and the part after the [#] as that is the title of the letter.
+    //FOR TRANSLATORS: Don't translate or remove formatting symbols like @ and ^. Only translate the actual text.
 
     //DND Invite
     "Mail.DNDInviteLetter.Body": "Hello, @!^^We'd like to invite you to D&D's Cat Cafe. Feel free to drop by during our opening hours! We're located in Sunberry Village.^^Looking forward to seeing you!^^- Diala and Derya",
@@ -2114,6 +2119,8 @@
     "Mail.AichaSOWeapon.Title": "The Floral Weapon",
     "Mail.BlakeLyenneSOExperiment.Body": "Hey @,^^Thanks for getting that stuff for us! You should come by the village soon and see the results of our experiment. We can't disclose any more information for legal reasons. It's gonna be awesome though. Trust us. :)^^- Blake and Lyenne",
     "Mail.BlakeLyenneSOExperiment.Title": "Blake and Lyenne's Experiment",
+    "Mail.EliasSORareFish.Body": "Hey @,^^I'm impressed. You took my challenge head-on and fished up everything I asked for! You've already got the posted reward, but I couldn't help sending over a li'l extra. Enjoy, and keep the art of fishing alive!^^- Elias",
+    "Mail.EliasSORareFish.Title": "Mighty Fine Fishin'",
 
     //Pass Out Letter
     "Mail.passedOutSBV.Body": "@,^^Found you unconscious last night while I was doing my sweep with Maia. Try to be more careful next time. If there's anything I can do for you, you know where to find me.^^- Ophelia",
@@ -2909,7 +2916,7 @@
     // Ari's Market
     "MapString.sbv.market1": "Blake's computer. It's in pretty rough shape, you wonder how he manages to play all those video games on this thing.",
     "MapString.sbv.market2": "There's a framed picture of Ari and Elias from their wedding day. You make sure put it back the way you found it.",
-    "MapString.sbv.market3": "There's a book in the drawer.#'All About Mushrooms!' by Wil D.F Lour",
+    "MapString.sbv.market3": "There's a book in the drawer.#'All About Mushrooms!' by Wil D.F. Lour",
     "MapString.sbv.market4": "There's a book in the drawer.#'Coding for Dummies' by Sheku Rika",
     "MapString.sbv.market5": "There's a variety of drinks in the fridge.",
     "MapString.sbv.market6": "You resist the urge to climb into the shopping cart. Seriously, don't.",
@@ -3934,7 +3941,7 @@
     //Summer
     "Ari.Dialogue.summer_1": "I'm glad I installed that air conditioner in the store last summer. Should help with the heat.$9",
     "Ari.Dialogue.summer_10": "Blegh, I can't imagine eating a soup made by a ton of people with no way of knowing if the ingredients work together.$6",
-    "Ari.Dialogue.summer_27": "Elias and I used to watch the moonlight jellies together every year when we were together.#$b#They're beautiful, I'll definitely be there tomorrow.",
+    "Ari.Dialogue.summer_27": "Elias and I used to watch the moonlight jellies together every year.#$b#They're beautiful, I'll definitely be there tomorrow.",
 
     //Fall
     "Ari.Dialogue.fall_1": "Mmm... smell that, farmer? It's the smell of the best season of the year arriving.$u#$b#And no, I don't care if people think it's overrated.$6",
@@ -4208,7 +4215,7 @@
     //Vanilla
     "Elias.Dialogue.Resort_Entering": "Damn, I should've gotten my fishin' rod. Look at this place!$h",
     "Elias.Dialogue.Resort_Leaving": "...I could've borrowed Willy's rod. Ah, next time maybe.$u",
-    "Elias.Dialogue.Resort_Shore": "%Elias seems to still be hung up on the fact that he hadn't brought his fishing rod.",
+    "Elias.Dialogue.Resort_Shore": "%Elias seems to still be hung up on the fact that he didn't bring his fishing rod.",
     "Elias.Dialogue.Resort_Bar": "Here, let me get you a drink. Gotta stay hydrated with all the runnin' around you do. [350]",
     "Elias.Dialogue.Resort": "I wonder if Gunther has any books on this place. I don't recall finding anything about it in the Sunberry Library.",
 

@@ -40,6 +40,7 @@
                 "MaiaSOWeapon4": "{{i18n:Mail.MaiaSOWeapon4.Body}}[#]{{i18n:Mail.MaiaSOWeapon4.Title}}",
                 "AichaSOWeapon": "{{i18n:Mail.AichaSOWeapon.Body}}[#]{{i18n:Mail.AichaSOWeapon.Title}}",
                 "BlakeLyenneSOExperiment": "{{i18n:Mail.BlakeLyenneSOExperiment.Body}}[#]{{i18n:Mail.BlakeLyenneSOExperiment.Title}}",
+                "EliasSORareFish": "{{i18n:Mail.EliasSORareFish.Body}}%item id (O)ChallengeBait 5 %%[#]{{i18n:Mail.EliasSORareFish.Title}}",
 
                 // Villager Letters
                 "skellady.SBVCP_AminaSeeds": "{{i18n:Mail.AminaSeeds.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 4]%item id (O)skellady.SBVCP_ArfajSeeds 5 (O)skellady.SBVCP_CoffeeBlossomSeeds 5 %%[#]{{i18n:Mail.AminaSeeds.Title}}",
