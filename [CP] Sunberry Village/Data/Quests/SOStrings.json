@@ -71,7 +71,16 @@
             "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_0": "{{i18n:SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_0}}",
             "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_1": "{{i18n:SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_1}}",
             "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_2": "{{i18n:SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_2}}",
-            "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3": "{{i18n:SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3}}"
+            "SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3": "{{i18n:SBV.SpecialOrder.BlakeLyenneExperiment_Objective_Text_3}}",
+
+            "SBV.SpecialOrder.JumanaFlowerOrder_Name": "{{i18n:SBV.SpecialOrder.JumanaFlowerOrder_Name}}",
+            "SBV.SpecialOrder.JumanaFlowerOrder_Text": "{{i18n:SBV.SpecialOrder.JumanaFlowerOrder_Text}}",
+            "SBV.SpecialOrder.JumanaFlowerOrder_Objective_Text_0": "{{i18n:SBV.SpecialOrder.JumanaFlowerOrder_Objective_Text_0}}",
+            "SBV.SpecialOrder.JumanaFlowerOrder_Objective_Text_1": "{{i18n:SBV.SpecialOrder.JumanaFlowerOrder_Objective_Text_1}}",
+
+            "SBV.SpecialOrder.JumanaFlowerOrder2_Name": "{{i18n:SBV.SpecialOrder.JumanaFlowerOrder2_Name}}",
+            "SBV.SpecialOrder.JumanaFlowerOrder2_Text": "{{i18n:SBV.SpecialOrder.JumanaFlowerOrder2_Text}}",
+            "SBV.SpecialOrder.JumanaFlowerOrder2_Objective_Text_0": "{{i18n:SBV.SpecialOrder.JumanaFlowerOrder2_Objective_Text_0}}",
         }
     }
   ]
