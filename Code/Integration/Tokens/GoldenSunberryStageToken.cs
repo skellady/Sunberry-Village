@@ -15,7 +15,7 @@ internal class GoldenSunberryStageToken
 	internal static int HeartTotal;
 
 	internal const string TriggerMailId = "skellady.SBVCP_GSBTriggerLetter";
-	internal const int MaxStage = 5;
+	internal const int MaxStage = 6;
 	internal const int MinNightsInStage = 7;
 
 	internal const string GrowingModDataKey = "SunberryTeam.SBVSMAPI/GoldenSunberry/Growing";
@@ -62,7 +62,7 @@ internal class GoldenSunberryStageToken
 		"Clara.Ripley"
 	};
 	
-	internal static readonly int[] HeartsNeededToAdvanceStage = { 10, 25, 50, 80, 120 };
+	internal static readonly int[] HeartsNeededToAdvanceStage = { 10, 25, 50, 80, 120, 120 };
 
 	internal static void AddEventHooks()
 	{
