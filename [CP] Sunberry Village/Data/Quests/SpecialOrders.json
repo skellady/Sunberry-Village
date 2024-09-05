@@ -862,9 +862,6 @@
                         }
                     ]
                 },
-            }
-        }
-                },
                 "SBV.SpecialOrder.EliasRareFish": {
                     "Name": "[SBV.SpecialOrder.EliasRareFish_Name]",
                     "Requester": "EliasSBV",
