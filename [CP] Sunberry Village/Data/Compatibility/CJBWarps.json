@@ -24,6 +24,7 @@
 			"Action": "EditData",
 			"Target": "Mods/CJBok.CheatsMenu/Warps",
 			"Entries": {
+				// Village
 				"{{ModId}}_AriMarket": {
 					"Id": "{{ModId}}_AriMarket",
 					"SectionId": "{{ModId}}_SunberryVillage",
@@ -79,6 +80,43 @@
 					"DisplayName": "{{i18n:Sunberry.Locations.SunberryLibrary}}",
 					"Location": "Custom_SBV_SunberryVillage",
 					"Tile": "73, 14"
+				},
+				// Mountain
+				"{{ModId}}_BrokenDiner": {
+					"Id": "{{ModId}}_BrokenDiner",
+					"SectionId": "{{ModId}}_SunberryMountain",
+					"DisplayName": "{{i18n:Sunberry.Locations.ChrisDinerBroken}}",
+					"Location": "Custom_SBV_SunberryMountain",
+					"Tile": "28, 19"
+				},
+				"{{ModId}}_SilasBlacksmith": {
+					"Id": "{{ModId}}_SilasBlacksmith",
+					"SectionId": "{{ModId}}_SunberryMountain",
+					"DisplayName": "{{i18n:Sunberry.Locations.SilasBlacksmith}}",
+					"Location": "Custom_SBV_SunberryMountain",
+					"Tile": "16, 24"
+				},
+				"{{ModId}}_SunberryMines": {
+					"Id": "{{ModId}}_SunberryMines",
+					"SectionId": "{{ModId}}_SunberryMountain",
+					"DisplayName": "{{i18n:Sunberry.Locations.CrystalCave}}",
+					"Location": "Custom_SBV_CrystalCave",
+					"Tile": "10, 14"
+				},
+				// Forest
+				"{{ModId}}_AbandonedHouse": {
+					"Id": "{{ModId}}_AbandonedHouse",
+					"SectionId": "{{ModId}}_SunberryForest",
+					"DisplayName": "{{i18n:Sunberry.Locations.AbandonedHouse}}",
+					"Location": "Custom_SBV_SunberryForest",
+					"Tile": "54, 14"
+				},
+				"{{ModId}}_BrokenBarn": {
+					"Id": "{{ModId}}_BrokenBarn",
+					"SectionId": "{{ModId}}_SunberryForest",
+					"DisplayName": "{{i18n:Sunberry.Locations.BrokenBarn}}",
+					"Location": "Custom_SBV_SunberryForest",
+					"Tile": "13, 49"
 				}
 			}
 		}
