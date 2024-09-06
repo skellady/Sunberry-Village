@@ -1,0 +1,86 @@
+{
+	"Changes": [
+		{
+			"LogName": "Add SBV Locations to Warp Sections",
+			"Action": "EditData",
+			"Target": "Mods/CJBok.CheatsMenu/WarpSections",
+			"Entries": {
+				"{{ModId}}_SunberryVillage": {
+					"Id": "{{ModId}}_SunberryVillage",
+					"DisplayName": "{{i18n:Sunberry.Locations.SunberryVillage}}"
+				},
+				"{{ModId}}_SunberryMountain": {
+					"Id": "{{ModId}}_SunberryMountain",
+					"DisplayName": "{{i18n:Sunberry.Locations.SunberryMountain}}"
+				},
+				"{{ModId}}_SunberryForest": {
+					"Id": "{{ModId}}_SunberryForest",
+					"DisplayName": "{{i18n:Sunberry.Locations.SunberryForest}}"
+				}
+			}
+		},
+		{
+			"LogName": "Add Warps to CJB Menu",
+			"Action": "EditData",
+			"Target": "Mods/CJBok.CheatsMenu/Warps",
+			"Entries": {
+				"{{ModId}}_AriMarket": {
+					"Id": "{{ModId}}_AriMarket",
+					"SectionId": "{{ModId}}_SunberryVillage",
+					"DisplayName": "{{i18n:Sunberry.Locations.AriMarket}}",
+					"Location": "Custom_SBV_SunberryVillage",
+					"Tile": "88, 51"
+				},
+				"{{ModId}}_CarPark": {
+					"Id": "{{ModId}}_CarPark",
+					"SectionId": "{{ModId}}_SunberryVillage",
+					"DisplayName": "{{i18n:Sunberry.Locations.CarPark}}",
+					"Location": "Custom_SBV_SunberryVillage",
+					"Tile": "6, 10"
+				},
+				"{{ModId}}_DNDCafe": {
+					"Id": "{{ModId}}_DNDCafe",
+					"SectionId": "{{ModId}}_SunberryVillage",
+					"DisplayName": "{{i18n:Sunberry.Locations.DNDCafe}}",
+					"Location": "Custom_SBV_SunberryVillage",
+					"Tile": "49, 27"
+				},
+				"{{ModId}}_EzraClothes": {
+					"Id": "{{ModId}}_EzraClothes",
+					"SectionId": "{{ModId}}_SunberryVillage",
+					"DisplayName": "{{i18n:Sunberry.Locations.EzraClothes}}",
+					"Location": "Custom_SBV_SunberryVillage",
+					"Tile": "49, 15"
+				},
+				"{{ModId}}_FountainArea": {
+					"Id": "{{ModId}}_FountainArea",
+					"SectionId": "{{ModId}}_SunberryVillage",
+					"DisplayName": "{{i18n:Sunberry.Locations.FountainArea}}",
+					"Location": "Custom_SBV_SunberryVillage",
+					"Tile": "66, 86"
+				},
+				"{{ModId}}_JumanaShop": {
+					"Id": "{{ModId}}_JumanaShop",
+					"SectionId": "{{ModId}}_SunberryVillage",
+					"DisplayName": "{{i18n:Sunberry.Locations.MaiaHouse}}",
+					"Location": "Custom_SBV_SunberryVillage",
+					"Tile": "31, 50"
+				},
+				"{{ModId}}_SerenityInn": {
+					"Id": "{{ModId}}_SerenityInn",
+					"SectionId": "{{ModId}}_SunberryVillage",
+					"DisplayName": "{{i18n:Sunberry.Locations.SerenityInn}}",
+					"Location": "Custom_SBV_SunberryVillage",
+					"Tile": "74, 32"
+				},
+				"{{ModId}}_SunberryLibrary": {
+					"Id": "{{ModId}}_SunberryLibrary",
+					"SectionId": "{{ModId}}_SunberryVillage",
+					"DisplayName": "{{i18n:Sunberry.Locations.SunberryLibrary}}",
+					"Location": "Custom_SBV_SunberryVillage",
+					"Tile": "73, 14"
+				}
+			}
+		}
+	]
+}
