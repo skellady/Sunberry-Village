@@ -731,7 +731,7 @@
                 "SBV.SpecialOrder.JumanaFlowerOrder": {
                     "Name": "[SBV.SpecialOrder.JumanaFlowerOrder_Name]",
                     "Requester": "JumanaSBV",
-                    "Duration": "TwoWeeks",
+                    "Duration": "Month",
                     "Repeatable": false,
                     "RequiredTags": "knows_JumanaSBV",
                     "OrderType": "SunberryBoard",
