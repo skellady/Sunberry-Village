@@ -1051,11 +1051,18 @@
 
     // Derya 4 Hearts Event
     "event-20031410.01": "Still haven't decided on one?",
-    "event-20031410.02": "Look, buddy. I'm indecisive, just bear with me today.$s",
+    "event-20031410.02": "Look, I'm indecisive. Just bear with me today.$s",
     "event-20031410.03": "Oh, thank God. Get over here, farmer. It's an emergency.$6#$b#I'm picking out a gift for Diala. She loves crystals and gems and whatnot, but I can't decide on one.$s#$b#Help me pick?$u",
-    "event-20031410.04": "So, go ahead and pick one.#$b#$y 'Which one should I get for Diala?_The amethyst._Ooh, that is very pretty.$h_The emerald._Ooh, pretty shade of green, huh?_The frozen tear._Oh, that's beautiful.$h'",
-    "event-20031410.05": "Alright, Clint. You heard 'em.$6#$b#I owe you a whole box of Diala's cookies for tolerating me today.$u",
-    "event-20031410.06": "I'll hold you to that.$h",
+    "event-20031410.04": "So, go ahead and pick one.",
+    "event-20031410.05": "Which one should I get for Diala?",
+    "event-20031410.06": "The amethyst.",
+    "event-20031410.07": "The emerald.",
+    "event-20031410.08": "The frozen tear.",
+    "event-20031410.09": "Ooh, that's pretty, yeah.$h",
+    "event-20031410.10": "Ooh, pretty shade of green.$h",
+    "event-20031410.11": "Oh! That one's beautiful.$h",
+    "event-20031410.12": "Alright, Silas. You heard 'em.$6#$b#I owe you a whole box of Diala's cookies for tolerating me today.$u",
+    "event-20031410.13": "I'll hold you to that.$h",
 
     // Diala 6 Hearts Event
     "event-20031411.01": "Hey, @! You got my letter.$h",
