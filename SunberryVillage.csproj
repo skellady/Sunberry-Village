@@ -15,7 +15,7 @@
   <ItemGroup>
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.1.1" />
     
-    <Using Include="SunberryVillage.Utilities"/>
+    <Using Include="SunberryVillage.Utilities" />
   </ItemGroup>
   
   <!-- GamePath isn't defined right away so we need to redefine GameModsPath once it is. -->

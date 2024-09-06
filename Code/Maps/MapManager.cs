@@ -6,6 +6,7 @@ using StardewValley;
 using StardewValley.BellsAndWhistles;
 using StardewValley.Extensions;
 using SunberryVillage.Events.Tarot;
+using SunberryVillage.Menus;
 using SunberryVillage.Shops;
 using System;
 using System.Collections.Generic;
@@ -42,6 +43,22 @@ internal class MapManager
 		Globals.EventHelper.Player.Warped += CheckTravelingSunberryRoad;
 		Globals.EventHelper.GameLoop.DayEnding += ModifyTravelingSunberryRoadStat;
 		Globals.EventHelper.GameLoop.DayStarted += RemoveDigSpotsFromMines;
+	}
+	
+	private static void RegisterTileActions(object sender, GameLaunchedEventArgs e)
+	{
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_Book", HandleBookAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ChooseDestination", HandleChooseDestinationAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DialaTarot", HandleTarotAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MarketDailySpecial", HandleMarketDailySpecialAction);
+        GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MineLadder", HandleLadderWarpAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ImageViewer", HandleImageViewerAction);
+    }
+
+	private static bool HandleImageViewerAction(GameLocation loc, string[] args, Farmer who, Point tile)
+	{
+		Game1.activeClickableMenu = new ImageViewerMenu(args, 0);
+		return true;
 	}
 
 	private static void RemoveDigSpotsFromMines(object sender, DayStartedEventArgs e)
@@ -221,16 +238,7 @@ internal class MapManager
 		}
 	}
 
-	private static void RegisterTileActions(object sender, GameLaunchedEventArgs e)
-	{
-		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_Book", HandleBookAction);
-		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ChooseDestination", HandleChooseDestinationAction);
-		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DialaTarot", HandleTarotAction);
-		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MarketDailySpecial", HandleMarketDailySpecialAction);
-        GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MineLadder", HandleLadderWarp);
-    }
-
-    private static bool HandleLadderWarp(GameLocation location, string[] arg, Farmer farmer, Point point)
+    private static bool HandleLadderWarpAction(GameLocation location, string[] arg, Farmer farmer, Point point)
     {
 		//behaves similar to the vanilla "Warp" Action, but plays ladderdown sound
         if (!ArgUtility.TryGetPoint(arg, 1, out var tile, out string error) || !ArgUtility.TryGet(arg, 3, out var locationName, out error))

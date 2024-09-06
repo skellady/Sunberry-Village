@@ -11,6 +11,7 @@ using SunberryVillage.Animations;
 using SunberryVillage.Events.Tarot;
 using SunberryVillage.Integration.Tokens;
 using SunberryVillage.Lighting;
+using SunberryVillage.Menus;
 using xTile;
 using xTile.Layers;
 
@@ -396,6 +397,11 @@ internal class ConsoleCommandManager
 				{
 					Log.Trace(sb);
 				}
+			});
+
+		Globals.CCHelper.Add("sbv.misc.testimageviewer", "Creates test image viewer menu", (_, args) =>
+			{
+				Game1.activeClickableMenu = new ImageViewerMenu( new string[] {"Test", "LooseSprites\\ControllerMaps", "512", "287", "2"}, 0);
 			});
 
 		#endregion
