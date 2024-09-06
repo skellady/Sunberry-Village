@@ -1,0 +1,381 @@
+{
+	"Changes":
+	[
+////////// ADDING NPCS TO THE FLOWER QUEEN CANDIDATE POOL //////////
+
+        {
+			"LogName": "DSV FQC - Sunberry Village Add as Queen - Regular Marriage Candidates",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "AriSBV": "true",
+                "BlakeSBV": "true",
+                "EliasSBV": "true",
+                "EzraSBV": "true",
+                "ImanSBV": "true",
+                "LyenneSBV": "true",
+                "MaiaSBV": "true"
+            },
+            "When":
+            {
+				"HasMod": "DSV.Core",
+				"DSV.Core/ConfigValue:FlowerQueensCrown": "true",
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true
+            }
+        },
+        {
+			"LogName": "DSV FQC - Sunberry Village Add as Queen - Kids",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "AminaSBV": "true"
+            },
+            "When":
+            {
+				"HasMod": "DSV.Core",
+				"DSV.Core/ConfigValue:FlowerQueensCrown": "true",
+				"DSV.Core/FQCImmersion |contains= Anyone": true
+            }
+        },
+        {
+			"LogName": "DSV FQC - Sunberry Village Add as Queen - Nadia",
+            "Action": "EditData",
+            "Target": "DSV.Core/FlowerQueen",
+            "Entries": 
+            {
+                "NadiaSBV": "true"
+            },
+            "When":
+            {
+				"HasMod": "DSV.Core",
+				"DSV.Core/ConfigValue:FlowerQueensCrown": "true",
+				"DSV.Core/FQCImmersion |contains= MarriageCandidates, Anyone": true,
+				"HasSeenEvent |contains= NadiaUnlockEvent": true //Placeholder, fill with appropriate event ID
+            }
+        },
+
+////////// ART CHANGES //////////
+
+		{
+			"LogName": "Amina FQC Queen Art",
+			"Action": "EditImage",
+			"Target": "Portraits/AminaSBV, Characters/AminaSBV",
+			"FromFile": "Assets/Compatibility/DSVFlowerQueensCrown/{{Target}}.png",
+			"Priority": "Late",
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= AminaSBV": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Ari FQC Queen Art",
+			"Action": "EditImage",
+			"Target": "Portraits/AriSBV, Characters/AriSBV",
+			"FromFile": "Assets/Compatibility/DSVFlowerQueensCrown/{{Target}}.png",
+			"Priority": "Late",
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= AriSBV": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Blake FQC Queen Art",
+			"Action": "EditImage",
+			"Target": "Portraits/BlakeSBV, Characters/BlakeSBV",
+			"FromFile": "Assets/Compatibility/DSVFlowerQueensCrown/{{Target}}.png",
+			"Priority": "Late",
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= BlakeSBV": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Elias FQC Queen Art",
+			"Action": "EditImage",
+			"Target": "Portraits/EliasSBV, Characters/EliasSBV",
+			"FromFile": "Assets/Compatibility/DSVFlowerQueensCrown/{{Target}}.png",
+			"Priority": "Late",
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= EliasSBV": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Ezra FQC Queen Art",
+			"Action": "EditImage",
+			"Target": "Portraits/EzraSBV, Characters/EzraSBV",
+			"FromFile": "Assets/Compatibility/DSVFlowerQueensCrown/{{Target}}.png",
+			"Priority": "Late",
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= EzraSBV": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Iman FQC Queen Art",
+			"Action": "EditImage",
+			"Target": "Portraits/ImanSBV, Characters/ImanSBV",
+			"FromFile": "Assets/Compatibility/DSVFlowerQueensCrown/{{Target}}.png",
+			"Priority": "Late",
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= ImanSBV": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Lyenne FQC Queen Art",
+			"Action": "EditImage",
+			"Target": "Portraits/LyenneSBV, Characters/LyenneSBV",
+			"FromFile": "Assets/Compatibility/DSVFlowerQueensCrown/{{Target}}.png",
+			"Priority": "Late",
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= LyenneSBV": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Maia FQC Queen Art",
+			"Action": "EditImage",
+			"Target": "Portraits/MaiaSBV, Characters/MaiaSBV",
+			"FromFile": "Assets/Compatibility/DSVFlowerQueensCrown/{{Target}}.png",
+			"Priority": "Late",
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= MaiaSBV": true
+			},
+			"Update": "OnLocationChange"
+		},
+		{
+			"LogName": "Nadia FQC Queen Art",
+			"Action": "EditImage",
+			"Target": "Portraits/NadiaSBV, Characters/NadiaSBV",
+			"FromFile": "Assets/Compatibility/DSVFlowerQueensCrown/{{Target}}.png",
+			"Priority": "Late",
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= NadiaSBV": true
+			},
+			"Update": "OnLocationChange"
+		},
+
+////////// RSV DIALOGUE CODE //////////
+
+// AMINA QUEEN
+
+		{
+			"LogName": "Amina FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Priority": "Late",
+            "Entries":
+            {
+				"AminaSBV": "{{i18n:DSVFQC.Dialogue.AminaQueen.Amina}}",
+				"MaiaSBV": "{{i18n:DSVFQC.Dialogue.AminaQueen.Maia}}",
+				"JumanaSBV": "{{i18n:DSVFQC.Dialogue.AminaQueen.Jumana}}",
+			},
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= AminaSBV": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+
+// ARI QUEEN
+
+		{
+			"LogName": "Ari FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Priority": "Late",
+            "Entries":
+            {
+				"AriSBV": "{{i18n:DSVFQC.Dialogue.AriQueen.Ari}}",
+				"AriSBV_spouse": "{{i18n:DSVFQC.Dialogue.AriQueen.AriSpouse}}",
+				"BlakeSBV": "{{i18n:DSVFQC.Dialogue.AriQueen.Blake}}",
+				"EliasSBV": "{{i18n:DSVFQC.Dialogue.AriQueen.Elias}}",
+			},
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= AriSBV": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+
+// BLAKE QUEEN
+
+		{
+			"LogName": "Blake FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Priority": "Late",
+            "Entries":
+            {
+				"BlakeSBV": "{{i18n:DSVFQC.Dialogue.BlakeQueen.Blake}}",
+				"AriSBV": "{{i18n:DSVFQC.Dialogue.BlakeQueen.Ari}}",
+				"EliasSBV": "{{i18n:DSVFQC.Dialogue.BlakeQueen.Elias}}",
+				"LyenneSBV": "{{i18n:DSVFQC.Dialogue.BlakeQueen.Lyenne}}",
+				"OpheliaSBV": "{{i18n:DSVFQC.Dialogue.BlakeQueen.Ophelia}}",
+			},
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= BlakeSBV": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+
+// ELIAS QUEEN
+
+		{
+			"LogName": "Elias FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Priority": "Late",
+            "Entries":
+            {
+				"EliasSBV": "{{i18n:DSVFQC.Dialogue.EliasQueen.Elias}}",
+				"EliasSBV_spouse": "{{i18n:DSVFQC.Dialogue.EliasQueen.EliasSpouse}}",
+				"AriSBV": "{{i18n:DSVFQC.Dialogue.EliasQueen.Ari}}",
+				"BlakeSBV": "{{i18n:DSVFQC.Dialogue.EliasQueen.Blake}}",
+			},
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= EliasSBV": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+
+// EZRA QUEEN
+
+		{
+			"LogName": "Ezra FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Priority": "Late",
+            "Entries":
+            {
+				"EzraSBV": "{{i18n:DSVFQC.Dialogue.EzraQueen.Ezra}}",
+				"EzraSBV_spouse": "{{i18n:DSVFQC.Dialogue.EzraQueen.EzraSpouse}}",
+				"ImanSBV": "{{i18n:DSVFQC.Dialogue.EzraQueen.Iman}}",
+				"NadiaSBV": "{{i18n:DSVFQC.Dialogue.EzraQueen.Nadia}}",
+			},
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= EzraSBV": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+
+// IMAN QUEEN
+
+		{
+			"LogName": "Iman FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Priority": "Late",
+            "Entries":
+            {
+				"ImanSBV": "{{i18n:DSVFQC.Dialogue.ImanQueen.Iman}}",
+				"ImanSBV_spouse": "{{i18n:DSVFQC.Dialogue.ImanQueen.ImanSpouse}}",
+				"EzraSBV": "{{i18n:DSVFQC.Dialogue.ImanQueen.Ezra}}",
+				"NadiaSBV": "{{i18n:DSVFQC.Dialogue.ImanQueen.Nadia}}",
+			},
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= ImanSBV": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+
+// LYENNE QUEEN
+
+		{
+			"LogName": "Lyenne FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Priority": "Late",
+            "Entries":
+            {
+				"LyenneSBV": "{{i18n:DSVFQC.Dialogue.LyenneQueen.Lyenne}}",
+				"LyenneSBV_spouse": "{{i18n:DSVFQC.Dialogue.LyenneQueen.LyenneSpouse}}",
+				"BlakeSBV": "{{i18n:DSVFQC.Dialogue.LyenneQueen.Blake}}",
+				"AriSBV": "{{i18n:DSVFQC.Dialogue.LyenneQueen.Ari}}",
+				"EliasSBV": "{{i18n:DSVFQC.Dialogue.LyenneQueen.Elias}}",
+				"OpheliaSBV": "{{i18n:DSVFQC.Dialogue.LyenneQueen.Ophelia}}",
+			},
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= LyenneSBV": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+
+// MAIA QUEEN
+
+		{
+			"LogName": "Amina FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Priority": "Late",
+            "Entries":
+            {
+				"MaiaSBV": "{{i18n:DSVFQC.Dialogue.MaiaQueen.Maia}}",
+				"MaiaSBV_spouse": "{{i18n:DSVFQC.Dialogue.MaiaQueen.MaiaSpouse}}",
+				"AminaSBV": "{{i18n:DSVFQC.Dialogue.MaiaQueen.Amina}}",
+				"JumanaSBV": "{{i18n:DSVFQC.Dialogue.MaiaQueen.Jumana}}",
+			},
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= MaiaSBV": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		},
+
+// NADIA QUEEN
+
+		{
+			"LogName": "Amina FQC Queen Dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"Priority": "Late",
+            "Entries":
+            {
+				"NadiaSBV": "{{i18n:DSVFQC.Dialogue.NadiaQueen.Nadia}}",
+				"NadiaSBV_spouse": "{{i18n:DSVFQC.Dialogue.NadiaQueen.NadiaSpouse}}",
+				"EzraSBV": "{{i18n:DSVFQC.Dialogue.NadiaQueen.Ezra}}",
+				"ImanSBV": "{{i18n:DSVFQC.Dialogue.NadiaQueen.Iman}}",
+			},
+			"When":
+			{
+				"HasMod": "DSV.Core",
+				"DSV.Core/FlowerQueen |contains= NadiaSBV": true
+			},
+			"Update": "OnLocationChange, OnTimeChange"
+		}
+	]
+}
