@@ -83,6 +83,8 @@
 				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Reihana}}",
 				//Love
 				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Reihana}}",
+				//Trashcan
+				"DumpsterDiveComment": "{{i18n:Reihana.Dialogue.DumpsterDiveComment}}"
 			},
 		},
 	]

@@ -84,6 +84,8 @@
 				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Maia}}",
 				//Love
 				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Maia}}",
+				//Trashcan
+				"DumpsterDiveComment": "{{i18n:Maia.Dialogue.DumpsterDiveComment}}"
 			},
 		},
 	]

@@ -83,7 +83,8 @@
                 "AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Ezra}}",
                 //Love
                 "AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Ezra}}",
-
+                //Trashcan
+				"DumpsterDiveComment": "{{i18n:Ezra.Dialogue.DumpsterDiveComment}}",
                 // CT added in Nadia dialogue
                 "{{ModId}}_EzraNadiaFight": "{{i18n:Ezra.Dialogue.EzraNadiaFight}}"
             },

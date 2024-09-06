@@ -87,7 +87,9 @@
                 "AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Nadia}}",
                 "AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Nadia}}",
                 //Love
-                "AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Nadia}}"
+                "AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Nadia}}",
+                //Trashcan
+				"DumpsterDiveComment": "{{i18n:Nadia.Dialogue.DumpsterDiveComment}}"
             },
 		},
 	]

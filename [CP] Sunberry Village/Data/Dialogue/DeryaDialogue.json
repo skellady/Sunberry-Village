@@ -133,6 +133,8 @@
 				"AcceptBirthdayGift_(O)215": "{{i18n:Birthday.PepperPoppers.Derya}}",
 				"AcceptBirthdayGift_(O)227": "{{i18n:Birthday.Sashimi.Derya}}",
 				"AcceptBirthdayGift_(O)253": "{{i18n:Birthday.TripleShotEspresso.Derya}}",
+				//Trashcan
+				"DumpsterDiveComment": "{{i18n:Derya.Dialogue.DumpsterDiveComment}}"
 			}
 		}
 	]

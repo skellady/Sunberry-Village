@@ -120,7 +120,9 @@
 				"AcceptBirthdayGift_(O)206": "{{i18n:Birthday.Pizza.Moon}}",
 				"AcceptBirthdayGift_(O)651": "{{i18n:Birthday.PoppyseedMuffin.Moon}}",
 				"AcceptBirthdayGift_(O)400": "{{i18n:Birthday.Strawberry.Moon}}",
-			},
-		},
+				//Trashcan
+				"DumpsterDiveComment": "{{Random: {{i18n:Moon.Dialogue.DumpsterDiveComment.1}} ++ {{i18n:Moon.Dialogue.DumpsterDiveComment.2}} ++ {{i18n:Moon.Dialogue.DumpsterDiveComment.3}} |inputSeparator=++}}"
+			}
+		}
 	]
 }

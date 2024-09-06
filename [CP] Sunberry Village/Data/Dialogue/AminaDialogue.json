@@ -83,6 +83,8 @@
 				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Amina}}",
 				//Love
 				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Amina}}",
+				//Trashcan
+				"DumpsterDiveComment": "{{i18n:Amina.Dialogue.DumpsterDiveComment}}"
 			},
 		},
 	]

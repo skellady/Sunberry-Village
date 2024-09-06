@@ -83,6 +83,8 @@
 				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Silas}}",
 				//Love
 				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Silas}}",
+				//Trashcan
+				"DumpsterDiveComment": "{{i18n:Silas.Dialogue.DumpsterDiveComment}}"
 			},
 		},
 	]
