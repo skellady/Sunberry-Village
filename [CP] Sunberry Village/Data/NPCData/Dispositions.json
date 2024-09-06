@@ -29,6 +29,8 @@
             "MaiaSBV": "{{i18n:NPC_Relationships.AminaMom}}",
             "JumanaSBV": "{{i18n:NPC_Relationships.AminaGrandma}}"
           },
+          "DumpsterDiveEmote": 28,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_CheeseCauliflower",
@@ -123,6 +125,8 @@
             "MaiaSBV": "{{i18n:NPC_Relationships.JumanaDaughter}}",
             "AminaSBV": "{{i18n:NPC_Relationships.JumanaGranddaughter}}"
           },
+          "DumpsterDiveEmote": 28,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_Bouquet",
@@ -284,6 +288,8 @@
             "AminaSBV": "{{i18n:NPC_Relationships.MaiaDaughter}}",
             "JumanaSBV": "{{i18n:NPC_Relationships.MaiaMom}}"
           },
+          "DumpsterDiveEmote": 40,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_IronBar",
@@ -367,6 +373,8 @@
           "FriendsAndFamily": {
             "BlakeSBV": "{{i18n:NPC_Relationships.LyenneFriend}}"
           },
+          "DumpsterDiveEmote": 32,
+          "DumpsterDiveFriendshipEffect": 10,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_LPizza",
@@ -438,6 +446,8 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "PerfectionScore": "{{IncludeNPCsInPerfection}}",
           "EndSlideShow": "MainGroup",
+          "DumpsterDiveEmote": 28,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_NautilusShell",
@@ -514,6 +524,8 @@
           "FriendsAndFamily": {
             "DeryaSBV": "{{i18n:NPC_Relationships.DialaFriend}}"
           },
+          "DumpsterDiveEmote": 28,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_DialaBakedGoods",
@@ -645,6 +657,8 @@
           "FriendsAndFamily": {
             "DialaSBV": "{{i18n:NPC_Relationships.DeryaFriend}}"
           },
+          "DumpsterDiveEmote": 28,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_DeryaBakedGoods",
@@ -773,6 +787,8 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "PerfectionScore": "{{IncludeNPCsInPerfection}}",
           "EndSlideShow": "MainGroup",
+          "DumpsterDiveEmote": 32,
+          "DumpsterDiveFriendshipEffect": 10,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_MoonGems",
@@ -883,6 +899,8 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "PerfectionScore": "{{IncludeNPCsInPerfection}}",
           "EndSlideShow": "MainGroup",
+          "DumpsterDiveEmote": 12,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_AriFertilizer",
@@ -969,6 +987,8 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "PerfectionScore": "{{IncludeNPCsInPerfection}}",
           "EndSlideShow": "MainGroup",
+          "DumpsterDiveEmote": 16,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_BlakeFood",
@@ -1043,6 +1063,8 @@
           "ItemDeliveryQuests": "RANDOM 0.08",
           "PerfectionScore": "{{IncludeNPCsInPerfection}}",
           "EndSlideShow": "MainGroup",
+          "DumpsterDiveEmote": 40,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_EliasBait",
@@ -1161,7 +1183,8 @@
             "NadiaSBV": "{{i18n:NPC_Relationships.EzraSister}}",
             "ImanSBV": "{{i18n:NPC_Relationships.EzraFriend}}"
           },
-          
+          "DumpsterDiveEmote": 28,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_Cloth",
@@ -1235,6 +1258,8 @@
           "FriendsAndFamily": {
             "EzraSBV": "{{i18n:NPC_Relationships.ImanFriend}}"
           },
+          "DumpsterDiveEmote": 32,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_BatteryPack",
@@ -1319,6 +1344,8 @@
           "FriendsAndFamily": {
             "EzraSBV": "{{i18n:NPC_Relationships.NadiaBrother}}"
           },
+          "DumpsterDiveEmote": 32,
+          "DumpsterDiveFriendshipEffect": 10,
           "SpawnIfMissing": true,
           "Home": [
             {
@@ -1356,6 +1383,8 @@
           "IntroductionsQuest": false,
           "PerfectionScore": "{{IncludeNPCsInPerfection}}",
           "EndSlideShow": "TrailingGroup",
+          "DumpsterDiveEmote": 32,
+          "DumpsterDiveFriendshipEffect": 10,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_SolarEssence",
@@ -1475,6 +1504,8 @@
           "EndSlideShow": "TrailingGroup",
           "WinterStarParticipant": false,
           "SpawnIfMissing": true,
+          "DumpsterDiveEmote": 12,
+          "DumpsterDiveFriendshipEffect": -25,
           "Home": [
             {
               "Id": "Default",
@@ -1554,6 +1585,8 @@
           "FriendsAndFamily": {
             "SilasSBV": "{{i18n:NPC_Relationships.MiyoungHusband}}"
           },
+          "DumpsterDiveEmote": 28,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_RandomFood",
@@ -1636,6 +1669,8 @@
           "FriendsAndFamily": {
             "MiyoungSBV": "{{i18n:NPC_Relationships.SilasWife}}"
           },
+          "DumpsterDiveEmote": 28,
+          "DumpsterDiveFriendshipEffect": 0,
           "WinterStarGifts": [
             {
               "Id": "skellady.SBVCP_RandomGeode",

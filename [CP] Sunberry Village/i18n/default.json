@@ -3372,6 +3372,9 @@
     "MP.Reminisce.Diala": "Oh? Reminisce? I'd love that!",
     "MP.Goodbye.Diala": "Take care of yourself! See you soon.",
 
+    //Trashcan
+    "Diala.Dialogue.DumpsterDiveComment": "Oh, @. You know we're more than happy to make you a warm meal if needed, alright? Just drop by.$s",
+
     //Derya
     "Derya.Dialogue.Introduction": "Ooh, @! I hope you enjoyed your visit at the cafe.$h#$b#Feel free to drop by whenever we're open.",
 
@@ -3482,6 +3485,9 @@
     "MP.Reminisce.Derya": "Hah, it's definitely fun to look back on our shenanigans.",
     "MP.Goodbye.Derya": "Talk to you later! Drop by the cafe when you've got time.",
 
+    //Trashcan
+    "Derya.Dialogue.DumpsterDiveComment": "@... Why? I'm not gonna judge too hard, but come on. Drop by the cafe if you need anything, alright?$10",
+
     //Moon Special Dialogue
     "Moon.EngagedRoommate": "...!$u#$b#You want Moon to live with you? Yes, of course!$u#$b#But you have to promise to let Moon take all the muffins you make.$h#$b#Give me a few days to say goodbye to Diala and Derya.",
     "Moon.NoTheater": "Hm, sorry, @. I don't know if I want to yet.$s",
@@ -3573,6 +3579,11 @@
     "Moon.Dialogue.GreenRain": "Woah! @ walked through the green rain! Maybe Moon can go too!$3",
     "Moon.Dialogue.GreenRainFinished": "Moon was too scared to go outside during the rain.$s#$b#Maybe next time! Is there going to be a next time?$3",
     "Moon.Dialogue.GreenRain_2": "Moon climbed the weird tree!$3",
+
+    //Trashcan
+    "Moon.Dialogue.DumpsterDiveComment.1": "Woah, Moon can't reach into the trash can like that. Can you help Moon learn?$3",
+    "Moon.Dialogue.DumpsterDiveComment.2": "YEAH! Trash time!$3",
+    "Moon.Dialogue.DumpsterDiveComment.3": "Moon's turn! Moon's turn! Pick Moon up to see the trash can.$h",
 
     //Moon Roommate Dialogue
 
@@ -3808,6 +3819,9 @@
     "Reihana.Dialogue.Resort_Shore": "You ever been to the bottom of the ocean?$6#$b#...Do you want to go?$10#$b#I'm just messing with you, chill.$h",
     "Reihana.Dialogue.Resort": "I stole this soda from someone's backpack. Tastes awful, though. I should've taken the crackers.$s",
 
+    //Trashcan
+    "Reihana.Dialogue.DumpsterDiveComment": "Ew. I can't believe you and Aicha have something in common.$13",
+
     //Aicha
     "Aicha.Dialogue.Introduction": "Ah! I remember you! You were by that garden when Rei and I showed up.$u#$b#I'm Aicha, I'm a high-ranking demon! It's SO nice to meet you!$h",
 
@@ -3903,6 +3917,9 @@
     "Aicha.Dialogue.Resort_Bar": "This is delicious! Make sure you stay hydrated, @. I don't even need to drink, I just do it for fun!$u",
     "Aicha.Dialogue.Resort": "%Aicha is looking around.",
 
+    //Trashcan
+    "Aicha.Dialogue.DumpsterDiveComment": "OH! I do that, too! I love digging through the trash. Have fun!$15",
+
     //Amina
     "Amina.Dialogue.Introduction": "Oh... I don't think I've seen you before.$3#$b#Do you also grow flowers like my grandma does?$4",
 
@@ -3987,7 +4004,7 @@
     "Amina.Dialogue.GreenRain": "What's happening outside? It's scary.$s#$b#I wanna make sure Jas and Vincent are okay...$s",
     "Amina.Dialogue.GreenRainFinished": "I can't believe Vincent wanted to play outside yesterday... He's so brave.$3",
     "Amina.Dialogue.GreenRain_2": "Mom told me the weather isn't something to be afraid of. She said we can go look at the weird trees together!$3",
-
+   
     // Resort Dialogue
 
     //Vanilla
@@ -3995,6 +4012,9 @@
     "Amina.Dialogue.Resort_Leaving": "I wish we could stay longer.$s#$b#Maybe next time.$h",
     "Amina.Dialogue.Resort_Shore": "Mr. Gus made me a snack! I like watching the waves while I eat.$h",
     "Amina.Dialogue.Resort": "Mom said I shouldn't stray too far from everyone, but I really want to explore!$3",
+
+    //Trashcan
+    "Amina.Dialogue.DumpsterDiveComment": "That's... kind of gross...$s",
 
     //Ari
     "Ari.Dialogue.Introduction": "Ah, a new face. I'm Ari. @? Well, it's nice to meet you.#$b#I sell good quality seeds, fertilizers, and more. Basically anything you need, I have at my store.$h",
@@ -4091,6 +4111,9 @@
     "Ari.Dialogue.Resort_Bar": "Ahh, nothing beats the drinks Gus makes.$u",
     "Ari.Dialogue.Resort": "It's really nice out here, huh?$h",
 
+    //Trashcan
+    "Ari.Dialogue.DumpsterDiveComment": "@! Seriously? Leave the trashcans alone.$8",
+
     //Blake
     "Blake.Dialogue.Introduction": "Oh, hello there. You're not from around here, are you?#$b#Ah, yeah, I remember now. It's nice to meet you, I'm Blake.$h",
 
@@ -4184,6 +4207,9 @@
     "Blake.Dialogue.Resort_Shore": "%Blake seems to be enjoying the view.",
     "Blake.Dialogue.Resort_Chair": "I really like it here. That volcano back there, though... Kinda scary looking.$8",
     "Blake.Dialogue.Resort": "I wish we could get everyone out here. You know, instead of Saturday hangouts by the fountain, we can have it here at the resort.$h",
+
+    //Trashcan
+    "Blake.Dialogue.DumpsterDiveComment": "Woah! Okay, I guess we're dumpster diving, huh?$11",
 
     //Elias
     "Elias.Dialogue.Introduction": "Hey, new farmer, yeah?#$b#I'm Elias, I work at the Sunberry Library. Hit me up if there's anythin' you'd like to know about Sunberry Village.",
@@ -4285,6 +4311,9 @@
     "Elias.Dialogue.Resort_Bar": "Here, let me get you a drink. Gotta stay hydrated with all the runnin' around you do. [350]",
     "Elias.Dialogue.Resort": "I wonder if Gunther has any books on this place. I don't recall finding anything about it in the Sunberry Library.",
 
+    //Trashcan
+    "Elias.Dialogue.DumpsterDiveComment": "*sigh*...For your sake, I'm gonna pretend I didn't see that.$8",
+
     //Ezra
     "Ezra.Dialogue.Introduction": "Oh! New face! Very pretty face, if I may say so.$h#$b#I'm Ezra, you should check out my store. You could be the most chic farmer in town!$6",
 
@@ -4382,6 +4411,9 @@
     "Ezra.Dialogue.Resort_Bar": "Nothing like a refreshing drink in this weather. Gus always surprises me with something new and he never disappoints.$h",
     "Ezra.Dialogue.Resort": "Hmm... Do you think I could explore that little area over there? Sometimes I hear music coming from there, but it's so faint.",
 
+    //Trashcan
+    "Ezra.Dialogue.DumpsterDiveComment": "...If you're going into my store anytime soon, please wash your hands first.$7",
+
     //Iman
     "Iman.Dialogue.Introduction": "Oh? Hello. The new farmer? Ah, doesn't really ring any bells. I might've not been paying attention when Ophelia let the rest of us know.#$b#I'm Iman. I'll see you around.",
 
@@ -4475,6 +4507,9 @@
     "Iman.Dialogue.Resort_Shore": "It took us a while to get here. I wonder what other places could be nearby.",
     "Iman.Dialogue.Resort_Bar": "I try not to drink too often, but hey, we're at a resort. No better time to drink.$h",
     "Iman.Dialogue.Resort": "I've got to get Elias to ramble about this place sometime. He gets very excited when you ask questions, it's adorable.$u",
+
+    //Trashcan
+    "Iman.Dialogue.DumpsterDiveComment": "Local farmer elbows deep in someone's trashcan. Great look.$10",
 
     //Jumana
     "Jumana.Dialogue.Introduction": "Ah, welcome, dear! Ophelia told us a new face would show up soon. I'm Jumana, Sunberry Village's florist.$h",
@@ -4570,6 +4605,9 @@
     "Jumana.Dialogue.Resort_Shore": "I wish my husband was here to see this place. He used to take me to all sorts of places when he was alive. Never a dull moment with that man.$4",
     "Jumana.Dialogue.Resort": "Oh, the trip on the boat was a little scary! I don't think I'm too fond of boats.$7",
 
+    //Trashcan
+    "Jumana.Dialogue.DumpsterDiveComment": "Oh, sweetheart. You don't need to do that. You're always welcome in our house if you need anything.$s",
+
     //Lyenne
     "Lyenne.Dialogue.Introduction": "Oh! You must be the new farmer. Ophelia was telling us about you the other day. I'm Lyenne.$h",
 
@@ -4662,6 +4700,9 @@
     "Lyenne.Dialogue.Resort_Leaving": "Oh, man. I tried getting Willy to let us stay a bit longer, but he didn't budge.$s",
     "Lyenne.Dialogue.Resort_Shore": "I took a few pictures of the ocean. I've got to try and paint it when I'm back home.$h",
     "Lyenne.Dialogue.Resort": "I built a sandcastle, but one of the crabs ran into it.$s",
+
+    //Trashcan
+    "Lyenne.Dialogue.DumpsterDiveComment": "Oh, dumpster diving today, huh? Hope you find something cool.$u",
 
     //Maia
     "Maia.Dialogue.Introduction": "Oh, hello. Don't think I've seen you around before. I'm Maia, I work alongside Silas at the blacksmith.",
@@ -4758,6 +4799,9 @@
     "Maia.Dialogue.Resort_Bar": "Ah, this is the good stuff. Always happy when I have some sort of drink in hand.$h",
     "Maia.Dialogue.Resort": "Hmm... I wonder what's up with that volcano. You been in there, @?",
 
+    //Trashcan
+    "Maia.Dialogue.DumpsterDiveComment": "...Okay, then. Carry on, farmer.$6",
+
     //Miyoung
     "Miyoung.Dialogue.Introduction": "Hm? Oh! You're the new farmer Ophelia mentioned on Saturday! It's so nice to meet you. I'm Miyoung. My husband is the very talented blacksmith here.$h#$b#OH! Not Clint, Silas. He works at the blacksmith in the Sunberry Mountains.$7",
 
@@ -4850,6 +4894,9 @@
     "Miyoung.Dialogue.Resort_Leaving": "I took so many pictures on my little camera! I'll have to frame them and hang them up in the house.$7",
     "Miyoung.Dialogue.Resort_Shore": "I think my sons would love this place! I know they've got resorts out there, but something about this place feels special.$u",
     "Miyoung.Dialogue.Resort": "Ooh, I saw the prettiest bird earlier! I'm not sure I've seen anything like it before.$h",
+
+    //Trashcan
+    "Miyoung.Dialogue.DumpsterDiveComment": "Oh, no. Dear, you... shouldn't be doing that. At least not with people around.$s",
 
     //Nadia
     "Nadia.Dialogue.Introduction": "Hey! It's good to finally, properly meet you. Didn't really get to introduce myself to you properly the other day, huh?$h#$b#I'm Nadia, Ezra's older sister. I'll see you around, farmer.$6",
@@ -4953,6 +5000,9 @@
     "Nadia.Dialogue.Resort_Bar": "Gus won't let me help. He says I already have to work at the diner all the time, but so does he!$s#$b#Gus! Please?$8",
     "Nadia.Dialogue.Resort": "If you make a snow angel but in the sand, is it called a sand angel?#$b#Also, there's sand... everywhere. I kinda regret this.$3",
 
+    //Trashcan
+    "Nadia.Dialogue.DumpsterDiveComment": "Well, well, well. Looks like I've caught the farmer red-handed. I'm just teasing, I don't care. Carry on.$6",
+
     //Ophelia
     "Ophelia.Dialogue.Introduction": "Hello, @. Lewis told me about you when I dropped by a few days ago. I'm Ophelia, I run Serenity Inn.#$b#Let me know if there's anything I could do to help you settle in.",
 
@@ -5047,6 +5097,9 @@
     "Ophelia.Dialogue.Resort_Shore": "I've always been intrigued by the ocean. So much left undiscovered... I wonder if we'll ever find out more.",
     "Ophelia.Dialogue.Resort_Bar": "Gus, one more drink, please.$h#$b#Can I get you anything, @?",
     "Ophelia.Dialogue.Resort": "Be careful when you explore this place. That volcano seems a little dangerous. Let me know if you need any help.",
+
+    //Trashcan
+    "Ophelia.Dialogue.DumpsterDiveComment": "@... We've got plenty of resources to spare at the inn if you're struggling. Just let me know.$s",
 
     //Pan
     "Pan.Dialogue.Introduction": "Placeholder.",
@@ -5205,6 +5258,9 @@
     "Silas.Dialogue.Resort_Shore": "I'd love to go for a swim, but I'm not sure I'm feeling up to it right now. The water's at a nice temperature, though.$h",
     "Silas.Dialogue.Resort": "Next time, I'm gonna pack some snacks.#$b#Let's just hope I don't eat them on the way here!$u",
 
+    //Trashcan
+    "Silas.Dialogue.DumpsterDiveComment": "Oh, dear. I suddenly feel very self conscious about everything I've thrown into the trash.$8",
+
     //Raccoon Dialogue
     //----------------
 
@@ -5213,7 +5269,7 @@
 
     //Spring
     "RaccoonDialogue.Spring.Monday.1": "The raccoon hisses at you. He throws a broken CD at your feet. It's still dripping from when he washed it. [171]#$t RaccoonCD 1",
-    "RaccoonDialogue.Spring.Monday.2": "The raccoon hands you a potato. He chitters happily. [192]",
+    "RaccoonDialogue.Spring.Monday.2": "The raccoon hands you a head of cauliflower. He chitters happily. [190]",
     "RaccoonDialogue.Spring.Monday.3": "The raccoon purrs. He hands you a rusty spoon. It's still wet from when he washed it. [110]",
     "RaccoonDialogue.Spring.Tuesday.1": "The raccoon snarls at you. He throws a soggy newspaper at your feet. It's soaking wet. [172]",
     "RaccoonDialogue.Spring.Tuesday.2": "The raccoon seems to be enjoying an apple. Better leave him be.",

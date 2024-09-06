@@ -114,7 +114,8 @@
 				//Birthday Hate
 				"AcceptBirthdayGift_(O)635": "{{i18n:Birthday.Orange.Aicha}}",
 				"AcceptBirthdayGift_category_milk": "{{i18n:Birthday.Milk.Aicha}}",
-
+				//Trashcan
+				"DumpsterDiveComment": "{{i18n:Aicha.Dialogue.DumpsterDiveComment}}"
 			},
 		},
 	]

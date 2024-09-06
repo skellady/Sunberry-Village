@@ -82,6 +82,8 @@
 				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Ophelia}}",
 				//Love
 				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Ophelia}}",
+				//Trashcan
+				"DumpsterDiveComment": "{{i18n:Ophelia.Dialogue.DumpsterDiveComment}}"
 			}
 		},
 		{

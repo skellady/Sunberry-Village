@@ -83,6 +83,8 @@
 				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Lyenne}}",
 				//Love
 				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Lyenne}}",
+				//Trashcan
+				"DumpsterDiveComment": "{{i18n:Lyenne.Dialogue.DumpsterDiveComment}}"
 			},
 		},
 	]
