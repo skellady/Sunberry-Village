@@ -3208,6 +3208,50 @@
     "Festivals.FFF.Maia": "One of those dresses would work really well for special occasions. I... I'm not sure if I'll get it, though.$6",
     "Festivals.FFF.Moon": "Fashion show! Maybe Moon can also model.$3#$b#Hmm... the clothes might not fit. Maybe Moon models hats only.$h",
 
+    //DSV Flower Queen's Crown
+    //Amina Queen	
+	"DSVFQC.Dialogue.AminaQueen.Amina": "Placeholder",
+	"DSVFQC.Dialogue.AminaQueen.Maia": "Placeholder",
+	"DSVFQC.Dialogue.AminaQueen.Jumana": "Placeholder",
+    //Ari Queen
+	"DSVFQC.Dialogue.AriQueen.Ari": "Placeholder",
+	"DSVFQC.Dialogue.AriQueen.AriSpouse": "Placeholder",
+	"DSVFQC.Dialogue.AriQueen.Blake": "Placeholder",
+	"DSVFQC.Dialogue.AriQueen.Elias": "Placeholder",
+    //Blake Queen
+	"DSVFQC.Dialogue.BlakeQueen.Blake": "Placeholder",
+	"DSVFQC.Dialogue.BlakeQueen.Ari": "Placeholder",
+	"DSVFQC.Dialogue.BlakeQueen.Elias": "Placeholder",
+	"DSVFQC.Dialogue.BlakeQueen.Lyenne": "Placeholder",
+	"DSVFQC.Dialogue.BlakeQueen.Ophelia": "Placeholder",
+    //Elias Queen
+	"DSVFQC.Dialogue.EliasQueen.Elias": "Placeholder",
+	"DSVFQC.Dialogue.EliasQueen.EliasSpouse": "Placeholder",
+	"DSVFQC.Dialogue.EliasQueen.Ari": "Placeholder",
+	"DSVFQC.Dialogue.EliasQueen.Blake": "Placeholder",
+    //Ezra Queen
+	"DSVFQC.Dialogue.EzraQueen.Ezra": "Placeholder",
+	"DSVFQC.Dialogue.EzraQueen.EzraSpouse": "Placeholder",
+	"DSVFQC.Dialogue.EzraQueen.Iman": "Placeholder",
+	"DSVFQC.Dialogue.EzraQueen.Nadia": "Placeholder",
+    //Iman Queen
+	"DSVFQC.Dialogue.ImanQueen.Iman": "Placeholder",
+	"DSVFQC.Dialogue.ImanQueen.ImanSpouse": "Placeholder",
+	"DSVFQC.Dialogue.ImanQueen.Ezra": "Placeholder",
+	"DSVFQC.Dialogue.ImanQueen.Nadia": "Placeholder",
+    //Lyenne Queen
+	"DSVFQC.Dialogue.LyenneQueen.Lyenne": "Placeholder",
+	"DSVFQC.Dialogue.LyenneQueen.LyenneSpouse": "Placeholder",
+	"DSVFQC.Dialogue.LyenneQueen.Blake": "Placeholder",
+	"DSVFQC.Dialogue.LyenneQueen.Ari": "Placeholder",
+	"DSVFQC.Dialogue.LyenneQueen.Elias": "Placeholder",
+	"DSVFQC.Dialogue.LyenneQueen.Ophelia": "Placeholder",
+    //Maia Queen
+	"DSVFQC.Dialogue.MaiaQueen.Maia": "Placeholder",
+	"DSVFQC.Dialogue.MaiaQueen.MaiaSpouse": "Placeholder",
+	"DSVFQC.Dialogue.MaiaQueen.Amina": "Placeholder",
+	"DSVFQC.Dialogue.MaiaQueen.Jumana": "Placeholder",
+
     //Dialogue
     //--------
 
