@@ -17,7 +17,7 @@
 			"Target": "Characters/schedules/DeryaSBV",
 			"Entries": {
 				"spring": "610 Custom_SBV_DDHouse 4 16 0/900 Custom_SBV_DialaCafe 5 8 0/1100 SeedShop 16 22 3/a1900 Saloon 25 18 2/2100 Custom_SBV_DDHouse 15 5 3 derya_sleep",
-				"Sun": "610 Custom_SBV_DDHouse 3 16 2/900 SeedShop 16 22 3/1600 Town 46 57 2 derya_phone/2100 Custom_SBV_DDHouse 15 5 3 derya_sleep",
+				"Sun": "610 Custom_SBV_DDHouse 3 16 2/900 SeedShop 16 22 3/1600 Town 46 57 2 derya_phone/1900 Custom_SBV_DDHouse 15 5 3 derya_sleep",
 				"Mon": "610 Custom_SBV_DialaCafe 26 7 2/1600 Custom_SBV_SunberryVillage 55 26 2 derya_phone/2100 Custom_SBV_DDHouse 15 5 3 derya_sleep",
 				"Tue": "610 Custom_SBV_DialaCafe 4 8 0/1200 Custom_SBV_SunberryVillage 85 15 2/2100 Custom_SBV_DDHouse 15 5 3 derya_sleep",
 				"Wed": "610 Custom_SBV_DialaCafe 26 7 2 \"Strings\\schedules\\DeryaSBV:FollowDerya.000\"/1400 Custom_SBV_AriMarket 16 26 0 \"Strings\\schedules\\DeryaSBV:FollowDerya.001\"/1800 Custom_SBV_SunberryVillage 55 26 2 \"Strings\\schedules\\DeryaSBV:FollowDerya.002\"/2200 Custom_SBV_DDHouse 15 5 3 \"Strings\\schedules\\DeryaSBV:FollowDerya.003\"",
