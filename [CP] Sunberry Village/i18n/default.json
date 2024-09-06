@@ -3217,47 +3217,52 @@
 
     //DSV Flower Queen's Crown
     //Amina Queen	
-	"DSVFQC.Dialogue.AminaQueen.Amina": "@! Look, I'm the flower queen! My mom and grandma are so happy.$h",
-	"DSVFQC.Dialogue.AminaQueen.Maia": "Look at my girl! I took so many pictures, my phone's complaining about storage.$h",
-	"DSVFQC.Dialogue.AminaQueen.Jumana": "Evelyn did such a good job on the flowers! That crown looks beautiful on Amina.$7",
+    "DSVFQC.Dialogue.AminaQueen.Amina": "@! Look, I'm the flower queen! My mom and grandma are so happy.$h",
+    "DSVFQC.Dialogue.AminaQueen.Maia": "Look at my girl! I took so many pictures, my phone's complaining about storage.$h",
+    "DSVFQC.Dialogue.AminaQueen.Jumana": "Evelyn did such a good job on the flowers! That crown looks beautiful on Amina.$7",
     //Ari Queen
-	"DSVFQC.Dialogue.AriQueen.Ari": "...$11#$b#I'M the flower queen? How?$4#$e#Well, at least I'm rocking this crown, aren't I?$13",
-	"DSVFQC.Dialogue.AriQueen.AriSpouse": "Hey, WE'RE the flower queens. My crown is yours, too.$u#$b#%Ari takes off the crown and places it on your head.",
-	"DSVFQC.Dialogue.AriQueen.Blake": "Never thought my dad would be the flower queen. I took a bunch of pictures. Lyenne and I are gonna print them out and frame them.$10",
-	"DSVFQC.Dialogue.AriQueen.Elias": "Hah, Ari's frozen in shock at bein' this year's flower queen. It's adorable.$u",
+    "DSVFQC.Dialogue.AriQueen.Ari": "...$11#$b#I'M the flower queen? How?$4#$e#Well, at least I'm rocking this crown, aren't I?$13",
+    "DSVFQC.Dialogue.AriQueen.AriSpouse": "Hey, WE'RE the flower queens. My crown is yours, too.$u#$b#%Ari takes off the crown and places it on your head.",
+    "DSVFQC.Dialogue.AriQueen.Blake": "Never thought my dad would be the flower queen. I took a bunch of pictures. Lyenne and I are gonna print them out and frame them.$10",
+    "DSVFQC.Dialogue.AriQueen.Elias": "Hah, Ari's frozen in shock at bein' this year's flower queen. It's adorable.$u",
     //Blake Queen
-	"DSVFQC.Dialogue.BlakeQueen.Blake": "HAH! Finally, the crown is mine. Bow before your queen, farmer.$10",
-	"DSVFQC.Dialogue.BlakeQueen.Ari": "Blake seems to be happy with the flower queen title. I just saw Lyenne and Abby bow down to him.$u#$b#%Ari sighs and shakes his head.",
-	"DSVFQC.Dialogue.BlakeQueen.Elias": "Y'know, Blake's' been wantin' this flower queen crown since he was little. I'm glad he got it today.$h",
-	"DSVFQC.Dialogue.BlakeQueen.Lyenne": "This flower queen is so demanding! Alas, I must remain loyal.$u#$b#Now, if you'll excuse me, I have to get back to our impromptu roleplay.$u",
-	"DSVFQC.Dialogue.BlakeQueen.Ophelia": "Seeing Blake and Lyenne goof around with that crown warms my heart.$h",
+    "DSVFQC.Dialogue.BlakeQueen.Blake": "HAH! Finally, the crown is mine. Bow before your queen, farmer.$10",
+    "DSVFQC.Dialogue.BlakeQueen.Ari": "Blake seems to be happy with the flower queen title. I just saw Lyenne and Abby bow down to him.$u#$b#%Ari sighs and shakes his head.",
+    "DSVFQC.Dialogue.BlakeQueen.Elias": "Y'know, Blake's' been wantin' this flower queen crown since he was little. I'm glad he got it today.$h",
+    "DSVFQC.Dialogue.BlakeQueen.Lyenne": "This flower queen is so demanding! Alas, I must remain loyal.$u#$b#Now, if you'll excuse me, I have to get back to our impromptu roleplay.$u",
+    "DSVFQC.Dialogue.BlakeQueen.Ophelia": "Seeing Blake and Lyenne goof around with that crown warms my heart.$h",
     //Elias Queen
-	"DSVFQC.Dialogue.EliasQueen.Elias": "I'm glad I styled my hair this mornin'. Wasn't expecting to be wearin' a crown today.$10#$b#%Elias winks at you and flips his hair.",
-	"DSVFQC.Dialogue.EliasQueen.EliasSpouse": "Well, well, well. Hello, my dear. Will you pledge loyalty to your new queen?$10#$b#Looks damn good on me, doesn't it?$u",
-	"DSVFQC.Dialogue.EliasQueen.Ari": "Elias has been flipping his hair at me since they gave him that damn crown. We get it, sir.$7",
-	"DSVFQC.Dialogue.EliasQueen.Blake": "My father's ego is big enough as is. This flower queen title is just gonna make him take it to the next level.$u",
+    "DSVFQC.Dialogue.EliasQueen.Elias": "I'm glad I styled my hair this mornin'. Wasn't expecting to be wearin' a crown today.$10#$b#%Elias winks at you and flips his hair.",
+    "DSVFQC.Dialogue.EliasQueen.EliasSpouse": "Well, well, well. Hello, my dear. Will you pledge loyalty to your new queen?$10#$b#Looks damn good on me, doesn't it?$u",
+    "DSVFQC.Dialogue.EliasQueen.Ari": "Elias has been flipping his hair at me since they gave him that damn crown. We get it, sir.$7",
+    "DSVFQC.Dialogue.EliasQueen.Blake": "My father's ego is big enough as is. This flower queen title is just gonna make him take it to the next level.$u",
     //Ezra Queen
-	"DSVFQC.Dialogue.EzraQueen.Ezra": "Hey, hey. Look! I'm this year's flower queen. Isn't that cool? The crown matches my outfit so well, too.$6",
-	"DSVFQC.Dialogue.EzraQueen.EzraSpouse": "Surprise! Your husband's the flower queen this year. You get bragging rights *and* a kiss.$u",
-	"DSVFQC.Dialogue.EzraQueen.Iman": "It's cute how happy Haley is for Ezra. You'd think she'd be mad she didn't win, but she's taking it well.$h",
-	"DSVFQC.Dialogue.EzraQueen.Nadia": "Placeholder",
+    "DSVFQC.Dialogue.EzraQueen.Ezra": "Hey, hey. Look! I'm this year's flower queen. Isn't that cool? The crown matches my outfit so well, too.$6",
+    "DSVFQC.Dialogue.EzraQueen.EzraSpouse": "Surprise! Your husband's the flower queen this year. You get bragging rights *and* a kiss.$u",
+    "DSVFQC.Dialogue.EzraQueen.Iman": "It's cute how happy Haley is for Ezra. You'd think she'd be mad she didn't win, but she's taking it well.$h",
+    "DSVFQC.Dialogue.EzraQueen.Nadia": "Way to go, little bro! I'm so proud of him.$1#$b#Now if you'll excuse me, I need to go publicly embarrass him.$6",
     //Iman Queen
-	"DSVFQC.Dialogue.ImanQueen.Iman": "Oh, wow. I... wasn't expecting this, I guess.$12#$b#I feel a little embarrassed with everyone looking, but Ezra's been cheering non-stop. It's cute.$u",
-	"DSVFQC.Dialogue.ImanQueen.ImanSpouse": "Hello, my love. Guess you're married to royalty now, huh?$10#$b#Come on, let's go dance and show off a little.$u",
-	"DSVFQC.Dialogue.ImanQueen.Ezra": "YEAH! that's my girl! Iman looks beautiful in that crown, doesn't she? I'm so happy she won.$u",
-	"DSVFQC.Dialogue.ImanQueen.Nadia": "Placeholder",
+    "DSVFQC.Dialogue.ImanQueen.Iman": "Oh, wow. I... wasn't expecting this, I guess.$12#$b#I feel a little embarrassed with everyone looking, but Ezra's been cheering non-stop. It's cute.$u",
+    "DSVFQC.Dialogue.ImanQueen.ImanSpouse": "Hello, my love. Guess you're married to royalty now, huh?$10#$b#Come on, let's go dance and show off a little.$u",
+    "DSVFQC.Dialogue.ImanQueen.Ezra": "YEAH! that's my girl! Iman looks beautiful in that crown, doesn't she? I'm so happy she won.$u",
+    "DSVFQC.Dialogue.ImanQueen.Nadia": "Wow, that crown really suits Iman. She looks gorgeous...$17#$b#Oh, uh, hey. Did I say anything out loud just now?$14#$b#We'll just keep that between ourselves for now, huh?$4",
     //Lyenne Queen
-	"DSVFQC.Dialogue.LyenneQueen.Lyenne": "Does the crown fit okay? I feel a little awkward in it.$7#$b#Abby said I look nice, though.$h",
-	"DSVFQC.Dialogue.LyenneQueen.LyenneSpouse": "Your girl's the flower queen, how's that feel?$u#$b#I don't like being in the spotlight, but being with you makes it a tad easier.$4",
-	"DSVFQC.Dialogue.LyenneQueen.Blake": "I'm glad Lyenne won. I know she hasn't been in the valley for long, but it's her home now. She's part of our family.$u",
-	"DSVFQC.Dialogue.LyenneQueen.Ari": "Lyenne is the closest thing to a daughter I'll ever have, and I'm so proud of her. Look at her go!$7#$b#%Ari sniffles. You think he might be on the verge of tears.",
-	"DSVFQC.Dialogue.LyenneQueen.Elias": "That crown compliments Lyenne's hair really well. You think I should dye my hair, too, farmer?$10",
-	"DSVFQC.Dialogue.LyenneQueen.Ophelia": "Ah, Lyenne. I know she doesn't like the attention, but I'm happy to see her fit in. She's a wonderful kid.$h",
+    "DSVFQC.Dialogue.LyenneQueen.Lyenne": "Does the crown fit okay? I feel a little awkward in it.$7#$b#Abby said I look nice, though.$h",
+    "DSVFQC.Dialogue.LyenneQueen.LyenneSpouse": "Your girl's the flower queen, how's that feel?$u#$b#I don't like being in the spotlight, but being with you makes it a tad easier.$4",
+    "DSVFQC.Dialogue.LyenneQueen.Blake": "I'm glad Lyenne won. I know she hasn't been in the valley for long, but it's her home now. She's part of our family.$u",
+    "DSVFQC.Dialogue.LyenneQueen.Ari": "Lyenne is the closest thing to a daughter I'll ever have, and I'm so proud of her. Look at her go!$7#$b#%Ari sniffles. You think he might be on the verge of tears.",
+    "DSVFQC.Dialogue.LyenneQueen.Elias": "That crown compliments Lyenne's hair really well. You think I should dye my hair, too, farmer?$10",
+    "DSVFQC.Dialogue.LyenneQueen.Ophelia": "Ah, Lyenne. I know she doesn't like the attention, but I'm happy to see her fit in. She's a wonderful kid.$h",
     //Maia Queen
-	"DSVFQC.Dialogue.MaiaQueen.Maia": "Oh. I feel a little underdressed for a flower queen.$h#$b#Amina's happy to see her mother win, though. She wanted to try on the crown, earlier.$9",
-	"DSVFQC.Dialogue.MaiaQueen.MaiaSpouse": "%Maia extends her hand.#$b#Would you like to dance with the flower queen? She'll ignore all the other suitors for a dance with you.$3",
-	"DSVFQC.Dialogue.MaiaQueen.Amina": "My mom is so cool! She looks sooo nice in that crown.$h",
-	"DSVFQC.Dialogue.MaiaQueen.Jumana": "You know, Maia was the flower queen once when she was younger! She was SO shy!$6",
+    "DSVFQC.Dialogue.MaiaQueen.Maia": "Oh. I feel a little underdressed for a flower queen.$h#$b#Amina's happy to see her mother win, though. She wanted to try on the crown, earlier.$9",
+    "DSVFQC.Dialogue.MaiaQueen.MaiaSpouse": "%Maia extends her hand.#$b#Would you like to dance with the flower queen? She'll ignore all the other suitors for a dance with you.$3",
+    "DSVFQC.Dialogue.MaiaQueen.Amina": "My mom is so cool! She looks sooo nice in that crown.$h",
+    "DSVFQC.Dialogue.MaiaQueen.Jumana": "You know, Maia was the flower queen once when she was younger! She was SO shy!$6",
+    //Nadia Queen
+    "DSVFQC.Dialogue.NadiaQueen.Nadia": "Me? Really?$15#$b#Sorry, I'm just a little surprised, that's all.$18#$b#I'm happy too though, don't get me wrong!$4",
+    "DSVFQC.Dialogue.NadiaQueen.Ezra": "Placeholder",
+    "DSVFQC.Dialogue.NadiaQueen.Iman": "Placeholder",
+
 
     //Dialogue
     //--------
@@ -4004,7 +4009,7 @@
     "Amina.Dialogue.GreenRain": "What's happening outside? It's scary.$s#$b#I wanna make sure Jas and Vincent are okay...$s",
     "Amina.Dialogue.GreenRainFinished": "I can't believe Vincent wanted to play outside yesterday... He's so brave.$3",
     "Amina.Dialogue.GreenRain_2": "Mom told me the weather isn't something to be afraid of. She said we can go look at the weird trees together!$3",
-   
+
     // Resort Dialogue
 
     //Vanilla
