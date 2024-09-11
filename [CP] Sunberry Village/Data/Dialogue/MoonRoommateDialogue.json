@@ -93,8 +93,8 @@
 				"Bad_8": "{{i18n:Moon.Roommate.Bad_8}}",
 				"Bad_9": "{{i18n:Moon.Roommate.Bad_9}}",
 				//Funleave and Funreturn Dialogue
-				"funLeave_MoonSBV": "{{Random: {{i18n:Moon.Roommate.funReturn_1}} ++ {{i18n:Moon.Roommate.funReturn_2}} ++ {{i18n:Moon.Roommate.funReturn_3}} |inputSeparator=++}}",
-				"funReturn_MoonSBV": "{{Random: {{i18n:Moon.Roommate.funLeave_1}} ++ {{i18n:Moon.Roommate.funLeave_2}} ++ {{i18n:Moon.Roommate.funLeave_3}} |inputSeparator=++}}",
+				"funLeave_MoonSBV": "{{Random: {{i18n:Moon.Roommate.funLeave_1}} ++ {{i18n:Moon.Roommate.funLeave_2}} ++ {{i18n:Moon.Roommate.funLeave_3}} |inputSeparator=++}}",
+				"funReturn_MoonSBV": "{{Random: {{i18n:Moon.Roommate.funReturn_1}} ++ {{i18n:Moon.Roommate.funReturn_2}} ++ {{i18n:Moon.Roommate.funReturn_3}} |inputSeparator=++}}",
 			},
 		},
 	]
