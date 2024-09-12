@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		{
+			"LogName": "Sprite Offsets NPCML",
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"DeryaSBV": {
+					"MarkerCropOffset": 3
+				},
+				"DialaSBV": {
+					"MarkerCropOffset": 3
+				},
+				"AichaSBV": {
+					"MarkerCropOffset": 3
+				},
+				"JumanaSBV": {
+					"MarkerCropOffset": 3
+				},
+				"AminaSBV": {
+					"MarkerCropOffset": 3
+				},
+				"PanSBV": {
+					"MarkerCropOffset": 3
+				},
+				"MiyoungSBV": {
+					"MarkerCropOffset": 3
+				},
+				"MoonSBV": {
+					"MarkerCropOffset": 3
+				},
+				"ImanSBV": {
+					"MarkerCropOffset": 3
+				},
+				"LyenneSBV": {
+					"MarkerCropOffset": 3
+				},
+			}
+		}
+	]
+}

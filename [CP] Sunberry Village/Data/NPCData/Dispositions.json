@@ -1116,6 +1116,33 @@
           "SpawnIfMissing": true,
           "Appearance": [
             {
+              "Id": "skellady.SBV.CPELiasSpring",
+              "Condition": "LOCATION_SEASON Here Spring",
+              "Portrait": "Portraits/EliasSBV/EliasSBV_Spring",
+              "Sprite": "Characters/EliasSBV/EliasSBV_Spring",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPELiasSummer",
+              "Condition": "LOCATION_SEASON Here Summer",
+              "Portrait": "Portraits/EliasSBV/EliasSBV_Summer",
+              "Sprite": "Characters/EliasSBV/EliasSBV_Summer",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
+              "Id": "skellady.SBV.CPELiasFall",
+              "Condition": "LOCATION_SEASON Here Fall",
+              "Portrait": "Portraits/EliasSBV/EliasSBV_Fall",
+              "Sprite": "Characters/EliasSBV/EliasSBV_Fall",
+              "IsIslandAttire": false,
+              "Precedence": -100,
+              "Weight": 0
+            },
+            {
               "Id": "skellady.SBV.CPELiasWinter",
               "Condition": "LOCATION_SEASON Here Winter",
               "Portrait": "Portraits/EliasSBV/EliasSBV_Winter",
