@@ -80,6 +80,17 @@
                             },
                             "TargetDirection": "down"
                         },
+                        {
+                            "Id": "{{ModId}}_SBVFarm",
+                            "DisplayName": "{{i18n:Sunberry.Locations.SunberryFarm}}",
+                            "Condition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received, PLAYER_HAS_SEEN_EVENT Host Farm_UnlockEvent",
+                            "TargetLocation": "Custom_SBV_SunberryFarm",
+                            "TargetTile": {
+                                "X": 26,
+                                "Y": 9
+                            },
+                            "TargetDirection": "down"
+                        },
                     ]
                 }
             }

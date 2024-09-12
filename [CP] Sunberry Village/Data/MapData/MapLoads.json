@@ -43,6 +43,12 @@
       "Target": "Maps/Custom_SBV_SecretForest2",
       "FromFile": "Assets/Maps/ExteriorMaps/SecretForest2.tmx"
     },
+    {
+      "LogName": "Load Sunberry Farm Map",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SunberryFarm",
+      "FromFile": "Assets/Maps/ExteriorMaps/SunberryFarm.tmx"
+    },
     // Load Interior Maps
     {
       "LogName": "Load Ari Market",
@@ -321,6 +327,12 @@
       "Action": "Load",
       "Target": "Maps/Custom_SBV_TwilightFestival",
       "FromFile": "Assets/Maps/ExteriorMaps/TwilightFestival.tmx"
+    },
+    {
+      "LogName": "Load Sunberry House Map",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_SunberryHouse",
+      "FromFile": "Assets/Maps/InteriorMaps/SunberryHouse.tmx"
     }
   ]
 }
