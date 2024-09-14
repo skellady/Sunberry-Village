@@ -23,7 +23,7 @@
       }
     },
     // SDVR3 Entrance Patch
-    {
+    /*{
       "Action": "EditMap",
       "Target": "Maps/Town",
       "PatchMode": "Replace",
@@ -44,7 +44,7 @@
         "HasMod: |contains=DaisyNiko.SVR3": true,
         "SDVR3Patch": true
       }
-    },
+    },*/
     // Saturday Hangout Patch
     {
       "Action": "EditMap",

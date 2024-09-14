@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="21" height="18" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="173">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="229">
  <properties>
   <property name="AmbientLight" value="95 95 95"/>
-  <property name="FloorIDs" value="Bedroom, Kitchen, Main, Separator"/>
-  <property name="WallIDs" value="Bedroom, Kitchen, Main, Separator"/>
+  <property name="FloorIDs" value="skellady.SBVCP_Bedroom, skellady.SBVCP_Kitchen, skellady.SBVCP_Main, skellady.SBVCP_Separator"/>
+  <property name="WallIDs" value="skellady.SBVCP_Bedroom, skellady.SBVCP_Kitchen, skellady.SBVCP_Main, skellady.SBVCP_Separator"/>
  </properties>
  <tileset firstgid="1" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
   <image source="townInterior.png" width="512" height="1088"/>
@@ -32,876 +32,283 @@
  <tileset firstgid="13291" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
   <image source="walls_and_floors.png" width="256" height="688"/>
  </tileset>
- <layer id="1" name="Back" width="21" height="18">
+ <tileset firstgid="13979" name="farmhouse_tiles" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles.png" width="192" height="352"/>
+ </tileset>
+ <layer id="1" name="Back" width="23" height="19">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,13494,13494,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,13494,13510,13510,13494,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,13494,13510,13526,13526,13510,13494,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,13494,13510,13526,0,0,13526,13510,13494,0,0,0,0,0,0,0,0,0,0,0,0,
-0,13510,13526,13628,13627,13628,13627,13526,13510,0,0,13494,13494,13494,13494,13494,13494,13494,13494,13494,0,
-0,13526,13643,13644,13643,13644,13643,13644,13526,13494,13494,13510,13510,13510,13510,13510,13510,13510,13510,13510,0,
-0,13627,13628,13627,13628,13627,13628,13627,13628,13510,13510,13526,13526,13526,13526,13526,13526,13526,13526,13526,0,
-0,13643,13644,13643,13644,13643,13644,13643,13644,13526,13526,13627,13628,13627,13628,13627,13628,13627,13628,13627,13628,
-0,13627,13628,13627,13628,13627,13628,13627,13628,13627,13628,13643,13644,13643,13644,13643,13644,13643,13644,13643,13644,
-0,13643,13644,13643,13644,13643,13644,13643,13644,13643,13644,13627,13628,13627,13628,13627,13628,13627,13628,13627,13628,
-0,13494,13494,13494,13494,13494,13494,13627,13628,0,0,13643,13644,13643,13644,13643,13644,13643,13644,13643,13644,
-0,13510,13510,13510,13510,13510,13510,13643,13644,0,0,0,0,0,0,13627,13628,0,0,0,0,
-0,13526,13628,13627,13628,13627,13628,13627,13628,0,0,0,0,0,0,0,0,0,0,0,0,
-0,13643,13644,13643,13644,13643,13644,13643,13644,0,0,0,0,0,0,0,0,0,0,0,0,
-0,13627,13628,13627,13628,13627,13628,13627,13628,0,0,0,0,0,0,0,0,0,0,0,0,
-0,13643,13644,13643,13644,13643,13644,13643,13644,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,13494,13494,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,13494,13510,13510,13494,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,13494,13510,13510,13510,13510,13494,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,13494,13510,13526,13526,13526,13526,13510,13494,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,13494,13510,13526,0,0,13526,13510,13526,13510,13494,0,0,0,0,0,0,0,0,0,0,0,0,
+0,13510,13526,13628,13627,13628,13627,13628,13627,13526,13510,13494,13494,13494,13494,13494,13494,13494,13494,13494,13494,13494,0,
+0,13526,13643,13644,13643,13644,13643,13644,13643,13644,13526,13510,13510,13510,13510,13510,13510,13510,13510,13510,13510,13510,0,
+0,13627,13628,13627,13628,13627,13628,13627,13628,13627,13628,13526,13526,13526,13526,13526,13526,13526,13526,13526,13526,13526,0,
+0,13643,13644,13643,13644,13643,13644,13643,13644,13643,13644,13627,13628,13627,13628,13627,13628,13627,13628,13627,13628,13627,13628,
+0,13627,13628,13627,13628,13627,13628,13627,13628,13627,13628,13643,13644,13643,13644,13643,13644,13643,13644,13643,13644,13643,13644,
+0,13643,13644,13643,13644,13643,13644,13643,13644,13643,13644,13627,13628,13627,13628,13627,13628,13627,13628,13627,13628,13627,13628,
+0,13494,13494,13494,13494,13494,13494,13627,13628,13627,13628,13643,13644,13643,13644,13643,13644,13643,13644,13643,13644,13643,13644,
+0,13510,13510,13510,13510,13510,13510,13643,13644,13643,13644,0,0,0,0,0,13628,13627,13628,0,0,0,0,
+0,13526,13628,13627,13628,13627,13628,13627,13628,0,0,0,0,0,0,0,0,13643,13644,0,0,0,0,
+0,13643,13644,13643,13644,13643,13644,13643,13644,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,13627,13628,13627,13628,13627,13628,13627,13628,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,13643,13644,13643,13644,13643,13644,13643,13644,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="12" name="Back+1" width="23" height="19">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,9093,9094,9095,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,9149,9150,9151,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,9096,9097,9098,9205,9206,9207,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,9152,9153,9154,0,0,0,0,0,0,0,0,0,0,9093,9094,9095,0,0,0,0,
+0,0,0,9208,9209,9210,0,0,0,0,0,0,0,0,0,0,9149,9150,9151,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,9205,9206,9207,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="2" name="Back">
-  <object id="1" name="TileData" x="16" y="160" width="16" height="16">
+  <object id="41" name="TileData" x="48" y="96" width="96" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="FloorID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="2" name="TileData" x="32" y="160" width="16" height="16">
+  <object id="43" name="TileData" x="112" y="192" width="32" height="96">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="FloorID" value="skellady.SBVCP_Kitchen"/>
    </properties>
   </object>
-  <object id="3" name="TileData" x="48" y="160" width="16" height="16">
+  <object id="74" name="TileData" x="176" y="160" width="32" height="32">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="FloorID" value="skellady.SBVCP_Separator"/>
    </properties>
   </object>
-  <object id="4" name="TileData" x="64" y="160" width="16" height="16">
+  <object id="77" name="TileData" x="208" y="144" width="144" height="64">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="FloorID" value="skellady.SBVCP_Main"/>
    </properties>
   </object>
-  <object id="5" name="TileData" x="80" y="160" width="16" height="16">
+  <object id="123" name="TileData" x="80" y="16" width="32" height="48">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="6" name="TileData" x="96" y="160" width="16" height="16">
+  <object id="141" name="TileData" x="208" y="96" width="144" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Main"/>
    </properties>
   </object>
-  <object id="7" name="TileData" x="112" y="160" width="16" height="16">
+  <object id="150" name="TileData" x="16" y="192" width="96" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Kitchen"/>
    </properties>
   </object>
-  <object id="8" name="TileData" x="128" y="160" width="16" height="16">
+  <object id="171" name="TileData" x="176" y="112" width="32" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Separator"/>
    </properties>
   </object>
-  <object id="9" name="TileData" x="128" y="144" width="16" height="16">
+  <object id="172" name="TileData" x="16" y="208" width="16" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Kitchen"/>
    </properties>
   </object>
-  <object id="10" name="TileData" x="128" y="128" width="16" height="16">
+  <object id="176" name="TileData" x="32" y="112" width="128" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="FloorID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="11" name="TileData" x="128" y="112" width="16" height="16">
+  <object id="182" name="TileData" x="16" y="128" width="160" height="64">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="FloorID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="12" name="TileData" x="112" y="112" width="16" height="16">
+  <object id="217" name="TileData" x="272" y="208" width="16" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="FloorID" value="skellady.SBVCP_Main"/>
    </properties>
   </object>
-  <object id="13" name="TileData" x="112" y="128" width="16" height="16">
+  <object id="218" name="TileData" x="16" y="240" width="96" height="48">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="FloorID" value="skellady.SBVCP_Kitchen"/>
    </properties>
   </object>
-  <object id="14" name="TileData" x="112" y="144" width="16" height="16">
+  <object id="219" name="TileData" x="128" y="48" width="16" height="32">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="15" name="TileData" x="96" y="144" width="16" height="16">
+  <object id="220" name="TileData" x="64" y="32" width="16" height="32">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="16" name="TileData" x="96" y="128" width="16" height="16">
+  <object id="221" name="TileData" x="48" y="48" width="16" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="17" name="TileData" x="80" y="128" width="16" height="16">
+  <object id="222" name="TileData" x="32" y="64" width="16" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="18" name="TileData" x="80" y="144" width="16" height="16">
+  <object id="223" name="TileData" x="112" y="32" width="16" height="32">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="19" name="TileData" x="64" y="144" width="16" height="16">
+  <object id="224" name="TileData" x="144" y="64" width="16" height="32">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="20" name="TileData" x="64" y="128" width="16" height="16">
+  <object id="225" name="TileData" x="16" y="80" width="16" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="21" name="TileData" x="48" y="128" width="16" height="16">
+  <object id="226" name="TileData" x="160" y="80" width="16" height="32">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="22" name="TileData" x="48" y="144" width="16" height="16">
+  <object id="228" name="TileData" x="144" y="192" width="32" height="16">
    <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="23" name="TileData" x="32" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="24" name="TileData" x="32" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="25" name="TileData" x="16" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="26" name="TileData" x="16" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="27" name="TileData" x="16" y="112" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="28" name="TileData" x="32" y="112" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="29" name="TileData" x="32" y="96" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="30" name="TileData" x="48" y="96" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="31" name="TileData" x="48" y="112" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="32" name="TileData" x="64" y="112" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="33" name="TileData" x="64" y="96" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="34" name="TileData" x="80" y="96" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="35" name="TileData" x="80" y="112" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="36" name="TileData" x="96" y="112" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="37" name="TileData" x="96" y="96" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="38" name="TileData" x="96" y="80" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="39" name="TileData" x="80" y="80" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="40" name="TileData" x="64" y="80" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="41" name="TileData" x="48" y="80" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="42" name="TileData" x="112" y="96" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="43" name="TileData" x="112" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="44" name="TileData" x="128" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="45" name="TileData" x="128" y="192" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="46" name="TileData" x="112" y="192" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="47" name="TileData" x="112" y="208" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="48" name="TileData" x="128" y="208" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="49" name="TileData" x="128" y="224" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="50" name="TileData" x="112" y="224" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="51" name="TileData" x="112" y="240" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="52" name="TileData" x="128" y="240" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="53" name="TileData" x="128" y="256" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="54" name="TileData" x="112" y="256" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="55" name="TileData" x="96" y="256" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="56" name="TileData" x="96" y="240" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="57" name="TileData" x="96" y="224" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="58" name="TileData" x="80" y="224" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="59" name="TileData" x="64" y="224" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="60" name="TileData" x="48" y="224" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="61" name="TileData" x="32" y="224" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="62" name="TileData" x="16" y="224" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="63" name="TileData" x="16" y="240" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="64" name="TileData" x="16" y="256" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="65" name="TileData" x="32" y="256" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="66" name="TileData" x="32" y="240" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="67" name="TileData" x="48" y="240" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="68" name="TileData" x="48" y="256" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="69" name="TileData" x="64" y="256" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="70" name="TileData" x="64" y="240" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="71" name="TileData" x="80" y="240" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="72" name="TileData" x="80" y="256" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="73" name="TileData" x="144" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Separator"/>
-   </properties>
-  </object>
-  <object id="74" name="TileData" x="144" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Separator"/>
-   </properties>
-  </object>
-  <object id="75" name="TileData" x="160" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Separator"/>
-   </properties>
-  </object>
-  <object id="76" name="TileData" x="160" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Separator"/>
-   </properties>
-  </object>
-  <object id="77" name="TileData" x="176" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="78" name="TileData" x="192" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="79" name="TileData" x="208" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="80" name="TileData" x="224" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="81" name="TileData" x="240" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="82" name="TileData" x="256" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="83" name="TileData" x="272" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="84" name="TileData" x="288" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="85" name="TileData" x="304" y="128" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="95" name="TileData" x="176" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="96" name="TileData" x="192" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="97" name="TileData" x="208" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="98" name="TileData" x="224" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="99" name="TileData" x="240" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="100" name="TileData" x="256" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="101" name="TileData" x="272" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="102" name="TileData" x="288" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="103" name="TileData" x="304" y="144" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="104" name="TileData" x="304" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="105" name="TileData" x="288" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="106" name="TileData" x="272" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="107" name="TileData" x="256" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="108" name="TileData" x="240" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="109" name="TileData" x="224" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="110" name="TileData" x="208" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="111" name="TileData" x="192" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="112" name="TileData" x="176" y="160" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="113" name="TileData" x="176" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="114" name="TileData" x="192" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="115" name="TileData" x="208" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="116" name="TileData" x="224" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="117" name="TileData" x="240" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="118" name="TileData" x="240" y="192" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="119" name="TileData" x="256" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="120" name="TileData" x="288" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="121" name="TileData" x="272" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="122" name="TileData" x="304" y="176" width="16" height="16">
-   <properties>
-    <property name="FloorID" value="Main"/>
-   </properties>
-  </object>
-  <object id="123" name="TileData" x="64" y="16" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="124" name="TileData" x="64" y="32" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="125" name="TileData" x="80" y="32" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="126" name="TileData" x="80" y="16" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="127" name="TileData" x="96" y="32" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="128" name="TileData" x="96" y="48" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="129" name="TileData" x="112" y="48" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="130" name="TileData" x="48" y="48" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="131" name="TileData" x="48" y="32" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="132" name="TileData" x="32" y="48" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="133" name="TileData" x="32" y="64" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="134" name="TileData" x="16" y="64" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="135" name="TileData" x="16" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="136" name="TileData" x="112" y="64" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="137" name="TileData" x="128" y="64" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="138" name="TileData" x="128" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Bedroom"/>
-   </properties>
-  </object>
-  <object id="140" name="TileData" x="160" y="96" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Separator"/>
-   </properties>
-  </object>
-  <object id="141" name="TileData" x="176" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Main"/>
-   </properties>
-  </object>
-  <object id="150" name="TileData" x="96" y="176" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="157" name="TileData" x="192" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Main"/>
-   </properties>
-  </object>
-  <object id="158" name="TileData" x="208" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Main"/>
-   </properties>
-  </object>
-  <object id="159" name="TileData" x="224" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Main"/>
-   </properties>
-  </object>
-  <object id="160" name="TileData" x="240" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Main"/>
-   </properties>
-  </object>
-  <object id="161" name="TileData" x="256" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Main"/>
-   </properties>
-  </object>
-  <object id="162" name="TileData" x="272" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Main"/>
-   </properties>
-  </object>
-  <object id="163" name="TileData" x="288" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Main"/>
-   </properties>
-  </object>
-  <object id="164" name="TileData" x="304" y="80" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Main"/>
-   </properties>
-  </object>
-  <object id="165" name="TileData" x="80" y="176" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="166" name="TileData" x="64" y="176" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="167" name="TileData" x="48" y="176" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="168" name="TileData" x="32" y="176" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="169" name="TileData" x="16" y="176" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Kitchen"/>
-   </properties>
-  </object>
-  <object id="171" name="TileData" x="144" y="96" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Separator"/>
-   </properties>
-  </object>
-  <object id="172" name="TileData" x="16" y="192" width="16" height="16">
-   <properties>
-    <property name="WallID" value="Kitchen"/>
+    <property name="FloorID" value="skellady.SBVCP_Kitchen"/>
    </properties>
   </object>
  </objectgroup>
- <layer id="3" name="Buildings" width="21" height="18">
+ <layer id="3" name="Buildings" width="23" height="19">
   <data encoding="csv">
-1,1,1,1,16,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
-1,1,1,16,42,44,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
-1,1,16,42,0,0,44,17,1,1,1,1,1,1,1,1,1,1,1,1,1,
-1,16,42,74,75,75,76,44,17,1,1,1,1,1,1,1,1,1,1,1,1,
-33,42,74,106,107,107,108,76,44,37,10,3,3,3,3,3,3,3,3,3,12,
-65,74,106,138,0,0,140,108,76,194,195,0,0,0,0,0,0,0,0,0,69,
-65,106,138,0,0,0,0,140,108,55,56,75,75,75,75,75,75,75,75,75,69,
-65,138,0,0,0,0,0,0,140,87,88,107,107,107,107,107,107,107,107,107,69,
-65,0,0,0,0,0,0,0,0,119,120,0,0,0,0,0,0,0,0,0,69,
-65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,
-161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,
-33,42,49,49,49,49,49,0,0,69,97,0,0,0,0,0,0,0,0,0,131,
-65,74,75,75,75,75,88,0,0,69,1,1,1,1,97,0,131,1,1,1,1,
-65,106,107,107,107,107,120,0,0,69,1,1,1,1,1,1,1,1,1,1,1,
-65,138,497,498,499,500,501,0,0,69,1,1,1,1,1,1,1,1,1,1,1,
-65,496,0,0,0,0,0,0,0,69,1,1,1,1,1,1,1,1,1,1,1,
-97,0,0,0,0,0,0,0,0,131,1,1,1,1,1,1,1,1,1,1,1,
-1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
+1,1,1,1,1,16,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,16,42,44,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,16,42,0,0,44,17,1,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,16,42,0,0,0,0,44,17,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,16,42,74,75,75,75,75,76,44,17,1,1,1,1,1,1,1,1,1,1,1,1,
+33,42,74,106,107,107,107,107,108,76,44,37,10,3,3,3,3,3,3,3,3,3,12,
+65,74,106,138,8161,7533,7534,7535,140,108,76,194,195,0,0,0,0,0,0,0,0,0,69,
+65,106,138,0,0,0,0,0,0,140,108,55,56,75,75,75,75,75,75,75,75,75,69,
+65,138,9087,9088,9089,0,8413,9167,9168,0,140,87,88,107,107,107,107,107,107,107,107,107,69,
+65,0,0,0,0,0,0,9223,9224,0,8581,119,120,7749,7750,7751,7649,7650,7651,7752,7753,7754,69,
+65,0,9199,9200,9201,0,0,1180,0,0,0,0,0,0,0,0,0,0,0,0,8313,8314,69,
+161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8201,8202,69,
+33,42,49,49,49,49,49,0,0,8821,8822,131,97,0,0,0,0,0,0,0,0,8317,131,
+65,74,75,75,75,75,88,0,0,69,1,1,1,1,1,1,97,0,131,1,1,1,1,
+65,106,107,107,107,107,120,0,0,69,1,1,1,1,1,1,1,1,1,1,1,1,1,
+65,138,14148,14149,14150,14151,14152,0,0,69,1,1,1,1,1,1,1,1,1,1,1,1,1,
+65,496,0,0,0,0,0,0,0,69,1,1,1,1,1,1,1,1,1,1,1,1,1,
+97,0,0,0,0,0,0,0,0,131,1,1,1,1,1,1,1,1,1,1,1,1,1,
+1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1
 </data>
  </layer>
- <layer id="11" name="Buildings+1" width="21" height="18">
+ <layer id="11" name="Buildings+1" width="23" height="19">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8975,8976,8977,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
- <layer id="5" name="Paths" width="21" height="18">
+ <layer id="5" name="Paths" width="23" height="19">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,2185,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,
-0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2185,0,0,
-0,2185,0,0,0,2185,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,2185,0,0,0,0,0,0,0,0,0,2185,0,0,2185,0,0,0,
-0,0,2185,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,2185,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,0,0,
+0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2185,0,0,0,0,
+0,2185,0,0,0,2185,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,2185,0,0,0,0,0,0,0,0,0,2185,0,0,2185,0,0,0,0,0,
+0,0,2185,0,0,0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,2185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="6" name="Paths"/>
- <layer id="7" name="Front" width="21" height="18">
+ <layer id="7" name="Front" width="23" height="19">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,193,166,166,166,166,198,0,0,164,163,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,166,166,166,163,0,164,166,166,166,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,0,0,0,0,0,
-0,0,465,466,467,468,469,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,464,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,166,166,166,166,166,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,8105,7477,7478,7479,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,8662,0,8863,8864,8865,0,8663,0,0,
+0,0,9031,9032,9033,0,8357,9111,9112,0,0,0,0,8665,0,0,8919,8920,8921,0,0,8666,0,
+0,0,0,0,0,0,0,0,0,0,8525,0,0,7693,7694,7695,7593,7594,7595,7696,7697,7698,0,
+0,0,9143,9144,9145,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8257,8258,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8145,8146,0,
+0,193,166,166,166,166,198,0,0,8765,8766,164,163,0,0,0,0,0,0,0,0,8261,0,
+0,0,0,0,0,0,0,0,0,164,197,0,0,166,166,166,163,0,164,166,166,166,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,166,0,0,0,0,0,
+0,0,14136,14137,14138,14139,14140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,464,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,166,166,166,166,166,166,166,166,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="8" name="Front"/>
- <layer id="9" name="AlwaysFront" width="21" height="18">
+ <layer id="9" name="AlwaysFront" width="23" height="19">
   <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,436,437,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,7366,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,7421,7422,7423,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,7585,7582,7583,0,0,7582,7584,7585,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,7638,7639,0,10098,0,7640,7641,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8089,8090,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,14124,0,14126,14127,14128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>

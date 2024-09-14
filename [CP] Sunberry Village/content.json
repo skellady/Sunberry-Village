@@ -341,11 +341,11 @@
         }
     ],
     "ConfigSchema": {
-        "SDVR3Patch": {
+        /*"SDVR3Patch": {
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "{{i18n:config.SDVR3Patch.description}}"
-        },
+        },*/
         "FestivalPatches": {
             "AllowValues": "true, false",
             "Default": "true",
