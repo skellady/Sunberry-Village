@@ -1,5 +1,4 @@
 using StardewModdingAPI;
-using SunberryVillage.Utilities;
 
 namespace SunberryVillage;
 
@@ -11,5 +10,6 @@ public class ModEntry : Mod
 		EventHookManager.InitializeEventHooks();
 		ConsoleCommandManager.InitializeConsoleCommands();
 		HarmonyPatcher.ApplyPatches();
+		HarmonyPatcher.ApplyConditionalPatches();
 	}
 }

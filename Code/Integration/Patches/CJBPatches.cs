@@ -10,7 +10,7 @@ using System.Reflection.Emit;
 // ReSharper disable RedundantAssignment
 // ReSharper disable InconsistentNaming
 
-namespace SunberryVillage.Integration;
+namespace SunberryVillage.Integration.Patches;
 
 // Boilerplate suppression for Harmony patch files
 #pragma warning disable IDE0079 // Remove unnecessary suppression
@@ -29,8 +29,6 @@ internal class CJBPatches
 	/// <summary>
 	/// Patches <c>CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat</c> to treat Sunberry mines as caves for the freeze time cheat.
 	/// </summary>
-	[HarmonyPatch("CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat", "ShouldFreezeTime")]
-	[HarmonyTranspiler]
 	public static IEnumerable<CodeInstruction> ShouldFreezeTime_Transpiler(IEnumerable<CodeInstruction> instructions)
 	{
 		List<CodeInstruction> origInstructions = new(instructions); // store unaltered instructions in case anything goes wrong
