@@ -35,6 +35,13 @@
       "Action": "Load",
       "Target": "Characters/DialaSBV/DialaSBV_SpiritsEve, Characters/DeryaSBV/DeryaSBV_SpiritsEve, Characters/MoonSBV/MoonSBV_SpiritsEve",
       "FromFile": "Assets/{{Target}}.png"
+    },
+    // Raccoon Portrait
+    {
+      "LogName": "Raccoon Portrait",
+      "Action": "Load",
+      "Target": "Portraits/SBVRaccoon",
+      "FromFile": "Assets/Maps/tempActors/SBVRaccoonPortrait.png"
     }
   ]
 }
