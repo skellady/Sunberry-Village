@@ -11,7 +11,7 @@
             "Action": "EditData",
             "Target": "Mods/skellady.SBVCP/SOEmojisData",
             "Entries": {
-                "AichaSVB": 0,
+                "AichaSBV": 0,
                 "AminaSBV": 1,
                 "AriSBV": 2,
                 "BlakeSBV": 3,
