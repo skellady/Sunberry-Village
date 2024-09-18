@@ -890,8 +890,20 @@
                                     "Value": "PICK_ITEM Void Salmon"
                                 },
                                 {
-                                    "RequiredTags": "",
+                                    "RequiredTags": "season_spring",
                                     "Value": "PICK_ITEM Ice Pip, Lava Eel, skellady.SBVCP_EeltailedCatfish"
+                                },
+                                {
+                                    "RequiredTags": "season_summer",
+                                    "Value": "PICK_ITEM Ice Pip, Lava Eel, skellady.SBVCP_EeltailedCatfish"
+                                },
+                                {
+                                    "RequiredTags": "season_fall",
+                                    "Value": "PICK_ITEM Ice Pip, Lava Eel"
+                                },
+                                {
+                                    "RequiredTags": "season_winter",
+                                    "Value": "PICK_ITEM Ice Pip, Lava Eel"
                                 }
                             ]
                         }
