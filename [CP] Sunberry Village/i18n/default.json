@@ -3678,11 +3678,11 @@
     //Good/Neutral/Bad Dialogue
     "Moon.Roommate.Good_0": "Moon is so glad she met you.$4#$b#Thank you for supporting Moon all the time.$h#$b#Moon supports @, too.$h",
     "Moon.Roommate.Good_1": "%Moon jumps to hold your hand.#$b#Want to go on a walk with Moon?$u",
-    "Moon.Roommate.Good_2": "Moon got help from Diala to make this for you! [223 651 211]$h#$b#Moon hopes you enjoy them, Moon made them with love.$4",
+    "Moon.Roommate.Good_2": "Moon got help from Diala to make this for you!$h#$b#Moon hopes you enjoy them, Moon made them with love. [223 651 211]$4",
     "Moon.Roommate.Good_3": "Moon found a good recipe for cake! Coconut cake!$u#$b#Does @ want to help Moon make it?$h",
     "Moon.Roommate.Good_4": "Moon learned how to make good protection spells!$u#$b#Moon protects @ and our house.$4",
     "Moon.Roommate.Good_5": "Moon went to play with the cats at the cafe!$h#$b#Derya played with us too.",
-    "Moon.Roommate.Good_6": "Moon made this for @! [403]$h#$b#It should give you some energy to finish your chores.$h",
+    "Moon.Roommate.Good_6": "Moon made this for @!$h#$b#It should give you some energy to finish your chores. [403]$h",
     "Moon.Roommate.Good_7": "Does @ want to read the comic Moon bought?$u#$b#It has superheroes! They can fly!$u",
     "Moon.Roommate.Good_8": "%Moon seems to be reading something off of a paper.#$b#Oh, @! Moon is studying today.$h",
     "Moon.Roommate.Good_9": "Do you wanna play hide and seek with Moon?$u#$b#Moon promises she will go easy on you.$h",
