@@ -1718,9 +1718,9 @@
     // PlayerKilled in Sunberry Areas
     "SBV.PlayerKilled.01": "...{{PlayerName}}?",
     "SBV.PlayerKilled.02": "Careful, now. Don't move.",
-    "SBV.PlayerKilled.03": "@... We found you in the Sunberry Mines earlier. We worried sick!$s",
+    "SBV.PlayerKilled.03": "@... We found you in the mines north of Sunberry earlier. We were worried sick!$s",
     "SBV.PlayerKilled.04": "We patched you up as best as we could. You should still check in with Harvey soon.$7",
-    "SBV.PlayerKilled.05": "We called Marlon over, he might have some of your missing items. Please, be careful next time.$s",
+    "SBV.PlayerKilled.05": "We called Marlon over, he might have been able to retrieve some of the items you dropped. Please, be careful next time.$s",
     "SBV.PlayerKilled.06": "I feel better thanks to Maia and Ophelia. I should still get some rest, though.",
 
     // Moon's Moonberry Shop Event
