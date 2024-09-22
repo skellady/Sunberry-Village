@@ -2397,9 +2397,9 @@
                             "IsBossFish": "true",
                             "CatchLimit": 1,
                             "BobberPosition": {
-                                "X": 28,
+                                "X": 26,
                                 "Y": 26,
-                                "Width": 5,
+                                "Width": 8,
                                 "Height": 3
                             },
                             "SetFlagOnCaught": "{{ModId}}_AberrantCaught"
