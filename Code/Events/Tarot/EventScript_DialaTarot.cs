@@ -38,8 +38,7 @@ internal class EventScriptDialaTarot : ICustomEventScript
 
 	public EventScriptDialaTarot()
 	{
-		_screenCenterPosition = new Vector2(Game1.graphics.GraphicsDevice.Viewport.Width / 2f,
-			Game1.graphics.GraphicsDevice.Viewport.Height / 2f);
+		_screenCenterPosition = Game1.viewportCenter.ToVector2();
 
 		_cardBackTexture = Game1.content.Load<Texture2D>("SunberryTeam.SBV/Tarot/CardBack");
 
@@ -102,7 +101,7 @@ internal class EventScriptDialaTarot : ICustomEventScript
 			rotation: 0f,
 			origin: Vector2.Zero,
 			scale: 4f,
-			effects: SpriteEffects.None,
+			effects: SpriteEffects.FlipVertically | SpriteEffects.FlipHorizontally,
 			layerDepth: 0f
 		);
 
