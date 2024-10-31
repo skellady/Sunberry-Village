@@ -867,7 +867,7 @@
     "Aicha.Dialogue.Fountain2": "The food smells DELICIOUS! I can't wait to sneak a plate for Rei and I.$15",
     "Aicha.Dialogue.Fountain3": "Elias plays that instrument really well! I'm not sure what it is, but it sounds good!$u",
     "Aicha.Dialogue.TwilightFestival1": "I loooove this festival! I've been looking forward to it ever since Diala and Derya said there'd be free food!$u",
-    "Aicha.Dialogue.TwilightFestival2": "I collected SO many feathers. I'm gonna spend them all here so Rei and I could stock up on sweet treats!$15",
+    "Aicha.Dialogue.TwilightFestival2": "I collected SO many feathers. I'm gonna spend them all here so Rei and I can stock up on sweet treats!$15",
 
     "Amina.Dialogue.Fountain1": "I really wish Jas and Vin could come hang out with us. Maybe next time!$4",
     "Amina.Dialogue.Fountain2": "Every Friday, my grandma and I check the weather to make sure it isn't raining the next day, otherwise we wouldn't be able to come here.$4",
@@ -1214,9 +1214,9 @@
     "event-20031419.02": "I like coming here when I want some alone time. The sound of the ocean waves, the sun hitting my skin...",
     "event-20031419.03": "It's calming. I like it.$h",
     "event-20031419.04": "You know, moving here with Derya might be the best thing I've ever done.$h#$b#Life back in the city with my family was... tough.$s",
-    "event-20031419.05": "Being the eldest daughter meant I was practically a parent to my younger siblings.$11#$b#No one around me understood what I was going through until I met Derya.",
+    "event-20031419.05": "Being the eldest daughter meant I was practically a parent to my younger siblings.$11#$b#Until I met Derya, no one around me had understood what I was going through.",
     "event-20031419.06": "She was and still is my lifeline. I don't think anyone in this world gets me the way she does.$4",
-    "event-20031419.07": "I love it out here. I have friends, the cafe of my dreams, and a peaceful life.",
+    "event-20031419.07": "I love it out here. I have friends, the cafe I'd always dreamed of, and a peaceful life.",
     "event-20031419.08": "...Somehow, despite all of these good things I'm blessed with, my mind still wanders.$11",
     "event-20031419.09": "Sometimes, it feels like my friendship with Derya is... incomplete? Like, something is missing.$6",
     "event-20031419.10": "It's felt this way since we broke up and decided to stay as friends in high school.$11",
@@ -1276,7 +1276,7 @@
     "event-20031423.09": "I do! I moved here while I was still pregnant and Silas offered to help our family out.",
     "event-20031423.10": "Once I was able to, I started working alongside him. He taught me everything I know. I'm grateful, really.$h",
     "event-20031423.11": "I think it's all about finding 'the one', if that makes sense. I believe someone gifted it to him, so it has sentimental value, too.",
-    "event-20031423.12": "Either way, if he needed a new weapon, he knows where to find me.$h",
+    "event-20031423.12": "Either way, if he ever needs a new weapon, he knows where to find me.$h",
     "event-20031423.13": "Well, I better get back to work. I have to get it over to him sometime today. Thanks for dropping by.$h",
 
     // Maia 6 Hearts Event
@@ -1675,7 +1675,7 @@
     // Ezra 2 Hearts Event
     "event-20031450.01": "Yeah! I'm making her the fanciest dress you've ever seen!$h",
     "event-20031450.02": "I still can't believe you got asked to make a dress for THE Annie Hathisway.$u",
-    "event-20031450.03": "Me either! I'm a bundle of nerves right now, but I know I can make something amazing for the show.$u",
+    "event-20031450.03": "Me neither! I'm a bundle of nerves right now, but I know I can make something amazing for the show.$u",
     "event-20031450.04": "I've got the basic design down. It's upstairs.$h",
     "event-20031450.05": "Hey, @! Welcome. How can I help?",
     "event-20031450.06": "Hey, farmer. Did you hear the good news?$h",
@@ -1775,13 +1775,13 @@
     "event-20031461.02": "Oh, phew...",
     "event-20031461.03": "You scared me, I thought you were Razz! I was just looking around.$u",
     "event-20031461.04": "Razz and I are working on something. Well, Razz is doing all the work actually.$u",
-    "event-20031461.05": "{{subject}} left to grab a book we need.",
+    "event-20031461.05": "A moment ago {{subject}} left to grab a book we need.",
     "event-20031461.06": "What are you working on?",
     "event-20031461.07": "Why aren't you helping?",
     "event-20031461.08": "We uncovered an ancient scroll of sorts and we're working on deciphering it.#$b#I might get Elias, Maia, and Ophelia to help out since it seems to be related to our mines!$h",
     "event-20031461.09": "Well, apparently I get too into it. Miyoung asked Razz to keep me from doing that.$8",
     "event-20031461.10": "You hear footsteps approaching along with the sound of someone grumbling.",
-    "event-20031461.11": "Ah, the unmistakable sound of grumbling. I'm ready to work, Razz!$u",
+    "event-20031461.11": "Ah, I'd recognize that sound any time. I'm ready to work, Razz!$u",
 
     // Reihana 2 Hearts Event
     "event-20031462.01": "Ah, it smells so good. I can't wait to dig in!$h",
@@ -2159,7 +2159,7 @@
     "Mail.AriSeeds.Title": "Ari's Seeds",
     "Mail.AriSprinkler.Body": "Dearest @,^^I got a shipment of high quality sprinklers the other day and thought you might find some use for them. Well, obviously, you run a farm. Anyways, I hope they serve you well.^^P.S: This is the last of that shipment. You won't find any more in my stock unfortunately, but I might still have some up for the daily special eventually.^^- Ari",
     "Mail.AriSprinkler.Title": "Ari's Sprinklers",
-    "Mail.JumanaSeeds.Body": "Dear farmer,^^Fall might be my favorite season for growing flowers. It yield the most beautiful flowers and adds a nice pop of color to your field! I'm sending you a few packets of flower seeds, exclusive to Sunberry Village! I hope you like them.^^- Jumana",
+    "Mail.JumanaSeeds.Body": "Dear farmer,^^Fall might be my favorite season for growing flowers. It yields the most beautiful flowers and adds a nice pop of color to your field. I'm sending you a few packets of flower seeds which are only found in Sunberry Village! I hope you like them.^^- Jumana",
     "Mail.JumanaSeeds.Title": "Jumana's Fall Seeds",
     "Mail.MiyoungSeeds.Body": "Dear @,^^Did you know Jumana sells seeds for a flower that grows in the winter? It's beautiful! Cyclamen is one of my favorite flowers, and it gives me something to do with my little field during this season! I accidentally bought more than I needed, so I'm sending the excess to you. Enjoy, dear!^^- Miyoung",
     "Mail.MiyoungSeeds.Title": "Miyoung's Cyclamen Seeds",
