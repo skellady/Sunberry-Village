@@ -131,6 +131,12 @@
                             "Price": 35
                         },
                         {
+                            "Id": "skellady.SBVCP_AriShop.WheatSeeds",
+                            "ItemId": "(O)483",
+                            "Condition": "SEASON summer",
+                            "Price": 35
+                        },
+                        {
                             "Id": "skellady.SBVCP_AriShop.RedCabbageSeeds",
                             "ItemId": "(O)485",
                             "Condition": "SEASON summer, YEAR 2",
