@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        {
+            "LogName": "Saturday Hangout Lighting",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBV/Lights",
+            "Entries": {
+                "{{ModId}}_SaturdayHangoutLight": {
+                    "Id": "{{ModId}}_SaturdayHangoutLight",
+                    //"Color": "White", 
+                    "Color": "Magenta", // just for testing
+                    "Location": "Custom_SBV_SunberryVillage",
+                    "Position": "59, 85.5",
+                    "Intensity": "4.8"
+                }
+            }
+        }
+    ]
+}

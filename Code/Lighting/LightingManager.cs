@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
@@ -10,8 +11,7 @@ namespace SunberryVillage.Lighting
 	internal static class LightingManager
 	{
 		internal static Dictionary<string, LightDataModel> Lights = new();              // contains lights defined in asset "SunberryTeam.SBV/Lights"
-		internal static readonly Dictionary<string, LightDataModel> TempLights = new(); // contains lights defined via console command - these DO NOT persist through save/load
-
+		
 		internal const string LightsAssetPath = "SunberryTeam.SBV/Lights";
 		internal static IAssetName LightsAssetName = Globals.GameContent.ParseAssetName(LightsAssetPath);
 
@@ -23,49 +23,6 @@ namespace SunberryVillage.Lighting
 		private static void Init()
 		{
 			Lights = Globals.GameContent.Load<Dictionary<string, LightDataModel>>(LightsAssetPath);
-		}
-
-		/// <summary>
-		/// Attempts to map the given <paramref name="args"/> to a <see cref="LightDataModel"/>. Returns whether or not it was successful, and if unsuccessful, the error message will be stored in <paramref name="error"/>.
-		/// </summary>
-		/// <param name="args">The parameters of the light to create.</param>
-		/// <param name="error">Empty string if successful, or the error message if unsuccessful.</param>
-		/// <returns><c>True</c> if the light is successfully created and added, <c>False</c> otherwise.</returns>
-		internal static bool TryAddOrUpdateTempLight(string[] args, out string error)
-		{
-			error = "";
-
-			if (args.Length != 4)
-			{
-				error = "Incorrect number of arguments supplied.";
-			}
-			else
-			{
-				string id = args[0];
-
-				if (!float.TryParse(args[1], out float xPos) || !float.TryParse(args[2], out float yPos) || !float.TryParse(args[3], out float intensity))
-				{
-					error = $"Unable to map provided arguments {{{string.Join(", ", args.Select(s => "\"" + s + "\""))}}} to expected parameters {{id (string), xPos (float), yPos (float), intensity (float)}}.";
-				}
-				else
-				{
-					string loc = Game1.currentLocation.Name;
-					LightDataModel lightData = new(loc, new Vector2(xPos, yPos), intensity);
-
-					RemoveLight(id);
-
-					if (!TempLights.TryAdd(id, lightData))
-					{
-						error = $"Unable to add light with parameters {{{string.Join(", ", args.Select(s => "\"" + s + "\""))}}}.";
-					}
-				}
-			}
-
-			if (error == "")
-				return true;
-
-			error += " Please modify the provided arguments and try again.";
-			return false;
 		}
 
 		/// <summary>
@@ -85,22 +42,21 @@ namespace SunberryVillage.Lighting
 		/// <returns></returns>
 		internal static bool RemoveLight(string id)
 		{
-			if (TempLights.ContainsKey(id))
-			{
-				LightDataModel lightData = TempLights[id];
-				Game1.currentLightSources?.Remove(lightData.LightSource);
-				TempLights.Remove(id);
-				return true;
-			}
-			else if (Lights.ContainsKey(id))
+			if (!Lights.ContainsKey(id))
+				return false;
+
+			try
 			{
 				LightDataModel lightData = Lights[id];
-				Game1.currentLightSources?.Remove(lightData.LightSource);
+				Game1.currentLightSources?.Remove(lightData.LightSource.Id);
 				Lights.Remove(id);
 				return true;
 			}
-
-			return false;
+			catch (Exception e)
+			{
+				Log.Error($"Failed to remove light with provided ID \"{id}\": {e}");
+				return false;
+			}
 		}
 
 		/// <summary>
@@ -108,11 +64,11 @@ namespace SunberryVillage.Lighting
 		/// </summary>
 		internal static void AddLightsToCurrentLocation()
 		{
-			var lightsInLocation = Lights.Union(TempLights).Where(kvp => kvp.Value.GameLocation is not null && kvp.Value.GameLocation.Equals(Game1.currentLocation)).ToList();
+			Dictionary<string, LightDataModel> lightsInLocation = (Dictionary<string, LightDataModel>)Lights.Where(kvp => Game1.currentLocation.Equals(kvp.Value.GameLocation));
 
-			foreach (var light in lightsInLocation)
+			foreach ((string id, LightDataModel model) in lightsInLocation)
 			{
-				Game1.currentLightSources.Add(light.Value.LightSource);
+				Game1.currentLightSources.Add(id, model.LightSource);
 			}
 		}
 		#endregion
@@ -136,13 +92,7 @@ namespace SunberryVillage.Lighting
 		private static void Lighting_AssetRequested(object sender, AssetRequestedEventArgs e)
 		{
 			if (e.NameWithoutLocale.IsEquivalentTo(LightsAssetPath))
-				e.LoadFrom(() => new Dictionary<string, LightDataModel>
-				{
-					["sophie.SBVSaturdayHangoutLight"] = new LightDataModel(
-						location: "Custom_SBV_SunberryVillage",
-						position: new Vector2(59f, 85.5f),
-						intensity: 4.8f)
-				}, AssetLoadPriority.Low);
+				e.LoadFrom(() => new Dictionary<string, LightDataModel>(), AssetLoadPriority.Low);
 		}
 
 		/// <summary>
@@ -150,12 +100,12 @@ namespace SunberryVillage.Lighting
 		/// </summary>
 		private static void Lighting_AssetInvalidated(object sender, AssetsInvalidatedEventArgs e)
 		{
-			if (e.NamesWithoutLocale.Contains(LightsAssetName))
-			{
-				RemoveLights(Lights.Keys);
-				Lights = Globals.GameContent.Load<Dictionary<string, LightDataModel>>(LightsAssetPath);
-				AddLightsToCurrentLocation();
-			}
+			if (!e.NamesWithoutLocale.Contains(LightsAssetName))
+				return;
+
+			RemoveLights(Lights.Keys);
+			Lights = Globals.GameContent.Load<Dictionary<string, LightDataModel>>(LightsAssetPath);
+			AddLightsToCurrentLocation();
 		}
 
 		#endregion
@@ -167,24 +117,31 @@ namespace SunberryVillage.Lighting
 /// </summary>
 internal class LightDataModel
 {
+	public string Id;
+	public string Color;
 	public string Location;
 	public Vector2 Position;
 	public float Intensity;
+	internal Color BlendColor;
 	internal GameLocation GameLocation;
 	internal LightSource LightSource;
 
-	public LightDataModel(string location, Vector2 position, float intensity)
+	public LightDataModel(string id, string color, string location, Vector2 position, float intensity)
 	{
-		this.Location = location;
-		this.Position = position;
-		this.Intensity = intensity;
-
+		Id = id;
+		Color = color;
+		Location = location;
+		Position = position;
+		Intensity = intensity;
+		
+		Color convertedColor = Utility.StringToColor(Color) ?? Microsoft.Xna.Framework.Color.Black;
+		BlendColor = new Color(255 - convertedColor.R, 255 - convertedColor.G, 255 - convertedColor.B);
 		GameLocation = Game1.getLocationFromName(location);
-		LightSource = new LightSource(4, position * 64f, intensity);
+		LightSource = new LightSource(Id, 4, Position * 64f, Intensity, BlendColor);
 	}
 
 	public override string ToString()
 	{
-		return $"{{Location: {Location} | Position: ({Position.X}, {Position.Y}) | Intensity: {Intensity}}}";
+		return $"{Id}: {{Color: {Color} | Location: {Location} | Position: ({Position.X}, {Position.Y}) | Intensity: {Intensity}}}";
 	}
 }

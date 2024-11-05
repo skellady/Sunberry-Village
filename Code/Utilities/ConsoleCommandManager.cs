@@ -88,59 +88,6 @@ internal class ConsoleCommandManager
 
 		#region Lighting
 
-		Globals.CCHelper.Add("sbv.lights.add", "Adds or updates test light on the current map." +
-			"\nFormat: \"sbv.lights.add\" OR \"sbv.lights.add [id] [xPos] [yPos] [intensity]\". If no arguments provided, will use random id, current position and default intensity of 1.0." +
-			"\nArguments:" +
-			"\n\tid (string): The id of the light to add. This will allow you to edit or remove the light later." +
-			"\n\txPos (float): X position (in tiles) where the light should be added. May use decimals (i.e., 58.5 is a valid argument)." +
-			"\n\tyPos (float): Y position (in tiles) where the light should be added. May use decimals (i.e., 67.1 is a valid argument)." +
-			"\n\tintensity (float): Intensity of the light. May use decimals (i.e., 3.92 is a valid argument).", (string command, string[] args) =>
-			{
-				if (!IsWorldReady())
-					return;
-
-				// if no args provided, fill in default values
-				if (args.Length == 0)
-				{
-					string tempId = Utils.GenerateRandomString(6);
-					string xPos = Game1.player.Tile.X.ToString();
-					string yPos = Game1.player.Tile.Y.ToString();
-					string intensity = "1";
-
-					args = new string[] { tempId, xPos, yPos, intensity };
-				}
-
-				if (LightingManager.TryAddOrUpdateTempLight(args, out string error))
-				{
-					LightingManager.AddLightsToCurrentLocation();
-
-					Log.Info($"Temporary light created with parameters {{{string.Join(", ", args)}}}.");
-					Log.Warn($"NOTE: THIS LIGHT WILL NOT PERSIST AFTER YOU EXIT THE GAME. IT IS SOLELY FOR TESTING PURPOSES. " +
-						$"In order to define a persistent light, you need to edit the \"{LightingManager.LightsAssetPath}\" asset via Content Patcher. " +
-						$"See the example pack for details.");
-				}
-				else
-				{
-					Log.Error($"Error encountered while attempting to add light: {error}");
-				}
-
-			}
-		);
-
-		Globals.CCHelper.Add("sbv.lights.remove", "Removes temp light with given id.\nFormat: \"sbv.lights.remove [id]\".\nArguments:" +
-			"\n\tid (string): The id of the light to remove.", (_, args) =>
-			{
-				if (!IsWorldReady())
-					return;
-
-				if (LightingManager.RemoveLight(args[0]))
-					Log.Info($"Light with id \"{args[0]}\" removed.");
-				else
-					Log.Warn($"Light with id \"{args[0]}\" not removed. (Does it exist?)");
-
-			}
-		);
-
 		Globals.CCHelper.Add("sbv.lights.listhere", "Prints list of all custom lights in the current location.", (_, _) =>
 			{
 				if (!IsWorldReady())
@@ -148,8 +95,7 @@ internal class ConsoleCommandManager
 
 				GameLocation loc = Game1.currentLocation;
 
-				Log.Info($"\nData asset lights in the current location: \n\t{string.Join(",\n\t", LightingManager.Lights.Where(kvp => kvp.Value.GameLocation.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}" +
-					$"\n\nTemporary lights in the current location: \n\t{string.Join(",\n\t", LightingManager.TempLights.Where(kvp => kvp.Value.GameLocation.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
+				Log.Info($"\nData asset lights in the current location: \n\t{string.Join(",\n\t", LightingManager.Lights.Where(kvp => kvp.Value.GameLocation.Equals(loc)).Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
 			}
 		);
 
@@ -158,8 +104,7 @@ internal class ConsoleCommandManager
 				if (!IsWorldReady())
 					return;
 
-				Log.Info($"\nData asset lights: \n\t{string.Join(",\n\t", LightingManager.Lights.Select(kvp => $"{kvp.Key}: {kvp.Value}"))}" +
-					$"\n\nTemporary lights: \n\t{string.Join(",\n\t", LightingManager.TempLights.Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
+				Log.Info($"\nData asset lights: \n\t{string.Join(",\n\t", LightingManager.Lights.Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
 			}
 		);
 
@@ -168,7 +113,7 @@ internal class ConsoleCommandManager
 				if (!IsWorldReady())
 					return;
 
-				Log.Info($"Light sources in the current location:\n\t{string.Join(",\n\t", Game1.currentLightSources.Select(l => $"{l.Identifier}: {{{l.textureIndex} | {l.position} | {l.radius} | {l.lightContext} | {l.PlayerID}}}"))}");
+				Log.Info($"Light sources in the current location:\n\t{string.Join(",\n\t", Game1.currentLightSources.Select(l => $"{l.Value.Id}: {{{l.Value.textureIndex} | {l.Value.position} | {l.Value.radius} | {l.Value.lightContext} | {l.Value.PlayerID}}}"))}");
 			}
 		);
 

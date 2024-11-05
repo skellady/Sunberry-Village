@@ -21,7 +21,7 @@ Format: Standard quests have a 7-day CT duration. They're formatted as follows: 
 Daily quests (the ones that show up on the bulletin board and are randomly generated) have a 1-day CT duration. They're formatted as follows: "QuestComplete_[Quest Type]_[Quest Giver]". Quest Type will always be one of four values: "Delivery", "Fishing", "Gathering", or "SlayMonsters". Quest Giver corresponds to the **internal** name of the NPC that posted the request. See below for various examples.
 
 
-```js
+```json
         {
             "LogName": "Elias Quest CT Example",
             "Action": "EditData",
@@ -39,7 +39,7 @@ The asset to target for this one is "SunberryTeam.SBV/Animations. Ask sheku for 
 
 Jonghyuk's example:
 
-```js
+```json
         {
             "LogName": "Jonghyuk Animation Data Edit",
             "Action": "EditData",
@@ -63,7 +63,7 @@ Jonghyuk's example:
 
 Elias' example:
 
-```js
+```json
     {
       "Action": "EditData",
       "Target": "SunberryTeam.SBV/Animations",
@@ -82,13 +82,15 @@ Elias' example:
 NOTE: This is still a work in progress so it's subject to change. Editing the "SunberryTeam.SBV/Lights" asset will allow you to define lights of custom intensity. Will be further detailed in the future once things are more set in stone.
 
 
-```js
+```json
         {
             "LogName": "Lighting Example",
             "Action": "EditData",
             "Target": "SunberryTeam.SBV/Lights",
             "Entries": {
-                "sophie.UniqueLightID": {
+                "{{ModId}}_UniqueLightID": {
+					"Id": "{{ModId}}_UniqueLightID",		// the internal ID for this light - must be unique. best practice is to prefix with the mod id
+                    "Color": "White",						// see https://stardewvalleywiki.com/Modding:Common_data_field_types#Color
                     "Location": "Custom_SBV_SunberryRoad",  // game location to add light in
                     "Position": "10.5, 12.22",              // tile location: decimal values are okay
                     "Intensity": "3.5"                      // intensity of light: decimal values are fine for this too
