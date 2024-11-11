@@ -64,7 +64,7 @@ namespace SunberryVillage.Lighting
 		/// </summary>
 		internal static void AddLightsToCurrentLocation()
 		{
-			Dictionary<string, LightDataModel> lightsInLocation = (Dictionary<string, LightDataModel>)Lights.Where(kvp => Game1.currentLocation.Equals(kvp.Value.GameLocation));
+			Dictionary<string, LightDataModel> lightsInLocation = Lights.Where(kvp => Game1.currentLocation.Equals(kvp.Value.GameLocation)).ToDictionary(kvp => kvp.Key, kvp => kvp.Value);
 
 			foreach ((string id, LightDataModel model) in lightsInLocation)
 			{
