@@ -55,8 +55,8 @@ internal class MarketDailySpecialManager
 		}
 		
 		Random dailyRandom = Utility.CreateDaySaveRandom();
-		ItemQueryContext itemQueryContext = new(Game1.currentLocation, Game1.player, null);
-		List<GenericSpawnItemData> spawnPool = new();
+		ItemQueryContext itemQueryContext = new(Game1.currentLocation, Game1.player, null, "skellady.SBVCP_MarketDailySpecialItemQuery");
+		List<GenericSpawnItemData> spawnPool = [];
 
 		foreach (MarketDailySpecialData entry in marketDailySpecialAsset.Values.Where(entry => GameStateQuery.CheckConditions(entry.Condition, Game1.currentLocation, Game1.player)))
 		{
