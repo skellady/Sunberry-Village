@@ -23,7 +23,8 @@
                     "SpriteIndex": 0,
                     "ContextTags": [
                         "color_salmon",
-                        "item_mothfish"
+                        "item_mothfish",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_FiretailGuppy": {
@@ -38,7 +39,8 @@
                     "SpriteIndex": 1,
                     "ContextTags": [
                         "item_firetailguppy",
-                        "color_dark_blue"
+                        "color_dark_blue",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_EmeraldSnapper": {
@@ -53,7 +55,8 @@
                     "SpriteIndex": 2,
                     "ContextTags": [
                         "color_dark_cyan",
-                        "item_emeraldsnapper"
+                        "item_emeraldsnapper",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_Aberrant": {
@@ -68,7 +71,8 @@
                     "SpriteIndex": 3,
                     "ContextTags": [
                         "item_aberrant",
-                        "color_poppyseed"
+                        "color_poppyseed",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_BonbonFish": {
@@ -84,7 +88,8 @@
                     "ContextTags": [
                         "color_salmon",
                         "color_dark_blue",
-                        "item_bonbonfish"
+                        "item_bonbonfish",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_EeltailedCatfish": {
@@ -99,7 +104,8 @@
                     "SpriteIndex": 5,
                     "ContextTags": [
                         "color_blue",
-                        "item_eeltailedcatfish"
+                        "item_eeltailedcatfish",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_Najelfish": {
@@ -114,7 +120,8 @@
                     "SpriteIndex": 6,
                     "ContextTags": [
                         "color_red",
-                        "item_najelfish"
+                        "item_najelfish",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_AnglerJr": {
@@ -129,7 +136,8 @@
                     "SpriteIndex": 7,
                     "ContextTags": [
                         "color_brown",
-                        "item_anglerjr"
+                        "item_anglerjr",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_ChartreuseTilapia": {
@@ -144,7 +152,8 @@
                     "SpriteIndex": 8,
                     "ContextTags": [
                         "color_dark_green",
-                        "item_chartreusetilapia"
+                        "item_chartreusetilapia",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_BubblyBetta": {
@@ -159,7 +168,8 @@
                     "SpriteIndex": 9,
                     "ContextTags": [
                         "color_dark_pink",
-                        "item_bubblybetta"
+                        "item_bubblybetta",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_AzureanCarp": {
@@ -174,7 +184,8 @@
                     "SpriteIndex": 10,
                     "ContextTags": [
                         "color_blue",
-                        "item_azureancarp"
+                        "item_azureancarp",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_SeaCow": {
@@ -189,7 +200,8 @@
                     "SpriteIndex": 11,
                     "ContextTags": [
                         "color_gray",
-                        "item_seacow"
+                        "item_seacow",
+                        "fish_has_roe"
                     ]
                 },
                 "skellady.SBVCP_Barkfish": {
@@ -205,7 +217,8 @@
                     "ContextTags": [
                         "color_brown",
                         "item_barkfish",
-                        "fish_talk_stiff"
+                        "fish_talk_stiff",
+                        "fish_has_roe"
                     ]
                 }
             }

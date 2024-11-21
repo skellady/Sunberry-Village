@@ -3597,6 +3597,14 @@
     //Stardrop
     "Moon.Dialogue.SpouseStardrop": "Moon wanted to give you this special fruit! Moon is happy to be @'s best friend.$h",
 
+    //Moon Roommate Reject Dialogue 
+    "Moon.Roommate.AlreadyAccepted": "Moon already agreed to move in! Did @ forget?$h",
+    "Moon.Roommate.NpcWithSomeoneElse": "Sorry, @. Moon already has a roommate!$s",
+    "Moon.Roommate.PlayerWithSomeoneElse": "...Doesn't @ already have a roommate?$s",
+    "Moon.Roommate.LowFriendship": "...Sorry, Moon not interested. Moon stays with Diala and Derya for now.$h",
+    "Moon.Roommate.SmallHouse": "@'s house is too small for two friends to share.$s",
+    "Moon.Roommate.GenericReject": "...Sorry, Moon not interested. Moon stays with Diala and Derya for now.$h",
+    
     //Moon Roommate Dialogue
 
     //Specific Dates

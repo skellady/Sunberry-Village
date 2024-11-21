@@ -125,7 +125,15 @@
 				"DumpsterDiveComment": "{{Random: {{i18n:Moon.Dialogue.DumpsterDiveComment.1}} ++ {{i18n:Moon.Dialogue.DumpsterDiveComment.2}} ++ {{i18n:Moon.Dialogue.DumpsterDiveComment.3}} |inputSeparator=++}}",
 
 				//Stardrop
-				"SpouseStardrop": "{{i18n:Moon.Dialogue.SpouseStardrop}}"
+				"SpouseStardrop": "{{i18n:Moon.Dialogue.SpouseStardrop}}",
+
+				//Roommate Reject Dialogue
+				"RejectRoommateProposal_AlreadyAccepted": "{{i18n:Moon.Roommate.AlreadyAccepted}}",
+				"RejectRoommateProposal_NpcWithSomeoneElse": "{{i18n:Moon.Roommate.NpcWithSomeoneElse}}",
+				"RejectRoommateProposal_PlayerWithSomeoneElse": "{{i18n:Moon.Roommate.PlayerWithSomeoneElse}}",
+				"RejectRoommateProposal_LowFriendship": "{{i18n:Moon.Roommate.LowFriendship}}",
+				"RejectRoommateProposal_SmallHouse": "{{i18n:Moon.Roommate.SmallHouse}}",
+				"RejectRoommateProposal": "{{i18n:Moon.Roommate.GenericReject}}",
 			}
 		}
 	]
