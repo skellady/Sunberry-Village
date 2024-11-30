@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="3" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="94">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="3" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="17" nextobjectid="96">
  <tileset firstgid="1" name="Paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
   <image source="paths" width="64" height="144"/>
   <tile id="0">
@@ -1741,19 +1741,29 @@
  </tileset>
  <layer id="1" name="Back" width="3" height="2">
   <data encoding="csv">
-312,312,312,
-413,413,413
+0,0,0,
+0,0,0
 </data>
  </layer>
  <objectgroup id="6" name="Back"/>
  <layer id="2" name="Buildings" width="3" height="2">
   <data encoding="csv">
-5719,5720,5721,
+0,0,0,
 9757,9758,9759
 </data>
  </layer>
  <objectgroup id="7" name="Buildings">
   <object id="93" name="TileData" x="16" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="SunberryTeam.SBVSMAPI_SpecialOrdersBoard"/>
+   </properties>
+  </object>
+  <object id="94" name="TileData" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="SunberryTeam.SBVSMAPI_SpecialOrdersBoard"/>
+   </properties>
+  </object>
+  <object id="95" name="TileData" x="32" y="16" width="16" height="16">
    <properties>
     <property name="Action" value="SunberryTeam.SBVSMAPI_SpecialOrdersBoard"/>
    </properties>
