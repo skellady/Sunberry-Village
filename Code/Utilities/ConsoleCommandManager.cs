@@ -309,8 +309,8 @@ internal class ConsoleCommandManager
 				if (!IsWorldReady())
 					return;
 
-				List<string> npcsMet = new();
-				List<string> npcsNotMet = new();
+				List<string> npcsMet = [];
+				List<string> npcsNotMet = [];
 				int introNum = 0;
 				foreach ((string npcName, CharacterData data) in Game1.characterData)
 				{
@@ -344,9 +344,52 @@ internal class ConsoleCommandManager
 				}
 			});
 
-		Globals.CCHelper.Add("sbv.misc.testimageviewer", "Creates test image viewer menu", (_, args) =>
+		Globals.CCHelper.Add("sbv.misc.testimageviewer", "Creates test image viewer menu", (_, _) =>
 			{
-				Game1.activeClickableMenu = new ImageViewerMenu( new string[] {"Test", "LooseSprites\\ControllerMaps", "512", "287", "2"}, 0);
+				Game1.activeClickableMenu = new ImageViewerMenu(["Test", "LooseSprites\\ControllerMaps", "512", "287", "2"], 0);
+			});
+
+		Globals.CCHelper.Add("sbv.misc.mailflag", "Lists all mailflags current player has matching specified text, or all mailflags if no text is provided.", (_, args) =>
+			{
+				if (!IsWorldReady())
+					return;
+
+				StringBuilder sb = new();
+
+				int flagCount = 0;
+
+				if (!args.Any())
+				{
+					string flags = string.Join(", ", Game1.player.mailReceived);
+
+					flagCount = Game1.player.mailReceived.Count;
+
+					sb.Append($"Player has {flagCount} {(flagCount == 1 ? "mailflag" : "mailflags")}:\n\n");
+					sb.Append(flags);
+				}
+				else
+				{
+					string matchText = args[0];
+
+					List<string> matchingFlags = Game1.player.mailReceived.Where(str => str.Contains(matchText, StringComparison.OrdinalIgnoreCase)).ToList();
+
+					flagCount = matchingFlags.Count;
+					string flags = string.Join(", ", matchingFlags);
+
+					sb.Append($"Player has {flagCount} {(flagCount == 1 ? "mailflag" : "mailflags")} matching specified text \"{args[0]}\":\n\n");
+					sb.Append(flags);
+				}
+
+				sb.Append('\n');
+				Log.Info(sb);
+			});
+
+		Globals.CCHelper.Add("sbv.so.flag", "Sets the mail flag for the Sunberry special order board to show up regardless of unlock conditions.", (_, _) =>
+			{
+				if (!IsWorldReady())
+					return;
+
+				Game1.MasterPlayer.mailReceived.Add("skellady.SBVCP_SpecialOrderBoardReady");
 			});
 
 		#endregion
@@ -386,7 +429,7 @@ internal class ConsoleCommandManager
 
 	private static Dictionary<string, int> DoFishingDistribution(int numToCatch)
 	{
-		Dictionary<string, int> catchQuantities = new();
+		Dictionary<string, int> catchQuantities = [];
 
 		for (int i = 0; i < numToCatch; i++)
 		{
