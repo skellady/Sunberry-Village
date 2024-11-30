@@ -24,4 +24,4 @@ Your folder should look like this:
 # Configuration
 - **"SDVR3Patch":** The possible values for this are "true" and "false". If set to "false", it adjusts the entrance patch to Sunberry if you have the town edits in Stardew Valley Reimagined 3 disabled. Only disable this if you've disabled SVR3's town edits.
 - **"FestivalPatches":** The possible values for this are "true" and "false". If set to "false", it disables festival patches but keeps the NPCs where they are. Only disable if you run into a visual issue/incompatibility that annoys you. 
-- **"BoardUnlock":** The possible values for this are "Vanilla" and "Elias". Toggles whether you want the Sunberry special order board to unlock with vanilla, or with reaching 4 hearts with Elias.
+- **"BoardUnlock":** The possible values for this are "Vanilla" and "Elias". Toggles whether you want the Sunberry special order board to unlock when the vanilla special orders board unlocks, or when any player reaches 4 hearts with Elias.
