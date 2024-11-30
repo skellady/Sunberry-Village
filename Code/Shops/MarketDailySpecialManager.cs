@@ -191,16 +191,9 @@ internal class MarketDailySpecialManager
 	}
 }
 
-internal class MarketDailySpecialData
+internal class MarketDailySpecialData(string id, string condition = "", List<GenericSpawnItemDataWithCondition> items = default)
 {
-	internal string Id;
-	internal string Condition;
-	internal List<GenericSpawnItemDataWithCondition> Items;
-
-	public MarketDailySpecialData(string id, string condition = "", List<GenericSpawnItemDataWithCondition> items = default)
-	{
-		Id = id;
-		Condition = condition;
-		Items = items;
-	}
+	internal string Id = id;
+	internal string Condition = condition;
+	internal List<GenericSpawnItemDataWithCondition> Items = items;
 }

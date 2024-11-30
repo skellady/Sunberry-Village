@@ -2,6 +2,7 @@
 using StardewModdingAPI.Events;
 using StardewValley;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 // ReSharper disable UnusedMember.Global
 
@@ -15,80 +16,81 @@ internal static class TarotManager
 
 	#region Card Pool
 
-	public static List<TarotCard> CardPool = new()
-	{
-		
-		new TarotCard(
+	[SuppressMessage("ReSharper", "ArrangeObjectCreationWhenTypeNotEvident")]
+	public static List<TarotCard> CardPool =
+	[
+
+		new(
 			id: "AceOfSwords",
-			buffEffects: new() { LuckLevel = { 3 } },
+			buffEffects: new() { Attack = { 3 } },
 			iconIndex: 2,
 			condition: null),
-		new TarotCard(
+		new(
 			id: "Sun",
 			buffId: "28",	// Squid ink ravioli buff - can't be debuffed
 			iconIndex: 3,
-			condition: () => Game1.player.isMarriedOrRoommates()),
-		new TarotCard(
+			condition: Game1.player.isMarriedOrRoommates),
+		new(
 			id: "ThreeOfWands",
 			buffEffects: new() { MiningLevel = { 3 } },
 			iconIndex: 4,
 			condition: null),
-		new TarotCard(
+		new(
 			id: "AceOfCups",
 			buffEffects: new() { MagneticRadius = { 75 } },
 			iconIndex: 5,
 			condition: null),
-		new TarotCard(
+		new(
 			id: "Empress",
 			buffEffects : new() { Speed = { 1 } },
 			iconIndex: 6,
 			condition: null),
-		new TarotCard(
+		new(
 			id: "Moon",
 			buffEffects: new() { Speed = { -1 } },
 			iconIndex: 7,
 			condition: null),
-		new TarotCard(
+		new(
 			id: "Lovers",
 			buffEffects: new() { MaxStamina = { 50 } },
 			iconIndex: 8,
 			condition: () => Game1.player.isMarriedOrRoommates() || Game1.player.isEngaged()),
-		new TarotCard(
+		new(
 			id: "TowerReversed",
 			buffId: "26",	// darkness - would like to implement a custom effect but this is fine for now
 			iconIndex: 9,
 			condition: () => Utils.Random.NextSingle() < 0.5f),	// lowered chance for this one to show up bc it's kind of a pain
-		new TarotCard(
+		new(
 			id: "AceOfPentacles",
 			buffEffects: new() { ForagingLevel = { 3 } },
 			iconIndex: 10,
 			condition: null),
-		new TarotCard(
+		new(
 			id: "ThreeOfSwordsReversed",
 			buffEffects: new() { Defense = { 3 } },
 			iconIndex: 11,
 			condition: null),
-		new TarotCard(
+		new(
 			id: "WheelOfFortune",
 			buffEffects: new() { LuckLevel = { 3 } },
 			iconIndex: 12,
 			condition: null),
-		new TarotCard(
+		new(
 			id: "Fool",
 			buffEffects: new() { LuckLevel = { 1 } },
 			iconIndex: 12,
 			condition: () => Game1.player.eventsSeen.Contains("JonghyukCoffee")),
-		new TarotCard(
+		new(
 			id: "Temperance",
 			buffEffects: null,	// custom buff for Temperance
 			iconIndex: 13,
 			condition: () => Game1.player.eventsSeen.Contains("JonghyukCoffee")),
-		new TarotCard(
+		new(
 			id: "World",
 			buffEffects: new() { FarmingLevel = { 1 }, MiningLevel = { 1 }, ForagingLevel = { 1 }, FishingLevel = { 1 }, CombatLevel = { 1 } },
 			iconIndex: 14,
 			condition: () => Game1.player.eventsSeen.Contains("JonghyukCoffee"))
-	};
+	];
 
 	#endregion
 

@@ -123,24 +123,25 @@ internal class GameLocationPatches
 	[HarmonyTranspiler]
 	public static IEnumerable<CodeInstruction> lockedDoorWarp_Transpiler(IEnumerable<CodeInstruction> instructions, ILGenerator generator)
 	{
-		List<CodeInstruction> origInstructions = new(instructions); // store unaltered instructions in case anything goes wrong
-		List<CodeInstruction> newInstructions = new(origInstructions);
+		List<CodeInstruction> origInstructions = [..instructions]; // store unaltered instructions in case anything goes wrong
+		List<CodeInstruction> newInstructions = [..origInstructions];
 		
 		try
 		{
 			MethodInfo m_getLocContext = typeof(GameLocation).GetMethod(nameof(GameLocation.GetLocationContextId));
-			MethodInfo m_stringEquals = typeof(string).GetMethod(nameof(string.Equals), new[] { typeof(string), typeof(string)});
+			MethodInfo m_stringEquals = typeof(string).GetMethod(nameof(string.Equals), [typeof(string), typeof(string)
+			]);
 			MethodInfo m_inValleyContext = typeof(GameLocation).GetMethod(nameof(GameLocation.InValleyContext));
 			
-			List<CodeInstruction> sequenceToFind = new()
-			{
-				new CodeInstruction(OpCodes.Brfalse_S, new Label()),
-				new CodeInstruction(OpCodes.Ldloc_0),
-				new CodeInstruction(OpCodes.Brfalse_S, new Label()),
-				new CodeInstruction(OpCodes.Ldarg_0),
-				new CodeInstruction(OpCodes.Call, m_inValleyContext),
-				new CodeInstruction(OpCodes.Brtrue_S, new Label())
-			};
+			List<CodeInstruction> sequenceToFind =
+			[
+				new(OpCodes.Brfalse_S, new Label()),
+				new(OpCodes.Ldloc_0),
+				new(OpCodes.Brfalse_S, new Label()),
+				new(OpCodes.Ldarg_0),
+				new(OpCodes.Call, m_inValleyContext),
+				new(OpCodes.Brtrue_S, new Label())
+			];
 
 			int index = HarmonyUtils.FindFirstSequenceMatch(newInstructions, sequenceToFind);
 
@@ -153,14 +154,14 @@ internal class GameLocationPatches
 			Label jumpLabel = (Label)newInstructions[index].operand;
 			int insertIndex = index + sequenceToFind.Count;
 
-			List<CodeInstruction> sequenceToInsert = new()
-			{
-				new CodeInstruction(OpCodes.Ldarg_0),
-				new CodeInstruction(OpCodes.Call, m_getLocContext),
-				new CodeInstruction(OpCodes.Ldstr, "Custom_SBV_SunberryVillage"),
-				new CodeInstruction(OpCodes.Call, m_stringEquals),
-				new CodeInstruction(OpCodes.Brtrue_S, jumpLabel),
-			};
+			List<CodeInstruction> sequenceToInsert =
+			[
+				new(OpCodes.Ldarg_0),
+				new(OpCodes.Call, m_getLocContext),
+				new(OpCodes.Ldstr, "Custom_SBV_SunberryVillage"),
+				new(OpCodes.Call, m_stringEquals),
+				new(OpCodes.Brtrue_S, jumpLabel)
+			];
 
 			newInstructions.InsertRange(insertIndex, sequenceToInsert);
 			return newInstructions;

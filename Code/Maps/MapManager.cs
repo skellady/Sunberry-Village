@@ -25,7 +25,7 @@ internal class MapManager
 	internal static readonly PerScreen<bool> IsDrawingMineLevel = new(() => false);
 
 	internal static Color[] BiomeColors =
-	{
+	[
 		new(106, 131, 157),
 		new(238, 79, 115),
 		new(183, 108, 155),
@@ -33,7 +33,7 @@ internal class MapManager
 		new(85, 113, 131),
 		new(203, 99, 45),
 		new(104, 96, 83)
-	};
+	];
 
 	internal static void AddEventHooks()
 	{
@@ -65,8 +65,8 @@ internal class MapManager
 	{
 		foreach (GameLocation loc in Game1.locations.Where(loc => loc.Name.Contains("Custom_SBV_Mines")))
 		{
-			List<Vector2> toRemove = new();
-			toRemove.AddRange(loc.Objects.Pairs.Where(kvp => kvp.Value.QualifiedItemId == "(O)590" || kvp.Value.QualifiedItemId == "(O)SeedSpot").Select(kvp => kvp.Key));
+			List<Vector2> toRemove = [];
+			toRemove.AddRange(loc.Objects.Pairs.Where(kvp => kvp.Value.QualifiedItemId is "(O)590" or "(O)SeedSpot").Select(kvp => kvp.Key));
 			foreach (Vector2 tile in toRemove)
 			{
 				loc.Objects.Remove(tile);
@@ -241,7 +241,7 @@ internal class MapManager
     private static bool HandleLadderWarpAction(GameLocation location, string[] arg, Farmer farmer, Point point)
     {
 		//behaves similar to the vanilla "Warp" Action, but plays ladderdown sound
-        if (!ArgUtility.TryGetPoint(arg, 1, out var tile, out string error) || !ArgUtility.TryGet(arg, 3, out var locationName, out error))
+        if (!ArgUtility.TryGetPoint(arg, 1, out Point tile, out string error) || !ArgUtility.TryGet(arg, 3, out string locationName, out error))
         {
             Log.Error(error);
 			return false;
