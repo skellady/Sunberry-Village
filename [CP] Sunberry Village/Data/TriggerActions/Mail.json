@@ -1,6 +1,7 @@
 {
     "Changes": [
         {
+            "LogName": "Add Mail Trigger Actions",
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {

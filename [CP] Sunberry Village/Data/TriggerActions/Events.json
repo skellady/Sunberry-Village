@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        {
+            "LogName": "Add Event Trigger Actions",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "skellady.SBVCP_SpecialOrderBoardUnlock": {
+                    "Id": "skellady.SBVCP_SpecialOrderBoardUnlock",
+                    "Trigger": "DayEnding",
+                    // condition is either "BoardUnlock set to Elias and any player has 4 hearts with Elias" or "BoardUnlock set to Vanilla and any player has unlocked vanilla board"
+                    "Condition": "ANY \"{{BoardUnlock |contains= Elias}}, PLAYER_FRIENDSHIP_POINTS Any EliasSBV 1000\" \"{{BoardUnlock |contains= Vanilla}}, PLAYER_HAS_SEEN_EVENT Any 15389722\"",
+                    "Action": "AddMail Host skellady.SBVCP_SpecialOrderBoardReady",
+                    "HostOnly": "true"
+                }
+            }
+        }
+    ]
+}
