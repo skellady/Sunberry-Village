@@ -24,14 +24,14 @@ namespace SunberryVillage.SpecialOrders;
 [HarmonyPatch]
 internal class SpecialOrderPatches
 {
-	const string ORDER_EMOJI_TEXTURE_PATH = "Mods/skellady.SBVCP/SOEmojis";
-    const string ORDER_EMOJI_DATA_PATH = "Mods/skellady.SBVCP/SOEmojisData";
+	private const string ORDER_EMOJI_TEXTURE_PATH = "Mods/skellady.SBVCP/SOEmojis";
+	private const string ORDER_EMOJI_DATA_PATH = "Mods/skellady.SBVCP/SOEmojisData";
 
-	const int emojisPerRow = 7;
-	const int emojiSize = 9;
+	private const int emojisPerRow = 7;
+	private const int emojiSize = 9;
 
-	static Lazy<Dictionary<string, int>> orderEmojiIndices = new Lazy<Dictionary<string, int>>(() => Globals.GameContent.Load<Dictionary<string, int>>(ORDER_EMOJI_DATA_PATH));
-    static Lazy<Texture2D> orderEmojiTexture = new Lazy<Texture2D>(() => Globals.GameContent.Load<Texture2D>(ORDER_EMOJI_TEXTURE_PATH));
+	private static readonly Lazy<Dictionary<string, int>> orderEmojiIndices = new(() => Globals.GameContent.Load<Dictionary<string, int>>(ORDER_EMOJI_DATA_PATH));
+	private static readonly Lazy<Texture2D> orderEmojiTexture = new(() => Globals.GameContent.Load<Texture2D>(ORDER_EMOJI_TEXTURE_PATH));
 
 	/*
 	 *  Patches
@@ -126,14 +126,14 @@ internal class SpecialOrderPatches
 	{
 		try
 		{
-			if (orderEmojiIndices.Value.TryGetValue(requester_name, out int index)) {
-				Rectangle sourceRect = new Rectangle((index % emojisPerRow * emojiSize), (index / emojisPerRow * emojiSize), emojiSize, emojiSize);
-				__result = new KeyValuePair<Texture2D, Rectangle>(orderEmojiTexture.Value, sourceRect);
-				return false;
-			}
-			
-			return true;
-        }
+			if (!orderEmojiIndices.Value.TryGetValue(requester_name, out int index))
+				return true;
+
+			Rectangle sourceRect = new(index % emojisPerRow * emojiSize, index / emojisPerRow * emojiSize, emojiSize, emojiSize);
+			__result = new KeyValuePair<Texture2D, Rectangle>(orderEmojiTexture.Value, sourceRect);
+			return false;
+
+		}
 		catch (Exception ex)
 		{
 			Log.Error($"{nameof(SpecialOrderBoard_GetPortraitForRequester_Prefix)} failed with {ex}");
