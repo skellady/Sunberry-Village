@@ -45,32 +45,6 @@
         "SDVR3Patch": true
       }
     },*/
-    // Saturday Hangout Patch
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_SBV_SunberryVillage",
-      "PatchMode": "Overlay",
-      "FromFile": "Assets/Maps/MapPatches/SaturdayHangout.tmx",
-      "FromArea": {
-        "X": 0,
-        "Y": 0,
-        "Width": 11,
-        "Height": 14 
-      },
-      "ToArea": {
-        "X": 53,
-        "Y": 76,
-        "Width": 11,
-        "Height": 14
-      },
-      "When": {
-        "Weather": "Sun",
-        "Season: |contains=winter": false,
-        "DayOfWeek": "Saturday",
-        "Time": "{{Range: 1800, 2400}}"
-      },
-      "Update": "OnLocationChange"
-    },
     // SVE Entrance Patch
     {
       "Action": "EditMap",
@@ -93,72 +67,6 @@
         "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true 
       }
     },
-    // Tarot Table Patch
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_SBV_SunberryVillage",
-      "PatchMode": "Replace",
-      "FromFile": "Assets/Maps/ExteriorMaps/DialaTarotPatch.tmx",
-      "FromArea": {
-        "X": 0,
-        "Y": 0,
-        "Width": 1,
-        "Height": 2
-      },
-      "ToArea": {
-        "X": 53,
-        "Y": 26,
-        "Width": 1,
-        "Height": 2
-      },
-      "When": {
-        "HasSeenEvent: anyPlayer |contains={{ModId}}_20031411": true,
-      }
-    },
-    // SBV Board
-    /*{
-      "Action": "EditMap",
-      "Target": "Maps/Custom_SBV_SunberryVillage",
-      "PatchMode": "Replace",
-      "FromFile": "Assets/Maps/MapPatches/SBVBoard.tmx",
-      "FromArea": {
-        "X": 0,
-        "Y": 0,
-        "Width": 3,
-        "Height": 2
-      },
-      "ToArea": {
-        "X": 68,
-        "Y": 12,
-        "Width": 3,
-        "Height": 2
-      },
-      "When": {
-        "HasSeenEvent": "{{ModId}}_20031434"
-      }
-    },*/
-    // Moonberry Shop
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_SBV_SunberryVillage",
-      "PatchMode": "Replace",
-      "FromFile": "Assets/Maps/MapPatches/MoonberryShopPatch.tmx",
-      "FromArea": {
-        "X": 0,
-        "Y": 0,
-        "Width": 1,
-        "Height": 1
-      },
-      "ToArea": {
-        "X": 38,
-        "Y": 49,
-        "Width": 1,
-        "Height": 1
-      },
-      "When": {
-        "HasSeenEvent": "{{ModId}}_20031458"
-      }
-    },
     // Jonghyuk Cave
     {
       "Action": "EditMap",
@@ -179,49 +87,6 @@
       },
       "When": {
         "HasMod": "Arknir.Jonghyuk"
-      }
-    },
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_SBV_SunberryVillage",
-      "PatchMode": "Replace",
-      "FromFile": "Assets/Maps/GSBPatches/SBV_GSBPatch{{SunberryTeam.SBVSMAPI/GoldenSunberryStage}}.tmx",
-      "FromArea": {
-        "X": 0,
-        "Y": 0,
-        "Width": 3,
-        "Height": 5
-      },
-      "ToArea": {
-        "X": 23,
-        "Y": 50,
-        "Width": 3,
-        "Height": 5
-      },
-      "When": {
-        "Query: {{SunberryTeam.SBVSMAPI/GoldenSunberryStage}} >= 0": true
-      }
-    },
-    // GSB patch for Twilight Festival
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Custom_SBV_TwilightFestival",
-      "PatchMode": "Replace",
-      "FromFile": "Assets/Maps/GSBPatches/SBV_GSBPatch{{SunberryTeam.SBVSMAPI/GoldenSunberryStage}}.tmx",
-      "FromArea": {
-        "X": 0,
-        "Y": 0,
-        "Width": 3,
-        "Height": 5
-      },
-      "ToArea": {
-        "X": 23,
-        "Y": 50,
-        "Width": 3,
-        "Height": 5
-      },
-      "When": {
-        "Query: {{SunberryTeam.SBVSMAPI/GoldenSunberryStage}} >= 0": true
       }
     },
     // Egg Festival Y1
