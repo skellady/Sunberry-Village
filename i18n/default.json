@@ -25,14 +25,14 @@
 
     // Card Descriptions
 
-    "AceOfSwords.desc": "You're compelled by sheer power. Emerge from the clouds to see the truth. ",
+    "AceOfSwords.desc": "You're compelled by sheer power. Emerge from the clouds to see the truth. (Attack +3)",
     "Sun.desc": "Warmth, happiness, and success follow you. You're invincible. (Immunity to debuffs)",
     "ThreeOfWands.desc": "Indicates growth moving forward. Your hard work will pay off. (Mining +3)",
     "AceOfCups.desc": "A new beginning is here. Open yourself up and be vulnerable. (Magnetism +75)",
     "Empress.desc": "This is a sign for you to be kind to yourself. Embrace your creativity and quirks. (Speed +1)",
     "Moon.desc": "You might be experiencing confusion or anxiety. Take it slow today. (Speed -1)",
     "Lovers.desc": "Pure harmony and love are in your path. Show your truest feelings. (Max Energy +50)",
-    "TowerReversed.desc": "Something looms in the horizon. Don't be afraid. Embrace the change. (Darkness)",
+    "TowerReversed.desc": "Something looms on the horizon. Don't be afraid. Embrace the change. (Darkness)",
     "AceOfPentacles.desc": "Abundance and prosperity is on the way. Welcome all opportunities. (Foraging +3)",
     "ThreeOfSwordsReversed.desc": "Allow yourself to recover and grieve the past. Let go. Don't look back. (Defense +3)",
     "WheelOfFortune.desc": "Luck is on your side today. Embrace what you cannot control. (Luck +3)",
