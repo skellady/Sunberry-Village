@@ -210,6 +210,23 @@
                         "color_brown",
                         "cocoa_item"
                     ]
+                },
+                "skellady.SBVCP_CarmineBlossom": {
+                    "Name": "skellady.SBVCP_CarmineBlossom",
+                    "DisplayName": "{{i18n:SBV.CarmineBlossom.Name}}",
+                    "Description": "{{i18n:SBV.CarmineBlossom.Description}}",
+                    "Edibility": "12",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 65,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 12,
+                    "ContextTags": [
+                        "season_winter",
+                        "flower_item",
+                        "color_dark_red",
+                        "color_dark_blue"
+                    ]
                 }
             }
         },
