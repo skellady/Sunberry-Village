@@ -207,7 +207,25 @@
                     "SpriteIndex": 11,
                     "ContextTags": [
                         "season_fall",
-                        "color_brown"
+                        "color_brown",
+                        "cocoa_item"
+                    ]
+                },
+                "skellady.SBVCP_CarmineBlossom": {
+                    "Name": "skellady.SBVCP_CarmineBlossom",
+                    "DisplayName": "{{i18n:SBV.CarmineBlossom.Name}}",
+                    "Description": "{{i18n:SBV.CarmineBlossom.Description}}",
+                    "Edibility": "12",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 65,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 12,
+                    "ContextTags": [
+                        "season_winter",
+                        "flower_item",
+                        "color_dark_red",
+                        "color_dark_blue"
                     ]
                 }
             }
@@ -617,13 +635,16 @@
                     "Price": 260,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 1,
-                    "Buff": {
-                        "Duration": 560,
-                        "CustomAttributes": {
-                            "MiningLevel": 2,
-                            "Speed": 1
+                    "Buffs": [
+                        {
+                            "Id": "SerpentinePotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "MiningLevel": 2,
+                                "Speed": 1
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
                 },
@@ -637,13 +658,16 @@
                     "Price": 240,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 2,
-                    "Buff": {
-                        "Duration": 560,
-                        "CustomAttributes": {
-                            "ForagingLevel": 2,
-                            "Speed": 2
+                    "Buffs": [
+                        {
+                            "Id": "PurpuritePotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "ForagingLevel": 2,
+                                "Speed": 2
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
                 },
@@ -657,13 +681,16 @@
                     "Price": 300,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 3,
-                    "Buff": {
-                        "Duration": 560,
-                        "CustomAttributes": {
-                            "FishingLevel": 2,
-                            "Defense": 2
+                    "Buffs": [
+                        {
+                            "Id": "AnnabergitePotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "FishingLevel": 2,
+                                "Defense": 2
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
                 },
@@ -677,13 +704,16 @@
                     "Price": 240,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 4,
-                    "Buff": {
-                        "Duration": 560,
-                        "CustomAttributes": {
-                            "MaxStamina": 60,
-                            "Attack": 2
+                    "Buffs": [
+                        {
+                            "Id": "CitrinePotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "MaxStamina": 60,
+                                "Attack": 2
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
                 },
@@ -697,14 +727,17 @@
                     "Price": 400,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 5,
-                    "Buff": {
-                        "Duration": 560,
-                        "CustomAttributes": {
-                            "FarmingLevel": 3,
-                            "Attack": 2,
-                            "Speed": 1
+                    "Buffs": [
+                        {
+                            "Id": "BlueAuraQuartzPotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "MiningLevel": 3,
+                                "Attack": 2,
+                                "Speed": 1
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
                 },
@@ -718,14 +751,17 @@
                     "Price": 100,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 6,
-                    "Buff": {
-                        "Duration": 560,
-                        "CustomAttributes": {
-                            "LuckLevel": 2,
-                            "Defense": 2,
-                            "Speed": 1
+                    "Buffs": [
+                        {
+                            "Id": "MoonberryPotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "LuckLevel": 3,
+                                "Defense": 2,
+                                "Speed": 1
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
                 },
@@ -739,14 +775,17 @@
                     "Price": 600,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 7,
-                    "Buff": {
-                        "Duration": 560,
-                        "CustomAttributes": {
-                            "LuckLevel": 1,
-                            "Attack": 2,
-                            "Speed": 1
+                    "Buffs": [
+                        {
+                            "Id": "DolomitePotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "LuckLevel": 1,
+                                "Attack": 2,
+                                "Speed": 1
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
                 },
@@ -760,13 +799,16 @@
                     "Price": 550,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 8,
-                    "Buff": {
-                        "Duration": 560,
-                        "CustomAttributes": {
-                            "MiningLevel": 3,
-                            "Attack": 2
+                    "Buffs": [
+                        {
+                            "Id": "TigerseyePotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "MiningLevel": 3,
+                                "Attack": 2
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
                 },
@@ -780,13 +822,16 @@
                     "Price": 400,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 9,
-                    "Buff": {
-                        "Duration": 560,
-                        "CustomAttributes": {
-                            "MiningLevel": 3,
-                            "Defense": 4
+                    "Buffs": [
+                        {
+                            "Id": "LunaritePotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "MiningLevel": 3,
+                                "Defense": 4
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
                 },
@@ -800,14 +845,17 @@
                     "Price": 500,
                     "Texture": "Mods\\skellady.SBVCP\\MiscItems",
                     "SpriteIndex": 10,
-                    "Buff": {
-                        "Duration": 560,
-                        "CustomAttributes": {
-                            "FarmingLevel": 3,
-                            "MiningLevel": 2,
-                            "LuckLevel": 1
+                    "Buffs": [
+                        {
+                            "Id": "FairyStonePotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "FarmingLevel": 3,
+                                "MiningLevel": 2,
+                                "LuckLevel": 1
+                            }
                         }
-                    },
+                    ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
                 },

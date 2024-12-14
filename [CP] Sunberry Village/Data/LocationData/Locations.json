@@ -471,6 +471,12 @@
                             "Chance": 0.5
                         },
                         {
+                            "Id": "{{ModId}}_CarmineBlossom",
+                            "ItemId": "{{ModId}}_CarmineBlossom",
+                            "Season": "Winter",
+                            "Chance": 0.6
+                        },
+                        {
                             "Id": "{{ModId}}_TwilightFeather",
                             "ItemId": "(O)skellady.SBVCP_TwilightFeather",
                             "Chance": 0.9,
