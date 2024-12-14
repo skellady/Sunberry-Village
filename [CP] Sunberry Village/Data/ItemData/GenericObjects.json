@@ -1,0 +1,56 @@
+{
+    "Changes": [
+        // Load Tilesheets
+        {
+            "LogName": "Load Generic Object Tilesheets",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/GenericObjects",
+            "FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
+        },
+        // Strings
+        {
+            "LogName": "Add Generic Object Tokenizable Strings",
+            "Action": "EditData",
+            "Target": "Strings/Objects",
+            "Entries": {
+                "{{ModId}}_GenericPotion_Name": "{{i18n:SBV.GenericPotion.Name}}",
+                "{{ModId}}_GenericPowder_Name": "{{i18n:SBV.GenericPowder.Name}}"
+            }
+        },
+        // Generic Objects
+        {
+            "LogName": "Add Generic Objects",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_GenericPotion": {
+                    "Name": "{{ModId}}_GenericPotion",
+                    "DisplayName": "{{i18n:SBV.GenericPotion.DisplayName}}",
+                    "Description": "{{i18n:SBV.GenericPotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 200,
+                    "Texture": "Mods\\skellady.SBVCP\\GenericObjects",
+                    "SpriteIndex": 0,
+                    "ColorOverlayFromNextIndex": true,
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true
+                },
+                "{{ModId}}_GenericPowder": {
+                    "Name": "{{ModId}}_GenericPowder",
+                    "DisplayName": "{{i18n:SBV.GenericPowder.DisplayName}}",
+                    "Description": "{{i18n:SBV.GenericPowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\GenericObjects",
+                    "SpriteIndex": 2,
+                    "ColorOverlayFromNextIndex": true,
+                    "ExcludeFromShippingCollection": true
+                }
+            }
+        }
+    ]
+}

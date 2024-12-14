@@ -1,8 +1,8 @@
 {
     "Changes": [
-        // Load Objects
+        // Load Tilesheets
         {
-            "LogName": "Load Objects",
+            "LogName": "Load Object Tilesheets",
             "Action": "Load",
             "Target": "Mods/skellady.SBVCP/Produce, Mods/skellady.SBVCP/Food, Mods/skellady.SBVCP/GemsArtifacts, Mods/skellady.SBVCP/MiscItems, Mods/skellady.SBVCP/Seeds, Mods/skellady.SBVCP/AnimalProduce",
             "FromFile": "Assets/Items/{{TargetWithoutPath}}.png"
