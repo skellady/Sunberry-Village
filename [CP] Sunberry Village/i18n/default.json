@@ -1942,6 +1942,22 @@
     "event-20031472.11": "*sigh*",
     "event-20031472.12": "And here I thought I was done raising children.$7",
 
+    // Ophelia 4 Hearts Event
+    "event-20031473.01": "Hello, @. I'm taking a little break, but if you need anything I'll be back inside momentarily.",
+    "event-20031473.02": "Oh? You're just here to talk? That's nice of you. I'd appreciate the company.$h",
+    "event-20031473.03": "How's the inn doing?",
+    "event-20031473.04": "If you don't mind me asking, do you enjoy running the inn?",
+    "event-20031473.05": "It's doing really well. My husband is managing one of our other branches in Zuzu City while I run this one.",
+    "event-20031473.06": "Ah, yeah. My husband left a few years ago to open a second branch of Serenity Inn.",
+    "event-20031473.07": "He left me here to run this branch, but I wasn't always an innkeeper, you know?$9",
+    "event-20031473.08": "I was working alongside Marlon at the guild. We were planning on starting up a guild right here in Sunberry.$10",
+    "event-20031473.09": "I... do, I guess. It's not bad, but the paperwork gives me a headache sometimes.$h",
+    "event-20031473.10": "Before my husband left the village to open up a second branch of the inn, I used to work alongside Marlon at the guild.",
+    "event-20031473.11": "I wasn't always an innkeeper. I *definitely* enjoy being an adventurer more.$u",
+    "event-20031473.12": "We were even discussing starting up a guild right here in Sunberry.$10",
+    "event-20031473.13": "...Life can be unpredictable, sometimes. I'm sure you understand that. You were working an office job in the city not too long ago.$4",
+    "event-20031473.14": "Thank you for keeping me company, I should get back to work now.",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",
