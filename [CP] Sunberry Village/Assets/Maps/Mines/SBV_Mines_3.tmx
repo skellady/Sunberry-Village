@@ -13,6 +13,51 @@
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
+  <tile id="1">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="17">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="18">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="19">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="33">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="34">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="35">
+   <properties>
+    <property name="Spawnable" value="T"/>
+   </properties>
+  </tile>
   <tile id="137">
    <properties>
     <property name="Spawnable" value="T"/>
@@ -370,8 +415,8 @@
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="353" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
-  <image source="paths.png" width="64" height="144"/>
+ <tileset firstgid="353" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
  </tileset>
  <layer id="1" name="Back" width="40" height="35">
   <data encoding="csv">
