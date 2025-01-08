@@ -101,7 +101,56 @@ NOTE: This is still a work in progress so it's subject to change. Editing the "S
 
 ### Infinite Time on Special Orders
 
-TODO
+Add your special order as usual, then tack on the following piece of code to the bottom of your order: 
+```json
+"CustomFields": {
+                "SunberryTeam.SBVSMAPI/InfiniteDuration": true
+            }
+```
+See full example here for specific placement: 
+```json
+{
+    "LogName": "Add Special Orders",
+    "Action": "EditData",
+    "Target": "Data/SpecialOrders",
+    "Entries": {
+        "SBV.SpecialOrder.MaiaGrubs": {
+            "Name": "[SBV.SpecialOrder.MaiaGrubs_Name]",
+            "Requester": "MaiaSBV",
+            "Duration": "TwoWeeks",
+            "Repeatable": false,
+            "RequiredTags": "",
+            "OrderType": "SunberryBoard",
+            "SpecialRule": "",
+            "Text": "[SBV.SpecialOrder.MaiaGrubs_Text]",
+            "ItemToRemoveOnEnd": null,
+            "MailToRemoveOnEnd": null,
+            "RandomizedElements": null,
+            "Objectives": [
+                {
+                    "Type": "Slay",
+                    "Text": "[SBV.SpecialOrder.MaiaGrubs_Objective_Text_0]",
+                    "RequiredCount": "30",
+                    "Data": {
+                        "TargetName": "Grub"
+                    }
+                }
+            ],
+            "Rewards": [
+                {
+                    "Type": "Money",
+                    "Data": {
+                        "Amount": "5000"
+                    }
+                }
+            ],
+            "CustomFields": {
+                "SunberryTeam.SBVSMAPI/InfiniteDuration": true
+            }
+        }
+    }
+}
+```
 
 ### Ari's Market Daily Special
 
