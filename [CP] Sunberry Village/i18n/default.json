@@ -1958,6 +1958,25 @@
     "event-20031473.13": "...Life can be unpredictable, sometimes. I'm sure you understand that. You were working an office job in the city not too long ago.$4",
     "event-20031473.14": "Thank you for keeping me company, I should get back to work now.",
 
+    // Museum SO Intro
+    "event-20031474.01": "Ah, @. I wasn't expectin' to see anyone up here.",
+    "event-20031474.02": "This? Well, this was supposed to be our museum.$9",
+    "event-20031474.03": "As you can see, it's pretty bare at the moment.$s",
+    "event-20031474.04": "What happened?",
+    "event-20031474.05": "How long has it been like this?",
+    "event-20031474.06": "Dr. Zahra, the owner of this buildin', built this area to house our collection.#$b#She had to leave the village sometime last year on urgent business, so we never got around to it.$8",
+    "event-20031474.07": "Around a year, give or take.$9",
+    "event-20031474.08": "Dr. Zahra, the owner of this buildin', built this area to house our collection.#$b#She had to leave the village on urgent business, so we never got around to it.$8",
+    "event-20031474.09": "Say, farmer. Would you be interested in helpin' me restore this place?$h",
+    "event-20031474.10": "Aren't you helpin' Gunther out over at Pelican Town? Surely you can help a desperate neighbor, too. Don't make me beg, now.$10",
+    "event-20031474.11": "Sure, I'll help.",
+    "event-20031474.12": "...Fine, but you owe me.",
+    "event-20031474.13": "Perfect! Thank you, truly. I promise you won't be alone. Maia and I will help out, too.$h",
+    "event-20031474.14": "...Once I get her on board.$u",
+    "event-20031474.15": "Perfect! I absolutely owe you one. Thank you, truly.$h#$b#I promise you won't be alone. Maia and I will help out, too.$h",
+    "event-20031474.16": "If you find any minerals or artifacts that are native to Sunberry, just drop 'em off in the box on the right. I'll sort 'em out.$h",
+    "event-20031474.17": "Thank you again. I really appreciate it, farmer.$12",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",
