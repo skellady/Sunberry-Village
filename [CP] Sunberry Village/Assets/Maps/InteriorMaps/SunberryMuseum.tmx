@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="18" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="18" height="14" tilewidth="16" tileheight="16" infinite="0" nextlayerid="18" nextobjectid="2">
  <properties>
   <property name="AmbientLight" value="50 120 200"/>
   <property name="DayTiles" value="Front 8 1 225 Front 9 1 225 Front 8 2 257 Front 9 2 257"/>
@@ -71,7 +71,7 @@
 1,33,0,80,112,144,0,0,0,0,0,0,146,114,82,0,37,1,
 1,65,81,112,144,0,0,1238,1074,1074,1239,0,0,146,114,81,69,1,
 1,65,113,144,0,0,1073,1074,1074,1074,1074,1075,0,0,146,113,69,1,
-1,65,0,0,0,0,1105,1073743062,1074,1074,1073743063,1107,0,0,0,5552,69,1,
+1,65,0,0,0,0,1105,1073743062,1074,1074,1073743063,1107,0,0,0,5551,69,1,
 1,65,0,1073,1075,0,0,1105,1106,1106,1107,0,0,1073,1075,0,69,1,
 1,161,6612,1105,1107,0,0,0,0,0,0,0,0,1105,1107,6677,168,1,
 1,1,1,1,1,161,6366,6367,0,0,6366,6367,168,1,1,1,1,1,
@@ -133,7 +133,13 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="1" name="TileData" x="240" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="DropBox SBVMuseumBox"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="5" name="Paths" width="18" height="14">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -162,7 +168,7 @@
 0,0,0,42,0,0,0,0,0,0,0,0,0,0,44,0,0,0,
 0,0,42,0,0,0,0,1041,1042,1042,1043,0,0,0,0,44,0,0,
 0,0,0,0,0,0,1041,0,0,0,0,1043,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5528,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5527,0,0,
 0,0,0,1041,1043,0,0,0,0,0,0,0,0,1041,1043,0,0,0,
 0,0,6580,0,0,0,0,0,0,0,0,0,0,0,0,6645,0,0,
 0,0,162,166,166,163,6334,6335,0,0,6334,6335,164,166,166,167,0,0,
