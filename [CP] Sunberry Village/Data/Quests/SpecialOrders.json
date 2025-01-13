@@ -938,7 +938,106 @@
                             }
                         }
                     ]
-                }
+                },
+                "SBV.SpecialOrder.SBVMuseumMinerals": {
+                    "Name": "[SBV.SpecialOrder.SBVMuseumMinerals_Name]",
+                    "Requester": "EliasSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "!dropbox_SBVMuseumBox",
+                    "OrderType": "",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_0]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_Annabergite"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_1]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_BlueAuraQuartz"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_2]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_Citrine"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_3]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_Moonberry"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_4]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_Purpurite"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_5]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_Serpentine"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "30000"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "SBVMuseumSO1",
+                                "NoLetter": "false"
+                            }
+                        }
+                    ],
+                    "CustomFields": {
+                        "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
+                    }
+                },
             }
         },
     ]

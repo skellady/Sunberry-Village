@@ -1974,8 +1974,9 @@
     "event-20031474.13": "Perfect! Thank you, truly. I promise you won't be alone. Maia and I will help out, too.$h",
     "event-20031474.14": "...Once I get her on board.$u",
     "event-20031474.15": "Perfect! I absolutely owe you one. Thank you, truly.$h#$b#I promise you won't be alone. Maia and I will help out, too.$h",
-    "event-20031474.16": "If you find any minerals or artifacts that are native to Sunberry, just drop 'em off in the box on the right. I'll sort 'em out.$h",
+    "event-20031474.16": "If you find any minerals that are native to Sunberry, just drop 'em off in the box on the right. I'll sort 'em out.$h#$b#I don't wanna overwhelm you, so we'll start looking for the artifacts once we're done with the minerals.$h",
     "event-20031474.17": "Thank you again. I really appreciate it, farmer.$12",
+    "event-20031474.18": "A quest has been added to your journal!",
 
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
@@ -2128,6 +2129,16 @@
     "SBV.SpecialOrder.JumanaFlowerOrder2_Text": "Looking for out-of-season flowers for an order! If anyone's managed to save any {FlowerType:TextPlural} from the previous season, please send some my way!",
     "SBV.SpecialOrder.JumanaFlowerOrder2_Objective_Text_0": "Drop off 10 {FlowerType:TextPlural} in the box at Jumana's house.",
 
+    // Museum Part 1
+    "SBV.SpecialOrder.SBVMuseumMinerals_Name": "Sunberry Museum Pt. 1",
+    "SBV.SpecialOrder.SBVMuseumMinerals_Text": "Elias needs help with the Sunberry Museum. He wants to start the collection off with the minerals first. Donate the following minerals at the box on the right side of the museum.",
+    "SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_0": "Donate 1 Annabergite",
+    "SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_1": "Donate 1 Blue Aura Quartz",
+    "SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_2": "Donate 1 Citrine",
+    "SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_3": "Donate 1 Moonberry",
+    "SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_4": "Donate 1 Purpurite",
+    "SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_5": "Donate 1 Serpentine",
+
     //Mail 
     //----
 
@@ -2182,6 +2193,8 @@
     "Mail.JumanaSOFlowers2.Title": "More Flowers for Jumana",
     "Mail.EliasSORareFish.Body": "Hey @,^^I'm impressed. You took my challenge head-on and fished up everything I asked for! You've already got the posted reward, but I couldn't help sending over a li'l extra. Enjoy, and keep the art of fishing alive!^^- Elias",
     "Mail.EliasSORareFish.Title": "Mighty Fine Fishin'",
+    "Mail.SBVMuseumSO1.Body": "Hey @,^^I don't know how I could ever repay you. I've been staring at these minerals since you dropped 'em off. Thank you, it means the world to this geek. Drop by the museum whenever you're ready for the next part of our little quest. The artifacts might be a little tougher to find, but I know you're more than capable.^^- Elias",
+    "Mail.SBVMuseumSO1.Title": "Sunberry Museum Pt. 1",
 
     //Pass Out Letter
     "Mail.passedOutSBV.Body": "@,^^Found you unconscious last night while I was doing my sweep with Maia. Try to be more careful next time. If there's anything I can do for you, you know where to find me.^^- Ophelia",
