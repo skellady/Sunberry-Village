@@ -43,7 +43,7 @@
                 "JumanaSOFlowers": "{{i18n:Mail.JumanaSOFlowers.Body}}[#]{{i18n:Mail.JumanaSOFlowers.Title}}",
                 "JumanaSOFlowers2": "{{i18n:Mail.JumanaSOFlowers2.Body}}[#]{{i18n:Mail.JumanaSOFlowers2.Title}}",
                 "EliasSORareFish": "{{i18n:Mail.EliasSORareFish.Body}}%item id (O)ChallengeBait 5 %%[#]{{i18n:Mail.EliasSORareFish.Title}}",
-                "SBVMuseumSO1": "{{i18n:Mail.SBVMuseumSO1.Body}}[#]{{i18n:Mail.SBVMuseumSO1.Title}}",
+                "SBVMuseumSO1": "{{i18n:Mail.SBVMuseumSO1.Body}}%action AddQuest skellady.SBVCP_SBVMuseumQuest1%%[#]{{i18n:Mail.SBVMuseumSO1.Title}}",
 
                 // Villager Letters
                 "skellady.SBVCP_AminaSeeds": "{{i18n:Mail.AminaSeeds.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 4]%item id (O)skellady.SBVCP_ArfajSeeds 5 (O)skellady.SBVCP_CoffeeBlossomSeeds 5 %%[#]{{i18n:Mail.AminaSeeds.Title}}",

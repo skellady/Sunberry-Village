@@ -2032,6 +2032,10 @@
     "skellady.SBVCP_GoldenSunberryGrowing5.desc": "The seedling is growing steadily! The energy in the village has a radiant joy to it that makes you want to dance.",
     "skellady.SBVCP_GoldenSunberryGrowing.task": "Continue strengthening your bonds with the villagers to help the seedling flourish.",
 
+    "SBV.Quest.SBVMuseumQuestName": "Sunberry Museum",
+    "skellady.SBVCP_SBVMuseumQuest1.desc": "You helped with collecting minerals for the Sunberry Museum, now it's time to collect the artifacts.",
+    "skellady.SBVCP_SBVMuseumQuest1.task": "Visit Elias at the Sunberry Museum for your next quest.",
+
     //Special Orders
     //--------------
 
