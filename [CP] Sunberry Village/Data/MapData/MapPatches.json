@@ -982,6 +982,25 @@
         "HasMod": "Rafseazz.RSVCP"
       }
     },
+    // Pip and Pep Patches
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_MinesFinal",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/{{Random: MineMerchantPip, MineMerchantPep}}.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 5,
+        "Height": 5
+      },
+      "ToArea": {
+        "X": 40,
+        "Y": 7,
+        "Width": 5,
+        "Height": 5
+      }
+    }
     // Twilight Festival Patch
     /*{
       "Action": "EditMap",
