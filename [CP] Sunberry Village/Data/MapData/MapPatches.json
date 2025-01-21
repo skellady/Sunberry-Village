@@ -999,6 +999,10 @@
         "Y": 7,
         "Width": 5,
         "Height": 5
+      },
+      "When": {
+        "HasSeenEvent |contains= skellady.SBVCP_20031448": true,
+        "Query: '{{Day}}' IN ('6', '10', '22') AND '{{DailyLuck}}' > '0'": true
       }
     }
     // Twilight Festival Patch
