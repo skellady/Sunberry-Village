@@ -983,6 +983,33 @@
                         },
                     ]
                 },
+                "skellady.SBVCP_PipPepShop": {
+                    "ID": "skellady.SBVCP_PipPepShop",
+                    "Owners": [
+                        {
+                            "Condition": null,
+                            "Dialogues": [
+                                {
+                                    "Dialogue": "{{i18n:PipPepShop.Dialogue}}"
+                                }
+                            ],
+                            "Name": "AnyOrNone",
+                            "Id": "AnyOrNone"
+                        }
+                    ],
+                    "PriceModifiers": null,
+                    "Items": [
+                        {
+                            // THIS IS PLACEHOLDER
+                            "Id": "skellady.SBVCP_SilasBlacksmith.MoonberrySeeds",
+                            "ItemId": "skellady.SBVCP_MoonberrySeeds",
+                            "TradeItemId": "skellady.SBVCP_Moonberry",
+                            "TradeItemAmount": 1,
+                            "AvailableStock": 15,
+                            "AvailableStockLimit": "Global"
+                        }
+                    ]
+                }
             }
         },
         // Adds Twilight Feathers to Traveling Merchant
@@ -997,7 +1024,7 @@
                 "skellady.SBVCP_TwilightFeather": {
                     "Id": "skellady.SBVCP_TwilightFeather",
                     "ItemId": "skellady.SBVCP_TwilightFeather",
-                    "Condition": "RANDOM 0.5 @addDailyLuck",
+                    "Condition": "RANDOM 0.2 @addDailyLuck",
                     "AvailableStock": 3,
                     "AvailableStockLimit": "Global",
                     "Price": 2000

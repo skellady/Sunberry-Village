@@ -3063,6 +3063,16 @@
     "MapString.sbv.library8": "\"In the Depths, Part 2\"^^A quick look at these monsters tells us a few things. One, they are nothing like the monsters in the Pelican Town mines. Two, they drop precious minerals upon perishing. Sometimes, they drop a delicate pink leaf.^^It doesn't seem to have any nutritional value, but it seems to be powerful. We'll keep experimenting to find any uses for these drops.^^The team's witch believes they can be used to brew potions, somehow.^^-Dr. Zahra Y.",
     "MapString.sbv.library9": "\"In the Depths, Part 3\"^^We've managed to study and name a few of the monsters we've come across. Crystal Menaces, Crystal Golems, and the Abominations. The most curious of all remain the Abominations. One of our scientists has managed to link them to the dwarves. They were used as sentries to keep intruders away, but eventually evolved into what they are now: Abominations. We haven't seen any proof of the dwarves' existence for centuries now. Hence, our investigation has led us to a dead end.^^-Dr. Zahra Y.",
     "MapString.sbv.library10": "\"Secrets of the Legendary Fish: Sunberry Village Edition\"^^Fishermen speak of two rare and unique fish that can only be caught by skilled anglers. Once caught, they will never appear again.^^According to some experts, a twisted, corrupt version of the Najelfish exists. It's been rumored to live at the bottom of the Crystal Cavern, swimming in circles between the purple and gold trees. Because of its remote location and reclusive nature, most fishermen believe its existence is a myth.^^Angler Jr., a descendant of the Anglerfish, was spotted somewhere deep in the Sunberry Forest. Fishermen would have to bring along a fighter to catch this fish, as the area it lives in is dangerous. It can be caught below the waterfall during the fall season.",
+    "MapString.sbv.pipdialogue1": "Pip: Have good goods! Look at goods!",
+    "MapString.sbv.pipdialogue2": "Pip: Pip travels the world for goods! Pip has no home.",
+    "MapString.sbv.pipdialogue3": "Pip: Goods prices vary! Pip needs money for more goods! :D",
+    "MapString.sbv.pipdialogue4": "Pip: You will be Pip's favorite customer! Buy Pip's goods! :3",
+    "MapString.sbv.pipdialogue5": "Pip: Pip has twin brother! Pep is Pip's favorite brother <",
+    "MapString.sbv.pepdialogue1": "Pep: ...Just buy the goods. Pip and Pep work hard for the goods.",
+    "MapString.sbv.pepdialogue2": "Pep: You have money? Spend money for goods. Pep wants to buy Pip a gift.",
+    "MapString.sbv.pepdialogue3": "Pep growls at you. It doesn't sound very threatening.",
+    "MapString.sbv.pepdialogue4": "Pep: Be nice to Pip. If you are mean to Pip, Pep will bite you.",
+    "MapString.sbv.pepdialogue5": "Pep: ...What? What? Go look at goods, not Pep.",
 
     // Fish info book
     "FishInfo.AzureanCarp": "Placeholder.",
@@ -5660,7 +5670,6 @@
     "SBV.AlchemyTable.MissingCinderLeaf": "Requires 5 Cinder Leaves.",
     "SBV.AlchemyTable.InvalidItem": "This item won't work here.",
     "SBV.AlchemyTable.InvalidCount": "Requires more Cinder Leaves.",
-    "SBV.SeaCowSmoker.InvalidItem": "This fish cannot be smoked.",
 
     //Shop Dialogue
     //-------------
@@ -5699,6 +5708,9 @@
     "MoonberryShop.Dialogue.1": "Psst, leave Moonberry here and take seed!",
     "MoonberryShop.Dialogue.2": "Moon trusts you to leave the Moonberry here before taking the seeds!",
     "MoonberryShop.Dialogue.3": "Moonberry seeds! Moonberry seeds!",
+
+    //Pip and Pep
+    "PipPepShop.Dialogue": "Pip and Pep's Rare Goods.",
 
     // Closed Shop
     "SBV.Closed.Message": "Closed! Come back later.",

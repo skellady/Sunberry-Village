@@ -137,7 +137,10 @@
                 "sbv.unoccupiedripleyrsv": "{{i18n:MapString.sbv.unoccupiedripleyrsv}}",
                 "sbv.unoccupiedvalli": "{{i18n:MapString.sbv.unoccupiedvalli}}",
                 "sbv.unoccupiedthy": "{{i18n:MapString.sbv.unoccupiedthy}}",
-                "sbv.unoccupiedalchemist": "{{i18n:MapString.sbv.unoccupiedalchemist}}"
+                "sbv.unoccupiedalchemist": "{{i18n:MapString.sbv.unoccupiedalchemist}}",
+                // pip and pep
+                "sbv.pipdialogue": "{{Random: {{i18n:MapString.sbv.pipdialogue1}} ++ {{i18n:MapString.sbv.pipdialogue2}} ++ {{i18n:MapString.sbv.pipdialogue3}} ++ {{i18n:MapString.sbv.pipdialogue4}} ++ {{i18n:MapString.sbv.pipdialogue5}} |inputSeparator=++}}",
+                "sbv.pepdialogue": "{{Random: {{i18n:MapString.sbv.pepdialogue1}} ++ {{i18n:MapString.sbv.pepdialogue2}} ++ {{i18n:MapString.sbv.pepdialogue3}} ++ {{i18n:MapString.sbv.pepdialogue4}} ++ {{i18n:MapString.sbv.pepdialogue5}} |inputSeparator=++}}"
             }
         },
         {
