@@ -5660,6 +5660,7 @@
     "SBV.AlchemyTable.MissingCinderLeaf": "Requires 5 Cinder Leaves.",
     "SBV.AlchemyTable.InvalidItem": "This item won't work here.",
     "SBV.AlchemyTable.InvalidCount": "Requires more Cinder Leaves.",
+    "SBV.SeaCowSmoker.InvalidItem": "This fish cannot be smoked.",
 
     //Shop Dialogue
     //-------------

@@ -20,11 +20,11 @@
                     "Price": 30,
                     "Fragility": 0,
                     "CanBePlacedOutdoors": true,
-				    "CanBePlacedIndoors": true,
+                    "CanBePlacedIndoors": true,
                     "IsLamp": false,
                     "Texture": "Mods\\skellady.SBVCP\\Machines",
                     "SpriteIndex": 0,
-				    "CustomFields": {}
+                    "CustomFields": {}
                 },
                 "{{ModId}}_AlchemyTable": {
                     "Name": "skellady.SBVCP_AlchemyTable",
@@ -318,7 +318,6 @@
                                     "Id": "skellady.SBVCP_AnnabergitePotion",
                                     "ItemId": "(O)skellady.SBVCP_AnnabergitePotion",
                                     "CopyQuality": false,
-
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -340,7 +339,6 @@
                                     "Id": "skellady.SBVCP_SerpentinePotion",
                                     "ItemId": "(O)skellady.SBVCP_SerpentinePotion",
                                     "CopyQuality": false,
-
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -362,7 +360,6 @@
                                     "Id": "skellady.SBVCP_PurpuritePotion",
                                     "ItemId": "(O)skellady.SBVCP_PurpuritePotion",
                                     "CopyQuality": false,
-
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -384,7 +381,6 @@
                                     "Id": "skellady.SBVCP_CitrinePotion",
                                     "ItemId": "(O)skellady.SBVCP_CitrinePotion",
                                     "CopyQuality": false,
-
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -406,7 +402,6 @@
                                     "Id": "skellady.SBVCP_BlueAuraQuartzPotion",
                                     "ItemId": "(O)skellady.SBVCP_BlueAuraQuartzPotion",
                                     "CopyQuality": false,
-
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -428,7 +423,6 @@
                                     "Id": "skellady.SBVCP_MoonberryPotion",
                                     "ItemId": "(O)skellady.SBVCP_MoonberryPotion",
                                     "CopyQuality": false,
-
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -450,7 +444,6 @@
                                     "Id": "skellady.SBVCP_DolomitePotion",
                                     "ItemId": "(O)skellady.SBVCP_DolomitePotion",
                                     "CopyQuality": false,
-
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -472,7 +465,6 @@
                                     "Id": "skellady.SBVCP_TigerseyePotion",
                                     "ItemId": "(O)skellady.SBVCP_TigerseyePotion",
                                     "CopyQuality": false,
-
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -494,7 +486,6 @@
                                     "Id": "skellady.SBVCP_LunaritePotion",
                                     "ItemId": "(O)skellady.SBVCP_LunaritePotion",
                                     "CopyQuality": false,
-
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -516,7 +507,6 @@
                                     "Id": "skellady.SBVCP_FairyStonePotion",
                                     "ItemId": "(O)skellady.SBVCP_FairyStonePotion",
                                     "CopyQuality": false,
-
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -538,13 +528,25 @@
                     "WobbleWhileWorking": false,
                     "LoadEffects": [
                         {
-                            "Frames": [ 0, 1, 2, 3, 4 ],
+                            "Frames": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "Interval": 200
                         }
                     ],
                     "WorkingEffects": [
                         {
-                            "Frames": [ 0, 1, 2, 3, 4 ],
+                            "Frames": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "Interval": 200
                         }
                     ],
@@ -555,7 +557,7 @@
         // Generic Object Rules
         {
             "LogName": "Machine Data",
-            "Priority": "Late",         // late priority to ensure these don't override any rules added by other mods, i.e. addon/compat
+            "Priority": "Late", // late priority to ensure these don't override any rules added by other mods, i.e. addon/compat
             "Action": "EditData",
             "Target": "Data/Machines",
             "Entries": {
@@ -568,12 +570,16 @@
                             "Triggers": [
                                 {
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredTags": [ "category_minerals" ],
+                                    "RequiredTags": [
+                                        "category_minerals"
+                                    ],
                                     "RequiredCount": 1
                                 },
                                 {
                                     "Trigger": "ItemPlacedInMachine",
-                                    "RequiredTags": [ "category_gem" ],
+                                    "RequiredTags": [
+                                        "category_gem"
+                                    ],
                                     "RequiredCount": 1
                                 }
                             ],
@@ -658,18 +664,46 @@
                     "WobbleWhileWorking": false,
                     "LoadEffects": [
                         {
-                            "Frames": [ 0, 1, 2, 3, 4 ],
+                            "Frames": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "Interval": 200
                         }
                     ],
                     "WorkingEffects": [
                         {
-                            "Frames": [ 0, 1, 2, 3, 4 ],
+                            "Frames": [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4
+                            ],
                             "Interval": 200
                         }
                     ],
                     "WorkingEffectChance": 1
                 }
+            }
+        },
+        // SEA COW BANNED!!! NO MORE SMOKING! 
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)FishSmoker",
+                "OutputRules",
+                "SmokedFish",
+                "Triggers",
+                "ItemPlacedInMachine",
+                "RequiredTags"
+            ],
+            "Entries": {
+                "!item_seacow": "!item_seacow"
             }
         }
     ]
