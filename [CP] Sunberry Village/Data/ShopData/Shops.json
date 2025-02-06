@@ -974,7 +974,7 @@
                     "Items": [
                         // Moonberry Seeds
                         {
-                            "Id": "skellady.SBVCP_SilasBlacksmith.MoonberrySeeds",
+                            "Id": "skellady.SBVCP_MoonberryShop.MoonberrySeeds",
                             "ItemId": "skellady.SBVCP_MoonberrySeeds",
                             "TradeItemId": "skellady.SBVCP_Moonberry",
                             "TradeItemAmount": 1,
@@ -997,16 +997,40 @@
                             "Id": "AnyOrNone"
                         }
                     ],
-                    "PriceModifiers": null,
+                    "PriceModifiers": [
+                        {
+                            "Modification": "Multiply",
+                            "Amount": "{{Random: 0.25, 2.5}}"
+                        }
+                    ],
                     "Items": [
                         {
-                            // THIS IS PLACEHOLDER
-                            "Id": "skellady.SBVCP_SilasBlacksmith.MoonberrySeeds",
-                            "ItemId": "skellady.SBVCP_MoonberrySeeds",
-                            "TradeItemId": "skellady.SBVCP_Moonberry",
-                            "TradeItemAmount": 1,
-                            "AvailableStock": 15,
-                            "AvailableStockLimit": "Global"
+                            // Books
+                            "Id": "skellady.SBVCP_PipPepShop.Books",
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 2 (O)Book_Speed (O)Book_Defense (O)Book_Roe (O)Book_Mystery (O)Book_Grass (O)SkillBook_1 (O)PurpleBook (O)SkillBook_4 (O)SkillBook_3 (O)SkillBook_0 (O)SkillBook_2",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            // Crackables
+                            "Id": "skellady.SBVCP_PipPepShop.Crackables",
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 2 (O)275 (O)skellady.SBVCP_SunberryGeode (O)74 (O)MysteryBox (O)skellady.SBVCP_SunriseOrb (O)skellady.SBVCP_SunsetOrb (O)skellady.SBVCP_EclipseOrb",
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            // Seeds
+                            "Id": "skellady.SBVCP_PipPepShop.Seeds",
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 2 (O)114 (O)347 (O)74 (O)251 (O)486",
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            // Machines
+                            "Id": "skellady.SBVCP_PipPepShop.Machines",
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 2 (BC)12 (BC)163 (BC)10 (BC)105 (BC)272 (BC)165 (O)645 (O)872 (BC)skellady.SBVCP_MineralGrinder (BC)skellady.SBVCP_AlchemyTable",
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
                         }
                     ]
                 }
