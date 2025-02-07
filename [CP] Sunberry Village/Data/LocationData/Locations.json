@@ -1492,7 +1492,19 @@
                             "Id": "{{ModId}}_S2AncientFruit",
                             "ItemId": "(O)454",
                             "Season": "Spring",
-                            "Chance": 0.05
+                            "Chance": 0.08
+                        },
+                        {
+                            "Id": "{{ModId}}_Tulip",
+                            "ItemId": "(O)591",
+                            "Season": "Spring",
+                            "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_BlueJazz",
+                            "ItemId": "(O)597",
+                            "Season": "Spring",
+                            "Chance": 0.4
                         },
                         {
                             "Id": "{{ModId}}_S2Sunberry",
@@ -1501,10 +1513,28 @@
                             "Chance": 0.5
                         },
                         {
+                            "Id": "{{ModId}}_Spangle",
+                            "ItemId": "(O)593",
+                            "Season": "Summer",
+                            "Chance": 0.3
+                        },
+                        {
+                            "Id": "{{ModId}}_Poppy",
+                            "ItemId": "(O)376",
+                            "Season": "Summer",
+                            "Chance": 0.3
+                        },
+                        {
                             "Id": "{{ModId}}_S2GemBerry",
                             "ItemId": "(O)417",
                             "Season": "Fall",
-                            "Chance": 0.03
+                            "Chance": 0.05
+                        },
+                        {
+                            "Id": "{{ModId}}_Sunflower",
+                            "ItemId": "(O)421",
+                            "Season": "Fall",
+                            "Chance": 0.4
                         },
                         {
                             "Id": "{{ModId}}_S2CrystalFruit",
