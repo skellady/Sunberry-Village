@@ -394,12 +394,34 @@
   <tile id="293">
    <animation>
     <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
+    <frame tileid="293" duration="200"/>
     <frame tileid="294" duration="200"/>
     <frame tileid="295" duration="200"/>
    </animation>
   </tile>
   <tile id="296">
    <animation>
+    <frame tileid="296" duration="200"/>
+    <frame tileid="296" duration="200"/>
+    <frame tileid="296" duration="200"/>
+    <frame tileid="296" duration="200"/>
+    <frame tileid="296" duration="200"/>
+    <frame tileid="296" duration="200"/>
+    <frame tileid="296" duration="200"/>
+    <frame tileid="296" duration="200"/>
+    <frame tileid="296" duration="200"/>
+    <frame tileid="296" duration="200"/>
+    <frame tileid="296" duration="200"/>
     <frame tileid="296" duration="200"/>
     <frame tileid="296" duration="200"/>
     <frame tileid="296" duration="200"/>
@@ -410,12 +432,34 @@
   <tile id="309">
    <animation>
     <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
+    <frame tileid="309" duration="200"/>
     <frame tileid="310" duration="200"/>
     <frame tileid="311" duration="200"/>
    </animation>
   </tile>
   <tile id="312">
    <animation>
+    <frame tileid="312" duration="200"/>
+    <frame tileid="312" duration="200"/>
+    <frame tileid="312" duration="200"/>
+    <frame tileid="312" duration="200"/>
+    <frame tileid="312" duration="200"/>
+    <frame tileid="312" duration="200"/>
+    <frame tileid="312" duration="200"/>
+    <frame tileid="312" duration="200"/>
+    <frame tileid="312" duration="200"/>
+    <frame tileid="312" duration="200"/>
+    <frame tileid="312" duration="200"/>
     <frame tileid="312" duration="200"/>
     <frame tileid="312" duration="200"/>
     <frame tileid="312" duration="200"/>
