@@ -680,6 +680,12 @@
                             "Price": 50
                         },
                         {
+                            "Id": "skellady.SBVCP_JumanaShop.SunflowerSeeds",
+                            "ItemId": "(O)431",
+                            "Condition": "SEASON summer",
+                            "Price": 120
+                        },
+                        {
                             "Id": "skellady.SBVCP_JumanaShop.PoppySeeds",
                             "ItemId": "(O)453",
                             "Condition": "SEASON summer",

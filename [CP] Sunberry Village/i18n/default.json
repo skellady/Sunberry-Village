@@ -284,7 +284,7 @@
     //Love
     "Gift.Apple.Aicha": "Oh, I LOVE apples! I like that you can eat them with their... clothes on. Sorry, I can't remember what the outer layer is called. Thank you!$15",
     "Gift.Cherry.Aicha": "Ooh! This is one of my favorite fruits, thank you!$u#$b#%Aicha swallows the cherry whole, including the pit.",
-    "Gift.SolarEssence.Aicha": "You got me an actual solar essence for my birthday? They use these to make plushies back home!$6#$b#Thank you so much!$u",
+    "Gift.SolarEssence.Aicha": "You got me an actual solar essence? They use these to make plushies back home!$6#$b#Thank you so much!$u",
     "Gift.FairyRose.Aicha": "Aw, for me? That's so nice of you. These are my favorites. I usually pick some when Jumana grows them!$15",
     "Gift.StarShards.Aicha": "Is this an actual star shard? Wow, you're so cool! How'd you manage to convince the stars to let you take one?$6#$b#Last time I tried, they got really mad. I was so embarrassed, I went back home and crawled under my blanket.$s#$b#Thank you, though!$h",
     "Gift.FrozenTear.Aicha": "OH! A frozen tear! It's for me? Aw, thank you!$u#$b#I'll go put it in Diala and Derya's freezer so it doesn't melt. Ours isn't working very well.$h",
@@ -2149,7 +2149,7 @@
     //FOR TRANSLATORS: Don't translate or remove formatting symbols like @ and ^. Only translate the actual text.
 
     //DND Invite
-    "Mail.DNDInviteLetter.Body": "Hello, @!^^We'd like to invite you to D&D's Cat Cafe. Feel free to drop by during our opening hours! We're located in Sunberry Village.^^Looking forward to seeing you!^^- Diala and Derya",
+    "Mail.DNDInviteLetter.Body": "Hello, @!^^We'd like to invite you to D&D's Cat Cafe. Feel free to drop by during our opening hours! We're located in Sunberry Village. You can make your way over here by heading south from the Pelican Town museum!^^Looking forward to seeing you!^^- Diala and Derya",
     "Mail.DNDInviteLetter.Title": "D&D Cafe",
 
     //Heart Level Letters
@@ -4405,7 +4405,7 @@
     "Ezra.Dialogue.spring_23": "Ah, my favorite festival! I look forward to all the pretty outfits every single year. Anyone with good taste would come by so I could make them look like a true flower queen!$u",
 
     //Summer
-    "Ezra.Dialogue.summer_1": "Okay, imagine with me, @. Baggy pants, a small crop top, sunglasses. On the head of couse, there's no need to ruin such a good outfit by actually wearing the sunglasses.$h#$b#...I should ask Iman to model it for me.$u",
+    "Ezra.Dialogue.summer_1": "Okay, imagine with me, @. Baggy pants, a small crop top, sunglasses. On the head of course, there's no need to ruin such a good outfit by actually wearing the sunglasses.$h#$b#...I should ask Iman to model it for me.$u",
     "Ezra.Dialogue.summer_10": "I love the potluck, especially when Jumana, Miyoung, and Evelyn contribute. You just know that'll be the best damn soup you've ever had!$u",
     "Ezra.Dialogue.summer_27": "Mmm... the color of these graceful jellyfish... I could make a dress. Oh, it will look stunning.$h",
 
@@ -5930,7 +5930,7 @@
     "Iman.Dialogue.movieTheater": "YES! Finally, a movie theater. Do you know how long I've wanted this?$u",
     "Iman.Dialogue.SterlingTrash": "Mia is SO pretty. Whenever she drops by I have to pretend I wasn't caught staring. I can't help it, she's gorgeous!$u",
     "Iman.Dialogue.keahi_prank": "Oof, @, I usually never comment on people's odor or hygiene, but my GOD! This is unbearable.$s",
-    "Iman.Dialogue.event_postweddingreception": "That event hall is massive! The ridgeside people know how to have fun.$h",
+    "Iman.Dialogue.event_postweddingreception": "That event hall is massive! The Ridgeside people know how to have fun.$h",
     "Iman.Dialogue.MeetTheCats": "Ezra and I were hanging out at the store when Jorts and Jean showed up. Ezra wouldn't stop rambling. I had to tell him to stop embarrassing us in front of the cool cats!$u",
     "Iman.Dialogue.wedding": "I'm really happy for you, @. I hope you and your partner get your happy ever after.$h",
     "Iman.Dialogue.luauBest": "Oh, that soup was delicious! I'm glad I let Ezra convince me to try it.$u",
