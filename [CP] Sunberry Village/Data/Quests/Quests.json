@@ -16,6 +16,7 @@
                 "skellady.SBVCP_GoldenSunberryGrowing5": "Basic/{{i18n:SBV.Quest.GSBQuestName}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing5.desc}}/{{i18n:skellady.SBVCP_GoldenSunberryGrowing.task}}/null/-1/0/-1/false",
                 "skellady.SBVCP_SBVMuseumQuest1": "Basic/{{i18n:SBV.Quest.SBVMuseumQuestName}}/{{i18n:skellady.SBVCP_SBVMuseumQuest1.desc}}/{{i18n:skellady.SBVCP_SBVMuseumQuest1.task}}/null/-1/0/-1/false",
                 "skellady.SBVCP_SBVMuseumQuest2": "Basic/{{i18n:SBV.Quest.SBVMuseumQuestName}}/{{i18n:skellady.SBVCP_SBVMuseumQuest2.desc}}/{{i18n:skellady.SBVCP_SBVMuseumQuest2.task}}/null/-1/0/-1/false",
+                "skellady.SBVCP_SBVMuseumQuest3": "Basic/{{i18n:SBV.Quest.SBVMuseumQuestName}}/{{i18n:skellady.SBVCP_SBVMuseumQuest3.desc}}/{{i18n:skellady.SBVCP_SBVMuseumQuest3.task}}/null/-1/0/-1/false",
             }
         }
     ]

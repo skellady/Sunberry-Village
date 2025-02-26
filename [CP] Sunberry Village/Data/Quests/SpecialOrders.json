@@ -1137,6 +1137,94 @@
                         "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
                     }
                 },
+                "SBV.SpecialOrder.SBVMuseumArtifacts2": {
+                    "Name": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Name]",
+                    "Requester": "EliasSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "!dropbox_SBVMuseumBox",
+                    "OrderType": "SBVNotBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_0]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_ChippedJug"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_1]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_DwarfKeyI"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_2]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_DwarfKeyII"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_3]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_DwarfKeyIII"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_4]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_DwarfKeyIV"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "40000"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "SBVMuseumSO3",
+                                "NoLetter": "false"
+                            }
+                        }
+                    ],
+                    "CustomFields": {
+                        "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
+                    }
+                },
             }
         },
     ]

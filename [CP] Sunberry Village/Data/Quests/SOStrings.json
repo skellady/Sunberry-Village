@@ -104,6 +104,14 @@
             "SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_3": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_3}}",
             "SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_4": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_4}}",
             "SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_5": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_5}}",
+
+            "SBV.SpecialOrder.SBVMuseumArtifacts2_Name": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts2_Name}}",
+            "SBV.SpecialOrder.SBVMuseumArtifacts2_Text": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts2_Text}}",
+            "SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_0": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_0}}",
+            "SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_1": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_1}}",
+            "SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_2": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_2}}",
+            "SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_3": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_3}}",
+            "SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_4": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_4}}",
         }
     }
   ]
