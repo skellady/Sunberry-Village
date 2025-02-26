@@ -945,7 +945,7 @@
                     "Duration": "Month",
                     "Repeatable": false,
                     "RequiredTags": "!dropbox_SBVMuseumBox",
-                    "OrderType": "",
+                    "OrderType": "SBVNotBoard",
                     "SpecialRule": "",
                     "Text": "[SBV.SpecialOrder.SBVMuseumMinerals_Text]",
                     "ItemToRemoveOnEnd": null,
@@ -1023,13 +1023,112 @@
                         {
                             "Type": "Money",
                             "Data": {
-                                "Amount": "30000"
+                                "Amount": "20000"
                             }
                         },
                         {
                             "Type": "Mail",
                             "Data": {
                                 "MailReceived": "SBVMuseumSO1",
+                                "NoLetter": "false"
+                            }
+                        }
+                    ],
+                    "CustomFields": {
+                        "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
+                    }
+                },
+                "SBV.SpecialOrder.SBVMuseumArtifacts1": {
+                    "Name": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Name]",
+                    "Requester": "EliasSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "!dropbox_SBVMuseumBox",
+                    "OrderType": "SBVNotBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_0]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_MushroomStatue"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_1]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_AncientStaff"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_2]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_SilverMask"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_3]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_LapisNecklace"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_4]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_WickedVase"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_5]",
+                            "RequiredCount": "1",
+                            "Data": {
+                                "DropBox": "SBVMuseumBox",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryMuseum",
+                                "DropBoxIndicatorLocation": "15 7",
+                                "AcceptedContextTags": "id_(o)skellady.SBVCP_GoldenCoins"
+                            }
+                        },
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": "30000"
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "SBVMuseumSO2",
                                 "NoLetter": "false"
                             }
                         }

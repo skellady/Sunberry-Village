@@ -2036,6 +2036,9 @@
     "skellady.SBVCP_SBVMuseumQuest1.desc": "You helped with collecting minerals for the Sunberry Museum, now it's time to collect the artifacts.",
     "skellady.SBVCP_SBVMuseumQuest1.task": "Visit Elias at the Sunberry Museum for your next quest.",
 
+    "skellady.SBVCP_SBVMuseumQuest2.desc": "You helped with collecting some artifacts for the Sunberry Museum, now it's time to collect the remaining ones.",
+    "skellady.SBVCP_SBVMuseumQuest2.task": "Visit Elias at the Sunberry Museum for your next quest.",
+
     //Special Orders
     //--------------
 
@@ -2142,6 +2145,16 @@
     "SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_3": "Donate 1 Moonberry",
     "SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_4": "Donate 1 Purpurite",
     "SBV.SpecialOrder.SBVMuseumMinerals_Objective_Text_5": "Donate 1 Serpentine",
+
+    // Museum Part 2
+    "SBV.SpecialOrder.SBVMuseumArtifacts1_Name": "Sunberry Museum Pt. 2",
+    "SBV.SpecialOrder.SBVMuseumArtifacts1_Text": "Now that the minerals have been collected, Elias needs you to collect some artifacts. Donate the following artifacts at the box on the right side of the museum.",
+    "SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_0": "Donate 1 Mushroom Statue",
+    "SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_1": "Donate 1 Ancient Staff",
+    "SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_2": "Donate 1 Silver Mask",
+    "SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_3": "Donate 1 Lapis Necklace",
+    "SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_4": "Donate 1 Wicked Vase",
+    "SBV.SpecialOrder.SBVMuseumArtifacts1_Objective_Text_5": "Donate 1 Golden Coins",
 
     //Mail 
     //----
