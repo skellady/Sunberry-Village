@@ -1995,6 +1995,23 @@
     "event-20031476.05": "...Did I say that out loud? Darnit.",
     "event-20031476.06": "A quest has been added to your journal!",
 
+    // Museum SO Grand Opening
+    "event-20031477.01": "Welcome, everyone! We're honored to have all you lovely people with us as we finally open up the Sunberry Museum!$h",
+    "event-20031477.02": "We wouldn't be here to celebrate this occasion if it weren't for @ and Maia helpin' out, and Dr. Zahra funding this project.",
+    "event-20031477.03": "Huh, I wonder how she's doing.",
+    "event-20031477.04": "She's been away for a while now.",
+    "event-20031477.05": "Feel free to take a look around, y'all. Just try not to touch anything, please.$12",
+    "event-20031477.06": "Genuinely don't know how to thank you, farmer. I'm really hopin' Dr. Zahra's compensation was good enough, but even then, you deserve so much more.$9",
+    "event-20031477.07": "Well, you did mention a bone-crushing hug in your letter!",
+    "event-20031477.08": "You're welcome. I'm glad we got to work together.",
+    "event-20031477.09": "Always happy to help a nerd out.",
+    "event-20031477.10": "I was hopin' you'd take me up on that. Bring it in.$u",
+    "event-20031477.11": "Elias hugs you tight. Maybe a little *too* tight. He wasn't joking about the hug being bone-crushing.",
+    "event-20031477.12": "I'm glad we did, too. We make a good team, huh?$h",
+    "event-20031477.13": "Elias lets out a hearty chuckle.",
+    "event-20031477.14": "Hey, now. You don't need to call me out like that.$u",
+    "event-20031477.15": "The villagers are thankful for your help! Your bonds with them grew stronger.",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",

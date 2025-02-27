@@ -1004,6 +1004,28 @@
         "HasSeenEvent |contains= skellady.SBVCP_20031448": true,
         "Query: ('{{Day}}' IN ('6', '10', '22')) AND ({{DailyLuck}} > 0)": true
       }
+    },
+    // Sunberry Museum Collection Patch
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryMuseum",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/SunberryMuseumPatch.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 12,
+        "Height": 4
+      },
+      "ToArea": {
+        "X": 3,
+        "Y": 6,
+        "Width": 12,
+        "Height": 4
+      },
+      "When": {
+        "HasReadLetter |contains= SBVMuseumSO3": true
+      }
     }
     // Twilight Festival Patch
     /*{
