@@ -1978,6 +1978,23 @@
     "event-20031474.17": "Thank you again. I really appreciate it, farmer.$12",
     "event-20031474.18": "A quest has been added to your journal!",
 
+    // Museum SO Part 2
+    "event-20031475.01": "Well, I'll be damned! You did it, @!$10",
+    "event-20031475.02": "I keep lookin' over at the box to make sure they're all still in there.$u",
+    "event-20031475.03": "I won't be puttin' 'em up on display yet, I'd like to organize them once we've managed to get the full collection.",
+    "event-20031475.04": "Now that we're done with the minerals, we should move onto the artifacts. I'd like to split 'em up into two parts.#$b#I'd hate to overwhelm you.$7",
+    "event-20031475.05": "Here's a list with the artifacts you should keep an eye out for. If you find any, drop 'em off in the same box.",
+    "event-20031475.06": "Thank you again, farmer. I owe you big time.$h",
+    "event-20031475.07": "A quest has been added to your journal!",
+
+    // Museum SO Part 3
+    "event-20031476.01": "Ah, @! We're so, so close to the finish line.$h",
+    "event-20031476.02": "I hope the compensation's been good. Dr. Zahra is very impressed. She said she'd love to meet you and thank you herself when she visits the village.",
+    "event-20031476.03": "Alright, farmer. You know the drill by now. Here's your new list.$10",
+    "event-20031476.04": "I'll see you around, darlin'.",
+    "event-20031476.05": "...Did I say that out loud? Darnit.",
+    "event-20031476.06": "A quest has been added to your journal!",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",
@@ -2224,6 +2241,10 @@
     "Mail.EliasSORareFish.Title": "Mighty Fine Fishin'",
     "Mail.SBVMuseumSO1.Body": "Hey @,^^I don't know how I could ever repay you. I've been staring at these minerals since you dropped 'em off. Thank you, it means the world to this geek. Drop by the museum whenever you're ready for the next part of our little quest. The artifacts might be a little tougher to find, but I know you're more than capable.^^- Elias",
     "Mail.SBVMuseumSO1.Title": "Sunberry Museum Pt. 1",
+    "Mail.SBVMuseumSO2.Body": "Dear @,^^I'm not sure where to begin. Your dedication to this quest warms this old man's heart. These artifacts are wonderful, I wish Dr. Zahra was here to see them. I'll be staying up all night studying 'em, I hope Diala and Derya have enough coffee to keep me up. Thank you, farmer. Drop by the museum whenever you're ready for the final part of our quest.^^- Elias",
+    "Mail.SBVMuseumSO2.Title": "Sunberry Museum Pt. 2",
+    "Mail.SBVMuseumSO3.Body": "Dearest @,^^I can't believe it's done! It's all here, right in front of me. I never thought I'd see the day where we can finally showcase our history. Thank you, from the bottom of my heart, for all you've done for me and this village. With your consent, I'd love to give you the biggest, most bone-crushin' hug when I see you for the grand opening. Oh, you're invited, of course. Drop by the museum tomorrow, please.^^- Elias",
+    "Mail.SBVMuseumSO3.Title": "Sunberry Museum Restored",
 
     //Pass Out Letter
     "Mail.passedOutSBV.Body": "@,^^Found you unconscious last night while I was doing my sweep with Maia. Try to be more careful next time. If there's anything I can do for you, you know where to find me.^^- Ophelia",
