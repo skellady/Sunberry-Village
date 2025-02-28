@@ -128,6 +128,23 @@
         "16 41 Custom_SBV_SunberryVillage 59 1",
         "17 41 Custom_SBV_SunberryVillage 60 1",
         "29 25 Custom_SBV_CrystalCave 10 16",
+        "-1 14 Custom_SBV_SunberryFarm 37 46"
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryFarm",
+      "AddWarps": [
+        "36 47 Custom_SBV_SunberryMountain 0 14",
+        "37 47 Custom_SBV_SunberryMountain 0 14",
+        "38 47 Custom_SBV_SunberryMountain 0 14",
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryHouse",
+      "AddWarps": [
+        "17 14 Custom_SBV_SunberryFarm 16 15"
       ]
     },
     {
@@ -695,6 +712,38 @@
           }
         }
       ],
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryFarm",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 16,
+            "Y": 14
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 17 13 Custom_SBV_SunberryHouse"
+          }
+        }
+      ]
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryFarm",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 17,
+            "Y": 14
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "Warp 17 13 Custom_SBV_SunberryHouse"
+          }
+        }
+      ]
     },
     {
       "LogName": "Village NPC Warp",

@@ -216,8 +216,7 @@
             ],
             "When": {
                 "HasSeenEvent: anyPlayer |contains={{ModId}}_20031478": true,
-                "HasFlag: anyPlayer |contains=SBVFarmPurchased": false,
-                "HasFlag: anyPlayer |contains=SBVFarmPurchasedFR": false
+                "HasFlag: anyPlayer |contains=SBVFarmPurchased, SBVFarmPurchasedFR": false
             }
         },
     ]

@@ -1026,6 +1026,29 @@
       "When": {
         "HasReadLetter |contains= SBVMuseumSO3": true
       }
+    },
+    // Mountain > Farm Boulder
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryMountain",
+      "PatchMode": "Overlay",
+      "FromFile": "Assets/Maps/MapPatches/FarmMountainBoulder.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 0,
+        "Y": 13,
+        "Width": 2,
+        "Height": 2
+      },
+      "When": {
+        "HasFlag: anyPlayer |contains= SBVFarmPurchased": false,
+        "HasFlag: anyPlayer |contains= SBVFarmPurchasedFR": false
+      }
     }
     // Twilight Festival Patch
     /*{

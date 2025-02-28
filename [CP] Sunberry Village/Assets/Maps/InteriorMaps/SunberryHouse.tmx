@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="229">
  <properties>
-  <property name="AmbientLight" value="50 120 200"/>
+  <property name="AmbientLight" value="95 95 95"/>
   <property name="FloorIDs" value="skellady.SBVCP_Bedroom, skellady.SBVCP_Kitchen, skellady.SBVCP_Main, skellady.SBVCP_Separator"/>
   <property name="WallIDs" value="skellady.SBVCP_Bedroom, skellady.SBVCP_Kitchen, skellady.SBVCP_Main, skellady.SBVCP_Separator"/>
  </properties>
