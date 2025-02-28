@@ -2013,6 +2013,36 @@
     "event-20031477.14": "Hey, now. You don't need to call me out like that.$u",
     "event-20031477.15": "The villagers are thankful for your help! Your bonds with them grew stronger.",
 
+    // Sunberry Farm Unlock 1
+    "event-20031478.01": "Welcome, @. I see you're eyeing our available plots and estates. Are you looking to purchase a new home?",
+    "event-20031478.02": "We have a farm available to the west of the Sunberry Mountain. It's a beautiful area. Here, follow me and I'll show you around.$h",
+    "event-20031478.03": "So, what do you think?$h",
+    "event-20031478.04": "It's beautiful!",
+    "event-20031478.05": "It's decent!",
+    "event-20031478.06": "It's okay.",
+    "event-20031478.07": "Isn't it? I've been hoping someone would grab it. The village would benefit from having a farm nearby.",
+    "event-20031478.08": "Yes, it's decent indeed. I've been hoping someone would grab it. The village would benefit from having a farm nearby.",
+    "event-20031478.09": "Surely it doesn't measure up to your grandfather's farm, but it's still pretty good.$u",
+    "event-20031478.10": "You can build whatever you need on this farm, too. I can contact Robin and make arrangements.#$b#Additionally, you also get this little house.$h",
+    "event-20031478.11": "So, @, what will it be? Would you like to purchase this farm for 150,000$?",
+    "event-20031478.12": "Yes. (Pay 150,000$)",
+    "event-20031478.13": "Not right now.",
+    // If player doesn't buy it 
+    "event-20031478.14": "That's okay. If you ever change your mind, drop by the inn and take a look at our estates catalog again.$h",
+    // If player buys it
+    "event-20031478.15": "Perfect! Congratulations, @. We're happy to have you here. I just need you to come back to the inn to sign some papers, and it'll be all yours.$h",
+    "event-20031478.16": "I'll get someone to clear up the entrance. You should be able to access the farm tomorrow.$h",
+
+    // Sunberry Farm Unlock 2
+    "event-20031479.01": "Welcome, @. I see you're eyeing our available plots and estates. Did you change your mind about the farm?",
+    "event-20031479.02": "I want to buy the farm. (Pay 150,000$)",
+    "event-20031479.03": "No, I don't want to buy it yet.",
+    // If player says no
+    "event-20031479.04": "No worries. If you ever change your mind, drop by again.$h",
+    // If player says yes
+    "event-20031479.05": "Perfect! Congratulations, @. We're happy to have you here. I just need you to sign some papers, and it'll be all yours.$h",
+    "event-20031479.06": "I'll get someone to clear up the entrance. You should be able to access the farm tomorrow.$h",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",
