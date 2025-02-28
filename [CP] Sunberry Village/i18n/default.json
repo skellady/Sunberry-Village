@@ -66,6 +66,7 @@
     "Sunberry.Locations.SunberryMountain": "Sunberry Mountain",
     "Sunberry.Locations.SunberryForest": "Sunberry Forest",
     "Sunberry.Locations.SunberryRoad": "Sunberry Road",
+    "Sunberry.Locations.SunberryFarm": "Sunberry Farm",
     "Sunberry.Locations.ForestShortcut": "Forest Shortcut",
     "Sunberry.Locations.SecretForest1": "Sunkissed Glade",
     "Sunberry.Locations.SecretForest2": "Ancient Grove",
@@ -3136,6 +3137,8 @@
     "MapString.sbv.pepdialogue3": "Pep growls at you. It doesn't sound very threatening.",
     "MapString.sbv.pepdialogue4": "Pep: Be nice to Pip. If you are mean to Pip, Pep will bite you.",
     "MapString.sbv.pepdialogue5": "Pep: ...What? What? Go look at goods, not Pep.",
+    // Serenity Inn
+    "MapString.sbv.inn.notenoughmoney": "You can buy a farm in Sunberry for 150,000$, but you don't have enough money. Come back when you do.",
 
     // Fish info book
     "FishInfo.AzureanCarp": "Placeholder.",
