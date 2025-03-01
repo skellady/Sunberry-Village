@@ -791,7 +791,7 @@
          "MapTiles": [
             {
                "Position": {
-                  "X": "{{Random: 88, 23, 101 |key=ForestCoords}}",
+                  "X": "{{Random: 88, 25, 101 |key=ForestCoords}}",
                   "Y": "{{Random: 25, 16, 82 |key=ForestCoords}}"
                },
                "Layer": "Back",
