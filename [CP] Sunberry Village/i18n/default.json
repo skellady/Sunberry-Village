@@ -2043,6 +2043,17 @@
     "event-20031479.05": "Perfect! Congratulations, @. We're happy to have you here. I just need you to sign some papers, and it'll be all yours.$h",
     "event-20031479.06": "I'll get someone to clear up the entrance. You should be able to access the farm tomorrow.$h",
 
+    // Ophelia 6 Hearts Event
+    "event-20031480.01": "Okay, let me just go over my list one more time.$10",
+    "event-20031480.02": "Oh my God! We've been over the list already, Ophelia.$10",
+    "event-20031480.03": "...I know, I know. I just want to make sure everything's in order for Marlon.$7",
+    "event-20031480.04": "I can promise you it is. He's going to be really happy with the results. You just... go get some rest now.",
+    "event-20031480.05": "*sigh*...I don't want to rest. I just wish I'd been able to help you out with those monsters.$s",
+    "event-20031480.06": "Hey... Look at your list again for me. I think I missed something, actually.#$b#Wanna grab your sword and get back in there with me?$9",
+    "event-20031480.07": "What? It's all check--$8",
+    "event-20031480.08": "OH! Yes, I'd love to!$u",
+    "event-20031480.09": "Hey, @! Wanna join us in the mines? We won't be long.",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",
