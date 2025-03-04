@@ -2102,7 +2102,7 @@
     "event-20031482.10": "Renovations won't cost you your life savings!$h",
     "event-20031482.11": "The bad news is, we're going to need a LOT of raw materials. The foundation is falling apart, which isn't your fault. It's a miracle this place is still holding up.$6",
     "event-20031482.12": "Darn... So, where do we go from here?$s",
-    "event-20031482.13": "I'll need to get in touch with my contractor over in the city for the materials, but I should hopefully have it done by next week.$h",
+    "event-20031482.13": "I'll need to get in touch with my contractor over in the city for the materials, but it shouldn't take me too long to finish it!$h",
     "event-20031482.14": "Is there anything I can do to help?",
     "event-20031482.15": "...This is an awkward request, but can you spread the word about the renovations on my behalf? I'm not a fan of bein' asked too many questions at once.$9",
     "event-20031482.16": "Thank you, I appreciate you doin' this for me.$12",
@@ -2110,6 +2110,23 @@
     "event-20031482.18": "Thanks, Robin. I'm glad I didn't call the other carpenter I know.$h",
     "event-20031482.19": "...You know other carpenters?$6",
     "event-20031482.20": "I should talk to the other Sunberry villagers and let them know about the renovation when I get the time to!",
+
+    // Elias 8 Hearts Event
+    "event-20031483.01": "I appreciate y'all coming over to see the house, but you really didn't need to trouble yourselves with gifts.$12",
+    "event-20031483.02": "Nonsense! We wanted to congratulate you. This is a big deal!$h",
+    "event-20031483.03": "We brought food too, lots of it!$7",
+    "event-20031483.04": "Thank you, both. I have enough food now to keep me fed for a year. Y'all are angels.$u",
+    "event-20031483.05": "I'm still mad at you for not asking for help, for what it's worth.$6",
+    "event-20031483.06": "Come on, Ari. The first meal I make in this house'll be your favorite dish. Would that help you forgive me?$10",
+    "event-20031483.07": "...$10",
+    "event-20031483.08": "...Yes.$h",
+    "event-20031483.09": "Hey! I'm mad, too. Would you pretty please make me my favorite dish, too?$10",
+    "event-20031483.10": "DIBS ON THE BED ON THE RIGHT!$10",
+    "event-20031483.11": "NO! I wanted the bed on the right!$8",
+    "event-20031483.12": "Well, I should've seen that coming.$u",
+    "event-20031483.13": "Ah, you'll finally understand what I have to deal with every day.$u",
+    "event-20031483.14": "Thank you again, @, for... everything. I'm glad you pushed me to do this.$h",
+    "event-20031483.15": "Now, who wants some cake?$h",
 
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
@@ -2319,6 +2336,8 @@
     "Mail.JumanaHusbandLetter.Title": "Jumana's Husband",
     "Mail.EliasHouseBeginLetter.Body": "@,^^I'm glad you dropped by the other day. You helped make this decision easier. I've contacted Robin and she'll be dropping by soon to take a look at the house and see what she can do. Could I bother you to be there, too? I'd love to have a friend around for emotional support. I haven't told anyone about what I'm planning to do besides you. If you'd like to join us, drop by after 9 A.M.^^- Elias",
     "Mail.EliasHouseBeginLetter.Title": "Elias' House Renovation",
+    "Mail.EliasHouseFinishedLetter.Body": "Dear @,^^Robin's finally done renovating the old house. I stood outside the door for 10 minutes before I finally got the courage to go inside. It felt surreal, being back in there, but it also felt like I was finally gettin' my fresh start. I'd love to invite you to come see it for yourself when you've got time to.^^- Elias",
+    "Mail.EliasHouseFinishedLetter.Title": "Elias' New House",
 
     //Recipe Letters
     "Mail.DialaHotChocoLetter.Body": "Hey, @!^^I've been experimenting with this hot chocolate recipe for a while now, and I finally found what makes it taste SO good! It's Carob! I used to see my mother use it in her dessert back home, and I managed to find some at Ari's. Enjoy the recipe and let me know if you try it!^^- Diala",

@@ -384,7 +384,20 @@
       "Target": "Maps/Custom_SBV_EliasHouseOld",
       "AddWarps": [
         "9 19 Custom_SBV_SunberryVillage 86 92",
-      ]
+      ],
+      "When": {
+        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": false,
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_EliasHouseNew",
+      "AddWarps": [
+        "9 19 Custom_SBV_SunberryVillage 86 92",
+      ],
+      "When": {
+        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
+      }
     },
     // Locked Door Warps
     {
@@ -626,6 +639,28 @@
           }
         }
       ],
+      "When": {
+        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": false,
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 86,
+            "Y": 91
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 9 18 Custom_SBV_EliasHouseNew 800 2200"
+          }
+        }
+      ],
+      "When": {
+        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
+      }
     },
     {
       "Action": "EditMap",
@@ -775,7 +810,7 @@
           "Layer": "Buildings",
           "SetProperties": {
             "Action": "SunberryTeam.SBVSMAPI_MineLadder 12 6 Custom_SBV_Mines1"
-			}
+          }
         }
       ],
       "When": {
@@ -1707,6 +1742,28 @@
           }
         }
       ],
+      "When": {
+        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": false,
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_TwilightFestival",
+      "MapTiles": [
+        {
+          "Position": {
+            "X": 86,
+            "Y": 91
+          },
+          "Layer": "Buildings",
+          "SetProperties": {
+            "Action": "LockedDoorWarp 9 18 Custom_SBV_EliasHouseNew 800 2200"
+          }
+        }
+      ],
+      "When": {
+        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
+      }
     },
   ]
 }

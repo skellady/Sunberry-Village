@@ -126,6 +126,12 @@
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031469, !PLAYER_HAS_CONVERSATION_TOPIC Current EliasHouseOld",
                     "Action": "AddMail Current skellady.SBVCP_EliasHouseBeginLetter"
+                },
+                "skellady.SBVCP_EliasHouseFinishedLetter": {
+                    "Id": "skellady.SBVCP_EliasHouseFinishedLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current EliasHouseBegin, PLAYER_HEARTS Current EliasSBV 8",
+                    "Action": "AddMail Current skellady.SBVCP_EliasHouseFinishedLetter"
                 }
             }
         }
