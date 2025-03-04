@@ -5964,6 +5964,7 @@
     "Ari.Dialogue.RaccoonGlasses": "That pesky raccoon took my reading glasses! How am I supposed to read the book Lyenne gave me before I go to bed?$s",
     "Ari.Dialogue.RaccoonFertilizer": "HAH! Apparently, that raccoon managed to snag one of Pierre's fertilizer. Oh, @, you should've seen the way he was chasing him.$u",
     "Ari.Dialogue.AriGetsSlimed": "Hey, @. Don't worry, I know you weren't behind that little stunt with the slime earlier.$0#$b#Truth be told, once I'd calmed down and cleaned off, it was a little bit funny.$7#$b#Blake will never hear this from me, but... I used to be a bit of a troublemaker in my youth, if you can believe it.$12#$b#Of course, that doesn't mean he's off the hook. I'll have him doing chores around the shop for weeks.$6",
+    "Ari.Dialogue.EliasHouseBegin": "Hm? Elias is...?#$b#HE'S WHAT? I can't believe that man. I swear, he's allergic to asking people for help.$a",
 
     //Blake
     "Blake.Dialogue.cc_Complete": "You fixed up the community center? That's so cool! Maybe we can start hanging out there sometime.$h",
@@ -5981,6 +5982,7 @@
     "Blake.Dialogue.luauPoisoned": "Ugh, @. I don't feel too good. I'm never having soup again.$s",
     "Blake.Dialogue.ReihanaIntro": "God, I can't believe we like, ACTUALLY saw that! Lyenne would've never believed me if she wasn't there to see Diala summon those demons.$u",
     "Blake.Dialogue.AriGetsSlimed": "Oh, hey. You probably guessed that the slime prank was supposed to be on you and not my dad.$8#$b#I'm basically gonna be living in the market for the next week or two. Don't worry, I totally learned my lesson.$12",
+    "Blake.Dialogue.EliasHouseBegin": "Hey, @. How's it going?#$b#$y '..._Your father is renovating the old house by the fountain._Wait... that's awesome! I've got to talk him into making me a room over there.$u'",
 
     //Diala
     "Diala.Dialogue.cc_Complete": "@! We heard the good news.$h#$b#Congrats on fixing up the community center!$u",
@@ -6019,6 +6021,7 @@
     "Diala.Dialogue.ReihanaIntro": "Ugh, I swear I didn't mean for that to happen! What kind of potion for making fertilizer turns into a demon summoning?!$s#$b#I gotta fix this somehow...$s",
     "Diala.Dialogue.RaccoonMuffin": "Ugh... that raccoon stole one of my freshly baked muffins. I'm going to need to start making double the amount now that both Derya AND the raccoon keep taking them.$9",
     "Diala.Dialogue.AriGetsSlimed": "Hey, @, I heard Ari got slimed. Do you know anything about that?$1#$b#Derya's been asking around to see if anyone got a picture, she thinks it's hilarious.$3",
+    "Diala.Dialogue.EliasHouseBegin": "Hey, @! I spent like, an hour unboxing some cat food earlier. What have you been up to?$h#$b#$y '..._Elias is renovating his father's house._Oh, that's great news! I'm happy for him, I hope it goes well.$h'",
 
     //Derya
     "Derya.Dialogue.cc_Complete": "Hey! It's great to see the Community Center up and running, thank you, @!$h",
@@ -6057,6 +6060,7 @@
     "Derya.Dialogue.ReihanaIntro": "Hah... haha. Two demons in town, great. Yeah, I'm chilling. Everything's juuuust fine.$10",
     "Derya.Dialogue.RaccoonCoffee": "Can you believe this? Diala made me a cup of coffee and this raccoon snagged it right out of my hands!$13#$b#She did make me another cup, though. It was very sweet of her.$h",
     "Derya.Dialogue.AriGetsSlimed": "Ohoho, I *so* wish I'd gotten to see Ari all covered in slime.$3#$b#Hey, you didn't happen to get a picture, did you?$6",
+    "Derya.Dialogue.EliasHouseBegin": "Elias is renovating his old house? No... please tell me you're kidding.$s#$b#Dammit, I just lost the bet I had with Iman. I didnt think he'd ever move out of that storage room!$11",
 
     //Elias
     "Elias.Dialogue.cc_Complete": "I can't believe you fixed up the community center! Lewis better be so incredibly thankful for your existence right now.$u",
@@ -6074,6 +6078,7 @@
     "Elias.Dialogue.ReihanaIntro": "I don't like how that demon talked to me. I still gotta make sure everyone's okay. Make sure to stay away, @.$a",
     "Elias.Dialogue.RaccoonBook": "%Elias is grumbling.#$b#Damn raccoon, I'm never leavin' the library door open while I organize the bookshelves. Takin' books like they belong to him, hmph.$a",
     "Elias.Dialogue.AriGetsSlimed": "Howdy, @. Ari marched our boy over here to tell me what he'd done himself.$1#$b#I had to act upset, but honestly? Blake's li'l prank pales in comparison to half the stuff his dad used to pull off.$3#$b#Oh, the stories I could tell...$11#$b#Ari probably wouldn't be too happy with me if I did, though.$3",
+    "Elias.Dialogue.EliasHouseBegin": "Thanks again for droppin' by and for agreein' to spread the word. I hope no one's given you any trouble.$10",
 
     //Ezra
     "Ezra.Dialogue.cc_Complete": "Ah! I heard the community center's fixed up! That's wonderful news.$h#$b#I wonder if the townsfolk would mind me doing a little advertising over there.$u",
@@ -6090,6 +6095,7 @@
     "Ezra.Dialogue.YriIntroduction": "Yri is a sweetheart! She helped with the plans for my shop. It wouldn't be as magnificent if it weren't for her genius.$u",
     "Ezra.Dialogue.ReihanaIntro": "Oh, great. A demon. Sorry, TWO demons. What is going on in this place?$s",
     "Ezra.Dialogue.AriGetsSlimed": "That prank Blake and Lyenne pulled with the bucket of slime sounds like something my sister would do to me.$7",
+    "Ezra.Dialogue.EliasHouseBegin": "@! You look stunning. You've go-... Sorry, what was that?$h#$b#$y '..._Elias is renovating his old house._Ooh! That's nice. I hope he finally gets a bedroom with an actual door!$u'",
 
     //Iman
     "Iman.Dialogue.cc_Complete": "The community center? That broken down building? Huh, never thought I'd see that get fixed up. Congrats!$h",
@@ -6105,6 +6111,7 @@
     "Iman.Dialogue.luauPoisoned": "Ugh, I'm never listening to Ezra ever again. \"Try the soup, Iman! You'll love it.\"$s#$b#I think I'm gonna be sick.$s",
     "Iman.Dialogue.ReihanaIntro": "Okay, I've probably seen weirder things than two demons in a small town, however, that demon is stylish! I wonder where she got that outfit from.$u",
     "Iman.Dialogue.AriGetsSlimed": "Ari was in a terrible mood when I saw him earlier. What happened?$7#$b#Ezra mentioned something about a prank Blake and Lyenne pulled, but I kind of zoned out...$2#$b#Their pranks get a little repetitive, that's all.$11",
+    "Iman.Dialogue.EliasHouseBegin": "Oh, if it isn't Ferngill's favorite farmer. Hm? You have something to tell me?$10#$b#$y '..._Elias is renovating his old house._...No way. Oh, @, I could kiss you right now! I'm going to go rub this in Derya's face. Thank you for telling me!$u'",
 
     //Jumana
     "Jumana.Dialogue.cc_Complete": "I heard the wonderful news! I'm glad the community center is back up and running.$h",
@@ -6123,6 +6130,7 @@
     "Jumana.Dialogue.luauPoisoned": "Poor Amina. She had some of that soup at the potluck and isn't feeling well now.$s",
     "Jumana.Dialogue.ReihanaIntro": "That... incident earlier was horrifying. I'm glad everyone's okay. We just need to keep an eye out for each other until this is resolved.$s#$b#...All this for fertilizer. Poor Diala.$s",
     "Jumana.Dialogue.AriGetsSlimed": "Oh, hi dear. Miyoung caught me up on what happened earlier with Lyenne and Blake.$0#$b#After the pranks Ari used to pull, I'm not sure he has any room to be upset.$6",
+    "Jumana.Dialogue.EliasHouseBegin": "Oh, hello, sweetheart! Are you here to chit-chat or gossip? I can do both within limits.$6#$b#Elias is renovating the house? Oh, that's wonderful! It always saddened me to see him live in that storage room above the library.$4",
 
     //Lyenne
     "Lyenne.Dialogue.cc_Complete": "I wonder if Sam, Seb, and Abby want to hang out in the community center now that it's fixed up.#$b#We tried hanging out when it was still broken down, but it was way too scary.$7",
@@ -6138,6 +6146,7 @@
     "Lyenne.Dialogue.ReihanaIntro": "Okay, while that whole demon summoning thing was terrifying, I am wondering if either of them are single. Is that bad? It is, isn't it?$7",
     "Lyenne.Dialogue.PTJ03": "Abby's so funny. She told me all about the prank they pulled at Joja. Absolutely deserved.$u",
     "Lyenne.Dialogue.AriGetsSlimed": "Hey, sorry about, uh, trying to dump a bucket of slime on you.$4#$b#That was maybe not one of our most well-planned pranks.$3#$b#Ophelia hasn't said anything to me about it yet, but I wish she'd just get it over with. I hate the waiting more than the scolding.$7",
+    "Lyenne.Dialogue.EliasHouseBegin": "Hey, @! Sorry, I'm all over the place today. I had to submit an assignment last minute and it threw me off.$7#$b#$y '..._Elias is renovating his old house._...YES! If he's giving Blake a room, he better buy two beds.$6'",
 
     //Maia
     "Maia.Dialogue.cc_Complete": "Glad to see the community center restored. Maybe Silas and I will join Clint to help out.$h",
@@ -6154,6 +6163,7 @@
     "Maia.Dialogue.luauPoisoned": "Ugh. Not feeling good today, @... Stupid soup.$s",
     "Maia.Dialogue.ReihanaIntro": "Ugh... I had a sword on me but I didn't think it'd be wise to pull it out when I don't know what these demons are capable of. It's best to know your enemy first.$7",
     "Maia.Dialogue.AriGetsSlimed": "Poor Ari, I heard about the slime incident from Elias.$2#$b#I know he loves those kids to death, but I'm sure he could do without all the pranks.$0",
+    "Maia.Dialogue.EliasHouseBegin": "*yawn*... Oh, hey, @... Huh?#$b#...Okay, I'll need Elias himself to confirm this information. I never thought I'd see the day. Props to whoever convinced him, that man is stubborn as hell.$h",
 
     //Miyoung
     "Miyoung.Dialogue.cc_Complete": "I heard about the community center! That's wonderful news. Maybe Eve, Jumana and I could start hanging out there, now.$u",
@@ -6169,6 +6179,7 @@
     "Miyoung.Dialogue.ReihanaIntro": "What has this place come to? Demons in our town?$s#$b#I just hope they don't hurt anyone.$s",
     "Miyoung.Dialogue.RaccoonScarf": "That raccoon took the scarf I was knitting for Silas... I worked really hard on it.$s#$b#Oh, well. I guess Silas has enough scarves as is.$7",
     "Miyoung.Dialogue.AriGetsSlimed": "Hello, darling. I heard Ari got quite a surprise from Blake and Lyenne outside the inn.$0#$b#Personally, I think it's karma for all the tricks he used to pull when he was younger.$7",
+    "Miyoung.Dialogue.EliasHouseBegin": "Elias...? Oh, this is wonderful news! I'll have to prepare a nice gift for this occasion. Ooh, I'll even get a nice bouquet from Jumana!$u",
 
     //Moon
     "Moon.Dialogue.cc_Complete": "Community Center is repaired?$u#$b#But... junimo friends left?$s",
@@ -6222,6 +6233,7 @@
     "Ophelia.Dialogue.luauPoisoned": "That soup was a disaster. I can't imagine what Harvey's clinic looks like right now.$s",
     "Ophelia.Dialogue.ReihanaIntro": "...It's times like these I wish I was still a full-time adventurer. We wouldn't have had demons in town.$s#$b#I have to make sure everyone's okay and then deal with those two.$a",
     "Ophelia.Dialogue.AriGetsSlimed": "Ari came into the inn in a foul mood earlier, and he was tracking slime all over my clean floor.$12#$b#I suppose it's only appropriate to have Lyenne clean it up, since she was almost certainly involved.$10",
+    "Ophelia.Dialogue.EliasHouseBegin": "Hello, @. You've got 'gossip' written all over your face. What's going on?$8#$b#$y '..._Elias is renovating the old house by the fountain._Huh! Well, that's certainly surprising. I'll have to talk to him and see if he needs any help.'",
 
     //Reihana
     "Reihana.Dialogue.cc_Complete": "Oh, wow, you fixed up a broken down building!$12#$b#No one cares, bud. What, you want a cookie?#$b#...Actually, nevermind. I'm on my last cookie. You can't have it.$8",
@@ -6253,6 +6265,7 @@
     "Silas.Dialogue.ReihanaIntro": "I knew about the existence of demons, but I sure as hell didn't expect any in our little village.$s#$b#I've already contacted Razz. We'll meet today to discuss this.",
     "Silas.Dialogue.RaccoonBar": "That sneaky raccoon snatched the bar right out of my hands! I was caught off guard!$8",
     "Silas.Dialogue.AriGetsSlimed": "Hi, @. My wife filled me in on the whole incident with Blake and Ari.$0#$b#Between you and me, I wish I'd gotten to see Ari's face when it happened.$3",
+    "Silas.Dialogue.EliasHouseBegin": "Always nice to see you around, @! Hm? Sorry, this old man's hearing isn't as good as it used to be.$u#$b#$y '..._Elias is renovating the old house by the fountain._Well, that definitely wasn't on my bingo card. I'm happy for him! He needs a bigger space than the room he's using at the library.$h'",
 
     //CTs (Vanilla Villagers)
 
