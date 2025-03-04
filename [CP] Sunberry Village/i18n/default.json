@@ -2076,7 +2076,7 @@
     "event-20031481.19": "Lyenne, I don't think @ knows the particular situation you're in.$10",
     "event-20031481.20": "Why are you keeping this from them?",
     "event-20031481.21": "What are you doing here, then?",
-    "event-20031481.22": ">Okay, I think I understand the situation now.",
+    "event-20031481.22": "> Okay, I think I understand the situation now.",
     "event-20031481.23": "I...$s#$b#I wanted them to notice I was gone, but after I got here and got settled in, I...$s",
     "event-20031481.24": "I don't want them to find out I'm here and try to bring me back to Zuzu City.$9",
     "event-20031481.25": "Any other questions?$11",
@@ -2088,6 +2088,28 @@
     "event-20031481.31": "It's alright, sweetheart. We'll figure something out, okay? I promise.$4",
     "event-20031481.32": "Thank you, Ophelia.$12",
     "event-20031481.33": "We can even enlist Ari and Elias for help. Who knows, they might be able to think of something.$h",
+
+    // Elias 6 Hearts Event Part 2
+    "event-20031482.01": "I'll need to inspect the place real quick then I'll give you an estimate on what we need and how long it'll take.",
+    "event-20031482.02": "Come in, @.",
+    "event-20031482.03": "Alright, I'll leave you two. I'll be back in a moment.",
+    "event-20031482.04": "Thank you for comin', @. I appreciate it.$h",
+    "event-20031482.05": "You look nervous.",
+    "event-20031482.06": "I am, yeah. I'm worried she'll think it ain't worth fixin' up.$11",
+    "event-20031482.07": "Don't worry, it's just the nerves doin' the talkin' for me right now. Robin's great. I'm sure we'll figure somethin' out.",
+    "event-20031482.08": "So, I have good news and bad news. What would you like to hear first, Elias?",
+    "event-20031482.09": "The good news, please.$2",
+    "event-20031482.10": "Renovations won't cost you your life savings!$h",
+    "event-20031482.11": "The bad news is, we're going to need a LOT of raw materials. The foundation is falling apart, which isn't your fault. It's a miracle this place is still holding up.$6",
+    "event-20031482.12": "Darn... So, where do we go from here?$s",
+    "event-20031482.13": "I'll need to get in touch with my contractor over in the city for the materials, but I should hopefully have it done by next week.$h",
+    "event-20031482.14": "Is there anything I can do to help?",
+    "event-20031482.15": "...This is an awkward request, but can you spread the word about the renovations on my behalf? I'm not a fan of bein' asked too many questions at once.$9",
+    "event-20031482.16": "Thank you, I appreciate you doin' this for me.$12",
+    "event-20031482.17": "Well, I'll check back in with you soon, Elias. I have to get back home.$h",
+    "event-20031482.18": "Thanks, Robin. I'm glad I didn't call the other carpenter I know.$h",
+    "event-20031482.19": "...You know other carpenters?$6",
+    "event-20031482.20": "I should talk to the other Sunberry villagers and let them know about the renovation when I get the time to!",
 
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
@@ -2295,6 +2317,8 @@
     "Mail.DialaTarotLetter.Title": "Tarot Reading",
     "Mail.JumanaHusbandLetter.Body": "Hello dear,^^I'd like to think we've grown closer recently, and I consider you a dear friend. Tomorrow will mark nine years since my husband passed away. Maia, Amina and I are planning to go visit his grave and I was hoping you'd stop by, too.^^Just... having a friend by my side would help greatly. It's a tough time. If you'd like to come, meet us at the Sunberry Mountain after 3 P.M.^^- Jumana",
     "Mail.JumanaHusbandLetter.Title": "Jumana's Husband",
+    "Mail.EliasHouseBeginLetter.Body": "@,^^I'm glad you dropped by the other day. You helped make this decision easier. I've contacted Robin and she'll be dropping by soon to take a look at the house and see what she can do. Could I bother you to be there, too? I'd love to have a friend around for emotional support. I haven't told anyone about what I'm planning to do besides you. If you'd like to join us, drop by after 9 A.M.^^- Elias",
+    "Mail.EliasHouseBeginLetter.Title": "Elias' House Renovation",
 
     //Recipe Letters
     "Mail.DialaHotChocoLetter.Body": "Hey, @!^^I've been experimenting with this hot chocolate recipe for a while now, and I finally found what makes it taste SO good! It's Carob! I used to see my mother use it in her dessert back home, and I managed to find some at Ari's. Enjoy the recipe and let me know if you try it!^^- Diala",
@@ -3215,6 +3239,7 @@
     "MapString.sbv.pepdialogue5": "Pep: ...What? What? Go look at goods, not Pep.",
     // Serenity Inn
     "MapString.sbv.inn.notenoughmoney": "You can buy a farm in Sunberry for 150,000$, but you don't have enough money. Come back when you do.",
+    "MapString.sbv.inn.farmalreadypurchased": "You already purchased a farm in Sunberry.",
 
     // Fish info book
     "FishInfo.AzureanCarp": "Placeholder.",

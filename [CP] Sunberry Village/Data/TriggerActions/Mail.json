@@ -120,6 +120,12 @@
                     "Condition": "SEASON_DAY fall 24",
                     "Action": "AddMail Current skellady.SBVCP_TwilightFestivalLetter",
                     "MarkActionApplied": false
+                },
+                "skellady.SBVCP_EliasHouseBeginLetter": {
+                    "Id": "skellady.SBVCP_EliasHouseBeginLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031469, !PLAYER_HAS_CONVERSATION_TOPIC Current EliasHouseOld",
+                    "Action": "AddMail Current skellady.SBVCP_EliasHouseBeginLetter"
                 }
             }
         }

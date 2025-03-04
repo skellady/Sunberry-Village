@@ -120,6 +120,7 @@
                 "sbv.library10": "{{i18n:MapString.sbv.library10}}",
                 //serenity inn
                 "sbv.inn.notenoughmoney": "{{i18n:MapString.sbv.inn.notenoughmoney}}",
+                "sbv.inn.farmalreadypurchased": "{{i18n:MapString.sbv.inn.farmalreadypurchased}}",
                 // twilight festival
                 "sbv.twilightfestival.1": "{{i18n:MapString.sbv.twilightfestival.1}}",
                 "sbv.twilightfestival.2": "{{i18n:MapString.sbv.twilightfestival.2}}",
