@@ -359,7 +359,7 @@
         {
             "LogName": "Load Temp Actors",
             "Action": "Load",
-            "Target": "Characters/DDCat1, Characters/DDCat2, Characters/DDCat3, Characters/DDCat4, Characters/DDCat5, Characters/DDCat6, Characters/DeryaLay, Characters/DeryaLay2, Characters/DDTable1, Characters/JumanaPot, Characters/DDPicnic, Characters/DDBook, Characters/SBVCrate, Characters/SBVEasel, Characters/GSBPlant, Characters/SBVWizardPoof, Characters/SBVSparklySparkles, Characters/SBVRaccoon",
+            "Target": "Characters/DDCat1, Characters/DDCat2, Characters/DDCat3, Characters/DDCat4, Characters/DDCat5, Characters/DDCat6, Characters/DeryaLay, Characters/DeryaLay2, Characters/DDTable1, Characters/JumanaPot, Characters/DDPicnic, Characters/DDBook, Characters/SBVCrate, Characters/SBVEasel, Characters/GSBPlant, Characters/SBVWizardPoof, Characters/SBVSparklySparkles, Characters/SBVRaccoon, Characters/SBVEliasGuitar",
             "FromFile": "Assets/Maps/tempActors/{{TargetWithoutPath}}.png"
         },
         {
@@ -446,6 +446,12 @@
             "LogName": "Include Tilesheets",
             "Action": "Include",
             "FromFile": "Data/Tilesheets.json"
+        },
+        // Music
+        {
+            "LogName": "Include Music",
+            "Action": "Include",
+            "FromFile": "Data/Music.json"
         },
         // Map Data
         {

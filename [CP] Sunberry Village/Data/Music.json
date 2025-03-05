@@ -1,0 +1,19 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "skellady.SBVCP_EliasTheme": {
+                    "ID": "skellady.SBVCP_EliasTheme", // Kevin MacLeod - Townsville [CC by 3.0]
+                    "Category": "Music",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: Assets/Music/KevinMacLeodTownsville.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                }
+            }
+        }
+    ]
+}

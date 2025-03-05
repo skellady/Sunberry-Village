@@ -2128,6 +2128,25 @@
     "event-20031483.14": "Thank you again, @, for... everything. I'm glad you pushed me to do this.$h",
     "event-20031483.15": "Now, who wants some cake?$h",
 
+    // Elias 10 Hearts Event
+    "event-20031484.01": "@, thank you for coming. I... wanted to talk to you.",
+    "event-20031484.02": "Here, follow me.",
+    "event-20031484.03": "I'm... not good with words, my dear farmer. I need you to understand that.$12",
+    "event-20031484.04": "I wrote this song for you.$4",
+    "event-20031484.05": "Elias takes a deep breath. His hands shake slightly as he adjusts his fingers on the guitar.",
+    "event-20031484.06": "I... really, really like you, @. I didn't think I'd be able to do this again. I mean, I just... assumed I wouldn't find it again, you know?$4",
+    "event-20031484.07": "But, you... you make me feel things I didn't think I could feel again. I want you, @. I want *this*, with you.$4",
+    "event-20031484.08": "...May I kiss you?$13",
+    "event-20031484.09": "Yes, please.",
+    "event-20031484.10": "I'm not ready for that yet.",
+    "event-20031484.11": "No, but thanks for asking.",
+    "event-20031484.12": "Say... what do you think about just stayin' here with me a little longer? I don't think I've had enough of you just yet.$4",
+    "event-20031484.13": "You think it'd be too obvious if we get a room at the inn right now?$10",
+    "event-20031484.14": "I understand. I'm not going anywhere, I'll wait as long as you need.$4",
+    "event-20031484.15": "Why don't we get out of here and grab a bite? My treat.$h",
+    "event-20031484.16": "I understand. I'm just happy to have you here. We don't gotta do anythin' you ain't comfortable with.$7",
+    "event-20031484.17": "Say, why don't we get outta here and grab a bite? My treat.$h",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",
@@ -2338,6 +2357,8 @@
     "Mail.EliasHouseBeginLetter.Title": "Elias' House Renovation",
     "Mail.EliasHouseFinishedLetter.Body": "Dear @,^^Robin's finally done renovating the old house. I stood outside the door for 10 minutes before I finally got the courage to go inside. It felt surreal, being back in there, but it also felt like I was finally gettin' my fresh start. I'd love to invite you to come see it for yourself when you've got time to.^^- Elias",
     "Mail.EliasHouseFinishedLetter.Title": "Elias' New House",
+    "Mail.Elias10HeartsLetter.Body": "@,^^Meet me by Serenity Inn after dark, please. I'd like to see you.^^- Elias",
+    "Mail.Elias10HeartsLetter.Title": "Meeting Elias",
 
     //Recipe Letters
     "Mail.DialaHotChocoLetter.Body": "Hey, @!^^I've been experimenting with this hot chocolate recipe for a while now, and I finally found what makes it taste SO good! It's Carob! I used to see my mother use it in her dessert back home, and I managed to find some at Ari's. Enjoy the recipe and let me know if you try it!^^- Diala",
