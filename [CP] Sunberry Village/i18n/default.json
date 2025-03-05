@@ -4578,13 +4578,22 @@
     "Elias.Dialogue.Sun8": "@! Guess what? I caught a rare fish earlier today.$u#$b#Willy was very impressed. I'm never goin' to shut up about this. I apologize in advance.$u",
 
     //10 hearts (PLATONIC)
-    "Elias.Dialogue.Mon10": "You know, it hasn't been too long since we got to know each other. I'm glad you stuck around, I would've missed out.$u",
-    "Elias.Dialogue.Tue10": "Hey, I'm readin' this book about these two friends solving crime together. Do you think we're up to the task? We could get ourselves some fake names and go at it.$u",
-    "Elias.Dialogue.Wed10": "Here, make sure to keep this on you if you go adventurin'. Don't want you gettin' hurt. [351]$7",
-    "Elias.Dialogue.Thu10": "Slept on the chair last night but I found myself in my bed in the mornin'. I'm assuming I either have a carin' ghost in my house or Maia popped up and carried me to bed.$8#$b#Not sure which I would prefer more.$10",
-    "Elias.Dialogue.Fri10": "I'm thinkin' about getting a new coat from Ezra's. He's got good quality clothes. You should come with me, I'd like your opinion before I get anythin'.$h",
-    "Elias.Dialogue.Sat10": "I don't really speak much of my divorce with Ari, but it was amicable. I'm glad we did it, Blake got to grow up without havin' to deal with any toxicity from our relationship.",
-    "Elias.Dialogue.Sun10": "Why don't we take a trip to the city sometime? I could borrow Ophelia's car so we don't have to deal with buses.$h",
+    "Elias.Dialogue.Mon10.Platonic": "You know, it hasn't been too long since we got to know each other. I'm glad you stuck around, I would've missed out.$u",
+    "Elias.Dialogue.Tue10.Platonic": "Hey, I'm readin' this book about these two friends solving crime together. Do you think we're up to the task? We could get ourselves some fake names and go at it.$u",
+    "Elias.Dialogue.Wed10.Platonic": "Here, make sure to keep this on you if you go adventurin'. Don't want you gettin' hurt. [351]$7",
+    "Elias.Dialogue.Thu10.Platonic": "Slept on the chair last night but I found myself in my bed in the mornin'. I'm assuming I either have a carin' ghost in my house or Maia popped up and carried me to bed.$8#$b#Not sure which I would prefer more.$10",
+    "Elias.Dialogue.Fri10.Platonic": "I'm thinkin' about getting a new coat from Ezra's. He's got good quality clothes. You should come with me, I'd like your opinion before I get anythin'.$h",
+    "Elias.Dialogue.Sat10.Platonic": "I don't really speak much of my divorce with Ari, but it was amicable. I'm glad we did it, Blake got to grow up without havin' to deal with any toxicity from our relationship.",
+    "Elias.Dialogue.Sun10.Platonic": "Why don't we take a trip to the city sometime? I could borrow Ophelia's car so we don't have to deal with buses.$h",
+
+    //10 hearts (ROMANTIC)
+    "Elias.Dialogue.Mon10.Romantic": "I got this new book earlier and it's been pretty entertainin'. Why don't you come over later? I'll hold you tight and read a couple chapters to you.$7#$b#What? You're the only always ravin' about how soothin' my voice is. I'm just givin' you what you want, angel.$10",
+    "Elias.Dialogue.Tue10.Romantic": "%Elias looks you up and down before pulling you close and kissing your forehead.#$b#Sorry, couldn't resist. You look gorgeous, my dear.$h#$e#What? More forehead kisses?$10#$b#$y '..._Yes!_%Elias chuckles and kisses your forehead again._No, I'm good!_Alright, you come back whenever you need more.$u'",
+    "Elias.Dialogue.Wed10.Romantic": "Say, d'you think I'd be helpful on that farm of yours?$7#$b#$y '..._Oh, yeah. I can definitely put you to work._Yeah? I'm glad to hear that.$10_You'd rock a farmer cosplay, but that's about it._And for scientific reasons, would that be of interest to you, darlin'?$10'",
+    "Elias.Dialogue.Thu10.Romantic": "How do we feel about a movie night soon? I'll put on your favorite movie and make you a nice dinner. Does that sound good?$h",
+    "Elias.Dialogue.Fri10.Romantic": "%Elias rests his hands on your waist and pulls you close.#$b#Have you eaten yet, angel? There's only one correct answer. The other answer results in me draggin' you home to feed you.$7",
+    "Elias.Dialogue.Sat10.Romantic": "We should take a trip somewhere. Anywhere. I don't care where we go as long as you're with me.$4",
+    "Elias.Dialogue.Sun10.Romantic": "Am I doin' this dating thing correctly? Yoba, it's been so long, I feel like a high school boy with a crush.$4#$b#HEY! Don't laugh at me, I'm tryin' my best for you!$u",
 
     //Green Rain
     "Elias.Dialogue.GreenRain": "Yoba, what is this? I wonder if that's documented somewhere in the library books.#$b#Hm, no. That's impossible. I've read every book in here.$8",
@@ -4602,6 +4611,11 @@
 
     //Trashcan
     "Elias.Dialogue.DumpsterDiveComment": "*sigh*...For your sake, I'm gonna pretend I didn't see that.$8",
+
+    // Elias Romance Dialogue
+    "Romance.AcceptBouquet.Elias": "...Is this? For me?$4#$b#Oh, Yoba. I'm gettin' a little lightheaded.$u#$b#You just made me the happiest man in all of Ferngill, @.$13",
+    "Romance.SpouseStardrop.Elias": "The moment I found this fruit, I knew I had to give it to you. It... felt right. Just like how being with you feels right. I hope you accept it as a token of my love, darlin'.$4",
+    "Romance.RejectBouquet.Elias": "I'm flattered, really, but no.$8",
 
     //Ezra
     "Ezra.Dialogue.Introduction": "Oh! New face! Very pretty face, if I may say so.$h#$b#I'm Ezra, you should check out my store. You could be the most chic farmer in town!$6",

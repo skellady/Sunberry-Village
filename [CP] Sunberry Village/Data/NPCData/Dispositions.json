@@ -782,7 +782,12 @@
           "CanGreetNearbyCharacters": false,
           "Calendar": "AlwaysShown",
           "SocialTab": "HiddenUntilMet",
-          "MugShotSourceRect": { "X": 16, "Y": 224, "Width": 16, "Height": 19 },
+          "MugShotSourceRect": {
+            "X": 16,
+            "Y": 224,
+            "Width": 16,
+            "Height": 19
+          },
           "IntroductionsQuest": true,
           "ItemDeliveryQuests": "RANDOM 0.08",
           "PerfectionScore": "{{IncludeNPCsInPerfection}}",
@@ -965,8 +970,10 @@
             "X": 16,
             "Y": 32
           },
-            "Breather": true,
-            "ShakePortraits": [ 16 ]
+          "Breather": true,
+          "ShakePortraits": [
+            16
+          ]
         },
         "BlakeSBV": {
           "TextureName": "BlakeSBV/BlakeSBV",
@@ -1566,7 +1573,12 @@
           "CanGreetNearbyCharacters": false,
           "Calendar": "HiddenUntilMet",
           "SocialTab": "HiddenUntilMet",
-          "MugShotSourceRect": { "X": 50, "Y": 134, "Width": 13, "Height": 19 },
+          "MugShotSourceRect": {
+            "X": 50,
+            "Y": 134,
+            "Width": 13,
+            "Height": 19
+          },
           "IntroductionsQuest": false,
           "PerfectionScore": false,
           "EndSlideShow": "TrailingGroup",
@@ -1748,6 +1760,20 @@
           },
           "Breather": true
         }
+      }
+    },
+    // Elias Romance Condition
+    {
+      "Action": "EditData",
+      "Target": "Data/Characters",
+      "TargetField": [
+        "EliasSBV"
+      ],
+      "Entries": {
+        "CanBeRomanced": true
+      },
+      "When": {
+        "HasSeenEvent: currentPlayer |contains= skellady.SBVCP_20031483": true
       }
     }
   ]

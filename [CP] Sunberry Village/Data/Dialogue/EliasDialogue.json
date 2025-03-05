@@ -70,13 +70,13 @@
 				"Sat8": "{{i18n:Elias.Dialogue.Sat8}}",
 				"Sun8": "{{i18n:Elias.Dialogue.Sun8}}",
 				//10 Hearts
-				"Mon10": "{{i18n:Elias.Dialogue.Mon10}}",
-				"Tue10": "{{i18n:Elias.Dialogue.Tue10}}",
-				"Wed10": "{{i18n:Elias.Dialogue.Wed10}}",
-				"Thu10": "{{i18n:Elias.Dialogue.Thu10}}",
-				"Fri10": "{{i18n:Elias.Dialogue.Fri10}}",
-				"Sat10": "{{i18n:Elias.Dialogue.Sat10}}",
-				"Sun10": "{{i18n:Elias.Dialogue.Sun10}}",
+				"Mon10": "{{i18n:Elias.Dialogue.Mon10.Romantic}}",
+				"Tue10": "{{i18n:Elias.Dialogue.Tue10.Romantic}}",
+				"Wed10": "{{i18n:Elias.Dialogue.Wed10.Romantic}}",
+				"Thu10": "{{i18n:Elias.Dialogue.Thu10.Romantic}}",
+				"Fri10": "{{i18n:Elias.Dialogue.Fri10.Romantic}}",
+				"Sat10": "{{i18n:Elias.Dialogue.Sat10.Romantic}}",
+				"Sun10": "{{i18n:Elias.Dialogue.Sun10.Romantic}}",
 
 				//Green Rain
 				"GreenRain": "{{i18n:Elias.Dialogue.GreenRain}}",

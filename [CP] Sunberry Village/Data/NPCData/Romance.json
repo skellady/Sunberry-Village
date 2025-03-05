@@ -1,0 +1,14 @@
+{
+	"Changes": [
+		{
+			"LogName": "Romance Dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/EliasSBV",
+			"Entries": {
+				"AcceptBouquet": "{{i18n:Romance.AcceptBouquet.Elias}}",
+				"SpouseStardrop": "{{i18n:Romance.SpouseStardrop.Elias}}",
+				"RejectBouquet": "{{i18n:Romance.RejectBouquet.Elias}}",
+			}
+		}
+	]
+}
