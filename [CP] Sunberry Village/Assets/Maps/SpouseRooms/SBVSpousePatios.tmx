@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="4" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="8" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="1">
  <properties>
   <property name="Arch" value="111 .01 113 .009"/>
   <property name="Debris" value="8 .01 3"/>
@@ -8,42 +8,45 @@
   <property name="Spouse" value="3 22 2 11 11 2 4 5 0 1 12 2 17 11 2 23 3 2"/>
   <property name="Warp" value="80 15 BusStop 0 23 80 18 BusStop 0 24 80 16 BusStop 0 23 80 17 BusStop 0 23 40 65 Forest 68 0 41 65 Forest 68 0 42 65 Forest 68 0 40 -1 Backwoods 14 39 41 -1 Backwoods 14 39 34 5 FarmCave 8 11"/>
  </properties>
- <tileset firstgid="1" name="zDDFurniture" tilewidth="16" tileheight="16" tilecount="624" columns="24">
-  <image source="DDFurniture.png" width="384" height="416"/>
+ <tileset firstgid="1" name="zDDFurniture" tilewidth="16" tileheight="16" tilecount="816" columns="24">
+  <image source="DDFurniture.png" width="384" height="544"/>
  </tileset>
- <tileset firstgid="625" name="paths" tilewidth="16" tileheight="16" tilecount="36" columns="4">
-  <image source="paths.png" width="64" height="144"/>
+ <tileset firstgid="817" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
  </tileset>
- <tileset firstgid="661" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
+ <tileset firstgid="881" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source="spring_outdoorsTileSheet.png" width="400" height="1264"/>
  </tileset>
- <layer id="1" name="Back" width="4" height="4">
+ <tileset firstgid="2856" name="spring_town" tilewidth="16" tileheight="16" tilecount="2304" columns="32">
+  <image source="spring_town.png" width="512" height="1152"/>
+ </tileset>
+ <layer id="1" name="Back" width="8" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMAAAAQAAB
+   eJxjYBhYAAAAgAAB
   </data>
  </layer>
  <objectgroup id="2" name="Back"/>
- <layer id="3" name="Buildings" width="4" height="4">
+ <layer id="3" name="Buildings" width="8" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYMAO7nMCMRsDwwNOhJgLF6Y6AGfKAwU=
+   eJxjYCAO7OYCYnYE/wo7hL+HCyGmwM3AsI+fgWEvP4TPykLYXAB5uQW4
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
- <layer id="5" name="Paths" width="4" height="4">
+ <layer id="5" name="Paths" width="8" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYCAOVDBhFwcAC64Aew==
+   eJxjYKAOsGDGz8cFABaaAHc=
   </data>
  </layer>
  <objectgroup id="6" name="Paths"/>
- <layer id="7" name="Front" width="4" height="4">
+ <layer id="7" name="Front" width="8" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYEAFxzkZSAIAJzcA0Q==
+   eJxjYMAPFnOh8ufxMzDM5Yew3zAT0EwEAADp0QL2
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>
- <layer id="9" name="AlwaysFront" width="4" height="4">
+ <layer id="9" name="AlwaysFront" width="8" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYKAMAAAAQAAB
+   eJxjYBhYAAAAgAAB
   </data>
  </layer>
  <objectgroup id="10" name="AlwaysFront"/>
