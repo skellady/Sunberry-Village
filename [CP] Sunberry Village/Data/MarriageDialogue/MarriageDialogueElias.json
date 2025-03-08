@@ -1,0 +1,105 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueEliasSBV",
+			"Entries": {
+				//Specific Dates
+				"spring_1": "{{i18n:Elias.Marriage.Dialogue.spring_1}}",
+				"spring_12": "{{i18n:Elias.Marriage.Dialogue.spring_12}}", // day before egg festival
+				"spring_23": "{{i18n:Elias.Marriage.Dialogue.spring_23}}", // day before flower dance
+				"summer_1": "{{i18n:Elias.Marriage.Dialogue.summer_1}}",
+				"summer_10": "{{i18n:Elias.Marriage.Dialogue.summer_10}}", // day before luau
+				"summer_17": "{{i18n:Elias.Marriage.Dialogue.summer_17}}", // blake's birthday
+				"summer_27": "{{i18n:Elias.Marriage.Dialogue.summer_27}}", // day before jellies
+				"fall_1": "{{i18n:Elias.Marriage.Dialogue.fall_1}}",
+				"fall_10": "{{i18n:Elias.Marriage.Dialogue.fall_10}}", // maia's birthday
+				"fall_15": "{{i18n:Elias.Marriage.Dialogue.fall_15}}", // day before fair
+				"fall_25": "{{i18n:Elias.Marriage.Dialogue.fall_25}}", // day before twilight festival
+				"winter_1": "{{i18n:Elias.Marriage.Dialogue.winter_1}}",
+				"winter_7": "{{i18n:Elias.Marriage.Dialogue.winter_7}}", // day before ice festival
+				"winter_10": "{{i18n:Elias.Marriage.Dialogue.winter_10}}", // lyenne's birthday
+				"winter_14": "{{i18n:Elias.Marriage.Dialogue.winter_14}}", // day before night market
+				"winter_16": "{{i18n:Elias.Marriage.Dialogue.winter_16}}", // day of visiting night market
+				"winter_19": "{{i18n:Elias.Marriage.Dialogue.winter_19}}", // ari's birthday
+				"winter_23": "{{i18n:Elias.Marriage.Dialogue.winter_23}}", // elias' birthday 
+				"winter_24": "{{i18n:Elias.Marriage.Dialogue.winter_24}}", // day before winter feast
+				//Seasonal Dialogue
+				"spring_EliasSBV": "{{i18n:Elias.Marriage.Dialogue.spring}}",
+				"summer_EliasSBV": "{{i18n:Elias.Marriage.Dialogue.summer}}",
+				"fall_EliasSBV": "{{i18n:Elias.Marriage.Dialogue.fall}}",
+				"winter_EliasSBV": "{{i18n:Elias.Marriage.Dialogue.winter}}",
+				//Patio Dialogue
+				"patio_EliasSBV": "{{Random: {{i18n:Elias.Marriage.patio_1}} ++ {{i18n:Elias.Marriage.patio_2}} ++ {{i18n:Elias.Marriage.patio_3}} ++ {{i18n:Elias.Marriage.patio_4}} |inputSeparator=++}}",
+				//Spouse Room Dialogue
+				"spouseRoom_EliasSBV": "{{Random: {{i18n:Elias.Marriage.spouseroom_1}} ++ {{i18n:Elias.Marriage.spouseroom_2}} ++ {{i18n:Elias.Marriage.spouseroom_3}} ++ {{i18n:Elias.Marriage.spouseroom_4}} |inputSeparator=++}}",
+				//Indoor Dialogue
+				"Indoor_Day_0": "{{i18n:Elias.Marriage.Indoor_Day_0}}",
+				"Indoor_Day_1": "{{i18n:Elias.Marriage.Indoor_Day_1}}",
+				"Indoor_Day_2": "{{i18n:Elias.Marriage.Indoor_Day_2}}",
+				"Indoor_Day_3": "{{i18n:Elias.Marriage.Indoor_Day_3}}",
+				"Indoor_Day_4": "{{i18n:Elias.Marriage.Indoor_Day_4}}",
+				"Indoor_Day_5": "{{i18n:Elias.Marriage.Indoor_Day_5}}",
+				"Indoor_Night_0": "{{i18n:Elias.Marriage.Indoor_Night_0}}",
+				"Indoor_Night_1": "{{i18n:Elias.Marriage.Indoor_Night_1}}",
+				"Indoor_Night_2": "{{i18n:Elias.Marriage.Indoor_Night_2}}",
+				"Indoor_Night_3": "{{i18n:Elias.Marriage.Indoor_Night_3}}",
+				"Indoor_Night_4": "{{i18n:Elias.Marriage.Indoor_Night_4}}",
+				"Indoor_Night_5": "{{i18n:Elias.Marriage.Indoor_Night_5}}",
+				//Rainy Dialogue
+				"Rainy_Day_0": "{{i18n:Elias.Marriage.Rainy_Day_0}}",
+				"Rainy_Day_1": "{{i18n:Elias.Marriage.Rainy_Day_1}}",
+				"Rainy_Day_2": "{{i18n:Elias.Marriage.Rainy_Day_2}}",
+				"Rainy_Day_3": "{{i18n:Elias.Marriage.Rainy_Day_3}}",
+				"Rainy_Day_4": "{{i18n:Elias.Marriage.Rainy_Day_4}}",
+				"Rainy_Day_5": "{{i18n:Elias.Marriage.Rainy_Day_5}}",
+				"Rainy_Night_0": "{{i18n:Elias.Marriage.Rainy_Night_0}}",
+				"Rainy_Night_1": "{{i18n:Elias.Marriage.Rainy_Night_1}}",
+				"Rainy_Night_2": "{{i18n:Elias.Marriage.Rainy_Night_2}}",
+				"Rainy_Night_3": "{{i18n:Elias.Marriage.Rainy_Night_3}}",
+				"Rainy_Night_4": "{{i18n:Elias.Marriage.Rainy_Night_4}}",
+				"Rainy_Night_5": "{{i18n:Elias.Marriage.Rainy_Night_5}}",
+				//Kids Dialogue
+				"OneKid_0": "{{i18n:Elias.Marriage.OneKid_0}}",
+				"OneKid_1": "{{i18n:Elias.Marriage.OneKid_1}}",
+				"OneKid_2": "{{i18n:Elias.Marriage.OneKid_2}}",
+				"TwoKids_0": "{{i18n:Elias.Marriage.TwoKids_0}}",
+				"TwoKids_1": "{{i18n:Elias.Marriage.TwoKids_1}}",
+				"TwoKids_2": "{{i18n:Elias.Marriage.TwoKids_2}}",
+				//Good/Bad/Neutral Dialogue
+				"Good_0": "{{i18n:Elias.Marriage.Good_0}}",
+				"Good_1": "{{i18n:Elias.Marriage.Good_1}}",
+				"Good_2": "{{i18n:Elias.Marriage.Good_2}}",
+				"Good_3": "{{i18n:Elias.Marriage.Good_3}}",
+				"Good_4": "{{i18n:Elias.Marriage.Good_4}}",
+				"Good_5": "{{i18n:Elias.Marriage.Good_5}}",
+				"Good_6": "{{i18n:Elias.Marriage.Good_6}}",
+				"Good_7": "{{i18n:Elias.Marriage.Good_7}}",
+				"Good_8": "{{i18n:Elias.Marriage.Good_8}}",
+				"Good_9": "{{i18n:Elias.Marriage.Good_9}}",
+				"Neutral_0": "{{i18n:Elias.Marriage.Neutral_0}}",
+				"Neutral_1": "{{i18n:Elias.Marriage.Neutral_1}}",
+				"Neutral_2": "{{i18n:Elias.Marriage.Neutral_2}}",
+				"Neutral_3": "{{i18n:Elias.Marriage.Neutral_3}}",
+				"Neutral_4": "{{i18n:Elias.Marriage.Neutral_4}}",
+				"Neutral_5": "{{i18n:Elias.Marriage.Neutral_5}}",
+				"Neutral_6": "{{i18n:Elias.Marriage.Neutral_6}}",
+				"Neutral_7": "{{i18n:Elias.Marriage.Neutral_7}}",
+				"Neutral_8": "{{i18n:Elias.Marriage.Neutral_8}}",
+				"Bad_0": "{{i18n:Elias.Marriage.Bad_0}}",
+				"Bad_1": "{{i18n:Elias.Marriage.Bad_1}}",
+				"Bad_2": "{{i18n:Elias.Marriage.Bad_2}}",
+				"Bad_3": "{{i18n:Elias.Marriage.Bad_3}}",
+				"Bad_4": "{{i18n:Elias.Marriage.Bad_4}}",
+				"Bad_5": "{{i18n:Elias.Marriage.Bad_5}}",
+				"Bad_6": "{{i18n:Elias.Marriage.Bad_6}}",
+				"Bad_7": "{{i18n:Elias.Marriage.Bad_7}}",
+				"Bad_8": "{{i18n:Elias.Marriage.Bad_8}}",
+				"Bad_9": "{{i18n:Elias.Marriage.Bad_9}}",
+				//Funleave and Funreturn Dialogue
+				"funLeave_EliasSBV": "{{Random: {{i18n:Elias.Marriage.funLeave_1}} ++ {{i18n:Elias.Marriage.funLeave_2}} ++ {{i18n:Elias.Marriage.funLeave_3}} |inputSeparator=++}}",
+				"funReturn_EliasSBV": "{{Random: {{i18n:Elias.Marriage.funReturn_1}} ++ {{i18n:Elias.Marriage.funReturn_2}} ++ {{i18n:Elias.Marriage.funReturn_3}} |inputSeparator=++}}",
+			},
+		},
+	]
+}

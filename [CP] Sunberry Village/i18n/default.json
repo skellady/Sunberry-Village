@@ -4614,8 +4614,124 @@
 
     // Elias Romance Dialogue
     "Romance.AcceptBouquet.Elias": "...Is this? For me?$4#$b#Oh, Yoba. I'm gettin' a little lightheaded.$u#$b#You just made me the happiest man in all of Ferngill, @.$13",
-    "Romance.SpouseStardrop.Elias": "The moment I found this fruit, I knew I had to give it to you. It... felt right. Just like how being with you feels right. I hope you accept it as a token of my love, darlin'.$4",
+    "Romance.SpouseStardrop.Elias": "The moment I found this fruit, I knew I had to give it to you. It felt right. Just like how being with you feels right.$h#$b#I hope you accept it as a token of my love, darlin'.$4",
     "Romance.RejectBouquet.Elias": "I'm flattered, really, but no.$8",
+
+    // Elias Marriage Dialogue
+
+    // Specific Dates
+    "Elias.Marriage.Dialogue.spring_1": "The beginnin' of a new season always makes me happy. Gives me a reason to go out and see what's in the waters this time of year.$h#$b#Also, I'm just happy it's no longer freezin' cold anymore.$u",
+    "Elias.Marriage.Dialogue.spring_12": "%Elias cups your face and kisses you on one cheek.#$b#This is for some extra luck at the egg hunt tomorrow. Come by for a kiss on the other cheek before the hunt starts.$h",
+    "Elias.Marriage.Dialogue.spring_23": "Hm? Oh... is the dance tomorrow?$9#$b#Darn... I was hoping I had more time to prepare mentally. It's alright, I'll get to dance with my darlin' and all will be well.$10",
+    "Elias.Marriage.Dialogue.summer_1": "Woof, beginnin' of the season and it's already scorchin' hot. Any hotter and I'll have to rethink my definition of 'decent attire'.$u",
+    "Elias.Marriage.Dialogue.summer_10": "I try to avoid the soup at the Luau, but if you're addin' somethin' from %farm to it I'll have to give it a shot.$h",
+    "Elias.Marriage.Dialogue.summer_17": "It's Blake's birthday today. I got him a new video game he was lookin' forward to.$h#$b#I'll be taking him and Lyenne on a road trip soon as well. You've got to come with us. Take a break from work and let me take care of you.$10",
+    "Elias.Marriage.Dialogue.summer_27": "It's been a minute since I got to see the Lunaloos with someone.#$b#Y'know what I mean. Holdin' someone close, sneakin' a kiss as you watch...$13#$b#We can sneak off somewhere afterwards. Somewhere I can give you a proper kiss or two.$u",
+    "Elias.Marriage.Dialogue.fall_1": "I found this earlier while I was reorganizin' my bookshelf. I thought you might like it. [(O)SkillBook_0]$h",
+    "Elias.Marriage.Dialogue.fall_10": "It's Maia's birthday today. She said she'd throw hands if I were to get her a gift, but I couldn't help it.$10#$b#I found this pair of earrings at a store the other week and thought of her. I hope she likes them.$h",
+    "Elias.Marriage.Dialogue.fall_15": "I'mma need you to win tomorrow, alright? Think of the braggin' rights. Think of Ari's enthusiasm as Pierre loses to you. That ought to keep you goin'.$u",
+    "Elias.Marriage.Dialogue.fall_25": "Will you be at the Twilight Festival tomorrow, angel? I'll set up my stall as I always do, but I'll be around to spend time with you, too.$u",
+    "Elias.Marriage.Dialogue.winter_1": "I'm freezin' my tail off, already.$s#$b#Here's my jacket, darlin'. Don't want you gettin' cold while you work.$12#$b#Don't worry, I'll grab another jacket in a moment. I need you taken care of first.$4",
+    "Elias.Marriage.Dialogue.winter_7": "So... are we facin' off at the festival tomorrow? Winner gets to choose the movie for movie night for an entire month.$10#$b#Oh, and a kiss. Those are the rules.$u",
+    "Elias.Marriage.Dialogue.winter_10": "So, it's Lyenne's birthday today. My sentimental side took over so I got her this.$12#$b#%Elias shows you a locket with a picture inside. Ari, Blake, Elias, Ophelia and Lyenne are all posing for the camera. It's a beautiful picture.#$b#You think she'll like it? Is it too much? It's too much, isn't it?$9#$b#$y 'It's too much isn't it?_It's perfect! She's gonna love it._Thank you, darlin'. I'm overthinkin' again.$u_It's nice! She'll probably cry when she sees it._Oh, Yoba. I'm not very good with dealin' with feelings.$9",
+    "Elias.Marriage.Dialogue.winter_14": "Ah, the night market is one of my favorite events. I'll browse the book selection then head over to the submarine.$h",
+    "Elias.Marriage.Dialogue.winter_16": "I'll never tire of the submarine. I go every year and it still gets me excited.$u#$b#I got a bunch of stuff, too. Here, this is for you my love. [395]$h",
+    "Elias.Marriage.Dialogue.winter_19": "It's Ari's birthday. I got him a nice watch. Did you know he collects watches? It's fascinatin'. He's such a nerd, sometimes.$u#$b#...Hey, I know what you're about to say. My type of 'nerd' is different and cooler than bein' a watch nerd.$10",
+    "Elias.Marriage.Dialogue.winter_23": "It's my birthday again? Time's goin' too fast for my liking.$9#$b#At least I'm growin' old with you, my angel. You're the universe's greatest gift to me. I don't need anythin' else as long as I've got you by my side.$4",
+    "Elias.Marriage.Dialogue.winter_24": "...Must be tough, havin' your husband's birthday and the feast in the same week, eh?$u#$b#I'm lookin' forward to spendin' another year with you, my love.$4",
+
+    // Seasonal Dialogue
+    "Elias.Marriage.Dialogue.spring": "There's somethin' special about spring, don't you think? It feels like a new beginning, in a way.$h",
+    "Elias.Marriage.Dialogue.summer": "I'm goin' shirtless, neighbors be damned. It's too hot to be wearin' anythin'.$u#$b#Y'know, you could join me, my dear farmer. Work be damned too.$10",
+    "Elias.Marriage.Dialogue.fall": "What'd you plan to grow this season? I'd love to help however I can. I'm more productive durin' fall for some reason.$u",
+    "Elias.Marriage.Dialogue.winter": "This is the perfect weather to abandon all our earthly responsibilities and just cuddle in bed, don't you think?$10",
+
+    // Patio Dialogue
+    "Elias.Marriage.patio_1": "%Elias is playing the guitar. He winks your way and gets back to playing.",
+    "Elias.Marriage.patio_2": "Join me, darlin'. Let me serenade you before you head off.$h",
+    "Elias.Marriage.patio_3": "I get a nice view of the farm from here while I play, but there's an even better view in front of me right now.$10",
+    "Elias.Marriage.patio_4": "Come here, pumpkin. Have a seat and relax with me for a bit, will ya?$7#$b#It's a beautiful day to be on the farm. Oh, %pet was chasin' some critter around earlier, you missed it.$u",
+
+    // Spouse Room Dialogue
+    "Elias.Marriage.spouseroom_1": "",
+    "Elias.Marriage.spouseroom_2": "",
+    "Elias.Marriage.spouseroom_3": "",
+    "Elias.Marriage.spouseroom_4": "",
+
+    // Indoor Dialogue
+    "Elias.Marriage.Indoor_Day_0": "",
+    "Elias.Marriage.Indoor_Day_1": "",
+    "Elias.Marriage.Indoor_Day_2": "",
+    "Elias.Marriage.Indoor_Day_3": "",
+    "Elias.Marriage.Indoor_Day_4": "",
+    "Elias.Marriage.Indoor_Day_5": "",
+    "Elias.Marriage.Indoor_Night_0": "",
+    "Elias.Marriage.Indoor_Night_1": "",
+    "Elias.Marriage.Indoor_Night_2": "",
+    "Elias.Marriage.Indoor_Night_3": "",
+    "Elias.Marriage.Indoor_Night_4": "",
+    "Elias.Marriage.Indoor_Night_5": "",
+    
+    // Rainy Day Dialogue
+    "Elias.Marriage.Rainy_Day_0": "",
+    "Elias.Marriage.Rainy_Day_1": "",
+    "Elias.Marriage.Rainy_Day_2": "",
+    "Elias.Marriage.Rainy_Day_3": "",
+    "Elias.Marriage.Rainy_Day_4": "",
+    "Elias.Marriage.Rainy_Day_5": "",
+    "Elias.Marriage.Rainy_Night_0": "",
+    "Elias.Marriage.Rainy_Night_1": "",
+    "Elias.Marriage.Rainy_Night_2": "",
+    "Elias.Marriage.Rainy_Night_3": "",
+    "Elias.Marriage.Rainy_Night_4": "",
+    "Elias.Marriage.Rainy_Night_5": "",
+
+    // Kids Dialogue
+    "Elias.Marriage.OneKid_0": "",
+    "Elias.Marriage.OneKid_1": "",
+    "Elias.Marriage.OneKid_2": "",
+    "Elias.Marriage.TwoKids_0": "",
+    "Elias.Marriage.TwoKids_1": "",
+    "Elias.Marriage.TwoKids_2": "",
+
+    // Good/Bad/Neutral Dialogue
+    "Elias.Marriage.Good_0": "",
+    "Elias.Marriage.Good_1": "",
+    "Elias.Marriage.Good_2": "",
+    "Elias.Marriage.Good_3": "",
+    "Elias.Marriage.Good_4": "",
+    "Elias.Marriage.Good_5": "",
+    "Elias.Marriage.Good_6": "",
+    "Elias.Marriage.Good_7": "",
+    "Elias.Marriage.Good_8": "",
+    "Elias.Marriage.Good_9": "",
+    "Elias.Marriage.Neutral_0": "",
+    "Elias.Marriage.Neutral_1": "",
+    "Elias.Marriage.Neutral_2": "",
+    "Elias.Marriage.Neutral_3": "",
+    "Elias.Marriage.Neutral_4": "",
+    "Elias.Marriage.Neutral_5": "",
+    "Elias.Marriage.Neutral_6": "",
+    "Elias.Marriage.Neutral_7": "",
+    "Elias.Marriage.Neutral_8": "",
+    "Elias.Marriage.Bad_0": "",
+    "Elias.Marriage.Bad_1": "",
+    "Elias.Marriage.Bad_2": "",
+    "Elias.Marriage.Bad_3": "",
+    "Elias.Marriage.Bad_4": "",
+    "Elias.Marriage.Bad_5": "",
+    "Elias.Marriage.Bad_6": "",
+    "Elias.Marriage.Bad_7": "",
+    "Elias.Marriage.Bad_8": "",
+    "Elias.Marriage.Bad_9": "",
+
+    // funLeave and funReturn Dialogue
+    "Elias.Marriage.funLeave_1": "",
+    "Elias.Marriage.funLeave_2": "",
+    "Elias.Marriage.funLeave_3": "",
+    "Elias.Marriage.funReturn_1": "",
+    "Elias.Marriage.funReturn_2": "",
+    "Elias.Marriage.funReturn_3": "",
 
     //Ezra
     "Ezra.Dialogue.Introduction": "Oh! New face! Very pretty face, if I may say so.$h#$b#I'm Ezra, you should check out my store. You could be the most chic farmer in town!$6",
