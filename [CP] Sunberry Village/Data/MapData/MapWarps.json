@@ -386,7 +386,7 @@
         "9 19 Custom_SBV_SunberryVillage 86 92",
       ],
       "When": {
-        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": false,
+        "HasFlag: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": false,
       }
     },
     {
@@ -396,7 +396,7 @@
         "9 19 Custom_SBV_SunberryVillage 86 92",
       ],
       "When": {
-        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
+        "HasFlag: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
       }
     },
     // Locked Door Warps
@@ -640,7 +640,7 @@
         }
       ],
       "When": {
-        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": false,
+        "HasFlag: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": false,
       }
     },
     {
@@ -659,7 +659,7 @@
         }
       ],
       "When": {
-        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
+        "HasFlag: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
       }
     },
     {
@@ -1743,7 +1743,7 @@
         }
       ],
       "When": {
-        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": false,
+        "HasFlag: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": false,
       }
     },
     {
@@ -1762,7 +1762,7 @@
         }
       ],
       "When": {
-        "HasReadLetter: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
+        "HasFlag: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
       }
     },
   ]

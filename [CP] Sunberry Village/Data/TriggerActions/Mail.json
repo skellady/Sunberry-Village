@@ -130,7 +130,7 @@
                 "skellady.SBVCP_EliasHouseFinishedLetter": {
                     "Id": "skellady.SBVCP_EliasHouseFinishedLetter",
                     "Trigger": "DayEnding",
-                    "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current EliasHouseBegin, PLAYER_HEARTS Current EliasSBV 8",
+                    "Condition": "!PLAYER_HAS_CONVERSATION_TOPIC Current EliasHouseBegin, PLAYER_HEARTS Current EliasSBV 8, PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031483",
                     "Action": "AddMail Current skellady.SBVCP_EliasHouseFinishedLetter"
                 },
                 "skellady.SBVCP_Elias10HeartsLetter": {

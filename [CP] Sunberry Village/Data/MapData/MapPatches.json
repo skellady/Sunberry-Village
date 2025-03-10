@@ -1049,6 +1049,28 @@
         "HasFlag: anyPlayer |contains= SBVFarmPurchased": false,
         "HasFlag: anyPlayer |contains= SBVFarmPurchasedFR": false
       }
+    },
+    // Removes 'For Sale' sign from Elias' house
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBVEliasRemoveSale.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 2,
+        "Height": 2
+      },
+      "ToArea": {
+        "X": 82,
+        "Y": 91,
+        "Width": 2,
+        "Height": 2
+      },
+      "When": {
+        "HasFlag: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
+      }
     }
     // Twilight Festival Patch
     /*{
