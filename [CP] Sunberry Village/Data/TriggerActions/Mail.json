@@ -136,7 +136,7 @@
                 "skellady.SBVCP_Elias10HeartsLetter": {
                     "Id": "skellady.SBVCP_Elias10HeartsLetter",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031483, PLAYER_HEARTS Current EliasSBV 10, !SEASON Winter, WEATHER Here Sun",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031483, PLAYER_HEARTS Current EliasSBV 10, !SEASON Winter, WEATHER Here Sun, PLAYER_NPC_RELATIONSHIP Current EliasSBV Dating",
                     "Action": "AddMail Current skellady.SBVCP_Elias10HeartsLetter"
                 }
             }
