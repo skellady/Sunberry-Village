@@ -407,7 +407,7 @@
         {
             "LogName": "Moon's Roommate Dialogue",
             "Action": "Load",
-            "Target": "Characters/Dialogue/MarriageDialogueMoonSBV, Characters/Dialogue/MarriageDialogueMoonSBVRoommate",
+            "Target": "Characters/Dialogue/MarriageDialogueMoonSBV, Characters/Dialogue/MarriageDialogueMoonSBVRoommate, Characters/Dialogue/MarriageDialogueEliasSBV",
             "FromFile": "Data/Dialogue/blank.json"
         },
         {
@@ -469,7 +469,7 @@
         {
             "LogName": "Include NPC Data",
             "Action": "Include",
-            "FromFile": "Data/NPCData/ImageLoads.json, Data/NPCData/Animations.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/ConversationTopics.json, Data/NPCData/MoonRoommate.json, Data/NPCData/MovieData.json, Data/NPCData/Mail.json, Data/NPCData/BigAnimations.json"
+            "FromFile": "Data/NPCData/ImageLoads.json, Data/NPCData/Animations.json, Data/NPCData/Dispositions.json, Data/NPCData/GiftTasteData.json, Data/NPCData/ConversationTopics.json, Data/NPCData/MoonRoommate.json, Data/NPCData/MovieData.json, Data/NPCData/Mail.json, Data/NPCData/BigAnimations.json, Data/NPCData/Romance.json"
         },
         // Item Data
         {
@@ -487,7 +487,7 @@
         {
             "LogName": "Includes Dialogue and Schedule",
             "Action": "Include",
-            "FromFile": "Data/Dialogue/DialaDialogue.json, Data/Dialogue/DeryaDialogue.json, Data/Dialogue/MoonDialogue.json, Data/Dialogue/ReihanaDialogue.json, Data/Dialogue/AichaDialogue.json, Data/Dialogue/AminaDialogue.json, Data/Dialogue/AriDialogue.json, Data/Dialogue/BlakeDialogue.json, Data/Dialogue/EliasDialogue.json, Data/Dialogue/EzraDialogue.json, Data/Dialogue/ImanDialogue.json, Data/Dialogue/JumanaDialogue.json, Data/Dialogue/LyenneDialogue.json, Data/Dialogue/MaiaDialogue.json, Data/Dialogue/MiyoungDialogue.json, Data/Dialogue/NadiaDialogue.json, Data/Dialogue/OpheliaDialogue.json, Data/Dialogue/PanDialogue.json, Data/Dialogue/SilasDialogue.json, Data/Dialogue/ResortDialogue.json, Data/Schedules/MoonSchedule.json, Data/Schedules/DialaSchedule.json, Data/Schedules/DeryaSchedule.json, Data/Dialogue/ScheduleDialogue.json, Data/Dialogue/MoonRoommateDialogue.json, Data/Schedules/MoonRoommateSchedule.json, Data/Schedules/ReihanaSchedule.json, Data/Schedules/AichaSchedule.json, Data/Schedules/AminaSchedule.json, Data/Schedules/AriSchedule.json, Data/Schedules/BlakeSchedule.json, Data/Schedules/EliasSchedule.json, Data/Schedules/EzraSchedule.json, Data/Schedules/ImanSchedule.json, Data/Schedules/JumanaSchedule.json, Data/Schedules/LyenneSchedule.json, Data/Schedules/MaiaSchedule.json, Data/Schedules/MiyoungSchedule.json, Data/Schedules/NadiaSchedule.json, Data/Schedules/OpheliaSchedule.json, Data/Schedules/PanSchedule.json, Data/Schedules/SilasSchedule.json"
+            "FromFile": "Data/Dialogue/DialaDialogue.json, Data/Dialogue/DeryaDialogue.json, Data/Dialogue/MoonDialogue.json, Data/Dialogue/ReihanaDialogue.json, Data/Dialogue/AichaDialogue.json, Data/Dialogue/AminaDialogue.json, Data/Dialogue/AriDialogue.json, Data/Dialogue/BlakeDialogue.json, Data/Dialogue/EliasDialogue.json, Data/Dialogue/EzraDialogue.json, Data/Dialogue/ImanDialogue.json, Data/Dialogue/JumanaDialogue.json, Data/Dialogue/LyenneDialogue.json, Data/Dialogue/MaiaDialogue.json, Data/Dialogue/MiyoungDialogue.json, Data/Dialogue/NadiaDialogue.json, Data/Dialogue/OpheliaDialogue.json, Data/Dialogue/PanDialogue.json, Data/Dialogue/SilasDialogue.json, Data/Dialogue/ResortDialogue.json, Data/Schedules/MoonSchedule.json, Data/Schedules/DialaSchedule.json, Data/Schedules/DeryaSchedule.json, Data/Dialogue/ScheduleDialogue.json, Data/Dialogue/MoonRoommateDialogue.json, Data/Schedules/MoonRoommateSchedule.json, Data/Schedules/ReihanaSchedule.json, Data/Schedules/AichaSchedule.json, Data/Schedules/AminaSchedule.json, Data/Schedules/AriSchedule.json, Data/Schedules/BlakeSchedule.json, Data/Schedules/EliasSchedule.json, Data/Schedules/EzraSchedule.json, Data/Schedules/ImanSchedule.json, Data/Schedules/JumanaSchedule.json, Data/Schedules/LyenneSchedule.json, Data/Schedules/MaiaSchedule.json, Data/Schedules/MiyoungSchedule.json, Data/Schedules/NadiaSchedule.json, Data/Schedules/OpheliaSchedule.json, Data/Schedules/PanSchedule.json, Data/Schedules/SilasSchedule.json, Data/MarriageDialogue/MarriageDialogueElias.json"
         },
         // Compatibility
         {

@@ -4605,7 +4605,7 @@
     "Elias.Dialogue.Sun10.Romantic": "Am I doin' this dating thing correctly? Yoba, it's been so long, I feel like a high school boy with a crush.$4#$b#HEY! Don't laugh at me, I'm tryin' my best for you!$u",
 
     //Green Rain
-    "Elias.Dialogue.GreenRain": "Yoba, what is this? I wonder if that's documented somewhere in the library books.#$b#Hm, no. That's impossible. I've read every book in here.$8",
+    "Elias.Dialogue.GreenRain": "$query PLAYER_NPC_RELATIONSHIP Current EliasSBV Married#Yoba, what is this? I've never seen anythin' like it. Please, be careful if you go out there my love.$s|Yoba, what is this? I wonder if that's documented somewhere in the library books.#$b#Hm, no. That's impossible. I've read every book in here.$8",
     "Elias.Dialogue.GreenRainFinished": "I met up with Silas to ask about yesterday's weather. Apparently, it's harmless. He's such a knowledgeable man, I envy him a little bit sometimes.",
     "Elias.Dialogue.GreenRain_2": "This year, I'm gonna make sure I document everything there is to know about green rain. It's so fascinating.$h",
 
@@ -4625,6 +4625,7 @@
     "Romance.AcceptBouquet.Elias": "...Is this? For me?$4#$b#Oh, Yoba. I'm gettin' a little lightheaded.$u#$b#You just made me the happiest man in all of Ferngill, @.$13",
     "Romance.SpouseStardrop.Elias": "The moment I found this fruit, I knew I had to give it to you. It felt right. Just like how being with you feels right.$h#$b#I hope you accept it as a token of my love, darlin'.$4",
     "Romance.RejectBouquet.Elias": "I'm flattered, really, but no.$8",
+    "Romance.AcceptPendant.Elias": "!!!$4#$b#@, I... Wow.$13#$b#Yes, absolutely, yes! I can't believe we're gettin' married.$13#$b#Let me set up everythin', alright? We'll have the ceremony in 3 days.$4",
 
     // Elias Marriage Dialogue
 

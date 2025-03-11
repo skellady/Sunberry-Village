@@ -28,19 +28,19 @@
  <objectgroup id="2" name="Back"/>
  <layer id="3" name="Buildings" width="8" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYCAO7OYCYnYE/wo7hL+HCyGmwM3AsI+fgWEvP4TPykLYXAB5uQW4
+   eJxjYCAO7OYCYnZM8T1cCLYCN4J9hR27+n38DAx7+SFsVhYGBgAR2QW4
   </data>
  </layer>
  <objectgroup id="4" name="Buildings"/>
  <layer id="5" name="Paths" width="8" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYKAOsGDGz8cFABaaAHc=
+   eJxjYKAOsGAmTz0ADzoAdw==
   </data>
  </layer>
  <objectgroup id="6" name="Paths"/>
  <layer id="7" name="Front" width="8" height="4">
   <data encoding="base64" compression="zlib">
-   eJxjYMAPFnOh8ufxMzDM5Yew3zAT0EwEAADp0QL2
+   eJxjYMAPFnMRUIAG5vEzMMzlh7DfMBNWDwCg0QL2
   </data>
  </layer>
  <objectgroup id="8" name="Front"/>

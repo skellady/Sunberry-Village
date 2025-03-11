@@ -39,25 +39,5 @@
         "MoonRoommate1": "{{i18n:Moon.Engagement1}}",
       },
     },
-    //Load Spouse Room
-    {
-      "Action": "Load",
-      "Target": "Maps/SBVSpouseRooms",
-      "FromFile": "Assets/Maps/SpouseRooms/{{TargetWithoutPath}}.tmx"
-    },
-    //Load Spouse Patios
-    {
-      "Action": "Load",
-      "Target": "Maps/SBVSpousePatios",
-      "FromFile": "Assets/Maps/SpouseRooms/{{TargetWithoutPath}}.tmx"
-    },
-    //Register patios
-    {
-      "Action": "EditData",
-      "Target": "Data/SpousePatios",
-      "Entries": {
-        "MoonSBV": "SBVSpousePatios/0/0 0 0 0 1 1 1 1 2 2 2 2 3 3 3 3/0 0",
-      },
-    },
   ]
 }

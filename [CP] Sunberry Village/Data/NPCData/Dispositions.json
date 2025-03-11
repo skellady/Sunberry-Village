@@ -1,1780 +1,2066 @@
 {
-  "Changes": [
-    {
-      "LogName": "NPC Dispositions",
-      "Action": "EditData",
-      "Target": "Data/Characters",
-      "Entries": {
-        // Maia's Family
-        "AminaSBV": {
-          "TextureName": "AminaSBV/AminaSBV",
-          "DisplayName": "{{i18n:Name.Amina}}",
-          "BirthSeason": "fall",
-          "BirthDay": 17,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Child",
-          "Manner": "Polite",
-          "SocialAnxiety": "Shy",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": false,
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "FriendsAndFamily": {
-            "MaiaSBV": "{{i18n:NPC_Relationships.AminaMom}}",
-            "JumanaSBV": "{{i18n:NPC_Relationships.AminaGrandma}}"
-          },
-          "DumpsterDiveEmote": 28,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_CheeseCauliflower",
-              "ItemId": "(O)197",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_PinkCake",
-              "ItemId": "(O)221",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_FairyRose",
-              "ItemId": "(O)595",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_StrangeDoll1",
-              "ItemId": "(O)126",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_StrangeDoll2",
-              "ItemId": "(O)127",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-          ],
-          "SpawnIfMissing": true,
-          "Appearance": [
-            {
-              "Id": "skellady.SBV.CPAminaWinter",
-              "Condition": "LOCATION_SEASON Here Winter",
-              "Portrait": "Portraits/AminaSBV/AminaSBV_Winter",
-              "Sprite": "Characters/AminaSBV/AminaSBV_Winter",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-          ],
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_MaiaHouse",
-              "Tile": {
-                "X": 3,
-                "Y": 5
-              },
-              "Direction": "right"
+    "Changes": [
+        {
+            "LogName": "NPC Dispositions",
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "Entries": {
+                // Maia's Family
+                "AminaSBV": {
+                    "TextureName": "AminaSBV/AminaSBV",
+                    "DisplayName": "{{i18n:Name.Amina}}",
+                    "BirthSeason": "fall",
+                    "BirthDay": 17,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Child",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": false,
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "FriendsAndFamily": {
+                        "MaiaSBV": "{{i18n:NPC_Relationships.AminaMom}}",
+                        "JumanaSBV": "{{i18n:NPC_Relationships.AminaGrandma}}"
+                    },
+                    "DumpsterDiveEmote": 28,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_CheeseCauliflower",
+                            "ItemId": "(O)197",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_PinkCake",
+                            "ItemId": "(O)221",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_FairyRose",
+                            "ItemId": "(O)595",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_StrangeDoll1",
+                            "ItemId": "(O)126",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_StrangeDoll2",
+                            "ItemId": "(O)127",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Appearance": [
+                        {
+                            "Id": "skellady.SBV.CPAminaWinter",
+                            "Condition": "LOCATION_SEASON Here Winter",
+                            "Portrait": "Portraits/AminaSBV/AminaSBV_Winter",
+                            "Sprite": "Characters/AminaSBV/AminaSBV_Winter",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        }
+                    ],
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_MaiaHouse",
+                            "Tile": {
+                                "X": 3,
+                                "Y": 5
+                            },
+                            "Direction": "right"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "JumanaSBV": {
+                    "TextureName": "JumanaSBV/JumanaSBV",
+                    "DisplayName": "{{i18n:Name.Jumana}}",
+                    "BirthSeason": "spring",
+                    "BirthDay": 27,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "FriendsAndFamily": {
+                        "MaiaSBV": "{{i18n:NPC_Relationships.JumanaDaughter}}",
+                        "AminaSBV": "{{i18n:NPC_Relationships.JumanaGranddaughter}}"
+                    },
+                    "DumpsterDiveEmote": 28,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_Bouquet",
+                            "ItemId": "(O)458",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_HyacinthSeeds",
+                            "ItemId": "skellady.SBVCP_HyacinthSeeds",
+                            "MinStack": 5,
+                            "MaxStack": 10,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_ArfajSeeds",
+                            "ItemId": "skellady.SBVCP_ArfajSeeds",
+                            "MinStack": 5,
+                            "MaxStack": 10,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_CyclamenSeeds",
+                            "ItemId": "skellady.SBVCP_CyclamenSeeds",
+                            "MinStack": 5,
+                            "MaxStack": 10,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_CallaLilySeeds",
+                            "ItemId": "skellady.SBVCP_CallaLilySeeds",
+                            "MinStack": 5,
+                            "MaxStack": 10,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SpeedwellSeeds",
+                            "ItemId": "skellady.SBVCP_SpeedwellSeeds",
+                            "MinStack": 5,
+                            "MaxStack": 10,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_WildMustardSeeds",
+                            "ItemId": "skellady.SBVCP_WildMustardSeeds",
+                            "MinStack": 5,
+                            "MaxStack": 10,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_Arfaj",
+                            "ItemId": "skellady.SBVCP_Arfaj",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_Hyacinth",
+                            "ItemId": "skellady.SBVCP_Hyacinth",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_Sunflower",
+                            "ItemId": "(O)421",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Appearance": [
+                        {
+                            "Id": "skellady.SBV.CPJumanaSpring",
+                            "Condition": "LOCATION_SEASON Here Spring",
+                            "Portrait": "Portraits/JumanaSBV/JumanaSBV_Spring",
+                            "Sprite": "Characters/JumanaSBV/JumanaSBV_Spring",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPJumanaSummer",
+                            "Condition": "LOCATION_SEASON Here Summer",
+                            "Portrait": "Portraits/JumanaSBV/JumanaSBV_Summer",
+                            "Sprite": "Characters/JumanaSBV/JumanaSBV_Summer",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPJumanaFall",
+                            "Condition": "LOCATION_SEASON Here Fall",
+                            "Portrait": "Portraits/JumanaSBV/JumanaSBV_Fall",
+                            "Sprite": "Characters/JumanaSBV/JumanaSBV_Fall",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPJumanaWinter",
+                            "Condition": "LOCATION_SEASON Here Winter",
+                            "Portrait": "Portraits/JumanaSBV/JumanaSBV_Winter",
+                            "Sprite": "Characters/JumanaSBV/JumanaSBV_Winter",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        }
+                    ],
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_MaiaHouse",
+                            "Tile": {
+                                "X": 14,
+                                "Y": 6
+                            },
+                            "Direction": "right"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "MaiaSBV": {
+                    "TextureName": "MaiaSBV/MaiaSBV",
+                    "DisplayName": "{{i18n:Name.Maia}}",
+                    "BirthSeason": "fall",
+                    "BirthDay": 10,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Neutral",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "FriendsAndFamily": {
+                        "AminaSBV": "{{i18n:NPC_Relationships.MaiaDaughter}}",
+                        "JumanaSBV": "{{i18n:NPC_Relationships.MaiaMom}}"
+                    },
+                    "DumpsterDiveEmote": 40,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_IronBar",
+                            "ItemId": "(O)335",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_GoldBar",
+                            "ItemId": "(O)336",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_IridiumBar",
+                            "ItemId": "(O)337",
+                            "MinStack": 1,
+                            "MaxStack": 4,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_ObsidianEdge",
+                            "ItemId": "(W)8",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SunberryGeode",
+                            "ItemId": "skellady.SBVCP_SunberryGeode",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_MaiaHouse",
+                            "Tile": {
+                                "X": 27,
+                                "Y": 5
+                            },
+                            "Direction": "left"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                // Inn People
+                "LyenneSBV": {
+                    "TextureName": "LyenneSBV/LyenneSBV",
+                    "DisplayName": "{{i18n:Name.Lyenne}}",
+                    "BirthSeason": "winter",
+                    "BirthDay": 10,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "FriendsAndFamily": {
+                        "BlakeSBV": "{{i18n:NPC_Relationships.LyenneFriend}}"
+                    },
+                    "DumpsterDiveEmote": 32,
+                    "DumpsterDiveFriendshipEffect": 10,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_LPizza",
+                            "ItemId": "(O)206",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_TripleShotEspresso",
+                            "ItemId": "(O)253",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_RicePudding",
+                            "ItemId": "(O)232",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_TeaSet",
+                            "ItemId": "(O)341",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_SerenityInn2ndFloor",
+                            "Tile": {
+                                "X": 4,
+                                "Y": 6
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "OpheliaSBV": {
+                    "TextureName": "OpheliaSBV/OpheliaSBV",
+                    "DisplayName": "{{i18n:Name.Ophelia}}",
+                    "BirthSeason": "spring",
+                    "BirthDay": 21,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Neutral",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "DumpsterDiveEmote": 28,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_NautilusShell",
+                            "ItemId": "(O)392",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_PurpleMushroom",
+                            "ItemId": "(O)422",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_TruffleOil",
+                            "ItemId": "(O)432",
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SlimeCharmer",
+                            "ItemId": "(O)520",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_OpheliaHouse",
+                            "Tile": {
+                                "X": 4,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                // D&D's Family
+                "DialaSBV": {
+                    "TextureName": "DialaSBV/DialaSBV",
+                    "DisplayName": "{{i18n:Name.Diala}}",
+                    "BirthSeason": "summer",
+                    "BirthDay": 26,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "CanVisitIsland": "!DAY_OF_WEEK Friday",
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "FriendsAndFamily": {
+                        "DeryaSBV": "{{i18n:NPC_Relationships.DialaFriend}}"
+                    },
+                    "DumpsterDiveEmote": 28,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_DialaBakedGoods",
+                            "RandomItemId": [
+                                "(O)223",
+                                "(O)221",
+                                "(O)222",
+                                "(O)220",
+                                "(O)234",
+                                "(O)238",
+                                "(O)243",
+                                "(O)211"
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DialaGems",
+                            "RandomItemId": [
+                                "(O)538",
+                                "(O)539",
+                                "(O)551",
+                                "(O)552",
+                                "(O)554",
+                                "(O)559",
+                                "(O)64",
+                                "(O)60"
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Appearance": [
+                        {
+                            "Id": "skellady.SBV.CPDialaSpring",
+                            "Condition": "LOCATION_SEASON Here Spring",
+                            "Portrait": "Portraits/DialaSBV/DialaSBV_Spring",
+                            "Sprite": "Characters/DialaSBV/DialaSBV_Spring",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPDialaSummer",
+                            "Condition": "LOCATION_SEASON Here Summer",
+                            "Portrait": "Portraits/DialaSBV/DialaSBV_Summer",
+                            "Sprite": "Characters/DialaSBV/DialaSBV_Summer",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPDialaFall",
+                            "Condition": "LOCATION_SEASON Here Fall",
+                            "Portrait": "Portraits/DialaSBV/DialaSBV_Fall",
+                            "Sprite": "Characters/DialaSBV/DialaSBV_Fall",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPDialaWinter",
+                            "Condition": "LOCATION_SEASON Here Winter",
+                            "Portrait": "Portraits/DialaSBV/DialaSBV_Winter",
+                            "Sprite": "Characters/DialaSBV/DialaSBV_Winter",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPDialaBeach",
+                            "Portrait": "Portraits/DialaSBV_Beach",
+                            "Sprite": "Characters/DialaSBV_Beach",
+                            "IsIslandAttire": true,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPDialaSpiritsEve",
+                            "Portrait": "Portraits/DialaSBV/DialaSBV_SpiritsEve",
+                            "Sprite": "Characters/DialaSBV/DialaSBV_SpiritsEve",
+                            "Condition": "ANY \"EVENT_ID festival_fall27\" \"DAY_OF_MONTH 27, SEASON Fall\"",
+                            "Precedence": -200,
+                            "Weight": 0
+                        }
+                    ],
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_DDHouse",
+                            "Tile": {
+                                "X": 2,
+                                "Y": 7
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "DeryaSBV": {
+                    "TextureName": "DeryaSBV/DeryaSBV",
+                    "DisplayName": "{{i18n:Name.Derya}}",
+                    "BirthSeason": "fall",
+                    "BirthDay": 21,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "CanVisitIsland": "!DAY_OF_WEEK Friday",
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "FriendsAndFamily": {
+                        "DialaSBV": "{{i18n:NPC_Relationships.DeryaFriend}}"
+                    },
+                    "DumpsterDiveEmote": 28,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_DeryaBakedGoods",
+                            "RandomItemId": [
+                                "(O)223",
+                                "(O)221",
+                                "(O)222",
+                                "(O)220",
+                                "(O)234",
+                                "(O)238",
+                                "(O)243",
+                                "(O)211"
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DeryaCola",
+                            "ItemId": "(O)167",
+                            "MinStack": 6,
+                            "MaxStack": 12,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_DeryaCoffee",
+                            "ItemId": "(O)395",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Appearance": [
+                        {
+                            "Id": "skellady.SBV.CPDeryaSpring",
+                            "Condition": "LOCATION_SEASON Here Spring",
+                            "Portrait": "Portraits/DeryaSBV/DeryaSBV_Spring",
+                            "Sprite": "Characters/DeryaSBV/DeryaSBV_Spring",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPDeryaSummer",
+                            "Condition": "LOCATION_SEASON Here Summer",
+                            "Portrait": "Portraits/DeryaSBV/DeryaSBV_Summer",
+                            "Sprite": "Characters/DeryaSBV/DeryaSBV_Summer",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPDeryaFall",
+                            "Condition": "LOCATION_SEASON Here Fall",
+                            "Portrait": "Portraits/DeryaSBV/DeryaSBV_Fall",
+                            "Sprite": "Characters/DeryaSBV/DeryaSBV_Fall",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPDeryaWinter",
+                            "Condition": "LOCATION_SEASON Here Winter",
+                            "Portrait": "Portraits/DeryaSBV/DeryaSBV_Winter",
+                            "Sprite": "Characters/DeryaSBV/DeryaSBV_Winter",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPDeryaBeach",
+                            "Portrait": "Portraits/DeryaSBV_Beach",
+                            "Sprite": "Characters/DeryaSBV_Beach",
+                            "IsIslandAttire": true,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPDeryaSpiritsEve",
+                            "Portrait": "Portraits/DeryaSBV/DeryaSBV_SpiritsEve",
+                            "Sprite": "Characters/DeryaSBV/DeryaSBV_SpiritsEve",
+                            "Condition": "ANY \"EVENT_ID festival_fall27\" \"DAY_OF_MONTH 27, SEASON Fall\"",
+                            "Precedence": -200,
+                            "Weight": 0
+                        }
+                    ],
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_DDHouse",
+                            "Tile": {
+                                "X": 13,
+                                "Y": 9
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "MoonSBV": {
+                    "TextureName": "MoonSBV/MoonSBV",
+                    "DisplayName": "{{i18n:Name.Moon}}",
+                    "BirthSeason": "winter",
+                    "BirthDay": 13,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Child",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "CanGreetNearbyCharacters": false,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "HiddenUntilMet",
+                    "MugShotSourceRect": {
+                        "X": 16,
+                        "Y": 224,
+                        "Width": 16,
+                        "Height": 19
+                    },
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "DumpsterDiveEmote": 32,
+                    "DumpsterDiveFriendshipEffect": 10,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_MoonGems",
+                            "RandomItemId": [
+                                "(O)60",
+                                "(O)62",
+                                "(O)64",
+                                "(O)66",
+                                "(O)68",
+                                "(O)70",
+                                "(O)80",
+                                "(O)82",
+                                "(O)84"
+                            ],
+                            "MinStack": 2,
+                            "MaxStack": 3,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MoonPrismaticShard",
+                            "ItemId": "(O)74",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": "PLAYER_HEARTS Current MoonSBV 4"
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MoonMuffin",
+                            "ItemId": "(O)651",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_ChocoChipCookies",
+                            "ItemId": "skellady.SBVCP_ChocoChipCookies",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Appearance": [
+                        {
+                            "Id": "skellady.SBV.CPMoonSpiritsEve",
+                            "Portrait": "Portraits/MoonSBV/MoonSBV_SpiritsEve",
+                            "Sprite": "Characters/MoonSBV/MoonSBV_SpiritsEve",
+                            "Condition": "ANY \"EVENT_ID festival_fall27\" \"DAY_OF_MONTH 27, SEASON Fall\"",
+                            "Precedence": -200,
+                            "Weight": 0
+                        }
+                    ],
+                    "SpouseRoom": {
+                        "MapAsset": "SBVSpouseRooms",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 6,
+                            "Height": 9
+                        }
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "SBVSpousePatios",
+                        "MapSourceRect": {
+                            "X": 0,
+                            "Y": 0,
+                            "Width": 4,
+                            "Height": 4
+                        },
+                        "SpriteAnimationFrames": [
+                            [
+                                0,
+                                100
+                            ],
+                            [
+                                0,
+                                100
+                            ],
+                            [
+                                0,
+                                100
+                            ],
+                            [
+                                0,
+                                100
+                            ],
+                            [
+                                1,
+                                100
+                            ],
+                            [
+                                1,
+                                100
+                            ],
+                            [
+                                1,
+                                100
+                            ],
+                            [
+                                1,
+                                100
+                            ],
+                            [
+                                2,
+                                100
+                            ],
+                            [
+                                2,
+                                100
+                            ],
+                            [
+                                2,
+                                100
+                            ],
+                            [
+                                2,
+                                200
+                            ],
+                            [
+                                3,
+                                300
+                            ],
+                            [
+                                3,
+                                100
+                            ],
+                            [
+                                3,
+                                300
+                            ],
+                            [
+                                3,
+                                100
+                            ]
+                        ]
+                    },
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_DDHouse",
+                            "Tile": {
+                                "X": 9,
+                                "Y": 6
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": false
+                },
+                // Elias' Family
+                "AriSBV": {
+                    "TextureName": "AriSBV/AriSBV",
+                    "DisplayName": "{{i18n:Name.Ari}}",
+                    "BirthSeason": "winter",
+                    "BirthDay": 19,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Neutral",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "DumpsterDiveEmote": 12,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_AriFertilizer",
+                            "RandomItemId": [
+                                "(O)805",
+                                "(O)919",
+                                "(O)920",
+                                "(O)368",
+                                "(O)369",
+                                "(O)370",
+                                "(O)371"
+                            ],
+                            "MinStack": 5,
+                            "MaxStack": 10,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AriSunberry",
+                            "ItemId": "skellady.SBVCP_Sunberries",
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_Carob",
+                            "ItemId": "skellady.SBVCP_Carob",
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "FriendsAndFamily": {
+                        "BlakeSBV": "{{i18n:NPC_Relationships.AriSon}}",
+                        "EliasSBV": "{{i18n:NPC_Relationships.AriExHusband}}"
+                    },
+                    "SpawnIfMissing": true,
+                    "Appearance": [
+                        {
+                            "Id": "skellady.SBV.CPAriBeach",
+                            "Portrait": "Portraits/AriSBV_Beach",
+                            "Sprite": "Characters/AriSBV_Beach",
+                            "IsIslandAttire": true,
+                            "Precedence": -100,
+                            "Weight": 0
+                        }
+                    ],
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_AriMarket",
+                            "Tile": {
+                                "X": 18,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true,
+                    "ShakePortraits": [
+                        16
+                    ]
+                },
+                "BlakeSBV": {
+                    "TextureName": "BlakeSBV/BlakeSBV",
+                    "DisplayName": "{{i18n:Name.Blake}}",
+                    "BirthSeason": "summer",
+                    "BirthDay": 17,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "DumpsterDiveEmote": 16,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_BlakeFood",
+                            "RandomItemId": [
+                                "(O)211",
+                                "(O)210",
+                                "(O)206",
+                                "(O)213",
+                                "(O)241"
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_BlakePickles",
+                            "ItemId": "(O)342",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_RainbowShell",
+                            "ItemId": "(O)394",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "FriendsAndFamily": {
+                        "AriSBV": "{{i18n:NPC_Relationships.BlakeDad}}",
+                        "EliasSBV": "{{i18n:NPC_Relationships.BlakeFather}}",
+                        "LyenneSBV": "{{i18n:NPC_Relationships.BlakeFriend}}"
+                    },
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_AriMarket",
+                            "Tile": {
+                                "X": 3,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "EliasSBV": {
+                    "TextureName": "EliasSBV/EliasSBV",
+                    "DisplayName": "{{i18n:Name.Elias}}",
+                    "BirthSeason": "winter",
+                    "BirthDay": 23,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Negative",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "KissSpriteIndex": 41,
+                    "DumpsterDiveEmote": 40,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_EliasBait",
+                            "RandomItemId": [
+                                "(O)685",
+                                "(O)774",
+                                "(O)908"
+                            ],
+                            "MinStack": 10,
+                            "MaxStack": 15,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EliasTackles",
+                            "RandomItemId": [
+                                "(O)686",
+                                "(O)692",
+                                "(O)693",
+                                "(O)694",
+                                "(O)695"
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EliasPudding",
+                            "ItemId": "(O)265",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_EliasSoup",
+                            "ItemId": "(O)219",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "FriendsAndFamily": {
+                        "AriSBV": "{{i18n:NPC_Relationships.EliasExHusband}}",
+                        "BlakeSBV": "{{i18n:NPC_Relationships.EliasSon}}"
+                    },
+                    "SpawnIfMissing": true,
+                    "Appearance": [
+                        {
+                            "Id": "skellady.SBV.CPELiasSpring",
+                            "Condition": "LOCATION_SEASON Here Spring",
+                            "Portrait": "Portraits/EliasSBV/EliasSBV_Spring",
+                            "Sprite": "Characters/EliasSBV/EliasSBV_Spring",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPELiasSummer",
+                            "Condition": "LOCATION_SEASON Here Summer",
+                            "Portrait": "Portraits/EliasSBV/EliasSBV_Summer",
+                            "Sprite": "Characters/EliasSBV/EliasSBV_Summer",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPELiasFall",
+                            "Condition": "LOCATION_SEASON Here Fall",
+                            "Portrait": "Portraits/EliasSBV/EliasSBV_Fall",
+                            "Sprite": "Characters/EliasSBV/EliasSBV_Fall",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPELiasWinter",
+                            "Condition": "LOCATION_SEASON Here Winter",
+                            "Portrait": "Portraits/EliasSBV/EliasSBV_Winter",
+                            "Sprite": "Characters/EliasSBV/EliasSBV_Winter",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPEliasIndoors",
+                            "Condition": "LOCATION_NAME Target Custom_SBV_EliasHouse",
+                            "Portrait": "Portraits/EliasSBV/EliasSBV_Indoors",
+                            "Sprite": "Characters/EliasSBV/EliasSBV_Indoors",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPEliasBeach",
+                            "Portrait": "Portraits/EliasSBV_Beach",
+                            "Sprite": "Characters/EliasSBV_Beach",
+                            "IsIslandAttire": true,
+                            "Precedence": -100,
+                            "Weight": 0
+                        }
+                    ],
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_EliasHouse",
+                            "Tile": {
+                                "X": 3,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true,
+                    "SpouseRoom": {
+                        "MapAsset": "SBVSpouseRooms",
+                        "MapSourceRect": {
+                            "X": 6,
+                            "Y": 0,
+                            "Width": 6,
+                            "Height": 9
+                        }
+                    },
+                    "SpousePatio": {
+                        "MapAsset": "SBVSpousePatios",
+                        "MapSourceRect": {
+                            "X": 4,
+                            "Y": 0,
+                            "Width": 4,
+                            "Height": 4
+                        },
+                    "SpriteAnimationFrames": [
+                        [ 33, 125 ],
+                        [ 33, 125 ],
+                        [ 38, 125 ],
+                        [ 38, 125 ],
+                        [ 35, 125 ],
+                        [ 35, 125 ],
+                        [ 36, 125 ],
+                        [ 36, 125 ],
+                        [ 35, 125 ],
+                        [ 35, 125 ],
+                        [ 38, 125 ],
+                        [ 38, 125 ],
+                        [ 33, 125 ],
+                        [ 33, 125 ],
+                        [ 36, 125 ],
+                        [ 36, 125 ],
+                        [ 25, 125 ],
+                        [ 25, 125 ],
+                        [ 31, 125 ],
+                        [ 31, 125 ],
+                        [ 26, 125 ],
+                        [ 26, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 31, 125 ],
+                        [ 31, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 33, 125 ],
+                        [ 33, 125 ],
+                        [ 38, 125 ],
+                        [ 38, 125 ],
+                        [ 34, 125 ],
+                        [ 34, 125 ],
+                        [ 36, 125 ],
+                        [ 36, 125 ],
+                        [ 33, 125 ],
+                        [ 33, 125 ],
+                        [ 37, 125 ],
+                        [ 37, 125 ],
+                        [ 35, 125 ],
+                        [ 35, 125 ],
+                        [ 36, 125 ],
+                        [ 36, 125 ],
+                        [ 34, 125 ],
+                        [ 34, 125 ],
+                        [ 38, 125 ],
+                        [ 38, 125 ],
+                        [ 34, 125 ],
+                        [ 34, 125 ],
+                        [ 36, 125 ],
+                        [ 36, 125 ],
+                        [ 33, 125 ],
+                        [ 33, 125 ],
+                        [ 39, 125 ],
+                        [ 39, 125 ],
+                        [ 33, 125 ],
+                        [ 33, 125 ],
+                        [ 36, 125 ],
+                        [ 36, 125 ],
+                        [ 25, 125 ],
+                        [ 25, 125 ],
+                        [ 29, 125 ],
+                        [ 29, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 25, 125 ],
+                        [ 25, 125 ],
+                        [ 29, 125 ],
+                        [ 29, 125 ],
+                        [ 25, 125 ],
+                        [ 25, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 31, 125 ],
+                        [ 31, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 31, 125 ],
+                        [ 31, 125 ],
+                        [ 25, 125 ],
+                        [ 25, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 29, 125 ],
+                        [ 29, 125 ],
+                        [ 25, 125 ],
+                        [ 25, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 30, 125 ],
+                        [ 30, 125 ],
+                        [ 25, 125 ],
+                        [ 25, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 35, 125 ],
+                        [ 35, 125 ],
+                        [ 38, 125 ],
+                        [ 38, 125 ],
+                        [ 33, 125 ],
+                        [ 33, 125 ],
+                        [ 36, 125 ],
+                        [ 36, 125 ],
+                        [ 35, 125 ],
+                        [ 35, 125 ],
+                        [ 38, 125 ],
+                        [ 38, 125 ],
+                        [ 33, 125 ],
+                        [ 33, 125 ],
+                        [ 36, 125 ],
+                        [ 36, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 29, 125 ],
+                        [ 29, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 25, 125 ],
+                        [ 25, 125 ],
+                        [ 29, 125 ],
+                        [ 29, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 34, 125 ],
+                        [ 34, 125 ],
+                        [ 37, 125 ],
+                        [ 37, 125 ],
+                        [ 34, 125 ],
+                        [ 34, 125 ],
+                        [ 36, 125 ],
+                        [ 36, 125 ],
+                        [ 35, 125 ],
+                        [ 35, 125 ],
+                        [ 38, 125 ],
+                        [ 38, 125 ],
+                        [ 35, 125 ],
+                        [ 35, 125 ],
+                        [ 36, 125 ],
+                        [ 36, 125 ],
+                        [ 25, 125 ],
+                        [ 25, 125 ],
+                        [ 29, 125 ],
+                        [ 29, 125 ],
+                        [ 26, 125 ],
+                        [ 26, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 26, 125 ],
+                        [ 26, 125 ],
+                        [ 29, 125 ],
+                        [ 29, 125 ],
+                        [ 25, 125 ],
+                        [ 25, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 29, 125 ],
+                        [ 29, 125 ],
+                        [ 26, 125 ],
+                        [ 26, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 26, 125 ],
+                        [ 26, 125 ],
+                        [ 30, 125 ],
+                        [ 30, 125 ],
+                        [ 27, 125 ],
+                        [ 27, 125 ],
+                        [ 28, 125 ],
+                        [ 28, 125 ],
+                        [ 35, 125 ],
+                        [ 35, 125 ],
+                        [ 39, 125 ],
+                        [ 39, 125 ],
+                        [ 35, 125 ],
+                        [ 35, 125 ],
+                        [ 36, 125 ]
+                    ],
+                }
+                },
+                // Ezra, Iman, and Nadia
+                "EzraSBV": {
+                    "TextureName": "EzraSBV/EzraSBV",
+                    "DisplayName": "{{i18n:Name.Ezra}}",
+                    "BirthSeason": "spring",
+                    "BirthDay": 14,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Neutral",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "FriendsAndFamily": {
+                        "NadiaSBV": "{{i18n:NPC_Relationships.EzraSister}}",
+                        "ImanSBV": "{{i18n:NPC_Relationships.EzraFriend}}"
+                    },
+                    "DumpsterDiveEmote": 28,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_Cloth",
+                            "ItemId": "(O)428",
+                            "MinStack": 3,
+                            "MaxStack": 6,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_Feather",
+                            "ItemId": "(O)444",
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_Rings",
+                            "RandomItemId": [
+                                "(O)529",
+                                "(O)530",
+                                "(O)531",
+                                "(O)532",
+                                "(O)533",
+                                "(O)534"
+                            ],
+                            "MinStack": 2,
+                            "MaxStack": 4,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_EzraHouse",
+                            "Tile": {
+                                "X": 3,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "ImanSBV": {
+                    "TextureName": "ImanSBV/ImanSBV",
+                    "DisplayName": "{{i18n:Name.Iman}}",
+                    "BirthSeason": "spring",
+                    "BirthDay": 4,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Neutral",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "FriendsAndFamily": {
+                        "EzraSBV": "{{i18n:NPC_Relationships.ImanFriend}}"
+                    },
+                    "DumpsterDiveEmote": 32,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_BatteryPack",
+                            "ItemId": "(O)787",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_TeaLeaves",
+                            "ItemId": "(O)815",
+                            "MinStack": 1,
+                            "MaxStack": 3,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_IridiumBar",
+                            "ItemId": "(O)337",
+                            "MinStack": 1,
+                            "MaxStack": 4,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_LuckyLunch",
+                            "ItemId": "(O)204",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_StirFry",
+                            "ItemId": "(O)606",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_ImanHouse",
+                            "Tile": {
+                                "X": 5,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "NadiaSBV": {
+                    "TextureName": "NadiaSBV/NadiaSBV",
+                    "DisplayName": "{{i18n:Name.Nadia}}",
+                    "BirthSeason": "summer",
+                    "BirthDay": 6,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": false,
+                    "CanSocialize": false,
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "IntroductionsQuest": false,
+                    "ItemDeliveryQuests": false,
+                    "PerfectionScore": false,
+                    "WinterStarParticipant": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "FriendsAndFamily": {
+                        "EzraSBV": "{{i18n:NPC_Relationships.NadiaBrother}}"
+                    },
+                    "DumpsterDiveEmote": 32,
+                    "DumpsterDiveFriendshipEffect": 10,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_SunberryWarpRoom",
+                            "Tile": {
+                                "X": 8,
+                                "Y": 4
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                // Demons and Dog
+                "AichaSBV": {
+                    "TextureName": "AichaSBV/AichaSBV",
+                    "DisplayName": "{{i18n:Name.Aicha}}",
+                    "BirthSeason": "winter",
+                    "BirthDay": 15,
+                    "HomeRegion": "Other",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "TrailingGroup",
+                    "DumpsterDiveEmote": 32,
+                    "DumpsterDiveFriendshipEffect": 10,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_SolarEssence",
+                            "ItemId": "(O)768",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_VoidEssence",
+                            "ItemId": "(O)769",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_AppleSapling",
+                            "ItemId": "(O)633",
+                            "MinStack": 1,
+                            "MaxStack": 2,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_NapalmRing",
+                            "ItemId": "(O)811",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Appearance": [
+                        {
+                            "Id": "skellady.SBV.CPAichaSpring",
+                            "Condition": "LOCATION_SEASON Here Spring",
+                            "Portrait": "Portraits/AichaSBV/AichaSBV_Spring",
+                            "Sprite": "Characters/AichaSBV/AichaSBV_Spring",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPAichaSummer",
+                            "Condition": "LOCATION_SEASON Here Summer",
+                            "Portrait": "Portraits/AichaSBV/AichaSBV_Summer",
+                            "Sprite": "Characters/AichaSBV/AichaSBV_Summer",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPAichaFall",
+                            "Condition": "LOCATION_SEASON Here Fall",
+                            "Portrait": "Portraits/AichaSBV/AichaSBV_Fall",
+                            "Sprite": "Characters/AichaSBV/AichaSBV_Fall",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPAichaWinter",
+                            "Condition": "LOCATION_SEASON Here Winter",
+                            "Portrait": "Portraits/AichaSBV/AichaSBV_Winter",
+                            "Sprite": "Characters/AichaSBV/AichaSBV_Winter",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBV.CPAichaBeach",
+                            "Portrait": "Portraits/AichaSBV_Beach",
+                            "Sprite": "Characters/AichaSBV_Beach",
+                            "IsIslandAttire": true,
+                            "Precedence": -100,
+                            "Weight": 0
+                        }
+                    ],
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_ReiHouse",
+                            "Tile": {
+                                "X": 9,
+                                "Y": 6
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "ReihanaSBV": {
+                    "TextureName": "ReihanaSBV/ReihanaSBV",
+                    "DisplayName": "{{i18n:Name.Reihana}}",
+                    "BirthSeason": "winter",
+                    "BirthDay": 3,
+                    "HomeRegion": "Other",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Negative",
+                    "CanGreetNearbyCharacters": false,
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "TrailingGroup",
+                    "WinterStarParticipant": false,
+                    "SpawnIfMissing": true,
+                    "DumpsterDiveEmote": 12,
+                    "DumpsterDiveFriendshipEffect": -25,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_ReiHouse",
+                            "Tile": {
+                                "X": 4,
+                                "Y": 6
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "PanSBV": {
+                    "TextureName": "PanSBV/PanSBV",
+                    "DisplayName": "{{i18n:Name.PanSBV}}",
+                    "BirthSeason": "winter",
+                    "BirthDay": 20,
+                    "HomeRegion": "Other",
+                    "Gender": "Female",
+                    "Age": "Child",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Shy",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "CanGreetNearbyCharacters": false,
+                    "Calendar": "HiddenUntilMet",
+                    "SocialTab": "HiddenUntilMet",
+                    "MugShotSourceRect": {
+                        "X": 50,
+                        "Y": 134,
+                        "Width": 13,
+                        "Height": 19
+                    },
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": false,
+                    "EndSlideShow": "TrailingGroup",
+                    "WinterStarParticipant": false,
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_SunberryWarpRoom",
+                            "Tile": {
+                                "X": 4,
+                                "Y": 6
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                // Silas and Miyoung
+                "MiyoungSBV": {
+                    "TextureName": "MiyoungSBV/MiyoungSBV",
+                    "DisplayName": "{{i18n:Name.Miyoung}}",
+                    "BirthSeason": "summer",
+                    "BirthDay": 5,
+                    "HomeRegion": "Town",
+                    "Gender": "Female",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "FriendsAndFamily": {
+                        "SilasSBV": "{{i18n:NPC_Relationships.MiyoungHusband}}"
+                    },
+                    "DumpsterDiveEmote": 28,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_RandomFood",
+                            "RandomItemId": [
+                                "(O)222",
+                                "(O)227",
+                                "(O)228",
+                                "(O)230",
+                                "(O)231",
+                                "(O)235",
+                                "(O)240"
+                            ],
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_RandomSeeds",
+                            "RandomItemId": [
+                                "(O)486",
+                                "(O)474",
+                                "(O)473",
+                                "(O)472",
+                                "(O)475",
+                                "(O)476",
+                                "(O)477"
+                            ],
+                            "MinStack": 5,
+                            "MaxStack": 10,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_TeaSetMiyoung",
+                            "ItemId": "(O)341",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_MiyoungHouse",
+                            "Tile": {
+                                "X": 13,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                },
+                "SilasSBV": {
+                    "TextureName": "SilasSBV/SilasSBV",
+                    "DisplayName": "{{i18n:Name.Silas}}",
+                    "BirthSeason": "summer",
+                    "BirthDay": 15,
+                    "HomeRegion": "Town",
+                    "Gender": "Male",
+                    "Age": "Adult",
+                    "Manner": "Polite",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Positive",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "Calendar": "AlwaysShown",
+                    "SocialTab": "UnknownUntilMet",
+                    "IntroductionsQuest": true,
+                    "ItemDeliveryQuests": "RANDOM 0.08",
+                    "PerfectionScore": "{{IncludeNPCsInPerfection}}",
+                    "EndSlideShow": "MainGroup",
+                    "FriendsAndFamily": {
+                        "MiyoungSBV": "{{i18n:NPC_Relationships.SilasWife}}"
+                    },
+                    "DumpsterDiveEmote": 28,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "WinterStarGifts": [
+                        {
+                            "Id": "skellady.SBVCP_RandomGeode",
+                            "RandomItemId": [
+                                "(O)535",
+                                "(O)536",
+                                "(O)537",
+                                "(O)749",
+                                "(O)skellady.SBVCP_SunberryGeode"
+                            ],
+                            "MinStack": 5,
+                            "MaxStack": 8,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_RandomSeeds",
+                            "ItemId": "(O)275",
+                            "MinStack": 2,
+                            "MaxStack": 5,
+                            "Quality": -1,
+                            "Condition": null
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MagicRockCandy",
+                            "ItemId": "(O)279",
+                            "MinStack": 1,
+                            "MaxStack": -1,
+                            "Quality": -1,
+                            "Condition": null
+                        }
+                    ],
+                    "SpawnIfMissing": true,
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_MiyoungHouse",
+                            "Tile": {
+                                "X": 15,
+                                "Y": 5
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 16,
+                        "Y": 32
+                    },
+                    "Breather": true
+                }
             }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
         },
-        "JumanaSBV": {
-          "TextureName": "JumanaSBV/JumanaSBV",
-          "DisplayName": "{{i18n:Name.Jumana}}",
-          "BirthSeason": "spring",
-          "BirthDay": 27,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "FriendsAndFamily": {
-            "MaiaSBV": "{{i18n:NPC_Relationships.JumanaDaughter}}",
-            "AminaSBV": "{{i18n:NPC_Relationships.JumanaGranddaughter}}"
-          },
-          "DumpsterDiveEmote": 28,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_Bouquet",
-              "ItemId": "(O)458",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
+        // Elias Romance Condition
+        {
+            "Action": "EditData",
+            "Target": "Data/Characters",
+            "TargetField": [
+                "EliasSBV"
+            ],
+            "Entries": {
+                "CanBeRomanced": true
             },
-            {
-              "Id": "skellady.SBVCP_HyacinthSeeds",
-              "ItemId": "skellady.SBVCP_HyacinthSeeds",
-              "MinStack": 5,
-              "MaxStack": 10,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_ArfajSeeds",
-              "ItemId": "skellady.SBVCP_ArfajSeeds",
-              "MinStack": 5,
-              "MaxStack": 10,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_CyclamenSeeds",
-              "ItemId": "skellady.SBVCP_CyclamenSeeds",
-              "MinStack": 5,
-              "MaxStack": 10,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_CallaLilySeeds",
-              "ItemId": "skellady.SBVCP_CallaLilySeeds",
-              "MinStack": 5,
-              "MaxStack": 10,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_SpeedwellSeeds",
-              "ItemId": "skellady.SBVCP_SpeedwellSeeds",
-              "MinStack": 5,
-              "MaxStack": 10,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_WildMustardSeeds",
-              "ItemId": "skellady.SBVCP_WildMustardSeeds",
-              "MinStack": 5,
-              "MaxStack": 10,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_Arfaj",
-              "ItemId": "skellady.SBVCP_Arfaj",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_Hyacinth",
-              "ItemId": "skellady.SBVCP_Hyacinth",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_Sunflower",
-              "ItemId": "(O)421",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-          ],
-          "SpawnIfMissing": true,
-          "Appearance": [
-            {
-              "Id": "skellady.SBV.CPJumanaSpring",
-              "Condition": "LOCATION_SEASON Here Spring",
-              "Portrait": "Portraits/JumanaSBV/JumanaSBV_Spring",
-              "Sprite": "Characters/JumanaSBV/JumanaSBV_Spring",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPJumanaSummer",
-              "Condition": "LOCATION_SEASON Here Summer",
-              "Portrait": "Portraits/JumanaSBV/JumanaSBV_Summer",
-              "Sprite": "Characters/JumanaSBV/JumanaSBV_Summer",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPJumanaFall",
-              "Condition": "LOCATION_SEASON Here Fall",
-              "Portrait": "Portraits/JumanaSBV/JumanaSBV_Fall",
-              "Sprite": "Characters/JumanaSBV/JumanaSBV_Fall",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPJumanaWinter",
-              "Condition": "LOCATION_SEASON Here Winter",
-              "Portrait": "Portraits/JumanaSBV/JumanaSBV_Winter",
-              "Sprite": "Characters/JumanaSBV/JumanaSBV_Winter",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
+            "When": {
+                "HasSeenEvent: currentPlayer |contains= skellady.SBVCP_20031483": true
             }
-          ],
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_MaiaHouse",
-              "Tile": {
-                "X": 14,
-                "Y": 6
-              },
-              "Direction": "right"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        "MaiaSBV": {
-          "TextureName": "MaiaSBV/MaiaSBV",
-          "DisplayName": "{{i18n:Name.Maia}}",
-          "BirthSeason": "fall",
-          "BirthDay": 10,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Shy",
-          "Optimism": "Neutral",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "FriendsAndFamily": {
-            "AminaSBV": "{{i18n:NPC_Relationships.MaiaDaughter}}",
-            "JumanaSBV": "{{i18n:NPC_Relationships.MaiaMom}}"
-          },
-          "DumpsterDiveEmote": 40,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_IronBar",
-              "ItemId": "(O)335",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_GoldBar",
-              "ItemId": "(O)336",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_IridiumBar",
-              "ItemId": "(O)337",
-              "MinStack": 1,
-              "MaxStack": 4,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_ObsidianEdge",
-              "ItemId": "(W)8",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_SunberryGeode",
-              "ItemId": "skellady.SBVCP_SunberryGeode",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-          ],
-          "SpawnIfMissing": true,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_MaiaHouse",
-              "Tile": {
-                "X": 27,
-                "Y": 5
-              },
-              "Direction": "left"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        // Inn People
-        "LyenneSBV": {
-          "TextureName": "LyenneSBV/LyenneSBV",
-          "DisplayName": "{{i18n:Name.Lyenne}}",
-          "BirthSeason": "winter",
-          "BirthDay": 10,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "FriendsAndFamily": {
-            "BlakeSBV": "{{i18n:NPC_Relationships.LyenneFriend}}"
-          },
-          "DumpsterDiveEmote": 32,
-          "DumpsterDiveFriendshipEffect": 10,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_LPizza",
-              "ItemId": "(O)206",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_TripleShotEspresso",
-              "ItemId": "(O)253",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_RicePudding",
-              "ItemId": "(O)232",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_TeaSet",
-              "ItemId": "(O)341",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            }
-          ],
-          "SpawnIfMissing": true,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_SerenityInn2ndFloor",
-              "Tile": {
-                "X": 4,
-                "Y": 6
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        "OpheliaSBV": {
-          "TextureName": "OpheliaSBV/OpheliaSBV",
-          "DisplayName": "{{i18n:Name.Ophelia}}",
-          "BirthSeason": "spring",
-          "BirthDay": 21,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Neutral",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "DumpsterDiveEmote": 28,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_NautilusShell",
-              "ItemId": "(O)392",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_PurpleMushroom",
-              "ItemId": "(O)422",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_TruffleOil",
-              "ItemId": "(O)432",
-              "MinStack": 1,
-              "MaxStack": 3,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_SlimeCharmer",
-              "ItemId": "(O)520",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            }
-          ],
-          "SpawnIfMissing": true,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_OpheliaHouse",
-              "Tile": {
-                "X": 4,
-                "Y": 5
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        // D&D's Family
-        "DialaSBV": {
-          "TextureName": "DialaSBV/DialaSBV",
-          "DisplayName": "{{i18n:Name.Diala}}",
-          "BirthSeason": "summer",
-          "BirthDay": 26,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Shy",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "CanVisitIsland": "!DAY_OF_WEEK Friday",
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "FriendsAndFamily": {
-            "DeryaSBV": "{{i18n:NPC_Relationships.DialaFriend}}"
-          },
-          "DumpsterDiveEmote": 28,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_DialaBakedGoods",
-              "RandomItemId": [
-                "(O)223",
-                "(O)221",
-                "(O)222",
-                "(O)220",
-                "(O)234",
-                "(O)238",
-                "(O)243",
-                "(O)211"
-              ],
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_DialaGems",
-              "RandomItemId": [
-                "(O)538",
-                "(O)539",
-                "(O)551",
-                "(O)552",
-                "(O)554",
-                "(O)559",
-                "(O)64",
-                "(O)60"
-              ],
-              "MinStack": 1,
-              "MaxStack": 2,
-              "Quality": -1,
-              "Condition": null
-            }
-          ],
-          "SpawnIfMissing": true,
-          "Appearance": [
-            {
-              "Id": "skellady.SBV.CPDialaSpring",
-              "Condition": "LOCATION_SEASON Here Spring",
-              "Portrait": "Portraits/DialaSBV/DialaSBV_Spring",
-              "Sprite": "Characters/DialaSBV/DialaSBV_Spring",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPDialaSummer",
-              "Condition": "LOCATION_SEASON Here Summer",
-              "Portrait": "Portraits/DialaSBV/DialaSBV_Summer",
-              "Sprite": "Characters/DialaSBV/DialaSBV_Summer",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPDialaFall",
-              "Condition": "LOCATION_SEASON Here Fall",
-              "Portrait": "Portraits/DialaSBV/DialaSBV_Fall",
-              "Sprite": "Characters/DialaSBV/DialaSBV_Fall",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPDialaWinter",
-              "Condition": "LOCATION_SEASON Here Winter",
-              "Portrait": "Portraits/DialaSBV/DialaSBV_Winter",
-              "Sprite": "Characters/DialaSBV/DialaSBV_Winter",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPDialaBeach",
-              "Portrait": "Portraits/DialaSBV_Beach",
-              "Sprite": "Characters/DialaSBV_Beach",
-              "IsIslandAttire": true,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPDialaSpiritsEve",
-              "Portrait": "Portraits/DialaSBV/DialaSBV_SpiritsEve",
-              "Sprite": "Characters/DialaSBV/DialaSBV_SpiritsEve",
-              "Condition": "ANY \"EVENT_ID festival_fall27\" \"DAY_OF_MONTH 27, SEASON Fall\"",
-              "Precedence": -200,
-              "Weight": 0
-            },
-          ],
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_DDHouse",
-              "Tile": {
-                "X": 2,
-                "Y": 7
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        "DeryaSBV": {
-          "TextureName": "DeryaSBV/DeryaSBV",
-          "DisplayName": "{{i18n:Name.Derya}}",
-          "BirthSeason": "fall",
-          "BirthDay": 21,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "CanVisitIsland": "!DAY_OF_WEEK Friday",
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "FriendsAndFamily": {
-            "DialaSBV": "{{i18n:NPC_Relationships.DeryaFriend}}"
-          },
-          "DumpsterDiveEmote": 28,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_DeryaBakedGoods",
-              "RandomItemId": [
-                "(O)223",
-                "(O)221",
-                "(O)222",
-                "(O)220",
-                "(O)234",
-                "(O)238",
-                "(O)243",
-                "(O)211"
-              ],
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_DeryaCola",
-              "ItemId": "(O)167",
-              "MinStack": 6,
-              "MaxStack": 12,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_DeryaCoffee",
-              "ItemId": "(O)395",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            }
-          ],
-          "SpawnIfMissing": true,
-          "Appearance": [
-            {
-              "Id": "skellady.SBV.CPDeryaSpring",
-              "Condition": "LOCATION_SEASON Here Spring",
-              "Portrait": "Portraits/DeryaSBV/DeryaSBV_Spring",
-              "Sprite": "Characters/DeryaSBV/DeryaSBV_Spring",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPDeryaSummer",
-              "Condition": "LOCATION_SEASON Here Summer",
-              "Portrait": "Portraits/DeryaSBV/DeryaSBV_Summer",
-              "Sprite": "Characters/DeryaSBV/DeryaSBV_Summer",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPDeryaFall",
-              "Condition": "LOCATION_SEASON Here Fall",
-              "Portrait": "Portraits/DeryaSBV/DeryaSBV_Fall",
-              "Sprite": "Characters/DeryaSBV/DeryaSBV_Fall",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPDeryaWinter",
-              "Condition": "LOCATION_SEASON Here Winter",
-              "Portrait": "Portraits/DeryaSBV/DeryaSBV_Winter",
-              "Sprite": "Characters/DeryaSBV/DeryaSBV_Winter",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPDeryaBeach",
-              "Portrait": "Portraits/DeryaSBV_Beach",
-              "Sprite": "Characters/DeryaSBV_Beach",
-              "IsIslandAttire": true,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPDeryaSpiritsEve",
-              "Portrait": "Portraits/DeryaSBV/DeryaSBV_SpiritsEve",
-              "Sprite": "Characters/DeryaSBV/DeryaSBV_SpiritsEve",
-              "Condition": "ANY \"EVENT_ID festival_fall27\" \"DAY_OF_MONTH 27, SEASON Fall\"",
-              "Precedence": -200,
-              "Weight": 0
-            },
-          ],
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_DDHouse",
-              "Tile": {
-                "X": 13,
-                "Y": 9
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        "MoonSBV": {
-          "TextureName": "MoonSBV/MoonSBV",
-          "DisplayName": "{{i18n:Name.Moon}}",
-          "BirthSeason": "winter",
-          "BirthDay": 13,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Child",
-          "Manner": "Polite",
-          "SocialAnxiety": "Shy",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "CanGreetNearbyCharacters": false,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "HiddenUntilMet",
-          "MugShotSourceRect": {
-            "X": 16,
-            "Y": 224,
-            "Width": 16,
-            "Height": 19
-          },
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "DumpsterDiveEmote": 32,
-          "DumpsterDiveFriendshipEffect": 10,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_MoonGems",
-              "RandomItemId": [
-                "(O)60",
-                "(O)62",
-                "(O)64",
-                "(O)66",
-                "(O)68",
-                "(O)70",
-                "(O)80",
-                "(O)82",
-                "(O)84"
-              ],
-              "MinStack": 2,
-              "MaxStack": 3,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_MoonPrismaticShard",
-              "ItemId": "(O)74",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": "PLAYER_HEARTS Current MoonSBV 4"
-            },
-            {
-              "Id": "skellady.SBVCP_MoonMuffin",
-              "ItemId": "(O)651",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_ChocoChipCookies",
-              "ItemId": "skellady.SBVCP_ChocoChipCookies",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-          ],
-          "SpawnIfMissing": true,
-          "Appearance": [
-            {
-              "Id": "skellady.SBV.CPMoonSpiritsEve",
-              "Portrait": "Portraits/MoonSBV/MoonSBV_SpiritsEve",
-              "Sprite": "Characters/MoonSBV/MoonSBV_SpiritsEve",
-              "Condition": "ANY \"EVENT_ID festival_fall27\" \"DAY_OF_MONTH 27, SEASON Fall\"",
-              "Precedence": -200,
-              "Weight": 0
-            },
-          ],
-          "SpouseRoom": {
-            "MapAsset": "SBVSpouseRooms",
-            "MapSourceRect": {
-              "X": 0,
-              "Y": 0,
-              "Width": 6,
-              "Height": 9
-            }
-          },
-          "SpousePatio": {
-            "MapAsset": "SBVSpousePatios",
-            "MapSourceRect": {
-              "X": 0,
-              "Y": 0,
-              "Width": 4,
-              "Height": 4
-            }
-          },
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_DDHouse",
-              "Tile": {
-                "X": 9,
-                "Y": 6
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": false
-        },
-        // Elias' Family
-        "AriSBV": {
-          "TextureName": "AriSBV/AriSBV",
-          "DisplayName": "{{i18n:Name.Ari}}",
-          "BirthSeason": "winter",
-          "BirthDay": 19,
-          "HomeRegion": "Town",
-          "Gender": "Male",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Shy",
-          "Optimism": "Neutral",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "DumpsterDiveEmote": 12,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_AriFertilizer",
-              "RandomItemId": [
-                "(O)805",
-                "(O)919",
-                "(O)920",
-                "(O)368",
-                "(O)369",
-                "(O)370",
-                "(O)371"
-              ],
-              "MinStack": 5,
-              "MaxStack": 10,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_AriSunberry",
-              "ItemId": "skellady.SBVCP_Sunberries",
-              "MinStack": 1,
-              "MaxStack": 2,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_Carob",
-              "ItemId": "skellady.SBVCP_Carob",
-              "MinStack": 2,
-              "MaxStack": 4,
-              "Quality": -1,
-              "Condition": null
-            },
-          ],
-          "FriendsAndFamily": {
-            "BlakeSBV": "{{i18n:NPC_Relationships.AriSon}}",
-            "EliasSBV": "{{i18n:NPC_Relationships.AriExHusband}}",
-          },
-          "SpawnIfMissing": true,
-          "Appearance": [
-            {
-              "Id": "skellady.SBV.CPAriBeach",
-              "Portrait": "Portraits/AriSBV_Beach",
-              "Sprite": "Characters/AriSBV_Beach",
-              "IsIslandAttire": true,
-              "Precedence": -100,
-              "Weight": 0
-            }
-          ],
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_AriMarket",
-              "Tile": {
-                "X": 18,
-                "Y": 5
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true,
-          "ShakePortraits": [
-            16
-          ]
-        },
-        "BlakeSBV": {
-          "TextureName": "BlakeSBV/BlakeSBV",
-          "DisplayName": "{{i18n:Name.Blake}}",
-          "BirthSeason": "summer",
-          "BirthDay": 17,
-          "HomeRegion": "Town",
-          "Gender": "Male",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Shy",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "DumpsterDiveEmote": 16,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_BlakeFood",
-              "RandomItemId": [
-                "(O)211",
-                "(O)210",
-                "(O)206",
-                "(O)213",
-                "(O)241"
-              ],
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_BlakePickles",
-              "ItemId": "(O)342",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_RainbowShell",
-              "ItemId": "(O)394",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-          ],
-          "FriendsAndFamily": {
-            "AriSBV": "{{i18n:NPC_Relationships.BlakeDad}}",
-            "EliasSBV": "{{i18n:NPC_Relationships.BlakeFather}}",
-            "LyenneSBV": "{{i18n:NPC_Relationships.BlakeFriend}}"
-          },
-          "SpawnIfMissing": true,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_AriMarket",
-              "Tile": {
-                "X": 3,
-                "Y": 5
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        "EliasSBV": {
-          "TextureName": "EliasSBV/EliasSBV",
-          "DisplayName": "{{i18n:Name.Elias}}",
-          "BirthSeason": "winter",
-          "BirthDay": 23,
-          "HomeRegion": "Town",
-          "Gender": "Male",
-          "Age": "Adult",
-          "Manner": "Rude",
-          "SocialAnxiety": "Shy",
-          "Optimism": "Negative",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "DumpsterDiveEmote": 40,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_EliasBait",
-              "RandomItemId": [
-                "(O)685",
-                "(O)774",
-                "(O)908",
-              ],
-              "MinStack": 10,
-              "MaxStack": 15,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_EliasTackles",
-              "RandomItemId": [
-                "(O)686",
-                "(O)692",
-                "(O)693",
-                "(O)694",
-                "(O)695",
-              ],
-              "MinStack": 1,
-              "MaxStack": 2,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_EliasPudding",
-              "ItemId": "(O)265",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_EliasSoup",
-              "ItemId": "(O)219",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            }
-          ],
-          "FriendsAndFamily": {
-            "AriSBV": "{{i18n:NPC_Relationships.EliasExHusband}}",
-            "BlakeSBV": "{{i18n:NPC_Relationships.EliasSon}}"
-          },
-          "SpawnIfMissing": true,
-          "Appearance": [
-            {
-              "Id": "skellady.SBV.CPELiasSpring",
-              "Condition": "LOCATION_SEASON Here Spring",
-              "Portrait": "Portraits/EliasSBV/EliasSBV_Spring",
-              "Sprite": "Characters/EliasSBV/EliasSBV_Spring",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPELiasSummer",
-              "Condition": "LOCATION_SEASON Here Summer",
-              "Portrait": "Portraits/EliasSBV/EliasSBV_Summer",
-              "Sprite": "Characters/EliasSBV/EliasSBV_Summer",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPELiasFall",
-              "Condition": "LOCATION_SEASON Here Fall",
-              "Portrait": "Portraits/EliasSBV/EliasSBV_Fall",
-              "Sprite": "Characters/EliasSBV/EliasSBV_Fall",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPELiasWinter",
-              "Condition": "LOCATION_SEASON Here Winter",
-              "Portrait": "Portraits/EliasSBV/EliasSBV_Winter",
-              "Sprite": "Characters/EliasSBV/EliasSBV_Winter",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPEliasIndoors",
-              "Condition": "LOCATION_NAME Target Custom_SBV_EliasHouse",
-              "Portrait": "Portraits/EliasSBV/EliasSBV_Indoors",
-              "Sprite": "Characters/EliasSBV/EliasSBV_Indoors",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPEliasBeach",
-              "Portrait": "Portraits/EliasSBV_Beach",
-              "Sprite": "Characters/EliasSBV_Beach",
-              "IsIslandAttire": true,
-              "Precedence": -100,
-              "Weight": 0
-            }
-          ],
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_EliasHouse",
-              "Tile": {
-                "X": 3,
-                "Y": 5
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        // Ezra, Iman, and Nadia
-        "EzraSBV": {
-          "TextureName": "EzraSBV/EzraSBV",
-          "DisplayName": "{{i18n:Name.Ezra}}",
-          "BirthSeason": "spring",
-          "BirthDay": 14,
-          "HomeRegion": "Town",
-          "Gender": "Male",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Shy",
-          "Optimism": "Neutral",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "FriendsAndFamily": {
-            "NadiaSBV": "{{i18n:NPC_Relationships.EzraSister}}",
-            "ImanSBV": "{{i18n:NPC_Relationships.EzraFriend}}"
-          },
-          "DumpsterDiveEmote": 28,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_Cloth",
-              "ItemId": "(O)428",
-              "MinStack": 3,
-              "MaxStack": 6,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_Feather",
-              "ItemId": "(O)444",
-              "MinStack": 2,
-              "MaxStack": 4,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_Rings",
-              "RandomItemId": [
-                "(O)529",
-                "(O)530",
-                "(O)531",
-                "(O)532",
-                "(O)533",
-                "(O)534",
-              ],
-              "MinStack": 2,
-              "MaxStack": 4,
-              "Quality": -1,
-              "Condition": null
-            }
-          ],
-          "SpawnIfMissing": true,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_EzraHouse",
-              "Tile": {
-                "X": 3,
-                "Y": 5
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        "ImanSBV": {
-          "TextureName": "ImanSBV/ImanSBV",
-          "DisplayName": "{{i18n:Name.Iman}}",
-          "BirthSeason": "spring",
-          "BirthDay": 4,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Neutral",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "FriendsAndFamily": {
-            "EzraSBV": "{{i18n:NPC_Relationships.ImanFriend}}"
-          },
-          "DumpsterDiveEmote": 32,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_BatteryPack",
-              "ItemId": "(O)787",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_TeaLeaves",
-              "ItemId": "(O)815",
-              "MinStack": 1,
-              "MaxStack": 3,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_IridiumBar",
-              "ItemId": "(O)337",
-              "MinStack": 1,
-              "MaxStack": 4,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_LuckyLunch",
-              "ItemId": "(O)204",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_StirFry",
-              "ItemId": "(O)606",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-          ],
-          "SpawnIfMissing": true,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_ImanHouse",
-              "Tile": {
-                "X": 5,
-                "Y": 5
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        "NadiaSBV": {
-          "TextureName": "NadiaSBV/NadiaSBV",
-          "DisplayName": "{{i18n:Name.Nadia}}",
-          "BirthSeason": "summer",
-          "BirthDay": 6,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": false,
-          "CanSocialize": false,
-          "Calendar": "HiddenUntilMet",
-          "SocialTab": "HiddenUntilMet",
-          "IntroductionsQuest": false,
-          "ItemDeliveryQuests": false,
-          "PerfectionScore": false,
-          "WinterStarParticipant": false,
-          "EndSlideShow": "TrailingGroup",
-          "FriendsAndFamily": {
-            "EzraSBV": "{{i18n:NPC_Relationships.NadiaBrother}}"
-          },
-          "DumpsterDiveEmote": 32,
-          "DumpsterDiveFriendshipEffect": 10,
-          "SpawnIfMissing": true,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_SunberryWarpRoom",
-              "Tile": {
-                "X": 8,
-                "Y": 4
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        // Demons and Dog
-        "AichaSBV": {
-          "TextureName": "AichaSBV/AichaSBV",
-          "DisplayName": "{{i18n:Name.Aicha}}",
-          "BirthSeason": "winter",
-          "BirthDay": 15,
-          "HomeRegion": "Other",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "HiddenUntilMet",
-          "SocialTab": "HiddenUntilMet",
-          "IntroductionsQuest": false,
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "TrailingGroup",
-          "DumpsterDiveEmote": 32,
-          "DumpsterDiveFriendshipEffect": 10,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_SolarEssence",
-              "ItemId": "(O)768",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_VoidEssence",
-              "ItemId": "(O)769",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_AppleSapling",
-              "ItemId": "(O)633",
-              "MinStack": 1,
-              "MaxStack": 2,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_NapalmRing",
-              "ItemId": "(O)811",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            }
-          ],
-          "SpawnIfMissing": true,
-          "Appearance": [
-            {
-              "Id": "skellady.SBV.CPAichaSpring",
-              "Condition": "LOCATION_SEASON Here Spring",
-              "Portrait": "Portraits/AichaSBV/AichaSBV_Spring",
-              "Sprite": "Characters/AichaSBV/AichaSBV_Spring",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPAichaSummer",
-              "Condition": "LOCATION_SEASON Here Summer",
-              "Portrait": "Portraits/AichaSBV/AichaSBV_Summer",
-              "Sprite": "Characters/AichaSBV/AichaSBV_Summer",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPAichaFall",
-              "Condition": "LOCATION_SEASON Here Fall",
-              "Portrait": "Portraits/AichaSBV/AichaSBV_Fall",
-              "Sprite": "Characters/AichaSBV/AichaSBV_Fall",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPAichaWinter",
-              "Condition": "LOCATION_SEASON Here Winter",
-              "Portrait": "Portraits/AichaSBV/AichaSBV_Winter",
-              "Sprite": "Characters/AichaSBV/AichaSBV_Winter",
-              "IsIslandAttire": false,
-              "Precedence": -100,
-              "Weight": 0
-            },
-            {
-              "Id": "skellady.SBV.CPAichaBeach",
-              "Portrait": "Portraits/AichaSBV_Beach",
-              "Sprite": "Characters/AichaSBV_Beach",
-              "IsIslandAttire": true,
-              "Precedence": -100,
-              "Weight": 0
-            }
-          ],
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_ReiHouse",
-              "Tile": {
-                "X": 9,
-                "Y": 6
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        "ReihanaSBV": {
-          "TextureName": "ReihanaSBV/ReihanaSBV",
-          "DisplayName": "{{i18n:Name.Reihana}}",
-          "BirthSeason": "winter",
-          "BirthDay": 3,
-          "HomeRegion": "Other",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Rude",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Negative",
-          "CanGreetNearbyCharacters": false,
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "HiddenUntilMet",
-          "SocialTab": "HiddenUntilMet",
-          "IntroductionsQuest": false,
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "TrailingGroup",
-          "WinterStarParticipant": false,
-          "SpawnIfMissing": true,
-          "DumpsterDiveEmote": 12,
-          "DumpsterDiveFriendshipEffect": -25,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_ReiHouse",
-              "Tile": {
-                "X": 4,
-                "Y": 6
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        "PanSBV": {
-          "TextureName": "PanSBV/PanSBV",
-          "DisplayName": "{{i18n:Name.PanSBV}}",
-          "BirthSeason": "winter",
-          "BirthDay": 20,
-          "HomeRegion": "Other",
-          "Gender": "Female",
-          "Age": "Child",
-          "Manner": "Polite",
-          "SocialAnxiety": "Shy",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "CanGreetNearbyCharacters": false,
-          "Calendar": "HiddenUntilMet",
-          "SocialTab": "HiddenUntilMet",
-          "MugShotSourceRect": {
-            "X": 50,
-            "Y": 134,
-            "Width": 13,
-            "Height": 19
-          },
-          "IntroductionsQuest": false,
-          "PerfectionScore": false,
-          "EndSlideShow": "TrailingGroup",
-          "WinterStarParticipant": false,
-          "SpawnIfMissing": true,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_SunberryWarpRoom",
-              "Tile": {
-                "X": 4,
-                "Y": 6
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        // Silas and Miyoung
-        "MiyoungSBV": {
-          "TextureName": "MiyoungSBV/MiyoungSBV",
-          "DisplayName": "{{i18n:Name.Miyoung}}",
-          "BirthSeason": "summer",
-          "BirthDay": 5,
-          "HomeRegion": "Town",
-          "Gender": "Female",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "FriendsAndFamily": {
-            "SilasSBV": "{{i18n:NPC_Relationships.MiyoungHusband}}"
-          },
-          "DumpsterDiveEmote": 28,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_RandomFood",
-              "RandomItemId": [
-                "(O)222",
-                "(O)227",
-                "(O)228",
-                "(O)230",
-                "(O)231",
-                "(O)235",
-                "(O)240",
-              ],
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_RandomSeeds",
-              "RandomItemId": [
-                "(O)486",
-                "(O)474",
-                "(O)473",
-                "(O)472",
-                "(O)475",
-                "(O)476",
-                "(O)477",
-              ],
-              "MinStack": 5,
-              "MaxStack": 10,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_TeaSetMiyoung",
-              "ItemId": "(O)341",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            }
-          ],
-          "SpawnIfMissing": true,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_MiyoungHouse",
-              "Tile": {
-                "X": 13,
-                "Y": 5
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
-        },
-        "SilasSBV": {
-          "TextureName": "SilasSBV/SilasSBV",
-          "DisplayName": "{{i18n:Name.Silas}}",
-          "BirthSeason": "summer",
-          "BirthDay": 15,
-          "HomeRegion": "Town",
-          "Gender": "Male",
-          "Age": "Adult",
-          "Manner": "Polite",
-          "SocialAnxiety": "Outgoing",
-          "Optimism": "Positive",
-          "CanBeRomanced": false,
-          "CanReceiveGifts": true,
-          "Calendar": "AlwaysShown",
-          "SocialTab": "UnknownUntilMet",
-          "IntroductionsQuest": true,
-          "ItemDeliveryQuests": "RANDOM 0.08",
-          "PerfectionScore": "{{IncludeNPCsInPerfection}}",
-          "EndSlideShow": "MainGroup",
-          "FriendsAndFamily": {
-            "MiyoungSBV": "{{i18n:NPC_Relationships.SilasWife}}"
-          },
-          "DumpsterDiveEmote": 28,
-          "DumpsterDiveFriendshipEffect": 0,
-          "WinterStarGifts": [
-            {
-              "Id": "skellady.SBVCP_RandomGeode",
-              "RandomItemId": [
-                "(O)535",
-                "(O)536",
-                "(O)537",
-                "(O)749",
-                "(O)skellady.SBVCP_SunberryGeode"
-              ],
-              "MinStack": 5,
-              "MaxStack": 8,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_RandomSeeds",
-              "ItemId": "(O)275",
-              "MinStack": 2,
-              "MaxStack": 5,
-              "Quality": -1,
-              "Condition": null
-            },
-            {
-              "Id": "skellady.SBVCP_MagicRockCandy",
-              "ItemId": "(O)279",
-              "MinStack": 1,
-              "MaxStack": -1,
-              "Quality": -1,
-              "Condition": null
-            }
-          ],
-          "SpawnIfMissing": true,
-          "Home": [
-            {
-              "Id": "Default",
-              "Location": "Custom_SBV_MiyoungHouse",
-              "Tile": {
-                "X": 15,
-                "Y": 5
-              },
-              "Direction": "down"
-            }
-          ],
-          "Size": {
-            "X": 16,
-            "Y": 32
-          },
-          "Breather": true
         }
-      }
-    },
-    // Elias Romance Condition
-    {
-      "Action": "EditData",
-      "Target": "Data/Characters",
-      "TargetField": [
-        "EliasSBV"
-      ],
-      "Entries": {
-        "CanBeRomanced": true
-      },
-      "When": {
-        "HasSeenEvent: currentPlayer |contains= skellady.SBVCP_20031483": true
-      }
-    }
-  ]
+    ]
 }
