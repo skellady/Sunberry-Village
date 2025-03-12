@@ -5,6 +5,9 @@ using SunberryVillage.Events.Phone;
 using SunberryVillage.Events.Tarot;
 using System;
 using System.Collections.Generic;
+using StardewValley.Extensions;
+using xTile.Dimensions;
+using Rectangle = Microsoft.Xna.Framework.Rectangle;
 using Vector2 = Microsoft.Xna.Framework.Vector2;
 
 namespace SunberryVillage.Events;
@@ -61,8 +64,46 @@ internal class EventCommandManager
 			if (!WarpOut.IsActive)
 				ev.CurrentCommand++;
 		});
-	}
+		Event.RegisterCommand("SunberryTeam.SBVSMAPI_AddLight", (ev, args, eventContext) =>
+		{
+			if (!ArgUtility.TryGetInt(args, 2, out var lightIndex, out var error, "lightIndex" ) ||
+			!ArgUtility.TryGetVector2(args, 3, out var tile, out error, false, "tileLocation") ||
+			!ArgUtility.TryGetFloat(args, 5, out var radius, out error, "radius"))
+			{
+				eventContext.LogErrorAndSkip(error);
+				return;
+			}
 
+			tile = ev.OffsetPosition(tile * 64f);
+			
+			Game1.currentLightSources.Add(new LightSource(args[1], lightIndex, tile, radius, Color.White));
+			ev.CurrentCommand++;
+		});
+		Event.RegisterCommand("SunberryTeam.SBVSMAPI_AddLightColored", (ev, args, eventContext) =>
+		{
+			if (!ArgUtility.TryGetInt(args, 2, out var lightIndex, out var error, "lightIndex" ) ||
+			    !ArgUtility.TryGetVector2(args, 3, out var tile, out error, false, "tileLocation") ||
+			    !ArgUtility.TryGetFloat(args, 5, out var radius, out error, "radius") ||
+			    !ArgUtility.TryGetInt(args, 5, out var rgbRed, out error, "rgbRed") ||
+			    !ArgUtility.TryGetInt(args, 5, out var rgbGreen, out error, "rgbGreen") ||
+			    !ArgUtility.TryGetInt(args, 5, out var rgbBlue, out error, "rgbBlue"))
+			{
+				eventContext.LogErrorAndSkip(error);
+				return;
+			}
+
+			tile = ev.OffsetPosition(tile * 64f);
+			
+			Game1.currentLightSources.Add(new LightSource(args[1], lightIndex, tile, radius, new Color(rgbRed, rgbGreen, rgbBlue)));
+			ev.CurrentCommand++;
+		});
+		Event.RegisterCommand("SunberryTeam.SBVSMAPI_RemoveLight", (ev, args, _) =>
+		{
+			Game1.currentLightSources.RemoveWhere(lightSource => lightSource.Value.Id == args[1]);
+			ev.CurrentCommand++;
+		});
+	}
+	
 	internal class WizardWarpIn
 	{
 		internal bool IsActive;
