@@ -21,7 +21,24 @@
 				"SquidFest": "610 Custom_SBV_SunberryLibrary 23 10 0/900 Beach 26 36 2 elias_fish/2100 Custom_SBV_EliasHouse 3 5 3",
 				"rain": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/2000 Custom_SBV_EliasHouse 3 5 3",
 				"GreenRain": "610 Custom_SBV_SunberryLibrary 19 11 square_2_2_0",
-			},
+
+				// Marriage Schedule
+				"marriage_Mon": "700 Custom_SBV_SunberryLibrary 23 10 0/1800 Custom_SBV_SunberryVillage 77 14 2/2000 bed",
+				"marriage_Tue": "GOTO marriage_Mon",
+				"marriage_Fri": "900 Beach 16 24 2 elias_fish/1800 Beach 43 23 2/2000 bed",
+				"marriage_winter_16": "1000 Town 70 92 2/1600 Beach 19 24 2/2100 bed"
+			}
 		},
+		{
+			"LogName": "Elias Saturday Schedule (Marriage)",
+			"Action": "EditData",
+			"Target": "Characters/schedules/EliasSBV",
+			"Entries": {
+				"marriage_Sat": "800 Custom_SBV_SunberryVillage 77 14 2/a1800 Custom_SBV_SunberryVillage 52 84 1 elias_guitar \"Strings\\schedules\\EliasSBV:Fountain\"/2200 bed"
+			},
+			"When": {
+				"Season |contains= Spring, Summer, Fall": true
+			}
+		}
 	]
 }

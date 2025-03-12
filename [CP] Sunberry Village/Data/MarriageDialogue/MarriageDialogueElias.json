@@ -46,6 +46,13 @@
 				"Indoor_Night_3": "{{i18n:Elias.Marriage.Indoor_Night_3}}",
 				"Indoor_Night_4": "{{i18n:Elias.Marriage.Indoor_Night_4}}",
 				"Indoor_Night_5": "{{i18n:Elias.Marriage.Indoor_Night_5}}",
+				//Outdoor Dialogue
+				"Outdoor_0": "{{i18n:Elias.Marriage.Outdoor_0}}",
+				"Outdoor_1": "{{i18n:Elias.Marriage.Outdoor_1}}",
+				"Outdoor_2": "{{i18n:Elias.Marriage.Outdoor_2}}",
+				"Outdoor_3": "{{i18n:Elias.Marriage.Outdoor_3}}",
+				"Outdoor_4": "{{i18n:Elias.Marriage.Outdoor_4}}",
+				"Outdoor_5": "{{i18n:Elias.Marriage.Outdoor_5}}",
 				//Rainy Dialogue
 				"Rainy_Day_0": "{{i18n:Elias.Marriage.Rainy_Day_0}}",
 				"Rainy_Day_1": "{{i18n:Elias.Marriage.Rainy_Day_1}}",
@@ -96,6 +103,11 @@
 				"Bad_7": "{{i18n:Elias.Marriage.Bad_7}}",
 				"Bad_8": "{{i18n:Elias.Marriage.Bad_8}}",
 				"Bad_9": "{{i18n:Elias.Marriage.Bad_9}}",
+				//No Bed Dialogue
+				"NoBed_0": "{{i18n:Elias.Marriage.NoBed_0}}",
+				"NoBed_1": "{{i18n:Elias.Marriage.NoBed_1}}",
+				"NoBed_2": "{{i18n:Elias.Marriage.NoBed_2}}",
+				"NoBed_3": "{{i18n:Elias.Marriage.NoBed_3}}",
 				//Funleave and Funreturn Dialogue
 				"funLeave_EliasSBV": "{{Random: {{i18n:Elias.Marriage.funLeave_1}} ++ {{i18n:Elias.Marriage.funLeave_2}} ++ {{i18n:Elias.Marriage.funLeave_3}} |inputSeparator=++}}",
 				"funReturn_EliasSBV": "{{Random: {{i18n:Elias.Marriage.funReturn_1}} ++ {{i18n:Elias.Marriage.funReturn_2}} ++ {{i18n:Elias.Marriage.funReturn_3}} |inputSeparator=++}}",

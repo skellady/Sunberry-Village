@@ -3287,7 +3287,7 @@
     "MapString.sbv.pepdialogue3": "Pep growls at you. It doesn't sound very threatening.",
     "MapString.sbv.pepdialogue4": "Pep: Be nice to Pip. If you are mean to Pip, Pep will bite you.",
     "MapString.sbv.pepdialogue5": "Pep: ...What? What? Go look at goods, not Pep.",
-    "PipPepShopNotification": "Pip and Pep have set up shop today.",
+    "PipPepShopNotification": "Pip and Pep have set up shop in the final level of the Sunberry Mines.",
     // Serenity Inn
     "MapString.sbv.inn.notenoughmoney": "You can buy a farm in Sunberry for 150,000$, but you don't have enough money. Come back when you do.",
     "MapString.sbv.inn.farmalreadypurchased": "You already purchased a farm in Sunberry.",
@@ -4623,6 +4623,8 @@
     "Romance.AcceptPendant.Elias": "!!!$4#$b#@, I... Wow.$13#$b#Yes, absolutely, yes! I can't believe we're gettin' married.$13#$b#Let me set up everythin', alright? We'll have the ceremony in 3 days.$4",
     "Romance.FlowerDanceAccept.Elias": "Oh? You're takin' my advice to heart, hm? I'm impressed. I'd love to dance with you.$10",
     "Romance.FlowerDanceDecline.Elias": "Ah, sorry, farmer. I'm not really feelin' up to it today.$9",
+    "Romance.Engagement.Elias0": "Wow, this was not what I was expectin' today. I'm speechless, @.$u",
+    "Romance.Engagement.Elias1": "I'm beyond excited to start this chapter with you, beloved.$4",
 
     // Elias Marriage Dialogue
 
@@ -4642,7 +4644,7 @@
     "Elias.Marriage.Dialogue.winter_7": "So... are we facin' off at the festival tomorrow? Winner gets to choose the movie for movie night for an entire month.$10#$b#Oh, and a kiss. Those are the rules.$u",
     "Elias.Marriage.Dialogue.winter_10": "So, it's Lyenne's birthday today. My sentimental side took over so I got her this.$12#$b#%Elias shows you a locket with a picture inside. Ari, Blake, Elias, Ophelia and Lyenne are all posing for the camera. It's a beautiful picture.#$b#You think she'll like it? Is it too much? It's too much, isn't it?$9#$b#$y 'It's too much isn't it?_It's perfect! She's gonna love it._Thank you, darlin'. I'm overthinkin' again.$u_It's nice! She'll probably cry when she sees it._Oh, Yoba. I'm not very good with dealin' with feelings.$9",
     "Elias.Marriage.Dialogue.winter_14": "Ah, the night market is one of my favorite events. I'll browse the book selection then head over to the submarine.$h",
-    "Elias.Marriage.Dialogue.winter_16": "I'll never tire of the submarine. I go every year and it still gets me excited.$u#$b#I got a bunch of stuff, too. Here, this is for you my love. [395]$h",
+    "Elias.Marriage.Dialogue.winter_16": "I'll never tire of the submarine. I go every year and it still gets me excited.$u",
     "Elias.Marriage.Dialogue.winter_19": "It's Ari's birthday. I got him a nice watch. Did you know he collects watches? It's fascinatin'. He's such a nerd, sometimes.$u#$b#...Hey, I know what you're about to say. My type of 'nerd' is different and cooler than bein' a watch nerd.$10",
     "Elias.Marriage.Dialogue.winter_23": "It's my birthday again? Time's goin' too fast for my liking.$9#$b#At least I'm growin' old with you, my angel. You're the universe's greatest gift to me. I don't need anythin' else as long as I've got you by my side.$4",
     "Elias.Marriage.Dialogue.winter_24": "...Must be tough, havin' your husband's birthday and the feast in the same week, eh?$u#$b#I'm lookin' forward to spendin' another year with you, my love.$4",
@@ -4673,11 +4675,19 @@
     "Elias.Marriage.Indoor_Day_4": "Hey, hon'. I'm gonna go through my shelf and find a new book to read. What do you have planned today?$h#$b#$y '..._I'm going to work on the farm._That's nice. Let me know if I can help with anythin'.$h_I'm going to do some mining._Be careful out there, beloved. I'd hate to see you get hurt.$s_I'm going fishing._Ah! We should plan a fishin' trip soon, just you and me. What do you think?$u'",
     "Elias.Marriage.Indoor_Day_5": "Dr. Zahra mailed me a new book. It's pretty interestin' so far, I'm gonna have some coffee and read some more.$#$b#Here, I made you some, too. [253]$h",
     "Elias.Marriage.Indoor_Night_0": "You've been hard at work, beloved. Here, let me give you a massage before we go to bed. It'll help you relax.$12",
-    "Elias.Marriage.Indoor_Night_1": "There's my angel. How was work?$h#$b#$y '..._It was good!_I'm glad to hear that. Now, let's make sure you're well-rested for tomorrow.$h_Would you still love me if I was a worm?_Babydoll, I'd take such good care of you if you were a worm. I'd make you a nice little house. Heck, I'll even read for you.$u'",
+    "Elias.Marriage.Indoor_Night_1": "There's my angel. How was work?$h#$b#$y '..._It was good!_I'm glad to hear that. Now, let's make sure you're well-rested for tomorrow.$h_Would you still love me if I was a worm?_Babe, I'd take such good care of you if you were a worm. I'd make you a nice little house. Heck, I'll even read for you.$u'",
     "Elias.Marriage.Indoor_Night_2": "Mmm... I *could* stay up a little longer, but havin' you wrapped up in my arms as we fall asleep sounds a lot better.$10",
     "Elias.Marriage.Indoor_Night_3": "Say, why don't we go on a walk and stargaze? I'll have you know, Derya taught me all about astronomy, I can impress you with my knowledge.$u",
     "Elias.Marriage.Indoor_Night_4": "Welcome home, pumpkin. I made us some dinner. I hope you like it. [606]$h#$b#%Elias kisses your forehead as he hands you your plate.",
     "Elias.Marriage.Indoor_Night_5": "I finished the book Dr. Zahra sent me.#$b#$y '..._Did you finish it in one sitting?_...Listen, I can't help it!$12_Was it good?_It was really good. I'll keep it on my desk if you wanna give it a read.$h",
+
+    // Outdoor Dialogue (Porch)
+    "Elias.Marriage.Outdoor_0": "It's a beautiful day, isn't it? I love the view I get of the farm from here.$h",
+    "Elias.Marriage.Outdoor_1": "Hey, pumpkin. If you need any help at all, just holler. I'll be there to help immediately.$h",
+    "Elias.Marriage.Outdoor_2": "Make sure to take breaks every now and then, alright? Come to me and I'll make you a nice drink and a snack.$h",
+    "Elias.Marriage.Outdoor_3": "I tidied the porch a little and I'll be feedin' %pet in just a moment. I'd love to do more to take some of the work off your back.$12",
+    "Elias.Marriage.Outdoor_4": "Anythin' you need fixed, angel? I can grab my tools and help out, just let me know.$h",
+    "Elias.Marriage.Outdoor_5": "Livin' on a farm is a whole new experience for me. It's gorgeous out here.$h#$b#I hear the owner of the farm is just as gorgeous. Their partner must be so lucky.$10",
 
     // Rainy Day Dialogue
     "Elias.Marriage.Rainy_Day_0": "You know what sounds good right now? Some hot cocoa and a nap after. Care to join me, darlin'?$h",
@@ -4731,6 +4741,12 @@
     "Elias.Marriage.Bad_7": "I don't know what happened to the @ I married. The @ I love. Was it all an act?$s#$b#If you wanted some decor for your house, I'm sure Joja's sellin' plenty. Get some next time instead of a husband.$a",
     "Elias.Marriage.Bad_8": "...Is there any way we can fix this? Fix us? I don't even understand where we went wrong.$11",
     "Elias.Marriage.Bad_9": "%Elias doesn't seem to notice you. You're not sure if he's busy or just ignoring you.",
+
+    // No Bed Dialogue
+    "Elias.Marriage.NoBed_0": "Darlin', I'm not sure where to sleep. Do we not have a bed?$9",
+    "Elias.Marriage.NoBed_1": "Did our bed grow legs? Where'd it go?$s",
+    "Elias.Marriage.NoBed_2": "Oof, every bone in my body aches right now. I didn't sleep well at all.$s",
+    "Elias.Marriage.NoBed_3": "The floor ain't comfortable enough for sleepin', you know? We need a bed to get proper rest.$9",
 
     // funLeave and funReturn Dialogue
     "Elias.Marriage.funLeave_1": "I'm headin' to the village today. Anythin' you need me to pick up while I'm over there?$h",
