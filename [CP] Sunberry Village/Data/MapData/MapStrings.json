@@ -143,7 +143,9 @@
                 "sbv.unoccupiedalchemist": "{{i18n:MapString.sbv.unoccupiedalchemist}}",
                 // pip and pep
                 "sbv.pipdialogue": "{{Random: {{i18n:MapString.sbv.pipdialogue1}} ++ {{i18n:MapString.sbv.pipdialogue2}} ++ {{i18n:MapString.sbv.pipdialogue3}} ++ {{i18n:MapString.sbv.pipdialogue4}} ++ {{i18n:MapString.sbv.pipdialogue5}} |inputSeparator=++}}",
-                "sbv.pepdialogue": "{{Random: {{i18n:MapString.sbv.pepdialogue1}} ++ {{i18n:MapString.sbv.pepdialogue2}} ++ {{i18n:MapString.sbv.pepdialogue3}} ++ {{i18n:MapString.sbv.pepdialogue4}} ++ {{i18n:MapString.sbv.pepdialogue5}} |inputSeparator=++}}"
+                "sbv.pepdialogue": "{{Random: {{i18n:MapString.sbv.pepdialogue1}} ++ {{i18n:MapString.sbv.pepdialogue2}} ++ {{i18n:MapString.sbv.pepdialogue3}} ++ {{i18n:MapString.sbv.pepdialogue4}} ++ {{i18n:MapString.sbv.pepdialogue5}} |inputSeparator=++}}",
+                "SBV.PipPepShopNotification": "{{i18n:PipPepShopNotification}}"
+                
             }
         },
         {
@@ -616,22 +618,77 @@
         {
             "LogName": "Edit blank FishInfo file to add fish info strings",
             "Action": "EditData",
-            "Target": "Strings/SBV/Books",
+            "Target": "Strings/SBV/FishInfo",
             "Entries": {
-                "Aberrant": "{{i18n:FishInfo.Aberrant}}",
-                "AnglerJr": "{{i18n:FishInfo.AnglerJr}}",
-                "AzureanCarp": "{{i18n:FishInfo.AzureanCarp}}",
-                "Barkfish": "{{i18n:FishInfo.Barkfish}}",
-                "BonbonFish": "{{i18n:FishInfo.BonbonFish}}",
-                "BubblyBetta": "{{i18n:FishInfo.BubblyBetta}}",
-                "ChartreuseTilapia": "{{i18n:FishInfo.ChartreuseTilapia}}",
-                "EeltailedCatfish": "{{i18n:FishInfo.EeltailedCatfish}}",
-                "EmeraldSnapper": "{{i18n:FishInfo.EmeraldSnapper}}",
-                "FiretailGuppy": "{{i18n:FishInfo.FiretailGuppy}}",
-                "Mothfish": "{{i18n:FishInfo.Mothfish}}",
-                "Najelfish": "{{i18n:FishInfo.Najelfish}}",
-                "SeaCow": "{{i18n:FishInfo.SeaCow}}",
-                "NoFishPond": "{{i18n:FishInfo.NoFishPond}}"
+
+                "CoverPage": "^^^^^^^^^              {{i18n:FishCompendium.Title}}^              {{i18n:FishCompendium.Author}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 7]",
+
+                "IntroPage": " ^^^{{i18n:FishCompendium.Intro}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]",
+
+                "AzureanCarpRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.AzureanCarp.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 0]",
+                "AzureanCarpDonated": " ^{{i18n:SBV.AzureanCarp.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.AzureanCarp.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.AzureanCarp.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.AzureanCarp.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.AzureanCarp.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.AzureanCarp.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 0]",
+
+                "BarkfishRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.Barkfish.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 1]",
+                "BarkfishDonated": " ^{{i18n:SBV.Barkfish.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.Barkfish.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.Barkfish.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.Barkfish.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.Barkfish.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.Barkfish.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 1]",
+
+                "BonbonFishRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.BonbonFish.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 2]",
+                "BonbonFishDonated": " ^{{i18n:SBV.BonbonFish.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.BonbonFish.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.BonbonFish.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.BonbonFish.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.BonbonFish.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.BonbonFish.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 2]",
+
+                "BubblyBettaRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.BubblyBetta.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 3]",
+                "BubblyBettaDonated": " ^{{i18n:SBV.BubblyBetta.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.BubblyBetta.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.BubblyBetta.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.BubblyBetta.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.BubblyBetta.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.BubblyBetta.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 3]",
+
+                "ChartreuseTilapiaRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.ChartreuseTilapia.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 4]",
+                "ChartreuseTilapiaDonated": " ^{{i18n:SBV.ChartreuseTilapia.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.ChartreuseTilapia.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.ChartreuseTilapia.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.ChartreuseTilapia.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.ChartreuseTilapia.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.ChartreuseTilapia.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 4]",
+
+                "EeltailedCatfishRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.EeltailedCatfish.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 5]",
+                "EeltailedCatfishDonated": " ^{{i18n:SBV.EeltailedCatfish.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.EeltailedCatfish.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.EeltailedCatfish.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.EeltailedCatfish.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.EeltailedCatfish.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.EeltailedCatfish.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 5]",
+
+                "EmeraldSnapperRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.EmeraldSnapper.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 6]",
+                "EmeraldSnapperDonated": " ^{{i18n:SBV.EmeraldSnapper.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.EmeraldSnapper.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.EmeraldSnapper.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.EmeraldSnapper.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.EmeraldSnapper.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.EmeraldSnapper.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 6]",
+
+                "FiretailGuppyRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.FiretailGuppy.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 7]",
+                "FiretailGuppyDonated": " ^{{i18n:SBV.FiretailGuppy.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.FiretailGuppy.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.FiretailGuppy.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.FiretailGuppy.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.FiretailGuppy.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.FiretailGuppy.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 7]",
+
+                "MothfishRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.Mothfish.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 8]",
+                "MothfishDonated": " ^{{i18n:SBV.Mothfish.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.Mothfish.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.Mothfish.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.Mothfish.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.Mothfish.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.Mothfish.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 8]",
+
+                "NajelfishRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.Najelfish.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 9]",
+                "NajelfishDonated": " ^{{i18n:SBV.Najelfish.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.Najelfish.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.Najelfish.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.Najelfish.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.Najelfish.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.Najelfish.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 9]",
+
+                "SeaCowRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.SeaCow.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegularUnknown 10]",
+                "SeaCowDonated": " ^{{i18n:SBV.SeaCow.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.SeaCow.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.SeaCow.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.SeaCow.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.SeaCow.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.SeaCow.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumRegular 10]",
+
+                "AberrantRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.Aberrant.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumLegendaryUnknown 0]",
+                "AberrantDonated": " ^{{i18n:SBV.Aberrant.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.Aberrant.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.Aberrant.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.Aberrant.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.Aberrant.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.Aberrant.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumLegendary 0]",
+
+                "AnglerJrRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.AnglerJr.Rumor}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumLegendaryUnknown 1]",
+                "AnglerJrDonated": " ^{{i18n:SBV.AnglerJr.Name}}^^{{i18n:FishCompendium.LocationHeader}} {{i18n:FishCompendium.AnglerJr.Location}}^{{i18n:FishCompendium.SeasonHeader}} {{i18n:FishCompendium.AnglerJr.Season}}^{{i18n:FishCompendium.ConditionsHeader}} {{i18n:FishCompendium.AnglerJr.Conditions}}^{{i18n:FishCompendium.DifficultyHeader}} {{i18n:FishCompendium.AnglerJr.Difficulty}}^^{{i18n:FishCompendium.DescriptionHeader}} {{i18n:SBV.AnglerJr.Description}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumLegendary 1]",
+
+                "LegendaryFishHintBook": "{{i18n:LegendaryFishHintBook}}"
+
+            }
+        },
+        {
+            "LogName": "Update Intro Page with Special Thanks",
+            "Action": "EditData",
+            "Target": "Strings/SBV/FishInfo",
+            "Entries": {
+                "IntroPage": " ^^^{{i18n:FishCompendium.Intro}}^^{{i18n:FishCompendium.SpecialThanks}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]"
+            },
+            "When": {
+                "HasFlag:anyPlayer|contains=skellady.SBVCP_EliasFishCompendiumReward3": true
+            }
+        },
+        {
+            "LogName": "Update Legendary Pages with Hints",
+            "Action": "EditData",
+            "Target": "Strings/SBV/FishInfo",
+            "Entries": {
+                "AberrantRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.Aberrant.Hint}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumLegendaryUnknown 0]",
+                "AnglerJrRumor": " ^{{i18n:FishCompendium.Unknown}}^^^^^^{{i18n:FishCompendium.AnglerJr.Hint}}[textcolor black][letterbg Mods\\skellady.SBVCP\\FishCompendiumLegendaryUnknown 1]"
+            },
+            "When": {
+                "HasFlag:anyPlayer|contains=skellady.SBVCP_EliasLegendaryHint": true
             }
         }
     ]

@@ -51,67 +51,97 @@
                     "Id": "skellady.SBVCP_AminaSeedsLetter",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current AminaSBV 2",
-                    "Action": "AddMail Current skellady.SBVCP_AminaSeeds",
+                    "Action": "AddMail Current skellady.SBVCP_AminaSeeds"
                 },
                 "skellady.SBVCP_AriSeedsLetter": {
                     "Id": "skellady.SBVCP_AriSeedsLetter",
                     "Trigger": "DayEnding",
                     "Condition": "SEASON summer",
-                    "Action": "AddMail Current skellady.SBVCP_AriSeeds",
+                    "Action": "AddMail Current skellady.SBVCP_AriSeeds"
                 },
                 "skellady.SBVCP_AriSprinklerLetter": {
                     "Id": "skellady.SBVCP_AriSprinklerLetter",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current AriSBV 6",
-                    "Action": "AddMail Current skellady.SBVCP_AriSprinkler",
+                    "Action": "AddMail Current skellady.SBVCP_AriSprinkler"
                 },
                 "skellady.SBVCP_JumanaSeedsLetter": {
                     "Id": "skellady.SBVCP_JumanaSeedsLetter",
                     "Trigger": "DayEnding",
                     "Condition": "SEASON fall",
-                    "Action": "AddMail Current skellady.SBVCP_JumanaSeeds",
+                    "Action": "AddMail Current skellady.SBVCP_JumanaSeeds"
                 },
                 "skellady.SBVCP_MiyoungSeedsLetter": {
                     "Id": "skellady.SBVCP_MiyoungSeedsLetter",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current MiyoungSBV 2, SEASON winter",
-                    "Action": "AddMail Current skellady.SBVCP_MiyoungSeeds",
+                    "Action": "AddMail Current skellady.SBVCP_MiyoungSeeds"
                 },
                 "skellady.SBVCP_EvelynFlowersLetter": {
                     "Id": "skellady.SBVCP_EvelynFlowersLetter",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current Evelyn 2, SEASON summer",
-                    "Action": "AddMail Current skellady.SBVCP_EvelynFlowers",
+                    "Action": "AddMail Current skellady.SBVCP_EvelynFlowers"
                 },
                 "skellady.SBVCP_LyenneBlakeBugMeatLetter": {
                     "Id": "skellady.SBVCP_LyenneBlakeBugMeatLetter",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current LyenneSBV 4, PLAYER_HEARTS Current BlakeSBV 4",
-                    "Action": "AddMail Current skellady.SBVCP_LyenneBlakeBugMeat",
+                    "Action": "AddMail Current skellady.SBVCP_LyenneBlakeBugMeat"
                 },
                 "skellady.SBVCP_MaiaBarsLetter": {
                     "Id": "skellady.SBVCP_MaiaBarsLetter",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current MaiaSBV 4",
-                    "Action": "AddMail Current skellady.SBVCP_MaiaBars",
+                    "Action": "AddMail Current skellady.SBVCP_MaiaBars"
                 },
                 "skellady.SBVCP_DNDDessertLetter": {
                     "Id": "skellady.SBVCP_DNDDessertLetter",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current DialaSBV 4, PLAYER_HEARTS Current DeryaSBV 4",
-                    "Action": "AddMail Current skellady.SBVCP_DNDDessert",
+                    "Action": "AddMail Current skellady.SBVCP_DNDDessert"
                 },
                 "skellady.SBVCP_ReihanaSlimeLetter": {
                     "Id": "skellady.SBVCP_ReihanaSlimeLetter",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HEARTS Current ReihanaSBV 2",
-                    "Action": "AddMail Current skellady.SBVCP_ReihanaSlime",
+                    "Action": "AddMail Current skellady.SBVCP_ReihanaSlime"
                 },
                 "skellady.SBVCP_AichaSeedsLetter": {
                     "Id": "skellady.SBVCP_AichaSeedsLetter",
                     "Trigger": "DayEnding",
                     "Condition": "SEASON summer, PLAYER_HEARTS Current AichaSBV 6",
-                    "Action": "AddMail Current skellady.SBVCP_AichaSeeds",
+                    "Action": "AddMail Current skellady.SBVCP_AichaSeeds"
+                },
+                "skellady.SBVCP_EliasFishCompendiumLetter": {
+                    "Id": "skellady.SBVCP_EliasFishCompendiumLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "ANY \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Mothfish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_FiretailGuppy\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_EmeraldSnapper\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Aberrant\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_BonbonFish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_EeltailedCatfish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Najelfish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_AnglerJr\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_ChartreuseTilapia\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_BubblyBetta\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_AzureanCarp\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_SeaCow\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Barkfish\"",
+                    "Action": "AddMail Current skellady.SBVCP_EliasFishCompendiumIntro"
+                },
+                "skellady.SBVCP_EliasFishCompendiumReward1Letter": {
+                    "Id": "skellady.SBVCP_EliasFishCompendiumReward1Letter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_STAT Current skellady.SBVCP_SunberrySpeciesCaught 5",
+                    "Action": "AddMail Current skellady.SBVCP_EliasFishCompendiumReward1"
+                },
+                "skellady.SBVCP_EliasFishCompendiumReward2Letter": {
+                    "Id": "skellady.SBVCP_EliasFishCompendiumReward2Letter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_STAT Current skellady.SBVCP_SunberrySpeciesCaught 8",
+                    "Action": "AddMail Current skellady.SBVCP_EliasFishCompendiumReward2"
+                },
+                "skellady.SBVCP_EliasFishCompendiumLegendaryHintLetter": {
+                    "Id": "skellady.SBVCP_EliasFishCompendiumLegendaryHintLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_STAT Current skellady.SBVCP_SunberrySpeciesCaught 11",
+                    "Action": "AddMail Current skellady.SBVCP_EliasLegendaryHint"
+                },
+                "skellady.SBVCP_EliasFishCompendiumReward3Letter": {
+                    "Id": "skellady.SBVCP_EliasFishCompendiumReward3Letter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_STAT Current skellady.SBVCP_SunberrySpeciesCaught 13",
+                    "Action": "AddMail Current skellady.SBVCP_EliasFishCompendiumReward3"
                 },
                 // Twilight Festival Invite
                 "skellady.SBVCP_TwilightFestivalInvite": {

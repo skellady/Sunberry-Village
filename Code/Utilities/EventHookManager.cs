@@ -6,6 +6,7 @@ using SunberryVillage.Events.Tarot;
 using SunberryVillage.Integration;
 using SunberryVillage.Lighting;
 using SunberryVillage.Maps;
+using SunberryVillage.Menus;
 using SunberryVillage.Queries;
 using SunberryVillage.Shops;
 using SunberryVillage.SpecialOrders;
@@ -29,5 +30,7 @@ internal class EventHookManager
 		EventCommandManager.AddEventHooks();
 		MarketDailySpecialManager.AddEventHooks();
 		SunberrySpecialOrdersBoard.AddEventHooks();
+		ImageMenuManager.AddEventHooks();
+		PipPepShopNotification.AddEventHooks();
 	}
 }

@@ -73,6 +73,65 @@
                 "HasSeenEvent: anyPlayer |contains={{ModId}}_20031411": true
             }
         },
+        // Aquatic Compendium
+        {
+            "LogName": "Aquatic Compendium Map Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryLibrary",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 7,
+                        "Y": 11
+                    },
+                    "Layer": "Front+1",
+                    "SetIndex": "375",
+                    "SetTilesheet": "zDDFurniture"
+                },
+                {
+                    "Position": {
+                        "X": 7,
+                        "Y": 12
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_Book {{FishBookPages}}"
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag: anyPlayer |contains={{ModId}}_EliasFishCompendiumIntro": true
+            }
+        },
+        {
+            "LogName": "Legendary Fish Hint Book Map Patch",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryLibrary",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 4,
+                        "Y": 9
+                    },
+                    "Layer": "Front+1",
+                    "SetIndex": "376",
+                    "SetTilesheet": "zDDFurniture"
+                },
+                {
+                    "Position": {
+                        "X": 4,
+                        "Y": 10
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\FishInfo:LegendaryFishHintBook"
+                    }
+                }
+            ],
+            "When": {
+                "HasFlag: anyPlayer |contains={{ModId}}_EliasLegendaryHint": true
+            }
+        },
         // SBV Board
         {
             "LogName": "SBV Special Order Board Map Patch",
@@ -239,6 +298,6 @@
             "When": {
                 "HasFlag: anyPlayer |contains=SBVFarmPurchased, SBVFarmPurchasedFR": true
             }
-        },
+        }
     ]
 }

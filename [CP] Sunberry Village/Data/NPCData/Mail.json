@@ -3,7 +3,7 @@
         {
             "LogName": "Load BGs",
             "Action": "Load",
-            "Target": "Mods/skellady.SBVCP/SBVLetterBG",
+            "Target": "Mods/skellady.SBVCP/SBVLetterBG, Mods/skellady.SBVCP/FishCompendiumRegular, Mods/skellady.SBVCP/FishCompendiumRegularUnknown, Mods/skellady.SBVCP/FishCompendiumLegendary, Mods/skellady.SBVCP/FishCompendiumLegendaryUnknown",
             "FromFile": "Assets/Images/LetterBG/{{TargetWithoutPath}}.png"
         },
         {
@@ -62,6 +62,13 @@
                 "skellady.SBVCP_DNDDessert": "{{i18n:Mail.DNDDessert.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0]%item id (O)skellady.SBVCP_ChocoChipCookies 2 %%[#]{{i18n:Mail.DNDDessert.Title}}",
                 "skellady.SBVCP_ReihanaSlime": "{{i18n:Mail.ReihanaSlime.Body}} %item id (O)766 15 %%[#]{{i18n:Mail.ReihanaSlime.Title}}",
                 "skellady.SBVCP_AichaSeeds": "{{i18n:Mail.AichaSeeds.Body}} %item id (O)skellady.SBVCP_CallaLilySeeds 5 %%[#]{{i18n:Mail.AichaSeeds.Title}}",
+
+                // Fish Compendium
+                "skellady.SBVCP_EliasFishCompendiumIntro": "{{i18n:Mail.EliasFishCompendiumIntro.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]%item id (O)DeluxeBait 5 %%[#]{{i18n:Mail.EliasFishCompendiumIntro.Title}}",
+                "skellady.SBVCP_EliasFishCompendiumReward1": "{{i18n:Mail.EliasFishCompendiumReward1.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]%item id (O)687 1 %%[#]{{i18n:Mail.EliasFishCompendiumReward1.Title}}",
+                "skellady.SBVCP_EliasFishCompendiumReward2": "{{i18n:Mail.EliasFishCompendiumReward2.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]%item id (O)856 1 %%[#]{{i18n:Mail.EliasFishCompendiumReward2.Title}}",
+                "skellady.SBVCP_EliasFishCompendiumReward3": "{{i18n:Mail.EliasFishCompendiumReward3.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]%action AddFriendshipPoints EliasSBV 250%% %item id (BC)DeluxeWormBin 1 %%[#]{{i18n:Mail.EliasFishCompendiumReward3.Title}}",
+                "skellady.SBVCP_EliasLegendaryHint": "{{i18n:Mail.EliasLegendaryHint.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6][#]{{i18n:Mail.EliasLegendaryHint.Title}}",
 
                 // Festival Mail
                 "skellady.SBVCP_TwilightFestivalLetter": "{{i18n:Mail.TwilightFestival.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 3][#]{{i18n:Mail.TwilightFestival.Title}}"

@@ -78,20 +78,35 @@
 				"Sat10": "{{i18n:Elias.Dialogue.Sat10.Romantic}}",
 				"Sun10": "{{i18n:Elias.Dialogue.Sun10.Romantic}}",
 
-				//Green Rain
-				"GreenRain": "{{i18n:Elias.Dialogue.GreenRain}}",
-				"GreenRainFinished": "{{i18n:Elias.Dialogue.GreenRainFinished}}",
-				"GreenRain_2": "{{i18n:Elias.Dialogue.GreenRain_2}}",
+                //Green Rain
+                "GreenRain": "{{i18n:Elias.Dialogue.GreenRain}}",
+                "GreenRainFinished": "{{i18n:Elias.Dialogue.GreenRainFinished}}",
+                "GreenRain_2": "{{i18n:Elias.Dialogue.GreenRain_2}}",
 
-				//Gift Dialogue
-				//Positive/Negative
-				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Elias}}",
-				"AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Elias}}",
-				//Love
-				"AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Elias}}",
-				//Trashcan
-				"DumpsterDiveComment": "{{i18n:Elias.Dialogue.DumpsterDiveComment}}"
-			},
-		},
+                //Gift Dialogue
+                //Positive/Negative
+                "AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Elias}}",
+                "AcceptBirthdayGift_Negative": "{{i18n:Gift.Negative.Elias}}",
+                //Love
+                "AcceptGift_(O)StardropTea": "{{i18n:Gift.StardropTea.Elias}}",
+                //Trashcan
+                "DumpsterDiveComment": "{{i18n:Elias.Dialogue.DumpsterDiveComment}}",
+
+                //Fish
+                "RejectItem_(O)skellady.SBVCP_AzureanCarp": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_AzureanCarp Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_AzureanCarp Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_Barkfish": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_Barkfish Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_Barkfish Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_BonbonFish": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_BonbonFish Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_BonbonFish Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_BubblyBetta": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_BubblyBetta Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_BubblyBetta Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_ChartreuseTilapia": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_ChartreuseTilapia Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_ChartreuseTilapia Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_EeltailedCatfish": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_EeltailedCatfish Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_EeltailedCatfish Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_EmeraldSnapper": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_EmeraldSnapper Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_EmeraldSnapper Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_FiretailGuppy": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_FiretailGuppy Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_FiretailGuppy Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_Mothfish": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_Mothfish Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_Mothfish Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_Najelfish": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_Najelfish Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_Najelfish Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_SeaCow": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_SeaCow Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_SeaCow Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_Aberrant": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_Aberrant Received#{{i18n:Elias.FishCompendium.AlreadySeenLegendary}}|{{i18n:Elias.FishCompendium.NewFishLegendary}}#$action AddMail Current skellady.SBVCP_DonatedFish_Aberrant Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
+                "RejectItem_(O)skellady.SBVCP_AnglerJr": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_AnglerJr Received#{{i18n:Elias.FishCompendium.AlreadySeenLegendary}}|{{i18n:Elias.FishCompendium.NewFishLegendary}}#$action AddMail Current skellady.SBVCP_DonatedFish_AnglerJr Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1"
+            }
+		}
 	]
 }

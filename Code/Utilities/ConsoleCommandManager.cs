@@ -1,7 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewValley;
@@ -12,6 +8,10 @@ using SunberryVillage.Events.Tarot;
 using SunberryVillage.Integration.Tokens;
 using SunberryVillage.Lighting;
 using SunberryVillage.Menus;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using xTile;
 using xTile.Layers;
 
@@ -297,10 +297,11 @@ internal class ConsoleCommandManager
 				if (!args.Any())
 					return;
 
-				string book = string.Join("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^", args.Select(s => Game1.content.LoadString(s)));
+				List<string> text = args.Select(s => Game1.content.LoadString(s)).ToList();
+				string book = string.Join("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^", text);
 
 				Log.Info($"Displaying the following in book format:\n\n{book}\n");
-				Game1.drawLetterMessage(book);
+				Game1.activeClickableMenu = BookViewerMenu.GetMenu(text, "");
 			}
 		);
 
@@ -346,7 +347,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.misc.testimageviewer", "Creates test image viewer menu", (_, _) =>
 			{
-				Game1.activeClickableMenu = new ImageViewerMenu(["Test", "LooseSprites\\ControllerMaps", "512", "287", "2"], 0);
+				Game1.activeClickableMenu = new ImageMenu("TestId");
 			});
 
 		Globals.CCHelper.Add("sbv.misc.mailflag", "Lists all mailflags current player has matching specified text, or all mailflags if no text is provided.", (_, args) =>

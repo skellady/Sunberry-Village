@@ -225,104 +225,188 @@
         },
         {
             "Name": "FishBookPages",
-            "Value": ""
+            "Value": "Strings\\SBV\\FishInfo:CoverPage Strings\\SBV\\FishInfo:IntroPage"
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:AzureanCarp",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:AzureanCarpRumor",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_AzureanCarp": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_AzureanCarp": false
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:Barkfish",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:AzureanCarpDonated",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_Barkfish": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_AzureanCarp": true
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:BonbonFish",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:BarkfishRumor",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_BonbonFish": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_Barkfish": false
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:BubblyBetta",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:BarkfishDonated",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_BubblyBetta": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_Barkfish": true
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:ChartreuseTilapia",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:BonbonFishRumor",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_ChartreuseTilapia": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_BonbonFish": false
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:EeltailedCatfish",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:BonbonFishDonated",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_EeltailedCatfish": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_BonbonFish": true
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:EmeraldSnapper",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:BubblyBettaRumor",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_EmeraldSnapper": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_BubblyBetta": false
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:FiretailGuppy",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:BubblyBettaDonated",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_FiretailGuppy": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_BubblyBetta": true
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:Mothfish",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:ChartreuseTilapiaRumor",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_Mothfish": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_ChartreuseTilapia": false
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:Najelfish",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:ChartreuseTilapiaDonated",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_Najelfish": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_ChartreuseTilapia": true
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:SeaCow",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:EeltailedCatfishRumor",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_SeaCow": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_EeltailedCatfish": false
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:NoFishPond",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:EeltailedCatfishDonated",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_Aberrant, skellady.SBVCP_AnglerJr": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_EeltailedCatfish": true
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:Aberrant",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:EmeraldSnapperRumor",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_Aberrant": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_EmeraldSnapper": false
             }
         },
         {
             "Name": "FishBookPages",
-            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:AnglerJr",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:EmeraldSnapperDonated",
             "When": {
-                "HasCaughtFish |contains= skellady.SBVCP_AnglerJr": true
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_EmeraldSnapper": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:FiretailGuppyRumor",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_FiretailGuppy": false
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:FiretailGuppyDonated",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_FiretailGuppy": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:MothfishRumor",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_Mothfish": false
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:MothfishDonated",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_Mothfish": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:NajelfishRumor",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_Najelfish": false
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:NajelfishDonated",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_Najelfish": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:SeaCowRumor",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_SeaCow": false
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:SeaCowDonated",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_SeaCow": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:AberrantRumor",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_Aberrant": false
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:AberrantDonated",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_Aberrant": true
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:AnglerJrRumor",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_AnglerJr": false
+            }
+        },
+        {
+            "Name": "FishBookPages",
+            "Value": "{{FishBookPages}} Strings\\SBV\\FishInfo:AnglerJrDonated",
+            "When": {
+                "HasFlag |contains= skellady.SBVCP_DonatedFish_AnglerJr": true
             }
         }
     ],

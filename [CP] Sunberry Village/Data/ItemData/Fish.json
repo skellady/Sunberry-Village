@@ -11,67 +11,36 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "skellady.SBVCP_Mothfish": {
-                    "Name": "skellady.SBVCP_Mothfish",
-                    "DisplayName": "{{i18n:SBV.Mothfish.Name}}",
-                    "Description": "{{i18n:SBV.Mothfish.Description}}",
+                "skellady.SBVCP_AzureanCarp": {
+                    "Name": "skellady.SBVCP_AzureanCarp",
+                    "DisplayName": "{{i18n:SBV.AzureanCarp.Name}}",
+                    "Description": "{{i18n:SBV.AzureanCarp.Description}}",
                     "Edibility": "10",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 100,
+                    "Price": 60,
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 0,
+                    "SpriteIndex": 10,
                     "ContextTags": [
-                        "color_salmon",
-                        "item_mothfish",
+                        "color_blue",
+                        "item_azureancarp",
                         "fish_has_roe"
                     ]
                 },
-                "skellady.SBVCP_FiretailGuppy": {
-                    "Name": "skellady.SBVCP_FiretailGuppy",
-                    "DisplayName": "{{i18n:SBV.FiretailGuppy.Name}}",
-                    "Description": "{{i18n:SBV.FiretailGuppy.Description}}",
+                "skellady.SBVCP_Barkfish": {
+                    "Name": "skellady.SBVCP_Barkfish",
+                    "DisplayName": "{{i18n:SBV.Barkfish.Name}}",
+                    "Description": "{{i18n:SBV.Barkfish.Description}}",
                     "Edibility": "10",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 95,
+                    "Price": 40,
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 1,
+                    "SpriteIndex": 12,
                     "ContextTags": [
-                        "item_firetailguppy",
-                        "color_dark_blue",
-                        "fish_has_roe"
-                    ]
-                },
-                "skellady.SBVCP_EmeraldSnapper": {
-                    "Name": "skellady.SBVCP_EmeraldSnapper",
-                    "DisplayName": "{{i18n:SBV.EmeraldSnapper.Name}}",
-                    "Description": "{{i18n:SBV.EmeraldSnapper.Description}}",
-                    "Edibility": "10",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 80,
-                    "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 2,
-                    "ContextTags": [
-                        "color_dark_cyan",
-                        "item_emeraldsnapper",
-                        "fish_has_roe"
-                    ]
-                },
-                "skellady.SBVCP_Aberrant": {
-                    "Name": "skellady.SBVCP_Aberrant",
-                    "DisplayName": "{{i18n:SBV.Aberrant.Name}}",
-                    "Description": "{{i18n:SBV.Aberrant.Description}}",
-                    "Edibility": "20",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 3100,
-                    "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 3,
-                    "ContextTags": [
-                        "item_aberrant",
-                        "color_poppyseed",
+                        "color_brown",
+                        "item_barkfish",
+                        "fish_talk_stiff",
                         "fish_has_roe"
                     ]
                 },
@@ -92,51 +61,19 @@
                         "fish_has_roe"
                     ]
                 },
-                "skellady.SBVCP_EeltailedCatfish": {
-                    "Name": "skellady.SBVCP_EeltailedCatfish",
-                    "DisplayName": "{{i18n:SBV.EeltailedCatfish.Name}}",
-                    "Description": "{{i18n:SBV.EeltailedCatfish.Description}}",
-                    "Edibility": "30",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 200,
-                    "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 5,
-                    "ContextTags": [
-                        "color_blue",
-                        "item_eeltailedcatfish",
-                        "fish_has_roe"
-                    ]
-                },
-                "skellady.SBVCP_Najelfish": {
-                    "Name": "skellady.SBVCP_Najelfish",
-                    "DisplayName": "{{i18n:SBV.Najelfish.Name}}",
-                    "Description": "{{i18n:SBV.Najelfish.Description}}",
+                "skellady.SBVCP_BubblyBetta": {
+                    "Name": "skellady.SBVCP_BubblyBetta",
+                    "DisplayName": "{{i18n:SBV.BubblyBetta.Name}}",
+                    "Description": "{{i18n:SBV.BubblyBetta.Description}}",
                     "Edibility": "10",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 130,
+                    "Price": 100,
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 6,
+                    "SpriteIndex": 9,
                     "ContextTags": [
-                        "color_red",
-                        "item_najelfish",
-                        "fish_has_roe"
-                    ]
-                },
-                "skellady.SBVCP_AnglerJr": {
-                    "Name": "skellady.SBVCP_AnglerJr",
-                    "DisplayName": "{{i18n:SBV.AnglerJr.Name}}",
-                    "Description": "{{i18n:SBV.AnglerJr.Description}}",
-                    "Edibility": "10",
-                    "Type": "Fish",
-                    "Category": -4,
-                    "Price": 900,
-                    "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 7,
-                    "ContextTags": [
-                        "color_brown",
-                        "item_anglerjr",
+                        "color_dark_pink",
+                        "item_bubblybetta",
                         "fish_has_roe"
                     ]
                 },
@@ -156,35 +93,83 @@
                         "fish_has_roe"
                     ]
                 },
-                "skellady.SBVCP_BubblyBetta": {
-                    "Name": "skellady.SBVCP_BubblyBetta",
-                    "DisplayName": "{{i18n:SBV.BubblyBetta.Name}}",
-                    "Description": "{{i18n:SBV.BubblyBetta.Description}}",
+                "skellady.SBVCP_EeltailedCatfish": {
+                    "Name": "skellady.SBVCP_EeltailedCatfish",
+                    "DisplayName": "{{i18n:SBV.EeltailedCatfish.Name}}",
+                    "Description": "{{i18n:SBV.EeltailedCatfish.Description}}",
+                    "Edibility": "30",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 200,
+                    "Texture": "Mods\\skellady.SBVCP\\Fish",
+                    "SpriteIndex": 5,
+                    "ContextTags": [
+                        "color_blue",
+                        "item_eeltailedcatfish",
+                        "fish_has_roe"
+                    ]
+                },
+                "skellady.SBVCP_EmeraldSnapper": {
+                    "Name": "skellady.SBVCP_EmeraldSnapper",
+                    "DisplayName": "{{i18n:SBV.EmeraldSnapper.Name}}",
+                    "Description": "{{i18n:SBV.EmeraldSnapper.Description}}",
+                    "Edibility": "10",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 80,
+                    "Texture": "Mods\\skellady.SBVCP\\Fish",
+                    "SpriteIndex": 2,
+                    "ContextTags": [
+                        "color_dark_cyan",
+                        "item_emeraldsnapper",
+                        "fish_has_roe"
+                    ]
+                },
+                "skellady.SBVCP_FiretailGuppy": {
+                    "Name": "skellady.SBVCP_FiretailGuppy",
+                    "DisplayName": "{{i18n:SBV.FiretailGuppy.Name}}",
+                    "Description": "{{i18n:SBV.FiretailGuppy.Description}}",
+                    "Edibility": "10",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 95,
+                    "Texture": "Mods\\skellady.SBVCP\\Fish",
+                    "SpriteIndex": 1,
+                    "ContextTags": [
+                        "item_firetailguppy",
+                        "color_dark_blue",
+                        "fish_has_roe"
+                    ]
+                },
+                "skellady.SBVCP_Mothfish": {
+                    "Name": "skellady.SBVCP_Mothfish",
+                    "DisplayName": "{{i18n:SBV.Mothfish.Name}}",
+                    "Description": "{{i18n:SBV.Mothfish.Description}}",
                     "Edibility": "10",
                     "Type": "Fish",
                     "Category": -4,
                     "Price": 100,
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 9,
+                    "SpriteIndex": 0,
                     "ContextTags": [
-                        "color_dark_pink",
-                        "item_bubblybetta",
+                        "color_salmon",
+                        "item_mothfish",
                         "fish_has_roe"
                     ]
                 },
-                "skellady.SBVCP_AzureanCarp": {
-                    "Name": "skellady.SBVCP_AzureanCarp",
-                    "DisplayName": "{{i18n:SBV.AzureanCarp.Name}}",
-                    "Description": "{{i18n:SBV.AzureanCarp.Description}}",
+                "skellady.SBVCP_Najelfish": {
+                    "Name": "skellady.SBVCP_Najelfish",
+                    "DisplayName": "{{i18n:SBV.Najelfish.Name}}",
+                    "Description": "{{i18n:SBV.Najelfish.Description}}",
                     "Edibility": "10",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 60,
+                    "Price": 130,
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 10,
+                    "SpriteIndex": 6,
                     "ContextTags": [
-                        "color_blue",
-                        "item_azureancarp",
+                        "color_red",
+                        "item_najelfish",
                         "fish_has_roe"
                     ]
                 },
@@ -201,23 +186,38 @@
                     "ContextTags": [
                         "color_gray",
                         "item_seacow",
-                        "fish_has_roe",
+                        "fish_has_roe"
                     ]
                 },
-                "skellady.SBVCP_Barkfish": {
-                    "Name": "skellady.SBVCP_Barkfish",
-                    "DisplayName": "{{i18n:SBV.Barkfish.Name}}",
-                    "Description": "{{i18n:SBV.Barkfish.Description}}",
+                "skellady.SBVCP_Aberrant": {
+                    "Name": "skellady.SBVCP_Aberrant",
+                    "DisplayName": "{{i18n:SBV.Aberrant.Name}}",
+                    "Description": "{{i18n:SBV.Aberrant.Description}}",
+                    "Edibility": "20",
+                    "Type": "Fish",
+                    "Category": -4,
+                    "Price": 3100,
+                    "Texture": "Mods\\skellady.SBVCP\\Fish",
+                    "SpriteIndex": 3,
+                    "ContextTags": [
+                        "item_aberrant",
+                        "color_poppyseed",
+                        "fish_has_roe"
+                    ]
+                },
+                "skellady.SBVCP_AnglerJr": {
+                    "Name": "skellady.SBVCP_AnglerJr",
+                    "DisplayName": "{{i18n:SBV.AnglerJr.Name}}",
+                    "Description": "{{i18n:SBV.AnglerJr.Description}}",
                     "Edibility": "10",
                     "Type": "Fish",
                     "Category": -4,
-                    "Price": 40,
+                    "Price": 900,
                     "Texture": "Mods\\skellady.SBVCP\\Fish",
-                    "SpriteIndex": 12,
+                    "SpriteIndex": 7,
                     "ContextTags": [
                         "color_brown",
-                        "item_barkfish",
-                        "fish_talk_stiff",
+                        "item_anglerjr",
                         "fish_has_roe"
                     ]
                 }
@@ -229,19 +229,19 @@
             "Action": "EditData",
             "Target": "Data/Fish",
             "Entries": {
-                "skellady.SBVCP_Mothfish": "skellady.SBVCP_Mothfish/trap/.05/682 .3/skellady.SBVCP.freshwater/2/3/false",
-                "skellady.SBVCP_FiretailGuppy": "skellady.SBVCP_FiretailGuppy/40/floater/3/16/1700 2600/fall/sunny/689 .35 682 .1/0/.3/.5/0/false",
-                "skellady.SBVCP_EmeraldSnapper": "skellady.SBVCP_EmeraldSnapper/40/mixed/8/25/600 1900/summer fall winter/rainy/682 .25/2/.45/.1/0/false",
-                "skellady.SBVCP_Aberrant": "skellady.SBVCP_Aberrant/95/mixed/20/60/600 2000/winter/both/690 .15/4/.1/.1/7/false",
-                "skellady.SBVCP_BonbonFish": "skellady.SBVCP_BonbonFish/55/dart/8/25/600 2600/spring summer fall winter/both/685 .35/3/.4/.1/0/false",
-                "skellady.SBVCP_EeltailedCatfish": "skellady.SBVCP_EeltailedCatfish/70/smooth/20/35/600 1100/spring summer/rainy/685 .35/1/.45/.1/0/false",
-                "skellady.SBVCP_Najelfish": "skellady.SBVCP_Najelfish/45/smooth/10/20/600 2200/spring summer fall winter/both/685 .35/1/.3/.5/0/false",
-                "skellady.SBVCP_AnglerJr": "skellady.SBVCP_AnglerJr/85/smooth/18/18/600 2600/fall/both/690 .1/4/.05/.1/5/false",
-                "skellady.SBVCP_ChartreuseTilapia": "skellady.SBVCP_ChartreuseTilapia/55/mixed/11/30/600 1400/summer fall/both/683 .35/3/.4/.2/0/false",
-                "skellady.SBVCP_BubblyBetta": "skellady.SBVCP_BubblyBetta/25/dart/8/20/600 2600/spring winter/both/685 .2/1/.35/.1/0/false",
                 "skellady.SBVCP_AzureanCarp": "skellady.SBVCP_AzureanCarp/15/mixed/15/50/600 2600/spring summer fall/both/682 .2/1/.45/.1/0/false",
+                "skellady.SBVCP_Barkfish": "skellady.SBVCP_Barkfish/20/smooth/6/18/600 2600/spring summer fall winter/both/682 .2/0/.5/.4/0/false",
+                "skellady.SBVCP_BonbonFish": "skellady.SBVCP_BonbonFish/55/dart/8/25/600 2600/spring summer fall winter/both/685 .35/3/.4/.1/0/false",
+                "skellady.SBVCP_BubblyBetta": "skellady.SBVCP_BubblyBetta/25/dart/8/20/600 2600/spring winter/both/685 .2/1/.35/.1/0/false",
+                "skellady.SBVCP_ChartreuseTilapia": "skellady.SBVCP_ChartreuseTilapia/55/mixed/11/30/600 1400/summer fall/both/683 .35/3/.4/.2/0/false",
+                "skellady.SBVCP_EeltailedCatfish": "skellady.SBVCP_EeltailedCatfish/70/smooth/20/35/600 1100/spring summer/rainy/685 .35/1/.45/.1/0/false",
+                "skellady.SBVCP_EmeraldSnapper": "skellady.SBVCP_EmeraldSnapper/40/mixed/8/25/600 1900/summer fall winter/rainy/682 .25/2/.45/.1/0/false",
+                "skellady.SBVCP_FiretailGuppy": "skellady.SBVCP_FiretailGuppy/40/floater/3/16/1700 2600/fall/sunny/689 .35 682 .1/0/.3/.5/0/false",
+                "skellady.SBVCP_Mothfish": "skellady.SBVCP_Mothfish/trap/.05/682 .3/skellady.SBVCP.freshwater/2/3/false",
+                "skellady.SBVCP_Najelfish": "skellady.SBVCP_Najelfish/45/smooth/10/20/600 2200/spring summer fall winter/both/685 .35/1/.3/.5/0/false",
                 "skellady.SBVCP_SeaCow": "skellady.SBVCP_SeaCow/20/sinker/108/116/600 1800/spring summer fall winter/both/682 .2/2/.10/.2/1/false",
-                "skellady.SBVCP_Barkfish": "skellady.SBVCP_Barkfish/20/smooth/6/18/600 2600/spring summer fall winter/both/682 .2/0/.5/.4/0/false"
+                "skellady.SBVCP_Aberrant": "skellady.SBVCP_Aberrant/95/mixed/20/60/600 2000/winter/both/690 .15/4/.1/.1/7/false",
+                "skellady.SBVCP_AnglerJr": "skellady.SBVCP_AnglerJr/85/smooth/18/18/600 2600/fall/both/690 .1/4/.05/.1/5/false"
             }
         },
         // Aquarium Fish Data
@@ -250,19 +250,19 @@
             "Action": "EditData",
             "Target": "Data/AquariumFish",
             "Entries": {
-                "skellady.SBVCP_Mothfish": "0/ground/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_FiretailGuppy": "1/fish/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_EmeraldSnapper": "2/fish/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_Aberrant": "3/fish/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_BonbonFish": "4/fish/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_EeltailedCatfish": "5/fish/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_Najelfish": "6/fish/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_AnglerJr": "7/fish/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_ChartreuseTilapia": "8/fish/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_BubblyBetta": "9/fish/////Mods\\skellady.SBVCP\\AquariumFish",
                 "skellady.SBVCP_AzureanCarp": "10/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_Barkfish": "12/crawl/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_BonbonFish": "4/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_BubblyBetta": "9/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_ChartreuseTilapia": "8/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_EeltailedCatfish": "5/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_EmeraldSnapper": "2/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_FiretailGuppy": "1/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_Mothfish": "0/ground/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_Najelfish": "6/fish/////Mods\\skellady.SBVCP\\AquariumFish",
                 "skellady.SBVCP_SeaCow": "11/fish/////Mods\\skellady.SBVCP\\AquariumFish",
-                "skellady.SBVCP_Barkfish": "12/crawl/////Mods\\skellady.SBVCP\\AquariumFish"
+                "skellady.SBVCP_Aberrant": "3/fish/////Mods\\skellady.SBVCP\\AquariumFish",
+                "skellady.SBVCP_AnglerJr": "7/fish/////Mods\\skellady.SBVCP\\AquariumFish"
             }
         }
     ]

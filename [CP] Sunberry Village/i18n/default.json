@@ -2431,6 +2431,16 @@
     "Mail.ReihanaSlime.Title": "Get Slimed",
     "Mail.AichaSeeds.Body": "Hi, @!!^^Guess what? I bought some seeds! Yes, with my own money! I hope you like them. I'll come by the farm to see them when they're grown. Bye, have fun! :3^^- Aicha",
     "Mail.AichaSeeds.Title": "Aicha's Seeds",
+    "Mail.EliasFishCompendiumIntro.Body": "^Hi @,^^I see you've taken an interest in Sunberry's aquatic fauna! There's an incredible array of critters unique to the waters in the region.^^I've been wanting to put together a compendium of sorts, and if you're interested I'd appreciate your assistance.^^^^^ ^Just show me anything you fish up in the village and surrounding areas, and if it's unique to Sunberry I'll write up some notes on it and add it to my book. Don't worry, you can keep the fish when I'm done with it.^^You can look through the book whenever you like; I'll keep it in the library, on the table left of the entrance.^^ ^Here's a li'l extra bait to get you started on^your journey!^^- Elias^^P.S: Yes, I used my fancy paper for this letter. I'm just happy to see someone else enjoying the rivers and lakes of Sunberry!",
+    "Mail.EliasFishCompendiumIntro.Title": "Fishy Fact Or Fishy Fiction?",
+    "Mail.EliasFishCompendiumReward1.Body": "Hi @,^^Thank you for helping me fill out the fish compendium! It's coming along nicely, though there's still plenty to discover.^^Here's a li'l somethin' to keep those fish biting!^^- Elias",
+    "Mail.EliasFishCompendiumReward1.Title": "Smooth Sailing",
+    "Mail.EliasFishCompendiumReward2.Body": "Hi @,^^Thank you again for all the work you've been putting into the fish compendium! It's over halfway complete, and I'm looking forward to seeing what you bring in next.^^Here's somethin' to help you track the rest down!^^- Elias",
+    "Mail.EliasFishCompendiumReward2.Title": "Findin' Fish, Feelin' Fine",
+    "Mail.EliasFishCompendiumReward3.Body": "Hi @,^^I'm proud to announce that the fish compendium is finally complete!^^This has been a real labor of love, and I sure couldn't have done it without you.^^Please accept this as a token of my appreciation.^^- Elias^^P.S: I added a special acknowledgment to the intro, take a peek at it next time you find yourself in the library! Thank you again for all your help, @.",
+    "Mail.EliasFishCompendiumReward3.Title": "Compendium Complete!",
+    "Mail.EliasLegendaryHint.Body": "Hi @,^^Seems like you've made quite a lot of progress on the compendium! I think I've got just the thing to help you wrap it up.^^I was cataloguing some old books that got donated to the library and never made it to the shelves, and one in particular caught my eye.^^The author details her meeting with a fisherwoman familiar with the Sunberry area, and the stories^she tells of two mysterious creatures lurking in the waters here. I've never read anything like this, but I think it's worth investigating!^^I've set it out on the table in the library, in the same room as the compendium. Take a look when you get a sec.^^ - Elias",
+    "Mail.EliasLegendaryHint.Title": "Encounters of the Aquatic Kind",
 
     //Festival Letters
     "Mail.TwilightFestival.Body": "Dear @,^^Tomorrow we're holding our annual Twilight Festival in Sunberry Village! It's similar to Pelican Town's Spirit's Eve festival, but with our own twist on it. The festival starts at 4 PM so make sure to grab the twilight feathers you've been collecting all year and come join the festivities! You'll need those feathers to trade with us. You can also drop by before 4 PM to join the villagers. We'll be around to chat and get things set up.^^ - Ophelia",
@@ -3266,7 +3276,7 @@
     "MapString.sbv.library7": "\"The Crystal Cavern, Part 2\"^^We've noticed a few locations in the caves that were monster-free. Our team took refuge in there if it got too late. On one of the levels, we ran into a beautiful, golden tree... unlike anything we've ever seen. It seemed to be producing some kind of gem, scattered all around it.^^Despite our discoveries, we have never managed to get to the bottom out of fear of losing any of our people. Our attempts have proven futile...^^-Dr. Zahra Y.",
     "MapString.sbv.library8": "\"In the Depths, Part 2\"^^A quick look at these monsters tells us a few things. One, they are nothing like the monsters in the Pelican Town mines. Two, they drop precious minerals upon perishing. Sometimes, they drop a delicate pink leaf.^^It doesn't seem to have any nutritional value, but it seems to be powerful. We'll keep experimenting to find any uses for these drops.^^The team's witch believes they can be used to brew potions, somehow.^^-Dr. Zahra Y.",
     "MapString.sbv.library9": "\"In the Depths, Part 3\"^^We've managed to study and name a few of the monsters we've come across. Crystal Menaces, Crystal Golems, and the Abominations. The most curious of all remain the Abominations. One of our scientists has managed to link them to the dwarves. They were used as sentries to keep intruders away, but eventually evolved into what they are now: Abominations. We haven't seen any proof of the dwarves' existence for centuries now. Hence, our investigation has led us to a dead end.^^-Dr. Zahra Y.",
-    "MapString.sbv.library10": "\"Secrets of the Legendary Fish: Sunberry Village Edition\"^^Fishermen speak of two rare and unique fish that can only be caught by skilled anglers. Once caught, they will never appear again.^^According to some experts, a twisted, corrupt version of the Najelfish exists. It's been rumored to live at the bottom of the Crystal Cavern, swimming in circles between the purple and gold trees. Because of its remote location and reclusive nature, most fishermen believe its existence is a myth.^^Angler Jr., a descendant of the Anglerfish, was spotted somewhere deep in the Sunberry Forest. Fishermen would have to bring along a fighter to catch this fish, as the area it lives in is dangerous. It can be caught below the waterfall during the fall season.",
+    "MapString.sbv.library10": "Placeholder",
     "MapString.sbv.pipdialogue1": "Pip: Have good goods! Look at goods!",
     "MapString.sbv.pipdialogue2": "Pip: Pip travels the world for goods! Pip has no home.",
     "MapString.sbv.pipdialogue3": "Pip: Goods prices vary! Pip needs money for more goods! :D",
@@ -3277,25 +3287,10 @@
     "MapString.sbv.pepdialogue3": "Pep growls at you. It doesn't sound very threatening.",
     "MapString.sbv.pepdialogue4": "Pep: Be nice to Pip. If you are mean to Pip, Pep will bite you.",
     "MapString.sbv.pepdialogue5": "Pep: ...What? What? Go look at goods, not Pep.",
+    "PipPepShopNotification": "Pip and Pep have set up shop today.",
     // Serenity Inn
     "MapString.sbv.inn.notenoughmoney": "You can buy a farm in Sunberry for 150,000$, but you don't have enough money. Come back when you do.",
     "MapString.sbv.inn.farmalreadypurchased": "You already purchased a farm in Sunberry.",
-
-    // Fish info book
-    "FishInfo.AzureanCarp": "Placeholder.",
-    "FishInfo.Barkfish": "Placeholder.",
-    "FishInfo.BonbonFish": "Placeholder.",
-    "FishInfo.BubblyBetta": "Placeholder.",
-    "FishInfo.ChartreuseTilapia": "Placeholder.",
-    "FishInfo.EeltailedCatfish": "Placeholder.",
-    "FishInfo.EmeraldSnapper": "Placeholder.",
-    "FishInfo.FiretailGuppy": "Placeholder.",
-    "FishInfo.Mothfish": "Placeholder.",
-    "FishInfo.Najelfish": "Placeholder.",
-    "FishInfo.SeaCow": "Placeholder.",
-    "FishInfo.NoFishPond": "The fish in the following pages have never successfully reproduced in captivity, and so very little information is known about them.",
-    "FishInfo.Aberrant": "Placeholder.",
-    "FishInfo.AnglerJr": "Placeholder.",
 
     // Unoccupied Houses
     "MapString.sbv.unoccupieddao": "An unoccupied house. You think someone adventurous would like living here. Maybe a firefighter?",
@@ -4681,7 +4676,7 @@
     "Elias.Marriage.Indoor_Night_3": "Say, why don't we go on a walk and stargaze? I'll have you know, Derya taught me all about astronomy, I can impress you with my knowledge.$u",
     "Elias.Marriage.Indoor_Night_4": "Welcome home, pumpkin. I made us some dinner. I hope you like it. [606]$h#$b#%Elias kisses your forehead as he hands you your plate.",
     "Elias.Marriage.Indoor_Night_5": "I finished the book Dr. Zahra sent me.#$b#$y '..._Did you finish it in one sitting?_...Listen, I can't help it!$12_Was it good?_It was really good. I'll keep it on my desk if you wanna give it a read.$h",
-    
+
     // Rainy Day Dialogue
     "Elias.Marriage.Rainy_Day_0": "You know what sounds good right now? Some hot cocoa and a nap after. Care to join me, darlin'?$h",
     "Elias.Marriage.Rainy_Day_1": "This is the perfect weather to be cuddled up in bed with a nice book, don't you think?$h#$b#Yes, this is my attempt at convincing you to take the day off and stay right here with me.$u",
@@ -4742,6 +4737,12 @@
     "Elias.Marriage.funReturn_1": "I got you a sprinkler. Ari had some on sale and I thought I'd bring one back. [645]$h",
     "Elias.Marriage.funReturn_2": "It was nice catchin' up with Maia and Jumana today.$h#$b#Jumana made me all my favorite dishes, I felt incredibly spoiled.$u",
     "Elias.Marriage.funReturn_3": "Apparently, Blake and Lyenne are back to their prankin' habits.$10#$b#Poor Ari, always bein' the victim of these pranks.$u",
+
+    // Fish Compendium
+    "Elias.FishCompendium.NewFish": "Well, now ain't that a fine catch! Let me take some notes real quick and I'll have it back to ya in a jiffy.$3#$b#You can check the book tomorrow to see my updated notes!$3",
+    "Elias.FishCompendium.NewFishLegendary": "What in the Sam Hill is that?! Farmer, I've been fishin' these parts for years and I've never seen a fish like that.$14#$b#Let me take some measurements on that beastie and I'll have it back to ya in a jiffy.$3#$b#You can check the book tomorrow to see my notes on... whatever that is.$3",
+    "Elias.FishCompendium.AlreadySeen": "Mighty kind of ya, farmer, but I've already got notes on this species. Here, you better hang on to it.$3",
+    "Elias.FishCompendium.AlreadySeenLegendary": "I still can't believe you pulled that thing outta the waters around here, but I've already taken notes on it, so you better hold onto it.$3",
 
     //Ezra
     "Ezra.Dialogue.Introduction": "Oh! New face! Very pretty face, if I may say so.$h#$b#I'm Ezra, you should check out my store. You could be the most chic farmer in town!$6",
@@ -6547,7 +6548,106 @@
     "MarketSpecial.SeedPacket_(O)CarrotSeeds": "carrot seeds",
     "MarketSpecial.SeedPacket_(O)SummerSquashSeeds": "summer squash seeds",
     "MarketSpecial.SeedPacket_(O)BroccoliSeeds": "broccoli seeds",
-    "MarketSpecial.SeedPacket_(O)PowdermelonSeeds": "powdermelon seeds"
+    "MarketSpecial.SeedPacket_(O)PowdermelonSeeds": "powdermelon seeds",
 
+    // Fish Compendium
 
+    // Cover page
+    "FishCompendium.Title": " ",    // translation of the title text which is baked into the letter background: "Aquatic Creatures of Sunberry Village"
+    "FishCompendium.Author": "a Compendium by Elias R.",
+
+    "FishCompendium.Intro": " ^^^This volume contains all the knowledge I have gathered about the aquatic fauna native to Sunberry Village and the surrounding area.",
+    "FishCompendium.SpecialThanks": "Special thanks to my tireless research partner, @, who provided the specimens for me to study.",
+
+    // Headers
+    "FishCompendium.LocationHeader": "Location:",
+    "FishCompendium.SeasonHeader": "Season:",
+    "FishCompendium.ConditionsHeader": "Conditions:",
+    "FishCompendium.DifficultyHeader": "Difficulty:",
+    "FishCompendium.DescriptionHeader": "Description:",
+
+    "FishCompendium.Unknown": "???",
+
+    // Pages
+    "FishCompendium.AzureanCarp.Rumor": "Fish practically throw themselves onto my rod when I try my luck up in the mountains.",
+    "FishCompendium.AzureanCarp.Location": "Mountain, Farm",
+    "FishCompendium.AzureanCarp.Season": "Spring, Summer, Fall",
+    "FishCompendium.AzureanCarp.Conditions": "Any",
+    "FishCompendium.AzureanCarp.Difficulty": "Easy",
+
+    "FishCompendium.Barkfish.Rumor": "Amina said she saw what looked like a piece of tree bark scuttling on the river floor in the forest.",
+    "FishCompendium.Barkfish.Location": "Forest",
+    "FishCompendium.Barkfish.Season": "Any",
+    "FishCompendium.Barkfish.Conditions": "Any",
+    "FishCompendium.Barkfish.Difficulty": "Easy",
+
+    "FishCompendium.BonbonFish.Rumor": "Silas mentioned seeing a big ol' fish with some wild coloration up in the mountains the other day.",
+    "FishCompendium.BonbonFish.Location": "Mountain, Farm",
+    "FishCompendium.BonbonFish.Season": "Any",
+    "FishCompendium.BonbonFish.Conditions": "Any",
+    "FishCompendium.BonbonFish.Difficulty": "Moderate",
+
+    "FishCompendium.BubblyBetta.Rumor": "I saw the cutest little pink fish in the forest. Looked like a wrapped up piece of candy.",
+    "FishCompendium.BubblyBetta.Location": "Forest",
+    "FishCompendium.BubblyBetta.Season": "Spring",
+    "FishCompendium.BubblyBetta.Conditions": "Any",
+    "FishCompendium.BubblyBetta.Difficulty": "Mild",
+
+    "FishCompendium.ChartreuseTilapia.Rumor": "Every summer and fall we get a big school of feisty green fellas setting up shop in the forest.",
+    "FishCompendium.ChartreuseTilapia.Location": "Forest",
+    "FishCompendium.ChartreuseTilapia.Season": "Summer, Fall",
+    "FishCompendium.ChartreuseTilapia.Conditions": "Any",
+    "FishCompendium.ChartreuseTilapia.Difficulty": "Moderate",
+
+    "FishCompendium.EeltailedCatfish.Rumor": "Keep your eyes peeled come springtime in the forest. These slippery devils will tear you up if you're not careful.",
+    "FishCompendium.EeltailedCatfish.Location": "Forest",
+    "FishCompendium.EeltailedCatfish.Season": "Spring",
+    "FishCompendium.EeltailedCatfish.Conditions": "Any",
+    "FishCompendium.EeltailedCatfish.Difficulty": "Hard",
+
+    "FishCompendium.EmeraldSnapper.Rumor": "In the warmer seasons, we get some snappers in the village river. They fry up real nice.",
+    "FishCompendium.EmeraldSnapper.Location": "Village",
+    "FishCompendium.EmeraldSnapper.Season": "Summer, Fall",
+    "FishCompendium.EmeraldSnapper.Conditions": "Any",
+    "FishCompendium.EmeraldSnapper.Difficulty": "Moderate",
+
+    "FishCompendium.FiretailGuppy.Rumor": "I swear the village river goes up a degree or two in the fall. But who ever heard of a warm-blooded fish?",
+    "FishCompendium.FiretailGuppy.Location": "Village",
+    "FishCompendium.FiretailGuppy.Season": "Fall",
+    "FishCompendium.FiretailGuppy.Conditions": "Any",
+    "FishCompendium.FiretailGuppy.Difficulty": "Moderate",
+
+    "FishCompendium.Mothfish.Rumor": "I keep seeing something darting around in the waters... It's too clever and quick to hook it on my rod, but you might have some luck setting a trap.",
+    "FishCompendium.Mothfish.Location": "Freshwater",
+    "FishCompendium.Mothfish.Season": "N/A",
+    "FishCompendium.Mothfish.Conditions": "N/A",
+    "FishCompendium.Mothfish.Difficulty": "N/A",
+
+    "FishCompendium.Najelfish.Rumor": "These fellas live nice long lives up in the mountains. Well, at least until you or I come along, I s'pose.",
+    "FishCompendium.Najelfish.Location": "Mountain, Farm",
+    "FishCompendium.Najelfish.Season": "Any",
+    "FishCompendium.Najelfish.Conditions": "Any",
+    "FishCompendium.Najelfish.Difficulty": "Moderate",
+
+    "FishCompendium.SeaCow.Rumor": "This odd little creature migrates upriver each year, spending spring in the forest and summer in the village.",
+    "FishCompendium.SeaCow.Location": "Forest, Village",
+    "FishCompendium.SeaCow.Season": "Spring, Summer",
+    "FishCompendium.SeaCow.Conditions": "Any",
+    "FishCompendium.SeaCow.Difficulty": "Easy",
+
+    "FishCompendium.Aberrant.Rumor": "Sightless eyes roam the deepest depths.",
+    "FishCompendium.Aberrant.Hint": "From the book I found: 'underground lake [...] monstrous shadow circling under the murky waters [...] slithering endlessly about its nest within the purple and gold saplings which grew there, as if seeking something it had no hope of finding...'",
+    "FishCompendium.Aberrant.Location": "Depths",
+    "FishCompendium.Aberrant.Season": "Any",
+    "FishCompendium.Aberrant.Conditions": "Any",
+    "FishCompendium.Aberrant.Difficulty": "Extreme",
+
+    "FishCompendium.AnglerJr.Rumor": "The forest is deep and full of secrets.",
+    "FishCompendium.AnglerJr.Hint": "From the book I found: 'deep in the forest south of the village [...] small grove, hidden well and teeming with dangerous creatures [...] in the center of the pool...'",
+    "FishCompendium.AnglerJr.Location": "Ancient Grove",
+    "FishCompendium.AnglerJr.Season": "Fall",
+    "FishCompendium.AnglerJr.Conditions": "Any",
+    "FishCompendium.AnglerJr.Difficulty": "Extreme",
+
+    "LegendaryFishHintBook": " ^[The first section of the book is barely legible, the aged ink long having smeared and run. However, you quickly spot the section that caught Elias' attention.]^^In my travels, I came across an elderly fisherwoman in a pub who promised me a good yarn in exchange for something to quench her thirst. I bought the lady a drink, and in return she regaled me with stories of her youth spent aboard fishing boats all up and down the coast. A steely glint came into her eye as she recounted tales of the only two fish ever to best her, both situated in the distant hamlet known as Sunberry Village.^^The first she discovered deep in the mines there after having tagged along for a small expedition; there had recently been a cave-in and the townspeople wanted to assess the safety of continuing operations there.^^They came across an underground lake which she initially thought devoid of life, until she saw a monstrous shadow circling under the murky waters. She described it as 'slithering endlessly about its nest within the purple and gold saplings which grew there, as if seeking something it had no hope of finding'.^^(Privately, I dismissed this as the poetic soul of an old lady who spent more time alone at sea than she did around other people.)^^The second fish she came across in the autumn. While exploring deep in the forest south of the village, she came across a small grove, hidden well and teeming with dangerous creatures. She spotted something glimmering in the center of the pool and waded in to investigate, only to find herself beset upon by an enormous anglerfish.^^(I objected to this as anglerfish are saltwater creatures, but she said it must have been stranded there during a storm.)^^The local wildlife was riled up by the commotion and she was forced to flee, never getting a chance to try to catch the creature. It's no doubt long since dead, but I wouldn't be surprised if its progeny still lurk those waters.^^[The remainder of the book describes the old woman and the narrator getting increasingly inebriated and executing a wildly improbable series of stunts that resulted in both of them being exiled from the Ferngill Republic.]"
 }

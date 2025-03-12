@@ -57,10 +57,11 @@ internal class MapManager
 
 	private static bool HandleImageViewerAction(GameLocation loc, string[] args, Farmer who, Point tile)
 	{
-		Game1.activeClickableMenu = new ImageViewerMenu(args, 0);
+		Game1.activeClickableMenu = new ImageMenu(args[1]);
 		return true;
 	}
 
+	// not sure if this is needed anymore
 	private static void RemoveDigSpotsFromMines(object sender, DayStartedEventArgs e)
 	{
 		foreach (GameLocation loc in Game1.locations.Where(loc => loc.Name.Contains("Custom_SBV_Mines")))
@@ -259,14 +260,17 @@ internal class MapManager
 			throw new Exception("Incorrect number of arguments provided to SunberryTeam.SBVSMAPI_Book action." +
 				"\nProper syntax for SunberryTeam.SBVSMAPI_Book is as follows: SunberryTeam.SBVSMAPI_Book MandatoryStringPathAndKey [OptionalStringPathAndKey] ... [OptionalStringPathAndKey] (note the lack of quotes around each parameter)" +
 				"\nString path and key formatted like so: Path\\To\\File:StringKey" +
-				"\nExample: \"SunberryTeam.SBVSMAPI_Book Strings\\StringsFromCSFiles:summer\"");
+				"\nExample: \"SunberryTeam.SBVSMAPI_Book Strings\\StringsFromCSFiles:summer\" Strings\\StringsFromCSFiles:winter\"");
 
 		// separate individual pages with a bunch of newlines - ensures pages don't bleed over onto the previous page
 		// remove 0th arg as it is the command name
-		string book = string.Join("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^", args[1..].Select(s => Game1.content.LoadString(s)));
+		//string book = string.Join("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^", args[1..].Select(s => Game1.content.LoadString(s)));
+
+		// send pages individually so that formatting doesn't get carried over between pages
+		List<string> pages = args[1..].Select(s => Game1.content.LoadString(s)).ToList();
 
 		// display letter menu with contents of pages
-		Game1.drawLetterMessage(book);
+		Game1.activeClickableMenu = BookViewerMenu.GetMenu(pages, args[1]);
 		return true;
 	}
 
@@ -280,7 +284,7 @@ internal class MapManager
 			throw new Exception("Incorrect number of arguments provided to SunberryTeam.SBVSMAPI_ChooseDestination action." +
 				"\nProper syntax for SunberryTeam.SBVSMAPI_ChooseDestination is as follows: SunberryTeam.SBVSMAPI_ChooseDestination \"[Option1StringKey]\" [x1] [y1] [LocationName1] \"[Option2StringKey]\" [x2] [y2] [LocationName2] ... \"[OptionNStringKey]\" [xN] [yN] [LocationNameN]");
 
-		List<Response> responses = new();
+		List<Response> responses = [];
 
 		for (int index = 0; index < actionParams.Length; index += 4)
 		{

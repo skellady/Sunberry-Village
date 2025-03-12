@@ -97,7 +97,7 @@
                         "8": [
                             "(O)305"
                         ]
-                    },
+                    }
                     // example of how to use custom fish pond color
                     //"CustomFields": {
                     //    "SunberryTeam.SBVSMAPI_FishPondWaterColor": "255 134 53" 
@@ -474,8 +474,25 @@
                     ],
                     "Precedence": 0,
                     "SpawnTime": 1,
+                    "WaterColor": [
+                        {
+                            "Id": "VeryBrown",
+                            "Color": "SaddleBrown",
+                            "MinPopulation": 8
+                        },
+                        {
+                            "Id": "MediumBrown",
+                            "Color": "Chocolate",
+                            "MinPopulation": 5
+                        },
+                        {
+                            "Id": "LightBrown",
+                            "Color": "SandyBrown",
+                            "MinPopulation": 2
+                        }
+                    ],
                     "ProducedItems": [
-                        // ok so basically their drops are pretty heavily gated by population, and if you don't get anything else you're always guaranteed some amount of wood based on how many you have in there
+                        // ok so basically their drops are pretty heavily gated by population, and if you don't get anything else you're always guaranteed someamountofwoo based on how many you have in there
                         {
                             "RequiredPopulation": 10,
                             "Chance": 0.1,
@@ -554,23 +571,63 @@
                             "MaxQuantity": 10
                         }
                     ],
-                    "PopulationGates": {    // the price to pay for their drops being pretty good - their quests are annoying and frequent :lmaodog:
+                    "PopulationGates": { // the price to pay for their drops being pretty good - their quests are annoying and frequent :lmaodog:
                         "3": [
-                            "(O)169 2",     // 2 driftwood
-                            "(O)153 3"      // 3 green algae
+                            "(O)169 2", // 2 driftwood
+                            "(O)153 3" // 3 green algae
                         ],
                         "5": [
-                            "(O)169 3",     // 3 driftwood
-                            "(O)153 4"      // 4 green algae
+                            "(O)169 3", // 3 driftwood
+                            "(O)153 4" // 4 green algae
                         ],
                         "7": [
-                            "(O)169 4",     // 4 driftwood
-                            "(O)153 5"      // 5 green algae
+                            "(O)169 4", // 4 driftwood
+                            "(O)153 5" // 5 green algae
                         ],
                         "10": [
-                            "(O)369 10"     // 10 quality fertilizer
+                            "(O)369 10" // 10 quality fertilizer
                         ]
                     }
+                },
+                "skellady.SBVCP_Aberrant": {
+                    "Id": "skellady.SBVCP_Aberrant",
+                    "RequiredTags": [
+                        "id_(o)skellady.SBVCP_Aberrant"
+                    ],
+                    "Precedence": 0,
+                    "MaxPopulation": 1,
+                    "SpawnTime": -1,
+                    "BaseMinProduceChance": 0.5,
+                    "BaseMaxProduceChance": 0.5,
+                    "ProducedItems": [
+                        {
+                            "Id": "Roe",
+                            "ItemId": "(O)812",
+                            "Chance": 0.75,
+                            "MinStack": 1,
+                            "MaxStack": 4
+                        }
+                    ]
+                },
+                "skellady.SBVCP_AnglerJr": {
+                    "Id": "skellady.SBVCP_AnglerJr",
+                    "RequiredTags": [
+                        "id_(o)skellady.SBVCP_AnglerJr"
+                    ],
+                    "Precedence": 0,
+                    "MaxPopulation": 1,
+                    "SpawnTime": -1,
+                    "BaseMinProduceChance": 0.5,
+                    "BaseMaxProduceChance": 0.5,
+                    "ProducedItems": [
+                        {
+                            "Id": "Roe",
+                            "ItemId": "(O)812",
+                            "Chance": 0.75,
+                            "MinStack": 1,
+                            "MaxStack": 4
+                        }
+                    ]
                 }
             }
         }
