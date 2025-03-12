@@ -1764,7 +1764,7 @@
     "event-20031460.04": "I was hoping I could... catch you... before you head off to Jumana's.$8",
     "event-20031460.05": "Oh, honey. Why were you running?! You're out of breath!$s",
     "event-20031460.06": "I... have something for you.$4",
-    "event-20031460.07": "Silas pulls out a beautiful silver bracelet adorned with an emerald. He clasps it onto Miyoung's hand.",
+    "event-20031460.07": "Silas pulls out a beautiful silver bracelet adorned with an emerald. He clasps it onto Miyoung's wrist.",
     "event-20031460.08": "!!!$4",
     "event-20031460.09": "My love... It's beautiful! Thank you so much.$4",
     "event-20031460.10": "Anything for you, my dear.$h",
@@ -4621,6 +4621,8 @@
     "Romance.SpouseStardrop.Elias": "The moment I found this fruit, I knew I had to give it to you. It felt right. Just like how being with you feels right.$h#$b#I hope you accept it as a token of my love, darlin'.$4",
     "Romance.RejectBouquet.Elias": "I'm flattered, really, but no.$8",
     "Romance.AcceptPendant.Elias": "!!!$4#$b#@, I... Wow.$13#$b#Yes, absolutely, yes! I can't believe we're gettin' married.$13#$b#Let me set up everythin', alright? We'll have the ceremony in 3 days.$4",
+    "Romance.FlowerDanceAccept.Elias": "Oh? You're takin' my advice to heart, hm? I'm impressed. I'd love to dance with you.$10",
+    "Romance.FlowerDanceDecline.Elias": "Ah, sorry, farmer. I'm not really feelin' up to it today.$9",
 
     // Elias Marriage Dialogue
 

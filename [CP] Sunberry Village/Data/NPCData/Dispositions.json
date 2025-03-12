@@ -1130,6 +1130,7 @@
                     "Optimism": "Negative",
                     "CanBeRomanced": false,
                     "CanReceiveGifts": true,
+                    "FlowerDanceCanDance": true,
                     "Calendar": "AlwaysShown",
                     "SocialTab": "UnknownUntilMet",
                     "IntroductionsQuest": true,

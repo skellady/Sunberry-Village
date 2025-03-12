@@ -8,6 +8,8 @@
 				"AcceptBouquet": "{{i18n:Romance.AcceptBouquet.Elias}}",
 				"SpouseStardrop": "{{i18n:Romance.SpouseStardrop.Elias}}",
 				"RejectBouquet": "{{i18n:Romance.RejectBouquet.Elias}}",
+				"FlowerDance_Accept": "{{i18n:Romance.FlowerDanceAccept.Elias}}",
+				"FlowerDance_Decline": "{{i18n:Romance.FlowerDanceDecline.Elias}}"
 			}
 		}
 	]
