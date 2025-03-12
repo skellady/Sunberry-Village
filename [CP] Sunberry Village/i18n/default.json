@@ -67,6 +67,7 @@
     "Sunberry.Locations.SunberryForest": "Sunberry Forest",
     "Sunberry.Locations.SunberryRoad": "Sunberry Road",
     "Sunberry.Locations.SunberryFarm": "Sunberry Farm",
+    "Sunberry.Locations.SunberryHouse": "Sunberry Farmhouse",
     "Sunberry.Locations.ForestShortcut": "Forest Shortcut",
     "Sunberry.Locations.SecretForest1": "Sunkissed Glade",
     "Sunberry.Locations.SecretForest2": "Ancient Grove",
@@ -3537,6 +3538,7 @@
     "DSVFQC.Dialogue.MaiaQueen.Jumana": "You know, Maia was the flower queen once when she was younger! She was SO shy!$6",
     //Nadia Queen
     "DSVFQC.Dialogue.NadiaQueen.Nadia": "Me? Really?$15#$b#Sorry, I'm just a little surprised, that's all.$18#$b#I'm happy too though, don't get me wrong!$4",
+    "DSVFQC.Dialogue.NadiaQueen.NadiaSpouse": "Placeholder",
     "DSVFQC.Dialogue.NadiaQueen.Ezra": "Placeholder",
     "DSVFQC.Dialogue.NadiaQueen.Iman": "Placeholder",
 
@@ -5374,6 +5376,7 @@
     "Nadia.Dialogue.winter_1": "Hm... I don't feel too cold for some reason. I'm still bundling up per Iman's request, but I'm not freezing my backside off yet.$6",
     "Nadia.Dialogue.winter_7": "Is Elias fishing at this thing tomorrow? You better watch out for that man, @.$6#$b#%Nadia clears her throat and starts imitating Elias.#$b#He's all, 'I've been fishin' since I could crawl! I caught a fish with my mouth when I was five!'.$6",
     "Nadia.Dialogue.winter_14": "You know, I'm not sure I've been around for the night market before. Or I never really went to check it out I guess. I'll make sure to drop by this time and see what it's all about.$h",
+    "Nadia.Dialogue.winter_15": "The night market is so cool! Why'd no one tell me before?$6",
     "Nadia.Dialogue.winter_24": "Damn, time goes by a lot faster in the Valley, huh? Happy new year, almost. I'm excited to find out who my gift giver is.$h",
 
     //Days of The Week
