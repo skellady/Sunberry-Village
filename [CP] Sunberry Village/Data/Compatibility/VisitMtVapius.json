@@ -50,6 +50,9 @@
                     "Condition": "LOCATION_SEASON Here spring summer fall, WEATHER Here rain",
                     "Chance": 0.5
                 }
+            },
+            "When": {
+                "HasMod": "Lumisteria.MtVapius" 
             }
         }
     ]

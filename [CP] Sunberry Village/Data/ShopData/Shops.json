@@ -680,7 +680,7 @@
                             "Price": 50
                         },
                         {
-                            "Id": "skellady.SBVCP_JumanaShop.SunflowerSeeds",
+                            "Id": "skellady.SBVCP_JumanaShop.SunflowerSeedsSummer",
                             "ItemId": "(O)431",
                             "Condition": "SEASON summer",
                             "Price": 120
@@ -721,7 +721,7 @@
                             "Price": 40
                         },
                         {
-                            "Id": "skellady.SBVCP_JumanaShop.SunflowerSeeds",
+                            "Id": "skellady.SBVCP_JumanaShop.SunflowerSeedsFall",
                             "ItemId": "(O)431",
                             "Condition": "SEASON fall",
                             "Price": 120
