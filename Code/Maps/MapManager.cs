@@ -53,7 +53,29 @@ internal class MapManager
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MarketDailySpecial", HandleMarketDailySpecialAction);
         GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MineLadder", HandleLadderWarpAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ImageViewer", HandleImageViewerAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_StringPool", HandleStringPoolAction);
     }
+
+	private static bool HandleStringPoolAction(GameLocation loc, string[] args, Farmer who, Point tile)
+	{
+		if (!ArgUtility.TryGet(args, 1, out string poolId, out string error, false, "string pool ID"))
+		{
+			Log.Error($"Failed to retrieve string from pool: {error}");
+			return false;
+		}
+
+		string message = StringPoolManager.GetString(poolId, out error);
+
+		if (!string.IsNullOrEmpty(error))
+		{
+			Log.Error($"Failed to retrieve string from pool \"{poolId}\": {error}");
+			return false;
+		}
+
+		Game1.drawObjectDialogue(message);
+
+		return true;
+	}
 
 	private static bool HandleImageViewerAction(GameLocation loc, string[] args, Farmer who, Point tile)
 	{

@@ -32,5 +32,6 @@ internal class EventHookManager
 		SunberrySpecialOrdersBoard.AddEventHooks();
 		ImageMenuManager.AddEventHooks();
 		PipPepShopNotification.AddEventHooks();
+		StringPoolManager.AddEventHooks();
 	}
 }

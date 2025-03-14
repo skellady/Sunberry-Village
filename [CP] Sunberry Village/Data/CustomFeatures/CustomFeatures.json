@@ -269,12 +269,49 @@
                                 "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 210
                             }
                         }
-                    ] 
+                    ]
                 }
             },
             "When": {
                 "HasMod": "Lumisteria.MtVapius"
-            } 
+            }
+        },
+        {
+            "LogName": "String Pool Test",
+            "Action": "EditData",
+            "Target": "SunberryTeam.SBVSMAPI/StringPools",
+            "Entries": {
+                "BetaTesters": {
+                    "Messages": {
+                        "Test1": {
+                            "Message": "Test string 1"
+                        },
+                        "Test2": {
+                            "Message": "Test string 2"
+                        },
+                        "Test3": {
+                            "Message": "Test string 3"
+                        }
+                    }
+                }
+            }
+        },
+        {
+            "LogName": "String Pool Test Map Property",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryLibrary",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 20,
+                        "Y": 9
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "SunberryTeam.SBVSMAPI_StringPool BetaTesters"
+                    }
+                }
+            ]
         }
     ]
 }

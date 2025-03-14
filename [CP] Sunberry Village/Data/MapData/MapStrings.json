@@ -603,16 +603,16 @@
                         "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary5"
                     }
                 },
-                {
-                    "Position": {
-                        "X": 20,
-                        "Y": 9
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary10"
-                    }
-                }
+                //{
+                //    "Position": {
+                //        "X": 20,
+                //        "Y": 9
+                //    },
+                //    "Layer": "Buildings",
+                //    "SetProperties": {
+                //        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary10"
+                //    }
+                //}
             ]
         },
         {
