@@ -4506,7 +4506,7 @@
     "Blake.Dialogue.Sun6": "My dad's inability to operate an electronic device will never not be funny to me. First thing I heard in the morning was, \"Blake! The phone's yelling at me again... Oh no, why is it in a different language now?\"$u",
 
     //8 hearts
-    "Blake.Dialogue.Mon8": "You know, my classes are fun now that I'm actually studying something I like. Who would've thought?$8",
+    "Blake.Dialogue.Mon8": "$query PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_BlakeMajorChange#I'm slogging through my classes. Whoever said college is fun is a liar.$s|You know, my classes are fun now that I'm actually studying something I like. Who would've thought?$8",
     "Blake.Dialogue.Tue8": "Hey, I found this the other day while I was out in the forest and I thought you might find some use for it.#$b#I thought about giving it to Diala, but she probably already has one. [540 545 577]$h",
     "Blake.Dialogue.Wed8": "I'm glad we've gotten closer. I love Lyenne to bits, but it's always nice to expand my circle.$h#$b#...Damn, my father was right again.$s",
     "Blake.Dialogue.Thu8": "%Blake is looking at his phone intently.#$b#Sorry, @. Lyenne and I are playing a monster hunting game and she's catching them all. I'll talk to you later.$6",
