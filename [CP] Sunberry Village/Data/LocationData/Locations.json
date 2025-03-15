@@ -666,7 +666,8 @@
                 },
                 "Custom_SBV_SunberryFarm": {
                     "CreateOnLoad": {
-                        "MapPath": "Maps/Custom_SBV_SunberryFarm"
+                        "MapPath": "Maps/Custom_SBV_SunberryFarm",
+                        "AlwaysActive": true
                     },
                     "DisplayName": "{{i18n:Sunberry.Locations.SunberryFarm}}",
                     "DefaultArrivalTile": {
