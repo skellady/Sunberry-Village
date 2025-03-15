@@ -4,6 +4,8 @@
   <property name="DayTiles" value="AlwaysFront 59 14 369 AlwaysFront 28 7 369 AlwaysFront 13 7 369 AlwaysFront 5 13 369 AlwaysFront 6 41 369 AlwaysFront 34 40 369 AlwaysFront 40 40 369 AlwaysFront 59 41 369"/>
   <property name="Light" value="59 14 4 28 7 4 13 7 4 5 13 4 6 41 4 34 40 4 40 40 4 59 41 4"/>
   <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
+  <property name="CanBuildHere" value="T"/>
+  <property name="BuildConditions" value="Any \"PLAYER_HAS_MAIL Any SBVFarmPurchased Any\" \"PLAYER_HAS_MAIL Any SBVFarmPurchasedFR Any\""/>
   <property name="NightTiles" value="AlwaysFront 59 14 368 AlwaysFront 28 7 368 AlwaysFront 13 7 368 AlwaysFront 5 13 368 AlwaysFront 6 41 368 AlwaysFront 34 40 368 AlwaysFront 40 40 368 AlwaysFront 59 41 368"/>
   <property name="Outdoors" value="T"/>
  </properties>
