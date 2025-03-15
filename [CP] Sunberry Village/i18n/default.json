@@ -6148,6 +6148,7 @@
     "Amina.Dialogue.ReihanaIntro": "I'm scared, but I want to be strong like my mom.$s#$b#Those girls that showed up in town, they're not gonna hurt us, right?$s",
     "Amina.Dialogue.RaccoonToy": "Vincent told us a raccoon stole one of his toys. Do you think he's telling the truth?$3",
     "Amina.Dialogue.AriGetsSlimed": "Mom said I shouldn't do stuff like what Blake and Lyenne did with that slime, but... it looked pretty fun.$4#$b#You won't tell on me if I do a prank, will you?$3",
+    "Amina.Dialogue.EliasCompendiumComplete": "I was at the library earlier and Elias showed me the copend- the comped- um, the book he wrote about all our fish!$1#$b#He said you helped him a lot with it, that was really nice of you.$3",
 
     //Ari
     "Ari.Dialogue.cc_Complete": "I'm glad to hear the community center is up and running again. It'll be good for the villagers.$h",
@@ -6167,6 +6168,7 @@
     "Ari.Dialogue.RaccoonFertilizer": "HAH! Apparently, that raccoon managed to snag one of Pierre's fertilizer. Oh, @, you should've seen the way he was chasing him.$u",
     "Ari.Dialogue.AriGetsSlimed": "Hey, @. Don't worry, I know you weren't behind that little stunt with the slime earlier.$0#$b#Truth be told, once I'd calmed down and cleaned off, it was a little bit funny.$7#$b#Blake will never hear this from me, but... I used to be a bit of a troublemaker in my youth, if you can believe it.$12#$b#Of course, that doesn't mean he's off the hook. I'll have him doing chores around the shop for weeks.$6",
     "Ari.Dialogue.EliasHouseBegin": "Hm? Elias is...?#$b#HE'S WHAT? I can't believe that man. I swear, he's allergic to asking people for help.$a",
+    "Ari.Dialogue.EliasCompendiumComplete": "Elias dropped by earlier to show me the finished compendium. He's so proud of that thing, Blake might start getting jealous!$3#$b#Thank you for helping him with it. I know how he gets with these little projects of his, and I don't plan to pick up a fishing rod ever again if I can help it.$9",
 
     //Blake
     "Blake.Dialogue.cc_Complete": "You fixed up the community center? That's so cool! Maybe we can start hanging out there sometime.$h",
@@ -6185,6 +6187,7 @@
     "Blake.Dialogue.ReihanaIntro": "God, I can't believe we like, ACTUALLY saw that! Lyenne would've never believed me if she wasn't there to see Diala summon those demons.$u",
     "Blake.Dialogue.AriGetsSlimed": "Oh, hey. You probably guessed that the slime prank was supposed to be on you and not my dad.$8#$b#I'm basically gonna be living in the market for the next week or two. Don't worry, I totally learned my lesson.$12",
     "Blake.Dialogue.EliasHouseBegin": "Hey, @. How's it going?#$b#$y '..._Your father is renovating the old house by the fountain._Wait... that's awesome! I've got to talk him into making me a room over there.$u'",
+    "Blake.Dialogue.EliasCompendiumComplete": "Dad showed me the book that the two of you have been working on! He said it's all finished up.$1#$b#It looks pretty cool, I gotta say.$3",
 
     //Diala
     "Diala.Dialogue.cc_Complete": "@! We heard the good news.$h#$b#Congrats on fixing up the community center!$u",
@@ -6281,6 +6284,7 @@
     "Elias.Dialogue.RaccoonBook": "%Elias is grumbling.#$b#Damn raccoon, I'm never leavin' the library door open while I organize the bookshelves. Takin' books like they belong to him, hmph.$a",
     "Elias.Dialogue.AriGetsSlimed": "Howdy, @. Ari marched our boy over here to tell me what he'd done himself.$1#$b#I had to act upset, but honestly? Blake's li'l prank pales in comparison to half the stuff his dad used to pull off.$3#$b#Oh, the stories I could tell...$11#$b#Ari probably wouldn't be too happy with me if I did, though.$3",
     "Elias.Dialogue.EliasHouseBegin": "Thanks again for droppin' by and for agreein' to spread the word. I hope no one's given you any trouble.$10",
+    "Elias.Dialogue.EliasCompendiumComplete": "Hey, farmer. Thanks for all your help with the compendium.$1#$b#You must have fishing in your blood, the way you hooked all those beauties!$3",
 
     //Ezra
     "Ezra.Dialogue.cc_Complete": "Ah! I heard the community center's fixed up! That's wonderful news.$h#$b#I wonder if the townsfolk would mind me doing a little advertising over there.$u",
@@ -6349,6 +6353,7 @@
     "Lyenne.Dialogue.PTJ03": "Abby's so funny. She told me all about the prank they pulled at Joja. Absolutely deserved.$u",
     "Lyenne.Dialogue.AriGetsSlimed": "Hey, sorry about, uh, trying to dump a bucket of slime on you.$4#$b#That was maybe not one of our most well-planned pranks.$3#$b#Ophelia hasn't said anything to me about it yet, but I wish she'd just get it over with. I hate the waiting more than the scolding.$7",
     "Lyenne.Dialogue.EliasHouseBegin": "Hey, @! Sorry, I'm all over the place today. I had to submit an assignment last minute and it threw me off.$7#$b#$y '..._Elias is renovating his old house._...YES! If he's giving Blake a room, he better buy two beds.$6'",
+    "Lyenne.Dialogue.EliasCompendiumComplete": "Elias showed me and Blake the book you two've been working on together! It's super cool.$3#$b#Maybe sometime I could show you some of my writing and see what you think?$4",
 
     //Maia
     "Maia.Dialogue.cc_Complete": "Glad to see the community center restored. Maybe Silas and I will join Clint to help out.$h",
@@ -6366,6 +6371,7 @@
     "Maia.Dialogue.ReihanaIntro": "Ugh... I had a sword on me but I didn't think it'd be wise to pull it out when I don't know what these demons are capable of. It's best to know your enemy first.$7",
     "Maia.Dialogue.AriGetsSlimed": "Poor Ari, I heard about the slime incident from Elias.$2#$b#I know he loves those kids to death, but I'm sure he could do without all the pranks.$0",
     "Maia.Dialogue.EliasHouseBegin": "*yawn*... Oh, hey, @... Huh?#$b#...Okay, I'll need Elias himself to confirm this information. I never thought I'd see the day. Props to whoever convinced him, that man is stubborn as hell.$h",
+    "Maia.Dialogue.EliasCompendiumComplete": "Hey, @. Elias was so excited to show me his finished compendium earlier. I hadn't even had my morning coffee yet.$0#$b#But I guess as long as he's not waving another slimy fish in my face first thing in the morning, I'm happy.$1",
 
     //Miyoung
     "Miyoung.Dialogue.cc_Complete": "I heard about the community center! That's wonderful news. Maybe Eve, Jumana and I could start hanging out there, now.$u",
@@ -6574,7 +6580,7 @@
     // Fish Compendium
 
     // Cover page
-    "FishCompendium.Title": " ",    // translation of the title text which is baked into the letter background: "Aquatic Creatures of Sunberry Village"
+    "FishCompendium.Title": " ", // translation of the title text which is baked into the letter background: "Aquatic Creatures of Sunberry Village"
     "FishCompendium.Author": "a Compendium by Elias R.",
 
     "FishCompendium.Intro": " ^^^This volume contains all the knowledge I have gathered about the aquatic fauna native to Sunberry Village and the surrounding area.",

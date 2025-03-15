@@ -64,6 +64,8 @@ internal class EventCommandManager
 			if (!WarpOut.IsActive)
 				ev.CurrentCommand++;
 		});
+
+		// lighting stuff (thank u sheku)
 		Event.RegisterCommand("SunberryTeam.SBVSMAPI_AddLight", (ev, args, eventContext) =>
 		{
 			if (!ArgUtility.TryGetInt(args, 2, out var lightIndex, out var error, "lightIndex" ) ||

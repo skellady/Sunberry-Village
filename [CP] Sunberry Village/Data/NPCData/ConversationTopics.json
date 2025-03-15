@@ -44,6 +44,7 @@
                 "ReihanaIntro": "{{i18n:Amina.Dialogue.ReihanaIntro}}",
                 "RaccoonToy": "{{i18n:Amina.Dialogue.RaccoonToy}}",
                 "AriGetsSlimed": "{{i18n:Amina.Dialogue.AriGetsSlimed}}",
+                "EliasCompendiumComplete": "{{i18n:Amina.Dialogue.EliasCompendiumComplete}}"
             }
         },
         {
@@ -67,7 +68,8 @@
                 "RaccoonGlasses": "{{i18n:Ari.Dialogue.RaccoonGlasses}}",
                 "RaccoonFertilizer": "{{i18n:Ari.Dialogue.RaccoonFertilizer}}",
                 "AriGetsSlimed": "{{i18n:Ari.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Ari.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Ari.Dialogue.EliasHouseBegin}}",
+                "EliasCompendiumComplete": "{{i18n:Ari.Dialogue.EliasCompendiumComplete}}"
             }
         },
         {
@@ -90,7 +92,8 @@
                 "luauPoisoned": "{{i18n:Blake.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Blake.Dialogue.ReihanaIntro}}",
                 "AriGetsSlimed": "{{i18n:Blake.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Blake.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Blake.Dialogue.EliasHouseBegin}}",
+                "EliasCompendiumComplete": "{{i18n:Blake.Dialogue.EliasCompendiumComplete}}"
             }
         },
         {
@@ -201,7 +204,8 @@
                 "ReihanaIntro": "{{i18n:Elias.Dialogue.ReihanaIntro}}",
                 "RaccoonBook": "{{i18n:Elias.Dialogue.RaccoonBook}}",
                 "AriGetsSlimed": "{{i18n:Elias.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Elias.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Elias.Dialogue.EliasHouseBegin}}",
+                "EliasCompendiumComplete": "{{i18n:Elias.Dialogue.EliasCompendiumComplete}}"
             }
         },
         {
@@ -289,7 +293,8 @@
                 "ReihanaIntro": "{{i18n:Lyenne.Dialogue.ReihanaIntro}}",
                 "PTJ03": "{{i18n:Lyenne.Dialogue.PTJ03}}",
                 "AriGetsSlimed": "{{i18n:Lyenne.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Lyenne.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Lyenne.Dialogue.EliasHouseBegin}}",
+                "EliasCompendiumComplete": "{{i18n:Lyenne.Dialogue.EliasCompendiumComplete}}"
             }
         },
         {
@@ -311,7 +316,8 @@
                 "luauPoisoned": "{{i18n:Maia.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Maia.Dialogue.ReihanaIntro}}",
                 "AriGetsSlimed": "{{i18n:Maia.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Maia.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Maia.Dialogue.EliasHouseBegin}}",
+                "EliasCompendiumComplete": "{{i18n:Maia.Dialogue.EliasCompendiumComplete}}"
             }
         },
         {

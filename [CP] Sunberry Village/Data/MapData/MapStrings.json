@@ -145,7 +145,7 @@
                 "sbv.pipdialogue": "{{Random: {{i18n:MapString.sbv.pipdialogue1}} ++ {{i18n:MapString.sbv.pipdialogue2}} ++ {{i18n:MapString.sbv.pipdialogue3}} ++ {{i18n:MapString.sbv.pipdialogue4}} ++ {{i18n:MapString.sbv.pipdialogue5}} |inputSeparator=++}}",
                 "sbv.pepdialogue": "{{Random: {{i18n:MapString.sbv.pepdialogue1}} ++ {{i18n:MapString.sbv.pepdialogue2}} ++ {{i18n:MapString.sbv.pepdialogue3}} ++ {{i18n:MapString.sbv.pepdialogue4}} ++ {{i18n:MapString.sbv.pepdialogue5}} |inputSeparator=++}}",
                 "SBV.PipPepShopNotification": "{{i18n:PipPepShopNotification}}"
-                
+
             }
         },
         {
@@ -523,8 +523,7 @@
                 "MapString.sbvlibrary6": "{{i18n:MapString.sbv.library6}}",
                 "MapString.sbvlibrary7": "{{i18n:MapString.sbv.library7}}",
                 "MapString.sbvlibrary8": "{{i18n:MapString.sbv.library8}}",
-                "MapString.sbvlibrary9": "{{i18n:MapString.sbv.library9}}",
-                "MapString.sbvlibrary10": "{{i18n:MapString.sbv.library10}}"
+                "MapString.sbvlibrary9": "{{i18n:MapString.sbv.library9}}"
             }
         },
         {
@@ -602,7 +601,7 @@
                     "SetProperties": {
                         "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary5"
                     }
-                },
+                }
                 //{
                 //    "Position": {
                 //        "X": 20,

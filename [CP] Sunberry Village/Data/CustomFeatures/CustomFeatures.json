@@ -283,14 +283,107 @@
             "Entries": {
                 "BetaTesters": {
                     "Messages": {
-                        "Test1": {
-                            "Message": "Test string 1"
+                        "skellady.SBVCP_Beta1": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta1}}"
                         },
-                        "Test2": {
-                            "Message": "Test string 2"
+                        "skellady.SBVCP_Beta2": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta2}}"
                         },
-                        "Test3": {
-                            "Message": "Test string 3"
+                        "skellady.SBVCP_Beta3": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta3}}"
+                        },
+                        "skellady.SBVCP_Beta4": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta4}}"
+                        },
+                        "skellady.SBVCP_Beta5": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta5}}"
+                        },
+                        "skellady.SBVCP_Beta6": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta6}}"
+                        },
+                        "skellady.SBVCP_Beta7": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta7}}"
+                        },
+                        "skellady.SBVCP_Beta8": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta8}}"
+                        },
+                        "skellady.SBVCP_Beta9": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta9}}"
+                        },
+                        "skellady.SBVCP_Beta10": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta10}}"
+                        },
+                        "skellady.SBVCP_Beta11": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta11}}"
+                        },
+                        "skellady.SBVCP_Beta12": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta12}}"
+                        },
+                        "skellady.SBVCP_Beta13": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta13}}"
+                        },
+                        "skellady.SBVCP_Beta14": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta14}}"
+                        },
+                        "skellady.SBVCP_Beta15": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta15}}"
+                        },
+                        "skellady.SBVCP_Beta16": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta16}}"
+                        },
+                        "skellady.SBVCP_Beta17": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta17}}"
+                        },
+                        "skellady.SBVCP_Beta18": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta18}}"
+                        },
+                        "skellady.SBVCP_Beta19": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta19}}"
+                        },
+                        "skellady.SBVCP_Beta20": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta20}}"
+                        },
+                        "skellady.SBVCP_Beta21": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta21}}"
+                        },
+                        "skellady.SBVCP_Beta22": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta22}}"
+                        },
+                        "skellady.SBVCP_Beta23": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta23}}"
+                        },
+                        "skellady.SBVCP_Beta24": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta24}}"
+                        },
+                        "skellady.SBVCP_Beta25": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta25}}"
+                        },
+                        "skellady.SBVCP_Beta26": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta26}}"
+                        },
+                        "skellady.SBVCP_Beta27": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta27}}"
+                        },
+                        "skellady.SBVCP_Beta28": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta28}}"
+                        },
+                        "skellady.SBVCP_Beta29": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta29}}"
+                        },
+                        "skellady.SBVCP_Beta30": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta30}}"
+                        },
+                        "skellady.SBVCP_Beta31": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta31}}"
+                        },
+                        "skellady.SBVCP_Beta32": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta32}}"
+                        },
+                        "skellady.SBVCP_Beta33": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta33}}"
+                        },
+                        "skellady.SBVCP_Beta34": {
+                            "Message": "{{i18n:MapString.sbv.librarybeta34}}"
                         }
                     }
                 }

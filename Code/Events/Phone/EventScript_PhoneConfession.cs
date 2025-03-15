@@ -19,8 +19,12 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 	private static Texture2D _messageTexture;
 	private static Texture2D _phoneUiTexture;
 
+	private static string TranslatedContactName;
+
 	private readonly MessageList Messages;
 
+	private int fadeInTimer = 60;
+	private int fadeOutTimer = 60;
 	private int timer;
 	private bool done;
 
@@ -36,19 +40,24 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 		_phonePositionOffset = new Vector2(_phoneTexture.Width * 2, _phoneTexture.Height * 2);
 		_phonePosition = _screenCenterPosition - _phonePositionOffset;
 
-		Messages = new MessageList(this);
-		Messages.Messages.AddRange(new MessageBox[]
-		{
-			new("no u", MessageBox.MessageSource.Derya),
-			new("ur the best <", MessageBox.MessageSource.Diala),
-			new("got u some chocolate", MessageBox.MessageSource.Derya),
-			new("Yesterday", MessageBox.MessageSource.System),
-			new("filler messageeee", MessageBox.MessageSource.Derya),
-			new("more filler", MessageBox.MessageSource.Derya),
-			new("more filler", MessageBox.MessageSource.Derya),
-		});
+		List<MessageBox> ChronologicalList =
+		[
+			new(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.1"), MessageBox.MessageSource.Derya),
+			new(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.2"), MessageBox.MessageSource.Diala),
+			new(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.3"), MessageBox.MessageSource.Derya),
+			new(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.4"), MessageBox.MessageSource.Derya),
+			new(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.5"), MessageBox.MessageSource.Diala),
+			new(Utils.GetTranslationWithPlaceholder("PhoneConfession.System.Yesterday"), MessageBox.MessageSource.System),
+			new(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.6"), MessageBox.MessageSource.Derya),
+			new(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.7") + " <", MessageBox.MessageSource.Diala),
+			new(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.8"), MessageBox.MessageSource.Derya)
+		];
+		ChronologicalList.Reverse();
 
-		// hesitation to send message - ... shows up then goes away, then shows up, then goes away
+		Messages = new MessageList(this);
+		Messages.Messages.AddRange(ChronologicalList);
+
+		TranslatedContactName = Game1.getCharacterFromName("DialaSBV").getName();
 
 		timer = 0;
 	}
@@ -97,9 +106,9 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 
 		b.DrawString(
 			spriteFont: Game1.smallFont,
-			text: "Derya",
+			text: TranslatedContactName,
 			//position: _textPos,
-			new Vector2(_screenCenterPosition.X - 34, _phonePosition.Y + 172),
+			new Vector2(_screenCenterPosition.X - 30, _phonePosition.Y + 174),
 			color: Color.Black,
 			0f,
 			Vector2.Zero,
@@ -107,6 +116,32 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 			SpriteEffects.None,
 			0.51f
 		);
+
+		// draw fade
+		b.Draw(
+			texture: Game1.staminaRect,
+			destinationRectangle: new Rectangle(0, 0, 1920, 1080),
+			sourceRectangle: Game1.staminaRect.Bounds,
+			color: Color.Black * ((float)fadeInTimer / 60),
+			rotation: 0f,
+			origin: Vector2.Zero,
+			effects: SpriteEffects.None,
+			layerDepth: 0f
+		);
+
+		if (done)
+		{
+			b.Draw(
+				texture: Game1.staminaRect,
+				destinationRectangle: new Rectangle(0, 0, 1920, 1080),
+				sourceRectangle: Game1.staminaRect.Bounds,
+				color: Color.Black * ((float)(60 - fadeOutTimer) / 60),
+				rotation: 0f,
+				origin: Vector2.Zero,
+				effects: SpriteEffects.None,
+				layerDepth: 0f
+			);
+		}
 	}
 
 	public void draw(SpriteBatch b) { }
@@ -116,11 +151,29 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 		_screenCenterPosition = new Vector2(Game1.graphics.GraphicsDevice.Viewport.Width / 2f,
 			Game1.graphics.GraphicsDevice.Viewport.Height / 2f);
 
+		if (fadeInTimer > 0)
+		{
+			fadeInTimer--;
+			return false;
+		}
+
+		if (done)
+		{
+			// ReSharper disable once InvertIf
+			if (fadeOutTimer > 0)
+			{
+				fadeOutTimer--;
+				return false;
+			}
+
+			return true;
+		}
+
 		timer++;
 
 		Messages.Update(timer);
 
-		return done;
+		return false;
 	}
 
 	internal class MessageBox
@@ -135,8 +188,8 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 
 		internal enum MessageSource
 		{
-			Derya,
 			Diala,
+			Derya,
 			System
 		}
 
@@ -161,7 +214,7 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 		{
 			switch (Source)
 			{
-				case MessageSource.Derya:
+				case MessageSource.Diala:
 				{
 					IClickableMenu.drawTextureBox(b: b,
 						texture: _messageTexture,
@@ -190,7 +243,7 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 					break;
 				}
 
-				case MessageSource.Diala:
+				case MessageSource.Derya:
 				{
 					IClickableMenu.drawTextureBox(b: b,
 						texture: _messageTexture,
@@ -236,7 +289,7 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 				}
 
 				default:
-					throw new ArgumentOutOfRangeException();
+					throw new Exception("Message source not recognized.");
 			}
 		}
 
@@ -252,7 +305,7 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 				return;
 			}
 
-			if (time % 60 != 0)
+			if (time % 30 != 0)
 				return;
 
 			switch (DisplayContents)
@@ -286,7 +339,7 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 		internal MessageList(EventScriptPhoneConfession script)
 		{
 			Script = script;
-			Messages = new List<MessageBox>();
+			Messages = [];
 			InitializeTimedActions();
 		}
 
@@ -317,11 +370,13 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 
 		private void InitializeTimedActions()
 		{
+			// hesitation to send message - ... shows up then goes away, then shows up, then goes away
+
 			TimedActions = new Dictionary<int, Action>
 			{
 				[SecondsToTicks(3)] = () =>
 				{
-					Messages.Insert(0, new MessageBox("i think im in love u", MessageBox.MessageSource.Diala, true));
+					Messages.Insert(0, new MessageBox(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.9"), MessageBox.MessageSource.Diala, true));
 				},
 				[SecondsToTicks(7)] = () =>
 				{
@@ -329,7 +384,7 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 				},
 				[SecondsToTicks(9)] = () =>
 				{
-					Messages.Insert(0, new MessageBox("i think im in love u", MessageBox.MessageSource.Diala, true));
+					Messages.Insert(0, new MessageBox(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.9"), MessageBox.MessageSource.Diala, true));
 				},
 				[SecondsToTicks(11)] = () =>
 				{
@@ -337,32 +392,32 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 				},
 				[SecondsToTicks(14)] = () =>
 				{
-					Messages.Insert(0, new MessageBox("i think im in love u", MessageBox.MessageSource.Diala, true));
+					Messages.Insert(0, new MessageBox(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.9"), MessageBox.MessageSource.Diala, true));
 				},
-				[SecondsToTicks(17.5f)] = () =>
+				[SecondsToTicks(17.8f)] = () =>
 				{
 					Messages[0].Typing = false;
-					Messages.Insert(1, new MessageBox("Today", MessageBox.MessageSource.System));
+					Messages.Insert(1, new MessageBox(Utils.GetTranslationWithPlaceholder("PhoneConfession.System.Today"), MessageBox.MessageSource.System));
 				},
-				[SecondsToTicks(18.5f)] = () =>
+				[SecondsToTicks(18.6f)] = () =>
 				{
-					Messages.Insert(0, new MessageBox("witj", MessageBox.MessageSource.Diala, true));
+					Messages.Insert(0, new MessageBox(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.10"), MessageBox.MessageSource.Diala, true));
 				},
-				[SecondsToTicks(19f)] = () =>
+				[SecondsToTicks(19.5f)] = () =>
 				{
 					Messages[0].Typing = false;
 				},
 				[SecondsToTicks(20.5f)] = () =>
 				{
-					Messages.Insert(0, new MessageBox("WITH", MessageBox.MessageSource.Diala, true));
+					Messages.Insert(0, new MessageBox(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.11")+"*", MessageBox.MessageSource.Diala, true));
 				},
-				[SecondsToTicks(21)] = () =>
+				[SecondsToTicks(21.1f)] = () =>
 				{
 					Messages[0].Typing = false;
 				},
 				[SecondsToTicks(22)] = () =>
 				{
-					Messages.Insert(0, new MessageBox("WITH YOU", MessageBox.MessageSource.Diala, true));
+					Messages.Insert(0, new MessageBox(Utils.GetTranslationWithPlaceholder("PhoneConfession.Message.12"), MessageBox.MessageSource.Diala, true));
 				},
 				[SecondsToTicks(23.5f)] = () =>
 				{
@@ -382,7 +437,7 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 			//new("Today", MessageBox.MessageSource.System),
 		}
 
-		private int SecondsToTicks(float seconds)
+		private static int SecondsToTicks(float seconds)
 		{
 			return (int) seconds * 60;
 		}

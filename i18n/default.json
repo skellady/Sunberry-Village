@@ -61,5 +61,21 @@
     "MarketDailySpecialNotEnoughMoney2": "Nuh uh. Put that back, {0}. You'll need to pay the full amount up front, I'm afraid.$8", // try to buy it but don't have enough
     "MarketDailySpecialPurchased1": "Enjoy! Make sure to come back tomorrow to check out the new offer.$h",
     "MarketDailySpecialPurchased2": "Enjoy your purchase! You won't find anything this good at Pierre's!$h", // successfully bought it
-    "MarketDailySpecialQuantityIndicator": "x" // the 'x' in, for example, "Tea Sapling x 5", to indicate there are 5 tea saplings
+    "MarketDailySpecialQuantityIndicator": "x", // the 'x' in, for example, "Tea Sapling x 5", to indicate there are 5 tea saplings
+
+    // Phone Confession
+    "PhoneConfession.System.Today": "Today",
+    "PhoneConfession.System.Yesterday": "Yesterday",
+    "PhoneConfession.Message.1": "going to Ari's, do you need anything",
+    "PhoneConfession.Message.2": "ice creammm",
+    "PhoneConfession.Message.3": "lol ok",
+    "PhoneConfession.Message.4": "you have to share this time tho",
+    "PhoneConfession.Message.5": "... no promises",
+    "PhoneConfession.Message.6": "got u some chocolate",
+    "PhoneConfession.Message.7": "ur the best",
+    "PhoneConfession.Message.8": "no u",
+    "PhoneConfession.Message.9": "i think im in love u",
+    "PhoneConfession.Message.10": "witj",
+    "PhoneConfession.Message.11": "WITH",
+    "PhoneConfession.Message.12": "WITH YOU"
 }

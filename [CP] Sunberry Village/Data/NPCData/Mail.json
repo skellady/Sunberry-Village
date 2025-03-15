@@ -67,7 +67,7 @@
                 "skellady.SBVCP_EliasFishCompendiumIntro": "{{i18n:Mail.EliasFishCompendiumIntro.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]%item id (O)DeluxeBait 5 %%[#]{{i18n:Mail.EliasFishCompendiumIntro.Title}}",
                 "skellady.SBVCP_EliasFishCompendiumReward1": "{{i18n:Mail.EliasFishCompendiumReward1.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]%item id (O)687 1 %%[#]{{i18n:Mail.EliasFishCompendiumReward1.Title}}",
                 "skellady.SBVCP_EliasFishCompendiumReward2": "{{i18n:Mail.EliasFishCompendiumReward2.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]%item id (O)856 1 %%[#]{{i18n:Mail.EliasFishCompendiumReward2.Title}}",
-                "skellady.SBVCP_EliasFishCompendiumReward3": "{{i18n:Mail.EliasFishCompendiumReward3.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]%action AddFriendshipPoints EliasSBV 250%% %item id (BC)DeluxeWormBin 1 %%[#]{{i18n:Mail.EliasFishCompendiumReward3.Title}}",
+                "skellady.SBVCP_EliasFishCompendiumReward3": "{{i18n:Mail.EliasFishCompendiumReward3.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6]%action AddFriendshipPoints EliasSBV 250%% %action AddConversationTopic EliasCompendiumComplete 7%% %item id (BC)DeluxeWormBin 1 %%[#]{{i18n:Mail.EliasFishCompendiumReward3.Title}}",
                 "skellady.SBVCP_EliasLegendaryHint": "{{i18n:Mail.EliasLegendaryHint.Body}}[textcolor black][letterbg Mods\\skellady.SBVCP\\SBVLetterBG 6][#]{{i18n:Mail.EliasLegendaryHint.Title}}",
 
                 // Festival Mail
