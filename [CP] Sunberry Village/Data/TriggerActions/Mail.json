@@ -117,7 +117,10 @@
                     "Id": "skellady.SBVCP_EliasFishCompendiumLetter",
                     "Trigger": "DayEnding",
                     "Condition": "ANY \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Mothfish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_FiretailGuppy\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_EmeraldSnapper\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Aberrant\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_BonbonFish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_EeltailedCatfish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Najelfish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_AnglerJr\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_ChartreuseTilapia\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_BubblyBetta\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_AzureanCarp\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_SeaCow\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Barkfish\"",
-                    "Action": "AddMail Current skellady.SBVCP_EliasFishCompendiumIntro"
+                    "Actions": [
+                        "AddMail Current skellady.SBVCP_EliasFishCompendiumIntro",
+                        "AddMail Current skellady.SBVCP_EliasStudyingFish"          // controls whether or not elias uses gift rejection strings for sunberry fish
+                    ]
                 },
                 "skellady.SBVCP_EliasFishCompendiumReward1Letter": {
                     "Id": "skellady.SBVCP_EliasFishCompendiumReward1Letter",
@@ -141,7 +144,10 @@
                     "Id": "skellady.SBVCP_EliasFishCompendiumReward3Letter",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_STAT Current skellady.SBVCP_SunberrySpeciesCaught 13",
-                    "Action": "AddMail Current skellady.SBVCP_EliasFishCompendiumReward3"
+                    "Actions": [
+                        "AddMail Current skellady.SBVCP_EliasFishCompendiumReward3",
+                        "RemoveMail Current skellady.SBVCP_EliasStudyingFish"
+                    ]
                 },
                 // Twilight Festival Invite
                 "skellady.SBVCP_TwilightFestivalInvite": {

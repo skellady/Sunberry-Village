@@ -1,82 +1,82 @@
 {
 	"Changes": [
-		{
-			"Action": "EditData",
-			"Target": "Characters/Dialogue/EliasSBV",
-			"Entries": {
-				"Introduction": "{{i18n:Elias.Dialogue.Introduction}}",
-				//spring
-				"spring_1": "{{i18n:Elias.Dialogue.spring_1}}",
-				"spring_12": "{{i18n:Elias.Dialogue.spring_12}}",
-				"spring_23": "{{i18n:Elias.Dialogue.spring_23}}",
-				//summer
-				"summer_1": "{{i18n:Elias.Dialogue.summer_1}}",
-				"summer_10": "{{i18n:Elias.Dialogue.summer_10}}",
-				"summer_19": "{{i18n:Elias.Dialogue.summer_19}}",
-				"summer_20": "{{i18n:Elias.Dialogue.summer_20}}",
-				"summer_21": "{{i18n:Elias.Dialogue.summer_21}}",
-				"summer_27": "{{i18n:Elias.Dialogue.summer_27}}",
-				//fall
-				"fall_1": "{{i18n:Elias.Dialogue.fall_1}}",
-				"fall_15": "{{i18n:Elias.Dialogue.fall_15}}",
-				"fall_25": "{{i18n:Elias.Dialogue.fall_25}}",
-				//winter
-				"winter_1": "{{i18n:Elias.Dialogue.winter_1}}",
-				"winter_7": "{{i18n:Elias.Dialogue.winter_7}}",
-				"winter_11": "{{i18n:Elias.Dialogue.winter_11}}",
-				"winter_12": "{{i18n:Elias.Dialogue.winter_12}}",
-				"winter_13": "{{i18n:Elias.Dialogue.winter_13}}",
-				"winter_14": "{{i18n:Elias.Dialogue.winter_14}}",
-				"winter_24": "{{i18n:Elias.Dialogue.winter_24}}",
-				//days of the week
-				//0 Hearts
-				"Mon": "{{i18n:Elias.Dialogue.Mon}}",
-				"Tue": "{{i18n:Elias.Dialogue.Tue}}",
-				"Wed": "{{i18n:Elias.Dialogue.Wed}}",
-				"Thu": "{{i18n:Elias.Dialogue.Thu}}",
-				"Fri": "{{i18n:Elias.Dialogue.Fri}}",
-				"Sat": "{{i18n:Elias.Dialogue.Sat}}",
-				"Sun": "{{i18n:Elias.Dialogue.Sun}}",
-				//2 Hearts
-				"Mon2": "{{i18n:Elias.Dialogue.Mon2}}",
-				"Tue2": "{{i18n:Elias.Dialogue.Tue2}}",
-				"Wed2": "{{i18n:Elias.Dialogue.Wed2}}",
-				"Thu2": "{{i18n:Elias.Dialogue.Thu2}}",
-				"Fri2": "{{i18n:Elias.Dialogue.Fri2}}",
-				"Sat2": "{{i18n:Elias.Dialogue.Sat2}}",
-				"Sun2": "{{i18n:Elias.Dialogue.Sun2}}",
-				//4 Hearts
-				"Mon4": "{{i18n:Elias.Dialogue.Mon4}}",
-				"Tue4": "{{i18n:Elias.Dialogue.Tue4}}",
-				"Wed4": "{{i18n:Elias.Dialogue.Wed4}}",
-				"Thu4": "{{i18n:Elias.Dialogue.Thu4}}",
-				"Fri4": "{{i18n:Elias.Dialogue.Fri4}}",
-				"Sat4": "{{i18n:Elias.Dialogue.Sat4}}",
-				"Sun4": "{{i18n:Elias.Dialogue.Sun4}}",
-				//6 Hearts
-				"Mon6": "{{i18n:Elias.Dialogue.Mon6}}",
-				"Tue6": "{{i18n:Elias.Dialogue.Tue6}}",
-				"Wed6": "{{i18n:Elias.Dialogue.Wed6}}",
-				"Thu6": "{{i18n:Elias.Dialogue.Thu6}}",
-				"Fri6": "{{i18n:Elias.Dialogue.Fri6}}",
-				"Sat6": "{{i18n:Elias.Dialogue.Sat6}}",
-				"Sun6": "{{i18n:Elias.Dialogue.Sun6}}",
-				//8 Hearts
-				"Mon8": "{{i18n:Elias.Dialogue.Mon8}}",
-				"Tue8": "{{i18n:Elias.Dialogue.Tue8}}",
-				"Wed8": "{{i18n:Elias.Dialogue.Wed8}}",
-				"Thu8": "{{i18n:Elias.Dialogue.Thu8}}",
-				"Fri8": "{{i18n:Elias.Dialogue.Fri8}}",
-				"Sat8": "{{i18n:Elias.Dialogue.Sat8}}",
-				"Sun8": "{{i18n:Elias.Dialogue.Sun8}}",
-				//10 Hearts
-				"Mon10": "{{i18n:Elias.Dialogue.Mon10.Romantic}}",
-				"Tue10": "{{i18n:Elias.Dialogue.Tue10.Romantic}}",
-				"Wed10": "{{i18n:Elias.Dialogue.Wed10.Romantic}}",
-				"Thu10": "{{i18n:Elias.Dialogue.Thu10.Romantic}}",
-				"Fri10": "{{i18n:Elias.Dialogue.Fri10.Romantic}}",
-				"Sat10": "{{i18n:Elias.Dialogue.Sat10.Romantic}}",
-				"Sun10": "{{i18n:Elias.Dialogue.Sun10.Romantic}}",
+        {
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EliasSBV",
+            "Entries": {
+                "Introduction": "{{i18n:Elias.Dialogue.Introduction}}",
+                //spring
+                "spring_1": "{{i18n:Elias.Dialogue.spring_1}}",
+                "spring_12": "{{i18n:Elias.Dialogue.spring_12}}",
+                "spring_23": "{{i18n:Elias.Dialogue.spring_23}}",
+                //summer
+                "summer_1": "{{i18n:Elias.Dialogue.summer_1}}",
+                "summer_10": "{{i18n:Elias.Dialogue.summer_10}}",
+                "summer_19": "{{i18n:Elias.Dialogue.summer_19}}",
+                "summer_20": "{{i18n:Elias.Dialogue.summer_20}}",
+                "summer_21": "{{i18n:Elias.Dialogue.summer_21}}",
+                "summer_27": "{{i18n:Elias.Dialogue.summer_27}}",
+                //fall
+                "fall_1": "{{i18n:Elias.Dialogue.fall_1}}",
+                "fall_15": "{{i18n:Elias.Dialogue.fall_15}}",
+                "fall_25": "{{i18n:Elias.Dialogue.fall_25}}",
+                //winter
+                "winter_1": "{{i18n:Elias.Dialogue.winter_1}}",
+                "winter_7": "{{i18n:Elias.Dialogue.winter_7}}",
+                "winter_11": "{{i18n:Elias.Dialogue.winter_11}}",
+                "winter_12": "{{i18n:Elias.Dialogue.winter_12}}",
+                "winter_13": "{{i18n:Elias.Dialogue.winter_13}}",
+                "winter_14": "{{i18n:Elias.Dialogue.winter_14}}",
+                "winter_24": "{{i18n:Elias.Dialogue.winter_24}}",
+                //days of the week
+                //0 Hearts
+                "Mon": "{{i18n:Elias.Dialogue.Mon}}",
+                "Tue": "{{i18n:Elias.Dialogue.Tue}}",
+                "Wed": "{{i18n:Elias.Dialogue.Wed}}",
+                "Thu": "{{i18n:Elias.Dialogue.Thu}}",
+                "Fri": "{{i18n:Elias.Dialogue.Fri}}",
+                "Sat": "{{i18n:Elias.Dialogue.Sat}}",
+                "Sun": "{{i18n:Elias.Dialogue.Sun}}",
+                //2 Hearts
+                "Mon2": "{{i18n:Elias.Dialogue.Mon2}}",
+                "Tue2": "{{i18n:Elias.Dialogue.Tue2}}",
+                "Wed2": "{{i18n:Elias.Dialogue.Wed2}}",
+                "Thu2": "{{i18n:Elias.Dialogue.Thu2}}",
+                "Fri2": "{{i18n:Elias.Dialogue.Fri2}}",
+                "Sat2": "{{i18n:Elias.Dialogue.Sat2}}",
+                "Sun2": "{{i18n:Elias.Dialogue.Sun2}}",
+                //4 Hearts
+                "Mon4": "{{i18n:Elias.Dialogue.Mon4}}",
+                "Tue4": "{{i18n:Elias.Dialogue.Tue4}}",
+                "Wed4": "{{i18n:Elias.Dialogue.Wed4}}",
+                "Thu4": "{{i18n:Elias.Dialogue.Thu4}}",
+                "Fri4": "{{i18n:Elias.Dialogue.Fri4}}",
+                "Sat4": "{{i18n:Elias.Dialogue.Sat4}}",
+                "Sun4": "{{i18n:Elias.Dialogue.Sun4}}",
+                //6 Hearts
+                "Mon6": "{{i18n:Elias.Dialogue.Mon6}}",
+                "Tue6": "{{i18n:Elias.Dialogue.Tue6}}",
+                "Wed6": "{{i18n:Elias.Dialogue.Wed6}}",
+                "Thu6": "{{i18n:Elias.Dialogue.Thu6}}",
+                "Fri6": "{{i18n:Elias.Dialogue.Fri6}}",
+                "Sat6": "{{i18n:Elias.Dialogue.Sat6}}",
+                "Sun6": "{{i18n:Elias.Dialogue.Sun6}}",
+                //8 Hearts
+                "Mon8": "{{i18n:Elias.Dialogue.Mon8}}",
+                "Tue8": "{{i18n:Elias.Dialogue.Tue8}}",
+                "Wed8": "{{i18n:Elias.Dialogue.Wed8}}",
+                "Thu8": "{{i18n:Elias.Dialogue.Thu8}}",
+                "Fri8": "{{i18n:Elias.Dialogue.Fri8}}",
+                "Sat8": "{{i18n:Elias.Dialogue.Sat8}}",
+                "Sun8": "{{i18n:Elias.Dialogue.Sun8}}",
+                //10 Hearts
+                "Mon10": "{{i18n:Elias.Dialogue.Mon10.Romantic}}",
+                "Tue10": "{{i18n:Elias.Dialogue.Tue10.Romantic}}",
+                "Wed10": "{{i18n:Elias.Dialogue.Wed10.Romantic}}",
+                "Thu10": "{{i18n:Elias.Dialogue.Thu10.Romantic}}",
+                "Fri10": "{{i18n:Elias.Dialogue.Fri10.Romantic}}",
+                "Sat10": "{{i18n:Elias.Dialogue.Sat10.Romantic}}",
+                "Sun10": "{{i18n:Elias.Dialogue.Sun10.Romantic}}",
 
                 //Green Rain
                 "GreenRain": "{{i18n:Elias.Dialogue.GreenRain}}",
@@ -92,7 +92,13 @@
                 //Trashcan
                 "DumpsterDiveComment": "{{i18n:Elias.Dialogue.DumpsterDiveComment}}",
 
-                //Fish
+            }
+        },
+        {
+            "LogName": "Elias - Reject Sunberry Fish While Compendium In Progress",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EliasSBV",
+            "Entries": {
                 "RejectItem_(O)skellady.SBVCP_AzureanCarp": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_AzureanCarp Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_AzureanCarp Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
                 "RejectItem_(O)skellady.SBVCP_Barkfish": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_Barkfish Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_Barkfish Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
                 "RejectItem_(O)skellady.SBVCP_BonbonFish": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_BonbonFish Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_BonbonFish Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
@@ -106,7 +112,10 @@
                 "RejectItem_(O)skellady.SBVCP_SeaCow": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_SeaCow Received#{{i18n:Elias.FishCompendium.AlreadySeen}}|{{i18n:Elias.FishCompendium.NewFish}}#$action AddMail Current skellady.SBVCP_DonatedFish_SeaCow Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
                 "RejectItem_(O)skellady.SBVCP_Aberrant": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_Aberrant Received#{{i18n:Elias.FishCompendium.AlreadySeenLegendary}}|{{i18n:Elias.FishCompendium.NewFishLegendary}}#$action AddMail Current skellady.SBVCP_DonatedFish_Aberrant Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1",
                 "RejectItem_(O)skellady.SBVCP_AnglerJr": "$query PLAYER_HAS_MAIL Current skellady.SBVCP_DonatedFish_AnglerJr Received#{{i18n:Elias.FishCompendium.AlreadySeenLegendary}}|{{i18n:Elias.FishCompendium.NewFishLegendary}}#$action AddMail Current skellady.SBVCP_DonatedFish_AnglerJr Received#$action IncrementStat skellady.SBVCP_SunberrySpeciesCaught 1"
+            },
+            "When": {
+                "HasFlag: anyPlayer|contains=skellady.SBVCP_EliasStudyingFish": true
             }
-		}
+        }
 	]
 }
