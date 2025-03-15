@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="229">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="233">
  <properties>
+  <property name="AllowBeds" value="true"/>
+  <property name="AllowMiniFridges" value="true"/>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="FloorIDs" value="skellady.SBVCP_Bedroom, skellady.SBVCP_Kitchen, skellady.SBVCP_Main, skellady.SBVCP_Separator"/>
   <property name="WallIDs" value="skellady.SBVCP_Bedroom, skellady.SBVCP_Kitchen, skellady.SBVCP_Main, skellady.SBVCP_Separator"/>
@@ -239,7 +241,28 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
- <objectgroup id="4" name="Buildings"/>
+ <objectgroup id="4" name="Buildings">
+  <object id="229" name="TileData" x="64" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="230" name="TileData" x="80" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="231" name="TileData" x="48" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+  <object id="232" name="TileData" x="32" y="240" width="16" height="16">
+   <properties>
+    <property name="Action" value="kitchen"/>
+   </properties>
+  </object>
+ </objectgroup>
  <layer id="5" name="Paths" width="23" height="19">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
