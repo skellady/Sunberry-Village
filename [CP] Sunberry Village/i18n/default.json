@@ -5765,7 +5765,7 @@
     "RaccoonDialogue.Spring.Thursday.1": "The raccoon purrs. He gives you a bottle of maple syrup. It's half full. [724]",
     "RaccoonDialogue.Spring.Thursday.2": "The raccoon throws a Halibut at your feet. It's still dripping. [708]",
     "RaccoonDialogue.Spring.Thursday.3": "The raccoon purrs. He hands you a pack of starfruit seeds. You wonder where he got this from. [486]",
-    "RaccoonDialogue.Spring.Thursday.4": "You hold out your hand to the raccoon and he chitters happily before emptying a wallet into your palm. You see a fish-scale pattern engraved in the leather.#$action AddMoney 50#$t RaccoonWallet 1", //FOR TRANSLATORS: NEW
+    "RaccoonDialogue.Spring.Thursday.4": "You hold out your hand to the raccoon and he chitters happily before emptying a wallet into your palm. You see a fish-scale pattern engraved in the leather.#$action AddMoney 50#$t RaccoonWallet 1", //FOR TRANSLATORS: NEW 1.0.1
     "RaccoonDialogue.Spring.Friday.1": "The raccoon gives you a Soapstone. He seems reluctant to part with it... [572]",
     "RaccoonDialogue.Spring.Friday.2": "The raccoon chitters happily. He's holding a shiny piece of glass. It doesn't seem like he's willing to part with it...",
     "RaccoonDialogue.Spring.Friday.3": "The raccoon purrs and hands you a tulip. It's been gnawed on around the edges. [591]",
@@ -5786,7 +5786,7 @@
     "RaccoonDialogue.Summer.Wednesday.1": "The raccoon seems to be enjoying a peach. Better leave him be.",
     "RaccoonDialogue.Summer.Wednesday.2": "The raccoon purrs and hands you a half eaten plate of spaghetti. Its... a little wet. [224]",
     "RaccoonDialogue.Summer.Wednesday.3": "The raccoon chitters happily and hands you a cup of coffee. It smells like the kind Diala makes... [395]#$t RaccoonCoffee 1",
-    "RaccoonDialogue.Summer.Wednesday.4": "The raccoon purrs and nuzzles your hand. You pet him for a moment before realizing he used your distraction to pick your pocket.#$action AddMoney -100", //FOR TRANSLATORS: NEW
+    "RaccoonDialogue.Summer.Wednesday.4": "The raccoon purrs and nuzzles your hand. You pet him for a moment before realizing he used your distraction to pick your pocket.#$action AddMoney -100", //FOR TRANSLATORS: NEW 1.0.1
     "RaccoonDialogue.Summer.Thursday.1": "The raccoon is holding onto a piece of Lunarite. He snarls at you when you try to take it.#$t RaccoonLunarite 1",
     "RaccoonDialogue.Summer.Thursday.2": "The raccoon whines before giving you a golden mask. He seems reluctant to part with it... [124]",
     "RaccoonDialogue.Summer.Thursday.3": "The raccoon purrs and hands you a packet of... ancient seeds! You wonder where he got that from... [499]",
@@ -6318,7 +6318,7 @@
     "Elias.Dialogue.luauPoisoned": "I didn't feel like having soup yesterday but Blake and Ari don't seem to be doin' well. Guess I dodged a bullet.$9",
     "Elias.Dialogue.ReihanaIntro": "I don't like how that demon talked to me. I still gotta make sure everyone's okay. Make sure to stay away, @.$a",
     "Elias.Dialogue.RaccoonBook": "%Elias is grumbling.#$b#Damn raccoon, I'm never leavin' the library door open while I organize the bookshelves. Takin' books like they belong to him, hmph.$a",
-    "Elias.Dialogue.RaccoonWallet": "That damned raccoon's gone too far this time...$6#$b#The little rascal made off with my entire wallet earlier.$11", //FOR TRANSLATORS: NEW
+    "Elias.Dialogue.RaccoonWallet": "That damned raccoon's gone too far this time...$6#$b#The little rascal made off with my entire wallet earlier.$11", //FOR TRANSLATORS: NEW 1.0.1
     "Elias.Dialogue.AriGetsSlimed": "Howdy, @. Ari marched our boy over here to tell me what he'd done himself.$1#$b#I had to act upset, but honestly? Blake's li'l prank pales in comparison to half the stuff his dad used to pull off.$3#$b#Oh, the stories I could tell...$11#$b#Ari probably wouldn't be too happy with me if I did, though.$3",
     "Elias.Dialogue.EliasHouseBegin": "Thanks again for droppin' by and for agreein' to spread the word. I hope no one's given you any trouble.$10",
     "Elias.Dialogue.EliasCompendiumComplete": "Hey, farmer. Thanks for all your help with the compendium.$1#$b#You must have fishing in your blood, the way you hooked all those beauties!$3",

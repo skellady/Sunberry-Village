@@ -46,11 +46,11 @@
     "poppy.name": "Poppy",
     "SettlingIn.name": "Settling In",
     "kindadumbautumn.name": "Grapefruit Sky",
-    "skellady.SBVCP_EliasTheme.name": "Townsville",
-    "poppy.SongCredits": ", by Eric Barone.",
-    "SettlingIn.SongCredits": ", by Eric Barone.",
-    "kindadumbautumn.SongCredits": ", by Eric Barone.",
-    "skellady.SBVCP_EliasTheme.SongCredits": ", by Kevin MacLeod.",
+    "skellady.SBVCP_EliasTheme.name": "Townsville", //FOR TRANSLATORS: NEW 1.0.1
+    "poppy.SongCredits": ", by Eric Barone.", //FOR TRANSLATORS: NEW 1.0.1
+    "SettlingIn.SongCredits": ", by Eric Barone.", //FOR TRANSLATORS: NEW 1.0.1
+    "kindadumbautumn.SongCredits": ", by Eric Barone.", //FOR TRANSLATORS: NEW 1.0.1
+    "skellady.SBVCP_EliasTheme.SongCredits": ", by Kevin MacLeod.", //FOR TRANSLATORS: NEW 1.0.1
     "SongOutro": "Thanks for listenin', y'all.",
 
     // Ari's Market Special Dialogue
