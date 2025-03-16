@@ -1,7 +1,7 @@
 {
   "Name": "[C#] Sunberry Village",
   "Author": "Sunberry Team",
-  "Version": "1.0.0",
+  "Version": "1.0.1",
   "Description": "Code portion of Sunberry Village.",
   "UniqueID": "SunberryTeam.SBVSMAPI",
   "EntryDll": "SunberryVillage.dll",

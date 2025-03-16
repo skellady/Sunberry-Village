@@ -1,7 +1,7 @@
 {
     "Name": "Sunberry Village - Farm Type Manager",
     "Author": "skellady",
-    "Version": "1.0.0",
+    "Version": "1.0.1",
     "Description": "FTM component for Sunberry Village.",
     "UniqueID": "skellady.SBVFTM",
     "UpdateKeys": ["Nexus:-1"],
