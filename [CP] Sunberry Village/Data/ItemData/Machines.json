@@ -48,8 +48,6 @@
             "Target": "Data/Machines",
             "Entries": {
                 "(BC)skellady.SBVCP_MineralGrinder": {
-                    "HasInput": false,
-                    "HasOutput": false,
                     "OutputRules": [
                         {
                             "Id": "skellady.SBVCP_SerpentinePowder",
@@ -60,7 +58,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_SerpentinePowder",
@@ -82,7 +79,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_PurpuritePowder",
@@ -104,7 +100,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_AnnabergitePowder",
@@ -126,7 +121,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_CitrinePowder",
@@ -148,7 +142,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_BlueAuraQuartzPowder",
@@ -170,7 +163,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_MoonberryPowder",
@@ -192,7 +184,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_DolomitePowder",
@@ -214,7 +205,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_TigerseyePowder",
@@ -236,7 +226,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_LunaritePowder",
@@ -258,7 +247,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_FairyStonePowder",
@@ -274,11 +262,9 @@
                     ]
                 },
                 "(BC)skellady.SBVCP_AlchemyTable": {
-                    "HasInput": false,
-                    "HasOutput": false,
                     "OutputRules": [
                         {
-                            "Id": "skellady.SBVCP_MysteriousOrbs",
+                            "Id": "skellady.SBVCP_SunriseOrb",
                             "Triggers": [
                                 {
                                     "Trigger": "ItemPlacedInMachine",
@@ -286,20 +272,77 @@
                                     "RequiredCount": 3
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
-                                    "Id": "skellady.SBVCP_MysteriousOrbs",
-                                    "RandomItemId": [
-                                        "(O)skellady.SBVCP_SunriseOrb",
-                                        "(O)skellady.SBVCP_SunsetOrb",
-                                        "(O)skellady.SBVCP_MidnightOrb",
-                                        "(O)skellady.SBVCP_EclipseOrb"
-                                    ],
+                                    "Id": "skellady.SBVCP_SunriseOrb",
+                                    "ItemId": "(O)skellady.SBVCP_SunriseOrb",
                                     "CopyQuality": false
                                 }
                             ],
-                            "MinutesUntilReady": 2000,
+                            "MinutesUntilReady": 120,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SunriseToSunset",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_SunriseOrb",
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_SunsetOrbs",
+                                    "ItemId": "(O)skellady.SBVCP_SunsetOrb",
+                                    "MinStack": 2,
+                                    "CopyQuality": false
+                                }
+                            ],
+                            "MinutesUntilReady": 240,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SunsetToMidnight",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_SunsetOrb",
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_MidnightOrbs",
+                                    "ItemId": "(O)skellady.SBVCP_MidnightOrb",
+                                    "MinStack": 2,
+                                    "CopyQuality": false
+                                }
+                            ],
+                            "MinutesUntilReady": 360,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
+                        {
+                            "Id": "skellady.SBVCP_MidnightToEclipse",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_MidnightOrb",
+                                    "RequiredCount": 3
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_EclipseOrbs",
+                                    "ItemId": "(O)skellady.SBVCP_EclipseOrb",
+                                    "MinStack": 2,
+                                    "CopyQuality": false
+                                }
+                            ],
+                            "MinutesUntilReady": 480,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false
                         },
@@ -312,7 +355,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_AnnabergitePotion",
@@ -333,7 +375,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_SerpentinePotion",
@@ -354,7 +395,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_PurpuritePotion",
@@ -375,7 +415,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_CitrinePotion",
@@ -396,7 +435,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_BlueAuraQuartzPotion",
@@ -417,7 +455,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_MoonberryPotion",
@@ -438,7 +475,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_DolomitePotion",
@@ -459,7 +495,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_TigerseyePotion",
@@ -480,7 +515,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_LunaritePotion",
@@ -501,7 +535,6 @@
                                     "RequiredCount": 1
                                 }
                             ],
-                            "UseFirstValidOutput": false,
                             "OutputItem": [
                                 {
                                     "Id": "skellady.SBVCP_FairyStonePotion",
@@ -523,9 +556,12 @@
                     ],
                     "InvalidItemMessage": "{{i18n:SBV.AlchemyTable.InvalidItem}}",
                     "InvalidCountMessage": "{{i18n:SBV.AlchemyTable.InvalidCount}}",
-                    "ShowNextIndexWhileWorking": false,
-                    "ShowNextIndexWhenReady": false,
-                    "WobbleWhileWorking": false,
+                    "StatsToIncrementWhenHarvested": [
+                        {
+                            "Id": "TimesAlchemized",
+                            "StatName": "skellady.SBVCP_TimesAlchemized"
+                        }
+                    ],
                     "LoadEffects": [
                         {
                             "Frames": [
