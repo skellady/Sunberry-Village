@@ -46,7 +46,11 @@
     "poppy.name": "Poppy",
     "SettlingIn.name": "Settling In",
     "kindadumbautumn.name": "Grapefruit Sky",
-    "SongCredits": ", by Eric Barone.",
+    "skellady.SBVCP_EliasTheme.name": "Townsville",
+    "poppy.SongCredits": ", by Eric Barone.",
+    "SettlingIn.SongCredits": ", by Eric Barone.",
+    "kindadumbautumn.SongCredits": ", by Eric Barone.",
+    "skellady.SBVCP_EliasTheme.SongCredits": ", by Kevin MacLeod.",
     "SongOutro": "Thanks for listenin', y'all.",
 
     // Ari's Market Special Dialogue

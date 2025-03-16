@@ -48,12 +48,12 @@ namespace SunberryVillage.Audio
 		{
 			if (Game1.soundBank != null)
 			{
-				EliasSongs = new()
-				{
+				EliasSongs =
+				[
 					Game1.soundBank.GetCue("kindadumbautumn"),
 					Game1.soundBank.GetCue("poppy"),
-					Game1.soundBank.GetCue("SettlingIn")
-				};
+					Game1.soundBank.GetCue("SettlingIn"),
+				];
 			}
 
 			Elias = Game1.getCharacterFromName("EliasSBV");
@@ -92,7 +92,7 @@ namespace SunberryVillage.Audio
 
 			string speechBubble1 = Utils.GetTranslationWithPlaceholder("SongIntro");
 			string speechBubble2 = Utils.GetTranslationWithPlaceholder($"{CurrentSong.Name}.name") +
-				Utils.GetTranslationWithPlaceholder("SongCredits");
+				Utils.GetTranslationWithPlaceholder($"{CurrentSong.Name}.SongCredits");
 
 			// break up into two separate bubbles since they don't support newlines
 			Elias.showTextAboveHead(speechBubble1, duration: 5000);
@@ -237,6 +237,16 @@ namespace SunberryVillage.Audio
 			Globals.EventHelper.GameLoop.SaveLoaded += (_, _) => Init();
 			Globals.EventHelper.GameLoop.DayEnding += (_, _) => SongIntroed = false;
 			Globals.EventHelper.GameLoop.ReturnedToTitle += (_, _) => CleanUpMusicAndHandlers(forceStop: true);
+
+			Globals.EventHelper.GameLoop.DayStarted += AddTownsvilleIfNecessary;
+		}
+
+		private static void AddTownsvilleIfNecessary(object? sender, DayStartedEventArgs e)
+		{
+			if (!Game1.player.eventsSeen.Contains("skellady.SBVCP_20031484") || EliasSongs.Count > 3)
+				return;
+
+			EliasSongs.Add(Game1.soundBank.GetCue("skellady.SBVCP_EliasTheme"));
 		}
 
 		// because these hooks are being added dynamically, track them so we don't leave behind or duplicate any
