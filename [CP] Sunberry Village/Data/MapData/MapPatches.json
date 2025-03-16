@@ -1024,7 +1024,7 @@
         "Height": 4
       },
       "When": {
-        "HasReadLetter |contains= SBVMuseumSO3": true
+        "HasFlag: anyPlayer |contains= SBVMuseumSO3": true
       }
     },
     // Mountain > Farm Boulder
