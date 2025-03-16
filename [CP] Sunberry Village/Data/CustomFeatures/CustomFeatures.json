@@ -390,7 +390,7 @@
             }
         },
         {
-            "LogName": "String Pool Test Map Property",
+            "LogName": "String Pool Beta Bookshelf",
             "Action": "EditMap",
             "Target": "Maps/Custom_SBV_SunberryLibrary",
             "MapTiles": [

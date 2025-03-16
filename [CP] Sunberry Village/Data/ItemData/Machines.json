@@ -71,7 +71,7 @@
                             ],
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false,
+                            "RecalculateOnCollect": false
                         },
                         {
                             "Id": "skellady.SBVCP_PurpuritePowder",
@@ -93,7 +93,7 @@
                             ],
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false,
+                            "RecalculateOnCollect": false
                         },
                         {
                             "Id": "skellady.SBVCP_AnnabergitePowder",
@@ -115,7 +115,7 @@
                             ],
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false,
+                            "RecalculateOnCollect": false
                         },
                         {
                             "Id": "skellady.SBVCP_CitrinePowder",
@@ -137,7 +137,7 @@
                             ],
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false,
+                            "RecalculateOnCollect": false
                         },
                         {
                             "Id": "skellady.SBVCP_BlueAuraQuartzPowder",
@@ -159,7 +159,7 @@
                             ],
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false,
+                            "RecalculateOnCollect": false
                         },
                         {
                             "Id": "skellady.SBVCP_MoonberryPowder",
@@ -181,7 +181,7 @@
                             ],
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false,
+                            "RecalculateOnCollect": false
                         },
                         {
                             "Id": "skellady.SBVCP_DolomitePowder",
@@ -203,7 +203,7 @@
                             ],
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false,
+                            "RecalculateOnCollect": false
                         },
                         {
                             "Id": "skellady.SBVCP_TigerseyePowder",
@@ -225,7 +225,7 @@
                             ],
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false,
+                            "RecalculateOnCollect": false
                         },
                         {
                             "Id": "skellady.SBVCP_LunaritePowder",
@@ -247,7 +247,7 @@
                             ],
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false,
+                            "RecalculateOnCollect": false
                         },
                         {
                             "Id": "skellady.SBVCP_FairyStonePowder",
@@ -269,8 +269,8 @@
                             ],
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false,
-                        },
+                            "RecalculateOnCollect": false
+                        }
                     ]
                 },
                 "(BC)skellady.SBVCP_AlchemyTable": {
@@ -309,7 +309,7 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)skellady.SBVCP_AnnabergitePowder",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 1
                                 }
                             ],
                             "UseFirstValidOutput": false,
@@ -317,7 +317,7 @@
                                 {
                                     "Id": "skellady.SBVCP_AnnabergitePotion",
                                     "ItemId": "(O)skellady.SBVCP_AnnabergitePotion",
-                                    "CopyQuality": false,
+                                    "CopyQuality": false
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -330,7 +330,7 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)skellady.SBVCP_SerpentinePowder",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 1
                                 }
                             ],
                             "UseFirstValidOutput": false,
@@ -338,7 +338,7 @@
                                 {
                                     "Id": "skellady.SBVCP_SerpentinePotion",
                                     "ItemId": "(O)skellady.SBVCP_SerpentinePotion",
-                                    "CopyQuality": false,
+                                    "CopyQuality": false
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -351,7 +351,7 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)skellady.SBVCP_PurpuritePowder",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 1
                                 }
                             ],
                             "UseFirstValidOutput": false,
@@ -359,7 +359,7 @@
                                 {
                                     "Id": "skellady.SBVCP_PurpuritePotion",
                                     "ItemId": "(O)skellady.SBVCP_PurpuritePotion",
-                                    "CopyQuality": false,
+                                    "CopyQuality": false
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -372,7 +372,7 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)skellady.SBVCP_CitrinePowder",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 1
                                 }
                             ],
                             "UseFirstValidOutput": false,
@@ -380,7 +380,7 @@
                                 {
                                     "Id": "skellady.SBVCP_CitrinePotion",
                                     "ItemId": "(O)skellady.SBVCP_CitrinePotion",
-                                    "CopyQuality": false,
+                                    "CopyQuality": false
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -393,7 +393,7 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)skellady.SBVCP_BlueAuraQuartzPowder",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 1
                                 }
                             ],
                             "UseFirstValidOutput": false,
@@ -401,7 +401,7 @@
                                 {
                                     "Id": "skellady.SBVCP_BlueAuraQuartzPotion",
                                     "ItemId": "(O)skellady.SBVCP_BlueAuraQuartzPotion",
-                                    "CopyQuality": false,
+                                    "CopyQuality": false
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -414,7 +414,7 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)skellady.SBVCP_MoonberryPowder",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 1
                                 }
                             ],
                             "UseFirstValidOutput": false,
@@ -422,7 +422,7 @@
                                 {
                                     "Id": "skellady.SBVCP_MoonberryPotion",
                                     "ItemId": "(O)skellady.SBVCP_MoonberryPotion",
-                                    "CopyQuality": false,
+                                    "CopyQuality": false
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -435,7 +435,7 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)skellady.SBVCP_DolomitePowder",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 1
                                 }
                             ],
                             "UseFirstValidOutput": false,
@@ -443,7 +443,7 @@
                                 {
                                     "Id": "skellady.SBVCP_DolomitePotion",
                                     "ItemId": "(O)skellady.SBVCP_DolomitePotion",
-                                    "CopyQuality": false,
+                                    "CopyQuality": false
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -456,7 +456,7 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)skellady.SBVCP_TigerseyePowder",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 1
                                 }
                             ],
                             "UseFirstValidOutput": false,
@@ -464,7 +464,7 @@
                                 {
                                     "Id": "skellady.SBVCP_TigerseyePotion",
                                     "ItemId": "(O)skellady.SBVCP_TigerseyePotion",
-                                    "CopyQuality": false,
+                                    "CopyQuality": false
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -477,7 +477,7 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)skellady.SBVCP_LunaritePowder",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 1
                                 }
                             ],
                             "UseFirstValidOutput": false,
@@ -485,7 +485,7 @@
                                 {
                                     "Id": "skellady.SBVCP_LunaritePotion",
                                     "ItemId": "(O)skellady.SBVCP_LunaritePotion",
-                                    "CopyQuality": false,
+                                    "CopyQuality": false
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -498,7 +498,7 @@
                                 {
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)skellady.SBVCP_FairyStonePowder",
-                                    "RequiredCount": 1,
+                                    "RequiredCount": 1
                                 }
                             ],
                             "UseFirstValidOutput": false,
@@ -506,7 +506,7 @@
                                 {
                                     "Id": "skellady.SBVCP_FairyStonePotion",
                                     "ItemId": "(O)skellady.SBVCP_FairyStonePotion",
-                                    "CopyQuality": false,
+                                    "CopyQuality": false
                                 }
                             ],
                             "MinutesUntilReady": 1400,
@@ -560,133 +560,94 @@
             "Priority": "Late", // late priority to ensure these don't override any rules added by other mods, i.e. addon/compat
             "Action": "EditData",
             "Target": "Data/Machines",
+            "TargetField": [ "(BC){{ModId}}_MineralGrinder", "OutputRules" ],
             "Entries": {
-                "(BC){{ModId}}_MineralGrinder": {
-                    "HasInput": false,
-                    "HasOutput": false,
-                    "OutputRules": [
+                "{{ModId}}_GenericPowder": {
+                    "Id": "{{ModId}}_GenericPowder",
+                    "Triggers": [
                         {
-                            "Id": "{{ModId}}_GenericPowder",
-                            "Triggers": [
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": [
+                                "category_minerals"
+                            ],
+                            "RequiredCount": 1
+                        },
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredTags": [
+                                "category_gem"
+                            ],
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "UseFirstValidOutput": false,
+                    "OutputItem": [
+                        {
+                            "Id": "GenericPowder",
+                            "ItemId": "(O){{ModId}}_GenericPowder",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_GenericPowder_Name %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{{ModId}}_GenericPowder_{0}",
+                            "PreserveId": "DROP_IN",
+                            "CopyQuality": false,
+                            "CopyColor": true,
+                            "CopyPrice": true,
+                            "IncrementMachineParentSheetIndex": 1,
+                            "PriceModifiers": [
                                 {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredTags": [
-                                        "category_minerals"
-                                    ],
-                                    "RequiredCount": 1
+                                    "Modification": "Multiply",
+                                    "Amount": 1.25
+                                }
+                            ]
+                        }
+                    ],
+                    "MinutesUntilReady": 720,
+                    "DaysUntilReady": -1,
+                    "RecalculateOnCollect": false
+                }
+            }
+        },
+        {
+            "LogName": "Machine Data",
+            "Priority": "Late", // late priority to ensure these don't override any rules added by other mods, i.e. addon/compat
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [ "(BC){{ModId}}_AlchemyTable", "OutputRules" ],
+            "Entries": {
+                "{{ModId}}_GenericPotion": {
+                    "Id": "{{ModId}}_GenericPotion",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "(O){{ModId}}_GenericPowder",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "UseFirstValidOutput": false,
+                    "OutputItem": [
+                        {
+                            "Id": "GenericPotion",
+                            "ItemId": "(O){{ModId}}_GenericPotion",
+                            "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_GenericPotion_Name %PRESERVED_DISPLAY_NAME]",
+                            "ObjectInternalName": "{{ModId}}_GenericPotion_{0}",
+                            "PreserveId": "DROP_IN_PRESERVE",
+                            "CopyQuality": false,
+                            "CopyColor": true,
+                            "CopyPrice": true,
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Multiply",
+                                    "Amount": 1.6 // when combined with x1.25 mod from powder, results in x2 base gem/mineral price
                                 },
                                 {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredTags": [
-                                        "category_gem"
-                                    ],
-                                    "RequiredCount": 1
+                                    "Modification": "Add",
+                                    "Amount": 250 // plus a little bit extra on top :)
                                 }
-                            ],
-                            "UseFirstValidOutput": false,
-                            "OutputItem": [
-                                {
-                                    "Id": "GenericPowder",
-                                    "ItemId": "(O){{ModId}}_GenericPowder",
-                                    "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_GenericPowder_Name %PRESERVED_DISPLAY_NAME]",
-                                    "ObjectInternalName": "{{ModId}}_GenericPowder_{0}",
-                                    "PreserveId": "DROP_IN",
-                                    "CopyQuality": false,
-                                    "CopyColor": true,
-                                    "CopyPrice": true,
-                                    "IncrementMachineParentSheetIndex": 1,
-                                    "PriceModifiers": [
-                                        {
-                                            "Modification": "Multiply",
-                                            "Amount": 1.25
-                                        }
-                                    ]
-                                }
-                            ],
-                            "MinutesUntilReady": 720,
-                            "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false
-                        }
-                    ]
-                },
-                "(BC){{ModId}}_AlchemyTable": {
-                    "HasInput": false,
-                    "HasOutput": false,
-                    "OutputRules": [
-                        {
-                            "Id": "{{ModId}}_GenericPotion",
-                            "Triggers": [
-                                {
-                                    "Trigger": "ItemPlacedInMachine",
-                                    "RequiredItemId": "(O){{ModId}}_GenericPowder",
-                                    "RequiredCount": 1
-                                }
-                            ],
-                            "UseFirstValidOutput": false,
-                            "OutputItem": [
-                                {
-                                    "Id": "GenericPotion",
-                                    "ItemId": "(O){{ModId}}_GenericPotion",
-                                    "ObjectDisplayName": "[LocalizedText Strings\\Objects:{{ModId}}_GenericPotion_Name %PRESERVED_DISPLAY_NAME]",
-                                    "ObjectInternalName": "{{ModId}}_GenericPotion_{0}",
-                                    "PreserveId": "DROP_IN_PRESERVE",
-                                    "CopyQuality": false,
-                                    "CopyColor": true,
-                                    "CopyPrice": true,
-                                    "PriceModifiers": [
-                                        {
-                                            "Modification": "Multiply",
-                                            "Amount": 1.6 // when combined with x1.25 mod from powder, results in x2 base gem/mineral price
-                                        },
-                                        {
-                                            "Modification": "Add",
-                                            "Amount": 250 // plus a little bit extra on top :)
-                                        }
-                                    ]
-                                }
-                            ],
-                            "MinutesUntilReady": 1400,
-                            "DaysUntilReady": -1,
-                            "RecalculateOnCollect": false
+                            ]
                         }
                     ],
-                    "AdditionalConsumedItems": [
-                        {
-                            "ItemId": "(O)skellady.SBVCP_CinderLeaf",
-                            "RequiredCount": 5,
-                            "InvalidCountMessage": "{{i18n:SBV.AlchemyTable.MissingCinderLeaf}}"
-                        }
-                    ],
-                    "InvalidItemMessage": "{{i18n:SBV.AlchemyTable.InvalidItem}}",
-                    "InvalidCountMessage": "{{i18n:SBV.AlchemyTable.InvalidCount}}",
-                    "ShowNextIndexWhileWorking": false,
-                    "ShowNextIndexWhenReady": false,
-                    "WobbleWhileWorking": false,
-                    "LoadEffects": [
-                        {
-                            "Frames": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
-                            "Interval": 200
-                        }
-                    ],
-                    "WorkingEffects": [
-                        {
-                            "Frames": [
-                                0,
-                                1,
-                                2,
-                                3,
-                                4
-                            ],
-                            "Interval": 200
-                        }
-                    ],
-                    "WorkingEffectChance": 1
+                    "MinutesUntilReady": 1400,
+                    "DaysUntilReady": -1,
+                    "RecalculateOnCollect": false
                 }
             }
         },
