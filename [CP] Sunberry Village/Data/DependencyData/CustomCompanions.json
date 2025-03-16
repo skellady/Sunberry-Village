@@ -1,948 +1,948 @@
 {
-   "Changes":
-   // Custom Companions - CP
-   [
-      {
-         "LogName": "CP Integration for Raccoon",
-         "Action": "EditData",
-         "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
-         "Entries": {
-            "Companion": {
-               "DialogueSequence": [
-                  {
-                     "Text": "{{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3}} |default={{i18n:RaccoonDialogue.default}}}}",
-                     "DisplayOnce": true
-                  }
-               ]
+    "Changes":
+    // Custom Companions - CP
+    [
+        {
+            "LogName": "CP Integration for Raccoon",
+            "Action": "EditData",
+            "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
+            "Entries": {
+                "Companion": {
+                    "DialogueSequence": [
+                        {
+                            "Text": "{{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3, 4}} |default={{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3}} |default={{i18n:RaccoonDialogue.default}} }} }}",
+                            "DisplayOnce": true
+                        }
+                    ]
+                }
             }
-         }
-      },
-      {
-         "LogName": "D&D's House Custom Companions",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_DDHouse",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 8,
-                  "Y": 17
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.GreyWhiteCatHouse"
-               },
+        },
+        {
+            "LogName": "D&D's House Custom Companions",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_DDHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 17
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.GreyWhiteCatHouse"
+                    },
+                },
+            ]
+        },
+        {
+            "LogName": "D&D's Cafe Custom Companions",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_DialaCafe",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 17
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.BlackCat"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 23,
+                        "Y": 14
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.GreyCat"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 27,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.OrangeCat"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 35,
+                        "Y": 9
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.YellowCat"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 6
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.GreyWhiteCat"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 17
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.WhiteCat"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 3,
+                        "Y": 11
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.BrownCat"
+                    },
+                },
+            ],
+        },
+        {
+            "LogName": "Sunberry Village Dogs",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 76,
+                        "Y": 92
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog1"
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 42,
+                        "Y": 53
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog2"
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 73,
+                        "Y": 65
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog3"
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 54,
+                        "Y": 30
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog4"
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 74,
+                        "Y": 18
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog5"
+                    },
+                },
+            ],
+            "When": {
+                "Weather": "Sun, Wind",
+                "Season": "Spring, Summer, Fall",
+                "Query: NOT '{{Season}} {{Day}}' = 'Fall 26' ": true
             },
-         ]
-      },
-      {
-         "LogName": "D&D's Cafe Custom Companions",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_DialaCafe",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 19,
-                  "Y": 17
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.BlackCat"
-               }
+            "Update": "OnLocationChange",
+        },
+        {
+            "LogName": "Sunberry Village Dogs on Twilight Festival",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_TwilightFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 69,
+                        "Y": 90
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog1"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 82,
+                        "Y": 84
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog2"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 62,
+                        "Y": 87
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog3"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 57,
+                        "Y": 91
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog4"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 89,
+                        "Y": 93
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog5"
+                    }
+                },
+            ],
+            "When": {
+                "Season": "Fall",
+                "Day": 26
             },
-            {
-               "Position": {
-                  "X": 23,
-                  "Y": 14
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.GreyCat"
-               }
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Dog In the Inn Rain",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SerenityInn",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 9
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog1"
+                    }
+                }
+            ],
+            "When": {
+                "Weather": "Rain, Storm",
+                "Season": "Spring, Summer, Fall"
             },
-            {
-               "Position": {
-                  "X": 27,
-                  "Y": 10
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.OrangeCat"
-               }
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Dog In Miyoung's House Rain",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_MiyoungHouse",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 5,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog2"
+                    }
+                }
+            ],
+            "When": {
+                "Weather": "Rain, Storm",
+                "Season": "Spring, Summer, Fall"
             },
-            {
-               "Position": {
-                  "X": 35,
-                  "Y": 9
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.YellowCat"
-               }
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Dog In the Cafe Rain",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_DialaCafe",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 21,
+                        "Y": 16
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog3"
+                    }
+                }
+            ],
+            "When": {
+                "Weather": "Rain, Storm",
+                "Season": "Spring, Summer, Fall"
             },
-            {
-               "Position": {
-                  "X": 18,
-                  "Y": 6
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.GreyWhiteCat"
-               }
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Sunberry Village Fireflies",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 88,
+                        "Y": 17
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 66,
+                        "Y": 18
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 35,
+                        "Y": 18
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 20,
+                        "Y": 40
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 28,
+                        "Y": 63
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 87
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 60,
+                        "Y": 42
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 72,
+                        "Y": 55
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 65,
+                        "Y": 68
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 58,
+                        "Y": 82
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 73,
+                        "Y": 91
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 82,
+                        "Y": 86
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 59,
+                        "Y": 91
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 54,
+                        "Y": 86
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 66,
+                        "Y": 86
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 52,
+                        "Y": 92
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 66,
+                        "Y": 86
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 64,
+                        "Y": 79
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+            ],
+            "When": {
+                "Time": "{{Range: 1800, 2400}}"
             },
-            {
-               "Position": {
-                  "X": 6,
-                  "Y": 17
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.WhiteCat"
-               }
+            "Update": "OnLocationChange",
+        },
+        {
+            "LogName": "Sunberry Mountain Fireflies",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryMountain",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 35
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 16,
+                        "Y": 26
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 29,
+                        "Y": 28
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 24,
+                        "Y": 19
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 24,
+                        "Y": 19
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 56,
+                        "Y": 34
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 53,
+                        "Y": 7
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                }
+            ],
+            "When": {
+                "Time": "{{Range: 1800, 2400}}"
             },
-            {
-               "Position": {
-                  "X": 3,
-                  "Y": 11
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.BrownCat"
-               },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Sunberry Forest Fireflies",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryForest",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 69,
+                        "Y": 7
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 66,
+                        "Y": 16
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 77,
+                        "Y": 29
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 50,
+                        "Y": 16
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 31,
+                        "Y": 18
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 19,
+                        "Y": 29
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 44
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 25,
+                        "Y": 52
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 46,
+                        "Y": 51
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 57,
+                        "Y": 54
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 74,
+                        "Y": 47
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
+                    }
+                }
+            ],
+            "When": {
+                "Time": "{{Range: 1800, 2400}}"
             },
-         ],
-      },
-      {
-         "LogName": "Sunberry Village Dogs",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryVillage",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 76,
-                  "Y": 92
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog1"
-               },
+            "Update": "OnLocationChange"
+        },
+        {
+            "LogName": "Sunberry Village Ducks",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_TwilightFestival",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 49,
+                        "Y": 50,
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.PondDuck",
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 33,
+                        "Y": 26,
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.PondDuck",
+                    },
+                },
+            ],
+            "When": {
+                "Weather": "Sun, Wind",
+                "Season": "Spring, Summer, Fall",
             },
-            {
-               "Position": {
-                  "X": 42,
-                  "Y": 53
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog2"
-               },
-            },
-            {
-               "Position": {
-                  "X": 73,
-                  "Y": 65
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog3"
-               },
-            },
-            {
-               "Position": {
-                  "X": 54,
-                  "Y": 30
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog4"
-               },
-            },
-            {
-               "Position": {
-                  "X": 74,
-                  "Y": 18
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog5"
-               },
-            },
-         ],
-         "When": {
-            "Weather": "Sun, Wind",
-            "Season": "Spring, Summer, Fall",
-            "Query: NOT '{{Season}} {{Day}}' = 'Fall 26' ": true
-         },
-         "Update": "OnLocationChange",
-      },
-      {
-         "LogName": "Sunberry Village Dogs on Twilight Festival",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_TwilightFestival",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 69,
-                  "Y": 90
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog1"
-               }
-            },
-            {
-               "Position": {
-                  "X": 82,
-                  "Y": 84
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog2"
-               }
-            },
-            {
-               "Position": {
-                  "X": 62,
-                  "Y": 87
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog3"
-               }
-            },
-            {
-               "Position": {
-                  "X": 57,
-                  "Y": 91
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog4"
-               }
-            },
-            {
-               "Position": {
-                  "X": 89,
-                  "Y": 93
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog5"
-               }
-            },
-         ],
-         "When": {
-            "Season": "Fall",
-            "Day": 26
-         },
-         "Update": "OnLocationChange"
-      },
-      {
-         "LogName": "Dog In the Inn Rain",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SerenityInn",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 19,
-                  "Y": 9
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog1"
-               }
+            "Update": "OnLocationChange",
+        },
+        {
+            "LogName": "Sunberry Forest Animals",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryForest",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 33,
+                        "Y": 21
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: ForestRabbit1, ForestRabbit2, ForestRabbit3, ForestRabbit4}}"
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 69,
+                        "Y": 14
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: ForestRabbit1, ForestRabbit2, ForestRabbit3, ForestRabbit4}}"
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 36,
+                        "Y": 28
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: ForestRabbit1, ForestRabbit2, ForestRabbit3, ForestRabbit4}}"
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 28,
+                        "Y": 52
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: ForestRabbit1, ForestRabbit2, ForestRabbit3, ForestRabbit4}}"
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 58,
+                        "Y": 50
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: ForestRabbit1, ForestRabbit2, ForestRabbit3, ForestRabbit4}}"
+                    },
+                },
+            ],
+        },
+        {
+            "LogName": "Raccoon in Forest",
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "{{Random: 88, 25, 101 |key=ForestCoords}}",
+                        "Y": "{{Random: 25, 16, 82 |key=ForestCoords}}"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+                    }
+                }
+            ],
+            "When": {
+                "Weather |contains=Rain, Storm": false,
+                "DayOfWeek": "Monday"
             }
-         ],
-         "When": {
-            "Weather": "Rain, Storm",
-            "Season": "Spring, Summer, Fall"
-         },
-         "Update": "OnLocationChange"
-      },
-      {
-         "LogName": "Dog In Miyoung's House Rain",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_MiyoungHouse",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 5,
-                  "Y": 10
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog2"
-               }
+        },
+        {
+            "LogName": "Raccoon in Mountain",
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 39,
+                        "Y": 35
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+                    }
+                }
+            ],
+            "When": {
+                "Weather |contains=Rain, Storm": false,
+                "DayOfWeek": "Tuesday"
             }
-         ],
-         "When": {
-            "Weather": "Rain, Storm",
-            "Season": "Spring, Summer, Fall"
-         },
-         "Update": "OnLocationChange"
-      },
-      {
-         "LogName": "Dog In the Cafe Rain",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_DialaCafe",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 21,
-                  "Y": 16
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.MainDog3"
-               }
+        },
+        {
+            "LogName": "Raccoon in Sunberry Village",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "{{Random: 41, 12, 72 |key=SBVillageCoords}}",
+                        "Y": "{{Random: 23, 76, 57 |key=SBVillageCoords}}"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+                    }
+                }
+            ],
+            "When": {
+                "Weather |contains=Rain, Storm": false,
+                "DayOfWeek": "Wednesday, Sunday"
             }
-         ],
-         "When": {
-            "Weather": "Rain, Storm",
-            "Season": "Spring, Summer, Fall"
-         },
-         "Update": "OnLocationChange"
-      },
-      {
-         "LogName": "Sunberry Village Fireflies",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryVillage",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 88,
-                  "Y": 17
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 66,
-                  "Y": 18
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 35,
-                  "Y": 18
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 20,
-                  "Y": 40
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 28,
-                  "Y": 63
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 15,
-                  "Y": 87
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 60,
-                  "Y": 42
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 72,
-                  "Y": 55
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 65,
-                  "Y": 68
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 58,
-                  "Y": 82
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 73,
-                  "Y": 91
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 82,
-                  "Y": 86
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 59,
-                  "Y": 91
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 54,
-                  "Y": 86
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 66,
-                  "Y": 86
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 52,
-                  "Y": 92
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 66,
-                  "Y": 86
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 64,
-                  "Y": 79
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-         ],
-         "When": {
-            "Time": "{{Range: 1800, 2400}}"
-         },
-         "Update": "OnLocationChange",
-      },
-      {
-         "LogName": "Sunberry Mountain Fireflies",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryMountain",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 16,
-                  "Y": 35
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 16,
-                  "Y": 26
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 29,
-                  "Y": 28
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 24,
-                  "Y": 19
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 24,
-                  "Y": 19
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 56,
-                  "Y": 34
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 53,
-                  "Y": 7
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
+        },
+        {
+            "LogName": "Raccoon in Sunberry Forest",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryForest",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "{{Random: 70, 15, 66 |key=SBForestCoords}}",
+                        "Y": "{{Random: 16, 44, 52 |key=SBForestCoords}}"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+                    }
+                }
+            ],
+            "When": {
+                "Weather |contains=Rain, Storm": false,
+                "DayOfWeek": "Thursday"
             }
-         ],
-         "When": {
-            "Time": "{{Range: 1800, 2400}}"
-         },
-         "Update": "OnLocationChange"
-      },
-      {
-         "LogName": "Sunberry Forest Fireflies",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryForest",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 69,
-                  "Y": 7
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 66,
-                  "Y": 16
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 77,
-                  "Y": 29
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 50,
-                  "Y": 16
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 31,
-                  "Y": 18
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 19,
-                  "Y": 29
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 14,
-                  "Y": 44
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 25,
-                  "Y": 52
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 46,
-                  "Y": 51
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 57,
-                  "Y": 54
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
-            },
-            {
-               "Position": {
-                  "X": 74,
-                  "Y": 47
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVFirefly"
-               }
+        },
+        {
+            "LogName": "Raccoon in Sunberry Mountain",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryMountain",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "{{Random: 7, 48, 42 |key=SBMountainCoords}}",
+                        "Y": "{{Random: 22, 32, 11 |key=SBMountainCoords}}"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+                    }
+                }
+            ],
+            "When": {
+                "Weather |contains=Rain, Storm": false,
+                "DayOfWeek": "Friday"
             }
-         ],
-         "When": {
-            "Time": "{{Range: 1800, 2400}}"
-         },
-         "Update": "OnLocationChange"
-      },
-      {
-         "LogName": "Sunberry Village Ducks",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_TwilightFestival", 
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 49,
-                  "Y": 50,
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.PondDuck",
-               },
-            },
-            {
-               "Position": {
-                  "X": 33,
-                  "Y": 26,
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.PondDuck",
-               },
-            },
-         ],
-         "When": {
-            "Weather": "Sun, Wind",
-            "Season": "Spring, Summer, Fall",
-         },
-         "Update": "OnLocationChange",
-      },
-      {
-         "LogName": "Sunberry Forest Animals",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryForest",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 33,
-                  "Y": 21
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: ForestRabbit1, ForestRabbit2, ForestRabbit3, ForestRabbit4}}"
-               },
-            },
-            {
-               "Position": {
-                  "X": 69,
-                  "Y": 14
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: ForestRabbit1, ForestRabbit2, ForestRabbit3, ForestRabbit4}}"
-               },
-            },
-            {
-               "Position": {
-                  "X": 36,
-                  "Y": 28
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: ForestRabbit1, ForestRabbit2, ForestRabbit3, ForestRabbit4}}"
-               },
-            },
-            {
-               "Position": {
-                  "X": 28,
-                  "Y": 52
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: ForestRabbit1, ForestRabbit2, ForestRabbit3, ForestRabbit4}}"
-               },
-            },
-            {
-               "Position": {
-                  "X": 58,
-                  "Y": 50
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.{{Random: ForestRabbit1, ForestRabbit2, ForestRabbit3, ForestRabbit4}}"
-               },
-            },
-         ],
-      },
-      {
-         "LogName": "Raccoon in Forest",
-         "Action": "EditMap",
-         "Target": "Maps/Forest",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": "{{Random: 88, 25, 101 |key=ForestCoords}}",
-                  "Y": "{{Random: 25, 16, 82 |key=ForestCoords}}"
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
-               }
+        },
+        {
+            "LogName": "Raccoon in Beach",
+            "Action": "EditMap",
+            "Target": "Maps/Beach",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": "{{Random: 41, 81, 87 |key=BeachCoords}}",
+                        "Y": "{{Random: 17, 10, 33 |key=BeachCoords}}"
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
+                    }
+                }
+            ],
+            "When": {
+                "Weather |contains=Rain, Storm": false,
+                "DayOfWeek": "Saturday"
             }
-         ],
-         "When": {
-            "Weather |contains=Rain, Storm": false,
-            "DayOfWeek": "Monday"
-         }
-      },
-      {
-         "LogName": "Raccoon in Mountain",
-         "Action": "EditMap",
-         "Target": "Maps/Mountain",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 39,
-                  "Y": 35
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
-               }
-            }
-         ],
-         "When": {
-            "Weather |contains=Rain, Storm": false,
-            "DayOfWeek": "Tuesday"
-         }
-      },
-      {
-         "LogName": "Raccoon in Sunberry Village",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryVillage",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": "{{Random: 41, 12, 72 |key=SBVillageCoords}}",
-                  "Y": "{{Random: 23, 76, 57 |key=SBVillageCoords}}"
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
-               }
-            }
-         ],
-         "When": {
-            "Weather |contains=Rain, Storm": false,
-            "DayOfWeek": "Wednesday, Sunday"
-         }
-      },
-      {
-         "LogName": "Raccoon in Sunberry Forest",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryForest",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": "{{Random: 70, 15, 66 |key=SBForestCoords}}",
-                  "Y": "{{Random: 16, 44, 52 |key=SBForestCoords}}"
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
-               }
-            }
-         ],
-         "When": {
-            "Weather |contains=Rain, Storm": false,
-            "DayOfWeek": "Thursday"
-         }
-      },
-      {
-         "LogName": "Raccoon in Sunberry Mountain",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryMountain",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": "{{Random: 7, 48, 42 |key=SBMountainCoords}}",
-                  "Y": "{{Random: 22, 32, 11 |key=SBMountainCoords}}"
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
-               }
-            }
-         ],
-         "When": {
-            "Weather |contains=Rain, Storm": false,
-            "DayOfWeek": "Friday"
-         }
-      },
-      {
-         "LogName": "Raccoon in Beach",
-         "Action": "EditMap",
-         "Target": "Maps/Beach",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": "{{Random: 41, 81, 87 |key=BeachCoords}}",
-                  "Y": "{{Random: 17, 10, 33 |key=BeachCoords}}"
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVRaccoon"
-               }
-            }
-         ],
-         "When": {
-            "Weather |contains=Rain, Storm": false,
-            "DayOfWeek": "Saturday"
-         }
-      },
-      {
-         "LogName": "Sunberry Forest Ducks",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_SunberryForest",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 63,
-                  "Y": 37,
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.PondDuck",
-               },
+        },
+        {
+            "LogName": "Sunberry Forest Ducks",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryForest",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 63,
+                        "Y": 37,
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.PondDuck",
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 48,
+                        "Y": 38,
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.PondDuck",
+                    },
+                },
+            ],
+            "When": {
+                "Weather": "Sun, Wind",
+                "Season": "Spring, Summer, Fall",
             },
-            {
-               "Position": {
-                  "X": 48,
-                  "Y": 38,
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.PondDuck",
-               },
-            },
-         ],
-         "When": {
-            "Weather": "Sun, Wind",
-            "Season": "Spring, Summer, Fall",
-         },
-         "Update": "OnLocationChange",
-      },
-      /*{
+            "Update": "OnLocationChange",
+        },
+        /*{
          "LogName": "Critters in Mine 1",
          "Action": "EditMap",
          "Target": "Maps/Custom_SBV_Mines1",
@@ -986,34 +986,34 @@
             }
          ]
       },*/
-      {
-         "LogName": "Critters in Mine 5",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_Mines5B",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 14,
-                  "Y": 6
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime1"
-               }
-            },
-            {
-               "Position": {
-                  "X": 9,
-                  "Y": 17
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVMouseGuy1"
-               }
-            }
-         ]
-      },
-      /*{
+        {
+            "LogName": "Critters in Mine 5",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_Mines5B",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 6
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime1"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 9,
+                        "Y": 17
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVMouseGuy1"
+                    }
+                }
+            ]
+        },
+        /*{
          "LogName": "Critters in Mine 7",
          "Action": "EditMap",
          "Target": "Maps/Custom_SBV_Mines7",
@@ -1067,71 +1067,71 @@
             }
          ]
       },*/
-      {
-         "LogName": "Critters in Mine 9",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_Mines9",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 6,
-                  "Y": 10
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
-               }
-            },
-            {
-               "Position": {
-                  "X": 25,
-                  "Y": 13
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
-               }
-            }
-         ]
-      },
-      {
-         "LogName": "Critters in Mine 10",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_Mines10B",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 5,
-                  "Y": 8
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
-               }
-            },
-            {
-               "Position": {
-                  "X": 12,
-                  "Y": 7
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
-               }
-            },
-            {
-               "Position": {
-                  "X": 13,
-                  "Y": 11
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVMouseGuy2"
-               }
-            }
-         ]
-      },
-      /*{
+        {
+            "LogName": "Critters in Mine 9",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_Mines9",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 6,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 25,
+                        "Y": 13
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
+                    }
+                }
+            ]
+        },
+        {
+            "LogName": "Critters in Mine 10",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_Mines10B",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 5,
+                        "Y": 8
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 12,
+                        "Y": 7
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 13,
+                        "Y": 11
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVMouseGuy2"
+                    }
+                }
+            ]
+        },
+        /*{
          "LogName": "Critters in Mine 11",
          "Action": "EditMap",
          "Target": "Maps/Custom_SBV_Mines11",
@@ -1269,62 +1269,62 @@
             }
          ]
       },*/
-      {
-         "LogName": "Critters in Mine Final",
-         "Action": "EditMap",
-         "Target": "Maps/Custom_SBV_MinesFinal",
-         "MapTiles": [
-            {
-               "Position": {
-                  "X": 8,
-                  "Y": 11
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
-               }
-            },
-            {
-               "Position": {
-                  "X": 15,
-                  "Y": 15
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
-               }
-            },
-            {
-               "Position": {
-                  "X": 41,
-                  "Y": 10
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime1"
-               }
-            },
-            {
-               "Position": {
-                  "X": 24,
-                  "Y": 16
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVMouseGuy1"
-               }
-            },
-            {
-               "Position": {
-                  "X": 14,
-                  "Y": 21
-               },
-               "Layer": "Back",
-               "SetProperties": {
-                  "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
-               }
-            }
-         ]
-      }
-   ]
+        {
+            "LogName": "Critters in Mine Final",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_MinesFinal",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 8,
+                        "Y": 11
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 15,
+                        "Y": 15
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 41,
+                        "Y": 10
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime1"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 24,
+                        "Y": 16
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVMouseGuy1"
+                    }
+                },
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 21
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime2"
+                    }
+                }
+            ]
+        }
+    ]
 }
