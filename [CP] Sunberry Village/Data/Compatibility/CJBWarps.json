@@ -7,15 +7,18 @@
 			"Entries": {
 				"{{ModId}}_SunberryVillage": {
 					"Id": "{{ModId}}_SunberryVillage",
-					"DisplayName": "{{i18n:Sunberry.Locations.SunberryVillage}}"
+					"DisplayName": "{{i18n:Sunberry.Locations.SunberryVillage}}",
+					"Order": 100
 				},
 				"{{ModId}}_SunberryMountain": {
 					"Id": "{{ModId}}_SunberryMountain",
-					"DisplayName": "{{i18n:Sunberry.Locations.SunberryMountain}}"
+					"DisplayName": "{{i18n:Sunberry.Locations.SunberryMountain}}",
+					"Order": 101
 				},
 				"{{ModId}}_SunberryForest": {
 					"Id": "{{ModId}}_SunberryForest",
-					"DisplayName": "{{i18n:Sunberry.Locations.SunberryForest}}"
+					"DisplayName": "{{i18n:Sunberry.Locations.SunberryForest}}",
+					"Order": 102
 				}
 			}
 		},
