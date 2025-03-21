@@ -70,13 +70,13 @@
                 "Sat8": "{{i18n:Elias.Dialogue.Sat8}}",
                 "Sun8": "{{i18n:Elias.Dialogue.Sun8}}",
                 //10 Hearts
-                "Mon10": "{{i18n:Elias.Dialogue.Mon10.Romantic}}",
-                "Tue10": "{{i18n:Elias.Dialogue.Tue10.Romantic}}",
-                "Wed10": "{{i18n:Elias.Dialogue.Wed10.Romantic}}",
-                "Thu10": "{{i18n:Elias.Dialogue.Thu10.Romantic}}",
-                "Fri10": "{{i18n:Elias.Dialogue.Fri10.Romantic}}",
-                "Sat10": "{{i18n:Elias.Dialogue.Sat10.Romantic}}",
-                "Sun10": "{{i18n:Elias.Dialogue.Sun10.Romantic}}",
+                "Mon10": "{{i18n:Elias.Dialogue.Mon10.Platonic}}",
+                "Tue10": "{{i18n:Elias.Dialogue.Tue10.Platonic}}",
+                "Wed10": "{{i18n:Elias.Dialogue.Wed10.Platonic}}",
+                "Thu10": "{{i18n:Elias.Dialogue.Thu10.Platonic}}",
+                "Fri10": "{{i18n:Elias.Dialogue.Fri10.Platonic}}",
+                "Sat10": "{{i18n:Elias.Dialogue.Sat10.Platonic}}",
+                "Sun10": "{{i18n:Elias.Dialogue.Sun10.Platonic}}",
 
                 //Green Rain
                 "GreenRain": "{{i18n:Elias.Dialogue.GreenRain}}",
@@ -92,6 +92,23 @@
                 //Trashcan
                 "DumpsterDiveComment": "{{i18n:Elias.Dialogue.DumpsterDiveComment}}",
 
+            }
+        },
+        {
+            "LogName": "Elias Romantic Dialogue",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/EliasSBV",
+            "Entries": {
+                "Mon10": "{{i18n:Elias.Dialogue.Mon10.Romantic}}",
+                "Tue10": "{{i18n:Elias.Dialogue.Tue10.Romantic}}",
+                "Wed10": "{{i18n:Elias.Dialogue.Wed10.Romantic}}",
+                "Thu10": "{{i18n:Elias.Dialogue.Thu10.Romantic}}",
+                "Fri10": "{{i18n:Elias.Dialogue.Fri10.Romantic}}",
+                "Sat10": "{{i18n:Elias.Dialogue.Sat10.Romantic}}",
+                "Sun10": "{{i18n:Elias.Dialogue.Sun10.Romantic}}",
+            },
+            "When": {
+                "Relationship:EliasSBV": "Dating"
             }
         },
         {

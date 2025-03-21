@@ -436,7 +436,9 @@
     "EventLimiterExceptions": [
         // GSB Start
         "skellady.SBVCP_20031445",
-        "skellady.SBVCP_20031446"
+        "skellady.SBVCP_20031446",
+        "skellady.SBVCP_20031478",
+        "skellady.SBVCP_20031479",
     ],
     "Changes": [
         /* Temporary Actors */
