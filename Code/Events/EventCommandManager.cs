@@ -5,10 +5,12 @@ using SunberryVillage.Events.Phone;
 using SunberryVillage.Events.Tarot;
 using System;
 using System.Collections.Generic;
+using StardewModdingAPI.Utilities;
 using StardewValley.Extensions;
 using xTile.Dimensions;
 using Rectangle = Microsoft.Xna.Framework.Rectangle;
 using Vector2 = Microsoft.Xna.Framework.Vector2;
+using System.Numerics;
 
 namespace SunberryVillage.Events;
 internal class EventCommandManager
@@ -16,6 +18,8 @@ internal class EventCommandManager
 	internal static EventScriptPhoneConfession PhoneScript;
 	internal static WizardWarpIn WarpIn;
 	internal static WizardWarpOut WarpOut;
+	
+	internal static PerScreen<EventCommandLightManager> LightManager = new ();
 
 	internal static void AddEventHooks()
 	{
@@ -104,7 +108,51 @@ internal class EventCommandManager
 			Game1.currentLightSources.RemoveWhere(lightSource => lightSource.Value.Id == args[1]);
 			ev.CurrentCommand++;
 		});
-	}
+		
+		Event.RegisterCommand("SunberryTeam.SBVSMAPI_AddLightToActor", (ev, args, eventContext) =>
+		{
+			if (!ArgUtility.TryGet(args, 1, out var actorName, out var error, allowBlank: false, "string actorName") ||
+				!ArgUtility.TryGet(args, 2, out var lightId, out error, allowBlank: false, "string lightId") ||
+                !ArgUtility.TryGetVector2(args, 3, out var offset, out error, false, "offset") ||
+                !ArgUtility.TryGetFloat(args, 5, out var radius, out error, "radius"))
+			{
+				eventContext.LogErrorAndSkip(error);
+				return;
+			}
+
+			if (LightManager.Value == null)
+			{
+				LightManager.Value = new EventCommandLightManager(ev, () => LightManager.Value = null);
+			}
+
+			NPC actor = ev.getActorByName(actorName);
+			if (actor is not null)
+			{
+				var lightSource = new EventCommandLightManager.LightSourceWrapper(
+					new LightSource(lightId.ToLower(), 4, actor.Position, radius),
+					offset);
+				LightManager.Value.addLight(actor, lightSource);
+			}
+
+            ev.CurrentCommand++;
+		});
+
+        Event.RegisterCommand("SunberryTeam.SBVSMAPI_RemoveLightFromActor", (ev, args, eventContext) =>
+        {
+            if (!ArgUtility.TryGet(args, 1, out var lightId, out var error, allowBlank: false, "string lightId"))
+            {
+                eventContext.LogErrorAndSkip(error);
+                return;
+            }
+
+            if (LightManager.Value != null)
+            {
+				LightManager.Value.removeLight(lightId.ToLower());
+            }
+			
+			ev.CurrentCommand++;
+        });
+    }
 	
 	internal class WizardWarpIn
 	{
