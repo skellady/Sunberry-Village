@@ -21,5 +21,19 @@
 				"GreenRain": "610 Custom_SBV_SerenityInn 19 8 square_3_1_2"
 			},
 		},
+		{
+			"LogName": "Lyenne's Schedule in Elias' New House",
+			"Action": "EditData",
+			"Target": "Characters/schedules/LyenneSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_SerenityInn2ndFloor 7 6 0/1000 Custom_SBV_SerenityInn 3 12 0/1200 Custom_SBV_SunberryVillage 66 72 2/a2000 Custom_SBV_SerenityInn2ndFloor 4 6 3",
+				"Sun": "610 Custom_SBV_SerenityInn2ndFloor 9 9 1/1500 Custom_SBV_SunberryVillage 66 68 3/2100 Custom_SBV_EliasHouseNew 21 14 3",
+				"Mon": "610 Custom_SBV_SerenityInn2ndFloor 9 9 1/1000 Custom_SBV_SerenityInn 7 8 0/1200 Custom_SBV_SunberryVillage 66 72 2/2100 Custom_SBV_EliasHouseNew 21 14 3",
+				"Thu": "610 Custom_SBV_SerenityInn2ndFloor 9 9 1/1200 Town 56 26 3/2100 Custom_SBV_EliasHouseNew 21 14 3",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains= skellady.SBVCP_20031483": true
+			}
+		},
 	]
 }

@@ -20,6 +20,20 @@
 				"rain": "610 Custom_SBV_AriMarket 3 24 0/1000 Custom_SBV_AriMarket 16 26 0/2000 Custom_SBV_AriMarket 3 5 3",
 				"GreenRain": "610 Custom_SBV_AriMarket 11 26 square_2_1_2"
 			}
+		},
+		{
+			"LogName": "Blake's Schedule in Elias' New House",
+			"Action": "EditData",
+			"Target": "Characters/schedules/BlakeSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_AriMarket 3 24 0/1000 Custom_SBV_AriMarket 16 26 0/1300 Custom_SBV_SunberryVillage 65 72 2/2000 Custom_SBV_AriMarket 3 5 3",
+				"Sun": "900 Custom_SBV_AriMarket 7 6 0 blake_laptop/1200 Custom_SBV_AriMarket 16 26 0/1600 Custom_SBV_SunberryVillage 65 67 2/2100 Custom_SBV_EliasHouseNew 26 14 3",
+				"Mon": "900 Custom_SBV_AriMarket 7 6 0 blake_laptop/1300 Custom_SBV_SunberryVillage 65 72 2/2100 Custom_SBV_EliasHouseNew 26 14 3",
+				"Thu": "900 Custom_SBV_AriMarket 7 6 0 blake_laptop/1200 Town 55 26 1/2100 Custom_SBV_EliasHouseNew 26 14 3",
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains= skellady.SBVCP_20031483": true
+			}
 		}
 	]
 }
