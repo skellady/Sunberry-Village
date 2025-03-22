@@ -1246,15 +1246,6 @@
                     ],
                     "Home": [
                         {
-                            "Id": "Default",
-                            "Location": "Custom_SBV_EliasHouse",
-                            "Tile": {
-                                "X": 3,
-                                "Y": 5
-                            },
-                            "Direction": "down"
-                        },
-                        {
                             "Id": "skellady.SBVCP_EliasNewHouse",
                             "Location": "Custom_SBV_EliasHouseNew",
                             "Tile": {
@@ -1263,6 +1254,15 @@
                             },
                             "Direction": "down",
                             "Condition": "PLAYER_HAS_SEEN_EVENT Any skellady.SBVCP_20031483"
+                        },
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_EliasHouse",
+                            "Tile": {
+                                "X": 3,
+                                "Y": 5
+                            },
+                            "Direction": "down"
                         }
                     ],
                     "Size": {
