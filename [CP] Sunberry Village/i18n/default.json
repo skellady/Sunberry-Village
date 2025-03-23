@@ -1970,7 +1970,7 @@
     "event-20031474.07": "Around a year, give or take.$9",
     "event-20031474.08": "Dr. Zahra, the owner of this buildin', built this area to house our collection.#$b#She had to leave the village on urgent business, so we never got around to it.$8",
     "event-20031474.09": "Say, farmer. Would you be interested in helpin' me restore this place?$h",
-    "event-20031474.10": "Aren't you helpin' Gunther out over at Pelican Town? Surely you can help a desperate neighbor, too. Don't make me beg, now.$10",
+    "event-20031474.10": "Surely you can spare some time and help a desperate neighbor. Don't make me beg, now.$10", // FOR TRANSLATORS (VERSION 1.0.2): Changed "Aren't you helpin' Gunther out?" to the current line.
     "event-20031474.11": "Sure, I'll help.",
     "event-20031474.12": "...Fine, but you owe me.",
     "event-20031474.13": "Perfect! Thank you, truly. I promise you won't be alone. Maia and I will help out, too.$h",
@@ -4629,7 +4629,7 @@
     "Elias.Dialogue.Sun10.Platonic": "Why don't we take a trip to the city sometime? I could borrow Ophelia's car so we don't have to deal with buses.$h",
 
     //10 hearts (ROMANTIC)
-    "Elias.Dialogue.Mon10.Romantic": "I got this new book earlier and it's been pretty entertainin'. Why don't you come over later? I'll hold you tight and read a couple chapters to you.$7#$b#What? You're the only always ravin' about how soothin' my voice is. I'm just givin' you what you want, angel.$10",
+    "Elias.Dialogue.Mon10.Romantic": "I got this new book earlier and it's been pretty entertainin'. Why don't you come over later? I'll hold you tight and read a couple chapters to you.$7#$b#What? You're the one always ravin' about how soothin' my voice is. I'm just givin' you what you want, angel.$10",
     "Elias.Dialogue.Tue10.Romantic": "%Elias looks you up and down before pulling you close and kissing your forehead.#$b#Sorry, couldn't resist. You look gorgeous, my dear.$h#$e#What? More forehead kisses?$10#$b#$y '..._Yes!_%Elias chuckles and kisses your forehead again._No, I'm good!_Alright, you come back whenever you need more.$u'",
     "Elias.Dialogue.Wed10.Romantic": "Say, d'you think I'd be helpful on that farm of yours?$7#$b#$y '..._Oh, yeah. I can definitely put you to work._Yeah? I'm glad to hear that.$10_You'd rock a farmer cosplay, but that's about it._And for scientific reasons, would that be of interest to you, darlin'?$10'",
     "Elias.Dialogue.Thu10.Romantic": "How do we feel about a movie night soon? I'll put on your favorite movie and make you a nice dinner. Does that sound good?$h",

@@ -39,6 +39,31 @@
 			"When": {
 				"Season |contains= Spring, Summer, Fall": true
 			}
-		}
+		},
+		{
+			"LogName": "Elias New House Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/EliasSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1500 Custom_SBV_SunberryVillage 77 14 2/2000 Custom_SBV_EliasHouseNew 13 5 3",
+				"Mon": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1500 Custom_SBV_SunberryVillage 77 14 2/1800 Custom_SBV_SunberryVillage 80 12 1/2200 Custom_SBV_EliasHouseNew 13 5 3",
+				"Tue": "610 Custom_SBV_SunberryLibrary 34 11 0/1100 ArchaeologyHouse 6 10 0/1900 Custom_SBV_SunberryLibrary 23 10 0/2300 Custom_SBV_EliasHouseNew 13 5 3",
+				"Wed": "610 Custom_SBV_SunberryLibrary 23 10 0/1000 Custom_SBV_SilasBlacksmith 10 14 1/1600 Custom_SBV_SunberryMountain 45 21 1/2000 Custom_SBV_EliasHouseNew 13 5 3",
+				"Thu": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1500 Saloon 26 18 2/2200 Custom_SBV_EliasHouseNew 13 5 3",
+				"Fri": "610 Custom_SBV_SunberryLibrary 34 11 0/1000 Beach 16 24 2 elias_fish/1800 Beach 43 23 2/2200 Custom_SBV_EliasHouseNew 13 5 3",
+				"spring_Sat": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1600 Custom_SBV_SunberryVillage 52 84 1 elias_guitar \"Strings\\schedules\\EliasSBV:Fountain\"/2300 Custom_SBV_EliasHouseNew 13 5 3",
+				"summer_Sat": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1600 Custom_SBV_SunberryVillage 52 84 1 elias_guitar \"Strings\\schedules\\EliasSBV:Fountain\"/2300 Custom_SBV_EliasHouseNew 13 5 3",
+				"fall_Sat": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1600 Custom_SBV_SunberryVillage 52 84 1 elias_guitar \"Strings\\schedules\\EliasSBV:Fountain\"/2300 Custom_SBV_EliasHouseNew 13 5 3",
+				"winter_Sat": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/1500 Custom_SBV_SunberryVillage 77 14 2/2000 Custom_SBV_EliasHouseNew 13 5 3",
+				"skellady.SBVCP_TwilightFestival": "900 Custom_SBV_SunberryVillage 74 67 3 \"Strings\\schedules\\EliasSBV:TwilightFestival.000\"/a1600 Custom_SBV_SunberryVillage 75 15 2 \"Strings\\schedules\\EliasSBV:TwilightFestival.001\"/2500 Custom_SBV_EliasHouseNew 13 5 3",
+				"TroutDerby": "610 Forest 95 39 2 elias_fish/2100 Custom_SBV_EliasHouseNew 13 5 3",
+				"SquidFest": "610 Custom_SBV_SunberryLibrary 23 10 0/900 Beach 26 36 2 elias_fish/2100 Custom_SBV_EliasHouseNew 13 5 3",
+				"rain": "610 Custom_SBV_SunberryLibrary 23 10 0/1200 Custom_SBV_SunberryLibrary 34 11 0/2000 Custom_SBV_EliasHouseNew 13 5 3",
+				"GreenRain": "610 Custom_SBV_EliasHouseNew 14 15 0"
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains= skellady.SBVCP_20031483": true
+			}
+		},
 	]
 }

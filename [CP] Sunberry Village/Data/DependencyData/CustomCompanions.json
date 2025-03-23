@@ -1111,18 +1111,8 @@
                 },
                 {
                     "Position": {
-                        "X": 12,
-                        "Y": 7
-                    },
-                    "Layer": "Back",
-                    "SetProperties": {
-                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabySlime3"
-                    }
-                },
-                {
-                    "Position": {
-                        "X": 13,
-                        "Y": 11
+                        "X": 8,
+                        "Y": 9
                     },
                     "Layer": "Back",
                     "SetProperties": {

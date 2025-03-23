@@ -1246,6 +1246,16 @@
                     ],
                     "Home": [
                         {
+                            "Id": "skellady.SBVCP_EliasNewHouse",
+                            "Location": "Custom_SBV_EliasHouseNew",
+                            "Tile": {
+                                "X": 13,
+                                "Y": 5
+                            },
+                            "Direction": "down",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any skellady.SBVCP_20031483"
+                        },
+                        {
                             "Id": "Default",
                             "Location": "Custom_SBV_EliasHouse",
                             "Tile": {
