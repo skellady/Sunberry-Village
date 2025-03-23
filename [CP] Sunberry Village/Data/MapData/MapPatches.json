@@ -345,7 +345,7 @@
     // Remove barrels
     {
       "Action": "EditMap",
-      "Target": "Maps/Town-Fair2",
+      "Target": "Maps/Town-Fair, Maps/Town-Fair2",
       "PatchMode": "Replace",
       "FromFile": "Assets/Maps/MapPatches/SBV_RemoveFairBarrels.tmx",
       "FromArea": {
@@ -361,6 +361,29 @@
         "Height": 4
       },
       "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
+        "FestivalPatches": true
+      }
+    },
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair2",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/SBV_SVE_RemoveFairBarrels.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 4,
+        "Height": 5
+      },
+      "ToArea": {
+        "X": 48,
+        "Y": 46,
+        "Width": 4,
+        "Height": 5
+      },
+      "When": {
+        "HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
         "FestivalPatches": true
       }
     },
