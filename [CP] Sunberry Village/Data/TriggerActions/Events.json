@@ -12,6 +12,12 @@
                     "Condition": "ANY \"{{BoardUnlock |contains= Elias}}, PLAYER_FRIENDSHIP_POINTS Any EliasSBV 1000\" \"{{BoardUnlock |contains= Vanilla}}, PLAYER_HAS_SEEN_EVENT Any 15389722\"",
                     "Action": "AddMail Host skellady.SBVCP_SpecialOrderBoardReady received",
                     "HostOnly": "true"
+                },
+                "skellady.SBVCP_LunarBeanGrown": {
+                    "Id": "skellady.SBVCP_LunarBeanGrown",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_CONVERSATION_TOPIC Any cropMatured_skellady.SBVCP_LunarBean",
+                    "Action": "AddMail Current skellady.SBVCP_LunarBeanGrown received"
                 }
             }
         }

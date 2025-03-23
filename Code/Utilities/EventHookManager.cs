@@ -33,5 +33,6 @@ internal class EventHookManager
 		ImageMenuManager.AddEventHooks();
 		PipPepShopNotification.AddEventHooks();
 		StringPoolManager.AddEventHooks();
+		MenuHooks.AddEventHooks();
 	}
 }

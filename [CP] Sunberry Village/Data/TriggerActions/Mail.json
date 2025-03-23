@@ -40,6 +40,12 @@
                     "Condition": "PLAYER_HEARTS Current DialaSBV 4, PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031427",
                     "Action": "AddMail Current skellady.SBVCP_DDAlchemyTableLetter"
                 },
+                "skellady.SBVCP_AlchemyOrbsRecipe": {
+                    "Id": "skellady.SBVCP_AlchemyOrbsRecipe",
+                    "Trigger": "DayStarted",
+                    "Condition": "PLAYER_STAT Any skellady.SBVCP_TimesAlchemized 5",
+                    "Action": "AddMail Current skellady.SBVCP_DDAlchemyTableOrbsLetter"
+                },
                 "skellady.SBVCP_GSBTrigger": {
                     "Id": "skellady.SBVCP_GSBTrigger",
                     "Trigger": "DayStarted",
@@ -119,7 +125,7 @@
                     "Condition": "ANY \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Mothfish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_FiretailGuppy\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_EmeraldSnapper\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Aberrant\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_BonbonFish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_EeltailedCatfish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Najelfish\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_AnglerJr\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_ChartreuseTilapia\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_BubblyBetta\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_AzureanCarp\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_SeaCow\" \"PLAYER_HAS_CAUGHT_FISH Current (O)skellady.SBVCP_Barkfish\"",
                     "Actions": [
                         "AddMail Current skellady.SBVCP_EliasFishCompendiumIntro",
-                        "AddMail Current skellady.SBVCP_EliasStudyingFish"          // controls whether or not elias uses gift rejection strings for sunberry fish
+                        "AddMail Current skellady.SBVCP_EliasStudyingFish" // controls whether or not elias uses gift rejection strings for sunberry fish
                     ]
                 },
                 "skellady.SBVCP_EliasFishCompendiumReward1Letter": {

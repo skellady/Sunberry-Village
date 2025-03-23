@@ -64,6 +64,9 @@ internal class BookViewerMenu : LetterViewerMenu
 
 	private void ApplyCustomFormattingPerPage()
 	{
+		if (-1 >= page || page >= PageFormats.Count)
+			return;
+
 		FormatModel format = PageFormats[page];
 		customTextColor = format.customTextColor;
 		usingCustomBackground = format.usingCustomBackground;
