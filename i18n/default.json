@@ -81,5 +81,8 @@
     "PhoneConfession.Message.9": "i think im in love u",
     "PhoneConfession.Message.10": "witj",
     "PhoneConfession.Message.11": "WITH",
-    "PhoneConfession.Message.12": "WITH YOU"
+    "PhoneConfession.Message.12": "WITH YOU",
+	
+	//SocialPage patch for elias
+	"RelationshipStatus.Locked": "(Locked)"
 }

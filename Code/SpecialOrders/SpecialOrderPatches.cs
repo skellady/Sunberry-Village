@@ -126,7 +126,7 @@ internal class SpecialOrderPatches
 	{
 		try
 		{
-			if (!orderEmojiIndices.Value.TryGetValue(requester_name, out int index))
+			if (requester_name is null || !orderEmojiIndices.Value.TryGetValue(requester_name, out int index))
 				return true;
 
 			Rectangle sourceRect = new(index % emojisPerRow * emojiSize, index / emojisPerRow * emojiSize, emojiSize, emojiSize);
