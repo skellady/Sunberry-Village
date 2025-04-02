@@ -18,7 +18,7 @@
 				"spring_Sat": "610 Custom_SBV_MiyoungHouse 1 8 1/800 Custom_SBV_MaiaHouse 12 16 0/1500 Custom_SBV_SunberryVillage 58 36 0/a1800 Custom_SBV_SunberryVillage 63 85 2 miyoung_stand \"Strings\\schedules\\MiyoungSBV:Fountain\"/2310 Custom_SBV_MiyoungHouse 13 5 1",
 				"summer_Sat": "610 Custom_SBV_MiyoungHouse 1 8 1/800 Custom_SBV_MaiaHouse 12 16 0/1500 Custom_SBV_SunberryVillage 58 36 0/a1800 Custom_SBV_SunberryVillage 63 85 2 miyoung_stand \"Strings\\schedules\\MiyoungSBV:Fountain\"/2310 Custom_SBV_MiyoungHouse 13 5 1",
 				"fall_Sat": "610 Custom_SBV_MiyoungHouse 1 8 1/800 Custom_SBV_MaiaHouse 12 16 0/1500 Custom_SBV_SunberryVillage 58 36 0/a1800 Custom_SBV_SunberryVillage 63 85 2 miyoung_stand \"Strings\\schedules\\MiyoungSBV:Fountain\"/2310 Custom_SBV_MiyoungHouse 13 5 1",
-				"skellady.SBVCP_TwilightFestival": "1100 Custom_SBV_SunberryVillage 82 14 1 \"Strings\\schedules\\MiyoungSBV:TwilightFestival.000\"/1500 Custom_SBV_SunberryVillage 20 52 3 \"Strings\\schedules\\MiyoungSBV:TwilightFestival.001\"/2400 Custom_SBV_MiyoungHouse 13 5 1",
+				"skellady.SBVCP_TwilightFestival": "1100 Custom_SBV_SunberryVillage 82 14 1 \"Strings\\schedules\\MiyoungSBV:TwilightFestival.000\"/1500 Custom_SBV_SunberryVillage 46 56 2 \"Strings\\schedules\\MiyoungSBV:TwilightFestival.001\"/2400 Custom_SBV_MiyoungHouse 13 5 1",
 				"winter_Sat": "610 Custom_SBV_MiyoungHouse 1 8 1/800 Custom_SBV_SilasBlacksmith 6 14 3/1600 Custom_SBV_MiyoungHouse 9 13 1/2200 Custom_SBV_MiyoungHouse 13 5 1",
 				"rain": "610 Custom_SBV_MiyoungHouse 1 8 1/1200 Custom_SBV_MiyoungHouse 3 5 0/1900 Custom_SBV_MiyoungHouse 5 13 2/2200 Custom_SBV_MiyoungHouse 13 5 1",
 				"GreenRain": "610 Custom_SBV_MiyoungHouse 5 10 1"
