@@ -9,7 +9,7 @@
 				"spring_Sun": "610 Custom_SBV_MaiaHouse 23 18 0/900 Custom_SBV_SunberryVillage 28 51 1/1300 Custom_SBV_SunberryVillage 52 72 3/2000 Custom_SBV_MaiaHouse 27 5 3",
 				"summer_Sun": "610 Custom_SBV_MaiaHouse 23 18 0/1000 Beach 12 8 2/1900 Custom_SBV_MaiaHouse 27 5 3",
 				"fall_Sun": "610 Custom_SBV_MaiaHouse 23 18 0/1100 Custom_SBV_SunberryVillage 76 14 2/1900 Custom_SBV_MaiaHouse 27 5 3",
-				"winter_Sun": "610 Custom_SBV_MaiaHouse 23 18 0/1200 Custom_SBV_SunberryMountain 55 31 0/1900 Custom_SBV_MaiaHouse 27 5 3",
+				"winter_Sun": "610 Custom_SBV_MaiaHouse 23 18 0/1200 Custom_SBV_SunberryMountain 54 32 0/1900 Custom_SBV_MaiaHouse 27 5 3",
 				"Mon": "610 Custom_SBV_MaiaHouse 23 18 0/800 Custom_SBV_SilasBlacksmith 12 13 2/1600 Custom_SBV_SunberryMountain 46 19 1 maia_smoke/2000 Custom_SBV_MaiaHouse 27 5 3",
 				"Tue": "GOTO Mon",
 				"Wed": "GOTO Mon",

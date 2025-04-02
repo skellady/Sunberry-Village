@@ -785,7 +785,7 @@
       "Target": "Maps/Custom_SBV_SunberryVillage",
       "Action": "EditMap",
       "MapProperties": {
-        "NPCWarp": "0 22 Custom_SBV_SunberryWarpRoom 4 9",
+        "NPCWarp": "1 22 Custom_SBV_SunberryWarpRoom 4 9",
       },
     },
     {
@@ -793,7 +793,7 @@
       "Target": "Maps/Custom_SBV_SunberryWarpRoom",
       "Action": "EditMap",
       "MapProperties": {
-        "NPCWarp": "4 10 Custom_SBV_SunberryVillage 1 22",
+        "NPCWarp": "4 10 Custom_SBV_SunberryVillage 2 22",
       },
     },
     // Mine Warps
