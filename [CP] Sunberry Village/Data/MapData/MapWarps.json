@@ -784,17 +784,17 @@
       "LogName": "Village NPC Warp",
       "Target": "Maps/Custom_SBV_SunberryVillage",
       "Action": "EditMap",
-      "MapProperties": {
-        "NPCWarp": "1 22 Custom_SBV_SunberryWarpRoom 4 9",
-      },
+      "AddWarps": [
+        "-1 22 Custom_SBV_SunberryWarpRoom 4 9",
+      ]
     },
     {
       "LogName": "Room NPC Warp",
       "Target": "Maps/Custom_SBV_SunberryWarpRoom",
       "Action": "EditMap",
-      "MapProperties": {
-        "NPCWarp": "4 10 Custom_SBV_SunberryVillage 2 22",
-      },
+      "AddWarps": [
+        "4 10 Custom_SBV_SunberryVillage 1 22",
+      ]
     },
     // Mine Warps
     {

@@ -1075,6 +1075,7 @@
   </tile>
   <tile id="597">
    <properties>
+    <property name="NPCPassable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
