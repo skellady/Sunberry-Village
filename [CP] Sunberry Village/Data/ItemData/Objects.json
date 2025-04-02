@@ -92,7 +92,8 @@
                         "season_spring",
                         "season_summer",
                         "season_fall",
-                        "color_gold"
+                        "color_gold",
+                        "jojabox_blocked"
                     ],
                     "ExcludeFromRandomSale": true
                 },
@@ -1593,7 +1594,10 @@
                     "Price": 150,
                     "Texture": "Mods\\skellady.SBVCP\\Seeds",
                     "SpriteIndex": 4,
-                    "ExcludeFromRandomSale": true
+                    "ExcludeFromRandomSale": true,
+                    "ContextTags": [
+                        "jojabox_blocked"
+                    ]
                 },
                 "skellady.SBVCP_HyacinthSeeds": {
                     "Name": "skellady.SBVCP_HyacinthSeeds",
@@ -1615,7 +1619,10 @@
                     "Category": -74,
                     "Price": 80,
                     "Texture": "Mods\\skellady.SBVCP\\Seeds",
-                    "SpriteIndex": 6
+                    "SpriteIndex": 6,
+                    "ContextTags": [
+                        "jojabox_blocked"
+                    ]
                 },
                 "skellady.SBVCP_RoyalAnemoneSeeds": {
                     "Name": "skellady.SBVCP_RoyalAnemoneSeeds",
