@@ -24,105 +24,140 @@
                             "PixelArea": {
                                 "X": 0,
                                 "Y": 0,
-                                "Width": 109,
-                                "Height": 118
+                                "Width": 161,
+                                "Height": 237
                             },
                             "ScrollText": "Sunberry Village",
                             "Tooltips": [
                                 {
                                     "Id": "MiyoungHouse",
-                                    "PixelArea": { "X": 93, "Y": 11, "Width": 9, "Height": 10 },
+                                    "PixelArea": { "X": 129, "Y": 52, "Width": 9, "Height": 10 },
                                     "Text": "{{i18n:WorldMap.Village.MiyoungHouse}}"
                                 },
                                 {
                                     "Id": "SunberryLibrary",
-                                    "PixelArea": { "X": 69, "Y": 12, "Width": 15, "Height": 10 },
+                                    "PixelArea": { "X": 105, "Y": 53, "Width": 15, "Height": 10 },
                                     "Text": "{{i18n:WorldMap.Village.SunberryLibrary}}"
                                 },
                                 {
                                     "Id": "EzraClothes",
-                                    "PixelArea": { "X": 51, "Y": 15, "Width": 11, "Height": 8 },
+                                    "PixelArea": { "X": 87, "Y": 56, "Width": 11, "Height": 8 },
                                     "Text": "{{i18n:WorldMap.Village.EzraClothes}}"
                                 },
                                 {
                                     "Id": "ImanHouse",
-                                    "PixelArea": { "X": 42, "Y": 15, "Width": 7, "Height": 8 },
+                                    "PixelArea": { "X": 78, "Y": 56, "Width": 7, "Height": 8 },
                                     "Text": "{{i18n:WorldMap.Village.ImanHouse}}"
                                 },
                                 {
                                     "Id": "SerenityInn",
-                                    "PixelArea": { "X": 74, "Y": 27, "Width": 16, "Height": 14 },
+                                    "PixelArea": { "X": 110, "Y": 68, "Width": 16, "Height": 14 },
                                     "Text": "{{i18n:WorldMap.Village.SerenityInn}}"
                                 },
                                 {
                                     "Id": "DDCafe",
-                                    "PixelArea": { "X": 54, "Y": 26, "Width": 9, "Height": 10 },
+                                    "PixelArea": { "X": 90, "Y": 67, "Width": 9, "Height": 10 },
                                     "Text": "{{i18n:WorldMap.Village.DDCafe}}"
                                 },
                                 {
                                     "Id": "AriMarket",
-                                    "PixelArea": { "X": 88, "Y": 46, "Width": 7, "Height": 11 },
+                                    "PixelArea": { "X": 124, "Y": 87, "Width": 7, "Height": 11 },
                                     "Text": "{{i18n:WorldMap.Village.AriMarket}}"
                                 },
                                 {
                                     "Id": "LaniHouse",
-                                    "PixelArea": { "X": 71, "Y": 48, "Width": 7, "Height": 8 },
+                                    "PixelArea": { "X": 107, "Y": 89, "Width": 7, "Height": 8 },
                                     "Text": "{{i18n:WorldMap.Village.LaniHouse}}"
                                 },
                                 {
                                     "Id": "JonghyukHouse",
-                                    "PixelArea": { "X": 87, "Y": 59, "Width": 7, "Height": 8 },
+                                    "PixelArea": { "X": 123, "Y": 100, "Width": 7, "Height": 8 },
                                     "Text": "{{i18n:WorldMap.Village.JonghyukHouse}}"
                                 },
                                 {
                                     "Id": "YriHouse",
-                                    "PixelArea": { "X": 68, "Y": 58, "Width": 7, "Height": 8 },
+                                    "PixelArea": { "X": 104, "Y": 99, "Width": 7, "Height": 8 },
                                     "Text": "{{i18n:WorldMap.Village.YriHouse}}"
                                 },
                                 {
                                     "Id": "DidoHouse",
-                                    "PixelArea": { "X": 80, "Y": 88, "Width": 7, "Height": 10 },
+                                    "PixelArea": { "X": 116, "Y": 124, "Width": 7, "Height": 10 },
                                     "Text": "{{i18n:WorldMap.Village.DidoHouse}}"
                                 },
                                 {
                                     "Id": "EliasOldHouse",
-                                    "PixelArea": { "X": 89, "Y": 96, "Width": 7, "Height": 7 },
+                                    "PixelArea": { "X": 125, "Y": 132, "Width": 7, "Height": 7 },
                                     "Text": "{{i18n:WorldMap.Village.EliasOldHouse}}"
                                 },
                                 {
                                     "Id": "SaturdayHangout",
-                                    "PixelArea": { "X": 63, "Y": 86, "Width": 12, "Height": 17 },
+                                    "PixelArea": { "X": 99, "Y": 122, "Width": 12, "Height": 17 },
                                     "Text": "{{i18n:WorldMap.Village.SaturdayHangout}}"
                                 },
                                 {
                                     "Id": "MaiaHouse",
-                                    "PixelArea": { "X": 28, "Y": 47, "Width": 13, "Height": 20 },
+                                    "PixelArea": { "X": 64, "Y": 88, "Width": 88, "Height": 20 },
                                     "Text": "{{i18n:WorldMap.Village.MaiaHouse}}"
                                 },
                                 {
                                     "Id": "CooperHouse",
-                                    "PixelArea": { "X": 17, "Y": 43, "Width": 7, "Height": 10 },
+                                    "PixelArea": { "X": 53, "Y": 84, "Width": 7, "Height": 10 },
                                     "Text": "{{i18n:WorldMap.Village.CooperHouse}}"
                                 },
                                 {
                                     "Id": "WrenHouse",
-                                    "PixelArea": { "X": 16, "Y": 62, "Width": 7, "Height": 8 },
+                                    "PixelArea": { "X": 52, "Y": 103, "Width": 7, "Height": 8 },
                                     "Text": "{{i18n:WorldMap.Village.WrenHouse}}"
                                 },
                                 {
                                     "Id": "DaoHouse",
-                                    "PixelArea": { "X": 35, "Y": 68, "Width": 7, "Height": 8 },
+                                    "PixelArea": { "X": 71, "Y": 109, "Width": 7, "Height": 8 },
                                     "Text": "{{i18n:WorldMap.Village.DaoHouse}}"
                                 },
                                 {
                                     "Id": "RipleyHouse",
-                                    "PixelArea": { "X": 9, "Y": 88, "Width": 19, "Height": 24 },
+                                    "PixelArea": { "X": 45, "Y": 124, "Width": 19, "Height": 24 },
                                     "Text": "{{i18n:WorldMap.Village.RipleyHouse}}"
+                                },
+                                {
+                                    "Id": "SilasBlacksmith",
+                                    "PixelArea": { "X": 73, "Y": 16, "Width": 7, "Height": 7 },
+                                    "Text": "{{i18n:WorldMap.Village.SilasBlacksmith}}"
+                                },
+                                {
+                                    "Id": "ChrisDiner",
+                                    "PixelArea": { "X": 86, "Y": 11, "Width": 7, "Height": 8 },
+                                    "Text": "{{i18n:WorldMap.Village.ChrisDiner}}"
+                                },
+                                {
+                                    "Id": "AbandonedHouseValli",
+                                    "PixelArea": { "X": 64, "Y": 23, "Width": 6, "Height": 7 },
+                                    "Text": "{{i18n:WorldMap.Village.AbandonedHouse}}"
+                                },
+                                {
+                                    "Id": "SunberryMines",
+                                    "PixelArea": { "X": 87, "Y": 21, "Width": 2, "Height": 3 },
+                                    "Text": "{{i18n:WorldMap.Village.SunberryMines}}"
+                                },
+                                {
+                                    "Id": "ReiHouse",
+                                    "PixelArea": { "X": 69, "Y": 163, "Width": 13, "Height": 13 },
+                                    "Text": "{{i18n:WorldMap.Village.ReiHouse}}"
+                                },
+                                {
+                                    "Id": "ThyHouse",
+                                    "PixelArea": { "X": 57, "Y": 163, "Width": 7, "Height": 9 },
+                                    "Text": "{{i18n:WorldMap.Village.ThyHouse}}"
+                                },
+                                {
+                                    "Id": "AlchemistHouse",
+                                    "PixelArea": { "X": 63, "Y": 181, "Width": 8, "Height": 10 },
+                                    "Text": "{{i18n:WorldMap.Village.AlchemistHouse}}"
                                 },
                             ],
                             "WorldPositions": [
                                 {
-                                    "LocationName": "Custom_SBV_SunberryVillage"
+                                    "LocationContext": "Custom_SBV_SunberryVillage"
                                 }
                             ]
                         },

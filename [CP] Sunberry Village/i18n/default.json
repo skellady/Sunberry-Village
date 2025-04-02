@@ -143,6 +143,13 @@
     "WorldMap.Village.WrenHouse": "Wren's House",
     "WorldMap.Village.DaoHouse": "Dao's House",
     "WorldMap.Village.RipleyHouse": "Ripley's House",
+    "WorldMap.Village.SilasBlacksmith": "Silas' Blacksmith", // FOR TRANSLATORS: NEW IN 1.0.3
+    "WorldMap.Village.ChrisDiner": "Chris' Old Diner", // FOR TRANSLATORS: NEW IN 1.0.3
+    "WorldMap.Village.AbandonedHouse": "Abandoned House", // FOR TRANSLATORS: NEW IN 1.0.3
+    "WorldMap.Village.SunberryMines": "Sunberry Mines", // FOR TRANSLATORS: NEW IN 1.0.3
+    "WorldMap.Village.ReiHouse": "???", // FOR TRANSLATORS: NEW IN 1.0.3
+    "WorldMap.Village.ThyHouse": "Thysania's House", // FOR TRANSLATORS: NEW IN 1.0.3
+    "WorldMap.Village.AlchemistHouse": "Alchemist's House", // FOR TRANSLATORS: NEW IN 1.0.3
 
     //Dynamic Tokens
     //--------------
@@ -896,7 +903,7 @@
     "Derya.Dialogue.FollowDerya2": "Oh, my God. You're gonna scare Ari! Let me shop in peace.$s",
     "Derya.Dialogue.FollowDerya3": "Hey, Rei, you got any games on your phone? Might as well do something fun while you follow me around all day.$9",
     "Derya.Dialogue.FollowDerya4": "Here, too?! Seriously? Stop staring at me while I try to sleep.$10",
-    "Derya.Dialogue.PreRei1": "Hey! Check out what we have available today if you haven't yet. Derya made some delicious cookies.$h",
+    "Derya.Dialogue.PreRei1": "Hey! Check out what we have available today if you haven't yet. Diala made some delicious cookies.$h",
     "Derya.Dialogue.PreRei2": "I try to shop both here and at Pierre's. It gets me great deals when I mention one in front of the other.$6",
     "Derya.Dialogue.PreRei3": "Oh, hey. I'm just getting some fresh air. This is a nice spot, isn't it?$h",
     "Derya.Dialogue.PreRei4": "...What are you doing in my room at this hour?$11",
