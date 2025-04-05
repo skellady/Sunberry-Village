@@ -310,7 +310,7 @@
                         {
                             "Id": "{{ModId}}_EeltailedCatfish",
                             "ItemId": "{{ModId}}_EeltailedCatfish",
-                            "Condition": "LOCATION_SEASON Here spring summer",
+                            "Condition": "LOCATION_SEASON Here spring summer, ANY \"TIME 600 1100\" \"TIME 1900 2600\"",
                             "Precedence": -1
                         },
                         {
