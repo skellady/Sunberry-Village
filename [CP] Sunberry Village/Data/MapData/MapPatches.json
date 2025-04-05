@@ -1069,8 +1069,7 @@
         "Height": 2
       },
       "When": {
-        "HasFlag: anyPlayer |contains= SBVFarmPurchased": false,
-        "HasFlag: anyPlayer |contains= SBVFarmPurchasedFR": false
+        "HasFlag: anyPlayer |contains= SBVFarmPurchased, SBVFarmPurchasedFR": false
       }
     },
     // Removes 'For Sale' sign from Elias' house

@@ -248,56 +248,13 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "PlayEvent skellady.SBVCP_20031478 true true Message \"sbv.inn.notenoughmoney\""
+                        "Action": "SunberryTeam.SBVSMAPI_PurchaseFarmMenu"
                     }
                 }
             ],
             "When": {
-                "HasSeenEvent: anyPlayer |contains={{ModId}}_20031478": false
-            }
-        },
-        // Sunberry Farm Unlock 2
-        {
-            "LogName": "Sunberry Farm Unlock 2",
-            "Action": "EditMap",
-            "Target": "Maps/Custom_SBV_SerenityInn",
-            "MapTiles": [
-                {
-                    "Position": {
-                        "X": 10,
-                        "Y": 7
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "PlayEvent skellady.SBVCP_20031479 true false Message \"sbv.inn.notenoughmoney\""
-                    }
-                }
-            ],
-            "When": {
-                "HasSeenEvent: anyPlayer |contains={{ModId}}_20031478": true,
                 "HasFlag: anyPlayer |contains=SBVFarmPurchased, SBVFarmPurchasedFR": false
             }
         },
-        // Sunberry Farm UNLOCKED
-        {
-            "LogName": "Sunberry Farm Unlock 2",
-            "Action": "EditMap",
-            "Target": "Maps/Custom_SBV_SerenityInn",
-            "MapTiles": [
-                {
-                    "Position": {
-                        "X": 10,
-                        "Y": 7
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "message \"sbv.inn.farmalreadypurchased\""
-                    }
-                }
-            ],
-            "When": {
-                "HasFlag: anyPlayer |contains=SBVFarmPurchased, SBVFarmPurchasedFR": true
-            }
-        }
     ]
 }

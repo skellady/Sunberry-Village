@@ -2032,28 +2032,37 @@
     "event-20031478.08": "Yes, it's decent indeed. I've been hoping someone would grab it. The village would benefit from having a farm nearby.",
     "event-20031478.09": "Surely it doesn't measure up to your grandfather's farm, but it's still pretty good.$u",
     "event-20031478.10": "You can build whatever you need on this farm, too. I can contact Robin and make arrangements.#$b#Additionally, you also get this little house.$h",
-    "event-20031478.11": "So, @, what will it be? Would you like to purchase this farm for 150,000$?",
-    "event-20031478.12": "Yes. (Pay 150,000$)",
-    "event-20031478.13": "Not right now.",
+    //"event-20031478.11": "So, @, what will it be? Would you like to purchase this farm for 150,000$?",
+    //"event-20031478.12": "Yes. (Pay 150,000$)",
+    //"event-20031478.13": "Not right now.",
     // If player doesn't buy it 
-    "event-20031478.14": "That's okay. If you ever change your mind, drop by the inn and take a look at our estates catalog again.$h",
+    //"event-20031478.14": "That's okay. If you ever change your mind, drop by the inn and take a look at our estates catalog again.$h",
     // If player buys it
-    "event-20031478.15": "Perfect! Congratulations, @. We're happy to have you here. I just need you to come back to the inn to sign some papers, and it'll be all yours.$h",
-    "event-20031478.16": "I'll get someone to clear up the entrance. You should be able to access the farm tomorrow.$h",
+    //"event-20031478.15": "Perfect! Congratulations, @. We're happy to have you here. I just need you to come back to the inn to sign some papers, and /it'll/ be all yours.$h",
+    //"event-20031478.16": "I'll get someone to clear up the entrance. You should be able to access the farm tomorrow.$h",
 
     // Sunberry Farm Unlock 2
-    "event-20031479.01": "Welcome, @. I see you're eyeing our available plots and estates. Did you change your mind about the farm?",
-    "event-20031479.02": "I want to buy the farm. (Pay 150,000$)",
-    "event-20031479.03": "No, I don't want to buy it yet.",
+    //"event-20031479.01": "Welcome, @. I see you're eyeing our available plots and estates. Did you change your mind about the farm?",
+    //"event-20031479.02": "I want to buy the farm. (Pay 150,000$)",
+    //"event-20031479.03": "No, I don't want to buy it yet.",
     // If player says no
-    "event-20031479.04": "No worries. If you ever change your mind, drop by again.$h",
+    //"event-20031479.04": "No worries. If you ever change your mind, drop by again.$h",
     // If player says yes
     "event-20031479.05": "Perfect! Congratulations, @. We're happy to have you here. I just need you to sign some papers, and it'll be all yours.$h",
     "event-20031479.06": "I'll get someone to clear up the entrance. You should be able to access the farm tomorrow.$h",
 
+    // new Sunberry Farm Unlock event ending
+    "event-20031478.20": "We'll head back now. Just fill out the form in the estates catalog if you decide you'd like to buy it.$10", // FOR TRANSLATORS: NEW IN 1.0.3
+
+    // Sunberry Farm Repeat Intro
+    "event-20031479.01": "You'd like to see Sunberry Farm again?",
+    "event-20031479.02": "Very well, follow me.",
+    "event-20031479.03": "Well, here it is. If you decide you'd like to buy it, just fill out the form in the estates catalog.",
+
+
     // Ophelia 6 Hearts Event
     "event-20031480.01": "Okay, let me just go over my list one more time.$10",
-    "event-20031480.02": "Oh my God! We've been over the list already, Ophelia.$10",
+    "event-20031480.02": "Oh my God! We've been over the list twice already, Ophelia.$10",
     "event-20031480.03": "...I know, I know. I just want to make sure everything's in order for Marlon.$7",
     "event-20031480.04": "I can promise you it is. He's going to be really happy with the results. You just... go get some rest now.",
     "event-20031480.05": "*sigh*...I don't want to rest. I just wish I'd been able to help you out with those monsters.$s",

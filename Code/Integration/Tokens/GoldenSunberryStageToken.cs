@@ -22,8 +22,8 @@ internal class GoldenSunberryStageToken
 	internal const string StageModDataKey = "SunberryTeam.SBVSMAPI/GoldenSunberry/Stage";
 	internal const string DaysInStageModDataKey = "SunberryTeam.SBVSMAPI/GoldenSunberry/DaysInStage";
 
-	internal static readonly List<string> ResidentNames = new()
-	{
+	internal static readonly List<string> ResidentNames =
+	[
 		"AichaSBV",
 		"AminaSBV",
 		"AriSBV",
@@ -60,9 +60,9 @@ internal class GoldenSunberryStageToken
 		"Sierra",
 		"Bijou",
 		"Clara.Ripley"
-	};
-	
-	internal static readonly int[] HeartsNeededToAdvanceStage = { 10, 25, 50, 80, 120, 120 };
+	];
+
+	internal static readonly int[] HeartsNeededToAdvanceStage = [10, 25, 50, 80, 120, 120];
 
 	internal static void AddEventHooks()
 	{

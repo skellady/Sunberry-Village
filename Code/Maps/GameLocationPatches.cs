@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
+using StardewValley.TokenizableStrings;
 using xTile.Dimensions;
 
 // ReSharper disable UnusedMember.Local
@@ -69,8 +70,12 @@ internal class GameLocationPatches
 			if (questionAndAnswer.StartsWith("SunberryTeam.SBVSMAPI_MarketDailySpecialResponses"))
 				return HandleMarketDailySpecialPurchaseAction(questionAndAnswer);
 
+			if (questionAndAnswer.StartsWith("SunberryTeam.SBVSMAPI_FarmPurchaseQuestion"))
+				return HandleFarmPurchaseAction(questionAndAnswer);
+
 			if (questionAndAnswer.Equals("tarotReading_Yes"))
 				return HandleTarotDialogueAction();
+
 
 			return true;
 		}
@@ -256,6 +261,39 @@ internal class GameLocationPatches
 		Game1.drawDialogue(ari);
 		return false;
 	}
+
+	private static bool HandleFarmPurchaseAction(string questionAndAnswer)
+	{
+		switch (questionAndAnswer.Replace("SunberryTeam.SBVSMAPI_FarmPurchaseQuestion_", ""))
+		{
+			case "yes":
+			{
+				// in case player somehow loses money between receiving question and answering (looking at you, multiplayer)
+				if (Game1.player.Money < 150_000)
+				{
+					Game1.drawObjectDialogue(Utils.GetTranslationWithPlaceholder("FarmPurchase_NotEnoughMoney").Replace("{0}", TokenParser.ParseText("[NumberWithSeparators 150000]")));
+					break;
+				}
+				Game1.player.Money -= 150_000;
+				Game1.PlayEvent("skellady.SBVCP_PurchasedFarm", false, false);
+				break;
+			}
+
+			case "no":
+			{
+				break;
+			}
+
+			case "see_event":
+			{
+				Game1.PlayEvent("skellady.SBVCP_20031479", false, false);
+				break;
+			}
+		}
+
+		return true;
+	}
+
 }
 
 #pragma warning restore IDE1006 // Naming Styles

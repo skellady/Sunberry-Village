@@ -82,7 +82,15 @@
     "PhoneConfession.Message.10": "witj",
     "PhoneConfession.Message.11": "WITH",
     "PhoneConfession.Message.12": "WITH YOU",
-	
-	//SocialPage patch for elias
-	"RelationshipStatus.Locked": "(Locked)"
+
+    // SocialPage patch for elias
+    "RelationshipStatus.Locked": "(Locked)", // FOR TRANSLATORS: NEW IN 1.0.3
+
+    // Farm Purchase
+    "FarmPurchase_AlreadyPurchased": "You've already purchased Sunberry Farm.", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_Question": "Would you like to purchase Sunberry Farm?", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_Yes": "Yes", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_No": "No", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_SeeEventAgain": "See event again", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_NotEnoughMoney": "You don't currently have enough money to purchase Sunberry Farm. Come back when you have {0}$." // FOR TRANSLATORS: NEW IN 1.0.3 - Don't translate the {0}
 }

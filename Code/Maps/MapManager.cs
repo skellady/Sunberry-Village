@@ -12,6 +12,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
+using StardewValley.TokenizableStrings;
 using xTile.Layers;
 
 namespace SunberryVillage.Maps;
@@ -51,10 +52,46 @@ internal class MapManager
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ChooseDestination", HandleChooseDestinationAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_DialaTarot", HandleTarotAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MarketDailySpecial", HandleMarketDailySpecialAction);
+		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_PurchaseFarmMenu", HandlePurchaseFarmMenu);
         GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_MineLadder", HandleLadderWarpAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ImageViewer", HandleImageViewerAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_StringPool", HandleStringPoolAction);
     }
+
+	private static bool HandlePurchaseFarmMenu(GameLocation loc, string[] args, Farmer who, Point tile)
+	{
+		if (who.hasOrWillReceiveMail("SBVFarmPurchased") || who.hasOrWillReceiveMail("SBVFarmPurchasedFR"))
+		{
+			Game1.drawObjectDialogue(Utils.GetTranslationWithPlaceholder("FarmPurchase_AlreadyPurchased"));
+			return true;
+		}
+
+		if (!who.hasOrWillReceiveMail("SunberryTeam.SBVSMAPI_HasSeenFarmIntro"))
+		{
+			Game1.PlayEvent("skellady.SBVCP_20031478", false, false);
+			return true;
+		}
+
+		// if you don't have enough money
+		if (who.Money < 150_000)
+		{
+			Game1.drawObjectDialogue(Utils.GetTranslationWithPlaceholder("FarmPurchase_NotEnoughMoney").Replace("{0}", TokenParser.ParseText("[NumberWithSeparators 150000]")));
+			return true;
+		}
+
+		// has seen intro and has enough - create question dialogue
+		Game1.currentLocation.createQuestionDialogue(
+			Utils.GetTranslationWithPlaceholder("FarmPurchase_Question"),
+			[
+					new Response("yes",Utils.GetTranslationWithPlaceholder("FarmPurchase_Yes")),
+					new Response("no", Utils.GetTranslationWithPlaceholder("FarmPurchase_No")),
+					new Response("see_event", Utils.GetTranslationWithPlaceholder("FarmPurchase_SeeEventAgain"))
+			],
+			"SunberryTeam.SBVSMAPI_FarmPurchaseQuestion"
+		);
+		return true;
+
+	}
 
 	private static bool HandleStringPoolAction(GameLocation loc, string[] args, Farmer who, Point tile)
 	{
