@@ -539,7 +539,8 @@
                     "Layer": "Buildings",
                     "SetProperties": {
                         // you can list as many strings as you want after the Book property, they'll each be put on separate pages
-                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.GoddessLorePart1 Strings\\SBV\\Books:MapString.GoddessLorePart2 Strings\\SBV\\Books:MapString.GoddessLorePart3 Strings\\SBV\\Books:MapString.GoddessLorePart4"
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.GoddessLorePart1 Strings\\SBV\\Books:MapString.GoddessLorePart2 Strings\\SBV\\Books:MapString.GoddessLorePart3 Strings\\SBV\\Books:MapString.GoddessLorePart4",
+                        "TileDesc": "interactables,Book,static_tile-trailer-book"
                     }
                 },
                 {
@@ -549,7 +550,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.GoddessLorePart5 Strings\\SBV\\Books:MapString.GoddessLorePart6 Strings\\SBV\\Books:MapString.GoddessLorePart7 Strings\\SBV\\Books:MapString.GoddessLoreAuthorsNote"
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.GoddessLorePart5 Strings\\SBV\\Books:MapString.GoddessLorePart6 Strings\\SBV\\Books:MapString.GoddessLorePart7 Strings\\SBV\\Books:MapString.GoddessLoreAuthorsNote",
+                        "TileDesc": "interactables,Book,static_tile-trailer-book"
                     }
                 },
                 {
@@ -559,7 +561,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary1 Strings\\SBV\\Books:MapString.sbvlibrary7"
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary1 Strings\\SBV\\Books:MapString.sbvlibrary7",
+                        "TileDesc": "interactables,Book,static_tile-trailer-book"
                     }
                 },
                 {
@@ -569,7 +572,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary6 Strings\\SBV\\Books:MapString.sbvlibrary8 Strings\\SBV\\Books:MapString.sbvlibrary9"
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary6 Strings\\SBV\\Books:MapString.sbvlibrary8 Strings\\SBV\\Books:MapString.sbvlibrary9",
+                        "TileDesc": "interactables,Book,static_tile-trailer-book"
                     }
                 },
                 {
@@ -579,7 +583,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary3"
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary3",
+                        "TileDesc": "interactables,Book,static_tile-trailer-book"
                     }
                 },
                 {
@@ -589,7 +594,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary4"
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary4",
+                        "TileDesc": "interactables,Book,static_tile-trailer-book"
                     }
                 },
                 {
@@ -599,7 +605,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary5"
+                        "Action": "SunberryTeam.SBVSMAPI_Book Strings\\SBV\\Books:MapString.sbvlibrary5",
+                        "TileDesc": "interactables,Book,static_tile-trailer-book"
                     }
                 }
                 //{

@@ -808,9 +808,10 @@
             "Y": 8
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 12 6 Custom_SBV_Mines1"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 12 6 Custom_SBV_Mines1",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ],
       "When": {
@@ -845,9 +846,10 @@
             "Y": 21
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 8 5 Custom_SBV_Mines2"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 8 5 Custom_SBV_Mines2",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -862,9 +864,10 @@
             "Y": 4
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 30 21 Custom_SBV_Mines1 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 30 21 Custom_SBV_Mines1 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -879,9 +882,10 @@
             "Y": 8
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 30 5 Custom_SBV_Mines3"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 30 5 Custom_SBV_Mines3",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -896,9 +900,10 @@
             "Y": 4
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 34 8 Custom_SBV_Mines2 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 34 8 Custom_SBV_Mines2 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -913,9 +918,10 @@
             "Y": 30
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 23 5 Custom_SBV_Mines4"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 23 5 Custom_SBV_Mines4",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -930,9 +936,10 @@
             "Y": 4
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 29 30 Custom_SBV_Mines3 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 29 30 Custom_SBV_Mines3 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -947,9 +954,10 @@
             "Y": 40
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 27 21 Custom_SBV_Mines5A"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 27 21 Custom_SBV_Mines5A",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -964,9 +972,10 @@
             "Y": 20
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 40 40 Custom_SBV_Mines4 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 40 40 Custom_SBV_Mines4 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -989,9 +998,10 @@
             "Y": 6
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 10 5 Custom_SBV_Mines6"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 10 5 Custom_SBV_Mines6",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1006,9 +1016,10 @@
             "Y": 3
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 5 32 Custom_SBV_Mines5A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 5 32 Custom_SBV_Mines5A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1023,9 +1034,10 @@
             "Y": 15
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 10 5 Custom_SBV_Mines6"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 10 5 Custom_SBV_Mines6",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1040,9 +1052,10 @@
             "Y": 4
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 39 6 Custom_SBV_Mines5A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 39 6 Custom_SBV_Mines5A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1057,9 +1070,10 @@
             "Y": 43
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 24 22 Custom_SBV_Mines7"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 24 22 Custom_SBV_Mines7",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1074,9 +1088,10 @@
             "Y": 21
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 45 44 Custom_SBV_Mines6 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 45 44 Custom_SBV_Mines6 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1091,9 +1106,10 @@
             "Y": 7
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 4 4 Custom_SBV_Mines8"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 4 4 Custom_SBV_Mines8",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1108,9 +1124,10 @@
             "Y": 3
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 4 7 Custom_SBV_Mines7 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 4 7 Custom_SBV_Mines7 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1125,9 +1142,10 @@
             "Y": 26
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 7 6 Custom_SBV_Mines9"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 7 6 Custom_SBV_Mines9",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1142,9 +1160,10 @@
             "Y": 5
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 13 26 Custom_SBV_Mines8 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 13 26 Custom_SBV_Mines8 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1159,9 +1178,10 @@
             "Y": 17
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 15 5 Custom_SBV_Mines10A"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 15 5 Custom_SBV_Mines10A",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1176,9 +1196,10 @@
             "Y": 4
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 23 18 Custom_SBV_Mines9 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 23 18 Custom_SBV_Mines9 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1201,9 +1222,10 @@
             "Y": 5
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 4 18 Custom_SBV_Mines10A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 4 18 Custom_SBV_Mines10A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1218,9 +1240,10 @@
             "Y": 11
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 27 24 Custom_SBV_Mines11"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 27 24 Custom_SBV_Mines11",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1235,9 +1258,10 @@
             "Y": 35
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 27 24 Custom_SBV_Mines11"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 27 24 Custom_SBV_Mines11",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1252,9 +1276,10 @@
             "Y": 23
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 6 35 Custom_SBV_Mines10A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 6 35 Custom_SBV_Mines10A \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1269,9 +1294,10 @@
             "Y": 7
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 19 9 Custom_SBV_Mines12"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 19 9 Custom_SBV_Mines12",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1286,9 +1312,10 @@
             "Y": 8
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 12 7 Custom_SBV_Mines11 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 12 7 Custom_SBV_Mines11 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1303,9 +1330,10 @@
             "Y": 29
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 9 8 Custom_SBV_Mines13"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 9 8 Custom_SBV_Mines13",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1320,9 +1348,10 @@
             "Y": 7
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 10 29 Custom_SBV_Mines12 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 10 29 Custom_SBV_Mines12 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1337,9 +1366,10 @@
             "Y": 14
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 44 24 Custom_SBV_Mines14"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 44 24 Custom_SBV_Mines14",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1354,9 +1384,10 @@
             "Y": 23
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 33 14 Custom_SBV_Mines13 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 33 14 Custom_SBV_Mines13 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1371,9 +1402,10 @@
             "Y": 4
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 18 11 Custom_SBV_Mines15"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 18 11 Custom_SBV_Mines15",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1388,9 +1420,10 @@
             "Y": 10
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 13 4 Custom_SBV_Mines14 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 13 4 Custom_SBV_Mines14 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },
@@ -1405,9 +1438,10 @@
             "Y": 24
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 9 7 Custom_SBV_MinesFinal"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 9 7 Custom_SBV_MinesFinal",
+                "TileDesc": "interactables,Ladder,tile-mine_ladder-name"
+            }
         }
       ]
     },
@@ -1422,9 +1456,10 @@
             "Y": 6
           },
           "Layer": "Buildings",
-          "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_MineLadder 38 24 Custom_SBV_Mines15"
-          }
+            "SetProperties": {
+                "Action": "SunberryTeam.SBVSMAPI_MineLadder 38 24 Custom_SBV_Mines15",
+                "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
+            }
         }
       ]
     },

@@ -1729,11 +1729,13 @@
   <object id="89" name="TileData" x="0" y="0" width="16" height="16">
    <properties>
     <property name="Action" value="SunberryTeam.SBVSMAPI_DialaTarot"/>
+    <property name="TileDesc" value="interactables,Tarot,event_tile-fortune_teller-name"/>
    </properties>
   </object>
   <object id="90" name="TileData" x="0" y="16" width="16" height="16">
    <properties>
     <property name="Action" value="SunberryTeam.SBVSMAPI_DialaTarot"/>
+    <property name="TileDesc" value="interactables,Tarot,event_tile-fortune_teller-name"/>
    </properties>
   </object>
  </objectgroup>

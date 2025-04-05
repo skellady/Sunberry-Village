@@ -15,7 +15,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "SunberryTeam.SBVSMAPI_MarketDailySpecial"
+                        "Action": "SunberryTeam.SBVSMAPI_MarketDailySpecial",
+                        "TileDesc": "interactables,Daily Special,static_tile-common-shop_counter"
                     }
                 }
             ]
@@ -401,7 +402,8 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "SunberryTeam.SBVSMAPI_StringPool BetaTesters"
+                        "Action": "SunberryTeam.SBVSMAPI_StringPool BetaTesters",
+                        "TileDesc": "interactables,Book,static_tile-trailer-book"
                     }
                 }
             ]
