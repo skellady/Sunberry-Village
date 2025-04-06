@@ -26,7 +26,8 @@
 				"marriage_Mon": "700 Custom_SBV_SunberryLibrary 23 10 0/1800 Custom_SBV_SunberryVillage 77 14 2/2000 bed",
 				"marriage_Tue": "GOTO marriage_Mon",
 				"marriage_Fri": "900 Beach 16 24 2 elias_fish/1800 Beach 43 23 2/2000 bed",
-				"marriage_winter_16": "1000 Town 70 92 2/1600 Beach 19 24 2/2100 bed"
+				"marriage_winter_16": "1000 Town 70 92 2/1600 Beach 19 24 2/2100 bed",
+				"marriage_skellady.SBVCP_TwilightFestival": "610 Custom_SBV_SunberryVillage 74 67 3 \"Strings\\schedules\\EliasSBV:TwilightFestivalSpouse.000\"/a1600 Custom_SBV_SunberryVillage 75 15 2 \"Strings\\schedules\\EliasSBV:TwilightFestivalSpouse.001\"/2200 bed",
 			}
 		},
 		{

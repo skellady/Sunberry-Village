@@ -1696,7 +1696,8 @@
                     "Category": -18,
                     "Price": 520,
                     "Texture": "Mods\\skellady.SBVCP\\AnimalProduce",
-                    "SpriteIndex": 0
+                    "SpriteIndex": 0,
+                    "ExcludeFromShippingCollection": true
                 },
                 "{{ModID}}_AlpacaWoolFabric": {
                     "Name": "{{ModID}}_AlpacaWoolFabric",
@@ -1707,7 +1708,8 @@
                     "Category": -26,
                     "Price": 720,
                     "Texture": "Mods\\skellady.SBVCP\\AnimalProduce",
-                    "SpriteIndex": 1
+                    "SpriteIndex": 1,
+                    "ExcludeFromShippingCollection": true
                 }
             }
         },

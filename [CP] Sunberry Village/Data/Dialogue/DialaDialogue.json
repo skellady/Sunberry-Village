@@ -28,7 +28,7 @@
 				"Tue": "{{i18n:Diala.Dialogue.Tue}}",
 				"Wed": "{{i18n:Diala.Dialogue.Wed}}",
 				"Thu": "{{i18n:Diala.Dialogue.Thu}}",
-				"Fri": "{{i18n:Diala.Dialogue.Fri}}",
+				"Fri": "{{i18n:Diala.Dialogue.Fri |HasRipley={{HasMod |contains=Clara.Ripley}} }}",
 				"Sat": "{{i18n:Diala.Dialogue.Sat}}",
 				"Sun": "{{i18n:Diala.Dialogue.Sun}}",
 				//2 Hearts

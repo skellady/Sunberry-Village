@@ -89,7 +89,9 @@
 			"Entries": {
 				"Fountain": "{{Random: {{i18n:Elias.Dialogue.Fountain1}} ++ {{i18n:Elias.Dialogue.Fountain2}} ++ {{i18n:Elias.Dialogue.Fountain3}} |inputSeparator=++}}",
 				"TwilightFestival.000": "{{i18n:Elias.Dialogue.TwilightFestival1}}",
-				"TwilightFestival.001": "{{i18n:Elias.Dialogue.TwilightFestival2}}"
+				"TwilightFestival.001": "{{i18n:Elias.Dialogue.TwilightFestival2}}",
+				"TwilightFestivalSpouse.000": "{{i18n:Elias.Dialogue.TwilightFestivalSpouse1}}",
+				"TwilightFestivalSpouse.001": "{{i18n:Elias.Dialogue.TwilightFestivalSpouse2}}"
 			}
 		},
 		{

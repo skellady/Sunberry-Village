@@ -731,6 +731,7 @@
     "Gift.Strawberry.Moon": "OH! Moon looooves strawberries. Thank you, friend.$h",
     "Gift.VoidEssence.Moon": "Woah, pretty and spooky!$u#$b#Moon loves pretty and spooky things.$h",
     "Gift.StardropTea.Moon": "Whoa!! For Moon?$3#$b#%Moon drinks the entire cup.#$b#Wow, that was delicious. Does @ have more?$h",
+    "Gift.MoonPods.Moon": "Woah! These pods are named after Moon! This is so cool!!$3", // FOR TRANSLATORS: NEW IN 1.0.3
 
     //Like
     "Gift.ChocolateCake.Moon": "Choco! Choco! Choco Cake!$u#$b#Thank you, @!",
@@ -924,6 +925,8 @@
     "Elias.Dialogue.Fountain3": "Ari was teasin' me earlier. Said I reminded him of my band days back in college. He was so close to going back home to grab the damn pictures, too!$9",
     "Elias.Dialogue.TwilightFestival1": "Ah, the farmer's here! You should try the food, it's some of the best you'll ever have.$h",
     "Elias.Dialogue.TwilightFestival2": "Dr. Zahra sent over some artifacts that they had duplicates of, so I've got quite a few for sale.#$b#Anythin' left over will go to Gunther if he's interested, or back to Dr. Zahra and her team.$h",
+    "Elias.Dialogue.TwilightFestivalSpouse1": "Hello, beloved. Let me fix you a plate, you'll love the food here.$h", // FOR TRANSLATORS: NEW IN 1.0.3
+    "Elias.Dialogue.TwilightFestivalSpouse2": "Anythin' you like over here? I'd love to give you some freebies but I'm afraid Dr. Zahra wouldn't like that.$u#$b#I can, however, give you a discount.$10", // FOR TRANSLATORS: NEW IN 1.0.3
 
     "Ezra.Dialogue.Fountain1": "We don't have a dress code or theme for these gatherings, but I wish we did. I'll still show up here and get told I'm overdressed, but we all know that's a myth.$6",
     "Ezra.Dialogue.Fountain2": "I'm so glad I take my camera everywhere. I took so many good shots of everyone!$u",
@@ -3630,7 +3633,7 @@
     "Diala.Dialogue.Tue": "Hey, @! Hope your day's going well.$h#$b#I just got a few readings done and sent so I'm feeling super productive!$h",
     "Diala.Dialogue.Wed": "Ugh, I couldn't get any sleep last night. I kept hearing book pages getting turned.$s#$b#I just assumed it's one of the spirits messing with me.$s",
     "Diala.Dialogue.Thu": "Hey, @! How's your day going?#$b#I was on litter box duty today. You don't want to know how long it takes.$9",
-    "Diala.Dialogue.Fri": "Are you growing anything on your farm right now?#$b#If you ever sell your produce to Ari, I'd definitely buy some.$h",
+    "Diala.Dialogue.Fri": "$query {{HasRipley}}#Ripley's farm is a life saver! It's really nice to have easy access to fresh produce. It tastes so much better in dishes.$h|Are you growing anything on your farm right now?#$b#If you ever sell your produce to Ari, I'd definitely buy some.$h", // FOR TRANSLATORS: NEW IN 1.0.3, ADDED A LINE OF DIALOGUE TO REFERENCE RIPLEY WHEN INSTALLED
     "Diala.Dialogue.Sat": "Derya made breakfast today. She put a chocolate bar in a piece of toast, rolled it, and then pan fried it.$9#$b#Don't get me wrong, it tasted good. I just... kinda wanted some pancakes instead, but she looked so proud.$u",
     "Diala.Dialogue.Sun": "%Diala looks confused. She's mumbling to herself.#$e#Did I take my ADHD meds today?$s",
 
@@ -5334,7 +5337,7 @@
     "Miyoung.Dialogue.Mon": "Hm? Oh, it's nice to see you, darling. How's your day going?#$b#I tended to my crops and called one of my sons to catch up.$h",
     "Miyoung.Dialogue.Tue": "Ah, I wonder what I should make for Silas and Maia tomorrow. I've been bringing them lunch every day. Someone has to make sure they're fed.$8",
     "Miyoung.Dialogue.Wed": "Jodi is a sweetheart. We were sharing recipes the other day and decided to cook together. Sam and Vincent loved all the dishes!$u",
-    "Miyoung.Dialogue.Thu": "I mostly grow crops to use when I cook. I assume you've been selling yours, yes?#$b#Make sure to sell some to Ari! We would love to have fresh produce readily available here.$u",
+    "Miyoung.Dialogue.Thu": "I mostly grow crops to use when I cook. I assume you've been selling yours, yes?#$b#Make sure to sell some to Ari! We would love to have more fresh produce readily available here.$u",
     "Miyoung.Dialogue.Fri": "My sons might try to visit soon. Hopefully they can take some time off from work and relax here.$u",
     "Miyoung.Dialogue.Sat": "$query ANY \"WEATHER Here Rain Storm\" \"SEASON Winter\"#Ah, I miss our little gatherings by the fountain. Hopefully, we'll get to gather soon enough.|Are you going to join us by the fountain today? Don't be shy! It'll be fun to join our little gathering.$7",
     "Miyoung.Dialogue.Sun": "%Miyoung is humming to herself.#$b#Ah, hello! I hope your day's going well, darling. I was just thinking about preserving these beautiful flowers I got from Jumana.$u",

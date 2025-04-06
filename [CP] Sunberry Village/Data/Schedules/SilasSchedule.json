@@ -8,7 +8,7 @@
 				"spring": "610 Custom_SBV_MiyoungHouse 5 7 3/900 Custom_SBV_SilasBlacksmith 3 13 2/a2000 Custom_SBV_MiyoungHouse 15 5 3",
 				"spring_Sun": "610 WizardHouse 1 21 1/1300 WizardHouse 8 17 1/1600 Forest 21 29 1/2100 Custom_SBV_MiyoungHouse 15 5 3",
 				"summer_Sun": "610 Custom_SBV_MiyoungHouse 5 7 3/1100 Custom_SBV_SunberryForest 15 24 2/2000 Custom_SBV_MiyoungHouse 15 5 3",
-				"fall_Sun": "610 Custom_SBV_MiyoungHouse 5 7 3/1100 Town 45 102/2200 Custom_SBV_MiyoungHouse 15 5 3",
+				"fall_Sun": "610 Custom_SBV_MiyoungHouse 5 7 3/1100 Town 42 102/2200 Custom_SBV_MiyoungHouse 15 5 3",
 				"winter_Sun": "610 Custom_SBV_MiyoungHouse 5 7 3/1200 Custom_SBV_MiyoungHouse 6 13 2/1600 Saloon 26 18 3/2200 Custom_SBV_MiyoungHouse 15 5 3",
 				"Mon": "610 Custom_SBV_MiyoungHouse 5 7 3/900 Custom_SBV_SilasBlacksmith 3 13 2/1600 Custom_SBV_MiyoungHouse 5 5 0/2200 Custom_SBV_MiyoungHouse 15 5 3",
 				"Tue": "GOTO Mon",
