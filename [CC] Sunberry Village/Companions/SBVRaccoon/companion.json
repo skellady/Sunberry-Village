@@ -1,6 +1,7 @@
 {
   "Name": "SBVRaccoon",
   "Type": "Walking",
+  "TileSheetPath": "Characters\\RaccoonSBV\\RaccoonSBV",
   "EnableCharacterCollision": true,
   "EnableFarmerCollision": true,
   "EnableShadow": false,

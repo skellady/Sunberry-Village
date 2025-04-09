@@ -18,6 +18,126 @@
             }
         },
         {
+            "LogName": "Winter for Raccoon",
+            "Action": "EditData",
+            "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
+            "TargetField": [
+                "Companion",
+                "Portrait"
+            ],
+            "Entries": {
+                "Portrait": {
+                        "PortraitDisplayName": "Raccoon",
+                        "FrameSizeWidth": 64,
+                        "FrameSizeHeight": 64,
+                        "FrameIndex": 1
+                }
+            },
+            "When": {
+                "DayOfWeek": "Sunday, Tuesday, Thursday",
+                "Season": "Winter"
+            }
+        },
+        {
+            "LogName": "Winter Sprite for Raccoon",
+            "Action": "EditImage",
+            "Target": "Characters/RaccoonSBV/RaccoonSBV",
+            "FromFile": "Assets/Characters/RaccoonSBV/RaccoonSBV_winter.png",
+            "When": {
+                "DayOfWeek": "Sunday, Tuesday, Thursday",
+                "Season": "Winter"
+            }
+        },
+        {
+            "LogName": "Winter Scarf for Raccoon",
+            "Action": "EditData",
+            "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
+            "TargetField": [
+                "Companion",
+                "Portrait"
+            ],
+            "Entries": {
+                "Portrait": {
+                    "PortraitDisplayName": "Raccoon",
+                    "FrameSizeWidth": 64,
+                    "FrameSizeHeight": 64,
+                    "FrameIndex": 2
+            }
+            },
+            "When": {
+                "DayOfWeek": "Monday, Wednesday, Friday, Saturday",
+                "Season": "Winter"
+            }
+        },
+        {
+            "LogName": "Winter Scarf Sprite for Raccoon",
+            "Action": "EditImage",
+            "Target": "Characters/RaccoonSBV/RaccoonSBV",
+            "FromFile": "Assets/Characters/RaccoonSBV/RaccoonSBV_winterscarf.png",
+            "When": {
+                "DayOfWeek": "Monday, Wednesday, Friday, Saturday",
+                "Season": "Winter"
+            }
+        },
+        {
+            "LogName": "Spring for Raccoon",
+            "Action": "EditData",
+            "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
+            "TargetField": [
+                "Companion",
+                "Portrait"
+            ],
+            "Entries": {
+                "Portrait": {
+                    "PortraitDisplayName": "Raccoon",
+                    "FrameSizeWidth": 64,
+                    "FrameSizeHeight": 64,
+                    "FrameIndex": 3
+            }
+            },
+            "When": {
+                "Season": "Spring"
+            }
+        },
+        {
+            "LogName": "Spring Sprite for Raccoon",
+            "Action": "EditImage",
+            "Target": "Characters/RaccoonSBV/RaccoonSBV",
+            "FromFile": "Assets/Characters/RaccoonSBV/RaccoonSBV_spring.png",
+            "When": {
+                "Season": "Spring"
+            }
+        },
+        {
+            "LogName": "Summer for Raccoon",
+            "Action": "EditData",
+            "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
+            "TargetField": [
+                "Companion",
+                "Portrait"
+            ],
+            "Entries": {
+                "Portrait": {
+                    "PortraitDisplayName": "Raccoon",
+                    "FrameSizeWidth": 64,
+                    "FrameSizeHeight": 64,
+                    "FrameIndex": 4
+            }
+            },
+            "When": {
+                "Season": "Summer"
+            }
+        },
+        {
+            "LogName": "Summer Sprite for Raccoon",
+            "Action": "EditImage",
+            "Target": "Characters/RaccoonSBV/RaccoonSBV",
+            "FromFile": "Assets/Characters/RaccoonSBV/RaccoonSBV_summer.png",
+            "When": {
+                "Season": "Summer"
+            }
+        },
+        {
             "LogName": "D&D's House Custom Companions",
             "Action": "EditMap",
             "Target": "Maps/Custom_SBV_DDHouse",
