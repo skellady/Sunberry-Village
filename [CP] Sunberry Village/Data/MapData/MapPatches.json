@@ -1075,7 +1075,7 @@
     // Removes 'For Sale' sign from Elias' house
     {
       "Action": "EditMap",
-      "Target": "Maps/Custom_SBV_SunberryVillage",
+      "Target": "Maps/Custom_SBV_SunberryVillage, Maps/Custom_SBV_TwilightFestival",
       "PatchMode": "Replace",
       "FromFile": "Assets/Maps/MapPatches/SBVEliasRemoveSale.tmx",
       "FromArea": {

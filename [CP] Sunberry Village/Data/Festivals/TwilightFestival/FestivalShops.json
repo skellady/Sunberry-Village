@@ -67,6 +67,14 @@
                             "TradeItemAmount": 1,
                             "AvailableStock": 20,
                             "AvailableStockLimit": "Global"
+                        },
+                        {
+                            "Id": "{{ModId}}_Minerals",
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 3 (O)skellady.SBVCP_Moonberry (O)skellady.SBVCP_BlueAuraQuartz (O)skellady.SBVCP_Annabergite (O)565 (O)562 (O)570 (O)skellady.SBVCP_Citrine (O)573 (O)577",
+                            "TradeItemId": "{{ModId}}_TwilightFeather",
+                            "TradeItemAmount": 2,
+                            "AvailableStock": 5,
+                            "AvailableStockLimit": "Global"
                         }
                     ]
                 },

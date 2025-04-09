@@ -69,7 +69,7 @@
 						"Entries",
 						"Set-Up_additionalCharacters"
 					],
-					"Value": "MoonSBV 62 10 down",
+					"Value": "MoonSBV 78 9 down",
 					"Delimiter": "/",
 				},
 				// Main Event
@@ -79,7 +79,7 @@
 						"Entries",
 						"Main-Event_additionalCharacters"
 					],
-					"Value": "MoonSBV 62 10 down",
+					"Value": "MoonSBV 78 9 down",
 					"Delimiter": "/",
 				},
 			]
