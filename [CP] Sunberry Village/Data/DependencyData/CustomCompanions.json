@@ -21,16 +21,20 @@
             "LogName": "Winter for Raccoon",
             "Action": "EditData",
             "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
-            "TargetField": [
-                "Companion",
-                "Portrait"
-            ],
             "Entries": {
-                "Portrait": {
+                "Companion": {
+                    "Portrait": {
                         "PortraitDisplayName": "Raccoon",
                         "FrameSizeWidth": 64,
                         "FrameSizeHeight": 64,
                         "FrameIndex": 1
+                    },
+                    "DialogueSequence": [
+                        {
+                            "Text": "{{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3, 4}} |default={{i18n:RaccoonDialogue.{{season}}. {{DayOfWeek}}.{{Random: 1, 2, 3}} |default={{i18n:RaccoonDialogue.default}} }} }}",
+                            "DisplayOnce": true
+                        }
+                    ]
                 }
             },
             "When": {
@@ -52,17 +56,21 @@
             "LogName": "Winter Scarf for Raccoon",
             "Action": "EditData",
             "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
-            "TargetField": [
-                "Companion",
-                "Portrait"
-            ],
             "Entries": {
-                "Portrait": {
-                    "PortraitDisplayName": "Raccoon",
-                    "FrameSizeWidth": 64,
-                    "FrameSizeHeight": 64,
-                    "FrameIndex": 2
-            }
+                "Companion": {
+                    "Portrait": {
+                        "PortraitDisplayName": "Raccoon",
+                        "FrameSizeWidth": 64,
+                        "FrameSizeHeight": 64,
+                        "FrameIndex": 2
+                    },
+                    "DialogueSequence": [
+                        {
+                            "Text": "{{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3, 4}} |default={{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3}} |default={{i18n:RaccoonDialogue.default}} }} }}",
+                            "DisplayOnce": true
+                        }
+                    ]
+                }
             },
             "When": {
                 "DayOfWeek": "Monday, Wednesday, Friday, Saturday",
@@ -83,17 +91,21 @@
             "LogName": "Spring for Raccoon",
             "Action": "EditData",
             "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
-            "TargetField": [
-                "Companion",
-                "Portrait"
-            ],
             "Entries": {
-                "Portrait": {
-                    "PortraitDisplayName": "Raccoon",
-                    "FrameSizeWidth": 64,
-                    "FrameSizeHeight": 64,
-                    "FrameIndex": 3
-            }
+                "Companion": {
+                    "Portrait": {
+                        "PortraitDisplayName": "Raccoon",
+                        "FrameSizeWidth": 64,
+                        "FrameSizeHeight": 64,
+                        "FrameIndex": 3
+                    },
+                    "DialogueSequence": [
+                        {
+                            "Text": "{{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3, 4}} |default={{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3}} |default={{i18n:RaccoonDialogue.default}} }} }}",
+                            "DisplayOnce": true
+                        }
+                    ]
+                }
             },
             "When": {
                 "Season": "Spring"
@@ -112,17 +124,21 @@
             "LogName": "Summer for Raccoon",
             "Action": "EditData",
             "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
-            "TargetField": [
-                "Companion",
-                "Portrait"
-            ],
             "Entries": {
-                "Portrait": {
-                    "PortraitDisplayName": "Raccoon",
-                    "FrameSizeWidth": 64,
-                    "FrameSizeHeight": 64,
-                    "FrameIndex": 4
-            }
+                "Companion": {
+                    "Portrait": {
+                        "PortraitDisplayName": "Raccoon",
+                        "FrameSizeWidth": 64,
+                        "FrameSizeHeight": 64,
+                        "FrameIndex": 4
+                    },
+                    "DialogueSequence": [
+                        {
+                            "Text": "{{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3, 4}} |default={{i18n:RaccoonDialogue.{{season}}.{{DayOfWeek}}.{{Random: 1, 2, 3}} |default={{i18n:RaccoonDialogue.default}} }} }}",
+                            "DisplayOnce": true
+                        }
+                    ]
+                }
             },
             "When": {
                 "Season": "Summer"
