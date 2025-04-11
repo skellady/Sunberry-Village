@@ -9,6 +9,26 @@
 					"DefaultValidPlantableLocations": [],
                     "AllowRainTotem": true,
                     "CopyWeatherFromLocation": "Default", 
+					"PassOutLocations": [
+						{
+							"Id": "{{ModId}}_PassOutOnFarm",
+							"Condition": "LOCATION_NAME Here Custom_SBV_SunberryFarm, ANY \"PLAYER_HAS_MAIL Current SBVFarmPurchased Received\" \"PLAYER_HAS_MAIL Current SBVFarmPurchasedFR Received\"",
+							"Location": "Custom_SBV_SunberryHouse",
+							"Position": {
+								"X": 17,
+								"Y": 12
+							}
+						},
+						{
+							"Id": "{{ModId}}_PassOutInHouse",
+							"Condition": "LOCATION_NAME Here Custom_SBV_SunberryHouse, ANY \"PLAYER_HAS_MAIL Current SBVFarmPurchased Received\" \"PLAYER_HAS_MAIL Current SBVFarmPurchasedFR Received\"",
+							"Location": "Custom_SBV_SunberryHouse",
+							"Position": {
+								"X": 17,
+								"Y": 12
+							}
+						}
+					],
 					"ReviveLocations": [
 						{
 							"Condition": "LOCATION_CONTEXT Here Custom_SBV_SunberryVillage",

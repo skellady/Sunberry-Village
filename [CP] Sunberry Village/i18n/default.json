@@ -3219,6 +3219,7 @@
     "MapString.sbv.village6": "Ari and Blake's House",
     "MapString.sbv.village7": "Sunberry Forest",
     "MapString.sbv.village8": "This road is used by the villagers to go to the city.",
+    "MapString.sbv.village9": "~Ferngill Post~^Collection days are Monday to Friday.^Collection time is at 5:00 A.M.^Nearest Post Office is located in Zuzu City.", // FOR TRANSLATORS: NEW IN 1.0.3
     "MapString.sbv.unoccupied": "An unoccupied house.",
     // Mountain
     "MapString.sbv.mountain1": "Looks like this campfire was used recently.",

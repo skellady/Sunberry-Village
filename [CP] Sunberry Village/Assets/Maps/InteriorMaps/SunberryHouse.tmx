@@ -5,6 +5,7 @@
   <property name="AllowMiniFridges" value="true"/>
   <property name="AmbientLight" value="95 95 95"/>
   <property name="FloorIDs" value="skellady.SBVCP_Bedroom, skellady.SBVCP_Kitchen, skellady.SBVCP_Main, skellady.SBVCP_Separator"/>
+  <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
   <property name="WallIDs" value="skellady.SBVCP_Bedroom, skellady.SBVCP_Kitchen, skellady.SBVCP_Main, skellady.SBVCP_Separator"/>
  </properties>
  <tileset firstgid="1" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
