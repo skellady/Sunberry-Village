@@ -68,8 +68,10 @@ internal class MenuHooks
 			{
 				string[] split = ArgUtility.SplitBySpace(c.name);
 
-				if ( (!Minerals.Contains(split[0]) || !Game1.player.team.completedSpecialOrders.Contains("SBV.SpecialOrder.SBVMuseumMinerals")) &&
-				     (split[0] != LunarBean || !Game1.player.mailReceived.Contains("skellady.SBVCP_LunarBeanGrown")) )
+				if ((!Minerals.Contains(split[0]) || !Game1.player.team.completedSpecialOrders.Contains("SBV.SpecialOrder.SBVMuseumMinerals")) &&
+				    (split[0] != LunarBean || !Game1.player.mailReceived.Contains("skellady.SBVCP_LunarBeanGrown")) ||
+				     !(Game1.player.basicShipped.TryGetValue("skellady.SBVCP_LunarBean", out int timesShipped) && timesShipped > 0) ||
+				     !(Game1.player.mineralsFound.TryGetValue("skellady.SBVCP_LunarBean", out int timesFound) && timesFound > 0))
 					continue;
 
 				split[1] = bool.TrueString;
