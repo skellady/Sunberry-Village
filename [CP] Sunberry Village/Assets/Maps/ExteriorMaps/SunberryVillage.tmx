@@ -10472,26 +10472,6 @@
     <property name="Action" value="Garbage skellady.SBVCP_WrenTrash"/>
    </properties>
   </object>
-  <object id="877" name="TileData" x="0" y="368" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.village8"/>
-   </properties>
-  </object>
-  <object id="878" name="TileData" x="0" y="352" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.village8"/>
-   </properties>
-  </object>
-  <object id="879" name="TileData" x="0" y="336" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.village8"/>
-   </properties>
-  </object>
-  <object id="880" name="TileData" x="0" y="320" width="16" height="16">
-   <properties>
-    <property name="Action" value="Message &quot;sbv.village8"/>
-   </properties>
-  </object>
   <object id="881" name="TileData" x="1280" y="752" width="16" height="16">
    <properties>
     <property name="Action" value="DropBox SBVBlakeBox"/>
