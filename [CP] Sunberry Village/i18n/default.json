@@ -150,9 +150,9 @@
     "WorldMap.Village.ReiHouse": "???", // FOR TRANSLATORS: NEW IN 1.0.3
     "WorldMap.Village.ThyHouse": "Thysania's House", // FOR TRANSLATORS: NEW IN 1.0.3
     "WorldMap.Village.AlchemistHouse": "Alchemist's House", // FOR TRANSLATORS: NEW IN 1.0.3
-	"Worldmap.Village.Sunberrymountains": "Sunberry Mountains", // FOR TRANSLATORS: NEW IN 1.0.3
-	"Worldmap.Village.Sunberryvillage": "Sunberry Village", // FOR TRANSLATORS: NEW IN 1.0.3
-	"Worldmap.Village.Sunberryforest": "Sunberry Forest", // FOR TRANSLATORS: NEW IN 1.0.3
+	"Worldmap.Village.SunberryMountains": "Sunberry Mountains", // FOR TRANSLATORS: NEW IN 1.0.3
+	"Worldmap.Village.SunberryVillage": "Sunberry Village", // FOR TRANSLATORS: NEW IN 1.0.3
+	"Worldmap.Village.SunberryForest": "Sunberry Forest", // FOR TRANSLATORS: NEW IN 1.0.3
 
 
     //Dynamic Tokens
