@@ -1,6 +1,7 @@
 ﻿using HarmonyLib;
 using Microsoft.Xna.Framework;
 using StardewValley;
+using StardewValley.BellsAndWhistles;
 using StardewValley.Extensions;
 using SObject = StardewValley.Object;
 // ReSharper disable UnusedMember.Local
@@ -25,6 +26,20 @@ internal class ObjectPatches
 	 */
 
 	/// <summary>
+	/// Patches <c>Lexicon.makePlural</c> to handle edge cases with Sunberries being pluralized incorrectly.
+	/// </summary>
+	[HarmonyPatch(typeof(Lexicon), nameof(Lexicon.makePlural))]
+	[HarmonyPrefix]
+	public static bool makePlural_Prefix(string word, bool ignore, ref string __result)
+	{
+		if (!word.Equals("Sunberries") && !word.Equals("Dried Sunberries"))
+			return true;
+
+		__result = word;
+		return false;
+	}
+
+	/// <summary>
 	/// Patches <c>Object.isForage</c> to exclude twilight feathers so they don't have their quality overwritten.
 	/// </summary>
 	[HarmonyPatch(typeof(SObject), nameof(SObject.isForage))]
@@ -37,7 +52,6 @@ internal class ObjectPatches
 		__result = false;
 		return false;
 	}
-
 
 	/// <summary>
 	/// Patches <c>Object.performUseAction</c> to handle Sunberry totem logic.
