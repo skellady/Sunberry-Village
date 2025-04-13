@@ -27,7 +27,7 @@
                                 "Width": 85,
                                 "Height": 46
                             },
-                            "ScrollText": "{{i18n:WorldMap.SunberryMountains}}",
+                            "ScrollText": "{{i18n:WorldMap.Village.SunberryMountains}}",
                             "WorldPositions" : [
                                 {
                                     "Id": "Custom_SBV_SunberryMountain",
@@ -83,7 +83,7 @@
                                 "Width": 100,
                                 "Height": 96
                             },
-                            "ScrollText": "{{i18n:WorldMap.SunberryVillage}}",
+                            "ScrollText": "{{i18n:WorldMap.Village.SunberryVillage}}",
                             "WorldPositions" : [
                                 {
                                     "Id": "Custom_SBV_SunberryVillage",
@@ -246,7 +246,7 @@
                                 "Height": 65
                             },
                             //intentionally commented out so it doesnt cover the bottom of the map when you are there
-                            //"ScrollText": "{{i18n:WorldMap.SunberryForest}}",
+                            //"ScrollText": "{{i18n:WorldMap.Village.SunberryForest}}",
                             "WorldPositions" : [
                                 {
                                     "Id": "Custom_SBV_SunberryForest",
