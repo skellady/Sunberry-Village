@@ -51,7 +51,8 @@
                             "ItemId": "{{Random:(O)472, (O)473, (O)474, (O)475, (O)476, (O)479, (O)480, (O)481, (O)482, (O)484, (O)485, (O)486, (O)488, (O)490, (O)493, (O)489, (O)CarrotSeeds, (O)SummerSquashSeeds, (O)BroccoliSeeds, (O)PowdermelonSeeds |key=SeedPacketType}}",
                             "MinStack": 10,
                             "ModData": {
-                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.10PackSeeds |SeedPacketName={{i18n: MarketSpecial.SeedPacket_{{Random:(O)472, (O)473, (O)474, (O)475, (O)476, (O)479, (O)480, (O)481, (O)482, (O)484, (O)485, (O)486, (O)488, (O)490, (O)493, (O)489, (O)CarrotSeeds, (O)SummerSquashSeeds, (O)BroccoliSeeds, (O)PowdermelonSeeds |key=SeedPacketType}} }} }}"
+                                "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.10PackSeeds |SeedPacketName={{i18n: MarketSpecial.SeedPacket_{{Random:(O)472, (O)473, (O)474, (O)475, (O)476, (O)479, (O)480, (O)481, (O)482, (O)484, (O)485, (O)486, (O)488, (O)490, (O)493, (O)489, (O)CarrotSeeds, (O)SummerSquashSeeds, (O)BroccoliSeeds, (O)PowdermelonSeeds |key=SeedPacketType}} }} }}",
+                                "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 2000
                             }
                         },
                         // Grass starters

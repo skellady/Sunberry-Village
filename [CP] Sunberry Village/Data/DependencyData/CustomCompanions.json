@@ -389,7 +389,7 @@
                 }
             ],
             "When": {
-                "Weather": "Rain, Storm",
+                "Weather": "Rain, Storm, GreenRain",
                 "Season": "Spring, Summer, Fall"
             },
             "Update": "OnLocationChange"
@@ -411,7 +411,7 @@
                 }
             ],
             "When": {
-                "Weather": "Rain, Storm",
+                "Weather": "Rain, Storm, GreenRain",
                 "Season": "Spring, Summer, Fall"
             },
             "Update": "OnLocationChange"
@@ -433,7 +433,7 @@
                 }
             ],
             "When": {
-                "Weather": "Rain, Storm",
+                "Weather": "Rain, Storm, GreenRain",
                 "Season": "Spring, Summer, Fall"
             },
             "Update": "OnLocationChange"
@@ -937,7 +937,7 @@
                 }
             ],
             "When": {
-                "Weather |contains=Rain, Storm": false,
+                "Weather |contains=Rain, Storm, GreenRain": false,
                 "DayOfWeek": "Monday"
             }
         },
@@ -958,7 +958,7 @@
                 }
             ],
             "When": {
-                "Weather |contains=Rain, Storm": false,
+                "Weather |contains=Rain, Storm, GreenRain": false,
                 "DayOfWeek": "Tuesday"
             }
         },
@@ -979,7 +979,7 @@
                 }
             ],
             "When": {
-                "Weather |contains=Rain, Storm": false,
+                "Weather |contains=Rain, Storm, GreenRain": false,
                 "DayOfWeek": "Wednesday, Sunday"
             }
         },
@@ -1000,7 +1000,7 @@
                 }
             ],
             "When": {
-                "Weather |contains=Rain, Storm": false,
+                "Weather |contains=Rain, Storm, GreenRain": false,
                 "DayOfWeek": "Thursday"
             }
         },
@@ -1021,7 +1021,7 @@
                 }
             ],
             "When": {
-                "Weather |contains=Rain, Storm": false,
+                "Weather |contains=Rain, Storm, GreenRain": false,
                 "DayOfWeek": "Friday"
             }
         },
@@ -1042,7 +1042,7 @@
                 }
             ],
             "When": {
-                "Weather |contains=Rain, Storm": false,
+                "Weather |contains=Rain, Storm, GreenRain": false,
                 "DayOfWeek": "Saturday"
             }
         },

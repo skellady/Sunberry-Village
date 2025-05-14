@@ -77,6 +77,14 @@
 					"Location": "Custom_SBV_SunberryVillage",
 					"Tile": "74, 32"
 				},
+				"{{ModId}}_SunberryFarm": {
+					"Id": "{{ModId}}_SunberryFarm",
+					"SectionId": "{{ModId}}_SunberryVillage",
+					"DisplayName": "{{i18n:Sunberry.Locations.SunberryFarm}}",
+					"Location": "Custom_SBV_SunberryFarm",
+					"Tile": "26, 9",
+					"Condition": "ANY \"PLAYER_HAS_MAIL Current SBVFarmPurchased Received\" \"PLAYER_HAS_MAIL Current SBVFarmPurchasedFR Received\""
+				},
 				"{{ModId}}_SunberryLibrary": {
 					"Id": "{{ModId}}_SunberryLibrary",
 					"SectionId": "{{ModId}}_SunberryVillage",
