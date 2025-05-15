@@ -834,8 +834,11 @@
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.Sunslash",
                             "ItemId": "skellady.SBVCP_Sunslash",
-                            "Condition": "PLAYER_HAS_MAIL Current OpheliaSunslashSO Received, !PLAYER_HAS_ITEM Current (W)skellady.SBVCP_Sunslash",
-                            "Price": 0
+                            "Condition": "PLAYER_HAS_MAIL Current OpheliaSunslashSO Received, !PLAYER_HAS_MAIL Current {{ModId}}_PurchasedSunslash Received",
+                            "Price": 0,
+                            "ActionsOnPurchase": [
+                                "AddMail Current {{ModId}}_PurchasedSunslash"
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_MaiaWeapons.NeptunesGlaive",

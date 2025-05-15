@@ -485,7 +485,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 7,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
                 "skellady.SBVCP_AncientStaff": {
@@ -498,7 +499,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 8,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
                 "skellady.SBVCP_SilverMask": {
@@ -511,7 +513,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 9,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
                 "skellady.SBVCP_LapisNecklace": {
@@ -524,7 +527,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 10,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
                 "skellady.SBVCP_WickedVase": {
@@ -537,7 +541,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 11,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
                 "skellady.SBVCP_GoldenCoins": {
@@ -550,7 +555,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 12,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
                 "skellady.SBVCP_ChippedJug": {
@@ -563,7 +569,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 13,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
                 "skellady.SBVCP_DwarfKeyI": {
@@ -576,7 +583,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 14,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
                 "skellady.SBVCP_DwarfKeyII": {
@@ -589,7 +597,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 15,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
                 "skellady.SBVCP_DwarfKeyIII": {
@@ -602,7 +611,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 16,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
                 "skellady.SBVCP_DwarfKeyIV": {
@@ -615,7 +625,8 @@
                     "Texture": "Mods\\skellady.SBVCP\\GemsArtifacts",
                     "SpriteIndex": 17,
                     "ContextTags": [
-                        "not_museum_donatable"
+                        "not_museum_donatable",
+                        "sbv_artifact"
                     ]
                 },
             }

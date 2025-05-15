@@ -415,7 +415,7 @@
             "Action": "EditData",
             "Target": "Data/Events/Custom_SBV_SerenityInn2ndFloor",
             "Entries": {
-                "PlayerKilled": "none/-100 -100/farmer 23 24 2 OpheliaSBV 25 24 3 MaiaSBV 26 25 3/skippable/showFrame farmer 5/pause 1000/message \"{{i18n:SBV.PlayerKilled.01 |PlayerName={{PlayerName}} }}\"/pause 900/message \"{{i18n:SBV.PlayerKilled.02}}\"/pause 400/fade/viewport 25 23/pause 1000/speak OpheliaSBV \"{{i18n:SBV.PlayerKilled.03}}\"/pause 500/speak MaiaSBV \"{{i18n:SBV.PlayerKilled.04}}\"/pause 500/emote farmer 28/pause 500/speak OpheliaSBV \"{{i18n:SBV.PlayerKilled.05}}\"/pause 500/advancedMove OpheliaSBV false 0 -8 -1 0 1 2000/pause 200/doAction 25 22/advancedMove MaiaSBV false -1 0 0 -9 3 2000/pause 600/message \"{{i18n:SBV.PlayerKilled.06}}\"/pause 500/minedeath/globalFade/viewport -999 -999/stopAdvancedMoves/end"
+                "PlayerKilled": "none/-100 -100/farmer 23 24 2 OpheliaSBV 25 24 3 MaiaSBV 26 25 3/showFrame farmer 5/pause 1000/message \"{{i18n:SBV.PlayerKilled.01 |PlayerName={{PlayerName}} }}\"/pause 900/message \"{{i18n:SBV.PlayerKilled.02}}\"/pause 400/fade/viewport 25 23/pause 1000/speak OpheliaSBV \"{{i18n:SBV.PlayerKilled.03}}\"/pause 500/speak MaiaSBV \"{{i18n:SBV.PlayerKilled.04}}\"/pause 500/emote farmer 28/pause 500/speak OpheliaSBV \"{{i18n:SBV.PlayerKilled.05}}\"/pause 500/advancedMove OpheliaSBV false 0 -8 -1 0 1 2000/pause 200/doAction 25 22/advancedMove MaiaSBV false -1 0 0 -9 3 2000/pause 600/message \"{{i18n:SBV.PlayerKilled.06}}\"/pause 500/minedeath/globalFade/viewport -999 -999/stopAdvancedMoves/end"
             }
         },
         {

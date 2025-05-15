@@ -288,6 +288,90 @@
 					"Chance": 0.01
 				}
 			}
+		},
+		// Seed Maker Rules for GSB
+		{
+			"LogName": "Seed Maker Rules for GSB & SB",
+			"Action": "EditData",
+			"Target": "Data/Machines",
+			"TargetField": [
+				"(BC)25",
+				"OutputRules"
+			],
+			"Entries": {
+				"{{ModId}}_SeedMakerGSB": {
+					"Id": "{{ModId}}_SeedMakerGSB",
+					"Triggers": [
+						{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "{{ModId}}_GoldenSunberry",
+							"RequiredCount": 1
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"IncrementMachineParentSheetIndex": 0,
+							"Id": "{{ModId}}_GoldenSunberrySeeds",
+							"ItemId": "(O){{ModId}}_GoldenSunberrySeeds",
+							"MinStack": 1,
+							"MaxStack": 2,
+							"StackModifiers": [
+								{
+									"Id": "KnownCrop",
+									"Condition": "PLAYER_SHIPPED_BASIC_ITEM Any {{ModId}}_GoldenSunberry 10",
+									"Modification": "Add",
+									"Amount": 1.0,
+								}
+							]
+						}
+					],
+					"MinutesUntilReady": 20,
+					"DaysUntilReady": -1,
+					"RecalculateOnCollect": false
+				},
+				"{{ModId}}_SeedMakerSB": {
+					"Id": "{{ModId}}_SeedMakerSB",
+					"Triggers": [
+						{
+							"Trigger": "ItemPlacedInMachine",
+							"RequiredItemId": "{{ModId}}_Sunberries",
+							"RequiredCount": 1
+						}
+					],
+					"UseFirstValidOutput": true,
+					"OutputItem": [
+						{
+							"IncrementMachineParentSheetIndex": 0,
+							"Id": "{{ModId}}_GoldenSunberrySeeds",
+							"ItemId": "(O){{ModId}}_GoldenSunberrySeeds",
+							"Condition": "RANDOM 0.04, PLAYER_HAS_SEEN_EVENT Any skellady.SBVCP_20031457",
+							"MinStack": 1,
+							"MaxStack": 1,
+						},
+						{
+							"IncrementMachineParentSheetIndex": 0,
+							"Id": "{{ModId}}_SunberrySeeds",
+							"ItemId": "(O){{ModId}}_SunberrySeeds",
+							"MinStack": 1,
+							"MaxStack": 4,
+						}
+					],
+					"MinutesUntilReady": 20,
+					"DaysUntilReady": -1,
+					"RecalculateOnCollect": false
+				}
+			},
+			"MoveEntries": [
+				{
+					"ID": "{{ModId}}_SeedMakerGSB",
+					"BeforeId": "Default"
+				},
+				{
+					"ID": "{{ModId}}_SeedMakerSB",
+					"BeforeId": "{{ModId}}_SeedMakerGSB"
+				}
+			]
 		}
 	]
 }
