@@ -832,6 +832,12 @@
                             "Price": 30000
                         },
                         {
+                            "Id": "skellady.SBVCP_MaiaWeapons.Sunslash",
+                            "ItemId": "skellady.SBVCP_Sunslash",
+                            "Condition": "PLAYER_HAS_MAIL Current OpheliaSunslashSO Received, !PLAYER_HAS_ITEM Current (W)skellady.SBVCP_Sunslash",
+                            "Price": 0
+                        },
+                        {
                             "Id": "skellady.SBVCP_MaiaWeapons.NeptunesGlaive",
                             "ItemId": "(W)14",
                             "Price": 9000

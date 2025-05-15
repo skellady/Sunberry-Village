@@ -2171,6 +2171,15 @@
     "event-20031484.16": "I understand. I'm just happy to have you here. We don't gotta do anythin' you ain't comfortable with.$7",
     "event-20031484.17": "Say, why don't we get outta here and grab a bite? My treat.$h",
 
+    // Ophelia 10 Hearts Special Order
+    // FOR TRANSLATORS: NEW IN 1.0.4
+    "event-20031485.01": "Hello, @. I hope you don't mind my sudden visit. I had something to tell you and it would be better relayed face to face.$h",
+    "event-20031485.02": "I've grown fond of you, farmer. You know that? I'm happy to call you a friend.$9",
+    "event-20031485.03": "Now, I won't take up much of your time. I have a very strong weapon, the Sunslash, that was given to me by my mentor a long time ago.",
+    "event-20031485.04": "It's one of a kind, truly. Which is why I want you to have it.$h",
+    "event-20031485.05": "I'm not giving you the actual weapon, don't worry!$u#$b#I'm giving a blueprint to Maia so she can forge one for you, too.$h",
+    "event-20031485.06": "I'll give you a list of the materials you need. Whenever you're ready, just drop them at the inn.$h",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",
@@ -2297,6 +2306,19 @@
     "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_5": "Drop off 10 Void Essence in the back room of Silas' Blacksmith..",
     "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_6": "Drop off 10 Bat Wings in the back room of Silas' Blacksmith..",
     "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_7": "Drop off 15 Iron Bars in the back room of Silas' Blacksmith..",
+
+    // Ophelia's Weapon (Sunslash)
+    //FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.SpecialOrder.OpheliaSunslash_Name": "Ophelia's Weapon",
+    "SBV.SpecialOrder.OpheliaSunslash_Text": "Ophelia considers you a good friend, and an even better adventurer. She wants you to have a replica of her sword. In order to do so, she needs you to collect some materials and drop them off in the box by the stairs at Serenity Inn.",
+    "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_0": "Collect 5 Aquamarine.",
+    "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_1": "Collect 5 Topaz",
+    "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_2": "Collect 10 Solar Essences.",
+    "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_3": "Collect 15 Gold Bars.",
+    "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_4": "Drop off 5 Aquamarine in the box at Serenity Inn.",
+    "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_5": "Drop off 5 Topaz in the box at Serenity Inn.",
+    "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_6": "Drop off 10 Solar Essences in the box at Serenity Inn.",
+    "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_7": "Drop off 15 Gold Bars in the box at Serenity Inn.",
 
     // Aicha Floral Weapon (Flower Power)
     "SBV.SpecialOrder.AichaFloralWeapon_Name": "Flower Sword!",
@@ -2429,6 +2451,8 @@
     "Mail.SBVMuseumSO2.Title": "Sunberry Museum Pt. 2",
     "Mail.SBVMuseumSO3.Body": "Dearest @,^^I can't believe it's done! It's all here, right in front of me. I never thought I'd see the day where we can finally showcase our history. Thank you, from the bottom of my heart, for all you've done for me and this village. With your consent, I'd love to give you the biggest, most bone-crushin' hug when I see you for the grand opening. Oh, you're invited, of course. Drop by the museum when you can, please.^^- Elias", // FOR TRANSLATORS (1.0.1 UPDATE): changed "tomorrow" to "when you can" 
     "Mail.SBVMuseumSO3.Title": "Sunberry Museum Restored",
+    "Mail.OpheliaSunslash.Body": "Dear @,^^Thank you for gathering the materials I asked for. I've sent them over to Maia earlier, and she immediately started to work on it. It should be available in her shop tomorrow if you want to pick it up. Free of charge, of course. It is a gift after all. Take care, @.^^- Your friend, Ophelia", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Mail.OpheliaSunslash.Title": "Ophelia's Sunslash", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Pass Out Letter
     "Mail.passedOutSBV.Body": "@,^^Found you unconscious last night while I was doing my sweep with Maia. Try to be more careful next time. If there's anything I can do for you, you know where to find me.^^- Ophelia",

@@ -565,6 +565,115 @@
                         }
                     ]
                 },
+                "SBV.SpecialOrder.OpheliaSunslash": {
+                    "Name": "[SBV.SpecialOrder.OpheliaSunslash_Name]",
+                    "Requester": "OpheliaSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "",
+                    "OrderType": "SBVNotBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.OpheliaSunslash_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.OpheliaSunslash_Objective_Text_0]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "AcceptedContextTags": "item_aquamarine"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.OpheliaSunslash_Objective_Text_1]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "AcceptedContextTags": "item_topaz"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.OpheliaSunslash_Objective_Text_2]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "AcceptedContextTags": "item_solar_essence"
+                            }
+                        },
+                        {
+                            "Type": "Collect",
+                            "Text": "[SBV.SpecialOrder.OpheliaSunslash_Objective_Text_3]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "AcceptedContextTags": "item_gold_bar"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.OpheliaSunslash_Objective_Text_4]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "DropBox": "SBVInnBox",
+                                "DropBoxGameLocation": "Custom_SBV_SerenityInn",
+                                "DropBoxIndicatorLocation": "17 5",
+                                "AcceptedContextTags": "item_aquamarine"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.OpheliaSunslash_Objective_Text_5]",
+                            "RequiredCount": "5",
+                            "Data": {
+                                "DropBox": "SBVInnBox",
+                                "DropBoxGameLocation": "Custom_SBV_SerenityInn",
+                                "DropBoxIndicatorLocation": "17 5",
+                                "AcceptedContextTags": "item_topaz"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.OpheliaSunslash_Objective_Text_6]",
+                            "RequiredCount": "10",
+                            "Data": {
+                                "DropBox": "SBVInnBox",
+                                "DropBoxGameLocation": "Custom_SBV_SerenityInn",
+                                "DropBoxIndicatorLocation": "17 5",
+                                "AcceptedContextTags": "item_solar_essence"
+                            }
+                        },
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.OpheliaSunslash_Objective_Text_7]",
+                            "RequiredCount": "15",
+                            "Data": {
+                                "DropBox": "SBVInnBox",
+                                "DropBoxGameLocation": "Custom_SBV_SerenityInn",
+                                "DropBoxIndicatorLocation": "17 5",
+                                "AcceptedContextTags": "item_gold_bar"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Money",
+                            "Data": {
+                                "Amount": 20000
+                            }
+                        },
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "OpheliaSunslashSO",
+                                "NoLetter": false
+                            }
+                        }
+                    ],
+                    "CustomFields": {
+                        "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
+                    }
+                },
                 "SBV.SpecialOrder.AichaFloralWeapon": {
                     "Name": "[SBV.SpecialOrder.AichaFloralWeapon_Name]",
                     "Requester": "AichaSBV",

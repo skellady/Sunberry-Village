@@ -1,40 +1,32 @@
 {
 	"Changes": [
 		{
-			"LogName": "Sprite Offsets NPCML",
+			"LogName": "Hide Rei and Aicha From NPCML",
 			"Action": "EditData",
 			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
 			"Entries": {
-				"DeryaSBV": {
-					"MarkerCropOffset": 3
-				},
-				"DialaSBV": {
-					"MarkerCropOffset": 3
+				"ReihanaSBV": {
+					"Exclude": true
 				},
 				"AichaSBV": {
-					"MarkerCropOffset": 3
-				},
-				"JumanaSBV": {
-					"MarkerCropOffset": 3
-				},
-				"AminaSBV": {
-					"MarkerCropOffset": 3
-				},
+					"Exclude": true
+				}
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains= skellady.SBVCP_20031427": false
+			}
+		},
+		{
+			"LogName": "Hide Pan and Nadia From NPCML",
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
 				"PanSBV": {
-					"MarkerCropOffset": 3
+					"Exclude": true
 				},
-				"MiyoungSBV": {
-					"MarkerCropOffset": 3
-				},
-				"MoonSBV": {
-					"MarkerCropOffset": 3
-				},
-				"ImanSBV": {
-					"MarkerCropOffset": 3
-				},
-				"LyenneSBV": {
-					"MarkerCropOffset": 3
-				},
+				"NadiaSBV": {
+					"Exclude": true
+				}
 			}
 		}
 	]

@@ -57,6 +57,17 @@
             "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_6": "{{i18n:SBV.SpecialOrder.MaiaWeapon4_Objective_Text_6}}",
             "SBV.SpecialOrder.MaiaWeapon4_Objective_Text_7": "{{i18n:SBV.SpecialOrder.MaiaWeapon4_Objective_Text_7}}",
 
+            "SBV.SpecialOrder.OpheliaSunslash_Name": "{{i18n:SBV.SpecialOrder.OpheliaSunslash_Name}}",
+            "SBV.SpecialOrder.OpheliaSunslash_Text": "{{i18n:SBV.SpecialOrder.OpheliaSunslash_Text}}",
+            "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_0": "{{i18n:SBV.SpecialOrder.OpheliaSunslash_Objective_Text_0}}",
+            "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_1": "{{i18n:SBV.SpecialOrder.OpheliaSunslash_Objective_Text_1}}",
+            "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_2": "{{i18n:SBV.SpecialOrder.OpheliaSunslash_Objective_Text_2}}",
+            "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_3": "{{i18n:SBV.SpecialOrder.OpheliaSunslash_Objective_Text_3}}",
+            "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_4": "{{i18n:SBV.SpecialOrder.OpheliaSunslash_Objective_Text_4}}",
+            "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_5": "{{i18n:SBV.SpecialOrder.OpheliaSunslash_Objective_Text_5}}",
+            "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_6": "{{i18n:SBV.SpecialOrder.OpheliaSunslash_Objective_Text_6}}",
+            "SBV.SpecialOrder.OpheliaSunslash_Objective_Text_7": "{{i18n:SBV.SpecialOrder.OpheliaSunslash_Objective_Text_7}}",
+
             "SBV.SpecialOrder.AichaFloralWeapon_Name": "{{i18n:SBV.SpecialOrder.AichaFloralWeapon_Name}}",
             "SBV.SpecialOrder.AichaFloralWeapon_Text": "{{i18n:SBV.SpecialOrder.AichaFloralWeapon_Text}}",
             "SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_0": "{{i18n:SBV.SpecialOrder.AichaFloralWeapon_Objective_Text_0}}",
