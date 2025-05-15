@@ -1709,6 +1709,7 @@
                     "Optimism": "Positive",
                     "CanBeRomanced": false,
                     "CanReceiveGifts": true,
+                    "CanVisitIsland": "PLAYER_HAS_SEEN_EVENT Any skellady.SBVCP_20031427",
                     "Calendar": "HiddenUntilMet",
                     "SocialTab": "HiddenUntilMet",
                     "IntroductionsQuest": false,
@@ -1828,6 +1829,7 @@
                     "CanGreetNearbyCharacters": false,
                     "CanBeRomanced": false,
                     "CanReceiveGifts": true,
+                    "CanVisitIsland": "PLAYER_HAS_SEEN_EVENT Any skellady.SBVCP_20031427",
                     "Calendar": "HiddenUntilMet",
                     "SocialTab": "HiddenUntilMet",
                     "IntroductionsQuest": false,
@@ -2070,7 +2072,7 @@
                 "CanBeRomanced": true
             },
             "When": {
-                "HasSeenEvent: currentPlayer |contains= skellady.SBVCP_20031483": true
+                "HasSeenEvent: anyPlayer |contains= skellady.SBVCP_20031483": true
             }
         }
     ]

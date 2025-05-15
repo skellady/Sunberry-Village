@@ -63,7 +63,10 @@
                             "MinStack": 1,
                             "MaxStack": 2,
                         }
-                    ]
+                    ],
+                    "CustomFields": {
+                        "UIInfoSuite.ExtendedData/DisplayName": "{{i18n:SBV.CinderTree.Name}}"
+                    }
                 }
             }
         }

@@ -257,6 +257,12 @@
                         }
                     ],
                     "IsDrink": false,
+                    "ContextTags": [
+                        "cookie_item",
+                        "food_bakery",
+                        "food_sweet",
+                        "color_dark_brown",
+                    ]
                 },
                 "skellady.SBVCP_DialaHotChoco": {
                     "Name": "skellady.SBVCP_DialaHotChoco",
@@ -278,6 +284,10 @@
                         }
                     ],
                     "IsDrink": true,
+                    "ContextTags": [
+                        "color_dark_brown",
+                        "drink_item"
+                    ]
                 },
                 "skellady.SBVCP_IceCreamBowl": {
                     "Name": "skellady.SBVCP_IceCreamBowl",
@@ -299,6 +309,10 @@
                         }
                     ],
                     "IsDrink": false,
+                    "ContextTags": [
+                        "food_sweet",
+                        "ice_cream_item"
+                    ]
                 }
             }
         },
@@ -648,6 +662,9 @@
                     ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
                 },
                 "skellady.SBVCP_PurpuritePotion": {
                     "Name": "skellady.SBVCP_PurpuritePotion",
@@ -671,6 +688,9 @@
                     ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
                 },
                 "skellady.SBVCP_AnnabergitePotion": {
                     "Name": "skellady.SBVCP_AnnabergitePotion",
@@ -694,6 +714,9 @@
                     ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
                 },
                 "skellady.SBVCP_CitrinePotion": {
                     "Name": "skellady.SBVCP_CitrinePotion",
@@ -717,6 +740,9 @@
                     ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
                 },
                 "skellady.SBVCP_BlueAuraQuartzPotion": {
                     "Name": "skellady.SBVCP_BlueAuraQuartzPotion",
@@ -741,6 +767,9 @@
                     ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
                 },
                 "skellady.SBVCP_MoonberryPotion": {
                     "Name": "skellady.SBVCP_MoonberryPotion",
@@ -765,6 +794,9 @@
                     ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
                 },
                 "skellady.SBVCP_DolomitePotion": {
                     "Name": "skellady.SBVCP_DolomitePotion",
@@ -789,6 +821,9 @@
                     ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
                 },
                 "skellady.SBVCP_TigerseyePotion": {
                     "Name": "skellady.SBVCP_TigerseyePotion",
@@ -812,6 +847,9 @@
                     ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
                 },
                 "skellady.SBVCP_LunaritePotion": {
                     "Name": "skellady.SBVCP_LunaritePotion",
@@ -835,6 +873,9 @@
                     ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
                 },
                 "skellady.SBVCP_FairyStonePotion": {
                     "Name": "skellady.SBVCP_FairyStonePotion",
@@ -859,6 +900,9 @@
                     ],
                     "IsDrink": true,
                     "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
                 },
                 "{{ModId}}_SerpentinePowder": {
                     "Name": "{{ModId}}_SerpentinePowder",

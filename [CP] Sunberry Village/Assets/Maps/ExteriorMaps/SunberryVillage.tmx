@@ -152,12 +152,14 @@
   <tile id="181">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="182">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -942,6 +944,7 @@
   <tile id="558">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1029,6 +1032,7 @@
   <tile id="583">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1081,11 +1085,13 @@
   </tile>
   <tile id="598">
    <properties>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
   <tile id="599">
    <properties>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
@@ -1104,18 +1110,21 @@
   <tile id="606">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="607">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="608">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1177,12 +1186,18 @@
   </tile>
   <tile id="623">
    <properties>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="624">
    <properties>
     <property name="Type" value="Dirt"/>
+   </properties>
+  </tile>
+  <tile id="630">
+   <properties>
+    <property name="Diggable" value="T"/>
    </properties>
   </tile>
   <tile id="633">
@@ -1260,11 +1275,13 @@
   </tile>
   <tile id="680">
    <properties>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="681">
    <properties>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -1286,6 +1303,7 @@
   <tile id="685">
    <properties>
     <property name="Buildable" type="bool" value="true"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2155,6 +2173,11 @@
     <frame tileid="152" duration="1000"/>
    </animation>
   </tile>
+  <tile id="153">
+   <properties>
+    <property name="Diggable" value="T"/>
+   </properties>
+  </tile>
   <tile id="156">
    <properties>
     <property name="Spawnable" value="t"/>
@@ -2169,7 +2192,7 @@
   </tile>
   <tile id="176">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2196,11 +2219,13 @@
   </tile>
   <tile id="181">
    <properties>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="182">
    <properties>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2250,13 +2275,13 @@
   </tile>
   <tile id="206">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="207">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2290,13 +2315,13 @@
   </tile>
   <tile id="226">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="227">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2317,7 +2342,7 @@
   </tile>
   <tile id="231">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2688,6 +2713,21 @@
     <property name="Type" value="Grass"/>
    </properties>
   </tile>
+  <tile id="471">
+   <properties>
+    <property name="Diggable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="472">
+   <properties>
+    <property name="Diggable" value="T"/>
+   </properties>
+  </tile>
+  <tile id="473">
+   <properties>
+    <property name="Diggable" value="T"/>
+   </properties>
+  </tile>
   <tile id="512">
    <properties>
     <property name="Type" value="Dirt"/>
@@ -2715,13 +2755,13 @@
   </tile>
   <tile id="558">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="560">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2742,7 +2782,7 @@
   </tile>
   <tile id="564">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2780,13 +2820,13 @@
   </tile>
   <tile id="583">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="585">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2808,7 +2848,7 @@
   </tile>
   <tile id="589">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2854,35 +2894,37 @@
   </tile>
   <tile id="598">
    <properties>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
   <tile id="599">
    <properties>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
   <tile id="606">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="607">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="608">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="610">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2903,7 +2945,7 @@
   </tile>
   <tile id="614">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2944,6 +2986,7 @@
   </tile>
   <tile id="623">
    <properties>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Stone"/>
    </properties>
   </tile>
@@ -2959,7 +3002,7 @@
   </tile>
   <tile id="630">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -2970,7 +3013,7 @@
   </tile>
   <tile id="632">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -3037,13 +3080,13 @@
   </tile>
   <tile id="680">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
   <tile id="681">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
@@ -3064,7 +3107,7 @@
   </tile>
   <tile id="685">
    <properties>
-    <property name="Diggable" value="t"/>
+    <property name="Diggable" value="T"/>
     <property name="Type" value="Dirt"/>
    </properties>
   </tile>
