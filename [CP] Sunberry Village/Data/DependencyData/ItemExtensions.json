@@ -1,0 +1,39 @@
+{
+	"Changes": [
+		// Fishing Treasure
+		{
+			"LogName": "Fishing Treasure IE",
+			"Action": "EditData",
+			"Target": "Mods/mistyspring.ItemExtensions/Treasure",
+			"Entries": {
+				"skellady.SBVCP_ArtifactsInTreasure": {
+					"RandomItemId": [
+						"(O)skellady.SBVCP_MushroomStatue",
+						"(O)skellady.SBVCP_AncientStaff",
+						"(O)skellady.SBVCP_SilverMask",
+						"(O)skellady.SBVCP_LapisNecklace",
+						"(O)skellady.SBVCP_WickedVase",
+						"(O)skellady.SBVCP_GoldenCoins",
+						"(O)skellady.SBVCP_ChippedJug",
+					],
+					"Chance": 0.03,
+				},
+				"skellady.SBVCP_DwarfKeysInTreasure": {
+					"RandomItemId": [
+						"(O)skellady.SBVCP_DwarfKeyI",
+						"(O)skellady.SBVCP_DwarfKeyII",
+						"(O)skellady.SBVCP_DwarfKeyIII",
+						"(O)skellady.SBVCP_DwarfKeyIV",
+					],
+					"Chance": 0.02,
+				},
+				"skellady.SBVCP_MoonberryInTreasure": {
+					"RandomItemId": [
+						"(O)skellady.SBVCP_Moonberry",
+					],
+					"Chance": 0.02,
+				},
+			}
+		}
+	]
+}

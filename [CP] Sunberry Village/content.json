@@ -597,7 +597,7 @@
         {
             "LogName": "Include Dependency Data",
             "Action": "Include",
-            "FromFile": "Data/DependencyData/CustomCompanions.json, Data/DependencyData/FarmTypeManager.json"
+            "FromFile": "Data/DependencyData/CustomCompanions.json, Data/DependencyData/FarmTypeManager.json, Data/DependencyData/ItemExtensions.json"
         },
         // Quests
         {

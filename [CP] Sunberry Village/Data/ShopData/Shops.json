@@ -47,37 +47,67 @@
                             "Id": "skellady.SBVCP_AriShop.BeanStarter",
                             "ItemId": "(O)473",
                             "Condition": "SEASON spring",
-                            "Price": 55
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.ParsnipSeeds",
                             "ItemId": "(O)472",
                             "Condition": "SEASON spring",
-                            "Price": 15
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.KaleSeeds",
                             "ItemId": "(O)477",
                             "Condition": "SEASON spring",
-                            "Price": 65
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.PotatoSeeds",
                             "ItemId": "(O)475",
                             "Condition": "SEASON spring",
-                            "Price": 45
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.CauliflowerSeeds",
                             "ItemId": "(O)474",
                             "Condition": "SEASON spring",
-                            "Price": 75
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.GarlicSeeds",
                             "ItemId": "(O)476",
                             "Condition": "SEASON spring, YEAR 2",
-                            "Price": 35
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.SpringSeeds",
@@ -98,55 +128,100 @@
                             "Id": "skellady.SBVCP_AriShop.BlueberrySeeds",
                             "ItemId": "(O)481",
                             "Condition": "SEASON summer",
-                            "Price": 75
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "{{ModId}}_AriShop.TomatoSeeds",
                             "ItemId": "(O)480",
                             "Condition": "SEASON summer",
-                            "Price": 45
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "{{ModId}}_AriShop.RadishSeeds",
                             "ItemId": "(O)484",
                             "Condition": "SEASON summer",
-                            "Price": 35
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.CornSeeds",
                             "ItemId": "(O)487",
                             "Condition": "SEASON summer",
-                            "Price": 140
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 10
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.MelonSeeds",
                             "ItemId": "(O)479",
                             "Condition": "SEASON summer",
-                            "Price": 75
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.PepperSeeds",
                             "ItemId": "(O)482",
                             "Condition": "SEASON summer",
-                            "Price": 35
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.WheatSeeds",
                             "ItemId": "(O)483",
                             "Condition": "SEASON summer",
-                            "Price": 35
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.RedCabbageSeeds",
                             "ItemId": "(O)485",
                             "Condition": "SEASON summer, YEAR 2",
-                            "Price": 95
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.HopsStarter",
                             "ItemId": "(O)302",
                             "Condition": "SEASON summer",
-                            "Price": 55
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.SummerSeeds",
@@ -161,61 +236,111 @@
                             "Id": "skellady.SBVCP_AriShop.AmaranthSeeds",
                             "ItemId": "(O)299",
                             "Condition": "SEASON fall",
-                            "Price": 65
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.ArtichokeSeeds",
                             "ItemId": "(O)489",
                             "Condition": "SEASON fall, YEAR 2",
-                            "Price": 25
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.BeetSeeds",
                             "ItemId": "(O)494",
                             "Condition": "SEASON fall",
-                            "Price": 40
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.CornSeedsFall",
                             "ItemId": "(O)487",
                             "Condition": "SEASON fall",
-                            "Price": 140
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 10
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.PumpkinSeeds",
                             "ItemId": "(O)490",
                             "Condition": "SEASON fall",
-                            "Price": 95
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.CranberrySeeds",
                             "ItemId": "(O)493",
                             "Condition": "SEASON fall",
-                            "Price": 230
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 10
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.EggplantSeeds",
                             "ItemId": "(O)488",
                             "Condition": "SEASON fall",
-                            "Price": 15
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.YamSeeds",
                             "ItemId": "(O)492",
                             "Condition": "SEASON fall",
-                            "Price": 55
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.BokChoySeeds",
                             "ItemId": "(O)491",
                             "Condition": "SEASON fall",
-                            "Price": 55
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 5.0
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.GrapeStarter",
                             "ItemId": "(O)301",
                             "Condition": "SEASON fall",
-                            "Price": 55
+                            "PriceModifiers": [
+                                {
+                                    "Modification": "Subtract",
+                                    "Amount": 10
+                                }
+                            ]
                         },
                         {
                             "Id": "skellady.SBVCP_AriShop.FallSeeds",
@@ -1048,6 +1173,14 @@
                             "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 2 (BC)12 (BC)163 (BC)10 (BC)105 (BC)272 (BC)165 (O)645 (O)872 (BC)skellady.SBVCP_MineralGrinder (BC)skellady.SBVCP_AlchemyTable",
                             "Price": 5000,
                             "AvailableStock": 5,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            // Artifacts
+                            "Id": "skellady.SBVCP_PipPepShop.Artifacts",
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 2 (O)skellady.SBVCP_MushroomStatue (O)skellady.SBVCP_AncientStaff (O)skellady.SBVCP_SilverMask (O)skellady.SBVCP_LapisNecklace (O)skellady.SBVCP_WickedVase (O)skellady.SBVCP_GoldenCoins (O)skellady.SBVCP_ChippedJug (O)skellady.SBVCP_DwarfKeyI (O)skellady.SBVCP_DwarfKeyII (O)skellady.SBVCP_DwarfKeyIII (O)skellady.SBVCP_DwarfKeyIV (O)96 (O)97 (O)98 (O)99",
+                            "Price": 2000,
+                            "AvailableStock": 1,
                             "AvailableStockLimit": "Player"
                         }
                     ]
