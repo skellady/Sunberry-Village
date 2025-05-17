@@ -2451,8 +2451,8 @@
     "Mail.SBVMuseumSO2.Title": "Sunberry Museum Pt. 2",
     "Mail.SBVMuseumSO3.Body": "Dearest @,^^I can't believe it's done! It's all here, right in front of me. I never thought I'd see the day where we can finally showcase our history. Thank you, from the bottom of my heart, for all you've done for me and this village. With your consent, I'd love to give you the biggest, most bone-crushin' hug when I see you for the grand opening. Oh, you're invited, of course. Drop by the museum when you can, please.^^- Elias", // FOR TRANSLATORS (1.0.1 UPDATE): changed "tomorrow" to "when you can" 
     "Mail.SBVMuseumSO3.Title": "Sunberry Museum Restored",
-    "Mail.OpheliaSunslash.Body": "Dear @,^^Thank you for gathering the materials I asked for. I've sent them over to Maia earlier, and she immediately started to work on it. It should be available in her shop tomorrow if you want to pick it up. Free of charge, of course. It is a gift after all. Take care, @.^^- Your friend, Ophelia", // FOR TRANSLATORS: NEW IN 1.0.4
-    "Mail.OpheliaSunslash.Title": "Ophelia's Sunslash", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Mail.OpheliaSunslashSO.Body": "Dear @,^^Thank you for gathering the materials I asked for. I've sent them over to Maia earlier, and she immediately started to work on it. It should be available in her shop tomorrow if you want to pick it up. Free of charge, of course. It is a gift after all. Take care, @.^^- Your friend, Ophelia", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Mail.OpheliaSunslashSO.Title": "Ophelia's Sunslash", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Pass Out Letter
     "Mail.passedOutSBV.Body": "@,^^Found you unconscious last night while I was doing my sweep with Maia. Try to be more careful next time. If there's anything I can do for you, you know where to find me.^^- Ophelia",
