@@ -49,6 +49,12 @@
       "Target": "Maps/Custom_SBV_SunberryFarm",
       "FromFile": "Assets/Maps/ExteriorMaps/SunberryFarm.tmx"
     },
+    {
+      "LogName": "Load Ripley's Orchard Map",
+      "Action": "Load",
+      "Target": "Maps/Custom_SBV_RipleyOrchard",
+      "FromFile": "Assets/Maps/ExteriorMaps/SBVOrchard.tmx"
+    },
     // Load Interior Maps
     {
       "LogName": "Load Ari Market",

@@ -1,0 +1,157 @@
+{
+    "Changes": [
+        {
+            "LogName": "SBV Wedding Event",
+            "Action": "EditData",
+            "Target": "Data/Weddings",
+            "TargetField": [
+                "EventScript"
+            ],
+            "Entries": {
+                "EliasSBV": "sweet/-1000 -1000/farmer 32 19 2 [SpouseFarmerText [EscapedText] [EscapedText spouse 33 19 2]] OpheliaSBV 32 20 2 otherFarmers 34 25 0[SetupContextualWeddingAttendees]/changeToTemporaryMap Custom_SBV_RipleyOrchard/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2/warp [SpouseActor] 33 19] [EscapedText showFrame spouse 36]]/viewport 32 22 true/pause 4000/speak OpheliaSBV \"Friends, family, and loved ones. We are here today to celebrate love, a lifelong bond.$h#$b#There's no better feeling than finding your person.$h#$b#The one who really sees you. The one who loves you endlessly. The one who wishes to spend the rest of their life by your side.$h#$b#And so, it is my great honor to unite @ and %spouse in the bonds of marriage on this beautiful day.$u\"/faceDirection farmer 1/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 3] [EscapedText showFrame spouse 37]]/pause 500/pause 1000/move OpheliaSBV 0 1 0/playMusic none/pause 1000/speak OpheliaSBV \"@... %spouse... #$b#I'm honored to be here and witness you seal the bond of your love.$h#$b#As the administrator of Sunberry Village, and regional bearer of the matrimonial seal, I now pronounce you life partners!$u\"/pause 500/speak OpheliaSBV \"You may kiss.$h\"/pause 1000/showFrame 101/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 101 true] [EscapedText showFrame spouse 38]]/specificTemporarySprite heart 33 18/playSound dwop/pause 2000/specificTemporarySprite wed/faceDirection farmer 2/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2] [EscapedText showFrame spouse 36]]/[ContextualWeddingCelebrations]/move OpheliaSBV -2 0 1/pause 4000/faceDirection farmer 1/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 3 true] [EscapedText showFrame spouse 37]]/globalFade/viewport -1000 -1000/pause 1000/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5381]\"/pause 500/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5383]\"/pause 4000/waitForOtherPlayers weddingEnd[FarmerUniqueId]/end wedding",
+            }
+        },
+        {
+            "LogName": "SBV Wedding Attendees",
+            "Action": "EditData",
+            "Target": "Data/Weddings",
+            "Fields": {
+                "Attendees": {
+                    // base
+                    "AriSBV": {
+                        "Id": "AriSBV",
+                        "Setup": "AriSBV 36 22 0"
+                    },
+                    "AminaSBV": {
+                        "Id": "AminaSBV",
+                        "Setup": "AminaSBV 30 24 0",
+                        "Celebration": "jump AminaSBV 2/emote AminaSBV 32",
+                    },
+                    "AichaSBV": {
+                        "Id": "AichaSBV",
+                        "Setup": "AichaSBV 35 30 0",
+                        "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031427",
+                        "Celebration": "textAboveHead AichaSBV \"Yay!\""
+                    },
+                    "BlakeSBV": {
+                        "Id": "BlakeSBV",
+                        "Setup": "BlakeSBV 34 22 0",
+                        "Celebration": "emote BlakeSBV 20"
+                    },
+                    "EliasSBV": {
+                        "Id": "EliasSBV",
+                        "Setup": "EliasSBV 29 22 0"
+                    },
+                    "EzraSBV": {
+                        "Id": "EzraSBV",
+                        "Setup": "EzraSBV 34 24 0"
+                    },
+                    "DialaSBV": {
+                        "Id": "DialaSBV",
+                        "Setup": "DialaSBV 35 26 0",
+                        "Celebration": "emote DialaSBV 20"
+                    },
+                    "DeryaSBV": {
+                        "Id": "DeryaSBV",
+                        "Setup": "DeryaSBV 36 26 0"
+                    },
+                    "ImanSBV": {
+                        "Id": "ImanSBV",
+                        "Setup": "ImanSBV 35 24 0"
+                    },
+                    "JumanaSBV": {
+                        "Id": "JumanaSBV",
+                        "Setup": "JumanaSBV 31 24 0",
+                        "Celebration": "emote JumanaSBV 20"
+                    },
+                    "LyenneSBV": {
+                        "Id": "LyenneSBV",
+                        "Setup": "LyenneSBV 35 22 0"
+                    },
+                    "MaiaSBV": {
+                        "Id": "MaiaSBV",
+                        "Setup": "MaiaSBV 29 24 0"
+                    },
+                    "MiyoungSBV": {
+                        "Id": "MiyoungSBV",
+                        "Setup": "MiyoungSBV 30 22 0",
+                        "Celebration": "textAboveHead MiyoungSBV \"Congrats!\""
+                    },
+                    "MoonSBV": {
+                        "Id": "MoonSBV",
+                        "Setup": "MoonSBV 34 26 0",
+                        "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031402"
+                    },
+                    "ReihanaSBV": {
+                        "Id": "ReihanaSBV",
+                        "Setup": "ReihanaSBV 34 30 0",
+                        "Condition": "PLAYER_HEARTS Current ReihanaSBV 6"
+                    },
+                    "SilasSBV": {
+                        "Id": "SilasSBV",
+                        "Setup": "SilasSBV 31 22 0"
+                    },
+                    // addons
+                    "Sterling": {
+                        "Id": "Sterling",
+                        "Setup": "Sterling 31 28 0",
+                        "Condition": "{{HasMod|contains=Himetarts.ARV.CP}}"
+                    },
+                    "Henry": {
+                        "Id": "Henry",
+                        "Setup": "Henry 31 26 0",
+                        "Condition": "{{HasMod|contains=Himetarts.ARV.CP}}"
+                    },
+                    "Mia": {
+                        "Id": "Mia",
+                        "Setup": "Mia 30 26 0",
+                        "Celebration": "emote Mia 32",
+                        "Condition": "{{HasMod|contains=Himetarts.ARV.CP}}"
+                    },
+                    "Clara.Ripley": {
+                        "Id": "Clara.Ripley",
+                        "Setup": "Clara.Ripley 30 28 0",
+                        "Condition": "{{HasMod|contains=Clara.Ripley}}"
+                    },
+                    "WrenSong": {
+                        "Id": "WrenSong",
+                        "Setup": "WrenSong 29 28 0",
+                        "Condition": "{{HasMod|contains=tiakall.wren}}"
+                    },
+                    "AirynDao": {
+                        "Id": "AirynDao",
+                        "Setup": "AirynDao 29 26 0",
+                        "Condition": "{{HasMod|contains=Airyn.Dao.CP}}"
+                    },
+                    "Jonghyuk": {
+                        "Id": "Jonghyuk",
+                        "Setup": "Jonghyuk 35 28 0",
+                        "Condition": "{{HasMod|contains=Arknir.Jonghyuk}}"
+                    },
+                    "Spanner": {
+                        "Id": "Spanner",
+                        "Setup": "Spanner 34 28 0",
+                        "Condition": "PLAYER_HAS_SEEN_EVENT Current SpannerIntroConclusion, {{HasMod|contains=Arknir.Jonghyuk}}"
+                    },
+                    "LaniSBV": {
+                        "Id": "LaniSBV",
+                        "Setup": "LaniSBV 36 28 0",
+                        "Celebration": "emote LaniSBV 20",
+                        "Condition": "{{HasMod|contains=atelier99.SBV.NPCLani}}"
+                    },
+                    "WildflourSASS": {
+                        "Id": "WildflourSASS",
+                        "Setup": "WildflourSASS 31 30 0",
+                        "Condition": "{{HasMod|contains=Wildflour.SASS}}"
+                    },
+                    "RoseSASS": {
+                        "Id": "RoseSASS",
+                        "Setup": "RoseSASS 30 30 0",
+                        "Celebration": "emote RoseSASS 20",
+                        "Condition": "{{HasMod|contains=Wildflour.SASS}}"
+                    },
+                }
+            }
+        },
+    ]
+}

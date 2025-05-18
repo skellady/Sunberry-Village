@@ -267,6 +267,26 @@
       "FromFile": "Assets/Maps/TileSheets/winter_SBV_yrioutdoors.png"
     },
     {
+      "Action": "Load",
+      "Target": "Maps/spring_Ripley_Orchard",
+      "FromFile": "Assets/Maps/Tilesheets/spring_Ripley_Orchard.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/summer_Ripley_Orchard",
+      "FromFile": "Assets/Maps/Tilesheets/summer_Ripley_Orchard.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/fall_Ripley_Orchard",
+      "FromFile": "Assets/Maps/Tilesheets/fall_Ripley_Orchard.png"
+    },
+    {
+      "Action": "Load",
+      "Target": "Maps/winter_Ripley_Orchard",
+      "FromFile": "Assets/Maps/Tilesheets/winter_Ripley_Orchard.png"
+    },
+    {
       "Action": "EditImage",
       "Target": "Maps/spring_SBV_yrioutdoors",
       "FromFile": "Assets/Maps/Tilesheets/Recolor/{{TilesheetRecolor}}/spring_SBV_yrioutdoors.png",
