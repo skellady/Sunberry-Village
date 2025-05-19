@@ -430,6 +430,11 @@
             "AllowValues": "true, false",
             "Default": "true",
             "Description": "{{i18n:config.IncludeNPCsInPerfection.description}}"
+        },
+        "RemoveSunberryKitchen": {
+            "AllowValues": "true, false",
+            "Default": "false",
+            "Description": "{{i18n:config.RemoveSunberryKitchen.description}}"
         }
     },
     /* Event Limiter Compat */

@@ -1093,7 +1093,29 @@
       "When": {
         "HasFlag: anyPlayer |contains= skellady.SBVCP_EliasHouseFinishedLetter": true,
       }
-    }
+    },
+    // Remove Kitchen from SBV House
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryHouse",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/RemoveSBVKitchen.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 5,
+        "Height": 3
+      },
+      "ToArea": {
+        "X": 2,
+        "Y": 13,
+        "Width": 5,
+        "Height": 3
+      },
+      "When": {
+        "RemoveSunberryKitchen": true
+      }
+    },
     // Twilight Festival Patch
     /*{
       "Action": "EditMap",

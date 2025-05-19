@@ -175,22 +175,25 @@
                 "{{ModId}}_WAGItems": {
                     "Items": [
                         {
-                            "ItemId": "(O)wildflour.gourmetpantry_pectin",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Pectin",
                             "MinStack": 5,
+                            "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
                             "ModData": {
                                 "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 200
                             }
                         },
                         {
-                            "ItemId": "(O)wildflour.gourmetpantry_brown_sugar",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Brown_Sugar",
                             "MinStack": 5,
+                            "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
                             "ModData": {
                                 "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 500
                             }
                         },
                         {
-                            "ItemId": "(O)wildflour.gourmetpantry_confectioners_sugar",
+                            "ItemId": "(O)Wildflour.AtelierGoods_Confectioners_Sugar",
                             "MinStack": 5,
+                            "Condition": "CAULDRON_CONFIG_VALUE FloristOnly False",
                             "ModData": {
                                 "SunberryTeam.SBVSMAPI_MarketSpecialPrice": 500
                             }
@@ -199,7 +202,8 @@
                 }
             },
             "When": {
-                "HasMod": "wildflour.gourmetpantry"
+                "HasMod |contains=Atelier.Cauldron": true,
+                "HasMod |contains=Wildflour.AtelierGoods": true
             } 
         },
         {

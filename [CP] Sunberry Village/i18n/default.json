@@ -56,6 +56,7 @@
     "config.FestivalPatches.description": "Disables festival patches but keeps the NPCs where they are. Only disable if you run into a visual issue that annoys you.",
     "config.BoardUnlock.description": "Toggles whether you want the Sunberry special order board to unlock when the vanilla special orders board unlocks, or when any player reaches 4 hearts with Elias.",
     "config.IncludeNPCsInPerfection.description": "Whether or not Sunberry Village NPCs count towards perfection. True by default. Set to false if you don't want them to count.",
+    "config.RemoveSunberryKitchen.description": "Removes the kitchen from the Sunberry Farmhouse if you purchase the Sunberry Farm. False by default. Set to true if you want to remove it and have a completely empty house.",
 
     //Locations for Event Lookup/1.6 Display Names
     //-------------------------

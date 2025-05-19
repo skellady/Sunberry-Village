@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="65" height="47" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="47">
  <properties>
-  <property name="DayTiles" value="AlwaysFront 59 14 369 AlwaysFront 28 7 369 AlwaysFront 13 7 369 AlwaysFront 5 13 369 AlwaysFront 6 41 369 AlwaysFront 34 40 369 AlwaysFront 40 40 369 AlwaysFront 59 41 369"/>
-  <property name="Light" value="59 14 4 28 7 4 13 7 4 5 13 4 6 41 4 34 40 4 40 40 4 59 41 4"/>
-  <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
   <property name="BuildConditions" value="Any &quot;PLAYER_HAS_MAIL Any SBVFarmPurchased Any&quot; &quot;PLAYER_HAS_MAIL Any SBVFarmPurchasedFR Any&quot;"/>
   <property name="CanBuildHere" value="T"/>
+  <property name="DayTiles" value="AlwaysFront 59 14 369 AlwaysFront 28 7 369 AlwaysFront 13 7 369 AlwaysFront 5 13 369 AlwaysFront 6 41 369 AlwaysFront 34 40 369 AlwaysFront 40 40 369 AlwaysFront 59 41 369"/>
+  <property name="EnableGrassSpread" value="T"/>
+  <property name="Light" value="59 14 4 28 7 4 13 7 4 5 13 4 6 41 4 34 40 4 40 40 4 59 41 4"/>
+  <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
   <property name="NightTiles" value="AlwaysFront 59 14 368 AlwaysFront 28 7 368 AlwaysFront 13 7 368 AlwaysFront 5 13 368 AlwaysFront 6 41 368 AlwaysFront 34 40 368 AlwaysFront 40 40 368 AlwaysFront 59 41 368"/>
   <property name="Outdoors" value="T"/>
  </properties>

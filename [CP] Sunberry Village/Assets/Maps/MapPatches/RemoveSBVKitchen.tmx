@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="5" height="3" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="233">
+ <properties>
+  <property name="AllowBeds" value="true"/>
+  <property name="AllowMiniFridges" value="true"/>
+  <property name="AmbientLight" value="95 95 95"/>
+  <property name="FloorIDs" value="skellady.SBVCP_Bedroom, skellady.SBVCP_Kitchen, skellady.SBVCP_Main, skellady.SBVCP_Separator"/>
+  <property name="LocationContext" value="Custom_SBV_SunberryVillage"/>
+  <property name="WallIDs" value="skellady.SBVCP_Bedroom, skellady.SBVCP_Kitchen, skellady.SBVCP_Main, skellady.SBVCP_Separator"/>
+ </properties>
+ <tileset firstgid="1" name="townInterior" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior.png" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="paths" tilewidth="16" tileheight="16" tilecount="64" columns="4">
+  <image source="paths.png" width="64" height="256"/>
+ </tileset>
+ <tileset firstgid="2241" name="townInterior_2" tilewidth="16" tileheight="16" tilecount="1312" columns="32">
+  <image source="townInterior_2.png" width="512" height="656"/>
+ </tileset>
+ <tileset firstgid="3553" name="zDDFurniture" tilewidth="16" tileheight="16" tilecount="816" columns="24">
+  <image source="DDFurniture.png" width="384" height="544"/>
+ </tileset>
+ <tileset firstgid="4369" name="zlumi_towninterior" tilewidth="16" tileheight="16" tilecount="3050" columns="25">
+  <image source="lumi_towninterior.png" width="400" height="1952"/>
+ </tileset>
+ <tileset firstgid="7419" name="zhime_plantlovers" tilewidth="16" tileheight="16" tilecount="3808" columns="56">
+  <image source="hime_plantlovers.png" width="896" height="1088"/>
+ </tileset>
+ <tileset firstgid="11227" name="zhime_decoplants" tilewidth="16" tileheight="16" tilecount="1872" columns="52">
+  <image source="hime_decoplants.png" width="832" height="576"/>
+ </tileset>
+ <tileset firstgid="13099" name="zhime_bathroom" tilewidth="16" tileheight="16" tilecount="288" columns="18">
+  <image source="hime_bathroom.png" width="288" height="256"/>
+ </tileset>
+ <tileset firstgid="13387" name="walls_and_floors" tilewidth="16" tileheight="16" tilecount="688" columns="16">
+  <image source="walls_and_floors.png" width="256" height="688"/>
+ </tileset>
+ <tileset firstgid="14075" name="farmhouse_tiles" tilewidth="16" tileheight="16" tilecount="264" columns="12">
+  <image source="farmhouse_tiles.png" width="192" height="352"/>
+ </tileset>
+ <layer id="1" name="Back" width="5" height="3">
+  <data encoding="csv">
+13606,13606,13606,13606,13606,
+13724,13723,13724,13723,13724,
+13740,13739,13740,13739,13740
+</data>
+ </layer>
+ <layer id="12" name="Back+1" width="5" height="3">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Back">
+  <object id="218" name="TileData" x="0" y="32" width="80" height="16">
+   <properties>
+    <property name="FloorID" value="skellady.SBVCP_Kitchen"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="3" name="Buildings" width="5" height="3">
+  <data encoding="csv">
+75,75,75,75,88,
+107,107,107,107,120,
+0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="Buildings+1" width="5" height="3">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Buildings"/>
+ <layer id="5" name="Paths" width="5" height="3">
+  <data encoding="csv">
+2185,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Paths"/>
+ <layer id="7" name="Front" width="5" height="3">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="Front"/>
+ <layer id="9" name="AlwaysFront" width="5" height="3">
+  <data encoding="csv">
+0,0,0,0,0,
+0,0,0,0,0,
+0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="10" name="AlwaysFront"/>
+</map>
