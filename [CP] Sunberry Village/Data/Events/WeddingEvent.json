@@ -8,7 +8,9 @@
                 "EventScript"
             ],
             "Entries": {
-                "EliasSBV": "sweet/-1000 -1000/farmer 32 19 2 [SpouseFarmerText [EscapedText] [EscapedText spouse 33 19 2]] OpheliaSBV 32 20 2 otherFarmers 34 25 0[SetupContextualWeddingAttendees]/changeToTemporaryMap Custom_SBV_RipleyOrchard/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2/warp [SpouseActor] 33 19] [EscapedText showFrame spouse 36]]/viewport 32 22 true/pause 4000/speak OpheliaSBV \"Friends, family, and loved ones. We are here today to celebrate love, a lifelong bond.$h#$b#There's no better feeling than finding your person.$h#$b#The one who really sees you. The one who loves you endlessly. The one who wishes to spend the rest of their life by your side.$h#$b#And so, it is my great honor to unite @ and %spouse in the bonds of marriage on this beautiful day.$u\"/faceDirection farmer 1/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 3] [EscapedText showFrame spouse 37]]/pause 500/pause 1000/move OpheliaSBV 0 1 0/playMusic none/pause 1000/speak OpheliaSBV \"@... %spouse... #$b#I'm honored to be here and witness you seal the bond of your love.$h#$b#As the administrator of Sunberry Village, and regional bearer of the matrimonial seal, I now pronounce you life partners!$u\"/pause 500/speak OpheliaSBV \"You may kiss.$h\"/pause 1000/showFrame 101/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 101 true] [EscapedText showFrame spouse 38]]/specificTemporarySprite heart 33 18/playSound dwop/pause 2000/specificTemporarySprite wed/faceDirection farmer 2/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2] [EscapedText showFrame spouse 36]]/[ContextualWeddingCelebrations]/move OpheliaSBV -2 0 1/pause 4000/faceDirection farmer 1/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 3 true] [EscapedText showFrame spouse 37]]/globalFade/viewport -1000 -1000/pause 1000/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5381]\"/pause 500/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5383]\"/pause 4000/waitForOtherPlayers weddingEnd[FarmerUniqueId]/end wedding",
+                "EliasSBV": "sweet/-1000 -1000/farmer 32 19 2 [SpouseFarmerText [EscapedText] [EscapedText spouse 33 19 2]] OpheliaSBV 32 20 2 otherFarmers 34 25 0[SetupContextualWeddingAttendees]/changeLocation Custom_SBV_RipleyOrchard/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2/warp [SpouseActor] 33 19] [EscapedText showFrame spouse 36]]/viewport 32 22 true/pause 4000/speak OpheliaSBV \"Friends, family, and loved ones. We are here today to celebrate love, a lifelong bond.$h#$b#There's no better feeling than finding your person.$h#$b#The one who really sees you. The one who loves you endlessly. The one who wishes to spend the rest of their life by your side.$h#$b#And so, it is my great honor to unite @ and %spouse in the bonds of marriage on this beautiful day.$u\"/faceDirection farmer 1/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 3] [EscapedText showFrame spouse 37]]/pause 500/pause 1000/move OpheliaSBV 0 1 0/playMusic none/pause 1000/speak OpheliaSBV \"@... %spouse... #$b#I'm honored to be here and witness you seal the bond of your love.$h#$b#As the administrator of Sunberry Village, and regional bearer of the matrimonial seal, I now pronounce you life partners!$u\"/pause 500/speak OpheliaSBV \"You may kiss.$h\"/pause 1000/showFrame 101/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 101 true] [EscapedText showFrame spouse 38]]/specificTemporarySprite heart 33 18/playSound dwop/pause 2000/specificTemporarySprite wed/faceDirection farmer 2/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2] [EscapedText showFrame spouse 36]]/[ContextualWeddingCelebrations]/move OpheliaSBV -2 0 1/pause 4000/faceDirection farmer 1/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 3 true] [EscapedText showFrame spouse 37]]/globalFade/viewport -1000 -1000/pause 1000/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5381]\"/pause 500/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5383]\"/pause 4000/waitForOtherPlayers weddingEnd[FarmerUniqueId]/end wedding",
+                "Sterling": "sweet/-1000 -1000/farmer 32 19 2 [SpouseFarmerText [EscapedText] [EscapedText spouse 33 19 2]] OpheliaSBV 32 20 2 otherFarmers 34 25 0[SetupContextualWeddingAttendees]/changeLocation Custom_SBV_RipleyOrchard/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2/warp [SpouseActor] 33 19] [EscapedText showFrame spouse 36]]/viewport 32 22 true/pause 4000/speak OpheliaSBV \"Friends, family, and loved ones. We are here today to celebrate love, a lifelong bond.$h#$b#There's no better feeling than finding your person.$h#$b#The one who really sees you. The one who loves you endlessly. The one who wishes to spend the rest of their life by your side.$h#$b#And so, it is my great honor to unite @ and %spouse in the bonds of marriage on this beautiful day.$u\"/faceDirection farmer 1/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 3] [EscapedText showFrame spouse 37]]/pause 500/pause 1000/move OpheliaSBV 0 1 0/playMusic none/pause 1000/speak OpheliaSBV \"@... %spouse... #$b#I'm honored to be here and witness you seal the bond of your love.$h#$b#As the administrator of Sunberry Village, and regional bearer of the matrimonial seal, I now pronounce you life partners!$u\"/pause 500/speak OpheliaSBV \"You may kiss.$h\"/pause 1000/showFrame 101/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 101 true] [EscapedText showFrame spouse 38]]/specificTemporarySprite heart 33 18/playSound dwop/pause 2000/specificTemporarySprite wed/faceDirection farmer 2/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2] [EscapedText showFrame spouse 36]]/[ContextualWeddingCelebrations]/move OpheliaSBV -2 0 1/pause 4000/faceDirection farmer 1/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 3 true] [EscapedText showFrame spouse 37]]/globalFade/viewport -1000 -1000/pause 1000/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5381]\"/pause 500/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5383]\"/pause 4000/waitForOtherPlayers weddingEnd[FarmerUniqueId]/end wedding",
+                "Jonghyuk": "sweet/-1000 -1000/farmer 32 19 2 [SpouseFarmerText [EscapedText] [EscapedText spouse 33 19 2]] OpheliaSBV 32 20 2 otherFarmers 34 25 0[SetupContextualWeddingAttendees]/changeLocation Custom_SBV_RipleyOrchard/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2/warp [SpouseActor] 33 19] [EscapedText showFrame spouse 36]]/viewport 32 22 true/pause 4000/speak OpheliaSBV \"Friends, family, and loved ones. We are here today to celebrate love, a lifelong bond.$h#$b#There's no better feeling than finding your person.$h#$b#The one who really sees you. The one who loves you endlessly. The one who wishes to spend the rest of their life by your side.$h#$b#And so, it is my great honor to unite @ and %spouse in the bonds of marriage on this beautiful day.$u\"/faceDirection farmer 1/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 3] [EscapedText showFrame spouse 37]]/pause 500/pause 1000/move OpheliaSBV 0 1 0/playMusic none/pause 1000/speak OpheliaSBV \"@... %spouse... #$b#I'm honored to be here and witness you seal the bond of your love.$h#$b#As the administrator of Sunberry Village, and regional bearer of the matrimonial seal, I now pronounce you life partners!$u\"/pause 500/speak OpheliaSBV \"You may kiss.$h\"/pause 1000/showFrame 101/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 101 true] [EscapedText showFrame spouse 38]]/specificTemporarySprite heart 33 18/playSound dwop/pause 2000/specificTemporarySprite wed/faceDirection farmer 2/[SpouseFarmerText [EscapedText faceDirection [SpouseActor] 2] [EscapedText showFrame spouse 36]]/[ContextualWeddingCelebrations]/move OpheliaSBV -2 0 1/pause 4000/faceDirection farmer 1/[SpouseFarmerText [EscapedText showFrame [SpouseActor] 3 true] [EscapedText showFrame spouse 37]]/globalFade/viewport -1000 -1000/pause 1000/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5381]\"/pause 500/message \"[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5383]\"/pause 4000/waitForOtherPlayers weddingEnd[FarmerUniqueId]/end wedding",
             }
         },
         {
@@ -153,5 +155,234 @@
                 }
             }
         },
+        {
+            "LogName": "Spawn Fruit Trees",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_RipleyOrchard",
+            "MapTiles": [
+                // cherry
+                {
+                    "Position": { "X": 27, "Y": 18 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 628 5"
+                    }
+                },
+                {
+                    "Position": { "X": 27, "Y": 22 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 628 5"
+                    }
+                },
+                {
+                    "Position": { "X": 27, "Y": 26 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 628 5"
+                    }
+                },
+                {
+                    "Position": { "X": 27, "Y": 30 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 628 5"
+                    }
+                },
+                // apricot
+                {
+                    "Position": { "X": 21, "Y": 20 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 629 5"
+                    }
+                },
+                {
+                    "Position": { "X": 21, "Y": 24 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 629 5"
+                    }
+                },
+                {
+                    "Position": { "X": 21, "Y": 28 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 629 5"
+                    }
+                },
+                {
+                    "Position": { "X": 21, "Y": 32 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 629 5"
+                    }
+                },
+                // orange
+                {
+                    "Position": { "X": 15, "Y": 19 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 630 5"
+                    }
+                },
+                {
+                    "Position": { "X": 15, "Y": 23 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 630 5"
+                    }
+                },
+                {
+                    "Position": { "X": 15, "Y": 27 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 630 5"
+                    }
+                },
+                {
+                    "Position": { "X": 15, "Y": 31 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 630 5"
+                    }
+                },
+                // peach
+                {
+                    "Position": { "X": 38, "Y": 18 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 631 5"
+                    }
+                },
+                {
+                    "Position": { "X": 38, "Y": 22 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 631 5"
+                    }
+                },
+                {
+                    "Position": { "X": 38, "Y": 26 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 631 5"
+                    }
+                },
+                {
+                    "Position": { "X": 38, "Y": 30 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 631 5"
+                    }
+                },
+                // pomegranate
+                {
+                    "Position": { "X": 44, "Y": 20 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 632 5"
+                    }
+                },
+                {
+                    "Position": { "X": 44, "Y": 24 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 632 5"
+                    }
+                },
+                {
+                    "Position": { "X": 44, "Y": 28 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 632 5"
+                    }
+                },
+                {
+                    "Position": { "X": 44, "Y": 32 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 632 5"
+                    }
+                },
+                // apple
+                {
+                    "Position": { "X": 49, "Y": 17 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 633 5"
+                    }
+                },
+                {
+                    "Position": { "X": 49, "Y": 21 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 633 5"
+                    }
+                },
+                {
+                    "Position": { "X": 49, "Y": 25 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 633 5"
+                    }
+                },
+                {
+                    "Position": { "X": 49, "Y": 29 },
+                    "Layer": "Paths",
+                    "SetIndex": "34",
+                    "SetTilesheet":"Paths",
+                    "SetProperties": {
+                        "SpawnTree": "fruit 633 5"
+                    }
+                },
+            ]
+        }
     ]
 }

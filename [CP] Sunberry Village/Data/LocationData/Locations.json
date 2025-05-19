@@ -2020,6 +2020,17 @@
                     "Fish": [],
                     "Forage": []
                 },
+                // WEDDING VENUE
+                "Custom_SBV_RipleyOrchard": {
+                    "CreateOnLoad": {
+                        "MapPath": "Maps/Custom_SBV_RipleyOrchard"
+                    },
+                    "ExcludeFromNpcPathfinding": true,
+                    "ArtifactSpots": [],
+                    "FishAreas": {},
+                    "Fish": [],
+                    "Forage": []
+                },
                 // MINES
                 "Custom_SBV_Mines1": {
                     "CreateOnLoad": {
