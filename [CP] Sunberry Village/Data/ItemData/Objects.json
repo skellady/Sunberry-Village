@@ -129,7 +129,8 @@
                         "season_winter",
                         "color_sand",
                         "not_museum_donatable",
-                        "sbv_unique_mineral"
+                        "sbv_unique_mineral",
+                        "item_lunar_bean"
                     ]
                 },
                 "skellady.SBVCP_RoyalAnemone": {
@@ -1585,6 +1586,60 @@
                         "color_prismatic",
                         "geode",
                         "geode_crusher_ignored"
+                    ]
+                },
+                "skellady.SBVCP_LunarBeanPowder": {
+                    "Name": "{{ModId}}_LunarBeanPowder",
+                    "DisplayName": "{{i18n:SBV.LunarBeanPowder.Name}}",
+                    "Description": "{{i18n:SBV.LunarBeanPowder.Description}}",
+                    "Edibility": "-300",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 290,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 32,
+                    "ExcludeFromShippingCollection": true,
+                },
+                "skellady.SBVCP_LunarBeanPotion": {
+                    "Name": "skellady.SBVCP_LunarBeanPotion",
+                    "DisplayName": "{{i18n:SBV.LunarBeanPotion.Name}}",
+                    "Description": "{{i18n:SBV.LunarBeanPotion.Description}}",
+                    "Edibility": "50",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 260,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 31,
+                    "Buffs": [
+                        {
+                            "Id": "LunarBeanPotion_Buffs",
+                            "Duration": 560,
+                            "CustomAttributes": {
+                                "LuckLevel": 5
+                            }
+                        }
+                    ],
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ContextTags": [
+                        "potion_item"
+                    ]
+                },
+                "skellady.SBVCP_LunarBeanJuice": {
+                    "Name": "skellady.SBVCP_LunarBeanJuice",
+                    "DisplayName": "{{i18n:SBV.LunarBeanJuice.Name}}",
+                    "Description": "{{i18n:SBV.LunarBeanJuice.Description}}",
+                    "Edibility": "30",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 450,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 30,
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ContextTags": [
+                        "drink_item",
+                        "juice_item"
                     ]
                 }
             }

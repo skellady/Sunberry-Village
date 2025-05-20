@@ -30,6 +30,10 @@
       "UniqueID": "mistyspring.ItemExtensions",
       "IsRequired": true
     },
+    {
+      "UniqueID": "Juanpa98ar.MWP98",
+      "IsRequired": false
+    },
     // components
     {
       "UniqueID": "skellady.SBVCC",

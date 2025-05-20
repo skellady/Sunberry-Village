@@ -258,7 +258,28 @@
                             "MinutesUntilReady": 720,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false
-                        }
+                        },
+                        {
+                            "Id": "skellady.SBVCP_LunarBeanPowder",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_LunarBean",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_LunarBeanPowder",
+                                    "ItemId": "(O)skellady.SBVCP_LunarBeanPowder",
+                                    "CopyQuality": false,
+                                    "IncrementMachineParentSheetIndex": 1
+                                }
+                            ],
+                            "MinutesUntilReady": 720,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
                     ]
                 },
                 "(BC)skellady.SBVCP_AlchemyTable": {
@@ -545,7 +566,27 @@
                             "MinutesUntilReady": 1400,
                             "DaysUntilReady": -1,
                             "RecalculateOnCollect": false
-                        }
+                        },
+                        {
+                            "Id": "skellady.SBVCP_LunarBeanPotion",
+                            "Triggers": [
+                                {
+                                    "Trigger": "ItemPlacedInMachine",
+                                    "RequiredItemId": "(O)skellady.SBVCP_LunarBeanPowder",
+                                    "RequiredCount": 1
+                                }
+                            ],
+                            "OutputItem": [
+                                {
+                                    "Id": "skellady.SBVCP_LunarBeanPotion",
+                                    "ItemId": "(O)skellady.SBVCP_LunarBeanPotion",
+                                    "CopyQuality": false
+                                }
+                            ],
+                            "MinutesUntilReady": 1400,
+                            "DaysUntilReady": -1,
+                            "RecalculateOnCollect": false
+                        },
                     ],
                     "AdditionalConsumedItems": [
                         {
@@ -701,6 +742,38 @@
             ],
             "Entries": {
                 "!item_seacow": "!item_seacow"
+            }
+        },
+        // Add Lunar Bean to Kegs, Jars, etc.
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)12",
+                "OutputRules"
+            ],
+            "Entries": {
+                "{{ModId}}_KegLunarBeanJuice": {
+                    "Id": "{{ModId}}_KegLunarBeanJuice",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "{{ModId}}_LunarBean",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "UseFirstValidOutput": false,
+					"OutputItem": [
+						{
+							"IncrementMachineParentSheetIndex": 0,
+							"Id": "{{ModId}}_LunarBeanJuice",
+							"ItemId": "(O){{ModId}}_LunarBeanJuice",
+						}
+					],
+                    "MinutesUntilReady": 4320,
+					"DaysUntilReady": -1,
+					"RecalculateOnCollect": false
+                }
             }
         }
     ]

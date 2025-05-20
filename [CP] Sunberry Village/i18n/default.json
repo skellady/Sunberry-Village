@@ -56,7 +56,7 @@
     "config.FestivalPatches.description": "Disables festival patches but keeps the NPCs where they are. Only disable if you run into a visual issue that annoys you.",
     "config.BoardUnlock.description": "Toggles whether you want the Sunberry special order board to unlock when the vanilla special orders board unlocks, or when any player reaches 4 hearts with Elias.",
     "config.IncludeNPCsInPerfection.description": "Whether or not Sunberry Village NPCs count towards perfection. True by default. Set to false if you don't want them to count.",
-    "config.RemoveSunberryKitchen.description": "Removes the kitchen from the Sunberry Farmhouse if you purchase the Sunberry Farm. False by default. Set to true if you want to remove it and have a completely empty house.",
+    "config.RemoveSunberryKitchen.description": "Removes the kitchen from the Sunberry Farmhouse if you purchase the Sunberry Farm. False by default. Set to true if you want to remove it and have a completely empty house.", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Locations for Event Lookup/1.6 Display Names
     //-------------------------
@@ -5990,7 +5990,9 @@
     "SBV.EclipseOrb.Description": "A blacksmith can open this for you. Who knows what might be inside?",
     "SBV.PrismaticOrb.Name": "Prismatic Orb",
     "SBV.PrismaticOrb.Description": "A blacksmith can open this for you. Who knows what might be inside?",
-
+    "SBV.LunarBeanJuice.Name": "Lunar Bean Juice", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.LunarBeanJuice.Description": "A delicious juice made out of Lunar Beans. It smells like cotton candy.", // FOR TRANSLATORS: NEW IN 1.0.4
+ 
     //Potions
     "SBV.SerpentinePotion.Name": "Serpentine Potion",
     "SBV.SerpentinePotion.Description": "A glimmering green liquid. It smells fresh. Surely it can't taste as bad as the {{title}}'s concoctions...?",
@@ -6012,6 +6014,8 @@
     "SBV.LunaritePotion.Description": "A translucent liquid. It smells like nothing, but it makes you feel safe.",
     "SBV.FairyStonePotion.Name": "Fairy Stone Potion",
     "SBV.FairyStonePotion.Description": "A dark purple liquid sloshes around. You're not sure you want to drink a potion that may or may not be made from the bones of ancient fairies.",
+    "SBV.LunarBeanPotion.Name": "Lunar Bean Potion", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.LunarBeanPotion.Description": "A sparkly liquid. It smells delicious! It makes you feel like the luckiest person alive.", // FOR TRANSLATORS: NEW IN 1.0.4
     "SBV.GenericPotion.Name": "{0} Potion",
     "SBV.GenericPotion.DisplayName": "Potion",
     "SBV.GenericPotion.Description": "This potion may not do much, but at least it looks pretty.",
@@ -6037,6 +6041,8 @@
     "SBV.LunaritePowder.Description": "A fine gem powder used in potion brewing.",
     "SBV.FairyStonePowder.Name": "Powdered Fairy Stone",
     "SBV.FairyStonePowder.Description": "A fine gem powder used in potion brewing.",
+    "SBV.LunarBeanPowder.Name": "Lunar Bean Powder", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.LunarBeanPowder.Description": "A fine gem powder used in potion brewing", // FOR TRANSLATORS: NEW IN 1.0.4
     "SBV.GenericPowder.Name": "Powdered {0}",
     "SBV.GenericPowder.DisplayName": "Powdered Gem",
     "SBV.GenericPowder.Description": "A fine gem powder used in potion brewing.",
