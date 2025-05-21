@@ -192,6 +192,7 @@
     "Gift.Love.Nadia": "Placeholder.",
     "Gift.Love.Ophelia": "Thanks, I love it!",
     "Gift.Love.Pan": "Placeholder.",
+    "Gift.Love.Raccoon": "The raccoon chirps happily! He's pleased with you and has decided to spare you from his shenanigans today.", // FOR TRANSLATORS: NEW IN 1.0.4
     "Gift.Love.Reihana": "This is a... surprisingly good gift. Thanks.",
     "Gift.Love.Silas": "Wow, thank you! I love it.",
     //Like
@@ -212,6 +213,7 @@
     "Gift.Like.Nadia": "Placeholder.",
     "Gift.Like.Ophelia": "Thanks, this is nice.",
     "Gift.Like.Pan": "Placeholder.",
+    "Gift.Like.Raccoon": "The raccoon purrs. He's happy with your gift and has decided to spare you from his shenanigans for the next hour.", // FOR TRANSLATORS: NEW IN 1.0.4
     "Gift.Like.Reihana": "Huh, this is nice. Thanks.",
     "Gift.Like.Silas": "This is a nice gift. Thank you!.",
     //Dislike
@@ -232,6 +234,7 @@
     "Gift.Dislike.Nadia": "Placeholder.",
     "Gift.Dislike.Ophelia": "...This is disappointing.",
     "Gift.Dislike.Pan": "Placeholder.",
+    "Gift.Dislike.Raccoon": "The raccoon glares at you. He doesn't look happy with his gift.", // FOR TRANSLATORS: NEW IN 1.0.4
     "Gift.Dislike.Reihana": "...Okay, then.",
     "Gift.Dislike.Silas": "Hmph. Why would you give this to me?",
     //Hate
@@ -252,6 +255,7 @@
     "Gift.Hate.Nadia": "Placeholder.",
     "Gift.Hate.Ophelia": "Hm. I'm not sure why you thought I'd like this. Get it out of my face, please.",
     "Gift.Hate.Pan": "Placeholder.",
+    "Gift.Hate.Raccoon": "The raccoon hisses at you. He looks quite angry. In fact, he's stomping on your gift!", // FOR TRANSLATORS: NEW IN 1.0.4
     "Gift.Hate.Reihana": "...Have you by any chance seen all the weapons I have in my house, @?",
     "Gift.Hate.Silas": "Really, @? I hate this.",
     //Neutral
@@ -272,6 +276,7 @@
     "Gift.Neutral.Nadia": "Placeholder.",
     "Gift.Neutral.Ophelia": "Hm. I'm not sure this is useful to me.",
     "Gift.Neutral.Pan": "Placeholder.",
+    "Gift.Neutral.Raccoon": "The raccoon doesn't seem to be affected by your gift. He's simply holding on to it and inspecting it.", // FOR TRANSLATORS: NEW IN 1.0.4
     "Gift.Neutral.Reihana": "Thanks, I guess.",
     "Gift.Neutral.Silas": "Huh, thank you, I guess.",
 

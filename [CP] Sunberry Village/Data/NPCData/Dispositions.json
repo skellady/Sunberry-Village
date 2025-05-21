@@ -1695,6 +1695,91 @@
                     },
                     "Breather": true
                 },
+                "RaccoonSBV": {
+                    "TextureName": "RaccoonSBV/RaccoonSBV",
+                    "DisplayName": "{{i18n:Name.Raccoon}}",
+                    "BirthSeason": "spring",
+                    "BirthDay": 1,
+                    "HomeRegion": "Other",
+                    "Gender": "Male",
+                    "Age": "Child",
+                    "Manner": "Rude",
+                    "SocialAnxiety": "Outgoing",
+                    "Optimism": "Neutral",
+                    "CanBeRomanced": false,
+                    "CanReceiveGifts": true,
+                    "CanSocialize": true,
+                    "CanCommentOnPurchasedShopItems": false,
+                    "ItemDeliveryQuests": false,
+                    "WinterStarParticipant": false,
+                    "CanVisitIsland": false,
+                    "CanGreetNearbyCharacters": false,
+                    "Calendar": "HiddenAlways",
+                    "SocialTab": "HiddenUntilMet",
+                    "IntroductionsQuest": false,
+                    "PerfectionScore": false,
+                    "DumpsterDiveEmote": 32,
+                    "DumpsterDiveFriendshipEffect": 0,
+                    "SpawnIfMissing": true,
+                    "Appearance": [
+                        {
+                            "Id": "skellady.SBVCP_RaccoonSpring",
+                            "Condition": "LOCATION_SEASON Here Spring",
+                            "Portrait": "Portraits/RaccoonSBV/RaccoonSBV_Spring",
+                            "Sprite": "Characters/RaccoonSBV/RaccoonSBV_Spring",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBVCP_RaccoonSummer",
+                            "Condition": "LOCATION_SEASON Here Summer",
+                            "Portrait": "Portraits/RaccoonSBV/RaccoonSBV_Summer",
+                            "Sprite": "Characters/RaccoonSBV/RaccoonSBV_Summer",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBVCP_RaccoonFall",
+                            "Condition": "LOCATION_SEASON Here Fall",
+                            "Portrait": "Portraits/RaccoonSBV/RaccoonSBV_Fall",
+                            "Sprite": "Characters/RaccoonSBV/RaccoonSBV_Fall",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        },
+                        {
+                            "Id": "skellady.SBVCP_RaccoonWinter",
+                            "Condition": "LOCATION_SEASON Here Winter",
+                            "Portrait": "Portraits/RaccoonSBV/RaccoonSBV_Winter",
+                            "Sprite": "Characters/RaccoonSBV/RaccoonSBV_Winter",
+                            "IsIslandAttire": false,
+                            "Precedence": -100,
+                            "Weight": 0
+                        }
+                    ],
+                    "Shadow":
+                        {
+                            "Visible": false
+                        },
+                    "Home": [
+                        {
+                            "Id": "Default",
+                            "Location": "Custom_SBV_SunberryVillage",
+                            "Tile": {
+                                "X": 41,
+                                "Y": 23
+                            },
+                            "Direction": "down"
+                        }
+                    ],
+                    "Size": {
+                        "X": 32,
+                        "Y": 32
+                    },
+                    "Breather": false
+                },  
                 // Demons and Dog
                 "AichaSBV": {
                     "TextureName": "AichaSBV/AichaSBV",

@@ -1,0 +1,12 @@
+{
+	"Changes": [
+		{
+			"LogName": "Raccoon's Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/RaccoonSBV",
+			"Entries": {
+				"spring": "0 Custom_SBV_SunberryVillage 40 17 2/610 Custom_SBV_SunberryVillage 48 16 1",
+			},
+		},
+	]
+}
