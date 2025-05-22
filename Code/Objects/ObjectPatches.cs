@@ -23,19 +23,14 @@ internal class ObjectPatches
 {
 	internal const string IgnorePSL = "IgnorePSL";
 
-	/*
+    /*
 	 *  Patches
 	 */
 
-	/// <summary>
-	/// Patches PSL to ignore its proposal code if the target NPC has the appropriate custom field
-	/// </summary>
-	/// <param name="__instance"></param>
-	/// <param name="__result"></param>
-	/// <returns></returns>
-	[HarmonyPatch("PolyamorySweetLove.NPCPatches", "NPC_tryToReceiveActiveObject_Prefix")]
-	[HarmonyPrefix]
-	public static bool NPC_tryToReceiveActiveObject_Prefix_Prefix(NPC __instance, ref bool __result)
+    /// <summary>
+    /// Patches PSL to ignore its proposal code if the target NPC has the appropriate custom field. Not annotated because it's handled by ApplyConditionalPatches().
+    /// </summary>
+    public static bool NPC_tryToReceiveActiveObject_Prefix_Prefix(NPC __instance, ref bool __result)
     {
         if (!__instance.GetData().CustomFields.TryGetValue(IgnorePSL, out string value) || !bool.Parse(value))
             return true;

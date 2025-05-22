@@ -1,5 +1,6 @@
 using HarmonyLib;
 using SunberryVillage.Integration.Patches;
+using SunberryVillage.Objects;
 using System;
 
 namespace SunberryVillage.Utilities;
@@ -31,5 +32,13 @@ internal class HarmonyPatcher
 				transpiler: new HarmonyMethod(AccessTools.Method(typeof(CJBPatches), nameof(CJBPatches.ShouldFreezeTime_Transpiler)))
 			);
 		}
+
+		if (Globals.ModRegistry.IsLoaded("ApryllForever.PolyamorySweetLove"))
+		{
+            Harmony.Patch(
+			    original: AccessTools.Method("PolyamorySweetLove.NPCPatches:NPC_tryToReceiveActiveObject_Prefix"),
+			    prefix: new HarmonyMethod(AccessTools.Method(typeof(ObjectPatches), nameof(ObjectPatches.NPC_tryToReceiveActiveObject_Prefix_Prefix)))
+			);
+        }
 	}
 }
