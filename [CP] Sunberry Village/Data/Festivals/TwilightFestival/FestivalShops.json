@@ -102,7 +102,7 @@
                     "Items": [
                         {
                             "Id": "{{ModId}}_Artifacts",
-                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 9 (O)579 (O)580 (O)581 (O)582 (O)583 (O)584 (O)585 (O)586 (O)587 (O)588 (O)589 (O)96 (O)97 (O)98 (O)99 (O)100 (O)101 (O)102 (O)103 (O)104 (O)105 (O)106 (O)107 (O)108 (O)109 (O)110 (O)111 (O)112 (O)113 (O)114 (O)115 (O)116 (O)117 (O)118 (O)119 (O)120 (O)121 (O)122 (O)123 (O)124 (O)125 (O)126 (O)127",
+                            "ItemId": "SunberryTeam.SBVSMAPI_ChooseNFromSet 9 (O)579 (O)580 (O)581 (O)582 (O)583 (O)584 (O)585 (O)586 (O)587 (O)588 (O)589 (O)96 (O)97 (O)98 (O)99 (O)100 (O)101 (O)103 (O)104 (O)105 (O)106 (O)107 (O)108 (O)109 (O)110 (O)111 (O)112 (O)113 (O)114 (O)115 (O)116 (O)117 (O)118 (O)119 (O)120 (O)121 (O)122 (O)123 (O)124 (O)125 (O)126 (O)127",
                             "TradeItemId": "{{ModId}}_TwilightFeather",
                             "TradeItemAmount": 4,
                             "AvailableStock": 1,

@@ -6,6 +6,16 @@
 			"Target": "Characters/schedules/RaccoonSBV",
 			"Entries": {
 				"spring": "0 Custom_SBV_SunberryVillage 40 17 2/610 Custom_SBV_SunberryVillage 48 16 1",
+				"Sun": "0 Custom_SBV_SunberryVillage 41 23 1/700 Custom_SBV_SunberryVillage 44 18 2/900 Custom_SBV_SunberryVillage 34 19 3/1000 Custom_SBV_SunberryVillage 24 21 1/1130 Custom_SBV_SunberryVillage 48 28 0/1300 Custom_SBV_SunberryVillage 58 19 2/1430 Custom_SBV_SunberryVillage 64 24 3/1600 Custom_SBV_SunberryVillage 58 28 1/1800 Custom_SBV_SunberryVillage 41 23 1/1930 Custom_SBV_SunberryVillage 34 19 0/2100 Custom_SBV_SunberryVillage 24 21 1",
+				"Mon": "{{Random:0 Forest 88 25 2/610 Forest 90 28 1/700 Forest 94 23 2/900 Forest 87 18 1/1000 Forest 80 17 3/1130 Forest 69 13 2/1300 Forest 85 23 1/1430 Forest 75 35 2/1600 Forest 90 28 2/1800 Forest 88 25 0/1930 Forest 82 18 0/2100 Forest 94 23 2++0 Forest 25 16 2/610 Forest 31 16 1/700 Forest 23 20 1/900 Forest 34 19 2/1000 Forest 21 33 1/1130 Forest 25 16 0/1300 Forest 51 15 3/1430 Forest 31 16 2/1600 Forest 25 16 2/1800 Forest 23 20 1/1930 Forest 21 33 1|inputSeparator=++}}",
+				"Tue": "0 Mountain 39 35 2/700 Mountain 36 33 3/900 Mountain 41 31 1/1000 Mountain 48 33 1/1130 Mountain 45 27 1/1300 Mountain 41 23 0/1430 Mountain 39 35 2/1600 Mountain 36 33 3/1800 Mountain 41 31 1/1930 Mountain 41 23 1/2100 Mountain 48 33 1",
+				"Wed": "0 Custom_SBV_SunberryVillage 63 64 2/700 Custom_SBV_SunberryVillage 64 69 2/900 Custom_SBV_SunberryVillage 70 65 1/1000 Custom_SBV_SunberryVillage 81 67 0/1130 Custom_SBV_SunberryVillage 76 75 2/1300 Custom_SBV_SunberryVillage 72 58 0/1430 Custom_SBV_SunberryVillage 55 62 3/1600 Custom_SBV_SunberryVillage 64 69 2/1800 Custom_SBV_SunberryVillage 63 64 0/2100 Custom_SBV_SunberryVillage 55 62 3",
+				"Thu": "0 Custom_SBV_SunberryForest 70 16 2/700 Custom_SBV_SunberryForest 66 14 3/900 Custom_SBV_SunberryForest 68 21 2/1000 Custom_SBV_SunberryForest 56 18 0/1130 Custom_SBV_SunberryForest 38 21 1/1300 Custom_SBV_SunberryForest 60 32 2/1430 Custom_SBV_SunberryForest 70 16 2/1600 Custom_SBV_SunberryForest 75 17 2/1800 Custom_SBV_SunberryForest 68 21 2/2100 Custom_SBV_SunberryForest 60 32 2",
+				"Fri": "0 Custom_SBV_SunberryMountain 40 24 1/700 Custom_SBV_SunberryMountain 38 31 2/900 Custom_SBV_SunberryMountain 48 31 1/1000 Custom_SBV_SunberryMountain 39 12 0/1130 Custom_SBV_SunberryMountain 49 10 2/1300 Custom_SBV_SunberryMountain 30 21 0/1430 Custom_SBV_SunberryMountain 38 31 2/1600 Custom_SBV_SunberryMountain 48 31 1/1800 Custom_SBV_SunberryMountain 39 12 0/2100 Custom_SBV_SunberryMountain 49 10 2",
+				"Sat": "0 Beach 41 17 2/700 Beach 46 16 1/900 Beach 32 15 0/1000 Beach 53 21 1/1130 Beach 54 15 1/1300 Beach 29 6 0/1430 Beach 41 17 2/1600 Beach 46 16 1/1800 Beach 54 15 0/2100 Beach 53 21 1",
+				"skellady.SBVCP_TwilightFestival": "0 Custom_SBV_SunberryVillage 64 80 2",
+				"rain": "0 Custom_SBV_SunberryWarpRoom 7 4 0/610 Custom_SBV_SunberryWarpRoom 7 5 0",
+				"GreenRain": "0 Custom_SBV_SunberryWarpRoom 7 4 0/610 Custom_SBV_SunberryWarpRoom 7 5 0"
 			},
 		},
 	]
