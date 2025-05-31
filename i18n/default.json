@@ -84,7 +84,7 @@
     "PhoneConfession.Message.12": "WITH YOU",
 
     // SocialPage patch for elias
-    "RelationshipStatus.Locked": "(Locked)", // FOR TRANSLATORS: NEW IN 1.0.3
+    "RelationshipStatus.Locked": "(locked)", // FOR TRANSLATORS: NEW IN 1.0.3
 
     // Farm Purchase
     "FarmPurchase_AlreadyPurchased": "You've already purchased Sunberry Farm.", // FOR TRANSLATORS: NEW IN 1.0.3
