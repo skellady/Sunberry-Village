@@ -2,6 +2,7 @@ using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewValley;
 using StardewValley.GameData.Characters;
+using StardewValley.Network;
 using StardewValley.Quests;
 using SunberryVillage.Animations;
 using SunberryVillage.Events.Tarot;
@@ -32,7 +33,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.tarot.forceevent", "Test Diala's tarot event", (_, _) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				string eventString = Game1.content.Load<Dictionary<string, string>>("SunberryTeam.SBV/Tarot/Event")["Event"];
@@ -44,7 +45,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.tarot.clearflag", "Clears the flag that blocks you from having multiple tarot readings done in a single day", (_, _) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				Game1.player.modData.Remove("SunberryTeam.SBVSMAPI_TarotReadingDoneForToday");
@@ -53,7 +54,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.tarot.temperance", "Gives Temperance buff", (_, _) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				TarotCard card = new(
@@ -74,7 +75,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.quests.completeall", "Marks all quests in your log as completed.", (_, _) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				foreach (Quest quest in Game1.player.questLog)
@@ -90,7 +91,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.lights.listhere", "Prints list of all custom lights in the current location.", (_, _) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				GameLocation loc = Game1.currentLocation;
@@ -101,7 +102,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.lights.listall", "Prints list of all custom lights.", (_, _) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				Log.Info($"\nData asset lights: \n\t{string.Join(",\n\t", LightingManager.Lights.Select(kvp => $"{kvp.Key}: {kvp.Value}"))}");
@@ -110,7 +111,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.lights.infodump", "Prints list of all light sources in the current location.", (_, _) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				Log.Info($"Light sources in the current location:\n\t{string.Join(",\n\t", Game1.currentLightSources.Select(l => $"{l.Value.Id}: {{{l.Value.textureIndex} | {l.Value.position} | {l.Value.radius} | {l.Value.lightContext} | {l.Value.PlayerID}}}"))}");
@@ -168,7 +169,7 @@ internal class ConsoleCommandManager
 		Globals.CCHelper.Add("sbv.gs.info", "Displays info about the golden sunberry stage token. " +
 			"If any arguments are supplied, will provide verbose output.", (_, args) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				GoldenSunberryStageToken.UpdateHeartTotal();
@@ -250,7 +251,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.perf.countnpcs", "Counts NPCs needed for perfection.", (_, _) =>
 			{
-				if (IsWorldReady())
+				if (PrintWorldReady())
 				{
 					int maxedFriends = 0;
 					int totalFriends = 0;
@@ -286,7 +287,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.misc.getlostbooks", "Gets all lost books.", (_, _) =>
 			{
-				if (IsWorldReady())
+				if (PrintWorldReady())
 					Game1.netWorldState.Value.LostBooksFound = 21;
 			}
 		);
@@ -307,7 +308,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.misc.checkintro", "Checks to see who is counted in Introductions quest and what their status is", (_, args) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				List<string> npcsMet = [];
@@ -352,7 +353,7 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.misc.mailflag", "Lists all mailflags current player has matching specified text, or all mailflags if no text is provided.", (_, args) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				StringBuilder sb = new();
@@ -387,20 +388,61 @@ internal class ConsoleCommandManager
 
 		Globals.CCHelper.Add("sbv.so.flag", "Sets the mail flag for the Sunberry special order board to show up regardless of unlock conditions.", (_, _) =>
 			{
-				if (!IsWorldReady())
+				if (!PrintWorldReady())
 					return;
 
 				Game1.MasterPlayer.mailReceived.Add("skellady.SBVCP_SpecialOrderBoardReady");
 			});
 
-		#endregion
+		Globals.CCHelper.Add("sbv.setworldstate", "Adds or removes the given worldstate ID.", (_, args) =>
+		{
+			if (!PrintWorldReady() || !args.Any())
+				return;
+
+			if (!ArgUtility.TryGet(args, 0, out string worldState, out string error, allowBlank: false, name: "worldstate flag"))
+			{
+                Log.Error($"Failed to set world state: {error}");
+                return;
+            }
+
+			if (!ArgUtility.TryGetOptionalBool(args, 1, out bool add, out error, defaultValue: true, name: "value"))
+			{
+				Log.Error($"Failed to set world state: {error}");
+				return;
+			}
+
+			if (add)
+			{
+				NetWorldState.addWorldStateIDEverywhere(worldState);
+
+				Log.Info($"Added world state ID {worldState}.");
+			}
+			else
+			{
+				Game1.netWorldState.Value.removeWorldStateID(worldState);
+				Game1.worldStateIDs.Remove(worldState);
+
+                Log.Info($"Removed world state ID {worldState}.");
+            }
+
+        });
+
+        Globals.CCHelper.Add("sbv.listworldstate", "Lists out current worldstate IDs.", (_, _) =>
+        {
+            if (!PrintWorldReady())
+                return;
+
+			Log.Info($"Current world state IDs:\n\t\t{string.Join("\n\t\t", Game1.worldStateIDs)}");
+        });
+
+        #endregion
 
 #endif
-	}
+    }
 
 	private static void PrintWalkableTileCount()
 	{
-		if (!IsWorldReady())
+		if (!PrintWorldReady())
 			return;
 
 		Log.Info($"Walkable tiles in {Game1.currentLocation.Name}: {DoWalkableFloodFill()}");
@@ -408,7 +450,7 @@ internal class ConsoleCommandManager
 
 	private static void PrintFishingDistribution(int numToCatch)
 	{
-		if (!IsWorldReady())
+		if (!PrintWorldReady())
 			return;
 
 		Dictionary<string, int> catches = DoFishingDistribution(numToCatch);
@@ -418,7 +460,7 @@ internal class ConsoleCommandManager
 
 	// Helpers
 
-	internal static bool IsWorldReady()
+	internal static bool PrintWorldReady()
 	{
 		if (Context.IsWorldReady) return true;
 

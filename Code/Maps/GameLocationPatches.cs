@@ -10,6 +10,7 @@ using System.Reflection;
 using System.Reflection.Emit;
 using StardewValley.TokenizableStrings;
 using xTile.Dimensions;
+using StardewValley.Network;
 
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
@@ -33,6 +34,7 @@ internal class GameLocationPatches
 	 *  Patches
 	 */
 
+	// This pair of patches (clunkily) avoids the Sunberry minecart warp to the busstop from triggering the bus arrival cutscene by pretending an event is up for the duration of the resetLocalState method if the player is coming from Sunberry
 	[HarmonyPatch(typeof(BusStop), "resetLocalState")]
 	[HarmonyPrefix]
 	public static void BusStop_resetLocalState_Prefix(bool __state)
@@ -54,11 +56,34 @@ internal class GameLocationPatches
 		Game1.eventUp = __state;
 	}
 
+	// Another clunky hack - remove the trashBearDone worldstate for the duration of this method if these festivals are active to avoid Sunberry areas being patched over
+    [HarmonyPatch(typeof(Town), nameof(Town.MakeMapModifications))]
+    [HarmonyPrefix]
+    public static void Town_MakeMapModifications_Prefix(Town __instance, bool __state)
+    {
+        if (!__instance.mapPath.Value.Contains("Town-Fair") && !__instance.mapPath.Value.Contains("Town-EggFestival") && !__instance.mapPath.Value.Contains("Town-Christmas"))
+            return;
 
-	/// <summary>
-	/// Patches <c>GameLocation.answerDialogueAction</c> to check for response to custom questions and handle them accordingly.
-	/// </summary>
-	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.answerDialogueAction))]
+		__state = NetWorldState.checkAnywhereForWorldStateID("trashBearDone");
+
+        Game1.netWorldState.Value.removeWorldStateID("trashBearDone");
+        Game1.worldStateIDs.Remove("trashBearDone");
+    }
+
+    [HarmonyPatch(typeof(Town), nameof(Town.MakeMapModifications))]
+    [HarmonyPostfix]
+    public static void Town_MakeMapModifications_Postfix(Town __instance, bool __state)
+    {
+        if (__state)
+		{
+            NetWorldState.addWorldStateIDEverywhere("trashBearDone");
+        }
+    }
+
+    /// <summary>
+    /// Patches <c>GameLocation.answerDialogueAction</c> to check for response to custom questions and handle them accordingly.
+    /// </summary>
+    [HarmonyPatch(typeof(GameLocation), nameof(GameLocation.answerDialogueAction))]
 	[HarmonyPrefix]
 	public static bool answerDialogueAction_Prefix(string questionAndAnswer)
 	{
