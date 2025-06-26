@@ -5808,6 +5808,9 @@
     //Default
     "RaccoonDialogue.default": "The raccoon seems to be enjoying the weather.",
 
+    //Introduction
+    "Raccoon.Dialogue.Introduction": "The raccoon stares you down. You're a little intimidated.#$b#When he's done intimidating you, he hands you 100$! What a nice gift to get you started on your farm.#$action AddMoney 100", // FOR TRANSLATORS: NEW IN 1.0.4
+
     //Spring
     "RaccoonDialogue.Spring.Monday.1": "The raccoon hisses at you. He throws a broken CD at your feet. It's still dripping from when he washed it. [171]#$t RaccoonCD 1",
     "RaccoonDialogue.Spring.Monday.2": "The raccoon hands you a head of cauliflower. He chitters happily. [190]",
