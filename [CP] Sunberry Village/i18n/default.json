@@ -3378,7 +3378,7 @@
     "MapString.sbv.pepdialogue3": "Pep growls at you. It doesn't sound very threatening.",
     "MapString.sbv.pepdialogue4": "Pep: Be nice to Pip. If you are mean to Pip, Pep will bite you.",
     "MapString.sbv.pepdialogue5": "Pep: ...What? What? Go look at goods, not Pep.",
-    "PipPepShopNotification": "Pip and Pep have set up shop in the final level of the Sunberry Mines.",
+    "PipPepShopNotification": "Pip and Pep have set up shop at the bottom of the Sunberry Mines for today.", // FOR TRANSLATORS: NEW IN 1.0.4: Reworded this line to clarify that it's only happening for that day.
     // Serenity Inn
     "MapString.sbv.inn.notenoughmoney": "You can buy a farm in Sunberry for 150,000$, but you don't have enough money. Come back when you do.",
     "MapString.sbv.inn.farmalreadypurchased": "You already purchased a farm in Sunberry.",
@@ -3954,6 +3954,9 @@
     "Moon.Dialogue.GreenRainFinished": "Moon was too scared to go outside during the rain.$s#$b#Maybe next time! Is there going to be a next time?$3",
     "Moon.Dialogue.GreenRain_2": "Moon climbed the weird tree!$3",
 
+    //Other Dialogue
+    "Moon.Dialogue.MovieInvitation": "Movie time! Movie time!$h#$b#Can @ carry Moon in the backpack?$3", // FOR TRANSLATORS: NEW IN 1.0.4
+
     //Trashcan
     "Moon.Dialogue.DumpsterDiveComment.1": "Woah, Moon can't reach into the trash can like that. Can you help Moon learn?$3",
     "Moon.Dialogue.DumpsterDiveComment.2": "YEAH! Trash time!$3",
@@ -4196,6 +4199,9 @@
     "Reihana.Dialogue.GreenRainFinished": "See? Everything's back to normal. I don't understand why everyone was panicking. Cowards.$h",
     "Reihana.Dialogue.GreenRain_2": "*Yawn*... Perfect weather for a long, long nap, huh?$h",
 
+    //Other Dialogue
+    "Reihana.Dialogue.MovieInvitation": "...Movie? Well, you better pick something I haven't seen before. You know, considering that I've been around for eons.$8", // FOR TRANSLATORS: NEW IN 1.0.4
+
     // Resort Dialogue
 
     //Vanilla
@@ -4291,6 +4297,9 @@
     "Aicha.Dialogue.GreenRain": "The rain? It's not scary at all! I collected enough moss to make at LEAST ten batches of moss soup!$u",
     "Aicha.Dialogue.GreenRainFinished": "Oh, @! Want some of the moss soup I made? It's delicious! [(O)MossSoup]$h",
     "Aicha.Dialogue.GreenRain_2": "Rei doesn't want me to make moss soup this year. Apparently she's sick of it. How can someone be sick of such a delicious dish?!$s",
+
+    //Other Dialogue
+    "Aicha.Dialogue.MovieInvitation": "Ooh! Can we get those funky glasses for the movie? I've never tried them before!$15", // FOR TRANSLATORS: NEW IN 1.0.4
 
     // Resort Dialogue
 
@@ -4390,6 +4399,9 @@
     "Amina.Dialogue.GreenRainFinished": "I can't believe Vincent wanted to play outside yesterday... He's so brave.$3",
     "Amina.Dialogue.GreenRain_2": "Mom told me the weather isn't something to be afraid of. She said we can go look at the weird trees together!$3",
 
+    //Other Dialogue
+    "Amina.Dialogue.MovieInvitation": "Yay! I love movies. Mom always puts on a movie for us when she doesn't have work.$h", // FOR TRANSLATORS: NEW IN 1.0.4
+
     // Resort Dialogue
 
     //Vanilla
@@ -4485,6 +4497,9 @@
     "Ari.Dialogue.GreenRain": "I already asked Silas about the weather earlier and he rambled a little, but all I understood was that it's safe to go outside if needed.#$b#Hm? Oh, we just yelled back and forth from the window. Couldn't call him, the phone won't work.$u",
     "Ari.Dialogue.GreenRainFinished": "I heard Pierre was worried about his sales yesterday rather than the weird weather we experienced. What an odd man...$u",
     "Ari.Dialogue.GreenRain_2": "Blake and Lyenne are probably going out to play in the rain. Don't think I've seen Blake do that since he was a kid.$u",
+
+    //Other Dialogue
+    "Ari.Dialogue.MovieInvitation": "Huh! Thanks for the ticket, @. I'll meet you there.$h#$b#I hope you have better taste in movies than Blake and Lyenne.$12", // FOR TRANSLATORS: NEW IN 1.0.4
 
     // Resort Dialogue
 
@@ -4583,6 +4598,9 @@
     "Blake.Dialogue.GreenRain": "Ugh, how am I gonna get to Lyenne in this weather? I can't even play any of my video games to pass the time.$s",
     "Blake.Dialogue.GreenRainFinished": "I'm so glad that's done with. How dare the weather separate me from my video games and best friend for a whole day?$s",
     "Blake.Dialogue.GreenRain_2": "Those big plants are kinda crazy, huh? Sucks that none of our devices work, but we can still play in the rain.$h",
+
+    //Other Dialogue
+    "Blake.Dialogue.MovieInvitation": "Oh, yeah! I've been meaning to go to the movies, thanks for the invite! I'll meet you there.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     // Resort Dialogue
 
@@ -4695,6 +4713,9 @@
     "Elias.Dialogue.GreenRain": "$query PLAYER_NPC_RELATIONSHIP Current EliasSBV Married#Yoba, what is this? I've never seen anythin' like it. Please, be careful if you go out there my love.$s|Yoba, what is this? I wonder if that's documented somewhere in the library books.#$b#Hm, no. That's impossible. I've read every book in here.$8",
     "Elias.Dialogue.GreenRainFinished": "I met up with Silas to ask about yesterday's weather. Apparently, it's harmless. He's such a knowledgeable man, I envy him a little bit sometimes.",
     "Elias.Dialogue.GreenRain_2": "This year, I'm gonna make sure I document everything there is to know about green rain. It's so fascinating.$h",
+
+    //Other Dialogue
+    "Elias.Dialogue.MovieInvitation": "Hm, I haven't seen a movie in a hot minute. Thanks, @. I'll see you there soon.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     // Resort Dialogue
 
@@ -4939,6 +4960,9 @@
     "Ezra.Dialogue.GreenRainFinished": "Phew, that was a little scary, huh? I managed to save my hair from being ruined by the rain, so that's a win in my books.$h",
     "Ezra.Dialogue.GreenRain_2": "You know... this weather might inspire my next clothing line. Keep an eye out for that.$6",
 
+    //Other Dialogue
+    "Ezra.Dialogue.MovieInvitation": "Ah! I'd love to go to the movies.$h#$b#Just so you know, I'm NOT a fan of horror. I will have my eyes closed the whole time.$u", // FOR TRANSLATORS: NEW IN 1.0.4
+
     // CT added in Nadia dialogue
     "Ezra.Dialogue.EzraNadiaFight": "Hey, @. Nadia told you about our fight, huh?$2#$b#It was pretty stupid, honestly. I just blew up over nothing and then, before you know it, out comes a couple years of repressed anger.$9#$b#She handled it really well, all things considered! I'll give her a big hug next time I see her.$3",
 
@@ -5039,6 +5063,9 @@
     "Iman.Dialogue.GreenRainFinished": "Ezra refused to even come over last night. Something about his hair getting ruined and his clothes getting stained.$u",
     "Iman.Dialogue.GreenRain_2": "You know, it looks kinda pretty outside. I wonder what's up with those trees, though.",
 
+    //Other Dialogue
+    "Iman.Dialogue.MovieInvitation": "Oh? Thanks, @. I'd love to go with you. I'm looking forward to seeing what Pelican Town's precious farmer is into.$10", // FOR TRANSLATORS: NEW IN 1.0.4
+
     // Resort Dialogue
 
     //Vanilla
@@ -5137,6 +5164,9 @@
     "Jumana.Dialogue.GreenRainFinished": "This weather... it made my flowers grow! They weren't supposed to be fully grown for another week!$6",
     "Jumana.Dialogue.GreenRain_2": "I wonder what the rain does to plants and trees to make them grow so fast. They look so healthy too!$h",
 
+    //Other Dialogue
+    "Jumana.Dialogue.MovieInvitation": "Aw, you want to take this old lady to the movies? I'd love to, dear. I'll see you there!$6", // FOR TRANSLATORS: NEW IN 1.0.4
+
     // Resort Dialogue
 
     //Vanilla
@@ -5232,6 +5262,9 @@
     "Lyenne.Dialogue.GreenRain": "Ugh, I miss Blake already. Ophelia won't let me leave the inn.$s",
     "Lyenne.Dialogue.GreenRainFinished": "Freedom! I've never been happier to be able to leave my room!$h",
     "Lyenne.Dialogue.GreenRain_2": "Well, I'm glad Ophelia's letting me leave the inn this time. I get to see these weird plants up close!$u",
+
+    //Other Dialogue 
+    "Lyenne.Dialogue.MovieInvitation": "Nice! I haven't been to the movie theater in a while. I'm excited!$u", // FOR TRANSLATORS: NEW IN 1.0.4
 
     // Resort Dialogue
 
@@ -5330,6 +5363,9 @@
     "Maia.Dialogue.GreenRainFinished": "Well, Silas is happy, mother is happy. Glad to see everything's back to normal.$h",
     "Maia.Dialogue.GreenRain_2": "My mother has been anticipating this day. Apparently, the rain is good for her flowers. I'm just glad she ain't panicking anymore.$h",
 
+    //Other Dialogue
+    "Maia.Dialogue.MovieInvitation": "Hey, thank you! I'm looking forward to this. It'll be nice to spend time together.$9", // FOR TRANSLATORS: NEW IN 1.0.4
+
     // Resort Dialogue
 
     //Vanilla
@@ -5426,6 +5462,9 @@
     "Miyoung.Dialogue.GreenRain": "Oh, darling. I was horrified when I looked out the window today! I'm so thankful I had Silas by my side to reassure me.$4",
     "Miyoung.Dialogue.GreenRainFinished": "Poor Jumana... she must've been so scared yesterday. I'm glad she's doing okay.$h",
     "Miyoung.Dialogue.GreenRain_2": "Silas has been very excited since he saw the weather forecast yesterday. He's always been so curious about everything. This man has vowed to learn everything he could in this lifetime.$7",
+
+    //Other Dialogue
+    "Miyoung.Dialogue.MovieInvitation": "Aw, thank you, sweetheart! I appreciate the invite.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     // Resort Dialogue
 
@@ -5532,6 +5571,9 @@
     "Nadia.Dialogue.GreenRainFinished": "Ahem... I wasn't even all that scared yesterday. In fact, I went outside! Yup. I stepped outside while it was pouring.$h#$b#...Then I tripped on a giant plant.$s",
     "Nadia.Dialogue.GreenRain_2": "I have GOT to start checking the weather forecast before bed. I walked outside and jumped back in like one of those cats you see in those videos.$s#$b#You know, the ones where they see a cucumber and jump. Hah, I wonder why they do that.$h",
 
+    //Other Dialogue
+    "Nadia.Dialogue.MovieInvitation": "Placeholder.", // FOR TRANSLATORS: NEW IN 1.0.4
+
     // Resort Dialogue
 
     //Vanilla
@@ -5629,6 +5671,9 @@
     "Ophelia.Dialogue.GreenRain": "Please stay safe, @. I'm sure it's harmless, but I still don't want people walking around until we get enough information.$8",
     "Ophelia.Dialogue.GreenRainFinished": "Hm, I wonder if this rain had any effect on our mines. I'll have to ask Maia to investigate when she can.",
     "Ophelia.Dialogue.GreenRain_2": "I assume this will be a yearly thing, now. I'm just glad no one's spreading any misinformation about this phenomenon.$h",
+
+    //Other Dialogue
+    "Ophelia.Dialogue.MovieInvitation": "Ah, thank you, @. It'll be good to get out of the inn for a bit. I appreciate this.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     // Resort Dialogue
 
@@ -5790,6 +5835,9 @@
     "Silas.Dialogue.GreenRain": "I need to go see Razz! This... this is magical! @, do you see this? I've never seen anything like it before.$u",
     "Silas.Dialogue.GreenRainFinished": "I knew it was harmless. Our Goddesses would never bring any harm our way, but it was still nice to hear it from Razz when I asked.$h",
     "Silas.Dialogue.GreenRain_2": "Ah, those trees. They're beautiful, aren't they? I wish we could grow some around here.$h",
+
+    //Other Dialogue
+    "Silas.Dialogue.MovieInvitation": "Oh, nice! I can't remember the last time I watched a movie. Thanks, @.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     // Resort Dialogue
 
@@ -6584,6 +6632,7 @@
     "MeetDND.Alex": "Yo! Are you going to that cat cafe? What, me?#$b#Nah, it's not really my thing.$h#$b#Unless you're going, I could always go then... you know, to keep you company.$h",
     "MeetDND.Jodi": "Diala's always sending me pictures of the cats from the cafe.$h#$b#They always make my day so much better!$h",
     "MeetDND.Caroline": "It's nice to know Abby's making more friends. Lyenne and Blake are good kids.$h",
+    "RaccoonTea.Caroline": "That mischievous raccoon snuck into my tea room and grabbed a few tea leaves! I should really be more careful about closing the door when I leave.$2", // FOR TRANSLATORS: NEW IN 1.0.4
     "MeetDND.Shane1": "Jas wanted to see the cat cafe, so we went. Gotta say, they make great coffee and cookies there.$h",
     "MeetDND.Shane2": "Ugh, like we don't have enough cats, now they want us to drink with them.$2",
 

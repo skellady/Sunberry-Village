@@ -76,6 +76,9 @@
 				"GreenRain": "{{i18n:Aicha.Dialogue.GreenRain}}",
 				"GreenRainFinished": "{{i18n:Aicha.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Aicha.Dialogue.GreenRain_2}}",
+
+				//other dialogue
+				"MovieInvitation": "{{i18n:Aicha.Dialogue.MovieInvitation}}",
 				
 				//Gift Dialogue
 				//Positive/Negative

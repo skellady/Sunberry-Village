@@ -83,6 +83,9 @@
                 "GreenRainFinished": "{{i18n:Elias.Dialogue.GreenRainFinished}}",
                 "GreenRain_2": "{{i18n:Elias.Dialogue.GreenRain_2}}",
 
+                //other dialogue
+				"MovieInvitation": "{{i18n:Elias.Dialogue.MovieInvitation}}",
+
                 //Gift Dialogue
                 //Positive/Negative
                 "AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Elias}}",

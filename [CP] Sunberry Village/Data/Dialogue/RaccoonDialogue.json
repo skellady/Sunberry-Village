@@ -55,6 +55,9 @@
 				"Sat10": "{{i18n:Raccoon.Dialogue.Sat10}}",
 				"Sun10": "{{i18n:Raccoon.Dialogue.Sun10}}",
 
+				//other dialogue
+				"MovieInvitation": "{{i18n:Raccoon.Dialogue.MovieInvitation}}",
+
 				//Gift Dialogue
 				//Positive/Negative
 				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Raccoon}}",

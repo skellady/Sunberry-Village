@@ -77,6 +77,9 @@
 				"GreenRainFinished": "{{i18n:Silas.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Silas.Dialogue.GreenRain_2}}",
 
+				//other dialogue
+				"MovieInvitation": "{{i18n:Silas.Dialogue.MovieInvitation}}",
+
 				//Gift Dialogue
 				//Positive/Negative
 				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Silas}}",

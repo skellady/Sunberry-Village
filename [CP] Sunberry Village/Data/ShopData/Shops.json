@@ -1199,7 +1199,7 @@
                 "skellady.SBVCP_TwilightFeather": {
                     "Id": "skellady.SBVCP_TwilightFeather",
                     "ItemId": "skellady.SBVCP_TwilightFeather",
-                    "Condition": "RANDOM 0.2 @addDailyLuck",
+                    "Condition": "SYNCED_RANDOM day skellady.travelerfeather 0.2 @addDailyLuck",
                     "AvailableStock": 3,
                     "AvailableStockLimit": "Global",
                     "Price": 2000

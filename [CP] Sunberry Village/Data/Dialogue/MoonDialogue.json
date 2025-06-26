@@ -78,6 +78,9 @@
 				"GreenRainFinished": "{{i18n:Moon.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Moon.Dialogue.GreenRain_2}}",
 
+				//other dialogue
+				"MovieInvitation": "{{i18n:Moon.Dialogue.MovieInvitation}}",
+
 				//event question
 				"moonchoice_1": "{{i18n:event-20031415.19}}",
 				"moonchoice_2": "{{i18n:event-20031415.20}}",

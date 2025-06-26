@@ -76,6 +76,9 @@
 				"GreenRainFinished": "{{i18n:Ophelia.Dialogue.GreenRainFinished}}",
 				"GreenRain_2": "{{i18n:Ophelia.Dialogue.GreenRain_2}}",
 
+				//other dialogue
+				"MovieInvitation": "{{i18n:Ophelia.Dialogue.MovieInvitation}}",
+
 				//Gift Dialogue
 				//Positive/Negative
 				"AcceptBirthdayGift_Positive": "{{i18n:Gift.Positive.Ophelia}}",
