@@ -83,7 +83,7 @@
                         {
                             "Id": "{{ModId}}_SBVFarm",
                             "DisplayName": "{{i18n:Sunberry.Locations.SunberryFarm}}",
-                            "Condition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received, ANY \"PLAYER_HAS_MAIL Current SBVFarmPurchased Received\" \"PLAYER_HAS_MAIL Current SBVFarmPurchasedFR Received\"",
+                            "Condition": "PLAYER_HAS_MAIL Host ccBoilerRoom Received, ANY \"PLAYER_HAS_MAIL Any SBVFarmPurchased Received\" \"PLAYER_HAS_MAIL Any SBVFarmPurchasedFR Received\"",
                             "TargetLocation": "Custom_SBV_SunberryFarm",
                             "TargetTile": {
                                 "X": 26,

@@ -18,6 +18,12 @@
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HAS_CONVERSATION_TOPIC Any cropMatured_skellady.SBVCP_LunarBean",
                     "Action": "AddMail Current skellady.SBVCP_LunarBeanGrown received"
+                },
+                // fix for farm purchase mailflag being incorrectly applied
+                "skellady.SBVCP_FarmPurchaseMailflagFix": {
+                    "Id": "skellady.SBVCP_FarmPurchaseMailflagFix",
+                    "Trigger": "DayStarted",
+                    "Action": "If Any \"PLAYER_HAS_MAIL Any SBVFarmPurchased\" \"PLAYER_HAS_MAIL Any SBVFarmPurchasedFR\" ## AddMail All SBVFarmPurchased received"
                 }
             }
         }
