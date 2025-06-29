@@ -60,7 +60,7 @@ internal class MapManager
 
 	private static bool HandlePurchaseFarmMenu(GameLocation loc, string[] args, Farmer who, Point tile)
 	{
-		if (who.hasOrWillReceiveMail("SBVFarmPurchased") || who.hasOrWillReceiveMail("SBVFarmPurchasedFR"))
+		if (Game1.MasterPlayer.hasOrWillReceiveMail("SBVFarmPurchased") || Game1.MasterPlayer.hasOrWillReceiveMail("SBVFarmPurchasedFR"))
 		{
 			Game1.drawObjectDialogue(Utils.GetTranslationWithPlaceholder("FarmPurchase_AlreadyPurchased"));
 			return true;
@@ -81,11 +81,11 @@ internal class MapManager
 
 		// has seen intro and has enough - create question dialogue
 		Game1.currentLocation.createQuestionDialogue(
-			Utils.GetTranslationWithPlaceholder("FarmPurchase_Question"),
+			Utils.GetTranslationWithPlaceholder("FarmPurchase_Question").Replace("{0}", TokenParser.ParseText("[NumberWithSeparators 150000]")),
 			[
+                    new Response("see_event", Utils.GetTranslationWithPlaceholder("FarmPurchase_SeeEventAgain")),
 					new Response("yes",Utils.GetTranslationWithPlaceholder("FarmPurchase_Yes")),
-					new Response("no", Utils.GetTranslationWithPlaceholder("FarmPurchase_No")),
-					new Response("see_event", Utils.GetTranslationWithPlaceholder("FarmPurchase_SeeEventAgain"))
+					new Response("no", Utils.GetTranslationWithPlaceholder("FarmPurchase_No"))
 			],
 			"SunberryTeam.SBVSMAPI_FarmPurchaseQuestion"
 		);

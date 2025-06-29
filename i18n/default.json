@@ -88,7 +88,7 @@
 
     // Farm Purchase
     "FarmPurchase_AlreadyPurchased": "You've already purchased Sunberry Farm.", // FOR TRANSLATORS: NEW IN 1.0.3
-    "FarmPurchase_Question": "Would you like to purchase Sunberry Farm?", // FOR TRANSLATORS: NEW IN 1.0.3
+    "FarmPurchase_Question": "Would you like to purchase Sunberry Farm for {0}$?", // FOR TRANSLATORS: NEW IN 1.0.3
     "FarmPurchase_Yes": "Yes", // FOR TRANSLATORS: NEW IN 1.0.3
     "FarmPurchase_No": "No", // FOR TRANSLATORS: NEW IN 1.0.3
     "FarmPurchase_SeeEventAgain": "See event again", // FOR TRANSLATORS: NEW IN 1.0.3
