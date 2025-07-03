@@ -140,7 +140,7 @@
                                 {
                                     "Id": "MaiaHouse",
                                     "LocationName": "Custom_SBV_MaiaHouse",
-                                    "MapPixelArea": { "X": 91, "Y": 71, "Width": 4, "Height": 4 },
+                                    "MapPixelArea": { "X": 68, "Y": 91, "Width": 5, "Height": 7 },
                                     "ScrollText": "{{i18n:WorldMap.Village.MaiaHouse}}"
                                 },
                             ],
