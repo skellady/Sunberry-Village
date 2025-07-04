@@ -1,0 +1,17 @@
+{
+	"Changes": [
+		// Twilight Feathers are unshippable when they're a wallet currency, so we remove the requirement to ship them for the collection
+		{
+			"LogName": "Twilight Feather Wallet Currency Compat - Remove Twilight Feathers from Shipping Collection",
+			"Action": "EditData",
+			"Target": "Data/Objects",
+			"TargetField": [ "{{ModId}}_TwilightFeather" ],
+			"Entries": {
+				"ExcludeFromShippingCollection": true
+			},
+			"When": {
+				"HasMod |contains=Allifreyr.TwilightFeathers": true
+			}
+		}
+	]
+}
