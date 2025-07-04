@@ -34,8 +34,17 @@ internal class GameLocationPatches
 	 *  Patches
 	 */
 
-	// This pair of patches (clunkily) avoids the Sunberry minecart warp to the busstop from triggering the bus arrival cutscene by pretending an event is up for the duration of the resetLocalState method if the player is coming from Sunberry
-	[HarmonyPatch(typeof(BusStop), "resetLocalState")]
+	//             if (!Game1.IsBuildingConstructed("Gold Clock") || Game1.netWorldState.Value.goldenClocksTurnedOff.Value)
+	// Patches Sunberry farm to not spawn weeds or stones if golden clock purchased and turned on
+	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.spawnWeedsAndStones))]
+	[HarmonyPrefix]
+    public static bool GameLocation_spawnWeedsAndStones_Prefix(GameLocation __instance)
+    {
+		return !__instance.Name.Equals("Custom_SBV_SunberryFarm") || !Game1.IsBuildingConstructed("Gold Clock") || Game1.netWorldState.Value.goldenClocksTurnedOff.Value;
+    }
+
+    // This pair of patches (clunkily) avoids the Sunberry minecart warp to the busstop from triggering the bus arrival cutscene by pretending an event is up for the duration of the resetLocalState method if the player is coming from Sunberry
+    [HarmonyPatch(typeof(BusStop), "resetLocalState")]
 	[HarmonyPrefix]
 	public static void BusStop_resetLocalState_Prefix(bool __state)
 	{
