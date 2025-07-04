@@ -64,12 +64,13 @@ namespace SunberryVillage.Audio
 		/// </summary>
 		internal static void StartMusic()
 		{
-			// small delay in case other music tries to start, then kill it
-			//DelayedAction.functionAfterDelay(() => Game1.stopMusicTrack(Game1.MusicContext.Default), 50);
+            // small delay in case other music tries to start, then kill it
+            //DelayedAction.functionAfterDelay(() => Game1.stopMusicTrack(Game1.MusicContext.Default), 50);
 
-			Game1.stopMusicTrack(MusicContext.Default);
+            //Game1.stopMusicTrack(MusicContext.Default);
+            Game1.changeMusicTrack("none", track_interruptable: false, MusicContext.SubLocation);
 
-			CurrentSong.Play();
+            CurrentSong.Play();
 			IsMusicPlaying = true;
 
 			// only introduce song once, when it first plays for the night
