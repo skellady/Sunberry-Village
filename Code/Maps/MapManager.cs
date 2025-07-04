@@ -394,7 +394,7 @@ internal class MapManager
 		// if Ari is on the map and close enough to the daily special tile
 		if (location.characters.Contains(ari) && Vector2.Distance(ari.Tile, tile.ToVector2()) < 10f)
 		{
-			if (player.modData.ContainsKey("SunberryTeam.SBVSMAPI_AlreadyPurchasedMarketDailySpecial"))
+			if (player.modData.ContainsKey(MarketDailySpecialManager.AlreadyPurchasedMailFlag))
 			{
 				Dialogue alreadyPurchasedDialogue = new(ari, null, Utils.GetTranslationWithPlaceholder("MarketDailySpecialAlreadyPurchasedToday").Replace("{0}", Game1.player.Name));
 				ari.setNewDialogue(alreadyPurchasedDialogue, true);

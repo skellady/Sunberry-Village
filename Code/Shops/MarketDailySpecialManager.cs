@@ -10,6 +10,8 @@ using System.Linq;
 using HarmonyLib;
 using StardewValley.TokenizableStrings;
 using xTile.Layers;
+using System.Numerics;
+using Vector2 = Microsoft.Xna.Framework.Vector2;
 // ReSharper disable UnusedMember.Global
 // ReSharper disable InconsistentNaming
 
@@ -46,7 +48,7 @@ internal class MarketDailySpecialManager
 		Dictionary<string, MarketDailySpecialData> marketDailySpecialAsset =
 			Globals.GameContent.Load<Dictionary<string, MarketDailySpecialData>>(MarketSpecialAssetPath);
 
-		// should never happen lol
+		// should never happen lol - usually means the CP portion didn't load properly
 		if (marketDailySpecialAsset == null || !marketDailySpecialAsset.Any())
 		{
 			Log.Warn($"Could not get data from asset \"{MarketSpecialAssetPath}\". Creating generic fallback item \"(O)0\".");
@@ -139,8 +141,8 @@ internal class MarketDailySpecialManager
 	[HarmonyPatch(nameof(GameLocation), nameof(GameLocation.setUpLocationSpecificFlair))]
 	[HarmonyPrefix]
 	public static void setUpLocationSpecificFlair_Prefix(GameLocation __instance)
-	{
-		if (__instance.Name != "Custom_SBV_AriMarket")
+    {
+		if (__instance.Name != "Custom_SBV_AriMarket" || Game1.player.modData.ContainsKey(AlreadyPurchasedMailFlag))
 			return;
 
 		__instance.TemporarySprites.Add(DailySpecialSprite);
