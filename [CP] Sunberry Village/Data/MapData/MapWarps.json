@@ -689,7 +689,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "LockedDoorWarp 5 20 Custom_SBV_ReiHouse 600 2400"
+            "Action": "LockedDoorWarp 5 20 Custom_SBV_ReiHouse 800 2200"
           }
         }
       ],
