@@ -1430,7 +1430,7 @@
       "MapTiles": [
         {
           "Position": {
-            "X": 14,
+            "X": 13,
             "Y": 4
           },
           "Layer": "Buildings",
@@ -1453,7 +1453,7 @@
           },
           "Layer": "Buildings",
           "SetProperties": {
-            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 13 4 Custom_SBV_Mines14 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
+            "Action": "SunberryTeam.SBVSMAPI_ChooseDestination \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.GoUpOneLevel\" 13 5 Custom_SBV_Mines14 \"Strings\\StringsFromCSFiles:SunberryTeam.SBV.ReturnToEntrance\" 14 8 Custom_SBV_CrystalCave",
             "TileDesc": "interactables,Up Ladder,tile-mine_up_ladder-name"
           }
         }
