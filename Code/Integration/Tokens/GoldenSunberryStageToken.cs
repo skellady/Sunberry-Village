@@ -92,6 +92,7 @@ internal class GoldenSunberryStageToken
 
 	private static void UpdateAndSaveGoldenSunberryStageVars(object sender, StardewModdingAPI.Events.DayEndingEventArgs e)
 	{
+		// start growing on trigger mail being received
 		if (!Growing && Game1.MasterPlayer.hasOrWillReceiveMail(TriggerMailId))
 		{
 			Stage = 0;
@@ -102,7 +103,34 @@ internal class GoldenSunberryStageToken
 		if (!Growing || Stage >= MaxStage)
 			return;
 
-		NightsInStage++;
+		// IMPORTANT only advance nights in stage after event for stage has been seen
+		switch (Stage)
+		{
+			case 0 when Game1.MasterPlayer.eventsSeen.Contains("skellady.SBVCP_20031448"):
+                NightsInStage++;
+				break;
+
+            case 1 when Game1.MasterPlayer.eventsSeen.Contains("skellady.SBVCP_20031451") || Game1.MasterPlayer.eventsSeen.Contains("skellady.SBVCP_20031452"):
+                NightsInStage++;
+                break;
+
+			case 2 when Game1.MasterPlayer.eventsSeen.Contains("skellady.SBVCP_20031453"):
+                NightsInStage++;
+                break;
+
+			case 3 when Game1.MasterPlayer.eventsSeen.Contains("skellady.SBVCP_20031454"):
+                NightsInStage++;
+                break;
+
+			case 4 when Game1.MasterPlayer.eventsSeen.Contains("skellady.SBVCP_20031455"):
+                NightsInStage++;
+                break;
+
+			case 5 when Game1.MasterPlayer.eventsSeen.Contains("skellady.SBVCP_20031456"):
+                NightsInStage++;
+                break;
+		}
+
 		UpdateHeartTotal();
 
 		// has been in Stage for minimum length and has the required number of hearts to advance
@@ -123,15 +151,14 @@ internal class GoldenSunberryStageToken
 		if (Stage >= MaxStage)
 			return false;
 
-		// probe means test whether the conditions will be true when the day ends, not whether they're true at this moment
-		// only used in sbv.gs.info debug command
-		if (probe)
-			return NightsInStage + 1 >= MinNightsInStage && HeartTotal >= HeartsNeededToAdvanceStage[Stage];
+        // probe means test whether the conditions will be true when the day ends, not whether they're true at this moment - also ignores forcegrow for accurate diagnostics
+        // only used in sbv.gs.info debug command
+        return probe
+            ? NightsInStage + 1 >= MinNightsInStage && HeartTotal >= HeartsNeededToAdvanceStage[Stage]
+            : NightsInStage >= MinNightsInStage && HeartTotal >= HeartsNeededToAdvanceStage[Stage] || ForceGrow;
+    }
 
-		return NightsInStage >= MinNightsInStage && HeartTotal >= HeartsNeededToAdvanceStage[Stage] || ForceGrow;
-	}
-
-	internal static void UpdateHeartTotal()
+    internal static void UpdateHeartTotal()
 	{
 		HeartTotal = Utility.getAllCharacters().Where(npc => ResidentNames.Contains(npc.Name)).Sum(npc => Game1.MasterPlayer.getFriendshipHeartLevelForNPC(npc.Name));
 	}
