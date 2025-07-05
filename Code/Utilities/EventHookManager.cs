@@ -34,5 +34,6 @@ internal class EventHookManager
 		PipPepShopNotification.AddEventHooks();
 		StringPoolManager.AddEventHooks();
 		MenuHooks.AddEventHooks();
+		SaveFixer.AddEventHooks();
 	}
 }

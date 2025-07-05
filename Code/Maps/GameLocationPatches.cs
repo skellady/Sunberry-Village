@@ -34,7 +34,6 @@ internal class GameLocationPatches
 	 *  Patches
 	 */
 
-	//             if (!Game1.IsBuildingConstructed("Gold Clock") || Game1.netWorldState.Value.goldenClocksTurnedOff.Value)
 	// Patches Sunberry farm to not spawn weeds or stones if golden clock purchased and turned on
 	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.spawnWeedsAndStones))]
 	[HarmonyPrefix]
