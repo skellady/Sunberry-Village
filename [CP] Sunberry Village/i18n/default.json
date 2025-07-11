@@ -5852,7 +5852,7 @@
 
     //Raccoon Dialogue
     //----------------
-    // FOR TRANSLATORS: NEW IN 1.0.4. The raccoon's dialogue has been overhauled. Most lines were reused with the key changed, but there are some that are new. Apologies for the inconvenience, but this was needed with changing him into an NPC. Feel free to reach out with any questions.
+    // FOR TRANSLATORS: NEW IN 1.0.4. The raccoon's dialogue has been overhauled. Most lines were reused with the key changed, but there are some that are new. Apologies for the inconvenience, but this was needed with changing him into an NPC. Some lines are repeated, so you can just copy paste them. Feel free to reach out with any questions.
 
     //Default
     "RaccoonDialogue.default": "The raccoon seems to be enjoying the weather.",
@@ -5977,7 +5977,7 @@
     "RaccoonDialogue.Early.Winter.Sunday.3": "The raccoon is holding a bowl of trout soup. He brings it up to his mouth and slurps from it before handing it to you. [219]",
 
     // 4-7 Hearts - Spring
-    "RaccoonDialogue.Mid.Spring.Monday.1": "The raccoon is snacking on some kale. He offers you a bite, but doesn't give you any more than that.",
+    "RaccoonDialogue.Mid.Spring.Monday.1": "The raccoon purrs and rolls around in the grass.#$b#$y 'What do you do?_Tell him he isn't a cat. This is cat behavior._He hisses at you and continues to roll around._Join him. Be one with the grass._You join him and roll around for a while. You hope no one sees you.'",
     "RaccoonDialogue.Mid.Spring.Monday.2": "The raccoon is holding onto a battery pack. He throws it at your feet. Did he get that from Maru? [787]#$t RaccoonBattery 1",
     "RaccoonDialogue.Mid.Spring.Monday.3": "The raccoon is holding onto a shiny emerald.#$b#$y 'What do you do?_Ask him to hand it over._He whimpers sadly and hands it to you. Well... now you feel bad. [60]_Let him keep it._He chitters happily and twirls around, holding the emerald over his head.'",
 
@@ -5997,7 +5997,7 @@
     "RaccoonDialogue.Mid.Spring.Friday.2": "You ask the raccoon if he can understand you. He nods eagerly.#$b#You then ask him if he has an item for you today. He shakes his head.",
     "RaccoonDialogue.Mid.Spring.Friday.3": "The raccoon chitters and hands you a pack of garlic seeds! It's soaking wet... [476]",
 
-    "RaccoonDialogue.Mid.Spring.Saturday.1": "The raccoon purrs and rolls around in the grass.#$b#$y 'What do you do?_Tell him he isn't a cat. This is cat behavior._He hisses at you and continues to roll around._Join him. Be one with the grass._You join him and roll around for a while. You hope no one sees you.'",
+    "RaccoonDialogue.Mid.Spring.Saturday.1": "The raccoon is snacking on some kale. He offers you a bite, but doesn't give you any more than that.",
     "RaccoonDialogue.Mid.Spring.Saturday.2": "The raccoon seems to be enjoying a Poppyseed Muffin. You ask him to hand it over. He shakes his head and hisses at you.#$t RaccoonMuffin 1",
     "RaccoonDialogue.Mid.Spring.Saturday.3": "The raccoon hisses at you and drops a soggy newspaper at your feet. When you bend down to pick it up, he grabs some money from your wallet. Little rascal!#$action AddMoney -50",
 
@@ -6006,62 +6006,62 @@
     "RaccoonDialogue.Mid.Spring.Sunday.3": "The raccoon hands you a bottle of wine. It's still dripping from when he washed it. Where'd he even find that?! [348]",
 
     // 4-7 Hearts - Summer
-    "RaccoonDialogue.Mid.Summer.Monday.1": "",
-    "RaccoonDialogue.Mid.Summer.Monday.2": "",
-    "RaccoonDialogue.Mid.Summer.Monday.3": "",
+    "RaccoonDialogue.Mid.Summer.Monday.1": "The raccoon does a little dance. He twirls around before handing you an orange. It's dripping wet. [635]",
+    "RaccoonDialogue.Mid.Summer.Monday.2": "The raccoon is holding onto a piece of cloth. Did he steal that from Emily or Ezra...?#$t RaccoonCloth 1",
+    "RaccoonDialogue.Mid.Summer.Monday.3": "The raccoon purrs and takes a bite out of a blueberry.#$b#$y 'What do you do?_Ask him to share._The raccoon happily gives you a blueberry. [258]_Steal some from him._You manage to grab a blueberry. The raccoon gasps! He's impressed with your thievery. [258]'",
 
-    "RaccoonDialogue.Mid.Summer.Tuesday.1": "",
-    "RaccoonDialogue.Mid.Summer.Tuesday.2": "",
-    "RaccoonDialogue.Mid.Summer.Tuesday.3": "",
+    "RaccoonDialogue.Mid.Summer.Tuesday.1": "The raccoon looks confused. He's holding onto a bottle of wine, but he doesn't seem to know how to crack it open.",
+    "RaccoonDialogue.Mid.Summer.Tuesday.2": "The raccoon gives you a Soapstone. He seems reluctant to part with it... [572]",
+    "RaccoonDialogue.Mid.Summer.Tuesday.3": "The raccoon is holding onto an iridium bar. He hands it over to you reluctantly. Did he get that from Clint or Silas? [337]#$t RaccoonBar 1",
 
-    "RaccoonDialogue.Mid.Summer.Wednesday.1": "",
-    "RaccoonDialogue.Mid.Summer.Wednesday.2": "",
-    "RaccoonDialogue.Mid.Summer.Wednesday.3": "",
+    "RaccoonDialogue.Mid.Summer.Wednesday.1": "The raccoon whines before giving you a golden mask. He seems reluctant to part with it... [124]",
+    "RaccoonDialogue.Mid.Summer.Wednesday.2": "The raccoon chitters happily. He seems to be gnawing on a piece of cake. You wonder where he found that...",
+    "RaccoonDialogue.Mid.Summer.Wednesday.3": "The raccoon seems to be in a weird mood. Maybe you'll have better luck talking to him on another day.",
 
-    "RaccoonDialogue.Mid.Summer.Thursday.1": "",
-    "RaccoonDialogue.Mid.Summer.Thursday.2": "",
-    "RaccoonDialogue.Mid.Summer.Thursday.3": "",
+    "RaccoonDialogue.Mid.Summer.Thursday.1": "The raccoon is snacking on a melon. He offers you a bite, but doesn't give you any more than that.",
+    "RaccoonDialogue.Mid.Summer.Thursday.2": "The raccoon purrs. He gives you a bug steak. It's soaking wet. Gross. [874]",
+    "RaccoonDialogue.Mid.Summer.Thursday.3": "The raccoon hands you a... cave jelly! It's still dripping wet. How did he find this?! [(O)CaveJelly]",
 
-    "RaccoonDialogue.Mid.Summer.Friday.1": "",
-    "RaccoonDialogue.Mid.Summer.Friday.2": "",
-    "RaccoonDialogue.Mid.Summer.Friday.3": "",
+    "RaccoonDialogue.Mid.Summer.Friday.1": "The raccoon seems to be holding... a broken knife. Better back away.",
+    "RaccoonDialogue.Mid.Summer.Friday.2": "The raccoon is holding an egg. He gently bites at it, careful not to break it. He then hands it over to you. You better take good care of this egg for him. [174]",
+    "RaccoonDialogue.Mid.Summer.Friday.3": "The raccoon hisses at you before throwing a crab at your feet. It's dripping wet... [717]",
 
-    "RaccoonDialogue.Mid.Summer.Saturday.1": "",
-    "RaccoonDialogue.Mid.Summer.Saturday.2": "",
-    "RaccoonDialogue.Mid.Summer.Saturday.3": "",
+    "RaccoonDialogue.Mid.Summer.Saturday.1": "The raccoon seems to be enjoying a chocolate chip cookie. You ask him to hand it over. He shakes his head and hisses at you.",
+    "RaccoonDialogue.Mid.Summer.Saturday.2": "The raccoon purrs. He gives you some mixed flower seeds. They're still dripping from when he washed them. [(O)MixedFlowerSeeds]",
+    "RaccoonDialogue.Mid.Summer.Saturday.3": "The raccoon seems to be enjoying a chocolate chip cookie. You ask him to hand it over. He reluctantly gives it to you. It looks like the kinda the cat cafe sells. [(O)skellady.SBVCP_ChocoChipCookies]",
 
-    "RaccoonDialogue.Mid.Summer.Sunday.1": "",
-    "RaccoonDialogue.Mid.Summer.Sunday.2": "",
-    "RaccoonDialogue.Mid.Summer.Sunday.3": "",
+    "RaccoonDialogue.Mid.Summer.Sunday.1": "The raccoon whines before giving you a cherry. He seems reluctant to part with it... [638]",
+    "RaccoonDialogue.Mid.Summer.Sunday.2": "The raccoon chitters happily before giving you a pumpkin. It's still dripping from when he washed it. [276]",
+    "RaccoonDialogue.Mid.Summer.Sunday.3": "The raccoon purrs and hands you a pouch of rare seeds! It's soaking wet. [347]",
 
     // 4-7 Hearts - Fall
-    "RaccoonDialogue.Mid.Fall.Monday.1": "",
-    "RaccoonDialogue.Mid.Fall.Monday.2": "",
-    "RaccoonDialogue.Mid.Fall.Monday.3": "",
+    "RaccoonDialogue.Mid.Fall.Monday.1": "The raccoon seems to be happy to see you. Happy enough to give you the opal he's holding! What a treat. [564]",
+    "RaccoonDialogue.Mid.Fall.Monday.2": "The raccoon is holding onto... an apple sapling. He drops it at your feet. Did he steal that from Pierre...? [633]$t RaccoonSapling 1",
+    "RaccoonDialogue.Mid.Fall.Monday.3": "The raccoon is is holding onto a few leaves. He puts them down and proceeds to step on them. Is it really fall if you haven't stepped on some crunchy leaves?",
 
-    "RaccoonDialogue.Mid.Fall.Tuesday.1": "",
-    "RaccoonDialogue.Mid.Fall.Tuesday.2": "",
-    "RaccoonDialogue.Mid.Fall.Tuesday.3": "",
+    "RaccoonDialogue.Mid.Fall.Tuesday.1": "The raccoon purrs and hands you a packet of... ancient seeds! You wonder where he got that from... [499]",
+    "RaccoonDialogue.Mid.Fall.Tuesday.2": "The raccoon doesn't seem to have anything on hand today. What a sad day for both of you.",
+    "RaccoonDialogue.Mid.Fall.Tuesday.3": "The raccoon chitters happily. He's holding onto a little coin purse. It doesn't look like he's in the mood to share today.",
 
-    "RaccoonDialogue.Mid.Fall.Wednesday.1": "",
-    "RaccoonDialogue.Mid.Fall.Wednesday.2": "",
-    "RaccoonDialogue.Mid.Fall.Wednesday.3": "",
+    "RaccoonDialogue.Mid.Fall.Wednesday.1": "The raccoon chitters as you approach.#$b#$y 'What do you ask him?_Can you understand me?_The raccoon nods eagerly. Hooray! Now, all you need to do is find a way to understand *him*._Do you consider me a friend?_The raccoon thinks about it for a second, then nods. Hooray! Friendship!'",
+    "RaccoonDialogue.Mid.Fall.Wednesday.2": "The raccoon excitedly hands you a piece of paper. It has paw prints on it in the shape of an... oval? Or an egg? You wonder if he's trying to communicate with you.",
+    "RaccoonDialogue.Mid.Fall.Wednesday.3": "The raccoon hisses and drops a bag of flour at your feet. Ugh, of course he tried washing the bag. [246]",
 
-    "RaccoonDialogue.Mid.Fall.Thursday.1": "",
-    "RaccoonDialogue.Mid.Fall.Thursday.2": "",
-    "RaccoonDialogue.Mid.Fall.Thursday.3": "",
+    "RaccoonDialogue.Mid.Fall.Thursday.1": "The raccoon is holding onto what looks like a dwarven gadget. He reluctantly gives it to you. You have to wrestle it out of his little hands. [122]",
+    "RaccoonDialogue.Mid.Fall.Thursday.2": "The raccoon is holding onto an iridium sprinkler! You absolutely need that. What do you do?#$b#$y '..._Please, Mr. Raccoon. My crops need this sprinkler._The raccoon hesitates before handing it over to you. He trusts you will take good care of it. [645]_You are going to give me that sprinkler right NOW._The raccoon hisses at you and sticks his tongue out. Maybe you should've been nicer...'",
+    "RaccoonDialogue.Mid.Fall.Thursday.3": "The raccoon seems to be enjoying the weather. Better leave him alone.",
 
-    "RaccoonDialogue.Mid.Fall.Friday.1": "",
-    "RaccoonDialogue.Mid.Fall.Friday.2": "",
-    "RaccoonDialogue.Mid.Fall.Friday.3": "",
+    "RaccoonDialogue.Mid.Fall.Friday.1": "The raccoon is holding a squeaky toy in his mouth. He squeaks, and squeaks, and squeaks. You're starting to think he's doing this just to aggravate you.",
+    "RaccoonDialogue.Mid.Fall.Friday.2": "The raccoon chitters happily and drops a sturgeon at your feet. He quickly snatches it back as you try to grab it, giggling mischievously.",
+    "RaccoonDialogue.Mid.Fall.Friday.3": "The raccoon chitters happily and drops a sturgeon at your feet. He tries to snatch it back, but you're too quick! Hah! You're now the proud owner of one sturgeon.",
 
-    "RaccoonDialogue.Mid.Fall.Saturday.1": "",
-    "RaccoonDialogue.Mid.Fall.Saturday.2": "",
-    "RaccoonDialogue.Mid.Fall.Saturday.3": "",
+    "RaccoonDialogue.Mid.Fall.Saturday.1": "The raccoon is holding onto a... skeletal hand? He waves it at you. Once he's done waving, he hands it to you. Not creepy at all. [582]",
+    "RaccoonDialogue.Mid.Fall.Saturday.2": "The raccoon hisses and throws a cranberry at your feet. It's gnawed on around the edges. Maybe he didn't enjoy it? [282]",
+    "RaccoonDialogue.Mid.Fall.Saturday.3": "$y 'The raccoon is here!_Greet him._You say hello. He chitters happily and extends his hand out for a handshake. How sweet._Pet him._You extend your hand warily, and gently pet him. He looks confused, but he doesn't seem to mind._Smile at him awkwardly._The raccoon tilts his head in confusion. He starts trying to imitate your awkward smile.",
 
-    "RaccoonDialogue.Mid.Fall.Sunday.1": "",
-    "RaccoonDialogue.Mid.Fall.Sunday.2": "",
-    "RaccoonDialogue.Mid.Fall.Sunday.3": "",
+    "RaccoonDialogue.Mid.Fall.Sunday.1": "The raccoon is holding onto an... ancient sword?! He holds it up and smiles mischievously. You do NOT want to know what he's doing with that or where he got it from.",
+    "RaccoonDialogue.Mid.Fall.Sunday.2": "The raccoon purrs. He hands you a life elixir. It's half empty... Did he steal that from the clinic? [773]$t RaccoonElixir 1",
+    "RaccoonDialogue.Mid.Fall.Sunday.3": "The raccoon immediately extends his hands out to you. He's giving you some monster musk. He winks as you take it from him. Is... is this a threat? [879]",
 
     // 4-7 Hearts - Winter
     "RaccoonDialogue.Mid.Winter.Monday.1": "",
