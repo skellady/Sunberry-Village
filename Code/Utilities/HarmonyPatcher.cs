@@ -37,7 +37,7 @@ internal class HarmonyPatcher
 		{
             Harmony.Patch(
 			    original: AccessTools.Method("PolyamorySweetLove.NPCPatches:NPC_tryToReceiveActiveObject_Prefix"),
-			    prefix: new HarmonyMethod(AccessTools.Method(typeof(ObjectPatches), nameof(ObjectPatches.NPC_tryToReceiveActiveObject_Prefix_Prefix)))
+			    prefix: new HarmonyMethod(AccessTools.Method(typeof(PSLPatches), nameof(PSLPatches.NPC_tryToReceiveActiveObject_Prefix_Prefix)))
 			);
         }
 	}

@@ -21,25 +21,9 @@ namespace SunberryVillage.Objects;
 [HarmonyPatch]
 internal class ObjectPatches
 {
-	internal const string IgnorePSL = "IgnorePSL";
-
     /*
 	 *  Patches
 	 */
-
-    /// <summary>
-    /// Patches PSL to ignore its proposal code if the target NPC has the appropriate custom field. Not annotated because it's handled by ApplyConditionalPatches().
-    /// </summary>
-    public static bool NPC_tryToReceiveActiveObject_Prefix_Prefix(NPC __instance, ref bool __result)
-    {
-        if (!__instance.GetData().CustomFields.TryGetValue(IgnorePSL, out string value) || !bool.Parse(value))
-            return true;
-        
-        __result = true;
-        return false;
-    }
-
-
 
     /// <summary>
     /// Patches <c>Lexicon.makePlural</c> to handle edge cases with Sunberries being pluralized incorrectly.
