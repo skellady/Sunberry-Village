@@ -6057,18 +6057,18 @@
 
     "RaccoonDialogue.Mid.Fall.Saturday.1": "The raccoon is holding onto a... skeletal hand? He waves it at you. Once he's done waving, he hands it to you. Not creepy at all. [582]",
     "RaccoonDialogue.Mid.Fall.Saturday.2": "The raccoon hisses and throws a cranberry at your feet. It's gnawed on around the edges. Maybe he didn't enjoy it? [282]",
-    "RaccoonDialogue.Mid.Fall.Saturday.3": "$y 'The raccoon is here!_Greet him._You say hello. He chitters happily and extends his hand out for a handshake. How sweet._Pet him._You extend your hand warily, and gently pet him. He looks confused, but he doesn't seem to mind._Smile at him awkwardly._The raccoon tilts his head in confusion. He starts trying to imitate your awkward smile.",
+    "RaccoonDialogue.Mid.Fall.Saturday.3": "$y 'The raccoon is here!_Greet him._You say hello. He chitters happily and extends his hand out for a handshake. How sweet._Pet him._You extend your hand warily and gently pet him. He looks confused, but he doesn't seem to mind._Smile at him awkwardly._The raccoon tilts his head in confusion. He then starts trying to imitate your awkward smile.",
 
     "RaccoonDialogue.Mid.Fall.Sunday.1": "The raccoon is holding onto an... ancient sword?! He holds it up and smiles mischievously. You do NOT want to know what he's doing with that or where he got it from.",
     "RaccoonDialogue.Mid.Fall.Sunday.2": "The raccoon purrs. He hands you a life elixir. It's half empty... Did he steal that from the clinic? [773]$t RaccoonElixir 1",
     "RaccoonDialogue.Mid.Fall.Sunday.3": "The raccoon immediately extends his hands out to you. He's giving you some monster musk. He winks as you take it from him. Is... is this a threat? [879]",
 
     // 4-7 Hearts - Winter
-    "RaccoonDialogue.Mid.Winter.Monday.1": "",
-    "RaccoonDialogue.Mid.Winter.Monday.2": "",
-    "RaccoonDialogue.Mid.Winter.Monday.3": "",
+    "RaccoonDialogue.Mid.Winter.Monday.1": "The raccoon doesn't seem to be enjoying the weather. You agree, it *is* a little cold.",
+    "RaccoonDialogue.Mid.Winter.Monday.2": "The raccoon points at his little beanie excitedly.#$b#$y 'What do you do?_Compliment his beanie._The raccoon chitters happily. He's glad you have good taste!_Pretend you don't notice it._The raccoon is disappointed. He crosses his arms and shakes his head at you.'",
+    "RaccoonDialogue.Mid.Winter.Monday.3": "The raccoon purrs and drops a pouch of powdermelon seeds at your feet. It's soaking wet... [(O)PowdermelonSeeds]",
 
-    "RaccoonDialogue.Mid.Winter.Tuesday.1": "",
+    "RaccoonDialogue.Mid.Winter.Tuesday.1": "The raccoon reluctantly gives you a treasure chest. You have to wrestle it out of his little hands. [166]",
     "RaccoonDialogue.Mid.Winter.Tuesday.2": "",
     "RaccoonDialogue.Mid.Winter.Tuesday.3": "",
 
