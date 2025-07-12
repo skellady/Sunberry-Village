@@ -853,6 +853,15 @@
     //Love
     "Gift.StardropTea.Pan": "Arf?$4#$b#%Pan drinks from the cup hesitantly before wagging her tail and drinking some more. She seems to really like it!",
 
+    //R   A   C   C   O   O   N
+
+    //Positive/Negative
+    "Gift.Positive.Raccoon": "The raccoon chitters happily! He's so glad you figured out when his birthday is AND got him a nice gift!",
+    "Gift.Negative.Raccoon": "The raccoon hisses at you. He's disappointed you gave him a bad gift. AND on his birthday, nonetheless.",
+
+    //Love
+    "Gift.StardropTea.Raccoon": "The raccoon tilts his head in confusion as he sniffs the tea. He takes a sip and starts twirling around! You join him in his little dance.",
+
     //R   E   I   H   A   N   A
 
     //Positive/Negative
@@ -5857,6 +5866,9 @@
     //Default
     "RaccoonDialogue.default": "The raccoon seems to be enjoying the weather.",
 
+    // Dumpster Dive
+    "Raccoon.Dialogue.DumpsterDiveComment": "The raccoon hisses at you. Looks like he's claimed this trashcan and is NOT happy about you rummaging in it...",
+
     //Introduction
     "Raccoon.Dialogue.Introduction": "The raccoon stares you down. You're a little intimidated.#$b#When he's done intimidating you, he hands you 100$! What a nice gift to get you started on your farm.#$action AddMoney 100",
 
@@ -6069,28 +6081,28 @@
     "RaccoonDialogue.Mid.Winter.Monday.3": "The raccoon purrs and drops a pouch of powdermelon seeds at your feet. It's soaking wet... [(O)PowdermelonSeeds]",
 
     "RaccoonDialogue.Mid.Winter.Tuesday.1": "The raccoon reluctantly gives you a treasure chest. You have to wrestle it out of his little hands. [166]",
-    "RaccoonDialogue.Mid.Winter.Tuesday.2": "",
-    "RaccoonDialogue.Mid.Winter.Tuesday.3": "",
+    "RaccoonDialogue.Mid.Winter.Tuesday.2": "The raccoon shivers. He wraps his scarf around him tighter. You wonder who knitted that for him...$t RaccoonKnitting 2",
+    "RaccoonDialogue.Mid.Winter.Tuesday.3": "The raccoon purrs and drops a piece of truffle at your feet. How'd he get this? It's winter... [430]",
 
-    "RaccoonDialogue.Mid.Winter.Wednesday.1": "",
-    "RaccoonDialogue.Mid.Winter.Wednesday.2": "",
-    "RaccoonDialogue.Mid.Winter.Wednesday.3": "",
+    "RaccoonDialogue.Mid.Winter.Wednesday.1": "The raccoon is holding onto a souvenir of some sort. He clutches it tighter as you approach. Who did he steal that from?$t RaccoonSouvenir 1",
+    "RaccoonDialogue.Mid.Winter.Wednesday.2": "The raccoon chitters happily. He extends his little hands outwards to offer you his burger. You take it and thank him. [241]",
+    "RaccoonDialogue.Mid.Winter.Wednesday.3": "The raccoon hisses and throws a piece of bait at your feet. It's wet and sticky... [685]",
 
-    "RaccoonDialogue.Mid.Winter.Thursday.1": "",
-    "RaccoonDialogue.Mid.Winter.Thursday.2": "",
-    "RaccoonDialogue.Mid.Winter.Thursday.3": "",
+    "RaccoonDialogue.Mid.Winter.Thursday.1": "The raccoon seems to be holding a book. The cover has magical girls on it. Who did he steal that from?$t RaccoonManga 1",
+    "RaccoonDialogue.Mid.Winter.Thursday.2": "The raccoon purrs and hands you a packet of... ancient seeds! You wonder where he got that from... [499]",
+    "RaccoonDialogue.Mid.Winter.Thursday.3": "The raccoon chitters happily. He's holding a dinosaur egg! It's bigger than his face.#$b#$y 'What do you do?_Ask him to hand it over nicely._The raccoon hesitates and reluctantly gives it to you. He waves goodbye at it as you hold it. [107]_Snatch it from his little hands._You try to forcefully take it away from him. He gasps in disbelief! Chaos ensues! You tug, he tugs, and then... the egg breaks. Neither of you win, I guess.'",
 
-    "RaccoonDialogue.Mid.Winter.Friday.1": "",
-    "RaccoonDialogue.Mid.Winter.Friday.2": "",
-    "RaccoonDialogue.Mid.Winter.Friday.3": "",
+    "RaccoonDialogue.Mid.Winter.Friday.1": "The raccoon dips his paw into a jar of duck mayonnaise. He licks it, makes a face, and then throws it at your feet. Doesn't look like he enjoyed that. [307]",
+    "RaccoonDialogue.Mid.Winter.Friday.2": "The raccoon twirls around. He beckons you to join him. You share a silly little dance in the snow.",
+    "RaccoonDialogue.Mid.Winter.Friday.3": "The raccoon chitters happily. He sips on a cup of green tea. Good for him, he's staying warm.",
 
-    "RaccoonDialogue.Mid.Winter.Saturday.1": "",
-    "RaccoonDialogue.Mid.Winter.Saturday.2": "",
-    "RaccoonDialogue.Mid.Winter.Saturday.3": "",
+    "RaccoonDialogue.Mid.Winter.Saturday.1": "The raccoon is holding onto a sea jelly. He throws it at your feet. It's wet and sticky... [(O)SeaJelly]",
+    "RaccoonDialogue.Mid.Winter.Saturday.2": "The raccoon purrs. He inspects the rusty cog he's holding before handing it over to you. [112]",
+    "RaccoonDialogue.Mid.Winter.Saturday.3": "The raccoon chitters happily. He's snacking on some seaweed. Better leave him be.",
 
-    "RaccoonDialogue.Mid.Winter.Sunday.1": "",
-    "RaccoonDialogue.Mid.Winter.Sunday.2": "",
-    "RaccoonDialogue.Mid.Winter.Sunday.3": "",
+    "RaccoonDialogue.Mid.Winter.Sunday.1": "The raccoon is holding a snowball in his little hands. You look away for a moment and he throws it at you. He chitters happily.",
+    "RaccoonDialogue.Mid.Winter.Sunday.2": "The raccoon is holding a snowball in his little hands. This time, you keep an eye on him and grab your own snowball. You have a staring contest.#$b#$y 'What do you do?_Throw the snowball at him._You throw your snowball, and so does he. You both get hit. Guess you're even now._Throw the snowball away._You surrender, throwing your snowball away. However, the raccoon throws his at you! He chitters happily.'",
+    "RaccoonDialogue.Mid.Winter.Sunday.3": "The raccoon is sipping on some hot chocolate. You ask him to share, and he immediately hands you the cup! How nice of him. [(O)skellady.SBVCP_DialaHotChoco]",
     //Items
     //-----
 
