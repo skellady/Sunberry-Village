@@ -31,24 +31,32 @@ internal class CJBPatches
 	/// </summary>
 	public static IEnumerable<CodeInstruction> ShouldFreezeTime_Transpiler(IEnumerable<CodeInstruction> instructions)
 	{
-		List<CodeInstruction> origInstructions = new(instructions); // store unaltered instructions in case anything goes wrong
+		List<CodeInstruction> origInstructions = [.. instructions]; // store unaltered instructions in case anything goes wrong
 		CodeMatcher matcher = new(instructions);
 
 		try
 		{
-			MethodInfo m_stringContains = typeof(string).GetMethod(nameof(string.Contains), new[] { typeof(string) });
+			MethodInfo m_stringContains = typeof(string).GetMethod(nameof(string.Contains), [typeof(string)]);
 			MethodInfo m_locationNameGetter = typeof(GameLocation).GetProperty(nameof(GameLocation.Name)).GetGetMethod();
 
-			matcher.MatchEndForward(new CodeMatch(OpCodes.Brtrue_S));
-			Label jumpLabel = (Label)matcher.Instruction.operand;
+			matcher.MatchEndForward(new CodeMatch(OpCodes.Brtrue_S), new CodeMatch(OpCodes.Br_S));
+			Label jumpIfNullLabel = (Label)matcher.Instruction.operand;
+			Label jumpIfNotNullLabel = (Label)matcher.Advance(-1).Instruction.operand;
+
+			// check if given location is null. if not, check if it contains mines string in the name
+			// jump accordingly
 
 			matcher.Start();
 			matcher.Insert(
-					new CodeInstruction(OpCodes.Ldarg_2),
+                    new CodeInstruction(OpCodes.Ldarg_2),
+					new CodeInstruction(OpCodes.Ldnull),
+					new CodeInstruction(OpCodes.Ceq),
+                    new CodeInstruction(OpCodes.Brtrue_S, jumpIfNullLabel),
+                    new CodeInstruction(OpCodes.Ldarg_2),
 					new CodeInstruction(OpCodes.Call, m_locationNameGetter),
 					new CodeInstruction(OpCodes.Ldstr, "Custom_SBV_Mines"),
 					new CodeInstruction(OpCodes.Call, m_stringContains),
-					new CodeInstruction(OpCodes.Brtrue_S, jumpLabel)
+					new CodeInstruction(OpCodes.Brtrue_S, jumpIfNotNullLabel)
 				);
 
 			return matcher.InstructionEnumeration();
@@ -56,7 +64,7 @@ internal class CJBPatches
 		catch (Exception e)
 		{
 			Log.Error($"Harmony patch <{nameof(CJBPatches)}::{nameof(ShouldFreezeTime_Transpiler)}> has encountered an error while attempting to transpile <CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat::ShouldFreezeTime>: \n{e}");
-			Log.Error("Faulty IL:\n\t" + string.Join("\n\t", matcher.Instructions().Select((instruction, i) => $"{i}\t{instruction}")));
+			Log.Trace("Faulty IL:\n\t" + string.Join("\n\t", matcher.Instructions().Select((instruction, i) => $"{i}\t{instruction}")));
 			return origInstructions;
 		}
 	}
