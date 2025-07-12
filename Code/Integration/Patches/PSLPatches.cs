@@ -30,8 +30,6 @@ internal class PSLPatches
     /// <summary>
     /// Patches PSL to ignore its proposal code if the target NPC has the appropriate custom field. Not annotated because it's handled by ApplyConditionalPatches().
     /// </summary>
-    [HarmonyPatch("PolyamorySweetLove.NPCPatches", "NPC_tryToReceiveActiveObject_Prefix")]
-    [HarmonyPrefix]
     public static bool NPC_tryToReceiveActiveObject_Prefix_Prefix(NPC __0, ref bool __result)
     {
         if (!__0.GetData().CustomFields?.TryGetValue(IgnorePSLString, out string value) ?? true || !bool.Parse(value))
