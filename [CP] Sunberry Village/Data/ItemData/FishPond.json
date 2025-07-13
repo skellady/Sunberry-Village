@@ -12,6 +12,23 @@
                     ],
                     "Precedence": 0,
                     "SpawnTime": -1,
+                    "WaterColor": [
+                        {
+                            "Id": "VeryBlue",
+                            "Color": "SteelBlue",
+                            "MinPopulation": 8
+                        },
+                        {
+                            "Id": "MediumBlue",
+                            "Color": "SkyBlue",
+                            "MinPopulation": 5
+                        },
+                        {
+                            "Id": "LightBlue",
+                            "Color": "LightSkyBlue",
+                            "MinPopulation": 2
+                        }
+                    ],
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 9,
@@ -200,6 +217,23 @@
                     ],
                     "Precedence": 0,
                     "SpawnTime": -1,
+                    "WaterColor": [
+                        {
+                            "Id": "VeryPurple",
+                            "Color": "SlateBlue",
+                            "MinPopulation": 8
+                        },
+                        {
+                            "Id": "MediumPurple",
+                            "Color": "MediumSlateBlue",
+                            "MinPopulation": 5
+                        },
+                        {
+                            "Id": "LightPurple",
+                            "Color": "MediumPurple",
+                            "MinPopulation": 2
+                        }
+                    ],
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 9,
@@ -304,6 +338,23 @@
                     ],
                     "Precedence": 0,
                     "SpawnTime": -1,
+                    "WaterColor": [
+                        {
+                            "Id": "VeryOlive",
+                            "Color": "Olive",
+                            "MinPopulation": 8
+                        },
+                        {
+                            "Id": "MediumOlive",
+                            "Color": "OliveDrab",
+                            "MinPopulation": 5
+                        },
+                        {
+                            "Id": "LightOlive",
+                            "Color": "YellowGreen",
+                            "MinPopulation": 2
+                        }
+                    ],
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 7,
@@ -342,6 +393,23 @@
                     ],
                     "Precedence": 0,
                     "SpawnTime": -1,
+                    "WaterColor": [
+                        {
+                            "Id": "VeryPink",
+                            "Color": "MediumVioletRed",
+                            "MinPopulation": 8
+                        },
+                        {
+                            "Id": "MediumPink",
+                            "Color": "DeepPink",
+                            "MinPopulation": 5
+                        },
+                        {
+                            "Id": "LightPink",
+                            "Color": "HotPink",
+                            "MinPopulation": 2
+                        }
+                    ],
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 9,
@@ -432,6 +500,23 @@
                     ],
                     "Precedence": 0,
                     "SpawnTime": -1,
+                    "WaterColor": [
+                        {
+                            "Id": "VeryGray",
+                            "Color": "DimGray",
+                            "MinPopulation": 8
+                        },
+                        {
+                            "Id": "MediumGray",
+                            "Color": "Gray",
+                            "MinPopulation": 5
+                        },
+                        {
+                            "Id": "LightGray",
+                            "Color": "DarkGray",
+                            "MinPopulation": 2
+                        }
+                    ],
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 9,
@@ -597,6 +682,13 @@
                     "Precedence": 0,
                     "MaxPopulation": 1,
                     "SpawnTime": -1,
+                    "WaterColor": [
+                        {
+                            "Id": "VeryIndigo",
+                            "Color": "Indigo",
+                            "MinPopulation": 1
+                        }
+                    ],
                     "BaseMinProduceChance": 0.5,
                     "BaseMaxProduceChance": 0.5,
                     "ProducedItems": [
@@ -617,6 +709,13 @@
                     "Precedence": 0,
                     "MaxPopulation": 1,
                     "SpawnTime": -1,
+                    "WaterColor": [
+                        {
+                            "Id": "VerySienna",
+                            "Color": "Sienna",
+                            "MinPopulation": 1
+                        }
+                    ],
                     "BaseMinProduceChance": 0.5,
                     "BaseMaxProduceChance": 0.5,
                     "ProducedItems": [
