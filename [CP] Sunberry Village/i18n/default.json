@@ -1894,6 +1894,7 @@
     "event-20031467.12": "Thank you for listening. I really appreciate it, @. I'll see you around.$h",
 
     // Elias 4 Hearts Event
+    // FOR TRANSLATORS: NEW IN 1.0.4. event-20031468q1 and q2 are new, the rest of the event is the same.
     "event-20031468.01": "Ah, it's you. You caught me on my break. I'm makin' somethin' quick before I get back to work.$h",
     "event-20031468.02": "I learnt how to cook properly from both Miyoung and Jumana.$h",
     "event-20031468.03": "Ari helped teach me, too. All these years and that man still won't believe me when I tell him I enjoy his food.$u",
@@ -1902,6 +1903,8 @@
     "event-20031468.06": "No, thank you.",
     "event-20031468.07": "Alright, come on over.",
     "event-20031468.08": "Elias lifts up a spoonful of rice to your mouth, placing his hand beneath it.",
+    "event-20031468.q1": "Take the spoon from his hand",
+    "event-20031468.q2": "Let him feed you.",
     "event-20031468.09": "You taste the rice. It's very flavorful!",
     "event-20031468.10": "Good, right? I adjusted the recipe a little since I learnt how to make it.$h",
     "event-20031468.11": "The secret is... Actually, I'll just send you the recipe someday. Can't let you in on all my secrets at once.$10",
