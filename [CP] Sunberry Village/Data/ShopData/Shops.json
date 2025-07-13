@@ -1046,28 +1046,67 @@
                             "MaxItems": 3
                         },
                         {
-                            "Id": "skellady.SBVCP_SilasBlacksmith.CopperOre",
-                            "ItemId": "(O)378"
+                            "Id": "skellady.SBVCP_SilasBlacksmith.CopperOreY1",
+                            "ItemId": "(O)378",
+                            "Condition": "!YEAR 2",
+                            "Price": 70
                         },
                         {
-                            "Id": "skellady.SBVCP_SilasBlacksmith.IronOre",
-                            "ItemId": "(O)380"
+                            "Id": "skellady.SBVCP_SilasBlacksmith.IronOreY1",
+                            "ItemId": "(O)380",
+                            "Condition": "!YEAR 2",
+                            "Price": 140
                         },
                         {
-                            "Id": "skellady.SBVCP_SilasBlacksmith.GoldOre",
-                            "ItemId": "(O)384"
+                            "Id": "skellady.SBVCP_SilasBlacksmith.GoldOreY1",
+                            "ItemId": "(O)384",
+                            "Condition": "!YEAR 2",
+                            "Price": 380
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.CoalY1",
+                            "ItemId": "(O)382",
+                            "Condition": "!YEAR 2",
+                            "Price": 100
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.CopperOreY2",
+                            "ItemId": "(O)378",
+                            "Condition": "YEAR 2",
+                            "Price": 140
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.IronOreY2",
+                            "ItemId": "(O)380",
+                            "Condition": "YEAR 2",
+                            "Price": 240
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.GoldOreY2",
+                            "ItemId": "(O)384",
+                            "Condition": "YEAR 2",
+                            "Price": 730
+                        },
+                        {
+                            "Id": "skellady.SBVCP_SilasBlacksmith.CoalY1",
+                            "ItemId": "(O)382",
+                            "Condition": "YEAR 2",
+                            "Price": 200
                         },
                         {
                             "Id": "skellady.SBVCP_SilasBlacksmith.CopperBar",
-                            "ItemId": "(O)334"
+                            "ItemId": "(O)334",
+                            "Price": 560
                         },
                         {
                             "Id": "skellady.SBVCP_SilasBlacksmith.IronBar",
-                            "ItemId": "(O)335"
+                            "ItemId": "(O)335",
+                            "Price": 960
                         },
                         {
                             "Id": "skellady.SBVCP_SilasBlacksmith.GoldBar",
-                            "ItemId": "(O)336"
+                            "ItemId": "(O)336",
+                            "Price": 2900
                         },
                         {
                             "Id": "skellady.SBVCP_SilasBlacksmith.Geode",

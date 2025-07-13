@@ -25,7 +25,7 @@
                 "skellady.SBVCP_Jumana6HLetter": {
                     "Id": "skellady.SBVCP_Jumana6HLetter",
                     "Trigger": "DayEnding",
-                    "Condition": "PLAYER_HEARTS Current JumanaSBV 6",
+                    "Condition": "PLAYER_HEARTS Current JumanaSBV 6, PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031431",
                     "Action": "AddMail Current skellady.SBVCP_JumanaHusbandLetter"
                 },
                 "skellady.SBVCP_SilasRecipe1": {

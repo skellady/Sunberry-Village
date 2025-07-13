@@ -119,7 +119,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
 			"When": {
-				"HasSeenEvent": "{{ModId}}_20031427"
+				"HasSeenEvent: anyPlayer |contains=skellady.SBVCP_20031427": true
 			},
 			"TextOperations": [
 				// Set-up
@@ -149,7 +149,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
 			"When": {
-				"HasSeenEvent": "{{ModId}}_20031427"
+				"HasSeenEvent: anyPlayer |contains=skellady.SBVCP_20031427": true
 			},
 			"TextOperations": [
 				// Set-up

@@ -89,7 +89,7 @@
 			"Target": "Data/Festivals/winter25",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasSeenEvent": "{{ModId}}_20031427"
+				"HasSeenEvent: anyPlayer |contains=skellady.SBVCP_20031427": true
 			},
 			"TextOperations": [
 				// Set-up
@@ -110,7 +110,7 @@
 			"Target": "Data/Festivals/winter25",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": false,
-				"HasSeenEvent": "{{ModId}}_20031427"
+				"HasSeenEvent: anyPlayer |contains=skellady.SBVCP_20031427": true
 			},
 			"TextOperations": [
 				// Set-up
@@ -214,7 +214,7 @@
 			"Target": "Data/Festivals/winter25",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasSeenEvent": "{{ModId}}_20031427"
+				"HasSeenEvent: anyPlayer |contains=skellady.SBVCP_20031427": true
 			},
 			"TextOperations": [
 				// Set-up
@@ -235,7 +235,7 @@
 			"Target": "Data/Festivals/winter25",
 			"When": {
 				"HasMod: |contains=FlashShifter.StardewValleyExpandedCP": true,
-				"HasSeenEvent": "{{ModId}}_20031427"
+				"HasSeenEvent: anyPlayer |contains=skellady.SBVCP_20031427": true
 			},
 			"TextOperations": [
 				// Set-up

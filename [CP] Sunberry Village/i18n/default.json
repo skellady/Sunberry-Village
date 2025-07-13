@@ -2219,6 +2219,15 @@
     "event-PrankGoesWrong.16": "If you'll excuse me, farmer, I need to go get cleaned up.$15",
     "event-PrankGoesWrong.17": "...And ask Ophelia if it's too late to un-adopt that kid.$17",
 
+    // Wedding 
+    // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBVWedding.01": "Friends, family, and loved ones. We are here today to celebrate love, a lifelong bond.$h#$b#There's no better feeling than finding your person.$h",
+    "SBVWedding.02": "The one who really sees you. The one who loves you endlessly. The one who wishes to spend the rest of their life by your side.$h#$b#And so, it is my great honor to unite @ and %spouse in the bonds of marriage on this beautiful day.$u",
+    "SBVWedding.03": "@... %spouse... #$b#I'm honored to be here and witness you seal the bond of your love.$h#$b#As the administrator of Sunberry Village, and regional bearer of the matrimonial seal, I now pronounce you life partners!$u",
+    "SBVWedding.04": "You may kiss.$h",
+    "SBVWedding.05": "Yay!",
+    "SBVWedding.06": "Congrats!",
+
     //Animation Dialogue
     //------------------
 
