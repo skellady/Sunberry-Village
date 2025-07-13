@@ -785,7 +785,7 @@
                     "MugShotSourceRect": {
                         "X": 16,
                         "Y": 224,
-                        "Width": 16,
+                        "Width": 14,
                         "Height": 19
                     },
                     "IntroductionsQuest": true,
@@ -1716,6 +1716,12 @@
                     "CanGreetNearbyCharacters": false,
                     "Calendar": "HiddenAlways",
                     "SocialTab": "HiddenUntilMet",
+                    "MugShotSourceRect": {
+                        "X": 0,
+                        "Y": 139,
+                        "Width": 16,
+                        "Height": 20
+                    },
                     "IntroductionsQuest": false,
                     "PerfectionScore": false,
                     "DumpsterDiveEmote": 32,
