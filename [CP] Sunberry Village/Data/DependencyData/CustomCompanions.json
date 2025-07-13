@@ -2,7 +2,7 @@
     "Changes":
     // Custom Companions - CP
     [
-        {
+        /*{
             "LogName": "CP Integration for Raccoon",
             "Action": "EditData",
             "Target": "{{PeacefulEnd.CustomCompanions/Companions:skellady.SBVCC.SBVRaccoon}}",
@@ -152,7 +152,7 @@
             "When": {
                 "Season": "Summer"
             }
-        },
+        },*/
         {
             "LogName": "D&D's House Custom Companions",
             "Action": "EditMap",
@@ -920,7 +920,7 @@
                 },
             ],
         },
-        {
+        /*{
             "LogName": "Raccoon in Forest",
             "Action": "EditMap",
             "Target": "Maps/Forest",
@@ -1077,7 +1077,7 @@
                 "Season": "Spring, Summer, Fall",
             },
             "Update": "OnLocationChange",
-        },
+        },*/
         /*{
          "LogName": "Critters in Mine 1",
          "Action": "EditMap",

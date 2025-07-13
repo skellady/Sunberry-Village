@@ -170,6 +170,14 @@
 		},
 		{
 			"Action": "EditData",
+			"Target": "Strings/schedules/RaccoonSBV",
+			"Entries": {
+				"TwilightFestival.000": "{{i18n:Raccoon.Dialogue.TwilightFestival1}}",
+				"TwilightFestival.001": "{{i18n:Raccoon.Dialogue.TwilightFestival2}}"
+			}
+		},
+		{
+			"Action": "EditData",
 			"Target": "Strings/schedules/ReihanaSBV",
 			"Entries": {
 				"Fountain": "{{Random: {{i18n:Reihana.Dialogue.Fountain1}} ++ {{i18n:Reihana.Dialogue.Fountain2}} ++ {{i18n:Reihana.Dialogue.Fountain3}} |inputSeparator=++}}",

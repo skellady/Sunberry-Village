@@ -29,7 +29,7 @@
 				"Sun": "{{i18n:RaccoonDialogue.Early.{{Season}}.{{DayOfWeek}}.{{Random:1,2,3}}}}",
 			},
 			"When": {
-				"Hearts:RaccoonSBV": "{{Range: 0, 3}}"
+				"Hearts:RaccoonSBV": "{{Range: 0, 5}}"
 			}
 		},
 		{
@@ -45,8 +45,8 @@
 				"Sun": "{{i18n:RaccoonDialogue.Mid.{{Season}}.{{DayOfWeek}}.{{Random:1,2,3}}}}",
 			},
 			"When": {
-				"Hearts:RaccoonSBV": "{{Range: 4, 7}}"
+				"Hearts:RaccoonSBV": "{{Range: 5, 10}}"
 			}
-		},
+		}
 	]
 }
