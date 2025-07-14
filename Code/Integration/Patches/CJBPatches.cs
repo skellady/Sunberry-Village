@@ -39,14 +39,14 @@ internal class CJBPatches
 			MethodInfo m_stringContains = typeof(string).GetMethod(nameof(string.Contains), [typeof(string)]);
 			MethodInfo m_locationNameGetter = typeof(GameLocation).GetProperty(nameof(GameLocation.Name)).GetGetMethod();
 
-			matcher.MatchEndForward(new CodeMatch(OpCodes.Brtrue_S), new CodeMatch(OpCodes.Br_S));
-			Label jumpIfNullLabel = (Label)matcher.Instruction.operand;
-			Label jumpIfNotNullLabel = (Label)matcher.Advance(-1).Instruction.operand;
+			matcher.MatchStartForward(new CodeMatch(OpCodes.Brtrue_S), new CodeMatch(OpCodes.Br_S));
+			Label jumpIfNotNullLabel = (Label)matcher.Instruction.operand;
+            Label jumpIfNullLabel = (Label)matcher.Advance(1).Instruction.operand;
 
-			// check if given location is null. if not, check if it contains mines string in the name
-			// jump accordingly
+            // check if given location is null. if not, check if it contains mines string in the name
+            // jump accordingly
 
-			matcher.Start();
+            matcher.Start();
 			matcher.Insert(
                     new CodeInstruction(OpCodes.Ldarg_2),
 					new CodeInstruction(OpCodes.Ldnull),
