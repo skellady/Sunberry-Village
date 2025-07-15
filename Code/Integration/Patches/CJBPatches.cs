@@ -22,44 +22,48 @@ namespace SunberryVillage.Integration.Patches;
 [HarmonyPatch]
 internal class CJBPatches
 {
-	/*
+	internal const string MinesString = "Custom_SBV_Mines";
+
+    /*
 	 *  Patches
 	 */
 
-	/// <summary>
-	/// Patches <c>CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat</c> to treat Sunberry mines as caves for the freeze time cheat.
-	/// </summary>
-	public static IEnumerable<CodeInstruction> ShouldFreezeTime_Transpiler(IEnumerable<CodeInstruction> instructions)
+    /// <summary>
+    /// Patches <c>CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat</c> to treat Sunberry mines as caves for the freeze time cheat.
+    /// </summary>
+    public static IEnumerable<CodeInstruction> ShouldFreezeTime_Transpiler(IEnumerable<CodeInstruction> instructions)
 	{
 		List<CodeInstruction> origInstructions = [.. instructions]; // store unaltered instructions in case anything goes wrong
 		CodeMatcher matcher = new(instructions);
 
 		try
 		{
+			// get needed method info
 			MethodInfo m_stringContains = typeof(string).GetMethod(nameof(string.Contains), [typeof(string)]);
 			MethodInfo m_locationNameGetter = typeof(GameLocation).GetProperty(nameof(GameLocation.Name)).GetGetMethod();
 
-			matcher.MatchStartForward(new CodeMatch(OpCodes.Brtrue_S), new CodeMatch(OpCodes.Br_S));
-			Label jumpIfNotNullLabel = (Label)matcher.Instruction.operand;
-            Label jumpIfNullLabel = (Label)matcher.Advance(1).Instruction.operand;
+			// get needed labels
+            Label jumpIfSunberryMinesLabel = (Label)matcher.Start().Advance(2).Instruction.operand;
+			Label jumpIfNotSunberryMinesLabel = (Label)matcher.MatchStartForward(
+					new CodeMatch(OpCodes.Brfalse_S),
+					new CodeMatch(OpCodes.Ldc_I4_1)
+				).Instruction.operand;
 
             // check if given location is null. if not, check if it contains mines string in the name
             // jump accordingly
-
-            matcher.Start();
-			matcher.Insert(
+            matcher.Start().Insert(
                     new CodeInstruction(OpCodes.Ldarg_2),
 					new CodeInstruction(OpCodes.Ldnull),
 					new CodeInstruction(OpCodes.Ceq),
-                    new CodeInstruction(OpCodes.Brtrue_S, jumpIfNullLabel),
+                    new CodeInstruction(OpCodes.Brtrue_S, jumpIfNotSunberryMinesLabel),
                     new CodeInstruction(OpCodes.Ldarg_2),
 					new CodeInstruction(OpCodes.Call, m_locationNameGetter),
-					new CodeInstruction(OpCodes.Ldstr, "Custom_SBV_Mines"),
+					new CodeInstruction(OpCodes.Ldstr, MinesString),
 					new CodeInstruction(OpCodes.Call, m_stringContains),
-					new CodeInstruction(OpCodes.Brtrue_S, jumpIfNotNullLabel)
+					new CodeInstruction(OpCodes.Brtrue_S, jumpIfSunberryMinesLabel)
 				);
 
-			return matcher.InstructionEnumeration();
+            return matcher.InstructionEnumeration();
 		}
 		catch (Exception e)
 		{
