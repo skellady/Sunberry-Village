@@ -1,10 +1,13 @@
 ﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using StardewModdingAPI.Events;
 using StardewModdingAPI.Utilities;
 using StardewValley;
 using StardewValley.BellsAndWhistles;
 using StardewValley.Extensions;
+using StardewValley.SpecialOrders;
+using StardewValley.TokenizableStrings;
 using SunberryVillage.Events.Tarot;
 using SunberryVillage.Menus;
 using SunberryVillage.Shops;
@@ -12,13 +15,14 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
-using StardewValley.TokenizableStrings;
 using xTile.Layers;
 
 namespace SunberryVillage.Maps;
 
 internal class MapManager
 {
+	internal static bool SunberryBoardActive = false;
+
 	internal const string TraveledSunberryRoadToday = "SunberryTeam.SBVSMAPI_TraveledSunberryRoadToday";
 
 	internal static readonly PerScreen<int> CurrentMineLevelNumber = new(() => 0);
@@ -42,11 +46,49 @@ internal class MapManager
 		Globals.EventHelper.Player.Warped += CheckForMinesChanges;
 		Globals.EventHelper.Player.Warped += CheckForDrawingMineLevel;
 		Globals.EventHelper.Player.Warped += CheckTravelingSunberryRoad;
+        Globals.EventHelper.Player.Warped += AddOrRemoveDrawHooks;
 		Globals.EventHelper.GameLoop.DayEnding += ModifyTravelingSunberryRoadStat;
 		Globals.EventHelper.GameLoop.DayStarted += RemoveDigSpotsFromMines;
-	}
-	
-	private static void RegisterTileActions(object sender, GameLaunchedEventArgs e)
+        Globals.EventHelper.GameLoop.DayStarted += CheckForSOBoardFlag;
+    }
+
+    private static void CheckForSOBoardFlag(object sender, DayStartedEventArgs e)
+    {
+			SunberryBoardActive = Game1.MasterPlayer.mailReceived.Contains("skellady.SBVCP_SpecialOrderBoardReady");
+    }
+
+    private static void AddOrRemoveDrawHooks(object sender, WarpedEventArgs e)
+    {
+        if (!e.OldLocation.Name.Equals("Custom_SBV_SunberryVillage") && e.NewLocation.Name.Equals("Custom_SBV_SunberryVillage"))
+		{
+            Globals.EventHelper.Display.RenderedWorld += DrawExclamationOverBoard;
+		}
+
+		if (e.OldLocation.Name.Equals("Custom_SBV_SunberryVillage") && !e.NewLocation.Name.Equals("Custom_SBV_SunberryVillage"))
+		{
+            Globals.EventHelper.Display.RenderedWorld -= DrawExclamationOverBoard;
+        }
+    }
+
+    private static void DrawExclamationOverBoard(object sender, RenderedWorldEventArgs e)
+    {
+        if (SunberryBoardActive && !Game1.player.team.acceptedSpecialOrderTypes.Contains("SunberryBoard") && !Game1.eventUp)
+		{
+            float yOffset3 = 4f * (float)Math.Round(Math.Sin(Game1.currentGameTime.TotalGameTime.TotalMilliseconds / 250.0), 2);
+            e.SpriteBatch.Draw(
+					texture: Game1.mouseCursors,
+					position: Game1.GlobalToLocal(Game1.viewport, new Vector2(70 * 64f - 34.4f, 13 * 64f - 43.2f + yOffset3)),
+                    sourceRectangle: new Rectangle(395, 497, 3, 8),
+					color: Color.White, rotation: 0f,
+					origin: new Vector2(1f, 4f),
+					scale: 4f + Math.Max(0f, 0.25f - yOffset3 / 8f),
+					effects: SpriteEffects.None,
+					layerDepth: 1f
+				);
+        }
+    }
+
+    private static void RegisterTileActions(object sender, GameLaunchedEventArgs e)
 	{
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_Book", HandleBookAction);
 		GameLocation.RegisterTileAction("SunberryTeam.SBVSMAPI_ChooseDestination", HandleChooseDestinationAction);
