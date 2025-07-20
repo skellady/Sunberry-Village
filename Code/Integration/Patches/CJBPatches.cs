@@ -43,7 +43,6 @@ internal class CJBPatches
 			MethodInfo m_locationNameGetter = typeof(GameLocation).GetProperty(nameof(GameLocation.Name)).GetGetMethod();
 
 			// get needed labels
-            Label jumpIfSunberryMinesLabel = (Label)matcher.Start().Advance(2).Instruction.operand;
 			Label jumpIfNotSunberryMinesLabel = (Label)matcher.MatchStartForward(
 					new CodeMatch(OpCodes.Brfalse_S),
 					new CodeMatch(OpCodes.Ldc_I4_1)
@@ -51,7 +50,7 @@ internal class CJBPatches
 
             // check if given location is null. if not, check if it contains mines string in the name
             // jump accordingly
-            matcher.Start().Insert(
+            matcher.Advance(1).Insert(
                     new CodeInstruction(OpCodes.Ldarg_2),
 					new CodeInstruction(OpCodes.Ldnull),
 					new CodeInstruction(OpCodes.Ceq),
@@ -60,7 +59,7 @@ internal class CJBPatches
 					new CodeInstruction(OpCodes.Call, m_locationNameGetter),
 					new CodeInstruction(OpCodes.Ldstr, MinesString),
 					new CodeInstruction(OpCodes.Call, m_stringContains),
-					new CodeInstruction(OpCodes.Brtrue_S, jumpIfSunberryMinesLabel)
+					new CodeInstruction(OpCodes.Brfalse_S, jumpIfNotSunberryMinesLabel)
 				);
 
             return matcher.InstructionEnumeration();
