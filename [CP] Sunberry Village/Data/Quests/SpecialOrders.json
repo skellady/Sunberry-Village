@@ -59,7 +59,7 @@
                     "Name": "[SBV.SpecialOrder.MaiaGrubs_Name]",
                     "Requester": "MaiaSBV",
                     "Duration": "TwoWeeks",
-                    "Repeatable": false,
+                    "Repeatable": true,
                     "RequiredTags": "",
                     "OrderType": "SunberryBoard",
                     "SpecialRule": "",
@@ -90,7 +90,7 @@
                     "Name": "[SBV.SpecialOrder.OpheliaMushrooms_Name]",
                     "Requester": "OpheliaSBV",
                     "Duration": "TwoWeeks",
-                    "Repeatable": false,
+                    "Repeatable": true,
                     "RequiredTags": "",
                     "OrderType": "SunberryBoard",
                     "SpecialRule": "",
@@ -841,7 +841,7 @@
                     "Name": "[SBV.SpecialOrder.JumanaFlowerOrder_Name]",
                     "Requester": "JumanaSBV",
                     "Duration": "Month",
-                    "Repeatable": false,
+                    "Repeatable": true,
                     "RequiredTags": "knows_JumanaSBV",
                     "OrderType": "SunberryBoard",
                     "SpecialRule": "",
@@ -1313,7 +1313,7 @@
                                 "DropBoxIndicatorLocation": "15 7",
                                 "AcceptedContextTags": "id_(o)skellady.SBVCP_DwarfKeyIV"
                             }
-                        },
+                        }
                     ],
                     "Rewards": [
                         {
