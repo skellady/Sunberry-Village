@@ -1,9 +1,7 @@
 ﻿using HarmonyLib;
 using Microsoft.Xna.Framework;
 using StardewValley;
-using StardewValley.Buildings;
 using StardewValley.Extensions;
-using StardewValley.GameData.FishPonds;
 using SObject = StardewValley.Object;
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
@@ -25,69 +23,6 @@ internal class BuildingPatches
 	/*
 	 *  Patches
 	 */
-
-	/// <summary>
-	/// Patches <c>FishPond.doFishSpecificWaterColoring</c> to allow for custom water colors. Only gets called once a day per pond so it's fine to pull fish data.
-	/// </summary>
-	[HarmonyPatch(typeof(FishPond), "doFishSpecificWaterColoring")]
-	[HarmonyPrefix]
-	public static bool doFishSpecificWaterColoring_Prefix(FishPond __instance)
-	{
-		FishPondData data = __instance.GetFishPondData();
-
-		if (__instance.currentOccupants.Value < 1 || data?.CustomFields is null || !data.CustomFields.TryGetValue("SunberryTeam.SBVSMAPI_FishPondWaterColor", out string waterColor))
-		{
-			__instance.overrideWaterColor.Value = Color.White;
-			return true;
-		}
-
-		Color? parsedColor = Utility.StringToColor(waterColor);
-
-		if (!parsedColor.HasValue)
-			return true;
-
-		if (!data.CustomFields.TryGetValue("SunberryTeam.SBVSMAPI_FishPondWaterBlendMode", out string blendMode))
-		{
-			blendMode = "soft";
-		}
-
-		if (blendMode == "hard")
-		{
-			if (__instance.currentOccupants.Value > 2)
-			{
-				__instance.overrideWaterColor.Value = parsedColor.Value;
-			}
-		}
-		else
-		{
-			float lerpNum = (float) __instance.currentOccupants.Value / 10;
-
-			Color lerpColor = Color.Lerp(__instance.GetParentLocation().waterColor.Value, parsedColor.Value, lerpNum);
-			__instance.overrideWaterColor.Value = lerpColor;
-		}
-		
-		return false;
-	}
-
-	/// <summary>
-	/// Patches <c>FishPond.addFishToPond</c> to update water color right away.
-	/// </summary>
-	[HarmonyPatch(typeof(FishPond), "addFishToPond")]
-	[HarmonyPostfix]
-	public static void addFishToPond_Postfix(FishPond __instance)
-	{
-		doFishSpecificWaterColoring_Prefix(__instance);
-	}
-
-	/// <summary>
-	/// Patches <c>FishPond.CatchFish</c> to update water color right away.
-	/// </summary>
-	[HarmonyPatch(typeof(FishPond), nameof(FishPond.CatchFish))]
-	[HarmonyPostfix]
-	public static void CatchFish_Postfix(FishPond __instance)
-	{
-		doFishSpecificWaterColoring_Prefix(__instance);
-	}
 
 	/// <summary>
 	/// Patches <c>Object.performUseAction</c> to handle Sunberry totem logic.
@@ -113,11 +48,11 @@ internal class BuildingPatches
 		location.playSound("warrior");
 		Game1.changeMusicTrack("silence");
 
-		Game1.player.FarmerSprite.animateOnce(new FarmerSprite.AnimationFrame[]
-			{
-				new(57, 2000, secondaryArm: false, flip: false),
+		Game1.player.FarmerSprite.animateOnce(
+            [
+                new(57, 2000, secondaryArm: false, flip: false),
 				new((short)Game1.player.FarmerSprite.CurrentFrame, 0, secondaryArm: false, flip: false, totemWarp, behaviorAtEndOfFrame: true)
-			});
+			]);
 
 		Vector2 spritePos1 = Game1.player.Position + new Vector2(0f, -96f);
 		Vector2 spritePos2 = spritePos1 + new Vector2(-64f, 0f);
