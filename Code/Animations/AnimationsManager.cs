@@ -11,9 +11,12 @@ namespace SunberryVillage.Animations;
 
 internal class AnimationsManager
 {
-	internal const string AnimationsAssetPath = "SunberryTeam.SBV/Animations";
-	internal static IAssetName AnimationsAssetName = Globals.GameContent.ParseAssetName(AnimationsAssetPath);
-	internal static Dictionary<string, AnimationDataModel> AnimationData = new();
+	internal const string ScheduleAnimationsAssetPath = "SunberryTeam.SBV/Animations";
+	internal const string SpouseAnimationsAssetPath = "SunberryTeam.SBV/SpouseAnimations";
+	internal static IAssetName AnimationsAssetName = Globals.GameContent.ParseAssetName(ScheduleAnimationsAssetPath);
+	internal static IAssetName SpouseAnimationsAssetName = Globals.GameContent.ParseAssetName(SpouseAnimationsAssetPath);
+	internal static Dictionary<string, AnimationDataModel> ScheduleAnimationData = new();
+	internal static Dictionary<string, SpouseAnimationDataModel> SpouseAnimationData = new();
 
 	#region Logic
 
@@ -27,7 +30,8 @@ internal class AnimationsManager
 
 	private static void LoadData()
 	{
-		AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(AnimationsAssetPath);
+		ScheduleAnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(ScheduleAnimationsAssetPath);
+		SpouseAnimationData = Globals.GameContent.Load<Dictionary<string, SpouseAnimationDataModel>>(SpouseAnimationsAssetPath);
 	}
 
 	#endregion
@@ -51,7 +55,10 @@ internal class AnimationsManager
 	private static void Animations_AssetsInvalidated(object sender, AssetsInvalidatedEventArgs e)
 	{
 		if (e.NamesWithoutLocale.Contains(AnimationsAssetName))
-			AnimationData = Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(AnimationsAssetPath);
+			ScheduleAnimationData =
+				Globals.GameContent.Load<Dictionary<string, AnimationDataModel>>(ScheduleAnimationsAssetPath);
+		if (e.NamesWithoutLocale.Contains(SpouseAnimationsAssetName))
+			SpouseAnimationData = Globals.GameContent.Load<Dictionary<string, SpouseAnimationDataModel>>(SpouseAnimationsAssetPath);
 	}
 
 	/// <summary>
@@ -59,8 +66,11 @@ internal class AnimationsManager
 	/// </summary>
 	private static void Animations_AssetRequested(object sender, AssetRequestedEventArgs e)
 	{
-		if (e.NameWithoutLocale.IsEquivalentTo(AnimationsAssetPath))
+		if (e.NameWithoutLocale.IsEquivalentTo(ScheduleAnimationsAssetPath))
 			e.LoadFrom(() => new Dictionary<string, AnimationDataModel>(), AssetLoadPriority.Low);
+		else if (e.NameWithoutLocale.IsEquivalentTo(SpouseAnimationsAssetPath))
+			e.LoadFrom(() => new Dictionary<string, SpouseAnimationDataModel>(), AssetLoadPriority.Low);
+			
 	}
 
 	/// <summary>
@@ -70,13 +80,13 @@ internal class AnimationsManager
 	{
 		try
 		{
-			foreach (var animation in AnimationData.Values)
+			foreach (var animation in ScheduleAnimationData.Values)
 			{
 				NPC npc = Game1.getCharacterFromName(animation.NpcName);
 
 				if (npc is null)
 				{
-					Log.Warn($"Failed to find NPC named \"{animation.NpcName}\" from asset {AnimationsAssetPath}. Skipping this entry.");
+					Log.Warn($"Failed to find NPC named \"{animation.NpcName}\" from asset {ScheduleAnimationsAssetPath}. Skipping this entry.");
 					continue;
 				}
 
@@ -131,6 +141,16 @@ internal class ExtraAnimation
 	public float AnimationInterval = 5000f;
 	public int Frames;
 	public string TextureName;
+}
+
+internal class SpouseAnimationDataModel
+{
+	public string NpcName;
+	public Vector2 Size;
+	public Vector2 Offset;
+	public bool HideShadow;
+	public List<int[]> SpriteAnimationFrames;
+	public List<ExtraAnimation> ExtraAnimations;
 }
 
 #pragma warning restore CS0649

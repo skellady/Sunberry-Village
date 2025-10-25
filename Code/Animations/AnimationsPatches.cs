@@ -2,6 +2,7 @@
 using Microsoft.Xna.Framework;
 using StardewValley;
 using System;
+using System.Collections.Generic;
 
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
@@ -31,7 +32,7 @@ internal class AnimationsPatches
 	{
 		try
 		{
-			if (behaviorName.Length > 0 && behaviorName[0] == '"' || !AnimationsManager.AnimationData.TryGetValue(behaviorName, out AnimationDataModel animation))
+			if (behaviorName.Length > 0 && behaviorName[0] == '"' || !AnimationsManager.ScheduleAnimationData.TryGetValue(behaviorName, out AnimationDataModel animation))
 				return;
 
 			if (animation.Size != Vector2.Zero)
@@ -94,7 +95,7 @@ internal class AnimationsPatches
 	{
 		try
 		{
-			if (behaviorName.Length > 0 && behaviorName[0] == '"' || !AnimationsManager.AnimationData.TryGetValue(behaviorName, out AnimationDataModel animationDataModel))
+			if (behaviorName.Length > 0 && behaviorName[0] == '"' || !AnimationsManager.ScheduleAnimationData.TryGetValue(behaviorName, out AnimationDataModel animationDataModel))
 				return true;
 
 			__instance.reloadSprite();
@@ -121,6 +122,90 @@ internal class AnimationsPatches
 			Log.Error($"Harmony patch \"{nameof(AnimationsPatches)}::{nameof(finishRouteBehavior_Prefix)}\" has encountered an error for \"{__instance.Name}\" with behavior \"{behaviorName}\": \n{e}");
 			return true;
 		}
+	}
+	
+		/// <summary>
+	/// Patches <c>NPC.startRouteBehavior</c> to check if the specified animation is defined in the animation data asset, and if so, sets the appropriate values for the NPC.
+	/// </summary>
+	/// <param name="__instance">The NPC being checked.</param>
+	/// <param name="behaviorName">The animation to check the asset for.</param>
+	[HarmonyPatch(typeof(NPC), "doPlaySpousePatioAnimation")]
+	[HarmonyPrefix]
+	internal static bool doPlaySpouseAnimation_Prefix(ref NPC __instance)
+	{
+		try
+		{
+			if (!AnimationsManager.SpouseAnimationData.TryGetValue(__instance.Name,
+				    out SpouseAnimationDataModel animation))
+			{
+				return true;
+
+			}
+			
+			if (animation.Size != Vector2.Zero)
+			{
+				int width = (int)animation.Size.X;
+				int height = (int)animation.Size.Y;
+
+				__instance.extendSourceRect(width - 16, height - 32);
+				__instance.Sprite.SpriteWidth = width;
+				__instance.Sprite.SpriteHeight = height;
+				__instance.Sprite.ClearAnimation();
+				List<int[]> frames = animation.SpriteAnimationFrames;
+				for (int i = 0; i < frames.Count; i++)
+				{
+					int[] frame = frames[i];
+					if (frame != null && frame.Length != 0)
+					{
+						int index = frame[0];
+						int duration = (ArgUtility.HasIndex(frame, 1) ? frame[1] : 100);
+						__instance.Sprite.AddFrame(
+							new FarmerSprite.AnimationFrame(index, duration, 0, secondaryArm: false, flip: false)
+						);
+					}
+				}
+				
+			}
+
+			if (animation.ExtraAnimations != null)
+			{
+				foreach (ExtraAnimation extraAnimation in animation.ExtraAnimations)
+				{
+					TemporaryAnimatedSprite extraAnim = new(
+						textureName: extraAnimation.TextureName,
+						sourceRect: new Rectangle(0, 0, (int)extraAnimation.Size.X, (int)extraAnimation.Size.Y),
+						animationInterval: extraAnimation.AnimationInterval,
+						animationLength: extraAnimation.Frames,
+						numberOfLoops: 999999,
+						position: __instance.Position + extraAnimation.Offset,
+						flicker: false,
+						flipped: false,
+						layerDepth: 0.0002f,
+						alphaFade: 0f,
+						color: Color.White,
+						scale: 4f,
+						scaleChange: 0f,
+						rotation: 0f,
+						rotationChange: 0f)
+					{
+						id = extraAnimation.Name.GetHashCode()
+					};
+
+					Game1.Multiplayer.broadcastSprites(Utility.getGameLocationOfCharacter(__instance), extraAnim);
+				}
+			}
+
+			__instance.drawOffset = animation.Offset;
+			__instance.Sprite.ignoreSourceRectUpdates = false;
+			__instance.HideShadow = animation.HideShadow;
+		}
+		catch (Exception e)
+		{
+			Log.Error($"Harmony patch \"{nameof(AnimationsPatches)}::{nameof(startRouteBehavior_Postfix)}\" has encountered an error for {__instance.Name} with : \n{e}");
+			return true;
+		}
+
+		return false;
 	}
 }
 
