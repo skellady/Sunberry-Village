@@ -85,6 +85,8 @@
 
                 //other dialogue
 				"MovieInvitation": "{{i18n:Elias.Dialogue.MovieInvitation}}",
+                "breakUp": "{{i18n:Elias.Dialogue.BreakUp}}",
+                "divorced": "{{i18n:Elias.Dialogue.Divorced}}",
 
                 //Gift Dialogue
                 //Positive/Negative

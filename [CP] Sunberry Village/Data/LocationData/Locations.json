@@ -83,19 +83,19 @@
                         },
                         {
                             "Id": "{{ModId}}_VSeaCow",
-                            "ItemId": "{{ModId}}_SeaCow",
+                            "ItemId": "(O){{ModId}}_SeaCow",
                             "Precedence": -1,
                             "Season": "Summer"
                         },
                         {
                             "Id": "{{ModId}}_FiretailGuppy",
-                            "ItemId": "{{ModId}}_FiretailGuppy",
+                            "ItemId": "(O){{ModId}}_FiretailGuppy",
                             "Precedence": -1,
                             "Season": "Fall"
                         },
                         {
                             "Id": "{{ModId}}_EmeraldSnapper",
-                            "ItemId": "{{ModId}}_EmeraldSnapper",
+                            "ItemId": "(O){{ModId}}_EmeraldSnapper",
                             "Precedence": -1,
                             "Condition": "LOCATION_SEASON Here summer fall winter"
                         },
@@ -300,29 +300,29 @@
                         },
                         {
                             "Id": "{{ModId}}_ChartreuseTilapia",
-                            "ItemId": "{{ModId}}_ChartreuseTilapia",
+                            "ItemId": "(O){{ModId}}_ChartreuseTilapia",
                             "Condition": "LOCATION_SEASON Here summer fall"
                         },
                         {
                             "Id": "{{ModId}}_FSeaCow",
-                            "ItemId": "{{ModId}}_SeaCow",
+                            "ItemId": "(O){{ModId}}_SeaCow",
                             "Condition": "LOCATION_SEASON Here spring fall",
                             "Precedence": -1
                         },
                         {
                             "Id": "{{ModId}}_EeltailedCatfish",
-                            "ItemId": "{{ModId}}_EeltailedCatfish",
+                            "ItemId": "(O){{ModId}}_EeltailedCatfish",
                             "Condition": "LOCATION_SEASON Here spring summer, ANY \"TIME 600 1100\" \"TIME 1900 2600\"",
                             "Precedence": -1
                         },
                         {
                             "Id": "{{ModId}}_BubblyBetta",
-                            "ItemId": "{{ModId}}_BubblyBetta",
+                            "ItemId": "(O){{ModId}}_BubblyBetta",
                             "Condition": "LOCATION_SEASON Here spring winter"
                         },
                         {
                             "Id": "{{ModId}}_FBarkfish",
-                            "ItemId": "{{ModId}}_Barkfish"
+                            "ItemId": "(O){{ModId}}_Barkfish"
                         },
                         {
                             "Id": "{{ModId}}_FBream",
@@ -563,17 +563,17 @@
                         },
                         {
                             "Id": "{{ModId}}_MBonbonFish",
-                            "ItemId": "{{ModId}}_BonbonFish",
+                            "ItemId": "(O){{ModId}}_BonbonFish",
                             "Precedence": -1
                         },
                         {
                             "Id": "{{ModId}}_MNajelfish",
-                            "ItemId": "{{ModId}}_Najelfish",
+                            "ItemId": "(O){{ModId}}_Najelfish",
                             "Precedence": -1
                         },
                         {
                             "Id": "{{ModId}}_AzureanCarp",
-                            "ItemId": "{{ModId}}_AzureanCarp",
+                            "ItemId": "(O){{ModId}}_AzureanCarp",
                             "Condition": "LOCATION_SEASON Here spring summer fall",
                             "Precedence": -1
                         },
@@ -739,17 +739,17 @@
                         },
                         {
                             "Id": "{{ModId}}_BonbonFish",
-                            "ItemId": "{{ModId}}_BonbonFish",
+                            "ItemId": "(O){{ModId}}_BonbonFish",
                             "Precedence": -1
                         },
                         {
                             "Id": "{{ModId}}_Najelfish",
-                            "ItemId": "{{ModId}}_Najelfish",
+                            "ItemId": "(O){{ModId}}_Najelfish",
                             "Precedence": -1
                         },
                         {
                             "Id": "{{ModId}}_AzureanCarp",
-                            "ItemId": "{{ModId}}_AzureanCarp",
+                            "ItemId": "(O){{ModId}}_AzureanCarp",
                             "Condition": "LOCATION_SEASON Here spring summer fall",
                             "Precedence": -1
                         },
@@ -1124,7 +1124,7 @@
                         },
                         {
                             "Id": "{{ModId}}_SBarkfish",
-                            "ItemId": "{{ModId}}_Barkfish"
+                            "ItemId": "(O){{ModId}}_Barkfish"
                         }
                     ],
                     "Forage": [
@@ -1241,7 +1241,7 @@
                         },
                         {
                             "Id": "{{ModId}}_S1ChartreuseTilapia",
-                            "ItemId": "{{ModId}}_ChartreuseTilapia",
+                            "ItemId": "(O){{ModId}}_ChartreuseTilapia",
                             "Condition": "LOCATION_SEASON Here summer fall"
                         },
                         {
@@ -1290,7 +1290,7 @@
                         },
                         {
                             "Id": "{{ModId}}_S1Barkfish",
-                            "ItemId": "{{ModId}}_Barkfish"
+                            "ItemId": "(O){{ModId}}_Barkfish"
                         }
                     ],
                     "Forage": [
@@ -1419,7 +1419,7 @@
                     "Fish": [
                         {
                             "Id": "{{ModId}}_S2AnglerJr",
-                            "ItemId": "{{ModId}}_AnglerJr",
+                            "ItemId": "(O){{ModId}}_AnglerJr",
                             "Season": "fall",
                             "IsBossFish": "true",
                             "CatchLimit": 1,
@@ -1438,7 +1438,7 @@
                         },
                         {
                             "Id": "{{ModId}}_S2ChartreuseTilapia",
-                            "ItemId": "{{ModId}}_ChartreuseTilapia",
+                            "ItemId": "(O){{ModId}}_ChartreuseTilapia",
                             "Condition": "LOCATION_SEASON Here summer fall"
                         },
                         {
@@ -1487,7 +1487,7 @@
                         },
                         {
                             "Id": "{{ModId}}_S2Barkfish",
-                            "ItemId": "{{ModId}}_Barkfish"
+                            "ItemId": "(O){{ModId}}_Barkfish"
                         }
                     ],
                     "Forage": [

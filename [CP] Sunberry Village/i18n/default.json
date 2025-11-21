@@ -2513,7 +2513,7 @@
     "Mail.ReihanaSlime.Title": "Get Slimed",
     "Mail.AichaSeeds.Body": "Hi, @!!^^Guess what? I bought some seeds! Yes, with my own money! I hope you like them. I'll come by the farm to see them when they're grown. Bye, have fun! :3^^- Aicha",
     "Mail.AichaSeeds.Title": "Aicha's Seeds",
-    "Mail.EliasFishCompendiumIntro.Body": "^Hi @,^^I see you've taken an interest in Sunberry's aquatic fauna! There's an incredible array of critters unique to the waters in the region.^^I've been wanting to put together a compendium of sorts, and if you're interested I'd appreciate your assistance.^^^^^ ^Just show me anything you fish up in the village and surrounding areas, and if it's unique to Sunberry I'll write up some notes on it and add it to my book. Don't worry, you can keep the fish when I'm done with it.^^You can look through the book whenever you like; I'll keep it in the library, on the table left of the entrance.^^ ^Here's a li'l extra bait to get you started on^your journey!^^- Elias^^P.S: Yes, I used my fancy paper for this letter. I'm just happy to see someone else enjoying the rivers and lakes of Sunberry!",
+    "Mail.EliasFishCompendiumIntro.Body": "^Hi @,^^I see you've taken an interest in Sunberry's aquatic fauna! There's an incredible array of critters unique to the waters in the region.^^I've been wanting to put together a compendium of sorts, and if you're interested, I'd appreciate your assistance.^^^^^ ^Just show me anything you fish up in the village and surrounding areas, and if it's unique to Sunberry, I'll write up some notes on it and add it to my book. Don't worry, you can keep the fish when I'm done with it.^^You can look through the book whenever you like; I'll keep it in the library, on the table left of the entrance.^^ ^Here's a li'l extra bait to get you started on^your journey!^^- Elias^^P.S: Yes, I used my fancy paper for this letter. I'm just happy to see someone else enjoying the rivers and lakes of Sunberry!",
     "Mail.EliasFishCompendiumIntro.Title": "Fishy Fact Or Fishy Fiction?",
     "Mail.EliasFishCompendiumReward1.Body": "Hi @,^^Thank you for helping me fill out the fish compendium! It's coming along nicely, though there's still plenty to discover.^^Here's a li'l somethin' to keep those fish biting!^^- Elias",
     "Mail.EliasFishCompendiumReward1.Title": "Smooth Sailing",
@@ -4742,6 +4742,8 @@
 
     //Other Dialogue
     "Elias.Dialogue.MovieInvitation": "Hm, I haven't seen a movie in a hot minute. Thanks, @. I'll see you there soon.$h", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Elias.Dialogue.BreakUp": "Oh... I... I wasn't expectin' that.$s#$b#It's alright, I understand. I wish you the best, @.$s", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Elias.Dialogue.Divorced": "Definitely wasn't expectin' one divorce, let alone two divorces in one lifetime. What a joke.$s#$b#Please, just go, @.$11", // FOR TRANSLATORS: NEW IN 1.0.4
 
     // Resort Dialogue
 
@@ -6304,7 +6306,7 @@
     "SBV.WildMustardSeeds.Name": "Wild Mustard Seeds",
     "SBV.WildMustardSeeds.Description": "Plant in fall. Takes 7 days to produce a four-petaled yellow flower.",
     "SBV.CarobSapling.Name": "Carob Sapling",
-    "SBV.CarobSapling.Description": "Takes 28 days to produce a mature Carob. Bears fruit in the fall.",
+    "SBV.CarobSapling.Description": "Takes 28 days to grow into a mature Carob tree. Bears fruit in the fall.",
 
     //Fish
     "SBV.Mothfish.Name": "Mothfish",
@@ -6902,7 +6904,7 @@
     "FishCompendium.Title": " ", // translation of the title text which is baked into the letter background: "Aquatic Creatures of Sunberry Village"
     "FishCompendium.Author": "a Compendium by Elias R.",
 
-    "FishCompendium.Intro": " ^^^This volume contains all the knowledge I have gathered about the aquatic fauna native to Sunberry Village and the surrounding area.",
+    "FishCompendium.Intro": " ^^^^^This volume contains all the knowledge I have gathered about the aquatic fauna native to Sunberry Village and the surrounding area.",
     "FishCompendium.SpecialThanks": "Special thanks to my tireless research partner, @, who provided the specimens for me to study.",
 
     // Headers

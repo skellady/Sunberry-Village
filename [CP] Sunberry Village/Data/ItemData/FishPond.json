@@ -123,6 +123,23 @@
                     ],
                     "Precedence": 0,
                     "SpawnTime": -1,
+                    "WaterColor": [
+                        {
+                            "Id": "VeryGreen",
+                            "Color": "MediumSpringGreen",
+                            "MinPopulation": 8
+                        },
+                        {
+                            "Id": "MediumGreen",
+                            "Color": "PaleGreen",
+                            "MinPopulation": 5
+                        },
+                        {
+                            "Id": "LightGreen",
+                            "Color": "LightGreen",
+                            "MinPopulation": 2
+                        }
+                    ],
                     "ProducedItems": [
                         {
                             "RequiredPopulation": 9,

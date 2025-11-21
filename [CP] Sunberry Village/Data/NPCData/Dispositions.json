@@ -1718,14 +1718,14 @@
                     "SocialTab": "HiddenUntilMet",
                     "MugShotSourceRect": {
                         "X": 0,
-                        "Y": 139,
+                        "Y": 12,
                         "Width": 16,
                         "Height": 20
                     },
                     "IntroductionsQuest": false,
                     "PerfectionScore": false,
-                    "DumpsterDiveEmote": 32,
-                    "DumpsterDiveFriendshipEffect": 0,
+                    "DumpsterDiveEmote": 12,
+                    "DumpsterDiveFriendshipEffect": -10,
                     "SpawnIfMissing": true,
                     "Appearance": [
                         {
@@ -1767,7 +1767,7 @@
                     ],
                     "Shadow":
                         {
-                            "Visible": false
+                            "Visible": true
                         },
                     "Home": [
                         {
@@ -1781,7 +1781,7 @@
                         }
                     ],
                     "Size": {
-                        "X": 32,
+                        "X": 16,
                         "Y": 32
                     },
                     "Breather": false

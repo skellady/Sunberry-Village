@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="233">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="23" height="19" tilewidth="16" tileheight="16" infinite="0" nextlayerid="14" nextobjectid="255">
  <properties>
   <property name="AllowBeds" value="true"/>
   <property name="AllowMiniFridges" value="true"/>
@@ -48,13 +48,13 @@
 0,13590,13606,13622,0,0,13622,13606,13622,13606,13590,0,0,0,0,0,0,0,0,0,0,0,0,
 0,13606,13622,13724,13723,13724,13723,13724,13723,13622,13606,13590,13590,13590,13590,13590,13590,13590,13590,13590,13590,13590,0,
 0,13622,13739,13740,13739,13740,13739,13740,13739,13740,13622,13606,13606,13606,13606,13606,13606,13606,13606,13606,13606,13606,0,
-0,13723,13724,13723,13724,13723,13724,13723,13724,13723,13724,13622,13622,13622,13622,13622,13622,13622,13622,13622,13622,13622,0,
-0,13739,13740,13739,13740,13739,13740,13739,13740,13739,13740,13723,13724,13723,13724,13723,13724,13723,13724,13723,13724,13723,13724,
-0,13723,13724,13723,13724,13723,13724,13723,13724,13723,13724,13739,13740,13739,13740,13739,13740,13739,13740,13739,13740,13739,13740,
-0,13739,13740,13739,13740,13739,13740,13739,13740,13739,13740,13723,13724,13723,13724,13723,13724,13723,13724,13723,13724,13723,13724,
-0,13590,13590,13590,13590,13590,13590,13723,13724,13723,13724,13739,13740,13739,13740,13739,13740,13739,13740,13739,13740,13739,13740,
-0,13606,13606,13606,13606,13606,13606,13739,13740,13739,13740,0,0,0,0,0,13724,13723,13724,0,0,0,0,
-0,13622,13724,13723,13724,13723,13724,13723,13724,0,0,0,0,0,0,0,0,13739,13740,0,0,0,0,
+0,13723,13724,13723,13724,13723,13724,13723,13724,13723,13724,13622,13622,13723,13724,13723,13724,13723,13724,13723,13724,13723,0,
+0,13739,13740,13739,13740,13739,13740,13739,13740,13739,13740,13723,13724,13739,13740,13739,13740,13739,13740,13739,13740,13739,0,
+0,13723,13724,13723,13724,13723,13724,13723,13724,13723,13724,13739,13740,13723,13724,13723,13724,13723,13724,13723,13724,13723,0,
+0,13739,13740,13739,13740,13739,13740,13739,13740,13739,13740,13723,13724,13739,13740,13739,13740,13739,13740,13739,13740,13739,0,
+0,13590,13590,13590,13590,13590,13590,13723,13724,13723,13724,13739,13740,13723,13724,13723,13724,13723,13724,13723,13724,13723,0,
+0,13606,13606,13606,13606,13606,13606,13739,13740,13739,13740,0,0,13739,13740,13739,13740,13739,13740,13739,13740,13739,0,
+0,13622,13622,13622,13622,13622,13724,13723,13724,0,0,0,0,0,0,0,0,13739,13740,0,0,0,0,
 0,13739,13740,13739,13740,13739,13740,13739,13740,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,13723,13724,13723,13724,13723,13724,13723,13724,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,13739,13740,13739,13740,13739,13740,13739,13740,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -100,7 +100,7 @@
     <property name="FloorID" value="skellady.SBVCP_Separator"/>
    </properties>
   </object>
-  <object id="77" name="TileData" x="208" y="144" width="144" height="64">
+  <object id="77" name="TileData" x="208" y="128" width="144" height="80">
    <properties>
     <property name="FloorID" value="skellady.SBVCP_Main"/>
    </properties>
@@ -110,17 +110,17 @@
     <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="141" name="TileData" x="208" y="96" width="144" height="16">
+  <object id="141" name="TileData" x="208" y="96" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Main"/>
    </properties>
   </object>
-  <object id="150" name="TileData" x="16" y="192" width="96" height="16">
+  <object id="150" name="TileData" x="16" y="192" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Kitchen"/>
    </properties>
   </object>
-  <object id="171" name="TileData" x="176" y="112" width="32" height="16">
+  <object id="171" name="TileData" x="176" y="112" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Separator"/>
    </properties>
@@ -150,42 +150,42 @@
     <property name="FloorID" value="skellady.SBVCP_Kitchen"/>
    </properties>
   </object>
-  <object id="219" name="TileData" x="128" y="48" width="16" height="32">
+  <object id="219" name="TileData" x="128" y="48" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="220" name="TileData" x="64" y="32" width="16" height="32">
+  <object id="220" name="TileData" x="64" y="32" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="221" name="TileData" x="48" y="48" width="16" height="32">
+  <object id="221" name="TileData" x="48" y="48" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="222" name="TileData" x="32" y="64" width="16" height="32">
+  <object id="222" name="TileData" x="32" y="64" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="223" name="TileData" x="112" y="32" width="16" height="32">
+  <object id="223" name="TileData" x="112" y="32" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="224" name="TileData" x="144" y="64" width="16" height="32">
+  <object id="224" name="TileData" x="144" y="64" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="225" name="TileData" x="16" y="80" width="16" height="32">
+  <object id="225" name="TileData" x="16" y="80" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
-  <object id="226" name="TileData" x="160" y="80" width="16" height="32">
+  <object id="226" name="TileData" x="160" y="80" width="16" height="16">
    <properties>
     <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
@@ -193,6 +193,116 @@
   <object id="228" name="TileData" x="144" y="192" width="32" height="16">
    <properties>
     <property name="FloorID" value="skellady.SBVCP_Kitchen"/>
+   </properties>
+  </object>
+  <object id="233" name="TileData" x="224" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Main"/>
+   </properties>
+  </object>
+  <object id="234" name="TileData" x="240" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Main"/>
+   </properties>
+  </object>
+  <object id="235" name="TileData" x="256" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Main"/>
+   </properties>
+  </object>
+  <object id="236" name="TileData" x="272" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Main"/>
+   </properties>
+  </object>
+  <object id="237" name="TileData" x="288" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Main"/>
+   </properties>
+  </object>
+  <object id="238" name="TileData" x="304" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Main"/>
+   </properties>
+  </object>
+  <object id="239" name="TileData" x="320" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Main"/>
+   </properties>
+  </object>
+  <object id="240" name="TileData" x="336" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Main"/>
+   </properties>
+  </object>
+  <object id="241" name="TileData" x="32" y="192" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Kitchen"/>
+   </properties>
+  </object>
+  <object id="242" name="TileData" x="48" y="192" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Kitchen"/>
+   </properties>
+  </object>
+  <object id="243" name="TileData" x="64" y="192" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Kitchen"/>
+   </properties>
+  </object>
+  <object id="244" name="TileData" x="80" y="192" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Kitchen"/>
+   </properties>
+  </object>
+  <object id="245" name="TileData" x="96" y="192" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Kitchen"/>
+   </properties>
+  </object>
+  <object id="246" name="TileData" x="192" y="112" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Separator"/>
+   </properties>
+  </object>
+  <object id="247" name="TileData" x="160" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
+   </properties>
+  </object>
+  <object id="248" name="TileData" x="144" y="80" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
+   </properties>
+  </object>
+  <object id="249" name="TileData" x="128" y="64" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
+   </properties>
+  </object>
+  <object id="250" name="TileData" x="112" y="48" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
+   </properties>
+  </object>
+  <object id="251" name="TileData" x="64" y="48" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
+   </properties>
+  </object>
+  <object id="252" name="TileData" x="48" y="64" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
+   </properties>
+  </object>
+  <object id="253" name="TileData" x="32" y="80" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
+   </properties>
+  </object>
+  <object id="254" name="TileData" x="16" y="96" width="16" height="16">
+   <properties>
+    <property name="WallID" value="skellady.SBVCP_Bedroom"/>
    </properties>
   </object>
  </objectgroup>
@@ -211,8 +321,8 @@
 65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,
 161,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,69,
 33,42,49,49,49,49,49,0,0,0,0,131,97,0,0,0,0,0,0,0,0,0,131,
-65,74,75,75,75,75,88,0,0,69,1,1,1,1,1,1,97,0,131,1,1,1,1,
-65,106,107,107,107,107,120,0,0,69,1,1,1,1,1,1,1,1,1,1,1,1,1,
+65,74,0,0,0,0,0,0,0,69,1,1,1,1,1,1,97,0,131,1,1,1,1,
+65,106,13622,13622,13622,13622,13622,0,0,69,1,1,1,1,1,1,1,1,1,1,1,1,1,
 65,138,14244,14245,14246,14247,14248,0,0,69,1,1,1,1,1,1,1,1,1,1,1,1,1,
 65,0,0,0,0,0,0,0,0,69,1,1,1,1,1,1,1,1,1,1,1,1,1,
 97,0,0,0,0,0,0,0,0,131,1,1,1,1,1,1,1,1,1,1,1,1,1,
@@ -234,7 +344,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
@@ -311,6 +421,29 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <layer id="13" name="Front+1" width="23" height="19">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,75,75,75,75,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
  <objectgroup id="8" name="Front"/>
  <layer id="9" name="AlwaysFront" width="23" height="19">
   <data encoding="csv">
@@ -327,7 +460,7 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,14220,0,14222,14223,14224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,14220,14221,14222,14223,14224,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
