@@ -128,7 +128,6 @@
                             "Condition": "LOCATION_SEASON Here summer winter"
                         },
                         {
-
                             "Id": "{{ModId}}_VTigerTrout",
                             "ItemId": "(O)699",
                             "Condition": "LOCATION_SEASON Here fall winter"
@@ -2517,6 +2516,12 @@
                             "Amount": 0
                         }
                     ]
+                },
+                "{{ModId}}_CarmineBlossom": {
+                    "Id": "{{ModId}}_CarmineBlossom",
+                    "ItemId": "{{ModId}}_CarmineBlossom",
+                    "Season": "Winter",
+                    "Chance": 0.6
                 }
             }
         },
