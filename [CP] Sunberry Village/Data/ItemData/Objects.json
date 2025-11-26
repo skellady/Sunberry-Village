@@ -193,6 +193,7 @@
                     "SpriteIndex": 10,
                     "ContextTags": [
                         "season_fall",
+                        "edible_flower_item",
                         "flower_item",
                         "color_yellow"
                     ]
@@ -225,11 +226,62 @@
                     "SpriteIndex": 12,
                     "ContextTags": [
                         "season_winter",
+                        "edible_flower_item",
                         "flower_item",
                         "color_dark_red",
                         "color_dark_blue"
                     ]
-                }
+                },
+                "skellady.SBVCP_Marigold": {
+                    "Name": "skellady.SBVCP_Marigold",
+                    "DisplayName": "{{i18n:SBV.Marigold.Name}}",
+                    "Description": "{{i18n:SBV.Marigold.Description}}",
+                    "Edibility": "10",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 30,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 13,
+                    "ContextTags": [
+                        "season_summer",
+                        "edible_flower_item",
+                        "flower_item",
+                        "color_yellow",
+                    ]
+                },
+                "skellady.SBVCP_Bluestar": {
+                    "Name": "skellady.SBVCP_Bluestar",
+                    "DisplayName": "{{i18n:SBV.Bluestar.Name}}",
+                    "Description": "{{i18n:SBV.Bluestar.Description}}",
+                    "Edibility": "10",
+                    "Type": "Flower",
+                    "Category": -80,
+                    "Price": 20,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 14,
+                    "ContextTags": [
+                        "season_spring",
+                        "edible_flower_item",
+                        "flower_item",
+                        "color_blue",
+                    ]
+                },
+                "skellady.SBVCP_Cloudberry": {
+                    "Name": "skellady.SBVCP_Cloudberry",
+                    "DisplayName": "{{i18n:SBV.Cloudberry.Name}}",
+                    "Description": "{{i18n:SBV.Cloudberry.Description}}",
+                    "Edibility": "10",
+                    "Type": "Fruit",
+                    "Category": -79,
+                    "Price": 10,
+                    "Texture": "Mods\\skellady.SBVCP\\Produce",
+                    "SpriteIndex": 15,
+                    "ContextTags": [
+                        "season_summer",
+                        "fruit_item",
+                        "color_orange",
+                    ]
+                },
             }
         },
         // Food
@@ -314,7 +366,24 @@
                         "food_sweet",
                         "ice_cream_item"
                     ]
-                }
+                },
+                "skellady.SBVCP_CloudberryPie": {
+                    "Name": "skellady.SBVCP_CloudberryPie",
+                    "DisplayName": "{{i18n:SBV.CloudberryPie.Name}}",
+                    "Description": "{{i18n:SBV.CloudberryPie.Description}}",
+                    "Edibility": "86",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": 300,
+                    "Texture": "Mods\\skellady.SBVCP\\Food",
+                    "SpriteIndex": 3,
+                    "IsDrink": false,
+                    "ContextTags": [
+                        "food_bakery",
+                        "food_sweet",
+                        "color_orange",
+                    ]
+                },
             }
         },
         // Gems and Artifacts
@@ -1641,7 +1710,24 @@
                         "drink_item",
                         "juice_item"
                     ]
-                }
+                },
+                "skellady.SBVCP_MarigoldTea": {
+                    "Name": "skellady.SBVCP_MarigoldTea",
+                    "DisplayName": "{{i18n:SBV.MarigoldTea.Name}}",
+                    "Description": "{{i18n:SBV.MarigoldTea.Description}}",
+                    "Edibility": "30",
+                    "Type": "ArtisanGoods",
+                    "Category": -26,
+                    "Price": 100,
+                    "Texture": "Mods\\skellady.SBVCP\\MiscItems",
+                    "SpriteIndex": 33,
+                    "IsDrink": true,
+                    "ExcludeFromShippingCollection": false,
+                    "ContextTags": [
+                        "drink_item",
+                        "tea_item"
+                    ]
+                },
             }
         },
         // Seeds

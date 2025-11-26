@@ -444,6 +444,7 @@
         "skellady.SBVCP_20031446",
         "skellady.SBVCP_20031478",
         "skellady.SBVCP_20031479",
+        "skellady.SBVCP_WarpTotemEvent"
     ],
     "Changes": [
         /* Temporary Actors */
@@ -584,7 +585,7 @@
         {
             "LogName": "Include Compatibility Data",
             "Action": "Include",
-            "FromFile": "Data/Compatibility/CJBWarps.json, Data/Compatibility/DSVFlowerQueensCrown.json, Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json, Data/Compatibility/RSVShop.json, Data/Compatibility/VanillaTweaks.json, Data/Compatibility/WorldMapsEverywhere.json, Data/Compatibility/VisitMtVapius.json, Data/Compatibility/VisibleFish.json, Data/Compatibility/NPCMapLocations.json, Data/Compatibility/MiscCompat.json"
+            "FromFile": "Data/Compatibility/CJBWarps.json, Data/Compatibility/DSVFlowerQueensCrown.json, Data/Compatibility/EventLookUp.json, Data/Compatibility/CustomGiftDialogue.json, Data/Compatibility/GIMA.json, Data/Compatibility/MobilePhone.json, Data/Compatibility/MinecartPatcher.json, Data/Compatibility/RSVShop.json, Data/Compatibility/VanillaTweaks.json, Data/Compatibility/WorldMapsEverywhere.json, Data/Compatibility/VisitMtVapius.json, Data/Compatibility/VisibleFish.json, Data/Compatibility/NPCMapLocations.json, Data/Compatibility/MiscCompat.json, Data/Compatibility/BushBloom.json"
         },
         // Festivals
         {

@@ -158,6 +158,18 @@
                             "Chance": 0.7
                         },
                         {
+                            "Id": "{{ModId}}_VBluestar",
+                            "ItemId": "(O){{ModId}}_Bluestar",
+                            "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_VCloudberry",
+                            "ItemId": "(O){{ModId}}_Cloudberry",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
                             "Id": "{{ModId}}_VSweetPea",
                             "ItemId": "(O)402",
                             "Season": "Summer",
@@ -394,6 +406,18 @@
                             "Chance": 0.9
                         },
                         {
+                            "Id": "{{ModId}}_FMarigold",
+                            "ItemId": "(O){{ModId}}_Marigold",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_FCloudberry",
+                            "ItemId": "(O){{ModId}}_Cloudberry",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
                             "Id": "{{ModId}}_FSweetPea",
                             "ItemId": "(O)402",
                             "Season": "Summer",
@@ -617,6 +641,24 @@
                             "Chance": 0.7
                         },
                         {
+                            "Id": "{{ModId}}_MBluestar",
+                            "ItemId": "(O){{ModId}}_Bluestar",
+                            "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_MMarigold",
+                            "ItemId": "(O){{ModId}}_Marigold",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_MCloudberry",
+                            "ItemId": "(O){{ModId}}_Cloudberry",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
                             "Id": "{{ModId}}_MSweetPea",
                             "ItemId": "(O)402",
                             "Season": "Summer",
@@ -790,6 +832,24 @@
                             "Id": "{{ModId}}_Dandelion",
                             "ItemId": "(O)22",
                             "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_SFBluestar",
+                            "ItemId": "(O){{ModId}}_Bluestar",
+                            "Season": "Spring",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_SFMarigold",
+                            "ItemId": "(O){{ModId}}_Marigold",
+                            "Season": "Summer",
+                            "Chance": 0.7
+                        },
+                        {
+                            "Id": "{{ModId}}_SFCloudberry",
+                            "ItemId": "(O){{ModId}}_Cloudberry",
+                            "Season": "Summer",
                             "Chance": 0.7
                         },
                         {
@@ -969,6 +1029,12 @@
                             "ItemId": "(O)22",
                             "Season": "Spring",
                             "Chance": 0.4
+                        },
+                        {
+                            "Id": "{{ModId}}_RCloudberry",
+                            "ItemId": "(O){{ModId}}_Cloudberry",
+                            "Season": "Summer",
+                            "Chance": 0.5
                         },
                         {
                             "Id": "{{ModId}}_RSweetPea",
@@ -2495,6 +2561,18 @@
                             "Amount": 0
                         }
                     ]
+                },
+                "{{ModId}}_Bluestar": {
+                    "Id": "{{ModId}}_Bluestar",
+                    "ItemId": "{{ModId}}_Bluestar",
+                    "Season": "Spring",
+                    "Chance": 0.5,
+                },
+                "{{ModId}}_Cloudberry": {
+                    "Id": "{{ModId}}_Cloudberry",
+                    "ItemId": "{{ModId}}_Cloudberry",
+                    "Season": "Summer",
+                    "Chance": 0.7,
                 }
             }
         },
@@ -2522,6 +2600,24 @@
                     "ItemId": "{{ModId}}_CarmineBlossom",
                     "Season": "Winter",
                     "Chance": 0.6
+                },
+                "{{ModId}}_Bluestar": {
+                    "Id": "{{ModId}}_Bluestar",
+                    "ItemId": "{{ModId}}_Bluestar",
+                    "Season": "Spring",
+                    "Chance": 0.5,
+                },
+                "{{ModId}}_Marigold": {
+                    "Id": "{{ModId}}_Marigold",
+                    "ItemId": "{{ModId}}_Marigold",
+                    "Season": "Summer",
+                    "Chance": 0.5,
+                },
+                "{{ModId}}_Cloudberry": {
+                    "Id": "{{ModId}}_Cloudberry",
+                    "ItemId": "{{ModId}}_Cloudberry",
+                    "Season": "Summer",
+                    "Chance": 0.7,
                 }
             }
         },

@@ -26,6 +26,7 @@
                 "DialaSBVCooking": "{{i18n:Mail.DialaHotChocoLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0]%item cookingRecipe %%[#]{{i18n:Mail.DialaHotChocoLetter.Title}}",
                 "DeryaSBVCooking": "{{i18n:Mail.DeryaIceCreamLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 1]%item cookingRecipe %%[#]{{i18n:Mail.DeryaIceCreamLetter.Title}}",
                 "MoonSBVCooking": "{{i18n:Mail.MoonCookieLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0]%item cookingRecipe %%[#]{{i18n:Mail.MoonCookieLetter.Title}}",
+                "MiyoungSBVCooking": "{{i18n:Mail.MiyoungCloudberryPie.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 2]%item cookingRecipe %%[#]{{i18n:Mail.MiyoungCloudberryPie.Title}}",
                 "skellady.SBVCP_SilasGrinderLetter": "{{i18n:Mail.SilasGrinderLetter.Body}}[#]{{i18n:Mail.SilasGrinderLetter.Title}}",
                 "skellady.SBVCP_DDAlchemyTableLetter": "{{i18n:Mail.DDAlchemyTableLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 1]%item craftingRecipe skellady.SBVCP_AlchemyTable %%[#]{{i18n:Mail.DDAlchemyTableLetter.Title}}",
                 "skellady.SBVCP_DDAlchemyTableOrbsLetter": "{{i18n:Mail.DDAlchemyTableOrbsLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 1]%item skellady.SBVCP_CinderLeaf 5 %%[#]{{i18n:Mail.DDAlchemyTableOrbsLetter.Title}}",

@@ -1,0 +1,23 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "NCarigon.BushBloomMod/Textures/skellady.SBVCP/summer_cloudberry",
+            "FromFile": "Assets/Items/Cloudberry.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "NCarigon.BushBloomMod/Schedules",
+            "Entries": {
+                "skellady.SBVCP/summer_cloudberry": {
+                    "ShakeOff": "skellady.SBVCP_Cloudberry",
+                    "StartSeason": "summer",
+                    "StartDay": 5,
+                    "EndSeason": "summer",
+                    "EndDay": 15,
+                    "Chance": 0.09
+                }
+            }
+        }
+    ]
+}

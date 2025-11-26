@@ -744,7 +744,7 @@
                 "!item_seacow": "!item_seacow"
             }
         },
-        // Add Lunar Bean to Kegs, Jars, etc.
+        // Add Lunar Bean and Marigold to keg
         {
             "Action": "EditData",
             "Target": "Data/Machines",
@@ -773,7 +773,28 @@
                     "MinutesUntilReady": 4320,
 					"DaysUntilReady": -1,
 					"RecalculateOnCollect": false
-                }
+                },
+                "{{ModId}}_KegMarigoldTea": {
+                    "Id": "{{ModId}}_KegMarigoldTea",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "{{ModId}}_Marigold",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "UseFirstValidOutput": false,
+					"OutputItem": [
+						{
+							"IncrementMachineParentSheetIndex": 0,
+							"Id": "{{ModId}}_MarigoldTea",
+							"ItemId": "(O){{ModId}}_MarigoldTea",
+						}
+					],
+                    "MinutesUntilReady": 200,
+					"DaysUntilReady": -1,
+					"RecalculateOnCollect": false
+                },
             }
         }
     ]

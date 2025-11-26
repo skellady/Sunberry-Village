@@ -2445,6 +2445,8 @@
     "Mail.DeryaIceCreamLetter.Title": "Ice Cream, You Scream? No?",
     "Mail.MoonCookieLetter.Body": "Hello!^^Moon found this recipe in one of Diala's books. Moon tried to make it but... it didn't work very well. So, Moon decided to send you the recipe instead! It's very sweet and chewy, heh. Moon is going to go eat some of Diala's cookies now!^^...Moon hopes this letter gets sent. Goodbye!^^- Your junimo friend, Moon",
     "Mail.MoonCookieLetter.Title": "Choco Cookies!",
+    "Mail.MiyoungCloudberryPie.Body": "Dear @,^^I was mailing my son a recipe he had asked for, and thought I'd mail you one as well. I appreciate you making time to befriend this old lady, so I hope this pie can make you feel as warm and cozy as our friendship makes me feel.^^- Miyoung", // FOR TRANSLATORS - NEW IN 1.0.4
+    "Mail.MiyoungCloudberryPie.Title": "Cloudberry Pie Recipe", // FOR TRANSLATORS - NEW IN 1.0.4
     "Mail.SilasGrinderLetter.Body": "Hey, @!^^Maia grabbed our mineral grinder from storage the other day and I thought you might get some use out of it. I looked around for the blueprint and attached it to this letter.^^P.S: The grinder is programmed to take in specific kinds of minerals, so it won't work on everything. It should work on any minerals native to Sunberry Village, as well as Dolomite, Lunarite, Tigerseye, and Fairy Stone.^^P.P.S: The powder you make out of the minerals can be used in potions, but you'll need an alchemy table for that!^^- Silas%item craftingRecipe skellady.SBVCP_MineralGrinder %%",
     "Mail.SilasGrinderLetter.Title": "Mineral Grinder Recipe",
     "Mail.DDAlchemyTableLetter.Body": "Hi, @!^^I've been using my alchemy table a lot more recently, mostly to get better at what I do without... summoning a demon or two. I think I'm getting the hang of it! I'm sending you the recipe to make it since you might find it useful. To make potions, I grind my minerals at Silas' blacksmith, but I'm sure he can set you up with your own mineral grinder if he hasn't already. Oh, also, you'll need some cinder leaves! Maia usually grabs me some from the cave by the blacksmith.^^- Diala",
@@ -6152,6 +6154,12 @@
     "SBV.Carob.Description": "A sweet, ripe pod that is used as a substitute for chocolate.",
     "SBV.CarmineBlossom.Name": "Carmine Blossom",
     "SBV.CarmineBlossom.Description": "An elegant red flower. Its blue foliage feels otherworldly.",
+    "SBV.Marigold.Name": "Marigold", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.Marigold.Description": "A sweet and vibrant yellow flower. Its petals can make a delicious tea!", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.Bluestar.Name": "Bluestar", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.Bluestar.Description": "A small, low maintenance blue flower. Its petals almost resemble a star.", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.Cloudberry.Name": "Cloudberry", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.Cloudberry.Description": "A sweet and juicy summer-time berry. Perfect for making dessert!", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Food
     "SBV.ChocoChipCookies.Name": "Chocolate Chip Cookies",
@@ -6160,6 +6168,8 @@
     "SBV.DialaHotChoco.Description": "Guaranteed to make you feel warm and cozy on cold days!",
     "SBV.IceCreamBowl.Name": "Ice Cream Bowl",
     "SBV.IceCreamBowl.Description": "A refreshing bowl of ice cream consisting of Diala and Derya's favorite flavors: Mango, Strawberry, and Blueberry.",
+    "SBV.CloudberryPie.Name": "Cloudberry Pie", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.CloudberryPie.Description": "A sweet and tangy pie with a beautiful crust!", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Gems and Artifacts
     "SBV.Annabergite.Name": "Annabergite",
@@ -6217,6 +6227,8 @@
     "SBV.PrismaticOrb.Description": "A blacksmith can open this for you. Who knows what might be inside?",
     "SBV.LunarBeanJuice.Name": "Lunar Bean Juice", // FOR TRANSLATORS: NEW IN 1.0.4
     "SBV.LunarBeanJuice.Description": "A delicious juice made out of Lunar Beans. It smells like cotton candy.", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.MarigoldTea.Name": "Marigold Tea", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.MarigoldTea.Description": "A warm, comforting beverage made out of marigold petals.", // FOR TRANSLATORS: NEW IN 1.0.4
  
     //Potions
     "SBV.SerpentinePotion.Name": "Serpentine Potion",
