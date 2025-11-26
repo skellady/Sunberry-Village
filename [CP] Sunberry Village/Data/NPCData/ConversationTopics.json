@@ -228,7 +228,8 @@
                 "YriIntroduction": "{{i18n:Ezra.Dialogue.YriIntroduction}}",
                 "ReihanaIntro": "{{i18n:Ezra.Dialogue.ReihanaIntro}}",
                 "AriGetsSlimed": "{{i18n:Ezra.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Ezra.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Ezra.Dialogue.EliasHouseBegin}}",
+                "RaccoonCloth": "{{i18n:Ezra.Dialogue.RaccoonCloth}}"
             }
         },
         {
@@ -484,7 +485,8 @@
             "Target": "Characters/Dialogue/Pierre",
             "Entries": {
                 "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}",
-                "RaccoonFertilizer": "{{i18n:RaccoonFertilizer.{{TargetWithoutPath}}}}"
+                "RaccoonFertilizer": "{{i18n:RaccoonFertilizer.{{TargetWithoutPath}}}}",
+                "RaccoonSapling": "{{i18n:RaccoonSapling.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -654,7 +656,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Maru",
             "Entries": {
-                "DDEngaged": "{{i18n:DDEngaged.{{TargetWithoutPath}}}}"
+                "DDEngaged": "{{i18n:DDEngaged.{{TargetWithoutPath}}}}",
+                "RaccoonBattery": "{{i18n:RaccoonBattery.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -719,6 +722,29 @@
             "When": {
                 "Query: {{Random: {{Range:1, 100}} }} >= 50": true,
                 "HasMod": "Rafseazz.RSVCP"
+            }
+        },
+        // Sunberry Add-ons
+        {
+            "LogName": "Spanner",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/Spanner",
+            "Entries": {
+                "RaccoonGadget": "{{i18n:RaccoonGadget.{{TargetWithoutPath}}}}",
+            },
+            "When": {
+                "HasMod": "Arknir.Jonghyuk"
+            }
+        },
+        {
+            "LogName": "Dao",
+            "Action": "EditData",
+            "Target": "Characters/Dialogue/AirynDao",
+            "Entries": {
+                "RaccoonSouvenir": "{{i18n:RaccoonSouvenir.{{TargetWithoutPath}}}}",
+            },
+            "When": {
+                "HasMod": "Airyn.Dao.CP"
             }
         }
     ]

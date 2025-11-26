@@ -6634,6 +6634,7 @@
     "Ezra.Dialogue.ReihanaIntro": "Oh, great. A demon. Sorry, TWO demons. What is going on in this place?$s",
     "Ezra.Dialogue.AriGetsSlimed": "That prank Blake and Lyenne pulled with the bucket of slime sounds like something my sister would do to me.$7",
     "Ezra.Dialogue.EliasHouseBegin": "@! You look stunning. You've go-... Sorry, what was that?$h#$b#$y '..._Elias is renovating his old house._Ooh! That's nice. I hope he finally gets a bedroom with an actual door!$u'",
+    "Ezra.Dialogue.RaccoonCloth": "When I find that little raccoon...$a#$b#He stole a piece of cloth! Snatched it right out of my hands!$s#$b#...It was an expensive one, too.$s", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Iman
     "Iman.Dialogue.cc_Complete": "The community center? That broken down building? Huh, never thought I'd see that get fixed up. Congrats!$h",
@@ -6844,12 +6845,14 @@
     "DDFinalConfession.Marnie": "The ranch is a long walk from the cat cafe, but Diala and Derya always make the trip here for supplies.$h",
     "DDFinalConfession.Pierre": "I've been to Sunberry Village a few times, It's lovely.$h#$b#Ari on the other hand...$a",
     "RaccoonFertilizer.Pierre": "Oh, you just wait til' I can get my hands on that fertilizer stealing raccoon. Do you think he's working for Ari? He's definitely trying to stir things up.$a",
+    "RaccoonSapling.Pierre": "*sigh*...I need to find a way to keep that raccoon out! He just stole a sapling. Can you believe it? A whole sapling!$2", // FOR TRANSLATORS: NEW IN 1.0.4
     "DDFinalConfession.Robin": "The owners of the cafe over at Sunberry Village came to me for help with some renovations a while back.#$b#They sent a big batch of cookies our way when I was done working.$h",
 
     //DDEngaged
     "DDEngaged.Demetrius": "Robin is making me go to the cat cafe.#$b#She told me I could debate science and astrology there, rather than to her ears. I think she just wants to see the cats.$h",
     "DDEngaged.Sebastian": "Diala and Derya always invite us over for game night.#$b#We almost always get distracted by the cats, though.$h",
     "DDEngaged.Maru": "I met Diala when I was doing some research in Sunberry Village, and she's really sweet.#$b#I was invited to the cafe, and man... between cookies and cats... I don't know which to research first!$h",
+    "RaccoonBattery.Maru": "Ugh, that pesky raccoon stole a battery while I was working on a new project. *sigh*... I'll borrow one from dad.$2", // FOR TRANSLATORS: NEW IN 1.0.4
     "DDEngaged.Linus": "Maia and Ophelia always bring over hot meals and baked goods when they're passing by.$h#$b#We even sit around the fire and share stories, sometimes.",
 
     //ReihanaIntro
@@ -6883,6 +6886,10 @@
     "MeetDND.Olga": "Bert's been begging me to make one of the recipes Miyoung shared with us, maybe I'll make one of them for dinner tonight.$h",
     "MeetDND.Kiarra": "It's a long walk to Sunberry Village but definitely worth it to shop local!$h",
 
+    //CTs (SBV Addons)
+    "RaccoonGadget.Spanner": "That raccoon is out to get me, I swear! He stole one of my dwarven gadgets while I was working on it.$s", // FOR TRANSLATORS: NEW IN 1.0.4
+    "RaccoonSouvenir.Dao": "@, have you seen that raccoon of ours around anywhere? He's stolen a little trinket of mine.#$b#He's a gremlin, isn't he? Normally I have a soft spot for him, but I really would like that back.$8#$b#I don't keep many souvenirs, so the few I do have are precious to me.$s", // FOR TRANSLATORS: NEW IN 1.0.4
+    
     // Custom Features
 
     // Market specials - override display names
