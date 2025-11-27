@@ -1,0 +1,75 @@
+{
+    "Changes": [
+        {
+            "LogName": "Load Animal Sprites",
+            "Action": "Load",
+            "Target": "Mods/skellady.SBVCP/Animals/Alpaca, Mods/skellady.SBVCP/Animals/BabyAlpaca, Mods/skellady.SBVCP/Animals/ShearedAlpaca, Mods/skellady.SBVCP/Animals/Icons",
+            "FromFile": "Assets/Images/Animals/{{TargetWithoutPath}}.png"
+        },
+        {
+            "LogName": "Add Animals",
+            "Action": "EditData",
+            "Target": "Data/FarmAnimals",
+            "Entries": {
+                "skellady.SBVCP_Alpaca": {
+                    "DisplayName": "{{i18n:SBV.Alpaca.Name}}",
+                    "House": "Barn",
+                    "Gender": "MaleOrFemale",
+                    "PurchasePrice": 4500,
+                    "SellPrice": 9000,
+                    "ShopTexture": "Mods\\skellady.SBVCP\\Animals\\Icons",
+                    "ShopSourceRect": {
+                        "X": 0,
+                        "Y": 0,
+                        "Width": 32,
+                        "Height": 16
+                    },
+                    "ShopDisplayName": "{{i18n:SBV.Alpaca.Name}}",
+                    "ShopDescription": "{{i18n:SBV.Alpaca.Description}}\\n[LocalizedText Strings\\StringsFromCSFiles:PurchaseAnimalsMenu.cs.11344]",
+                    "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5936]",
+                    "RequiredBuilding": "Big Barn",
+                    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Any ImanUnlockEvent",
+                    "DaysToMature": 4,
+                    "CanGetPregnant": true,
+                    "DaysToProduce": 3,
+                    "HarvestType": "HarvestWithTool",
+                    "HarvestTool": "Shears",
+                    "ProduceItemIds": [
+                        {
+                            "Id": "skellady.SBVCP_Default",
+                            "Condition": null,
+                            "MinimumFriendship": 0,
+                            "ItemId": "skellady.SBVCP_AlpacaWool"
+                        }
+                    ],
+                    "ProduceOnMature": true,
+                    "FriendshipForFasterProduce": 900,
+                    "DeluxeProduceMinimumFriendship": 200,
+                    "DeluxeProduceCareDivisor": 1200.0,
+                    "DeluxeProduceLuckMultiplier": 0.0,
+                    "ProfessionForHappinessBoost": 3,
+                    "ProfessionForQualityBoost": 3,
+                    "ProfessionForFasterProduce": 3,
+                    "Sound": "camel",
+                    "Texture": "Mods\\skellady.SBVCP\\Animals\\Alpaca",
+                    "HarvestedTexture": "Mods\\skellady.SBVCP\\Animals\\ShearedAlpaca",
+                    "BabyTexture": "Mods\\skellady.SBVCP\\Animals\\BabyAlpaca",
+                    "UseFlippedRightForLeft": false,
+                    "EmoteOffset": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "CanSwim": false,
+                    "BabiesFollowAdults": false,
+                    "GrassEatAmount": 4,
+                    "HappinessDrain": 5,
+                    "UpDownPetHitboxTileSize": "1.5, 1.75",
+                    "LeftRightPetHitboxTileSize": "1.75, 1.25",
+                    "BabyUpDownPetHitboxTileSize": "1, 1.75",
+                    "BabyLeftRightPetHitboxTileSize": "1.75, 1",
+                    "ShowInSummitCredits": true,
+                }
+            }
+        }
+    ]
+}

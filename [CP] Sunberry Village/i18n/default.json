@@ -2458,6 +2458,8 @@
     "Mail.EliasHouseFinishedLetter.Title": "Elias' New House",
     "Mail.Elias10HeartsLetter.Body": "@,^^Meet me by Serenity Inn after dark, please. I'd like to see you.^^- Elias",
     "Mail.Elias10HeartsLetter.Title": "Meeting Elias",
+    "Mail.Iman6HeartsLetter.Body": "@,^^Please meet me outside of Ezra's store as soon as you can. I've done something that may be a little dumb. Need help.^^- Iman", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Mail.Iman6HeartsLetter.Title": "Iman's Problem", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Recipe Letters
     "Mail.DialaHotChocoLetter.Body": "Hey, @!^^I've been experimenting with this hot chocolate recipe for a while now, and I finally found what makes it taste SO good! It's Carob! I used to see my mother use it in her dessert back home, and I managed to find some at Ari's. Enjoy the recipe and let me know if you try it!^^- Diala",
@@ -6153,6 +6155,10 @@
     "RaccoonDialogue.Mid.Winter.Sunday.3": "The raccoon is sipping on some hot chocolate. You ask him to share, and he immediately hands you the cup! How nice of him. [(O)skellady.SBVCP_DialaHotChoco]",
     //Items
     //-----
+
+    //Animal Stuff
+    "SBV.Alpaca.Name": "Alpaca", // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.Alpaca.Description": "Iman's alpacas! Alpacas who form a close bond with their owners can grow wool faster. A pair of shears is required to harvest their wool", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Crops
     "SBV.Arfaj.Name": "Arfaj",

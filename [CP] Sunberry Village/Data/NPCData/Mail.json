@@ -21,6 +21,7 @@
                 "skellady.SBVCP_EliasHouseBeginLetter": "{{i18n:Mail.EliasHouseBeginLetter.Body}}[#]{{i18n:Mail.EliasHouseBeginLetter.Title}}",
                 "skellady.SBVCP_EliasHouseFinishedLetter": "{{i18n:Mail.EliasHouseFinishedLetter.Body}}[#]{{i18n:Mail.EliasHouseFinishedLetter.Title}}",
                 "skellady.SBVCP_Elias10HeartsLetter": "{{i18n:Mail.Elias10HeartsLetter.Body}}[#]{{i18n:Mail.Elias10HeartsLetter.Title}}",
+                "skellady.SBVCP_Iman6HeartsLetter": "{{i18n:Mail.Iman6HeartsLetter.Body}}[#]{{i18n:Mail.Iman6HeartsLetter.Title}}",
 
                 // Recipes
                 "DialaSBVCooking": "{{i18n:Mail.DialaHotChocoLetter.Body}}[letterbg Mods\\skellady.SBVCP\\SBVLetterBG 0]%item cookingRecipe %%[#]{{i18n:Mail.DialaHotChocoLetter.Title}}",

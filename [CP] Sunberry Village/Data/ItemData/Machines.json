@@ -637,7 +637,10 @@
             "Priority": "Late", // late priority to ensure these don't override any rules added by other mods, i.e. addon/compat
             "Action": "EditData",
             "Target": "Data/Machines",
-            "TargetField": [ "(BC){{ModId}}_MineralGrinder", "OutputRules" ],
+            "TargetField": [
+                "(BC){{ModId}}_MineralGrinder",
+                "OutputRules"
+            ],
             "Entries": {
                 "{{ModId}}_GenericPowder": {
                     "Id": "{{ModId}}_GenericPowder",
@@ -688,7 +691,10 @@
             "Priority": "Late", // late priority to ensure these don't override any rules added by other mods, i.e. addon/compat
             "Action": "EditData",
             "Target": "Data/Machines",
-            "TargetField": [ "(BC){{ModId}}_AlchemyTable", "OutputRules" ],
+            "TargetField": [
+                "(BC){{ModId}}_AlchemyTable",
+                "OutputRules"
+            ],
             "Entries": {
                 "{{ModId}}_GenericPotion": {
                     "Id": "{{ModId}}_GenericPotion",
@@ -763,16 +769,16 @@
                         }
                     ],
                     "UseFirstValidOutput": false,
-					"OutputItem": [
-						{
-							"IncrementMachineParentSheetIndex": 0,
-							"Id": "{{ModId}}_LunarBeanJuice",
-							"ItemId": "(O){{ModId}}_LunarBeanJuice",
-						}
-					],
+                    "OutputItem": [
+                        {
+                            "IncrementMachineParentSheetIndex": 0,
+                            "Id": "{{ModId}}_LunarBeanJuice",
+                            "ItemId": "(O){{ModId}}_LunarBeanJuice",
+                        }
+                    ],
                     "MinutesUntilReady": 4320,
-					"DaysUntilReady": -1,
-					"RecalculateOnCollect": false
+                    "DaysUntilReady": -1,
+                    "RecalculateOnCollect": false
                 },
                 "{{ModId}}_KegMarigoldTea": {
                     "Id": "{{ModId}}_KegMarigoldTea",
@@ -784,16 +790,48 @@
                         }
                     ],
                     "UseFirstValidOutput": false,
-					"OutputItem": [
-						{
-							"IncrementMachineParentSheetIndex": 0,
-							"Id": "{{ModId}}_MarigoldTea",
-							"ItemId": "(O){{ModId}}_MarigoldTea",
-						}
-					],
+                    "OutputItem": [
+                        {
+                            "IncrementMachineParentSheetIndex": 0,
+                            "Id": "{{ModId}}_MarigoldTea",
+                            "ItemId": "(O){{ModId}}_MarigoldTea",
+                        }
+                    ],
                     "MinutesUntilReady": 200,
-					"DaysUntilReady": -1,
-					"RecalculateOnCollect": false
+                    "DaysUntilReady": -1,
+                    "RecalculateOnCollect": false
+                },
+            }
+        },
+        // Add Alpaca Wool to Loom
+        {
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": [
+                "(BC)17",
+                "OutputRules"
+            ],
+            "Entries": {
+                "{{ModId}}_AlpacaWoolLoom": {
+                    "Id": "{{ModId}}_AlpacaWoolLoom",
+                    "Triggers": [
+                        {
+                            "Trigger": "ItemPlacedInMachine",
+                            "RequiredItemId": "{{ModId}}_AlpacaWool",
+                            "RequiredCount": 1
+                        }
+                    ],
+                    "UseFirstValidOutput": false,
+                    "OutputItem": [
+                        {
+                            "IncrementMachineParentSheetIndex": 0,
+                            "Id": "{{ModId}}_AlpacaWoolFabric",
+                            "ItemId": "(O){{ModId}}_AlpacaWoolFabric",
+                        }
+                    ],
+                    "MinutesUntilReady": 300,
+                    "DaysUntilReady": -1,
+                    "RecalculateOnCollect": false
                 },
             }
         }

@@ -180,7 +180,13 @@
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031483, PLAYER_HEARTS Current EliasSBV 10, !SEASON Winter, WEATHER Here Sun, PLAYER_NPC_RELATIONSHIP Current EliasSBV Dating",
                     "Action": "AddMail Current skellady.SBVCP_Elias10HeartsLetter"
-                }
+                },
+                "skellady.SBVCP_Iman6HeartsLetter": {
+                    "Id": "skellady.SBVCP_Iman6HeartsLetter",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Current skellady.SBVCP_20031486, PLAYER_HEARTS Current ImanSBV 6, WEATHER Here Sun",
+                    "Action": "AddMail Current skellady.SBVCP_Iman6HeartsLetter"
+                },
             }
         }
     ]
