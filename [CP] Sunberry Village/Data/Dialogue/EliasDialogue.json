@@ -116,6 +116,15 @@
                 "Relationship:EliasSBV": "Dating"
             }
         },
+        // Summit Event
+        {
+            "LogName": "Elias Summit Event",
+            "Action": "EditData",
+            "Target": "Data/ExtraDialogue",
+            "Entries": {
+                "SummitEvent_Dialogue3_EliasSBV": "{{i18n:Elias.SummitEvent.1}}\"/pause 1000/speak EliasSBV \"{{i18n:Elias.SummitEvent.2}}\"/pause 500/faceDirection EliasSBV 3/pause 400/speak EliasSBV \"{{i18n:Elias.SummitEvent.3}}\"/pause 400/emote farmer 20/pause 100/emote EliasSBV 20",
+            }
+        },
         {
             "LogName": "Elias - Reject Sunberry Fish While Compendium In Progress",
             "Action": "EditData",

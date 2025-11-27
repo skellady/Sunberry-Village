@@ -4899,6 +4899,12 @@
     "Elias.Marriage.funReturn_2": "It was nice catchin' up with Maia and Jumana today.$h#$b#Jumana made me all my favorite dishes, I felt incredibly spoiled.$u",
     "Elias.Marriage.funReturn_3": "Apparently, Blake and Lyenne are back to their prankin' habits.$10#$b#Poor Ari, always bein' the victim of these pranks.$u",
 
+    // Summit Event 
+    // FOR TRANSLATORS: NEW IN 1.0.4
+    "Elias.SummitEvent.1": "I... was afraid of love for a while, you know?$12#$b#I thought I've already tried my luck with love, and that was it.$11",
+    "Elias.SummitEvent.2": "But I guess the universe had other plans for me, because it brought you here. Brought you to me.$4",
+    "Elias.SummitEvent.3": "I love you so dearly, @. I'm glad I didn't give up on love, because I would've missed out on all this with you.$4",
+
     // Fish Compendium
     "Elias.FishCompendium.NewFish": "Well, now ain't that a fine catch! Let me take some notes real quick and I'll have it back to ya in a jiffy.$3#$b#You can check the book tomorrow to see my updated notes!$3",
     "Elias.FishCompendium.NewFishLegendary": "What in the Sam Hill is that?! Farmer, I've been fishin' these parts for years and I've never seen a fish like that.$14#$b#Let me take some measurements on that beastie and I'll have it back to ya in a jiffy.$3#$b#You can check the book tomorrow to see my notes on... whatever that is.$3",
