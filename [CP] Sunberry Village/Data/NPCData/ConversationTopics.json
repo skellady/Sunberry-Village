@@ -229,7 +229,8 @@
                 "ReihanaIntro": "{{i18n:Ezra.Dialogue.ReihanaIntro}}",
                 "AriGetsSlimed": "{{i18n:Ezra.Dialogue.AriGetsSlimed}}",
                 "EliasHouseBegin": "{{i18n:Ezra.Dialogue.EliasHouseBegin}}",
-                "RaccoonCloth": "{{i18n:Ezra.Dialogue.RaccoonCloth}}"
+                "RaccoonCloth": "{{i18n:Ezra.Dialogue.RaccoonCloth}}",
+                "Iman4HEvent": "{{i18n:Ezra.Dialogue.Iman4HEvent}}"
             }
         },
         {
@@ -250,7 +251,8 @@
                 "luauPoisoned": "{{i18n:Iman.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Iman.Dialogue.ReihanaIntro}}",
                 "AriGetsSlimed": "{{i18n:Iman.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Iman.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Iman.Dialogue.EliasHouseBegin}}",
+                "Iman4HEvent": "{{i18n:Iman.Dialogue.Iman4HEvent}}"
             }
         },
         {

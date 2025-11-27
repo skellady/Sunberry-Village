@@ -2203,6 +2203,27 @@
     "event-20031485.05": "I'm not giving you the actual weapon, don't worry!$u#$b#I'm giving a blueprint to Maia so she can forge one for you, too.$h",
     "event-20031485.06": "I'll give you a list of the materials you need. Whenever you're ready, just drop them at the inn.$h",
 
+    // Iman 4 Hearts Event
+    // FOR TRANSLATORS: NEW IN 1.0.4
+    "event-20031486.01": "I've noticed you've been heading down to the forest a lot recently. Is it about...?",
+    "event-20031486.02": "The barn? Yeah. Gotta have a reminder of how badly I messed up.$11",
+    "event-20031486.03": "Hey, now. You didn't mess up. You didn't ask to be put in that situation.$s",
+    "event-20031486.04": "*sigh*",
+    "event-20031486.05": "I guess so, yeah. Doesn't really change the fact that I could've...$s",
+    "event-20031486.06": "You know that my offer to help is still available, right? My sister has also offered. You don't have to do this alone.$h",
+    "event-20031486.07": "I know, I know. It just... doesn't feel right to do that to you or Nadia.$s",
+    "event-20031486.08": "Oh, hey, @. Were we being too loud? Sorry, we haven't been able to find our inside voices just yet.$10",
+    "event-20031486.09": "Hey, @ might know a thing or two about barns.$h",
+    "event-20031486.10": "Ezra...$7",
+    "event-20031486.11": "Sure, what do you want to know?",
+    "event-20031486.12": "I don't know all *that* much, but I'll answer what I can.",
+    "event-20031486.13": "Thank you! Hypothetically speaking, how much would it cost and what materials would we need?$h",
+    "event-20031486.14": "That's not bad! Thank you for the info, @.$6",
+    "event-20031486.15": "I can't do this, Ezra. I'm sorry.$s",
+    "event-20031486.16": "Iman...$s",
+    "event-20031486.17": "Sorry, @. I gotta go check on her.",
+    "event-20031486.18": "Maybe I should check on Iman once she's had some space.",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",
@@ -6641,6 +6662,7 @@
     "Ezra.Dialogue.AriGetsSlimed": "That prank Blake and Lyenne pulled with the bucket of slime sounds like something my sister would do to me.$7",
     "Ezra.Dialogue.EliasHouseBegin": "@! You look stunning. You've go-... Sorry, what was that?$h#$b#$y '..._Elias is renovating his old house._Ooh! That's nice. I hope he finally gets a bedroom with an actual door!$u'",
     "Ezra.Dialogue.RaccoonCloth": "When I find that little raccoon...$a#$b#He stole a piece of cloth! Snatched it right out of my hands!$s#$b#...It was an expensive one, too.$s", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Ezra.Dialogue.Iman4HEvent": "Ah, @. Sorry for leaving so abruptly. Iman's okay, she's just having a hard time.$s#$b#It's not my story to tell, but hopefully she'll open up to you, too, someday.", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Iman
     "Iman.Dialogue.cc_Complete": "The community center? That broken down building? Huh, never thought I'd see that get fixed up. Congrats!$h",
@@ -6657,6 +6679,7 @@
     "Iman.Dialogue.ReihanaIntro": "Okay, I've probably seen weirder things than two demons in a small town, however, that demon is stylish! I wonder where she got that outfit from.$u",
     "Iman.Dialogue.AriGetsSlimed": "Ari was in a terrible mood when I saw him earlier. What happened?$7#$b#Ezra mentioned something about a prank Blake and Lyenne pulled, but I kind of zoned out...$2#$b#Their pranks get a little repetitive, that's all.$11",
     "Iman.Dialogue.EliasHouseBegin": "Oh, if it isn't Ferngill's favorite farmer. Hm? You have something to tell me?$10#$b#$y '..._Elias is renovating his old house._...No way. Oh, @, I could kiss you right now! I'm going to go rub this in Derya's face. Thank you for telling me!$u'",
+    "Iman.Dialogue.Iman4HEvent": "Oh, it's you. Yeah, sorry you had to see that. I... I'll be fine. I've dealt with worse.$11", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Jumana
     "Jumana.Dialogue.cc_Complete": "I heard the wonderful news! I'm glad the community center is back up and running.$h",
