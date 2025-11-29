@@ -2,6 +2,7 @@ using HarmonyLib;
 using SunberryVillage.Integration.Patches;
 using SunberryVillage.Objects;
 using System;
+using System.Reflection;
 
 namespace SunberryVillage.Utilities;
 
@@ -27,18 +28,36 @@ internal class HarmonyPatcher
 	{
 		if (Globals.ModRegistry.IsLoaded("CJBok.CheatsMenu"))
 		{
-			Harmony.Patch(
-				original: AccessTools.Method("CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat:ShouldFreezeTime"),
-				transpiler: new HarmonyMethod(AccessTools.Method(typeof(CJBPatches), nameof(CJBPatches.ShouldFreezeTime_Transpiler)))
-			);
+			MethodInfo freezeTime = AccessTools.Method("CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat:ShouldFreezeTime");
+
+            if (freezeTime is not null)
+			{
+				Harmony.Patch(
+					original: freezeTime,
+					transpiler: new HarmonyMethod(AccessTools.Method(typeof(CJBPatches), nameof(CJBPatches.ShouldFreezeTime_Transpiler)))
+				);
+			}
+			else
+			{
+				Log.Trace("Could not find method matching <CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat:ShouldFreezeTime>. Skipping patch.");
+			}
 		}
 
 		if (Globals.ModRegistry.IsLoaded("ApryllForever.PolyamorySweetLove"))
 		{
-            Harmony.Patch(
-			    original: AccessTools.Method("PolyamorySweetLove.NPCPatches:NPC_tryToReceiveActiveObject_Prefix"),
-			    prefix: new HarmonyMethod(AccessTools.Method(typeof(PSLPatches), nameof(PSLPatches.NPC_tryToReceiveActiveObject_Prefix_Prefix)))
-			);
+			MethodInfo polysweet = AccessTools.Method("PolyamorySweetLove.NPCPatches:NPC_tryToReceiveActiveObject_Prefix");
+
+			if (polysweet is not null)
+			{
+                Harmony.Patch(
+                    original: polysweet,
+                    prefix: new HarmonyMethod(AccessTools.Method(typeof(PSLPatches), nameof(PSLPatches.NPC_tryToReceiveActiveObject_Prefix_Prefix)))
+                );
+            }
+            else
+            {
+                Log.Trace("Could not find method matching <PolyamorySweetLove.NPCPatches:NPC_tryToReceiveActiveObject_Prefix>. Skipping patch.");
+            }
         }
 	}
 }
