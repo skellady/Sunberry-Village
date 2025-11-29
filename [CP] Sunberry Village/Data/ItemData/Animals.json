@@ -28,7 +28,7 @@
                     "ShopDescription": "{{i18n:SBV.Alpaca.Description}}\\n[LocalizedText Strings\\StringsFromCSFiles:PurchaseAnimalsMenu.cs.11344]",
                     "ShopMissingBuildingDescription": "[LocalizedText Strings\\StringsFromCSFiles:Utility.cs.5936]",
                     "RequiredBuilding": "Big Barn",
-                    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Any ImanUnlockEvent",
+                    "UnlockCondition": "PLAYER_HAS_SEEN_EVENT Any skellady.SBVCP_20031489",
                     "DaysToMature": 4,
                     "CanGetPregnant": true,
                     "DaysToProduce": 3,
@@ -54,10 +54,16 @@
                     "Texture": "Mods\\skellady.SBVCP\\Animals\\Alpaca",
                     "HarvestedTexture": "Mods\\skellady.SBVCP\\Animals\\ShearedAlpaca",
                     "BabyTexture": "Mods\\skellady.SBVCP\\Animals\\BabyAlpaca",
-                    "UseFlippedRightForLeft": false,
+                    "UseFlippedRightForLeft": true,
+                    "SpriteWidth": 32,
+                    "SpriteHeight": 32,
                     "EmoteOffset": {
                         "X": 0,
                         "Y": 0
+                    },
+                    "SwimOffset": {
+                        "X": 0,
+                        "Y": 112
                     },
                     "CanSwim": false,
                     "BabiesFollowAdults": false,

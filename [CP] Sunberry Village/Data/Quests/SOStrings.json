@@ -122,6 +122,18 @@
             "SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_2": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_2}}",
             "SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_3": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_3}}",
             "SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_4": "{{i18n:SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_4}}",
+
+            "SBV.SpecialOrder.ImanWoodGathering_Name": "{{i18n:SBV.SpecialOrder.ImanWoodGathering_Name}}",
+            "SBV.SpecialOrder.ImanWoodGathering_Text": "{{i18n:SBV.SpecialOrder.ImanWoodGathering_Text}}",
+            "SBV.SpecialOrder.ImanWoodGathering_Objective_Text_0": "{{i18n:SBV.SpecialOrder.ImanWoodGathering_Objective_Text_0}}",
+
+            "SBV.SpecialOrder.ImanStoneGathering_Name": "{{i18n:SBV.SpecialOrder.ImanStoneGathering_Name}}",
+            "SBV.SpecialOrder.ImanStoneGathering_Text": "{{i18n:SBV.SpecialOrder.ImanStoneGathering_Text}}",
+            "SBV.SpecialOrder.ImanStoneGathering_Objective_Text_0": "{{i18n:SBV.SpecialOrder.ImanStoneGathering_Objective_Text_0}}",
+
+            "SBV.SpecialOrder.ImanDyeGathering_Name": "{{i18n:SBV.SpecialOrder.ImanDyeGathering_Name}}",
+            "SBV.SpecialOrder.ImanDyeGathering_Text": "{{i18n:SBV.SpecialOrder.ImanDyeGathering_Text}}",
+            "SBV.SpecialOrder.ImanDyeGathering_Objective_Text_0": "{{i18n:SBV.SpecialOrder.ImanDyeGathering_Objective_Text_0}}",
         }
     }
   ]

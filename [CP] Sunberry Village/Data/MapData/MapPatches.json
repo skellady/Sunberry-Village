@@ -1116,6 +1116,28 @@
         "RemoveSunberryKitchen": true
       }
     },
+    // Iman's Fixed Barn
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Custom_SBV_SunberryForest",
+      "PatchMode": "Replace",
+      "FromFile": "Assets/Maps/MapPatches/ImanBarnPatch.tmx",
+      "FromArea": {
+        "X": 0,
+        "Y": 0,
+        "Width": 9,
+        "Height": 9
+      },
+      "ToArea": {
+        "X": 11,
+        "Y": 40,
+        "Width": 9,
+        "Height": 9
+      },
+      "When": {
+        "HasFlag: anyPlayer |contains= SBVImanBarnComplete": true
+      }
+    }
     // Twilight Festival Patch
     /*{
       "Action": "EditMap",

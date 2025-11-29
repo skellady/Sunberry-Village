@@ -22,7 +22,8 @@
                 "luauBest": "{{i18n:Aicha.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Aicha.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Aicha.Dialogue.luauPoisoned}}",
-                "AriGetsSlimed": "{{i18n:Aicha.Dialogue.AriGetsSlimed}}"
+                "AriGetsSlimed": "{{i18n:Aicha.Dialogue.AriGetsSlimed}}",
+                "ImanBarnReveal": "{{i18n:Aicha.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -44,7 +45,8 @@
                 "ReihanaIntro": "{{i18n:Amina.Dialogue.ReihanaIntro}}",
                 "RaccoonToy": "{{i18n:Amina.Dialogue.RaccoonToy}}",
                 "AriGetsSlimed": "{{i18n:Amina.Dialogue.AriGetsSlimed}}",
-                "EliasCompendiumComplete": "{{i18n:Amina.Dialogue.EliasCompendiumComplete}}"
+                "EliasCompendiumComplete": "{{i18n:Amina.Dialogue.EliasCompendiumComplete}}",
+                "ImanBarnReveal": "{{i18n:Amina.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -69,7 +71,8 @@
                 "RaccoonFertilizer": "{{i18n:Ari.Dialogue.RaccoonFertilizer}}",
                 "AriGetsSlimed": "{{i18n:Ari.Dialogue.AriGetsSlimed}}",
                 "EliasHouseBegin": "{{i18n:Ari.Dialogue.EliasHouseBegin}}",
-                "EliasCompendiumComplete": "{{i18n:Ari.Dialogue.EliasCompendiumComplete}}"
+                "EliasCompendiumComplete": "{{i18n:Ari.Dialogue.EliasCompendiumComplete}}",
+                "ImanBarnReveal": "{{i18n:Ari.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -93,7 +96,8 @@
                 "ReihanaIntro": "{{i18n:Blake.Dialogue.ReihanaIntro}}",
                 "AriGetsSlimed": "{{i18n:Blake.Dialogue.AriGetsSlimed}}",
                 "EliasHouseBegin": "{{i18n:Blake.Dialogue.EliasHouseBegin}}",
-                "EliasCompendiumComplete": "{{i18n:Blake.Dialogue.EliasCompendiumComplete}}"
+                "EliasCompendiumComplete": "{{i18n:Blake.Dialogue.EliasCompendiumComplete}}",
+                "ImanBarnReveal": "{{i18n:Blake.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -137,7 +141,8 @@
                 "ReihanaIntro": "{{i18n:Diala.Dialogue.ReihanaIntro}}",
                 "RaccoonMuffin": "{{i18n:Diala.Dialogue.RaccoonMuffin}}",
                 "AriGetsSlimed": "{{i18n:Diala.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Diala.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Diala.Dialogue.EliasHouseBegin}}",
+                "ImanBarnReveal": "{{i18n:Diala.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -181,7 +186,8 @@
                 "ReihanaIntro": "{{i18n:Derya.Dialogue.ReihanaIntro}}",
                 "RaccoonCoffee": "{{i18n:Derya.Dialogue.RaccoonCoffee}}",
                 "AriGetsSlimed": "{{i18n:Derya.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Derya.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Derya.Dialogue.EliasHouseBegin}}",
+                "ImanBarnReveal": "{{i18n:Derya.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -206,7 +212,8 @@
                 "RaccoonWallet": "{{i18n:Elias.Dialogue.RaccoonWallet}}",
                 "AriGetsSlimed": "{{i18n:Elias.Dialogue.AriGetsSlimed}}",
                 "EliasHouseBegin": "{{i18n:Elias.Dialogue.EliasHouseBegin}}",
-                "EliasCompendiumComplete": "{{i18n:Elias.Dialogue.EliasCompendiumComplete}}"
+                "EliasCompendiumComplete": "{{i18n:Elias.Dialogue.EliasCompendiumComplete}}",
+                "ImanBarnReveal": "{{i18n:Elias.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -230,7 +237,8 @@
                 "AriGetsSlimed": "{{i18n:Ezra.Dialogue.AriGetsSlimed}}",
                 "EliasHouseBegin": "{{i18n:Ezra.Dialogue.EliasHouseBegin}}",
                 "RaccoonCloth": "{{i18n:Ezra.Dialogue.RaccoonCloth}}",
-                "Iman4HEvent": "{{i18n:Ezra.Dialogue.Iman4HEvent}}"
+                "Iman4HEvent": "{{i18n:Ezra.Dialogue.Iman4HEvent}}",
+                "ImanBarnReveal": "{{i18n:Ezra.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -252,7 +260,8 @@
                 "ReihanaIntro": "{{i18n:Iman.Dialogue.ReihanaIntro}}",
                 "AriGetsSlimed": "{{i18n:Iman.Dialogue.AriGetsSlimed}}",
                 "EliasHouseBegin": "{{i18n:Iman.Dialogue.EliasHouseBegin}}",
-                "Iman4HEvent": "{{i18n:Iman.Dialogue.Iman4HEvent}}"
+                "Iman4HEvent": "{{i18n:Iman.Dialogue.Iman4HEvent}}",
+                "ImanBarnReveal": "{{i18n:Iman.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -276,7 +285,8 @@
                 "luauPoisoned": "{{i18n:Jumana.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Jumana.Dialogue.ReihanaIntro}}",
                 "AriGetsSlimed": "{{i18n:Jumana.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Jumana.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Jumana.Dialogue.EliasHouseBegin}}",
+                "ImanBarnReveal": "{{i18n:Jumana.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -298,7 +308,8 @@
                 "PTJ03": "{{i18n:Lyenne.Dialogue.PTJ03}}",
                 "AriGetsSlimed": "{{i18n:Lyenne.Dialogue.AriGetsSlimed}}",
                 "EliasHouseBegin": "{{i18n:Lyenne.Dialogue.EliasHouseBegin}}",
-                "EliasCompendiumComplete": "{{i18n:Lyenne.Dialogue.EliasCompendiumComplete}}"
+                "EliasCompendiumComplete": "{{i18n:Lyenne.Dialogue.EliasCompendiumComplete}}",
+                "ImanBarnReveal": "{{i18n:Lyenne.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -321,7 +332,8 @@
                 "ReihanaIntro": "{{i18n:Maia.Dialogue.ReihanaIntro}}",
                 "AriGetsSlimed": "{{i18n:Maia.Dialogue.AriGetsSlimed}}",
                 "EliasHouseBegin": "{{i18n:Maia.Dialogue.EliasHouseBegin}}",
-                "EliasCompendiumComplete": "{{i18n:Maia.Dialogue.EliasCompendiumComplete}}"
+                "EliasCompendiumComplete": "{{i18n:Maia.Dialogue.EliasCompendiumComplete}}",
+                "ImanBarnReveal": "{{i18n:Maia.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -342,7 +354,8 @@
                 "ReihanaIntro": "{{i18n:Miyoung.Dialogue.ReihanaIntro}}",
                 "RaccoonScarf": "{{i18n:Miyoung.Dialogue.RaccoonScarf}}",
                 "AriGetsSlimed": "{{i18n:Miyoung.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Miyoung.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Miyoung.Dialogue.EliasHouseBegin}}",
+                "ImanBarnReveal": "{{i18n:Miyoung.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -383,7 +396,8 @@
                 "luauPoisoned": "{{i18n:Moon.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Moon.Dialogue.ReihanaIntro}}",
                 "RaccoonLunarite": "{{i18n:Moon.Dialogue.RaccoonLunarite}}",
-                "AriGetsSlimed": "{{i18n:Moon.Dialogue.AriGetsSlimed}}"
+                "AriGetsSlimed": "{{i18n:Moon.Dialogue.AriGetsSlimed}}",
+                "ImanBarnReveal": "{{i18n:Moon.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -411,7 +425,8 @@
                 "luauPoisoned": "{{i18n:Ophelia.Dialogue.luauPoisoned}}",
                 "ReihanaIntro": "{{i18n:Ophelia.Dialogue.ReihanaIntro}}",
                 "AriGetsSlimed": "{{i18n:Ophelia.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Ophelia.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Ophelia.Dialogue.EliasHouseBegin}}",
+                "ImanBarnReveal": "{{i18n:Ophelia.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -432,7 +447,8 @@
                 "luauBest": "{{i18n:Reihana.Dialogue.luauBest}}",
                 "luauShorts": "{{i18n:Reihana.Dialogue.luauShorts}}",
                 "luauPoisoned": "{{i18n:Reihana.Dialogue.luauPoisoned}}",
-                "AriGetsSlimed": "{{i18n:Reihana.Dialogue.AriGetsSlimed}}"
+                "AriGetsSlimed": "{{i18n:Reihana.Dialogue.AriGetsSlimed}}",
+                "ImanBarnReveal": "{{i18n:Reihana.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -453,7 +469,8 @@
                 "ReihanaIntro": "{{i18n:Silas.Dialogue.ReihanaIntro}}",
                 "RaccoonBar": "{{i18n:Silas.Dialogue.RaccoonBar}}",
                 "AriGetsSlimed": "{{i18n:Silas.Dialogue.AriGetsSlimed}}",
-                "EliasHouseBegin": "{{i18n:Silas.Dialogue.EliasHouseBegin}}"
+                "EliasHouseBegin": "{{i18n:Silas.Dialogue.EliasHouseBegin}}",
+                "ImanBarnReveal": "{{i18n:Silas.Dialogue.ImanBarnReveal}}"
             }
         },
         {
@@ -604,7 +621,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Marnie",
             "Entries": {
-                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}"
+                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}",
+                "ImanBarnReveal": "{{i18n:ImanBarnReveal.{{TargetWithoutPath}}}}"
             }
         },
         {
@@ -634,7 +652,8 @@
             "Action": "EditData",
             "Target": "Characters/Dialogue/Robin",
             "Entries": {
-                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}"
+                "DDFinalConfession": "{{i18n:DDFinalConfession.{{TargetWithoutPath}}}}",
+                "ImanBarnReveal": "{{i18n:ImanBarnReveal.{{TargetWithoutPath}}}}"
             }
         },
         {

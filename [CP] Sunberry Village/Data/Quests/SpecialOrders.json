@@ -1334,6 +1334,120 @@
                         "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
                     }
                 },
+                "SBV.SpecialOrder.ImanWoodGathering": {
+                    "Name": "[SBV.SpecialOrder.ImanWoodGathering_Name]",
+                    "Requester": "ImanSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "!dropbox_SBVImanBarn",
+                    "OrderType": "SBVNotBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.ImanWoodGathering_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.ImanWoodGathering_Objective_Text_0]",
+                            "RequiredCount": "500",
+                            "Data": {
+                                "DropBox": "SBVImanBarn",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryForest",
+                                "DropBoxIndicatorLocation": "20 46",
+                                "AcceptedContextTags": "item_wood"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "SBVImanBarnComplete",
+                                "NoLetter": "true"
+                            }
+                        }
+                    ],
+                    "CustomFields": {
+                        "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
+                    }
+                },
+                "SBV.SpecialOrder.ImanStoneGathering": {
+                    "Name": "[SBV.SpecialOrder.ImanStoneGathering_Name]",
+                    "Requester": "ImanSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "!dropbox_SBVImanBarn",
+                    "OrderType": "SBVNotBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.ImanStoneGathering_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.ImanStoneGathering_Objective_Text_0]",
+                            "RequiredCount": "350",
+                            "Data": {
+                                "DropBox": "SBVImanBarn",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryForest",
+                                "DropBoxIndicatorLocation": "20 46",
+                                "AcceptedContextTags": "item_stone"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "SBVImanBarnComplete",
+                                "NoLetter": "true"
+                            }
+                        }
+                    ],
+                    "CustomFields": {
+                        "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
+                    }
+                },
+                "SBV.SpecialOrder.ImanDyeGathering": {
+                    "Name": "[SBV.SpecialOrder.ImanDyeGathering_Name]",
+                    "Requester": "ImanSBV",
+                    "Duration": "Month",
+                    "Repeatable": false,
+                    "RequiredTags": "!dropbox_SBVImanBarn",
+                    "OrderType": "SBVNotBoard",
+                    "SpecialRule": "",
+                    "Text": "[SBV.SpecialOrder.ImanDyeGathering_Text]",
+                    "ItemToRemoveOnEnd": null,
+                    "MailToRemoveOnEnd": null,
+                    "RandomizedElements": null,
+                    "Objectives": [
+                        {
+                            "Type": "Donate",
+                            "Text": "[SBV.SpecialOrder.ImanDyeGathering_Objective_Text_0]",
+                            "RequiredCount": "30",
+                            "Data": {
+                                "DropBox": "SBVImanBarn",
+                                "DropBoxGameLocation": "Custom_SBV_SunberryForest",
+                                "DropBoxIndicatorLocation": "20 46",
+                                "AcceptedContextTags": "color_prismatic/color_red/color_pink/color_dark_red"
+                            }
+                        }
+                    ],
+                    "Rewards": [
+                        {
+                            "Type": "Mail",
+                            "Data": {
+                                "MailReceived": "SBVImanBarnComplete",
+                                "NoLetter": "true"
+                            }
+                        }
+                    ],
+                    "CustomFields": {
+                        "SunberryTeam.SBVSMAPI/InfiniteDuration": "true"
+                    }
+                },
             }
         },
     ]

@@ -57,6 +57,7 @@
                 "sbv.mountain4": "{{i18n:MapString.sbv.mountain4}}",
                 //forest
                 "sbv.forest1": "{{i18n:MapString.sbv.forest1}}",
+                "sbv.tempbarn": "{{i18n:MapString.sbv.tempbarn}}",
                 //road
                 "sbv.road1": "{{i18n:MapString.sbv.road1}}",
                 //ari market

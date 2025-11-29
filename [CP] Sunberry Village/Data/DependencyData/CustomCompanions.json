@@ -1396,6 +1396,40 @@
          ]
       },*/
         {
+            "LogName": "Sunberry Forest Alpacas",
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryForest",
+            "MapTiles": [
+                {
+                    "Position": {
+                        "X": 14,
+                        "Y": 51
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVAlpaca"
+                    },
+                },
+                {
+                    "Position": {
+                        "X": 18,
+                        "Y": 50
+                    },
+                    "Layer": "Back",
+                    "SetProperties": {
+                        "CustomCompanions": "Spawn 1 skellady.SBVCC.SBVBabyAlpaca"
+                    },
+                },
+            ],
+            "When": {
+                "Weather": "Sun, Wind",
+                "Season": "Spring, Summer, Fall",
+                "Time": "{{Range: 600, 1800}}",
+                "HasSeenEvent: anyPlayer |contains=skellady.SBVCP_20031489": true
+            },
+            "Update": "OnLocationChange"
+        },
+        {
             "LogName": "Critters in Mine Final",
             "Action": "EditMap",
             "Target": "Maps/Custom_SBV_MinesFinal",

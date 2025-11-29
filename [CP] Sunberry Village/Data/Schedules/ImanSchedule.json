@@ -21,5 +21,29 @@
 				"GreenRain": "610 Custom_SBV_ImanHouse 9 12 2 iman_sit"
 			},
 		},
+		{
+			"LogName": "Iman's Post-Barn Schedule",
+			"Action": "EditData",
+			"Target": "Characters/schedules/ImanSBV",
+			"Entries": {
+				"spring": "610 Custom_SBV_ImanHouse 3 13 0/1000 Custom_SBV_EzraClothes 7 7 1/2000 Custom_SBV_ImanHouse 5 5 3",
+				"Sun": "1100 Custom_SBV_ImanHouse 3 13 0/1200 Custom_SBV_SunberryForest 17 48 1/1600 Custom_SBV_SunberryForest 16 50 2/2200 Custom_SBV_ImanHouse 5 5 3",
+				"Mon": "610 Custom_SBV_ImanHouse 3 13 0/900 Custom_SBV_SunberryForest 17 48 2/1700 Custom_SBV_SunberryVillage 63 13 2 iman_sit/2200 Custom_SBV_ImanHouse 5 5 3",
+				"Tue": "700 SeedShop 28 13 2/1300 SeedShop 24 16 2 iman_sport/1600 Town 46 57 2/2000 Custom_SBV_ImanHouse 5 5 3",
+				"Wed": "610 Custom_SBV_EzraClothes 7 7 1/1000 Custom_SBV_DialaCafe 23 9 0/1400 Custom_SBV_DialaCafe 17 13 1/1600 Custom_SBV_SunberryVillage 63 13 2 iman_sit/2200 Custom_SBV_ImanHouse 5 5 3",
+				"Thu": "610 Custom_SBV_EzraClothes 7 7 1/900 Custom_SBV_SunberryForest 16 50 2/2200 Custom_SBV_ImanHouse 5 5 3",
+				"Fri": "610 Custom_SBV_EzraClothes 7 7 1/900 Custom_SBV_SunberryForest 16 50 2/2100 Custom_SBV_ImanHouse 5 5 3",
+				"spring_Sat": "610 Custom_SBV_ImanHouse 3 13 0/900 Custom_SBV_SunberryForest 17 48 2/1500 Custom_SBV_SunberryVillage 66 87 3 iman_drink \"Strings\\schedules\\ImanSBV:Fountain\"/2230 Custom_SBV_ImanHouse 5 5 3",
+				"summer_Sat": "610 Custom_SBV_ImanHouse 3 13 0/900 Custom_SBV_SunberryForest 17 48 2/1500 Custom_SBV_SunberryVillage 66 87 3 iman_drink \"Strings\\schedules\\ImanSBV:Fountain\"/2230 Custom_SBV_ImanHouse 5 5 3",
+				"fall_Sat": "610 Custom_SBV_ImanHouse 3 13 0/900 Custom_SBV_SunberryForest 17 48 2/1500 Custom_SBV_SunberryVillage 66 87 3 iman_drink \"Strings\\schedules\\ImanSBV:Fountain\"/2230 Custom_SBV_ImanHouse 5 5 3",
+				"skellady.SBVCP_TwilightFestival": "800 Custom_SBV_SunberryVillage 29 67 3 \"Strings\\schedules\\ImanSBV:TwilightFestival.000\"/1500 Custom_SBV_SunberryVillage 54 15 2 \"Strings\\schedules\\ImanSBV:TwilightFestival.001\"/2500 Custom_SBV_ImanHouse 5 5 3",
+				"winter_Sat": "610 Custom_SBV_ImanHouse 3 13 0/1000 Custom_SBV_EzraClothes 7 7 1/1600 Custom_SBV_SunberryVillage 63 13 2 iman_sit/2200 Custom_SBV_ImanHouse 5 5 3",
+				"rain": "610 Custom_SBV_ImanHouse 3 13 0/1000 Custom_SBV_EzraClothes 7 7 1/2000 Custom_SBV_ImanHouse 5 5 3",
+				"GreenRain": "610 Custom_SBV_ImanHouse 9 12 2 iman_sit"
+			},
+			"When": {
+				"HasSeenEvent: anyPlayer |contains=skellady.SBVCP_20031489": true
+			}
+		},
 	]
 }

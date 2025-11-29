@@ -2261,6 +2261,55 @@
     "event-20031487.33": "Goodbye, little one. I'll come back for you, I promise.$s",
     "event-20031487.34": "Iman seems to have gotten attached to the alpaca. I hope she makes a full recovery.",
 
+    // Iman 8 Hearts Pt. 1 Event
+    // FOR TRANSLATORS: NEW IN 1.0.4
+    "event-20031488.01": "Oh, before you all head off, I need to talk to you.",
+    "event-20031488.02": "Hey, @. Mind joining us? I want you to be included, too.$12",
+    "event-20031488.03": "I haven't been the best at asking for help. Like, ever. I always feel guilty doing so for some reason.$13",
+    "event-20031488.04": "Iman takes a deep breath.",
+    "event-20031488.05": "But... rescuing Fluffy has made me realize that I shouldn't hesitate to ask for help when I need it.",
+    "event-20031488.06": "And everyone here has been so kind, I guess I felt like asking for help would be taking advantage of that.$12",
+    "event-20031488.07": "...You named the alpaca Fluffy? Creative.$6",
+    "event-20031488.08": "Shut up! I'm trying to be vulnerable right now and you're totally ruining it.$10",
+    "event-20031488.09": "I guess what I'm asking is, I need help getting my barn all set up. I was doing that when I first moved to Sunberry, but...$s",
+    "event-20031488.10": "Things went wrong, and I haven't been able to do so. At least not on my own.$s",
+    "event-20031488.11": "Oh, Iman... First of all, I'm mad that you didn't just come to me sooner!$6",
+    "event-20031488.12": "But, I understand. I know it's hard. Second of all, I'm absolutely ready to help with whatever you need.#$b#I can make you a list of the materials I need, but I won't charge you any money.",
+    "event-20031488.13": "Robin... Ugh, you're gonna make me cry and I do NOT cry in public.$u",
+    "event-20031488.14": "I'll mostly need help gathering wood, stone, and paint.$h",
+    "event-20031488.15": "What should I contribute?",
+    "event-20031488.16": "Wood.",
+    "event-20031488.17": "Stone.",
+    "event-20031488.18": "Red paint.",
+    "event-20031488.19": "Perfect!$h",
+    "event-20031488.20": "I should have some stone to spare, I'll cover that.$h",
+    "event-20031488.21": "I have plenty of material to make some red paint. I can take care of that part.$h",
+    "event-20031488.22": "You're all so kind. I owe you all big time. Thank you so, so much.$12",
+    "event-20031488.23": "You know I'd do anything for you. I've got your back, always.$3",
+    "event-20031488.24": "Great! So we're all set. Drop off your materials by the barn in Sunberry Forest, and I'll get to work when it's all ready.$h",
+    "event-20031488.25": "I should have some wood to spare, I'll cover that.$h",
+    "event-20031488.26": "I... was gonna pick the red paint, but it's alright, I can gather some wood.$h",
+    "event-20031488.27": "YOU will gather the wood?$u",
+    "event-20031488.28": "Fine, Elias and I will gather the wood. He's strong, may as well put him to use.$u",
+    "event-20031488.29": "A quest has been added to your journal!",
+
+    // Iman 8 Hearts Pt. 2 Event
+    // FOR TRANSLATORS: NEW IN 1.0.4
+    "event-20031489.01": "Beautiful!",
+    "event-20031489.02": "Oh, dear. I haven't done public speaking in almost a decade. This is a little scary.$13",
+    "event-20031489.03": "You got this, rancher!",
+    "event-20031489.04": "Ahem... Thank you to everyone who showed up. Not just to the opening of the barn, but for me as well.$12",
+    "event-20031489.05": "I moved to Sunberry not too long ago, but the people here embraced me like one of their own immediately.#$b#I will never be able to express just how grateful I am to have you all in my life.$12",
+    "event-20031489.06": "Thanks to all of you, especially Ezra, @, Marnie, and Robin, I'm finally able to say my dream came true.$u",
+    "event-20031489.07": "I've always wanted to raise animals and care for them. It's been my dream since I was a little girl.$h",
+    "event-20031489.08": "But... I had to deal with my past first. It held me back for years, and so I had to put this project on pause.$s",
+    "event-20031489.09": "But with your help, I'm now a proud rancher!$12",
+    "event-20031489.10": "Yeah!",
+    "event-20031489.11": "It really does take a village. Thank you all, from the bottom of my heart.$u",
+    "event-20031489.12": "I will get to work tomorrow, and I'll be bringing in Fluffy the alpaca, as well as a few friends.$h",
+    "event-20031489.13": "Marnie and I have worked out a deal, and our alpacas will be sold through her for anyone who wishes to raise these lovely animals.$u",
+    "event-20031489.14": "What a ride! Iman has finally opened up the barn of her dreams. I can buy alpacas from Marnie now.",
+
     // Prank Goes Wrong - Blake and Lyenne's SO event
     "event-PrankGoesWrong.01": "Hehehe...",
     "event-PrankGoesWrong.02": "Here they come!",
@@ -2473,6 +2522,20 @@
     "SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_3": "Donate 1 Dwarf Key III",
     "SBV.SpecialOrder.SBVMuseumArtifacts2_Objective_Text_4": "Donate 1 Dwarf Key IV",
 
+    // Iman's Barn
+    // FOR TRANSLATORS: NEW IN 1.0.4
+    "SBV.SpecialOrder.ImanWoodGathering_Name": "Iman's Barn Repair",
+    "SBV.SpecialOrder.ImanWoodGathering_Text": "Iman has asked for your help to repair her abandoned barn. You've chosen to donate some wood towards her project.",
+    "SBV.SpecialOrder.ImanWoodGathering_Objective_Text_0": "Drop off 500 wood by the abandoned barn in Sunberry Forest",
+
+    "SBV.SpecialOrder.ImanStoneGathering_Name": "Iman's Barn Repair",
+    "SBV.SpecialOrder.ImanStoneGathering_Text": "Iman has asked for your help to repair her abandoned barn. You've chosen to donate some stone towards her project.",
+    "SBV.SpecialOrder.ImanStoneGathering_Objective_Text_0": "Drop off 350 stone by the abandoned barn in Sunberry Forest",
+
+    "SBV.SpecialOrder.ImanDyeGathering_Name": "Iman's Barn Repair",
+    "SBV.SpecialOrder.ImanDyeGathering_Text": "Iman has asked for your help to repair her abandoned barn. You've chosen to donate some items that can be turned into red paint.",
+    "SBV.SpecialOrder.ImanDyeGathering_Objective_Text_0": "Drop off 30 red items by the abandoned barn in Sunberry Forest",
+
     //Mail 
     //----
 
@@ -2547,6 +2610,8 @@
     "Mail.SBVMuseumSO3.Title": "Sunberry Museum Restored",
     "Mail.OpheliaSunslashSO.Body": "Dear @,^^Thank you for gathering the materials I asked for. I've sent them over to Maia earlier, and she immediately started to work on it. It should be available in her shop tomorrow if you want to pick it up. Free of charge, of course. It is a gift after all. Take care, @.^^- Your friend, Ophelia", // FOR TRANSLATORS: NEW IN 1.0.4
     "Mail.OpheliaSunslashSO.Title": "Ophelia's Sunslash", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Mail.SBVImanBarnComplete.Body": "Hey @,^^Robin got to work as soon as she had all the materials, and she's one speedy woman! The barn is done! I actually can't believe this. I saw it for myself when she was done, and I cried. Yes, in front of her. She held me like a baby. Thank you, thank you, thank you. Please come by to see it when you can.^^- Iman, Sunberry's Newest Rancher", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Mail.SBVImanBarnComplete.Title": "Dream Barn", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Pass Out Letter
     "Mail.passedOutSBV.Body": "@,^^Found you unconscious last night while I was doing my sweep with Maia. Try to be more careful next time. If there's anything I can do for you, you know where to find me.^^- Ophelia",
@@ -3346,6 +3411,7 @@
     "MapString.sbv.mountain4": "There are flowers besides this tombstone.#\"Here lies Levi\"",
     // Forest
     "MapString.sbv.forest1": "Looks like an unfinished barn. The door is barred.",
+    "MapString.sbv.tempbarn": "Doesn't look like there's much to see inside right now.",
     // Road
     "MapString.sbv.road1": "@ Sunberry Forest",
     // Rei's Door
@@ -6533,6 +6599,7 @@
     "Aicha.Dialogue.luauShorts": "Were those... someone's shorts in the soup? I wonder how they got there. Surely it was just an accident.$7",
     "Aicha.Dialogue.luauPoisoned": "Ugh, that soup was horrible. Rei healed me but I felt sooo sick for a while. Maybe she was right not to try the soup.$s",
     "Aicha.Dialogue.AriGetsSlimed": "I saw Ari getting slime poured on his head earlier. It looked so fun!$3#$b#Do you think I can get Blake and Lyenne to do that to me too?$1",
+    "Aicha.Dialogue.ImanBarnReveal": "Ahh! We have alpaca neighbors now! Isn't that SO exciting?$3", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Amina
     "Amina.Dialogue.cc_Complete": "Mom told me you fixed the community center! You're so cool!$3",
@@ -6550,6 +6617,7 @@
     "Amina.Dialogue.RaccoonToy": "Vincent told us a raccoon stole one of his toys. Do you think he's telling the truth?$3",
     "Amina.Dialogue.AriGetsSlimed": "Mom said I shouldn't do stuff like what Blake and Lyenne did with that slime, but... it looked pretty fun.$4#$b#You won't tell on me if I do a prank, will you?$3",
     "Amina.Dialogue.EliasCompendiumComplete": "I was at the library earlier and Elias showed me the copend- the comped- um, the book he wrote about all our fish!$1#$b#He said you helped him a lot with it, that was really nice of you.$3",
+    "Amina.Dialogue.ImanBarnReveal": "Iman said I can come by and play with the alpacas! They look sooo fluffy!$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Ari
     "Ari.Dialogue.cc_Complete": "I'm glad to hear the community center is up and running again. It'll be good for the villagers.$h",
@@ -6570,6 +6638,7 @@
     "Ari.Dialogue.AriGetsSlimed": "Hey, @. Don't worry, I know you weren't behind that little stunt with the slime earlier.$0#$b#Truth be told, once I'd calmed down and cleaned off, it was a little bit funny.$7#$b#Blake will never hear this from me, but... I used to be a bit of a troublemaker in my youth, if you can believe it.$12#$b#Of course, that doesn't mean he's off the hook. I'll have him doing chores around the shop for weeks.$6",
     "Ari.Dialogue.EliasHouseBegin": "Hm? Elias is...?#$b#HE'S WHAT? I can't believe that man. I swear, he's allergic to asking people for help.$a",
     "Ari.Dialogue.EliasCompendiumComplete": "Elias dropped by earlier to show me the finished compendium. He's so proud of that thing, Blake might start getting jealous!$3#$b#Thank you for helping him with it. I know how he gets with these little projects of his, and I don't plan to pick up a fishing rod ever again if I can help it.$9",
+    "Ari.Dialogue.ImanBarnReveal": "I'm glad Iman was able to get her barn up and running.$h#$b#I remember she got halfway through getting it set up when she first moved here, but suddenly stopped for some reason.$8", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Blake
     "Blake.Dialogue.cc_Complete": "You fixed up the community center? That's so cool! Maybe we can start hanging out there sometime.$h",
@@ -6589,6 +6658,7 @@
     "Blake.Dialogue.AriGetsSlimed": "Oh, hey. You probably guessed that the slime prank was supposed to be on you and not my dad.$8#$b#I'm basically gonna be living in the market for the next week or two. Don't worry, I totally learned my lesson.$12",
     "Blake.Dialogue.EliasHouseBegin": "Hey, @. How's it going?#$b#$y '..._Your father is renovating the old house by the fountain._Wait... that's awesome! I've got to talk him into making me a room over there.$u'",
     "Blake.Dialogue.EliasCompendiumComplete": "My father showed me the book that the two of you have been working on! He said it's all finished up.$1#$b#It looks pretty cool, I gotta say.$3",
+    "Blake.Dialogue.ImanBarnReveal": "For some reason, Iman didn't strike me as the rancher type. Guess you really can't judge a book by its cover. I'm happy for her.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Diala
     "Diala.Dialogue.cc_Complete": "@! We heard the good news.$h#$b#Congrats on fixing up the community center!$u",
@@ -6628,6 +6698,7 @@
     "Diala.Dialogue.RaccoonMuffin": "Ugh... that raccoon stole one of my freshly baked muffins. I'm going to need to start making double the amount now that both Derya AND the raccoon keep taking them.$9",
     "Diala.Dialogue.AriGetsSlimed": "Hey, @, I heard Ari got slimed. Do you know anything about that?$1#$b#Derya's been asking around to see if anyone got a picture, she thinks it's hilarious.$3",
     "Diala.Dialogue.EliasHouseBegin": "Hey, @! I spent like, an hour unboxing some cat food earlier. What have you been up to?$h#$b#$y '..._Elias is renovating his father's house._Oh, that's great news! I'm happy for him, I hope it goes well.$h'",
+    "Diala.Dialogue.ImanBarnReveal": "Iman looked so happy during the barn opening. I remember how Derya and I felt when we opened up the cafe, so I totally get her excitement.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Derya
     "Derya.Dialogue.cc_Complete": "Hey! It's great to see the Community Center up and running, thank you, @!$h",
@@ -6667,6 +6738,7 @@
     "Derya.Dialogue.RaccoonCoffee": "Can you believe this? Diala made me a cup of coffee and this raccoon snagged it right out of my hands!$13#$b#She did make me another cup, though. It was very sweet of her.$h",
     "Derya.Dialogue.AriGetsSlimed": "Ohoho, I *so* wish I'd gotten to see Ari all covered in slime.$3#$b#Hey, you didn't happen to get a picture, did you?$6",
     "Derya.Dialogue.EliasHouseBegin": "Elias is renovating his old house? No... please tell me you're kidding.$s#$b#Dammit, I just lost the bet I had with Iman. I didnt think he'd ever move out of that storage room!$11",
+    "Derya.Dialogue.ImanBarnReveal": "I'm SO happy we now have alpacas so close by!$h#$e#Oh, yeah. I'm happy for Iman too!$u", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Elias
     "Elias.Dialogue.cc_Complete": "I can't believe you fixed up the community center! Lewis better be so incredibly thankful for your existence right now.$u",
@@ -6687,6 +6759,7 @@
     "Elias.Dialogue.AriGetsSlimed": "Howdy, @. Ari marched our boy over here to tell me what he'd done himself.$1#$b#I had to act upset, but honestly? Blake's li'l prank pales in comparison to half the stuff his dad used to pull off.$3#$b#Oh, the stories I could tell...$11#$b#Ari probably wouldn't be too happy with me if I did, though.$3",
     "Elias.Dialogue.EliasHouseBegin": "Thanks again for droppin' by and for agreein' to spread the word. I hope no one's given you any trouble.$10",
     "Elias.Dialogue.EliasCompendiumComplete": "Hey, farmer. Thanks for all your help with the compendium.$1#$b#You must have fishing in your blood, the way you hooked all those beauties!$3",
+    "Elias.Dialogue.ImanBarnReveal": "I'm glad Iman was able to ask for help. She's passionate, that one. I look forward to seein' these alpacas myself.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Ezra
     "Ezra.Dialogue.cc_Complete": "Ah! I heard the community center's fixed up! That's wonderful news.$h#$b#I wonder if the townsfolk would mind me doing a little advertising over there.$u",
@@ -6706,6 +6779,7 @@
     "Ezra.Dialogue.EliasHouseBegin": "@! You look stunning. You've go-... Sorry, what was that?$h#$b#$y '..._Elias is renovating his old house._Ooh! That's nice. I hope he finally gets a bedroom with an actual door!$u'",
     "Ezra.Dialogue.RaccoonCloth": "When I find that little raccoon...$a#$b#He stole a piece of cloth! Snatched it right out of my hands!$s#$b#...It was an expensive one, too.$s", // FOR TRANSLATORS: NEW IN 1.0.4
     "Ezra.Dialogue.Iman4HEvent": "Ah, @. Sorry for leaving so abruptly. Iman's okay, she's just having a hard time.$s#$b#It's not my story to tell, but hopefully she'll open up to you, too, someday.", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Ezra.Dialogue.ImanBarnReveal": "Ugh, I've been so emotional over all this! I'm so proud of my girl.$u#$b#It's been a long journey, and I'm happy to have been by her side through it all.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Iman
     "Iman.Dialogue.cc_Complete": "The community center? That broken down building? Huh, never thought I'd see that get fixed up. Congrats!$h",
@@ -6723,6 +6797,7 @@
     "Iman.Dialogue.AriGetsSlimed": "Ari was in a terrible mood when I saw him earlier. What happened?$7#$b#Ezra mentioned something about a prank Blake and Lyenne pulled, but I kind of zoned out...$2#$b#Their pranks get a little repetitive, that's all.$11",
     "Iman.Dialogue.EliasHouseBegin": "Oh, if it isn't Ferngill's favorite farmer. Hm? You have something to tell me?$10#$b#$y '..._Elias is renovating his old house._...No way. Oh, @, I could kiss you right now! I'm going to go rub this in Derya's face. Thank you for telling me!$u'",
     "Iman.Dialogue.Iman4HEvent": "Oh, it's you. Yeah, sorry you had to see that. I... I'll be fine. I've dealt with worse.$11", // FOR TRANSLATORS: NEW IN 1.0.4
+    "Iman.Dialogue.ImanBarnReveal": "Oh, @. I know I've already said it plenty, but thank you. Gosh, I still can't believe it's real!$u", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Jumana
     "Jumana.Dialogue.cc_Complete": "I heard the wonderful news! I'm glad the community center is back up and running.$h",
@@ -6742,6 +6817,7 @@
     "Jumana.Dialogue.ReihanaIntro": "That... incident earlier was horrifying. I'm glad everyone's okay. We just need to keep an eye out for each other until this is resolved.$s#$b#...All this for fertilizer. Poor Diala.$s",
     "Jumana.Dialogue.AriGetsSlimed": "Oh, hi dear. Miyoung caught me up on what happened earlier with Lyenne and Blake.$0#$b#After the pranks Ari used to pull, I'm not sure he has any room to be upset.$6",
     "Jumana.Dialogue.EliasHouseBegin": "Oh, hello, sweetheart! Are you here to chit-chat or gossip? I can do both within limits.$6#$b#Elias is renovating the house? Oh, that's wonderful! It always saddened me to see him live in that storage room above the library.$4",
+    "Jumana.Dialogue.ImanBarnReveal": "Iman has always been incredibly kind. I'm glad people were able to help her out.$h#$b#I couldn't contribute, but I'll definitely be making her a nice bouquet and a delicious pie to congratulate her!$6", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Lyenne
     "Lyenne.Dialogue.cc_Complete": "I wonder if Sam, Seb, and Abby want to hang out in the community center now that it's fixed up.#$b#We tried hanging out when it was still broken down, but it was way too scary.$7",
@@ -6759,6 +6835,7 @@
     "Lyenne.Dialogue.AriGetsSlimed": "Hey, sorry about, uh, trying to dump a bucket of slime on you.$4#$b#That was maybe not one of our most well-planned pranks.$3#$b#Ophelia hasn't said anything to me about it yet, but I wish she'd just get it over with. I hate the waiting more than the scolding.$7",
     "Lyenne.Dialogue.EliasHouseBegin": "Hey, @! Sorry, I'm all over the place today. I had to submit an assignment last minute and it threw me off.$7#$b#$y '..._Elias is renovating his old house._...YES! If he's giving Blake a room, he better buy two beds.$6'",
     "Lyenne.Dialogue.EliasCompendiumComplete": "Elias showed me and Blake the book you two've been working on together! It's super cool.$3#$b#Maybe sometime I could show you some of my writing and see what you think?$4",
+    "Lyenne.Dialogue.ImanBarnReveal": "The alpacas are so cute! I got a glimpse at them when they were being transported here.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Maia
     "Maia.Dialogue.cc_Complete": "Glad to see the community center restored. Maybe Silas and I will join Clint to help out.$h",
@@ -6777,6 +6854,7 @@
     "Maia.Dialogue.AriGetsSlimed": "Poor Ari, I heard about the slime incident from Elias.$2#$b#I know he loves those kids to death, but I'm sure he could do without all the pranks.$0",
     "Maia.Dialogue.EliasHouseBegin": "*yawn*... Oh, hey, @... Huh?#$b#...Okay, I'll need Elias himself to confirm this information. I never thought I'd see the day. Props to whoever convinced him, that man is stubborn as hell.$h",
     "Maia.Dialogue.EliasCompendiumComplete": "Hey, @. Elias was so excited to show me his finished compendium earlier. I hadn't even had my morning coffee yet.$0#$b#But I guess as long as he's not waving another slimy fish in my face first thing in the morning, I'm happy.$1",
+    "Maia.Dialogue.ImanBarnReveal": "Hey, @. It was nice of you to contribute to Iman's barn. I've never seen her this happy.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Miyoung
     "Miyoung.Dialogue.cc_Complete": "I heard about the community center! That's wonderful news. Maybe Eve, Jumana and I could start hanging out there, now.$u",
@@ -6793,6 +6871,7 @@
     "Miyoung.Dialogue.RaccoonScarf": "That raccoon took the scarf I was knitting for Silas... I worked really hard on it.$s#$b#Oh, well. I guess Silas has enough scarves as is.$7",
     "Miyoung.Dialogue.AriGetsSlimed": "Hello, darling. I heard Ari got quite a surprise from Blake and Lyenne outside the inn.$0#$b#Personally, I think it's karma for all the tricks he used to pull when he was younger.$7",
     "Miyoung.Dialogue.EliasHouseBegin": "Elias...? Oh, this is wonderful news! I'll have to prepare a nice gift for this occasion. Ooh, I'll even get a nice bouquet from Jumana!$u",
+    "Miyoung.Dialogue.ImanBarnReveal": "Oh, I just love seeing our youngsters prosper and achieve their goals and dreams. Seeing how happy Iman was... I think she's going to make a wonderful rancher.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Moon
     "Moon.Dialogue.cc_Complete": "Community Center is repaired?$u#$b#But... junimo friends left?$s",
@@ -6829,6 +6908,7 @@
     "Moon.Dialogue.ReihanaIntro": "Diala summoned demons? How... you know what? Moon won't question that too much.$s",
     "Moon.Dialogue.RaccoonLunarite": "Hmph, the raccoon took Moon's Lunarite! Moon took that from Diala first.$s",
     "Moon.Dialogue.AriGetsSlimed": "Moon saw Ari get slime all over him! Moon laughed.$1#$b#Will @ pull prank on Diala and Derya with Moon?$0",
+    "Moon.Dialogue.ImanBarnReveal": "Alpacas better not lick Moon. Moon is not food.$a", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Nadia
     "Nadia.Dialogue.AriGetsSlimed": "Hah, that prank Blake and Lyenne pulled was awesome!$1#$b#Seems like something I would have done to my brother.$6",
@@ -6847,6 +6927,7 @@
     "Ophelia.Dialogue.ReihanaIntro": "...It's times like these I wish I was still a full-time adventurer. We wouldn't have had demons in town.$s#$b#I have to make sure everyone's okay and then deal with those two.$a",
     "Ophelia.Dialogue.AriGetsSlimed": "Ari came into the inn in a foul mood earlier, and he was tracking slime all over my clean floor.$12#$b#I suppose it's only appropriate to have Lyenne clean it up, since she was almost certainly involved.$10",
     "Ophelia.Dialogue.EliasHouseBegin": "Hello, @. You've got 'gossip' written all over your face. What's going on?$8#$b#$y '..._Elias is renovating the old house by the fountain._Huh! Well, that's certainly surprising. I'll have to talk to him and see if he needs any help.'",
+    "Ophelia.Dialogue.ImanBarnReveal": "Sunberry's newest rancher. What a great time for our little village.$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Reihana
     "Reihana.Dialogue.cc_Complete": "Oh, wow, you fixed up a broken down building!$12#$b#No one cares, bud. What, you want a cookie?#$b#...Actually, nevermind. I'm on my last cookie. You can't have it.$8",
@@ -6863,6 +6944,7 @@
     "Reihana.Dialogue.luauShorts": "HAH! Everytime I remember how those shorts got fished out of the soup, I start laughing until I cry. Oh, that was amazing.$u",
     "Reihana.Dialogue.luauPoisoned": "Aicha got poisoned yesterday. Was it you, @? How dare you mess with the soup?$14#$b#She's never going to have soup ever again.$s",
     "Reihana.Dialogue.AriGetsSlimed": "Hah! I so wish I'd gotten to see that shopkeeper's face when the slime was pouring onto his head.$1#$b#How do I know about that? I certainly haven't been spying on the villagers, if that's what you're implying.$3#$b#...Get out of my face.$25",
+    "Reihana.Dialogue.ImanBarnReveal": "Aicha's already planning on befriending these alpacas.$12#$e#Hm? @! I'm not going to *hurt* the alpacas. I'm a demon, not a monster.$20", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //Silas
     "Silas.Dialogue.cc_Complete": "I'm really glad the community center is fixed up. Maia and I should drop by to hang out with Clint sometimes.$u",
@@ -6879,6 +6961,7 @@
     "Silas.Dialogue.RaccoonBar": "That sneaky raccoon snatched the bar right out of my hands! I was caught off guard!$8",
     "Silas.Dialogue.AriGetsSlimed": "Hi, @. My wife filled me in on the whole incident with Blake and Ari.$0#$b#Between you and me, I wish I'd gotten to see Ari's face when it happened.$3",
     "Silas.Dialogue.EliasHouseBegin": "Always nice to see you around, @! Hm? Sorry, this old man's hearing isn't as good as it used to be.$u#$b#$y '..._Elias is renovating the old house by the fountain._Well, that definitely wasn't on my bingo card. I'm happy for him! He needs a bigger space than the room he's using at the library.$h'",
+    "Silas.Dialogue.ImanBarnReveal": "What a beautiful day for animal lovers! I hope Iman doesn't get sick of me dropping by to say 'hi' to the alpacas.$u", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //CTs (Vanilla Villagers)
 
@@ -6915,10 +6998,12 @@
     "DDFinalConfession.Jas": "Aunt Marnie agreed to let Amina and I have a sleepover! Amina is bringing the toys her dad got her",
     "RaccoonToy.Jas": "Maybe Vincent is telling the truth about the raccoon. I have seen him around causing trouble.$3",
     "DDFinalConfession.Marnie": "The ranch is a long walk from the cat cafe, but Diala and Derya always make the trip here for supplies.$h",
+    "ImanBarnReveal.Marnie": "I'm so glad there's another rancher around now! Don't forget, you can drop by my ranch to buy some of Iman's alpacas.$h", // FOR TRANSLATORS: NEW IN 1.0.4
     "DDFinalConfession.Pierre": "I've been to Sunberry Village a few times, It's lovely.$h#$b#Ari on the other hand...$a",
     "RaccoonFertilizer.Pierre": "Oh, you just wait til' I can get my hands on that fertilizer stealing raccoon. Do you think he's working for Ari? He's definitely trying to stir things up.$a",
     "RaccoonSapling.Pierre": "*sigh*...I need to find a way to keep that raccoon out! He just stole a sapling. Can you believe it? A whole sapling!$2", // FOR TRANSLATORS: NEW IN 1.0.4
     "DDFinalConfession.Robin": "The owners of the cafe over at Sunberry Village came to me for help with some renovations a while back.#$b#They sent a big batch of cookies our way when I was done working.$h",
+    "ImanBarnReveal.Robin": "Whew! Took a lot of effort, but I'm very proud of how that barn turned out. Thanks for helping out, @!$h", // FOR TRANSLATORS: NEW IN 1.0.4
 
     //DDEngaged
     "DDEngaged.Demetrius": "Robin is making me go to the cat cafe.#$b#She told me I could debate science and astrology there, rather than to her ears. I think she just wants to see the cats.$h",
