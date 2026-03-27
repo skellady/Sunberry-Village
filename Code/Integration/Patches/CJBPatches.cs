@@ -1,10 +1,5 @@
 ﻿using HarmonyLib;
 using StardewValley;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Reflection.Emit;
 // ReSharper disable UnusedMember.Local
 // ReSharper disable UnusedMember.Global
 // ReSharper disable RedundantAssignment
@@ -28,47 +23,31 @@ internal class CJBPatches
 	 *  Patches
 	 */
 
-    /// <summary>
-    /// Patches <c>CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat</c> to treat Sunberry mines as caves for the freeze time cheat.
-    /// </summary>
-    public static IEnumerable<CodeInstruction> ShouldFreezeTime_Transpiler(IEnumerable<CodeInstruction> instructions)
+	/// <summary>
+	/// Patches <c>CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat::ShouldFreezeTime</c> to treat Sunberry mines as caves for the freeze time cheat.
+	/// If the location is Custom_SBV_Mines, sets isCave = true and returns true when FreezeTimeCaves is enabled.
+	/// </summary>
+	public static void ShouldFreezeTime_Postfix(object config, GameLocation location, ref bool isCave, ref bool __result)
 	{
-		List<CodeInstruction> origInstructions = [.. instructions]; // store unaltered instructions in case anything goes wrong
-		CodeMatcher matcher = new(instructions);
+		if (location?.Name?.Contains(MinesString) != true)
+			return;
 
-		try
+		isCave = true;
+
+		// Mirror the original logic: return true if FreezeTimeCaves is enabled (or FreezeTime is already on)
+		if (!__result)
 		{
-			// get needed method info
-			MethodInfo m_stringContains = typeof(string).GetMethod(nameof(string.Contains), [typeof(string)]);
-			MethodInfo m_locationNameGetter = typeof(GameLocation).GetProperty(nameof(GameLocation.Name)).GetGetMethod();
-
-			// get needed labels
-			Label jumpIfNotSunberryMinesLabel = (Label)matcher.MatchStartForward(
-					new CodeMatch(OpCodes.Brfalse_S),
-					new CodeMatch(OpCodes.Ldc_I4_1)
-				).Instruction.operand;
-
-            // check if given location is null. if not, check if it contains mines string in the name
-            // jump accordingly
-            matcher.Advance(1).Insert(
-                    new CodeInstruction(OpCodes.Ldarg_2),
-					new CodeInstruction(OpCodes.Ldnull),
-					new CodeInstruction(OpCodes.Ceq),
-                    new CodeInstruction(OpCodes.Brtrue_S, jumpIfNotSunberryMinesLabel),
-                    new CodeInstruction(OpCodes.Ldarg_2),
-					new CodeInstruction(OpCodes.Call, m_locationNameGetter),
-					new CodeInstruction(OpCodes.Ldstr, MinesString),
-					new CodeInstruction(OpCodes.Call, m_stringContains),
-					new CodeInstruction(OpCodes.Brfalse_S, jumpIfNotSunberryMinesLabel)
-				);
-
-            return matcher.InstructionEnumeration();
-		}
-		catch (Exception e)
-		{
-			Log.Error($"Harmony patch <{nameof(CJBPatches)}::{nameof(ShouldFreezeTime_Transpiler)}> has encountered an error while attempting to transpile <CJBCheatsMenu.Framework.Cheats.Time.FreezeTimeCheat::ShouldFreezeTime>: \n{e}");
-			Log.Trace("Faulty IL:\n\t" + string.Join("\n\t", matcher.Instructions().Select((instruction, i) => $"{i}\t{instruction}")));
-			return origInstructions;
+			try
+			{
+				bool freezeTimeCaves = (bool)AccessTools.Property(config.GetType(), "FreezeTimeCaves").GetValue(config);
+				if (freezeTimeCaves)
+					__result = true;
+			}
+			catch (System.Exception e)
+			{
+				Log.Error($"Harmony patch <{nameof(CJBPatches)}::{nameof(ShouldFreezeTime_Postfix)}> has encountered an error: \n{e}");
+				Log.Trace($"Config type: {config?.GetType().FullName ?? "null"}, Location: {location?.Name ?? "null"}, isCave: {isCave}, __result: {__result}");
+			}
 		}
 	}
 }
