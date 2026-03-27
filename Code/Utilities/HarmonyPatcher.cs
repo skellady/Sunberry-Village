@@ -34,7 +34,7 @@ internal class HarmonyPatcher
 			{
 				Harmony.Patch(
 					original: freezeTime,
-					transpiler: new HarmonyMethod(AccessTools.Method(typeof(CJBPatches), nameof(CJBPatches.ShouldFreezeTime_Transpiler)))
+					postfix: new HarmonyMethod(AccessTools.Method(typeof(CJBPatches), nameof(CJBPatches.ShouldFreezeTime_Postfix)))
 				);
 			}
 			else
