@@ -155,6 +155,11 @@ internal class MarketDailySpecialManager
 		if (__instance.Name != "Custom_SBV_AriMarket" || Game1.player.modData.ContainsKey(AlreadyPurchasedMailFlag))
 			return;
 
+		// this runs from resetLocalState on every entry, but temporarySprites is only cleared once a
+		// day in DayUpdate - without this the sprite piles up and RemoveDailySpecial strips only one
+		if (__instance.TemporarySprites.Contains(DailySpecialSprite))
+			return;
+
 		__instance.TemporarySprites.Add(DailySpecialSprite);
 	}
 	
