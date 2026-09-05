@@ -43,7 +43,7 @@
                         },
                         // random fruit wine (silver quality)
                         {
-                            "ItemId": "FLAVORED_ITEM Wine (O){{Random:613,631,634,635,636,637,638,410,258,254,834}}",
+                            "ItemId": "FLAVORED_ITEM Wine (O){{Random:613,634,635,636,637,638,410,258,254,834}}",
                             "Quality": "1"
                         },
                         // Random seeds
@@ -110,7 +110,7 @@
                                 "(O)skellady.SBVCP_Najelfish",
                                 "(O)skellady.SBVCP_BonbonFish",
                             ],
-                            "Season": "Spring",
+                            "Condition": "SEASON Spring",
                             "MaxItems": 1,
                             "ModData": {
                                 "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.EliasCatch}}"
@@ -127,7 +127,7 @@
                                 "(O)skellady.SBVCP_EeltailedCatfish",
                                 "(O)skellady.SBVCP_ChartreuseTilapia",
                             ],
-                            "Season": "Summer",
+                            "Condition": "SEASON Summer",
                             "MaxItems": 1,
                             "ModData": {
                                 "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.EliasCatch}}"
@@ -142,7 +142,7 @@
                                 "(O)skellady.SBVCP_FiretailGuppy",
                                 "(O)skellady.SBVCP_AzureanCarp",
                             ],
-                            "Season": "Fall",
+                            "Condition": "SEASON Fall",
                             "MaxItems": 1,
                             "ModData": {
                                 "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName": "{{i18n:MarketSpecial.EliasCatch}}"
