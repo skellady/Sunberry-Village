@@ -10,8 +10,6 @@ using System.Linq;
 using HarmonyLib;
 using StardewValley.TokenizableStrings;
 using xTile.Layers;
-using System.Numerics;
-using Vector2 = Microsoft.Xna.Framework.Vector2;
 // ReSharper disable UnusedMember.Global
 // ReSharper disable InconsistentNaming
 
@@ -20,7 +18,6 @@ namespace SunberryVillage.Shops;
 internal class MarketDailySpecialManager
 {
 	internal static Item MarketDailySpecialItem;
-	internal static Vector2 DailySpecialTilePosition = Vector2.Zero;
 	internal static TemporaryAnimatedSprite DailySpecialSprite;
 
 	internal const string AlreadyPurchasedMailFlag = "SunberryTeam.SBVSMAPI_AlreadyPurchasedMarketDailySpecial";
@@ -125,6 +122,7 @@ internal class MarketDailySpecialManager
 
 			// iterate over map to find property in order to determine where to place sprite for special item
 			bool found = false;
+			Vector2 tilePosition = Vector2.Zero;
 			Layer layer = market.Map.GetLayer("Buildings");
 			for (int x = 0; x < layer.LayerWidth; x++)
 			{
@@ -140,14 +138,14 @@ internal class MarketDailySpecialManager
 					// ReSharper disable once InvertIf
 					if (ArgUtility.Get(action, 0, "") == "SunberryTeam.SBVSMAPI_MarketDailySpecial")
 					{
-						DailySpecialTilePosition = new Vector2(x, y) - new Vector2(0, heightOffset);
+						tilePosition = new Vector2(x, y) - new Vector2(0, heightOffset);
 						found = true;
 					}
 				}
 			}
 
-			// DailySpecialTilePosition is a static that keeps its last value, so without this a missing
-			// action tile would place the sprite at yesterday's spot - or at tile 0,0 on the first run
+			// without this a missing action tile would leave tilePosition at zero and park the sprite
+			// in the corner of the map
 			if (!found)
 			{
 				Log.Error(
@@ -158,7 +156,7 @@ internal class MarketDailySpecialManager
 			}
 
 			// convert tile pos to pixel pos and shift up slightly on counter
-			DailySpecialSprite.Position = DailySpecialTilePosition * 64f + new Vector2(0f, -16f);
+			DailySpecialSprite.Position = tilePosition * 64f + new Vector2(0f, -16f);
 		}
 	}
 
@@ -203,7 +201,7 @@ internal class MarketDailySpecialManager
 
 	internal static string GetOfferDialogue()
 	{
-		int whichVariant = new Random().Next(2) + 1;
+		int whichVariant = Utils.Random.Next(2) + 1;
 		
 		return Utils.GetTranslationWithPlaceholder($"MarketDailySpecialOffer{whichVariant}")
 			.Replace("{0}", GetOfferItemName())
