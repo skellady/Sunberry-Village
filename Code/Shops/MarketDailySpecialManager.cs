@@ -60,8 +60,18 @@ internal class MarketDailySpecialManager
 		ItemQueryContext itemQueryContext = new(Game1.currentLocation, Game1.player, null, "skellady.SBVCP_MarketDailySpecialItemQuery");
 		List<GenericSpawnItemData> spawnPool = [];
 
-		foreach (MarketDailySpecialData entry in marketDailySpecialAsset.Values.Where(entry => GameStateQuery.CheckConditions(entry.Condition, Game1.currentLocation, Game1.player)))
+		foreach ((string key, MarketDailySpecialData entry) in marketDailySpecialAsset)
 		{
+			if (!GameStateQuery.CheckConditions(entry.Condition, Game1.currentLocation, Game1.player))
+				continue;
+
+			// an entry that omits or misspells "Items" deserializes to null - warn instead of crashing day start
+			if (entry.Items is null)
+			{
+				Log.Warn($"Market daily special entry \"{key}\" has no \"Items\" list and was skipped. Check that entry for a misspelled field name.");
+				continue;
+			}
+
 			spawnPool.AddRange(entry.Items.Where(data => GameStateQuery.CheckConditions(data.Condition)));
 		}
 
