@@ -22,6 +22,7 @@ internal class MarketDailySpecialManager
 
 	internal const string AlreadyPurchasedMailFlag = "SunberryTeam.SBVSMAPI_AlreadyPurchasedMarketDailySpecial";
 	internal const string MarketSpecialAssetPath = "SunberryTeam.SBVSMAPI/MarketDailySpecialData";
+	internal const string MarketSpecialPriceKey = "SunberryTeam.SBVSMAPI_MarketSpecialPrice";
 
 	internal static void AddEventHooks()
 	{
@@ -219,10 +220,10 @@ internal class MarketDailySpecialManager
 
 	internal static int GetOfferPrice()
 	{
-		if (MarketDailySpecialItem.modData.TryGetValue("SunberryTeam.SBVSMAPI_MarketSpecialPrice", out string priceString) && int.TryParse(priceString, out int price))
+		if (MarketDailySpecialItem.modData.TryGetValue(MarketSpecialPriceKey, out string priceString) && int.TryParse(priceString, out int price))
 			return price;
 
-		return MarketDailySpecialItem.sellToStorePrice();
+		return Utility.getSellToStorePriceOfItem(MarketDailySpecialItem);
 	}
 
 	internal static void RemoveDailySpecial()
