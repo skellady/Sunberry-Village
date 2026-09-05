@@ -146,6 +146,17 @@ internal class MarketDailySpecialManager
 				}
 			}
 
+			// DailySpecialTilePosition is a static that keeps its last value, so without this a missing
+			// action tile would place the sprite at yesterday's spot - or at tile 0,0 on the first run
+			if (!found)
+			{
+				Log.Error(
+					"Unable to find a \"SunberryTeam.SBVSMAPI_MarketDailySpecial\" action tile in \"Custom_SBV_AriMarket\", failed to place daily market special sprite.");
+
+				DailySpecialSprite = null;
+				return;
+			}
+
 			// convert tile pos to pixel pos and shift up slightly on counter
 			DailySpecialSprite.Position = DailySpecialTilePosition * 64f + new Vector2(0f, -16f);
 		}
