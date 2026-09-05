@@ -50,6 +50,10 @@ internal class MarketDailySpecialManager
 		{
 			Log.Warn($"Could not get data from asset \"{MarketSpecialAssetPath}\". Creating generic fallback item \"(O)0\".");
 			MarketDailySpecialItem = ItemRegistry.Create("(O)0");
+
+			// this returns before the sprite is rebuilt, so drop yesterday's rather than leave it
+			// on the counter advertising an item that is no longer the special
+			DailySpecialSprite = null;
 			return;
 		}
 		
