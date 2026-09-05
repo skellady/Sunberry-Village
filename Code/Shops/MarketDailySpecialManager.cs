@@ -223,7 +223,14 @@ internal class MarketDailySpecialManager
 		if (MarketDailySpecialItem.modData.TryGetValue(MarketSpecialPriceKey, out string priceString) && int.TryParse(priceString, out int price))
 			return price;
 
-		return Utility.getSellToStorePriceOfItem(MarketDailySpecialItem);
+		int derived = Utility.getSellToStorePriceOfItem(MarketDailySpecialItem);
+
+		// items with no usable sell price (hats, tools without ToolData.SalePrice) derive
+		//  to 0 or negative. That would give the special away or pay the player for taking it.
+		if (derived <= 0)
+			Log.Warn($"Market special \"{MarketDailySpecialItem.QualifiedItemId}\" derived a price of {derived}g. Set \"{MarketSpecialPriceKey}\" in its ModData to give it a real price.");
+
+		return Math.Max(1, derived);
 	}
 
 	internal static void RemoveDailySpecial()
