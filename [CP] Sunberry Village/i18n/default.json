@@ -6201,7 +6201,7 @@
 
     // 4-7 Hearts - Fall
     "RaccoonDialogue.Mid.Fall.Monday.1": "The raccoon seems to be happy to see you. Happy enough to give you the opal he's holding! What a treat. [564]",
-    "RaccoonDialogue.Mid.Fall.Monday.2": "The raccoon is holding onto... an apple sapling. He drops it at your feet. Did he steal that from Pierre...? [633]$t RaccoonSapling 1",
+    "RaccoonDialogue.Mid.Fall.Monday.2": "The raccoon is holding onto... an apple sapling. He drops it at your feet. Did he steal that from Pierre...? [633]#$t RaccoonSapling 1",
     "RaccoonDialogue.Mid.Fall.Monday.3": "The raccoon is is holding onto a few leaves. He puts them down and proceeds to step on them. Is it really fall if you haven't stepped on some crunchy leaves?",
 
     "RaccoonDialogue.Mid.Fall.Tuesday.1": "The raccoon purrs and hands you a packet of... ancient seeds! You wonder where he got that from... [499]",
@@ -6225,7 +6225,7 @@
     "RaccoonDialogue.Mid.Fall.Saturday.3": "$y 'The raccoon is here!_Greet him._You say hello. He chitters happily and extends his hand out for a handshake. How sweet._Pet him._You extend your hand warily and gently pet him. He looks confused, but he doesn't seem to mind._Smile at him awkwardly._The raccoon tilts his head in confusion. He then starts trying to imitate your awkward smile.",
 
     "RaccoonDialogue.Mid.Fall.Sunday.1": "The raccoon is holding onto an... ancient sword?! He holds it up and smiles mischievously. You do NOT want to know what he's doing with that or where he got it from.",
-    "RaccoonDialogue.Mid.Fall.Sunday.2": "The raccoon purrs. He hands you a life elixir. It's half empty... Did he steal that from the clinic? [773]$t RaccoonElixir 1",
+    "RaccoonDialogue.Mid.Fall.Sunday.2": "The raccoon purrs. He hands you a life elixir. It's half empty... Did he steal that from the clinic? [773]#$t RaccoonElixir 1",
     "RaccoonDialogue.Mid.Fall.Sunday.3": "The raccoon immediately extends his hands out to you. He's giving you some monster musk. He winks as you take it from him. Is... is this a threat? [879]",
 
     // 4-7 Hearts - Winter
@@ -6234,14 +6234,14 @@
     "RaccoonDialogue.Mid.Winter.Monday.3": "The raccoon purrs and drops a pouch of powdermelon seeds at your feet. It's soaking wet... [(O)PowdermelonSeeds]",
 
     "RaccoonDialogue.Mid.Winter.Tuesday.1": "The raccoon reluctantly gives you a treasure chest. You have to wrestle it out of his little hands. [166]",
-    "RaccoonDialogue.Mid.Winter.Tuesday.2": "The raccoon shivers. He wraps his scarf around him tighter. You wonder who knitted that for him...$t RaccoonKnitting 2",
+    "RaccoonDialogue.Mid.Winter.Tuesday.2": "The raccoon shivers. He wraps his scarf around him tighter. You wonder who knitted that for him...#$t RaccoonKnitting 2",
     "RaccoonDialogue.Mid.Winter.Tuesday.3": "The raccoon purrs and drops a piece of truffle at your feet. How'd he get this? It's winter... [430]",
 
-    "RaccoonDialogue.Mid.Winter.Wednesday.1": "The raccoon is holding onto a souvenir of some sort. He clutches it tighter as you approach. Who did he steal that from?$t RaccoonSouvenir 1",
+    "RaccoonDialogue.Mid.Winter.Wednesday.1": "The raccoon is holding onto a souvenir of some sort. He clutches it tighter as you approach. Who did he steal that from?#$t RaccoonSouvenir 1",
     "RaccoonDialogue.Mid.Winter.Wednesday.2": "The raccoon chitters happily. He extends his little hands outwards to offer you his burger. You take it and thank him. [241]",
     "RaccoonDialogue.Mid.Winter.Wednesday.3": "The raccoon hisses and throws a piece of bait at your feet. It's wet and sticky... [685]",
 
-    "RaccoonDialogue.Mid.Winter.Thursday.1": "The raccoon seems to be holding a book. The cover has magical girls on it. Who did he steal that from?$t RaccoonManga 1",
+    "RaccoonDialogue.Mid.Winter.Thursday.1": "The raccoon seems to be holding a book. The cover has magical girls on it. Who did he steal that from?#$t RaccoonManga 1",
     "RaccoonDialogue.Mid.Winter.Thursday.2": "The raccoon purrs and hands you a packet of... ancient seeds! You wonder where he got that from... [499]",
     "RaccoonDialogue.Mid.Winter.Thursday.3": "The raccoon chitters happily. He's holding a dinosaur egg! It's bigger than his face.#$b#$y 'What do you do?_Ask him to hand it over nicely._The raccoon hesitates and reluctantly gives it to you. He waves goodbye at it as you hold it. [107]_Snatch it from his little hands._You try to forcefully take it away from him. He gasps in disbelief! Chaos ensues! You tug, he tugs, and then... the egg breaks. Neither of you win, I guess.'",
 
