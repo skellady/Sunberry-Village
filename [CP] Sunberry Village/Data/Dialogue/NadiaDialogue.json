@@ -58,7 +58,7 @@
                 "Wed6": "{{i18n:Nadia.Dialogue.Wed6}}",
                 "Thu6": "{{i18n:Nadia.Dialogue.Thu6}}",
                 "Fri6": "{{i18n:Nadia.Dialogue.Fri6}}",
-                "Sat6": "{{i18n:Nadia.Dialogue.Sat6}} $t {{ModId}}_EzraNadiaFight",
+                "Sat6": "{{i18n:Nadia.Dialogue.Sat6}}#$t {{ModId}}_EzraNadiaFight",
                 "Sun6": "{{i18n:Nadia.Dialogue.Sun6}}",
                 //8 Hearts
                 "Mon8": "{{i18n:Nadia.Dialogue.Mon8}}",
