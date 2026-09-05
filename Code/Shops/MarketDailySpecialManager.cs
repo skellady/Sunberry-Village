@@ -160,7 +160,12 @@ internal class MarketDailySpecialManager
 	
 	internal static Item GetOfferItem()
 	{
-		return MarketDailySpecialItem;
+		// hand out a copy - this goes straight into the player's inventory, and merging into an
+		// existing stack there would mutate Stack on whatever instance we passed in
+		Item offer = MarketDailySpecialItem.getOne();
+		offer.Stack = MarketDailySpecialItem.Stack;
+
+		return offer;
 	}
 
 	internal static string GetOfferItemName()
