@@ -274,7 +274,9 @@ internal class GameLocationPatches
 			return false;
 		}
 
-		if (Game1.player.Money < MarketDailySpecialManager.GetOfferPrice())
+		int price = MarketDailySpecialManager.GetOfferPrice();
+
+		if (Game1.player.Money < price)
 		{
 			Dialogue notEnoughDialogue = new(ari, "",
 				Utils.GetTranslationWithPlaceholder($"MarketDailySpecialNotEnoughMoney{whichVariant}").Replace("{0}", Game1.player.Name));
@@ -283,7 +285,7 @@ internal class GameLocationPatches
 			return false;
 		}
 
-		Game1.player.Money -= MarketDailySpecialManager.GetOfferPrice();
+		Game1.player.Money -= price;
 		Game1.player.addItemByMenuIfNecessary(MarketDailySpecialManager.GetOfferItem());
 
 		MarketDailySpecialManager.RemoveDailySpecial();
