@@ -429,12 +429,12 @@ internal class MapManager
 
 	private static bool HandleMarketDailySpecialAction(GameLocation location, string[] args, Farmer player, Point tile)
 	{
-		NPC ari = Game1.currentLocation.getCharacterFromName("AriSBV");
-		if (ari is null)
-			return false;
+		// look Ari up in the location the tile belongs to - getCharacterFromName only walks that
+		// location's characters, so a hit already proves membership
+		NPC ari = location.getCharacterFromName("AriSBV");
 
 		// if Ari is on the map and close enough to the daily special tile
-		if (location.characters.Contains(ari) && Vector2.Distance(ari.Tile, tile.ToVector2()) < 10f)
+		if (ari is not null && Vector2.Distance(ari.Tile, tile.ToVector2()) < 10f)
 		{
 			if (player.modData.ContainsKey(MarketDailySpecialManager.AlreadyPurchasedMailFlag))
 			{
