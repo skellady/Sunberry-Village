@@ -77,14 +77,12 @@ internal class MarketDailySpecialManager
 		{
 			GenericSpawnItemData selectedEntry = spawnPool.GetRandomElementFromList(dailyRandom, true);
 
-			// assume success unless logError fires
-			itemResolved = true;
 			MarketDailySpecialItem = ItemQueryResolver.TryResolveRandomItem(selectedEntry, itemQueryContext,
-				logError: (query, message) =>
-				{
-					itemResolved = false;
-					Log.Warn($"Failed parsing item query \"{query}\": {message}");
-				});
+				logError: (query, message) => Log.Warn($"Failed parsing item query \"{query}\": {message}"));
+
+			// the resolver has null paths that never reach logError - an empty item id warns through
+			// Game1.log instead, and a non-Item result just fails the cast - so trust the result itself
+			itemResolved = MarketDailySpecialItem is not null;
 		}
 
 		if (itemResolved)
