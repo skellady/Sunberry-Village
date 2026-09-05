@@ -108,6 +108,9 @@ internal class MarketDailySpecialManager
 		{
 			Log.Error(
 				"Unable to find location matching \"Custom_SBV_AriMarket\", failed to add daily market special sprite to location.");
+
+			// clear it out - otherwise yesterday's sprite sticks around advertising the wrong item
+			DailySpecialSprite = null;
 		}
 		else
 		{
@@ -153,6 +156,11 @@ internal class MarketDailySpecialManager
 	public static void setUpLocationSpecificFlair_Prefix(GameLocation __instance)
     {
 		if (__instance.Name != "Custom_SBV_AriMarket" || Game1.player.modData.ContainsKey(AlreadyPurchasedMailFlag))
+			return;
+
+		// sprite creation is skipped when the market location can't be found - a null in the list
+		// would throw the next time the location draws its temporary sprites
+		if (DailySpecialSprite is null)
 			return;
 
 		// this runs from resetLocalState on every entry, but temporarySprites is only cleared once a
