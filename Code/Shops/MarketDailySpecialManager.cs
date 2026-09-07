@@ -19,6 +19,7 @@ namespace SunberryVillage.Shops;
 internal class MarketDailySpecialManager
 {
 	internal static Item MarketDailySpecialItem;
+	private static int MarketDailySpecialPrice;
 	internal static TemporaryAnimatedSprite DailySpecialSprite;
 
 	internal const string AlreadyPurchasedMailFlag = "SunberryTeam.SBVSMAPI_AlreadyPurchasedMarketDailySpecial";
@@ -52,6 +53,7 @@ internal class MarketDailySpecialManager
 		{
 			Log.Warn($"Could not get data from asset \"{MarketSpecialAssetPath}\". Creating generic fallback item \"(O)0\".");
 			MarketDailySpecialItem = ItemRegistry.Create("(O)0");
+			MarketDailySpecialPrice = ResolveOfferPrice();
 
 			// this returns before the sprite is rebuilt, so drop yesterday's rather than leave it
 			// on the counter advertising an item that is no longer the special
@@ -100,6 +102,8 @@ internal class MarketDailySpecialManager
 			Log.Warn("Unable to select valid item for market daily special. Creating generic fallback item \"(O)0\".");
 			MarketDailySpecialItem = ItemRegistry.Create("(O)0");
 		}
+
+		MarketDailySpecialPrice = ResolveOfferPrice();
 
 		
 		// add to market
@@ -220,6 +224,13 @@ internal class MarketDailySpecialManager
 	}
 
 	internal static int GetOfferPrice()
+	{
+		return MarketDailySpecialPrice;
+	}
+
+	// resolved once per day so a bad price is reported at day start instead of on
+	//  every offer dialogue, confirmation dialogue and purchase step
+	private static int ResolveOfferPrice()
 	{
 		if (MarketDailySpecialItem.modData.TryGetValue(MarketSpecialPriceKey, out string priceString))
 		{
