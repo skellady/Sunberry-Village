@@ -101,6 +101,15 @@ internal class MarketDailySpecialManager
 
 		if (itemResolved)
 		{
+			// a stack larger than the item can hold would be charged for in full and then trimmed
+			//  on its way into the inventory, so bring it down before the price and the offer text
+			int maxStack = MarketDailySpecialItem.maximumStackSize();
+			if (maxStack > 0 && MarketDailySpecialItem.Stack > maxStack)
+			{
+				Log.Warn($"Market special \"{MarketDailySpecialItem.QualifiedItemId}\" asked for a stack of {MarketDailySpecialItem.Stack}, more than the {maxStack} it can hold. Offering {maxStack} instead.");
+				MarketDailySpecialItem.Stack = maxStack;
+			}
+
 			Log.Trace($"Selected item \"{GetOfferItemName()}\" [{MarketDailySpecialItem.QualifiedItemId} '{MarketDailySpecialItem.DisplayName}' x {MarketDailySpecialItem.Stack}] for market daily special.");
 			MarketDailySpecialPrice = ResolveOfferPrice();
 		}
