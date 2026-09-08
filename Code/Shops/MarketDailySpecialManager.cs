@@ -26,6 +26,10 @@ internal class MarketDailySpecialManager
 	internal const string MarketSpecialAssetPath = "SunberryTeam.SBVSMAPI/MarketDailySpecialData";
 	internal const string MarketSpecialPriceKey = "SunberryTeam.SBVSMAPI_MarketSpecialPrice";
 
+	// the fallback item is ours, not a pack's, so it is priced here rather than deriving 0
+	//  and warning an author about a price they never set
+	private const int FallbackPrice = 1;
+
 	internal static void AddEventHooks()
 	{
 		Globals.EventHelper.Content.AssetRequested += DailySpecial_AssetRequested;
@@ -53,7 +57,7 @@ internal class MarketDailySpecialManager
 		{
 			Log.Warn($"Could not get data from asset \"{MarketSpecialAssetPath}\". Creating generic fallback item \"(O)0\".");
 			MarketDailySpecialItem = ItemRegistry.Create("(O)0");
-			MarketDailySpecialPrice = ResolveOfferPrice();
+			MarketDailySpecialPrice = FallbackPrice;
 
 			// this returns before the sprite is rebuilt, so drop yesterday's rather than leave it
 			// on the counter advertising an item that is no longer the special
@@ -96,14 +100,14 @@ internal class MarketDailySpecialManager
 		if (itemResolved)
 		{
 			Log.Trace($"Selected item \"{GetOfferItemName()}\" [{MarketDailySpecialItem.QualifiedItemId} '{MarketDailySpecialItem.DisplayName}' x {MarketDailySpecialItem.Stack}] for market daily special.");
+			MarketDailySpecialPrice = ResolveOfferPrice();
 		}
 		else
 		{
 			Log.Warn("Unable to select valid item for market daily special. Creating generic fallback item \"(O)0\".");
 			MarketDailySpecialItem = ItemRegistry.Create("(O)0");
+			MarketDailySpecialPrice = FallbackPrice;
 		}
-
-		MarketDailySpecialPrice = ResolveOfferPrice();
 
 		
 		// add to market
