@@ -147,6 +147,18 @@ internal class MarketDailySpecialManager
 			bool found = false;
 			Vector2 tilePosition = Vector2.Zero;
 			Layer layer = market.Map.GetLayer("Buildings");
+
+			// a map with no Buildings layer would throw on the loop below rather than simply
+			// fail to find the action tile
+			if (layer is null)
+			{
+				Log.Error(
+					"Unable to find a \"Buildings\" layer in \"Custom_SBV_AriMarket\", failed to place daily market special sprite.");
+
+				DailySpecialSprite = null;
+				return;
+			}
+
 			for (int x = 0; x < layer.LayerWidth; x++)
 			{
 				if (found)
