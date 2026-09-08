@@ -347,8 +347,7 @@
                         {
                             "Id": "{{ModId}}_FSunfish",
                             "ItemId": "(O)145",
-                            "Condition": "LOCATION_SEASON Here spring summer",
-                            "Precedence": -1
+                            "Condition": "LOCATION_SEASON Here spring summer"
                         },
                         {
                             "Id": "{{ModId}}_FGreenAlgae",
@@ -1321,8 +1320,7 @@
                         {
                             "Id": "{{ModId}}_S1Sunfish",
                             "ItemId": "(O)145",
-                            "Condition": "LOCATION_SEASON Here spring summer",
-                            "Precedence": -1
+                            "Condition": "LOCATION_SEASON Here spring summer"
                         },
                         {
                             "Id": "{{ModId}}_S1GreenAlgae",
@@ -1518,8 +1516,7 @@
                         {
                             "Id": "{{ModId}}_S2Sunfish",
                             "ItemId": "(O)145",
-                            "Condition": "LOCATION_SEASON Here spring summer",
-                            "Precedence": -1
+                            "Condition": "LOCATION_SEASON Here spring summer"
                         },
                         {
                             "Id": "{{ModId}}_S2GreenAlgae",
