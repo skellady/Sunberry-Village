@@ -24,7 +24,9 @@ internal class MarketDailySpecialManager
 
 	internal const string AlreadyPurchasedMailFlag = "SunberryTeam.SBVSMAPI_AlreadyPurchasedMarketDailySpecial";
 	internal const string MarketSpecialAssetPath = "SunberryTeam.SBVSMAPI/MarketDailySpecialData";
+	// an explicit price is the total for the whole stack, the same as a derived price
 	internal const string MarketSpecialPriceKey = "SunberryTeam.SBVSMAPI_MarketSpecialPrice";
+	internal const string MarketSpecialDisplayNameKey = "SunberryTeam.SBVSMAPI_MarketSpecialDisplayName";
 
 	// the fallback item is ours, not a pack's, so it is priced here rather than deriving 0
 	//  and warning an author about a price they never set
@@ -205,7 +207,7 @@ internal class MarketDailySpecialManager
 	internal static string GetOfferItemName()
 	{
 		// override with custom name logic somehow?
-		if (MarketDailySpecialItem.modData.TryGetValue("SunberryTeam.SBVSMAPI_MarketSpecialDisplayName", out string overrideName) && !string.IsNullOrEmpty(overrideName))
+		if (MarketDailySpecialItem.modData.TryGetValue(MarketSpecialDisplayNameKey, out string overrideName) && !string.IsNullOrEmpty(overrideName))
 			return TokenParser.ParseText(overrideName, null, null, Game1.player);
 
 		return TokenParser.ParseText($"[ArticleFor {MarketDailySpecialItem.DisplayName}] {MarketDailySpecialItem.DisplayName}{(MarketDailySpecialItem.Stack == 1 ? "" : $" {Utils.GetTranslationWithPlaceholder("MarketDailySpecialQuantityIndicator")} {MarketDailySpecialItem.Stack}")}");
