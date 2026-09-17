@@ -56,7 +56,8 @@ internal static class ListExtensions
 		if (quantity > list.Count)
 		{
 			elementList.AddRange(list);
-			elementList.Shuffle();
+			// use the caller's random so the same seed always gives the same order.
+			elementList.Shuffle(random);
 
 			if (removeElements)
 				list.Clear();
