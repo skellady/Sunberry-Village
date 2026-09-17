@@ -439,7 +439,7 @@ internal class EventScriptPhoneConfession : ICustomEventScript
 
 		private static int SecondsToTicks(float seconds)
 		{
-			return (int) seconds * 60;
+			return (int)(seconds * 60);
 		}
 	}
 }
