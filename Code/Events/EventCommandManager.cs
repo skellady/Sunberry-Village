@@ -90,9 +90,9 @@ internal class EventCommandManager
 			if (!ArgUtility.TryGetInt(args, 2, out var lightIndex, out var error, "lightIndex" ) ||
 			    !ArgUtility.TryGetVector2(args, 3, out var tile, out error, false, "tileLocation") ||
 			    !ArgUtility.TryGetFloat(args, 5, out var radius, out error, "radius") ||
-			    !ArgUtility.TryGetInt(args, 5, out var rgbRed, out error, "rgbRed") ||
-			    !ArgUtility.TryGetInt(args, 5, out var rgbGreen, out error, "rgbGreen") ||
-			    !ArgUtility.TryGetInt(args, 5, out var rgbBlue, out error, "rgbBlue"))
+			    !ArgUtility.TryGetInt(args, 6, out var rgbRed, out error, "rgbRed") ||
+			    !ArgUtility.TryGetInt(args, 7, out var rgbGreen, out error, "rgbGreen") ||
+			    !ArgUtility.TryGetInt(args, 8, out var rgbBlue, out error, "rgbBlue"))
 			{
 				eventContext.LogErrorAndSkip(error);
 				return;
