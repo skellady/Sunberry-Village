@@ -104,6 +104,11 @@ internal class BookViewerMenu : LetterViewerMenu
 					            format.letterTexture = Game1.temporaryContent.Load<Texture2D>(split[1]);
 					            format.whichBG = int.Parse(split[2]);
 					            break;
+				            // like letters, books drop a letterbg tag with the wrong number of arguments. warn so the
+				            // author knows why it did nothing.
+				            default:
+					            Log.Warn($"Ignoring malformed tag \"[{string.Join(" ", split)}]\" in book \"{mailTitle}\". Expected \"[letterbg <whichBG>]\" or \"[letterbg <texture> <whichBG>]\".");
+					            break;
 			            }
 
 			            validTag = true;
