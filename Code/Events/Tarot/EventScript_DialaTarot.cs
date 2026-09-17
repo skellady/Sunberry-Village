@@ -73,7 +73,7 @@ internal class EventScriptDialaTarot : ICustomEventScript
 		// black background
 		b.Draw(
 			texture: Game1.staminaRect,
-			destinationRectangle: new Rectangle(0, 0, 1920, 1080),
+			destinationRectangle: Game1.graphics.GraphicsDevice.Viewport.Bounds,
 			sourceRectangle: Game1.staminaRect.Bounds,
 			color: Color.Black,
 			rotation: 0f,
@@ -383,7 +383,7 @@ internal class EventScriptDialaTarot : ICustomEventScript
 					{
 						_card2SquishFactor = 4;
 						_phase = 11;
-						_phaseTimer = 0;
+						_phaseTimer = 500;
 						_textOpacity = 0f;
 					}
 					else
