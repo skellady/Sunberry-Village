@@ -115,6 +115,11 @@ namespace SunberryVillage.Audio
 		internal static void StopMusic()
 		{
 			CurrentSong.Stop(AudioStopOptions.Immediate);
+
+			// CurrentSong only picks a new song when it's null, so clearing it makes Elias pick a new one
+			// each time he plays.
+			CurrentSong = null;
+
 			IsMusicPlaying = false;
 			FadingInMusic = false;
 		}
