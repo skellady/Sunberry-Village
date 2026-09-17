@@ -195,7 +195,7 @@ internal class MarketDailySpecialManager
 		}
 	}
 
-	[HarmonyPatch(nameof(GameLocation), nameof(GameLocation.setUpLocationSpecificFlair))]
+	[HarmonyPatch(typeof(GameLocation), nameof(GameLocation.setUpLocationSpecificFlair))]
 	[HarmonyPrefix]
 	public static void setUpLocationSpecificFlair_Prefix(GameLocation __instance)
     {
