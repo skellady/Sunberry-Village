@@ -25,6 +25,10 @@ internal class StringPoolManager
 	private static void InitAsset(object? sender, SaveLoadedEventArgs e)
 	{
 		StringData = Globals.GameContent.Load<Dictionary<string, StringPool>>(StringPoolsAssetName);
+
+		// AlreadySeen lasts until the game closes, so clear it to start a newly loaded farmer at the
+		// beginning of each pool.
+		AlreadySeen.Clear();
 	}
 
 	private static void StringPools_AssetsInvalidated(object sender, AssetsInvalidatedEventArgs e)
