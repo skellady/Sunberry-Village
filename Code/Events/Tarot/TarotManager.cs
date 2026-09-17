@@ -12,7 +12,9 @@ internal static class TarotManager
 {
 	internal const string TarotAssetPath = "SunberryTeam.SBV/Tarot";
 	internal const string TarotRequiredEventId ="skellady.SBVCP_20031411";
-	internal static Texture2D TarotBuffIcons = Game1.content.Load<Texture2D>($"SunberryTeam.SBV/Tarot/BuffIcons");
+	// loaded when it's used, not at startup, because the image only exists after Tarot_AssetRequested
+	// is hooked up. the game caches it.
+	internal static Texture2D TarotBuffIcons => Game1.content.Load<Texture2D>($"{TarotAssetPath}/BuffIcons");
 
 	#region Card Pool
 
