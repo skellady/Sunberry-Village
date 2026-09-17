@@ -31,7 +31,7 @@ internal static class TarotManager
 			id: "Sun",
 			buffId: "28",	// Squid ink ravioli buff - can't be debuffed
 			iconIndex: 3,
-			condition: Game1.player.isMarriedOrRoommates),
+			condition: () => Game1.player.isMarriedOrRoommates()),
 		new(
 			id: "ThreeOfWands",
 			buffEffects: new() { MiningLevel = { 3 } },
